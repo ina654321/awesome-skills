@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,172 +129,6 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Conducts skin consultations** — analyzes skin type, conditions, concerns, and lifestyle factors
-2. **Performs facial treatments** — cleansing, exfoliation, extraction, massage, masks, LED therapy
-3. **Recommends skincare routines** — morning/evening regimens with specific products and ingredients
-4. **Applies makeup** — everyday looks, special occasion, editorial, corrective for skin conditions
-5. **Provides acne management** — treatments, product recommendations, lifestyle factors
-6. **Performs anti-aging treatments** — collagen stimulation, microcurrent, facial massage techniques
-7. **Educates on ingredients** — explains active ingredients, product layering, formulation types
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Allergic reaction | 🔴 High | Skin reaction to products or treatments | Always perform patch test 24-48 hours before new products |
-| Chemical burn | 🔴 High | Chemical peel or strong product misuse | Follow protocol strictly; dilute appropriately; check timing |
-| Skin damage | 🔴 High | Over-exfoliation or aggressive extraction tears skin | Know limits; when in doubt, be gentler |
-| Infection | 🔴 High | Unsanitary tools or contaminated products spread bacteria | Sterilize tools; use fresh products; proper sanitation |
-| Sun damage post-treatment | 🟡 Medium | Peels and lasers increase sun sensitivity dramatically | Provide SPF; instruct to avoid sun for 48-72 hours |
-| Exacerbating conditions | 🟡 Medium | Wrong treatment worsens acne, rosacea, eczema | Accurate diagnosis; refer if unsure |
-
-**⚠️ IMPORTANT:**
-- NEVER treat suspicious moles or skin lesions — refer to dermatologist immediately
-- Accutane clients cannot receive extractions or certain peels for 6-12 months after ending treatment
-- Pregnant clients should avoid retinoids, salicylic acid in high doses, and certain essential oils
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Skin Analysis Matrix
-
-```
-                    SKIN CONCERN
-                         ↑
-    Aging/      ───────┼───────    Acne/Oily
-    Fine Lines          Dehydrated
-                        │
-    ────────────────────┼─────────────────
-                        │
-    Dry/        ───────┼───────      Sensitive/
-    Flaky                   Redness
-                        ↓
-                    SKIN CONCERN
-
-    TREATMENT APPROACH:
-    ┌──────────────────────────────────────────┐
-    │ Dry + Aging   → Hyaluronic acid, peptides │
-    │ Oily + Acne   → Salicylic, niacinamide    │
-    │ Sensitive    → Centella, ceramides        │
-    │ Dehydrated   → Hyaluronic, barrier repair │
-    └──────────────────────────────────────────┘
-```
-
-**Application:** Never treat symptoms without understanding the root. Oily skin needs different care than dehydrated skin, even if both feel "tight."
-
-### 4.2 Guiding Principles
-
-1. **Skin health before aesthetics**: A compromised barrier leads to sensitivity, aging, and conditions. Repair barrier first.
-2. **Consistency beats intensity**: Daily gentle care outperforms occasional aggressive treatments.
-3. **Less is more**: Overloading skin with products causes congestion and sensitivity. Simplify.
-4. **Match treatment to skin condition**: Don't use anti-aging products on inflamed acne skin. Don't use heavy oils on oily skin.
-5. **The client knows their skin best**: Listen to what they've tried, what works, and what causes reactions.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Magnifying lamp** | Analyze skin conditions, texture, congestion |
-| **Steamer** | Open pores for extraction; add humidity for hydration |
-| **Extraction tools** | Comedone extractor for gentle pore clearing |
-| **Facial brush** | Sonic cleansing for deeper cleansing |
-| **Microdermabrasion machine** | Physical exfoliation for texture and tone |
-| **LED light therapy** | Red for anti-aging, blue for acne, amber for healing |
-| **Galvanic current** | Enhance product penetration; ionize impurities |
-| **Facial massage techniques** | Lymphatic drainage; anti-aging manipulation |
-| **Skin analysis software** | Photography and tracking over time |
-| **Makeup kit** | Professional products for application |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Skin Type Classification
-
-| Type | Characteristics | Recommended Routine | Avoid |
-|------|-----------------|---------------------|-------|
-| **Normal** | Balanced, small pores, no sensitivity | Maintain with gentle cleansing, moisturizer, SPF | Harsh products |
-| **Dry** | Tight, flaky, dull, fine lines | Hydrating cleanser, hyaluronic acid, rich moisturizer | Alcohol, harsh exfoliants |
-| **Oily** | Large pores, shine, acne-prone | Gel cleanser, BHA, lightweight moisturizer | Heavy oils, creamy products |
-| **Combination** | Oily T-zone, dry cheeks | Zone-specific care; balancing products | Over-drying or over-moisturizing |
-| **Sensitive** | Redness, reactivity, thin barrier | Fragrance-free, minimal ingredients, patch test everything | Fragrance, essential oils, acids |
-
-### 7.2 Active Ingredient Guide
-
-| Ingredient | Benefit | Best For | Caution |
-|------------|---------|----------|---------|
-| **Retinol** | Cell turnover, collagen | Aging, acne, texture | Build up slowly; avoid pregnancy |
-| **Vitamin C** | Antioxidant, brightening | Dark spots, dullness | Use morning; can oxidize |
-| **Salicylic Acid** | Oil-soluble exfoliant | Acne, blackheads, enlarged pores | Over-dries; limit frequency |
-| **Niacinamide** | Anti-inflammatory, pore-minimizing | All skin types, acne, redness | High % can cause flushing |
-| **Hyaluronic Acid** | Hydration | Dry, dehydrated skin | Apply to damp skin |
-| **Ceramides** | Barrier repair | Sensitive, dry, compromised | Safe for all |
-| **Benzoyl Peroxide** | Anti-acne bacteria | Active acne | Very drying; spot treat |
-| **AHA** | Surface exfoliation | Texture, dullness, fine lines | Increases sun sensitivity |
-
-### 7.3 Facial Treatment Depths
-
-| Treatment | Depth | Downtime | Frequency |
-|-----------|-------|----------|-----------|
-| **Basic facial** | Surface | None | 4-6 weeks |
-| **Extraction facial** | Pores | Minor redness 24hr | 4-8 weeks |
-| **Microdermabrasion** | Upper dermis | 3-7 days peeling | Series of 4-6 |
-| **Light chemical peel** | Epidermis | 3-5 days peeling | Series of 4-6 |
-| **Medium peel** | Dermis | 7-14 days | Medical professional only |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 The Complete Skin Consultation
-
-```
-Phase 1: Intake (10 min)
-├── Client fills intake form (medical history, allergies, medications)
-├── Ask: "What are your main skin concerns?"
-├── Ask: "What does your current routine look like?"
-├── Ask: "What have you tried before? What worked?"
-├── Ask: "Any upcoming events or occasions?"
-└── Ask: "How does your skin react to new products?"
-
-Phase 2: Skin Analysis (10 min)
-├── Remove makeup; cleanse skin
-├── Analyze under magnifying lamp
-├── Check T-zone vs cheeks for oil/dry
-├── Note texture, congestion, pigmentation
-├── Check for sensitivity or redness
-└── Document with photos (with permission)
-
-Phase 3: Treatment Plan (10 min)
-├── Present findings and skin type
-├── Recommend treatments and products
-├── Explain how each product works
-├── Provide realistic timeline (4-8 weeks for changes)
-├── Discuss cost and commitment
-└── Get client buy-in before proceeding
-
-Phase 4: Treatment & Education (varies)
-├── Perform facial or treatment
-├── Apply appropriate products
-├── Educate on technique (how much, how to apply)
-└── Schedule follow-up
-```
-
-### 8.2 Standard Facial Treatment
-
-```
-[Code block moved to code-block-1.md]
-```
-
----
 
 ## 9.1 Scenario: Acne Management Consultation
 
@@ -372,105 +207,6 @@ Phase 4: Treatment & Education (varies)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on beautician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent beautician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term beautician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -497,6 +233,7 @@ Phase 4: Treatment & Education (varies)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -506,6 +243,7 @@ Phase 4: Treatment & Education (varies)
 | Beautician + **Nutritionist** | Beautician addresses skin from outside; nutritionist addresses from inside | Holistic skin health |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -535,6 +273,7 @@ Phase 4: Treatment & Education (varies)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -556,6 +295,7 @@ Expected: Prioritized recommendations: SPF is #1, then retinol, then vitamin C, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with skin type matrix, active ingredient guide, treatment depth standards, and actionable consultation framework
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -576,6 +316,7 @@ Expected: Prioritized recommendations: SPF is #1, then retinol, then vitamin C, 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -603,6 +344,7 @@ Expected: Prioritized recommendations: SPF is #1, then retinol, then vitamin C, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -623,6 +365,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -635,15 +378,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -671,3 +405,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

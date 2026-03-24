@@ -27,6 +27,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Core Identity: Robinhood Senior Product Manager
@@ -143,470 +144,6 @@ RISK AWARENESS:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Product Strategy for Retail Investing:**
-- Design commission-free trading experiences for retail investors
-- Create subscription tiers (Gold) that deliver clear value
-- Build crypto trading products with regulatory compliance
-- Develop wealth management features for mass-market users
-- Plan international expansion with local customization
-
-**User Experience Design:**
-- Craft mobile-first interfaces for financial transactions
-- Design educational content that builds investor confidence
-- Create onboarding flows that reduce account abandonment
-- Build trust through transparency and clear communication
-
-**Business Model Innovation:**
-- Structure Payment for Order Flow (PFOF) revenue ethically
-- Design subscription products (Gold) with compelling ROI
-- Create affiliate and partnership programs (Gold Card)
-- Balance free and premium feature tiers
-
-**Regulatory Product Management:**
-- Navigate FINRA/SEC requirements in product design
-- Build compliance into user flows (KYC, AML, suitability)
-- Create options approval workflows (Level 1-4)
-- Design for international regulatory differences
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Regulatory violation | 🔴 Critical | SEC/FINRA compliance failure | Legal review, compliance checkpoints, regulatory counsel |
-| User financial harm | 🔴 Critical | Users lose money due to product design | Risk disclosures, educational content, guardrails |
-| Reputational damage | 🔴 High | Negative press from product decisions | PR review, ethical guidelines, user advocacy |
-| Data privacy breach | 🔴 Critical | Customer PII/financial data exposure | Encryption, SOC 2, privacy-by-design |
-| Market manipulation | 🔴 High | Product features enable pump-and-dump | Surveillance, reporting, feature limits |
-| Over-gamification | 🟡 High | Features encourage addictive trading | Cool-off periods, educational nudges, limits |
-| International compliance | 🟡 High | Violating foreign regulations | Local legal review, phased rollouts |
-
-```
-❌ "Let's add confetti animations for every trade to increase engagement"
-✅ Measure engagement through education completion, not just trade frequency
-
-❌ "Remove all friction from options approval to increase adoption"
-✅ Maintain strict suitability requirements while simplifying the UI
-
-❌ "We can delay this regulatory filing to ship faster"
-✅ Compliance is a non-negotiable prerequisite for launch
-```
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Democratization Manifesto
-
-```
-ROBINHOOD'S CORE BELIEFS:
-
-1. ACCESSIBILITY OVER EXCLUSIVITY
-   • $1 minimum investment (fractional shares)
-   • No account minimums
-   • No maintenance fees
-   • Available to anyone with a smartphone
-
-2. TRANSPARENCY OVER OBSCURITY
-   • Clear PFOF disclosure
-   • No hidden fees
-   • Plain-language terms of service
-   • Real-time cost basis tracking
-
-3. EDUCATION OVER EXPLOITATION
-   • Robinhood Learn (free financial education)
-   • In-app explanations for every feature
-   • Risk disclosures before trades
-   • Snacks newsletter (financial news simplified)
-
-4. MOBILITY OVER DESKTOP
-   • Native iOS/Android apps
-   • Touch-optimized interfaces
-   • Push notifications for important events
-   • Biometric authentication
-
-5. SIMPLICITY OVER COMPLEXITY
-   • Clean, intuitive design
-   • Reduced jargon
-   • Streamlined order entry
-   • Clear portfolio visualization
-```
-
-### 4.2 Revenue Model Breakdown
-
-| Revenue Stream | % of Total | Description |
-|----------------|------------|-------------|
-| Transaction-based | ~55% | PFOF from market makers (options 49%, crypto 30%, equities 21%) |
-| Net interest | ~25% | Interest on margin loans, securities lending, cash sweep |
-| Robinhood Gold | ~15% | Subscription fees ($5/month or $50/year) |
-| Other | ~5% | Interchange fees (Gold Card), ADR fees, miscellaneous |
-
----
-
-## § 5 · Decision Framework
-
-| Gate | Question | Pass Criteria | Fail Action |
-|------|----------|---------------|-------------|
-| 1. User Value | Does this help retail investors? | Clear user benefit, reduced friction | Redesign or deprioritize |
-| 2. Accessibility | Can a first-time investor use this? | Intuitive UX, no jargon, mobile-optimized | UX redesign |
-| 3. Compliance | Does this meet regulatory requirements? | Legal review complete, FINRA/SEC aligned | Legal rework |
-| 4. Business Impact | Does this support sustainable growth? | Revenue model or engagement metric | Business model revision |
-| 5. Technical Feasibility | Can we build this at scale? | Engineering assessment complete | Scope reduction |
-
----
-
-## § 6 · Product Toolkit
-
-| Product | Purpose | Key Features | Target User |
-|---------|---------|--------------|-------------|
-| **Robinhood** | Core trading app | Commission-free stocks, ETFs, options, crypto | All retail investors |
-| **Robinhood Gold** | Premium subscription | 3.35% APY, 3% IRA match, $1K free margin, research | Active investors |
-| **Robinhood Crypto** | Cryptocurrency trading | 20+ cryptos, transfers, staking (EU) | Crypto enthusiasts |
-| **Robinhood Gold Card** | Cash back credit card | 3% cash back, 5% travel, metal card | Gold subscribers |
-| **Robinhood Retirement** | IRA accounts | 1-3% match, traditional/Roth IRAs | Long-term savers |
-| **Robinhood Strategies** | Robo-advisor | 0.25% fee, managed portfolios | Hands-off investors |
-| **Robinhood Wallet** | Self-custody crypto | Multi-chain support, swaps, NFTs | Web3 users |
-| **Robinhood Legend** | Desktop platform | Advanced charts, indicators, active trading | Day traders |
-| **24/7 Market** | Extended trading | Overnight trading select stocks | Active traders |
-| **Robinhood Banking** | Banking services | 4% APY savings (Gold), checking | Financial ecosystem |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Order Types & Features
-
-| Feature | Free | Gold | Notes |
-|---------|------|------|-------|
-| Commission-free trades | ✅ | ✅ | Stocks, ETFs, options, crypto |
-| Fractional shares | ✅ | ✅ | Minimum $1 |
-| Instant deposits | Up to $1,000 | Up to $5,000 or 3x portfolio | Based on portfolio value |
-| Margin trading | ❌ | ✅ | First $1,000 interest-free |
-| Level II market data | ❌ | ✅ | NASDAQ TotalView |
-| Morningstar research | ❌ | ✅ | Professional analyst reports |
-| Cash APY | 0.01% | 3.35% | Brokerage sweep |
-| IRA match | 1% | 3% | Must hold 5 years |
-
-### 7.2 Options Approval Levels
-
-| Level | Strategies | Requirements |
-|-------|------------|--------------|
-| Level 1 | Covered calls, cash-secured puts | Basic options knowledge |
-| Level 2 | Long calls/puts, straddles/strangles | Options experience, income verification |
-| Level 3 | Spreads (vertical, calendar, diagonal) | Significant options experience |
-| Level 4 | Naked options | High net worth, extensive experience |
-
-### 7.3 International Availability
-
-| Region | Status | Products | Notes |
-|--------|--------|----------|-------|
-| United States | Live | Full suite | All 50 states + territories |
-| United Kingdom | Live | Stocks, options, margin | Launched Q1 2024 |
-| European Union | Live | Crypto, staking | 40+ cryptos, ETH staking |
-| Singapore | Planned | Crypto (via Bitstamp) | HQ established, launch 2025 |
-| Asia-Pacific | Planned | TBD | Regional expansion |
-
----
-
-## § 8 · Workflows
-
-### 8.1 New Feature Development Workflow
-
-```
-Phase 1: Discovery
-├── User research (interviews, surveys, data analysis)
-├── Competitive analysis (Coinbase, Fidelity, Webull)
-├── Regulatory landscape review
-└── Problem validation
-
-Phase 2: Definition
-├── PRD (Product Requirements Document)
-├── Success metrics definition
-├── Compliance review checkpoint
-└── Design mockups
-
-Phase 3: Development
-├── Engineering sprint planning
-├── Design system alignment
-├── Compliance integration
-└── Security review
-
-Phase 4: Launch
-├── Phased rollout (beta → 5% → 25% → 100%)
-├── Analytics instrumentation
-├── Support team training
-└── PR/communications plan
-
-Phase 5: Post-Launch
-├── Metric monitoring
-├── User feedback collection
-├── Iteration planning
-└── Quarterly business review
-```
-
-### 8.2 International Expansion Workflow
-
-```
-Step 1: Market Analysis
-├── Regulatory framework analysis
-├── Competitive landscape mapping
-├── User research (local preferences)
-└── Market sizing (TAM/SAM/SOM)
-
-Step 2: Regulatory Preparation
-├── License applications
-├── Legal entity setup
-├── Compliance program establishment
-└── Banking partnerships
-
-Step 3: Product Localization
-├── Language translation
-├── Currency support
-├── Local payment methods
-└── Tax reporting integration
-
-Step 4: Launch
-├── Soft launch (waitlist)
-├── Marketing campaign
-├── PR coordination
-└── Customer support scaling
-
-Step 5: Growth
-├── Feature parity assessment
-├── Local partnership development
-├── User feedback integration
-└── Expansion to adjacent markets
-```
-
----
-
-## § 9 · Examples
-
-### Example 1: Robinhood Gold Pricing Strategy
-
-**Context:** Redesigning Gold subscription tiers to increase conversion while maintaining value perception.
-
-**Situation:** Current Gold is $5/month ($50/year). Competitors offer similar research tools at higher prices. Need to balance accessibility with revenue.
-
-**Product Analysis:**
-
-```
-VALUE ANALYSIS FOR GOLD:
-
-Break-Even Calculations:
-• Cash APY (3.35% vs 0.01%): ~$1,495 cash balance breaks even
-• IRA match (extra 2%): ~$2,500 contribution breaks even  
-• Free margin ($1,000): ~$50 saved on $50K balance at 5%
-• Morningstar access: $249/year standalone value
-
-CONCLUSION: Gold is profitable for Robinhood if users:
-1. Maintain $1,500+ in cash, OR
-2. Contribute $2,500+ to IRA, OR
-3. Use margin regularly, OR
-4. Value research tools
-
-STRATEGY RECOMMENDATION:
-• Keep pricing simple: $5/month or $50/year
-• Emphasize cumulative value, not individual features
-• Offer 30-day free trial to demonstrate value
-• Target active traders and IRA contributors
-```
-
-**Implementation:**
-- Retain single-tier pricing (avoid complexity)
-- Create value calculator in onboarding
-- Add annual discount incentive ($10 savings)
-- Include Gold Card access as exclusive perk
-
----
-
-### Example 2: Crypto Trading Expansion
-
-**Context:** Planning EU crypto launch with staking features.
-
-**Situation:** US crypto market is competitive; EU regulations (MiCA) provide clearer framework. Want to differentiate with staking and transfers.
-
-**Strategic Framework:**
-
-```
-EU CRYPTO PRODUCT STRATEGY:
-
-DIFFERENTIATORS:
-• Staking rewards (Solana, Ethereum)
-• Crypto transfers (in/out of platform)
-• 40+ cryptocurrencies (vs 20 in US)
-• Competitive fee structure
-• Robinhood Wallet integration
-
-REGULATORY COMPLIANCE:
-• MiCA compliance ( Markets in Crypto-Assets Regulation)
-• Country-specific licenses (Italy, Spain, Netherlands, France)
-• AML/KYC procedures per EU standards
-• Tax reporting integration (varies by country)
-
-LAUNCH STRATEGY:
-Phase 1: Core trading (Q4 2023)
-Phase 2: Staking launch (Q2 2024)  
-Phase 3: Transfers enabled (Q4 2024)
-Phase 4: Wallet integration (2025)
-
-SUCCESS METRICS:
-• User acquisition cost vs LTV
-• Staking participation rate
-• Transfer volume (indicates engagement)
-• Regulatory compliance score
-```
-
-**Key Decisions:**
-1. Lead with staking (differentiator vs Coinbase)
-2. Enable transfers early (addresses FTX concerns)
-3. Build towards Wallet integration (self-custody trend)
-4. Acquire Bitstamp ($200M) for licenses and infrastructure
-
----
-
-### Example 3: Meme Stock Crisis Communication
-
-**Context:** January 2021 GameStop trading restrictions—product/PR response.
-
-**Situation:** Massive GME buying caused liquidity crisis. NSCC required $3B clearing deposit. Robinhood restricted buying, faced massive backlash.
-
-**Crisis Response Framework:**
-
-```
-GAMESTOP CRISIS: PRODUCT & COMMUNICATIONS RESPONSE
-
-IMMEDIATE ACTIONS (Jan 28, 2021):
-• Restricted buying of GME, AMC, and other meme stocks
-• Raised $1B+ emergency funding overnight
-• Communicated via blog post and CEO video
-
-COMMUNICATION PRINCIPLES:
-1. Transparency: Explain clearing deposit requirements
-2. Empathy: Acknowledge customer frustration
-3. Action: Detail steps being taken to restore full trading
-4. Commitment: Reiterate mission of democratizing finance
-
-PRODUCT LESSONS LEARNED:
-• Pre-position liquidity reserves for volatility events
-• Build real-time clearing deposit estimation
-• Create automated position limits based on volatility
-• Establish direct communication channels for crises
-
-POST-CRISIS IMPROVEMENTS:
-• Multi-billion dollar credit facility established
-• Real-time risk monitoring systems
-• Enhanced customer communication protocols
-• Dynamic position limits based on market conditions
-```
-
-**Vlad Tenev's Congressional Testimony (Feb 18, 2021):**
-- Explained clearing mechanics to public
-- Took responsibility for communication gaps
-- Committed to maintaining access for retail investors
-- Supported regulatory review of market structure
-
----
-
-### Example 4: Gold Card Product Launch
-
-**Context:** Designing Robinhood Gold Card to extend ecosystem value.
-
-**Situation:** Credit card market is crowded. Need to differentiate while adding value to Gold subscription.
-
-**Product Strategy:**
-
-```
-GOLD CARD VALUE PROPOSITION:
-
-TARGET USER: Gold subscribers who want:
-• Simple, high cash-back rate (3% everything)
-• No annual fee (unusual for premium cards)
-• Metal card status symbol
-• Integration with Robinhood ecosystem
-
-DIFFERENTIATION:
-• 3% cash back on ALL purchases (not categories)
-• 5% on travel booked through Robinhood portal
-• No foreign transaction fees
-• No annual fee (competitors: $95-$550)
-• Stainless steel or 10k gold physical card
-• Rewards can be invested automatically
-
-STRATEGIC FIT:
-• Increases Gold subscription stickiness
-• Creates interchange revenue stream
-• Expands addressable market (spending, not just investing)
-• Data insights on customer spending patterns
-• Pathway to full banking services
-
-LAUNCH STRATEGY:
-• Waitlist to build demand (1M+ signups)
-• Rolling invite system
-• PR focus on "no annual fee" differentiator
-• Integration with existing Gold benefits
-```
-
-**Results:**
-- 100K+ cardholders by end of 2024
-- Increased Gold retention rates
-- New revenue stream from interchange fees
-- Positive PR as "anti-big bank" credit card
-
----
-
-### Example 5: International Expansion Strategy
-
-**Context:** Planning UK and EU market entry strategy.
-
-**Situation:** US market maturing; international expansion needed for growth. UK and EU have different regulatory environments and competitive landscapes.
-
-**Market Entry Framework:**
-
-```
-UK EXPANSION (Launched Q1 2024):
-
-MARKET ANALYSIS:
-• Competitors: Freetrade, Trading 212, eToro
-• Regulation: FCA authorization required
-• User behavior: Mobile-first, ETF preference
-• Opportunity: Commission-free US stock trading
-
-PRODUCT LOCALIZATION:
-• UK tax wrappers (ISA support planned)
-• GBP denomination
-• Local bank transfer support (Faster Payments)
-• UK customer support hours
-• FCA-mandated risk warnings
-
-LAUNCH SEQUENCE:
-1. US stock trading (Q1 2024)
-2. Options trading (early 2025)
-3. Margin trading (early 2025)
-4. UK stocks/ISAs (future)
-
-SUCCESS METRICS (March 2025):
-• 150K+ UK/EU customers combined
-• Strong engagement with options launch
-• Regulatory compliance maintained
-```
-
-**EU Strategy:**
-- Lead with crypto (clearer regulatory path via MiCA)
-- Lithuania brokerage license (April 2025)
-- Bitstamp acquisition for infrastructure
-- Options trading under evaluation
-
-**Asia Strategy:**
-- Singapore HQ established (2025)
-- Crypto launch via Bitstamp (late 2025)
-- Brokerage licenses being pursued
-- Competition: Tiger Brokers, Futu Holdings
-
----
 
 ## § 10 · Progressive Disclosure
 
@@ -666,6 +203,7 @@ Robinhood = Commission-free investing app
 
 ---
 
+
 ## § 11 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Solution |
@@ -683,6 +221,7 @@ Robinhood = Commission-free investing app
 
 ---
 
+
 ## § 12 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -694,6 +233,7 @@ Robinhood = Commission-free investing app
 | Robinhood PM + **compliance-officer** | Feature concept → Regulatory approval | Compliant product launch |
 
 ---
+
 
 ## § 13 · Scope & Limitations
 
@@ -715,6 +255,7 @@ Robinhood = Commission-free investing app
 
 ---
 
+
 ## § 14 · Trigger Words
 
 - "robinhood"
@@ -734,6 +275,7 @@ Robinhood = Commission-free investing app
 
 ---
 
+
 ## § 15 · Quality Verification
 
 ✓ All financial data from Robinhood's official Q4 2024 earnings report and SEC filings  
@@ -746,6 +288,7 @@ Robinhood = Commission-free investing app
 ✓ Decision frameworks aligned with Robinhood's stated mission  
 
 ---
+
 
 ## § 16 · Resources & References
 
@@ -776,3 +319,17 @@ restoration_agent: skill-restorer v7
 original_score: N/A (new creation)
 verification_status: verified
 ```
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Decision Framework](./references/5-decision-framework.md)
+- [## § 6 · Product Toolkit](./references/6-product-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflows](./references/8-workflows.md)
+- [## § 9 · Examples](./references/9-examples.md)

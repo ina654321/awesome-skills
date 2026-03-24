@@ -80,6 +80,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -140,170 +141,6 @@ Before responding to any education evaluation request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Education Evaluator** capable of:
-
-1. **Accreditation Preparation** — Guide institutions through accreditation self-study processes, document compliance evidence, and prepare for external review visits
-
-2. **Quality Framework Application** — Apply Baldrige, IQM, or custom rubrics to assess institutional effectiveness across teaching, leadership, and support systems
-
-3. **Data Analysis & Reporting** — Analyze assessment data (test scores, surveys, observations) and produce actionable reports with evidence-based recommendations
-
-4. **Program Evaluation** — Design evaluation frameworks for educational programs, measure outcomes against objectives, and recommend improvements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Evaluator Bias** | 🔴 High | Personal preferences can skew ratings; inter-rater reliability is essential | Use multiple trained evaluators; apply standardized rubrics |
-| **Insufficient Evidence** | 🔴 High | Making judgments without adequate data compromises validity | Require minimum evidence thresholds; extend timeline if needed |
-| **Stakeholder Misrepresentation** | 🔴 High | Participants may provide socially desirable responses | Triangulate with observational data and documents |
-| **Scope Creep** | 🟡 Medium | Evaluation expands beyond original parameters, diluting focus | Define boundaries clearly in scope document |
-| **Confidentiality Breaches** | 🟡 Medium | Sensitive student/teacher data must be protected | Follow FERPA/GDPR requirements; anonymize reports |
-
-**⚠️ IMPORTANT**:
-- This skill provides evaluation methodology guidance. Actual accreditation decisions require authorized evaluators from recognized bodies.
-- Findings and recommendations carry legal and reputational implications; document evidence thoroughly.
-- Cross-border evaluations require understanding of local education systems and cultural contexts.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Evaluation Framework
-
-```
-           ┌─────────────────────────────┐
-           │     Continuous Improvement    │  ← Sustainable systems, data-driven decisions
-         ┌─┴─────────────────────────────┴─┐
-         │     Evidence-Based Findings       │  ← Triangulated data, documented sources
-       ┌─┴─────────────────────────────────┴─┐
-       │    Standards-Based Assessment         │  ← Rubrics, benchmarks, criteria
-     ┌─┴───────────────────────────────────────┴─┐
-     │           Multi-Stakeholder Input            │  ← Students, faculty, parents, community
-   ┌─┴─────────────────────────────────────────────┴─┐
-   │          Comprehensive Data Collection           │  ← Documents, observations, surveys, interviews
-   └─────────────────────────────────────────────────┘
-```
-
-Build bottom-up: data collection without stakeholder input lacks context; standards without evidence lack validity; improvement without findings lacks direction.
-
-### 4.2 Guiding Principles
-
-1. **Process as Important as Outcome**: How an institution improves matters as much as the improvement itself; sustainable change requires ownership.
-
-2. **Collaboration Over Inspection**: Evaluators are partners in improvement, not police; the goal is capacity-building, not compliance-checking.
-
-3. **Context Matters**: A "satisfactory" rating in a resource-constrained environment may exceed "excellent" in a well-funded setting; benchmarks must be contextualized.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **WASC Self-Study Guide** | Western Association of Schools and Colleges accreditation framework |
-| **Baldrige Education Criteria** | Malcolm Baldrige National Quality Award criteria for education |
-| **Ofsted Inspection Framework** | UK Office for Standards in Education framework |
-| **SurveyMonkey
-| **NVivo** | Qualitative data coding and analysis |
-| **Tableau
-| **CAEP Standards** | Council for the Accreditation of Educator Preparation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Accreditation Framework Comparison
-
-| Body | Region | Focus Areas | Cycle |
-|-----------------|----------------------|-------------------|----------|
-| **WASC** | US (California, Hawaii) | Learning outcomes, governance, resources | 6 years |
-| **NEASC** | US (New England) | Student achievement, faculty, facilities | 10 years |
-| **Ofsted** | UK | Quality of education, behavior, safety | 4 years (varies) |
-| **CIS** | International | Academic programs, student services | 5 years |
-| **ACER** | Global | Educational research, assessment | N/A |
-
-### 7.2 Quality Rating Scales
-
-| Level | Descriptor | Characteristics |
-|--------------|--------------|---------------|
-| **4 - Exemplary** | Exceeds standard | Sustained excellence, innovative practices, model for others |
-| **3 - Proficient** | Meets standard | Consistent implementation, evidence of effectiveness |
-| **2 - Developing** | Approaching standard | Some evidence, implementation incomplete |
-| **1 - Beginning** | Below standard | Limited evidence, significant gaps |
-
-### 7.3 Evidence Types
-
-| Type | Weight | Examples |
-|--------------|--------------|---------------|
-| **Direct** | High | Student work samples, test scores, observations |
-| **Indirect** | Medium | Surveys, interviews, self-reports |
-| **Contextual** | Context | Demographics, resources, community factors |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Accreditation Self-Study Process
-
-```
-Phase 1: Preparation (3-6 months before visit)
-├── Establish steering committee
-├── Conduct stakeholder surveys
-├── Compile evidence documents
-├── Write self-study report
-└── [✓ Done]: Self-study submitted to accreditor
-
-Phase 2: External Review (1-3 days)
-├── Document review
-├── Classroom observations
-├── Stakeholder interviews (students, faculty, parents)
-├── Evidence verification
-└── [✓ Done]: Exit interview with preliminary findings
-
-Phase 3: Follow-Up (Post-visit)
-├── Receive accreditation report
-├── Develop improvement plan
-├── Address recommendations
-└── [✓ Done]: Continuous improvement cycle
-```
-
-### 8.2 Program Evaluation Design
-
-```
-Step 1: Define Scope
-  → Identify program to evaluate
-  → Clarify evaluation questions
-  → Determine stakeholders
-
-Step 2: Choose Methodology
-  → Quantitative (pre/post tests)
-  → Qualitative (interviews, observations)
-  → Mixed methods
-
-Step 3: Collect Data
-  → Design instruments
-  → Train data collectors
-  → Ensure anonymity/consent
-
-Step 4: Analyze
-  → Quantitative: statistical analysis
-  → Qualitative: thematic coding
-  → Triangulate findings
-
-Step 5: Report
-  → Executive summary
-  → Methodology
-  → Findings with evidence
-  → Recommendations
-```
-
----
 
 ## 9.1 K-12 School Accreditation Preparation
 
@@ -381,105 +218,6 @@ Step 5: Report
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on education evaluator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent education evaluator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term education evaluator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -501,6 +239,7 @@ Step 5: Report
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -510,6 +249,7 @@ Step 5: Report
 | Education Evaluator + **Data Analyst** | Evaluator designs framework → Analyst processes data | Rigorous evidence synthesis |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -535,9 +275,11 @@ Step 5: Report
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -558,6 +300,7 @@ Step 5: Report
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -585,6 +328,7 @@ Step 5: Report
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -605,6 +349,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -617,15 +362,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -653,3 +389,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

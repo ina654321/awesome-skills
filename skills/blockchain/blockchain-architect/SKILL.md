@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -128,492 +129,6 @@ Your expertise spans:
 
 ---
 
-## § 2 · What This Skill Does
-
-- **Designs end-to-end DApp architectures** — from token economics and governance mechanisms to on-chain logic and off-chain infrastructure
-- **Audits and reviews smart contracts** — identifies security vulnerabilities, gas optimizations, and architectural improvements
-- **Selects optimal blockchain platforms** — evaluates public/private/consortium options based on use case, regulatory, and technical requirements
-- **Architects DeFi protocols** — designs AMMs, lending markets, derivatives, yield aggregators with economic safety mechanisms
-- **Implements Layer 2 scaling strategies** — evaluates and implements rollups, state channels, and sidechain solutions
-- **Designs ZK-proof systems** — creates privacy-preserving protocols using SNARKs/STARKs for identity, voting, and compliance
-- **Develops tokenomics and governance** — models incentive structures, voting mechanisms, and treasury management
-- **Structures cross-chain integrations** — designs secure bridging, message passing, and liquidity sharing across chains
-- **Advises on security best practices** — recommends audit firms, formal verification approaches, and monitoring solutions
-- **Guides enterprise blockchain deployments** — architects Hyperledger, Besu, and Corda solutions for consortia
-
----
-
-## § 3 · Risk Documentation
-
-### Blockchain-Specific Risk Matrix
-
-| Risk Category | Severity | Likelihood | Impact | Mitigation Strategy |
-|--------------|----------|------------|--------|---------------------|
-| **Smart Contract Vulnerability** | 🔴 Critical | Medium | Total fund loss ($M to $B) | Professional audit + formal verification + bug bounty >$1M + invariant testing |
-| **Reentrancy Attack** | 🔴 Critical | Medium | Recursive fund drain | Checks-Effects-Interactions pattern + ReentrancyGuard + no external calls in state-changing loops |
-| **Oracle Manipulation** | 🔴 Critical | High | Flash loan attacks, price distortion | TWAP oracles (20-min window min), Chainlink Data Streams, circuit breakers (±10% deviation) |
-| **Bridge Exploit** | 🔴 Critical | High | Cross-chain fund drain ($100M+ losses) | Minimize bridge TVL (<$10M per pool), use ZK-bridges (Succinct, LayerZero with ZK), optimistic verification |
-| **Private Key Compromise** | 🔴 Critical | Low | Loss of protocol control | Multi-sig Gnosis Safe (3-of-5 min), timelocks (48hr min), hardware security modules, Shamir secret sharing |
-| **Governance Attack** | 🟡 High | Medium | Malicious proposal execution | Timelocks (7-day min), high quorum (≥4%), guardian multisig override, delegation limits |
-| **MEV Extraction** | 🟡 High | High | User value extracted via frontrunning | Flashbots Protect, batch auctions (COW Protocol), commit-reveal schemes, EIP-1559 priority fee analysis |
-| **Economic Attack** | 🟡 High | Medium | Death spiral, bank run, manipulation | Extensive tokenomics modeling, circuit breakers, reserve backing, stress testing with 50% drawdown |
-| **Access Control Bypass** | 🟡 High | Medium | Unauthorized privileged actions | Role-based access control (RBAC), two-step ownership transfer, OpenZeppelin AccessControl |
-| **Integer Overflow/Underflow** | 🟡 High | Low | Incorrect calculations, infinite mint | Solidity 0.8+ built-in checks or SafeMath library, use uint256 for balances |
-| **ZK Circuit Soundness Error** | 🔴 Critical | Low | Forged proofs, false verification | Formal verification of circuits (Circomlib), independent ZK audit, trusted setup ceremony |
-| **Regulatory Enforcement** | 🟡 Medium | Medium | Legal penalties, protocol shutdown | Legal review pre-launch, securities law compliance (Howey test), OFAC screening |
-| **Liquidity Risk** | 🟡 High | Medium | Illiquidity cascades, slippage | Deep liquidity requirements ($1M min for <$100K trades <1% slippage), LPs with lock-ups |
-| **Governance Token Manipulation** | 🟡 High | Medium | Flash loan governance attacks | Vote-escrow (veToken) with min lock period, snapshot voting, voting delay (1-block min) |
-
-### Critical Security Principles
-
-1. **Never trust user input** — Validate all parameters, check bounds, assume malicious intent, use input sanitization
-2. **Checks-Effects-Interactions** — Always validate inputs, update state, then make external calls (CEI pattern)
-3. **Fail closed** — When in doubt, revert transactions rather than proceed with uncertain state
-4. **Least privilege** — Grant minimal permissions necessary, use role-based access, time-bound permissions
-5. **Defense in depth** — Multiple security layers: guards, pausability, rate limiting, multi-sig
-6. **Auditable transparency** — All privileged actions emit events, timelocks provide review window
-
----
-
-## § 4 · Core Philosophy
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     BLOCKCHAIN ARCHITECTURE PHILOSOPHY                  │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│   SECURITY ◄────────────────────────────────────────────► SCALABILITY   │
-│        │                                                       │        │
-│        │         ┌─────────────────────────────────┐           │        │
-│        │         │     DECENTRALIZATION            │           │        │
-│        │         │        (The Foundation)         │           │        │
-│        │         └─────────────────────────────────┘           │        │
-│        │                       ▲                               │        │
-│        └───────────────────────┴───────────────────────────────┘        │
-│                                │                                        │
-│                         ECONOMIC SAFETY                                │
-│                    (Incentive-aligned mechanisms)                       │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-### Guiding Principles
-
-1. **Security is architecture, not a feature.** Every design decision is evaluated for its attack surface — security cannot be bolted on after deployment. Immutable code requires correctness from genesis.
-
-2. **Decentralization is a trust minimization tool.** Match the degree of decentralization to actual trust requirements. Not everything needs to be fully decentralized; identify the specific trust assumptions and eliminate them.
-
-3. **Economic security equals technical security.** Incentive alignment and tokenomics are as important as code correctness. A perfectly coded protocol can be economically attacked.
-
-4. **Immutability demands correctness.** Smart contracts are often unupgradeable; get it right before deployment or design in safe upgrade patterns from day one with timelocks.
-
-5. **Composable but isolated.** Design for interoperability while preventing cascade failures. Use circuit breakers and TVL caps to limit blast radius.
-
-6. **ZK proves correctness without revealing secrets.** Prefer cryptographic proof over trusted intermediaries whenever computational cost allows. Zero-knowledge is the ultimate privacy tool.
-
-7. **Gas optimization is accessibility.** High gas costs exclude users; optimize for inclusion. Storage is expensive, computation is cheap.
-
-8. **Audit everything, trust nothing.** Third-party security audits are table stakes for any system with real economic value. Formal verification for critical invariants.
-
----
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Purpose | When to Use |
-|----------|-------|---------|-------------|
-| **Smart Contract Development** | Hardhat, Foundry, Truffle, Remix IDE, Brownie | Contract development, testing, deployment | Foundry for gas-optimized testing; Hardhat for ecosystem plugins; Remix for quick prototyping |
-| **Languages** | Solidity, Rust (Anchor), Vyper, Move (Aptos/Sui), Cairo, Huff | Contract implementation | Solidity for EVM ecosystem; Rust for Solana; Move for parallel execution; Vyper for simplicity |
-| **Testing & Auditing** | Slither, MythX, Echidna, Certora Prover, Halmos, Medusa | Automated security analysis | Slither for quick scans; Echidna for fuzzing; Certora for formal verification of invariants |
-| **ZK Tooling** | Circom, SnarkJS, Noir, Halo2, Plonky2, Risc0, GKR | Zero-knowledge circuit development | Circom for production SNARKs; Noir for developer experience; Halo2 for recursive proofs |
-| **Indexing & Data** | The Graph, Dune Analytics, Moralis, Alchemy, Goldsky, Subsquid | On-chain data indexing and analytics | The Graph for decentralized indexing; Dune for analytics; Alchemy for infrastructure |
-| **Wallets & Multisig** | MetaMask, Gnosis Safe, Ledger, Fireblocks, Safe{Core}, Rabby | Key management and transaction signing | Gnosis Safe for treasury; Fireblocks for institutions; Ledger for cold storage |
-| **Layer 2 Solutions** | Arbitrum, Optimism, zkSync Era, Polygon zkEVM, StarkNet, Scroll, Base | Scaling solutions | Optimistic rollups for EVM compatibility; ZK rollups for fast finality; StarkNet for Cairo apps |
-| **Monitoring & Security** | Forta Network, OpenZeppelin Defender, Tenderly, Chaos Labs, Hypernative | Real-time monitoring and incident response | Forta for threat detection; Tenderly for simulation; Defender for automation |
-| **Account Abstraction** | Stackup Bundler, Pimlico, Alchemy Bundler, Paymaster, ERC-4337 EntryPoint | Smart contract wallet infrastructure | Use for gasless transactions, social recovery, session keys |
-| **Cross-Chain** | LayerZero, Wormhole, Axelar, CCIP, IBC, Hyperlane | Interoperability and bridging | LayerZero for omnichain apps; Axelar for general messaging; IBC for Cosmos ecosystem |
-
----
-
-## § 7 · Standards & Reference
-
-### Key ERC/EIP Standards
-
-| Standard | Purpose | Use When | Security Considerations |
-|----------|---------|----------|------------------------|
-| **ERC-20** | Fungible tokens | Standard tokens, governance tokens, stablecoins | Check for reentrancy in transfer hooks; verify decimals handling |
-| **ERC-721** | Non-fungible tokens (NFTs) | Unique digital collectibles, art, gaming items | Reentrancy on safeTransferFrom; check ownership before transfers |
-| **ERC-1155** | Multi-token standard | Gaming items with both fungible and unique assets | Batch transfer reentrancy; safeTransferFrom callbacks |
-| **ERC-4626** | Tokenized vaults | Yield-bearing vaults, lending protocols | Round-down on withdrawal; inflation attacks; first depositor bug |
-| **ERC-4337** | Account abstraction | Smart wallets, social recovery, gasless transactions | Signature replay attacks; bundler DoS; entry point security |
-| **ERC-2612** | Permit (gasless approvals) | Meta-transactions, improved UX | Signature replay across chains; deadline validation |
-| **EIP-712** | Typed data signing | Structured data signing for dApps | Domain separator correctness; verifyingContract validation |
-| **EIP-1559** | Fee market change | Dynamic gas pricing on Ethereum | Priority fee analysis for MEV; base fee estimation |
-| **ERC-1967** | Proxy storage slots | Upgradeable contracts | Storage collision prevention; implementation slot validation |
-| **ERC-1822** | Universal upgradeable proxy | UUPS pattern | Implementation contract must not self-destruct |
-| **ERC-2981** | NFT royalty standard | Creator royalty enforcement | Optional enforcement; marketplace compliance varies |
-
-### Smart Contract Design Patterns
-
-| Pattern | Description | Use Case | Implementation |
-|---------|-------------|----------|----------------|
-| **Checks-Effects-Interactions** | Validate → Update state → External calls | All state-changing functions | Prevents reentrancy |
-| **Pull over Push** | Users withdraw funds vs automatic transfers | Payments, refunds, rewards | Prevents reentrancy and gas limit issues |
-| **Guard Check (Modifier)** | Pre-condition validation | Access control, state validation | Reusable modifiers |
-| **Emergency Stop (Circuit Breaker)** | Pause functionality for crises | DeFi protocols, critical systems | Multi-sig or governance controlled |
-| **Rate Limiting** | Throttle operations per time window | Minting, withdrawals, governance | Time-delayed operations |
-| **Commit-Reveal** | Two-phase commit then reveal | Sealed-bid auctions, voting | Prevents frontrunning |
-| **Merkle Proofs** | Efficient whitelist verification | Airdrops, allowlists | O(log n) verification |
-| **Multicall** | Batch multiple operations | Gas optimization | Watch for reentrancy across calls |
-
-### Consensus Mechanism Comparison
-
-| Mechanism | Finality | Energy | Decentralization | Use Case | Examples |
-|-----------|----------|--------|------------------|----------|----------|
-| **PoW (Proof of Work)** | Probabilistic | High | Very High | Store of value, high security | Bitcoin, Ethereum (pre-merge) |
-| **PoS (Proof of Stake)** | Probabilistic | Low | High | General purpose smart contracts | Ethereum 2.0, Polygon |
-| **DPoS (Delegated PoS)** | Fast | Low | Medium | High throughput applications | EOS, Tron |
-| **BFT (Byzantine Fault Tolerant)** | Immediate | Low | Medium | Enterprise, permissioned | Hyperledger Fabric, Cosmos |
-| **Avalanche Consensus** | Sub-second | Low | High | DeFi, subnets | Avalanche |
-| **Tendermint/Cosmos SDK** | ~1-2 seconds | Low | High | App chains, IBC ecosystem | Cosmos Hub, Osmosis |
-| **HotStuff (Libra/BFT)** | ~3 seconds | Low | Medium | High-performance chains | Aptos, Sui, Diem |
-
-### Layer 2 Solutions Deep Dive
-
-| Solution Type | Security Model | Withdrawal Time | Gas Cost | Best For | Examples |
-|---------------|----------------|-----------------|----------|----------|----------|
-| **Optimistic Rollup** | Fraud proofs (7-day challenge) | 7 days | ~10x cheaper | General purpose EVM | Arbitrum, Optimism, Base |
-| **ZK Rollup** | Validity proofs | Minutes | ~100x cheaper | High throughput, fast finality | zkSync Era, Scroll, Polygon zkEVM |
-| **Validium** | ZK proofs + off-chain data | Minutes | ~1000x cheaper | Gaming, social (lower security) | Immutable X, Sorare |
-| **State Channels** | Multi-sig with disputes | Instant | Off-chain | Micropayments, gaming | Lightning Network, Raiden |
-| **Sidechain** | Separate consensus | Variable | Cheap | Lower security requirements | Polygon PoS (historically) |
-| **App-Specific Rollup** | Custom data availability | Configurable | Optimized | High-performance single-app | dYdX v3, Immutable |
-
-### Security Best Practices Matrix
-
-| Layer | Practice | Tools | Priority |
-|-------|----------|-------|----------|
-| **Code** | Use established libraries (OpenZeppelin) | OZ Contracts | Critical |
-| **Code** | Run static analysis on every commit | Slither, Mythril | Critical |
-| **Code** | Fuzzing for invariant testing | Echidna, Medusa | High |
-| **Code** | Formal verification for critical invariants | Certora, Halmos | Critical for DeFi |
-| **Operational** | Multi-sig for privileged operations | Gnosis Safe | Critical |
-| **Operational** | Timelocks for upgrades (48hr+ min) | OZ Defender | Critical |
-| **Operational** | Emergency pause capability | OZ Pausable | High |
-| **Monitoring** | Real-time threat detection | Forta, Hypernative | High |
-| **Monitoring** | On-chain anomaly detection | Tenderly, Chaos Labs | High |
-
----
-
-## Phase 1: Requirements & Risk Assessment
-
-**Tasks:**
-- Define use case, business model, and value proposition
-- Determine public vs permissioned vs consortium blockchain
-- Identify total value at risk (TVL projections) and regulatory constraints
-- Document functional requirements and non-functional requirements (TPS, latency, finality)
-- Assess cross-chain needs and integration points
-
-**Deliverables:**
-- [✓] Requirements specification document with user stories
-- [✓] Risk assessment matrix with TVL estimates and regulatory analysis
-- [✓] Platform selection decision document with trade-off analysis
-- [✗] FAIL: Missing TVL estimates or regulatory analysis
-- [✗] FAIL: No security threat model documented
-
-### Phase 2: Architecture Design
-
-**Tasks:**
-- Select blockchain platform (L1/L2/L3) based on requirements
-- Design smart contract architecture with upgrade strategy
-- Define tokenomics model (supply, distribution, inflation, burns)
-- Design governance structure (voting mechanism, quorum, timelock)
-- Plan cross-chain integration architecture if needed
-- Create data availability and privacy architecture
-
-**Deliverables:**
-- [✓] Architecture diagrams (C4 model: Context, Container, Component, Code)
-- [✓] Tokenomics specification with mathematical modeling
-- [✓] Governance framework documentation
-- [✓] Upgrade path documentation with timelock parameters
-- [✗] FAIL: No security considerations in architecture
-- [✗] FAIL: Missing formal verification plan for critical invariants
-
-### Phase 3: Smart Contract Development
-
-**Tasks:**
-- Implement contracts following security best practices (Checks-Effects-Interactions)
-- Write comprehensive unit tests (aim for >95% coverage, 100% for critical paths)
-- Implement integration tests for complex interactions and edge cases
-- Run automated security scans (Slither, MythX) and fix findings
-- Document code with NatSpec comments for all public functions
-- Gas optimization review and implementation
-
-**Deliverables:**
-- [✓] Production-ready Solidity/Rust code with NatSpec
-- [✓] Comprehensive test suite with >95% coverage
-- [✓] Automated security scan reports (clean or documented exceptions)
-- [✓] Gas optimization report with benchmarks
-- [✗] FAIL: Missing access controls or reentrancy guards
-- [✗] FAIL: Critical/high findings from automated scans not addressed
-
-### Phase 4: Security Hardening
-
-**Tasks:**
-- Perform internal code review with comprehensive security checklist
-- Write formal specifications for critical invariants
-- Engage reputable audit firm for external review
-- Address all audit findings with documented remediation
-- Set up bug bounty program (Immunefi, Sherlock)
-- Perform economic stress testing and game theory analysis
-
-**Deliverables:**
-- [✓] Internal security review document with checklist completion
-- [✓] Formal verification results for critical invariants (Certora/Halmos)
-- [✓] External audit report with all critical/high issues resolved
-- [✓] Bug bounty program live with appropriate rewards
-- [✓] Economic stress test report
-- [✗] FAIL: Unresolved critical/high severity findings
-- [✗] FAIL: No formal verification for critical financial invariants
-
-### Phase 5: Testnet Deployment & Validation
-
-**Tasks:**
-- Deploy to public testnet (Sepolia, Holesky, or L2 testnets)
-- Conduct user acceptance testing with beta users
-- Test upgrade mechanisms and emergency procedures
-- Verify monitoring, alerting, and incident response capabilities
-- Simulate attack scenarios (fuzzing, economic attacks)
-
-**Deliverables:**
-- [✓] Testnet deployment with verified contracts on Etherscan
-- [✓] UAT test results with user feedback
-- [✓] Monitoring dashboard configured (Forta, Tenderly)
-- [✓] Emergency procedure tested (pause, upgrade, recovery)
-- [✗] FAIL: No test coverage for emergency procedures
-- [✗] FAIL: Upgrade mechanism not tested with real conditions
-
-### Phase 6: Mainnet Deployment & Operations
-
-**Tasks:**
-- Execute deployment plan with multi-sig governance
-- Verify contracts on block explorers with full source code
-- Initialize protocol with minimal initial state (gradual rollout)
-- Activate monitoring, alerting, and incident response
-- Execute gradual TVL increase plan with safety limits
-
-**Deliverables:**
-- [✓] Successful mainnet deployment with multi-sig
-- [✓] Contracts verified and documented on all explorers
-- [✓] Incident response plan active with runbooks
-- [✓] Gradual TVL increase plan with circuit breakers
-- [✗] FAIL: Deployment without timelock or guardian multisig
-- [✗] FAIL: No monitoring or incident response capability
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on blockchain architect.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent blockchain architect issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term blockchain architect capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -680,6 +195,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern | Combined Capability |
@@ -692,6 +208,7 @@ Deliverable requires quality verification.
 | **Financial Analyst** | On-chain financial analysis, token valuation models, TVL analytics | Comprehensive DeFi protocol analysis and investment research |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -755,6 +272,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 14 · Quality Verification
 
 ### Self-Check Questions
@@ -788,6 +306,7 @@ Before delivering any architectural recommendation, verify:
 - [ ] Bug bounty program configured (Immunefi/Sherlock)
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -808,6 +327,7 @@ Before delivering any architectural recommendation, verify:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -835,6 +355,7 @@ Before delivering any architectural recommendation, verify:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -855,6 +376,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -867,15 +389,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -897,3 +410,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Documentation](./references/3-risk-documentation.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

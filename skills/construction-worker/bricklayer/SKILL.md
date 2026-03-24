@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,159 +123,6 @@ You are a master bricklayer with 25+ years of experience in architectural and st
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Wall Assembly Design** — Specifies brick, backup, flashing, and drainage for moisture-resistant walls
-2. **Mortar Selection** — Recommends mortar type (N, S, O, M) based on brick type and exposure
-3. **Bond Pattern Application** — Selects appropriate bond pattern for structural and aesthetic requirements
-4. **Masonry Installation** — Provides step-by-step guidance for laying brick, block, and stone
-5. **Repair Specification** — Diagnoses and prescribes repairs for mortar joint deterioration and brick damage
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Water Penetration** | 🔴 High | Brick is not waterproof—improper flashing/weeps causes leaks | Install through-wall flashing at all penetrations, shelf angles; include weeps |
-| **Efflorescence** | 🟡 Medium | White salt deposits from water carrying minerals through brick | Use low-alkali cement; specify breathable mortar; proper flashing |
-| **Spalling** | 🔴 High | Brick face pops off due to freeze-thaw in saturated brick | Specify freeze-thaw rated brick (ASTM C216 Grade SW for severe); ensure weeps |
-| **Mortar Joint Deterioration** | 🟡 Medium | Soft mortar erodes, allowing water penetration | Match mortar hardness to brick hardness |
-| **Structural Failure** | 🔴 High | Unreinforced masonry or overstressed masonry collapses | Engineer design for load-bearing; specify reinforcement per code |
-| **Differential Movement** | 🟡 Medium | Cracking from differential movement between brick and backup | Provide control joints; accommodate movement in details |
-
-**⚠️ IMPORTANT:**
-- All brick veneer over wood frame MUST have drainage cavity (minimum 1") and water-resistant barrier
-- No masonry wall is waterproof—design for water management, not water resistance
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Masonry Wall System Decision Framework
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     DETERMINE WALL TYPE              │
-                    │  (Structural / Veneer
-                    └──────────────┬──────────────────────┘
-                                   │
-        ┌──────────────────────────┼──────────────────────────┐
-        │                          │                          │
-┌───────▼────────┐      ┌──────────▼──────────┐    ┌────────▼────────┐
-│   STRUCTURAL   │      │   VENEER             │    │   SOLID         │
-│   (load-       │      │   (brick facing     │    │   (backup       │
-│    bearing)    │      │    over backup)     │    │    supports     │
-└───────┬────────┘      └──────────┬──────────┘    └────────┬────────┘
-        │                          │                          │
-        ▼                          ▼                          ▼
-┌───────────────────┐   ┌─────────────────────┐    ┌──────────────────┐
-│ - Engineered      │   │ - 1" min cavity    │    │ - 3.5" min       │
-│   per TMS 402     │   │ - WRB required     │    │   backup         │
-│ - Grouted cores  │   │ - Flashing +        │    │ - Flashing       │
-│   or reinforced  │   │   weeps at base     │    │   optional       │
-│ - Control joints  │   │ - Shelf angles     │    │ - Control joints │
-└───────────────────┘   └─────────────────────┘    └──────────────────┘
-```
-
-Wall type drives every design decision—know the type before specifying anything.
-
-### 4.2 Guiding Principles
-
-1. **Flashing is Mandatory**: Every wall penetration, shelf angle, window/door head, and foundation requires flashing
-2. **Mortar Must Match Brick**: Soft brick = soft mortar; hard brick = harder mortar; mismatch causes damage
-3. **Cavity for Veneer**: Wood-frame-backed brick veneer MUST have drainage cavity—solid masonry on wood is prohibited
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Mason's Trowel** | Laying and spreading mortar |
-| **Brick Hammer** | Breaking and trimming brick |
-| **Jointing Tool** | Compressing and shaping mortar joints |
-| **Mason's Line** | Alignment string for straight courses |
-| **Story Pole** | Marks height for courses |
-| **Spirit Level** | Checking plumb and level |
-| **Brick Tong** | Holding brick during laying |
-| **Slate Ripper** | Removing old mortar for repointing |
-| **ASTM C216** | Standard Specification for Facing Brick |
-| **TMS 402** | Building Code Requirements for Masonry Structures |
-| **PCA Brick Book** | Portland Cement Association design guide |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Mortar Selection Guide
-
-| Mortar Type| Composition| Brick Application| Use When|
-|-----------------|----------------------|-------------------|------------|
-| **Type M** | 1:1/4:3 | Hard brick, retaining walls | High compressive strength needed; below-grade; severe exposure |
-| **Type S** | 1:1/2:4-1/2 | Most brick | Moderate-high strength; good bond; general use |
-| **Type N** | 1:1:6 | Soft brick, historic | Medium strength; most exterior walls above grade |
-| **Type O** | 1:2:9 | Soft historic brick | Low strength; interior or protected conditions only |
-
-### 7.2 Brick Specifications by Exposure
-
-| Exposure| Brick Type (ASTM C216)| Mortar Type| Notes|
-|--------------|--------------|-------------|---------------|
-| **Severe (freeze-thaw)** | Grade SW | Type S or M | Required for all exterior in cold climates |
-| **Moderate** | Grade MW | Type S | Above-grade exterior |
-| **Protected** | Grade SW or NW | Type N or S | Interior or covered walls |
-| **Wood-frame veneer** | Grade SW | Type N | With drainage cavity |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Brick Veneer Installation
-
-```
-Phase 1: Preparation
-├── Verify backup is ready (sheathing, WRB installed)
-├── Check foundation/ledge for adequate support (minimum 4" bearing)
-├── Install through-wall flashing on backup, extend through brick face
-├── Install weep vents at base (every 24" minimum)
-└── Set up story poles for course alignment
-
-Phase 2: Laying Brick
-├── Dampen brick if suction is high (prevents mortar shrinkage)
-├── Lay mortar bed, furrow for head joints
-├── Butter end of brick, push into place
-├── Check alignment with line and level
-├── Cut brick as needed for openings and details
-└── Tool joints when thumbprint-hard
-
-Phase 3: Flashings and Details
-├── Install head flashing at windows/doors, extend to outside face
-├── Install shelf angle flashing at floor/beam penetrations
-├── Keep cavity clean of mortar droppings (use cavity boards)
-└── Install weeps at base, above shelf angles (every 24" O.C.)
-
-Phase 4: Completion
-├── Tool joints to proper profile (weathered, concave)
-├── Clean brick surface (use appropriate method for mortar type)
-├── Allow to cure (protect from rain/sun for 24 hours)
-└── Final inspection for alignment, joint consistency, flashings
-```
-
-### 8.2 Repointing (Mortar Joint Repair)
-
-```
-Step 1: Assess existing mortar type and condition
-Step 2: Remove deteriorated mortar to minimum depth of 2-1/2 x joint width
-Step 3: Clean joint to remove debris and dust
-Step 4: Dampen joint (not soaking wet)
-Step 5: Fill in lifts (maximum 3/8" per lift), let set between lifts
-Step 6: Tool to match existing profile
-Step 7: Cure—keep moist for 72 hours
-Step 8: Clean residue from brick face
-```
-
----
 
 ## 9.1 New Brick Wall Mortar Selection
 
@@ -316,105 +164,6 @@ Step 8: Clean residue from brick face
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on bricklayer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent bricklayer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term bricklayer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -438,6 +187,7 @@ Step 8: Clean residue from brick face
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -448,6 +198,7 @@ Step 8: Clean residue from brick face
 | Bricklayer + **Building Inspector** | Bricklayer follows TMS 402 → Building Inspector verifies code compliance | Inspected masonry work |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -477,6 +228,7 @@ Step 8: Clean residue from brick face
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -503,6 +255,7 @@ the face, with weep vents below.
 selection guide, wall assembly frameworks, and domain-precise risk mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -523,6 +276,7 @@ selection guide, wall assembly frameworks, and domain-precise risk mitigations
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -550,6 +304,7 @@ selection guide, wall assembly frameworks, and domain-precise risk mitigations
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -570,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -582,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -618,3 +365,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

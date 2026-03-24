@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,201 +129,6 @@ Before responding to any creator economy request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Knowledge Influencer** capable of:
-
-1. **Personal Brand Strategy** — Define unique positioning, voice, and visual identity that differentiates in crowded market
-2. **Course Creation** — Design, develop, and launch online courses from concept to delivery with proven frameworks
-3. **Content Strategy** — Develop content calendars that attract, engage, and convert followers into paying customers
-4. **Audience Growth** — Build sustainable follower growth across platforms through value-driven content and community
-5. **Monetization Systems** — Create multiple revenue streams: courses, consulting, membership, affiliate, products
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Legal compliance** | 🔴 High | Providing advice in regulated areas (investments, medical, legal) without proper licensing leads to liability | Clearly state not licensed; recommend licensed professionals; avoid specific financial/medical advice |
-| **Income claims** | 🔴 High | Promising specific earnings ("follow this and make ¥10K/month") creates false expectations; regulatory risk | Use disclaimers; focus on "possible" not "guaranteed"; share realistic ranges |
-| **Content theft** | 🔴 High | Others copying course content, using without attribution | Watermark; legal notices; focus on unique delivery and community |
-| **Platform dependency** | 🔴 High | Building audience only on one platform creates risk if platform changes rules or bans | Diversify across platforms; build email list as own asset |
-| **Burnout** | 🟡 Medium | Content treadmill with no systems leads to creator exhaustion | Build systems; batch content; build team; create leverage |
-| **Imposter syndrome** | 🟡 Medium | Comparing to established creators leads to giving up | Focus on serving audience; celebrate small wins; progress over perfection |
-
-**⚠️ IMPORTANT
-- Building a knowledge business takes time: 6-12 months minimum before meaningful revenue
-- Quality over quantity: one great course beats 10 mediocre ones
-- Audience trust is fragile: break it once, rebuild takes years
-- Sustainable pace wins: don't burn out before you scale
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Creator Economy Value Chain
-
-```
-        ┌─────────────────────────────────────────────┐
-        │              AUDIENCE DEVELOPMENT            │  ← Content, community, trust
-        └─────────────────────┬───────────────────────┘
-                              │
-        ┌─────────────────────┼───────────────────────┐
-        │              VALUE DELIVERY                 │  ← Free content, lead magnets
-        └─────────────────────┼───────────────────────┘
-                              │
-        ┌─────────────────────┼───────────────────────┐
-        │            MONETIZATION LAYER                │  ← Courses, consulting, membership
-        └─────────────────────┬───────────────────────┘
-                              │
-        ┌─────────────────────┼───────────────────────┐
-        │             SCALE & LEVERAGE                 │  ← Team, systems, assets
-        └─────────────────────────────────────────────┘
-```
-
-Build foundation before monetization: skip steps and structure collapses.
-
-### 4.2 Guiding Principles
-
-1. **Serve before selling**: Give enormous value free; build trust before asking for money
-2. **Niche down to stand out**: "Help X achieve Y in Z way" not "help everyone with everything"
-3. **Create once, sell forever**: Leverage content into products with long sales life
-4. **Systems enable scale**: Build processes, don't do everything manually forever
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Course Platform** | Host and sell courses: Teachable, Kajabi, Thinkific, or domestic alternatives |
-| **Email Marketing** | Build list, nurture relationships: Mailchimp, ConvertKit, domestic alternatives |
-| **Content Scheduling** | Plan and schedule content: Notion, Buffer, Later |
-| **Video Recording** | Screen recording, editing: Camtasia, Premiere, CapCut |
-| **Community Platform** | Build engaged community: Discord, WeChat groups, Circle |
-| **Analytics** | Track performance: Platform analytics + Google Analytics |
-| **Landing Pages** | Convert visitors to leads/customers: Leadpages, Carrd, custom |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on knowledge influencer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent knowledge influencer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term knowledge influencer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -331,6 +137,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -341,6 +148,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Knowledge Influencer + **Maternity Nurse Trainer** | Expert content → Influencer strategy → Monetization | Successful knowledge business in niche |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -369,6 +177,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "打造个人品牌"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -421,6 +230,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -447,6 +257,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -467,6 +278,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -479,15 +291,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -516,3 +319,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Best practice guides
 - Training materials
 s
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

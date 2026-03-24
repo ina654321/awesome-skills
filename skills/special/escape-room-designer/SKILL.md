@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,149 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Puzzle Mechanics Design** — Creates layered puzzles that integrate with narrative and scale in difficulty
-2. **Thematic World-Building** — Develops cohesive themes with environmental storytelling
-3. **Flow & Pacing Optimization** — Designs player movement patterns and hint timing for optimal experience
-4. **Playtesting Frameworks** — Builds systems to test and iterate on room designs before launch
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Unsolvable Puzzles** | 🔴 High | Players stuck with no way forward | Multiple solution paths; comprehensive hint system; playtest extensively |
-| **Unfair Difficulty** | 🔴 High | Puzzle requires knowledge players can't have | All required info must be in room or introduced early |
-| **Physical Safety** | 🔴 High | Hazards from props, darkness, or enclosed spaces | Safety review; clear emergency exits; sensory warnings |
-| **Accessibility Gaps** | 🟡 Medium | Excluding players with disabilities | Provide alternatives for mobility, vision, hearing |
-| **Narrative Confusion** | 🟡 Medium | Players don't understand the story | Progressive disclosure; clear objectives; verbal briefing |
-
-**⚠️ IMPORTANT:**
-- Always include safety considerations for any physical elements
-- Design with accessibility in mind — players with different abilities should be able to play
-- Never include content that could cause genuine distress (unless clearly advertised)
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Puzzle-Progression Framework
-
-```
-                    ┌─────────────────────┐
-                    │   PLAYER FLOW      │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
-         ▼                     ▼                     ▼
-   ┌───────────┐        ┌───────────┐        ┌───────────┐
-   │  ENTRY    │        │  MIDDLE   │        │  CLIMAX   │
-   │ (Hook &   │        │ (Rising   │        │ (Final    │
-   │  Orient)  │        │  Challenge│        │  Puzzle &  │
-   │           │        │           │        │  Escape)   │
-   └─────┬─────┘        └─────┬─────┘        └─────┬─────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-   1-2 puzzles to    3-4 puzzles with  Final meta-puzzle
-   establish theme   increasing         requiring elements
-   and introduce    difficulty and     from entire room
-   mechanics         narrative reveals
-```
-
-**Core principle:** Puzzle density and complexity should increase through the room, with climax requiring synthesis of all learned mechanics.
-
-### 4.2 Guiding Principles
-
-1. **Every puzzle tells part of the story**: The solution should reveal narrative, not just progress
-2. **Flow > difficulty**: A satisfying easy puzzle beats a frustrating brilliant one
-3. **Test, don't assume**: Playtest with diverse groups; assumptions fail in practice
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Puzzle Matrix** | Map puzzle types to solution methods and narrative beats |
-| **Flow Diagram** | Player movement, puzzle placement, and hint locations |
-| **Playtest Tracking** | Record solve times, stuck points, and player feedback |
-| **Hint Tier System** | Progressive hints from subtle to explicit |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Puzzle Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Linear Progression** | Beginner-friendly rooms | 1. Puzzle A → 2. Key from A → 3. Puzzle B → 4. Exit |
-| **Branching Path** | Complex rooms with parallel puzzles | 1. Entry puzzle → 2. Multiple paths → 3. Converge at finale |
-| **Hub & Spoke** | Large teams, multi-room experiences | 1. Central hub → 2. Teams solve in parallel → 3. Combine findings |
-| **Meta-Puzzle** | Advanced rooms, high replay value | 1. Sub-puzzles reveal elements → 2. Elements combine for final |
-
-### 7.2 Design Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Solve Rate** | Teams solved
-| **Flow Time** | Average completion time | 85-95% of time limit |
-| **Hint Usage** | Hints used
-| **Peak Engagement** | Point of highest activity | At 40-60% through the room |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Full Room Design Process
-
-```
-Phase 1: Concept Development
-├── Define target audience and experience goal
-├── Select theme and setting
-├── Write narrative synopsis
-└── Determine difficulty target
-
-Phase 2: Puzzle Architecture
-├── Map solution path from finale backwards
-├── Identify required information at each step
-├── Design puzzle mechanisms to deliver information
-└── Create puzzle sequence (3-6 puzzles typical)
-
-Phase 3: Environment Integration
-├── Design physical space layout
-├── Create props and set dressing
-├── Integrate narrative elements (props, signage, audio)
-└── Plan lighting, sound, and atmosphere
-
-Phase 4: Hint System Design
-├── Identify likely stuck points
-├── Design tiered hints (hint 1: direction, hint 2: method, hint 3: solution)
-└── Create delivery mechanism (human, physical, audio)
-
-Phase 5: Playtesting & Iteration
-├── Test with 3+ groups
-├── Track metrics (time, hints, stuck points)
-├── Iterate based on feedback
-└── Final safety check
-```
-
-### 8.2 Single Puzzle Design
-
-```
-Step 1: Define purpose — What does this puzzle reveal/provide?
-Step 2: Identify input — What information/objects does player have?
-Step 3: Design mechanism — What action solves it?
-Step 4: Verify output — Does solution lead to next step?
-Step 5: Add hint — If stuck, what guidance helps?
-Step 6: Test — Can players figure it out without being told?
-```
-
----
 
 ## 9.1 Puzzle Sequence Design
 
@@ -303,105 +161,6 @@ Step 6: Test — Can players figure it out without being told?
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on escape room designer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent escape room designer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term escape room designer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -420,6 +179,7 @@ Step 6: Test — Can players figure it out without being told?
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -429,6 +189,7 @@ Step 6: Test — Can players figure it out without being told?
 | Escape Room Designer + **Event Planner** | Step 1: Design room → Step 2: Coordinate team building | Corporate escape event |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -454,6 +215,7 @@ Step 6: Test — Can players figure it out without being told?
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -475,6 +237,7 @@ Expected: Diagnostic approach: identify what information is missing, add progres
 **Self-Score:** 9.5/10 — Exemplary — Justification: Full design framework, puzzle-progression matrix, metrics-driven design, playtesting workflows, real examples
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -495,6 +258,7 @@ Expected: Diagnostic approach: identify what information is missing, add progres
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -522,6 +286,7 @@ Expected: Diagnostic approach: identify what information is missing, add progres
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -542,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -554,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -590,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

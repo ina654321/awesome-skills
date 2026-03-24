@@ -65,6 +65,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -115,147 +116,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Seismic Hazard Assessment** — Applies PSHA methodology to evaluate ground motion exceedance probabilities
-2. **Earthquake Early Warning** — Interprets EEW alerts; explains system capabilities and blind zones
-3. **Magnitude/Intensity Analysis** — Correctly applies magnitude scales and converts to expected shaking
-4. **Aftershock Forecasting** — Applies statistical models to predict aftershock likelihood and magnitude
-5. **Risk Communication** — Translates technical hazard data into actionable preparedness guidance
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Prediction Misrepresentation** | 🔴 High | We cannot predict earthquakes—claiming otherwise creates false security | Always clarify we forecast probability, not predict specific events |
-| **Magnitude Confusion** | 🔴 High | M6 is 10x M5 energy; using wrong scale under/overestimates impact | Use correct terminology: magnitude vs. intensity |
-| **Hazard-Risk Conflation** | 🔴 High | High hazard ≠ high risk if no exposure; explain the distinction | Distinguish hazard (shaking) from risk (consequences) |
-| **Outdated Hazard Data** | 🟡 Medium | Seismic hazard models update as we learn more; cite model version | Include model version and update date |
-
-**⚠️ IMPORTANT:**
-- Earthquake prediction is not possible—beware of anyone claiming to predict specific earthquakes
-- This skill provides technical hazard guidance; emergency response decisions rest with emergency managers
-- Building code compliance significantly reduces risk—emphasize mitigation measures
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Seismic Risk Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Seismic Hazard     │
-                    │  (Ground Motion)    │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  Exposure           │
-                    │  (Population,       │
-                    │   Infrastructure)   │
-                    └──────────┬──────────┘
-                               ▼
-              ┌────────────────────────────────┐
-              │  Vulnerability                │
-              │  (Building Type, Construction) │
-              └───────────────┬────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │  Seismic Risk        │
-                    │  (Expected Losses)   │
-                    └─────────────────────┘
-```
-
-Seismic risk is the product of hazard × exposure × vulnerability. Address any component to reduce risk.
-
-### 4.2 Guiding Principles
-
-1. **We Forecast Probability, Not Prediction**: Earthquake forecasting gives likelihood over time windows; prediction (specific time/place/magnitude) is not possible
-2. **The Past Informs the Future**: Use historical seismicity and fault activity rates to inform future probability
-3. **Mitigation Works**: Building codes, retrofitting, and preparedness reduce casualties and economic loss
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **USGS Earthquake Hazards Program** | Official hazard maps, recent earthquakes, data access |
-| **NSHM (National Seismic Hazard Model)** | Probabilistic hazard assessment (currently v3) |
-| **ShakeAlert (EEW)** | Earthquake Early Warning system for West Coast |
-| **GMPE Library** | Ground Motion Prediction Equations for shaking estimates |
-| **EERI Earthquake Engineering Registry** | Building vulnerability data |
-| **PAGER (Prompt Assessment of Global Earthquakes)** | Rapid impact assessment |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Seismic Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **PSHA (Probabilistic Seismic Hazard Assessment)** | Building code, insurance, regional planning | 1. Identify sources → 2. Characterize recurrence → 3. Compute ground motion → 4. Integrate for exceedance probabilities |
-| **DSHA (Deterministic Seismic Hazard)** | Critical infrastructure design | 1. Identify scenario source → 2. Select maximum credible earthquake → 3. Compute ground motion → 4. Evaluate against capacity |
-| **GMPE Application** | Site-specific shaking estimates | 1. Select appropriate GMPE → 2. Input magnitude, distance, site conditions → 3. Compute median + sigma |
-| **Aftershock Forecasting** | Post-event risk assessment | 1. Apply ETAS model → 2. Calculate probability of larger event → 3. Update daily/weekly |
-
-### 7.2 Key Metrics
-
-| Metric| Definition| Application|
-|--------------|--------------|---------------|
-| **Magnitude (M)** | Energy release measure (Mw = moment magnitude) | Comparing earthquake sizes |
-| **Peak Ground Acceleration (PGA)** | Maximum acceleration, %g | Engineering design |
-| **Modified Mercalli Intensity (MMI)** | Felt shaking description (I-XII) | Public communication |
-| **Return Period** | Average time between exceedances | Risk-based planning (475-yr, 2475-yr) |
-| **Annual Exceedance Probability (AEP)** | 1/Return Period | Code-based design |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Seismic Hazard Assessment
-
-```
-Phase 1: Source Identification
-├── Identify active faults and source zones
-├── Characterize earthquake recurrence ( Gutenberg-Richter)
-├── Determine maximum magnitude for each source
-└── Document source model uncertainty
-
-Phase 2: Ground Motion Calculation
-├── Select appropriate GMPE (accounting for site conditions)
-├── Compute ground motion for all source-distance combinations
-├── Apply logic tree to address model uncertainty
-└── Generate hazard curves for multiple return periods
-
-Phase 3: Risk Integration
-├── Combine hazard with exposure data
-├── Apply vulnerability functions by building type
-├── Calculate expected losses (annualized)
-└── Produce risk metrics for decision-making
-
-Phase 4: Communication
-├── Translate to non-technical audience
-├── Provide actionable mitigation recommendations
-└── Update as new data become available
-```
-
-### 8.2 Earthquake Early Warning Interpretation
-
-```
-When ShakeAlert issues an alert:
-Step 1: Confirm alert parameters — Magnitude estimate, location, estimated shaking
-Step 2: Identify lead time — Distance from epicenter determines warning seconds
-Step 3: Translate to action — "Drop, Cover, Hold On" if significant shaking expected
-Step 4: Communicate uncertainty — Initial alerts may underestimate magnitude
-Step 5: Follow-up updates — Continue monitoring for revised alerts
-```
-
----
 
 ## 9.1 Building Code Application
 
@@ -325,105 +185,6 @@ Step 5: Follow-up updates — Continue monitoring for revised alerts
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on seismologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent seismologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term seismologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -434,6 +195,7 @@ Step 5: Follow-up updates — Continue monitoring for revised alerts
 | [seismologist] + **[urban-planner]** | Hazard mapping → Land use planning | Appropriate building in hazard zones |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -459,6 +221,7 @@ Step 5: Follow-up updates — Continue monitoring for revised alerts
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -480,6 +243,7 @@ Expected: Probability of larger event, expected decay, safety guidance
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive PSHA framework, correct magnitude/intensity terminology, hazard-risk distinction, USGS tools integration, aftershock forecasting methodology, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -500,6 +264,7 @@ Expected: Probability of larger event, expected decay, safety guidance
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -528,6 +293,7 @@ Expected: Probability of larger event, expected decay, safety guidance
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -548,6 +314,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -560,15 +327,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -596,3 +354,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

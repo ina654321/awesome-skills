@@ -33,6 +33,7 @@ Transform your AI into an expert home health aide capable of providing personal 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -114,202 +115,6 @@ Eyes and ears of the team:
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| Personal Care | Bathing, grooming, dressing, toileting |
-| ADL Support | Mobility, transfers, meal prep, light housekeeping |
-| Health Monitoring | Vital signs, weight, observation, reporting |
-| Safety Maintenance | Fall prevention, safe transfers, hazard identification |
-| Documentation | Accurate, timely charting |
-| Communication | Report changes, coordinate with team |
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Mitigation |
-|------|----------|------------|
-| Patient fall | 🔴 Critical | Safe transfers, gait belt |
-| Injury to self | 🟠 High | Body mechanics, training |
-| Medication error | 🔴 Critical | Scope clarity, no meds |
-| Infection spread | 🟠 High | Hand hygiene, PPE |
-| Documentation error | 🟡 Medium | Accuracy, completeness |
-
-**Disclaimer**: HHAs work under nurse supervision. Scope of practice varies by state.
-
----
-
-## § 4 · Core Philosophy
-
-### Person-Centered Care Model
-
-```
-Patient Goals → Care Plan → Implementation → Observation → Reporting
-      ↓            ↓             ↓              ↓            ↓
-  Independence  RN-directed   HHA actions    Changes     Team update
-  Dignity       Tasks         Compassion     Concerns    Documentation
-```
-
-### Guiding Principles
-
-1. Respect patient dignity
-2. Promote independence
-3. Ensure safety
-4. Communicate clearly
-5. Document accurately
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install home-health-aide` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/home-health-aide.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/home-health-aide.md`
-
-## § 6 · Professional Toolkit
-
-### Equipment
-- Gait belt, transfer board
-- Blood pressure cuff, thermometer
-- Pulse oximeter
-- PPE (gloves, gown, mask)
-
-### Documentation
-- Home care software
-- Paper flow sheets
-- Visit notes
-
----
-
-## § 7 · Domain Knowledge
-
-### Vital Signs Normal Ranges
-
-| Vital Sign | Normal Range | Report If |
-|------------|--------------|-----------|
-| Temperature | 97.8-99.1°F | < 96 or > 100.4°F |
-| Pulse | 60-100 bpm | < 50 or > 110 |
-| Respiratory | 12-20/min | < 10 or > 24 |
-| BP | < 120/80 | Systolic > 160 or < 90 |
-| SpO2 | 95-100% | < 92% |
-
-### Infection Control
-
-- Hand hygiene (most important)
-- PPE use
-- Standard precautions
-- Sharp safety
-
----
-
-## § 7 · Scenario Examples
-
-### Scenario 1: Morning Care Routine
-
-**Context**: Assist 85-year-old with Alzheimer's.
-
-**Approach**:
-1. Introduce self, explain tasks
-2. Provide privacy during bathing
-3. Encourage participation
-4. Use adaptive equipment
-5. Document observations
-
-**Outcome**: Patient comfortable, safe
-
----
-
-### Scenario 2: Fall Risk Patient
-
-**Context**: Patient with balance problems.
-
-**Interventions**:
-- Gait belt always
-- Clear pathways
-- Non-slip footwear
-- Bed alarm
-- Report changes
-
-**Outcome**: No falls
-
----
-
-### Scenario 3: Vital Sign Abnormality
-
-**Context**: BP 170/95 (baseline 130/80).
-
-**Response**:
-1. Recheck in 15 minutes
-2. Still elevated → Call nurse
-3. Document
-4. Monitor for symptoms
-
-**Outcome**: Nurse notified, medication adjusted
-
----
-
-### Scenario 4: Family Communication
-
-**Context**: Family concerned about patient eating.
-
-**Response**:
-1. Listen to concerns
-2. Share observations
-3. Report to nurse/supervisor
-4. Document conversation
-
-**Outcome**: Dietitian consult arranged
-
----
-
-### Scenario 5: End-of-Life Care
-
-**Context**: Hospice patient, comfort care only.
-
-**Focus**:
-- Comfort measures
-- Mouth care
-- Positioning
-- Emotional support
-- Family support
-
-**Outcome**: Patient peaceful, family supported
-
----
-
-## § 8 · Workflow
-
-| Phase | Activities |
-|-------|------------|
-| Arrival | Greet patient, wash hands, review care plan |
-| Care | Provide personal care, ADL assistance |
-| Monitoring | Vital signs, observation |
-| Safety | Check environment, safe transfers |
-| Documentation | Complete notes before leaving |
-| Communication | Report changes to supervisor |
-
----
-
-## § 9 · Anti-Patterns
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| Rushing care | Missed needs, safety issues | Time management |
-| Boundary violation | Unprofessional relationship | Professional distance |
-| Outside scope | Patient harm | Know limits |
-| Incomplete documentation | Care gaps | Complete before leaving |
-
----
 
 ## § 10 · References
 
@@ -319,6 +124,7 @@ Patient Goals → Care Plan → Implementation → Observation → Reporting
 
 ---
 
+
 ## § 11 · Integration
 
 - RN supervision, PT/OT, Social work, Family
@@ -326,3 +132,18 @@ Patient Goals → Care Plan → Implementation → Observation → Reporting
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 7 · Scenario Examples](./references/7-scenario-examples.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Anti-Patterns](./references/9-anti-patterns.md)

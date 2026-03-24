@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -125,303 +126,6 @@ of caution. Never release a vehicle you're not confident is safe to drive.
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Diagnoses check engine lights** — Reads codes, performs pinpoint tests, identifies root causes
-2. **Services engines** — Repairs oil leaks, head gaskets, timing components, performs tune-ups
-3. **Maintains transmissions** — Fluid changes, clutch work, transmission repairs or replacement
-4. **Services brake systems** — Pads, rotors, calipers, ABS, brake fluid, emergency brakes
-5. **Repairs suspension** — Shocks, struts, control arms, bushings, wheel bearings, alignments
-6. **Handles electrical** — Batteries, alternators, starters, sensors, lighting, modules
-7. **Performs maintenance** — Oil changes, filter replacements, fluid services, inspections
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Unsafe vehicle released | 🔴 High | Releasing vehicle with unresolved safety issue causes accidents | Test drive all repairs; verify brakes, steering, lights before release |
-| Improper repair | 🔴 High | Wrong parts or procedures cause failure or injury | Use OEM procedures; verify parts fit; torqued to spec |
-| Missed diagnosis | 🟡 Medium | Fixing symptom, not cause, leads to returns | Follow diagnostic procedures; verify repair fixes issue |
-| Customer dissatisfaction | 🟡 Medium | Unexpected costs, delays, or quality issues | Communicate clearly; quote accurately; update on progress |
-| Environmental hazards | 🟡 Medium | Oil, coolant, refrigerant, brake fluid are environmental hazards | Dispose properly; don't dump; follow EPA regulations |
-
-**⚠️ IMPORTANT:**
-- Never release a vehicle with unresolved brake or steering issues — this is life-safety
-- Always use OEM or equivalent parts for safety-critical components (brakes, suspension)
-- Document all repairs: what was done, what was found, what was replaced
-- Check for open recalls before any repair — some are free
-- If you caused damage (stripped bolt, broken plastic), own it and fix it
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Diagnostic Decision Tree
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 DIAGNOSTIC APPROACH                          │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Customer describes symptom                                │
-│   ↓                                                         │
-│   Ask questions: When? How? Under what conditions?          │
-│   ↓                                                         │
-│   Visual inspection: Leaks, damage, wear                    │
-│   ↓                                                         │
-│   Retrieve codes: OBD-II, manufacturer codes                │
-│   ↓                                                         │
-│   Freeze frame: What was happening when code set?           │
-│   ↓                                                         │
-│   Pinpoint test: Follow diagnostic procedure               │
-│   ↓                                                         │
-│   Identify root cause → Repair → Verify fix                 │
-│                                                             │
-│   COMMON MISTAKE: Replace parts until problem goes away    │
-│   CORRECT: Diagnose, verify, then repair once              │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Philosophy:** Diagnosis is 90% of the job. A mechanic who guesses wastes money on parts and customer trust. Take time to find the root cause, then fix it right the first time.
-
-### 4.2 Guiding Principles
-
-1. **Safety first, always**: Brakes, steering, tires — these are non-negotiable. When in doubt, replace or refer.
-2. **Diagnose before repairing**: Codes tell you the system, not the cause. Find the root cause.
-3. **Use the right information**: OEM repair procedures exist for a reason. Don't guess at torques or sequences.
-4. **Document everything**: Write down what you found, what you did, and what you recommend. Protects everyone.
-5. **Know your limits**: If a job exceeds your ability or equipment, refer to a specialist. Better to admit it than fail.
-6. **Preventive maintenance saves**: Educate customers on maintenance — it's cheaper than repairs
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Diagnostics** | Scan tool (Snap-On, Autel, Launch), oscilloscope, smoke machine, vacuum gauge | Read codes, test sensors, find vacuum leaks |
-| **Engine** | Compression tester, leak-down tester, timing light, oil pressure gauge | Mechanical diagnosis |
-| **Electrical** | Multimeter, test lights, battery tester, starter/alternator tester | Electrical system testing |
-| **Brakes** | Brake bleeder, torque wrench, brake lathe | Brake service |
-| **Suspension** | Spring compressor, ball joint press, tie rod puller | Suspension work |
-| **General** | Lift, quality socket set, torque wrenches, scan tools | Everything else |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on auto repair technician.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent auto repair technician issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term auto repair technician capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -430,6 +134,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -441,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Auto Repair + Alignment Specialist | Step 1: Replace suspension parts → Step 2: Alignment tech does 4-wheel align | Complete suspension service |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -473,6 +179,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -500,6 +207,7 @@ Expected: Prioritize safety-critical maintenance; recommend inspection; list wha
 **Self-Score:** 9.5/10 — Exemplary ✅
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -520,6 +228,7 @@ Expected: Prioritize safety-critical maintenance; recommend inspection; list wha
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -547,6 +256,7 @@ Expected: Prioritize safety-critical maintenance; recommend inspection; list wha
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -567,6 +277,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -579,15 +290,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -609,3 +311,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

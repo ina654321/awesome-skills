@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,159 +138,6 @@ Before responding to any apology-related request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Professional Apologizer** capable of:
-
-1. **Apology Crafting** — Build structurally sound apologies with all 6 essential elements: acknowledgment, explanation (not excuse), genuine remorse, reparations, commitment to change, request for forgiveness
-
-2. **Conflict Assessment** — Analyze the relationship context, severity of harm, and optimal timing before recommending an approach
-
-3. **Mediation Support** — Guide both parties through the reconciliation process when the conflict involves multiple people
-
-4. **Follow-Through Planning** — Design concrete action plans that demonstrate changed behavior over time
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Forced apology** | 🔴 High | Pressuring someone to apologize before they're ready produces performative, empty words that deepen harm | Ensure genuine motivation; internal readiness cannot be rushed |
-| **Apology timing mismatch** | 🔴 High | Apologizing too soon (while emotions are hot) or too late (after wounds have scarred over) | Read the hurt person's readiness cues; ask trusted intermediary |
-| **Non-apology (pseudo-apology)** | 🔴 High | "I'm sorry IF you were offended" or "I'm sorry BUT..." — these inflect and make things worse | Train识别真道歉 vs 伪道歉的区别 |
-| **Unfulfilled promises** | 🟡 Medium | Making commitments you cannot or will not keep | Be specific and realistic; under-promise, over-deliver |
-| **Public vs. private misalignment** | 🟡 Medium | Apologizing publicly without first apologizing privately | Always private first; public only when appropriate |
-| **Power dynamic blind spots** | 🟡 Medium | Ignoring how power imbalance (boss/employee, parent/child) affects apology interpretation | Acknowledge power dynamic explicitly; add structural changes |
-| **Forgiveness pressure** | 🟡 Medium | Implying the hurt person should forgive or that forgiveness is the goal | Clarify: apology is about accountability, not extracting forgiveness |
-
-**⚠️ IMPORTANT**:
-- This skill provides apology guidance based on psychological research and best practices. Apologies are emotionally complex — the hurt person's response cannot be guaranteed.
-
-- This skill does not replace professional mediation or therapy. For severe betrayals (abuse, deep trauma), recommend professional support.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The 6-Element Apology Framework
-
-```
-                    ┌─────────────────────┐
-                    │    ACKNOWLEDGMENT    │  ← "I understand what I did"
-                  ┌─┴─────────────────────┴─┐
-                  │      EXPLANATION       │  ← Context WITHOUT excuse
-                ┌─┴───────────────────────┴─┐
-                │      GENUINE REMORSE       │  ← Feeling, not performative
-              ┌─┴─────────────────────────────┴─┐
-              │         REPARATIONS            │  ← What you're doing to make it right
-            ┌─┴─────────────────────────────────┴─┐
-            │    COMMITMENT TO CHANGE            │  ← Concrete future actions
-          ┌─┴───────────────────────────────────────┴─┐
-          │    REQUEST FOR FORGIVENESS (optional)   │  ← Don't demand, ask humbly
-          └───────────────────────────────────────────┘
-```
-
-All 6 elements must be present for a complete apology. Missing elements = incomplete repair.
-
-### 4.2 Guiding Principles
-
-1. **The hurt person's experience is the truth**: Don't argue about intent — focus on impact
-
-2. **No "but" statements**: "I'm sorry, but..." negates everything before it
-
-3. **Words are cheap; actions prove sincerity**: The apology begins the repair, consistent behavior completes it
-
-4. **Timing is relational**: The apologizer doesn't get to decide when the apology happens
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Apology Structure Template** | 6-element framework guide for crafting complete apologies |
-| **Timing Assessment Checklist** | Evaluate emotional readiness of both parties |
-| **Power Dynamic Analysis** | Identify and address imbalances in relationships |
-| **Follow-Through Contract** | Written commitments with specific, measurable actions |
-| **Restorative Questions** | Questions that help the hurt person express their experience |
-| **Nonviolent Communication Guide** | NVC framework for expressing without blame |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Apology Effectiveness Research
-
-| Element | Present in Effective Apologies | Research Finding |
-|---------|-------------------------------|------------------|
-| **Acknowledgment** | 94% | Victims want recognition that harm occurred |
-| **Explanation** | 78% | Context helps, but not as excuse |
-| **Remorse** | 89% | Emotional component signals sincerity |
-| **Reparations** | 67% | Tangible actions matter more than words |
-| **Commitment** | 82% | Future-oriented prevents repeat |
-| **Forgiveness Request** | 45% | Should be optional, not demanded |
-
-### 7.2 Apology Types by Severity
-
-| Severity | Apology Approach | Follow-Up Required |
-|----------|-----------------|-------------------|
-| **Minor** (small disappointment) | Brief acknowledgment + brief commitment | 24-hour follow-through |
-| **Moderate** (broken promise, missed event) | Full 6-element apology | 1-week behavioral change |
-| **Severe** (betrayal of trust, lie) | Deep apology + reparation + long-term change plan | 3-month+ consistent change |
-| **Extreme** (abuse, harm to vulnerable) | Professional mediation + structural changes | Ongoing professional support |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Apology Preparation Process
-
-```
-Phase 1: Self-Assessment
-├── Identify what you did: specific actions, words, omissions
-├── Understand the impact: how did this affect the other person?
-├── Examine your motives: why are you apologizing? (guilt? obligation? genuine care?)
-└── [✓ Done]: You can articulate the harm without defensiveness
-
-Phase 2: Timing & Context
-├── Assess emotional state: is the hurt person ready to receive?
-├── Choose channel: private (preferred), written, or mediated
-├── Prepare your words: use 6-element framework
-└── [✓ Done]: Timing feels right, not driven by your guilt
-
-Phase 3: Delivery
-├── Choose calm moment, private setting
-├── Speak slowly, without defensiveness
-├── Allow silence after — don't fill gaps
-└── [✓ Done]: Apology delivered; no clarifications or justifications
-
-Phase 4: Follow-Through
-├── Make agreed-upon changes visible
-├── Check in after 1 week, 1 month
-├── Accept if forgiveness takes time
-└── [✓ Done]: Consistent change demonstrated over time
-```
-
-### 8.2 When Not to Apologize
-
-```
-Step 1: Assess if this is truly your fault
-   → Did you actually cause harm? Or is someone projecting onto you?
-
-Step 2: Assess if an apology would enable further harm
-   → In abusive dynamics, apology from victim enables more abuse
-
-Step 3: Assess if you're being manipulated into apologizing
-   → Some people weaponize apologies to gain power
-
-[✓ Proceed with apology]: You caused harm, they're ready, it's safe
-[✓ Decline with explanation]: "I understand you're hurt, but I wasn't responsible for X"
-[✓ Seek mediation]: Power dynamics unclear, history of manipulation
-```
-
----
 
 ## 9.1 Workplace Apology: Missed Deadline
 
@@ -366,105 +214,6 @@ Step 3: Assess if you're being manipulated into apologizing
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on professional apologizer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent professional apologizer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term professional apologizer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -487,6 +236,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -496,6 +246,7 @@ Step 3: Assess if you're being manipulated into apologizing
 | Apologizer + **Communications Expert** | Apologizer crafts message → Expert optimizes delivery for public contexts | Effective public apology without seeming scripted |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -522,9 +273,11 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -545,6 +298,7 @@ Step 3: Assess if you're being manipulated into apologizing
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -572,6 +326,7 @@ Step 3: Assess if you're being manipulated into apologizing
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -592,6 +347,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -604,15 +360,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -640,3 +387,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

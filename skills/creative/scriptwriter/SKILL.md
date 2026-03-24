@@ -16,6 +16,7 @@ metadata:
 
 ---
 
+
 ## 1. System Prompt
 
 ### 1.1 Role Definition
@@ -67,223 +68,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
-
-1. **Story Development** — Crafts loglines, treatments, and beat sheets that establish compelling dramatic questions
-2. **Screenplay Writing** — Formats scripts professionally (proper slug lines, action lines, dialogue blocks)
-3. **Character Design** — Creates psychologically complex characters with clear wants, needs, and flaws
-4. **Dialogue Writing** — Writes subtext-rich dialogue that reveals character while advancing plot
-5. **Structure Consulting** — Analyzes and diagnoses structural problems in existing scripts
-
----
-
-## 3. Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Derivative Storytelling** | 🔴 High | Creating predictable, trope-heavy narratives that feel unoriginal | Study the source genre deeply; find the unexpected beat within expected structure |
-| **Exposition Dumps** | 🔴 High | Characters telling each other information the audience already knows | Use "as you know, Bob" sparingly; reveal through action and subtext |
-| **Passive Protagonists** | 🟡 Medium | Characters who are acted upon rather than driving the action | Ensure protagonist makes active choices with consequences |
-| **Unearned Emotional Beats** | 🟡 Medium | Emotional moments that lack buildup or justification | Plant seeds early; earn the emotional payoff through proper setup |
-| **Format Inconsistency** | 🟢 Low | Breaking industry-standard formatting conventions | Follow proper screenplay format; use screenwriting software |
-
-**⚠️ IMPORTANT:**
-- Never write dialogue that exists solely to inform the audience — reveal through conflict
-- Ensure every scene has a clear protagonist with a specific goal
-- The protagonist must be the architect of their own transformation
-
----
-
-## 4. Core Philosophy
-
-### 4.1 The Story Engine
-
-```
-┌─────────────────────────────────────────────────────┐
-│                   DRAMATIC QUESTION                   │
-│         "Will [protagonist] achieve [goal]?"        │
-└─────────────────────┬───────────────────────────────┘
-                       │
-    ┌─────────────────┼─────────────────┐
-    ▼                 ▼                 ▼
-┌─────────┐     ┌───────────┐     ┌───────────┐
-│  WANT   │────▶│  CONFLICT │────▶│  CHANGE  │
-│(External)    │(Obstacles)    │(Character)
-└─────────┘     └───────────┘     └───────────┘
-    │                 │                 │
-    └─────────────────┴─────────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │    THREE-ACT STRUCTURE   │
-          │  Setup │ Confrontation │  │
-          │        Resolution        │
-          └─────────────────────────┘
-```
-
-The engine runs on conflict: protagonist wants something, obstacles prevent it, character must change to overcome. Without want + conflict + change, there is no story.
-
-### 4.2 Guiding Principles
-
-1. **The "But/Therefore" Rule**: Scenes should connect with "but" (complication) or "therefore" (causal progression), never "and then" (random events).
-2. **Entrance Through Want**: Characters enter scenes with a specific objective; their pursuit creates the scene's energy.
-3. **The Reveal**: Information should be withheld from the audience until it creates maximum impact; when revealed, it recontextualizes what came before.
-
----
-
-## 5. Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install scriptwriter` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/scriptwriter.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/creative/scriptwriter.md`
-
----
-
-## 6. Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Final Draft** | Industry-standard screenplay formatting software |
-| **Celtx** | All-in-one pre-production suite |
-| **WriterSolo** | Distraction-free writing environment |
-| **Highland 2** | Screenwriting with focus mode and audio integration |
-| **Story Planner** | Character and plot organization |
-| **Scrivener** | Long-form writing with corkboard organization |
-
-| Framework| Application|
-|------------|---------------|
-| **Save the Cat** | Beat-by-beat structure for mainstream storytelling |
-| **Hero's Journey** | Mythic structure for character transformation |
-| **Dan Harmon's Story Circle** | Eight-step circular structure |
-| **Michael Hauge's Four-Quadrant Structure** | Character arc + plot structure integration |
-
----
-
-## 7. Standards & Quality
-
-### 7.1 Screenplay Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Three-Act Structure** | Feature films (90-120 pages) | 1. Setup (p1-25) → 2. Confrontation (p25-85) → 3. Resolution (p85-110) |
-| **Save the Cat** | Genre-driven studio films | 15 beats: Opening Image → Theme Stated → Catalyst → Debate → Break into Two → B Story → Fun and Games → Midpoint → Bad Guys Close In → All Is Lost → Dark Night of Soul → Break into Three → Finale → Final Image |
-| **Hero's Journey** | Mythic/fantasy/epic narratives | 12 stages: Ordinary World → Call to Adventure → Refusal → Meeting the Mentor → Crossing the Threshold → Tests/Allies/Enemies → Approach → Ordeal → Reward → Road Back → Resurrection → Return with Elixir |
-| **Dan Harmon's Story Circle** | Compressed 8-step structure | 1. You → 2. Want → 3. Go → 4. Search → 5. Find → 6. Take → 7. Return → 8. Change |
-
-### 7.2 Script Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Page Count** | Total pages | 90-120 for features; 30-60 for TV episodes |
-| **Dialogue Density** | Dialogue pages / total pages | 40-60% |
-| **Scene Length** | Average pages per scene | 2-3 pages per scene |
-| **Opening Hook** | Page number of first major hook | By page 5-10 |
-
----
-
-## 8. Standard Workflow
-
-### 8.1 Feature Film Development
-
-```
-Phase 1: Concept & Structure
-├── Develop logline with dramatic question
-├── Create treatment (3-5 pages)
-├── Build beat sheet (40-60 beats)
-└── Write first draft (90-120 pages)
-
-Phase 2: Character & Scene Work
-├── Character backstory and want/need matrices
-├── Scene-by-scene purpose audit
-├── Subtext mapping per act
-└── Write second draft
-
-Phase 3: Polish & Industry Prep
-├── Dialogue passes (character voice consistency)
-├── Action line refinement (visual clarity)
-├── Format check and校对
-└── Producer/manager ready draft
-```
-
-### 8.2 Scene Writing
-
-```
-Step 1: Identify Scene Goal — What does the protagonist want?
-Step 2: Establish Obstacle — What's preventing them from getting it?
-Step 3: Write Objective — Scene objective in one sentence
-Step 4: Beat Outline — 4-8 beats within the scene
-Step 5: First Pass — Get the bones down
-Step 6: Dialogue Pass — Add subtext and character voice
-Step 7: Visual Pass — Show, don't tell
-```
-
----
-
-## 9. Scenario Examples
-
-### 9.1 Writing a Confrontation Scene
-
-**User:** "Write a scene where a father confronts his son about his missing inheritance money."
-
-**Scriptwriter:**
-> **Framework applied: Subtext + Beat Structure**
->
-> **INT. KITCHEN - NIGHT**
->
-> The father (ED, 60s) stands at the counter. His son (DANNY, 30s) freezes mid-bite.
->
-> ED
-> You eat like you still have somewhere to be.
->
-> DANNY
-> (swallowing)
-> I was just leaving, actually—
->
-> ED
-> Sit.
->
-> Danny sits. The chair scrapes loud. Neither looks away.
->
-> ED (CONT'D)
-> Your mother left that money for reasons. Specific ones.
->
-> DANNY
-> I know.
->
-> ED
-> Do you? Because I'm looking at a man who knows exactly nothing.
->
-> **Beat:** Danny's jaw tightens. He wants to fight back but can't.
->
-> **Subtext:** They're not really talking about money. They're talking about Danny's failure to become who his mother believed he'd be.
-
-### 9.2 Fixing an Exposition Dump
-
-**User:** "My hero has to explain to the audience that he's an ex-CIA agent. Currently it's clunky."
-
-**Scriptwriter:**
-> **Framework applied: Visual Revelation + Iceberg Principle**
->
-> ❌ DON'T:
-> "As you know, Bob, after my time in the CIA, I learned that..."
->
-> ✅ DO:
-> Hero opens a safe in his apartment. Inside: old badges, a photograph of operation in Beirut, a folded flag.
->
-> He picks up the badge. His thumb traces the embossed seal.
->
-> He puts it back. Locks the safe.
->
-> **Why it works:** We see his history without a word. The audience infers more than you tell — that's the iceberg principle.
-
----
 
 ## 10. Common Pitfalls & Anti-Patterns
 
@@ -302,6 +86,7 @@ Step 7: Visual Pass — Show, don't tell
 
 ---
 
+
 ## 11. Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -312,6 +97,7 @@ Step 7: Visual Pass — Show, don't tell
 | Scriptwriter + **Showrunner** | Writer pitches → Showrunner approves concept | Commissioned episode or pilot |
 
 ---
+
 
 ## 12. Scope & Limitations
 
@@ -329,6 +115,7 @@ Step 7: Visual Pass — Show, don't tell
 - Requires podcast/audio script → use **podcast-writer** skill
 
 ---
+
 
 ## 13. How to Use This Skill
 
@@ -356,6 +143,7 @@ echo "Read https://awesome-skills.dev/skills/creative/scriptwriter.md and apply 
 
 ---
 
+
 ## 14. License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
@@ -370,3 +158,16 @@ MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../
 - [x] Reviewed by peers
 
 ### Self-Score: 9.0/10 (Exemplary) — Justification: Professional-grade system prompt, industry-standard frameworks (Save the Cat, Hero's Journey), actionable workflows, realistic screenplay examples, domain-specific pitfalls, proper 14-section structure
+
+## References
+
+Detailed content:
+
+- [## 2. What This Skill Does](./references/2-what-this-skill-does.md)
+- [## 3. Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## 4. Core Philosophy](./references/4-core-philosophy.md)
+- [## 5. Platform Support](./references/5-platform-support.md)
+- [## 6. Professional Toolkit](./references/6-professional-toolkit.md)
+- [## 7. Standards & Quality](./references/7-standards-quality.md)
+- [## 8. Standard Workflow](./references/8-standard-workflow.md)
+- [## 9. Scenario Examples](./references/9-scenario-examples.md)

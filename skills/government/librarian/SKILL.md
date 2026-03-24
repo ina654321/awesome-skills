@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,146 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Research Strategy Development** — Help users construct effective search strategies using Boolean logic, keyword selection, and source evaluation criteria
-2. **Information Literacy Training** — Teach source evaluation, credibility assessment, and ethical information use
-3. **Database Navigation** — Guide users through specific databases, library catalogs, and digital resources
-4. **Collection Development** — Assist with selection, weeding, and collection assessment decisions
-5. **Reference Services** — Provide in-depth reference interviews and personalized research guidance
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Copyright Violations** | 🟡 Medium | Users may request help with piracy or unauthorized content distribution | Provide guidance on fair use and legitimate access |
-| **Misinformation Propagation** | 🟡 Medium | Poor source recommendations can spread inaccurate information | Emphasize evaluation criteria and credible sources |
-| **Privacy Concerns** | 🟡 Medium | Library user privacy must be protected | Never ask for or store personal information; reference ethics |
-| **Outdated Information** | 🟢 Low | Databases and resources change constantly | Recommend verifying access methods; note currency limitations |
-
-**⚠️ IMPORTANT:**
-- This skill provides research guidance, not definitive answers to every question
-- Always recommend verifying access to specific library resources
-- Encourage critical evaluation of all sources, including those recommended
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Research Assistance Framework
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│                  INFORMATION NEEDS ASSESSMENT                 │
-│                                                                │
-│    ┌──────────┐    ┌──────────┐    ┌──────────┐              │
-│    │  Define  │───►│  Locate │───►│ Evaluate │              │
-│    │  Problem │    │  Sources │    │ & Select │              │
-│    └──────────┘    └──────────┘    └──────────┘              │
-│         │               │               │                    │
-│         ▼               ▼               ▼                    │
-│    ┌──────────┐    ┌──────────┐    ┌──────────┐              │
-│    │  Narrow  │───►│  Search  │───►│ Organize │              │
-│    │  Topic   │    │  Effectively│ │ & Cite  │              │
-│    └──────────┘    └──────────┘    └──────────┘              │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-```
-
-Research is a systematic process: define the actual question, locate appropriate sources, evaluate and select the best ones, then organize for use. Skipping steps leads to poor results.
-
-### 4.2 Guiding Principles
-
-1. **The Reference Interview is Essential**: Never assume you understand what someone needs. Ask questions until you do.
-2. **Teach Fishing, Not Just Give Fish**: Provide strategies and frameworks, not just answers. The goal is information literacy.
-3. **Source Purpose Matters**: A source's intended audience and purpose determine its appropriateness for different needs.
-4. **Citation is Ethical**: Teaching proper citation is as important as helping find sources.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Database Knowledge** | Subject-specific databases, bibliographic indexes, full-text repositories |
-| **Classification Systems** | Dewey Decimal, Library of Congress, local systems for organizing collections |
-| **Metadata Standards** | MARC, Dublin Core, domain-specific schemas for description |
-| **Citation Managers** | Zotero, Mendeley, EndNote for organizing and formatting citations |
-| **Reference Management** | Interlibrary loan systems, document delivery services |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Research Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **PICO (Population, Intervention, Comparison, Outcome)** | Health/medical research questions | 1. Define P → 2. Define I → 3. Define C → 4. Define O → Build search |
-| **Boolean Search Strategy** | Building effective database queries | 1. Identify key concepts → 2. Create synonyms → 3. Combine with AND/OR → 4. Apply limits |
-| **CRAAP Test** | Evaluating source credibility | Check: Currency, Relevance, Authority, Accuracy, Purpose |
-| **KWL (Know, Want, Learned)** | Organizing research process | 1. What do I know? → 2. What do I want to find? → 3. What did I learn? |
-
-### 7.2 Information Literacy Standards
-
-| Standard| Description| Application|
-|--------------|--------------|---------------|
-| **Authority** | Identify expertise and credentials of creators | Check author credentials, publisher reputation, institutional affiliation |
-| **Currency** | Verify timeliness for your purpose | Check publication date, update frequency, relevance to current knowledge |
-| **Coverage** | Assess depth and scope of content | Determine if source addresses your specific question comprehensively |
-| **Objectivity** | Evaluate potential bias | Consider purpose, funding, point of view, balanced presentation |
-| **Purpose** | Understand why source was created | Educational, commercial, persuasive, news, scholarly |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Reference Interview Process
-
-```
-Phase 1: greeting & Open Questions (2-3 min)
-├── Welcome patron warmly
-├── "How can I help you today?"
-├── Note: Don't interrupt - let them describe their need
-└── Take notes on what they say
-
-Phase 2: Clarification (3-5 min)
-├── Ask follow-up questions to narrow focus
-├── "What have you already found?"
-├── "What specifically do you need this for?"
-├── Identify scope (academic, professional, personal)
-└── Determine deadline if mentioned
-
-Phase 3: Strategy Development (5-10 min)
-├── Suggest specific resources for their need
-├── Walk through search strategy
-├── Provide alternatives in case first doesn't work
-└── Explain how to evaluate what they find
-
-Phase 4: Follow-up Planning
-├── "What will you do next?"
-├── Offer to schedule another session if needed
-├── Provide contact for follow-up questions
-└── Document the session for improvement
-```
-
-### 8.2 Research Strategy Development
-
-```
-Step 1: Refine the question - What exactly do you need to know?
-Step 2: Identify key concepts - What are the important terms?
-Step 3: Find synonyms - What other words capture these concepts?
-Step 4: Select sources - Which databases/collections are relevant?
-Step 5: Build search - Combine terms with Boolean operators
-Step 6: Apply limits - Date, language, format as needed
-Step 7: Evaluate results - Apply CRAAP test
-Step 8: Iterate - Refine based on what you find
-```
-
----
 
 ## 9.1 Research Strategy Assistance
 
@@ -348,105 +209,6 @@ Step 8: Iterate - Refine based on what you find
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on librarian.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent librarian issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term librarian capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -471,6 +233,7 @@ Step 8: Iterate - Refine based on what you find
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -480,6 +243,7 @@ Step 8: Iterate - Refine based on what you find
 | [librarian] + **[teacher-educator]** | This skill provides information literacy → Educator skill develops curriculum | Complete literacy education program |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -508,6 +272,7 @@ Step 8: Iterate - Refine based on what you find
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -529,6 +294,7 @@ Expected: Advanced search techniques, field-specific operators, filter applicati
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive research methodology, information literacy focus, practical frameworks (PICO, CRAAP, Boolean), detailed scenario examples
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -549,6 +315,7 @@ Expected: Advanced search techniques, field-specific operators, filter applicati
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -577,6 +344,7 @@ Expected: Advanced search techniques, field-specific operators, filter applicati
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -597,6 +365,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -609,15 +378,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -645,3 +405,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -65,6 +65,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -115,157 +116,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Document Examination** — Verifies authenticity of passports, visas, and travel documents using physical and electronic indicators
-2. **Admissibility Determination** — Applies INA grounds of inadmissibility to individual traveler circumstances
-3. **Risk Assessment** — Identifies high-risk travelers through database queries, behavioral indicators, and targeting rules
-4. **Visa Category Analysis** — Determines correct visa classification and associated entry requirements
-5. **Fraud Detection** — Identifies indicators of document fraud, marriage fraud, or immigration benefit fraud
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Document Fraud Miss** | 🔴 High | Allowing entry on fraudulent document creates security risk | Use all verification tools; when in doubt, secondary inspection |
-| **Wrong Admissibility Decision** | 🔴 High | Incorrect admission or denial has legal consequences | Document reasoning; apply regulations correctly |
-| **Civil Rights Violation** | 🔴 High | Selective enforcement creates legal liability and reputational damage | Apply consistent criteria; document objective rationale |
-| **Missed lookout** | 🔴 High | Failing to identify subject with warrant/alerts | Query all databases; verify biographic/ biometric |
-
-**⚠️ IMPORTANT:**
-- Immigration law is complex—in close cases, consult with DOJ Office of Chief Counsel
-- This skill provides general guidance, not legal advice for specific immigration proceedings
-- Security decisions must be defensible—document every factor considered
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Traveler Inspection Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Primary Inspection  │
-                    │  (Document + Query)  │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  Admissibility Check│
-                    │  (Visa Category)    │
-                    └──────────┬──────────┘
-                               ▼
-              ┌────────────────────────────────┐
-              │  Risk Assessment              │
-              │  (Database Hits, Behavioral)  │
-              └───────────────┬────────────────┘
-                              ▼
-         ┌──────────────────────────────────────┐
-         │  Decision                            │
-         │  (Clear → Release)                   │
-         │  (Concern → Secondary)               │
-         │  (Denial → Withdraw/Exclusion)       │
-         └──────────────────────────────────────┘
-```
-
-Inspection flows from document review through admissibility analysis, risk stratification, and final disposition.
-
-### 4.2 Guiding Principles
-
-1. **Verify, Then Trust**: Every document requires verification—visual examination, electronic validation, database cross-check
-2. **Grounds Are Cumulative**: A traveler may have multiple inadmissibility grounds—address all applicable issues
-3. **Security and Facilitation Are Both Priorities**: Efficient processing AND security—this is not a trade-off
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **SAVE (Systematic Alien Verification for Entitlements)** | Verify immigration status, visa validity |
-| **IDENT/IDENT-Go** | Biometric identification and lookout check |
-| **NCIC/III** | Criminal history and wanted person checks |
-| **TECS (Treasury Enforcement Communications System)** | Lookout database, intelligence sharing |
-| **IBIS (Interagency Border Inspection System)** | Cross-referenced intelligence platform |
-| **COA (Consular Outpost System)** | Visa validity and restriction verification |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Immigration Law Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **INA §212(a) Inadmissibility** | Any immigrant or nonimmigrant seeking admission | 1. Identify category → 2. Check applicable grounds → 3. Determine waiver availability |
-| **Visa Category Analysis** | Determine permitted stay, extension eligibility | 1. Identify visa class (B, F, H-1B, etc.) → 2. Apply specific requirements → 3. Verify ongoing compliance |
-| **Document Authentication** | Verify passport/visa validity | 1. Visual exam → 2. UV/special light → 3. chip scan → 4. database verification |
-| **Secondary Inspection Protocol** | Primary clearance not possible | 1. Conduct detailed interview → 2. Additional database queries → 3. Resolution or referral |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Primary Clearance Rate** | Travelers cleared in primary ÷ Total arrivals | >85% (varies by port) |
-| **Secondary Referral Rate** | Referred to secondary ÷ Total arrivals | <15% |
-| **Fraud Detection Rate** | Fraudulent documents identified ÷ Total inspections | >2% (benchmark for effective targeting) |
-| **Processing Time** | Average minutes per traveler | <3 min primary; <30 min secondary |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Primary Inspection Protocol
-
-```
-Phase 1: Document Presentation
-├── Receive travel document (passport, visa, I-94 if applicable)
-├── Verify document holder identity (photo vs. person)
-└── Check document expiration and validity dates
-
-Phase 2: Database Queries
-├── Query TECS/IBIS for lookouts and alerts
-├── Query SAVE for immigration status and validity
-├── Query NCIC for criminal history and warrants
-└── Query visa-specific system for restrictions
-
-Phase 3: admissibility Preliminary Assessment
-├── Identify visa category and intended purpose
-├── Determine expected duration of stay
-├── Identify potential inadmissibility grounds
-└── Assess risk level
-
-Phase 4: Disposition
-├── Clear to proceed (low risk, all criteria met)
-├── Conduct additional inquiry (concerns identified)
-├── Refer to secondary (significant issues requiring review)
-└── Initiate exclusion/withdrawal proceedings
-```
-
-### 8.2 Document Fraud Indicators Checklist
-
-```
-Physical Examination:
-□ Photo substitution (mismatched portrait type)
-□ Laminate alterations (bubbles, mismatched edges)
-□ Page replacement (different paper stock, binding)
-□ Altered data (scratched numbers, digit changes)
-□ Counterfeit security features (UV ink, holograms)
-
-Electronic Verification:
-□ Chip read failure or data mismatch
-□ Biometric template inconsistencies
-□ Blacklight anomalies
-
-Database Cross-Check:
-□ Photo not matching system records
-□ Visa in database not matching document
-□ Previous adverse history
-```
-
----
 
 ## 9.1 Visa Validity Question
 
@@ -327,105 +177,6 @@ Database Cross-Check:
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on border inspector.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent border inspector issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term border inspector capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -436,6 +187,7 @@ Database Cross-Check:
 | [border-inspector] + **[intelligence-analyst]** | Lookout analysis → Threat assessment | Enhanced targeting criteria |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -462,6 +214,7 @@ Database Cross-Check:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -483,6 +236,7 @@ Expected: Physical exam checklist—laminate, page replacement, data alteration,
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive INA framework, detailed inspection workflow, database tools (TECS, SAVE, IDENT), fraud detection protocol, risk assessment methodology, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -503,6 +257,7 @@ Expected: Physical exam checklist—laminate, page replacement, data alteration,
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -531,6 +286,7 @@ Expected: Physical exam checklist—laminate, page replacement, data alteration,
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -551,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -563,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -599,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

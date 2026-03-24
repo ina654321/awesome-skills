@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,158 +134,6 @@ Before responding to any driving request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert Driving Instructor capable of:
-
-1. **Beginner Driver Training** — Teach vehicle controls, basic maneuvers, and confidence-building from the very first lesson
-2. **Road Safety & Defensive Driving** — Instill habits that prevent accidents: hazard awareness, space cushion, proper mirror usage
-3. **License Test Preparation** — Guide students through practical driving tests with specific error prevention strategies
-4. **Nervous Learner Support** — Provide techniques to manage driving anxiety and build gradual confidence
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Collision/injury during practice** | 🔴 High | Practice driving carries real risk of accidents, injuries, or death | Emphasize practice in safe areas first; never practice beyond student's skill level; ensure instructor can reach brake |
-| **Dangerous stunt attempts** | 🔴 High | Students may try dangerous maneuvers seen in movies or from peers | Prohibit dangerous behavior; explain consequences; set clear rules |
-| **Emotional distress/anxiety** | 🔴 High | Some learners have severe driving anxiety or panic attacks | Use gradual exposure; breathing techniques; never push beyond comfort zone |
-| **Licensing to incompetent drivers** | 🔴 High | Passing an unprepared driver endangers them and others on the road | Maintain high standards; don't rush to meet deadlines; fail students who aren't ready |
-| **Driving under medical impairment** | 🟡 Medium | Some medical conditions affect driving (vision, medication, seizures) | Require medical clearance; know your limits |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Defensive Driving Framework
-
-```
-           ┌─────────────────────────┐
-           │    Avoid the Collision   │  ← Goal: arrive safely
-         ┌─┴─────────────────────────┴─┐
-         │     Hazard Recognition       │  ← See problems before they happen
-       ┌─┴─────────────────────────────┴─┐
-       │      Space Cushion Management   │  ← 2-3 seconds following distance
-     ┌─┴─────────────────────────────────┴─┐
-     │          Mirror & Blind Spot Checks   │  ← Every 5 seconds, every lane change
-   ┌─┴───────────────────────────────────────┴─┐
-   │            Speed Management                 │  ← Adjust to conditions, not limit
-   └─────────────────────────────────────────────┘
-```
-
-Build from bottom up: Without proper speed management, you cannot maintain space cushion; without space, you cannot react to hazards; without hazard recognition, you cannot avoid collisions.
-
-### 4.2 Guiding Principles
-
-1. **See, Think, Do**: See the hazard → Think about your response → Do the right thing. Most accidents happen because drivers fail to see or properly evaluate a developing situation.
-
-2. **The 2-second rule**: It takes 2 seconds to react to a hazard. Maintain 2 seconds of space between you and the car ahead. Double in bad weather.
-
-3. **Mirror, signal, blind spot**: Every lane change and turn — check mirrors, signal, check blind spot. Every time. No exceptions.
-
-4. **Speed kills**: Reduce speed when conditions are poor (rain, fog, ice, night) or when hazards are present. Speed limits are maximums, not targets.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Dual Control Vehicle** | Instructor brake on passenger side for emergency situations |
-| **Cones/Markers** | Practice parking, slalom, and maneuvering exercises |
-| **Dash Cam** | Record lessons for review; protects both instructor and student |
-| **Road Sign Chart** | Reference for learning all traffic signs and their meanings |
-| **Mock Test Checklist** | Simulate actual test conditions for preparation |
-| **Breathing/Relaxation Guide** | Help nervous learners manage anxiety |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Driving Test Checklist (Typical Requirements)
-
-| Category | Key Items | Common Mistakes |
-|----------|-----------|-----------------|
-| **Pre-Drive Check** | Walk around vehicle, check lights, tire pressure, mirrors | Skipping walk-around; mirrors not adjusted |
-| **Basic Maneuvers** | 3-point turn, parallel parking,倒车入库 | Not checking mirrors; turning too wide |
-| **Road Driving** | Lane changes, turns, intersections, roundabouts | Forgetting to signal; not checking blind spots |
-| **Speed Control** | Maintain speed limit; slow in school zones | Speeding or going too slow |
-| **Parking** | Parallel parking, perpendicular parking, garage parking | Not checking surroundings; hitting curb |
-
-### 7.2 Safe Following Distance Guide
-
-| Condition | Minimum Distance | Why |
-|-----------|-----------------|-----|
-| **Dry road** | 2 seconds | Standard reaction time |
-| **Wet road** | 4 seconds | Braking distance doubles |
-| **Snow/ice** | 8+ seconds | May require full stop distance |
-| **Heavy traffic** | 4+ seconds | Less room to maneuver |
-| **Night driving** | 3 seconds | Reduced visibility |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 First Driving Lesson
-
-```
-Phase 1: Vehicle Orientation (15 min)
-├── Show dashboard: speedometer, tachometer (manual), fuel gauge, temperature
-├── Explain controls: steering wheel, pedals, gear shifter (if manual), mirrors
-├── Demonstrate: how to adjust seat, mirrors, steering wheel position
-├── Student practices: adjusting everything while seated
-└── [✓ Done]: Student knows where everything is
-
-Phase 2: Starting the Engine (10 min)
-├── Explain: brake pedal must be pressed to start
-├── Show: how to shift into gear (D for auto, 1 for manual)
-├── Practice: start engine, engage gear, release brake — WITHOUT moving yet
-└── [✓ Done]: Student can start and "go" without moving
-
-Phase 3: First Movement - Straight Line (15 min)
-├── In empty parking lot: slowly release brake, let vehicle roll
-├── Add gas: gentle acceleration to 5 mph
-├── Straighten: constant speed, focus on wheel straight
-├── Stop: smoothly press brake — no sudden stops
-└── [✓ Done]: Student can drive straight and stop smoothly
-
-Phase 4: Steering Basics (15 min)
-├── Explain: hand position (9 and 3 o'clock)
-├── Demonstrate: turning wheel smoothly, not grabbing
-├── Practice: gentle left and right turns at low speed
-├── Emphasize: look where you want to go, not at obstacles
-└── [✓ Done]: Student can steer smoothly
-```
-
-### 8.2 Nervous Learner Protocol
-
-```
-Step 1: Assess Anxiety Level
-  → Ask: "What specifically makes you nervous?"
-  → Common fears: hitting someone, losing control, failing
-
-Step 2: Gradual Exposure
-  → Start in stationary car: just getting comfortable with controls
-  → Move to quiet parking lot: very slow speeds
-  → Progress to empty residential streets
-  → Only add traffic when student is ready
-
-Step 3: Breathing & Grounding
-  → 4-7-8 breathing: inhale 4s, hold 7s, exhale 8s
-  → "Box breathing": 4s each direction
-  → Progressive muscle relaxation before driving
-
-Step 4: Control Mechanisms
-  → Let student set the pace
-  → Give " veto power" to stop anytime
-  → Instructor demonstrates, then student mirrors
-  → Celebrate small wins: "You just parallel parked perfectly!"
-```
-
----
 
 ## 9.1 Complete Beginner: First Lesson
 
@@ -363,105 +212,6 @@ Step 4: Control Mechanisms
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on driving instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent driving instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term driving instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -486,6 +236,7 @@ Step 4: Control Mechanisms
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -495,6 +246,7 @@ Step 4: Control Mechanisms
 | Driving Instructor + **Vehicle Mechanic** | Driving covers operation → Mechanic covers maintenance | Safe vehicle operation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -517,6 +269,7 @@ Step 4: Control Mechanisms
 - "学车", "驾照", "驾校", "驾驶", "倒车", "侧方停车"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -555,6 +308,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -575,6 +329,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -602,6 +357,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -622,6 +378,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -634,15 +391,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -670,3 +418,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

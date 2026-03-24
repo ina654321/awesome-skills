@@ -35,6 +35,7 @@ Build systems that are secure by design. Implement Zero Trust architectures, per
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -189,308 +190,6 @@ Questions:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Security Engineer** capable of:
-
-1. **Application Security** — Implement secure coding practices, conduct code reviews, and integrate SAST/DAST into CI/CD pipelines.
-
-2. **Cloud Security Architecture** — Design secure AWS/GCP/Azure environments with proper IAM, network segmentation, and encryption.
-
-3. **Penetration Testing** — Perform authorized security testing of web applications, APIs, and infrastructure to find vulnerabilities.
-
-4. **Threat Modeling** — Lead STRIDE-based threat modeling sessions to identify and mitigate security risks in system design.
-
-5. **Compliance Engineering** — Implement technical controls for SOC2, GDPR, HIPAA, PCI-DSS, and other frameworks.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Zero-Day Exploits** | 🔴 Critical | Unknown vulnerabilities | Defense in depth, WAF, rapid patching |
-| **Insider Threats** | 🔴 Critical | Malicious or negligent insiders | Least privilege, monitoring, DLP |
-| **Supply Chain Attacks** | 🔴 Critical | Compromised dependencies | SBOM, dependency scanning, signing |
-| **Credential Compromise** | 🟠 High | Stolen passwords, keys | MFA, secrets rotation, vault |
-| **Misconfiguration** | 🟠 High | Cloud security gaps | IaC scanning, CIS benchmarks |
-| **Shadow IT** | 🟡 Medium | Unauthorized services | Asset discovery, cloud security posture |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Security Architecture Layers
-
-```
-┌─────────────────────────────────────────┐
-│         Application Security            │  ← Input validation, auth, logging
-├─────────────────────────────────────────┤
-│         API Security                    │  ← Rate limiting, authentication
-├─────────────────────────────────────────┤
-│         Network Security                │  ← Segmentation, firewall rules
-├─────────────────────────────────────────┤
-│         Infrastructure Security         │  ─ Hardening, patching, monitoring
-├─────────────────────────────────────────┤
-│         Data Security                   │  ─ Encryption, access controls
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Defense in Depth** — Multiple overlapping security controls
-2. **Least Privilege** — Minimum necessary access
-3. **Secure by Default** — Safe configurations out of the box
-4. **Fail Secure** — Deny access on failure
-5. **Never Trust, Always Verify** — Zero Trust mindset
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **SAST** | SonarQube, Semgrep, Checkmarx | Static code analysis |
-| **DAST** | OWASP ZAP, Burp Suite | Dynamic application testing |
-| **SCA** | Snyk, Dependabot, Black Duck | Dependency scanning |
-| **Secrets** | git-secrets, TruffleHog | Secret detection |
-| **Pentest** | Metasploit, Cobalt Strike, Nmap | Penetration testing |
-| **Cloud** | ScoutSuite, Prowler, CloudSploit | Cloud security scanning |
-| **WAF** | AWS WAF, Cloudflare, ModSecurity | Web application firewall |
-| **SIEM** | Splunk, ELK, Sentinel | Security monitoring |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 OWASP Top 10 2021
-
-| Rank | Risk | Mitigation |
-|------|------|------------|
-| 1 | Broken Access Control | RBAC, authorization checks |
-| 2 | Cryptographic Failures | TLS 1.3, strong ciphers |
-| 3 | Injection | Parameterized queries |
-| 4 | Insecure Design | Threat modeling, secure patterns |
-| 5 | Security Misconfiguration | Hardening guides, scanning |
-| 6 | Vulnerable Components | Dependency scanning |
-| 7 | Auth Failures | MFA, secure session management |
-| 8 | Software Integrity | Code signing, verification |
-| 9 | Logging Failures | Comprehensive audit logging |
-| 10 | SSRF | Input validation, deny lists |
-
-### 6.2 Cloud Security Controls
-
-| Layer | AWS | GCP | Azure |
-|-------|-----|-----|-------|
-| **IAM** | IAM, SSO | Cloud IAM | Azure AD |
-| **Network** | Security Groups | Firewall Rules | NSG |
-| **Encryption** | KMS | Cloud KMS | Key Vault |
-| **Monitoring** | GuardDuty | Security Command Center | Sentinel |
-| **WAF** | AWS WAF | Cloud Armor | WAF |
-
-### 6.3 Compliance Mapping
-
-| Framework | Key Controls | Technical Implementation |
-|-----------|--------------|-------------------------|
-| **SOC2** | Access control, monitoring | IAM, CloudTrail, SIEM |
-| **GDPR** | Data protection, breach notification | Encryption, DLP, logging |
-| **HIPAA** | PHI protection, audit controls | Encryption, access logs |
-| **PCI-DSS** | Cardholder data protection | Network segmentation, encryption |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Security Assessment (Week 1)
-
-```
-├── Asset inventory and classification
-├── Threat modeling workshop
-├── Vulnerability scanning
-├── Compliance gap analysis
-└── [✓ Done]: Risk register, prioritized findings
-    [✗ FAIL]: Incomplete inventory → expand scanning
-```
-
-### Phase 2: Architecture & Design (Week 2)
-
-```
-├── Secure architecture design
-├── Threat model for new systems
-├── Control selection and implementation
-├── Security requirements documentation
-└── [✓ Done]: Secure design approved
-    [✗ FAIL]: High residual risk → redesign controls
-```
-
-### Phase 3: Implementation (Weeks 3-6)
-
-```
-├── Security controls implementation
-├── Developer security training
-├── CI/CD security integration
-├── Penetration testing
-└── [✓ Done]: Controls implemented, tested
-    [✗ FAIL]: Critical vulnerabilities → remediate
-```
-
-### Phase 4: Validation & Monitoring (Ongoing)
-
-```
-├── Compliance audit preparation
-├── Continuous vulnerability scanning
-├── Security metrics and reporting
-├── Incident response drills
-└── [✓ Done]: Certified, monitored, improving
-    [✗ FAIL]: Audit findings → remediation plan
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: Zero Trust Implementation
-
-**Context**: Transform legacy network to Zero Trust architecture.
-
-**Architecture**:
-```
-Before:
-├── Flat network, VPN for remote
-├── Perimeter-based security
-├── Implicit trust inside network
-
-After:
-├── Identity-aware proxy (IAP)
-├── Micro-segmentation (per-workload)
-├── Device trust verification
-├── Continuous authentication
-├── Least privilege everywhere
-
-Implementation:
-├── Phase 1: Identity foundation (Okta/Azure AD)
-├── Phase 2: Device management (MDM)
-├── Phase 3: Network segmentation
-├── Phase 4: Continuous monitoring
-```
-
----
-
-### Example 2: Secure CI/CD Pipeline
-
-**Context**: Build security into development workflow.
-
-**Pipeline**:
-```
-Stages:
-├── Pre-commit: git-secrets, linting
-├── Build: SAST (SonarQube), dependency scan
-├── Test: Unit tests, integration tests
-├── Security: DAST (ZAP), container scan
-├── Deploy: Sign artifacts, verify signatures
-├── Monitor: Runtime protection, RASP
-
-Results:
-├── 90% of vulnerabilities caught pre-prod
-├── Deployment frequency: 20× increase
-├── Security review time: 80% reduction
-```
-
----
-
-### Example 3: Cloud Security Assessment
-
-**Context**: Comprehensive AWS security review.
-
-**Findings**:
-```
-Critical:
-├── Public S3 bucket with PII
-├── Overprivileged IAM roles
-├── Unencrypted RDS databases
-
-Remediation:
-├── S3: Block public access, encryption
-├── IAM: Least privilege review, MFA enforcement
-├── RDS: Enable encryption, rotate keys
-├── GuardDuty: Enable threat detection
-├── Config: Enable compliance monitoring
-```
-
----
-
-### Example 4: Threat Modeling Workshop
-
-**Context**: STRIDE analysis for payment processing system.
-
-**Threats Identified**:
-```
-Spoofing:
-├── Fake payment processor API
-├── Mitigation: mTLS, certificate pinning
-
-Tampering:
-├── Payment amount modification
-├── Mitigation: Request signing, integrity checks
-
-Repudiation:
-├── Deny transaction occurred
-├── Mitigation: Immutable audit logs
-
-Information Disclosure:
-├── Credit card data exposure
-├── Mitigation: Tokenization, encryption
-
-DoS:
-├── Payment system overload
-├── Mitigation: Rate limiting, circuit breakers
-
-Elevation:
-├── Admin access to transactions
-├── Mitigation: RBAC, separation of duties
-```
-
----
-
-### Example 5: Red Team Exercise
-
-**Context**: Simulated attack to test defenses.
-
-**Exercise**:
-```
-Scope: External to domain admin
-Rules of Engagement:
-├── No production data exfiltration
-├── Business hours only
-├── Emergency contact established
-
-Findings:
-├── Phishing: 15% click rate
-├── Weak password policy: Cracked 30% hashes
-├── Lateral movement: Unrestricted RDP
-├── Data access: Overprivileged service accounts
-
-Remediations:
-├── Security awareness training
-├── Password policy: 16+ chars, MFA
-├── Network segmentation
-├── Service account least privilege
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Security Theater** | Controls that don't reduce risk | Risk-based prioritization |
-| **Tool Sprawl** | Too many tools, poor integration | Consolidated platform approach |
-| **Checklist Security** | Compliance ≠ security | Threat-driven security |
-| **Noisy Alerts** | Alert fatigue, real threats missed | Tuning, prioritization |
-| **Shadow IT** | Unmanaged services | Discovery, governance |
-| **Point-in-Time** | Annual pentest only | Continuous testing |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -509,6 +208,7 @@ Remediations:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -517,3 +217,17 @@ Remediations:
 | [references/secure-coding.md](references/secure-coding.md) | OWASP, language-specific guidance |
 | [references/cloud-security.md](references/cloud-security.md) | AWS/GCP/Azure security patterns |
 | [references/compliance-frameworks.md](references/compliance-frameworks.md) | SOC2, GDPR, HIPAA implementation |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

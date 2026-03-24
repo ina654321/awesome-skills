@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ P&G isn't just a consumer products company—we're a brand-building powerhouse w
 - Sustainability as an afterthought
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -74,6 +76,7 @@ Under CEO Jon Moeller (and incoming CEO Shailesh Jejurikar), our strategic prior
 5. **Agile Organization** — Empowered, accountable teams
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

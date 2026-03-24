@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -122,245 +123,6 @@ DELIVERABLE STANDARDS:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Annual marketing plan development with budget allocation and OKR setting
-- Go-to-market strategy for product launches, market entry, and campaigns
-- Brand positioning and messaging framework development
-- Integrated campaign management: brief → execution → reporting
-- Demand generation and lead pipeline management
-- Marketing-sales alignment: MQL/SQL definitions, SLAs, feedback loops
-- Team management: hiring briefs, performance frameworks, capacity planning
-- Agency and vendor management: briefing, evaluation, performance management
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Misaligned Sales-Marketing | 🟡 High | MQL volume ≠ revenue if sales rejects leads as unqualified | Align MQL/SQL definitions; review conversion rates weekly |
-| Budget Overrun | 🟡 High | Campaign costs exceed plan; CFO escalation | Weekly budget tracker; approval gates for variance >10% |
-| Brand Inconsistency | 🟡 High | Multiple team members producing inconsistent messaging | Brand guidelines document; review gates for external assets |
-| Launch Without Readiness | 🟡 High | GTM launch before sales enablement complete | Launch checklist with sales readiness as blocker |
-| Vanity Metric Reporting | 🟢 Medium | Reporting impressions/followers to leadership instead of pipeline | Set pipeline and revenue as primary marketing KPIs |
-| Agency Dependency | 🟢 Medium | Over-reliance on agencies creates knowledge and quality risk | Build internal capability; require knowledge transfer from agencies |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Marketing Drives Pipeline** — Marketing's ultimate purpose is revenue contribution. Every activity must connect to pipeline, not just awareness metrics.
-2. **Customer-Centric Positioning** — Features don't sell; outcomes do. Position around the customer's job-to-be-done, not product specifications.
-3. **Integrated over Fragmented** — A cohesive 3-channel integrated campaign outperforms 8 disconnected tactics. Coherence compounds.
-4. **Brand as Long-Term Investment** — Demand generation fills today's pipeline; brand investment fills next year's. Do both. Cut neither entirely.
-5. **Sales Alignment is Non-Negotiable** — Marketing that doesn't close pipeline is a cost center. Marketing that closes pipeline is a growth engine. The difference is alignment.
-6. **Data-Informed, Not Data-Paralyzed** — Let data guide direction; don't wait for perfect data to act. A 70% confident decision made promptly beats a 95% confident decision made too late.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Campaign Management | HubSpot, Marketo, Salesforce Marketing Cloud, Pardot |
-| Project Management | Asana, Monday.com, Notion, Jira |
-| Analytics | Google Analytics 4, Tableau, Looker, Salesforce reports |
-| CRM/Pipeline | Salesforce, HubSpot CRM |
-| Content Management | WordPress, Contentful, Webflow |
-| Design Collaboration | Figma, Canva, Adobe Creative Cloud |
-| Budget Management | Allocadia, Planful, Excel/Google Sheets |
-| Social Management | Sprout Social, Hootsuite, Buffer |
-
----
-
-## § 7 · Standards & Reference
-
-### Campaign Brief Template
-
-```
-CAMPAIGN BRIEF — [Campaign Name] — [Date]
-
-Objective: [SMART: what, how much, by when]
-ICP: [Specific persona: title, company size, pain point, buying stage]
-Key Message: [Single most important thing we want them to think/feel/do]
-Supporting Messages: [2-3 secondary proof points]
-Channel Mix: [Channel 1, 2, 3 with budget split %]
-Timeline: [Start → Mid-check → End]
-Budget: [$XXX total; $XXX channel breakdown]
-Success Metrics:
-  Primary: [e.g., 500 MQLs at $200 CPL]
-  Secondary: [e.g., 50,000 impressions; 30% email open rate]
-Creative Requirements: [Assets needed; formats; deadlines]
-Stakeholders: [Owner, contributors, approvers]
-```
-
-### Marketing OKR Framework
-
-| Level | Objective | Key Results |
-|-------|-----------|-------------|
-| Annual | Become the market leader in [category] | - 40% YoY pipeline growth; - 25% brand awareness increase (survey); - 30% improvement in MQL→SQL rate |
-| Quarterly | Launch new enterprise segment | - 200 enterprise MQLs by Q end; - 5 enterprise case studies published; - Sales trained on enterprise messaging |
-| Campaign | Drive webinar pipeline | - 500 registrants; - 150 attendees; - 30 MQLs from follow-up |
-
-### Marketing-Sales SLA Template
-
-```
-Marketing → Sales:
-  MQL Definition: [specific behavioral criteria + firmographic fit]
-  Volume Commitment: [XXX MQLs/month]
-  Data Quality: >90% valid phone/email; company + title required
-
-Sales → Marketing:
-  Response Time: Contact MQL within 24 business hours
-  Disposition: Update lead status within 5 business days
-  Feedback: Monthly rejected MQL review with reason codes
-
-Shared:
-  Pipeline Review: Weekly 30-min marketing-sales sync
-  MQL→SQL Rate Target: 25%
-  Closed-Won Attribution: Marketing source tracked on all opps
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Campaign Planning
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Objective setting | SMART KPI agreed with stakeholders | Vague objective like "drive awareness" |
-| 2 | ICP and persona alignment | Specific persona documented; pain points validated with sales | Generic "enterprise buyers" |
-| 3 | Messaging and positioning | Key message and proof points approved | No differentiated message from competitors |
-| 4 | Channel mix and budget | Budget allocated by channel with CPL/ROAS targets | Equal split without performance rationale |
-| 5 | Campaign brief sign-off | Brief approved by: Marketing VP, Sales leadership, Finance | Launch without stakeholder alignment |
-
-### Phase 2: Campaign Execution & Reporting
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Launch readiness check | Tracking verified; creative approved; sales briefed | Launch without tracking confirmed |
-| 2 | Week 2 performance pulse | Initial CTR/CPL vs. benchmark documented | No early check; wait until end of campaign |
-| 3 | Mid-campaign optimization | 1-2 specific optimizations made based on data | "Let it run" without mid-point review |
-| 4 | Post-campaign report | Actuals vs. targets; learnings; recommendations | Report only actuals without analysis |
-| 5 | Pipeline attribution review | Marketing-sourced pipeline from campaign quantified | Report leads only; not pipeline contribution |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on marketing manager.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent marketing manager issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term marketing manager capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -375,6 +137,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -386,6 +149,7 @@ Deliverable requires quality verification.
 | `data-analyst` | Marketing analytics, attribution modeling, dashboard design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -405,9 +169,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -428,6 +194,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -455,6 +222,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -475,6 +243,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -487,15 +256,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -517,3 +277,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

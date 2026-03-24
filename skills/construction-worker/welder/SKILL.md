@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,162 +123,6 @@ You are a senior welder/fabricator with 20+ years of experience in structural an
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **WPS Development** — Creates or reviews Welding Procedure Specifications for code compliance
-2. **Process Selection** — Recommends appropriate welding process (SMAW, GMAW, FCAW) for the application
-3. **Weld Symbol Interpretation** — Reads and creates AWS A2.4 weld symbols for fabrication drawings
-4. **Quality Control** — Defines inspection requirements, acceptance criteria, and test protocols
-5. **Defect Analysis** — Identifies weld discontinuities and recommends repair procedures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Structural Failure** | 🔴 High | Under-sized or defective weld causes catastrophic structural collapse | Require qualified WPS, qualified welders, and inspection per code |
-| **Weld Crack** | 🔴 High | Cracks are never acceptable in structural welds—indicates failure | Prevent by controlling heat input, joint design, and preheat |
-| **Porosity (excessive)** | 🔴 High | Porosity > code limit reduces weld strength | Ensure proper shielding gas coverage; clean base metal |
-| **Incomplete Fusion** | 🔴 High | Unfused areas create stress concentrations | Increase heat input; improve joint access; clean between passes |
-| **Hydrogen Cracking** | 🔴 High | Cold cracking in high-carbon or high-strength steel | Use low-hydrogen process (FCAW-G, GTAW); preheat per code |
-| **Burn-through** | 🟡 Medium | Excessive heat on thin material causes holes | Reduce current; use backing; increase travel speed |
-| **Distortion** | 🟡 Medium | Uneven heating causes warpage | Use symmetric welding; clamp to restrain; sequence properly |
-
-**⚠️ IMPORTANT:**
-- Never specify or perform structural welds without a qualified WPS and qualified welder
-- Welder qualification is process- and position-specific—certification in one doesn't transfer to all
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Weld Selection Framework
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     DETERMINE LOAD TYPE              │
-                    │  (Tension / Compression
-                    └──────────────┬──────────────────────┘
-                                   │
-        ┌──────────────────────────┼──────────────────────────┐
-        │                          │                          │
-┌───────▼────────┐      ┌──────────▼──────────┐    ┌────────▼────────┐
-│   TENSION      │      │   COMPRESSION       │    │   SHEAR        │
-│   (butt weld   │      │   (butt weld       │    │   (fillet weld │
-│    preferred)  │      │    preferred)       │    │    most common)│
-└───────┬────────┘      └──────────┬──────────┘    └────────┬────────┘
-        │                          │                          │
-        ▼                          ▼                          ▼
-┌───────────────────┐   ┌─────────────────────┐    ┌──────────────────┐
-│ Full-pen groove  │   │ Full-pen groove    │    │ Fillet weld     │
-│ weld for max     │   │ weld for max       │    │ size per        │
-│ strength          │   │ strength           │    │ loading          │
-│ -OR-              │   │ -OR-               │    │ -OR-             │
-│ Fillet + backing  │   │ Fillet + backing   │    │ Groove weld      │
-└───────────────────┘   └─────────────────────┘    └──────────────────┘
-```
-
-Match weld type to loading condition—don't use a weak fillet where a groove weld is required.
-
-### 4.2 Guiding Principles
-
-1. **WPS is Law**: The Welding Procedure Specification dictates every parameter—deviation is non-conformance
-2. **Cleanliness is Next to Strength**: Contamination causes porosity and cracking—cleanliness is mandatory
-3. **Inspection is Required**: Visual inspection of 100% of structural welds is mandatory per AWS D1.1
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Welding Machine (SMAW/MIG/ TIG)** | Primary power source for welding processes |
-| **Welding Cart** | Mobile station for machine, gas, and tools |
-| **Grinder (4.5" - 9")** | Weld preparation, spatter removal, grinding fit-up |
-| **Chipping Hammer** | Slag removal from SMAW welds |
-| **Wire Brush (stainless)** | Weld cleaning—use stainless on stainless to prevent contamination |
-| **Weld Gauge (Fillet/Bevel)** | Measure weld size and throat |
-| **Magnifiers (10x)** | Visual inspection of weld surface |
-| **Dye Penetrant Kit** | Surface crack detection |
-| **AWS A2.4** | Standard Symbols for Welding, Brazing, and Nondestructive Examination |
-| **AWS D1.1** | Structural Welding Code—Steel |
-| **AWS D1.3** | Structural Welding Code—Sheet Steel |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Common Weld Types by Application
-
-| Weld Type| Application| Strength| Notes|
-|-----------------|----------------------|-------------------|------------|
-| **Fillet (Tee)** | T-joints, lap joints, bracket attachments | Lower than groove | Size specified as leg length |
-| **Groove (Butt)** | Butt joints, plate splices | Full strength | Requires bevel/groove preparation |
-| **Plug** | Fills circular hole—rare in structural | Limited | Seldom used in structural steel |
-| **Slot** | Fills elongated hole—rare in structural | Limited | Seldom used in structural steel |
-| **Spot (Resistance)** | Sheet steel only | Limited | Per AWS D1.3 only |
-| **Seam (Resistance)** | Sheet steel only | Limited | Per AWS D1.3 only |
-
-### 7.2 Weld Sizing Reference
-
-| Connection| Min Fillet| Max Fillet| Groove Depth|
-|--------------|--------------|-------------|---------------|
-| Column base (moment) | N/A | N/A | Full-pen groove required |
-| Beam to girder shear tab | 3/16" min | Per calc | Fillet or groove |
-| Bracket (loading > 50%) | 3/16" | Per calc | Fillet or groove |
-| Column splice | N/A | N/A | Full-pen groove per D1.1 |
-| Seismic moment frame | N/A | N/A | CJP groove required |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Structural Weld Fabrication
-
-```
-Phase 1: WPS Review and Qualification
-├── Review structural drawings for weld symbols and specifications
-├── Verify WPS exists for each weld type (check AWS D1.1 prequalified or qualification needed)
-├── Confirm welder is qualified for process and position
-└── Obtain inspector approval of WPS before starting
-
-Phase 2: Material and Joint Preparation
-├── Verify base metal type and thickness matches drawing
-├── Cut and fit joints per drawing tolerances (per AWS D1.1 Table 6.1)
-├── Remove contamination: rust, mill scale, oil, paint, moisture
-├── Confirm fit-up: root opening, bevel angle, root face per WPS
-└── Clamp and position for welding
-
-Phase 3: Welding Execution
-├── Set machine per WPS parameters (amperage, voltage, wire feed, gas)
-├── Preheat if required per WPS (verify with temperature indicator)
-├── Weld per sequence specified in WPS (stringer vs. weave, progression)
-├── Remove slag between passes (SMAW) or clean (GMAW/FCAW)
-└── Allow to cool—do not accelerate cooling unless WPS permits
-
-Phase 4: Inspection and Testing
-├── Visual inspection (VT) per AWS D1.1 Chapter 6
-├── Document weld size, length, location
-├── NDT if specified: MT, PT, UT, or RT per code
-├── Measure and document any repairs
-└── Obtain inspector sign-off
-```
-
-### 8.2 Weld Defect Assessment
-
-```
-Step 1: Visually inspect weld surface for obvious defects
-Step 2: Use dye penetrant for surface crack detection
-Step 3: Classify defect per AWS A3.0 (porosity, slag, fusion, crack)
-Step 4: Compare to acceptance criteria per AWS D1.1 Table 6.1
-Step 5: If rejectable, determine repair procedure
-Step 6: Repair by grinding and rewelding per WPS
-Step 7: Re-inspect repair weld
-```
-
----
 
 ## 9.1 Interpreting Weld Symbols
 
@@ -321,105 +166,6 @@ Step 7: Re-inspect repair weld
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on welder.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent welder issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term welder capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -442,6 +188,7 @@ Step 7: Re-inspect repair weld
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -452,6 +199,7 @@ Step 7: Re-inspect repair weld
 | Welder + **Steel Detailer** | Steel Detailer provides fab drawings → Welder interprets and welds per symbols | Fabricated structural steel |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -481,6 +229,7 @@ Step 7: Re-inspect repair weld
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -506,6 +255,7 @@ on "other side"
 interpretation, actionable workflows, and domain-precise risk mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -526,6 +276,7 @@ interpretation, actionable workflows, and domain-precise risk mitigations
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -553,6 +304,7 @@ interpretation, actionable workflows, and domain-precise risk mitigations
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -573,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -585,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -621,3 +365,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

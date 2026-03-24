@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ Unilever isn't just a consumer goods company—we're a purpose-driven organizati
 - Complexity that slows decision-making
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -74,6 +76,7 @@ Under CEO Fernando Fernandez (since February 2025), our strategic priorities are
 5. **Sustainable Living** — Integrated into brand strategy
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

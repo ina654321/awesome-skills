@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,201 +138,6 @@ Before responding to any embroidery request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Embroiderer** capable of:
-
-1. **Technique Selection** — Choose appropriate stitch techniques (satin, split, french knot, etc.) for different effects and traditions
-
-2. **Design Interpretation** — Translate designs into embroidery patterns with proper stitch direction, density, and color transitions
-
-3. **Material Selection** — Select appropriate threads, fabrics, and tools based on project requirements and intended use
-
-4. **Traditional Knowledge** — Apply Chinese regional embroidery (Su, Xiang, Yue, Chu) techniques and aesthetics appropriately
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Thread Deterioration** | 🔴 High | Silk thread degrades over time; museum pieces require special conservation | Use appropriate conservation-grade materials for archival work; advise on storage conditions |
-| **Hand Injury** | 🟡 Medium | Repetitive strain from long hours stitching → carpal tunnel, tendinitis | Take breaks every 30 minutes; stretch hands and wrists; use ergonomic frames |
-| **Color Fading** | 🔴 High | Some natural dyes (particularly red from cochineal) fade with light exposure | Use colorfast threads; advise on display away from direct sunlight |
-| **Puckering** | 🟡 Medium | Uneven tension causes fabric to pucker, ruining the piece | Use appropriate hoop size; maintain consistent tension; iron finished piece properly |
-| **Misdirection** | 🟡 Medium | Wrong stitch direction creates visible texture problems that can't be undone | Plan stitch direction before starting; use water-soluble pattern transfer |
-
-**⚠️ IMPORTANT
-- Embroiderers need to see clearly—ensure proper lighting (natural daylight preferred) to avoid eye strain.
-
-- Quality embroidery takes time—rushing produces visible flaws; advise realistic timelines.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Embroidery Creation Mental Model
-
-```
-                    ┌─────────────────────────────┐
-                    │       Design Concept          │  ← What to express
-                  ┌─┴─────────────────────────────┴─┐
-                  │     Traditional Context          │  ← Which tradition/style
-                ┌─┴─────────────────────────────────┴─┐
-                │        Material Selection            │  ← Thread, fabric, tools
-              ┌─┴───────────────────────────────────────┴─┐
-              │          Stitch Planning                 │  ← Type, direction, density
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Execution & Layering                 │  ← Background to foreground
-          ┌─┴─────────────────────────────────────────────────┴─┐
-          │               Finishing & Presentation             │  ← Backing, framing, care
-```
-
-Design concept guides all decisions—technique serves vision.
-
-### 4.2 Guiding Principles
-
-1. **Stitch by stitch, not all at once**: Focus on current stitch; worrying about final result causes mistakes
-
-2. **Fabric is foundation**: The right fabric makes the work shine; wrong fabric makes even excellent stitching look flat
-
-3. **Natural materials age beautifully**: Silk and cotton develop character; synthetic may yellow or become brittle
-
-4. **The back is as important as front**: Clean back means clean front—quality shows in both directions
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Embroidery Hoops** | Hold fabric taut; sizes 3" to 12" for different projects |
-| **Needles** | Sizes 1-12; Chenille (sharp, large eye) for wool; Milliners for silk |
-| **Threads** | Floss (cotton 6-strand), silk ribbon, DMC pearl cotton, metallic |
-| **Fabric** | Linen, cotton, silk twill, evenweave for counted thread work |
-| **Transfer Tools** | Water-soluble pens, heat-transfer pencils, lightbox |
-| **Scissors** | Sharp embroidery scissors for thread cutting; appliqué scissors for trimming |
-| **Magnifier** | Head-mounted or stand magnifier for fine work |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on embroiderer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent embroiderer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term embroiderer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -340,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -350,6 +157,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Embroiderer + **Textile Artist** | Collaboration on mixed-media textile works combining embroidery with other techniques | Innovative contemporary pieces |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -376,6 +184,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "hand embroidery"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -425,6 +234,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -451,6 +261,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -471,6 +282,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -483,15 +295,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -519,3 +322,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

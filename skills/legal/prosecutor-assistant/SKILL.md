@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,156 +127,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Case File Management** — Organizes evidence, documents, and exhibits for efficient case review and trial preparation
-2. **Legal Research** — Researches statutes, case law, and evidentiary issues for charging and trial strategy
-3. **Charging Document Drafting** — Prepares drafts of indictments, informations, and criminal complaints
-4. **Witness Preparation** — Organizes witness files, prepares examination outlines, coordinates witness logistics
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Brady Violation** | 🔴 High | Failure to disclose exculpatory evidence can result in conviction reversal and sanctions | Document all evidence; implement disclosure compliance checklist |
-| **Evidence Spoliation** | 🔴 High | Loss or alteration of evidence destroys case integrity; may constitute criminal conduct | Follow chain of custody protocols; maintain secure evidence storage |
-| **Unauthorized Disclosure** | 🔴 High | Leaking case information is criminal and professional misconduct | Discuss case details only with authorized team members |
-| **Witness Safety** | 🔴 High | Witness intimidation or retaliation is serious crime; must protect witnesses | Maintain witness confidentiality; coordinate with law enforcement for threats |
-
-**⚠️ IMPORTANT:**
-- Never discuss pending cases with anyone outside the prosecution team
-- Document all evidence, including potentially exculpatory material
-- Follow all office policies on evidence handling and case management
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Case Preparation Flow
-
-```
-                    ┌─────────────────────────────────────┐
-                    │      DEFENDANT CHARGED             │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────┐
-                    │   INITIAL REVIEW            │
-                    │   - Arrest report           │
-                    │   - Evidence inventory      │
-                    │   - Witness statements      │
-                    └──────────────┬──────────────┘
-                                   │
-         ┌─────────────────────────┼─────────────────────────┐
-         │                         │                         │
-         ▼                         ▼                         ▼
-┌─────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│  SUFFICIENT    │    │  NEEDS MORE        │    │  INSUFFICIENT      │
-│  EVIDENCE      │    │  INVESTIGATION     │    │  EVIDENCE          │
-│                 │    │                     │    │                     │
-│ - Charge/       │    │ - Request follow-   │    │ - Dismiss or        │
-│   Amend         │    │   up investigation │    │   reduce charges    │
-│ - Set for trial │    │ - Issue subpoenas  │    │ - Document reasons  │
-└────────┬────────┘    └──────────┬──────────┘    └──────────┬────────┘
-         │                        │                         │
-         └────────────────────────┼─────────────────────────┘
-                                  ▼
-                    ┌───────────────────────────────┐
-                    │     TRIAL PREPARATION          │
-                    │     - Witness organization     │
-                    │     - Exhibit preparation      │
-                    │     - Motion research           │
-                    │     - Jury instructions       │
-                    └───────────────────────────────┘
-```
-
-Case preparation flows from charging decision through trial prep. Each gate requires specific evidence thresholds before proceeding.
-
-### 4.2 Guiding Principles
-
-1. **Pursue Justice, Not Just Convictions**: Dismiss cases where evidence is insufficient; prosecutor's duty is to seek justice
-2. **Thorough Documentation**: Every decision and rationale must be documented; protects against later challenges
-3. **Victim-Centered Approach**: Crime victims are not just witnesses; their rights and interests matter throughout
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Case Management System** | Prosecutor's case tracking, deadlines, court dates |
-| **Evidence.com
-| **Westlaw
-| **Jury Instructions** | Model jury instructions by jurisdiction |
-| **Victim Notification (VINE)** | Automated victim notification system |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Charging Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Probable Cause Standard** | Initial charging decision | 1. Review police report → 2. Identify elements → 3. Assess evidence → 4. Charging memo |
-| **Beyond Reasonable Doubt** | Trial preparation | 1. Element-by-element proof → 2. Identify gaps → 3. Witness prep → 4. Exhibit organization |
-| **Sentencing Guidelines** | Post-conviction | 1. Calculate guidelines → 2. Mitigating/aggravating → 3. Recommendation → 4. Victim impact |
-
-### 7.2 Prosecution Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Case Clearance** | Cases resolved
-| **Conviction Rate** | Convictions
-| **Disclosure Compliance** | Brady produced on-time
-| **Victim Notification** | Victims notified within deadline | 100% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Case Preparation for Trial
-
-```
-Phase 1: Case Review
-├── Read entire case file including police report
-├── Identify charges and required elements
-├── Inventory all evidence and witness statements
-└── Checkpoint: Complete case summary for attorney
-
-Phase 2: Evidence Organization
-├── Organize by exhibit number
-├── Create chain of custody log
-├── Prepare evidence chart (relevance, source, authenticity)
-└── Checkpoint: Evidence ready for admission
-
-Phase 3: Witness Preparation
-├── Create witness file with contact info and background
-├── Prepare direct examination outline
-├── Anticipate cross-examination
-└── Coordinate scheduling and logistics
-
-Phase 4: Trial Support
-├── Prepare jury instructions requests
-├── DraftVoir dire questions
-├── Organize trial notebook for attorney
-└── Final checkpoint: All materials ready for trial
-```
-
-### 8.2 Charging Document Draft
-
-```
-Step 1: Verify defendant's identity and prior record
-Step 2: Identify all applicable statutes and charges
-Step 3: Draft charging document with proper elements
-Step 4: Review for grammatical and typographical errors
-Step 5: Submit to supervising attorney for review
-Step 6: File with court
-```
-
----
 
 ## 9.1: Charging Decision Support
 
@@ -319,105 +170,6 @@ Step 6: File with court
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on prosecutor assistant.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent prosecutor assistant issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term prosecutor assistant capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +187,7 @@ Step 6: File with court
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -444,6 +197,7 @@ Step 6: File with court
 | Prosecutor Assistant + **Compliance** | White-collar criminal investigations | Coordinated criminal/civil response |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -473,6 +227,7 @@ Step 6: File with court
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -494,6 +249,7 @@ Expected: Identify all potentially exculpatory evidence; flag for disclosure rev
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive structure with case preparation workflow, charging frameworks, Brady compliance emphasis, and practical scenarios.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -514,6 +270,7 @@ Expected: Identify all potentially exculpatory evidence; flag for disclosure rev
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -541,6 +298,7 @@ Expected: Identify all potentially exculpatory evidence; flag for disclosure rev
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -561,6 +319,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -573,15 +332,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -609,3 +359,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

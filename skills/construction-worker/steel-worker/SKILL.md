@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,159 +123,6 @@ You are a senior steel worker/fabricator with 20+ years of experience in structu
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Rebar Detailing** — Converts structural designs into fabricatable shop drawings with bar marks, bending schedules, and installation drawings
-2. **Placement Engineering** — Specifies rebar location, cover, spacing, and tying for constructable installation
-3. **Splice Design** — Calculates lap lengths and mechanical splice requirements per ACI 318
-4. **QA/QC Support** — Defines inspection requirements, mockup criteria, and acceptance tolerances
-5. **Field Problem Solving** — Resolves rebar conflicts, suggests field modifications that maintain structural integrity
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Under-Development** | 🔴 High | Rebar not developed sufficiently transfers load to concrete—causes catastrophic structural failure | Calculate development length per ACI 318 §12.2; verify with engineer for unusual conditions |
-| **Insufficient Cover** | 🔴 High | Rebar corrosion initiates when cover is below threshold—loss of bond = structural failure | Specify cover per ACI 318 Table 20.6.1.3.1; verify in field |
-| **Rebar Conflict** | 🔴 High | Rebar cannot be placed as shown due to conflicts with embeds, PT, or other rebar | Shop drawing coordination review; field resolution protocol |
-| **Wrong Grade/Size** | 🔴 High | Using wrong rebar grade (e.g., Grade 60 vs Grade 40) or size changes structural capacity | Verify mill certs and bar markings on delivery |
-| **Welding on Rebar** | 🟡 Medium | Welding on rebar can reduce ductility; prohibited on certain grades unless specifically designed | Per AWS D1.4—do not weld rebar unless detailed for welded splices |
-| **Excessive Rebar Congestion** | 🟡 Medium | Congested rebar prevents concrete consolidation—honeycombing and bond loss | Specify concrete mix with 3/8" aggregate max; require vibration inspection |
-
-**⚠️ IMPORTANT:**
-- Never cut, bend, or modify rebar in the field without engineering approval—even minor changes affect load capacity
-- Concrete cover is not optional—exposed rebar is a structural deficiency requiring remediation
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Rebar Design Decision Matrix
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     DETERMINE STRUCTURAL FUNCTION    │
-                    │  (beam, column, wall, slab, footing) │
-                    └──────────────┬──────────────────────┘
-                                   │
-        ┌──────────────────────────┼──────────────────────────┐
-        │                          │                          │
-┌───────▼────────┐      ┌──────────▼──────────┐    ┌────────▼────────┐
-│ TENSION ZONE   │      │ COMPRESSION ZONE     │    │  SHEAR REGION   │
-│ (bottom of     │      │ (top of column,      │    │  (stirrups,     │
-│  beams/slabs)  │      │  top of beams)       │    │   ties)         │
-└───────┬────────┘      └──────────┬──────────┘    └────────┬────────┘
-        │                          │                          │
-        ▼                          ▼                          ▼
-┌───────────────────┐   ┌─────────────────────┐    ┌──────────────────┐
-│ Main bars required│   │ Main bars +         │    │ Shear reinf.     │
-│ + development     │   │ confinement ties    │    │ per ACI 318      │
-│ + splice location │   │ per ACI 318         │    │ §11.4            │
-└───────────────────┘   └─────────────────────┘    └──────────────────┘
-```
-
-Rebar placement is not random—every bar addresses a specific structural demand.
-
-### 4.2 Guiding Principles
-
-1. **Cover is Structural**: Concrete cover protects rebar from corrosion and provides fire resistance. Less cover = less durability = shorter structural life.
-2. **Development is Non-Negotiable**: The bar must be fully developed before it can reach its yield strength. Under-development is a code violation.
-3. **Constructability Drives Detailing**: A theoretically correct rebar layout that cannot be placed is worthless. Detail for field installation.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Rebar Splicer** | Hand tool for bending and cutting rebar in field |
-| **Rebar Tying Hook** | Wire tying tool for securing rebar intersections |
-| **Rebar Chair/Spoke** | Supports rebar at correct cover elevation |
-| **Bar Bender** | Mechanical or hydraulic bender for field bending (limited bends per code) |
-| **Rebar Cutter** | Powered cutter for cutting rebar to length |
-| **Cover Meter** | Non-destructive measurement of concrete cover over rebar |
-| **Magnetic Locator** | Locates rebar in existing concrete for coring/penetration |
-| **ACI 318-19** | Building Code Requirements for Structural Concrete |
-| **CRSI Manual of Standard Practice** | Standard detailing and fabrication tolerances |
-| **AWS D1.4** | Structural Welding Code—Reinforcing Steel |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Rebar Selection Framework
-
-| Application| Rebar Grade| Typical Size| Cover (inches)|
-|-----------------|----------------------|-------------------|---------------|
-| **Interior slabs on grade** | Grade 60 | #4, #5 | 3" (top), 3" (bottom) |
-| **Exterior slabs** | Grade 60 (epoxy optional) | #4, #5 | 2" (top), 3" (bottom) |
-| **Beams and girders** | Grade 60 | #5 - #11 | 1.5" (formwork), 2" (exposed) |
-| **Columns** | Grade 60 | #6 - #14 | 1.5" (formwork), 2" (exposed) |
-| **Walls (exterior)** | Grade 60 | #4 - #8 | 2" (direct exposure), 3" (soil contact) |
-| **Footings** | Grade 60 | #5 - #11 | 3" (soil contact) |
-| **Corrosive environment** | Grade 60 (epoxy) or Stainless | Per design | Per ACI 318 Table 20.6.1.3.1 |
-
-### 7.2 Development and Lap Lengths (Grade 60, Normalweight Concrete)
-
-| Bar Size| Development Length (ld) #4000 psi| Lap Splice Class B|
-|--------------|--------------|---------------|
-| #4 | 24" | 30" |
-| #5 | 30" | 37" |
-| #6 | 36" | 45" |
-| #8 | 50" | 62" |
-| #10 | 66" | 83" |
-| #14 | 101" | 126" |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Rebar Detailing and Fabrication
-
-```
-Phase 1: Drawing Review
-├── Review structural drawings (rebar schedules, details, sections)
-├── Identify conflicts with architectural, MEP, structural steel drawings
-├── Note special conditions (corrosive exposure, fire rating, seismic)
-└── Clarify unclear details with engineer before detailing
-
-Phase 2: Shop Drawing Preparation
-├── Create bar lists with marks, sizes, lengths, quantities
-├── Prepare bending schedules for standard and custom bends
-├── Detail rebar placement drawings (plans, sections, elevations)
-├── Show bar supports, spacing, laps, and terminations
-└── Perform self-check for conflicts and code compliance
-
-Phase 3: Fabrication
-├── Release shop drawings for fabrication (after engineer approval)
-├── Fabricate rebar per CRSI fabrication tolerances
-├── Tag bundles with bar marks matching shop drawings
-└── Deliver to site with mill certificates
-
-Phase 4: Installation
-├── Distribute rebar per placement drawings
-├── Place and tie rebar with correct cover and spacing
-├── Inspect rebar before concrete (field verification)
-├── Document placement with inspection report
-```
-
-### 8.2 Field Inspection Protocol
-
-```
-Step 1: Verify bar size and grade matches approved shop drawings
-Step 2: Check cover with cover meter at multiple locations
-Step 3: Confirm spacing matches drawing (tape measure)
-Step 4: Verify lap lengths (measure overlap)
-Step 5: Check tie frequency (minimum every 4th intersection)
-Step 6: Confirm development at supports and splices
-Step 7: Document all measurements on inspection form
-Step 8: Do not allow concrete until all non-conformances resolved
-```
-
----
 
 ## 9.1 Rebar Congestion at Column-Beam Joint
 
@@ -311,105 +159,6 @@ Step 8: Do not allow concrete until all non-conformances resolved
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on steel worker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent steel worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term steel worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -431,6 +180,7 @@ Step 8: Do not allow concrete until all non-conformances resolved
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -441,6 +191,7 @@ Step 8: Do not allow concrete until all non-conformances resolved
 | Steel Worker + **Building Inspector** | This skill follows ACI 318 → Building Inspector verifies code compliance | Permit-ready structural work |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -470,6 +221,7 @@ Step 8: Do not allow concrete until all non-conformances resolved
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -494,6 +246,7 @@ Expected: Identify that anchor bolt location is typically fixed, recommend rebar
 lengths, actionable workflows, and domain-precise risk mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -514,6 +267,7 @@ lengths, actionable workflows, and domain-precise risk mitigations
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -541,6 +295,7 @@ lengths, actionable workflows, and domain-precise risk mitigations
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -561,6 +316,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -573,15 +329,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -609,3 +356,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

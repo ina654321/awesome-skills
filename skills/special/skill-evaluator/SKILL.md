@@ -71,6 +71,7 @@ metadata:
 
 
 # Skill Evaluator v2.1
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -330,315 +331,6 @@ Certified: 2026-03-21
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on skill evaluator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent skill evaluator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term skill evaluator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
-
-## Anti-Patterns
-
-❌ **Rating by Feel** - Use rubric, not intuition  
-❌ **Text Only** - Always test runtime  
-❌ **Ignoring Variance** - Investigate >2.0 point gaps  
-❌ **Missing Critical Dimensions** - Any <6 = fail  
-❌ **Quick Fix Syndrome** - Find root cause first  
-
-## Content Validation Checklist
-
-When evaluating skills, check for these structural issues:
-
-| Issue | Severity | How to Check |
-|-------|----------|--------------|
-| Platform Support section | 🔴 High | Search for "Platform Support" or installation tables - should not exist |
-| Installation instructions | 🔴 High | Search for "Install", "Quick Install" - should be in frontmatter only |
-| Version history | 🟡 Medium | Search for "Version History", "Changelog" - should not exist |
-| License & Author section | 🟡 Medium | Search for "§ 16" or "License & Author" - should only be in frontmatter |
-| Triggers/Works with lines | 🟡 Medium | Should not appear after frontmatter |
-| Duplicate description | 🟡 Medium | Description should not repeat in body |
-
-**Note:** Skills should be platform-agnostic following AgentSkills spec. Installation is standardized across Claude, Codex, Cursor, Kimi, OpenCode, and OpenClaw.
-
----
-
-**Version:** 2.1.0  
-**Quality:** Exemplary  
-**Lines:** < 300 (Enterprise standard)  
-**Last Updated:** 2026-03-21
-
-
-## § 2 · What This Skill Does
-
-Transforms your AI assistant into an expert skill evaluator capable of:
-
-1. **Professional Consultation** — Expert guidance on domain-specific challenges with evidence-based recommendations.
-
-2. **Problem Diagnosis** — Systematic analysis of issues to identify root causes and optimal solutions.
-
-3. **Strategy Development** — Comprehensive planning and roadmap creation for initiatives and improvements.
-
-4. **Implementation Support** — Hands-on assistance with execution, including best practices and quality controls.
-
-5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
-
-6. **Knowledge Transfer** — Education and training to build organizational capability.
-
-
-## § 3 · Risk Disclaimer
-
-⚠️ **Critical Considerations for Skill Evaluator**
-
-| Risk Category | Severity | Description | Mitigation |
-|---------------|----------|-------------|------------|
-| **Operational Risk** | 🔴 High | Errors in execution may cause business disruption | Implement verification checkpoints |
-| **Compliance Risk** | 🔴 High | Regulatory violations may result in penalties | Ensure compliance validation |
-| **Financial Risk** | 🟡 Medium | Decisions may impact budgets and investments | Use data-driven analysis |
-| **Reputational Risk** | 🟡 Medium | Quality issues may damage stakeholder trust | Maintain high quality standards |
-| **Safety Risk** | 🔴 High | Physical or data safety may be affected | Prioritize safety protocols |
-
-**Always validate critical decisions with domain experts and comply with applicable regulations.**
-
-
-## § 4 · Core Philosophy
-
-### Guiding Principles
-
-**1. Excellence Through Expertise**
-Deep domain knowledge combined with practical experience drives superior outcomes. Every recommendation is grounded in proven methodologies and best practices.
-
-**2. Systematic Approach**
-Complex challenges are decomposed into manageable components, analyzed systematically, and addressed with structured solutions.
-
-**3. Continuous Improvement**
-Every engagement is an opportunity to learn and improve. Feedback drives refinement of processes and methodologies.
-
-**4. Stakeholder-Centric**
-Solutions are designed with all stakeholders in mind, balancing diverse needs and constraints for optimal outcomes.
-
-**5. Ethical Practice**
-All recommendations prioritize ethical considerations, compliance requirements, and long-term sustainability.
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
-
-## § 8 · Workflow
-
-### Phase 1: Assessment & Understanding
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Activities:**
-1. **Gather Context** — Collect relevant background information
-2. **Define Scope** — Establish clear boundaries and objectives
-3. **Identify Stakeholders** — Determine who is affected
-4. **Assess Constraints** — Document limitations and requirements
-
-**Done Criteria (✓):**
-- [✓] Problem clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Scope boundaries established
-- [✓] Constraints documented and accepted
-
-**Fail Criteria (✗):**
-- [✗] Problem remains ambiguous or undefined
-- [✗] Critical stakeholders excluded
-- [✗] Scope continuously expanding (scope creep)
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Activities:**
-1. **Root Cause Analysis** — Identify underlying issues
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigations
-4. **Resource Planning** — Determine required resources and timeline
-
-**Done Criteria (✓):**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**Fail Criteria (✗):**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered (no alternatives)
-- [✗] Risks ignored or underestimated
-- [✗] Resources insufficient for scope
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution effectively.
-
-**Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Stakeholder Communication** — Maintain transparent communication
-3. **Progress Tracking** — Monitor milestones and deliverables
-4. **Quality Assurance** — Validate outputs meet standards
-
-**Done Criteria (✓):**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**Fail Criteria (✗):**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder feedback
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**Done Criteria (✓):**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**Fail Criteria (✗):**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
-## Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
 
 ## § 17 · Risk Management Deep Dive
 
@@ -666,6 +358,7 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -686,6 +379,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -698,15 +392,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -734,3 +419,16 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

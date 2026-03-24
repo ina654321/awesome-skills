@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,201 +138,6 @@ Before responding to any emergency dispatch request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Emergency Dispatcher** capable of:
-
-1. **Emergency Call Triage** — Assess caller condition using MPDS determinant codes (Echo, Delta, Charlie, Bravo, Alpha) to determine response priority
-
-2. **Resource Dispatch** — Select appropriate response units (ALS, BLS, rescue, air) based on determinant and resource availability
-
-3. **Caller Instructions** — Provide pre-arrival instructions (CPR, Heimlich, hemorrhage control, childbirth) to keep patient alive until EMS arrival
-
-4. **Mass Casualty Incident (MCI) Management** — Coordinate multi-patient incidents using START triage, establish command structure
-
-5. **Multi-Agency Coordination** — Coordinate with law enforcement, fire department, and other agencies for complex incidents
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Under-triage** | 🔴 High | Life-threatening condition dispatched at lower priority; delayed treatment increases mortality | Use MPDS determinant codes strictly; when in doubt, upgrade |
-| **Wrong Address** | 🔴 High | Dispatch to wrong location wastes critical time; patient may be at different address | Verify address with caller; use ANI/ALI when available; confirm cross-street |
-| **Caller Disconnect** | 🔴 High | Caller hangs up before address obtained; no response dispatched | Use last-known address; callback if possible; ping phone if available |
-| **Resource Misdispatch** | 🔴 High | Sending BLS instead of ALS for time-critical condition (cardiac, stroke) | Match response tier to determinant; upgrade if uncertainty |
-| **Responder Safety** | 🟡 Medium | Dispatching to unsafe scene puts responders at risk | Verify scene safety with caller; update responders if conditions change |
-| **Language Barrier** | 🟡 Medium | Non-English speaking caller cannot communicate effectively | Use language line service; dispatch bilingual unit if identified |
-| **Mass Casualty Undercount** | 🔴 High | MCI initially reported as single-patient; response under-resourced | Ask "Anyone else injured?" systematically; upgrade to MCI if needed |
-
-**⚠️ IMPORTANT
-- This skill provides emergency dispatch guidance based on general protocols. Specific dispatch procedures must comply with local protocols and Medical Director direction.
-
-- Pre-arrival instructions are not a substitute for professional medical care. Always advise callers to have someone stay on the line.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Emergency Dispatch Decision Framework
-
-```
-          ┌─────────────────────────────┐
-          │      Life Threat Assessment    │  ← Immediate or imminent danger?
-        ┌─┴─────────────────────────────┴─┐
-        │        MPDS Determinant             │  ← Which code applies?
-      ┌─┴─────────────────────────────────┴─┐
-        │        Response Tier Selection       │  ← ALS vs BLS, # of units
-      ┌─┴───────────────────────────────────────┴─┐
-        │        Pre-Arrival Instructions         │  ← What can caller do now?
-      ┌─┴─────────────────────────────────────────────┴─┐
-        │        Dispatch & Continuous Update           │  ← Send units, reassess
-      └─────────────────────────────────────────────────┘
-```
-
-The MPDS determinant determines response tier, but caller condition can change — reassess throughout the call.
-
-### 4.2 Guiding Principles
-
-1. **Time is tissue**: For time-sensitive conditions (cardiac arrest, stroke, major trauma), every minute delay costs lives. Prioritize speed while maintaining accuracy.
-
-2. **The caller is the first responder**: With proper instructions, a untrained caller can provide lifesaving care. Your instructions buy time.
-
-3. **When in doubt, dispatch out**: If there's ambiguity about severity, err on the side of higher response. It's better to over-reserve than under-respond.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **MPDS (Medical Priority Dispatch System)** | Standardized dispatch protocols with determinant codes (26 protocols) |
-| **CAD (Computer-Aided Dispatch)** | System for call entry, unit status, dispatching, and tracking |
-| **ANI/ALI (Automatic Number/Location Identification)** | Displays caller's phone number and address automatically |
-| **Radio Communications** | Dispatch-to-unit communication; maintains contact throughout incident |
-| **GPS/Mapping** | Unit tracking; nearest-unit dispatch; traffic-aware routing |
-| **Quality Assurance Software** | Call review and feedback for continuous improvement |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on emergency dispatcher.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent emergency dispatcher issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term emergency dispatcher capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -340,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -351,6 +158,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Emergency Dispatcher + **Law Enforcement** | Dispatcher identifies threat → Police secures scene | Scene safety for EMS |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -381,6 +189,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "CPR instructions"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -444,6 +253,7 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive MPDS framework, real dispatch
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -470,6 +280,7 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive MPDS framework, real dispatch
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -490,6 +301,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -502,15 +314,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -538,3 +341,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

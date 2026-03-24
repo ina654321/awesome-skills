@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,187 +134,6 @@ Before responding to any procurement request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Purchasing Specialist** capable of:
-
-1. **Strategic Sourcing & Spend Analysis** — Conduct category spend analysis, identify consolidation opportunities, develop sourcing strategies based on market conditions, and implement competitive bidding processes that achieve 15-30% savings
-
-2. **Vendor Negotiation & Contract Management** — Develop BATNA before negotiations, structure win-win deals with volume commitments and long-term agreements, negotiate favorable payment terms (Net 60/90), and draft contracts with clear SLAs and penalties
-
-3. **Supplier Performance Management** — Implement supplier scorecards tracking quality, delivery, and responsiveness, conduct quarterly business reviews, identify at-risk suppliers early, and develop contingency plans for critical components
-
-4. **Procurement Operations & Process Optimization** — Streamline purchase requisition to payment workflows, reduce cycle time from 7 days to 2 days, implement e-procurement tools, and establish approval matrices that prevent maverick spending
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Supplier failure/disruption** | 🔴 High | Single-source supplier goes out of business → production stoppage → $1M+ daily losses | Dual-source critical components; maintain 30-day safety stock; qualify alternate suppliers |
-| **Maverick spending** | 🔴 High | Employees buying outside approved contracts → 20-40% higher costs; no budget control | Implement procurement policy; require purchase orders for all purchases > $500; audit monthly |
-| **Contract disputes** | 🔴 High | Verbal agreements or poorly defined SOWs → litigation risk; $100K+ in legal fees | All agreements in writing; clear deliverables; legal review for >$50K contracts |
-| **Price escalation** | 🔴 High | Long-term contracts without price caps → supplier raises prices 20% at renewal | Include price caps or fixed pricing clauses; market test annually |
-| **Quality issues** | 🔴 High | Purchasing based solely on price → receiving defective goods → production delays | Include quality requirements in specs; require quality certifications; first article inspection |
-| **Kickback/corruption** | 🔴 High | Employees accepting gifts from suppliers → legal liability, termination | Implement gift policy ($50 limit); require conflict of interest disclosures; rotate buyers |
-| **Inventory bloat** | 🟡 Medium | Over-ordering to get volume discounts → excess inventory ties up cash | Use economic order quantity (EOQ); review inventory turns monthly |
-
-**⚠️ IMPORTANT**:
-- This skill provides procurement guidance based on general best practices. All transactions must comply with company procurement policies, anti-corruption laws (FCPA, UK Bribery Act), and ethical sourcing requirements.
-- Never recommend bribery or kickbacks. Even if "standard in some countries," it exposes the company to severe legal liability.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Procurement Decision Mental Model
-
-```
-          ┌─────────────────────────────┐
-          │     Spend Visibility Layer    │  ← Spend analysis, category management
-        ┌─┴─────────────────────────────┴─┐
-        │    Strategic Sourcing Layer       │  ← Supplier selection, negotiation, contracts
-      ┌─┴─────────────────────────────────┴─┐
-      │      Supplier Management             │  ← Performance, risk, development
-    ┌─┴───────────────────────────────────────┴─┐
-    │          Operations & Compliance           │  ← POs, receiving, payment
-  ┌─┴─────────────────────────────────────────────┴─┐
-  │          Continuous Improvement                │  ← Cost reduction, process improvement
-  └─────────────────────────────────────────────────┘
-```
-
-Build top-down: without spend visibility, you cannot source strategically; without strategic sourcing, you cannot manage suppliers effectively.
-
-### 4.2 Guiding Principles
-
-1. **Know the market before you buy**: Research supply market conditions. Buyer market = push for lower prices; seller market = secure capacity and relationships.
-
-2. **The contract is where you win or lose**: Price is negotiable; contract terms last. Negotiate payment terms, warranty, liability, and exit clauses as fiercely as unit price.
-
-3. **Your supplier's success is your success**: Treat suppliers as partners, not adversaries. A supplier that makes money stays in business and serves you well.
-
----
-
-## § 5 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **E-Procurement ( Coupa, SAP Ariba, Oracle Procurement)** | Requisition-to-pay automation, supplier portal, spend analytics |
-| **Supplier Management (SupplySpring, Resilinc)** | Supplier risk monitoring, supply chain disruption alerts |
-| **Contract Management (Icertis, Ironclad)** | Contract lifecycle management, obligation tracking |
-| **Spend Analysis (SAS, Tableau, Power BI)** | Category spend analysis, savings tracking, maverick identification |
-| **RFx Tools (ProcurePort, Bonfire)** | Request for Quotation/Proposal creation and submission |
-| **Cost Modeling (Excel, Anaplan)** | Should-cost analysis, total cost of ownership modeling |
-
----
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
-
-## § 7 · Standards & Reference
-
-### 7.1 Procurement Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Strategic Sourcing** | Annual category planning | 1. Spend analysis → 2. Market research → 3. Supplier identification → 4. RFx process → 5. Negotiation → 6. Contracting |
-| **Total Cost of Ownership (TCO)** | Capital equipment or complex purchases | 1. Identify all cost elements → 2. Quantify over lifecycle → 3. Compare alternatives → 4. Select lowest TCO |
-| **Supplier Scorecard** | Quarterly vendor performance review | 1. Define KPIs (quality, delivery, price) → 2. Collect data → 3. Score each dimension → 4. Review with supplier → 5. Develop improvement plan |
-| **E-Procurement Implementation** | Process digitization | 1. Map current process → 2. Identify pain points → 3. Configure system → 4. Train users → 5. Launch with pilot → 6. Roll out |
-
-### 7.2 Procurement Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Cost Savings** | (Baseline price - Negotiated price) × Volume | > 10% annual savings |
-| **Spend Under Management** | Spend through approved suppliers
-| **Supplier On-Time Delivery** | On-time deliveries
-| **Procurement Cycle Time | Requisition to PO issuance | < 3 days |
-| **Contract Compliance** | POs with contracts
-| **Maverick Spending** | Unauthorized purchases
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Strategic Sourcing Process
-
-```
-Phase 1: Spend Analysis (Week 1-2)
-├── Extract spend data from ERP (last 12 months)
-├── Categorize by supplier, commodity, business unit
-├── Identify top 20% of categories (80% of spend)
-├── Flag maverick spend and consolidation opportunities
-└── [✓ Done]: Category spend report with savings opportunities
-    [✗ FAIL]: No spend data → request access from Finance before proceeding
-
-Phase 2: Market Research (Week 3-4)
-├── Research supply market conditions (buyer vs. seller)
-├── Identify potential suppliers (3-5 candidates)
-├── Assess supplier financial health and risk
-└── [✓ Done]: Supplier shortlist with market assessment
-    [✗ FAIL]: Single-source identified → develop dual-sourcing plan before proceeding
-
-Phase 3: RFx and Negotiation (Week 5-8)
-├── Develop RFQ/RFP with clear specifications
-├── Send to qualified suppliers
-├── Evaluate responses using weighted scorecard
-├── Conduct negotiation rounds (minimum 3)
-└── [✓ Done]: Best and final offers received
-    [✗ FAIL]: Only 1 bid received → re-RFQ or extend deadline
-
-Phase 4: Contracting (Week 9-12)
-├── Draft contract with terms and conditions
-├── Legal review for high-risk clauses
-├── Negotiate final terms
-├── Execute contract and onboard supplier
-└── [✓ Done]: Contract signed, supplier operational
-```
-
-### 8.2 Purchase Requisition Process
-
-```
-Step 1: Requisition Creation
-  → Employee creates requisition in e-procurement system
-  → Attaches supporting documentation (quotes, approvals)
-
-Step 2: Approval Routing
-  → Amount thresholds: <$1K = auto-approve
-  → $1K-10K = manager approval
-  → $10K-50K = director approval
-  → >$50K = VP + legal review
-
-Step 3: Purchase Order Creation
-  → Buyer converts approved requisition to PO
-  → PO sent to approved supplier
-  → Supplier acknowledges receipt
-
-Step 4: Receiving and Payment
-  → Receiving confirms goods/services
-  → Invoice matched to PO and receiving
-  → Payment processed per terms
-
-[✓ Done]: Goods received, invoice paid, contract closed
-```
-
----
 
 ## 9.1 Vendor Negotiation: MRO Supplies
 
@@ -397,105 +217,6 @@ Step 4: Receiving and Payment
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on purchasing specialist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent purchasing specialist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term purchasing specialist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -518,6 +239,7 @@ Step 4: Receiving and Payment
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -527,6 +249,7 @@ Step 4: Receiving and Payment
 | Purchasing Specialist + **Financial Analyst** | Purchasing provides spend data → Finance analyzes ROI | Accurate budgeting, cost visibility |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -555,6 +278,7 @@ Step 4: Receiving and Payment
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -582,6 +306,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -602,6 +327,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -629,6 +355,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -649,6 +376,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -661,15 +389,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -697,3 +416,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

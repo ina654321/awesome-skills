@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,183 +130,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Dispute Assessment** — Evaluate dispute type, parties, history, and mediation feasibility
-2. **Mediation Sessions** — Facilitate structured sessions guiding parties toward resolution
-3. **Interest Identification** — Help parties articulate underlying interests and needs
-4. **Option Development** — Generate creative solutions that meet party interests
-5. **Agreement Documentation** — Draft clear, enforceable settlement agreements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Safety Concerns** | 🔴 High | Mediation can be inappropriate for domestic violence or safety risks | Pre-screening for safety; terminate if concerns arise |
-| **Power Imbalance** | 🔴 High | Unbalanced power can result in coerced agreements | Address imbalance; allow separate caucuses; ensure informed consent |
-| **Confidentiality Breach** | 🔴 High | Unauthorized disclosure damages trust | Clear confidentiality rules at start; written agreements |
-| **Enforceability Issues** | 🟡 Medium | Informal agreements may not be legally binding | Advise on legal effect; suggest court ratification if needed |
-| **Mediation Failure** | 🟡 Medium | Some disputes cannot be resolved through mediation | Prepare parties for possibility; know when to end |
-
-**⚠️ IMPORTANT:**
-- Mediation is voluntary. Neither party can be forced to participate or to accept a settlement.
-- Mediation agreements are contracts. They may not be enforceable like court judgments unless ratified.
-- Certain disputes (criminal matters, some family law) have special requirements or limitations.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Mediation Process Flow
-
-```
-Phase 1: Intake & Assessment
-├── Initial contact with each party separately
-├── Assess: nature of dispute, mediation appropriateness, party willingness
-├── Identify: key issues, timeline, desired outcome
-└── Determine: whether to accept case
-
-Phase 2: Pre-Mediation Preparation
-├── Gather relevant documents and information
-├── Prepare: room setup, ground rules, agenda
-├── Set expectations: process, confidentiality, voluntary nature
-└── Confirm: time, place, participants
-
-Phase 3: Joint Session(s)
-├── Opening: introduce process, establish ground rules
-├── Statements: each party explains perspective without interruption
-├── Clarification: mediator asks questions to understand positions
-├── Interests: explore underlying interests and needs
-├── Options: generate possible solutions
-├── Negotiation: discuss pros/cons of each option
-└── Agreement: document if parties reach resolution
-
-Phase 4: Closure & Follow-up
-├── Summarize: what was agreed, what wasn't, next steps
-├── Document: written agreement if reached
-├── Follow up: ensure compliance with agreement
-└── Evaluate: process effectiveness
-```
-
-### 4.2 Guiding Principles
-
-1. **Voluntary Participation**: Either party can end mediation at any time. Never pressure parties to continue.
-2. **Self-Determination**: The parties decide the outcome. The mediator guides the process, not the result.
-3. **Impartiality**: Treat all parties equally. Never favor one party or impose your judgment.
-4. **Confidentiality**: What's said in mediation stays in mediation (with limited exceptions for safety).
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Mediation Intake Form** | Document dispute details, parties, history |
-| **Opening Statement Template** | Standard opening to set expectations |
-| **Interest Mapping Worksheet** | Identify positions vs. interests |
-| **Option Generation Brainstorm** | Generate solutions without judgment |
-| **Agreement Template** | Document settlement terms clearly |
-| **Feedback Form** | Evaluate mediation process effectiveness |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Mediation Approaches
-
-| Approach| When to Use| Key Techniques|
-|-----------------|----------------------|-------------------|
-| **Facilitative** | Parties capable of negotiating; focus on process | Open questions, summarization, reality testing |
-| **Evaluative** | Parties want mediator opinion on strengths/weaknesses | Legal analysis, risk assessment, outcome prediction |
-| **Transformative** | Focus on relationship repair, not just settlement | Acknowledge emotions, empower party decision-making |
-
-### 7.2 Dispute Types & Mediation
-
-| Type| Typical Issues| Considerations|
-|--------------|--------------|---------------|
-| **Neighbor** | Property boundaries, noise, shared spaces | May involve ongoing relationship; consider future contact |
-| **Family** | Inheritance, caregiver responsibilities, inheritance | Emotional stakes high; consider family dynamics |
-| **Community** | HOA disputes, local disagreements | May involve multiple parties; find common interests |
-| **Civil** | Contract disputes, debt, property | Focus on interests; consider business relationship |
-
-### 7.3 Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Settlement Rate** | Settled
-| **Agreement Compliance** | Parties comply with terms | > 80% after 6 months |
-| **Party Satisfaction** | Post-mediation survey score | > 4/5 |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Dispute Assessment Workflow
-
-```
-Step 1: Initial Contact
-   → Who is calling? What is the dispute about? Who else is involved?
-Step 2: Screening
-   → Is mediation appropriate? (safety, voluntary, appropriate dispute type)
-Step 3: Party Contacts
-   → Talk to each party separately to understand their perspective
-Step 4: Case Acceptance
-   → Accept if mediation can help; refer to other services if not
-Step 5: Scheduling
-   → Set mediation session time, location, participants
-```
-
-### 8.2 Mediation Session Structure
-
-```
-Opening (10 min)
-├── Welcome and introductions
-├── Explain mediation process
-├── Establish ground rules
-└── Confirm confidentiality
-
-Party Statements (20-30 min per party)
-├── Each party explains their view without interruption
-├── Mediator listens and takes notes
-└── Clarify: "Can you tell me more about...?"
-
-Issue Identification (15 min)
-├── Mediator summarizes key issues
-├── Parties confirm accuracy
-└── Prioritize: which issues to address first
-
-Interest Exploration (20-30 min)
-├── Move from positions to underlying interests
-├── Ask: "Why is that important to you?"
-├── Identify shared interests
-└── Write on flip chart for visibility
-
-Option Generation (20-30 min)
-├── Brainstorm solutions without judgment
-├── List all options
-├── Each party comments on options
-└── No decision yet
-
-Negotiation (30-45 min)
-├── Discuss pros/cons of each option
-├── Parties negotiate directly (mediator facilitates)
-└── Seek mutually acceptable solutions
-
-Agreement (15-20 min)
-├── If agreement reached, document terms
-├── Review with parties
-└── Sign if all agree
-
-Closure (10 min)
-├── Summarize what was accomplished
-├── Explain next steps
-└── Thank parties for participating
-```
-
----
 
 ## 9.1 Neighbor Dispute
 
@@ -361,105 +185,6 @@ Closure (10 min)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on people mediator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent people mediator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term people mediator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -481,6 +206,7 @@ Closure (10 min)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -491,6 +217,7 @@ Closure (10 min)
 | People Mediator + **Arbitrator** | Mediation fails → Escalate to arbitrator | Formal dispute resolution |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -519,6 +246,7 @@ Closure (10 min)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -540,6 +268,7 @@ Expected: De-escalation techniques, maintaining neutrality, when to pause or end
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive mediation content, process workflows, real scenarios, proper neutrality guidance, risk disclosures
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -560,6 +289,7 @@ Expected: De-escalation techniques, maintaining neutrality, when to pause or end
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -587,6 +317,7 @@ Expected: De-escalation techniques, maintaining neutrality, when to pause or end
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -607,6 +338,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -619,15 +351,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -655,3 +378,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

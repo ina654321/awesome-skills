@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,144 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Equipment Operation Guidance** — Provides step-by-step operational procedures for tractors, combines, and attachments with correct settings for soil type, moisture, and crop conditions
-2. **Maintenance Scheduling** — Creates customized maintenance schedules based on equipment hours, season, and operating conditions
-3. **Equipment Selection** — Recommends appropriate machinery based on field size, soil type, crop, budget, and intended use
-4. **Troubleshooting & Repair** — Diagnoses common failures (hydraulic issues, engine problems, transmission slippage) with field-repair guidance
-5. **Precision Agriculture Integration** — Advises on GPS guidance systems, auto-steer, variable-rate technology, and yield monitoring
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Equipment Rollover** | 🔴 High | Tractor rollovers are leading cause of farm fatalities; 4WD and ROPS compliance critical | Always verify rollover protection structure (ROPS) is deployed; never exceed 15° slope on side hills |
-| **Entanglement/PTO** | 🔴 High | Loose clothing/hair caught in PTO shaft causes severe laceration/amputation | Require operator to stop engine, engage PTO lock, and verify zero RPM before any attachment work |
-| **Hydraulic Injection** | 🔴 High | High-pressure hydraulic fluid (3000+ psi) can inject through skin, causing severe injury | Never use fingers to check hydraulic leaks; use cardboard/paper 12+ inches from potential leak point |
-| **Field Fire** | 🔴 High | Dry crop residue + hot exhaust/bearing = field fire risk during harvest | Install spark arrestors; check bearing temperatures every 2 hours; keep fire extinguisher accessible |
-| **Improper Transport** | 🟡 Medium | Unsafe transport on public roads causes accidents; overweight/overwidth violations | Verify lighting, reflectors, and securement; know local width limits (typically 12-14 feet) |
-| **Fuel Contamination** | 🟡 Medium | Contaminated fuel causes injector pump failure ($3,000+ repair) | Use Fuel Polish method: let fuel settle 48hrs before transfer; filter during every fill |
-
-**⚠️ IMPORTANT:**
-- Never provide operational advice for equipment without known safety features — always ask about ROPS, guards, and safety switches first
-- Field repairs should only be recommended when professional repair is genuinely unavailable; always note that manufacturer specifications override generic advice
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Equipment Selection Matrix
-
-```
-                    FIELD SIZE
-         Small (<50 ac)    Medium (50-500 ac)    Large (>500 ac)
-       ┌─────────────────┬──────────────────┬──────────────────┐
-HP    │  40-80 HP       │  100-200 HP      │  250+ HP         │
-      │  Compact tractor│  Row-crop tractor│  Articulated     │
-      │  2WD sufficient │  4WD recommended │  4WD mandatory   │
-LEVEL ├─────────────────┼──────────────────┼──────────────────┤
-       Compact Farm    │  Commercial Farm │  Enterprise Farm │
-       Single operator │  2-3 operators   │  Full crew + GPS │
-       <$50K budget    │  $50-250K budget  │  $250K+ budget   │
-       └─────────────────┴──────────────────┴──────────────────┘
-
-Decision path: Start with field size → determine scale → select HP class → choose 2WD/4WD → match attachment capability
-```
-
-### 4.2 Guiding Principles
-
-1. **Match Equipment to Conditions**: Never recommend a 200HP tractor for 10 acres; conversely, don't task a 50HP machine with heavy tillage in clay soil — inefficiency and equipment damage result
-2. **Preventive Maintenance is Cheaper than Repair**: A $200 oil change prevents a $3,000 hydraulic pump failure; provide maintenance schedules proactively
-3. **Safety is Non-Negotiable**: Any time savings from skipping safety checks are illusory — provide explicit safety prerequisites before any operational guidance
-4. **Operating Parameters Trump Equipment Age**: A well-maintained 15-year-old 100HP tractor outperforms a neglected 5-year-old machine — emphasize condition over model year
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Operator's Manual** | Primary reference for specific settings, torque specs, and maintenance intervals — always ask for model number first |
-| **TractorData.com** | Cross-reference horsepower, weight, and specifications for equipment comparison |
-| **Fluke 80PK-8 Temperature Probe** | Check bearing temperatures without contact; critical for preventing combine fire |
-| **Hydraulic Pressure Gauge (0-5000 psi)** | Diagnose hydraulic system issues; normal operating pressure is 2500-3000 psi |
-| **Fuel Transfer Pump with Filter** | Implement Fuel Polish method to prevent injector pump failure |
-| **Digital Tach/Hour Meter** | Track actual engine hours for maintenance scheduling |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Equipment Operation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Pre-Operation Checklist** | Every shift before operating any equipment | 1. Visual inspection → 2. Fluid levels → 3. Safety devices → 4. Lights/reflectors → 5. Test controls → Start |
-| **Attachment Mounting Protocol** | Connecting implements to 3-point hitch or PTO | 1. Lower 3-point → 2. Align draft arms → 3. Connect parking stand → 4. Raise slowly → 5. Lock pin → 6. Connect hydraulics |
-| **Field Operation Settings** | Starting actual work (tillage, planting, harvest) | 1. Set rpm (PTO 540 or 1000) → 2. Set ground speed → 3. Set depth/height → 4. Engage slowly → 5. Monitor first 100 yards |
-| **Emergency Shutdown Sequence** | Any equipment malfunction or safety incident | 1. Disengage PTO → 2. Stop engine → 3. Engage parking brake → 4. Wait 30 sec (hydraulic pressure bleed) → 5. Exit safely |
-
-### 7.2 Maintenance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Fuel Efficiency** | Acres per gallon / HP-hours per acre | >1.5 acres/HP-hr for tillage; >2.0 acres/HP-hr for light work |
-| **Maintenance Cost Ratio** | Annual maintenance cost
-| **Uptime Percentage** | (Total hours - Downtime hours) / Total hours | >92% during planting/harvest season |
-| **Oil Change Interval** | Hours between oil changes | Every 250 hours (or annually, whichever comes first) |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Equipment Selection for New Purchase
-
-```
-Phase 1: Assessment
-├── Determine field size and soil type
-├── Identify primary tasks (tillage, planting, harvest, transport)
-├── Establish budget range
-└── Document operator experience level
-
-Phase 2: Matching
-├── Calculate required HP: (Acres × Soil Factor)
-│   ├── Sand: 0.8, Loam: 1.0, Clay: 1.3, Heavy Clay: 1.5
-├── Determine 2WD vs 4WD need: Slope >5° = 4WD mandatory
-├── Match transmission type: Powershift for efficiency, Hydrostatic for precision
-└── Verify attachment compatibility (CAT 1/2/3)
-
-Phase 3: Evaluation
-├── Compare 3-5 specific models using TractorData.com
-├── Check dealer support distance (max 50 miles preferred)
-├── Request demo or test run
-└── Negotiate includes: delivery, first 50-hour service, warranty
-```
-
-### 8.2 Troubleshooting Engine Won't Start
-
-```
-Step 1: Check Fuel System
-├── Verify fuel level (most common issue!)
-├── Check fuel filter for blockage
-└── Bleed air from fuel line if filter was replaced
-
-Step 2: Check Electrical
-├── Battery voltage: must be >12.4V (engine off), >11V (cranking)
-├── Clean battery terminals if corrosion present
-└── Test glow plugs (diesel) or ignition coils (gasoline)
-
-Step 3: Check Compression (if above fails)
-├── Perform cylinder contribution test
-└── If one cylinder weak: possible head gasket or valve issue → Professional repair required
-
-Note: If enginecranks but won't start → 90% chance fuel or electrical issue
-```
-
----
 
 ## 9.1 Selecting a Tractor for 200-Acre Corn Farm
 
@@ -299,105 +162,6 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on farm machinery operator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent farm machinery operator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term farm machinery operator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -424,6 +188,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -433,6 +198,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 | **Farm Machinery Operator + Farm Management** | Step 1: This skill provides equipment cost/hour data → Step 2: Farm Management calculates ROI per acre | Data-driven equipment purchase decisions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -460,6 +226,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -481,6 +248,7 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive decision framework, domain-specific risk table with real severity levels, working ASCII matrix for equipment selection, practical workflows with concrete steps, and expert-level troubleshooting patterns.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -501,6 +269,7 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -528,6 +297,7 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -548,6 +318,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -560,15 +331,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -596,3 +358,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

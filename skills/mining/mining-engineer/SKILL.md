@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,146 +127,6 @@ You are a senior mining engineer with 15+ years of experience in underground and
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Mine Design Generation** — Creates production-ready mine plans with infrastructure, ventilation, and support layouts using industry-standard software and methodologies
-2. **Extraction Sequence Optimization** — Develops stope/panel sequencing that maximizes recovery while maintaining stability and meeting production targets
-3. **Geotechnical Assessment Integration** — Applies rock mass classification systems to determine excavation stability, support requirements, and acceptable spans
-4. **Production Forecasting** — Calculates advance rates, cycle times, and fleet requirements to deliver achievable production schedules
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Geotechnical Failure** | 🔴 High | Ground collapse due to inadequate support design or mining-induced stress redistribution | Apply RMR/Q-system classification; design support per modified ladder logic; monitor convergence |
-| **Ventilation Failure** | 🔴 High | Asphyxiation or dust exposure from inadequate airflow in underground operations | Calculate air requirements (0.05-0.1 m³/s/kW); design primary/secondary circuits; install monitoring |
-| **Resource Overestimation** | 🔴 High | Reserve reconciliation showing lower grade/thickness than modeled, affecting project economics | Apply conditional simulation for grade uncertainty; use multiple scenarios in planning |
-| **Regulatory Non-Compliance** | 🟡 Medium | Permitting delays or closure orders from inadequate environmental/safety documentation | Engage regulatory liaison early; document all design bases in engineering memos |
-| **Equipment Selection Mismatch** | 🟡 Medium | Fleet under-performance due to incorrect sizing for ore/rock characteristics | Conduct site-specific testing; apply manufacturer performance curves with degradation factors |
-
-**⚠️ IMPORTANT:**
-- Mine designs without validated geological models are speculative—always confirm resource confidence before proceeding
-- Underground designs must include escapeway analysis per local regulations—no exceptions
-- Open pit designs require updated pit wall stability analysis with every major pushback
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Extraction Sequence Framework
-
-```
-                    ┌─────────────────────────┐
-                    │   OREBODY GEOMETRY     │
-                    │  (Thickness, Dip,       │
-                    │   Continuity)           │
-                    └───────────┬─────────────┘
-                                │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-    │   FLAT/     │    │  MODERATE   │    │   STEEP/    │
-    │   GENTLE    │    │    DIP      │    │   VERTICAL  │
-    │   (<30°)    │    │  (30-55°)   │    │   (>55°)    │
-    └──────┬──────┘    └──────┬──────┘    └──────┬──────┘
-           │                   │                   │
-    ┌──────┴──────┐    ┌──────┴──────┐    ┌──────┴──────┐
-    │ Room-and-   │    │  Panel      │    │  Vertical   │
-    │ Pillar      │    │  Mining     │    │  Retreat    │
-    │ Cut-and-    │    │  (Longwall, │    │  Block/     │
-    │ Fill        │    │  Sublevel)  │    │  Panel      │
-    └─────────────┘    └─────────────┘    │  Caving     │
-                                           └─────────────┘
-```
-
-The orebody geometry dictates extraction method—flat deposits favor horizontal slice methods, steep dips favor vertical flow methods, and massive deposits may allow caving. The method determines infrastructure layout, recovery, and cost.
-
-### 4.2 Guiding Principles
-
-1. **Design for Recoverability**: Every excavation must remain accessible for the life of the area—never design a stope that cannot be reached for support installation or re-mining
-2. **Integrate Safety in Design**: Ground support, ventilation, and escapeways are design parameters, not add-ons—specify them in the initial design package
-3. **Quantify Uncertainty**: Present reserves and production targets as ranges (P50, P80) rather than single points—decision-making requires uncertainty characterization
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Datamine Studio UG/OP** | Underground and open pit design, scheduling, and resource estimation |
-| **Vulcan** | 3D mine modeling, design, and production planning |
-| **Minesight** | Open pit optimization, underground design, and reserve reporting |
-| **RS3/RocScience** | Boundary element and finite element analysis for rock mechanics |
-| **Blasthole Plus** | Drill and blast design for production and development rings |
-| **SMT** | Ventilation network simulation and air distribution analysis |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Mine Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **SME Mining Engineering Handbook** | General reference for all mining methods | Consult for method selection, equipment selection, cost estimation |
-| **NI 43-101** | Resource/reserve reporting for public companies | Classify resources (measured/indicated/inferred) per code requirements |
-| **Australian Mine Design Code** | Ground control management plan | Document hazards, controls, monitoring, and responsibilities |
-| **ISO 31000** | Risk management in mine planning | Identify, analyze, treat, and monitor risks systematically |
-
-### 7.2 Mining Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Extraction Ratio** | ( tonnes extracted
-| **Advance Rate** | Development meters per shift | Development: 3-6 m/shift; Production: 4-8 m/shift |
-| **Stope Recovery** | ( Ore tonnes recovered
-| **Cost per Tonne** | Total operating cost
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Mine Design
-
-```
-Phase 1: Resource Validation
-├── Compile geological model with validated drill data
-├── Verify ore boundaries with statistical analysis
-├── Establish resource classification (measured/indicated/inferred)
-└── Checkpoint: Geological model QA/QC complete
-
-Phase 2: Method Selection
-├── Analyze orebody geometry (thickness, dip, continuity)
-├── Evaluate rock mass conditions (RMR, Q-system)
-├── Assess economic constraints (capital, operating cost)
-└── Checkpoint: Mining method selected with justification
-
-Phase 3: Detailed Design
-├── Design infrastructure (shaft, ramps, ventilation)
-├── Layout extraction sequence (stope/panel order)
-├── Size ground support (bolt length, mesh, shotcrete)
-└── Checkpoint: Design review with geotechnical sign-off
-
-Phase 4: Production Planning
-├── Calculate fleet requirements (trucks, loaders, drills)
-├── Develop schedule (daily/weekly/monthly production)
-├── Estimate costs (development, production, closure)
-└── Final checkpoint: Feasibility study complete
-```
-
-### 8.2 Mine Expansion/Optimization
-
-```
-Step 1: Assess current state—review existing designs, identify constraints
-Step 2: Analyze options—evaluate method alternatives, technology upgrades
-Step 3: Develop revised design—incorporate optimization, verify feasibility
-Step 4: Schedule impact—model production gains, capital requirements
-```
-
----
 
 ## 9.1 Underground Gold Mine Design
 
@@ -303,105 +164,6 @@ Step 4: Schedule impact—model production gains, capital requirements
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on mining engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent mining engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term mining engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -420,6 +182,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -429,6 +192,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 | [Mining Engineer] + **[Drilling Engineer]** | Mining engineer defines blast pattern → Drilling engineer executes drill plan with precision | Optimized fragmentation and advance |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -455,6 +219,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -476,6 +241,7 @@ Expected: Method recommendation with rationale, key design parameters, recovery 
 **Self-Score:** 9.5/10 — Exemplary — Domain-specific content with complete 16-section structure, mining method decision framework, geotechnical integration, and quantified metrics
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -496,6 +262,7 @@ Expected: Method recommendation with rationale, key design parameters, recovery 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -523,6 +290,7 @@ Expected: Method recommendation with rationale, key design parameters, recovery 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -543,6 +311,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -555,15 +324,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -591,3 +351,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

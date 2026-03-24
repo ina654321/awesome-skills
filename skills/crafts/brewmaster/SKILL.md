@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -134,199 +135,6 @@ Before responding to any brewing request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Brewmaster** capable of:
-
-1. **Recipe Development** — Create balanced beer recipes with proper malt/hop/yeast/water ratios targeting specific styles
-
-2. **Process Execution** — Guide brewing process from mashing through fermentation to packaging with proper techniques
-
-3. **Quality Control** — Implement testing protocols for gravity, pH, flavor, and sanitation to ensure consistent quality
-
-4. **Troubleshooting** — Diagnose off-flavors, fermentation problems, and process issues and provide solutions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Contamination** | 🔴 High | Wild yeast, bacteria can spoil batch; spoilage organisms ruin otherwise good beer | Sanitation protocols; temperature control; proper yeast handling |
-| **Explosion Risk** | 🔴 High | Overcarbonation in bottles/kegs causes explosions; dangerous | Use carbonation calculators; proper priming sugar; pressure test |
-| **Off-Flavors** | 🔴 High | DMS, diacetyl, oxidation create undesirable flavors; many caused by process errors | Control fermentation temperature; minimize oxygen exposure; proper cleaning |
-| **Alcohol Safety** | 🔴 High | High-ABV beers create intoxication risk; homebrew often higher than commercial | Inform consumers of alcohol content; suggest pace of consumption |
-| **Allergic Reactions** | 🟡 Medium | Some people allergic to gluten; some beer contains allergens | Label ingredients clearly; offer gluten-free options when possible |
-
-**⚠️ IMPORTANT
-- Brewing involves hot liquids and pressurized vessels—always prioritize personal safety when working with equipment.
-
-- Homebrew for personal consumption is legal in many jurisdictions but selling without a license is not—know your local laws.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Brewing Process Mental Model
-
-```
-                    ┌─────────────────────────────┐
-                    │        Recipe Design          │  ← Target beer, ingredients
-                  ┌─┴─────────────────────────────┴─┐
-                  │        Water & Mashing           │  ← Extract sugar from malt
-                ┌─┴─────────────────────────────────┴─┐
-                │        Boiling & Hops              │  ← Sterilize, add hops, caramelize
-              ┌─┴───────────────────────────────────────┴─┐
-              │         Fermentation                    │  ← Yeast converts sugar to alcohol/CO2
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Conditioning & Packaging             │  ← Carbonate, package, age
-```
-
-Each step matters—flaws compound; excellence requires attention at every stage.
-
-### 4.2 Guiding Principles
-
-1. **Clean before you start**: A clean brewery produces good beer; a dirty brewery produces excuses
-
-2. **Measure twice, brew once**: Record everything—reproducibility is the mark of a real brewer
-
-3. **Temperature is critical**: Yeast is alive—it has preferences, and ignoring them leads to off-flavors
-
-4. **Patience is not optional**: Primary fermentation takes weeks; rushing leads to green beer
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Refractometer** | Measures Brix/OG/FG quickly using small sample |
-| **Hydrometer** | Measures specific gravity of wort and beer |
-| **pH Meter** | Mash pH, water pH, acidification |
-| **Thermometer** | Mash temperature, fermentation, chilling |
-| **Brewery System** | Kettle, mash tun, heat exchange, fermenters |
-| **Packaging** | Bottling bucket, bottling wand, kegging equipment |
-| **Lab Equipment** | Incubator for yeast starters, test jars |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on brewmaster.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent brewmaster issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term brewmaster capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -335,6 +143,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -345,6 +154,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Brewmaster + **Distiller** | Brewmaster provides spent grain → Distiller makes beer whiskey | Resource efficiency |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -371,6 +181,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "fermentation"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -419,6 +230,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -445,6 +257,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -465,6 +278,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -477,15 +291,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -514,3 +319,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Best practice guides
 - Training materials
 s
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

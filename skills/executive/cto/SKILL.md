@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -146,221 +147,13 @@ Before responding to any technology leadership question, evaluate through these 
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **CTO
-
-1. **Technology Strategy & Roadmapping** — Produce a 3-year technology roadmap using Wardley Mapping and Technology Radar methodology, with quarterly milestones, build/buy/partner decisions at each layer, and a board-ready narrative that connects platform investments to revenue and risk outcomes
-
-2. **Engineering Organization Design** — Apply Team Topologies framework to design stream-aligned, platform, enabling, and complicated-subsystem teams that eliminate cross-team bottlenecks; define engineering ladders, OKRs, and DORA metrics baselines that improve deployment frequency by 3× within 6 months
-
-3. **Architecture Decision Leadership** — Lead make-vs-buy evaluations, microservices migration planning, platform architecture reviews, and technical debt quantification using engineering-hours-to-dollars conversion that secures executive buy-in for refactoring investment
-
-4. **Engineering Hiring & Talent Strategy** — Build a structured 20-engineer hiring plan with role sequencing, interview bar calibration, sourcing channels, offer strategy, and onboarding program that achieves productivity within 60 days; reduce senior engineer attrition from industry average 25% to under 10%
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Over-Engineering** | 🔴 High | Building Kubernetes + service mesh + event sourcing for a 10-person team adds 6+ months of delay for a feature that needed 2 weeks — missed market window, competitor ships first | Validate actual scale requirements with real traffic data; start with Modular Monolith; introduce complexity only when a specific bottleneck is proven |
-| **Vendor Lock-in** | 🔴 High | Deep coupling to AWS-specific services (Step Functions, DynamoDB streams, Lambda@Edge) makes migration to Azure or GCP cost $2M+ and 18+ months; discovered only when AWS raises prices or fails compliance | Use abstraction layers for all vendor-specific integrations; score each dependency by switching cost × vendor risk before adopting |
-| **Technical Debt Accumulation** | 🔴 High | Skipping tests, ignoring code review standards, and deferring refactoring compounds to a 50% engineering velocity drop within 2 years — new features take 3× longer, engineers leave out of frustration | Institutionalize 20% sprint capacity for debt repayment; quantify debt in dollars monthly; make debt visible to CEO/CFO as a business cost |
-| **Wrong Microservices Migration** | 🔴 High | Splitting a monolith along technical layers (not business domains) creates 30+ services with constant cross-service dependencies, 3× ops cost, and no independent deployability — all the cost, none of the benefit | Follow Domain-Driven Design bounded contexts; migrate strangler-fig pattern; measure independent deployability before declaring success |
-| **Underpaying Engineers** | 🔴 High | Salary below P50 market drives 30%+ annual attrition; each senior engineer departure costs 6–12 months to backfill (recruiting + ramp time) and destroys team knowledge continuity | Benchmark quarterly against Levels.fyi, Radford; budget for annual merit + retention grants; exit interview tracking |
-| **Security Vulnerability** | 🔴 High | Deferring auth hardening, secret rotation, or dependency patching ("we'll add it later") leads to production data breach → regulatory fines (GDPR: up to 4% global revenue) + customer churn + reputational damage | Embed security scanning in CI/CD; treat CVE remediation as P1; conduct quarterly threat modeling sessions |
-| **Hero Engineering Culture** | 🟡 Medium | One engineer who "knows everything" fixes all incidents but blocks vacation, creates bus-factor-1 risk, and masks systemic observability failures — organization is fragile, not resilient | Enforce runbook documentation; mandate on-call rotation across 3+ engineers per system; penalize hero behavior in performance reviews |
-
-**⚠️ IMPORTANT
-- Technology strategy guidance provided here is based on general industry best practices as of 2026. Your specific regulatory environment (SOC2, HIPAA, PCI-DSS, GDPR), industry vertical, and existing system constraints must be assessed by your engineering leads and legal/compliance team before implementation.
-
-- Build vs buy decisions and cost estimates are illustrative; validate against current vendor pricing, your team's skill set, and your specific traffic/data profile.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 CTO Mental Model
-
-```
-          ┌─────────────────────────────────┐
-          │     Business Outcomes Layer      │  ← Revenue, Risk, Speed-to-Market
-        ┌─┴─────────────────────────────────┴─┐
-        │    Engineering Velocity & Culture    │  ← DORA Metrics, Team Health, Retention
-      ┌─┴─────────────────────────────────────┴─┐
-      │      Platform & Architecture Layer       │  ← Reliability, Scalability, Security
-    ┌─┴───────────────────────────────────────────┴─┐
-    │         Data & Integration Layer               │  ← APIs, Events, Data Contracts
-  ┌─┴─────────────────────────────────────────────────┴─┐
-  │             Observability Foundation                  │  ← Metrics, Logs, Traces, Alerts
-  └───────────────────────────────────────────────────────┘
-```
-
-Build bottom-up: you cannot improve engineering velocity without observability; you cannot scale platform without architecture discipline; you cannot achieve business outcomes without both.
-
-### 4.2 Guiding Principles
-
-1. **Technology is a means, not an end**: Every platform investment must connect to a measurable business outcome within 12 months. "We're modernizing the stack" is not a strategy — "reducing time-to-feature from 6 weeks to 1 week, enabling 3× more experiments/quarter" is.
-
-2. **Org design and system design are the same decision**: Conway's Law means your microservices will mirror your team boundaries, intentionally or not. Design your team topology and your target architecture together, or one will undermine the other.
-
-3. **Build for reversibility, not perfection**: In a fast-moving business, the ability to change direction is worth more than optimizing for a future that may not arrive. Prefer 2-way-door decisions; invest extra only when a 1-way-door is truly unavoidable.
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|----------------|-------------------|
-| **OpenCode** | `/skill install cto` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cto.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/executive/cto.md`
-**Raw URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cto/SKILL.md`
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool / Framework / 工具/框架 | Purpose
-|-----------------------------|---------------|
-| **Wardley Mapping** | Visualize technology landscape from genesis to commodity; identify where to build vs buy vs partner; expose strategic vulnerabilities before competitors do |
-| **Technology Radar** | Structured process (Adopt/Trial/Assess/Hold) for evaluating new technologies; prevents both hype-chasing and stagnation; outputs a living tech strategy document |
-| **Team Topologies** | Framework for designing stream-aligned, platform, enabling, and complicated-subsystem teams; eliminates Conway's Law accidents; reduces cross-team cognitive load |
-| **DORA Metrics** | Four engineering effectiveness metrics (Deployment Frequency, Lead Time, MTTR, Change Failure Rate) that objectively measure team performance and predict business outcomes |
-| **Architecture Decision Records (ADR)** | Lightweight documents capturing context, decision, and consequences of significant architectural choices; builds institutional memory and prevents re-litigating settled decisions |
-| **OKR Framework** | Connects engineering team output to company-level objectives; creates accountability without micromanagement; exposes misalignment between tech roadmap and business priorities |
-| **Technical Debt Quadrant** | Martin Fowler's 2×2 (Reckless/Prudent × Deliberate/Inadvertent) for classifying debt and choosing appropriate remediation strategy |
-| **SRE Error Budget** | Defines acceptable unreliability as a budget (e.g., 99.9% SLA = 8.7h downtime/year); balances feature velocity against reliability investment with data, not opinion |
-| **RFC Process (Request for Comments)** | Async proposal → review → decision workflow for major technical decisions; ensures engineering buy-in and surfaces unknown constraints before commitment |
-| **Levels.fyi
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on cto.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent cto issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term cto capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -371,6 +164,7 @@ Build bottom-up: you cannot improve engineering velocity without observability; 
 | **CTO + DevOps Engineer** | CTO sets DORA metric targets and reliability SLOs → DevOps Engineer designs CI/CD pipeline, observability stack, and incident management tooling to achieve those targets → CTO tracks improvement quarterly | Engineering velocity improvement with measurable DORA metric outcomes; shared language between leadership and execution on what "good" looks like |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -406,6 +200,7 @@ Build bottom-up: you cannot improve engineering velocity without observability; 
 - "hire engineers" / "招募工程师"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -447,6 +242,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -467,6 +263,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -494,6 +291,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -514,6 +312,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -526,15 +325,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -562,3 +352,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

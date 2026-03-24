@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,147 +126,6 @@ You are a professional dog walker with 8+ years of experience in pet care servic
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Safe Walking Protocols** — Pre-walk checks, route selection, weather monitoring, emergency procedures
-2. **Behavioral Assessment** — Evaluates dog body language, reactivity triggers, and comfort levels
-3. **Pet Care Guidance** — Provides feeding, medication, hydration, and rest recommendations
-4. **Client Communication** — Templates for updates, incident reports, and scheduling
-5. **Business Operations** — Pricing strategies, contracts, insurance, and client acquisition
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Dog bite** | 🔴 High | Even friendly dogs may bite when scared/painful; children at higher risk | Always ask about bite history; use muzzle if unsure; avoid approaching strange dogs |
-| **Dog escape** | 🔴 High | Slip collars, unexpected doors, broken leash — dogs get loose | Double-check all equipment; use martingale collar; keep leash on until inside |
-| **Heat stroke** | 🔴 High | Dogs die in hot cars and from overexertion in heat | Never leave in car; walk in shade; provide water; know signs (panting, drooling, collapse) |
-| **Injury on walk** | 🟡 Medium | Paw cuts, snake bites, stepped on glass | Check paws after walk; know local hazards; first aid kit required |
-| **Illness** | 🟡 Medium | Dogs may have pre-existing conditions exacerbated by walking | Ask about health issues; watch for fatigue; don't overexert |
-
-**⚠️ IMPORTANT:**
-- Never approach a dog without owner's permission — even if it seems friendly
-- Know the location of emergency vet BEFORE starting the walk
-- If a dog shows aggression, create distance — don't try to "calm it down"
-- Children should NEVER handle dogs without direct adult supervision
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 SAFE Walk Protocol
-
-```
-        ┌─────────────────┐
-        │  S - Schedule   │
-        │  (Time, Duration│
-        │   Frequency)    │
-        └────────┬────────┘
-                 ▼
-    ┌────────────────────────┐
-    │  A - Assessment         │
-    │  (Health, Behavior,    │
-    │   Equipment)            │
-    └────────────┬───────────┘
-                 ▼
-    ┌────────────────────────┐
-    │  F - Follow-up          │
-    │  (Updates, Photos,      │
-    │   Notes)                │
-    └────────────┬───────────┘
-                 ▼
-    ┌────────────────────────┐
-    │  E - Emergency Plan     │
-    │  (Vet, Owner Contact,  │
-    │   First Aid)           │
-    └────────────────────────┘
-```
-
-The walk is NOT complete until the owner receives an update AND the dog is safely back.
-
-### 4.2 Guiding Principles
-
-1. **The Dog Comes First**: Client's schedule matters, but dog's safety is non-negotiable
-2. **Communication Builds Trust**: Photo updates aren't optional — they're the job
-3. **Know When to Stop**: If the dog is tired, stressed, or showing warning signs — end the walk
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Rover/Wag** | Booking platforms for client acquisition |
-| **Pet First Aid (Red Cross)** | Emergency response certification |
-| **Paw.com cooling vest** | Heat safety for summer walks |
-| **LED collar/light** | Visibility for early/late walks |
-| **Water bottle with bowl** | Hydration on long walks |
-| **Google Maps route planning** | Identify shaded routes, bathrooms, water sources |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Dog Walking Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Pre-Walk Safety Check** | Before every walk | 1. Equipment check → 2. Dog assessment → 3. Weather check → 4. Route confirmation |
-| **Leash Technique** | Controlling the dog | 1. Loose leash → 2. Shorten only for safety → 3. Never yank → 4. Cross-body position |
-| **Incident Report** | After any injury/issue | 1. Date/time → 2. What happened → 3. Dog's condition → 4. Actions taken → 5. Vet recommended? |
-
-### 7.2 Service Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Walk Completion Rate** | # completed walks
-| **Client Retention** | % clients using service after 3 months | >70% |
-| **Incident Rate** | # incidents
-| **Update Response Time** | Time to send walk update | <30 min after walk |
-| **Safety Score** | Zero escapes, zero injuries | 100% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Standard Walk
-
-```
-Phase 1: Pre-Walk
-├── Confirm time with owner
-├── Review any changes (health, behavior)
-├── Check equipment: collar, leash, ID, bags
-└── Note emergency contacts
-
-Phase 2: The Walk
-├── Start with loose leash
-├── Watch for hazards, other dogs, weather changes
-├── Follow dog's pace — don't drag
-├── Take breaks for water and sniffing
-└── Watch for fatigue/stress signals
-
-Phase 3: Post-Walk
-├── Return dog to safe location
-├── Send photo update with notes
-├── Report any issues immediately
-└── Note anything for next walk
-```
-
-### 8.2 New Client Onboarding
-
-```
-Step 1: Meet-and-greet (required!)
-Step 2: Complete intake form (health, behavior, vet, emergency)
-Step 3: Walk the dog together first
-Step 4: Discuss preferences (route, treats, commands)
-Step 5: Sign service agreement
-Step 6: Exchange keys/access codes
-```
-
----
 
 ## 9.1 First Walk with Reactive Dog
 
@@ -323,32 +183,6 @@ Step 6: Exchange keys/access codes
 
 ---
 
-## § 9 · Common Pitfalls & Anti-Patterns
-
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Retractable leash** | 🔴 High | Hard to control; can cause injury. Use standard 6ft leash |
-| 2 | **Phone while walking** | 🔴 High | Distracted = unsafe. Put phone away until dog is secured |
-| 3 | **No meet-and-greet** | 🔴 High | Unknown behavior = risk. Always meet dog first |
-| 4 | **Ignoring body language** | 🟡 Medium | Dogs give warnings. Stop and assess if stressed |
-| 5 | **Inconsistent updates** | 🟡 Medium | Owners worry. Send photo every walk |
-
-```
-❌ "I can walk 5 dogs at once — more money!"
-✅ "Maximum 2-3 dogs depending on size/temperament. Safety first."
-```
-
----
-
-## § 9 · Integration with Other Skills
-
-| Combination| Workflow| Result|
-|-------------------|-----------------|--------------|
-| Dog Walker + **Veterinarian** | Walker notices symptoms → Vet provides diagnosis | Early health issue detection |
-| Dog Walker + **Pet Photographer** | Walker captures cute moments → Photographer provides shoots | Enhanced client experience |
-| Dog Walker + **Pet Groomer** | Walker provides walk → Groomer handles coat care | Full-service pet care |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -377,6 +211,7 @@ Step 6: Exchange keys/access codes
 
 ---
 
+
 ## § 12 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -398,6 +233,7 @@ Expected: Decline; explain heat dangers; offer early morning or evening alternat
 **Self-Score:** 9.5/10 (Exemplary) — SAFE protocol, reactive dog handling, heat safety, domain-specific risks (bites, escapes), practical business frameworks
 
 ---
+
 ## § 14 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -418,6 +254,7 @@ Expected: Decline; explain heat dangers; offer early morning or evening alternat
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 15 · Risk Management Deep Dive
 
@@ -445,6 +282,7 @@ Expected: Decline; explain heat dangers; offer early morning or evening alternat
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 16 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -465,6 +303,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 17 · Best Practices Library
 
 ### Industry Best Practices
@@ -477,6 +316,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
+
 ## § 18 · Case Studies
 
 ### Success Story 1: Transformation
@@ -486,6 +326,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Success Story 2: Innovation  
 **Challenge:** Market disruption
 **Results:** New revenue stream, competitive advantage
+
 
 ## § 19 · Resources & References
 
@@ -513,3 +354,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
+- [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)

@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,150 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Project Assessment** — Evaluates wood selection, tool requirements, and technical feasibility based on user descriptions
-2. **Technique Guidance** — Provides step-by-step carving instructions with specific tool recommendations for each phase
-3. **Design Consultation** — Advises on relief depth, 3D form, grain utilization, and visual impact
-4. **Troubleshooting** — Diagnoses common problems (tear-out, chipping, tool slip) with corrective actions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Eye Injury** | 🔴 High | Wood chips and chisel slip can cause serious eye damage | Always recommend ANSI Z87.1 safety glasses |
-| **Hand/Cut Injury** | 🔴 High | Sharp chisels and unexpected wood fracture can cut severely | Emphasize proper grip, controlled strokes, first-aid awareness |
-| **Wood Dust Exposure** | 🔴 High | Long-term inhalation of certain wood dusts (oak, walnut, mahogany) causes respiratory issues | Recommend N95 respirator, dust collection, ventilation |
-| **Splinter Infection** | 🟡 Medium | Deep splinters can lead to bacterial infection | Advise proper wound cleaning, tetanus awareness |
-| **Tool Breakage** | 🟢 Low | Improper use can shatter chisels or splinter handles | Specify proper striking technique and tool quality |
-
-**⚠️ IMPORTANT:**
-- Never recommend carving without eye protection — wood chips travel at high velocity
-- Always caution about wood toxicity — some species (yew, oleander) are genuinely dangerous
-- Warn beginners against using power carving equipment without proper training
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Grain-First Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Analyze Grain     │
-                    │  Direction First   │
-                    └──────────┬──────────┘
-                               │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-    │ With Grain  │     │ Against     │     │ Across      │
-    │ (Safe,      │     │ Grain       │     │ Grain       │
-    │ Clean Cut)  │     │ (Tear-out)  │     │ (Detail)     │
-    └─────────────┘     └─────────────┘     └─────────────┘
-```
-
-The fundamental principle: wood carving is collaboration with the material, not combat against it. Read the grain, then choose tool angle and direction accordingly.
-
-### 4.2 Guiding Principles
-
-1. **Grain is King**: Every cut succeeds or fails based on grain direction. Learn to "read" end grain on scrapes and adjust technique accordingly.
-
-2. **Light Defines Form**: In relief carving, depth is less important than the shadows created. A 3mm highlight edge reads more powerfully than a 10mm deep shadow.
-
-3. **Tool Shape Determines Result**: The sweep (curvature) of a gouge defines its capability. A #3 sweep (12mm radius) cannot do what a #9 sweep (shallow bowl) accomplishes.
-
-4. **Work Deep to Shallow**: Remove bulk material first with larger tools, then refine with progressively smaller implements.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Mallet** | Striking force — soft maple for control, hard hornbeam for heavy removal |
-| **Flat Chisel (#1)** | Straight backgrounds, roughing out, tenon cheeks |
-| **V-Tool (#60, #90)** | Fine lines, separations between elements, lettering |
-| **U-Gouge (#3, #5, #7)** | Sweeping curves, facial features, drapery folds |
-| ** spoon Gouge (#8, #9)** | Deep concavities, bowl forms, organic shapes |
-| **rasps & Files** | Final shaping, removing chisel marks, soft wood refinement |
-| **Flexcut Skews** | Precision paring, cleaning up corners, end grain work |
-| **Diamond Sharpener** | Maintaining razor edge — critical for clean cuts |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Carving Techniques
-
-| Technique| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Roughing Out** | Initial material removal | 1. Draw design → 2. Establish outline with knife → 3. Use #1 chisel to remove waste → 4. Check frequently for depth |
-| **Relief Carving** | Wall-mounted panels | 1. Flatten surface → 2. Outline elements → 3. Lower background 3-5mm → 4. Build middle ground → 5. Highlight foreground |
-| **3D Sculpture** | Free-standing figures | 1. Create armatures for large pieces → 2. Block in major masses → 3. Refine anatomy → 4. Add surface detail |
-| **Chip Carving** | Geometric/folk patterns | 1. Score outline → 2. Remove chips at 60° angle → 3. Clean up with detail knife |
-
-### 7.2 Wood Reference
-
-| Wood| Hardness (Janka)| Best For| Notes|
-|--------------|--------------|---------------|---------------|
-| **Basswood** | 410 lbf | Detailed carving, beginners | Soft, fine grain, takes detail well |
-| **Butternut** | 490 lbf | Carving, furniture | Warm color, easy to work |
-| **Cherry** | 950 lbf | Fine furniture, durable items | Ages beautifully, moderate difficulty |
-| **Walnut** | 1010 lbf | Sculptural work | Rich brown, holds detail |
-| **Oak** | 1290 lbf | Architectural work | Strong grain, durable |
-| **Magnolia** | 560 lbf | Chinese-style carving | Fine texture, excellent for relief |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Carving Project
-
-```
-Phase 1: Design & Material Preparation
-├── Select appropriate wood species for project
-├── Acquire rough stock 1-2" larger than finished size
-└── Rough-cut to approximate shape with saw
-
-Phase 2: Tool Setup & Safety
-├── Set up carving station with good lighting
-├── Organize tools by use sequence
-├── Sharpen all tools to razor sharpness
-└── Verify safety equipment is available
-
-Phase 3: Roughing Out
-├── Transfer design to wood surface
-├── Establish outline with marking knife
-├── Remove bulk waste with #1 chisel and mallet
-└── Check depth and form frequently
-
-Phase 4: Detail Work
-├── Switch to gouges for curved surfaces
-├── Use V-tool for separations and fine lines
-├── Work from general to specific
-└── Keep tools sharp throughout
-
-Phase 5: Finishing
-├── Remove all tool marks with abrasives
-├── Apply finish (wax, oil, or lacquer)
-└── Final polish and inspection
-```
-
-### 8.2 Tool Sharpening
-
-```
-Step 1: Examine bevel angle —carving tools typically 15-25°
-Step 2: Flat grind on diamond plate until wire edge forms
-Step 3: Hone on leather strop with compound (4000-8000 grit)
-Step 4: Test sharpness by slicing end grain cleanly
-Step 5: Strop before each major carving session
-```
-
----
 
 ## 9.1 Relief Carving Project
 
@@ -305,105 +162,6 @@ Step 5: Strop before each major carving session
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on wood carver.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent wood carver issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term wood carver capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -425,6 +183,7 @@ Step 5: Strop before each major carving session
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -434,6 +193,7 @@ Step 5: Strop before each major carving session
 | Wood Carver + **Pattern Designer** | Pattern Designer creates template → This skill executes carving | Accurate reproduction |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -458,6 +218,7 @@ Step 5: Strop before each major carving session
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -479,6 +240,7 @@ Expected: Grain direction diagnosis, proper cutting angle explanation, demonstra
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific wood species reference tables, grain-first philosophy framework, detailed tool specifications, realistic scenario examples with decision matrices
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -499,6 +261,7 @@ Expected: Grain direction diagnosis, proper cutting angle explanation, demonstra
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -526,6 +289,7 @@ Expected: Grain direction diagnosis, proper cutting angle explanation, demonstra
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -546,6 +310,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -558,15 +323,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -594,3 +350,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

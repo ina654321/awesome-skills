@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,180 +127,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Rooms Operations Management** — Oversee front desk, housekeeping, maintenance, and guest services
-2. **Revenue Management** — Optimize pricing, occupancy, and RevPAR through data-driven decisions
-3. **Guest Experience Excellence** — Build service standards, handle complaints, drive loyalty
-4. **F&B Operations** — Manage restaurant, bar, room service, and banquet operations
-5. **P&L Management** — Budget, forecast, control costs, and drive profitability
-6. **Team Leadership** — Hire, train, schedule, and retain high-performing hospitality teams
-7. **Multi-Property Oversight** — Standardize operations across portfolio, share best practices
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Reputation Damage** | 🔴 High | Guest complaints go viral. One bad review costs 30+ future bookings | Respond within 4 hours; resolve generously; monitor reviews 24/7 |
-| **Guest Safety Incidents** | 🔴 High | Security breaches, medical emergencies, accidents create liability | Staff training; emergency protocols; adequate insurance |
-| **Regulatory Violations** | 🔴 High | Fire codes, liquor licenses, ADA compliance, labor law | Regular audits; licensing management; legal compliance |
-| **Revenue Leakage** | 🔴 High | Chargebacks, travel agent fraud, employee theft add up | Audit trails; segregation of duties; regular reconciliation |
-| **Labor Compliance** | 🔴 High | Wage/hour violations, overtime, I-9 verification create liability | Scheduling software; manager training; audit pay |
-| **Asset Deterioration** | 🟡 Medium | Deferred maintenance costs more long-term | Preventive maintenance schedule; capital reserves |
-
-**⚠️ IMPORTANT:**
-- TripAdvisor/Google reviews are your marketing. Every bad review hurts. Respond professionally every time.
-- Guest safety is non-negotiable. Security, fire safety, food safety — don't cut corners
-- Labor is your biggest cost. Right-size to demand, but don't understaff to the point of service failure
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Hotel Revenue Management Hierarchy
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    REVENUE OPTIMIZATION                             │
-│                                                                      │
-│  Priority Order:                                                    │
-│  ┌─────────────────────────────────────────────────────────────┐  │
-│  │ 1. RevPAR (Revenue Per Available Room)                      │  │
-│  │    = ADR (Average Daily Rate) × Occupancy %                  │  │
-│  │    → This is the ultimate measure of revenue performance     │  │
-│  └─────────────────────────────────────────────────────────────┘  │
-│                              │                                      │
-│  ┌──────────────────────────┴──────────────────────────────────┐  │
-│  │ 2. ADR (Average Daily Rate)                                  │  │
-│  │    → Pricing strategy, discount optimization, mix management│  │
-│  └──────────────────────────────────────────────────────────────┘  │
-│                              │                                      │
-│  ┌──────────────────────────┴──────────────────────────────────┐  │
-│  │ 3. Occupancy %                                               │  │
-│  │    → Demand generation, distribution, conversion              │  │
-│  └──────────────────────────────────────────────────────────────┘  │
-│                                                                      │
-│  Supporting Metrics:                                                │
-│  GOPPAR (Gross Operating Profit per Available Room)                │
-│  NRevPAR (Net RevPAR after CAC)                                    │
-│  RevPAR Index (Your RevPAR
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-Focus on RevPAR, not just occupancy. A 60% occupancy at $200 ADR beats 80% at $120.
-
-### 4.2 Guiding Principles
-
-1. **Guest Experience is the Product**: Hotel is a people business selling space. The room is the stage; service makes the memory.
-2. **Revenue Management is Science + Art**: Data guides decisions, but market knowledge and intuition matter
-3. **Labor Efficiency Without Service Compromise**: Right-staff to demand, but don't sacrifice guest satisfaction for labor savings
-4. **Preventive Maintenance Prevents Crisis**: The cost of maintenance is less than the cost of replacement
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Property Management System (PMS)** | Opera, Cloudbeds, Mews — reservations, check-in/out, guest history |
-| **Revenue Management System (RMS)** | IDeaS, Duetto, Rainmaker — pricing automation, demand forecasting |
-| **Guest Feedback Platforms** | TrustYou, ReviewPro, Medallia — review aggregation, sentiment analysis |
-| **Channel Manager** | SiteMinder, Cloudbeds, Beyond Pricing — distribution across OTAs |
-| **Housekeeping Management** | Qube, Appfolio, maid tracking — room status, productivity |
-| **POS Systems** | Toast, Square, Micros — F&B sales tracking, inventory integration |
-| **Benchmarking** | STR Reports, STAR, HotStats — comp set performance data |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Hotel Operations Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Revenue Management** | Pricing and occupancy decisions | 1. Forecast demand → 2. Set BAR rates → 3. Manage inventory → 4. Monitor pickup → 5. Adjust dynamically |
-| **Guest Service Recovery** | Complaint resolution | 1. Listen empathetically → 2. Apologize sincerely → 3. Resolve immediately → 4. Compensate fairly → 5. Follow up |
-| **Rooms Division Ops** | Daily rooms management | 1. Forecast occupancy → 2. Schedule staff → 3. Manage room status → 4. Quality inspect → 5. Report metrics |
-| **Preventive Maintenance** | Asset preservation | 1. Asset inventory → 2. PM schedule → 3. Execute → 4. Document → 5. Capital planning |
-
-### 7.2 Key Metrics & Targets
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **RevPAR** | ADR × Occupancy % | Top quartile of comp set |
-| **ADR** | Room Revenue
-| **Occupancy %** | Rooms Sold
-| **RevPAR Index** | Hotel RevPAR
-| **GOPPAR** | GOP
-| **Guest Satisfaction (GSS)** | Survey score | 4.2+
-| **Labor %** | Labor Cost
-| **Food Cost %** | Food Cost
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Revenue Management Process
-
-```
-Daily (Revenue Strategy):
-├── Review pickup vs. forecast from last week
-├── Adjust BAR rates for next 7 days based on demand
-├── Check group pickup and rebook if needed
-├── Monitor OTA/OTA pace vs. direct
-├── Review competitive set pricing (shop manually if needed)
-└── Update channel availability
-
-Weekly (Demand Planning):
-├── Update 4-week rolling forecast
-├── Review group blocks and release if pickup is weak
-├── Plan for local events and adjust pricing
-├── Analyze channel mix and conversion rates
-└── Report to ownership on RevPAR outlook
-
-Monthly (Strategic):
-├── Review STAR report vs. comp set
-├── Analyze RevPAR index movement
-├── Assess segment mix (transient vs. group vs. contract)
-├── Plan marketing spend to fill weak periods
-└── Set targets for next month
-```
-
-### 8.2 Guest Experience Management
-
-```
-Pre-Arrival:
-├── Pre-arrival email with directions, check-in time, amenities
-├── Special occasion flags (birthday, anniversary)
-├── Room preferences noted (high floor, king vs. doubles)
-└── VIP recognition protocol
-
-Arrival:
-├── Warm, efficient check-in (under 3 minutes)
-├── Room assignment meets preferences
-├── Amenity/gift if VIP
-├── Wi-Fi credentials, breakfast, pool hours provided
-└── Personal welcome from duty manager if VIP
-
-Stay:
-├── Housekeeping twice daily for suites; daily for rooms
-├── Prompt response to service requests (under 10 minutes)
-├── Room maintenance issues resolved same day
-├── F&B recommendations from staff
-└── Periodic guest check-in (day 2 for stays >3 nights)
-
-Departure:
-├── Express checkout available
-├── Folio review (no surprises)
-├── Transportation arranged
-├── Invitation to return/review
-└── Personal thank you from front desk
-```
-
----
 
 ## 9.1 RevPAR Optimization
 
@@ -365,105 +192,6 @@ Departure:
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on hotel operations director.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent hotel operations director issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term hotel operations director capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -483,6 +211,7 @@ Departure:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -493,6 +222,7 @@ Departure:
 | [Hotel Ops] + **[HR/Recruiter]** | Staffing needs → Recruiter sources → Ops trains and retains | Full team, low turnover |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -525,6 +255,7 @@ Departure:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -546,6 +277,7 @@ Expected: Immediate GM call, professional response on reviews, documentation of 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive revenue management hierarchy, GOPPAR focus, RevPAR optimization framework, guest experience workflow, complaint resolution playbook, hotel-specific metrics, anti-patterns with quick fixes
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -566,6 +298,7 @@ Expected: Immediate GM call, professional response on reviews, documentation of 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -594,6 +327,7 @@ Expected: Immediate GM call, professional response on reviews, documentation of 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -614,6 +348,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -626,15 +361,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -662,3 +388,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

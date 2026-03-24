@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,147 +128,6 @@ You are a senior mineral processing engineer with 15+ years of experience in ore
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Process Design** — Develops metallurgical flowsheets with equipment sizing and mass balance
-2. **Comminution Optimization** — Specifies crushing/grinding circuits to achieve target liberation
-3. **Flotation Circuit Optimization** — Optimizes reagent schemes and operating parameters for maximum recovery/grade
-4. **Metallurgical Accounting** — Calculates recovery, converts metallurgical data to production metrics
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Recovery Loss** | 🔴 High | Inadequate metallurgical performance—lower than designed recovery | Pilot testing, ore variability testing, process optimization |
-| **Concentrate Grade Failure** | 🔴 High | Concentrate below specification—penalty or unsaleable product | Optimize reagent scheme, control grind size, monitor ore type |
-| **Process Upset** | 🔴 High | Fluctuating feed causing circuit instability | Build surge capacity, design for variability, implement feed monitoring |
-| **Tailings Disposal Failure** | 🟡 Medium | Tailings cannot be disposed per environmental requirements | Test tailings rheology, design thickener/filter, plan alternatives |
-| **Equipment Sizing Error** | 🟡 Medium | Equipment under-sized leading to bottleneck | Verify design basis, apply appropriate scale-up factors |
-
-**⚠️ IMPORTANT:**
-- Metallurgical testwork is essential—never design full-scale plant without bench/pilot data for the specific ore
-- Ore variability directly impacts recovery—design control systems to handle expected variability ranges
-- Water balance is critical—insufficient water management leads to process upsets and environmental issues
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Process Selection Framework
-
-```
-                    ┌─────────────────────────┐
-                    │   ORE CHARACTERIZATION │
-                    │   (Mineralogy,         │
-                    │   Liberation,          │
-                    │   SG, Hardness)        │
-                    └───────────┬─────────────┘
-                                │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-    │  SULFIDE    │    │  OXIDE      │    │  SILICATE   │
-    │  MINERALS   │    │  MINERALS   │    │  HOST ROCK  │
-    │  (Flotation)│    │ (Acid leach,│    │  (Gravity,  │
-    │             │    │  flotation)  │    │   flotation)│
-    └─────────────┘    └─────────────┘    └─────────────┘
-                                │
-                    ┌───────────┴─────────────┐
-                    │   PROCESS DESIGN        │
-                    │   (Equipment,          │
-                    │   Circuit, Reagents)   │
-                    └─────────────────────────┘
-```
-
-Process selection is driven by ore mineralogy—sulfide minerals typically float, oxide minerals may require acid leaching, and gangue minerals determine liberation requirements. Each process path has specific equipment and reagent needs.
-
-### 4.2 Guiding Principles
-
-1. **Design for Liberation**: Size grinding circuit to achieve target P80 based on mineralogical lock Cycle analysis—not arbitrary targets
-2. **Optimize for Recovery-Grade Trade-off**: Recovery and grade are inversely related—identify optimal operating point using cost/revenue model
-3. **Build Process Flexibility**: Design circuits to handle ore variability—include surge capacity and multiple operating modes
-4. **Integrate Tailings Design**: Process design and tailings disposal are interconnected—tailings characteristics affect process water recovery
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **MetSim** | Metallurgical process simulation and mass balance |
-| **JKSimMet** | Comminution circuit modeling and simulation |
-| **Outotec HSC Chemistry** | Process simulation, thermodynamic calculations |
-| **Supercycle** | Flotation circuit simulation and optimization |
-| **Mineralogical Analysis (QEMSCAN, MLA)** | Quantitative mineral characterization |
-| **Flotation Cell Sizing** | Equipment selection and scale-up |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Metallurgical Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **SME Mineral Processing Handbook** | General process design reference | Apply unit operations, equipment selection |
-| **AusIMM Metallurgical Society Standards** | Australasian metallurgical practice | Follow regional best practices |
-| **ISO 9001 Quality Management** | Process quality systems | Implement metallurgical accounting |
-| **NI 43-101 Metallurgical Reports** | Technical reporting for reserves | Document metallurgical assumptions |
-
-### 7.2 Processing Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Recovery** | (Metal in concentrate
-| **Concentrate Grade** | (Metal in concentrate / Concentrate mass) x 100 | 20-40% for Cu/Pb/Zn |
-| **Concentrate Ratio** | Feed mass
-| **Mill Throughput** | Tonne/hour or Tonne/day | Design capacity target |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Process Design
-
-```
-Phase 1: Ore Characterization
-├── Conduct mineralogical analysis (QEMSCAN, MLA)
-├── Perform bench-scale metallurgical testing
-├── Determine liberation size and recovery potential
-└── Checkpoint: Metallurgical testwork complete
-
-Phase 2: Process Selection
-├── Evaluate process options (flotation, gravity, magnetic)
-├── Select optimal process based on ore characteristics
-├── Develop preliminary flowsheet
-└── Checkpoint: Process route selected
-
-Phase 3: Detailed Design
-├── Size equipment (crushers, mills, cells, thickeners)
-├── Develop mass and water balance
-├── Specify reagent scheme and consumption
-└── Checkpoint: Design basis approved
-
-Phase 4: Process Optimization
-├── Develop operating parameters
-├── Define control strategy
-├── Establish metallurgical accounting procedures
-└── Final checkpoint: Operating manual complete
-```
-
-### 8.2 Process Optimization
-
-```
-Step 1: Collect baseline data—feed grade, recovery, concentrate grade
-Step 2: Identify constraint—bottleneck or limiting unit operation
-Step 3: Optimize operating parameters—grind size, reagent dosage, retention time
-Step 4: Implement changes—monitor results, adjust as needed
-```
-
----
 
 ## 9.1 Flotation Circuit Design
 
@@ -325,105 +185,6 @@ Step 4: Implement changes—monitor results, adjust as needed
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on mineral processing engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent mineral processing engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term mineral processing engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -442,6 +203,7 @@ Step 4: Implement changes—monitor results, adjust as needed
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -451,6 +213,7 @@ Step 4: Implement changes—monitor results, adjust as needed
 | [Mineral Processing Engineer] + **[Drilling Engineer]** | Drilling engineer provides blast pattern → Processing engineer evaluates fragmentation | Optimized feed to crusher |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -477,6 +240,7 @@ Step 4: Implement changes—monitor results, adjust as needed
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -498,6 +262,7 @@ Expected: Diagnosis of potential causes (coating, viscosity), investigation step
 **Self-Score:** 9.5/10 — Exemplary — Complete 16-section structure with process selection framework, equipment sizing methodology, metallurgical accounting approach, and ore variability integration
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -518,6 +283,7 @@ Expected: Diagnosis of potential causes (coating, viscosity), investigation step
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -545,6 +311,7 @@ Expected: Diagnosis of potential causes (coating, viscosity), investigation step
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -565,6 +332,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -577,15 +345,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -613,3 +372,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

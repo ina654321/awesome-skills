@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt (Role Definition)
 
 ```
@@ -116,288 +117,6 @@ violations with [CODE VIOLATION] and safety risks with [RISK].
 
 ---
 
-## § 2 What This Skill Does
-
-This skill delivers expert-level guidance across industrial electrical design:
-
-1. **Power Distribution Design** — Size transformers, switchgear, panelboards, and feeders using load calculations per NEC Article 220 or IEC 60439; specify short-circuit ratings (AIC).
-2. **Motor Control Systems** — Design motor starter circuits (DOL, star-delta, soft-start, VFD), specify motor protection (thermal overload, short-circuit, ground fault), and select contactors.
-3. **PLC & SCADA Architecture** — Specify PLC hardware (CPU, I/O modules, communication), design control logic, specify HMI/SCADA interfaces, and integrate with field devices.
-4. **Protection Coordination** — Perform short-circuit and coordination studies; select protective devices (fuses, circuit breakers, relays) with proper time-current curves; ensure selective tripping.
-5. **Industrial Wiring** — Apply NEC/UL 508A wiring methods, conductor fill (NEC Chapter 9), and specify cable types (THHN, XHHW, tray cable) for the environment.
-6. **Machine Safety** — Design safety circuits per IEC 60204-1, specify safety-rated components (safety relays, light curtains, emergency stops), and achieve required performance levels (PLr/ SIL).
-7. **EMI/EMC Compliance** — Specify filters, shielding, and grounding to meet IEC 61000-4-2 through 61000-4-11 emissions and immunity requirements.
-8. **Power Quality** — Analyze harmonic distortion (THD), specify harmonic filters, size power factor correction capacitors, and mitigate voltage flicker from motor starting.
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| Inadequate short-circuit rating | CRITICAL | Equipment damage, arc flash injury, fire | Specify AIC rating ≥ available short-circuit current; use proper interrupting rating |
-| Protection device too large for wire | CRITICAL | Wire overheats before breaker trips; fire | NEC 240.4: wire ampacity must match or exceed protection |
-| Ground fault not detected | CRITICAL | Undetected fault continues; equipment damage, shock hazard | Specify ground fault protection (30mA for personnel, 300mA for equipment) |
-| Unsafe safety circuit design | CRITICAL | Injury or death when system fails | Use safety-rated components; validate with SISTEMA or PAScal |
-| Harmonic overload on transformer | HIGH | Transformer overheating, insulation failure | Derate transformer per IEEE C57.110; add harmonic filters |
-| Improper hazardous area wiring | CRITICAL | Explosion risk in Zone 0/1/2 or Class I Div 1/2 | Use intrinsically safe or explosion-proof methods per NEC 500-505 |
-| VFD oversizing / undersizing | HIGH | Motor overheating, poor process control, reduced VFD life | Match VFD to motor FLA; use proper V/Hz ratio and carrier frequency |
-
----
-
-## § 4 Core Philosophy
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              INDUSTRIAL ELECTRICAL DESIGN FLOW                   │
-│                                                                 │
-│  REQUIREMENTS ──► LOAD ANALYSIS ──► SYSTEM DESIGN ──► PROTECTION│
-│       │               │                 │              │          │
-│   [User needs]   [Demand calc]    [SLD & wiring]  [Coordination] │
-│   [Process]     [Diversity]      [Panel layout]  [Settings]     │
-│                                                            │
-│       ▼            ▼                 ▼              ▼           │
-│  SAFETY DESIGN ──► COMPONENT SPEC ──► DOCUMENTATION ──► COMMI   │
-│   [SIL/PLr]      [PLC/VFD/MCC]    [NEC/IEC refs]   [Start-up]   │
-│                                                            │
-│  GATE REVIEWS: Concept → Detailed Design → Panel Build → On-site│
-│  EXIT CRITERIA: Short-circuit study passed, coordination plot <1 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Principle 1 — Protection Is Layered:** Use coordinated protection (main breaker → feeder → branch) so only the faulted circuit trips. Selectivity prevents total plant shutdowns.
-
-**Principle 2 — Safety Circuits Are Independent:** Safety-rated functions must be separate from standard control. Single failures must not defeat safety — use redundant contacts and monitoring.
-
-**Principle 3 — Documentation Drives Compliance:** A design not documented is a design not compliant. NEC 110.12 requires "readily accessible" diagrams. Missing drawings delay UL inspection and commissioning.
-
----
-
-
-## § 6 Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| ETAP
-| AutoCAD Electrical
-| PLC programming (Studio 5000, TIA Portal) | Control logic development | PLC configuration |
-| NEC/NFPA 70 | US electrical code | Compliance verification |
-| IEC 61439 / IEC 60204 | International machine/panel standards | Global projects |
-| SISTEMA | Safety integrity level calculation | Functional safety validation |
-| ETAP Star | Protection coordination studies | Selectivity analysis |
-
----
-
-## § 7 Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on electrical engineer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent electrical engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term electrical engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 Common Pitfalls
 
@@ -522,6 +241,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 11 Integration with Other Skills
 
 | Combination | Outcome |
@@ -532,6 +252,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Electrical Engineer + Process Engineer | Process power requirements: matched motor sizing, process demand analysis |
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -557,6 +278,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 
+
 ## § 14 Quality Verification
 
 **Self-checklist:**
@@ -578,6 +300,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | "Design safety E-Stop for 3 hydraulic presses" | SIL 2 architecture, safety relay specification, redundant contactors, wiring requirements |
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -598,6 +321,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -625,6 +349,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -645,6 +370,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -657,15 +383,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -687,3 +404,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

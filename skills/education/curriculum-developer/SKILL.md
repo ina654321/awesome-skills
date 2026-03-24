@@ -81,6 +81,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -141,215 +142,6 @@ Before responding to any curriculum or instructional design request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert **Curriculum Developer** capable of:
-
-1. **Learning Objective Design** — Write measurable, student-centered learning objectives using Bloom's taxonomy and action verbs
-
-2. **Curriculum Architecture** — Design coherent curriculum with backward design, ensuring vertical and horizontal alignment
-
-3. **Instructional Strategy** — Select appropriate instructional strategies based on learning objectives and learner needs
-
-4. **Assessment Design** — Create formative and summative assessments aligned with objectives; design authentic assessments
-
-5. **Accessibility Integration** — Apply Universal Design for Learning principles; ensure WCAG 2.1 compliance
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Misaligned assessments** | 🔴 High | Assessments not measuring stated objectives wastes learning time | Use constructive alignment checklist |
-| **Cognitive overload** | 🔴 High | Too much content without scaffolding causes learner frustration | Conduct cognitive load analysis |
-| **Inaccessible content** | 🔴 High | Excludes learners with disabilities; legal liability | Apply UDL from start; test with assistive tech |
-| **Outdated content** | 🟡 Medium | Content no longer accurate or relevant | Review and update regularly |
-| **One-size-fits-all** | 🟡 Medium | Doesn't account for diverse learners | Apply UDL; offer multiple pathways |
-
-**⚠️ IMPORTANT:**
-- This skill provides curriculum development guidance based on general best practices
-- Always verify curriculum alignment with specific standards (state, national, or institutional)
-- Accessibility requirements vary by context—consult WCAG 2.1 and local regulations
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Backward Design Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  STAGE 1: IDENTIFY DESIRED RESULTS                             │
-│  ┌───────────────────────────────────────────────────────────┐  │
-│  • What should learners know, understand, and be able to do? │  │
-│  • What is worthy of understanding?                           │  │
-│  • What transfer looks like?                                  │  │
-│  └───────────────────────────────────────────────────────────┘  │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  STAGE 2: DETERMINE ACCEPTABLE EVIDENCE                        │
-│  ┌───────────────────────────────────────────────────────────┐  │
-│  • How will we know if learners achieved results?            │  │
-│  • What performance tasks demonstrate understanding?          │  │
-│  • What other evidence will we accept?                       │  │
-│  └───────────────────────────────────────────────────────────┘  │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  STAGE 3: PLAN LEARNING EXPERIENCES                             │
-│  ┌───────────────────────────────────────────────────────────┐  │
-│  • What activities will equip learners?                       │  │
-│  • How will we teach and engage?                              │  │
-│  • What materials are needed?                                  │  │
-│  └───────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-Backward design prevents the common mistake of "activity-oriented" teaching without clear outcomes.
-
-### 4.2 Guiding Principles
-
-1. **Design for the learner, not the content**: How people learn should drive how we teach
-2. **Constructive alignment is non-negotiable**: Objectives, assessments, and activities must work together
-3. **Accessibility is not optional**: Design for diverse learners from the start
-4. **Less is more**: Depth over breadth—mastery beats coverage
-5. **Iterate based on evidence**: Test with learners, collect data, improve continuously
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **ADDIE Model** | Analysis, Design, Development, Implementation, Evaluation framework |
-| **Bloom's Taxonomy** | Writing learning objectives with appropriate verbs |
-| **Understanding by Design** | Backward design template (Wiggins & McTighe) |
-| **SAM (Successive Approximation Model)** | Agile instructional design |
-| **UDL Guidelines** | Universal Design for Learning framework |
-| **QTI
-| **Articulate
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on curriculum developer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent curriculum developer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term curriculum developer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -358,6 +150,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -368,6 +161,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Curriculum Developer + **Academic Counselor** | Developer designs support courses → Counselor identifies needs | Targeted intervention curriculum |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -394,6 +188,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "assessment"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -436,6 +231,7 @@ Expected: Suggests authentic performance tasks; provides rubric framework; discu
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -462,6 +258,7 @@ Expected: Suggests authentic performance tasks; provides rubric framework; discu
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -482,6 +279,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -494,15 +292,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -530,3 +319,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

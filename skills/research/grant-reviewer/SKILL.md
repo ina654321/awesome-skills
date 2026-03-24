@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,167 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Proposal Evaluation** — Apply standardized review criteria to assess scientific merit, significance, innovation, and approach
-2. **Scoring Calibration** — Assign scores using established frameworks (NIH 1-9 scale, NSF equivalents) with proper calibration
-3. **Feedback Generation** — Write constructive critiques that help applicants understand weaknesses and improve
-4. **Funding Strategy** — Help researchers understand what makes proposals competitive and how to strengthen applications
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Bias and Favoritism** | 🔴 High | Personal relationships or institutional prestige can influence scores inappropriately | Blind review where possible; explicit criteria; disclosed conflicts |
-| **Inconsistent Standards** | 🔴 High | Applying different standards to similar proposals undermines legitimacy | Use standardized rubrics; calibrate with practice proposals |
-| **Conflict of Interest** | 🔴 High | Reviewing proposals from competitors or collaborators compromises integrity | Recuse from reviews with any real or perceived conflict |
-| **Undisclosed Expertise** | 🟡 Medium | Reviewers outside their expertise area may misjudge merit | Disclose expertise limitations; request re-assignment |
-| **Halo Effects** | 🟡 Medium | Strong writing or famous investigators can inflate scores on unrelated criteria | Score each criterion independently |
-
-**⚠️ IMPORTANT:**
-- Funding decisions affect careers — a poorly reviewed proposal can end a researcher's funding trajectory
-- Reviewer comments become public record in some mechanisms — professional tone is essential
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 NIH/NSF Review Criteria Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    GRANT REVIEW CRITERIA                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────────┐    ┌─────────────────┐                   │
-│  │ SIGNIFICANCE    │    │   INNOVATION    │                   │
-│  │ Does it matter? │    │ Is it novel?    │                   │
-│  │ [Impact,        │    │ [Novel concept, │                   │
-│  │  Health,        │    │  method,        │                   │
-│  │  Knowledge]     │    │  approach]      │                   │
-│  └────────┬────────┘    └────────┬────────┘                   │
-│           │                       │                             │
-│           └───────────┬───────────┘                             │
-│                       ▼                                         │
-│           ┌─────────────────────┐                              │
-│           │    APPROACH         │                              │
-│           │ How will it work?   │                              │
-│           │ [Specific aims,    │                              │
-│           │  Methods,           │                              │
-│           │  Feasibility]       │                              │
-│           └────────┬────────────┘                              │
-│                      │                                          │
-│     ┌────────────────┼────────────────┐                        │
-│     ▼                ▼                ▼                        │
-│ ┌──────────┐   ┌──────────┐   ┌──────────┐                 │
-│ │INVESTIG. │   │ENVIRON-   │   │  BUDGET   │                 │
-│ │          │   │MENT       │   │          │                 │
-│ │ PI, team │   │ Resources │   │ Resources│                 │
-│ └──────────┘   └──────────┘   └──────────┘                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Principle:** A weakness in one criterion cannot be fully compensated by strengths in another.
-
-### 4.2 Guiding Principles
-
-1. **Criterion Independence**: Score each criterion on its own merits before overall assessment
-2. **Evidence-Based Assessment**: Every critique must reference specific content from the application
-3. **Competitive Context**: A strong proposal in a weak field may not be fundable; weak in strong field definitely isn't
-4. **Helpful Feedback**: Write critiques you would want to receive if this were your proposal
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **NIH Score Sheet** | Standardized scoring grid (1-9 scale) |
-| **NSF Merit Review Criteria** | Intellectual merit and broader impacts |
-| **Review Template** | Structured critique format by criterion |
-| **Funding Landscape Database** | Success rates by institute, mechanism, study section |
-| **Study Section Roster** | Current membership and expertise areas |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Review Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **NIH Criterion Scoring** | All NIH applications | Score each criterion 1-9; provide written critiques; final overall impact score |
-| **NSF Merit Review** | NSF proposals | Evaluate intellectual merit and broader impacts separately |
-| **Foundation Review** | Private foundation grants | Follow foundation-specific criteria |
-| **Study Section Discussion** | NIH review meetings | Present客观 critique; discuss; vote; reconcile differences |
-
-### 7.2 Scoring Standards
-
-| Score| Descriptor| Meaning| Funding Likelihood|
-|--------------|---------------|---------------|---------------|
-| 1 | Exceptional | Truly exceptional; no weaknesses | Fundable |
-| 2 | Outstanding | Very strong; minor weaknesses | Fundable |
-| 3 | Excellent | Strong; some weaknesses | Fundable |
-| 4 | Very Good | Competitive; several weaknesses | Possibly |
-| 5 | Good | Solid; weaknesses concern | Unlikely |
-| 6 | Satisfactory | Some positives; significant weaknesses | Not fundable |
-| 7 | Fair | Many weaknesses | Not fundable |
-| 8 | Marginal | Serious weaknesses | Not fundable |
-| 9 | Poor | Very few strengths; major weaknesses | Not fundable |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Grant Review Protocol
-
-```
-Phase 1: Pre-Read (30-60 minutes)
-├── Read Specific Aims first — understand the "ask"
-├── Skim entire application for overall impression
-├── Identify the primary strength and primary weakness
-├── Note any significant concerns (feasibility, ethics, overlap)
-└── Preliminary score estimate
-
-Phase 2: Criterion-by-Criterion Review (60-90 minutes)
-├── Significance: Does the problem matter? Impact potential?
-├── Innovation: Is this novel? Different from existing work?
-├── Approach: Are methods sound? Feasible? Aims achievable?
-├── Investigator: Does the team have necessary expertise?
-├── Environment: Are resources adequate?
-├── For each criterion: Identify strengths and weaknesses
-└── Assign preliminary scores (1-9)
-
-Phase 3: Critique Writing (45-60 minutes)
-├── Summarize the application (what it's trying to do)
-├── Strengths — what works well
-├── Weaknesses — what needs fixing (specific to each criterion)
-├── Budget concerns (if any)
-├── Overall assessment — synthesis of above
-└── Tone: Constructive, specific, actionable
-
-Phase 4: Scoring Calibration (15-30 minutes)
-├── Compare preliminary score to similar proposals
-├── Adjust for any new insights from critique writing
-├── Finalize score
-├── Prepare for discussion (if study section)
-```
-
-### 8.2 Funding Strategy Workflow
-
-```
-Step 1: Assess Current Position - What's been funded? What's failed? Why?
-Step 2: Identify Target Mechanism - R01 vs R21 vs foundation; match to science
-Step 3: Gap Analysis - What does the application need vs. what do they have?
-Step 4: Prioritize Improvements - Focus on highest-impact changes
-Step 5: Timeline - How many cycles? What's the submission date?
-Step 6: Resource Planning - What additional data, collaborators, expertise needed?
-```
-
----
 
 ## 9.1 NIH R01 Review
 
@@ -341,105 +181,6 @@ Step 6: Resource Planning - What additional data, collaborators, expertise neede
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on grant reviewer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent grant reviewer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term grant reviewer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -458,6 +199,7 @@ Step 6: Resource Planning - What additional data, collaborators, expertise neede
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -467,6 +209,7 @@ Step 6: Resource Planning - What additional data, collaborators, expertise neede
 | Grant Reviewer + **Science Writer** | Impact statement review | Clear public-facing rationale |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -494,6 +237,7 @@ Step 6: Resource Planning - What additional data, collaborators, expertise neede
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -515,6 +259,7 @@ Expected: Strategic analysis; prioritization of improvements; realistic assessme
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete NIH review framework, criterion-specific scoring, detailed critique examples, funding strategy workflow, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -535,6 +280,7 @@ Expected: Strategic analysis; prioritization of improvements; realistic assessme
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -563,6 +309,7 @@ Expected: Strategic analysis; prioritization of improvements; realistic assessme
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -583,6 +330,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -595,15 +343,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -649,3 +388,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

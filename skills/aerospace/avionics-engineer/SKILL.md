@@ -31,6 +31,7 @@ Design integrated avionics systems using fly-by-wire technology, GNSS navigation
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -115,200 +116,6 @@ Development Assurance Level (DAL):
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Avionics Challenge Indicators**:
-- Flight control system design (FBW)
-- Navigation system architecture (GPS/INS/GNSS)
-- Communication system integration (VHF/HF/SATCOM)
-- Display system design (PFD/MFD/HUD)
-- System safety assessment (FHA, PSSA, SSA)
-
-**Complexity Markers**:
-- Software: 100K-10M LOC per system
-- Verification: 5-20x development effort
-- Certification: 2-5 years for complex systems
-- Hardware: 50-500 components per LRU
-- Integration: 100-1000 interface signals
-
-### User Signals
-
-Invoke when users need to:
-- Design flight control algorithms
-- Specify navigation system requirements
-- Plan DO-178C certification
-- Analyze system safety
-- Integrate avionics subsystems
-- Troubleshoot avionics issues
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: System Architecture
-
-**Purpose**: Define avionics system structure and interfaces.
-
-**Core Elements**:
-- **Functional Allocation**: Partition functions to hardware
-- **Data Architecture**: Communication networks and protocols
-- **Power Architecture**: Electrical power distribution
-- **Physical Integration**: Rack layout, cooling, wiring
-
-📄 **Details**: [references/05-layer1-architecture.md](references/05-layer1-architecture.md)
-
-### Layer 2: Hardware Design
-
-**Purpose**: Develop airborne electronic hardware.
-
-**Core Elements**:
-- **Circuit Design**: Processors, interfaces, power supplies
-- **PCB Layout**: EMI/EMC considerations, high-speed design
-- **Environmental Design**: DO-160 categories (temp, altitude, vibration)
-- **DO-254 Compliance**: Planning, design, verification, validation
-
-📄 **Details**: [references/06-layer2-hardware.md](references/06-layer2-hardware.md)
-
-### Layer 3: Software Development
-
-**Purpose**: Develop safety-critical embedded software.
-
-**Core Elements**:
-- **Requirements**: System → High-Level → Low-Level
-- **Design**: Architecture, detailed design
-- **Coding**: MISRA C/C++, Ada, model-based (Simulink/SCADE)
-- **Verification**: Reviews, analysis, testing (MCDC for DAL A)
-
-📄 **Details**: [references/07-layer3-software.md](references/07-layer3-software.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### ARINC Standards
-
-| Standard | Purpose | Applications |
-|----------|---------|--------------|
-| ARINC 429 | Two-wire data bus | Legacy aircraft, sensors |
-| ARINC 664 (AFDX) | Ethernet for aviation | A380, B787, A350 |
-| ARINC 653 | OS partitioning | IMA platforms |
-| ARINC 661 | CDS widget standard | Display systems |
-| ARINC 702 | GPS/GBAS | Navigation receivers |
-
-### Flight Control System Types
-
-```
-Conventional (Mechanical):
-├── Direct cable linkage
-├── No power assistance
-└── Light aircraft only
-
-Power-Assisted (Hydraulic):
-├── Hydraulic boost
-├── Manual reversion capability
-└── Business jets, regional aircraft
-
-Fly-By-Wire (Digital):
-├── Side stick/yoke → sensors → computers → actuators
-├── Flight envelope protection
-├── Automatic trim, load alleviation
-└── All modern airliners
-
-Fly-By-Light (Optical):
-├── Fiber optic data transmission
-├── EMI immunity
-├── Military applications
-└── Limited civil use
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### IMA vs Federated Decision Matrix
-
-| Criterion | Federated | IMA | Winner |
-|-----------|-----------|-----|--------|
-| Weight | Higher (redundant HW) | Lower (shared) | IMA |
-| Power | Higher | Lower | IMA |
-| Certification | Simpler | Complex | Federated |
-| Upgrade | LRU replacement | Software load | IMA |
-| Cost (development) | Lower | Higher | Federated |
-| Cost (lifecycle) | Higher | Lower | IMA |
-
-### GNSS Accuracy Budget
-
-| Error Source | Typical Value | Mitigation |
-|--------------|---------------|------------|
-| Ionospheric delay | 5-15m | Dual-frequency, models |
-| Tropospheric delay | 0.5-2m | Models, surface met |
-| Ephemeris error | 2-5m | Precise ephemeris |
-| Clock error | 2-5m | Monitor stations |
-| Multipath | 0.5-5m | Antenna design, filtering |
-| Receiver noise | 0.1-1m | Narrow correlators |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | System Safety Assessment | [references/10-sop-safety-assessment.md](references/10-sop-safety-assessment.md) |
-| SOP 2 | DO-178C Planning | [references/11-sop-do178c.md](references/11-sop-do178c.md) |
-| SOP 3 | ARINC 653 Configuration | [references/12-sop-arinc653.md](references/12-sop-arinc653.md) |
-| SOP 4 | System Integration | [references/13-sop-integration.md](references/13-sop-integration.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Avionics Development Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Common Mode Failure** | Medium | Critical | Dissimilarity, diversity analysis |
-| **Software Error** | Medium | High | Process rigor, independence |
-| **EMI/EMC Issues** | Medium | High | Early testing, filtering |
-| **Integration Failures** | High | Medium | Interface control, testing |
-| **Schedule Delays** | High | Medium | Parallel work streams |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Requirements | Define system specs | Approved requirements | Traceability gaps |
-| Architecture | System design | Design review passed | Safety issues |
-| Implementation | HW/SW development | Verified components | Coverage shortfall |
-| Integration | System build | Functions integrated | Interface errors |
-| Verification | Compliance evidence | SOI audits passed | Open findings |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | FBW Control Law Design | Pitch axis control | [references/16-example-fbw-design.md](references/16-example-fbw-design.md) |
-| 2 | GNSS Receiver Integration | GPS/GLONASS/Galileo | [references/17-example-gnss.md](references/17-example-gnss.md) |
-| 3 | Display System Design | PFD/MFD development | [references/18-example-display.md](references/18-example-display.md) |
-| 4 | DO-178C DAL A Project | Autopilot software | [references/19-example-do178c.md](references/19-example-do178c.md) |
-| 5 | System Safety Analysis | FHA to SSA flow | [references/20-example-safety.md](references/20-example-safety.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -352,3 +159,17 @@ Speeds: 12.5 kbps (low), 100 kbps (high)
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

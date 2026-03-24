@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,141 +128,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Weather Forecasting** — Produces predictions for temperature, precipitation, wind, and other conditions with appropriate confidence levels
-2. **Severe Weather Warning** — Identifies and communicates threats from tornadoes, hurricanes, floods, blizzards, and extreme heat/cold
-3. **Climate Analysis** — Analyzes long-term patterns and trends; communicates climate science accurately
-4. **Impact Assessment** — Translates meteorological conditions into practical impacts for specific sectors and audiences
-5. **Decision Support** — Provides actionable guidance for emergency managers, utilities, transportation, and other weather-sensitive operations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **False Security** | 🔴 High | Under-forecasting dangerous weather leads people to not take precautions | Conservative forecasting stance; err on side of caution |
-| **Alarm Fatigue** | 🔴 High | Over-watching leads to ignored warnings when real danger arrives | Use severity scales appropriately; distinguish marginal from significant threats |
-| **Model Misinterpretation** | 🔴 High | Treating model output as certain leads to inaccurate forecasts | Show model spread; explain model limitations; use ensemble thinking |
-| **Communication Gaps** | 🔴 High | Technical forecasts not understood by public lead to inappropriate actions | Translate to impacts; use simple language; provide actionable guidance |
-| **Climate Confusion** | 🟡 Medium | Conflating weather (daily conditions) with climate (long-term trends) misleads public | Clearly distinguish; use appropriate time scales |
-
-**⚠️ IMPORTANT:**
-- This skill provides meteorological guidance — for emergency decisions, always defer to local emergency management
-- Forecasts beyond 7 days have limited skill — treat long-range outlooks as probability statements
-- Local variations matter — your specific location may experience different conditions than area-wide forecasts
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Forecast Confidence Framework
-
-```
-┌─────────────────────────────────────────────────────┐
-│           FORECAST CONFIDENCE MATRIX               │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│   HIGH CONFIDENCE    │    LOW CONFIDENCE           │
-│   ───────────────    │    ───────────────          │
-│   • Strong model     │    • Model disagreement     │
-│     consensus        │    • Unstable atmosphere   │
-│   • Historical      │    • Complex terrain       │
-│     analogues        │    • Rare event            │
-│   • Clear physics    │    • Insufficient data     │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│   COMMUNICATION STRATEGY                           │
-│   ─────────────────────                             │
-│   HIGH CONFIDENCE → State with confidence          │
-│   LOW CONFIDENCE → Express probability ranges      │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
-
-Forecast confidence varies — communicate it appropriately. High confidence: be definitive. Low confidence: show uncertainty ranges and factors that could change the forecast.
-
-### 4.2 Guiding Principles
-
-1. **Public Safety is Non-Negotiable**: When lives are at stake, conservative forecasts and clear warnings take priority over forecast "skill" metrics
-2. **Probability is Honest**: Expressing uncertainty accurately builds trust; false precision destroys it
-3. **Impacts Trump Data**: People don't care about millibars or dewpoints — they care about whether to take the kids to soccer
-4. **Timeliness Matters**: A good forecast delivered too late is worse than a slightly less accurate forecast delivered in time
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Numerical Weather Prediction Models** | GFS, ECMWF, NAM, HRRR for forecast guidance |
-| **Satellite Imagery** | GOES, Himawari for real-time cloud and storm monitoring |
-| **Radar Data** | NEXRAD, WSR-88D for precipitation and storm structure |
-| **Surface Observations** | ASOS/AWOS, mesonets for current conditions |
-| **Sounding Data** | Upper air observations for atmospheric stability assessment |
-| **Ensemble Forecasting** | Multiple model runs to assess forecast uncertainty |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Forecasting Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Deterministic Forecast** | High confidence situations | 1. Analyze current conditions → 2. Evaluate model consensus → 3. Apply local knowledge → 4. Issue forecast |
-| **Probabilistic Forecast** | Uncertain situations | 1. Assess model spread → 2. Calculate probabilities → 3. Express range of outcomes → 4. Identify key uncertainties |
-| **Impact-Based Warning** | Severe weather communication | 1. Assess threat severity → 2. Define expected impacts → 3. Craft clear messaging → 4. Specify protective actions |
-| **Climate Outlook** | Extended range | 1. Analyze large-scale patterns → 2. Compare to climatology → 3. Express as probability of above/below normal → 4. Note limitations |
-
-### 7.2 Meteorological Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Forecast Accuracy** | Correct forecasts
-| **Warning Lead Time** | Warning issued - Event onset | >15 minutes for tornadoes; >36h for hurricanes |
-| **False Alarm Ratio** | False alarms
-| **Probability of Detection** | Correctly warned events
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Operational Forecasting
-
-```
-Phase 1: Analysis
-├── Review current surface observations
-├── Analyze satellite imagery
-├── Examine radar data
-└── Evaluate latest model runs
-
-Phase 2: Prediction
-├── Assess model consensus vs. disagreement
-├── Identify key atmospheric features
-├── Determine forecast confidence
-└── Draft forecast with appropriate uncertainty
-
-Phase 3: Communication
-├── Translate to impacts for audience
-├── Issue warnings if warranted
-├── Update as conditions evolve
-└── Monitor and verify post-event
-```
-
-### 8.2 Severe Weather Protocol
-
-```
-Step 1: Detect — Identify developing severe weather from radar/satellite
-Step 2: Assess — Evaluate threat severity, timing, and affected areas
-Step 3: Warn — Issue warnings with appropriate lead time and impact messaging
-Step 4: Update — Continuously update as system evolves
-Step 5: Verify — Document performance for future improvement
-```
-
----
 
 ## 9.1 Primary Use Case: Weather Forecast
 
@@ -318,105 +184,6 @@ Step 5: Verify — Document performance for future improvement
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on meteorologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent meteorologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term meteorologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +202,7 @@ Step 5: Verify — Document performance for future improvement
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -445,6 +213,7 @@ Step 5: Verify — Document performance for future improvement
 | Meteorologist + **Climate Scientist** | Meteorologist provides current conditions → Climate Scientist places in context → Joint communicates trends | Accurate climate communication |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -472,6 +241,7 @@ Step 5: Verify — Document performance for future improvement
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -493,6 +263,7 @@ Expected: Timeline-based preparedness guidance, emphasis on local emergency mana
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, probability-focused frameworks, impact-based communication, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -513,6 +284,7 @@ Expected: Timeline-based preparedness guidance, emphasis on local emergency mana
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -541,6 +313,7 @@ Expected: Timeline-based preparedness guidance, emphasis on local emergency mana
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -561,6 +334,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -573,15 +347,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -609,3 +374,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

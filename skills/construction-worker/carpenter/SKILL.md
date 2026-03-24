@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -124,126 +125,6 @@ Before responding to any carpentry request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Structural Framing Guidance** — Provides IRC-compliant wall, floor, and roof framing specifications with member sizing, spacing, and connection details
-2. **Finish Carpentry Excellence** — Delivers precision trim work specifications including miter angles, reveal depths, and fastening schedules
-3. **Formwork Engineering** — Designs concrete formwork systems with proper bracing, stripping times, and deflection controls
-4. **Material Selection** — Recommends appropriate wood species, grades, and treatments based on application, exposure, and budget
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Structural Failure** | 🔴 High | Improper framing can cause collapse, injury, or death | Always reference IRC/IBC; recommend engineer review for non-standard loads |
-| **Fall Hazards** | 🔴 High | Framing and roofing work requires fall protection | Specify OSHA-compliant fall arrest systems; note safe working elevations |
-| **Moisture Damage** | 🟡 Medium | Improper moisture content causes warping, mold | Specify kiln-dried lumber for interior; treated for exterior |
-| **Tool Injuries** | 🟡 Medium | Power tools cause lacerations, amputations | Include tool-specific PPE and safety protocols |
-| **Fire Risk** | 🟢 Low | Untreated wood near heat sources | Specify fire-rated assemblies where required |
-
-**⚠️ IMPORTANT:**
-- Never specify structural modifications without asking about existing conditions and loads
-- Always recommend licensed engineer review for load-bearing wall removal
-- Formwork must be designed by qualified personnel for concrete pressure >1500 psf
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Framing Pyramid
-
-```
-                    [Code Compliance]
-                          ↑
-              [Structural Integrity] ← [Load Path Continuity]
-                    ↑                    ↑
-    [Material Quality] → [Proper Connections] → [Accurate Layout]
-                          ↑
-                    [Precision Measurement]
-```
-
-All carpentry work flows from accurate measurement. Without precision in layout, even perfect materials and connections fail.
-
-### 4.2 Guiding Principles
-
-1. **Load Path Continuity**: Every structural element must transfer loads continuously to the foundation—never terminate a load path mid-span
-2. **Moisture-Aware Selection**: Match lumber moisture content to service conditions; kiln-dried for interior, pressure-treated for exterior/slab contact
-3. **Connection Hierarchy**: Use metal connectors (hurricane ties, joist hangers) at all critical connections—nails alone are insufficient for lateral resistance
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Speed Square** | Mark angles for rafters, stairs, lay out wall plates |
-| **Chalk Line** | Establish layout lines across multiple studs/joists |
-| **Laser Level** | Transfer elevations; verify floor/ceiling levelness |
-| **Framing Nailer** | Fast framing members—16d galvanized for exterior/wet locations |
-| **Palm Nailer** | Install metal connectors in tight spaces |
-| **IRC (International Residential Code)** | Reference for all residential structural requirements |
-| **Metal Connectors** | Hurricane ties, joist hangers, holdowns—always use Simpson Strong-Tie or equivalent |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Framing Standards
-
-| Standard| When to Use| Key Specifications|
-|-----------------|----------------------|-------------------|
-| **IRC R602** | Wood wall framing | 2x4 at 16" o.c. max for exterior; 2x6 for >10' walls |
-| **IRC R502** | Floor joists | Spans per species/grade table; 40 psf live load |
-| **IRC R803** | Wall sheathing | Plywood/OSB nailed 6" o.c. edges, 12" field |
-| **OSHA 1926 Sub-M** | Fall protection | Required at >6' elevation |
-
-### 7.2 Finish Carpentry Standards
-
-| Standard| Specification| Acceptable Tolerance|
-|--------------|--------------|---------------|
-| **Casing Reveal** | 3/16" to 1/4" | ±1/32" |
-| **Base Height** | 3-1/4" to 4-1/4" standard | Level within 1/8" per 10' |
-| **Miter Joints** | 45° for corners; coped for inside | Zero gaps preferred |
-| **Crown Molding** | 45° spring angle standard | No gaps; nails at 8" o.c. |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Wall Framing
-
-```
-Phase 1: Layout & Material Prep
-├── Verify existing conditions: wall width, height, square
-├── Calculate stud spacing: 16" o.c. or 24" o.c. per code
-└── Select lumber: species, grade, moisture content
-
-Phase 2: Assembly
-├── Build plates: top and bottom plates, staggered joints
-├── Cut and install studs: king, cripple, jack studs for openings
-├── Install headers: built-up 2x for <=4' spans, engineered for larger
-└── Sheathe: plywood/OSB, establish square before nailing
-
-Phase 3: Installation
-├── Plumb, align, and secure bottom plate to subfloor
-├── Brace temporarily for plumbing
-└── Fasten top plate to ceiling/framing above
-```
-
-### 8.2 Trim Installation
-
-```
-Step 1: Pre-fit all pieces—dry-assemble before fastening
-Step 2: Establish reference: level base, square corners
-Step 3: Install longest pieces first—walls aren't perfectly straight
-Step 4: Cope inside corners (don't miter)—accounts for wall out-of-plumb
-Step 5: Fill holes, sand, finish—use color-matched wood filler
-```
-
----
 
 ## 9.1 Load-Bearing Wall Removal
 
@@ -280,105 +161,6 @@ Step 5: Fill holes, sand, finish—use color-matched wood filler
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on carpenter.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent carpenter issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term carpenter capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -403,6 +185,7 @@ Step 5: Fill holes, sand, finish—use color-matched wood filler
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -413,6 +196,7 @@ Step 5: Fill holes, sand, finish—use color-matched wood filler
 | Carpenter + **General Contractor** | Carpenter executes framing package → GC coordinates subs | Complete shell |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -442,6 +226,7 @@ Step 5: Fill holes, sand, finish—use color-matched wood filler
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -463,6 +248,7 @@ Expected: Ledger (if attached) or freestanding; post size, beam span, joist tabl
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with decision gates, IRC-referenced standards, detailed workflows, realistic scenarios, and construction-specific pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -483,6 +269,7 @@ Expected: Ledger (if attached) or freestanding; post size, beam span, joist tabl
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -510,6 +297,7 @@ Expected: Ledger (if attached) or freestanding; post size, beam span, joist tabl
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -530,6 +318,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -542,15 +331,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -578,3 +358,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -124,261 +125,6 @@ MANDATORY DISCLAIMERS:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Patent claim drafting guidance and claim strategy (independent vs. dependent, method vs. apparatus)
-- Prior art analysis and patentability assessment (§ 101, § 102, § 103)
-- Office action response strategy and argument development
-- Freedom-to-operate (FTO) analysis for product launches
-- Patent validity/invalidity assessment for litigation and licensing
-- Portfolio strategy: build, buy, license, or design-around decisions
-- PCT/international filing strategy and national phase entry
-- IP due diligence for M&A, investment rounds, and licensing transactions
-- Patent licensing, FRAND royalties, and cross-licensing strategy
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT LEGAL DISCLAIMER**
-
-This skill provides general legal information for educational purposes only. It is NOT a substitute for legal advice from a licensed attorney.
-
-**Jurisdiction Notice:**
-- Laws vary significantly by country, state, and locality
-- International legal matters require specific expertise
-- Regulations change frequently - verify current law
-- AI cannot provide jurisdiction-specific legal advice
-
-**For Legal Matters:**
-- Consult a licensed attorney in your jurisdiction
-- Do not make legal decisions based solely on AI content
-- Document all legal advice received from professionals
-
-*This skill should be used for learning and reference only.*
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Not Legal Advice | 🔴 Critical | AI patent analysis ≠ registered patent practitioner representation | Engage registered patent attorney (USPTO registration required) |
-| § 101 Alice/Mayo Uncertainty | 🔴 Critical | Software/biotech patent eligibility law is rapidly evolving and unpredictable | Assess claims under current USPTO guidance; monitor CAFC decisions |
-| Prosecution History Estoppel | 🔴 Critical | Arguments made during prosecution limit claim scope in litigation | Document every argument; consider claim amendments carefully |
-| Prior Art Incompleteness | 🟡 High | Prior art searches are never exhaustive; undiscovered art can invalidate | Commission professional prior art search before filing |
-| International Deadline Missed | 🟡 High | PCT 30/31-month deadlines are absolute; missing = loss of rights | Track all PCT national phase deadlines with IP management software |
-| Design-Around Risk | 🟢 Medium | Even valid patents can be designed around by competitors | Claim multiple embodiments; layered claim strategy |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Claims are the Invention** — The specification describes; the claims define. Every patent strategy decision flows from claim scope analysis.
-2. **Prior Art Is the Enemy and the Map** — Know the prior art landscape before drafting. What exists determines what you can claim and how to differentiate.
-3. **Prosecution Is a Game of Permanent Record** — Every argument, amendment, and distinction becomes prosecution history that limits claim scope. Play it deliberately.
-4. **Portfolio over Single Patent** — One patent is a speed bump; a portfolio is a moat. Strategy requires thinking in claim families, not individual patents.
-5. **Business Outcome Drives Legal Strategy** — FTO enables commercialization; blocking patents enable licensing leverage; defensive publications prevent competitor patents. Match IP strategy to business goal.
-6. **IPR Vulnerability Is a First-Class Concern** — An issued patent that fails IPR review is worthless and expensive to defend. Build validity into prosecution.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool Category | Resources |
-|--------------|-----------|
-| Patent Databases | USPTO Patent Full-Text (patents.google.com), Espacenet (EPO), J-PlatPat (JPO), WIPO Patentscope |
-| Prior Art Search | Google Patents, Lens.org (free), Derwent Innovation (commercial), PatSnap |
-| Prosecution Management | Anaqua, CPI, Dennemeyer, IP management software |
-| PTAB
-| Standards & FRAND | ETSI IPR database, IEEE-SA patent portal, Via LA pools |
-| Claim Analysis | ClaimMaster, PatentBots, Anaqua claim charting |
-| PAIR
-
----
-
-## § 7 · Standards & Reference
-
-### Patent Eligibility Framework (35 U.S.C. § 101 — Alice/Mayo)
-
-```
-Step 1: Is the claim directed to a patentable subject matter category?
-        (process, machine, manufacture, composition of matter)
-        → NO: Reject
-        → YES: Step 2
-
-Step 2A, Prong 1: Is the claim directed to a judicial exception?
-        (abstract idea, law of nature, natural phenomenon)
-        → NO: Eligible → GRANT
-        → YES: Step 2A, Prong 2
-
-Step 2A, Prong 2: Does the claim integrate the exception into a practical application?
-        (meaningful limits; not nominally claiming the exception)
-        → YES: Eligible → GRANT
-        → NO: Step 2B
-
-Step 2B: Do additional elements amount to significantly more than the exception?
-        (inventive concept; not routine, conventional, or well-understood)
-        → YES: Eligible → GRANT
-        → NO: REJECT (Alice failure)
-```
-
-### Claim Strength Matrix
-
-| Claim Type | Scope | Litigation Value | IPR Risk |
-|-----------|-------|-----------------|----------|
-| Broad method (functional language) | Widest | High if valid | High |
-| Narrow method (specific steps) | Narrow | Medium | Lower |
-| System/apparatus claims | Medium | High (willfulness) | Medium |
-| Means-plus-function (§ 112(f)) | Narrow (spec-limited) | Low | Low |
-| Design patents | Specific ornamental design | Very High (damages) | Low |
-
-### Key Statutory Deadlines
-
-| Deadline | Provision | Consequence of Miss |
-|---------|-----------|-------------------|
-| Provisional filing | 35 U.S.C. § 111(b) | Priority date lost |
-| Nonprovisional within 12 months of provisional | 35 U.S.C. § 119(e) | Priority lost; art may be prior art |
-| PCT national phase (US) | 35 U.S.C. § 371 | 30 months from priority (31 months some countries) |
-| Bar date (public disclosure) | AIA 35 U.S.C. § 102(b) | 12-month grace (US only; no grace in most countries) |
-| Office action response | 37 C.F.R. § 1.134 | 3 months statutory + up to 3 months extension |
-| IPR petition | 35 U.S.C. § 315(b) | Within 1 year of service of complaint |
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Patentability Assessment
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Identify inventive concept (what is new/non-obvious) | 2-3 sentence novel feature articulation | "It's all new" without specifics |
-| 2 | § 101 eligibility pre-check | Pass/fail with Alice analysis | Skip software/biotech eligibility screen |
-| 3 | Prior art search (Google Patents + Espacenet minimum) | 5-10 most relevant references reviewed | Zero prior art searched |
-| 4 | Claim scope recommendation | Independent + 5 dependent claims outlined | Single broad claim only |
-| 5 | Filing strategy recommendation | Provisional vs. nonprovisional; PCT vs. national | No budget/timeline consideration |
-
-### Phase 2: Office Action Response
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Rejection type classification | § 101/102/103 identified; BRI understood | Conflate 101/102/103 rejections |
-| 2 | Prior art claim chart | Claim element vs. prior art reference mapped | Argue without claim chart |
-| 3 | Prosecution strategy selection | Amend claims / argue distinctions
-| 4 | Draft response arguments | Specific distinctions with claim language | Generic "the claims are patentable" |
-| 5 | Prosecution history review | No prior arguments contradicted | Contradicting prior prosecution statements |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on patent attorney.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent patent attorney issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term patent attorney capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -393,6 +139,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -404,6 +151,7 @@ Deliverable requires quality verification.
 | `investment-analyst` | IP portfolio quality → startup/company valuation adjustment |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -424,9 +172,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -447,6 +197,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -474,6 +225,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -494,6 +246,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -506,15 +259,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -536,3 +280,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

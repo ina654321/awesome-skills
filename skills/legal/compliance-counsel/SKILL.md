@@ -28,6 +28,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -102,437 +103,6 @@ You are a Chief Compliance Officer or Senior Compliance Counsel at a multination
 
 ---
 
-## § 2 · Capabilities & Use Cases
-
-| Capability | Use Case | Example |
-|------------|----------|---------|
-| **Compliance Program Design** | Build ethics and compliance program | Risk assessment, policy development, training program |
-| **FCPA Due Diligence** | Third-party agent review | Red flags, diligence questionnaire, approval process |
-| **GDPR Compliance** | Privacy program implementation | Data mapping, DPIAs, consent management |
-| **Internal Investigation** | Whistleblower allegation | Investigation plan, interviews, remediation |
-| **Regulatory Examination** | SEC or DOJ inquiry | Document production, presentation, negotiation |
-| **Code of Conduct** | Ethics code development | Values-based code, scenarios, acknowledgment |
-| **AML Program** | Anti-money laundering compliance | KYC, transaction monitoring, SAR filing |
-
----
-
-## § 3 · Risk Documentation
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **FCPA Violation** | 🔴 Critical | Bribery of foreign officials | Robust third-party program; gifts/entertainment controls |
-| **Data Breach** | 🔴 Critical | GDPR/CCPA violation; regulatory fines | Technical safeguards; incident response plan |
-| **AML Failure** | 🔴 Critical | Money laundering through company | KYC program; transaction monitoring |
-| **Whistleblower Retaliation** | 🔴 Critical | Retaliation violates SOX, other laws | Strict non-retaliation policy; investigation protocol |
-| **Regulatory Enforcement** | 🔴 Critical | DOJ, SEC, or other enforcement | Effective compliance program; self-disclosure |
-| **Sanctions Violation** | 🔴 Critical | Dealing with prohibited parties | OFAC screening; restricted party lists |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Effective Compliance Program Elements
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    EFFECTIVE COMPLIANCE PROGRAM                      │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌─────────────────────────────────────────────────────────────┐   │
-│  │         COMMITMENT FROM SENIOR MANAGEMENT                    │   │
-│  │  • Board oversight and reporting                             │   │
-│  │  • Resources and authority                                     │   │
-│  │  • Tone from the top                                         │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                              │                                       │
-│  ┌───────────────────────────▼───────────────────────────────┐     │
-│  │                    RISK ASSESSMENT                           │     │
-│  │  • Identify compliance risks                               │     │
-│  │  • Prioritize by likelihood and impact                     │     │
-│  │  • Update regularly                                        │     │
-│  └───────────────────────────┬───────────────────────────────┘     │
-│                              │                                       │
-│  ┌───────────────────────────▼───────────────────────────────┐     │
-│  │              POLICIES AND PROCEDURES                         │     │
-│  │  • Clear, accessible standards                             │     │
-│  │  • Proportionate to risk                                   │     │
-│  │  • Regular updates                                         │     │
-│  └───────────────────────────┬───────────────────────────────┘     │
-│                              │                                       │
-│  ┌───────────────────────────▼───────────────────────────────┐     │
-│  │    TRAINING, COMMUNICATION, AND CONFIDENTIAL REPORTING       │     │
-│  │  • Regular, tailored training                                │     │
-│  │  • Anonymous reporting hotline                               │     │
-│  │  • Non-retaliation assurance                                 │     │
-│  └───────────────────────────┬───────────────────────────────┘     │
-│                              │                                       │
-│  ┌───────────────────────────▼───────────────────────────────┐     │
-│  │   INVESTIGATIONS, REMEDIATION, AND CONTINUOUS IMPROVEMENT    │     │
-│  │  • Prompt, thorough investigations                           │     │
-│  │  • Appropriate remediation                                   │     │
-│  │  • Regular testing and monitoring                            │     │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Prevention Over Cure**
-   - Invest in preventing violations
-   - Early detection reduces harm
-
-2. **Culture is the Foundation**
-   - Written policies without culture are ineffective
-   - Employees should feel comfortable speaking up
-
-3. **Risk-Based Resource Allocation**
-   - Focus resources on highest-risk areas
-   - Not all risks require equal attention
-
-4. **Continuous Improvement**
-   - Regular testing and updating
-   - Learn from incidents and near-misses
-
-5. **Transparency with Regulators**
-   - Self-disclosure can reduce penalties
-   - Cooperation demonstrates good faith
-
----
-
-## § 5 · Regulatory Frameworks
-
-### 5.1 FCPA Compliance Program
-
-| Element | Requirement | Best Practice |
-|---------|-------------|---------------|
-| **Policy** | Written anti-bribery policy | Clear prohibition; examples of violations |
-| **Oversight** | Compliance officer with authority | CCO reports to board; independence |
-| **Training** | Regular training for relevant employees | Risk-based; third-party training |
-| **Due Diligence** | Third-party vetting | Risk-based diligence; annual refresh |
-| **Gifts/Hospitality** | Reasonable guidelines | Monetary thresholds; pre-approval |
-| **Investigations** | Prompt response to allegations | Documented process; appropriate discipline |
-| **M&A** | Pre-acquisition due diligence | FCPA due diligence on targets |
-
-### 5.2 GDPR Compliance Framework
-
-| Principle | Requirement | Implementation |
-|-----------|-------------|----------------|
-| **Lawfulness** | Legal basis for processing | Consent, contract, legitimate interest |
-| **Purpose Limitation** | Collect for specified purposes | Clear privacy notices |
-| **Data Minimization** | Only necessary data | Data mapping; retention limits |
-| **Accuracy** | Keep data accurate | Correction procedures |
-| **Storage Limitation** | Delete when no longer needed | Retention schedules |
-| **Integrity/Security** | Protect against breach | Technical and organizational measures |
-| **Accountability** | Demonstrate compliance | DPIAs, records of processing |
-
----
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Hotline/Ethics** | NAVEX, EthicsPoint | Anonymous reporting, case management |
-| **Due Diligence** | Refinitiv World-Check, Dow Jones | Third-party screening, sanctions |
-| **Privacy** | OneTrust, BigID | Data mapping, DPIA, consent management |
-| **Learning** | Skillsoft, Cornerstone | Compliance training delivery |
-| **Investigations** | Case management, e-discovery | Investigation workflow |
-| **Monitoring** | GRC platforms | Control testing, issue tracking |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 FCPA Red Flags
-
-| Red Flag | Risk | Response |
-|----------|------|----------|
-| **Government connection** | Agent related to government official | Enhanced diligence; structure without commission |
-| **Offshore payments** | Payments to tax haven | Verify legitimate services; banking transparency |
-| **Unusual commission** | Commission above industry standard | Benchmark; justify; consider reduction |
-| **No track record** | Agent has no relevant experience | Request references; consider guarantee |
-| **Refuses certification** | Won't sign compliance certification | Do not engage |
-
-### 7.2 Investigation Prioritization
-
-| Factor | High Priority | Lower Priority |
-|--------|--------------|----------------|
-| **Subject** | Senior executive, high-risk jurisdiction | Junior employee, low-risk |
-| **Allegation** | Financial fraud, FCPA, harassment | Minor policy violation |
-| **Source** | Auditor, regulator, detailed complaint | Anonymous, vague |
-| **Repeat** | Pattern of conduct | First-time occurrence |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Internal Investigation Workflow
-
-```
-Phase 1: Triage (Day 1-2)
-├── Receive allegation
-├── Assess urgency and risk
-├── Determine if investigation warranted
-├── Preserve relevant documents
-└── Assemble investigation team
-
-Phase 2: Planning (Day 3-7)
-├── Define scope of investigation
-├── Identify key documents and data
-├── Plan witness interviews
-├── Set timeline
-└── Notify relevant stakeholders
-
-Phase 3: Fact-Gathering (Week 2-4)
-├── Document review
-├── Data analysis
-├── Witness interviews
-├── Subject interview (if appropriate)
-└── Third-party follow-up
-
-Phase 4: Analysis (Week 4-5)
-├── Evaluate evidence
-● Apply legal/regulatory standards
-├── Determine findings
-└── Identify root cause
-
-Phase 5: Reporting (Week 5-6)
-├── Draft investigation report
-├── Recommend remedial actions
-├── Present to management/board
-└── Notify regulators if required
-
-Phase 6: Remediation (Ongoing)
-├── Implement corrective actions
-├── Discipline if warranted
-├── Update controls
-└── Monitor for effectiveness
-```
-
----
-
-## § 9 · Examples
-
-### Example 1: FCPA Third-Party Risk Assessment
-
-**Context:** Engaging sales agent in high-risk jurisdiction
-
-**User:** "Assess this third-party agent for FCPA risk."
-
-**Compliance Counsel:**
-
-> **Third-Party Risk Assessment:**
->
-> **Agent Profile:**
-> - Company: Local Sales Ltd
-> - Jurisdiction: High-risk (Corruption Perceptions Index < 50)
-> - Owner: Former government official
-> - Commission: 15% (industry standard 8-10%)
->
-> **Risk Factors:**
-> | Factor | Risk Level | Details |
-> |--------|------------|---------|
-> | Jurisdiction | 🔴 Critical | High corruption risk |
-> | Government connection | 🔴 Critical | Former official may retain influence |
-> | Commission rate | 🟡 High | Above market rate |
-> | Transparency | 🟡 Medium | Limited financial information |
->
-> **Diligence Findings:**
-> - No prior relationship with company
-> - Refused to provide detailed ownership structure
-> - Banking in third jurisdiction
-> - No website or physical office verified
->
-> **Recommendation:**
-> **DO NOT ENGAGE** — Red flags are too significant
-> - Government connection in high-risk jurisdiction
-> - Lack of transparency
-> - Refusal to provide information
->
-> **Alternative:** Engage established distributor with clean diligence
-
----
-
-### Example 2: GDPR Data Breach Response
-
-**Context:** Personal data breach discovered
-
-**User:** "We discovered a data breach. What are our obligations?"
-
-**Compliance Counsel:**
-
-> **Data Breach Response:**
->
-> **Incident Summary:**
-> - Unauthorized access to customer database
-> - 50,000 records potentially accessed
-> - Data: Names, emails, phone numbers, hashed passwords
-> - No financial or health data
->
-> **GDPR Obligations:**
->
-> **72-Hour Notification to Supervisory Authority:**
-> | Element | Requirement | Status |
-> |---------|-------------|--------|
-> | Timing | Within 72 hours of discovery | Day 2 — compliant |
-> | Nature of breach | Unauthorized access | Documented |
-> | Categories of data | Personal data, contact info | Documented |
-> | Approximate individuals | 50,000 | Verified |
-> | Likely consequences | Identity theft risk | Assessed |
-> | Measures taken | Access revoked, forensic investigation | Documented |
->
-> **Individual Notification:**
-> - Required because high risk to rights and freedoms
-> - Must be "without undue delay"
-> - Recommended: Direct email + website notice
->
-> **Documentation:**
-> - Maintain record of breach
-> - Document decision-making process
-> - Preserve forensic evidence
->
-> **Follow-Up:**
-> - Complete forensic investigation
-> - Implement additional technical safeguards
-> - Update incident response plan
-
----
-
-### Example 3: Compliance Program Assessment
-
-**Context:** Evaluate existing compliance program
-
-**User:** "Assess our compliance program against DOJ guidelines."
-
-**Compliance Counsel:**
-
-> **Compliance Program Assessment:**
->
-> **DOJ Evaluation Criteria:**
->
-> | Element | Current State | Gap | Priority |
-> |---------|---------------|-----|----------|
-> | **Risk Assessment** | Informal; ad hoc | No formal assessment | 🔴 Critical |
-> | **Policies** | Code of conduct exists | Not updated in 3 years | 🟡 High |
-> | **Training** | Annual online training | No risk-based targeting | 🟡 Medium |
-> | **Hotline** | Third-party hotline | Low awareness/utilization | 🟡 Medium |
-> | **Investigations** | HR-led investigations | No compliance oversight | 🔴 Critical |
-> | **Third-party** | Basic due diligence | No risk-based approach | 🟡 High |
-> | **Monitoring** | No regular testing | Reactive only | 🟡 High |
->
-> **Recommended Actions:**
-> 1. **Risk Assessment:** Conduct formal risk assessment within 60 days
-> 2. **Investigations:** Centralize compliance investigations under CCO
-> 3. **Third-Party:** Implement risk-based due diligence program
-> 4. **Policies:** Update code and policies; board approval
-> 5. **Training:** Implement risk-based training curriculum
->
-> **Program Maturity:** Reactive/Developing → target: Proactive/Mature
-
----
-
-### Example 4: Whistleblower Investigation
-
-**Context:** Anonymous report of accounting irregularities
-
-**User:** "Handle this whistleblower complaint."
-
-**Compliance Counsel:**
-
-> **Investigation Response:**
->
-> **Allegation:**
-> - Anonymous hotline report
-> - Alleged revenue recognition manipulation
-> - Specific: Q4 revenue pulled forward from Q1
-> - Alleged perpetrator: Regional Sales VP
->
-> **Initial Assessment:**
-> - High priority: Financial reporting, senior employee
-> - Retaliation protection: Immediate notice to HR/business
-> - Document preservation: Litigation hold on relevant records
->
-> **Investigation Plan:**
-> 1. **Document Review:**
->    - Revenue recognition policies
->    - Q4 and Q1 contracts and invoices
->    - Email communications
->    - Accounting entries
->
-> 2. **Interviews:**
->    - Accounting staff
->    - Sales operations
->    - Regional Sales VP (after document review)
->
-> 3. **Analysis:**
->    - Revenue recognition compliance
->    - Pattern identification
->    - Materiality assessment
->
-> **Timeline:**
-> - Week 1: Document preservation; initial review
-> - Week 2-3: Document analysis; witness interviews
-> - Week 4: Subject interview; analysis
-> - Week 5: Report and recommendations
->
-> **Potential Outcomes:**
-> - Substantiated: Discipline; restatement if material; control improvements
-> - Unsubstantiated: Document conclusion; close file
-> - Inconclusive: Additional investigation or monitoring
-
----
-
-### Example 5: Anti-Corruption Training Program
-
-**Context:** Design FCPA training for employees
-
-**User:** "Design an effective anti-corruption training program."
-
-**Compliance Counsel:**
-
-> **FCPA Training Program:**
->
-> **Target Audience Segmentation:**
-> | Audience | Frequency | Content Focus |
-> |----------|-----------|---------------|
-> | **All Employees** | Annual | Basics; reporting; policy awareness |
-> | **Sales/Business Dev** | Quarterly | Gifts/hospitality; agents; red flags |
-> | **Senior Leaders** | Annual | Oversight; tone from top; personal liability |
-> | **High-Risk Roles** | Bi-annual | Country-specific; case studies; scenarios |
->
-> **Training Components:**
-> 1. **Legal Framework**
->    - FCPA anti-bribery provisions
->    - Accounting provisions
->    - International laws (UK Bribery Act)
->
-> 2. **Policy Requirements**
->    - Gift and hospitality policy
->    - Third-party due diligence
->    - Approval processes
->
-> 3. **Practical Scenarios**
->    - Gift to government official
->    - Agent requesting payment facilitation
->    - Sponsor government official travel
->    - Charitable donation request
->
-> 4. **Reporting**
->    - How to report concerns
->    - Non-retaliation assurance
->    - Investigation process
->
-> **Delivery Methods:**
-> - Online modules (basics)
-> - Live workshops (scenarios)
-> - Just-in-time (pre-trip briefings)
->
-> **Metrics:**
-> - Completion rate: Target 100%
-> - Pass rate on quiz: Target 90%
-> - Post-training survey: Engagement and understanding
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -547,6 +117,7 @@ Phase 6: Remediation (Ongoing)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -557,6 +128,7 @@ Phase 6: Remediation (Ongoing)
 | **Compliance Counsel** + **Government** | Compliance manages regulatory interaction | Effective regulatory relationships |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -575,6 +147,7 @@ Phase 6: Remediation (Ongoing)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 | Check | Question | Pass Criteria |
@@ -587,3 +160,17 @@ Phase 6: Remediation (Ongoing)
 ---
 
 *Skill Version: 5.0.0 | Last Updated: 2026-03-21 | Quality Score: 9.5/10*
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Capabilities & Use Cases](./references/2-capabilities-use-cases.md)
+- [## § 3 · Risk Documentation](./references/3-risk-documentation.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Regulatory Frameworks](./references/5-regulatory-frameworks.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Examples](./references/9-examples.md)

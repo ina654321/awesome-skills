@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,165 +128,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Electrolyte Selection** — Compare sulfide, oxide, halide, and polymer solid electrolytes with specific conductivity, stability, and processability data
-2. **Interface Design** — Solve cathode/electrolyte and anode/electrolyte interface challenges including impedance, dendrites, and degradation
-3. **Cell Architecture** — Design bulk-type, thin-film, or 3D-structured solid-state cells with appropriate current collectors and pressure management
-4. **Manufacturing Processes** — Specify synthesis methods, scalable cell assembly, and quality control for solid-state battery production
-5. **Testing & Characterization** — Apply appropriate electrochemical and materials characterization techniques for solid electrolytes
-6. **Failure Analysis** — Diagnode cycling failures, impedance growth, dendrite penetration, and interfacial degradation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Interface Degradation** | 🔴 High | Solid/solid interfaces grow resistive layers (Li2CO3, Li2S) during cycling | Apply protective coatings (LNO, LiNbO3); use in-situ formation protocols |
-| **Dendrite Penetration** | 🔴 High | Lithium metal dendrites can penetrate solid electrolytes especially at grain boundaries | Design pressure application; use Li7La3Zr2O12 (LLZO) with doped grain boundaries |
-| **Process Scalability** | 🔴 High | Lab-scale synthesis (ball milling, hot pressing) doesn't translate to manufacturing | Specify roll-to-roll processes early; evaluate CapEx for scale |
-| **Cathode Composite Design** | 🟡 Medium | Ionic percolation in composite cathodes requires careful architecture | Optimize active material loading, solid electrolyte content, electronic conductive additive |
-| **Air Sensitivity** | 🟡 Medium | Sulfide electrolytes hydrolyze (H2S formation); LLZO forms Li2CO3 passivation | Specify inert atmosphere handling; consider oxide electrolytes for ambient processing |
-| **Cost Competitiveness** | 🟢 Low | Solid-state currently 2-5x more expensive than liquid Li-ion | Target applications where energy density/safety justifies premium (EV, premium) |
-
-**⚠️ IMPORTANT:**
-- Never claim solid-state batteries are "ready for mass production" — best products are in qualification
-- Interface engineering is the bottleneck, not electrolyte conductivity
-- Dendrite suppression requires understanding mechanical properties AND electrochemistry
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Solid Electrolyte Selection Matrix
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────┐
-│                    SOLID ELECTROLYTE DECISION FRAMEWORK                               │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 1: Application Requirements                                                     │
-│  ├── Energy Density Priority → Sulfide (highest conductivity, can use Li metal)     │
-│  ├── Safety/Temperature Priority → Oxide LLZO (thermal stability, wide temp range)  │
-│  └── Processability Priority → Polymer (flexible, roll-to-roll compatible)           │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 2: Conductivity vs Stability Trade-off                                          │
-│                                                                                       │
-│  High ──┬── Li10GeP2S12 (12 mS/cm) ───────────── Sulfide ── High conductivity       │
-│        │                                                                     │         │
-│        ├── Li6PS5Cl (9 mS/cm) ──────────────── Argyrodite ── Good balance            │
-│        │                                                                     │         │
-│        ├── Li7La3Zr2O12 (1 mS/cm) ───────────── Oxide ──── Stable but lower          │
-│        │                                                                     │         │
-│        └── PEO-LiTFSI (0.1 mS/cm) ───────────── Polymer ── Low but easy to process   │
-│                                                                                       │
-│  Low ──────────────────────────────────────────────── Low stability                  │
-│                                                                                       │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 3: Interface Compatibility                                                     │
-│  ├── With NMC/NCA (4.2V+) → Need protective涂层 (LNO, LiNbO3, Li3PO4)              │
-│  ├── With Li metal → LLZO preferred (thermodynamically stable)                       │
-│  └── With Sulfide → Very limited cathode compatibility                                │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 4: Manufacturing Considerations                                                 │
-│  ├── Sulfide → Solvent-based processing impossible, dry mixing required             │
-│  ├── Oxide → High-temp sintering (700-1200°C), expensive equipment                  │
-│  └── Polymer → Solution casting, roll-to-roll feasible                               │
-└──────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-The framework prioritizes application requirements, then evaluates conductivity-stability trade-offs, interface compatibility, and manufacturing scalability at each step.
-
-### 4.2 Guiding Principles
-
-1. **Conductivity is NOT the Bottleneck**: Most solid electrolytes exceed liquid conductivity; the challenge is interfaces, not bulk transport
-2. **Mechanical Properties Matter for Dendrites**: High shear modulus (>10 GPa) alone doesn't prevent dendrites; grain boundary engineering is critical
-3. **Composite Cathodes are the Hard Part**: 70%+ volume is active material, but must maintain ion percolation
-4. **Manufacturing Defines Viability**: Lab cells with hot-presses don't scale; process must be economically feasible
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **VASP
-| **LAMMPS** | Molecular dynamics for ion diffusion, interface modeling |
-| **COMSOL Multiphysics** | Electrochemical-thermal coupled modeling |
-| **Arbin
-| **XRD
-| **SEM
-| **EIS (BioLogic/Potentiostat)** | Ionic conductivity, grain boundary vs bulk resistance |
-| **ToF-SIMS
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Solid-State Battery Development Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Electrolyte Screening** | New electrolyte material selection | 1. DFT stability window → 2. Synthesize → 3. Measure conductivity → 4. Test electrochemical stability → 5. Evaluate processability |
-| **Interface Engineering** | High impedance or degradation at electrode/electrolyte | 1. Characterize interface (EIS, ToF-SIMS) → 2. Identify degradation products → 3. Design protective coating → 4. Test cycling stability |
-| **Cell Scaling** | Moving from coin cells to pouch cells | 1. Scale-up synthesis → 2. Optimize composite electrode → 3. Design stack pressure → 4. Test life and rate capability → 5. Evaluate manufacturing compatibility |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Ionic Conductivity** | σ = L / (R × A) [S/cm] | >1 mS/cm at room temperature for practical use |
-| **Grain Boundary Resistance** | Rgb
-| **Area-Specific Resistance** | ASR = R × A [Ω·cm²] | <10 Ω·cm² for electrolyte; <100 Ω·cm² for interfaces |
-| **Critical Current Density** | CCD [mA/cm²] | >4 mA/cm² for Li metal cycling |
-| **Coulombic Efficiency** | (Discharge
-| **Energy Density** | Wh/kg (cell level) | >400 Wh/kg for next-gen ASSB target |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Solid Electrolyte Development
-
-```
-Phase 1: Material Selection & Synthesis
-├── Review: Literature for promising compositions (LGPS, argyrodite, LLZO dopants)
-├── Synthesize: Solid-state reaction, ball milling, solution precipitation
-├── Characterize: XRD for phase purity, SEM for morphology
-└── Deliverable: Pure phase electrolyte powder
-
-Phase 2: Electrochemical Characterization
-├── Measure: Conductivity (EIS) from -20°C to 80°C
-├── Test: Electrochemical stability window (CV)
-├── Evaluate: Air stability (for sulfides: H2S evolution)
-└── Deliverable: Conductivity vs temperature, stability window
-
-Phase 3: Interface Compatibility
-├── Pair: With target cathode (NMC811, NCA) or Li metal
-├── Characterize: Interface impedance (EIS), cross-section (SEM)
-├── Identify: Degradation products (XPS, ToF-SIMS)
-└── Deliverable: Interface resistance, failure mechanism analysis
-
-Phase 4: Cell Demonstration
-├── Assemble: Coin cell or pouch cell with composite electrode
-├── Cycle: Galvanostatic cycling at various rates
-├── Test: Rate capability, temperature performance
-└── Deliverable: Cycling data, energy density calculation
-```
-
-### 8.2 Interface Engineering Protocol
-
-```
-Step 1: Baseline Measurement - Assemble cell without coating, measure initial ASR
-Step 2: Degradation Analysis - After cycling, analyze interface composition
-Step 3: Coating Selection - Choose coating based on cathode voltage (LNO for NMC, Li3P for Li)
-Step 4: Deposition - Apply thin coating (1-10 nm via ALD, or sol-gel)
-Step 5: Re-test - Compare initial ASR and growth rate with baseline
-Step 6: Optimization - Iterate coating thickness, material, deposition method
-```
-
----
 
 ## 9.1 EV Battery Cell Design
 
@@ -334,105 +176,6 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on solid state battery engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent solid state battery engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term solid state battery engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -455,6 +198,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -465,6 +209,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 | Solid-State + **Battery Pack Designer** | 1. SSE provides cell specs → 2. Pack designer handles thermal management, pressure | System-level design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -496,6 +241,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -517,6 +263,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive electrolyte selection matrix, interface engineering focus, manufacturing awareness, quantified metrics, realistic scenarios with next-step questions
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -537,6 +284,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -564,6 +312,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -584,6 +333,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -596,15 +346,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -632,3 +373,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

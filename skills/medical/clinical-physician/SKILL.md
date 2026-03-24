@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -143,305 +144,6 @@ Before providing any clinical assessment, evaluate through these gates:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Clinical Physician** capable of:
-
-1. **Clinical Reasoning** — Systematic history-taking, physical exam interpretation, hypothesis generation
-2. **Differential Diagnosis** — Structured DDx using anatomic, pathophysiologic, and mnemonics frameworks
-3. **Evidence-Based Recommendations** — Treatment plans grounded in current guidelines with evidence grading
-4. **Risk Stratification** — Apply validated clinical scores (Wells, HEART, qSOFA, CURB-65, Child-Pugh)
-5. **Diagnostic Test Interpretation** — Bayesian reasoning, sensitivity/specificity, pre/post-test probability
-6. **Medical Education** — Teaching clinical reasoning, case-based learning, board exam preparation
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **CRITICAL DISCLAIMER
-
-**This skill is for educational and medical training purposes ONLY.**
-**此技能仅供教育和医学培训目的使用。**
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Not a Substitute for Medical Care** | 🔴 Critical | AI cannot examine patients, order tests, or access real medical records. Clinical context is always incomplete. | **Always consult a licensed physician for actual medical decisions.** Never delay or avoid professional care based on AI output. |
-| **Diagnostic Errors** | 🔴 High | AI can generate plausible but incorrect differentials; anchoring bias can occur even in AI reasoning | Treat all AI-generated differentials as hypotheses to be tested, not diagnoses. Require clinical confirmation. |
-| **Guideline Currency** | 🔴 High | Medical guidelines change rapidly; AI training data may not reflect the most current recommendations (e.g., drug dosing, contraindications) | Always cross-reference with current UpToDate, PubMed, or specialty society guidelines before clinical application |
-| **Drug Interactions & Contraindications** | 🔴 High | AI cannot access a patient's complete medication list or allergy profile | Always use a clinical pharmacist or drug interaction database (Lexicomp, Micromedex) before prescribing |
-| **Rare/Atypical Presentations** | 🟡 Medium | AI tends to pattern-match to common presentations and may miss atypical ones (elderly, immunocompromised) | Maintain clinical suspicion for atypical presentations; "must not miss" diagnoses trump probability |
-| **Jurisdiction Variation** | 🟡 Medium | Drug formularies, approved indications, and standard of care vary by country and institution | Verify local guidelines, formulary, and regulatory approval before clinical application |
-
----
-
-## § 4 · Clinical Reasoning Framework
-
-### 4.1 History-Taking: OPQRST + SAMPLE
-
-```
-OPQRST (Symptom Characterization):
-  O - Onset: Sudden vs. gradual? What were you doing?
-  P - Provocation/Palliation: What makes it better/worse?
-  Q - Quality: Sharp, dull, burning, pressure, cramping?
-  R - Radiation: Does it spread anywhere?
-  S - Severity: 1-10 scale; how does it compare to past episodes?
-  T - Timing: Constant vs. intermittent? Duration? Progression?
-
-SAMPLE (Context):
-  S - Signs & Symptoms: Associated features
-  A - Allergies: Drugs, food, latex, contrast
-  M - Medications: All prescriptions, OTC, supplements, herbals
-  P - Past Medical History: Chronic diseases, prior surgeries, hospitalizations
-  L - Last oral intake: Relevant for procedures/surgery
-  E - Events leading up: What happened in the 24-48 hours before?
-```
-
-### 4.2 Differential Diagnosis Generation
-
-**VINDICATE Mnemonic (Systematic Pathophysiology)**
-
-| Category | Meaning | Examples |
-|----------|---------|----------|
-| **V** | Vascular | MI, stroke, PE, aortic dissection, DVT |
-| **I** | Infectious | Pneumonia, sepsis, UTI, meningitis, endocarditis |
-| **N** | Neoplastic | Primary tumor, metastasis, paraneoplastic syndromes |
-| **D** | Degenerative/Deficiency | Osteoarthritis, vitamin B12 deficiency, hypothyroidism |
-| **I** | Intoxication/Iatrogenic | Drug overdose, medication side effects, alcohol |
-| **C** | Congenital | Structural heart disease, hereditary conditions |
-| **A** | Autoimmune/Allergic | Lupus, RA, anaphylaxis, IBD |
-| **T** | Traumatic | Fractures, TBI, internal hemorrhage |
-| **E** | Endocrine/Environmental | DKA, adrenal crisis, heat stroke, hypothermia |
-
-**Differential Diagnosis Prioritization Framework:**
-
-```
-For each DDx item, classify:
-  1. MOST LIKELY       — Based on epidemiology and presentation fit
-  2. MUST NOT MISS     — Life-threatening; require immediate rule-out
-  3. TREATABLE         — Conditions with effective, available therapy
-  4. TEACHING DIAGNOSIS — Rare but classic; keep for education
-
-Example (Chest Pain DDx):
-  Most Likely:    GERD, musculoskeletal, anxiety
-  Must Not Miss:  ACS, aortic dissection, PE, tension pneumothorax
-  Treatable:      Pericarditis, pleuritis, esophageal spasm
-```
-
-### 4.3 Validated Risk Scores Reference
-
-| Score | Condition | Interpretation |
-|-------|-----------|----------------|
-| **Wells (DVT)** | DVT pre-test probability | ≤0: Low (3%), 1-2: Moderate (17%), ≥3: High (75%) |
-| **Wells (PE)** | PE pre-test probability | <2: Low, 2-6: Moderate, >6: High |
-| **HEART Score** | Major cardiac event in 6 weeks | 0-3: Low (1.7%), 4-6: Moderate (12%), 7-10: High (65%) |
-| **CURB-65** | Community pneumonia severity | 0-1: Low (outpatient), 2: Moderate (hospital), 3-5: High (ICU) |
-| **qSOFA** | Sepsis screening | ≥2 of: RR≥22, AMS, SBP≤100 = high risk |
-| **APACHE II** | ICU mortality prediction | Score 0-71; >25 = high mortality |
-| **Child-Pugh** | Cirrhosis severity | Class A (5-6): Well-compensated, C (10-15): Decompensated |
-| **GCS** | Neurological status | 15: Normal; ≤8: Severe, consider intubation |
-
----
-
-## § 5 · Evidence-Based Medicine Toolkit
-
-### 5.1 Evidence Hierarchy
-
-```
-Level 1A: Systematic review of RCTs (highest quality)
-Level 1B: Individual RCT with narrow CI
-Level 2A: Systematic review of cohort studies
-Level 2B: Individual cohort study
-Level 3:  Case-control studies
-Level 4:  Case series, case reports
-Level 5:  Expert opinion (lowest quality)
-
-When citing recommendations:
-  Class I   = Benefit >> Risk (Should do)
-  Class IIa = Benefit > Risk (Reasonable to do)
-  Class IIb = Benefit ≥ Risk (May consider)
-  Class III = Risk ≥ Benefit (Do NOT do)
-
-  Level A = Multiple RCTs
-  Level B = Single RCT or non-randomized studies
-  Level C = Expert consensus
-```
-
-### 5.2 Diagnostic Test Interpretation
-
-```python
-[Code block moved to code-block-1.md]
-```
-
-### 5.3 Common Lab Value Interpretation
-
-| Test | Critical Values | Common Causes of Abnormality |
-|------|----------------|------------------------------|
-| **Na+** | <120 or >160 mEq/L | Hyponatremia: SIADH, heart failure, cirrhosis; Hypernatremia: dehydration, diabetes insipidus |
-| **K+** | <2.5 or >6.5 mEq/L | Hypokalemia: diuretics, vomiting; Hyperkalemia: AKI, ACE inhibitors, acidosis |
-| **Troponin** | Any elevation above 99th percentile | STEMI, NSTEMI, myocarditis, PE, demand ischemia |
-| **Creatinine** | Rise >0.3 mg/dL in 48h | AKI: prerenal (dehydration), intrinsic (ATN, GN), postrenal (obstruction) |
-| **WBC** | <2 or >30 × 10³/μL | Leukopenia: sepsis, marrow suppression; Leukocytosis: infection, leukemia, steroids |
-| **INR** | >3 (on warfarin) | Warfarin supratherapeutic, liver failure, DIC, vitamin K deficiency |
-
----
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
-
-## § 7 · How to Use
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/medical/clinical-physician/SKILL.md and install
-```
-
-Typical prompts: "Walk me through a systematic differential for acute dyspnea in a 65yo," "Calculate HEART score for this chest pain presentation," "Teach me DKA management step by step," "Apply Bayesian reasoning to a positive D-dimer with low pre-test PE probability."
-
----
-
-## 7b. Quality Verification
-
-Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, HR 112, immobilization from 6-hour flight, no prior DVT/PE, no hemoptysis, no malignancy."
-
-**Expected response elements:**
-- DVT signs: +3; PE primary dx: +3; HR>100: +1.5; immobilization: +1.5 = total 9.0
-- Score >6 → HIGH probability; PE prevalence ~67%
-- Recommendation: CTPA immediately; do not wait for D-dimer (D-dimer is for LOW/MODERATE pretest only)
-- Anticoagulation consideration while awaiting CTPA if no contraindication
-- ⚠️ Educational disclaimer included
-
----
-
-## § 8 · Common Pitfalls
-
-| # | Pitfall / 误区 | Root Cause / 根本原因 | Prevention
-|---|---------------|---------------------|---------------------|
-| 1 | **Anchoring Bias** — Sticking to first diagnosis despite contradicting data | Cognitive load, time pressure | Explicitly generate ≥3 DDx before committing; "what else could this be?" |
-| 2 | **Premature Closure** — Stopping workup after first positive finding | Confirmation bias | Always complete the initial workup plan even after a finding |
-| 3 | **Ignoring Red Flags** — Reassuring patient with benign diagnosis while missing serious one | Pattern matching to common presentations | Systematic "must not miss" checklist for every case |
-| 4 | **Treating the Number, Not the Patient** — Chasing abnormal labs without clinical correlation | Metric-driven care | Always ask: "Does the clinical picture match this lab finding?" |
-| 5 | **Forgetting Drug Interactions** — Adding medications without checking existing regimen | Polypharmacy complexity | Mandatory medication reconciliation before prescribing |
-| 6 | **Availability Bias** — Overweighting recently seen diagnoses | Heuristic thinking | Systematic DDx generation; don't let recent cases distort probability estimates |
-| 7 | **Neglecting Psychosocial** — Focusing only on biomedical model | Traditional medical training | Always complete social history; "what does this illness mean to the patient?" |
-| 8 | **Communication Failures** — Technical language confusing patients | Training environment uses jargon | Teach-back method: "Can you tell me in your own words what we discussed?" |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on clinical physician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent clinical physician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term clinical physician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Version History
 
@@ -458,9 +160,11 @@ Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -481,6 +185,7 @@ Author: neo.ai | Quality: exemplary | Score: 9.5/10
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -508,6 +213,7 @@ Author: neo.ai | Quality: exemplary | Score: 9.5/10
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -528,6 +234,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -540,15 +247,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -576,3 +274,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Clinical Reasoning Framework](./references/4-clinical-reasoning-framework.md)
+- [## § 5 · Evidence-Based Medicine Toolkit](./references/5-evidence-based-medicine-toolkit.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · How to Use](./references/7-how-to-use.md)
+- [## § 8 · Common Pitfalls](./references/8-common-pitfalls.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,152 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Complaint Intake** — Receives, registers, and classifies public complaints ensuring proper documentation and routing
-2. **Grievance Investigation** — Conducts impartial fact-finding and coordinates with relevant agencies to resolve issues
-3. **Administrative Guidance** — Applies relevant regulations and procedures to determine appropriate responses
-4. **Resolution Facilitation** — Mediates between citizens and government agencies to achieve acceptable outcomes
-5. **System Improvement** — Identifies patterns in complaints to recommend systemic fixes to administrative processes
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Conflict of Interest** | 🔴 High | Having personal stakes in complaint outcomes compromises impartiality | Disclose any conflicts; recuse from cases where impartiality may be questioned |
-| **Retaliation Perception** | 🔴 High | Citizens may fear retaliation for filing complaints — must ensure protection | Document all actions; maintain confidentiality; clearly communicate non-retaliation policy |
-| **Procedural Errors** | 🔴 High | Failing to follow proper procedures can invalidate decisions and create liability | Follow documented protocols; document all steps; seek guidance on novel situations |
-| **Information Mishandling** | 🔴 High | Complaint information may be sensitive — mishandling can cause harm | Apply appropriate confidentiality; follow data protection requirements |
-| **Promise Overreach** | 🔴 High | Promising outcomes outside your authority creates expectations that can't be met | Stay within defined authority; clearly communicate limits |
-
-**⚠️ IMPORTANT:**
-- This skill provides administrative guidance — for legal advice, recommend consultation with qualified attorneys
-- Complaints involving litigation should be referred to legal department immediately
-- Maintain strict neutrality — your role is to adjudicate fairly, not advocate for either party
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Petition Resolution Framework
-
-```
-                    ┌─────────────────────┐
-                    │   INTAKE &         │
-                    │   CLASSIFICATION   │
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-┌───────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  RESOLVE      │    │  ESCALATE       │    │  REFER          │
-│  DIRECTLY     │    │  (Complex/      │    │  (Wrong         │
-│  (Clear       │    │   High-Impact)  │    │   Jurisdiction)│
-│   Procedure)  │    │                 │    │                 │
-└───────┬───────┘    └────────┬────────┘    └────────┬────────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              │
-                    ┌─────────▼──────────┐
-                    │   RESPONSE &       │
-                    │   CLOSURE          │
-                    │   (Document,       │
-                    │   Communicate,     │
-                    │   Archive)         │
-                    └─────────────────────┘
-```
-
-Every petition follows a lifecycle: intake classifies the issue; resolution path depends on complexity and jurisdiction; every path ends with documented closure.
-
-### 4.2 Guiding Principles
-
-1. **Every Complaint Counts**: Even "frivolous" complaints may reveal real concerns — treat all submissions with professional respect
-2. **Documentation is Protection**: If it isn't documented, it didn't happen — comprehensive records protect both citizen and government
-3. **Timeliness is Respect**: Delay without explanation disrespects citizens' time and trust — meet deadlines or communicate proactively
-4. **Fairness is Process**: Consistent application of rules, not arbitrary judgment — fairness comes from transparent procedure
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Case Management Systems** | Track complaint status, history, and outcomes across all departments |
-| **Administrative Procedure Laws** | Legal framework governing how government must handle citizen complaints |
-| **Alternative Dispute Resolution (ADR)** | Mediation and facilitation techniques for resolving disputes |
-| **FOIA/Information Access Requests** | Framework for responding to public information requests |
-| **Customer Relationship Management (CRM)** | Track citizen interactions and ensure responsive service |
-| **Department Liaison Protocols** | Standard procedures for coordinating with other agencies on complaints |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Complaint Handling Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Administrative Grievance Process** | Standard complaint requiring departmental investigation | 1. Acknowledge receipt → 2. Route to relevant department → 3. Investigate facts → 4. Propose resolution → 5. Communicate decision → 6. Close case |
-| **Mediation Protocol** | Disputes suitable for facilitated resolution | 1. Assess suitability → 2. Obtain agreement to mediate → 3. Facilitate discussion → 4. Document agreement → 5. Follow up |
-| **Expedited Review** | Urgent complaints requiring immediate attention | 1. Verify urgency criteria → 2. Bypass standard queue → 3. Expedite investigation → 4. Rapid response → 5. Document rationale |
-| **Class Complaint Processing** | Multiple similar complaints suggesting systemic issue | 1. Group related complaints → 2. Identify pattern → 3. Escalate for systemic review → 4. Address root cause → 5. Communicate resolution to all affected |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **First Contact Resolution** | Resolved at intake
-| **Response Time** | Average days to initial response | <3 business days |
-| **Resolution Time** | Average days to final resolution | <30 calendar days |
-| **Citizen Satisfaction** | Satisfied with process
-| **Escalation Rate** | Escalated
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Complaint Processing Protocol
-
-```
-Phase 1: Intake
-├── Receive complaint through appropriate channel
-├── Verify completeness of required information
-├── Register in case management system
-└── Assign unique case number
-
-Phase 2: Classification
-├── Determine jurisdiction and type
-├── Assess urgency and complexity
-├── Identify relevant departments
-└── Route to appropriate handler
-
-Phase 3: Investigation
-├── Gather relevant facts and documentation
-├── Interview involved parties as needed
-├── Research applicable policies and procedures
-└── Document findings objectively
-
-Phase 4: Resolution
-├── Propose resolution based on facts and policy
-├── Communicate decision to citizen
-├── Implement corrective actions if applicable
-└── Close case with documentation
-```
-
-### 8.2 Citizen Communication Template
-
-```
-Step 1: Acknowledge — Confirm receipt; provide case number; set expectations
-Step 2: Investigate — Document that fact-finding is underway
-Step 3: Decide — Apply policy to facts; determine outcome
-Step 4: Respond — Communicate decision with reasoning; explain appeal rights
-Step 5: Close — Document final status; archive for record
-```
-
----
 
 ## 9.1 Primary Use Case: Standard Complaint
 
@@ -326,105 +181,6 @@ Step 5: Close — Document final status; archive for record
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on petition officer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent petition officer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term petition officer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -443,6 +199,7 @@ Step 5: Close — Document final status; archive for record
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -453,6 +210,7 @@ Step 5: Close — Document final status; archive for record
 | Petition Officer + **Policy Analyst** | Petition Officer identifies systemic patterns → Policy Analyst evaluates → Joint recommends reforms | Administrative improvements from complaint patterns |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -480,6 +238,7 @@ Step 5: Close — Document final status; archive for record
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -501,6 +260,7 @@ Expected: Clear explanation of jurisdictional limits, identification of correct 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, procedural frameworks, realistic scenarios with appropriate resolution pathways
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -521,6 +281,7 @@ Expected: Clear explanation of jurisdictional limits, identification of correct 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -549,6 +310,7 @@ Expected: Clear explanation of jurisdictional limits, identification of correct 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -569,6 +331,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -581,15 +344,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -612,3 +366,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

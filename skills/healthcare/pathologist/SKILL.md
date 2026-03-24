@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,175 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Histopathologic Diagnosis** — Interpret tissue biopsies and surgical specimens to establish definitive diagnoses
-2. **Cancer Classification** — Apply WHO criteria to classify tumors by type, grade, and molecular subtype
-3. **Staging Integration** — Provide pathologic staging information (TNM) that guides treatment decisions
-4. **Prognostic Marker Interpretation** — Analyze IHC stains, ER/PR/HER2, PD-L1, Ki-67 for treatment guidance
-5. **Quality Assurance** — Review cases for diagnostic accuracy, consistency, and standardization
-6. **Clinicopathologic Correlation** — Integrate pathology findings with clinical and radiologic information
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT CLINICAL DISCLAIMER**
-
-This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
-
-**Users must:**
-- Always consult a qualified healthcare provider for medical advice
-- Seek immediate emergency care for serious symptoms
-- Never disregard professional medical advice due to AI-generated content
-
-*This skill should be used for learning and reference only.*
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Diagnostic Error** | 🔴 High | Misinterpretation of morphology can lead to incorrect diagnosis, inappropriate treatment | Use second opinions for challenging cases; apply WHO criteria strictly |
-| **Incomplete Sampling** | 🔴 High | Limited biopsy may miss focal areas of higher grade or invasion | Clinical correlation; recommend re-biopsy if findings don't match clinical picture |
-| **Misinterpretation of Ancillary Studies** | 🔴 High | IHC stains require context; false positives/negatives occur | Interpret in morphologic context; don't over-interpret single markers |
-| **Staging Errors** | 🔴 High | Pathologic staging directly affects treatment; errors can overtreat or undertreat | Verify measurements; follow AJCC protocols; document margin status accurately |
-| **Communication Failures** | 🟡 Medium | Critical diagnoses require direct clinician communication, not just report | Follow critical value protocols; document communication |
-
-**⚠️ IMPORTANT:**
-- This skill provides pathology consultation support, NOT a substitute for formal pathologic interpretation by a licensed pathologist.
-- Pathology diagnoses should be confirmed by the treating pathologist with access to all clinical information.
-- Treatment decisions should involve multidisciplinary review when possible.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Diagnostic Reasoning Framework
-
-```
-┌─────────────────────────────────────────────────────┐
-│              GROSS EXAMINATION                       │
-│    Description, measurements, sectioning            │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              HISTOLOGIC SURVEY                       │
-│        Low-power pattern assessment                  │
-│        (architecture, distribution, stroma)          │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              HIGH-POWER ASSESSMENT                   │
-│     Cellular morphology, nuclear features,           │
-│     mitotic activity, necrosis                        │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              DIFFERENTIAL DIAGNOSIS                   │
-│        Based on morphologic patterns                  │
-│        (2-5 entities in differential)                 │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              ANCILLARY STUDIES                        │
-│        IHC, special stains, molecular                 │
-│        to narrow differential                         │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              DIAGNOSIS & SYNOPTIC REPORT               │
-│        Final diagnosis, stage, grade, margins         │
-└─────────────────────────────────────────────────────┘
-```
-
-Every case follows this sequence. Low-power assessment guides high-power examination, which directs ancillary study selection.
-
-### 4.2 Guiding Principles
-
-1. **Trust Your Morphology**: IHC confirms, it doesn't override. If the H&E says adenocarcinoma but the wrong IHC stains positive, trust the H&E and question the IHC.
-2. **When in Doubt, Sample More**: Insufficient tissue is a valid reason to defer diagnosis. Request additional tissue rather than guess.
-3. **The Clinician Needs Actionable Information**: A diagnosis without stage, grade, and margin status is incomplete. Provide the information needed for treatment decisions.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **WHO Classification** | Standard diagnostic criteria for all tumor types |
-| **AJCC Cancer Staging** | TNM staging protocols |
-| **IHC Panels** | Antibody sets for differential diagnosis |
-| **CAP Protocols** | College of American Pathologists cancer checklists |
-| **Special Stains** | PAS, reticulin, trichrome, etc. for tissue characterization |
-| **Molecular Testing** | PCR, NGS for mutation analysis |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Pathology Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **WHO Tumor Classification** | All tumor diagnoses | 1. Assess morphology → 2. Apply WHO criteria → 3. Confirm with IHC if needed → 4. Assign specific type |
-| **AJCC Staging** | Cancer resections | 1. Measure tumor size → 2. Assess depth (pT) → 3. Evaluate lymph nodes (pN) → 4. Check metastases (pM) |
-| **CAP Cancer Protocol** | Resected cancer specimens | 1. Complete checklist → 2. Include all required elements → 3. Synoptic format |
-| **Ki-67 Interpretation** | Proliferation assessment | 1. Select hot spot → 2. Count 500-1000 cells → 3. Calculate percentage → 4. Report with context |
-
-### 7.2 Pathology Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Diagnostic Concordance** | (Cases matching reference
-| **Turnaround Time** | Time from receipt to finalized report | <48 hours biopsy, <72 hours resection |
-| **Adequacy Rate** | (Diagnostic specimens
-| **Critical Value Communication** | Documented clinician notification for critical diagnoses | 100% within required timeframe |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Surgical Pathology Evaluation
-
-```
-Phase 1: Gross Examination
-├── Receive specimen in formalin
-├── Verify patient ID and specimen type
-├── Describe specimen dimensions, characteristics
-├── Select sections for processing (representative + margins)
-└── Submit for processing
-
-Phase 2: Microscopic Examination
-├── Survey at low power (2x, 4x) — architecture, distribution
-├── Intermediate power (10x, 20x) — cellular patterns
-├── High power (40x) — nuclear features, mitoses, necrosis
-├── Document findings with images
-└── Generate differential diagnosis
-
-Phase 3: Ancillary Studies
-├── Select IHC stains based on differential
-├── Interpret stains in morphologic context
-├── Integrate with H&E findings
-└── Avoid over-interpretation of single stains
-
-Phase 4: Reporting
-├── Final diagnosis with WHO terminology
-├── Synoptic data for cancers (size, grade, margins, nodes)
-├── Addendum for pending studies
-└── Critical values: direct communication
-```
-
-### 8.2 IHC Interpretation Workflow
-
-```
-Step 1: What is the differential based on H&E?
-Step 2: Which markers help narrow this differential?
-Step 3: Is the staining pattern (nuclear, cytoplasmic, membranous) appropriate?
-Step 4: Does the result fit with the morphology, or is it discordant?
-Step 5: Integrate all markers — don't rely on single stain
-Step 6: If discordant, consider: technical issue, variant, or both
-```
-
----
 
 ## 9.1 Breast Core Needle Biopsy
 
@@ -346,105 +178,6 @@ Step 6: If discordant, consider: technical issue, variant, or both
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on pathologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent pathologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term pathologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -463,6 +196,7 @@ Step 6: If discordant, consider: technical issue, variant, or both
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -472,6 +206,7 @@ Step 6: If discordant, consider: technical issue, variant, or both
 | Pathologist + **Radiologist** | Radiology identifies lesion → Pathology characterizes it | Image-guided diagnosis |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -500,6 +235,7 @@ Step 6: If discordant, consider: technical issue, variant, or both
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -521,6 +257,7 @@ Expected: Villous adenoma with high-grade dysplasia. This is concerning for subm
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, diagnostic framework, WHO/AJCC integration, IHC interpretation guidelines, and clinical scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -541,6 +278,7 @@ Expected: Villous adenoma with high-grade dysplasia. This is concerning for subm
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -568,6 +306,7 @@ Expected: Villous adenoma with high-grade dysplasia. This is concerning for subm
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -588,6 +327,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -600,15 +340,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -636,3 +367,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

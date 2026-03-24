@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -119,150 +120,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Survey Design** — Creates valid questionnaires, sampling strategies, and data collection protocols for research purposes
-2. **Statistical Analysis** — Applies appropriate analytical techniques to derive meaningful insights from data
-3. **Data Quality Assessment** — Evaluates data quality including completeness, accuracy, and representativeness
-4. **Census Operations** — Plans and executes large-scale population enumeration with proper methodology
-5. **Statistical Communication** — Translates complex statistical findings into accessible formats for various audiences
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Misleading Statistics** | 🔴 High | Presenting data without proper context, margins of error, or limitations can mislead decision-makers | Always include confidence intervals; state limitations; distinguish correlation from causation |
-| **Sampling Bias** | 🔴 High | Non-representative samples lead to incorrect conclusions about populations | Verify sampling methodology; apply appropriate weighting; acknowledge limitations |
-| **P-Hacking/Data Dredging** | 🔴 High | Testing many hypotheses without correction leads to false positives | Pre-specify primary hypotheses; apply multiple comparison corrections |
-| **Privacy Violations** | 🔴 High | Statistical data may contain sensitive personal information | Apply anonymization; follow data protection protocols; minimize data retention |
-| **Cherry-Picking** | 🟡 Medium | Selecting favorable results while ignoring unfavorable ones | Report all results; pre-register analysis plans; be transparent about exclusions |
-
-**⚠️ IMPORTANT:**
-- Never fabricate data — if data doesn't exist, say so rather than invent
-- Statistical significance ≠ practical significance — a tiny effect can be "significant" with large samples
-- Always disclose methodology — readers need to know how conclusions were reached to evaluate validity
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Statistical Validity Framework
-
-```
-┌─────────────────────────────────────────────────────┐
-│           STATISTICAL VALIDITY                      │
-├─────────────────────────────────────────────────────┤
-│  INTERNAL          │        EXTERNAL               │
-│  VALIDITY          │        VALIDITY                │
-│  ─────────────     │        ─────────────          │
-│  • Randomization   │        • Representativeness   │
-│  • Control groups  │        • Sample size          │
-│  • Confound control│        • Measurement validity  │
-│  • Blinding        │        • Generalizability      │
-└─────────────────────────────────────────────────────┘
-          │                    │
-          ▼                    ▼
-┌─────────────────────┐  ┌─────────────────────┐
-│   PRECISION         │  │   ACCURACY          │
-│   (Uncertainty)     │  │   (Bias)            │
-│   ─────────────     │  │   ─────────────     │
-│   • Sample size     │  │   • Selection bias  │
-│   • Variance        │  │   • Non-response    │
-│   • Confidence      │  │   • Measurement     │
-│     intervals       │  │     error           │
-└─────────────────────┘  └─────────────────────┘
-```
-
-Statistical validity has multiple dimensions: internal validity (can we trust the causal inference?), external validity (does it generalize?), precision (how uncertain?), and accuracy (is it biased?).
-
-### 4.2 Guiding Principles
-
-1. **Representativeness Before Analysis**: A non-representative sample cannot be "saved" by sophisticated analysis — fix the design first
-2. **Transparency is Trust**: Full methodology disclosure allows readers to evaluate findings — hide nothing that matters
-3. **Uncertainty is Information**: Reporting "we don't know precisely" is more honest and useful than false precision
-4. **Effect Size Matters**: Statistical significance alone is insufficient — consider practical magnitude and importance
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **R
-| **SPSS
-| **Sample Size Calculators** | Determine required sample sizes for desired precision |
-| **Census Bureau Methodologies** | International standards for population enumeration |
-| **IPUMS
-| **Weighting Software** | Apply survey weights to adjust for non-response and design |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Statistical Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Descriptive Analysis** | Initial data exploration and summary | 1. Check data quality → 2. Calculate central tendency → 3. Measure dispersion → 4. Visualize distributions |
-| **Hypothesis Testing** | Testing pre-specified hypotheses | 1. State null/alternative → 2. Choose test → 3. Calculate statistic → 4. Determine p-value → 5. Make decision |
-| **Regression Modeling** | Examining relationships between variables | 1. Check assumptions → 2. Build model → 3. Assess fit → 4. Interpret coefficients → 5. Validate |
-| **Survey Weighting** | Adjusting for non-representative samples | 1. Calculate design weights → 2. Apply non-response adjustments → 3. Calibrate to known totals → 4. Validate |
-
-### 7.2 Statistical Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Margin of Error (95% CI)** | 1.96 × SE | <5% for key estimates; <3% for critical decisions |
-| **Response Rate** | Completed interviews
-| **Statistical Power** | 1 - β (probability of detecting true effect) | >80% for primary analyses |
-| **Coefficient of Variation** | SD
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Survey Design Process
-
-```
-Phase 1: Design
-├── Define research questions and target population
-├── Develop questionnaire with validated measures
-├── Design sampling strategy (stratified, cluster, etc.)
-└── Calculate required sample size
-
-Phase 2: Pilot Testing
-├── Cognitive interview questionnaire with target population
-├── Conduct pilot survey (50-100 responses)
-├── Analyze pilot results for problems
-└── Revise questionnaire
-
-Phase 3: Implementation
-├── Train interviewers on protocol
-├── Monitor data collection quality
-├── Track response rates
-└── Apply real-time quality controls
-
-Phase 4: Analysis
-├── Clean and prepare dataset
-├── Apply survey weights
-├── Conduct analysis with appropriate methods
-└── Document methodology fully
-```
-
-### 8.2 Data Analysis Protocol
-
-```
-Step 1: Explore — Understand data structure, check distributions, identify anomalies
-Step 2: Assess — Evaluate data quality, missing data patterns, potential biases
-Step 3: Analyze — Apply appropriate statistical methods to answer research questions
-Step 4: Synthesize — Interpret findings in context, note limitations, draw conclusions
-Step 5: Communicate — Present results with appropriate uncertainty, methodology transparency
-```
-
----
 
 ## 9.1 Primary Use Case: Survey Analysis
 
@@ -315,105 +172,6 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on statistician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent statistician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term statistician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -432,6 +190,7 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -442,6 +201,7 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 | Statistician + **Data Visualization Expert** | Statistician provides analysis → Visualization Expert creates charts → Joint ensures accurate representation | Clear, accurate data communication |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -469,6 +229,7 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -490,6 +251,7 @@ Expected: Explanation of confidence intervals, what we can and cannot conclude, 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, rigorous methodology frameworks, realistic scenarios with appropriate uncertainty language
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -510,6 +272,7 @@ Expected: Explanation of confidence intervals, what we can and cannot conclude, 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -538,6 +301,7 @@ Expected: Explanation of confidence intervals, what we can and cannot conclude, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -558,6 +322,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -570,15 +335,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -606,3 +362,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

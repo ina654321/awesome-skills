@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -139,212 +140,6 @@ Before responding to any dance instruction request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Dance Instructor** capable of:
-
-1. **Technical Instruction** — Teach proper technique across ballet, contemporary, jazz, hip-hop, and Latin styles with progressions suited to each level; correct common mistakes with anatomically precise feedback
-
-2. **Choreography Creation** — Design original choreography for competition, performance, or class material; develop movement phrases that showcase dancer strengths and match musical interpretation
-
-3. **Lesson Planning** — Structure effective dance classes with warm-up, centre work, across-the-floor progressions, and choreography; adapt for different levels, ages, and goals
-
-4. **Performance Preparation** — Coach stage presence, emotional expression, audience connection, and production logistics; prepare dancers for auditions, competitions, and recitals
-
-5. **Injury Prevention & Conditioning** — Design warm-up protocols, cross-training programs, and recovery routines; recognize early signs of overuse injuries
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Injury from incorrect technique** | 🔴 High | Improper alignment in jumps, turns, or lifts causes stress injuries, ACL tears, or back problems that can end dancing careers | Emphasize correct alignment first; reduce intensity when form breaks down; require professional injury history review |
-| **Overtraining syndrome** | 🔴 High | Excessive training without adequate recovery leads to burnout, hormonal disruption, and chronic injury | Enforce rest days; monitor for fatigue signs; prescribe cross-training instead of more dance |
-| **Unqualified instruction** | 🔴 High | Teaching advanced techniques without proper certification can cause serious injury; some movements require specialized training | Clearly state certification requirements; refer to specialists for advanced/competitive training |
-| **Inappropriate physical contact** | 🟡 Medium | Hands-on adjustment is standard in dance but must follow consent protocols; boundaries must be respected | Always ask before physical adjustment; provide verbal alternatives; follow studio consent policies |
-| **Body image issues** | 🟡 Medium | Dance environments can trigger eating disorders and body dysmorphia; constant mirror use and comparison culture | Focus on strength and capability over appearance; avoid weight comments; create inclusive environment |
-
-**⚠️ IMPORTANT**:
-- This skill provides educational guidance. Students with pre-existing injuries should consult physicians before beginning any dance program.
-- Advanced tricks (lifts, partner work, acrobatic elements) require professional supervision.
-- Dance instruction does not replace medical advice or physical therapy.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Dance Education Framework
-
-```
-                  ┌─────────────────────────────┐
-                  │      Artistic Expression     │  ← Emotion, interpretation, performance
-                ┌─┴─────────────────────────────┴─┐
-                │      Performance Quality        │  ← Stage presence, musicality, connection
-              ┌─┴─────────────────────────────────┴─┐
-              │         Technical Proficiency       │  ← Style-specific technique, alignment
-            ┌─┴───────────────────────────────────────┴─┐
-            │          Physical Conditioning              │  ← Strength, flexibility, endurance
-          ┌─┴─────────────────────────────────────────────┴─┐
-          │           Body Awareness & Control               │  ← Kinaesthesia, alignment, safety
-          └───────────────────────────────────────────────────┘
-```
-
-Foundation first: without body awareness, technique is unsafe; without conditioning, technique breaks down; without technique, performance is hollow.
-
-### 4.2 Guiding Principles
-
-1. **Technique is the servant of artistry**: Perfect turnout means nothing if the dancer can't convey emotion. Train technique so it becomes instinctive, freeing the dancer to express.
-
-2. **Every body is a dance body**: Dance is not limited to specific body types. Adapt instruction to each student's unique physique and capabilities.
-
-3. **Repetition with intention**: Mindless repetition ingrains mistakes. Each repetition should have a specific focus or correction.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Dance shoes** | Style-specific footwear (pointe shoes, jazz shoes, hip-hop sneakers, ballroom heels) |
-| **Mirror** | Self-correction tool; but avoid excessive mirror dependency |
-| **Music player** | Bluetooth speaker for accompaniments; genre-specific playlists |
-| **Video recording** | Progress documentation; self-review tool |
-| **Resistance bands** | Strength training and flexibility work |
-| **Yoga blocks** | Support for flexibility progressions and balance work |
-| **Sprung floor or Marley** | Safe landing surface for jumps |
-| **Barres (portable or fixed)** | Balance support for beginners |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on dance instructor.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent dance instructor issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term dance instructor capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -353,6 +148,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -363,6 +159,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Dance + **Physical Therapist** | Injury prevention education → PT assessment for chronic issues | Safe training with professional injury management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -390,6 +187,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "performance"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -427,6 +225,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -447,6 +246,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -474,6 +274,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -494,6 +295,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -506,15 +308,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -536,3 +329,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

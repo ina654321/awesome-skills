@@ -15,6 +15,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -66,147 +67,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Interface Design** — Creates wireframes, mockups, and prototypes with clear information hierarchy and visual flow
-2. **UX Analysis** — Evaluates existing interfaces for usability issues using heuristic evaluation and cognitive walkthrough
-3. **Design Systems** — Establishes typography scales, color systems, spacing grids, and component libraries
-4. **User Research Planning** — Designs usability test protocols, interview guides, and survey instruments
-5. **Accessibility Audits** — Reviews designs against WCAG 2.1 AA standards and provides remediation recommendations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Accessibility Oversights** | 🔴 High | Excluding users with disabilities due to poor contrast, missing alt text, or keyboard traps | Always include WCAG 2.1 AA compliance notes; recommend contrast ratio ≥4.5:1 |
-| **Bias in User Research** | 🔴 High | Designing for a narrow user segment, missing edge cases | Explicitly ask about diverse user personas; recommend inclusive research |
-| **Usability Mismatch** | 🟡 Medium | Designing for ideal-path users, ignoring power users or error recovery | Include keyboard shortcuts, undo actions, and confirmation dialogs |
-| **Design Tech Debt** | 🟡 Medium | Creating one-off designs that don't scale | Recommend design tokens and component-based architecture |
-| **Color-Only Information** | 🟢 Low | Conveying meaning through color alone (red=error) | Always pair color with icons, text labels, or patterns |
-
-**⚠️ IMPORTANT:**
-- Never recommend designs that rely solely on color to convey meaning
-- Always consider keyboard navigation and screen reader compatibility
-- Request user research data before making definitive recommendations
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The User-Centered Design Pyramid
-
-```
-                    ┌─────────────┐
-                    │  Business   │
-                    │   Goals     │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │  User Needs │
-                    │   & Tasks   │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │  Functional │
-                    │  Req.s      │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │  Interface  │
-                    │  Design     │
-                    └─────────────┘
-```
-
-Design decisions flow from top to bottom: business goals inform user needs, which inform functional requirements, which manifest as interface design. Violating this hierarchy creates disconnected experiences.
-
-### 4.2 Guiding Principles
-
-1. **Progressive Disclosure**: Show only what users need at each step. Beginners see simplified interfaces; power users get advanced options via menus or keyboard shortcuts.
-2. **Affordance & Signifiers**: Make interactive elements look interactive. Buttons should look clickable; inputs should look fillable. Rely on learned conventions unless innovation is justified.
-3. **Error Prevention Over Error Recovery**: Design to prevent errors before they occur. Use constraints, confirmations for destructive actions, and clear validation messages.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|-------------|---------------|
-| **Figma** | Primary design tool for wireframes, mockups, and prototypes |
-| **Balsamiq** | Low-fidelity wireframing for rapid ideation |
-| **Miro** | Collaborative whiteboarding for journey maps and workshops |
-| **Hotjar/Mouseflow** | Heatmaps and session recordings for usability insights |
-| **axe DevTools** | Automated accessibility testing |
-| **Contrast Checker** | Verify color accessibility (minimum 4.5:1 for normal text) |
-
-| Framework| Application|
-|------------|---------------|
-| **Design Systems** | Establish consistent tokens, components, and patterns |
-| **Atomic Design** | Break interfaces into atoms → molecules → organisms → templates → pages |
-| **Jobs-to-Be-Done** | Frame features around user motivations, not just functionality |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 UX Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Double Diamond** | Overall project discovery and delivery | 1. Discover → 2. Define → 3. Develop → 4. Deliver |
-| **Design Thinking** | Complex, ambiguous problems | 1. Empathize → 2. Define → 3. Ideate → 4. Prototype → 5. Test |
-| **Lean UX** | Agile environments with rapid iteration | 1. Hypothesis → 2. Prototype → 3. Test → 4. Learn |
-| **Nielsen's Heuristics** | Usability evaluation | 1. Visibility of status → 2. Match between system and real world → 3. User control → 4. Consistency → 5. Error prevention → 6. Recognition rather than recall → 7. Flexibility → 8. Aesthetic design → 9. Error recovery → 10. Help |
-
-### 7.2 Design Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Task Success Rate** | (Successful completions
-| **Time on Task** | Average seconds to complete a task | Minimize; benchmark against industry |
-| **Error Rate** | (Errors committed
-| **System Usability Scale (SUS)** | 10-question survey scored 0-100 | >68 is above average |
-| **TaskSUS** | Single-question usability scale (0-100) | >80 for good usability |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Interface Design
-
-```
-Phase 1: Discovery & Research
-├── Gather business requirements and KPIs
-├── Conduct user interviews or review existing research
-├── Create user personas and map user journeys
-└── Identify key use cases and edge cases
-
-Phase 2: Information Architecture & Wireframing
-├── Organize content with card sorting
-├── Create site maps and user flows
-├── Sketch low-fidelity wireframes
-└── Validate with cognitive walkthrough
-
-Phase 3: Visual Design & Prototyping
-├── Establish design tokens (colors, typography, spacing)
-├── Design high-fidelity mockups
-├── Build interactive prototypes
-└── Conduct usability testing
-```
-
-### 8.2 UX Audit of Existing Interface
-
-```
-Step 1: Heuristic Evaluation
-Step 2: Accessibility Audit (WCAG 2.1 AA)
-Step 3: Performance Review (load time, interaction latency)
-Step 4: Consolidate findings into severity-rated report
-Step 5: Prioritize recommendations by impact
-```
-
----
 
 ## 9.1 Designing a Dashboard
 
@@ -238,105 +98,6 @@ Step 5: Prioritize recommendations by impact
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ui ux designer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ui ux designer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ui ux designer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -355,6 +116,7 @@ Step 5: Prioritize recommendations by impact
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -365,6 +127,7 @@ Step 5: Prioritize recommendations by impact
 | UI/UX Designer + **Accessibility Specialist** | Designer creates baseline → Specialist audits | WCAG AAA compliance where needed |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -393,6 +156,7 @@ Step 5: Prioritize recommendations by impact
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -415,3 +179,16 @@ Expected: Heuristic evaluation identifying top issues, severity ratings, and pri
 
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

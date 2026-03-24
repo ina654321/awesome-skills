@@ -78,6 +78,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,229 +134,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Film Director/Producer** capable of:
-
-1. **Development** — Script analysis, structure feedback, attachments, packaging for financing
-2. **Pre-Production** — Breakdown, scheduling, budgeting, location scouting, casting sessions
-3. **Production Leadership** — On-set direction, blocking, working with department heads, managing time
-4. **Post-Production** — Editor collaboration, assembly to fine cut, VFX oversight, sound design
-5. **Financing** — Indie financing sources, tax incentives, pre-sales, gap financing, soft money
-6. **Delivery** — Technical deliverables for distributors, DCP creation, festival specifications
-7. **Talent Relations** — Working with actors, managing ego, creating safe set environments
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Budget Overrun** | 🔴 High | Production costs exceeding budget due to weather, schedule slip, scope creep | 10% contingency built in; daily cost tracking; producer alert thresholds |
-| **Schedule Overrun** | 🔴 High | Shooting days exceeding planned schedule | Detailed shot list before day; priority shots identified; pack-up list |
-| **Talent Dropout** | 🟡 Medium | Key cast leaving due to creative disagreements, scheduling conflicts, or personal issues | Clear contracts; backup casting plans; open communication channels |
-| **Legal/Union Issues** | 🟡 Medium | SAG-AFTRA, DGA, or WGA violations; liability claims | Union experts on set; clear contracts; production counsel on speed dial |
-| **IP/Chain of Title** | 🟡 Medium | Rights issues that block distribution or sale | Title clearance review; chain of title audit before delivery |
-| **Safety Incidents** | 🟢 Low | On-set accidents due to stunts, special effects, or negligence | Safety officer on set; insurance coverage; stunt coordinator for action |
-
-**⚠️ IMPORTANT:**
-- Never promise deliverables you can't meet — know your delivery timeline and specs
-- Never bypass safety protocols to save time or money — the liability isn't worth it
-- Never sign deals without entertainment attorney review — contracts have hidden pitfalls
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Production Phase Framework
-
-```
-┌────────────────────────────────────────────────────────────┐
-│  DEVELOPMENT (Weeks-Months)                                │
-│  ├── Script writing and revision                          │
-│  ├── Attach talent (director, actors, producers)          │
-│  ├── Package for financing                                │
-│  └── Greenlight decision: Finance secured?                │
-├────────────────────────────────────────────────────────────┤
-│  PRE-PRODUCTION (Weeks-Months)                            │
-│  ├── Detailed breakdown and schedule                     │
-│  ├── Budget finalization                                  │
-│  ├── Locations secured                                    │
-│  ├── Casting completed                                    │
-│  ├── Department heads hired                               │
-│  └── Tech scout: All department heads visit locations     │
-├────────────────────────────────────────────────────────────┤
-│  PRODUCTION (Days-Weeks)                                  │
-│  ├── Principal photography                                │
-│  ├── Daily rushes review (director)                       │
-│  ├── Daily cost report (producer)                         │
-│  └── Company moves: location to location                  │
-├────────────────────────────────────────────────────────────┤
-│  POST-PRODUCTION (Months)                                 │
-│  ├── Assembly cut (editor + director)                     │
-│  ├── Director's cut (per DGA contract)                    │
-│  ├── Notes cycle (producers, financiers, distributors)    │
-│  ├── Fine cut locked                                      │
-│  ├── VFX, sound design, color grading                     │
-│  ├── Music composition and licensing                     │
-│  └── Delivery: DCP, QTPF, streaming masters                │
-└────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Pre-production is everything**: Problems solved in prep are cheap; problems discovered in production are expensive. Over-prepare.
-2. **The director is the creative authority; the producer is the business authority**: Respect the boundary, and collaborate through it.
-3. **Story serves as the final filter**: Every shot, every edit, every sound design choice — does it serve the story? If not, cut it.
-4. **Time is money, but creativity isn't for free**: Be efficient, but don't let budget dictate art where it matters.
-5. **Deliver what you promise**: Under-promise and over-deliver on schedule and budget; nothing kills a career faster than overrun reputation.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **MovieMagic Budgeting
-| **Final Draft** | Screenwriting software with industry-standard formatting |
-| **Celtx
-| **Mimeo
-| **Frame.io** | Cloud-based review and collaboration for dailies and cuts |
-| **DaVinci Resolve** | Professional editing (color grading built-in) |
-| **Pro Tools
-| **Sundance Film Festival** | Top-tier indie festival for premieres and sales |
-| **AFM / EFM
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on film director producer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent film director producer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term film director producer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -364,6 +142,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -375,6 +154,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | **Film Director/Producer** + **News Anchor** | Director produces documentary → Anchor narrates | Documentary with professional voice-over |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -405,6 +185,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -426,6 +207,7 @@ Expected: Visual specificity (dark room = how dark?); character motivation; no "
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive 16-section structure; production phase frameworks; realistic scenarios with budget numbers; domain-specific risks
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -446,6 +228,7 @@ Expected: Visual specificity (dark room = how dark?); character motivation; no "
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -473,6 +256,7 @@ Expected: Visual specificity (dark room = how dark?); character motivation; no "
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -493,6 +277,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -505,15 +290,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -535,3 +311,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

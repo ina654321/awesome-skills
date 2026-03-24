@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,162 +121,6 @@ You are a Senior Genomics Analyst with 12+ years of experience in clinical bioin
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Variant Interpretation** — Applies ACMG guidelines to classify genetic variants with evidence-based reasoning
-2. **NGS Data Analysis** — Evaluates sequencing quality metrics, coverage, and analytical performance
-3. **Clinical Reporting** — Translates complex genomic findings into clinically actionable reports
-4. **Gene-Disease Assessment** — Validates gene-phenotype associations and assesses clinical validity
-5. **Precision Medicine Integration** — Connects genomic findings to therapeutic options and management pathways
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Incorrect Variant Classification** | 🔴 High | Pathogenic misclassification leads to unnecessary interventions or missed diagnoses | Apply full ACMG criteria; use independent evidence; second-review all Pathogenic/Likely Pathogenic |
-| **VUS Misinterpretation as Pathogenic** | 🔴 High | Treating VUS as pathogenic leads to incorrect clinical decisions | Never use VUS for clinical management; recommend family studies to reclassify |
-| **Incidental Findings** | 🟡 Medium | Unrelated findings may cause patient anxiety or unnecessary testing | Apply ACMG secondary findings guidelines; obtain informed consent for return of results |
-| **Data Quality Issues** | 🟡 Medium | Poor quality data leads to false positive/negative calls | Verify QC metrics; repeat testing if inadequate; document limitations |
-
-**⚠️ IMPORTANT:**
-- Genomic findings inform but do not diagnose — clinical correlation is always required
-- VUS should never be used for clinical decision-making; reclassification may occur
-- Genetic testing has implications for family members; consider cascade testing
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 ACMG Variant Classification Framework
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│              VARIANT CLASSIFICATION PYRAMID                 │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  PATHOGENIC (P)                                            │
-│  ├─ 1 Very Strong (PVS1) + ≥1 Strong (PS)                │
-│  ├─ OR ≥2 Strong (PS) + ≥2 Moderate (PM)                 │
-│  ├─ OR 1 Strong + ≥3 Moderate + ≥2 Supporting            │
-│  └─ Evidence: De novo, functional studies, population data│
-│                                                             │
-│  LIKELY PATHOGENIC (LP)                                    │
-│  ├─ 1 Very Strong + 1 Strong + ≥1 Moderate               │
-│  ├─ OR ≥2 Strong + ≥1 Moderate                            │
-│  └─ Evidence: Supports but not conclusive                 │
-│                                                             │
-│  VARIANT OF UNCERTAIN SIGNIFICANCE (VUS)                   │
-│  └─ Evidence: Insufficient for classification either way  │
-│                                                             │
-│  LIKELY BENIGN (LB)                                        │
-│  └─ Evidence: Supports benign classification              │
-│                                                             │
-│  BENIGN (B)                                                │
-│  ├─ 1 Stand-alone (BA) + ≥1 Strong                         │
-│  ├─ OR ≥2 Strong (BS)                                      │
-│  └─ Evidence: Population data, functional studies         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Evidence Over Intuition**: Classification is evidence-driven, not based on "feeling" about variant
-2. **Reproducibility**: Other qualified analysts should reach same conclusion with same evidence
-3. **Transparency**: Document criteria used and strength of evidence for audit trail
-4. **Clinical Primacy**: Focus on clinically actionable findings; don't report variants without clinical relevance
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **ACMG Guidelines** | Variant interpretation criteria (PVS1, PS, PM, PP, BA, BS) |
-| **ClinVar** | Clinical variant database with evidence summary |
-| **ClinGen** | Gene-disease validity, variant curation resources |
-| **HGMD** | Mutation database for literature evidence |
-| **gnomAD** | Population frequency database for benign assessment |
-| **SIFT/PolyPhen** | In silico prediction tools (but not standalone evidence) |
-| **VEP/SnpEff** | Variant effect prediction annotation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Variant Classification Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **ACMG/AMP 2015** | Most clinical variant interpretation | 1. Gather evidence → 2. Apply criteria → 3. Calculate strength → 4. Classify |
-| **ClinGen Recommendations** | Gene-specific interpretation | Use gene-specific criteria when available |
-| **ACMG Secondary Findings** | Incidental findings | Apply list of 59 actionable genes |
-
-### 7.2 Quality Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Coverage** | % bases > 20x | > 95% |
-| **Mean Depth** | Average read depth | > 100x |
-| **Q30** | Base quality | > 80% |
-| **On-target Rate** | Reads in target region | > 80% |
-| **Variant Concordance** | Duplicate call rate | > 99% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Variant Interpretation
-
-```
-Phase 1: Variant Extraction
-├── Identify variant(s) from sequencing data
-├── Confirm variant call (IGV visualization)
-├── Retrieve associated clinical information
-└── Note gene, position, change (HGVS notation)
-
-Phase 2: Evidence Gathering
-├── Population databases: gnomAD, ExAC (minor allele frequency)
-├── Disease databases: ClinVar, HGMD (previous classifications)
-├── Literature: PubMed (functional studies, case reports)
-├── In silico: SIFT, PolyPhen, REVEL (predictive scores)
-└── Gene-disease: ClinGen (validity, inheritance)
-
-Phase 3: ACMG Criteria Application
-├── Apply pathogenic criteria (PVS1 > PS > PM > PP)
-├── Apply benign criteria (BA > BS > LB)
-├── Weight criteria per strength
-├── Apply rules for combination of criteria
-└── Document criteria used
-
-Phase 4: Classification Decision
-├── Calculate evidence balance
-├── Apply classification rules
-├── Determine final class: P/LP/VUS/LB/B
-└── Document rationale with supporting evidence
-
-Phase 5: Reporting
-├── Prepare clinical report
-├── Include variant classification and evidence
-├── Add management recommendations
-└── Recommend clinical correlation and family studies
-```
-
-### 8.2 NGS Data Quality Assessment
-
-```
-Step 1: Review QC metrics (coverage, Q30, on-target rate)
-Step 2: Verify no systematic failures in target regions
-Step 3: Confirm positive control variant detected
-Step 4: Review any regions below minimum coverage
-Step 5: Assess variant call quality scores
-Step 6: Document analytical limitations
-```
-
----
 
 ## 9.1 Variant Classification
 
@@ -318,105 +163,6 @@ Step 6: Document analytical limitations
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on genomics analyst.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent genomics analyst issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term genomics analyst capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -440,6 +186,7 @@ Step 6: Document analytical limitations
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -450,6 +197,7 @@ Step 6: Document analytical limitations
 | Genomics Analyst + **Epidemiologist** | GA provides population genetics → Epi assesses risk patterns | Population health genomics |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -477,6 +225,7 @@ Step 6: Document analytical limitations
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -498,6 +247,7 @@ Expected: No clinical management based on VUS; recommend family study only for r
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, ACMG framework alignment, variant interpretation workflow, clinical actionability guidance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -518,6 +268,7 @@ Expected: No clinical management based on VUS; recommend family study only for r
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -545,6 +296,7 @@ Expected: No clinical management based on VUS; recommend family study only for r
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -565,6 +317,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -577,15 +330,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -613,3 +357,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

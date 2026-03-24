@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -124,142 +125,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Emergency Assessment** — Rapidly evaluate emergency situations to determine response level, resources needed, and immediate actions
-2. **Rescue Operations** — Coordinate and execute rescue procedures including search, extraction, and victim stabilization
-3. **Shelter Management** — Establish and operate temporary shelters including facility setup, intake procedures, and service coordination
-4. **Vulnerable Population Support** — Provide specialized assistance for children, elderly, disabled, and trauma-affected individuals
-5. **Multi-Agency Coordination** — Integrate response efforts across fire, police, medical, and social services agencies
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Delayed Response** | 🔴 High | In emergency response, every second counts — inefficient communication or assessment can cost lives | Prioritize action items; use standardized protocols |
-| **Secondary Incidents** | 🔴 High | Rescue operations can create new dangers — responders or bystanders becoming victims | Implement scene safety protocols; establish clear zones |
-| **Vicarious Trauma** | 🔴 High | Repeated exposure to disaster and suffering affects responder wellbeing | Build in decompression; rotate personnel; provide counseling access |
-| **Resource Misdirection** | 🔴 High | Incorrect triage or resource allocation leaves actual needs unmet | Use established triage frameworks; verify before committing resources |
-| **Information Chaos** | 🟡 Medium | Multiple agencies and rumor-filled public communications create confusion | Establish single source of truth; verify all information before acting |
-
-**⚠️ IMPORTANT:**
-- This skill provides guidance, not emergency services — for active emergencies, always contact professional emergency services (911, 120, etc.)
-- Crisis situations require professional training — don't attempt specialized rescue without proper certification
-- Mental health is operational readiness — responder wellbeing directly impacts response effectiveness
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The RESCUE Incident Command Framework
-
-```
-                    ┌─────────────────────┐
-                    │   INCIDENT COMMAND   │
-                    │   Establish Authority│
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-┌───────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  OPERATIONS   │    │  PLANNING       │    │  LOGISTICS      │
-│  Direct       │    │  Assess &       │    │  Resource       │
-│  Tactical     │    │  Plan Response  │    │  Acquisition   │
-│  Response     │    │                 │    │                 │
-└───────┬───────┘    └────────┬────────┘    └────────┬────────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              │
-                    ┌────────▼──────────┐
-                    │   COMMUNICATIONS  │
-                    │   Coordinate &   │
-                    │   Inform         │
-                    └───────────────────┘
-```
-
-Incident command provides structure to chaos. Establish command first, then systematically address operations, planning, logistics, and communications. Every major incident follows this framework.
-
-### 4.2 Guiding Principles
-
-1. **Life Safety is Non-Negotiable**: No property, timeline, or convenience consideration outweighs human life — always
-2. **Size Up Before Acting**: The first 60 seconds define the incident — assess before committing resources
-3. **Incident Within Incident**: If a responder becomes a victim, the situation has changed — reassess and adapt
-4. **Transition is Critical**: Handovers between phases or teams are high-risk — communicate completely, verify understanding
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Incident Command System (ICS)** | Standardized emergency management structure for multi-agency response |
-| **START Triage** | Simple triage method: Immediate, Delayed, Minor, Deceased |
-| **METHANE Reporting** | Standard incident reporting: Major incident, Exact location, Type of incident, Hazards, Access, Number of casualties, Emergency services |
-| **National Emergency Management Systems** | Country-specific frameworks (FEMA, Ministry of Emergency Management) |
-| **Crisis Counseling Techniques** | Psychological first aid for trauma-affected individuals |
-| **Shelter Management Guidelines** | FEMA/Red Cross standards for temporary shelter operations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Emergency Response Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **ICS-100/200** | Any incident requiring multi-agency coordination | 1. Establish incident commander → 2. Define objectives → 3. Assign roles → 4. Manage resources → 5. Demobilize |
-| **START Triage** | Mass casualty incidents with multiple victims | 1. Assess walking wounded → 2. Assess breathing → 3. Assess perfusion → 4. Assess mental status → 5. Tag and transport |
-| **Size-Up Assessment** | Initial scene evaluation | 1. What has happened? → 2. What is happening now? → 3. What will happen next? → 4. What resources needed? |
-
-### 7.2 Response Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Response Time** | Dispatch to arrival | Urban <8 minutes; Rural <15 minutes |
-| **Triage Accuracy** | Correct triage
-| **Shelter Capacity** | Occupants
-| **Resource Utilization** | Resources used effectively
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Emergency Response Protocol
-
-```
-Phase 1: Initial Response
-├── Receive and confirm dispatch information
-├── Stage at safe approach point
-├── Conduct initial size-up (scene safety, hazards, scope)
-└── Establish incident command if warranted
-
-Phase 2: Tactical Operations
-├── Execute search and rescue operations
-├── Provide immediate medical care
-├── Coordinate additional resources
-└── Establish patient collection points
-
-Phase 3: Transition & Demobilization
-├── Transfer patients to medical facilities
-├── Account for all personnel
-├── Document incident actions
-└── Conduct debrief and after-action review
-```
-
-### 8.2 Shelter Operations
-
-```
-Step 1: Site Assessment — Evaluate facility for safety, capacity, accessibility, utilities
-Step 2: Setup — Configure reception, sleeping, dining, medical, and service areas
-Step 3: Intake — Register occupants, assess needs, assign sleeping areas
-Step 4: Operations — Coordinate services (food, medical, social work, security)
-Step 5: Demobilization — Transition occupants to permanent housing, close facility
-```
-
----
 
 ## 9.1 Primary Use Case: Natural Disaster Response
 
@@ -325,105 +190,6 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on rescue worker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent rescue worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term rescue worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -435,6 +201,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 | Rescue Worker + **Mental Health Professional** | Rescue provides immediate safety → MH professional provides psychological first aid → Long-term counseling arranged | Addressing immediate and long-term trauma |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -463,6 +230,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -484,6 +252,7 @@ Expected: Differentiated services approach, accessibility considerations, specia
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, operational frameworks, realistic scenarios, clear scope limitations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -504,6 +273,7 @@ Expected: Differentiated services approach, accessibility considerations, specia
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -532,6 +302,7 @@ Expected: Differentiated services approach, accessibility considerations, specia
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -552,6 +323,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -564,15 +336,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -600,3 +363,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

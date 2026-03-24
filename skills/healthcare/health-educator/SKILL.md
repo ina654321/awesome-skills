@@ -33,6 +33,7 @@ Transform your AI into an expert health educator capable of assessing community 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -113,184 +114,6 @@ Address multiple levels:
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| Needs Assessment | Community assessment, priority identification |
-| Program Design | Evidence-based intervention planning |
-| Education Delivery | Workshops, classes, one-on-one counseling |
-| Materials Development | Brochures, videos, digital content |
-| Evaluation | Outcome measurement, continuous improvement |
-| Coalition Building | Partnerships, community engagement |
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Mitigation |
-|------|----------|------------|
-| Harm from misinformation | 🔴 Critical | Evidence-based content |
-| Cultural insensitivity | 🟠 High | Cultural competency training |
-| Privacy breach | 🔴 Critical | HIPAA/confidentiality |
-| Program ineffectiveness | 🟡 Medium | Evidence-based design |
-| Ethical boundary violation | 🟡 Medium | Clear role boundaries, supervision |
-
----
-
-## § 4 · Core Philosophy
-
-### Health Education Process
-
-```
-Assessment → Planning → Implementation → Evaluation → Dissemination
-    ↓           ↓            ↓             ↓            ↓
-  Data      Objectives   Activities    Outcomes    Best Practices
-```
-
-### Guiding Principles
-
-1. Evidence-based practice
-2. Cultural competence
-3. Health equity focus
-4. Community participation
-5. Continuous improvement
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install health-educator` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/health-educator.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/health-educator.md`
-
-## § 6 · Professional Toolkit
-
-### Behavior Change Models
-- Health Belief Model
-- Transtheoretical Model (Stages of Change)
-- Social Cognitive Theory
-- Diffusion of Innovations
-
-### Assessment Tools
-- Community Health Needs Assessment
-- Health Risk Appraisal
-- Program evaluation frameworks
-
----
-
-## § 7 · Domain Knowledge
-
-### Learning Domains
-
-| Domain | Focus | Example |
-|--------|-------|---------|
-| Cognitive | Knowledge | Understanding diabetes |
-| Affective | Attitudes | Motivation to change |
-| Psychomotor | Skills | Blood glucose testing |
-
-### Teaching Methods
-
-| Method | Best For | Example |
-|--------|----------|---------|
-| Lecture | Knowledge transfer | Disease information |
-| Discussion | Attitude change | Risk discussion |
-| Demonstration | Skill building | Inhaler technique |
-| Practice | Mastery | Role-play |
-
----
-
-## § 8 · Scenario Examples
-
-### Scenario 1: Diabetes Prevention Program
-
-**Context**: CDC-recognized DPP for prediabetic adults.
-
-**Program**:
-- 16 weekly sessions, 6 monthly follow-up
-- Lifestyle coach-led
-- 5-7% weight loss goal
-- 150 min/week physical activity
-
-**Outcome**: 60% achieved weight goal, 40% reduced diabetes risk
-
----
-
-### Scenario 2: School Health Program
-
-**Context**: Tobacco prevention for middle schoolers.
-
-**Activities**:
-- Peer education
-- Counter-marketing
-- Parent engagement
-- Policy advocacy
-
-**Outcome**: 15% reduction in smoking initiation
-
----
-
-### Scenario 3: Workplace Wellness
-
-**Context**: Corporate wellness program design.
-
-**Components**:
-- Health screenings
-- Fitness challenges
-- Nutrition education
-- Stress management
-
-**Outcome**: 10% reduction in healthcare costs
-
----
-
-### Scenario 4: Health Literacy Initiative
-
-**Context**: Improve medication understanding in low-literacy population.
-
-**Interventions**:
-- Teach-back method training
-- Simplified handouts
-- Picture-based instructions
-- Interpreter services
-
-**Outcome**: 30% improvement in medication adherence
-
----
-
-### Scenario 5: Community Coalition
-
-**Context**: Address obesity through policy change.
-
-**Coalition**:
-- Schools (physical education)
-- Workplaces (healthy food)
-- Parks (recreation access)
-- Restaurants (menu labeling)
-
-**Outcome**: 5% reduction in childhood obesity
-
----
-
-## § 9 · Workflow
-
-| Phase | Activities |
-|-------|------------|
-| Assess | Community survey, data review |
-| Plan | Logic model, objectives, activities |
-| Implement | Deliver program, manage logistics |
-| Evaluate | Measure outcomes, report results |
-| Improve | Use findings for enhancement |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -303,6 +126,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
+
 ## § 11 · References
 
 - NCHEC (nchec.org)
@@ -312,6 +136,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
+
 ## § 12 · Integration
 
 - Public Health, Healthcare, Schools, Workplaces, Communities
@@ -319,3 +144,17 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Workflow](./references/9-workflow.md)

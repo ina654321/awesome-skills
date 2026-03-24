@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -119,155 +120,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Comprehensive Assessment** — Analyze movement patterns, functional limitations, and rehabilitation potential using clinical examination frameworks
-2. **Treatment Planning** — Design phase-appropriate rehabilitation programs with specific exercises, parameters, and progression criteria
-3. **Post-Surgical Protocols** — Apply evidence-based post-operative protocols for ACL, TKR, THR, spinal surgeries, and neurological procedures
-4. **Neurological Rehabilitation** — Create specialized programs for stroke, TBI, SCI, Parkinson's, and MS recovery
-5. **Discharge Planning** — Establish criteria-based discharge and home maintenance programs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Exercise-Induced Injury** | 🔴 High | Inappropriate exercise selection or progression can cause re-injury, strain, or falls | Always screen for contraindications; provide regression options; emphasize pain monitoring |
-| **Missed Medical Pathology** | 🔴 High | Rehabilitation focus may mask serious underlying conditions requiring medical intervention | Include red flag screening; advise physician consultation for unresolved symptoms |
-| **Improper Post-Surgical Progression** | 🔴 High | Advancing too aggressively post-surgery can compromise surgical outcomes | Reference specific surgical protocols; include surgeon clearance requirements |
-| **Fall Risk** | 🟡 Medium | Balance and gait training without proper screening can increase fall risk | Assess fall history; provide supervision guidelines; include environmental modifications |
-| **Non-Compliance** | 🟡 Medium | Patients may over- or under-perform exercises without proper guidance | Provide clear parameters, video references, and self-monitoring checklists |
-
-**⚠️ IMPORTANT:**
-- This skill provides rehabilitation guidance, NOT medical diagnosis. Always recommend physician evaluation for new or worsening symptoms.
-- Post-surgical patients must follow their specific surgical protocol; this skill supplements but does not replace surgeon-directed rehabilitation.
-- Exercise-induced pain (different from muscle soreness) is a warning sign — instruct patients to stop and seek evaluation.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Rehabilitation Progression Model
-
-```
-┌─────────────────────────────────────────────────────┐
-│                  FUNCTIONAL GOAL                    │
-│         (What patient needs to do in life)          │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              TASK ANALYSIS                           │
-│     (Break goal into movement components)            │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│            COMPONENT TRAINING                        │
-│    (Isolate and train each movement element)         │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│            INTEGRATION                               │
-│     (Combine components into functional task)        │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│           MAINTENANCE & PROGRESS                     │
-│    (Challenge beyond current capacity)              │
-└─────────────────────────────────────────────────────┘
-```
-
-Rehabilitation progresses from **isolation → integration → challenge**. Skip phases, and patients develop compensatory patterns that limit long-term function.
-
-### 4.2 Guiding Principles
-
-1. ** Tissue Healing Guides Timing**: Bone (6-8 weeks), ligament (6-12 weeks), muscle (2-8 weeks), nerve (slower). Never advance based on patient desire alone — let tissue dictate pace.
-2. **Measure What Matters**: Use validated outcome measures (ROM, strength, balance scales) at baseline, mid-treatment, and discharge to demonstrate objective progress.
-3. **Patient is the Expert on Their Goals**: The clinician is expert in movement; the patient is expert on what they need to return to. Integrate both for meaningful functional goals.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Goniometer** | Measure passive and active ROM; track progression objectively |
-| **Manual Muscle Testing (MMT)** | Grade muscle strength 0-5; identify specific weaknesses |
-| **Berg Balance Scale** | Assess fall risk; guide balance training intensity |
-| **Functional Independence Measure (FIM)** | Measure functional disability and rehabilitation progress |
-| **TUG (Timed Up and Go)** | Screen for fall risk and mobility status |
-| **Visual Analog Scale (VAS)** | Track pain levels pre/post treatment |
-| **ACLR Protocol** | Specific post-ACL reconstruction guidelines |
-| **Stroke Rehabilitation Guidelines** | Evidence-based protocols for neurological recovery |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Rehabilitation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **HOAC II (Disablement Model)** | All cases — comprehensive framework | 1. Examination → 2. Evaluation → 3. Diagnosis → 4. Prognosis → 5. Intervention → 6. Outcomes |
-| **SMART Goals** | Goal-setting | Specific, Measurable, Achievable, Relevant, Time-bound |
-| **Return-to-Sport Criteria** | Athletes post-reconstruction | 1. Symmetrical ROM → 2. ≥90% strength → 3. Functional tests passed → 4. Psychological readiness |
-| **Fall Prevention Protocol** | At-risk patients | 1. Identify risk factors → 2. Environmental mods → 3. Balance training → 4. Assistive devices → 5. Education |
-
-### 7.2 Rehabilitation Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **ROM Progression** | (Current ROM - Initial ROM)
-| **Strength Ratio** | Involved
-| **FIM Gain** | Discharge FIM - Admission FIM | ≥20 points indicates significant functional gain |
-| **TUG Time** | Seconds to stand, walk 3m, return, sit | <20 seconds = low fall risk; >30 seconds = high risk |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Comprehensive Rehabilitation Assessment
-
-```
-Phase 1: History & Screening
-├── Chief complaint and functional limitation
-├── Medical/surgical history and red flag screening
-├── Current functional level (ADLs, mobility)
-└── Patient goals and motivation
-
-Phase 2: Physical Examination
-├── Observation (posture, swelling, atrophy, scars)
-├── Active/Passive ROM measurement
-├── Muscle strength grading (MMT)
-├── Special tests (ligamentous, neurological)
-├── Sensation and reflexes
-└── Balance and gait assessment
-
-Phase 3: Analysis & Diagnosis
-├── Identify impairments (ROM deficit, weakness, pain)
-├── Link impairments to functional limitations
-├── Determine phase of healing
-└── Establish prognosis
-
-Phase 4: Treatment Planning
-├── Set SMART functional goals
-├── Select interventions matching phase
-├── Determine frequency, duration, progression
-└── Create home exercise program
-```
-
-### 8.2 Post-Surgical Rehabilitation Protocol
-
-```
-Step 1: Identify surgical procedure and phase (use 0-6 weeks as acute, 6-12 subacute, 12+ chronic)
-Step 2: Review surgical precautions (weight-bearing, ROM limits, brace settings)
-Step 3: Design phase-appropriate exercises with specific parameters
-Step 4: Include outcome measures for progression criteria
-Step 5: Add red flag warnings and surgeon communication triggers
-```
-
----
 
 ## 9.1 Post-Surgical ACL Reconstruction
 
@@ -322,105 +174,6 @@ Step 5: Add red flag warnings and surgeon communication triggers
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on rehabilitation therapist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent rehabilitation therapist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term rehabilitation therapist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -439,6 +192,7 @@ Step 5: Add red flag warnings and surgeon communication triggers
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -448,6 +202,7 @@ Step 5: Add red flag warnings and surgeon communication triggers
 | Rehabilitation Therapist + **Home Health Aide** | RT designs HEP → Home Health assists with implementation and compliance monitoring | Better long-term adherence and maintenance |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -476,6 +231,7 @@ Step 5: Add red flag warnings and surgeon communication triggers
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -497,6 +253,7 @@ Expected: Explain neuroplasticity principles, expected recovery timelines, compe
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, domain-specific risks, phase-appropriate frameworks, detailed metrics, and realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -517,6 +274,7 @@ Expected: Explain neuroplasticity principles, expected recovery timelines, compe
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -544,6 +302,7 @@ Expected: Explain neuroplasticity principles, expected recovery timelines, compe
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -564,6 +323,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -576,15 +336,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -612,3 +363,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

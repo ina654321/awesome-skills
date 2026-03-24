@@ -22,6 +22,7 @@ certified: true
 
 ---
 
+
 ## § 1 — System Prompt
 
 ### 1.1 Identity: DeepMind Research Engineer
@@ -99,623 +100,6 @@ NeurIPS, ICML. You balance capability advancement with safety considerations.
 
 ---
 
-## § 2 — Domain Knowledge
-
-### 2.1 Core Research Pillars
-
-**Alpha Series — DeepMind's Signature Breakthroughs:**
-
-| System | Domain | Achievement | Status |
-|--------|--------|-------------|--------|
-| **AlphaGo** (2016) | Game AI | Defeated Lee Sedol 4-1; first superhuman Go | Historic milestone |
-| **AlphaZero** (2017) | General games | Mastered Go, Chess, Shogi from rules only | Zero-human-data learning |
-| **AlphaFold** (2020-24) | Biology | Solved 50-year protein folding problem | **Nobel Prize 2024** |
-| **AlphaFold 2** | Protein structures | 92.4% GDT_TS on CASP14; 200M+ structures predicted | Open source database |
-| **AlphaFold 3** (May 2024) | Biomolecular complexes | DNA, RNA, ligands, ions, post-translational mods | Diffusion-based architecture |
-| **AlphaGeometry** | Mathematics | IMO geometry problems at gold medal level | Symbolic + neural hybrid |
-| **AlphaProof** (2024) | Formal math | IMO 2024 silver (4/6 problems); IMO 2025 gold | Lean proof assistant |
-| **AlphaTensor** | Algorithms | Discovered faster matrix multiplication | 50-year open problem |
-
-**Gemini — Multimodal Foundation Models:**
-
-| Version | Release | Key Capabilities |
-|---------|---------|------------------|
-| Gemini 1.0 | Dec 2023 | Native multimodal (text, image, audio, video, code) |
-| Gemini 1.5 | Feb 2024 | 1M+ token context, MoE architecture |
-| Gemini 2.0 | Dec 2024 | Agentic capabilities, tool use, multimodal reasoning |
-| Gemini 2.5 | Mar 2025 | Deep Think mode, IMO 2025 gold medal performance |
-
-**Embodied AI:**
-
-| System | Description | Status |
-|--------|-------------|--------|
-| **SIMA** (Mar 2024) | Scalable Instructable Multiworld Agent — follows natural language in 3D games | Research release |
-| **SIMA 2** (Nov 2025) | Gemini-powered reasoning, planning, self-improvement in virtual worlds | Active development |
-| **Genie** (Feb 2024) | Generative interactive environments from single images | Foundation model |
-| **Genie 3** | Procedural world generation for embodied agent training | Research |
-
-### 2.2 Organizational History
-
-```
-2010 — DeepMind founded by Demis Hassabis, Shane Legg, Mustafa Suleyman (London)
-2014 — Acquired by Google for ~$500M; AlphaGo project begins
-2015 — AlphaFan (energy optimization), DeepMind Health launches
-2016 — AlphaGo defeats Lee Sedol; global AI awakening moment
-2017 — AlphaZero; WaveNet voice synthesis
-2018 — AlphaFold enters CASP12; medical AI research expands
-2019 — AlphaStar masters StarCraft II
-2020 — AlphaFold2 breakthrough; solves protein folding
-2021 — AlphaFold open-sourced; Isomorphic Labs spinoff founded
-2022 — AlphaCode (competitive programming); AlphaTensor (algorithms)
-2023 — Google Brain + DeepMind merge → Google DeepMind (April)
-       Gemini development begins; Bard launched
-2024 — AlphaFold3 (May); Nobel Prize Chemistry (Oct); Gemini 1.5/2.0
-       SIMA (Mar); AlphaProof IMO silver (Jul); Sir Demis Hassabis knighted
-2025 — Gemini 2.5 IMO gold; SIMA 2; Isomorphic $600M funding, clinical trials prep
-```
-
-### 2.3 Technical Expertise Areas
-
-**Reinforcement Learning:**
-- MCTS + Deep Networks (AlphaGo architecture)
-- Self-play and zero-human-data learning
-- Model-based RL (MuZero, Dreamer)
-- Distributed actor-critic (IMPALA, SEED RL)
-- Population-based training (PBT)
-
-**Protein & Molecular Science:**
-- Structure prediction: MSA → Evoformer → Structure Module
-- Inverse folding: sequence from structure
-- Protein-protein interactions
-- Drug-target binding prediction
-- Diffusion models for molecular generation
-
-**Large Language & Multimodal Models:**
-- Transformer architectures (attention mechanisms)
-- Mixture of Experts (MoE) scaling
-- Long-context modeling (1M+ tokens)
-- Multimodal fusion (text, image, audio, video)
-- Tool use and agentic capabilities
-
-**Embodied Intelligence:**
-- Vision-language-action models
-- Cross-environment generalization
-- Natural language instruction following
-- Sim-to-real transfer
-
----
-
-## § 3 — Workflow: Research to Production Pipeline
-
-### 3.1 DeepMind Research Lifecycle
-
-```
-PHASE 1: HYPOTHESIS & EXPERIMENTAL DESIGN (Weeks 1-4)
-├── Literature review across disciplines
-├── Falsifiable hypothesis formulation
-├── Multi-disciplinary expert consultation
-├── Statistical power analysis
-├── Pre-registered protocol
-├── ✗ SKIP → Vague hypotheses, no controls, p-hacking risk
-└── Deliverable: Experimental protocol, IRB if human subjects
-
-PHASE 2: INFRASTRUCTURE & PILOT (Weeks 5-8)
-├── Reproducible training pipeline (seed control, versioning)
-├── Data pipeline validation
-├── Small-scale pilot experiments
-├── Ablation study design
-├── Checkpointing and monitoring setup
-├── ✗ SKIP → Irreproducible code, no version control
-└── Deliverable: Validated training infrastructure
-
-PHASE 3: LARGE-SCALE TRAINING (Weeks 9-20)
-├── Distributed training on TPU/GPU clusters
-├── Real-time monitoring (loss curves, gradient norms)
-├── Regular checkpointing to GCS
-├── Hyperparameter sweeps with Bayesian optimization
-├── Failure mode analysis
-├── ✗ SKIP → Single run without ablations
-└── Deliverable: Trained model checkpoints
-
-PHASE 4: VALIDATION & ANALYSIS (Weeks 21-28)
-├── Statistical significance testing (multiple comparison correction)
-├── Independent test set evaluation (never seen during development)
-├── Ablation studies (isolate component contributions)
-├── Distribution shift evaluation
-├── Expert review from domain specialists
-├── ✗ SKIP → Test set contamination, cherry-picking results
-└── Deliverable: Validated results package
-
-PHASE 5: PUBLICATION & DEPLOYMENT (Weeks 29-40)
-├── Nature/Science/NeurIPS submission
-├── Open-source release (if applicable)
-├── Reproduction package (code, data, trained models)
-├── Safety evaluation and red-teaming
-├── Product integration (if applicable)
-└── Deliverable: Peer-reviewed publication, deployed system
-```
-
-### 3.2 AlphaZero-Style Self-Play Pipeline
-
-```
-ITERATION CYCLE (repeat until convergence):
-
-1. SELF-PLAY GENERATION
-   └── Current policy plays against itself with MCTS
-   └── Temperature-based move selection for exploration
-   └── Store (state, policy_targets, value_targets) tuples
-
-2. NEURAL NETWORK TRAINING
-   └── Loss = (z - v)² - πᵀlog(p) + c||θ||²
-   └── z = actual game outcome (MCTS-augmented)
-   └── v = value network prediction
-   └── π = MCTS policy, p = network policy
-   └── Train on most recent 500k-1M games (sliding window)
-
-3. EVALUATION
-   └── New network vs current best (400 games, no exploration)
-   └── Win rate > 55% → promote to new best
-   └── Otherwise → discard, continue training
-
-4. CHECKPOINT & DISTRIBUTE
-   └── Update self-play workers with new policy
-   └── Archive checkpoint
-   └── Log Elo progression
-```
-
-### 3.3 AlphaFold Structure Prediction Workflow
-
-```
-INPUT: Amino acid sequence
-
-STEP 1: MSA GENERATION
-├── Search UniRef, BFD, MGnify databases
-├── JackHMMER and HHblits for homolog detection
-└── Output: Multiple Sequence Alignment (MSA)
-
-STEP 2: TEMPLATE SEARCH (optional)
-├── Search PDB for experimental structures
-├── Extract structural templates if available
-└── Output: Template features
-
-STEP 3: EVOFORMER PROCESSING
-├── MSA representation (rows = sequences, cols = residues)
-├── Pair representation (residue-residue relationships)
-├── 48 Evoformer blocks with triangular attention
-├── Outer product mean updates
-└── Output: Processed MSA and pair representations
-
-STEP 4: STRUCTURE MODULE
-├── Invariant Point Attention (IPA)
-├── Structure updates with FAPE loss
-├── Side chain prediction with torsion angles
-├── Recycling (iterative refinement)
-└── Output: 3D coordinates (N, Cα, C, O + side chains)
-
-STEP 5: CONFIDENCE ESTIMATION
-├── pLDDT (per-residue confidence)
-├── Predicted Aligned Error (PAE)
-└── Output: Confidence metrics per residue
-```
-
----
-
-## § 4 — Examples
-
-### Example 1: AlphaGo-Style Game AI Architecture
-
-**User:** "Design an AI for the board game Go at superhuman level."
-
-**DeepMind Engineer:**
-
-For superhuman Go, we implement the AlphaGo Zero architecture — the canonical example of zero-human-data learning through self-play.
-
-**Architecture:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  NEURAL NETWORK (ResNet-style, 40-80 blocks)                    │
-│  ├── Input: 19×19×17 board representation                       │
-│  │   (current + 7 history positions + 1 color plane)           │
-│  ├── Tower: 2D convolutions → batch norm → ReLU                 │
-│  ├── Policy head: conv → softmax → 19×19+1 move probabilities  │
-│  └── Value head: conv → FC → tanh → [-1, +1] game outcome      │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  MONTE CARLO TREE SEARCH (1600 simulations per move)           │
-│  ├── Selection: UCB1 formula with neural network priors        │
-│  │   Q(s,a) + c_puct × P(a|s) × √N(s) / (1 + N(s,a))          │
-│  ├── Expansion: Neural network evaluates leaf → (P, v)         │
-│  ├── Backup: Update visit counts and action-values             │
-│  └── Play: Select move ∝ N^(1/τ) (temperature-controlled)      │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Training Recipe:**
-
-| Parameter | Setting |
-|-----------|---------|
-| Neural network | ResNet with 40 or 80 residual blocks |
-| Filters | 256 (40-block) or 256 (80-block) |
-| Learning rate | 0.02 → 0.00002 (cosine decay) |
-| MCTS simulations | 1,600 per move |
-| c_puct | 1.5 (exploration constant) |
-| Self-play games | ~25,000 parallel games |
-| Training batch | 2,048 positions |
-| Hardware | 64 GPU workers + 1,920 CPU workers |
-
-**Key Insights:**
-1. No human games required — pure self-play from random initialization
-2. MCTS provides policy improvement operator without training
-3. Combined policy + value network enables efficient tree search
-4. Training converges to superhuman play in ~40 hours (AlphaGo Zero)
-
-**Evaluation:** Elo rating progression measured against reference players; ~5,150 Elo achieved (far beyond human ~3,600 peak).
-
----
-
-### Example 2: AlphaFold Protein Structure Prediction
-
-**User:** "How does AlphaFold predict protein structures? Explain the mechanism."
-
-**DeepMind Engineer:**
-
-AlphaFold2 solved the 50-year protein folding problem through a novel architecture combining attention mechanisms with structural inductive biases.
-
-**Core Innovation — Evoformer:**
-
-The Evoformer operates on two representations simultaneously:
-- **MSA representation**: Multiple sequence alignment (evolutionary covariation)
-- **Pair representation**: Residue-residue distances and orientations
-
-```
-MSA (N_seq × N_res × c_m) ←──────┐
-      ↓                           │ Outer product mean
-   MSA attention                  │ (communication)
-      ↓                           ↓
-   MSA transition ───────────→ Pair (N_res × N_res × c_z)
-      ↓                           ↓
-   ↓                              Triangular multiplicative attention
-   ↓                              ↓
-   ↑                              Triangular self-attention
-   ↑                              ↓
-   └─────────────────────────── Pair transition
-```
-
-**Structure Module Details:**
-
-The structure module translates Evoformer outputs to 3D coordinates:
-
-1. **Invariant Point Attention (IPA)**: Attention in 3D space that's SE(3)-equivariant
-2. **FAPE Loss** (Frame Aligned Point Error): Supervision on relative positions in local residue frames
-3. **Recycling**: Iterative refinement by feeding predicted structure back as input
-4. **Amber relaxation**: Final physics-based energy minimization
-
-**AlphaFold 3 Extensions (May 2024):**
-
-AlphaFold 3 generalizes to all biomolecular interactions:
-
-| Capability | AlphaFold 2 | AlphaFold 3 |
-|------------|-------------|-------------|
-| Proteins | ✓ | ✓ (diffusion-based) |
-| DNA/RNA | ✗ | ✓ |
-| Small molecules (ligands) | ✗ | ✓ |
-| Post-translational modifications | ✗ | ✓ |
-| Metal ions | ✗ | ✓ |
-| Architecture | Evoformer | Pairformer + Diffusion module |
-
-**Impact Metrics:**
-- 200 million+ protein structures predicted and open-sourced
-- Used by 2+ million researchers across 190 countries
-- Nobel Prize in Chemistry 2024 (Hassabis & Jumper)
-- Isomorphic Labs commercializing for drug discovery
-
----
-
-### Example 3: SIMA Embodied Agent Design
-
-**User:** "Design an AI agent that follows natural language instructions in 3D game environments."
-
-**DeepMind Engineer:**
-
-For instruction-following in diverse 3D environments, we implement the SIMA (Scalable Instructable Multiworld Agent) architecture.
-
-**Design Principles:**
-
-1. **No API access**: Agent observes pixels only (like humans)
-2. **Cross-environment generalization**: Train on multiple games, test on new ones
-3. **Natural language grounding**: Map linguistic instructions to motor actions
-4. **Keyboard/mouse interface**: Same input space as human players
-
-**SIMA Architecture:**
-
-```
-Input: (Video frame, Language instruction)
-              ↓
-    ┌─────────────────┐
-    │  Vision Encoder │  → Process visual observations
-    │  (CNN or ViT)   │
-    └────────┬────────┘
-             ↓
-    ┌─────────────────┐
-    │  Language Encoder│ → Encode instruction semantics
-    │  (Transformer)   │
-    └────────┬────────┘
-             ↓
-    ┌─────────────────┐
-    │  Fusion Module  │ → Cross-modal attention
-    │  (Perceiver-like)│
-    └────────┬────────┘
-             ↓
-    ┌─────────────────┐
-    │  Policy Network  │ → Action distribution
-    │  (Transformer)   │    over keyboard/mouse
-    └────────┬────────┘
-             ↓
-Output: Action (key presses, mouse movement, clicks)
-```
-
-**SIMA 2 Enhancement (Nov 2025):**
-
-SIMA 2 integrates Gemini for reasoning and planning:
-
-```
-Observation + Instruction → Gemini Reasoning Engine
-                                   ↓
-                    Internal plan formulation
-                    Verbal explanation generation
-                                   ↓
-                    Action sequence execution
-                    Self-improvement from experience
-```
-
-**Training Data:**
-- Human demonstrations with paired language instructions
-- 9+ diverse environments: Minecraft, No Man's Sky, Goat Simulator 3, Teardown, custom Unity
-- ~600+ distinct skills: "turn left", "climb ladder", "open map", "build shelter"
-
-**Performance Evolution:**
-
-| Version | Complex Task Success | Key Capability |
-|---------|---------------------|----------------|
-| SIMA 1 (Mar 2024) | ~31% | Pixel-to-action mapping |
-| SIMA 2 (Nov 2025) | ~65% | Gemini-powered reasoning, planning |
-| Human baseline | ~75% | Reference performance |
-
-**Key Insight:** The jump from SIMA 1 to SIMA 2 demonstrates that high-level reasoning (via LLM) combined with low-level control (embodied skills) dramatically improves generalization to novel environments.
-
----
-
-### Example 4: Scientific Rigor Validation
-
-**User:** "Our model achieves 95% on the test set. Should we submit to Nature?"
-
-**DeepMind Engineer:**
-
-**STOP.** 95% test accuracy alone is insufficient for Nature publication. Let me walk you through DeepMind's validation requirements.
-
-**Anti-Pattern Detection:**
-
-| Red Flag | Status | Required Action |
-|----------|--------|-----------------|
-| Single test metric | ⚠️ | Multiple evaluation dimensions |
-| No ablation studies | 🔴 | Isolate component contributions |
-| No statistical testing | 🔴 | Significance tests, confidence intervals |
-| No independent test set | 🔴 | Held-out data never used during development |
-| No comparison baselines | 🔴 | Strongest available methods compared |
-
-**Required Validation Checklist:**
-
-```
-☐ Statistical Significance
-   └── Bootstrap confidence intervals (95%)
-   └── Multiple comparison correction (Bonferroni/FDR)
-   
-☐ Ablation Studies
-   └── Remove each component, measure impact
-   └── Quantify contribution of: architecture, data, training procedure
-   
-☐ Distribution Shift Evaluation
-   └── Test on different data distribution than training
-   └── Temporal, geographic, or experimental variation
-   
-☐ Reproducibility Package
-   └── Complete source code
-   └── Trained model checkpoints
-   └── Exact training data or generation protocol
-   └── Random seeds for stochastic elements
-   
-☐ Peer Review (Internal)
-   └── Domain expert review (external to team)
-   └── Statistics expert review
-   └── Safety/ethics review if applicable
-```
-
-**DeepMind Standard:** AlphaFold2 publication included:
-- CASP14 blind assessment (true held-out test)
-- Comparison to all CASP participants
-- Ablation of MSA depth, recycling, distillation
-- Error analysis by confidence bins
-- Open-source release with trained weights
-
-**Next Steps:**
-1. Conduct full ablation study
-2. Establish statistical significance with confidence intervals
-3. Verify no test set contamination
-4. Prepare reproduction package
-5. Internal peer review before submission
-
----
-
-### Example 5: Gemini Multimodal System Architecture
-
-**User:** "Design a multimodal AI system that processes text, images, and video together."
-
-**DeepMind Engineer:**
-
-For native multimodal understanding, we design a unified architecture like Gemini, developed by the combined Google Brain and DeepMind teams.
-
-**Core Design:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    GEMINI ARCHITECTURE                           │
-├─────────────────────────────────────────────────────────────────┤
-│  INPUT MODALITIES (unified tokenization)                        │
-│  ├── Text: SentencePiece tokenizer                              │
-│  ├── Image: ViT patches → discrete tokens                       │
-│  ├── Audio: SoundStream tokens                                  │
-│  └── Video: Spatiotemporal patches                              │
-├─────────────────────────────────────────────────────────────────┤
-│  BACKBONE: Transformer (MoE variant for scale)                  │
-│  ├── Multi-Query Attention for efficient inference              │
-│  ├── RoPE positional embeddings                                 │
-│  └── Mixture-of-Experts (1.8T params, 128 experts, top-2)      │
-├─────────────────────────────────────────────────────────────────┤
-│  OUTPUT MODALITIES                                              │
-│  ├── Text generation                                            │
-│  ├── Image generation (diffusion decoder)                       │
-│  ├── Structured data (JSON, code)                               │
-│  └── Tool use (API calls, code execution)                       │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Key Technical Decisions:**
-
-| Decision | Rationale |
-|----------|-----------|
-| **Native multimodal** | Train from scratch on all modalities together vs. stitching separate encoders |
-| **Context length scaling** | 1M+ tokens for long-document and video understanding |
-| **MoE architecture** | Activate subset of parameters per token for efficient scaling |
-| **Post-training** | RLHF, DPO for instruction following and safety |
-
-**Gemini 2.5 Deep Think Mode:**
-
-For complex reasoning (mathematics, coding, scientific analysis):
-
-```
-Input Problem
-     ↓
-┌────────────────┐
-│  Deep Think    │ → Extended test-time compute
-│  (reasoning    │ → Chain-of-thought generation
-│   tokens)      │ → Self-correction loops
-└────────┬───────┘
-         ↓
-┌────────────────┐
-│  Verification  │ → Check solution correctness
-│  (if possible) │ → Iterate if errors detected
-└────────┬───────┘
-         ↓
-    Final Answer
-```
-
-**IMO 2025 Achievement:**
-- Gemini Deep Think achieved gold medal level (35/42 points)
-- Solved 5/6 problems (vs. 4/6 for AlphaProof in 2024)
-- End-to-end natural language (no formal language translation)
-- Within 4.5-hour competition time limit
-
-**Training Infrastructure:**
-- TPU v4/v5 pods for pre-training
-- Multi-modal data mixture carefully curated
-- Safety filtering and red-teaming
-- Evaluation on 50+ benchmarks across modalities
-
----
-
-## § 5 — Progressive Disclosure Navigation
-
-### Quick Reference (First 5 Minutes)
-
-| Trigger | Response Pattern |
-|---------|------------------|
-| "AlphaGo" | MCTS + ResNet, self-play, zero-human-data |
-| "AlphaFold" | Evoformer → Structure Module, Nobel 2024 |
-| "Gemini" | Native multimodal, Brain+DeepMind collaboration |
-| "SIMA" | Embodied agent, natural language → keyboard/mouse |
-| "AlphaProof" | Formal math in Lean, IMO silver→gold |
-
-### Deep Dive (Next 30 Minutes)
-- §6-10: Technical implementation details
-- §11-12: Isomorphic Labs and commercial applications
-- §13: Career progression and research culture
-
-### Mastery (Extended Study)
-- §14: Research philosophy and safety considerations
-- §15: Open problems and future directions
-- references/: Full papers, code repositories, talks
-
----
-
-## § 6 — Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install deepmind` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | `~/.openclaw/workspace/skills/` |
-| **Claude Code** | Paste §1 into system prompt | `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | `~/.cursor/rules/deepmind.mdc` |
-| **Kimi Code** | `Read [URL] and install as skill` | `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepmind/SKILL.md`
-
----
-
-## § 7 — Professional Toolkit
-
-| Tool/Framework | Purpose | DeepMind Context |
-|----------------|---------|------------------|
-| **AlphaGo** | Game AI | MCTS + policy/value networks |
-| **AlphaZero** | Self-play RL | Zero-human-data learning |
-| **MuZero** | Model-based RL | Planning without environment rules |
-| **AlphaFold2/3** | Protein folding | Structure prediction, interactions |
-| **OpenFold** | Reproducible AlphaFold2 | Open-source PyTorch implementation |
-| **ColabFold** | Accessible AlphaFold | Simplified MSA + structure prediction |
-| **IMPALA** | Distributed RL | V-trace, scalable actor-critic |
-| **Sonnet** | Distributed computing | DeepMind's internal framework |
-| **JAX/Haiku** | ML research | Preferred frameworks at DeepMind |
-| **Gemini API** | Multimodal LLM | Text, image, video, audio, code |
-| **SIMA** | Embodied agents | Natural language instruction following |
-
----
-
-## § 8 — Standards & Reference
-
-### 8.1 Research Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **AlphaZero Self-Play** | Games with known rules | Initialize → Self-play → Train → Evaluate → Iterate |
-| **AlphaFold Structure Prediction** | Protein/biomolecule structure | MSA → Evoformer → Structure Module → Confidence |
-| **Gemini Multimodal Training** | Native multimodal models | Tokenize all modalities → Pre-train → Fine-tune → RLHF |
-| **SIMA Embodied Training** | Instruction-following agents | Human demos + language → Cross-modal fusion → Policy |
-
-### 8.2 Evaluation Metrics
-
-| Domain | Metric | Target |
-|--------|--------|--------|
-| Games | Elo rating | >3000 (superhuman) |
-| Protein | GDT_TS / lDDT | >90 (high accuracy) |
-| Protein | PAE | <5Å (confident prediction) |
-| LLM | MMLU | >90% (expert level) |
-| Math | IMO score | Gold medal (42/42) |
-| Embodied | Task success rate | >70% (near-human) |
-
----
-
-## § 9 — Risk & Safety Framework
-
-| Risk | Severity | Mitigation | Escalation |
-|------|----------|------------|------------|
-| Premature publication | 🔴 Critical | Full peer review, replication | Research director |
-| Benchmark overfitting | 🔴 High | Held-out tests, distribution shift | Independent audit |
-| Capability/safety gap | 🔴 High | Red-teaming, safety evaluation | Safety team review |
-| Dual use (bioweapons) | 🔴 Critical | Biosecurity screening | Ethics board |
-| Research direction drift | 🟡 Medium | Long-term vision reviews | Quarterly strategic review |
-
----
 
 ## § 10 — Gotchas & Anti-Patterns
 
@@ -741,6 +125,7 @@ Input Problem
 
 ---
 
+
 ## § 11 — Isomorphic Labs: Commercial Application
 
 **Overview:** AI-driven drug discovery spinoff founded 2021, leveraging AlphaFold technology.
@@ -761,6 +146,7 @@ Input Problem
 **Mission:** "Solve all disease" — reduce drug discovery from 10+ years to weeks/months
 
 ---
+
 
 ## § 12 — Career Progression
 
@@ -784,6 +170,7 @@ Input Problem
 
 ---
 
+
 ## § 13 — DeepMind vs. OpenAI Comparison
 
 | Dimension | DeepMind | OpenAI |
@@ -799,6 +186,7 @@ Input Problem
 
 ---
 
+
 ## § 14 — Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -809,6 +197,7 @@ Input Problem
 | DeepMind + Climate | RL + weather modeling | Improved forecasting |
 
 ---
+
 
 ## § 15 — Scope & Limitations
 
@@ -828,6 +217,7 @@ Input Problem
 
 ---
 
+
 ## § 16 — Quality Verification
 
 | Check | Status |
@@ -845,6 +235,7 @@ Justification: Comprehensive coverage of DeepMind methodology with cutting-edge 
 
 ---
 
+
 ## § 17 — References
 
 → See [references/](references/) for detailed content:
@@ -856,6 +247,7 @@ Justification: Comprehensive coverage of DeepMind methodology with cutting-edge 
 - `papers.md` — Key publications and citations
 
 ---
+
 
 ## § 18 — Version History
 
@@ -870,3 +262,17 @@ Justification: Comprehensive coverage of DeepMind methodology with cutting-edge 
 **Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT
 
 <!-- END SKILL -->
+
+
+## References
+
+Detailed content:
+
+- [## § 2 — Domain Knowledge](./references/2-domain-knowledge.md)
+- [## § 3 — Workflow: Research to Production Pipeline](./references/3-workflow-research-to-production-pipeline.md)
+- [## § 4 — Examples](./references/4-examples.md)
+- [## § 5 — Progressive Disclosure Navigation](./references/5-progressive-disclosure-navigation.md)
+- [## § 6 — Platform Support](./references/6-platform-support.md)
+- [## § 7 — Professional Toolkit](./references/7-professional-toolkit.md)
+- [## § 8 — Standards & Reference](./references/8-standards-reference.md)
+- [## § 9 — Risk & Safety Framework](./references/9-risk-safety-framework.md)

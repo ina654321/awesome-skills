@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,143 +133,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Appliance-Specific Deep Cleaning** — Provide detailed, step-by-step procedures for cleaning refrigerators, washers, dryers, ovens, dishwashers, AC units, and microwaves
-2. **Sanitization Protocols** — Eliminate harmful microorganisms from food-contact surfaces and high-humidity areas
-3. **Stain & Odor Treatment** — Remove stubborn stains, baked-on residue, and persistent odors using appropriate techniques
-4. **Maintenance Scheduling** — Recommend optimal cleaning frequencies based on appliance type and household usage
-5. **DIY vs. Professional Guidance** — Assess when a job is safe for homeowner vs. when to recommend professional service
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Chemical Injury** | 🔴 High | Mixing wrong chemicals creates toxic fumes; improper use causes burns or damage | Provide explicit chemical compatibility warnings; recommend PPE; specify dilution ratios |
-| **Electrical Hazard** | 🔴 High | Cleaning live appliances or introducing liquid into electrical components risks shock | Always specify "unplug before cleaning" as first step; warn about water near electrical parts |
-| **Appliance Damage** | 🔴 High | Wrong cleaners or tools can damage surfaces, seals, or internal components | Specify appliance-safe products; warn against abrasive tools on delicate surfaces |
-| **Mold/Allergen Exposure** | 🟡 Medium | Disturbing mold or dust during cleaning can release harmful particles | Specify mask/gloves for mold-heavy jobs; recommend proper ventilation |
-| **Voiding Warranty** | 🟡 Medium | Some cleaning methods may void appliance warranties | Advise checking warranty terms; recommend manufacturer-approved methods for new appliances |
-
-**⚠️ IMPORTANT:**
-- Never recommend mixing bleach with ammonia or vinegar — creates toxic chloramine gas
-- Always specify testing cleaning solutions on small inconspicuous areas first
-- Recommend professional service for appliances with significant mold growth (>1 sq ft), electrical issues, or when under warranty
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The DEEP-CLEAN Framework
-
-```
-D — Disconnect (power, water supply)
-E — Examine (identify problem areas, check manual)
-E — Extract (remove loose debris, filters, components)
-P — Apply (cleaning solution, let dwell)
-C — Agitate (scrub, brush, wipe)
-L — Lubricate (moving parts, seals if needed)
-E — Evaluate (inspect results)
-A — Air-dry (complete drying before reassembly)
-N — Reassemble (return components, test operation)
-```
-
-This 9-step framework applies to most appliances, ensuring safety first, thorough execution, and proper completion.
-
-### 4.2 Guiding Principles
-
-1. **Safety Before Speed**: A thorough job done safely beats a quick job that damages appliance or injures the cleaner.
-
-2. **Read the Manual (or Know the Appliance)**: Different brands have different materials and designs. What works on one may damage another.
-
-3. **Prevention Over Remediation**: Regular light maintenance prevents the heavy buildup that requires difficult deep cleaning.
-
-4. **Complete Drying is Critical**: Mold and mildew grow in damp environments. Every cleaning procedure must end with thorough drying.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Appliance-Specific Brush Set** | Different brush types for different surfaces — soft for seals, stiff for coils, fine for vents |
-| **Steam Cleaner** | Chemical-free sanitization, especially effective on grime in microwaves, ovens, and tile |
-| **Vacuum with Crevice Attachments** | Remove loose debris before wet cleaning; access tight spaces |
-| **Microfiber Cloths** | Lint-free wiping for streak-free results on glass and stainless steel |
-| **Appliance-Safe Cleaners** | Specific recommendations for each surface type — stainless steel, plastic, rubber |
-| **Moisture Meter** | Verify complete drying before reassembling appliances |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Cleaning Protocols by Appliance
-
-| Appliance| When Deep Clean Needed| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Refrigerator** | Every 6-12 months | 1. Unplug and empty → 2. Remove shelves/drawers → 3. Clean interior walls → 4. Wash components → 5. Clean door gaskets → 6. Vacuum coils → 7. Dry and restock |
-| **Washing Machine** | Every 3-6 months | 1. Empty drum → 2. Run empty hot cycle with cleaner → 3. Wipe door seal → 4. Clean detergent dispenser → 5. Check drain filter → 6. Leave door open to dry |
-| **Air Conditioner** | Before summer season | 1. Turn off and unplug → 2. Remove and clean filter → 3. Vacuum coils → 4. Clean exterior grille → 5. Check drain line → 6. Run fan to dry |
-| **Oven** | Every 3-6 months | 1. Remove racks → 2. Apply oven cleaner → 3. Let dwell → 4. Scrub interior → 5. Wipe clean → 6. Run self-clean if applicable → 7. Ventilate |
-| **Dishwasher** | Every 3-6 months | 1. Empty → 2. Clean filter → 3. Wipe door edges → 4. Run empty cycle with cleaner → 5. Clean rubber gasket |
-
-### 7.2 Quality Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Bacterial Reduction** | Post-cleaning count
-| **Cleaning Time** | Minutes from start to complete reassembly | Varies by appliance (15-90 min) |
-| **Re-clean Rate** | % requiring second pass | <10% for experienced cleaner |
-| **Customer Satisfaction** | Post-service rating | >8/10 |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Universal Appliance Deep Clean
-
-```
-Phase 1: Preparation
-├── Verify appliance is unplugged/disconnected
-├── Gather required tools and cleaning supplies
-├── Lay protective coverings if needed
-└── Read any manufacturer guidelines
-
-Phase 2: Exterior & Access
-├── Remove removable components (shelves, filters, drawers)
-├── Vacuum loose debris from accessible areas
-├── Apply appropriate cleaner to surfaces
-└── Let cleaner dwell per product instructions
-
-Phase 3: Deep Cleaning
-├── Scrub all surfaces with appropriate tools
-├── Pay special attention to seals, hinges, crevices
-├── Remove all cleaner residue with clean water/wipes
-└── Treat any stubborn stains with targeted solutions
-
-Phase 4: Drying & Reassembly
-├── Ensure completely dry (use fans if needed)
-├── Apply conditioner to rubber seals if applicable
-├── Reinstall all components
-├── Plug in and verify operation
-└── Leave appliance door open briefly if appropriate
-```
-
-### 8.2 Stain-Specific Treatment
-
-```
-Step 1: Identify the stain type — grease, mold, mineral deposit, organic
-Step 2: Select appropriate solution based on surface material
-Step 3: Test solution on inconspicuous area first
-Step 4: Apply, let sit, scrub gently
-Step 5: Rinse thoroughly and dry
-Step 6: Evaluate — repeat if needed
-```
-
----
 
 ## 9.1 Washing Machine Deep Clean
 
@@ -310,105 +174,6 @@ Step 6: Evaluate — repeat if needed
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on household cleaner.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent household cleaner issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term household cleaner capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -427,6 +192,7 @@ Step 6: Evaluate — repeat if needed
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -436,6 +202,7 @@ Step 6: Evaluate — repeat if needed
 | **Household Cleaner** + **Appliance Repair** | Cleaner identifies issues requiring repair → Repair skill addresses | Complete appliance care |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -465,6 +232,7 @@ Step 6: Evaluate — repeat if needed
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -486,6 +254,7 @@ Expected: Identify root causes (not drying properly, clogged drain, wrong deterg
 **Self-Score:** 9.4/10 (Exemplary) — Justification: Comprehensive coverage of multiple appliances with safety-first approach, detailed protocols, realistic scenarios, and clear limitations. Only minor room for additional appliance-specific detail.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -506,6 +275,7 @@ Expected: Identify root causes (not drying properly, clogged drain, wrong deterg
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -533,6 +303,7 @@ Expected: Identify root causes (not drying properly, clogged drain, wrong deterg
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -553,6 +324,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -565,15 +337,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -601,3 +364,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

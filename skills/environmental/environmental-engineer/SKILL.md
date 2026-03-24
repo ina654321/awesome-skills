@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -131,174 +132,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Water/Wastewater Treatment Design** — Design processes for drinking water, industrial process water, and municipal/industrial wastewater
-2. **Air Pollution Control** — Specify control technologies (scrubbers, baghouses, thermal oxidizers), conduct dispersion modeling
-3. **Remediation System Design** — Design pump-and-treat, soil vapor extraction, in-situ chemical oxidation, bioremediation systems
-4. **Permitting Support** — Prepare NPDES, Title V, RCRA, and state permit applications
-5. **Environmental Site Assessment** — Conduct Phase I/II ESAs per ASTM standards
-6. **Regulatory Compliance** — Develop compliance strategies, audit programs, and enforcement responses
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Permit Violations** | 🔴 High | Non-compliance can result in fines, criminal liability, permit revocation | Develop compliance schedule; maintain monitoring; respond promptly to violations |
-| **Remedial Technology Failure** | 🔴 High | Selected technology may not achieve cleanup standards | Conduct pilot tests; include contingency remedies; adaptive management |
-| **Regulatory Enforcement** | 🔴 High | EPA or state enforcement actions can include penalties, injunctions | Early engagement with regulators; document good faith efforts |
-| **Treatment Performance** | 🔴 High | System may not meet permit limits; backup systems needed | Design for variability; include redundancy; monitor performance closely |
-| **Emerging Contaminants** | 🟡 Medium | PFAS, 1,4-dioxane require specialized treatment not in traditional designs | Stay current with regulations; pilot new treatment technologies |
-| **Climate Change Impacts** | 🟡 Medium | Design conditions may change (flooding, drought, temperature) | Use climate projections in design; build in resilience |
-
-**⚠️ IMPORTANT:**
-- Always verify specific state regulations; federal standards set floors but states can be more stringent
-- Engineering designs require PE stamp in most jurisdictions
-- Remedial decisions must be defensible under CERCLA (Superfund) or state cleanup programs
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Treatment Technology Selection Framework
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────┐
-│                    TREATMENT TECHNOLOGY SELECTION                                    │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 1: Characterize Contaminants                                                   │
-│  ├── Identify: Contaminants of concern (COD, BOD, TSS, metals, VOCs, nutrients)    │
-│  ├── Measure: Concentrations, flow rates, variability                               │
-│  └── Determine: Regulatory limits (permit, cleanup standards)                       │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 2: Screening Matrix                                                            │
-│                                                                                       │
-│  Contaminant Type          Recommended Technologies                                  │
-│  ─────────────────────────────────────────────────────────────────────────────────   │
-│  BOD/COD                   Activated sludge, MBBR, trickling filter                 │
-│  TSS                       Screening, sedimentation, filtration                      │
-│  Nutrients (N)             Nitrification, denitrification, breakpoint chlorination   │
-│  Nutrients (P)             Chemical precipitation, biological P removal               │
-│  Heavy Metals              Precipitation (pH), ion exchange, membrane                │
-│  VOCs                      Air stripping, activated carbon, thermal oxidation         │
-│  Ammonia                   Nitrification, air stripping, breakpoint chlorination      │
-│  PFAS                      GAC, IX, RO, ion exchange resins                          │
-│                                                                                       │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 3: Pilot Testing                                                               │
-│  ├── Design: Pilot system for critical parameters                                     │
-│  ├── Operate: Collect performance data across range of conditions                     │
-│  └── Analyze: Full-scale design based on pilot results                               │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 4: Full-Scale Design                                                           │
-│  ├── Size: Process units for peak flows and concentrations                           │
-│  ├── Specify: Equipment, materials, controls                                         │
-│  └── Integrate: Process train with controls, monitoring                               │
-└──────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-The framework moves from contaminant characterization to technology screening, pilot testing, and finally full-scale design. Each step narrows options based on effectiveness, cost, and regulatory acceptance.
-
-### 4.2 Guiding Principles
-
-1. **Pollution Prevention First**: Source reduction is more effective and cheaper than end-of-pipe treatment
-2. **Design for Variability**: Permit limits are daily/monthly averages; design for peak conditions
-3. **Regulatory Acceptance**: Selected technologies must be accepted by regulatory agencies
-4. **Life-Cycle Cost**: Consider capital, O&M, and closure costs over project life
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **EPA SWMM** | Stormwater and combined sewer modeling |
-| **MODFLOW** | Groundwater flow and transport modeling |
-| **AERMOD** | Air dispersion modeling for permits |
-| **BioWin** | Wastewater process design and simulation |
-| **HYSPLIT** | Air pollutant transport modeling |
-| **GoldSim** | Probabilistic risk assessment |
-| **AutoCAD Civil 3D** | Site layout, grading, drainage design |
-| **40 CFR Parts 100-266** | Federal environmental regulations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Environmental Engineering Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **NPDES Permit Development** | Wastewater discharge permits | 1. Characterize effluent → 2. Determine limits → 3. Technology basis → 4. Monitoring plan → 5. Application |
-| **Remedial Investigation/Feasibility Study** | CERCLA or state cleanup sites | 1. Site characterization → 2. Risk assessment → 3. Alternatives development → 4. Comparative analysis → 5. Selected remedy |
-| **Air Permit Application** | New or modified air emission sources | 1. Source identification → 2. Emissions calculation → 3. Control technology → 4. Modeling → 5. Application |
-| **Phase I ESA** | Real estate transactions per ASTM E1527 | 1. Records review → 2. Site reconnaissance → 3. Interviews → 4. Data gaps → 5. Opinion |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Removal Efficiency** | (Cin - Cout)
-| **Hydraulic Retention Time** | θ = V
-| **Sludge Age (SRT)** | SRT = X × V
-| **F/M Ratio** | F/M = (Q × So)
-| **Emission Rate** | lbs/hr = Flow × Concentration × Conversion | Per MACT or state RACT limits |
-| **Groundwater Cleanup Rate** | Contaminant mass removed
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Wastewater Treatment Design
-
-```
-Phase 1: Characterization
-├── Analyze: Influent wastewater (flow, BOD, COD, TSS, nutrients, toxics)
-├── Establish: Design basis (average, peak, minimum flows)
-├── Identify: Permit limits and discharge requirements
-└── Deliverable: Characterization memo
-
-Phase 2: Process Selection
-├── Screen: Treatment technologies based on contaminants
-├── Evaluate: Alternatives (process, cost, O&M, footprint)
-├── Select: Preferred technology with regulatory acceptance
-└── Deliverable: Process selection memorandum
-
-Phase 3: Process Design
-├── Calculate: Mass balance, sizing for each unit process
-├── Specify: Equipment (pumps, blowers, clarifiers, filters)
-├── Develop: Process controls and monitoring plan
-└── Deliverable: Process design calculations, equipment specs
-
-Phase 4: Engineering Design
-├── Prepare: Civil/site work drawings
-├── Develop: Mechanical, electrical, instrumentation specifications
-├── Develop: P&IDs, control narratives
-└── Deliverable: Construction documents (drawings, specs)
-
-Phase 5: Startup & Operation
-├── Develop: Startup plan, operating procedures
-├── Train: Operations staff
-├── Commission: Performance testing
-└── Deliverable: O&M manual, performance test results
-```
-
-### 8.2 Remedial Design
-
-```
-Step 1: Remedial Investigation - Characterize nature and extent of contamination
-Step 2: Risk Assessment - Evaluate human health and ecological risks
-Step 3: Alternatives Analysis - Develop and screen remedial options
-Step 4: Feasibility Study - Detailed evaluation of alternatives
-Step 5: Remedial Design - Engineer selected remedy
-Step 6: Implementation - Construction, startup, monitoring
-Step 7: Long-Term Monitoring - Track progress, adaptive management
-```
-
----
 
 ## 9.1 Industrial Wastewater Treatment
 
@@ -349,105 +182,6 @@ Step 7: Long-Term Monitoring - Track progress, adaptive management
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on environmental engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent environmental engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term environmental engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -469,6 +203,7 @@ Step 7: Long-Term Monitoring - Track progress, adaptive management
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -479,6 +214,7 @@ Step 7: Long-Term Monitoring - Track progress, adaptive management
 | Environmental Engineer + **Regulatory Specialist** | 1. EE provides technical basis → 2. RS navigates permitting | Permit acquisition |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -511,6 +247,7 @@ Step 7: Long-Term Monitoring - Track progress, adaptive management
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -532,6 +269,7 @@ Expected: Applicable regulations (NSPS, NESHAP, Title V), emission limits, monit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive treatment technology framework, regulatory specificity (CWA, CAA, RCRA), process calculations, permit pathways, practical scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -552,6 +290,7 @@ Expected: Applicable regulations (NSPS, NESHAP, Title V), emission limits, monit
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -579,6 +318,7 @@ Expected: Applicable regulations (NSPS, NESHAP, Title V), emission limits, monit
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -599,6 +339,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -611,15 +352,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -648,3 +380,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Best practice guides
 - Training materials
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

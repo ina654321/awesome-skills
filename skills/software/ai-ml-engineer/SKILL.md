@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,301 +138,6 @@ Before recommending a model for production deployment, evaluate all five gates:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **AI/ML Engineer** capable of:
-
-1. **Feature Engineering & Feature Stores** - Design point-in-time correct feature pipelines using Spark/Flink, configure Feast or Tecton, and detect online/offline feature skew
-
-2. **Model Training Optimization** - Configure PyTorch DataLoaders, mixed precision (AMP), gradient accumulation, and distributed training; tune hyperparameters with Optuna or Ray Tune
-
-3. **MLOps Pipeline Orchestration** - Build Kubeflow Pipelines DAGs, schedule Airflow ML workflows, and implement CI/CD for ML with model validation gates
-
-4. **Production Model Serving** - Deploy models on Triton Inference Server with dynamic batching, optimize with TensorRT INT8, and configure Ray Serve autoscaling
-
-5. **Model Monitoring & Drift Detection** - Configure PSI and KS-test alerts for data drift, track concept drift and prediction distribution shift, and automate retraining triggers
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Training-Serving Skew** | Critical | Feature computation logic differs between offline training and online serving — the model silently receives different inputs than it was trained on, causing unexplained production degradation | Implement feature skew monitoring (compare training feature distributions to online serving logs); enforce a single feature computation library used in both paths |
-| **Data Leakage** | Critical | Future information leaks into training features via point-in-time join errors, target encoding, or improper cross-validation splits → offline metrics overestimated by 20-50%; model fails in production | Always use point-in-time correct joins in time-series features; audit all feature timestamps; validate by checking that removing the target column does not improve accuracy |
-| **Model Staleness** | High | Production model trained on a stale data distribution decays silently without alerting; KPI metrics degrade gradually over weeks before detection | Configure automated drift detection (PSI > 0.2 triggers alert); set a maximum model age policy; implement weekly retraining on recent data |
-| **Infrastructure Overfit** | Medium | Model behavior is optimized or validated for staging environment; GPU driver version, batch size, and memory constraints differ in production, causing subtle prediction differences | Run shadow mode evaluation in the production environment before full rollout; validate TensorRT-compiled model output vs. PyTorch reference on production hardware |
-
-**IMPORTANT
-- Production ML systems require ongoing monitoring investment proportional to model business impact; this skill guides architecture and implementation but cannot replace operational runbooks specific to your infrastructure
-
-- Data quality issues are the most common root cause of production ML failures; always instrument data pipelines before model pipelines
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The ML Lifecycle Stack
-
-```
-        ┌──────────────────────────────────────────┐
-        │   MONITORING & RETRAINING                │  Drift · Degradation · Auto-retrain
-        │   (keep the model fresh)                 │
-      ┌─┴──────────────────────────────────────────┴─┐
-      │   SERVING & INFERENCE                        │  Triton · Ray Serve · TensorRT
-      │   (deliver predictions at SLA)              │
-    ┌─┴──────────────────────────────────────────────┴─┐
-    │   ORCHESTRATION & CI/CD                          │  Kubeflow · Airflow · Prefect
-    │   (automate reproducible pipelines)             │
-  ┌─┴──────────────────────────────────────────────────┴─┐
-  │   MODEL TRAINING                                      │  PyTorch · TF · MLflow · Optuna
-  │   (efficient, reproducible experiments)             │
-┌─┴──────────────────────────────────────────────────────┴─┐
-│   FEATURE ENGINEERING & FEATURE STORE                     │  Spark · Flink · Feast · Tecton
-│   (the foundation; garbage in = garbage out)            │
-└──────────────────────────────────────────────────────────┘
-```
-
-Each layer depends on the layer below it. A fast serving stack cannot compensate for stale or leaky features. Invest in lower layers first.
-
-### 4.2 Guiding Principles
-
-1. **Feature Parity is Non-Negotiable**: The exact same feature computation code must run in training and serving — use a shared library, never duplicate logic
-
-2. **Experiment Everything, Ship Nothing Untested**: Every model change — architecture, hyperparameter, preprocessing — is an experiment tracked in MLflow with a before/after metric comparison
-
-3. **Monitoring is Part of the Model**: Drift detection, performance tracking, and retraining triggers are designed alongside the model, not retrofitted after incidents
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Version / 版本 | Purpose
-|------------|--------------|---------------|
-| **PyTorch** | 2.2 | Primary deep learning framework: DataLoader, AMP, DistributedDataParallel, TorchScript export |
-| **TensorFlow** | 2.15 | Production serving via SavedModel + TF Serving; TFX pipeline integration |
-| **MLflow** | 2.10 | Experiment tracking (autologging), model registry, artifact storage, model lineage |
-| **Kubeflow Pipelines** | 1.8 | Kubernetes-native ML pipeline orchestration using KFP SDK v2 component DAGs |
-| **Triton Inference Server** | 2.40 | High-performance model serving: dynamic batching, concurrent execution, TensorRT/ONNX/PyTorch backends |
-| **Ray** | 2.9 | Distributed training (Ray Train), hyperparameter tuning (Ray Tune), model serving (Ray Serve) |
-| **Feast** | 0.35 | Open-source feature store: offline store (Parquet/BigQuery), online store (Redis), point-in-time joins |
-| **Optuna** | 3.5 | Hyperparameter optimization with TPE sampler, pruning via ASHA, dashboard visualization |
-| **Evidently AI** | 0.4 | Data drift reports (PSI, KS test, Jensen-Shannon), model performance dashboards |
-| **Apache Spark** | 3.5 | Batch feature computation at scale (>1TB); Spark MLlib for large-scale preprocessing |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Feature Engineering Patterns
-
-| Pattern / 模式 | When to Use / 使用场景 | Implementation
-|---------------|----------------------|----------------------|
-| **Batch Features (Spark)** | Features computed on historical data > 1TB; latency tolerance > 1 hour | `PySpark DataFrame` + Delta Lake; schedule via Airflow; write to offline store |
-| **Streaming Features (Flink)** | Real-time features with < 1s latency (e.g., user session activity, fraud signals) | Apache Flink `KeyedProcessFunction`; write to Redis online store via Feast |
-| **Point-in-Time Join** | Time-series models where features must reflect state at label timestamp; prevents future leakage | Feast `get_historical_features(entity_df)` with `timestamp` column; validates no future data |
-| **Feature Versioning** | Breaking changes to feature computation logic; training on new version without invalidating old experiments | Feature view versioning in Feast; tag experiments in MLflow with `feature_version=v2` |
-| **Online/Offline Skew Detection** | Catching drift between batch-computed offline features and real-time online features | Sample 1% of online feature vectors; compare distribution vs. offline store via KS test; alert if p-value < 0.05 |
-
-### 7.2 Training Configuration Reference
-
-| Configuration / 配置 | Recommended Value / 推荐值 | Impact
-|---------------------|--------------------------|--------------|
-| **DataLoader num_workers** | 4 (CPU-bound) or 8 (I/O-bound) | Eliminates GPU starvation; 2-3x throughput improvement |
-| **DataLoader pin_memory** | `True` when using CUDA | Faster host-to-device transfer; ~15% throughput gain |
-| **DataLoader prefetch_factor** | 2 | Overlaps data loading with GPU computation |
-| **Mixed Precision (AMP)** | `torch.amp.autocast` + `GradScaler` | 40-60% memory reduction; enables larger batch sizes |
-| **Gradient Accumulation Steps** | 4-8 for effective batch size scaling | Simulates large batch without OOM; set `accumulation_steps = target_batch
-| **Optuna Sampler** | `TPESampler` (default) for < 1000 trials | Most sample-efficient; switch to `CmaEsSampler` for > 20 continuous params |
-| **Ray Tune Scheduler** | `ASHAScheduler` for early stopping | Terminates poorly-performing trials early; 3-5x wall-clock speedup |
-
-### 7.3 Serving Latency Budget
-
-```
-Total Request Latency SLA: 100ms P99
-├── Network (client → load balancer → server): < 10ms
-├── Pre-processing (tokenization, normalization, feature fetch): < 5ms
-├── Inference (model forward pass): < 30ms
-│   ├── TensorRT INT8: 8-15ms (2-3x faster than FP32)
-│   ├── ONNX Runtime: 15-25ms
-│   └── PyTorch eager: 25-40ms (baseline)
-├── Post-processing (decode, softmax, top-k): < 5ms
-└── Network (server → client): < 10ms
-
-Budget overrun → Profile with Triton perf_analyzer; enable dynamic batching;
-                  consider TensorRT INT8 calibration or model distillation.
-```
-
-### 7.4 Drift Detection Thresholds
-
-| Metric / 指标 | Formula / 公式 | Alert Threshold / 告警阈值 | Action
-|--------------|--------------|--------------------------|--------------|
-| **PSI (Population Stability Index)** | PSI = Σ(actual% - expected%) × ln(actual%
-| **KS Test p-value** | Kolmogorov-Smirnov statistic on feature distributions | p-value < 0.05 → distribution shift detected | Investigate feature pipeline; compare raw vs. processed distributions |
-| **Prediction Distribution Shift** | Jensen-Shannon divergence on score histograms | JS divergence > 0.1 over 24h rolling window | Shadow mode evaluation; check label distribution |
-| **Online Metric Drop** | % change in CTR/conversion vs. control period | > 5% relative drop sustained for > 1 hour | Rollback via canary; escalate to on-call |
-| **Model Performance Degradation** | AUC/F1 on labeled validation stream | > 3% absolute drop from deployment baseline | Trigger champion-challenger evaluation; schedule retraining |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Feature Store Setup & Onboarding
-
-```
-Phase 1: Infrastructure Setup (Week 1)
-├── Deploy Feast registry (Redis online store + S3/GCS offline store)
-├── Configure Feast feature_store.yaml: provider, registry path, online store
-├── Set up offline store connector (BigQuery or Parquet on S3)
-└── Deliverable: Feast deployed; feature_store.yaml committed to repo
-
-Phase 2: Feature Definition (Week 2)
-├── Define Entity (user_id, item_id) in entities.py
-├── Define FeatureView per domain (user_features, item_features, context_features)
-├── Set TTL per feature view (user activity: 7 days; item stats: 1 day)
-└── Deliverable: feature_views.py with documented schemas and data sources
-
-Phase 3: Backfill & Validation (Week 3)
-├── Run feast materialize for offline backfill (last 90 days)
-├── Validate point-in-time joins: compare feast.get_historical_features() output
-│   vs. manual SQL join; diff should be < 0.01% on sampled rows
-├── Load test online store: feast get_online_features() at target QPS (e.g., 5K QPS)
-└── Deliverable: Backfill complete; latency P99 < 20ms for online fetch
-
-Phase 4: Skew Monitoring (Week 4)
-├── Log 1% sample of online feature vectors to S3
-├── Configure daily Spark job to compare online samples vs. offline store distributions
-├── Set KS-test alert: p-value < 0.05 → PagerDuty alert to ML platform on-call
-└── Deliverable: Skew monitoring dashboard live; runbook for alert response
-```
-
-### 8.2 Model Training & Experiment Workflow
-
-```
-Pre-Training Checklist:
-□ Feature data profiled: null rate < 1%, no constant features, no target leakage
-□ Train/val/test split is time-based (not random) for time-series data
-□ Baseline model logged in MLflow (e.g., LightGBM with default params as reference)
-□ MLflow experiment created with consistent naming: {team}/{model_name}/{date}
-
-Training:
-□ DataLoader configured: num_workers=4, pin_memory=True, prefetch_factor=2
-□ Mixed precision enabled: torch.amp.autocast(device_type='cuda') + GradScaler
-□ Gradient accumulation set: effective_batch_size = batch_size × accumulation_steps
-□ MLflow autolog enabled: mlflow.pytorch.autolog() or mlflow.sklearn.autolog()
-□ Hyperparameter sweep: Optuna study with TPE sampler, n_trials=100, n_jobs=4
-
-Post-Training Evaluation:
-□ Offline metrics vs. baseline: must exceed by ≥ 5% (relative) on held-out test set
-□ Latency profiling: measure P50/P95/P99 on target serving hardware
-□ Slice-based evaluation: break down metrics by key segments (geography, user cohort)
-□ Fairness check: metric disparity across demographic groups < 3% absolute
-□ Model registered in MLflow registry with tags: {feature_version, dataset_date, metrics}
-```
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ai ml engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ai ml engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ai ml engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -447,6 +153,7 @@ Post-Training Evaluation:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -457,6 +164,7 @@ Post-Training Evaluation:
 | **ML Engineer** + **Backend Developer** | ML Engineer exposes model via REST/gRPC endpoint with defined schema → Backend Developer integrates prediction API into product, handles fallback logic and caching | End-to-end model integration with graceful degradation and sub-100ms product-level latency |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -491,6 +199,7 @@ Post-Training Evaluation:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -520,6 +229,7 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -540,6 +250,7 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -567,6 +278,7 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -587,6 +299,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -599,15 +312,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -635,3 +339,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -134,201 +135,6 @@ Before responding to any drug registration request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Drug Registration Specialist** capable of:
-
-1. **Regulatory Strategy Development** — Design optimal development pathways considering target product profile, competitive landscape, and regulatory incentives (Breakthrough Therapy, PRIME, NMPA priority review)
-
-2. **CTD/eCTD Dossier Preparation** — Organize and compile Module 1-5 (Administrative, Summary, Quality, Nonclinical, Clinical) in ICH M4(R4) format with technical validation
-
-3. **Regulatory Submissions** — Prepare IND, NDA, ANDA, BLA submissions to FDA/EMA/NMPA, including form completion, publishing, and tracking
-
-4. **Regulatory Interactions** — Coordinate pre-IND meetings, end-of-Phase 2 meetings, and pre-NDA meetings; prepare briefing packages and negotiate with reviewers
-
-5. **Labeling & Post-Approval** — Negotiate package inserts, develop REMS, manage post-approval changes and variations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Technical Rejection** | 🔴 High | Dossier rejected at submission due to technical validation failures (eCTD errors, missing documents) | Pre-submission technical validation; use validated publishing tools; QC checklist before submission |
-| **Clinical Hold** | 🔴 High | FDA places IND on clinical hold due to safety concerns or inadequate trial design | Pre-IND consultation; address potential hold issues proactively; prepare thorough responses |
-| **Major Deficiency** | 🔴 High | NDA receives "Major Deficiency" in Day 74/120 letter requiring additional studies | Early regulatory interactions; robust clinical package; detailed briefing documents |
-| **Inadequate CMC** | 🔴 High | CMC section insufficient for approval; process validation incomplete | Early CMC meetings; Phase-appropriate validation strategy; robust analytical methods |
-| **Labeling Disputes** | 🟡 Medium | FDA requires additional warnings/dosing restrictions in label affecting commercial viability | Early label discussions; real-world evidence to support position; risk management alternatives |
-| **Sequestration** | 🟡 Medium | Regulatory review timelines delayed due to resource constraints (FDA, NMPA backlog) | Early submission; maintain regular communication; parallel submission strategies |
-| **Post-Approval Changes** | 🟡 Medium | Major changes require new approval causing product shortage | Plan ahead for manufacturing changes; use established comparability protocols |
-
-**⚠️ IMPORTANT
-- This skill provides regulatory affairs guidance based on current guidelines as of 2026. Regulatory requirements evolve — always verify with the latest FDA/EMA/NMPA guidance before submission.
-
-- This skill does not constitute legal advice. For submission strategies with legal implications, consult qualified regulatory counsel.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Regulatory Affairs Mental Model
-
-```
-          ┌─────────────────────────────┐
-          │    Target Product Profile     │  ← Desired label claims, patient population
-        ┌─┴─────────────────────────────┴─┐
-        │     Regulatory Strategy          │  ← Pathway selection, timeline, resource planning
-      ┌─┴─────────────────────────────────┴─┐
-      │       Evidence Generation          │  ← CMC, preclinical, clinical programs
-    ┌─┴───────────────────────────────────────┴─┐
-    │           Dossier Preparation               │  ← CTD modules, quality, consistency
-  ┌─┴─────────────────────────────────────────────┴─┐
-  │           Regulatory Submission & Review         │  ← Interactions, responses, approval
-  └─────────────────────────────────────────────────┘
-```
-
-Regulatory strategy must begin with the end in mind — the Target Product Profile defines the evidence needed to achieve the desired label.
-
-### 4.2 Guiding Principles
-
-1. **The label is the prize**: Everything in the development program should support the desired label claims. Regulatory strategy precedes development strategy.
-
-2. **Precedent is powerful**: Use approvals of similar products to set expectations and justify strategies. Regulators respond to precedent.
-
-3. **Quality is non-negotiable**: Technical validation failures cause delays; thorough QC before submission is essential.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **eCTD Submission Software** | DocuBridge, Lorenz, Elsevier executable for eCTD publishing and validation |
-| **CTD Editor** | Structured document preparation for Module 2-5 |
-| **Regulatory Databases** | FDA Drugs@FDA, EMA Product Database, NMPA CDE website for label review |
-| **ICH Guidelines** | M4(R4) CTD, M8 eCTD, E5(R1) Ethnicity, E17 Multi-Regional Clinical Trials |
-| **FDA Guidance Portal** | Product-specific guidance, industry guidelines, compliance guides |
-| **NMPA CDE** | China Drug Registration technical review guidelines, acceptance standards |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on drug registration specialist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent drug registration specialist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term drug registration specialist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -337,6 +143,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -348,6 +155,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Drug Registration + **Legal/Compliance** | RA navigates regulations → Legal advises | Compliant submission without legal issues |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -377,6 +185,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "FDA meeting"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -418,6 +227,7 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive regulatory framework, specifi
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -438,6 +248,7 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive regulatory framework, specifi
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -465,6 +276,7 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive regulatory framework, specifi
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -485,6 +297,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -497,15 +310,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -534,3 +338,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Best practice guides
 - Training materials
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

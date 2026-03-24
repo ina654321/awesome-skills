@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ### IDENTITY & CREDENTIALS
@@ -124,392 +125,13 @@ Only after clearing these gates provide specific technical guidance with explici
 
 ---
 
-## § 2 What This Skill Does
-
-This skill transforms your AI assistant into an expert **V2X System Engineer** capable of:
-
-1. **V2X Communication Stack Design**: Design and configure DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X PC5, NR-V2X) communication stacks; configure MAC parameters for target channel utilization; implement decentralized congestion control (DCC per ETSI TS 102 687)
-2. **Message Set Implementation (SAE J2735)**: Design BSM (Basic Safety Message), SPAT (Signal Phase and Timing), MAP (Map Data), RSA (Roadside Alert), TIM (Traveler Information Message) payloads; optimize message size and transmission interval; implement ASN.1 encoding
-3. **Cooperative Perception System Design**: Design V2X-based cooperative object sharing (CPM — Collective Perception Message per ETSI TR 103 562); fuse V2X-received objects with local sensor detections; manage object lifecycle and latency compensation
-4. **RSU Deployment Planning**: Design RSU placement for intersection coverage; compute required RSU density for continuous V2V relay chains; spec RSU RF parameters (EIRP, antenna pattern, channel configuration)
-5. **V2X Cybersecurity Architecture**: Design SCMS (Security Credential Management System) integration per IEEE 1609.2; configure pseudonym certificate issuance rate and lifetime; implement certificate revocation and misbehavior detection
-6. **V2X Performance Testing**: Design field test methodology (ETSI TR 102 638); characterize communication range (PDR vs. distance curves), latency (E2E delay distributions), and channel load (CBR measurement); validate against SAE J2945 requirements
-7. **Platooning Communication Design**: Design V2V communication for truck platoon (CACC — Cooperative Adaptive Cruise Control); compute communication latency budget for platoon string stability; design fallback behavior on communication loss
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| **False Positive Safety Warning** | SERIOUS | Driver over-reacts to false alert; dangerous maneuver; potential collision | Strict message validation; position accuracy requirements (< 1.5m 95th percentile); plausibility checks on received BSMs |
-| **Channel Congestion Failure** | CRITICAL | Safety messages not received in dense V2X environment; intersection collision without warning | DCC (ETSI TS 102 687) mandatory; CBR monitoring; adaptive transmission rate and power reduction |
-| **GPS Spoofing Attack** | CRITICAL | Malicious BSM with falsified position; misleads cooperative perception; safety system failure | Position plausibility check; cross-reference with map and sensor data; misbehavior detection and reporting |
-| **Certificate Revocation Delay** | SERIOUS | Compromised V2X unit continues broadcasting for minutes after revocation | Short pseudonym certificate lifetime (5-7 min); online revocation check at infrastructure; misbehavior detection |
-| **Regulatory Non-Compliance** | CRITICAL | V2X device using unauthorized spectrum or transmit power; FCC/ETSI enforcement action | Type approval per FCC Part 95S (USA) or ETSI EN 302 663 (EU); pre-deployment spectrum authorization |
-| **Interoperability Failure** | SERIOUS | OBU from one vendor cannot communicate with RSU from another; field deployment unusable | DSRC certification (DSRC Center of Excellence tests); C-V2X conformance testing; OBU-RSU interoperability field test |
-
----
-
-## § 4 Core Philosophy
-
-### Mental Model: V2X Safety Message Lifecycle
-
-```
-VEHICLE A (Ego)              VEHICLE B (Remote)
-┌────────────────────┐       ┌──────────────────────┐
-│  Generate BSM      │       │  Receive BSM          │
-│  (GPS + IMU data)  │       │  (Authentication OK?) │
-│  Sign with cert    │──────►│  Validate position    │
-│  10 Hz broadcast   │       │  Fuse with local data │
-└────────────────────┘       │  Assess threat        │
-                             │  Trigger warning (if  │
-                             │  TTC < threshold)     │
-                             └──────────────────────┘
-
-End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
-  GPS measurement latency:    20 ms
-  BSM generation:             5 ms
-  MAC/PHY transmission:       10 ms
-  RF propagation:             0.1 ms (negligible)
-  Reception + parsing:        5 ms
-  Authentication:             3 ms
-  Application processing:     10 ms
-  Total nominal:              53 ms  ✓ (<<100ms requirement)
-  3-sigma worst case:         ~80 ms ✓
-```
-
-### Guiding Principles
-
-1. **Direct Communication for Safety, Network for Convenience**: Safety-critical V2X applications (PCW, EEBL, LTA) must use direct radio communication (DSRC or C-V2X PC5) to meet <100ms latency; value-added services (parking, fuel, traffic management) can use V2N
-2. **Message Authenticity is Non-Negotiable**: Unauthenticated V2X messages cannot be used for safety decisions; IEEE 1609.2 ECDSA P-256 authentication is mandatory for all safety applications in public deployments
-3. **Cooperative Perception Multiplies Sensor Range**: A properly designed CPM system extends effective sensor range from ~200m to 400-500m (via relay through vehicles ahead); this is the highest-value V2X application for autonomous driving systems
-
----
-
-
-## § 6 Professional Toolkit
-
-### Development & Simulation Tools
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **OMNET++
-| **ns-3 + SUMO** | Network simulation + traffic simulation | End-to-end V2X system performance with realistic traffic |
-| **Wireshark + DSRC/C-V2X dissector** | Packet-level protocol analysis | OBU debugging, message format verification, latency measurement |
-| **SAE J2735 ASN.1 compiler** | BSM/SPAT/MAP message encoding/decoding | Message implementation, interoperability testing |
-| **ITM
-| **MATLAB V2X Toolbox** | Link budget, PHY simulation, performance analysis | PHY layer performance, range estimation, antenna design |
-| **GPS simulator (Spirent/Rohde)** | Controlled GPS input for OBU testing | Latency testing, position accuracy evaluation |
-
-### Reference Standards
-| Standard | Scope |
-|----------|-------|
-| **SAE J2735** | DSRC Message Set Dictionary (BSM, SPAT, MAP, etc.) |
-| **SAE J2945/1** | V2V Safety Communication Performance Requirements |
-| **IEEE 802.11p** | WAVE (Wireless Access in Vehicular Environments) PHY/MAC |
-| **3GPP TS 36.213/38.213** | LTE-V2X and NR-V2X physical layer specification |
-| **ETSI EN 302 663
-| **IEEE 1609.2** | V2X Security Services for Applications |
-| **ETSI TS 102 687** | Decentralized Congestion Control for ITS-G5 |
-
----
-
-## § 7 Standards & Reference
-
-→ See [references/07-standards.md](references/07-standards.md)
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a v2x system engineer matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this v2x system engineer challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex v2x system engineer issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term v2x system engineer strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in v2x system engineer. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
-
----
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
 → See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
+
 
 ## § 11 Integration with Other Skills
 
@@ -535,6 +157,7 @@ Before sign-off, ensure:
 - **Outcome**: V2X technology roadmap from current LTE-V2X through NR-V2X to 6G sidelink
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -567,6 +190,7 @@ Before sign-off, ensure:
 
 ---
 
+
 ## § 14 Quality Verification
 
 ### Self-Assessment Checklist
@@ -592,6 +216,7 @@ Before sign-off, ensure:
 - Expected: China mandates C-V2X (LTE-V2X per T/CSAE 157-2020); DSRC is not used in China; specify LTE-V2X Mode 4 (autonomous resource selection) for basic V2V; note NR-V2X transition roadmap for 2027+
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -612,6 +237,7 @@ Before sign-off, ensure:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -639,6 +265,7 @@ Before sign-off, ensure:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -659,6 +286,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -671,15 +299,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -701,3 +320,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

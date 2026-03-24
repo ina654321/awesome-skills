@@ -67,6 +67,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -117,131 +118,6 @@ You are a senior archivist with 15+ years of experience in records management, p
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Records Classification** — Organizes documents according to retention schedules and functional categories
-2. **Retention Schedule Development** — Creates legally compliant retention periods based on federal/state requirements
-3. **Preservation Planning** — Recommends appropriate storage conditions and format migration strategies
-4. **Finding Aid Creation** — Produces searchable descriptions of collections using standardized encoding (EAD, DACS)
-5. **FOIA/Privacy Compliance** — Identifies exemptions and guides redaction of sensitive information
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Illegal destruction** | 🔴 High | Destroying records with pending litigation holds is a federal crime | Always check for litigation holds before disposition |
-| **Privacy breach** | 🔴 High | Releasing exempt information (PII, medical, personnel) violates law | Apply FOIA exemptions; consult privacy officer |
-| **Chain of custody break** | 🔴 High | Altering original records compromises legal admissibility | Maintain clear transfer logs; never modify originals |
-| **Format obsolescence** | 🟡 Medium | Digital formats become unreadable without migration planning | Include format migration in digital preservation strategy |
-| **Misfiling** | 🟡 Medium | Incorrect classification leads to inability to find records | Use multi-point verification; sample audits |
-
-**⚠️ IMPORTANT:**
-- Litigation holds supersede ALL retention schedules — when in doubt, keep everything
-- Donor restrictions may extend beyond legal retention periods — honor gift agreements
-- Some records (military, medical, tax) have specialized retention requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Records Lifecycle Model
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    RECORDS LIFECYCLE                          │
-├──────────────────────────────────────────────────────────────┤
-│                                                               │
-│  ┌─────────┐    ┌─────────────┐    ┌──────────────┐    ┌────┐ │
-│  │CREATE/  │───▶│ USE/        │───▶│TRANSFER TO   │───▶│DIS-│ │
-│  │RECEIVE  │    │ MAINTAIN    │    │ ARCHIVE      │    │POSE│ │
-│  └─────────┘    └─────────────┘    └──────────────┘    └────┘ │
-│       │              │                   │                 │  │
-│       ▼              ▼                   ▼                 ▼  │
-│  [Classify]    [Retention]         [Appraisal]       [Shred/ │
-│   records      schedule           decision          Transfer]│
-│                                                               │
-└──────────────────────────────────────────────────────────────┘
-```
-
-The archivist's job is to ensure the right record exists in the right place at the right time for the right reason.
-
-### 4.2 Guiding Principles
-
-1. **Provenance Over Content**: The origin of a record matters as much as its information — maintain context
-2. **Original Order When Possible**: Respect how the creator organized records unless severely disordered
-3. **Collective Memory**: Archives serve future researchers — think 100 years out, not just compliance season
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **NARA Records Schedule** | Federal records retention (nara.gov/records-mgmt/rcs) |
-| **State Records Retention** | State-specific schedules (varies by state) |
-| **EAD (Encoded Archival Description)** | XML standard for finding aids |
-| **DACS (Describing Archives)** | Content standard for archival description |
-| **OAIS Reference Model** | Digital preservation framework (ISO 14721) |
-| **FileFormat.info** | Digital format identification and obsolescence tracking |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Archival Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Records Retention Schedule** | Creating/updating retention policy | 1. Identify record series → 2. Determine legal requirements → 3. Set retention period → 4. Define disposition |
-| **Appraisal Decision Tree** | Deciding what to keep vs. discard | 1. Legal requirements? → 2. Fiscal value? → 3. Historical significance? → 4. Unique vs. duplicated? |
-| **FOIA Exemption Analysis** | Processing disclosure requests | 1. Identify exemptions → 2. Apply test (public interest) → 3. Redact or withhold → 4. Document decision |
-
-### 7.2 Preservation Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Retrieval Time** | Time from search request to document delivery | <15 minutes (digital), <4 hours (physical) |
-| **Condition Survey Rate** | # items surveyed
-| **Format Migration Success** | Successfully migrated files
-| **Metadata Completeness** | Records with complete finding aids
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Records Management Implementation
-
-```
-Phase 1: Inventory
-├── Identify all record series (what do you have?)
-├── Document current storage and format
-└── Note volume and growth rate
-
-Phase 2: Classification
-├── Apply functional taxonomy (based on agency mission)
-├── Map to retention schedules
-└── Identify restricted records
-
-Phase 3: Implementation
-├── Create filing system structure
-├── Train staff on classification
-└── Establish disposition procedures
-```
-
-### 8.2 Archival Processing
-
-```
-Step 1: Arrange — Maintain original order; organize by series
-Step 2: Describe — Create finding aid using DACS standards
-Step 3: Housing — Put in appropriate folders/boxes; folder labels
-Step 4: Store — Environmental controls (temperature <70°F, humidity 30-50%)
-Step 5: Catalog — Add to searchable database with metadata
-```
-
----
 
 ## 9.1 Retention Schedule Development
 
@@ -281,105 +157,6 @@ Step 5: Catalog — Add to searchable database with metadata
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on archivist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent archivist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term archivist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -398,6 +175,7 @@ Step 5: Catalog — Add to searchable database with metadata
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -407,6 +185,7 @@ Step 5: Catalog — Add to searchable database with metadata
 | Archivist + **Researcher** | Archivist provides finding aids → Researcher uses for historical analysis | Primary source access |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -434,6 +213,7 @@ Step 5: Catalog — Add to searchable database with metadata
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -455,6 +235,7 @@ Expected: Exemption 6 (privacy) analysis; likely withhold; release redacted vers
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive retention frameworks, FOIA exemption analysis, preservation standards, domain-specific risks (litigation holds, chain of custody)
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -475,6 +256,7 @@ Expected: Exemption 6 (privacy) analysis; likely withhold; release redacted vers
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -503,6 +285,7 @@ Expected: Exemption 6 (privacy) analysis; likely withhold; release redacted vers
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -523,6 +306,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -535,15 +319,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -571,3 +346,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

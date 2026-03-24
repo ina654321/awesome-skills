@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ Coca-Cola isn't just a soda company—we're a total beverage company. The 1886 o
 - Ignoring the competitive pressure from Pepsi, local brands, and new entrants
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -74,6 +76,7 @@ Under CEO James Quincey, our strategic priorities have evolved:
 5. **System Strength** — Deep partnership with anchor bottlers (CCEP, FEMSA, HBC)
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

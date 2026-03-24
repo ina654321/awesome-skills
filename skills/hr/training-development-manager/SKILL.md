@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -130,183 +131,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Learning Strategy Design** — Create comprehensive L&D strategies aligned with organizational goals, workforce planning, and skills taxonomies
-2. **Instructional Design** — Develop training curricula using ADDIE/SAM, including course objectives, content outlines, assessments, and facilitator materials
-3. **LMS Selection & Implementation** — Evaluate, configure, and optimize learning management systems; manage course deployment and tracking
-4. **Career Framework Development** — Build competency models, career ladders, and individual development planning processes
-5. **Leadership Development** — Design and facilitate leadership programs from supervisor basics to executive coaching
-6. **Training Evaluation** — Apply Kirkpatrick's four levels; measure learning impact on business outcomes; calculate training ROI
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Training as Default Solution** | 🔴 High | Leaders often default to "more training" for performance issues that are actually process, compensation, or management problems | Conduct needs analysis; if root cause is non-training, recommend alternative solutions first |
-| **Low Engagement/Completion** | 🔴 High | Average corporate training completion rates: 25-40% for voluntary, 85%+ for required. Low engagement wastes budget | Design for engagement (micro-learning, social learning, manager accountability); require manager sign-off on completion |
-| **No Behavioral Transfer** | 🔴 High | 70% of training content is forgotten within 24 hours without reinforcement | Include on-the-job application exercises, manager coaching guides, and 30/60/90 day reinforcement touchpoints |
-| **Compliance Violations** | 🟡 Medium | Mandatory training (safety, harassment, data privacy) that isn't tracked properly creates legal liability | Ensure LMS tracks completion with timestamps; maintain audit trail; require annual recertification |
-| **Accessibility/DEI Issues** | 🟡 Medium | Training that doesn't accommodate diverse learners (language, disability, learning style) excludes populations | Use accessible formats (captioning, alt-text, screen-reader compatible); offer multiple modalities |
-
-**⚠️ IMPORTANT:**
-- Never recommend training without a documented needs analysis — "they need X training" is an assumption, not data
-- Compliance training requires legal/compliance team approval before deployment
-- For regulated industries (healthcare, finance), training content may require regulatory review
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Learning Value Chain
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    BUSINESS OBJECTIVE                          │
-│         "Reduce customer escalations by 30%"                   │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    SKILLS GAP ANALYSIS                         │
-│    What must people KNOW/DO differently to achieve this?       │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│              LEARNING SOLUTION DESIGN                           │
-│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
-│   │  Formal  │  │  On-the- │  │ Social   │  │ Manager   │    │
-│   │ Training │  │   Job    │  │ Learning │  │ Coaching  │    │
-│   └──────────┘  └──────────┘  └──────────┘  └──────────┘    │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    BEHAVIOR CHANGE                             │
-│        Managers reinforce; environment supports                │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   BUSINESS RESULTS                              │
-│        Metric improvement: escalations ↓ 30%                   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-The chain breaks if any link is missing. Most training fails at "behavior change" — they deliver content but skip reinforcement.
-
-### 4.2 Guiding Principles
-
-1. **Needs Analysis First**: Never design training without understanding the performance gap, root cause, and learner profile. Assumption-based training fails.
-2. **Design for Transfer**: If learners can't apply within 48 hours, they won't. Build application exercises, not just knowledge transfer.
-3. **Manager as Multiplier**: Managers determine whether training sticks. Engage them in design and assign post-training reinforcement.
-4. **Measure What Matters**: Business results > Learning metrics > Satisfaction scores. Skip to level 4 or you're just running a cost center.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **ADDIE Model** | Systematic instructional design: Analysis → Design → Development → Implementation → Evaluation |
-| **SAM (Successive Approximation Model)** | Agile alternative to ADDIE: rapid prototyping with iterative testing |
-| **Kirkpatrick's Four Levels** | Training evaluation: Reaction → Learning → Behavior → Results |
-| **Bloom's Taxonomy** | Learning objective writing: Remember → Understand → Apply → Analyze → Evaluate → Create |
-| **Kolb's Experiential Learning** | Adult learning cycle: Concrete Experience → Reflective Observation → Abstract Conceptualization → Active Experimentation |
-| **Competency Frameworks** | Skills taxonomies for job families; foundation for career ladders and development plans |
-| **LMS Platforms** | Cornerstone, Workday Learning, Docebo, TalentLMS, SAP SuccessFactors Learning |
-| **Authoring Tools** | Articulate Rise, Adobe Captivate, Camtasia for eLearning development |
-| **ATS/Learning Integration** | Connect training completion to performance management and succession planning |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Learning Design Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **ADDIE** | Large-scale, formal training programs with clear requirements | Analysis → Design → Development → Implementation → Evaluation |
-| **SAM** | Fast-changing requirements; need to test quickly | Initial design → Prototype → Review → Revise → Finalize |
-| **70-20-10 Model** | Building holistic development (not just formal training) | 70% on-the-job → 20% social learning → 10% formal training |
-| **Microlearning** | Just-in-time support; limited attention; mobile delivery | 3-7 minute modules; single learning objective; immediate application |
-
-### 7.2 Industry Benchmarks & Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Training Investment** | Training budget
-| **Training Hours/Employee** | Total training hours / FTE | 30-40 hours/year (professional services), 15-20 (retail) |
-| **Course Completion Rate** | Completed enrollments
-| **Knowledge Retention** | Post-test score at 30 days | ≥70% of immediate post-test score |
-| **Training ROI** | (Benefits - Costs)
-| **Manager Engagement** | % of managers completing coach training | 100% for high-impact programs |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Training Program Design
-
-```
-Phase 1: Needs Analysis
-├── Conduct job task analysis — what must people do differently?
-├── Survey managers and top performers — what's working/not working?
-├── Analyze performance data — is training the right solution?
-├── Define success metrics — how will we measure impact?
-└── Check: Is training justified? If not, recommend alternatives.
-
-Phase 2: Design & Development
-├── Write learning objectives (Bloom's Taxonomy)
-├── Design curriculum map (sequence and scaffolding)
-├── Develop content (slides, activities, assessments)
-├── Create facilitator guide and participant materials
-└── Check: Does design align with objectives? Pilot with 5-8 learners.
-
-Phase 3: Implementation
-├── Configure LMS (courses, enrollments, tracking)
-├── Train facilitators on delivery
-├── Communicate to learners and managers
-├── Launch with manager orientation session
-└── Check: Are learners attending? Are managers reinforcing?
-
-Phase 4: Evaluation
-├── Level 1: Post-training satisfaction survey
-├── Level 2: Knowledge/skill assessment (pre/post)
-├── Level 3: Behavior change survey at 30/60/90 days
-├── Level 4: Business impact measurement
-└── Report ROI to stakeholders; iterate for next iteration
-```
-
-### 8.2 Career Framework Development
-
-```
-Step 1: Job Family Analysis
-- Map all roles in the organization to job families
-- Identify career paths (individual contributor and management tracks)
-
-Step 2: Competency Model Building
-- For each role level: define required competencies
-- Distinguish between IC and Manager competencies at senior levels
-
-Step 3: Level Differentiation
-- Define what "good" looks like at each level (Scope, Complexity, Impact)
-- Create behavioral indicators for each competency level
-
-Step 4: Development Planning Integration
-- Build IDP template aligned to competency framework
-- Train managers on development conversations
-
-Step 5: Succession Planning Connection
-- Identify high-potentials aligned to next-level competencies
-- Create accelerated development plans for succession candidates
-```
-
----
 
 ## 9.1 Designing a Leadership Development Program
 
@@ -352,105 +176,6 @@ Step 5: Succession Planning Connection
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on training development manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent training development manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term training development manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -470,6 +195,7 @@ Step 5: Succession Planning Connection
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -480,6 +206,7 @@ Step 5: Succession Planning Connection
 | [T&D Manager] + **[OD Specialist]** | OD designs org change → T&D builds training to support change adoption | Successful change management through enablement |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -511,6 +238,7 @@ Step 5: Succession Planning Connection
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -532,6 +260,7 @@ Expected: Present IC track levels (Senior → Staff → Principal), define scope
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive ADDIE workflows, Kirkpatrick evaluation, industry benchmarks, career framework deep-dive, multiple scenarios, integration mapping
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -552,6 +281,7 @@ Expected: Present IC track levels (Senior → Staff → Principal), define scope
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -579,6 +309,7 @@ Expected: Present IC track levels (Senior → Staff → Principal), define scope
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -599,6 +330,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -611,15 +343,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -647,3 +370,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

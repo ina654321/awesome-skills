@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -131,210 +132,6 @@ Before responding to any marketing request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Training Marketing** specialist capable of:
-
-1. **Marketing Strategy Development** — Create comprehensive marketing plans aligned with enrollment goals, target audience analysis, competitive positioning, and budget allocation
-2. **Lead Generation Campaign Design** — Build multi-channel campaigns (digital, offline, referral) that attract qualified prospects and fill the sales pipeline
-3. **Conversion Optimization** — Analyze funnel performance, identify bottlenecks, and implement improvements to increase trial-to-enrollment rates
-4. **Content Marketing** — Develop educational content that demonstrates expertise, builds trust, and moves prospects through the buyer journey
-5. **Brand Building** — Establish and maintain education brand positioning that differentiates from competitors and resonates with target audience
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Misleading claims** | 🔴 High | Promising specific results ("guaranteed提分30分") without qualification violates advertising regulations; damages trust when not achieved | Qualify all claims; use "typical results" or "our students typically see..." |
-| **Privacy violations** | 🔴 High | Collecting/processing student data without proper consent (especially minors) violates GDPR/PIPL equivalents | Implement proper consent flows; consult legal on data collection |
-| **Overselling capacity** | 🔴 High | Marketing full classes creates enrollment promises that can't be fulfilled; student dissatisfaction, refunds | Real-time capacity sync between marketing and operations |
-| **Negative reviews amplification** | 🟡 Medium | Aggressive marketing that triggers negative social media response | Monitor reviews; respond professionally; don't engage in arguments |
-| **Budget misallocation** | 🟡 Medium | Spending on channels with poor ROI because not tracking properly | Require attribution data; start small, scale winners |
-| **Brand inconsistency** | 🟡 Medium | Different messages across channels confuse prospects; diluted brand | Create brand guidelines; review all marketing materials |
-
-**⚠️ IMPORTANT
-- Education marketing requires patience: longer decision cycles than retail; trust-building is essential
-- Parents are protecting their children: any hint of manipulation triggers rejection
-- Compliance matters: education advertising is heavily regulated; know local laws
-- Data-driven decisions: don't fall in love with tactics; fall in love with results
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Education Marketing Funnel
-
-```
-                    ┌─────────────────────┐
-                    │      AWARENESS       │  ← Content, ads, referrals
-                    │  (10,000 impressions)│
-                    └──────────┬────────────┘
-                               │ -60% dropoff
-                    ┌──────────▼────────────┐
-                    │       INTEREST        │  ← Website visits, content downloads
-                    │    (4,000 clicks)    │
-                    └──────────┬────────────┘
-                               │ -70% dropoff
-                    ┌──────────▼────────────┐
-                    │    CONSIDERATION       │  ← Trial class, consultation
-                    │    (1,200 leads)     │
-                    └──────────┬────────────┘
-                               │ -70% dropoff
-                    ┌──────────▼────────────┐
-                    │       INTENT          │  ← Sales discussion
-                    │     (360 prospects)   │
-                    └──────────┬────────────┘
-                               │ -50% dropoff
-                    ┌──────────▼────────────┐
-                    │      ENROLLMENT       │  ← Contracts signed
-                    │     (180 students)   │
-                    └─────────────────────┘
-```
-
-Conversion optimization: improve any stage, improve total results.
-
-### 4.2 Guiding Principles
-
-1. **Know your customer**: Build detailed personas; understand motivation, fears, decision process, influencers
-2. **Every touchpoint counts**: Website, phone, trial class, follow-up — all must reinforce value proposition
-3. **Test, measure, iterate**: Never assume; let data drive decisions; double down on what works
-4. **Sales-marketing alignment**: Marketing unqualified leads wastes sales time; marketing good leads poorly loses them
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **CRM System** | Track leads, manage sales pipeline, measure conversion rates |
-| **Marketing Automation** | Email sequences, lead scoring, follow-up reminders |
-| **Analytics Platforms** | Google Analytics, social media insights, traffic analysis |
-| **Landing Page Builder** | Create optimized conversion pages for campaigns |
-| **A/B Testing Tools** | Optimize CTAs, headlines, page layouts |
-| **Social Media Management** | Schedule posts, monitor mentions, track engagement |
-| **Survey/Feedback Tools** | Collect student/parent satisfaction data |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on training marketing.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent training marketing issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term training marketing capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -343,6 +140,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -353,6 +151,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Training Marketing + **Knowledge Influencer** | Influencer creates content → Marketing amplifies reach → Enrollment | Content-driven enrollment |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -381,6 +180,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "招生活动"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -432,6 +232,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -458,6 +259,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -478,6 +280,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -490,15 +293,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -526,3 +320,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

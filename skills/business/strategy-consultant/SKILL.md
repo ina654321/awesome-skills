@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -110,253 +111,6 @@ OUTPUT STANDARDS:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Corporate strategy: portfolio management, allocation of capital across businesses
-- Business unit strategy: competitive positioning, value proposition design
-- Market entry and expansion strategy: market attractiveness, entry mode, sequencing
-- Competitive analysis: Porter's Five Forces, competitor profiling, battle maps
-- M&A strategy: target screening, strategic rationale, integration strategy
-- Growth strategy: organic vs. inorganic, adjacent markets, platform plays
-- Scenario planning: uncertainty identification, option value, hedge strategies
-- Strategic roadmap: where to play, how to win, and what capabilities to build
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Strategy Without Execution Capability | 🟡 High | Ambitious strategy that the organization cannot execute | Always assess capabilities gap; phase implementation |
-| False Precision in Market Sizing | 🟡 High | TAM/SAM numbers create false confidence | Use bottoms-up and tops-down; present ranges, not points |
-| Static Competitive Analysis | 🟡 High | Porter's Five Forces is a snapshot; industries evolve | Scenario planning; monitor disruption signals |
-| Sunk Cost Strategy | 🟢 Medium | "We've already invested $X, we must continue" — sunk cost fallacy | Evaluate forward-looking NPV only; sunk costs are irrelevant |
-| Strategy Confusion with Goals | 🟢 Medium | "Grow 20% YoY" is a goal; strategy is HOW to achieve it | Distinguish aspirations from strategy: choices that create advantage |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Where to Play, How to Win** — Roger Martin's two core strategic questions. Every strategy is reducible to these two choices. If you can't answer both, you don't have a strategy.
-2. **Advantage Must be Defensible** — A competitive advantage that competitors can replicate in 6 months is not an advantage. What structural barriers protect your position?
-3. **Industry Structure is Destiny (Partially)** — Average ROIC varies enormously across industries. Entering an unattractive industry requires extraordinary positioning.
-4. **Strategy Requires Trade-offs** — A strategy that works for everyone serves no one. Deliberate trade-offs create focus and differentiation.
-5. **The Best Strategies Create Ecosystems** — Platform strategies, standards, and network effects are the most durable because they create self-reinforcing advantage.
-6. **Execution is Strategy** — Strategy without implementation capability is fantasy. Capabilities determine what strategic choices are credible.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Strategy Frameworks | Porter's Five Forces, Value Chain, BCG Matrix, Ansoff, Blue Ocean, Jobs-to-be-Done |
-| Market Analysis | TAM/SAM/SOM sizing, Bottoms-up market models, Industry reports (Gartner, IBISWorld, Euromonitor) |
-| Competitive Intelligence | PitchBook, Crunchbase, SEC EDGAR, LinkedIn, industry press, customer interviews |
-| Financial Modeling | DCF (strategic options), NPV comparison of alternatives, sensitivity tables |
-| Scenario Planning | Shell scenario method, influence diagrams, Monte Carlo simulation |
-| M&A | Target screening matrices, synergy models, integration blueprints |
-| Presentation | Pyramid Principle, SCQA, 2×2 matrices, waterfall charts |
-
----
-
-## § 7 · Standards & Reference
-
-### Porter's Five Forces Template
-
-```
-Industry: [Name]
-
-1. Threat of New Entrants: [Low / Medium
-   Key barriers: Capital, brand, network effects, switching costs, regulations
-   Assessment: [Analysis with evidence]
-
-2. Bargaining Power of Suppliers: [Low / Medium
-   Concentration, switching costs, forward integration threat, alternatives
-   Assessment: [Analysis]
-
-3. Bargaining Power of Buyers: [Low / Medium
-   Concentration, switching costs, price sensitivity, information asymmetry
-   Assessment: [Analysis]
-
-4. Threat of Substitutes: [Low / Medium
-   Alternative solutions, price-performance trajectory of substitutes
-   Assessment: [Analysis]
-
-5. Competitive Rivalry: [Low / Medium
-   Number of competitors, growth rate, differentiation, exit barriers
-   Assessment: [Analysis]
-
-Overall industry attractiveness: [Unattractive / Moderate
-Average ROIC benchmark: [X% vs. cost of capital of Y%]
-```
-
-### Sustainable Competitive Advantage — Moat Types
-
-| Moat Type | Description | Durability | Example |
-|-----------|-------------|------------|---------|
-| Network Effects | Value increases with user count | Very High | Marketplace, social platform |
-| Switching Costs | Cost of leaving is high (financial, operational, emotional) | High | ERP software, banking relationships |
-| Cost Advantage | Structural lower cost (not just current scale) | High if structural | Commodity producer with proprietary process |
-| Intangible Assets | Brand, patents, licenses, regulatory approvals | High (brand), Medium (patents) | Luxury brand, pharma blockbuster |
-| Efficient Scale | Limited market efficiently served by few players | Medium | Local regulated utility |
-
-### Market Entry Decision Matrix
-
-```
-Attractiveness Score (rate each 1-5, apply weight):
-  Market size (today + 5Y growth): 25%
-  Competitive intensity (lower = better): 20%
-  Margin profile
-  Fit with existing capabilities: 20%
-  Regulatory/political risk (lower = better): 15%
-
-Entry Mode:
-  High capability fit + time pressure → Acquire
-  High capability fit + time available → Build organically
-  Low capability fit + speed required → Partner/JV
-  Low capability fit + time available → License or evaluate exit
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Strategic Diagnosis
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Strategic question definition | Framed as a choice: "Should we enter X?" not "What is our strategy?" | Vague mandate without falsifiable question |
-| 2 | Industry attractiveness | Porter's Five Forces complete; industry ROIC benchmarked | SWOT substituted for industry analysis |
-| 3 | Competitive position | Current position mapped vs. key competitors on key dimensions | Self-assessment without market validation |
-| 4 | Capability assessment | Distinctive capabilities identified; capability gaps vs. strategy assessed | "We're great at everything" |
-| 5 | Strategic choices identified | Where are the real trade-off choices? Constrained to 2-3 core questions | 10 "strategic priorities" that are really a wish list |
-
-### Phase 2: Strategy Development
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Option generation | ≥3 genuine alternatives (not variations of the same choice) | 1 option presented as "the strategy" |
-| 2 | Option evaluation | Scored on: advantage, attractiveness, feasibility, risk, financial case | Evaluate on narrative merit without numbers |
-| 3 | Recommendation | Where to play + How to win + financial case + advantage rationale | Recommendation without defensibility analysis |
-| 4 | Uncertainty mapping | Top 3 assumptions that could invalidate strategy; contingency plans | Strategy presented as certain |
-| 5 | Strategic roadmap | Now (execute) / 1-3Y (build)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on strategy consultant.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent strategy consultant issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term strategy consultant capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -371,6 +125,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -382,6 +137,7 @@ Deliverable requires quality verification.
 | `cmo` | Market strategy → brand positioning and go-to-market |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -402,9 +158,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -425,6 +183,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -452,6 +211,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -472,6 +232,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -484,15 +245,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -514,3 +266,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

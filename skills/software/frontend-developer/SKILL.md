@@ -35,6 +35,7 @@ Craft exceptional user experiences with modern web technologies. Build fast, acc
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -180,286 +181,6 @@ Focus:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Frontend Developer** capable of:
-
-1. **Modern React/Vue Development** — Build applications with hooks, composition API, and modern patterns.
-
-2. **Performance Optimization** — Achieve Core Web Vitals targets through code splitting, lazy loading, and optimization.
-
-3. **Accessible UI Implementation** — Build WCAG-compliant interfaces that work for all users including assistive technologies.
-
-4. **State Management Architecture** — Design state solutions for server caching, client state, and form handling.
-
-5. **Design System Development** — Create reusable component libraries with consistent design and behavior.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **XSS Vulnerabilities** | 🔴 Critical | Unsanitized user input | DOMPurify, React's auto-escaping |
-| **Large Bundle Size** | 🟠 High | Slow initial load | Code splitting, tree shaking |
-| **Memory Leaks** | 🟠 High | Unclosed subscriptions | Cleanup in useEffect |
-| **Accessibility Failures** | 🟠 High | Screen reader incompatible | axe-core, manual testing |
-| **State Synchronization Bugs** | 🟡 Medium | Stale data, race conditions | React Query, proper invalidation |
-| **Third-Party Risks** | 🟡 Medium | Supply chain attacks | Pin versions, audit dependencies |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Frontend Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         UI Components                   │  ← React/Vue components
-├─────────────────────────────────────────┤
-│         State Management                │  ← React Query, Zustand
-├─────────────────────────────────────────┤
-│         API Layer                       │  ← Fetch, Axios, tRPC
-├─────────────────────────────────────────┤
-│         Design System                   │  ← Components, tokens
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Performance First** — Optimize for user experience metrics
-2. **Accessibility by Default** — Design for all users
-3. **Type Safety** — Catch errors at compile time
-4. **Composition Over Configuration** — Flexible, reusable components
-5. **Progressive Enhancement** — Core functionality without JS
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **Framework** | React 18, Vue 3, Next.js | UI development |
-| **Language** | TypeScript | Type safety |
-| **Styling** | Tailwind, styled-components | CSS architecture |
-| **State** | Zustand, React Query, Redux | State management |
-| **Forms** | React Hook Form, Zod | Form handling |
-| **Testing** | Vitest, Playwright, Storybook | Testing |
-| **Build** | Vite, webpack | Bundling |
-| **Linting** | ESLint, Prettier | Code quality |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 Core Web Vitals Targets
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| **LCP** (Largest Contentful Paint) | < 2.5s | Real user monitoring |
-| **FID** (First Input Delay) | < 100ms | Real user monitoring |
-| **CLS** (Cumulative Layout Shift) | < 0.1 | Real user monitoring |
-| **TTFB** (Time to First Byte) | < 600ms | Server response |
-| **FCP** (First Contentful Paint) | < 1.8s | Real user monitoring |
-
-### 6.2 React Rendering Optimization
-
-| Technique | When to Use | Impact |
-|-----------|-------------|--------|
-| **React.memo** | Pure components, expensive render | Prevents re-renders |
-| **useMemo** | Expensive calculations | Caches computation |
-| **useCallback** | Function props to children | Stable references |
-| **Code splitting** | Large routes/components | Smaller initial bundle |
-| **Virtualization** | Long lists (1000+ items) | Render only visible |
-
-### 6.3 Accessibility Checklist
-
-- [ ] Keyboard navigation works fully
-- [ ] Focus indicators visible
-- [ ] ARIA labels on interactive elements
-- [ ] Alt text on images
-- [ ] Color contrast 4.5:1 minimum
-- [ ] Screen reader tested (VoiceOver/NVDA)
-- [ ] Focus trap in modals
-- [ ] Skip navigation link
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Component Design (Day 1)
-
-```
-├── Design component API (props interface)
-├── Consider accessibility requirements
-├── Plan for responsive behavior
-├── Create Storybook story
-└── [✓ Done]: API designed, stories created
-    [✗ FAIL]: API unclear → design review
-```
-
-### Phase 2: Implementation (Days 2-3)
-
-```
-├── Implement component with TypeScript
-├── Add styles (Tailwind/CSS-in-JS)
-├── Write unit tests
-├── Accessibility audit (axe-core)
-└── [✓ Done]: Component implemented, tested
-    [✗ FAIL]: a11y issues → fix before merge
-```
-
-### Phase 3: Integration (Day 4)
-
-```
-├── Integrate into feature
-├── Test in real application context
-├── Performance profiling
-├── Responsive testing
-└── [✓ Done]: Feature complete, optimized
-    [✗ FAIL]: Performance issues → optimize
-```
-
-### Phase 4: Documentation (Day 5)
-
-```
-├── Document props and usage
-├── Add Storybook examples
-├── Update changelog
-├── Code review
-└── [✓ Done]: Documented, reviewed, merged
-    [✗ FAIL]: Documentation incomplete → complete
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: Dashboard Performance Optimization
-
-**Context**: Dashboard loading in 8 seconds, needs to be < 2s.
-
-**Optimization**:
-```
-Before:
-├── Bundle: 2.5MB
-├── 50+ API calls on load
-├── No code splitting
-├── Unoptimized images
-
-After:
-├── Route-based code splitting
-├── Lazy load heavy components
-├── React Query for caching
-├── Optimized images (WebP, lazy)
-├── Bundle: 400KB
-
-Results:
-├── LCP: 8s → 1.2s
-├── Lighthouse: 45 → 95
-```
-
----
-
-### Example 2: Accessible Modal Component
-
-**Context**: Build modal that works for all users.
-
-**Implementation**:
-```
-Features:
-├── Focus trap inside modal
-├── Focus returns to trigger on close
-├── Escape key closes modal
-├── Click outside closes
-├── aria-labelledby, aria-describedby
-├── role="dialog", aria-modal="true"
-
-Code:
-├── useFocusTrap hook
-├── useEscapeKey hook
-├── useClickOutside hook
-├── Portal for rendering
-```
-
----
-
-### Example 3: Complex Form Implementation
-
-**Context**: Multi-step form with validation.
-
-**Architecture**:
-```
-Libraries:
-├── React Hook Form for performance
-├── Zod for schema validation
-├── React Query for submission
-
-Features:
-├── Field-level validation
-├── Cross-field validation
-├── Auto-save to localStorage
-├── Progress indication
-├── Error summary on submit
-```
-
----
-
-### Example 4: Real-time Collaboration UI
-
-**Context**: Google Docs-like collaborative editor.
-
-**Implementation**:
-```
-Tech:
-├── React with operational transforms
-├── Yjs for CRDT
-├── WebSocket for sync
-├── Virtual scrolling for large docs
-
-Optimizations:
-├── Debounced updates
-├── Optimistic UI
-├── Offline support
-├── Conflict resolution UI
-```
-
----
-
-### Example 5: Design System Creation
-
-**Context**: Build component library for organization.
-
-**Components**:
-```
-Primitives:
-├── Button (variants: primary, secondary, ghost)
-├── Input, Select, Checkbox, Radio
-├── Modal, Tooltip, Dropdown
-├── Card, Layout components
-
-Features:
-├── TypeScript types
-├── Storybook documentation
-├── Visual regression tests
-├── Dark mode support
-├── Accessibility built-in
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Prop Drilling** | Props passed through many layers | Context, composition |
-| **Large Bundle** | Slow initial load | Code splitting, tree shaking |
-| **No Error Boundaries** | One error crashes app | React Error Boundaries |
-| **Over-rendering** | Unnecessary re-renders | React.memo, useMemo |
-| **Inline Functions** | New function on every render | useCallback |
-| **Missing Cleanup** | Memory leaks | useEffect cleanup |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -478,6 +199,7 @@ Features:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -486,3 +208,17 @@ Features:
 | [references/performance-optimization.md](references/performance-optimization.md) | Core Web Vitals, profiling |
 | [references/accessibility-guide.md](references/accessibility-guide.md) | WCAG, ARIA, testing |
 | [references/state-management.md](references/state-management.md) | React Query, Zustand patterns |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

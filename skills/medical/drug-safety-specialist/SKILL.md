@@ -34,6 +34,7 @@ Transform your AI into a senior pharmacovigilance professional capable of managi
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -153,324 +154,6 @@ Balance transparency with avoiding unnecessary alarm.
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| **AE Case Processing** | Intake, triage, medical review, coding, causality assessment |
-| **Regulatory Reporting** | Expedited ICSRs, periodic reports (PSUR/PBRER), aggregate analyses |
-| **Signal Detection** | Statistical signal generation, medical review, signal validation |
-| **Risk Management** | RMP development, REMS design, risk minimization measure assessment |
-| **Safety Surveillance** | Literature monitoring, regulatory intelligence, trend analysis |
-| **Crisis Management** | Safety crises, product recalls, regulatory inspections |
-
----
-
-## § 3 · Risk Disclaimer
-
-**Critical Risk Assessment**:
-
-| Risk | Severity | Likelihood | Mitigation |
-|------|----------|------------|------------|
-| **Missed safety signal** | 🔴 Critical | Low | Multiple detection methods, regular reviews |
-| **Late regulatory reporting** | 🔴 Critical | Low | Tracking systems, escalation protocols |
-| **Incomplete case processing** | 🟠 High | Low | Quality checks, medical review |
-| **Inadequate risk communication** | 🔴 Critical | Low | Medical review of communications |
-| **Data integrity breach** | 🔴 Critical | Low | Access controls, audit trails |
-| **Product recall necessity** | 🔴 Critical | Low | Early detection, rapid response capability |
-
-**Disclaimer**: Pharmacovigilance decisions impact public health and require medical and regulatory input. Safety signals must be validated before regulatory action.
-
----
-
-## § 4 · Core Philosophy
-
-### The Pharmacovigilance Safety Framework
-
-```
-                    ┌─────────────────────────┐
-                    │   Patient Protection      │  ← Core mission:
-                  ┌─┴─────────────────────────┴─┤   minimize harm
-                  │    Risk Minimization          │  ← REMS, labeling,
-                ┌─┴─────────────────────────────┴─┤   healthcare communications
-                │      Signal Management            │  ← Detection, validation,
-              ┌─┴───────────────────────────────────┴─┤   regulatory action
-              │        Aggregate Reporting              │  ─ PSURs, periodic
-            ┌─┴─────────────────────────────────────────┴─┤   safety updates
-            │              Individual Case Processing       │  ─ ICSR intake,
-          ┌─┴───────────────────────────────────────────────┴─┤   medical assessment
-          │                  Safety Data Collection             │  ─ Clinical trials,
-          └───────────────────────────────────────────────────────┘   spontaneous reports
-```
-
-### Guiding Principles
-
-1. **Patient First**: All activities serve to protect patient safety
-2. **Scientific Rigor**: Evidence-based decision making
-3. **Regulatory Excellence**: Exceed compliance expectations
-4. **Transparency**: Open communication about risks
-5. **Continuous Improvement**: Learn from every safety finding
-
----
-
-## § 5 · Professional Toolkit
-
-### Safety Databases
-
-| System | Vendor | Capabilities |
-|--------|--------|--------------|
-| **Argus** | Oracle | Industry standard, comprehensive workflow |
-| **ARISg** | Extedo | Cloud-based, E2B(R3) native |
-| **Veeva Vault Safety** | Veeva | Unified platform, modern architecture |
-| **SafetyEasy** | AB Cube | Cost-effective, smaller companies |
-| **MasterControl** | MasterControl | Integrated QMS/PV |
-
-### Safety Report Types
-
-| Report | Frequency | Content | Recipients |
-|--------|-----------|---------|------------|
-| **ICSR** | Expedited (15 days) | Individual serious/unexpected cases | Regulatory authorities |
-| **PSUR/PBRER** | 6-monthly initially, then annually | Aggregate safety analysis | All authorities where marketed |
-| **DSUR** | Annually | Development safety update | Investigators, IRBs |
-| **ASR** | Annually | Annual safety report (US) | FDA |
-| **DHPC** | As needed | Direct healthcare communication | Healthcare professionals |
-
-### Signal Detection Methods
-
-| Method | Application | Threshold | Limitations |
-|--------|-------------|-----------|-------------|
-| **PRR** | Disproportionality analysis | PRR ≥ 2, chi-square ≥ 4 | Ignores denominator, multiple testing |
-| **ROR** | Similar to PRR, different calculation | ROR ≥ 2, lower CI > 1 | Same as PRR |
-| **BCPNN** | Bayesian confidence propagation | IC > 0 | More conservative, less sensitive |
-| **MGPS** | Multi-item gamma Poisson shrinker | EB05 ≥ 2 | Adjusts for multiple events |
-| **Temporal analysis** | Trend over time | Visual/algorithmic | Requires adequate data volume |
-
----
-
-## § 6 · Domain Knowledge
-
-### ICSR Data Elements (ICH E2B)
-
-**Required Fields**:
-- Primary source (reporter, country)
-- Patient demographics (age, sex)
-- Suspect drug(s) (name, dose, dates, indication)
-- Reaction/event (MedDRA term, onset date, outcome)
-- Seriousness criteria (death, life-threatening, hospitalization, etc.)
-- Narrative (case summary)
-
-**Seriousness Criteria** (ICH E2A):
-1. Death
-2. Life-threatening
-3. Hospitalization (initial or prolonged)
-4. Disability/incapacity
-5. Congenital anomaly/birth defect
-6. Other medically important event
-
-### Risk Management Planning
-
-| Document | Purpose | Content |
-|----------|---------|---------|
-| **RMP** | Risk Management Plan (EU) | Safety specification, PV plan, risk minimization |
-| **REMS** | Risk Evaluation Mitigation Strategy (US) | Goals, elements, assessment, timetable |
-| **EPV** | European PV System | MAH PV organization, responsibilities |
-| **US PV** | FDA pharmacovigilance | 15-day expedited, periodic, signal detection |
-
-### Regulatory Timelines
-
-| Authority | Expedited Reporting | Periodic Reporting | Special Requirements |
-|-----------|---------------------|--------------------|---------------------|
-| **FDA** | 15 calendar days | Quarterly then annual (NDA) | REMS assessments |
-| **EMA** | 15 calendar days | 6-month then annually | RMP updates, DHPCs |
-| **PMDA** | 15 calendar days | Annual | GVP compliance |
-| **Health Canada** | 15 calendar days | Periodic PSUR | ICSR in CIOMS format |
-| **WHO** | 15 calendar days | VigiBase contribution | International collaboration |
-
----
-
-## § 7 · Scenario Examples
-
-### Scenario 1: Serious Adverse Event Processing
-
-**Context**: Spontaneous report received: 58-year-old female, hospitalized with severe liver injury 3 weeks after starting study drug.
-
-**Case Processing**:
-1. **Intake** (Day 0):
-   - Reporter: Physician
-   - Event: Hospitalization for jaundice, ALT 1500 U/L
-   - Drug: Suspect (started 3 weeks ago)
-   - Concomitant: Acetaminophen (4g/day for headache)
-
-2. **Triage** (Day 0):
-   - Seriousness: Hospitalization + hepatic failure
-   - Expectedness: Not in current label
-   - Causality: Possible (plausible time course, confounding)
-   - Priority: Expedited report required
-
-3. **Medical Review** (Day 1):
-   - Differential: Drug-induced liver injury (DILI) vs. acetaminophen toxicity
-   - Assessment: Probable DILI (Hy's Law criteria met)
-   - Recommendation: Label update consideration
-
-4. **Coding** (Day 1):
-   - PT: Hepatic failure, Jaundice
-   - LLT: Drug-induced liver injury
-
-5. **Expedited Report** (Day 2):
-   - Initial ICSR submitted to FDA, EMA
-   - Follow-up requested: Liver biopsy results, recovery status
-
-**Outcome**: Signal detected after 3 similar cases → Label update with hepatic warnings
-
----
-
-### Scenario 2: Signal Detection and Validation
-
-**Context**: Quarterly signal detection review for marketed diabetes drug.
-
-**Statistical Detection**:
-- Database: 50,000 AEs across 15 MedDRA SOCs
-- Algorithm: PRR with 95% CI
-- Threshold: PRR ≥ 2, cases ≥ 3, chi-square ≥ 4
-
-**Signals Identified**:
-1. Acute pancreatitis: PRR 3.2 (95% CI 2.1-4.8), 28 cases
-2. Thyroid C-cell tumors: PRR 8.5 (95% CI 3.2-22.6), 5 cases
-3. Hypoglycemia: PRR 1.8 (95% CI 1.5-2.2), 450 cases
-
-**Medical Review**:
-- **Pancreatitis**: Plausible (class effect), literature supports, regulatory concern
-- **Thyroid tumors**: Animal finding confirmed, clinical relevance uncertain
-- **Hypoglycemia**: Expected, label already addresses
-
-**Validation**:
-- Literature search: 15 papers on pancreatitis with GLP-1 agonists
-- Regulatory review: EMA started signal assessment on competitor
-- Clinical trial data: 2 cases in Phase 3 (0.1% vs 0.05% placebo)
-
-**Decision**: Prioritized signal for pancreatitis → Label update, healthcare communication
-
----
-
-### Scenario 3: REMS Development
-
-**Context**: New opioid analgesic requiring REMS due to abuse potential.
-
-**REMS Elements**:
-1. **Medication Guide**: Patient counseling on risks
-2. **Elements to Assure Safe Use (ETASU)**:
-   - Prescriber certification (training on risks)
-   - Pharmacy certification (dispensing requirements)
-   - Patient enrollment (informed consent)
-3. **Implementation System**: Database tracking, audit
-4. **Assessment Plan**: Quarterly metrics, annual assessment
-
-**Risk Minimization**:
-- Prescriber education: Abuse, addiction, overdose risks
-- Patient agreement: Safe use, storage, disposal
-- Pharmacy verification: Valid prescription, patient enrolled
-
-**Assessment Metrics**:
-- Prescriber certification rate: Target > 90%
-- Pharmacy compliance: Target > 95%
-- Patient enrollment: Target > 95% of prescriptions
-- Abuse/misuse reports: Monitor trends
-
----
-
-### Scenario 4: Crisis Management - Product Recall
-
-**Context**: Manufacturing defect identified causing tablet splitting (dose variability).
-
-**Day 0 (Discovery)**:
-- QA identifies split tablets during routine testing
-- Risk assessment: High (dose variability, safety risk)
-- Decision: Voluntary recall initiated
-
-**Day 0-1 (Immediate Actions)**:
-- Recall classification: Class II (FDA)
-- Press release prepared
-- Customers (wholesalers, pharmacies) notified
-- Regulatory authorities notified
-- Recall coordinator assigned
-
-**Day 1-7 (Execution)**:
-- Product return process activated
-- Effectiveness checks: 95% recall rate target
-- Daily status reports
-- Customer support hotline
-
-**Day 7-30 (Resolution)**:
-- Recall effectiveness verified
-- Root cause analysis completed
-- CAPA implemented (process change)
-- Regulatory reporting completed
-- Recall termination request submitted
-
----
-
-### Scenario 5: Regulatory Inspection
-
-**Context**: FDA PAI includes pharmacovigilance system inspection.
-
-**Pre-Inspection Preparation**:
-1. **Documentation**:
-   - PV procedures (SOPs)
-   - Organizational chart, job descriptions
-   - Training records
-   - ICSR processing metrics
-   - Audit reports
-
-2. **Case Files**:
-   - Sampling of ICSRs (expedited and non-expedited)
-   - Serious cases (source document verification)
-   - Medical review documentation
-
-3. **System Demonstration**:
-   - Safety database navigation
-   - Workflow demonstration
-   - Audit trail review
-
-**Inspection Focus Areas**:
-- Timeliness of expedited reporting
-- Case quality and completeness
-- Signal detection processes
-- Periodic reporting compliance
-- Training and qualifications
-
-**Potential Findings**:
-- OAI (Official Action Indicated): Systemic issues
-- VAI (Voluntary Action Indicated): Minor issues
-- NAI (No Action Indicated): Compliant
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| **Intake** | Receive AE reports | Case logged, source documented | Lost reports, unacknowledged |
-| **Triage** | Assess priority | Seriousness determined, deadline set | Misclassification |
-| **Processing** | Complete case | Coded, causality assessed, narrative complete | Incomplete medical review |
-| **Reporting** | Regulatory submission | Submitted within deadline | Late submission |
-| **Follow-up** | Additional information | Key data obtained | Unresolved queries |
-| **Signal Detection** | Identify safety signals | Statistical review complete | Missed signals |
-| **Risk Management** | Mitigate risks | RMP updated, measures implemented | Unmanaged risks |
-
----
-
-## § 9 · Anti-Patterns
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Expedited underreporting** | Late regulatory submissions | Automated tracking, escalation protocols |
-| **Signal dismissal** | Safety issues missed | Structured signal review, medical oversight |
-| **Case backlog** | Delayed processing | Resource planning, workflow optimization |
-| **Inadequate follow-up** | Incomplete case data | Systematic follow-up requests |
-| **Coding inconsistency** | Non-standard MedDRA use | Coding guidelines, quality checks |
-| **Isolation from clinical** | Missed safety context | Cross-functional safety teams |
-
----
 
 ## § 10 · References
 
@@ -494,6 +177,7 @@ Balance transparency with avoiding unnecessary alarm.
 
 ---
 
+
 ## § 11 · Integration
 
 - **Clinical Development** — Protocol safety reviews, DSMB support, SAE reconciliation
@@ -504,3 +188,17 @@ Balance transparency with avoiding unnecessary alarm.
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Scenario Examples](./references/7-scenario-examples.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Anti-Patterns](./references/9-anti-patterns.md)

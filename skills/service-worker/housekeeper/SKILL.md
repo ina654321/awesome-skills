@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,170 +130,6 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Performs deep cleaning** — thorough sanitation of every surface, including often-missed areas
-2. **Executes routine maintenance** — efficient recurring cleaning schedules
-3. **Organizes spaces** — creates systems for closets, pantries, storage that are maintainable
-4. **Manages laundry** — washing, ironing, folding, stain treatment
-5. **Handles meal prep** — basic meal preparation, organized fridge/pantry
-6. **Coordinates household supplies** — tracks inventory, restocking, shopping
-7. **Treats stains and damage** — identifies stains, applies appropriate treatments
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Chemical injury | 🔴 High | Mixing cleaners creates toxic gas; skin burns from concentrated chemicals | Never mix products; wear gloves; follow labels; ventilate |
-| Property damage | 🟡 Medium | Wrong cleaner on wrong surface (wood, marble, fabric) causes permanent damage | Know surfaces; test products first; when in doubt, don't use |
-| Slip and fall | 🟡 Medium | Wet floors cause falls | Use wet floor signs; dry floors after mopping |
-| Cross-contamination | 🟡 Medium | Spreading germs from area to area | Use color-coded cloths; sanitize between areas |
-| Breaking valuables | 🟡 Medium | Accidents happen with fragile items | Handle with extra care; communicate about delicate items |
-| Privacy breach | 🟡 Medium | Seeing personal items; entering private spaces | Be discreet; don't comment on personal belongings |
-
-**⚠️ IMPORTANT:**
-- NEVER mix bleach with ammonia, vinegar, or any other cleaner — creates toxic gas
-- Test all cleaning products on a small hidden area first — surfaces vary
-- Don't touch or move valuables without explicit permission — client's trust is essential
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Cleaning Workflow Matrix
-
-```
-                    CLEANING SEQUENCE (Each Room)
-                         ↑
-    1. DECLUTTER     ─────┼─────    2. DUSTING
-    (remove items)         (top to bottom)
-                        │
-    ────────────────────┼─────────────────
-                        │
-    4. SURFACES      ────┼─────    3. APPLIANCES
-    (wipe clean)          (inside/outside)
-                        │
-    5. FLOOR         ────┼─────    6. FINAL CHECK
-    (last to clean)       (walk through)
-                        ↓
-                    CLEANING SEQUENCE
-
-    THE GOLDEN RULE:
-    ┌──────────────────────────────────────────┐
-    │ Top to Bottom    → Don't re-clean       │
-    │ Left to Right    → Systematic approach   │
-    │ Clockwise        → No areas missed       │
-    │ Inside-Out       → Don't re-soil areas   │
-    └──────────────────────────────────────────┘
-```
-
-**Application:** Following a consistent system means never missing areas and never having to reclean.
-
-### 4.2 Guiding Principles
-
-1. **A place for everything**: Clutter can't be cleaned. Organize before you clean — or cleaning is pointless.
-2. **Clean regularly, deep clean occasionally**: Routine cleaning maintains; deep cleaning restores. Know when each is needed.
-3. **The right tool for the surface**: Microfiber for glass, soft brush for dusting, sponge for counters. Wrong tool = damage or poor results.
-4. **Work smarter, not longer**: Efficient systems beat scrubbing harder. Pre-prep, work systematically, use the right chemicals.
-5. **Respect the home as if it were your own**: Handle belongings with care; maintain privacy; leave spaces better than you found them.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Microfiber cloths** | Dusting, glass, general wiping — washable, reusable |
-| **Sponges (multiple)** | Different areas — color-coded to prevent cross-contamination |
-| **Vacuum (with attachments)** | Floors, upholstery, crevices, ceilings |
-| **Steam cleaner** | Deep cleaning grout, tile, mattresses, upholstery |
-| **Mop and bucket** | Hard floors — different mops for different floor types |
-| **Scrub brushes** | Grout, tiles, stubborn spots |
-| **Brooms and dustpans** | Quick cleanup, dry areas |
-| **Extension duster** | Ceiling fans, high shelves, light fixtures |
-| **Toilet brush** | Toilet cleaning — dedicated, sanitized after each use |
-| **Spray bottles** | For diluted cleaning solutions |
-| **Ladder** | High cleaning — safely reach tall areas |
-| **Rubber gloves** | Protect hands; different pairs for different tasks |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Room-by-Room Checklist
-
-| Room | Must-Clean Areas | Frequency |
-|------|------------------|-----------|
-| **Kitchen** | Inside/outside microwave, stovetop, fridge handles, counters, sink, backsplash, cabinet fronts, floor | Daily (counters), Weekly (deep) |
-| **Bathroom** | Toilet (inside/outside), sink, mirror, shower/tub, grout, floor, vent | Daily to Weekly |
-| **Bedroom** | Making bed, dusting surfaces, floor, under-bed, windows, mirrors | Weekly |
-| **Living Areas** | Dust all surfaces, vacuum/mop floors, clean windows, organize clutter | Weekly |
-| **Entryway** | Wipe down doors, clean mats, organize shoes/coats | Weekly |
-
-### 7.2 Cleaning Product Guide
-
-| Surface | Clean With | Avoid |
-|---------|-----------|-------|
-| **Wood (sealed)** | Damp cloth, mild soap, wood cleaner | Excess water, harsh chemicals, abrasives |
-| **Marble** | pH-neutral cleaner, soft cloth | Acid (vinegar), abrasives, bleach |
-| **Stainless Steel** | Stainless cleaner, microfiber, with grain | Chlorine, scrubbing pads |
-| **Glass** | Glass cleaner or vinegar + water, microfiber | Paper towels (streaks), harsh chemicals |
-| **Fabric/Upholstery** | Fabric cleaner, vacuum first | Over-wetting, wrong cleaner |
-| **Grout** | Grout brush, mild acid (vinegar) or specialized cleaner | Bleach (discolors), abrasives |
-
-### 7.3 Stain Removal Guide
-
-| Stain | Treatment | Timing |
-|-------|-----------|--------|
-| **Red wine** | Blot immediately; cover with salt; rinse with club soda | Immediate |
-| **Coffee** | Blot; wash with dish soap and warm water | ASAP |
-| **Grease/Oil** | Dish soap directly; let sit; wash hot | Within 24 hours |
-| **Blood** | COLD water (hot sets it); hydrogen peroxide | Immediate |
-| **Ink** | rubbing alcohol; test fabric first | ASAP |
-| **Pet urine** | Enzymatic cleaner; vinegar + water; air dry | Immediate |
-| **Mud** | Let dry completely; vacuum; brush off | After drying |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Deep Cleaning Procedure
-
-```
-Phase 1: Preparation (15 min)
-├── Gather all supplies (don't interrupt cleaning for supplies)
-├── Pre-treat heavily soiled areas
-├── Open windows for ventilation if needed
-├── Put on PPE (gloves, apron if needed)
-└── Start with most difficult room first (when freshest)
-
-Phase 2: Each Room
-├── Remove clutter to a designated spot (not to move to another room)
-├── Dust from top to bottom (ceilings, fixtures, furniture, baseboards)
-├── Clean appliances and surfaces
-├── Clean inside cabinets and drawers if requested
-├── Vacuum or sweep
-├── Mop hard floors
-└── Final inspection: check work, re-clean any spots missed
-
-Phase 3: Final Walkthrough
-├── Check all rooms
-├── Re-stock supplies (toilet paper, soap, paper towels)
-├── Empty all trash bins
-├── Put away cleaning supplies
-└── Report any maintenance issues (burnt out lights, leaks, etc.)
-```
-
-### 8.2 Weekly Routine Template
-
-```
-[Code block moved to code-block-1.md]
-```
-
----
 
 ## 9.1 Scenario: Organizing a Pantry
 
@@ -374,105 +211,6 @@ Phase 3: Final Walkthrough
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on housekeeper.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent housekeeper issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term housekeeper capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -499,6 +237,7 @@ Phase 3: Final Walkthrough
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -508,6 +247,7 @@ Phase 3: Final Walkthrough
 | Housekeeper + **Pet Care** | Housekeeper cleans; pet caretaker handles animals | Clean home with happy pets |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -538,6 +278,7 @@ Phase 3: Final Walkthrough
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -559,6 +300,7 @@ Expected: Zone-based system with categories, container recommendations, maintena
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with room-by-room checklists, cleaning workflow matrix, stain removal guide, and organizational systems
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -579,6 +321,7 @@ Expected: Zone-based system with categories, container recommendations, maintena
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -606,6 +349,7 @@ Expected: Zone-based system with categories, container recommendations, maintena
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -626,6 +370,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -638,15 +383,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -674,3 +410,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

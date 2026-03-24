@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -124,177 +125,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Restaurant Opening** — Plan and execute new restaurant openings from site selection through grand opening
-2. **Operations Management** — Build and optimize daily operations including prep, service, and closing
-3. **Food Safety & Compliance** — Implement HACCP, manage health inspections, ensure ServSafe compliance
-4. **Supply Chain Optimization** — Source suppliers, negotiate contracts, manage inventory and waste
-5. **Menu Engineering** — Design profitable menus, optimize food cost %, price strategically
-6. **Team Management** — Hire, train, schedule, and retain high-performing restaurant teams
-7. **Financial Management** — P&L management, cost control, profitability optimization
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Food Safety Incidents** | 🔴 High | Contamination, allergen exposure, or foodborne illness can close business, cause lawsuits | Implement HACCP; daily temp logs; allergen protocols; third-party audits |
-| **Health Department Failures** | 🔴 High | Failed inspections lead to closures, fines, and reputation damage | Pre-inspection checklists; daily compliance logs; staff certification |
-| **Labor Law Violations** | 🔴 High | Wage/hour violations, overtime, tip credits, child labor create liability | Use compliant scheduling software; train managers on labor law; audit pay |
-| **Guest Injury/Illness** | 🔴 High | Slip-and-fall, allergic reactions, choking incidents create liability | Document incidents; train staff on response; carry adequate insurance |
-| **Supply Disruption** | 🟡 Medium | Key supplier failure can halt operations | Maintain backup suppliers; 2-week inventory buffer for critical items |
-| **Reputation Damage** | 🟡 Medium | Negative reviews, viral incidents spread fast | Monitor reviews; respond within 4 hours; address issues proactively |
-
-**⚠️ IMPORTANT:**
-- Food safety violations can shut you down permanently. Never skip temperature logs, date rotation, or allergen protocols
-- Labor law in restaurants is complex (tip credits, youth hours, overtime). Consult employment attorney
-- Guest complaints must be resolved immediately. $20 comp on a bad meal is cheaper than a 1-star review
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Restaurant Operating System
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        GUEST EXPERIENCE                                        │
-│     "Every meal is a chance to create a raving fan"                          │
-└─────────────────────────────────┬───────────────────────────────────────────┘
-                                  │
-┌─────────────────────────────────┴───────────────────────────────────────────┐
-│                     OPERATIONAL STANDARDS                                    │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │
-│  │   Front of   │  │    Kitchen   │  │    Bar/      │  │   Back of   │   │
-│  │   House      │  │              │  │   Beverage   │  │   House     │   │
-│  │  (Host, SA, │  │  (Prep,      │  │  (Beverage   │  │  (Inventory,│   │
-│  │   Server)    │  │   Line, Expo)│  │   Program)   │  │   Receiving,│   │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘   │
-└─────────────────────────────────┬───────────────────────────────────────────┘
-                                  │
-┌─────────────────────────────────┴───────────────────────────────────────────┐
-│                      SUPPORT SYSTEMS                                         │
-│     Food Safety │ HR/Scheduling │ Supply Chain │ Finance/Reporting         │
-└─────────────────────────────────┬───────────────────────────────────────────┘
-                                  │
-┌─────────────────────────────────┴───────────────────────────────────────────┐
-│                          FOUNDATION                                           │
-│        Leadership & Culture │ Systems & Processes │ Training                 │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-Guest experience is the output. Operating standards are the input. Support systems enable execution. Leadership builds the foundation.
-
-### 4.2 Guiding Principles
-
-1. **Clean Comes First**: A clean restaurant with mediocre food beats a dirty restaurant with great food. Cleanliness is non-negotiable.
-2. **Consistency Over Variety**: Execute 20 dishes excellently vs. 50 dishes okay. Menu bloat kills quality.
-3. **Prep is Everything**: 80% of successful service happens before the guest arrives. Prep properly or fail in real-time.
-4. **Labor Scheduling is Art and Science**: Right people, right time, right position. Use historical data, not guesswork.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **HACCP Plan** | Hazard analysis and critical control points for food safety |
-| **ServSafe/ANSI Certification** | Food safety manager certification; required in most jurisdictions |
-| **FDA Food Code** | Model code for retail food safety; adopted by state/local health depts |
-| **POS Systems** | Toast, Square, Clover, Lightspeed — sales tracking, inventory integration |
-| **Scheduling Software** | When I Work, 7shifts, ScheduleAnywhere — labor cost optimization |
-| **Inventory Management** | BlueCart, MarketMan, FoodTrak — par levels, ordering, waste tracking |
-| **Menu Engineering Matrix** | Profitability vs. popularity matrix for menu optimization |
-| ** Kitchen Display Systems** | Orders to kitchen; timing coordination; fire tickets |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Restaurant Operations Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **HACCP** | Food safety management | 1. Hazard analysis → 2. Identify CCPs → 3. Establish limits → 4. Monitor → 5. Corrective actions → 6. Verification → 7. Documentation |
-| **Menu Engineering** | Profitability optimization | 1. Categorize items by popularity and profit → 2. Stars (high/high) → 3. Puzzles (high profit/low popularity) → 4. Workhorses (low profit/high popularity) → 5. Dogs (eliminate) |
-| **Opening Checklist** | New restaurant launch | 1. Site prep → 2. Equipment install → 3. Staff hiring → 4. Training → 5. Soft open → 6. Adjust → 7. Grand opening |
-| **Daily Shift Huddle** | Pre-service alignment | Review: Tonight's specials, VIPs, issues from yesterday, prep status, goals |
-
-### 7.2 Key Metrics & Targets
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Food Cost %** | Food cost
-| **Labor Cost %** | Labor cost
-| **Prime Cost** | Food + Labor cost % | 60-70% |
-| **Guest Satisfaction** | Online review average | 4.3+
-| **Table Turn** | Average time seated to checkout | QSR: 5-10 min; FSR: 45-60 min |
-| **Cover Turnover** | Revenue / Seat
-| **Waste %** | Waste cost
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Restaurant Opening Process
-
-```
-Phase 1: Pre-Opening (8-12 weeks before)
-├── Site selection and lease negotiation
-├── Build-out design and permits
-├── Equipment specification and procurement
-├── Key hire recruitment (GM, Sous Chef, Lead positions)
-├── Vendor selection and contracts
-└── Timeline development with milestones
-
-Phase 2: Staffing & Training (6-8 weeks before)
-├── Mass hiring event (applications, interviews, offers)
-├── Orientation and company culture training
-├── Position-specific training (3-5 days per position)
-├── Cross-training for backup coverage
-├── Menu recipe standardization and calibration
-└── Practice service (friends & family nights)
-
-Phase 3: Soft Opening (2 weeks before)
-├── Limited menu, limited hours
-├── Invite friends, family, local VIPs
-├── Test all systems (POS, kitchen, flow)
-├── Gather feedback and adjust
-├── Staff confidence building
-└── Address 100% of feedback before grand opening
-
-Phase 4: Grand Opening & Stabilization
-├── Full launch with marketing push
-├── Extra staff on hand for support
-├── GM and leadership on floor every shift
-├── Daily debriefs and rapid improvement
-├── 30/60/90 day performance targets
-└── Transition from "opening mode" to "operations mode"
-```
-
-### 8.2 Daily Operations Management
-
-```
-AM Shift (Opening to 2pm):
-├── Opening checklist: Prep, cleanliness, temp logs, inventory
-├── Team briefing: Today's specials, VIPs, issues
-├── Lunch service: Monitor speed, quality, guest feedback
-├── Mid-day inventory check: What's running low?
-├── Shift handoff: What's coming, what's depleted
-
-PM Shift (2pm to Close):
-├── Transition briefing: What's different about dinner
-├── Dinner service: Higher touch, fuller menu, more tables
-├── Revenue reporting: Track vs. forecast
-├── Closing checklist: Deep clean, shutdown, security
-├── Inventory: Par levels for tomorrow
-└── Management debrief: What worked, what didn't
-```
-
----
 
 ## 9.1 Food Safety Incident Response
 
@@ -353,105 +183,6 @@ PM Shift (2pm to Close):
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on restaurant operations expert.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent restaurant operations expert issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term restaurant operations expert capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -471,6 +202,7 @@ PM Shift (2pm to Close):
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -481,6 +213,7 @@ PM Shift (2pm to Close):
 | [Restaurant Ops] + **[Finance]** | P&L targets → Ops manages to budget | Profitable, sustainable operations |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -512,6 +245,7 @@ PM Shift (2pm to Close):
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -533,6 +267,7 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive restaurant operating system, HACCP framework, detailed opening workflow, menu engineering matrix, food safety protocols, incident response, anti-patterns with quick fixes
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -553,6 +288,7 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -581,6 +317,7 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -601,6 +338,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -613,15 +351,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -649,3 +378,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

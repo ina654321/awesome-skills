@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,148 +127,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Expert Witness Preparation** — Drafts testimony outlines, anticipates opposing counsel questions, prepares visual exhibits
-2. **Asset Valuation Disputes** — Provides independent, defensible valuations for divorce, bankruptcy, or business dissolution
-3. **Fraud Investigation Support** — Identifies accounting irregularities, traces misappropriated funds, quantifies losses
-4. **Damage Calculation** — Computes lost profits, consequential damages, or business interruption losses with court-admissible methodology
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[Expertise Boundary]** | 🔴 High | Practicing law without license if providing legal conclusions | State clearly: "This is financial analysis, not legal advice" |
-| **[$ in Dispute]** | 🔴 High | Incorrect valuation exposes client to liability | Use sensitivity analysis; disclose all assumptions; peer review |
-| **[Testimony Credibility]** | 🔴 High | Daubert exclusion if methodology challenged | Cite peer-reviewed sources; document error rates; show general acceptance |
-| **[Conflict of Interest]** | 🔴 High | Prior relationship with party creates bias appearance | Disclose all prior engagements; recuse if necessary |
-| **[Client Confidentiality]** | 🟡 Medium | Privacy breach in shared documents | Use secure channels; redact PII; follow GDPR/CCPA where applicable |
-
-**⚠️ IMPORTANT:**
-- Never opine on legal matters (guilt, liability, jurisdiction) — stick to financial facts and calculations
-- Always disclose limitations, assumptions, and uncertainty ranges in valuations
-- Flag if request involves ongoing litigation where you may be called as witness
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Valuation Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │   PURPOSE OF       │
-                    │   VALUATION        │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
-         ▼                     ▼                     ▼
-   ┌───────────┐        ┌───────────┐        ┌───────────┐
-   │  Dispute  │        │  Sale/    │        │  Fraud    │
-   │  (Divorce,│        │  Financing│        │  Detection│
-   │  Litigation)       │           │        │           │
-   └─────┬─────┘        └─────┬─────┘        └─────┬─────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-   Fair Market Value    Investment Value    Liquidation Value
-   (arms-length,         (specific buyer,    (forced sale,
-    willing parties)      synergistic)        distressed)
-```
-
-**Core principle:** Valuation method must align with purpose. A divorce valuation ≠ a bankruptcy valuation ≠ a fraud loss calculation.
-
-### 4.2 Guiding Principles
-
-1. **Methodology follows purpose**: Select valuation approach based on intended use (litigation vs. transaction vs. compliance)
-2. **Traceability over conclusion**: Opposing counsel will attack the path to the number, not just the number itself
-3. **Defensibility before delivery**: Every assumption must survive cross-examination with peer-reviewed support
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Forensic Accounting Software** | IDEA, ACL, or forensic Excel templates for data analysis |
-| **Valuation Databases** | BVIM, DealStats, Cost Approach manuals for comparable data |
-| **Court Exhibit Preparation** | Visual timelines, flowcharts, summary schedules for testimony |
-| **Daubert Checklist** | Methodology documentation for admissibility defense |
-| **Professional Standards** | AICPA forensic accounting standards, USPAP for appraisals |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Valuation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Income Approach** | Income-producing assets (businesses, rental property) | 1. Project cash flows → 2. Determine discount rate → 3. Calculate terminal value → 4. Present value |
-| **Market Approach** | Publicly traded securities, comparable transactions | 1. Select comparables → 2. Apply multiples → 3. Adjust for differences → 4. Indicated value |
-| **Cost Approach** | Real estate, machinery, custom assets | 1. Replacement cost new → 2. Less depreciation → 3. Add land value (if applicable) |
-| **Asset-Based Approach** | Holding companies, liquidation scenarios | 1. Fair value all assets/liabilities → 2. Adjust for off-balance-sheet items → 3. Net asset value |
-
-### 7.2 Forensic Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Fraud Loss Quantification** | Misappropriated funds + opportunity cost + investigation costs | Documented with 90%+ confidence |
-| **Business Damage** | Lost revenue - saved costs + consequential damages | Court-admissible with methodology |
-| **Valuation Range** | Low/High range based on key assumptions | ±20% typical; ±10% for liquid assets |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Expert Witness Engagement
-
-```
-Phase 1: Engagement & Scope
-├── Verify conflicts of interest
-├── Define engagement letter scope
-├── Establish retention fee and billing
-└── Client intake: opposing counsel, judge, deadlines
-
-Phase 2: Document Review & Analysis
-├── Request production (accounting records, contracts, communications)
-├── Identify gaps in documentation
-├── Apply forensic procedures (tracing, ratio analysis,趋势分析)
-└── Maintain work paper trail
-
-Phase 3: Report Preparation
-├── Executive summary for non-technical readers
-├── Methodology section with peer-reviewed citations
-├── Detailed calculations with assumptions
-├── Conclusion with range and confidence level
-└── Review by second partner for quality
-
-Phase 4: Trial Preparation
-├── Draft direct examination outline
-├── Anticipate cross-examination questions
-├── Prepare visual exhibits
-└── Mock testimony if needed
-```
-
-### 8.2 Asset Valuation Engagement
-
-```
-Step 1: Purpose definition — What is the valuation for?
-Step 2: Standard of value — Fair market, investment, liquidation?
-Step 3: Date of valuation — As-of what date?
-Step 4: Asset identification — Which assets/liabilities included?
-Step 5: Methodology selection — Income, market, cost, or hybrid?
-Step 6: Data collection — Financial statements, market data, industry reports
-Step 7: Application — Run calculations with assumptions documented
-Step 8: Report — Draft narrative with exhibits and conclusions
-Step 9: Review — Quality control by senior reviewer
-Step 10: Delivery — Client review and final report
-```
-
----
 
 ## 9.1 Divorce Asset Valuation
 
@@ -302,105 +161,6 @@ Step 10: Delivery — Client review and final report
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on forensic appraiser.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent forensic appraiser issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term forensic appraiser capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -419,6 +179,7 @@ Step 10: Delivery — Client review and final report
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -428,6 +189,7 @@ Step 10: Delivery — Client review and final report
 | Forensic Appraiser + **Investigative Journalist** | Step 1: Document analysis → Step 2: Story structure | Exposé with verified financial facts |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -455,6 +217,7 @@ Step 10: Delivery — Client review and final report
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -476,6 +239,7 @@ Expected: Framework for direct loss + investigation costs + consequential damage
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, domain-specific frameworks, real scenarios, professional-grade workflows
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -496,6 +260,7 @@ Expected: Framework for direct loss + investigation costs + consequential damage
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -523,6 +288,7 @@ Expected: Framework for direct loss + investigation costs + consequential damage
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -543,6 +309,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -555,15 +322,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -591,3 +349,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -21,6 +21,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -284,362 +285,6 @@ Returns Management:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary Functions:**
-- Ecommerce platform management and optimization
-- Conversion rate optimization (CRO)
-- Marketplace strategy and operations
-- Performance marketing and acquisition
-- Merchandising and product presentation
-- Operations and fulfillment coordination
-- Customer retention and loyalty programs
-- Analytics and performance reporting
-- Omnichannel integration
-- P&L management for digital channels
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Platform Downtime | 🔴 Critical | Site down = zero revenue | Redundancy, monitoring, incident response |
-| Inventory Stockout | 🟡 High | Lost sales, poor experience | Demand forecasting, safety stock |
-| Data Breach | 🔴 Critical | Customer data exposure | Security compliance, encryption |
-| Returns Abuse | 🟡 High | Fraudulent returns | Return policy, verification |
-| Channel Conflict | 🟡 High | Marketplaces undercutting DTC | Pricing strategy, product differentiation |
-| Ad Account Ban | 🟡 High | Platform policy violation | Policy compliance, backup accounts |
-| Shipping Delays | 🟢 Medium | Customer dissatisfaction | Multiple carriers, SLA monitoring |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Conversion is the Ultimate Metric** — All efforts must drive measurable conversion improvement.
-2. **Mobile-First is Non-Negotiable** — 60-70% of traffic is mobile. Design for thumb, not mouse.
-3. **Speed is a Feature** — Every 100ms of load time impacts conversion. Performance = revenue.
-4. **Trust Signals Convert** — Reviews, security badges, guarantees reduce purchase anxiety.
-5. **Inventory Accuracy is Sacred** — Nothing frustrates customers more than unfulfilled promises.
-6. **Omnichannel is Standard** — Customers expect seamless experience across all touchpoints.
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools & Platforms |
-|----------|-------------------|
-| Platform | Shopify, Magento, Salesforce Commerce Cloud, BigCommerce |
-| CRO | Optimizely, VWO, Dynamic Yield, Monetate |
-| Analytics | Google Analytics 4, Hotjar, Heap, Amplitude |
-| Marketplaces | Amazon Seller Central, Walmart Seller Center, ChannelAdvisor |
-| Marketing | Klaviyo, Yotpo, Attentive, SMSBump |
-| Search | Algolia, Searchspring, Klevu |
-| Personalization | Nosto, Dynamic Yield, Bloomreach |
-| Reviews | Yotpo, Bazaarvoice, Trustpilot |
-| Shipping | ShipStation, ShipBob, Flexe |
-
----
-
-## § 6 · Standards & Reference
-
-### Ecommerce Strategy Template
-
-```
-ECOMMERCE STRATEGY — [Year/Quarter]
-
-GOALS:
-| Metric | Current | Target | Growth |
-|--------|---------|--------|--------|
-| Revenue | $[X] | $[Y] | [Z%] |
-| Conversion Rate | [X%] | [Y%] | — |
-| AOV | $[A] | $[B] | [C%] |
-| Traffic | [X] | [Y] | [Z%] |
-
-CHANNEL MIX:
-| Channel | Revenue % | Strategy |
-|---------|-----------|----------|
-| DTC Website | [X%] | Optimize CRO |
-| Amazon | [Y%] | Expand catalog |
-| Wholesale | [Z%] | Selective expansion |
-
-INITIATIVES:
-1. [Initiative 1]: [Description] → [Expected impact]
-2. [Initiative 2]: [Description] → [Expected impact]
-3. [Initiative 3]: [Description] → [Expected impact]
-
-BUDGET:
-| Category | Budget | ROAS Target |
-|----------|--------|-------------|
-| Paid Acquisition | $[X] | [Y]x |
-| Platform/Tech | $[A] | — |
-| Operations | $[B] | — |
-
-KEY PROJECTS:
-| Project | Timeline | Owner | Status |
-|---------|----------|-------|--------|
-| [Name]  | [Q1]     | [Name]| [Status]|
-```
-
-### CRO Testing Roadmap
-
-```
-CRO ROADMAP — [Quarter]
-
-TESTING CALENDAR:
-| Week | Test | Hypothesis | Page | Owner |
-|------|------|------------|------|-------|
-| 1-2  | [T1] | [H1]       | [P1] | [Name]|
-| 3-4  | [T2] | [H2]       | [P2] | [Name]|
-
-HYPOTHESIS TEMPLATE:
-We believe that [change]
-For [audience]
-Will result in [outcome]
-As measured by [metric]
-
-PRIORITIZATION:
-| Test | Impact | Ease | Score | Priority |
-|------|--------|------|-------|----------|
-| [T1] | High   | Med  | [X]   | P0       |
-
-CURRENT TESTS:
-| Test | Status | Uplift | Confidence |
-|------|--------|--------|------------|
-| [T1] | Running| —      | —          |
-
-WINS TO IMPLEMENT:
-| Test | Uplift | Implementation Date |
-|------|--------|---------------------|
-| [T1] | +15%   | [Date]              |
-```
-
-### Merchandising Calendar
-
-```
-MERCHANDISING CALENDAR — [Month/Quarter]
-
-PRODUCT LAUNCHES:
-| Date | Product | Category | Inventory | Marketing Support |
-|------|---------|----------|-----------|-------------------|
-| [D]  | [Name]  | [Cat]    | [X] units | [Details]         |
-
-PROMOTIONS:
-| Dates | Promotion | Discount | Eligible Products | Target |
-|-------|-----------|----------|-------------------|--------|
-| [D-D] | [Name]    | [X%]     | [Category]        | [Goal] |
-
-CONTENT UPDATES:
-| Date | Update | Pages Affected | Owner |
-|------|--------|----------------|-------|
-| [D]  | [Desc] | [List]         | [Name]|
-
-INVENTORY ALERTS:
-| SKU | Current Stock | Reorder Point | Status |
-|-----|---------------|---------------|--------|
-| [X] | [Y] units     | [Z] units     | [Status]|
-```
-
-### Marketplace Playbook
-
-```
-AMAZON STRATEGY — [Brand/Category]
-
-LISTING OPTIMIZATION:
-- Title: [Formula with keywords]
-- Bullets: [5 key features/benefits]
-- Description: [A+ Content modules]
-- Backend Keywords: [Search terms]
-- Images: [7 images including lifestyle, infographic]
-
-PRICING:
-- MSRP: $[X]
-- Amazon Price: $[Y]
-- MAP: $[Z]
-- Promotional Price: $[W]
-
-ADVERTISING:
-| Campaign Type | Budget | ACoS Target | Current ACoS |
-|---------------|--------|-------------|--------------|
-| Sponsored Products | $[X] | <[Y]% | [Z%] |
-| Sponsored Brands | $[A] | <[B]% | [C%] |
-
-INVENTORY:
-- FBA Stock: [X] units
-- Inbound: [Y] units
-- Days of Cover: [Z]
-- Reorder Point: [Date]
-
-PERFORMANCE:
-| Metric | Current | Target |
-|--------|---------|--------|
-| Buy Box % | [X%] | >[Y%] |
-| Star Rating | [X] | >[Y] |
-| Review Count | [X] | [Y] |
-| Sales Rank | [X] | #[Y] |
-```
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Planning & Setup
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Strategy development | Goals, KPIs, initiatives defined | No clear objectives |
-| 2 | Platform audit | Technical issues identified, prioritized | Unknown technical debt |
-| 3 | Merchandising plan | Calendar with launches and promos | Reactive, ad-hoc |
-| 4 | Inventory planning | Stock levels aligned to demand | Stockouts or overstock |
-| 5 | Marketing alignment | Channel plans coordinated | Siloed execution |
-
-### Phase 2: Execution
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Campaign launch | Promotions live, tracking active | Broken tracking |
-| 2 | CRO testing | Experiments running | No optimization |
-| 3 | Marketplace mgmt | Listings optimized, ads running | Neglected channels |
-| 4 | Operations | Orders fulfilled, issues resolved | Fulfillment delays |
-| 5 | Monitoring | Daily dashboards reviewed | No performance visibility |
-
-### Phase 3: Optimization
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Performance review | Weekly metrics analysis | Monthly only |
-| 2 | Test analysis | Winners implemented | No follow-through |
-| 3 | Customer feedback | Reviews analyzed, actions taken | Ignoring feedback |
-| 4 | Inventory optimization | Stock balanced | Frequent stockouts |
-| 5 | Planning | Next cycle prepared | Last-minute planning |
-
----
-
-## § 8 · Scenario Examples
-
-### Scenario 1: CRO Transformation
-
-**Context:** Fashion brand, 1.5% conversion rate, industry avg 2.5%.
-
-**Analysis:**
-- Product pages: Low engagement
-- Checkout: 70% abandonment
-- Mobile: Poor experience
-
-**Optimizations:**
-- Product page: UGC gallery, size guide, AR try-on
-- Checkout: One-page, Apple Pay, clear shipping
-- Mobile: Thumb-friendly navigation
-
-**Results:**
-- Conversion: 1.5% → 3.2%
-- Revenue: +110%
-- Cart abandonment: 70% → 45%
-
----
-
-### Scenario 2: Amazon Expansion
-
-**Context:** DTC brand, no Amazon presence, 80% of category searches on Amazon.
-
-**Strategy:**
-- FBA for Prime eligibility
-- A+ Content on top 20 SKUs
-- Sponsored Products campaigns
-- Vine program for reviews
-
-**Execution:**
-- 50 SKUs launched
-- $50K/month ad spend
-- 4.5+ star rating maintained
-
-**Results (Year 1):**
-- Amazon revenue: $2M
-- 15% of total business
-- Incremental (minimal cannibalization)
-- ACoS: 18%
-
----
-
-### Scenario 3: Omnichannel Integration
-
-**Context:** Retailer with separate online/offline, inventory not connected.
-
-**Integration:**
-- Unified inventory visibility
-- BOPIS launch
-- Ship from Store
-- Return to Store
-- Single customer profile
-
-**Results:**
-- BOPIS: 20% of online orders
-- BOPIS attach rate: +$35 per order
-- Online returns to store: 40% (saves shipping)
-- Customer satisfaction: +15 points
-
----
-
-### Scenario 4: Subscription Launch
-
-**Context:** CPG brand, single purchase model, want recurring revenue.
-
-**Program:**
-- Subscribe & Save: 15% discount
-- Flexible delivery (every 1-6 months)
-- Easy skip/pause/cancel
-- Exclusive subscriber products
-
-**Launch:**
-- Email to customers (20% open)
-- Product page prominence
-- Post-purchase upsell
-
-**Results (6 months):**
-- Subscribers: 5,000
-- Subscription revenue: 25% of total
-- Subscriber LTV: 2.5x vs. one-time
-- Churn: 8%/month (acceptable)
-
----
-
-### Scenario 5: International Expansion
-
-**Context:** US-only ecommerce, expanding to EU and UK.
-
-**Setup:**
-- Shopify Markets for localization
-- EUR/GBP pricing
-- EU warehouse (Netherlands)
-- Localized content (translation)
-- GDPR compliance
-
-**Marketing:**
-- Google Shopping EU
-- Local social platforms
-- Influencer partnerships
-
-**Results (Year 1):**
-- International: 15% of revenue
-- UK: Strongest market (language)
-- Germany: Growing (localization key)
-- Returns: Higher (sizing issues)
-
----
-
-## § 9 · Common Pitfalls & Anti-Patterns
-
-| Anti-Pattern | Risk | Correct Approach |
-|-------------|------|-----------------|
-| **Traffic Without Conversion** | Wasted ad spend | CRO before scale |
-| **Channel Conflict** | Marketplaces cannibalizing DTC | Strategic pricing, differentiation |
-| **Set and Forget** | Declining performance | Continuous optimization |
-| **Mobile Neglect** | Losing majority of traffic | Mobile-first design |
-| **Ignoring Reviews** | Poor social proof | Review generation program |
-| **Complex Checkout** | Abandoned carts | Frictionless checkout |
-| **Over-Promotion** | Margin erosion, trained customers | Strategic discounting |
-
----
 
 ## § 10 · Integration with Other Skills
 
@@ -652,6 +297,7 @@ PERFORMANCE:
 | `product-manager` | Merchandising ↔ product roadmap |
 
 ---
+
 
 ## § 11 · Scope & Limitations
 
@@ -671,6 +317,7 @@ PERFORMANCE:
 
 ---
 
+
 ## § 12 · References
 
 📄 **Detailed Resources:**
@@ -681,3 +328,17 @@ PERFORMANCE:
 - [references/omnichannel-integration.md](references/omnichannel-integration.md) — Cross-channel strategy
 - [references/subscription-models.md](references/subscription-models.md) — Recurring revenue
 - [references/ecommerce-analytics.md](references/ecommerce-analytics.md) — Metrics and measurement
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Standards & Reference](./references/6-standards-reference.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)

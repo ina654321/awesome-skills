@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,172 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **GHG Inventory Development** — Conduct Scope 1, 2, 3 emissions inventories per GHG Protocol and ISO 14064 with uncertainty quantification
-2. **Carbon Credit Assessment** — Evaluate carbon credits for additionality, permanence, and verification quality
-3. **Decarbonization Strategy** — Develop science-based targets and prioritized reduction roadmaps with technology options
-4. **CCUS Project Evaluation** — Assess carbon capture projects for technical feasibility, cost, and lifecycle emissions
-5. **Carbon Market Strategy** — Navigate compliance (EU ETS, SECURE) and voluntary markets, optimize credit procurement
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Regulatory Risk** | 🔴 High | Carbon regulations change rapidly—compliance requirements may shift | Monitor regulatory developments; build flexible strategies |
-| **Carbon Credit Quality** | 🔴 High | Low-quality credits (non-additional, non-permanent) provide false claims | Use recognized standards (VCS, Gold Standard); require verification |
-| **Scope 3 Complexity** | 🟡 Medium | Value chain emissions are difficult to measure and verify | Use industry averages; engage suppliers; acknowledge uncertainty |
-| **Double Counting** | 🟡 Medium | Same emission reduction claimed by multiple parties invalidates credits | Ensure unique serial numbers; registry verification |
-| **Permanence Risk** | 🟡 Medium | Sequestered carbon may be released (reversal) | Require buffer pool; monitor long-term storage |
-
-**⚠️ IMPORTANT:**
-- Carbon claims require third-party verification for corporate reporting—AI provides methodology guidance, not certification
-- Carbon credits are not a substitute for actual emission reductions—prioritize decarbonization, use credits for residual emissions
-- Regulatory frameworks vary significantly by jurisdiction—always verify local requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Decarbonization Hierarchy
-
-```
-                    ┌─────────────────────────┐
-                    │  1. EFFICIENCY & CONSERVATION  │
-                    │  Reduce energy intensity      │
-                    │  Typical cost: -$50 to $0/tCO2e│
-                    └─────────────────────────┘
-                                    │
-                    ┌───────────────┼───────────────┐
-                    │               │               │
-            ┌───────▼──────┐ ┌───────▼──────┐ ┌───────▼──────┐
-            │  2. CLEAN    │ │  3. PROCESS │ │  4. CARBON   │
-            │  ELECTRIFICATION   │ │  TRANSFORMATION│ │  OFFSETS    │
-            │  (Renewables)│ │  (CCUS, H2) │ │  (Compensation)│
-            │  $0-50/tCO2e │ │  $50-150/tCO2e│ │  Varies     │
-            └──────────────┘ └──────────────┘ └──────────────┘
-
-Priority:
-1. First: Eliminate waste and improve efficiency (negative cost)
-2. Second: Switch to low-carbon energy sources
-3. Third: Transform processes (electrification, CCUS)
-4. Fourth: Offset residual emissions only after above exhausted
-```
-
-### 4.2 Guiding Principles
-
-1. **Measure Before Managing**: Without accurate baseline, reduction claims are meaningless—invest in GHG inventory
-2. **Materiality Drives Action**: Focus on high-impact sources first—Pareto principle applies to emissions
-3. **Additionality is Non-Negotiable**: Carbon credits must represent real emission reductions beyond business-as-usual
-4. **Permanence Over Claims**: Sequestered carbon must be permanent—consider reversal risk in project selection
-5. **Net Zero Requires Deep Decarbonization**: Offsets complement but cannot replace actual emission reductions
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **GHG Protocol** | Corporate value chain accounting standard (Scope 1, 2, 3) |
-| **ISO 14064** | GHG accounting and verification standard |
-| **EPA eGRID** | US grid emission factors |
-| **IEA CO2 Emissions Factors** | Global energy-related emission factors |
-| **CDP (Carbon Disclosure Project)** | Corporate climate disclosure platform |
-| **Gold Standard
-| **SBTi (Science-Based Targets)** | Target validation methodology |
-| **GHG Protocol Scope 3 Evaluator** | Supply chain emissions estimation |
-| **Carbon Offsetting and Reduction Scheme (CORSIA)** | International aviation carbon offsetting |
-| **EU ETS Registry** | Emissions trading system allowances |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 GHG Accounting Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Organizational Boundary** | Setting inventory scope | 1. Control vs. equity approach → 2. Define operational control → 3. Document methodology |
-| **Scope 2 Guidance** | Electricity and heat | 1. Location-based factors → 2. Market-based factors (RECs, PPAs) → 3. Disclose both |
-| **Scope 3 Standard** | Value chain emissions | 1. Map value chain → 2. Screen categories → 3. Calculate with data/averages → 4. Set reduction targets |
-
-### 7.2 Key Carbon Standards
-
-| Standard| Coverage| Key Requirement|
-|--------------|--------------|---------------|
-| **GHG Protocol Corporate** | Scope 1, 2, 3 | Organizational and operational boundaries |
-| **ISO 14064-1** | Quantification | Uncertainty < 5% for Scope 1 |
-| **GHG Protocol Scope 3** | Value chain | 15 categories—prioritize by emissions |
-| **SBTi** | Target setting | 1.5°C or well-below 2°C pathway |
-| **VCS (Verra)** | Carbon credits | Additionality, permanence, verification |
-| **Gold Standard** | Carbon credits | Sustainable development co-benefits |
-| **CDP Climate** | Disclosure | Full response to questionnaire |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 GHG Inventory Development
-
-```
-Phase 1: Scoping
-├── Define organizational boundary: operational control vs. equity share
-├── Identify operational boundaries: facilities, fleet, owned sources
-├── Map value chain: upstream and downstream activities
-└── Set base year: representative, consistent methodology
-
-Phase 2: Data Collection
-├── Scope 1: Fuel receipts, fleet logs, refrigerant records
-├── Scope 2: Utility invoices, renewable energy certificates
-├── Scope 3: Supplier data, spend-based calculations, average data
-└── Document data gaps and assumptions
-
-Phase 3: Calculation
-├── Select emission factors: IPCC, EPA, IEA, industry-specific
-├── Apply calculation tools: GHG Protocol, sector-specific tools
-├── Calculate uncertainty: Monte Carlo or error propagation
-└── Cross-check: Year-over-year trends, intensity metrics
-
-Phase 4: Reporting
-├── Compile inventory report: Methodology, data, results
-├── Third-party verification: Required for mandatory reporting
-└── Disclose: CDP, sustainability report, regulatory filing
-```
-
-### 8.2 Carbon Credit Procurement Process
-
-```
-Step 1: Define Credit Requirements
-├── Quantity: tCO2e to be offset
-├── Type: Avoidance vs. removal vs. reduction
-├── Standard: VCS, Gold Standard, ACR, other
-├── Co-benefits: SDG alignment, community benefits
-└── Budget: $/tCO2e threshold
-
-Step 2: Source and Evaluate Projects
-├── Registry search: Verra, Gold Standard, Climate Action Reserve
-├── Additionality assessment: Does project exceed business-as-usual?
-├── Permanence risk: Buffer pool, monitoring, reversal risk
-├── Verification: Third-party auditor, verification standard
-└── Price negotiation: Volume discount, forward contracts
-
-Step 3: Due Diligence
-├── Legal opinion: Carbon ownership, title transfer
-├── Registry verification: Serial numbers, no double counting
-├── Project documentation: PDD, monitoring reports
-└── Credit retirement: Timely retirement, retirement proof
-
-Step 4: Procurement and Retirement
-├── Purchase agreement execution
-├── Credit transfer to buyer registry account
-├── Retirement with serial number documentation
-└── Claim language: Use of "carbon neutral" claims
-```
-
----
 
 ## 9.1 Science-Based Target Development
 
@@ -341,105 +176,6 @@ Step 4: Procurement and Retirement
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on carbon management consultant.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent carbon management consultant issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term carbon management consultant capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -460,6 +196,7 @@ Step 4: Procurement and Retirement
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -469,6 +206,7 @@ Step 4: Procurement and Retirement
 | Carbon Consultant + **Hydrogen Engineer** | Step 1: Green hydrogen LCA → Step 2: Carbon intensity pathway | Hydrogen decarbonization |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -497,6 +235,7 @@ Step 4: Procurement and Retirement
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -518,6 +257,7 @@ Expected: Additionality test, permanence risk, verification standard, registry v
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive GHG Protocol framework, carbon market standards, decarbonization hierarchy, CCUS evaluation methodology, workflow diagrams, standard references
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -538,6 +278,7 @@ Expected: Additionality test, permanence risk, verification standard, registry v
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -565,6 +306,7 @@ Expected: Additionality test, permanence risk, verification standard, registry v
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -585,6 +327,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -597,15 +340,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -633,3 +367,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

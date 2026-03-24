@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,161 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Cause of Death Analysis** — Determine cause (disease/injury) and manner (natural/unnatural) of death based on autopsy findings, medical history, and scene investigation
-2. **Injury Pattern Interpretation** — Analyze wound characteristics to determine weapon type, direction of force, and mechanism of injury
-3. **Toxicological Assessment** — Interpret toxicology results; correlate with scene findings and medical history
-4. **Death Certificate Completion** — Complete death certificates in compliance with jurisdictional requirements
-5. **Expert Testimony Support** — Prepare for and provide expert witness testimony in legal proceedings
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Misdiagnosis** | 🔴 High | Incorrect cause/manner of death determination | Peer review; complete autopsy; correlate all findings |
-| **Evidence Contamination** | 🔴 High | Compromised chain of custody for toxicology/histology | Strict protocols; documentation; independent verification |
-| **Testimony Challenges** | 🔴 High | Daubert/Frye exclusion of expert opinion | Methodology documentation; peer validation; continuing education |
-| **Jurisdictional Errors** | 🟡 Medium | Death certificate errors that affect legal matters | Verify jurisdictional requirements; review before issuance |
-| **Opinion Overreach** | 🟡 Medium | Expressing opinions beyond expertise | Stay within area of specialization; defer to other experts |
-
-**⚠️ IMPORTANT:**
-- Forensic pathology opinions can have significant legal consequences (criminal convictions, civil liability, insurance claims). Precision and documentation are essential.
-- This skill provides forensic medical analysis, not clinical medical advice. It is not a substitute for treating physicians.
-- Jurisdiction-specific death investigation systems vary (medical examiner vs. coroner). Adapt recommendations accordingly.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Death Investigation Framework
-
-```
-                    ┌──────────────────────────────────────┐
-                    │         DEATH SCENE ASSESSMENT        │
-                    └──────────────────┬───────────────────┘
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    ▼                    ▼                    ▼
-              Natural                Unnatural            Unknown
-                │                        │                    │
-    ┌───────────┴───────────┐    ┌───────┴───────┐    ┌───────┴───────┐
-    ▼                       ▼    ▼               ▼    ▼               ▼
-Disease/               Accident/           Homicide/         Suicide/
-Medical Condition     Trauma              Violence          Self-Inflicted
-    │                       │               ▼                   │
-    ▼                       ▼    ┌───────────────┐    ┌───────────────┐
-Natural                 Accident    Blunt/Sharp/   Pending
-Manner                  Manner      GSW/Asphyxia   Investigation
-```
-
-### 4.2 Guiding Principles
-
-1. **Complete the Autopsy**: Unless specifically exempted, perform full external and internal examination. Partial autopsies increase error risk.
-2. **Correlate All Findings**: Scene investigation, medical history, autopsy, toxicology, and histology must tell a coherent story.
-3. **Document Extensively**: Write what you observe, not what you think happened. Let the evidence lead to conclusions.
-4. **Peer Review**: No opinion should leave the office without another forensic pathologist reviewing it.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Autopsy Protocol** | Standardized documentation of external exam, internal exam, organ weights, diagnoses |
-| **Toxicology Interpretation Guide** | Drug levels, interpretation thresholds, confounders |
-| **Injury Pattern Atlas** | Reference for wound classification and interpretation |
-| **Death Certificate System** | ICD-10 coding, jurisdictional forms |
-| **Chain of Custody Forms** | Evidence handling documentation |
-| **Expert Report Template** | Court-ready forensic opinion structure |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Forensic Pathology Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Complete Autopsy** | Standard death investigation | 1. External exam → 2. Internal exam → 3. Organ examination → 4. Toxicology → 5. Histology → 6. Correlation → 7. Opinion |
-| **Forensic Toxicology** | Suspected drug/toxin involvement | 1. Specimens → 2. Screening → 3. Confirmation → 4. Quantification → 5. Interpretation |
-| **Injury Pattern Analysis** | Traumatic deaths | 1. Document → 2. Classify → 3. Correlate with mechanism → 4. Assess survivability |
-
-### 7.2 Death Classification Systems
-
-| Classification| Definition| Examples|
-|--------------|--------------|---------------|
-| **Natural** | Disease process | Heart disease, cancer, infection |
-| **Accident** | Unintentional injury | Motor vehicle, falls, poisoning |
-| **Homicide** | Intentional by another | Blunt force, gunshot, stabbing |
-| **Suicide** | Intentional self-inflicted | Hanging, overdose, gunshot |
-| **Undetermined** | Insufficient information | Unwitnessed, conflicting evidence |
-
-### 7.3 Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Autopsy Completion Rate** | Completed
-| **Toxicology Submission** | Cases with tox / Natural/Unnatural | > 80% for unnatural |
-| **Report Turnaround** | Days from autopsy to report | < 60 days |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Death Investigation Workflow
-
-```
-Phase 1: Case Intake & Review
-├── Scene investigation report
-├── Medical history (PMH, medications, prior conditions)
-├── Initial police/investigative reports
-└── Identify: circumstances, suspicious factors
-
-Phase 2: External Examination
-├── Document: body position, rigor, livor
-├── Photograph: full body, close-ups of injuries
-├── Identify: marks, scars, tattoos, identifying features
-└── Collect: swabs, hair, nails as indicated
-
-Phase 3: Internal Examination
-├── Systematic examination of all organ systems
-├── Document: weights, appearances, abnormalities
-├── Collect: toxicology samples, histology blocks
-└── Preserve: brain, spinal cord, eyes for special fixation
-
-Phase 4: Ancillary Testing
-├── Toxicology: blood, urine, vitreous, gastric contents
-├── Histology: microscopic examination of organs
-├── Radiology: skeletal survey, CT, MRI as available
-└── Microbiology: cultures as indicated
-
-Phase 5: Correlation & Opinion
-├── Synthesize: all findings with scene and history
-├── Determine: cause of death (ICD-10 code)
-├── Determine: manner of death
-└── Draft: autopsy report and death certificate
-```
-
-### 8.2 Expert Testimony Preparation
-
-```
-Step 1: Review All Materials
-   → Autopsy report, scene investigation, toxicology, histology
-Step 2: Prepare Outline
-   → Background, methodology, findings, opinion, limitations
-Step 3: Anticipate Questions
-   → Cross-examination scenarios, evidentiary challenges
-Step 4: Mock Testimony
-   → Practice delivery, timing, difficult questions
-Step 5: Courtroom Presentation
-   → Clear, confident, compliant with Daubert/Frye
-```
-
----
 
 ## 9.1 Cause of Death Determination
 
@@ -329,105 +175,6 @@ Step 5: Courtroom Presentation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on forensic physician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent forensic physician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term forensic physician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -449,6 +196,7 @@ Step 5: Courtroom Presentation
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -459,6 +207,7 @@ Step 5: Courtroom Presentation
 | Forensic Physician + **Forensic Appraiser** | FP provides cause/manner → Appraiser values loss | Wrongful death valuation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -489,6 +238,7 @@ Step 5: Courtroom Presentation
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -510,6 +260,7 @@ Expected: Testimony preparation workflow, anticipate challenges, Daubert complia
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive forensic pathology content, death investigation workflows, proper medical terminology, expert testimony guidance, risk disclosures
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -530,6 +281,7 @@ Expected: Testimony preparation workflow, anticipate challenges, Daubert complia
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -557,6 +309,7 @@ Expected: Testimony preparation workflow, anticipate challenges, Daubert complia
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -577,6 +330,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -589,15 +343,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -625,3 +370,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

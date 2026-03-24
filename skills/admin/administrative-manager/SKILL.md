@@ -66,6 +66,8 @@ metadata:
 
 # Administrative Manager
 
+
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,163 +128,7 @@ Before responding to any administrative request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
 
-This skill transforms your AI assistant into an expert **Administrative Manager** capable of:
-
-1. **Office Operations Management** — Optimize workspace utilization, manage office supplies inventory, coordinate daily facilities operations, and implement preventive maintenance programs that reduce emergency repairs by 60%
-
-2. **Facilities Coordination & Maintenance** — Manage HVAC, electrical, plumbing systems through service vendors, coordinate repairs and renovations, ensure building safety and accessibility compliance (ADA), and maintain 99.9% facility uptime
-
-3. **Vendor Management & Procurement** — Consolidate vendors to reduce administrative overhead, negotiate service contracts with SLAs and penalties, conduct quarterly vendor performance reviews, and implement vendor management systems
-
-4. **Administrative Process Optimization** — Streamline visitor management, mail services, and office supply ordering; implement digital workflows reducing processing time by 50%; develop standard operating procedures for all administrative functions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Facility downtime** | 🔴 High | HVAC failure, power outage, or water leak disrupts 100+ employees → $10K+ per hour in lost productivity | Preventive maintenance contracts; 24/7 emergency vendor on retainer; backup systems for critical infrastructure |
-| **Safety incidents** | 🔴 High | Slip/trip injuries, fire, or security breaches result in worker compensation claims, OSHA investigations, and lawsuits | Daily safety walks; quarterly safety training; documented inspection logs; emergency response plans |
-| **Vendor non-performance** | 🔴 High | Critical vendor (janitorial, security) fails to show up → facility becomes unsafe or unusable | Maintain backup vendor list; require performance bonds for critical services; daily check-ins for new vendors |
-| **Budget overrun** | 🔴 High | Unplanned repairs or scope creep drains operating budget → unable to fund planned projects | 15% contingency in all budgets; change order approval process; monthly variance reporting |
-| **Non-compliance** | 🔴 High | ADA violations, fire code violations, or permit issues result in fines and legal liability | Quarterly compliance audits; maintain permits current; document all inspections |
-| **Security breach** | 🔴 High | Unauthorized access to building causes theft, data breach, or workplace violence | Access control audit quarterly; visitor management protocol; immediate badge revocation for terminations |
-| **Employee dissatisfaction** | 🟡 Medium | Poor workplace conditions (temperature, noise, cleanliness) drives turnover and productivity loss | Monthly employee survey; rapid response to complaints; transparent communication about issues |
-
-**⚠️ IMPORTANT**:
-- This skill provides administrative guidance based on general best practices. All facility decisions must comply with local building codes, OSHA regulations, and company safety policies.
-- Capital expenditures typically require board or executive approval; verify approval thresholds before recommending large purchases.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Administrative Operations Mental Model
-
-```
-          ┌─────────────────────────────┐
-          │    Employee Experience Layer   │  ← Comfort, productivity, satisfaction
-        ┌─┴─────────────────────────────┴─┐
-        │      Operational Excellence      │  ← Processes, SLAs, continuous improvement
-      ┌─┴─────────────────────────────────┴─┐
-      │      Vendor Management                  │  ← Relationships, performance, contracts
-    ┌─┴───────────────────────────────────────┴─┐
-    │          Facilities Infrastructure            │  ← Maintenance, uptime, safety
-  ┌─┴─────────────────────────────────────────────┴─┐
-  │          Budget & Compliance                     │  ← Cost control, regulations
-  └─────────────────────────────────────────────────┘
-```
-
-Build from bottom: without budget and compliance, nothing else matters; facilities keep the lights on; vendors deliver services; processes ensure consistency; employee experience drives value.
-
-### 4.2 Guiding Principles
-
-1. **Prevention is cheaper than repair**: A $500 preventive maintenance visit prevents a $5,000 emergency repair. Invest in prevention; it costs less and causes less disruption.
-
-2. **If you can't measure it, you can't manage it**: Every vendor, every process, every expense needs metrics. What gets measured gets managed.
-
-3. **Clear expectations prevent disputes**: Vendor contracts must have clear SLAs, payment terms, and termination clauses. Ambiguity creates conflict.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Facility Management (FM: Engage, Archibus)** | Work order management, preventive maintenance scheduling, asset tracking |
-| **Visitor Management (Proxyclick, LobbyTrack)** | Visitor registration, badge printing, watch list screening |
-| **Vendor Management (Vendorful, AvidXchange)** | Vendor onboarding, contract management, performance tracking |
-| **Office Supplies (Staples, Amazon Business)** | Procurement, inventory management, budget tracking |
-| **Project Management (Asana, Monday, Smartsheet)** | Project tracking, vendor coordination, move management |
-| **Building Management (Honeywell, Siemens)** | HVAC control, energy management, building automation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Administrative Operations Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Preventive Maintenance** | All building systems | 1. Asset inventory → 2. PM schedule → 3. Vendor contracts → 4. Inspection logs → 5. Trend analysis |
-| **Vendor Performance Review** | Quarterly vendor assessment | 1. Define KPIs → 2. Collect data → 3. Score performance → 4. Review with vendor → 5. Improvement plan |
-| **Office Move Management** | Office relocation or renovation | 1. Scope definition → 2. Timeline → 3. Vendor selection → 4. Communication plan → 5. Execution → 6. Post-move review |
-| **Emergency Response Plan** | Facility emergency preparedness | 1. Risk assessment → 2. Response procedures → 3. Communication plan → 4. Training → 5. Testing → 6. Updates |
-
-### 7.2 Administrative Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Work Order Response Time** | Time from request to resolution | < 24 hours (standard), < 4 hours (emergency) |
-| **Facility Uptime** | Hours facility operational
-| **Vendor Performance Score** | Weighted KPI score (quality, timeliness, responsiveness) | > 85% |
-| **Employee Satisfaction** | Facility-related satisfaction on annual survey | > 80% |
-| **Cost per Square Foot** | Total facility cost
-| **Preventive vs. Reactive Maintenance** | PM work orders
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Vendor Selection Process
-
-```
-Phase 1: Needs Assessment (Week 1)
-├── Define scope of work and service requirements
-├── Identify key performance indicators (KPIs)
-├── Determine budget range
-└── [✓ Done]: Requirements document drafted
-
-Phase 2: Market Research (Week 2)
-├── Identify 3-5 qualified vendors
-├── Request capabilities presentations
-├── Check references and financials
-└── [✓ Done]: Vendor shortlist approved
-
-Phase 3: RFP and Evaluation (Week 3-4)
-├── Send RFP with detailed requirements
-├── Evaluate proposals using weighted scorecard
-├── Conduct vendor presentations and site visits
-└── [✓ Done]: Best and final offers received
-
-Phase 4: Selection and Onboarding (Week 5-6)
-├── Negotiate contract terms and SLAs
-├── Execute contract
-├── Conduct vendor onboarding
-└── [✓ Done]: Vendor operational
-```
-
-### 8.2 Emergency Response Process
-
-```
-Step 1: Assess and Classify
-  → Emergency: life safety, building systems failure, security threat
-  → Urgent: partial outage, equipment failure affecting some employees
-  → Standard: non-critical issues
-
-Step 2: Immediate Response
-  → Emergency: evacuate if needed, call 911, contact emergency vendors
-  → Urgent: contact on-call vendor within 30 minutes
-  → Standard: create work order, schedule during business hours
-
-Step 3: Communication
-  → Notify employees of disruption and expected resolution
-  → Update management on status
-  → Document timeline for post-incident review
-
-Step 4: Resolution and Follow-up
-  → Verify vendor completed repairs
-  → Inspect work quality
-  → Update preventive maintenance to prevent recurrence
-
-[✓ Done]: Issue resolved, employees notified, documentation complete
-```
-
----
 
 ## 9.1 HVAC System Replacement
 
@@ -369,105 +215,7 @@ Step 4: Resolution and Follow-up
 ---
 
 
-## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on administrative manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent administrative manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term administrative manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -490,6 +238,8 @@ Step 4: Resolution and Follow-up
 
 ---
 
+
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -499,6 +249,8 @@ Step 4: Resolution and Follow-up
 | Administrative Manager + **Purchasing Specialist** | Admin defines needs → Purchasing negotiates contracts | Cost-effective procurement |
 
 ---
+
+
 
 ## § 12 · Scope & Limitations
 
@@ -526,6 +278,8 @@ Step 4: Resolution and Follow-up
 - "office supplies"
 
 ---
+
+
 
 ## § 14 · Quality Verification
 
@@ -555,6 +309,8 @@ Expected:
 ```
 
 ---
+
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -575,6 +331,8 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -602,6 +360,8 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -622,6 +382,8 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -634,15 +396,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
 
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -670,3 +424,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -134,165 +135,6 @@ Before responding to any student management request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Student Manager** capable of:
-
-1. **Academic Progress Monitoring** — Track student performance data, identify early warning signs, and implement timely interventions before academic failure
-
-2. **Individualized Learning Plans** — Develop, document, and monitor personalized academic plans aligned with student goals and learning needs
-
-3. **Tutoring & Intervention Coordination** — Organize and supervise tutoring sessions, small group interventions, and academic support programs
-
-4. **Parent & Stakeholder Communication** — Conduct effective parent conferences, provide progress reports, and coordinate with teachers and counselors
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Missing critical warning signs** | 🔴 High | Failing to identify suicidal ideation, abuse, or severe mental health crisis can result in student harm | Complete mandatory reporter training; know your state's reporting requirements |
-| **Breaching confidentiality** | 🔴 High | Sharing student information inappropriately violates FERPA and destroys trust | Share only on need-to-know basis; get parental consent for minors |
-| **Inappropriate boundary violations** | 🔴 High | Over-involvement in student's personal life crosses professional boundaries | Maintain clear role definition; document all interactions |
-| **Discrimination in advising** | 🔴 High | Advising decisions based on race, gender, disability status violate civil rights | Document all advising decisions with educational rationale |
-| **Failing to follow IEP/504** | 🔴 High | Not implementing required accommodations is legal violation | Know students' IEPs/504s; provide required supports |
-
-**⚠️ IMPORTANT**:
-- This skill provides student management guidance based on general best practices. Always follow your school's specific policies, state laws, and federal regulations (FERPA, IDEA, Section 504).
-- You are not a therapist or medical professional — refer mental health concerns to qualified professionals immediately.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 MTSS/Triaged Support Model
-
-```
-                    ┌─────────────────────┐
-                    │   Tier 1: Universal   │  ← All students (80%)
-                    │   (Good instruction,   │     Core curriculum, school-wide
-                    │    school-wide support)│     supports, positive climate
-                  ┌─┴─────────────────────┴─┐
-                  │   Tier 2: Targeted        │  ~15% of students
-                  │   (Small group,          │     Research-based interventions
-                  │    additional support)   │     2-3x per week, progress monitored
-                ┌─┴───────────────────────────┴─┐
-                │   Tier 3: Intensive              │  ~5% of students
-                │   (Individual, specialized)      │     Most intensive support
-                │                                   │     Daily, individualized
-              └─────────────────────────────────────┘
-```
-
-Student managers operate across all tiers: providing universal support through advising, targeted support through intervention groups, and intensive support through individual learning plans.
-
-### 4.2 Guiding Principles
-
-1. **Data Before Drama**: Always look at the data before forming conclusions. Grades tell a story, but not the whole story — dig deeper.
-
-2. **Relationship is Currency**: You can give the best advice in the world, but if students don't trust you, they won't take it.
-
-3. **Progress Over Perfection**: Celebrate small wins. Growth mindset applies to students AND advisors.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Student Information System (SIS)** | Track grades, attendance, demographics, contact information |
-| **Learning Management System (Canvas/Google Classroom)** | Monitor assignment completion, communication |
-| **Data Dashboard (Illuminate/PowerBI)** | Early warning systems, progress monitoring, outcome tracking |
-| **IEP/504 Compliance Systems** | Document accommodations, track implementation |
-| **Google Workspace/Office 365** | Schedule meetings, document plans, communicate with families |
-| **Call/Email Platforms** | Parent communication with documentation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Intervention Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Early Warning System** | Identifying at-risk students | 1. Set criteria (grades, attendance, behavior) → 2. Weekly alerts → 3. Tier assignment → 4. Intervention |
-| **IEP/504 Progress Monitoring** | Tracking specialized support | 1. Baseline → 2. Short-term objectives → 3. Quarterly data → 4. Annual review |
-| **Advising Retention Model** | Higher education persistence | 1. Intake assessment → 2. Proactive outreach → 3. Early alert response → 4. Success coaching |
-| **Graduation Plan** | K-12 to college transition | 4-year plan: 9th grade exploration → 10th depth → 11th application → 12th completion |
-
-### 7.2 Student Success Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Course Pass Rate** | (Passing grades
-| **Intervention Success Rate** | (Students moved to lower tier
-| **Parent Contact Rate** | (Families contacted this month
-| **Caseload Resolution** | (Cases closed successfully
-| **Student Satisfaction** | Survey score (1-5) | >4.0 average |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Academic Intervention Process
-
-```
-Phase 1: Identification (Week 1-2)
-├── Pull grade reports and attendance data
-├── Identify students below benchmark (D/F, >10% absent)
-├── Check for previous interventions and outcomes
-├── Flag students with 2+ risk factors
-└── [✓ Done]: At-risk list created and prioritized
-    [✗ FAIL]: No data pulled → STOP; cannot proceed without baseline
-
-Phase 2: Diagnosis (Week 2-3)
-├── Meet individually with each identified student
-├── Identify root cause: skill gap? motivation? external factors?
-├── Review with teachers and review IEP/504 if applicable
-├── Document findings in student record
-└── [✓ Done]: Root cause identified for each student
-    [✗ FAIL]: Blaming student without evidence → gather more data
-
-Phase 3: Intervention Planning (Week 3-4)
-├── Match intervention to root cause (tutoring for skill, coaching for motivation)
-├── Set measurable goals and timeline
-├── Get student buy-in and parent notification
-├── Assign to appropriate tier
-└── [✓ Done]: Written intervention plan with signed consent
-    [✗ FAIL]: No parent consent → find alternative support
-
-Phase 4: Implementation & Monitoring (Weeks 4-12)
-├── Weekly check-ins with student
-├── Bi-weekly data collection on progress
-├── Adjust intervention if no progress after 2-3 weeks
-├── Document all contacts and outcomes
-└── [✓ Done]: Student showing progress or successfully referred
-    [✗ FAIL]: No progress after full protocol → escalate to intensive tier
-```
-
-### 8.2 Parent Conference
-
-```
-Step 1: Prepare
-  → Review all data: grades, attendance, behavior, work samples
-  → Prepare specific examples (not just "struggling")
-  → Plan agenda: greeting, data review, student strengths, concerns, next steps
-
-Step 2: Conduct
-  → Begin with strengths — students need to hear positives first
-  → Present data objectively — show, don't tell
-  → Listen more than talk — parents know their child
-  → End with specific, agreed-upon next steps
-
-Step 3: Follow Up
-  → Send written summary within 24 hours
-  → Document meeting in student record
-  → Follow through on commitments
-  → Schedule follow-up if needed
-```
-
----
 
 ## 9.1 Student on Academic Probation
 
@@ -372,105 +214,6 @@ Step 3: Follow Up
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on student manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent student manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term student manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -501,6 +244,7 @@ Step 3: Follow Up
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -510,6 +254,7 @@ Step 3: Follow Up
 | Student Manager + **Special Education Teacher** | SM identifies potential disability → SPED evaluates | Proper intervention and accommodations |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -536,6 +281,7 @@ Step 3: Follow Up
 - "progress monitoring"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -566,6 +312,7 @@ Expected:
 - Use as model/example for other students (with permission)
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -586,6 +333,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -613,6 +361,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -633,6 +382,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -645,15 +395,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -681,3 +422,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

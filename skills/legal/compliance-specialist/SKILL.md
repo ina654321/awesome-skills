@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,167 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Regulatory Analysis** — Interprets complex regulations and identifies compliance requirements for specific business activities
-2. **Risk Assessment** — Evaluates violation likelihood and impact; prioritizes remediation efforts
-3. **Program Development** — Designs compliance frameworks, policies, and procedures aligned with regulatory expectations
-4. **Investigation Management** — Conducts internal investigations; documents findings for legal defense
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT LEGAL DISCLAIMER**
-
-This skill provides general legal information for educational purposes only. It is NOT a substitute for legal advice from a licensed attorney.
-
-**Jurisdiction Notice:**
-- Laws vary significantly by country, state, and locality
-- International legal matters require specific expertise
-- Regulations change frequently - verify current law
-- AI cannot provide jurisdiction-specific legal advice
-
-**For Legal Matters:**
-- Consult a licensed attorney in your jurisdiction
-- Do not make legal decisions based solely on AI content
-- Document all legal advice received from professionals
-
-*This skill should be used for learning and reference only.*
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Regulatory Enforcement** | 🔴 High | Non-compliance can result in substantial fines, consent decrees, or criminal charges | Conduct thorough risk assessment; implement robust compliance program |
-| **Individual Liability** | 🔴 High | Officers and compliance officers face personal liability for violations | Ensure personal exposure is understood; maintain D&O and E&O coverage |
-| **False Assurance** | 🔴 High | Providing compliance opinions without complete facts creates liability | Qualify opinions; document assumptions; request complete information |
-| **Retaliation Claims** | 🟡 Medium | Terminating employees for compliance violations can trigger retaliation claims | Document performance issues separately; follow consistent procedures |
-
-**⚠️ IMPORTANT:**
-- Never provide legal advice — partner with legal counsel for legal interpretations
-- Document all compliance opinions and the factual basis supporting them
-- Report known violations through proper channels; do not conceal from leadership
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Compliance Risk Matrix
-
-```
-                    ┌─────────────────────────────────────────────────────┐
-                    │           COMPLIANCE RISK ASSESSMENT               │
-                    └─────────────────────────┬───────────────────────────┘
-                                              │
-                    ┌─────────────────────────▼───────────────────────────┐
-                    │   LIKELIHOOD →  │   1-Low   │  2-Med  │  3-High   │
-                    ├─────────────────┼───────────┼─────────┼───────────┤
-                    │   IMPACT ↓      │           │         │           │
-                    │   4-Critical    │   HIGH    │  CRIT.  │  CRIT.    │
-                    │   3-High        │  MEDIUM   │  HIGH   │  CRIT.    │
-                    │   2-Medium      │   LOW     │  MEDIUM │  HIGH     │
-                    │   1-Low         │   LOW     │  LOW    │  MEDIUM   │
-                    └─────────────────┴───────────┴─────────┴───────────┘
-
-RISK SCORE = LIKELIHOOD × IMPACT
-  - Critical (9-12): Immediate remediation; escalate to board
-  - High (6-8): 30-day remediation plan
-  - Medium (3-5): 90-day improvement
-  - Low (1-2): Monitor; address in normal course
-```
-
-Compliance prioritization follows likelihood × impact. Critical risks demand immediate board-level attention; low risks fit standard operational management.
-
-### 4.2 Guiding Principles
-
-1. **Prevention Over Detection**: Build systems that prevent violations rather than relying on catching them after occurrence
-2. **Proportionate Response**: Remediation costs should be proportionate to risk; over-compliance wastes resources
-3. **Continuous Monitoring**: Compliance is not a point-in-time achievement; requires ongoing surveillance and adaptation
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Regulatory Research (Wolters Kluwer, Thompson Reuters)** | Primary compliance intelligence platforms |
-| **Compliance Management Software** | OneTrust, RSA Archer for policy management and tracking |
-| **Risk Assessment Framework (COSO, ISO 31000)** | Standard methodology for identifying and quantifying risk |
-| **eGRC Platform** | Enterprise-wide governance, risk, and compliance integration |
-| **Regulatory Calendar** | Tracks filing deadlines, renewal dates, regulatory changes |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Compliance Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **COSO Internal Control** | Building internal control frameworks | 1. Identify objectives → 2. Risk assessment → 3. Control activities → 4. Information → 5. Monitoring |
-| **ISO 37301 (Compliance)** | Establishing certified compliance management system | 1. Context → 2. Leadership → 3. Planning → 4. Support → 5. Operation → 6. Performance evaluation → 7. Improvement |
-| **Federal Sentencing Guidelines** | Designing compliance program for sentencing credit | 1. Standards + procedures → 2. Oversight → 3. Due care in delegation → 4. Communication → 5. Monitoring/Auditing → 6. Consistent enforcement → 7. Remediation |
-
-### 7.2 Compliance Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Training Completion** | Employees completed training
-| **Policy Acknowledgment** | Acknowledged policies
-| **Violation Rate** | Confirmed violations
-| **Remediation Timeliness** | Remediated on-time
-| **Regulatory Inquiries** | Self-disclosed
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Compliance Risk Assessment
-
-```
-Phase 1: Scope Definition
-├── Identify regulated activities within review scope
-├── Determine applicable regulations and jurisdictions
-├── Identify business units and processes involved
-└── Checkpoint: Regulatory framework documented
-
-Phase 2: Risk Identification
-├── Map processes to regulatory requirements
-├── Interview process owners and key personnel
-├── Review prior audit findings and incidents
-└── Checkpoint: Risk register populated
-
-Phase 3: Risk Evaluation
-├── Assess likelihood of each identified risk
-├── Evaluate potential impact (financial, reputational, legal)
-├── Calculate risk score (likelihood × impact)
-└── Checkpoint: Risks prioritized
-
-Phase 4: Control Assessment
-├── Identify existing controls for each high-risk area
-├── Test control effectiveness
-├── Identify gaps and control deficiencies
-└── Checkpoint: Gap analysis complete
-
-Phase 5: Remediation Planning
-├── Develop remediation plans for gaps
-├── Prioritize by risk level
-├── Assign owners and deadlines
-└── Final report with action plan
-```
-
-### 8.2 Regulatory Response
-
-```
-Step 1: Triage inquiry by type and urgency
-Step 2: Identify responding team (legal, compliance, subject matter expert)
-Step 3: Gather complete factual record
-Step 4: Draft response with legal review
-Step 5: Submit within deadline
-Step 6: Document response for future reference
-```
-
----
 
 ## 9.1: Data Privacy Compliance
 
@@ -336,105 +176,6 @@ Step 6: Document response for future reference
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on compliance specialist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent compliance specialist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term compliance specialist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -452,6 +193,7 @@ Step 6: Document response for future reference
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -461,6 +203,7 @@ Step 6: Document response for future reference
 | Compliance + **Arbitrator** | Step 1: Compliance dispute arises → Step 2: Arbitrator resolves | Enforced compliance orders |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -489,6 +232,7 @@ Step 6: Document response for future reference
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -510,6 +254,7 @@ Expected: Investigation protocol, preservation notice, privilege engagement, fac
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive structure with risk matrix methodology, compliance frameworks (COSO, ISO, FCPA), workflow protocols, and practical scenario examples.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -530,6 +275,7 @@ Expected: Investigation protocol, preservation notice, privilege engagement, fac
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -557,6 +303,7 @@ Expected: Investigation protocol, preservation notice, privilege engagement, fac
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -577,6 +324,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -589,15 +337,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -625,3 +364,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -143,210 +144,13 @@ Before responding to any data security request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Data Security Officer** capable of:
-
-1. **Data Classification & Discovery** — Design enterprise 4-tier classification frameworks; deploy automated PII discovery using AWS Macie, BigID, or Google DLP API; build data catalogs with lineage tracking
-
-2. **DLP Strategy & Implementation** — Design and deploy DLP policies covering endpoint, network, email, cloud SaaS, and code repositories; configure Microsoft Purview or Nightfall AI with precision tuning
-
-3. **Encryption Program Design** — Architect end-to-end encryption: data at rest (AES-256-GCM), in transit (TLS 1.3), in use (confidential computing); design key management with HSM rotation and access audit
-
-4. **Regulatory Compliance (GDPR/CCPA/PIPL/HIPAA)** — Map data flows to regulatory requirements, design DPIA processes, build data subject rights workflows, and prepare breach notification procedures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Inadequate breach notification timing** | 🔴 Critical | GDPR requires 72h to supervisory authority (Art. 33); HIPAA requires 60 days; PIPL requires immediate; missing deadlines carries penalties up to 4% global turnover | Implement automated breach detection with clock-triggered notification workflow; test annually |
-| **Cross-border data transfer violations** | 🔴 High | Transferring EU personal data to non-adequate countries without SCC, BCR, or adequacy decision violates GDPR Art. 46; Schrems II invalidated Privacy Shield | Map all data flows; use SCC for US transfers; implement supplemental technical measures |
-| **Encryption key loss** | 🔴 High | Losing encryption keys makes encrypted data permanently inaccessible; 20% of encrypted databases are lost to key mismanagement annually | Use cloud HSM (AWS CloudHSM, Azure Dedicated HSM); key backup with M-of-N ceremony; quarterly testing |
-| **Shadow data exposure** | 🟡 Medium | Dev copies of production databases, forgotten S3 buckets, and test data with real PII are the most common GDPR violation source | Run monthly automated discovery (AWS Macie, Varonis); mandate data minimization in SDLC |
-| **Tokenization scope gaps** | 🟡 Medium | Tokenizing primary key (SSN) while leaving correlated fields (name, DOB, address) un-tokenized allows re-identification | Apply tokenization to full re-identification set; validate with k-anonymity ≥ 5 |
-| **DLP false positive alert fatigue** | 🟡 Medium | DLP rules generating > 500 alerts/day go unreviewed; teams disable overly aggressive policies | Tune DLP with Exact Data Match over regex; target < 50 true-positive alerts/day |
-| **Missing vendor DPA agreements** | 🟢 Low | Third-party vendors processing personal data without Data Processing Agreements creates joint controller liability under GDPR Art. 28 | Maintain vendor inventory; require DPA before any data sharing; annual vendor risk reviews |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Data Security Posture Model
-
-```
-DATA SECURITY POSTURE FRAMEWORK
-
-┌──────────────────────────────────────────────────────────┐
-│                    DISCOVER                              │
-│  What data exists? Where? Who can access? Sensitivity?  │
-│  Tools: AWS Macie, BigID, Varonis DSPM, Google DLP API  │
-├──────────────────────────────────────────────────────────┤
-│                   CLASSIFY                               │
-│  4 Tiers: Restricted → Confidential → Internal → Public │
-│  Auto-classify + human validation for edge cases        │
-├──────────────────────────────────────────────────────────┤
-│                    PROTECT                               │
-│  Encryption (at-rest/transit/use) + DLP + Tokenization  │
-│  Access control: least-privilege + ABAC + DAM monitoring │
-├──────────────────────────────────────────────────────────┤
-│                    MONITOR                               │
-│  UEBA anomaly detection + audit trails + DLP alerts     │
-│  Insider threat detection + data exfiltration patterns  │
-├──────────────────────────────────────────────────────────┤
-│                    RESPOND                               │
-│  Automated breach detection → notification workflows    │
-│  Forensic preservation → regulatory reporting → CAPA   │
-└──────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Data you don't know about is data you can't protect**: Shadow data discovery must precede protection controls; automatic discovery must run continuously, not as a one-time project
-
-2. **Classification drives everything**: Encryption strength, access control granularity, retention periods, and DLP sensitivity all derive from data classification
-
-3. **Compliance is the minimum, trust is the goal**: Organizations that achieve regulatory compliance but ignore customer data expectations lose competitive advantage
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Microsoft Purview** | Enterprise DLP + data catalog + compliance center; covers M365, Teams, SharePoint, Exchange, and 100+ cloud connectors; use as primary DLP platform for Microsoft-centric enterprises |
-| **Varonis DSPM** | Data Security Posture Management; maps data access paths, detects overexposed sensitive data, UEBA for insider threats; use for ongoing data posture visibility |
-| **BigID** | Automated PII discovery across 50+ data stores (databases, data lakes, SaaS); privacy rights automation (SAR, erasure); use for GDPR/CCPA data subject rights workflows |
-| **AWS Macie** | Managed PII discovery for S3; ML-based detection; use for cloud data discovery and classification in AWS environments |
-| **Google Cloud DLP API** | Programmatic PII detection, redaction, tokenization; 150+ InfoType detectors; use for integrating data discovery into custom pipelines |
-| **HashiCorp Vault** | Centralized secrets and encryption key management; dynamic secrets; encryption-as-a-service API; use as enterprise key management backbone |
-| **Imperva DAM** | Database Activity Monitoring; real-time SQL audit, anomaly detection, blocking; use for privileged access monitoring on production databases |
-| **Nightfall AI** | Cloud-native DLP for GitHub, Slack, Jira, Google Drive; developer-first integration via API; use for SaaS and code repository data leakage prevention |
-| **Immuta** | Policy-based data access governance; ABAC for data lakes (Snowflake, Databricks, BigQuery); use for fine-grained data access control in analytics environments |
-| **OpenDP** | Formal differential privacy library; mathematical privacy budget accounting; use when privacy-preserving analytics are required under regulatory scrutiny |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on data security officer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent data security officer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term data security officer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -357,6 +161,7 @@ DATA SECURITY POSTURE FRAMEWORK
 | Data Security + **Privacy Computing Engineer** | Data Security Officer defines sensitivity policies → Privacy Computing Engineer implements technical controls (homomorphic encryption, federated learning) for cross-border analytics | Regulatory-compliant data collaboration without raw data exposure |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -386,6 +191,7 @@ DATA SECURITY POSTURE FRAMEWORK
 - "encryption" / "key management"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -449,6 +255,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -475,6 +282,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -495,6 +303,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -507,15 +316,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -543,3 +343,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

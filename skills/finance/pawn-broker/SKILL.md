@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,144 +128,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Collateral Valuation** — Assess items across categories (jewelry, electronics, instruments, collectibles) using wholesale, retail, and liquidation benchmarks
-2. **Loan Structuring** — Determine loan amount, interest rate, and term based on item risk, customer history, and market conditions
-3. **Authentication Detection** — Identify counterfeit, replica, altered, or stolen items through visual inspection, weight verification, and database checks
-4. **Risk Assessment** — Evaluate borrower creditworthiness, item marketability, and portfolio concentration risk
-5. **Compliance Management** — Ensure transactions comply with state pawn laws, federal regulations, and police cooperation requirements
-6. **Default Resolution** — Handle defaulted loans through proper notice, disposition, and documentation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Collateral Fraud** | 🔴 High | Customer provides counterfeit, stolen, or encumbered items as collateral | Authentication training, stolen property database checks, video surveillance |
-| **Market Value Collapse** | 🔴 High | Item value drops below loan amount (electronics, collectibles, commodities) | Conservative LTV, diversified collateral portfolio, rapid disposition capability |
-| **Legal/Regulatory Violation** | 🔴 High | Failure to comply with state licensing, reporting, or holding requirements | Regular compliance audits, legal counsel review, standardized procedures |
-| **Reputation Damage** | 🟡 Medium | Perceived predatory lending or handling of stolen goods | Transparent practices, community engagement, police cooperation |
-| **Inventory Loss** | 🟡 Medium | Damage, theft, or loss of held collateral | Secure storage, insurance, documentation of item condition |
-
-**⚠️ IMPORTANT:**
-- Pawn loans are high-risk, high-interest — ensure customers understand they may lose their item if they default
-- Stolen property handling can result in criminal liability — always run serial number checks and maintain detailed records
-- State laws vary significantly on holding periods, interest rates, and notification requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Loan-to-Value Matrix
-
-```
-                    ITEM CATEGORY
-                           │
-            ┌──────────────┴──────────────┐
-            ▼                              ▼
-    HIGH LIQUIDITY              LOW LIQUIDITY
-    (Gold, Electronics,         (Art, Collectibles,
-     Vehicles, Guns)             Custom Items)
-            │                              │
-    ┌───────┴───────┐              ┌───────┴───────┐
-    ▼               ▼              ▼               ▼
-  GOLD 60-70%    ELEC 40-50%    ART 30-40%    CUSTOM 25-35%
-    (Spot price)   (Wholesale)   (Auction)     (Consignment)
-    LTV: 60%       LTV: 45%      LTV: 35%      LTV: 30%
-    Risk: LOW      Risk: MED     Risk: HIGH    Risk: HIGH
-```
-
-Higher liquidity items support higher LTV; lower liquidity or volatile items require more conservative lending to ensure recovery in default.
-
-### 4.2 Guiding Principles
-
-1. **Loan to Liquidation, Not Retail**: If you must sell the item tomorrow at wholesale/auction, can you recover the loan? That is your maximum loan amount
-2. **Know Your Customer (KYC)**: Collect ID, photo, and thumbprint. Build a customer history database. Repeat customers with good history warrant better terms
-3. **Compliance is Non-Negotiable**: Every transaction must be defensible to police, regulators, and courts. Documentation is your shield
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Gold Testing Kit** | Verify gold karat weight and authenticity (acid test, electronic tester) |
-| **Gemological Loupe (10x)** | Examine jewelry for clarity, cut, and mounting quality |
-| **PawnMaster/PawnSoft** | Industry-standard pawn shop management software |
-| **eGold/Commodity Prices** | Real-time precious metals spot prices for gold/silver loans |
-| **Police Stolen Property DB** | Check serial numbers against reported thefts |
-| **Gun Serial Number Check** | NICS/ATF background for firearm collateral |
-| **Blue Book Values** | Vehicle, electronics, and instrument wholesale/retail values |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Valuation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Commodity-Based (Gold/Silver)** | Precious metals | (1) Weight → (2) Karat check → (3) Calculate gold content → (4) Apply spot price × purity × 70% |
-| **Wholesale Liquidation** | Electronics, appliances | (1) Identify model → (2) Check wholesale price guide → (3) Apply condition discount → (4) LTV at 40-50% |
-| **Comparable Sales** | Vehicles, art, collectibles | (1) Research recent sales → (2) Adjust for condition → (3) Apply auction/consignment discount → (4) Set LTV at 30-50% |
-| **Gun Blue Book** | Firearms | (1) Identify make/model/caliber → (2) Check Blue Book value → (3) Apply condition factor → (4) LTV per state limit |
-
-### 7.2 Loan Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Loan-to-Value (LTV)** | Loan Amount
-| **Interest Yield** | Interest Income
-| **Default Rate** | Defaulted Loans
-| **Recovery Rate** | Recovered Value
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Pawn Transaction
-
-```
-Phase 1: Customer Intake
-├── Verify customer identity (government-issued ID)
-├── Collect required information per state law (thumbprint, photo)
-├── Establish customer account in pawn system
-└── Review: New or returning customer?
-
-Phase 2: Item Evaluation
-├── Examine item for authenticity (visual, weight, markings)
-├── Research value using appropriate price guide
-├── Run serial number checks (stolen property, encumbrances)
-└── Document: Photos, condition notes, serial numbers
-
-Phase 3: Loan Structuring
-├── Calculate wholesale value and max loan amount
-├── Apply LTV guidelines based on item category and risk
-├── Present offer to customer with clear terms
-└── If accepted: Execute pawn ticket, store item securely
-
-Phase 4: Post-Loan
-├── Monitor for maturity (typically 30-60 day term)
-├── Process renewals or redemptions at maturity
-├── Send required notices per state law before default
-└── Handle defaulted items per disposition procedures
-```
-
-### 8.2 Default and Disposition
-
-```
-Step 1: Confirm default — check maturity date, sent notice per law
-Step 2: Hold required period — state law typically 30-90 days after notice
-Step 3: Transfer to disposition inventory — re-categorize and price
-Step 4: Sell at retail, wholesale auction, or scrap (jewelry)
-Step 5: Document sale, apply proceeds to loan + interest + fees
-Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to customer
-```
-
----
 
 ## 9.1 Jewelry Pawn — Gold Necklace
 
@@ -311,105 +174,6 @@ Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to cust
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on pawn broker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent pawn broker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term pawn broker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +199,7 @@ Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to cust
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -445,6 +210,7 @@ Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to cust
 | Pawn Broker + **Legal Counsel** | Complex title issue → Counsel advises on disposition rights | Compliant resolution |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -476,6 +242,7 @@ Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to cust
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -495,6 +262,7 @@ Expected: Verify model/authenticity, check wholesale value (typically $8,000-12,
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -515,6 +283,7 @@ Expected: Verify model/authenticity, check wholesale value (typically $8,000-12,
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -542,6 +311,7 @@ Expected: Verify model/authenticity, check wholesale value (typically $8,000-12,
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -562,6 +332,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -574,15 +345,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -610,3 +372,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

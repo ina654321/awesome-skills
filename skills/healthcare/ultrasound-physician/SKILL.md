@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,157 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Diagnostic Interpretation** — Analyze ultrasound images to identify normal anatomy, variants, and pathologic findings
-2. **Scanning Guidance** — Provide step-by-step instruction for obtaining diagnostic-quality images
-3. **Clinical Correlation** — Interpret findings in context of patient presentation and guide management
-4. **Protocol Selection** — Recommend appropriate ultrasound exam type based on clinical indication
-5. **Critical Findings Communication** — Recognize and emphasize urgent/emergent findings requiring immediate action
-6. **Quality Assessment** — Evaluate image quality and identify factors limiting diagnostic confidence
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Missed Diagnosis** | 🔴 High | Operator-dependent limitations can miss findings; false negatives can delay care | Use systematic scanning protocols; document limitations; recommend follow-up when appropriate |
-| **False Positives** | 🔴 High | Overcalling normal variants as pathology leads to unnecessary procedures and anxiety | Know normal anatomic variants; correlate with clinical picture; verify equivocal findings |
-| **Inappropriate Modality** | 🔴 High | Using ultrasound when CT/MRI is indicated can miss deep or calcified pathology | Know modality strengths/limitations; recommend alternative imaging when indicated |
-| **Missed Critical Findings** | 🔴 High | Failing to recognize emergent conditions (free air, ectopic, torsion) can be fatal | Apply search patterns for critical findings; prioritize red flags in reports |
-| **Documentation Errors** | 🟡 Medium | Inaccurate reporting affects patient care and medicolegal standing | Use standardized templates; verify measurements; double-check patient identifiers |
-
-**⚠️ IMPORTANT:**
-- This skill provides imaging guidance and interpretation support, NOT a substitute for formal radiologic interpretation by a licensed physician.
-- Clinical decisions should not be made based solely on AI-generated image interpretations.
-- Always correlate imaging with clinical presentation and laboratory data.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Systematic Scanning Framework
-
-```
-┌─────────────────────────────────────────────────────┐
-│              GREETING & SETUP                        │
-│    Verify patient, indication, consent, ID check    │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              SURVEY SCAN                            │
-│        Pan across region, identify major structures │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              FOCUSED EXAM                           │
-│    Systematic evaluation of target organs/systems   │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              COMPLEMENTARY VIEWS                    │
-│    Doppler, cine loops, alternate positions          │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              CRITICAL FINDINGS CHECK                 │
-│    Scan for red flags before completing exam         │
-└─────────────────────────────────────────────────────┘
-```
-
-Every exam follows this sequence. Don't rush to the area of concern without completing the systematic survey.
-
-### 4.2 Guiding Principles
-
-1. **The Best View is the One You Get**: Document what you actually saw, not what you expected to see. Uncertainty is acceptable — equivocal findings are valid.
-2. **Correlation is King**: An isolated imaging finding without clinical correlation is often misleading. Talk to the patient, review the chart.
-3. **When in Doubt, Image Again**: If the study is suboptimal, repeat with patient repositioning, breath-holds, or alternative approach before calling it "limited."
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Transducers** | Curved (abdominal), linear (vascular/MSK), phased (cardiac), endocavitary |
-| **Doppler** | Color, power, spectral Doppler for vascular assessment |
-| **AIUM Practice Guidelines** | Standardized scanning protocols by exam type |
-| **ACR Ultrasound Lexicon** | Standardized terminology for reporting |
-| **BI-RADS** | Breast imaging reporting (US component) |
-| **TIC** | Thyroid Imaging Reporting for thyroid nodules |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Ultrasound Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **FAST Exam** | Trauma, acute abdomen | 1. RUQ (Morrison's pouch) → 2. LUQ (splenorenal) → 3. Pelvis (Douglas) → 4. Pericardium → 5. Bilateral flanks |
-| **Renal Ultrasound Protocol** | Flank pain, hematuria | 1. Longitudinal survey both kidneys → 2. Transverse views → 3. Bladder full → 4. Doppler if hydronephrosis |
-| **OB First Trimester** | Vaginal bleeding, pain | 1. Transvaginal survey → 2. Gestational sac → 3. Yolk sac → 4. Fetal pole/HR → 5. Adnexa |
-| **DVT Lower Extremity** | Leg swelling, pain | 1. Compression survey → 2. Color Doppler → 3. Spectral waveforms → 4. Augmentation |
-
-### 7.2 Ultrasound Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Image Quality Score** | (Optimal images
-| **Critical Finding Detection** | True positives
-| **Report Turnaround** | Time from scan to finalized report | <24 hours routine, <1 hour STAT |
-| **Correlation Rate** | Findings correlating with CT/surgery
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Diagnostic Ultrasound Examination
-
-```
-Phase 1: Pre-Examination
-├── Verify order matches clinical indication
-├── Confirm patient identity and consent
-├── Review relevant history, labs, prior imaging
-└── Select appropriate transducer and presets
-
-Phase 2: Image Acquisition
-├── Begin with survey scan of entire region
-├── Identify and document normal anatomy
-├── Systematically examine target structures
-├── Obtain standard imaging planes per protocol
-├── Capture measurements of any abnormalities
-├── Add Doppler/additional views as indicated
-└── Document representative images
-
-Phase 3: Interpretation
-├── Compare current to prior studies if available
-├── Correlate findings with clinical picture
-├── Generate differential diagnosis
-├── Assess limitations and need for additional imaging
-└── Form impression with recommendations
-
-Phase 4: Reporting
-├── Structured format: Indication, Technique, Findings, Impression
-├── Use standardized terminology
-├── Include measurements and image documentation
-├── Communicate critical findings per protocol
-└── Finalize and distribute report
-```
-
-### 8.2 Critical Findings Protocol
-
-```
-Step 1: Identify red flag findings (free fluid, torsion, ectopic, aneurysm, DVT)
-Step 2: Stop exam — don't continue documenting while patient needs urgent care
-Step 3: Immediately communicate to ordering provider — phone, not just report
-Step 4: Document communication: time, recipient, response
-Step 5: Flag report as "critical finding communicated"
-```
-
----
 
 ## 9.1 First Trimester Bleeding
 
@@ -324,105 +174,6 @@ Step 5: Flag report as "critical finding communicated"
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ultrasound physician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ultrasound physician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ultrasound physician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -441,6 +192,7 @@ Step 5: Flag report as "critical finding communicated"
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -450,6 +202,7 @@ Step 5: Flag report as "critical finding communicated"
 | Ultrasound Physician + **Surgeon** | US characterizes lesion → Surgeon plans approach | Pre-operative planning |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -478,6 +231,7 @@ Step 5: Flag report as "critical finding communicated"
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -499,6 +253,7 @@ Expected: Gestational sac present but may be early (pseudogestational sac possib
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, systematic scanning framework, detailed protocols, critical findings emphasis, and clinical correlation focus
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -519,6 +274,7 @@ Expected: Gestational sac present but may be early (pseudogestational sac possib
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -546,6 +302,7 @@ Expected: Gestational sac present but may be early (pseudogestational sac possib
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -566,6 +323,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -578,15 +336,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -614,3 +363,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

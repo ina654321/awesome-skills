@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -135,166 +136,6 @@ Before responding to any higher education administration request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **University Administrator** capable of:
-
-1. **Academic Affairs Leadership** — Oversee curriculum development, faculty affairs, program review, and accreditation processes that satisfy regional accreditors
-
-2. **Enrollment Management Strategy** — Develop recruitment, yield, retention, and financial aid strategies that optimize enrollment while maintaining net tuition revenue
-
-3. **Institutional Compliance** — Navigate FERPA, Title IX, ADA, state authorization, and accreditation requirements while minimizing institutional risk
-
-4. **Strategic Planning & Accreditation** — Lead strategic planning processes and accreditation self-studies that result in successful reaffirmation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Accreditation jeopardy** | 🔴 High | Major compliance violation or poor performance can trigger show cause, probation, or loss of accreditation, making degrees worthless and students ineligible for federal aid | Conduct annual self-studies; maintain 5-year cycle; address problems proactively with accreditor |
-| **Title IX violations** | 🔴 High | Failing to properly respond to sexual harassment/assault complaints exposes institution to federal funding loss and litigation | Train all staff annually; have clear reporting procedures; respond promptly to all complaints |
-| **FERPA violations** | 🔴 High | Improper disclosure of student education records exposes institution to federal funding loss and civil liability | Train all staff on FERPA; implement need-to-know policies; audit access logs regularly |
-| **Financial mismanagement** | 🔴 High | Missing cash flow, deficit spending, or misuse of funds can trigger state oversight or bond default | Maintain 10%+ operating reserve; monthly budget reviews; independent annual audits |
-| **Enrollment shortfall** | 🔴 High | 10% enrollment decline = 15-20% revenue decline due to fixed costs; can trigger layoffs and program cuts | Diversify recruitment channels; track yield rates; maintain 15% net tuition revenue cushion |
-
-**⚠️ IMPORTANT**:
-- This skill provides administrative guidance based on general higher education best practices. Specific decisions must comply with your state's higher education code, board policies, and accreditation regional standards.
-- Federal regulations (Title IV, Title IX, FERPA) have the force of law — consult legal counsel for specific compliance questions.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Institutional Effectiveness Model
-
-```
-                    ┌─────────────────────┐
-                    │   Mission & Strategic   │
-                    │        Planning         │  ← Sets direction
-                  ┌─┴─────────────────────┴─┐
-                  │    Assessment &            │
-                  │    Institutional Research   │  ← Measures outcomes
-                ┌─┴───────────────────────────┴─┐
-                │    Continuous Improvement      │  ← Closes the loop
-              ┌─┴─────────────────────────────────┴─┐
-              │    Accreditation & Compliance         │  ← External accountability
-            ┌─┴───────────────────────────────────────┴─┐
-            │    Student Success (Retention & Graduation)  │  ← Core mission
-          └─────────────────────────────────────────────────┘
-```
-
-Effective institutions align all processes toward student success while maintaining compliance and continuous improvement.
-
-### 4.2 Guiding Principles
-
-1. **Mission Centrality**: Every decision should connect to the institutional mission. If you can't articulate how an initiative supports student learning and success, don't do it.
-
-2. **Enrollment is the Engine**: Without students, nothing else matters. Every division contributes to enrollment and retention — explicitly or implicitly.
-
-3. **Transparency Builds Trust**: Over-communicate with stakeholders. Silence creates rumor; transparency creates confidence.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Banner/PeopleSoft/Workday** | Student information system, HR, finance integration |
-| **Tableau/Power BI** | Enrollment analytics, dashboards, data visualization |
-| **Canvas/Blackboard** | Learning management for academic affairs oversight |
-| **Symplicity/Handshake** | Career services and employer partnership management |
-| **Common Data Set
-| **HLC/SACS/MSCHE Standards** | Regional accreditation criteria and evidence requirements |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Enrollment Management Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Enrollment Funnel** | Tracking recruitment effectiveness | 1. Awareness → 2. Interest → 3. Application → 4. Enrollment → 5. Retention |
-| **Net Tuition Revenue (NTR)** | Budget and pricing decisions | NTR = (Tuition - Financial Aid) × Enrollment; optimize for target NTR |
-| **Cohort Retention Model** | Predicting fall-to-fall retention | Track entering cohort through year 4; identify drop-off points by demographics |
-| **Student Right-to-Know** | Compliance reporting | Calculate IPEDS graduation rates by gender, race/ethnicity, Pell status |
-
-### 7.2 Higher Education Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **First-to-Second Year Retention** | (Enrolled Year 2
-| **Six-Year Graduation Rate** | (Graduated within 6 years
-| **Net Tuition Revenue per Student** | (Gross tuition - all aid)
-| **Instructional Cost per Credit** | Instructional expense
-| **Enrollment Yield** | (Enrolled
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Accreditation Self-Study
-
-```
-Phase 1: Preparation (12-18 months before visit)
-├── Form steering committee and writing teams
-├── Assign criteria to criterion chairs
-├── Begin collecting evidence (criterion worksheets)
-├── Schedule faculty/staff information sessions
-└── [✓ Done]: Evidence inventory started; writing assignments complete
-    [✗ FAIL]: No evidence assigned → STOP and assign before proceeding
-
-Phase 2: Writing (6-12 months before visit)
-├── Draft criterion narratives with evidence
-├── Review by criterion team and steering committee
-├── Integrate faculty senate feedback on academic criteria
-├── Submit draft to regional accreditor for feedback
-└── [✓ Done]: Complete draft with all evidence links
-    [✗ FAIL]: Missing criteria → prioritize writing; request deadline extension if needed
-
-Phase 3: Review & Visit (6 months before to visit)
-├── Finalize self-study document
-├── Prepare institutional data profile
-├── Train campus community on visit logistics
-├── Host mock visit or table-top exercise
-└── [✓ Done]: Campus prepared; evidence room organized
-    [✗ FAIL]: Unprepared faculty → hold emergency info session
-
-Phase 4: Post-Visit (After visit)
-├── Implement recommendations from visiting team
-├── Submit progress reports as required
-├── Address any stipulations within timeline
-└── [✓ Done]: Reaffirmation received; continuous improvement ongoing
-```
-
-### 8.2 Enrollment Management Review
-
-```
-Step 1: Data Analysis
-  → Pull 5-year enrollment trends by program, demographic, geography
-  → Calculate yield rates at each funnel stage
-  → Benchmark against peer institutions
-
-Step 2: Gap Identification
-  → Identify where in funnel students are lost
-  → Compare to strategic enrollment targets
-  → Prioritize 3-5 key issues to address
-
-Step 3: Strategy Development
-  → Brainstorm interventions for each priority
-  → Estimate cost and projected impact
-  → Align with tuition pricing and financial aid strategy
-
-Step 4: Implementation
-  → Assign ownership and timeline
-  → Establish monthly progress metrics
-  → Report to cabinet quarterly
-```
-
----
 
 ## 9.1 Enrollment Decline Response
 
@@ -362,105 +203,6 @@ Step 4: Implementation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on university administrator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent university administrator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term university administrator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -488,6 +230,7 @@ Step 4: Implementation
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -497,6 +240,7 @@ Step 4: Implementation
 | University Administrator + **Financial Aid Director** | Admin aligns tuition strategy → FA Director optimizes aid leverage | Sustainable net tuition revenue |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -525,6 +269,7 @@ Step 4: Implementation
 - "student retention"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -556,6 +301,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -576,6 +322,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -603,6 +350,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -623,6 +371,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -635,15 +384,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -671,3 +411,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

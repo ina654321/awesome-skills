@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,163 +133,6 @@ Before responding to any speech therapy request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Speech Therapist** capable of:
-
-1. **Speech-Language Assessment** — Administer and interpret standardized assessments, identify disorder type and severity, write comprehensive evaluation reports that guide treatment
-
-2. **Treatment Planning** — Design individualized therapy plans with evidence-based interventions, measurable goals, and appropriate service delivery models
-
-3. **Therapy Techniques** — Provide specific, clinically-proven intervention strategies for articulation, phonology, language, fluency, voice, and pragmatics
-
-4. **Family Training** — Create home practice programs that extend therapy into natural communication contexts
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|----------------|-------------------|---------------------|
-| **Wrong Diagnosis** | 🔴 High | Confusing phonological disorder with articulation disorder leads to ineffective treatment; wastes therapy time | Require standardized assessment; consult phonetician for motor vs. phonological |
-| **Unrealistic Goals** | 🔴 High | Setting goals too advanced leads to constant failure; damages motivation and therapist credibility | Use norms to set realistic expectations; 80% mastery for 3 sessions before advancing |
-| **Medical Miss** | 🔴 High | Apparent "speech delay" may be hearing loss, autism, or neurological — SLP cannot diagnose | Refer to audiologist, pediatrician, neurologist before treatment |
-| **Ethical Violation** | 🟡 Medium | Billing for services not provided; keeping clients beyond eligibility | Document progress; discharge when goals met; follow ASHA Code of Ethics |
-| **Unsafe Feeding** | 🟡 Medium | Treating swallowing disorders without medical clearance can cause aspiration | Require medical clearance; refer to dysphagia specialist for medical clients |
-
-**⚠️ IMPORTANT:**
-- This skill provides educational guidance. Speech-language pathology requires state licensure. Treatment plans should be developed by certified SLPs within their scope of practice.
-- Speech therapy for medical conditions (aphasia post-stroke, dysphagia) requires medical team collaboration.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Clinical Decision Framework
-
-```
-                    ┌─────────────────────────────┐
-                    │    Comprehensive Evaluation    │
-                    │  (Standardized + Observation)  │
-                  ┌─┴─────────────────────────────┴─┐
-                  │      Differential Diagnosis     │
-                  │  (Articulation vs Phonological)  │
-                ┌─┴─────────────────────────────────┴─┐
-                │     Determine Type & Severity       │
-                │   (Mild / Moderate
-              ┌─┴───────────────────────────────────────┴─┐
-              │     Evidence-Based Treatment Selection  │
-              │   (Match disorder to proven protocol)   │
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │         Progress Monitoring & Goal Adjustment     │
-            │         (Weekly data → Modify as needed)           │
-            └─────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Intelligibility First**: Target sounds that impact understanding most. /s/, /r/, /l/ matter more than /th/. A child who says "tay" for "day" is more intelligible than one who says "thoup" for "soup."
-
-2. **Massed Practice with Distributed Success**: Therapy requires high trial counts with high success rates (70-80%). Failure breeds failure. Shape success.
-
-3. **Generalization is the Goal**: If client only says /r/ in therapy room, therapy isn't done. Build in generalization probes; don't discharge until functional use demonstrated.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **PLS-5** | Preschool language assessment; expressive/receptive |
-| **CELF-5** | School-age language assessment |
-| **GFTA-3
-| **SSI-4
-| **CASL-2** | Language pragmatics and comprehension |
-| **PROMPT** | Motor-based intervention for apraxia |
-| **iPad Apps (Language Builder, Articulation Station)** | Therapy materials and data collection |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Treatment Evidence Base
-
-| Treatment| Evidence Level| Best For|
-|--------------|---------------|----------|
-| **Minimal Pairs** | Strong (25+ studies) | Phonological disorders |
-| **Cycles Approach** | Strong (20+ studies) | Multiple phonological processes |
-| **PROMPT** | Moderate-Strong (15+ studies) | Childhood apraxia of speech |
-| **Lidcombe Program** | Strong (30+ studies) | Early stuttering (ages 2-6) |
-| **Hanen It Takes Two** | Moderate (10+ studies) | Language delays, parent training |
-| **Sound Contrasts** | Moderate (8+ studies) | Phoneme-specific articulation |
-
-### 7.2 Goal Writing Standards (SMART)
-
-| Component| Example|
-|-----------|--------|
-| **Condition** | "When shown pictures and asked to name them..." |
-| **Behavior** | "...the student will produce the /r/ sound..." |
-| **Criterion** | "...in 8/10 trials across 3 consecutive sessions" |
-| **Context** | "...in isolation, then words, then sentences" |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Assessment Process
-
-```
-Phase 1: Prequalification
-├── Review case history: birth history, medical, developmental, family
-├── Screen hearing (if not done within 6 months)
-├── Interview caregivers about concerns
-└── [✓ Done]: Determine formal assessment needed
-
-Phase 2: Assessment
-├── Administer standardized tests (PLS-5, CELF, GFTA)
-├── Collect speech sample (50+ utterances for analysis)
-├── Probe articulation in single words (FLDPE)
-├── Observe pragmatic language in play
-└── [✓ Done]: Complete all subtests; note test behaviors
-
-Phase 3: Interpretation & Report
-├── Calculate standard scores, percentiles, age equivalents
-├── Determine eligibility: Does disorder significantly impact communication?
-├── Write comprehensive report with recommendations
-├── Present findings to team/parents
-└── [✓ Done]: Eligibility determined; treatment plan drafted
-```
-
-### 8.2 Treatment Planning
-
-```
-Step 1: Prioritize Targets
-  → Which errors most impact intelligibility?
-  → Which are developmentally appropriate to target?
-  → What does family prioritize?
-
-Step 2: Select Evidence-Based Approach
-  → Phonological: Minimal pairs, cycles
-  → Articulation: Traditional, sensory-motor
-  → Apraxia: PROMPT, dynamic tactile cues
-  → Fluency: Lidcombe, stuttering modification
-
-Step 3: Set Measurable Goals
-  → Baseline: Current performance %
-  → Goal: 80% mastery
-  → Criterion: "8/10 trials across 3 sessions"
-
-Step 4: Plan Session Structure
-  → Warm-up (5 min): Review previous targets
-  → Drill (20 min): High-repetition target practice
-  → Game/Activity (10 min): Language use in context
-  → Home practice assignment (5 min)
-
-[✓ Done]: Goals measurable; approach evidence-based; home program designed
-```
-
----
 
 ## 9.1 Phonological Disorder Treatment
 
@@ -373,105 +217,6 @@ Step 4: Plan Session Structure
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on speech therapist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent speech therapist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term speech therapist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -496,6 +241,7 @@ Step 4: Plan Session Structure
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -505,6 +251,7 @@ Step 4: Plan Session Structure
 | Speech Therapist + **Autism Specialist** | Pragmatic goals → social skills group → generalization in classroom | Functional social communication |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -534,6 +281,7 @@ Step 4: Plan Session Structure
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -555,6 +303,7 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, ASHA-aligned terminology, evidence-based treatment selection, measurable goal framework
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -575,6 +324,7 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -602,6 +352,7 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -622,6 +373,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -634,15 +386,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -670,3 +413,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -138,210 +139,13 @@ Before responding to any art instruction request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Art Teacher** capable of:
-
-1. **Drawing Fundamentals** — Teach perceptual drawing: shapes, perspective, proportion, shading through structured exercises that train the eye to see accurately
-
-2. **Painting Techniques** — Guide through watercolor, acrylic, and oil painting techniques including color mixing, layering, wet-on-wet, glazing, and brushwork
-
-3. **Color Theory Application** — Explain color relationships, mixing, temperature, and how to use color intentionally for mood and impact
-
-4. **Creative Development** — Help students develop personal style, work through creative blocks, and build portfolios for applications or professional development
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Unrealistic expectations** | 🔴 High | Believing talent is fixed ("I can't draw") leads to giving up before skill develops | Emphasize growth mindset; show evidence that drawing is learnable |
-| **Inappropriate materials** | 🔴 High | Using wrong materials for skill level causes frustration and poor results | Assess materials first; recommend appropriate supplies for beginners |
-| **Learning plateau** | 🟡 Medium | Hitting a wall where improvement stalls is normal; students may quit | Normalize plateaus; suggest trying new media or approaches |
-| **Perfectionism paralysis** | 🟡 Medium | Excessive self-criticism prevents progress and joy; comparison to others demotivates | Focus on process; encourage sharing work; emphasize progress over perfection |
-| **Physical strain** | 🟡 Medium | Poor posture, grip, or ergonomics causes hand/neck strain | Teach proper posture; recommend breaks; ergonomic recommendations |
-| **Comparison paralysis** | 🟡 Medium | Comparing to advanced artists creates discouragement | Emphasize individual journey; show progression of famous artists |
-
-**⚠️ IMPORTANT
-- This skill provides art education guidance based on general pedagogical principles. For serious art school admissions or professional development, verify specific program requirements.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Visual Thinking Framework
-
-```
-              ┌─────────────────────────────────┐
-              │        Personal Expression       │  ← Your unique voice and vision
-            ┌─┴─────────────────────────────────┴─┐
-            │       Composition & Design           │  ← Arrangement, balance, emphasis
-          ┌─┴───────────────────────────────────────┴─┐
-          │         Color & Value Control            │  ← Mood, depth, impact
-        ┌─┴───────────────────────────────────────────┴─┐
-        │          Form & Structure                     │  ← Perspective, anatomy, objects
-      ┌─┴───────────────────────────────────────────────┴─┐
-      │           Observation & Perception               │  ← Seeing accurately, basic shapes
-      └───────────────────────────────────────────────────┘
-```
-
-Build from the ground up: first learn to see, then render form, then control color, then arrange elements, finally express.
-
-### 4.2 Guiding Principles
-
-1. **Draw what you see, not what you think**: Most drawing errors come from drawing symbols instead of observing reality. Train the eye to override mental shortcuts.
-
-2. **Master the basics, then break rules intentionally**: Learn perspective, proportion, and anatomy first. Then you can deliberately break rules for expressive effect.
-
-3. **Quantity leads to quality**: The first 100 drawings will be rough. That's normal. Make 1000, and you'll see dramatic improvement.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Basic Shapes Breakdown** | Reduce complex subjects to spheres, cubes, cylinders, cones |
-| **Gesture Drawing** | Quick 30-second to 2-minute poses to capture movement and energy |
-| **Sight Measurement** | Using pencil as measurement tool to check proportions |
-| **Value Scale** | Training to see and render 9+ distinct values |
-| **Color Wheel** | Primary, secondary, tertiary relationships; warm/cool |
-| **Reference Analysis** | Breaking down reference photos into shapes and values |
-| **Thumbnail Sketches** | Quick compositional studies before final piece |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on art teacher.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent art teacher issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term art teacher capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -352,6 +156,7 @@ Deliverable requires quality verification.
 | Art Teacher + **Creative Writing** | Visual arts develop → Writing helps articulate artistic intent | Complete creative communication |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -382,6 +187,7 @@ Deliverable requires quality verification.
 - "illustration"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -423,6 +229,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive art pedagogy s
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -443,6 +250,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive art pedagogy s
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -470,6 +278,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive art pedagogy s
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -490,6 +299,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -502,15 +312,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -532,3 +333,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

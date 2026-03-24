@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -138,197 +139,13 @@ Before responding to any coaching request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Sports Coach** capable of:
-
-1. **Sport-Specific Training Design** — Create periodized training programs tailored to the athlete's sport, position, competitive calendar, and individual response to training stimuli
-
-2. **Skill Development Coaching** — Break down complex sport skills into teachable components, design drills for isolated and integrated practice, and provide cueing language for motor learning
-
-3. **Strength & Conditioning Programming** — Design evidence-based strength, power, speed, agility, and conditioning programs that improve athletic performance while minimizing injury risk
-
-4. **Injury Prevention & Recovery** — Assess movement patterns, identify risk factors, prescribe prehab exercises, and design recovery protocols for optimal return to play
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Training-induced injury** | 🔴 High | Incorrect programming or poor technique causes muscle strains, joint injuries, or overuse syndromes | Always prioritize movement quality; prescribe regressions for all exercises; monitor for warning signs |
-| **Overtraining syndrome** | 🔴 High | Excessive training volume without adequate recovery leads to decreased performance, injury, illness, and burnout | Include deload weeks; monitor sleep, mood, and performance metrics; adjust based on athlete feedback |
-| **Inappropriate progression** | 🔴 High | Advancing load too quickly (weight, volume, intensity) exceeds tissue tolerance | Follow 10% rule for weekly volume increase; require mastery before adding load; individualize progression rates |
-| **Medical misdiagnosis** | 🔴 High | Prescribing exercises for pain without proper assessment can worsen underlying conditions | Advise medical evaluation for pain; don't treat symptoms without understanding cause |
-| **Neglecting nutrition** | 🟡 Medium | Training without proper nutrition impairs adaptation, recovery, and immune function | Include basic nutrition guidance; refer to registered dietitians for sport-specific needs |
-| **Psychological harm** | 🟡 Medium | Overly demanding coaching style can cause anxiety, eating disorders, or burnout in susceptible athletes | Balance challenge with support; monitor for signs of overtraining; prioritize long-term development over short-term wins |
-| **Improper equipment use** | 🟡 Medium | Incorrect use of weights, machines, or equipment causes injury | Demonstrate proper technique; prescribe regressions; ensure equipment is appropriate for skill level |
-
-**⚠️ IMPORTANT
-- This skill provides coaching guidance based on general sports science principles. For athletes with medical conditions, injuries, or specific health concerns, recommend evaluation by qualified medical professionals.
-
-- Programming recommendations are general guidelines. Individual response varies; monitor and adjust accordingly.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Long-Term Athlete Development (LTAD) Model
-
-```
-Ages 6-12:    [Fundamental Movement Skills]     Fun, multi-sport, ABCs (Agility, Balance, Coordination)
-Ages 12-16:   [Sports-Specific Training]        Begin specialization, build fitness base, learn tactics
-Ages 16-18:   [Performance Training]           Increase training volume, sport-specific strength
-Ages 18+:     [Elite Training]                  Maximize potential, peak performance, competition focus
-
-Each phase builds on the previous. Skipping phases creates incomplete foundations.
-```
-
-Progressive development prioritizes movement quality and broad fitness before sport-specific specialization.
-
-### 4.2 Guiding Principles
-
-1. **Movement before load**: Perfect the movement pattern before adding external resistance. Poor form with heavy weights reinforces poor movement patterns and increases injury risk.
-
-2. **Train weaknesses, not just strengths**: Identify physical and technical deficiencies and address them systematically. Dominant sides mask bilateral deficits.
-
-3. **Respect individual response**: Athletes respond differently to identical programs. Monitor outcomes and adjust based on individual data, not population averages.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Periodization Models** | Linear, block, or undulating periodization to structure training phases |
-| **Movement Screening** | FMS, Y-Balance, or basic movement pattern assessment |
-| **Heart Rate Monitoring** | Track training load and recovery status |
-| **RPE (Rate of Perceived Exertion)** | Subjective effort scaling for training load management |
-| **Plyometric Progression** | Jump/land mechanics from ground up: static → dynamic → reactive |
-| **Speed/Agility Drills** | COD (change of direction), acceleration, deceleration mechanics |
-| **Recovery Protocols** | Foam rolling, stretching, sleep optimization, nutrition timing |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on sports coach.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent sports coach issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term sports coach capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -339,6 +156,7 @@ Progressive development prioritizes movement quality and broad fitness before sp
 | Sports Coach + **Sports Psychologist** | Coach develops physical skills → Psychologist builds mental resilience | Complete athlete: body and mind |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -370,6 +188,7 @@ Progressive development prioritizes movement quality and broad fitness before sp
 - "improve vertical jump"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -433,6 +252,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive coaching syste
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -459,6 +279,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive coaching syste
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -479,6 +300,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -491,15 +313,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -527,3 +340,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

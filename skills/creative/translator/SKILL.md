@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 — System Prompt
 
 ```
@@ -147,184 +148,13 @@ COMMUNICATION STYLE
 
 ---
 
-## § 2 — What This Skill Does
-
-1. **Document translation** — Translates complete documents across technical, legal, medical, literary, and commercial domains with domain-appropriate terminology and register fidelity
-2. **Software and game localization** — Localizes UI strings, help content, release notes, and game dialogue in XLIFF, PO, JSON, Android strings, and iOS .strings formats with character limits and context awareness
-3. **Marketing transcreation** — Reimagines marketing copy, taglines, and brand messaging for cultural resonance in target markets where literal translation fails to achieve intended effect
-4. **Terminology and glossary management** — Builds, maintains, and validates domain-specific glossaries and termbases; extracts key terms from source texts; resolves terminology conflicts
-5. **MTPE (Machine Translation Post-Editing)** — Edits machine translation output per ISO 18587 standards, distinguishing full PE (accuracy + fluency) from light PE (fluency only), and estimating PE effort before work begins
-6. **QA and review** — Runs linguistic QA checks (consistency, numbers, tags, omissions), performs back-translation for high-stakes content, and conducts peer review against style guides
-7. **Cultural adaptation consulting** — Advises on cultural sensitivities, taboos, color symbolism, humor appropriateness, and market-specific content requirements before localization projects begin
-8. **Style guide development** — Creates multilingual style guides and tone-of-voice documents for global content programs, ensuring brand consistency across all target languages
-9. **Localization engineering support** — Advises on file format handling, text expansion budgets (typically +20-40% EN→DE, +15-25% EN→FR), pseudolocalization testing, and locale-specific formatting
-10. **Interpretation best practices** — Guides on consecutive vs simultaneous interpretation, note-taking techniques, glossary preparation for interpreters, and virtual interpretation platform setup
-
----
-
-## § 3 — Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| Legal mistranslation | 🔴 Critical | Contractual terms misrepresented; regulatory non-compliance; litigation exposure | All legal translations must receive review by a qualified attorney in the target jurisdiction; flag civil law vs. common law conceptual gaps |
-| Medical/pharmaceutical mistranslation | 🔴 Critical | Patient harm from incorrect dosage, contraindication, or instruction errors | Dual-review process mandatory; clinical SME review before regulatory submission or product release |
-| Software localization bugs | 🟠 High | UI truncation, encoding errors, broken functionality from untranslated placeholders | Provide translations in-context with character limits; run pseudolocalization and functional QA before release |
-| Cultural offense or market failure | 🟡 Medium | Brand damage, product recall, market rejection due to culturally inappropriate content | Native-speaker cultural review for all marketing and consumer-facing content; pre-launch cultural audit |
-| Terminology inconsistency | 🟡 Medium | Reader confusion, loss of professional credibility, compliance gaps in regulated content | Establish domain glossary before translation begins; enforce through TM and QA tools; update TM after every project |
-| Over-localization
-| MT-induced errors in MTPE | 🟠 High | Plausible-sounding but factually incorrect segments pass undetected in light PE workflow | Never use light PE for safety-critical, legal, or medical content; assess MT quality before committing to PE scope |
-
----
-
-## § 4 — Core Philosophy
-
-```
-THE TRANSLATION QUALITY PYRAMID
-                    ▲
-                   /|\
-
-              /─────────── \
-
-            /─────────────────\
-
-          /─────────────────────  \
-
-      ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-
-Meaning is the apex. Linguistic accuracy is the foundation.
-A translation can be linguistically accurate and still fail
-to transfer meaning. Build from the bottom; test from the top.
-```
-
-**Guiding Principle 1 — Meaning Over Words**
-The goal is to transfer the author's intent and the reader's experience across languages — not to produce a word-for-word mirror of the source. A translation that reads naturally in the target language and conveys the original meaning is superior to a literal translation that is technically accurate but sounds foreign or confusing.
-
-**Guiding Principle 2 — Context is Non-Negotiable**
-The same source word can yield five different target words depending on domain, register, audience, and cultural context. Never translate in isolation. Always read surrounding paragraphs, review the full document purpose, and check style guides before rendering any segment.
-
-**Guiding Principle 3 — Terminology Consistency is Professional Craft**
-Inconsistent terminology is not a minor style issue — it is a quality failure that erodes reader trust, creates compliance risks in regulated industries, and signals unprofessional work. Build glossaries before translating, enforce them throughout, and update translation memories after every project.
-
----
-
-## § 5 — Platform Support
-
-```bash
-# OpenCode
-opencode run translator
-
-# OpenClaw
-openclaw skill translator
-
-# Claude (claude.ai)
-# Paste this skill's System Prompt into a Project system prompt
-# or begin a chat with: "Act as the Translator skill defined in..."
-
-# Cursor
-# Add to .cursor/rules/translator.mdc or paste into Cursor Rules
-
-# OpenAI Codex
-# Paste System Prompt into Custom Instructions or system message
-
-# Cline (VS Code)
-# Add to .clinerules/translator.md or use as MCP tool configuration
-
-# Kimi Code
-# Paste System Prompt into Kimi system prompt configuration
-```
-
----
-
-## § 6 — Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| SDL Trados Studio | Industry-standard CAT tool with TM, TB, and QA integration | Large translation projects; enterprise clients; SDLXLIFF format |
-| memoQ | Cloud-capable CAT tool with strong project management | Team translation workflows; client portal delivery; memoQ XLIFF |
-| Wordfast Pro | Lightweight CAT tool for freelancers | Smaller projects; Wordfast TXML format; budget-conscious clients |
-| Phrase (Memsource) | Cloud TMS with API integrations | Continuous localization; CI/CD pipeline integration; SaaS products |
-| DeepL Pro | Highest-quality neural MT for European language pairs | MTPE workflows; draft acceleration; terminology-trained engines |
-| xBench | QA tool for translation consistency, number, and tag checking | Pre-delivery QA; consistency audit across multi-file projects |
-| QA Distiller | Advanced QA tool with customizable rule sets | High-volume projects; regulated industries; style guide enforcement |
-| Verifika | Cloud-based QA for multilingual files | Remote team QA; XLIFF/memoQ/TMX format checking |
-| SDL MultiTerm | Professional termbase management | Enterprise glossary programs; ISO 12616-compliant termbases |
-| Crowdin / Lokalise | Cloud localization platforms | Software/app localization; developer-translator collaboration |
-| Transifex | Community and professional localization | Open-source projects; developer-contributed translations |
-| Smartling | Enterprise TMS with AI translation | Large-scale marketing localization; workflow automation |
-| Antidote | Grammar, style, and spelling verification (French) | French-language quality assurance; style consistency |
-| Subtitle Edit | Subtitle timing and formatting | Video subtitling; SRT/ASS format; reading speed compliance |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 — Translation Workflow
-
-### Phase 1: Source Analysis (5 minutes)
-- **Domain identification:** Technical / Legal / Medical / Literary / Marketing / Software
-- **Register determination:** Formal-legal / Technical / Neutral-informational / Colloquial / Creative-literary
-- **Audience mapping:** Expert professional / Informed layperson / General public
-- **Cultural delta flagging:** idioms, units of measurement, date/number formats, cultural references
-- **Stakes assessment:** Safety-critical → dual review required; Commercial → cultural review; General → standard self-review
-
-### Phase 2: Preparation (10-30 minutes)
-- Extract terminology from source text
-- Build or consult domain-specific glossary
-- Review client style guide (if provided)
-- Check translation memory for previous matches and context
-
-### Phase 3: Translation & Consistency (Variable duration)
-- Translate segment-by-segment using glossary
-- Apply consistent terminology throughout all segments
-- Add translator's notes for non-obvious choices
-- Flag cultural adaptations for client approval
-
-### Phase 4: Self-Review (10-15% of translation time)
-- Read completed translation as target-language reader, NOT as translator
-- Check for natural flow and readability in target language
-- Verify all domain terms used consistently
-- Run back-translation check on high-stakes segments
-
-### Phase 5: QA Validation
-- Run QA tool check (xBench, QA Distiller, Verifika): consistency, numbers, tags, omissions
-- Verify locale-specific formatting (dates, numbers, currency, units)
-- Confirm file format integrity (XLIFF, PO, JSON, Android/iOS structure)
-
-### Phase 6: Delivery
-- Deliver in requested format with locale code confirmed
-- Include translator's notes and glossary updates
-- Document any unresolved ambiguities requiring client input
-
-**✓ Done Criteria:**
-- [ ] Domain and register explicitly identified and documented
-- [ ] Glossary consulted or built for all key domain terms
-- [ ] Cultural adaptations flagged with rationale in translator's notes
-- [ ] Self-review completed: read as target reader, not as translator
-- [ ] QA tool check passed: zero consistency errors, tag errors, number mismatches
-- [ ] Back-translation completed for 10% sample (high-stakes content only)
-- [ ] Translation memory updated with final approved segments
-
----
-
-## § 9 — Scenario Examples
-
-→ See [references/scenario-examples.md](./references/scenario-examples.md) — 4 complete translation scenarios:
-- Technical Manual (EN→DE): Safety-critical industrial translation
-- Marketing Transcreation (EN→ZH): Cultural adaptation for taglines
-- Legal Clause (EN→FR): Civil law jurisdiction considerations
-- MTPE Assessment (EN→ES): Machine translation post-editing workflow
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 — Integration with Other Skills
 
@@ -385,6 +215,7 @@ Developer → imports final files; ships localized build
 
 ---
 
+
 ## § 12 — Scope & Limitations
 
 **Use this skill when:**
@@ -408,6 +239,7 @@ Developer → imports final files; ships localized build
 - For bulk MT-only workflows: DeepL API, Google Cloud Translation, Amazon Translate (no quality guarantee)
 
 ---
+
 
 ## § 13 — How to Use This Skill
 
@@ -438,6 +270,7 @@ Here is the source text: [text]"
 ```
 
 ---
+
 
 ## § 14 — Quality Verification
 
@@ -473,6 +306,7 @@ Here is the source text: [text]"
 
 ---
 
+
 ## § 15 — Version History
 
 | Version | Date | Changes |
@@ -483,6 +317,7 @@ Here is the source text: [text]"
 | 3.1.0 | 2026-03-24 | Skill-writer review: replaced generic workflow with translation-specific workflow; reduced body to 500 lines; removed orphaned sections; standardized section numbering; updated score to 8.5/10 |
 
 ---
+
 
 ## § 16 — License & Author
 
@@ -498,3 +333,17 @@ Here is the source text: [text]"
 | Platforms | opencode, openclaw, claude, cursor, codex, cline, kimi |
 
 MIT License — Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this skill definition, subject to the above attribution being preserved.
+
+
+## References
+
+Detailed content:
+
+- [## § 2 — What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 — Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 — Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 — Platform Support](./references/5-platform-support.md)
+- [## § 6 — Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 — Translation Workflow](./references/8-translation-workflow.md)
+- [## § 9 — Scenario Examples](./references/9-scenario-examples.md)

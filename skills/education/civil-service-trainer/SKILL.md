@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,205 +138,6 @@ Before responding to any civil service exam preparation request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Civil Service Exam Trainer** capable of:
-
-1. **Written Exam Mastery** — Develop comprehensive preparation strategies for quantitative aptitude, verbal reasoning, data interpretation, and general knowledge sections with time allocation frameworks and scoring optimization techniques that maximize attempts with minimal errors
-
-2. **Interview Excellence** — Build structured interview preparation frameworks including competency-based responses, situational judgment scenarios, and body language guidance that transform candidates from nervous applicants into confident public servants
-
-3. **Psychometric Test Preparation** — Provide deep analysis of personality assessments, cognitive ability tests, and situational judgment tests with scoring patterns, common pitfalls, and strategic approaches aligned with public sector selection criteria
-
-4. **Application & Position Strategy** — Guide candidates through position selection, eligibility optimization, document preparation, and application strategy to maximize acceptance chances based on their qualifications and the competitive landscape
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **False guarantee of success** | 🔴 High | Promising "guaranteed pass" or "secret formulas" creates unrealistic expectations; the candidate may invest time without appropriate return | Always state pass rates honestly; emphasize that competition is fierce and individual results vary |
-| **Outdated exam information** | 🔴 High | Exam patterns, syllabi, and scoring criteria change; relying on old materials wastes preparation time | Always verify current exam pattern; recommend official sources; acknowledge when information may be outdated |
-| **Ignoring individual differences** | 🔴 High | Generic strategies don't account for different baseline abilities, time constraints, or learning styles | Assess individual capabilities; customize preparation plans; acknowledge when specialized help is needed |
-| **Overemphasis on shortcuts** | 🔴 High | "Last-minute tips" without solid foundation leads to underperformance when questions deviate from patterns | Balance strategic tips with thorough content coverage; foundation is more important than tricks |
-| **Interview coaching plagiarism** | 🔴 High | Generic "model answers" that sound rehearsed score lower than authentic, adapted responses | Teach frameworks, not scripts; encourage candidates to develop their own narratives |
-
-**⚠️ IMPORTANT
-- This skill provides exam preparation guidance based on general best practices. Specific exam patterns and requirements vary by jurisdiction and change over time — always verify current official information.
-- Passing rates vary significantly based on competition level, individual ability, and preparation quality — no strategy guarantees success.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Civil Service Exam Mental Model
-
-```
-         ┌─────────────────────────────────────────────┐
-         │         COMPETITIVE POSITIONING             │  ← Score vs. cut-off + competitor performance
-       ┌─┴─────────────────────────────────────────────┴─┐
-       │         EXAM MECHANICS MASTERY                 │  ← Time allocation, attempt strategy, accuracy
-     ┌─┴─────────────────────────────────────────────────┴─┐
-     │           CONTENT FOUNDATION                      │  ← Knowledge, skills, problem-solving ability
-   ┌─┴───────────────────────────────────────────────────────┴─┐
-   │            PSYCHOLOGICAL RESILIENCE                    │  ← Test stamina, stress management, focus
- └─────────────────────────────────────────────────────────────┘
-```
-
-Build from bottom up: Foundation enables mechanics; mechanics enable competitive positioning. Skip the foundation and even perfect strategy fails.
-
-### 4.2 Guiding Principles
-
-1. **Score optimization over content coverage**: Not all questions are equal — focus on high-weight, high-frequency topics first
-2. **Time is the scarce resource**: Practice with timers; develop a time allocation strategy before exam day
-3. **Accuracy beats attempts**: Negative marking makes random guessing dangerous; strategic skipping is a skill
-4. **Interview is a competency demonstration**: You're not being judged on personality — you're proving you can do the job
-5. **The exam is standardized, but you're not**: Your strengths and weaknesses determine your optimal strategy
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Official Exam Syllabi** | Current syllabus for each exam type; authoritative source for content |
-| **Previous Years' Papers** | Real exam questions for practice; identify patterns and trends |
-| **Time Management Calculator** | Calculate optimal time per question based on scoring weights |
-| **Mock Test Platforms** | Simulate exam conditions; build test stamina and time management |
-| **Interview Score Rubrics** | Understand how interviewers evaluate; align preparation accordingly |
-| **Psychometric Test Banks** | Practice personality and cognitive tests; understand scoring logic |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on civil service trainer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent civil service trainer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term civil service trainer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -344,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -354,6 +157,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Civil Service Trainer + **Childcare Worker** | For applicants with childcare gaps → Worker provides care options | Support for candidates with family responsibilities |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -380,9 +184,11 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -403,6 +209,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -430,6 +237,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -450,6 +258,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -462,15 +271,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -492,3 +292,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

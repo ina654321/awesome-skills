@@ -31,6 +31,7 @@ Design and operate spacecraft using orbital mechanics, subsystem integration, an
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -121,210 +122,6 @@ PAYLOAD:
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Satellite Engineering Challenge Indicators**:
-- New satellite mission design
-- Orbit selection and constellation design
-- Subsystem sizing and trades
-- Launch vehicle integration
-- Mission operations planning
-
-**Complexity Markers**:
-- Subsystems: 7-12 per satellite
-- Components: 1,000-50,000 per satellite
-- Development: 2-5 years
-- Mission life: 5-15 years
-- Ground contacts: 2-12 per day
-
-### User Signals
-
-Invoke when users need to:
-- Design satellite orbits
-- Size spacecraft subsystems
-- Plan constellation deployments
-- Integrate payloads
-- Develop operations concepts
-- Troubleshoot on-orbit issues
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Mission Design
-
-**Purpose**: Define what the mission accomplishes.
-
-**Core Elements**:
-- **Requirements Analysis**: Payload needs, mission objectives
-- **Orbit Design**: Altitude, inclination, constellation
-- **Coverage Analysis**: Revisit time, field of view
-- **Launch Strategy**: Vehicle selection, deployment
-
-📄 **Details**: [references/05-layer1-mission.md](references/05-layer1-mission.md)
-
-### Layer 2: Spacecraft Design
-
-**Purpose**: Design the satellite to meet mission needs.
-
-**Core Elements**:
-- **Bus Design**: Subsystem sizing and allocation
-- **Payload Integration**: Accommodation, interfaces
-- **Mass Budget**: Component-level tracking
-- **Power Budget: Generation, storage, consumption
-
-📄 **Details**: [references/06-layer2-spacecraft.md](references/06-layer2-spacecraft.md)
-
-### Layer 3: Operations
-
-**Purpose**: Plan and execute on-orbit operations.
-
-**Core Elements**:
-- **Operations Concept**: Ground stations, automation
-- **Flight Procedures**: Nominal and contingency
-- **Data Flow: Downlink, processing, distribution
-- **End-of-Life**: Deorbit, passivation, disposal
-
-📄 **Details**: [references/07-layer3-operations.md](references/07-layer3-operations.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Orbit Characteristics
-
-| Orbit | Altitude | Period | Applications |
-|-------|----------|--------|--------------|
-| LEO | 200-2,000 km | 90-120 min | EO, ISS, Starlink |
-| MEO | 2,000-35,786 km | 2-12 hrs | Navigation (GPS) |
-| GEO | 35,786 km | 24 hrs | Communications |
-| GSO | 35,786 km | 24 hrs | Weather, comms |
-| HEO | Elliptical | Variable | Coverage, SIGINT |
-| L2 | ~1.5M km | - | JWST, future missions |
-
-### Power Subsystem Sizing
-
-```
-Power Budget Example:
-├── Payload: 500W average
-├── AOCS: 150W (peak during maneuvers)
-├── Communications: 200W (transmit)
-├── Thermal: 100W (heaters)
-├── OBDH: 50W (computers)
-├── Margin: 20% (200W)
-└── Total: 1,200W requirement
-
-Solar Array Sizing:
-├── Solar constant: 1,361 W/m²
-├── Cell efficiency: 28-30% (GaAs)
-├── Degradation: 2-3% per year
-├── Angle losses: Cosine of incidence
-└── Array size: ~4 m² for 1,200W at EOL
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Orbit Selection Process
-
-```
-Step 1: Mission Requirements
-├── Coverage: Regional, global, specific targets
-├── Revisit: Frequency of observation
-├── Latency: Time from observation to product
-└── Payload constraints: Field of view, resolution
-
-Step 2: Orbit Trade
-├── LEO: Low latency, low cost, needs constellation
-├── MEO: Navigation orbits, radiation environment
-├── GEO: Fixed ground track, communications
-└── Specialized: Sun-synchronous, dawn-dusk, frozen
-
-Step 3: Constellation Design
-├── Number of satellites
-├── Orbital planes and phasing
-├── Launch and deployment strategy
-└── Replacement strategy
-
-Step 4: Validation
-├── Coverage analysis
-├── Launch vehicle compatibility
-├── Debris and spectrum coordination
-└── Cost analysis
-```
-
-### Propulsion Trade Matrix
-
-| Type | Isp (s) | Thrust | Use Case |
-|------|---------|--------|----------|
-| Cold Gas | 50-75 | Low | AOCS, small sats |
-| Monoprop | 200-250 | Low-Med | AOCS, orbit adjust |
-| Biprop | 300-450 | High | Large maneuvers |
-| Electric (Ion) | 3,000+ | Very Low | Orbit raising, station keeping |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Orbit Design | [references/10-sop-orbit-design.md](references/10-sop-orbit-design.md) |
-| SOP 2 | Power Budget | [references/11-sop-power-budget.md](references/11-sop-power-budget.md) |
-| SOP 3 | Link Budget | [references/12-sop-link-budget.md](references/12-sop-link-budget.md) |
-| SOP 4 | Launch Integration | [references/13-sop-launch-integration.md](references/13-sop-launch-integration.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Satellite Development Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Launch Failure** | Low | Critical | Insurance, spare satellite |
-| **Early Orbit Failure** | Medium | Critical | Redundancy, commissioning |
-| **Component Degradation** | High | Medium | Derating, design margin |
-| **Space Weather** | Medium | Medium | Radiation hardening |
-| **Debris Collision** | Low | Critical | Maneuver capability |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Concept | Mission definition | Approved concept | Requirements unclear |
-| Preliminary | System design | PDR passed | Mass/power overrun |
-| Critical | Detailed design | CDR passed | Heritage gaps |
-| Integration | Build and test | TVAC passed | Test failures |
-| Operations | On-orbit mission | Mission success | On-orbit failure |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Earth Observation Constellation | 24-satellite LEO | [references/16-example-eo-constellation.md](references/16-example-eo-constellation.md) |
-| 2 | Communications Satellite | GEO broadcast | [references/17-example-geo-comms.md](references/17-example-geo-comms.md) |
-| 3 | SmallSat Design | 12U CubeSat | [references/18-example-cubesat.md](references/18-example-cubesat.md) |
-| 4 | Orbital Maneuver Planning | Station keeping | [references/19-example-station-keeping.md](references/19-example-station-keeping.md) |
-| 5 | On-Orbit Anomaly | Attitude control loss | [references/20-example-anomaly.md](references/20-example-anomaly.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -376,3 +173,17 @@ Where:
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

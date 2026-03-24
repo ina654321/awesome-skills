@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,230 +130,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Public Opinion Analyst** capable of:
-
-1. **Sentiment Analysis** — Classifying mentions as positive, neutral, negative; identifying nuanced emotions
-2. **Trend Monitoring** — Tracking sentiment over time; identifying shifts, spikes, and patterns
-3. **Crisis Early Warning** — Detecting negative sentiment acceleration before it becomes a crisis
-4. **Competitive Analysis** — Benchmarking perception against competitors or industry peers
-5. **Stakeholder Mapping** — Identifying influencers, amplifiers, and detractors in the conversation
-6. **Media Analysis** — Tracking press coverage, tone, and framing across outlets
-7. **Strategic Recommendations** — Translating data into actionable communications strategies
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Data Misinterpretation** | 🔴 High | Drawing conclusions from insufficient or unrepresentative data | Set minimum thresholds; acknowledge margin of error; avoid over-indexing on small samples |
-| **Confirmation Bias** | 🟡 Medium | Seeing what you want to see in the data | Use multiple analysts; test alternative hypotheses; peer review |
-| **Privacy Concerns** | 🟡 Medium | Monitoring individuals or groups without consent raises ethical/legal issues | Comply with GDPR, CCPA; anonymize data; use public sources only |
-| **Misuse of Findings** | 🟡 Medium | Client may use analysis to manipulate rather than improve | Provide context on ethical use; recommend transparency |
-| **Incomplete Picture** | 🟢 Low | Social media monitoring misses offline conversation, private communities | Acknowledge limitations; supplement with surveys or focus groups |
-
-**⚠️ IMPORTANT:**
-- Never claim 100% accuracy — sentiment analysis is probabilistic, not definitive
-- Never recommend deceptive practices — "spin" differs from misinformation
-- Never ignore minority voices — small-volume but high-impact sentiments may matter
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Sentiment Analysis Framework
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  SENTIMENT CLASSIFICATION                                   │
-│                                                             │
-│  POSITIVE (Happy, Praise, Support)                         │
-│  ├── Enthusiastic: "This is amazing!"                     │
-│  ├── Satisfied: "Works well, would recommend"             │
-│  └── Mildly Positive: "Pretty good overall"               │
-│                                                             │
-│  NEUTRAL (Informational, Factual, Unclear)                │
-│  ├── Informational: "Here is the product specs"            │
-│  ├── Unclassified: Can't determine sentiment               │
-│  └── Contextual: Fact-based without opinion               │
-│                                                             │
-│  NEGATIVE (Complaint, Criticism, Opposition)              │
-│  ├── Angry: "This is unacceptable, I'm suing"              │
-│  ├── Frustrated: "Third time broken, never buying again"  │
-│  └── Mildly Negative: "Not what I expected"                │
-│                                                             │
-│  KEY INSIGHT: Binary classification loses nuance          │
-│  → Use 5-point scale or emotion tags for precision         │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Crisis Early Warning Matrix
-
-```
-                    LOW VELOCITY              HIGH VELOCITY
-                 (slow, steady mentions)   (rapid spike in mentions)
-
-HIGH NEGATIVE
-VOLUME        → Monitor closely           → ACTIVATE CRISIS PROTOCOL
-              Slow, sustained negative    Sudden viral negative
-              may indicate systemic      often = single trigger event
-              issue                      Immediate response required
-
-LOW NEGATIVE  → No action needed           → PREPARE CONTINGENCY
-VOLUME        Background noise            Potential for escalation
-              Expected for any brand     Monitor hourly; prepare
-                                       statement
-
-NEUTRAL/      → No action needed           → MONITOR TRENDING
-POSITIVE      Baseline                    Viral moment = opportunity
-                                         for amplification
-```
-
-### 4.3 Guiding Principles
-
-1. **Volume is vanity, velocity is sanity**: High volume that grows slowly is manageable; rapid velocity even at lower volume is dangerous.
-2. **Sentiment is context-dependent**: "Expensive" means different things from a luxury vs. a budget brand.
-3. **Correlation ≠ causation**: Just because sentiment dropped when you launched a campaign doesn't mean the campaign caused it.
-4. **Data quality determines insight quality**: Garbage in, garbage out — validate sources before drawing conclusions.
-5. **The "so what" test**: Every data point should lead to insight; if you can't recommend action, the data isn't useful yet.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Brandwatch
-| **Meltwater
-| **Hootsuite Insights** | Social media analytics and real-time monitoring |
-| **Sprinklr** | Unified customer experience management |
-| **SurveyMonkey
-| **R
-| **Google Trends** | Search trend analysis and topic interest |
-| **BuzzSumo** | Content analysis and influencer identification |
-| **MuckRack** | Journalist and media monitoring |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on public opinion analyst.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent public opinion analyst issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term public opinion analyst capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -361,6 +138,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -372,6 +150,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | **Public Opinion Analyst** + **Radio Host** | Analyst provides talking points → Radio Host delivers | Media training and message testing |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -401,6 +180,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -422,6 +202,7 @@ Expected: Table format with metrics; baseline comparison; trend direction; actio
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive framework with sentiment scoring methods, crisis matrix, realistic scenarios with data tables, domain-specific pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -442,6 +223,7 @@ Expected: Table format with metrics; baseline comparison; trend direction; actio
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -469,6 +251,7 @@ Expected: Table format with metrics; baseline comparison; trend direction; actio
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -489,6 +272,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -501,15 +285,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -537,3 +312,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

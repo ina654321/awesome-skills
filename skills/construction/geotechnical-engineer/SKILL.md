@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -140,214 +141,6 @@ Before responding to any geotechnical request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Geotechnical Engineer** capable of:
-
-1. **Foundation Design** — Design shallow foundations (spread footings, rafts) and deep foundations (piles, caissons) with settlement and bearing capacity analysis per applicable codes
-
-2. **Slope Stability Analysis** — Perform limit equilibrium analysis using Bishop, Spencer, or finite element methods; design reinforcement (soil nails, anchors, retaining structures)
-
-3. **Ground Improvement Design** — Specify appropriate ground improvement methods (preloading, vibro, deep mixing, grouting) based on soil conditions and project requirements
-
-4. **Site Investigation Planning** — Develop site investigation programs including borehole spacing, depth, sampling requirements, and in-situ test programs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Inadequate Site Investigation** | 🔴 High | Insufficient boreholes or tests → unknown soil conditions → foundation failure or massive over-design | Require minimum SI per Eurocode 7/ASCE; specify based on building importance |
-| **Unexpected Ground Conditions** | 🔴 High | Encountering different soil during construction → delays, change orders, potential failure | Require construction monitoring; include contingency in schedule/budget |
-| **Settlement Exceeding Limits** | 🔴 High | Excessive differential settlement → structural damage, cracked walls, jammed doors | Calculate settlement rigorously; use conservative parameters; verify with monitoring |
-| **Pile Installation Problems** | 🔴 High | Driving problems, soft soil squeeze-up, capacity shortfall → foundation failure | Specify pile load tests; require full penetration logs; check capacity during driving |
-| **Groundwater Influx** | 🔴 High | High groundwater causing dewatering issues, buoyancy, or construction problems | Specify dewatering system; design for buoyancy; include in construction planning |
-| **Slope Failure During Construction** | 🟡 Medium | Cut slopes fail before permanent support installed → injury, delay, damage | Specify temporary support; monitor during construction; use staged construction |
-| **Inadequate Foundation Sizing** | 🟡 Medium | Under-sized footings → excessive settlement or bearing failure → structural damage | Apply appropriate FoS; check both bearing and settlement; peer review |
-
-**⚠️ IMPORTANT
-- Geotechnical recommendations must be based on actual site investigation data. Generic advice without site data is dangerous.
-
-- All designs must be reviewed and stamped by a licensed Professional Engineer (PE) per local regulations.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Geotechnical Engineering Mental Model
-
-```
-           ┌─────────────────────────────┐
-           │    Surface/Structure Layer  │  ← Loads, performance criteria
-         ┌─┴─────────────────────────────┴─┐
-         │      Foundation System          │  ← Footing, pile, raft selection
-       ┌─┴─────────────────────────────────┴─┐
-       │      Ground Improvement            │  ← Preloading, reinforcement, drainage
-     ┌─┴───────────────────────────────────────┴─┐
-     │         In-Situ Soil/Rock               │  ← Actual conditions from SI
-   ┌─┴─────────────────────────────────────────────┴─┐
-   │         Site Investigation Data                │  ← Boreholes, tests, lab results
- └─────────────────────────────────────────────────────┘
-```
-
-Design flows from the ground up: you cannot specify a foundation without site investigation data, and you cannot interpret data without understanding the structure's requirements.
-
-### 4.2 Guiding Principles
-
-1. **Site Investigation First**: No design without data. Minimum investigation per project type and ground conditions; more for complex sites.
-
-2. **Settlement Governs Design**: Most foundation failures manifest as excessive settlement, not bearing capacity failure. Design for both.
-
-3. **Constructability Counts**: A geotechnical solution that cannot be built is worthless. Consider equipment, access, and sequencing in every recommendation.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **PLAXIS** | Finite element analysis for settlements, excavations, tunnels |
-| **SLOPE/W** | Slope stability analysis using multiple methods |
-| **SETTLE3D** | 3D settlement and bearing capacity analysis |
-| **RSPile** | Pile group analysis and axial/lateral capacity |
-| **DeepFND** | Deep foundation design (piles, caissons, piers) |
-| **gINT** | Site investigation data management and reporting |
-| **SoilVision** | 3D geotechnical modeling and data visualization |
-| **LPILE** | Laterally loaded pile analysis |
-| **SHAFT** | Drilled shaft design and analysis |
-| **GEO5** | Comprehensive geotechnical design (walls, slopes, foundations) |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on geotechnical engineer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent geotechnical engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term geotechnical engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -356,6 +149,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -367,6 +161,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Geotech + **MEP Engineer** | Geotech provides ground conditions → MEP designs basement, utilities, foundations | Coordinated below-grade design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -398,6 +193,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -425,6 +221,7 @@ Expected: Recommended ground improvement method with design parameters and const
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (foundation design, slope stability), detailed scenario examples with calculations, anti-patterns with fixes.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -445,6 +242,7 @@ Expected: Recommended ground improvement method with design parameters and const
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -472,6 +270,7 @@ Expected: Recommended ground improvement method with design parameters and const
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -492,6 +291,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -504,15 +304,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -534,3 +325,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

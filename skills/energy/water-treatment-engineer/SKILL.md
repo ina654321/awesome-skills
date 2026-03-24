@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -138,165 +139,6 @@ Before responding to any water treatment request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Water Treatment Engineer** capable of:
-
-1. **Water Treatment Design** — Design complete water treatment plants including coagulation, filtration, and disinfection for drinking water
-
-2. **Wastewater Treatment** — Design and optimize wastewater treatment systems including activated sludge, MBR, and nutrient removal
-
-3. **Desalination Systems** — Design reverse osmosis and membrane systems for seawater and brackish water desalination
-
-4. **Process Optimization** — Optimize chemical dosing, membrane cleaning, and energy consumption for cost-effective operations
-
-5. **Regulatory Compliance** — Ensure compliance with EPA drinking water standards, NPDES permits, and discharge limits
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Pathogen Breakthrough** | 🔴 High | Inadequate disinfection causes disease outbreak | Maintain multiple barriers; verify CT compliance; monitor residuals |
-| **Chemical Overdose** | 🔴 High | Excess chemicals cause compliance violation or equipment damage | Automated dosing with interlocks; continuous monitoring |
-| **Membrane Failure** | 🔴 High | RO/UF membrane damage causes product quality failure | Proper pretreatment; integrity testing; backup capacity |
-| **Process Upset** | 🔴 High | Wastewater treatment failure causes discharge violation | Monitor key indicators; maintain inventory; emergency storage |
-| **Energy Failure** | 🔴 High | Power loss disrupts treatment; backup power required | Install generators; design forgraceful degradation |
-| **Regulatory Violation** | 🟡 Medium | Exceeding permit limits results in fines and penalties | Real-time monitoring; process alarms; trending analysis |
-| **Sludge Management** | 🟡 Medium | Improper sludge handling causes environmental release | Proper dewatering; containment; regular disposal |
-
-**⚠️ IMPORTANT**:
-- Water treatment directly impacts public health. Design and operations must meet all applicable standards.
-
-- Regulatory requirements vary by location. Always verify local permit conditions.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Treatment Barrier Framework
-
-```
-                    ┌─────────────────────────────┐
-                    │     Disinfection Barrier    │  ← Pathogen kill (chlorine, UV, ozone)
-                  ┌─┴─────────────────────────────┴─┐
-                  │       Filtration Barrier       │  ← Particle removal (sand, membrane)
-                ┌─┴─────────────────────────────────┴─┐
-                │     Chemical Treatment Barrier    │  ← Coagulation, pH, corrosion control
-              ┌─┴───────────────────────────────────────┴─┐
-              │        Pretreatment Barrier               │  ← Screening, equalization
-```
-
-Multiple independent barriers ensure safe water even if one process fails.
-
-### 4.2 Guiding Principles
-
-1. **Multi-Barrier Treatment**: No single process provides complete treatment. Layer processes for redundancy.
-
-2. **Source-Driven Design**: Treatment must match source water variability. Design for worst-case conditions.
-
-3. **Operability First**: Complex systems fail when operators can't understand them. Design for simple, robust operation.
-
-4. **Continuous Monitoring**: You can't manage what you don't measure. Install adequate instrumentation.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Process Simulation Software** | BioWin, GPS-X, STOAT for wastewater; EPANET for distribution |
-| **Membrane Design Software** | ROSA, IMSDesign for RO system design |
-| **SCADA Systems** | Real-time process monitoring and control |
-| **Laboratory Equipment** | Grab sampling and analysis (pH, DO, turbidity, BOD, COD) |
-| **Flow Measurement** | Magnetic flow meters, weirs, flumes |
-| **Chemical Dosing Systems** | Metering pumps, chlorinators, polymer systems |
-| **Membrane Integrity Testers** | Pressure decay, particle counting for UF/RO |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Drinking Water Standards (EPA)
-
-| Contaminant | MCL (mg/L) | Health Effect | Typical Treatment |
-|-------------|------------|---------------|-------------------|
-| **Turbidity** | 1 NTU (95%), 0.3 NTU (99%) | Pathogen indicator | Filtration |
-| **Chlorine** | 4 (MRDL) | Disinfectant | N/A |
-| **Lead** | 0.010 | Neurological damage | Corrosion control, filter |
-| **Arsenic** | 0.010 | Cancer, skin lesions | RO, adsorption |
-| **Nitrate** | 10 | Methemoglobinemia | Ion exchange, RO |
-| **Fluoride** | 4.0 | Skeletal fluorosis | Adsorption, RO |
-
-### 7.2 Wastewater Effluent Limits (Typical NPDES)
-
-| Parameter | Daily Maximum | Monthly Average | Typical Removal |
-|-----------|---------------|-----------------|------------------|
-| **BOD₅** | 30 mg/L | 25 mg/L | > 90% (secondary) |
-| **TSS** | 30 mg/L | 25 mg/L | > 90% (secondary) |
-| **Ammonia-N** | 2-6 mg/L | 1-2 mg/L | > 90% (nitrification) |
-| **Total Phosphorus** | 1 mg/L | 0.5 mg/L | > 95% (chemical + biological) |
-| **E. coli** | 394/100 mL | 126/100 mL | Disinfection |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Drinking Water Treatment Design
-
-```
-Phase 1: Source Water Characterization
-├── Collect source water quality data (1 year minimum)
-├── Identify contaminants of concern
-├── Evaluate seasonal variability
-└── [✓ Done]: Source water characterization complete
-
-Phase 2: Treatment Train Selection
-├── Select treatment processes based on contaminants
-├── Evaluate technology options (conventional vs. membrane)
-├── Size treatment units for peak day demand
-└── [✓ Done]: Treatment train selected
-
-Phase 3: Design Development
-├── Design hydraulic profile
-├── Specify chemical dosing rates
-├── Design piping and instrumentation
-└── [✓ Done]: Process design complete
-
-Phase 4: Regulatory Approval
-├── Prepare engineering report
-├── Submit to state regulatory agency
-├── Address comments and obtain approval
-└── [✓ Done]: Permit obtained
-```
-
-### 8.2 Membrane Cleaning Procedure
-
-```
-Step 1: Assess Fouling
-  → Monitor transmembrane pressure (TMP) increase
-  → Identify fouling type (biological, scaling, organic)
-  → Determine cleaning frequency
-
-Step 2: Prepare Cleaning Solution
-  → Low pH (citric acid) for scaling
-  → High pH (NaOH) for biological/organic fouling
-  → Verify temperature and concentration
-
-Step 3: Execute Clean-In-Place (CIP)
-  → Circulate cleaning solution through membrane
-  → Soak per manufacturer recommendations
-  → Rinse thoroughly to remove residuals
-
-Step 4: Verify Effectiveness
-  → Measure TMP recovery
-  → Compare to baseline performance
-  → Document cleaning results
-```
-
----
 
 ## 9.1 RO System Design for Seawater Desalination
 
@@ -378,105 +220,6 @@ Step 4: Verify Effectiveness
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on water treatment engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent water treatment engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term water treatment engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -501,6 +244,7 @@ Step 4: Verify Effectiveness
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -510,6 +254,7 @@ Step 4: Verify Effectiveness
 | Water Treatment + **Civil Engineer** | Treatment design → Civil designs infrastructure | Buildable treatment plant |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -539,6 +284,7 @@ Step 4: Verify Effectiveness
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -558,6 +304,7 @@ Expected: RO membrane selection with boron-specific considerations
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -578,6 +325,7 @@ Expected: RO membrane selection with boron-specific considerations
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -605,6 +353,7 @@ Expected: RO membrane selection with boron-specific considerations
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -625,6 +374,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -637,15 +387,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -673,3 +414,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

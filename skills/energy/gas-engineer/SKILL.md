@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,172 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Distribution System Design** — Size gas mains, service lines, and regulators per code requirements with flow calculations
-2. **Pipeline Engineering** — Specify transmission pipeline materials, wall thickness, and design factors per ASME B31.8
-3. **Pressure Regulation** — Select regulators, overpressure protection, and station equipment for reliable operation
-4. **Gas Safety Systems** — Design odorization, leak detection, and emergency shutdown systems per DG-110 and NFPA
-5. **System Integrity** — Apply cathodic protection, corrosion monitoring, and maintenance programs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Explosion Risk** | 🔴 High | Natural gas accumulation 5-15% in air creates explosion risk—ignition energy 0.3 mJ | Proper odorization, leak detection, ventilation |
-| **Overpressure Failure** | 🔴 High | Excessive pressure can rupture piping—catastrophic failure | 4:1 safety factor, relief valves, slam shut |
-| **Asphyxiation Risk** | 🟡 Medium | Natural gas displaces oxygen in confined spaces | Ventilation requirements, gas detection |
-| **Corrosion Failures** | 🟡 Medium | External corrosion can cause leaks—monitor and mitigate | Cathodic protection, coating, inspection |
-| **Material Failure** | 🟢 Low | Pipe defects, joint failures, damage from excavation | Quality control, testing, damage prevention |
-
-**⚠️ IMPORTANT:**
-- Gas system design requires licensed PE stamps for legal approval—AI provides guidance, not certified designs
-- Overpressure protection design is safety-critical—always apply 4:1 safety factor
-- Local codes may supersede national standards—always verify jurisdiction requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Pressure Classification System
-
-```
-                              ┌─────────────────────┐
-                              │   Transmission      │
-                              │   >250 psig         │
-                              │   ASME B31.8        │
-                              └──────────┬──────────┘
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    │                    │                    │
-            ┌───────▼──────┐     ┌───────▼──────┐     ┌───────▼──────┐
-            │ High Pressure│     │ Medium Pressure│    │ Low Pressure│
-            │ 100-250 psig │     │  0.5-100 psig │     │ <0.5 psig    │
-            │   (Steel)    │     │  (Steel/PE)   │     │   (PE/Cu)    │
-            └──────────────┘     └───────────────┘     └──────────────┘
-
-Design Factors (ASME B31.8):
-• Transmission: 0.72 for seamless, 0.60 for welded
-• Distribution: 0.80 for steel, 0.32 for PE
-• Service lines: 0.80 minimum
-```
-
-### 4.2 Guiding Principles
-
-1. **Code Compliance is Mandatory**: Default to ASME B31.8, NFPA 54/58, DOT 49 CFR 192—deviation requires engineering justification
-2. **Fail-Safe Design**: Overpressure protection must fail to a safe state—relief valve or slam shut, never stuck open
-3. **Odorization is Non-Negotiable**: All gas for domestic/commercial use must be odorized per DG-110 requirements
-4. **Corrosion Never Sleeps**: External corrosion is primary cause of leaks—cathodic protection, coating, inspection
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **ASME B31.8** | Gas transmission and distribution piping design |
-| **NFPA 54** | National Fuel Gas Code (indoor gas piping) |
-| **NFPA 58** | Liquefied Petroleum Gas Code |
-| **DOT 49 CFR 192** | Federal pipeline safety regulations |
-| **IGEM** | Institute of Gas Engineers and Managers (UK standards) |
-| **Panhandle A/B Equations** | Gas flow in transmission pipelines |
-| **PolySteel Calc** | PE and steel pipe sizing software |
-| **CATHMOD** | Cathodic protection design software |
-| **Casper** | Pipeline corrosion assessment |
-| **DG-110** | Odorization requirements |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Pipeline Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **General Flow Equation** | All pipe sizing | 1. Determine flow → 2. Available pressure → 3. Select pipe size → 4. Verify velocity |
-| **Panhandle A** | Transmission, high flow | Q = 435.87 × (T_b/P_b)^1.07881 × (ΔP/L)^0.5394 × D^2.6182 |
-| **Panhandle B** | Transmission, lower flow | Q = 737 × (T_b/P_b)^1.0203 × (ΔP/L)^0.561 × D^2.6182 |
-| **General Flow** | Distribution, complex | Q = C × (T_b/P_b) × [(P_1² - P_2²)
-
-### 7.2 Key Gas Standards
-
-| Standard| Coverage| Key Requirement|
-|--------------|--------------|---------------|
-| **ASME B31.8** | Gas piping design | Design factors by location class |
-| **NFPA 54** | Indoor gas piping | 0.5 psig max, 5" w.c. min outlet |
-| **NFPA 58** | LPG systems | Tank sizing, piping requirements |
-| **DOT 49 CFR 192** | Pipeline safety | Construction, operation, maintenance |
-| **DG-110** | Odorization | Detect at 1/5 LEL (1% gas in air) |
-| **API 1160** | Gas gathering | Integrity management |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Gas Distribution System Design
-
-```
-Phase 1: Load Analysis
-├── Identify customers: residential, commercial, industrial
-├── Determine load: heating, cooking, process (Btu/hr or scfh)
-├── Apply diversity: not all equipment operates simultaneously
-├── Peak demand: Design for coldest day (degree-day correlation)
-└── Future growth: 10-20% reserve capacity
-
-Phase 2: System Planning
-├── Pressure class: High, medium, or low based on load/distance
-├── Network configuration: Branched, looped, or grid
-├── Regulator locations: Downstream pressure zones
-├── Metering: Regulated vs. 1st stage vs. 2nd stage
-└── Routing: Minimize length, avoid conflicts
-
-Phase 3: Component Sizing
-├── Mains: Flow calculation, size for <10% pressure drop
-├── Services: Individual customer load, 0.5" w.c. drop max
-├── Regulators: Capacity vs. setpoint, 25% turndown
-├── Meters: Rotary or turbine for commercial, diaphragm for residential
-└── Risers: Vertical routing, support, corrosion protection
-
-Phase 4: Safety Systems
-├── Overpressure: Relief valves, slam shuts at each pressure reduction
-├── Odorization: For all odorless gas distribution
-├── Leak detection: Portable and fixed detection
-├── Emergency response: Shutdown procedures, public awareness
-└── Documentation: As-built records, operating procedures
-```
-
-### 8.2 Pressure Regulator Selection
-
-```
-Step 1: Define Conditions
-├── Inlet pressure range: Minimum to maximum available
-├── Outlet pressure: Required downstream pressure
-├── Flow rate: Maximum and minimum expected
-├── Temperature range: Ambient operating conditions
-
-Step 2: Select Regulator Type
-├── Spring-loaded: Simple, inexpensive, good accuracy
-├── Pilot-operated: Better capacity, stable outlet
-├── Bigas/Cortez: High capacity, industrial applications
-└── Electronic: For SCADA-controlled systems
-
-Step 3: Size the Regulator
-├── Use manufacturer's capacity tables
-├── Apply 25% safety factor on flow
-├── Verify <10% droop at maximum flow
-└── Check for cavitation at low inlet
-
-Step 4: Specify Overpressure Protection
-├── Relief valve: 4:1 safety factor to inlet rating
-├── Slam shut: For excessive pressure or low pressure
-├── Monitor regulator: Parallel redundant protection
-└── Relief vent: Discharge to safe location
-```
-
----
 
 ## 9.1 Distribution Main Sizing
 
@@ -342,105 +177,6 @@ Step 4: Specify Overpressure Protection
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on gas engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent gas engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term gas engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -461,6 +197,7 @@ Step 4: Specify Overpressure Protection
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -469,6 +206,7 @@ Step 4: Specify Overpressure Protection
 | Gas Engineer + **Carbon Consultant** | Step 1: Gas system emissions → Step 2: Decarbonization pathway | GHG inventory for gas utilities |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -497,6 +235,7 @@ Step 4: Specify Overpressure Protection
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -518,6 +257,7 @@ Expected: Regulator selection, overpressure protection specification, code refer
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive code framework (ASME B31.8, NFPA 54), pressure classification system, workflow diagrams, safety-first emphasis, quantified recommendations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -538,6 +278,7 @@ Expected: Regulator selection, overpressure protection specification, code refer
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -565,6 +306,7 @@ Expected: Regulator selection, overpressure protection specification, code refer
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -585,6 +327,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -597,15 +340,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -633,3 +367,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

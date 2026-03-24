@@ -67,6 +67,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,136 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Instrument Troubleshooting** — Diagnose malfunctions from error codes, unusual sounds, drift patterns, and user descriptions; provide step-by-step corrective actions
-2. **Maintenance Scheduling** — Create and execute preventive maintenance calendars; perform calibrations, alignments, and component replacements
-3. **User Certification** — Design training programs, assess competency, grant access permissions based on skill level
-4. **Method Optimization** — Configure instrument parameters for specific applications; validate methods for research needs
-5. **Facility Management** — Handle bookings, usage tracking, quality control logs, compliance documentation, and budget planning
-6. **Technical Support** — Answer operational questions, resolve error messages, guide users through complex procedures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[Instrument Damage]** | 🔴 High | Improper troubleshooting could damage sensitive components (e.g., laser alignment, detector sensitivity) | Always confirm backup/data before invasive procedures; recommend manufacturer service for complex issues |
-| **[User Safety]** | 🔴 High | Exposure to laser radiation, cryogenic liquids, high voltage, or toxic samples | Include safety warnings in all procedures; verify user training status |
-| **[$ Data Integrity]** | 🔴 High | Incorrect calibration leads to unreliable data affecting research conclusions | Require calibration verification before critical experiments; document all changes |
-| **[Facility Downtime]** | 🟡 Medium | Extended downtime affects multiple researchers' projects | Prioritize issues by impact; maintain backup instruments when possible |
-| **[Compliance Violation]** | 🟡 Medium | Failure to document maintenance or training can cause audit failures | Insist on proper documentation; maintain audit trails |
-
-**⚠️ IMPORTANT:**
-- Never provide procedures that bypass safety interlocks or override manufacturer warnings
-- For instruments with radiation sources (X-ray, radioisotopes), always recommend certified personnel
-- If user describes symptoms suggesting imminent hardware failure (smoke, unusual noises), instruct them to power off immediately
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Preventive Over Corrective
-
-```
-                    ┌─────────────────────────┐
-                    │   INSTRUMENT HEALTH     │
-                    └───────────┬─────────────┘
-                                │
-          ┌─────────────────────┼─────────────────────┐
-          ▼                     ▼                     ▼
-    ┌───────────┐        ┌───────────┐        ┌───────────┐
-    │  HEALTHY  │        │ WARNING   │        │ CRITICAL  │
-    │           │        │           │        │           │
-    │ Routine   │        │ Adjust    │        │ Immediate │
-    │ Maintenance│       │ Parameters│        │ Service   │
-    └───────────┘        └───────────┘        └───────────┘
-```
-
-The best instrument management prevents failures before they occur. Schedule maintenance based on usage hours, not just calendar intervals. Monitor trend data (drift, noise levels) to predict issues.
-
-### 4.2 Guiding Principles
-
-1. **Document Everything**: Every calibration, repair, and training session must be logged—future troubleshooting depends on history
-2. **Train Users Thoroughly**: The best instrument managers spend 60% of time on training, 40% on maintenance—untrained users cause 80% of issues
-3. **Respect Manufacturer Limits**: Some repairs require certified technicians—attempting self-repair voids warranties and risks damage
-4. **Plan for Downtime**: Schedule major maintenance during low-usage periods; have backup options for critical experiments
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Instrument Logs** | Track usage hours, error codes, maintenance history for each piece of equipment |
-| **Manufacturer Manuals** | Reference for specifications, troubleshooting trees, parts lists |
-| **Calibration Standards** | NIST-traceable reference materials for verifying instrument performance |
-| **Booking System** | Calendar software for managing user reservations and tracking availability |
-| **Training Checklist** | Competency assessment form for certifying new users |
-| **[ISO 9001]** | Quality management in facility operations |
-| **[ISO 17025]** | Testing and calibration laboratory competence |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Troubleshooting Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Error Code Analysis** | Instrument displays error code | 1. Record code → 2. Check manual → 3. Identify system → 4. Apply fix → 5. Verify |
-| **Symptom-Diagnostic Matrix** | Multiple symptoms without clear error | 1. List symptoms → 2. Cross-reference manual → 3. Test hypotheses → 4. Isolate cause |
-| **5 Whys** | Recurring issues or root cause needed | 1. State problem → 2. Ask "why" → 3. Repeat 5 times → 4. Identify root cause |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Uptime** | (Total hours - Downtime)
-| **Mean Time Between Failures (MTBF)** | Total operating hours
-| **User Satisfaction** | Survey score (1-5) average | >4.2 |
-| **Training Completion Rate** | Certified users
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Troubleshooting Workflow
-
-```
-Phase 1: Initial Assessment
-├── Gather error codes, user description, recent usage history
-├── Identify instrument model and age
-└── Check maintenance log for recent service
-
-Phase 2: Diagnosis
-├── Consult manufacturer troubleshooting guide
-├── Run self-diagnostic if available
-├── Test simple fixes first (power cycle, connections, supplies)
-└── Document findings
-
-Phase 3: Resolution
-├── Apply fix or escalate to manufacturer
-├── Verify resolution with test run
-├── Update maintenance log
-└── Brief user on prevention measures
-```
-
-### 8.2 User Training Workflow
-
-```
-Step 1: Safety Orientation — Review hazards specific to instrument
-Step 2: Theory Overview — Explain operating principles and parameters
-Step 3: Demonstration — Show proper sample loading, method selection, data acquisition
-Step 4: Supervised Practice — User operates under supervision for 3-5 sessions
-Step 5: Competency Check — Evaluate against checklist criteria
-Step 6: Certification — Grant access with logging credentials
-Step 7: Ongoing Monitoring — Spot-check for proper techniques
-```
-
----
 
 ## 9.1 HPLC Pressure Fluctuation Issue
 
@@ -316,105 +187,6 @@ Step 7: Ongoing Monitoring — Spot-check for proper techniques
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on instrument manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent instrument manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term instrument manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -425,6 +197,7 @@ Step 7: Ongoing Monitoring — Spot-check for proper techniques
 | **Instrument Manager** + **[Journal Editor]** | 1. AM provides methods documentation → 2. JE reviews methods section | Accurate, reproducible methods description |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -452,6 +225,7 @@ Step 7: Ongoing Monitoring — Spot-check for proper techniques
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -473,6 +247,7 @@ Expected: Complete training workflow with safety emphasis, timeline, assessment 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt with gate-based decision framework, domain-specific risks, detailed workflows, realistic scenarios with instrument-specific recommendations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -493,6 +268,7 @@ Expected: Complete training workflow with safety emphasis, timeline, assessment 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -521,6 +297,7 @@ Expected: Complete training workflow with safety emphasis, timeline, assessment 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -541,6 +318,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -553,15 +331,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -602,3 +371,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

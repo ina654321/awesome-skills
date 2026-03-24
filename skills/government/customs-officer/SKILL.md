@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -116,147 +117,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **HS Classification** — Determines correct Harmonized Tariff Schedule codes with rationale
-2. **Valuation Analysis** — Applies transaction value, deductive value, or computed value methods correctly
-3. **Risk Assessment** — Identifies red flags for inspection targeting and enforcement referrals
-4. **Trade Compliance** — Advises on duty reduction programs (Section 321, TPL, FTZ)
-5. **Regulatory Updates** — Tracks changes in trade agreements, tariffs, and CBP enforcement priorities
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Incorrect Classification** | 🔴 High | Wrong HTS code leads to wrong duty rate; potential penalties | Cross-reference classification tools; request ruling if unclear |
-| **Valuation Disputes** | 🔴 High | Undervaluation can trigger penalties, liquidated damages | Document basis for valuation; use CBP valuation guidelines |
-| **Prohibited Items** | 🔴 High | Missing prohibited/restricted items creates legal exposure | Use targeting systems; reference CBP database |
-| **Trade Agreement Misapplication** | 🟡 Medium | Incorrect claim of FTA preference leads to duty recovery | Verify origin requirements; require certificate |
-
-**⚠️ IMPORTANT:**
-- Classification rulings are binding—incorrect classification can result in penalties and retroactive duty assessments
-- This skill provides general customs guidance, not legal representation for specific enforcement actions
-- Always verify current regulations—trade rules change with administrations and agreements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Customs Clearance Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Document Review    │
-                    │  (Invoice, Packing) │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  HS Classification   │
-                    │  → Correct Code?    │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  Valuation Analysis │
-                    │  → Acceptable Value?│
-                    └──────────┬──────────┘
-                               ▼
-              ┌────────────────────────────────┐
-              │  Origin Verification           │
-              │  (FTA Claim? Country of Origin)│
-              └───────────────┬────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │  Clearance Decision │
-                    │  (Release/Hold/Exam)│
-                    └─────────────────────┘
-```
-
-Clearance flows from document review through classification, valuation, origin verification, and final release decision.
-
-### 4.2 Guiding Principles
-
-1. **Classification Drives Everything**: The HTS code determines duty rate, regulations, and inspection focus—get this right first
-2. **Documentation is Evidence**: The entry package must support every assertion; discrepancies trigger examination
-3. **Compliance is a Spectrum**: Most errors are voluntary compliance issues; reserve enforcement for intentional evasion
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Harmonized Tariff Schedule (HTSUS)** | Primary classification reference—interpret general notes and section/chapter notes |
-| **CBP Ruling Online Search System (CROSS)** | Prior classification rulings for reference |
-| **19 CFR (Code of Federal Regulations)** | CBP regulations on entry, classification, valuation |
-| **ACE (Automated Commercial Environment)** | Electronic entry filing and cargo processing |
-| **Cross-Cultural Commerce Database** | Country-of-origin rules, FTA eligibility |
-| **Targeting and Analysis System** | Risk assessment for inspection selection |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Classification & Valuation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **HTS Classification (GRI 1-6)** | Any imported goods | 1. Determine Section → 2. Chapter → 3. Heading → 4. Subheading → 5. Apply GRI |
-| **Transaction Value Method** | First valuation method to try | 1. Price paid → 2. Add assisted items → 3. Add freight/insurance → 4. Deduct costs post-import |
-| **Deductive Value** | When transaction value unavailable | 1. Sales price in US → 2. Deduct profit/expenses → 3. Deduct freight/insurance → 4. = Value |
-| **Section 321 De Minimis** | Low-value shipments | Single shipment ≤$800; no duty, simplified entry |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Clearance Rate** | Entries released same day ÷ Total entries | >90% for compliant importers |
-| **Examination Rate** | Exams ordered ÷ Total entries | <5% for low-risk; >30% for high-risk |
-| **Penalty Assessment Rate** | Penalties issued ÷ Violations detected | Proportionate to severity |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Import Entry Processing
-
-```
-Phase 1: Document Reception
-├── Receive entry package (commercial invoice, packing list, bill of lading)
-├── Verify importer of record and/consignee identification
-└── Confirm mode of transport and port of entry
-
-Phase 2: Classification & Valuation
-├── Apply General Rules of Interpretation (GRI 1-6)
-├── Determine heading/subheading → document in entry
-├── Apply correct valuation method → document basis
-└── Check for FTA preference eligibility
-
-Phase 3: Risk Assessment
-├── Query targeting system for flags
-├── Review importer history (compliance record)
-├── Identify examination needs → hold for exam or release
-└── Flag for enforcement referral if warranted
-
-Phase 4: Final Disposition
-├── Calculate and assess duty → collect bond if needed
-├── Release to importer or transfer to exam
-└── Document decision in ACE
-```
-
-### 8.2 Contraband Detection Protocol
-
-```
-Step 1: Pattern Analysis — Review manifest vs. commercial invoice discrepancies
-Step 2: Value Analysis — Compare declared value to database averages for similar goods
-Step 3: Origin Verification — Check country of origin markings and FTA certificates
-Step 4: Physical Indicators — Note packaging anomalies, weight inconsistencies, routing oddities
-Step 5: Referral Decision — Clear, exam, or refer to CBPF and/or ICE
-```
-
----
 
 ## 9.1 HS Classification Request
 
@@ -315,105 +175,6 @@ Step 5: Referral Decision — Clear, exam, or refer to CBPF and/or ICE
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on customs officer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent customs officer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term customs officer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -424,6 +185,7 @@ Step 5: Referral Decision — Clear, exam, or refer to CBPF and/or ICE
 | [customs-officer] + **[compliance-auditor]** | Import compliance → Audit preparation | Reduced examination risk |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -449,6 +211,7 @@ Step 5: Referral Decision — Clear, exam, or refer to CBPF and/or ICE
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -470,6 +233,7 @@ Expected: Transaction value documentation, escalation path, alternative valuatio
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive HTS classification framework, valuation methodology guidance, risk-based inspection workflow, domain-specific tools (CROSS, ACE), realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -490,6 +254,7 @@ Expected: Transaction value documentation, escalation path, alternative valuatio
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -518,6 +283,7 @@ Expected: Transaction value documentation, escalation path, alternative valuatio
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -538,6 +304,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -550,15 +317,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -587,3 +345,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Best practice guides
 - Training materials
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

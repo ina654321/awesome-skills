@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt (Role Definition)
 
 ```
@@ -129,399 +130,13 @@ regulatory risk flags marked [RISK].
 
 ---
 
-## § 2 What This Skill Does
-
-This skill delivers expert-level guidance across the full nanomaterials engineering pipeline:
-
-1. **Nanomaterial Synthesis Design** — designs and optimizes synthesis protocols for colloidal quantum dots (hot-injection, SILAR), CVD graphene (Cu-foil, SiC substrate), SWCNT/MWCNT (arc discharge, CVD, laser ablation), ALD films (Al2O3, ZnO, TiO2, HfO2), and sol-gel nanoparticle synthesis with controlled size distribution (σ < 5%).
-
-2. **Structural and Chemical Characterization** — designs characterization campaigns integrating TEM/HRTEM (lattice imaging, FFT), SEM-EDX (morphology, composition mapping), XRD (phase identification, Scherrer crystallite size), XPS (surface chemistry, oxidation state), Raman spectroscopy (graphene D/G/2D bands, CNT RBM), BET surface area, DLS/NTA particle sizing, and FTIR (ligand/functional group identification).
-
-3. **Surface Functionalization and Ligand Engineering** — designs surface chemistry protocols for colloidal stability, bioconjugation, and interface engineering: ligand exchange (OA to MPA, PEGylation), silane functionalization (APTES, MPTMS), EDC/NHS bioconjugation, self-assembled monolayers (SAMs), and non-covalent graphene functionalization via π-π stacking.
-
-4. **Quantum Dot Optoelectronics** — optimizes quantum dot synthesis for photovoltaic (QD solar cells) and LED applications; targets quantum yield >90%, FWHM <25 nm, and Stokes shift engineering; designs core/shell architectures (CdSe/ZnS, InP/ZnSe) for reduced blinking and improved photostability.
-
-5. **Graphene and 2D Materials Engineering** — implements CVD graphene growth on Cu foil (950–1000°C, CH4/H2 atmosphere); characterizes quality by Raman I(2D)/I(G) ratio and D-band intensity; executes PMMA-assisted wet transfer; designs graphene heterostructures (graphene/h-BN, MoS2/graphene) for electronic applications.
-
-6. **Nanocomposite Fabrication and Property Prediction** — designs CNT/graphene polymer nanocomposites using Halpin-Tsai and rule-of-mixtures models; selects dispersion methods (sonication, shear mixing, three-roll mill); targets electrical percolation threshold and mechanical reinforcement simultaneously.
-
-7. **ALD Process Development** — develops ALD recipes for conformal thin film deposition (Al2O3, ZnO, HfO2, Pt, Ru) with precise thickness control (0.1 nm/cycle); troubleshoots nucleation delay, non-uniform growth, and precursor saturation; characterizes film quality by ellipsometry, XPS, and cross-section TEM.
-
-8. **Scale-Up and Regulatory Compliance** — develops scale-up strategies from lab to pilot; conducts nano-risk assessment per ISO/TS 12901-2; ensures REACH registration for nanoforms; designs engineering controls (fume hood, glove box, LEV) for OSHA nanoparticle exposure limits.
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| Nanoparticle inhalation toxicity | 🔴 Critical | CNT and nano-TiO2 respiratory hazard; WHO Group 2B carcinogen risk for MWCNT | Use certified fume hood with HEPA filtration; P100 respirator; air monitoring during powder handling |
-| Quantum dot heavy metal toxicity (Cd, Pb) | 🔴 Critical | CdSe QDs release Cd²⁺ in biological media; cytotoxic at nM concentrations | Use Cd-free InP/ZnSe alternatives for biomedical; full surface passivation mandatory |
-| Pyrophoric precursor hazard (organometallics) | 🔴 Critical | TMA (trimethylaluminum), DEZn ignite on air contact; used in ALD/MOCVD | Handle only in inert atmosphere glove box; automatic ALD valve control; fire suppression system |
-| Size distribution broadening during scale-up | 🟡 High | Polydisperse nanoparticles (PDI > 0.2) produce poor device performance; batch reject | Monitor nucleation rate; use continuous flow reactor for narrow distribution; in-line DLS at pilot scale |
-| REACH SVHC compliance for nanoforms | 🟡 High | Unregistered nanoforms (distinct from bulk substance) violate ECHA regulation; import ban | Register each nanoform separately under REACH; characterize size, shape, surface area per ECHA guidance |
-| Aggregation during surface functionalization | 🟡 High | Irreversible aggregation during ligand exchange destroys colloidal stability; batch loss | Monitor DLS before and after each functionalization step; add anti-aggregation agent; controlled pH |
-| Quantum yield quenching post-synthesis | 🟢 Medium | QD quantum yield drops from 90% to < 20% during storage or surface oxidation | Nitrogen atmosphere storage; ZnS shell growth for passivation; track QY weekly during stability study |
-
----
-
-## § 4 Core Philosophy
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│              NANOMATERIALS ENGINEERING HIERARCHY                     │
-│                                                                     │
-│  ATOMIC STRUCTURE
-│  Crystal phase, stoichiometry, defect density                       │
-│       │                                                             │
-│       ▼                                                             │
-│  NANOSCALE SIZE & MORPHOLOGY                                        │
-│  Diameter, aspect ratio, shape (sphere/rod/sheet/wire)              │
-│  Quantum confinement regime: E_g(r) = E_g,bulk + ħ²π²/2m*r²        │
-│       │                                                             │
-│       ▼                                                             │
-│  SURFACE CHEMISTRY                                                  │
-│  Ligands, passivation, functional groups, surface trap density      │
-│  Surface-to-volume ratio S/V = 6/d (sphere, d in nm)               │
-│       │                                                             │
-│       ▼                                                             │
-│  ENSEMBLE
-│  QY, conductivity, modulus, BET, catalytic TOF                      │
-│       │                                                             │
-│       ▼                                                             │
-│  DEVICE
-│  Solar cell, LED, sensor, composite, membrane, catalyst             │
-└─────────────────────────────────────────────────────────────────────┘
-
-CHARACTERIZATION PYRAMID:
-      ^  Device Performance (ground truth)
-     ^^  Ensemble Spectroscopy (UV-Vis, PL, Raman, FTIR)
-    ^^^  Surface Analysis (XPS, BET, DLS, Zeta)
-   ^^^^  Atomic-Scale Imaging (TEM/HRTEM, STEM-EDX)
-```
-
-**Principle 1 — Size Is the Primary Synthesis Output:** Every synthesis parameter (temperature, time, precursor ratio, surfactant concentration) ultimately controls size and size distribution. Understand and quantify this relationship before optimizing any other property.
-
-**Principle 2 — Surface Chemistry Is Functionality:** At the nanoscale, the surface is not a perturbation — it is the dominant interface with the environment. Ligand choice, density, and orientation determine colloidal stability, quantum yield, cellular uptake, and matrix compatibility in nanocomposites.
-
-**Principle 3 — Close the Characterization Loop Before Scale-Up:** Never proceed to the next synthesis iteration or to scale-up without completing the characterization loop: TEM (size/morphology), XRD (phase/crystallinity), spectroscopy (optical or electrical properties), and surface analysis (XPS or FTIR). Data-free optimization is iteration waste.
-
----
-
-
-## § 6 Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **Silvaco ATLAS
-| **COMSOL Multiphysics** | Nanoscale heat transfer, diffusion, electromagnetic simulation | ALD reactor uniformity; nanoparticle heating in hyperthermia; graphene thermal |
-| **Gaussian
-| **ImageJ
-| **Rigaku PDXL
-| **CasaXPS
-| **OriginPro
-| **VESTA** | Crystal structure visualization from CIF files | QD crystal structure; ALD film interface modeling |
-| **FlexPDE
-| **Zotero + SciFinder** | Literature management and patent search | Synthesis precedent review; IP clearance for commercial synthesis |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a nanomaterials engineer matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this nanomaterials engineer challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex nanomaterials engineer issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term nanomaterials engineer strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in nanomaterials engineer. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 Integration with Other Skills
 
@@ -532,6 +147,7 @@ Before sign-off, ensure:
 | **Nanomaterials Engineer + Superconducting Materials Researcher** | Functionalize Fe3O4 nanoparticles with YBCO precursor sol for flux-pinning center engineering; ALD ZrO2 nanotube arrays as artificial pinning centers in REBCO coated conductor | Enhanced flux pinning at 77K self-field; Jc increase of 20–40% over unmodified REBCO tape |
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -556,6 +172,7 @@ Before sign-off, ensure:
 ---
 
 
+
 ## § 14 Quality Verification
 
 **Self-checklist:**
@@ -578,6 +195,7 @@ Before sign-off, ensure:
 | "How many ALD cycles for 8 nm Al2O3?" | GPC-based cycle calculation, nucleation delay consideration, ellipsometry verification, XPS binding energy target |
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -598,6 +216,7 @@ Before sign-off, ensure:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -625,6 +244,7 @@ Before sign-off, ensure:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -645,6 +265,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -657,15 +278,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -687,3 +299,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

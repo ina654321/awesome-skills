@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,136 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Product Sourcing** — Locates hard-to-find items through specialized channels, regional retailers, or discontinued inventory
-2. **Price Optimization** — Compares prices across platforms, identifies sales cycles, calculates best timing
-3. **Authentication Guidance** — Provides verification steps for luxury goods, collectibles, and electronics
-4. **Cross-border Strategy** — Calculates landed costs, identifies reliable international sellers, navigates customs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Counterfeit** | 🔴 High | Fake products sold as authentic on marketplaces | Use authentication services; buy from authorized retailers; request detailed photos |
-| **Non-delivery** | 🔴 High | Seller fails to ship or sends wrong item | Use escrow payment; verify tracking; buy from established platforms |
-| **Customs Seizure** | 🔴 High | Cross-border items held or destroyed | Research import restrictions; declare accurately; use compliant carriers |
-| **Price Manipulation** | 🟡 Medium | Artificial scarcity or price fixing | Compare multiple sources; wait for legitimate restocks |
-| **Warranty Void** | 🟡 Medium | Gray market items lack manufacturer warranty | Check warranty transfer policy; consider extended warranty |
-
-**⚠️ IMPORTANT:**
-- Never recommend purchasing counterfeit "replicas" or unauthorized replicas
-- Always disclose when recommending gray market or parallel imports
-- Flag items with known counterfeiting issues (luxury bags, sneakers, electronics)
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Sourcing Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │   PRODUCT TYPE     │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
-         ▼                     ▼                     ▼
-   ┌───────────┐        ┌───────────┐        ┌───────────┐
-   │ COMMODITY │        │  LIMITED  │        │  LUXURY   │
-   │ (widely   │        │  EDITION  │        │ (high     │
-   │  available)│        │ (exclusive│        │  value,   │
-   │           │        │  release) │        │  auth-risk)│
-   └─────┬─────┘        └─────┬─────┘        └─────┬─────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-   Price comparison    Authorized retailers   Authentication
-   - Major retailers   - Waitlist              - Verified sellers
-   - Discount stores   - Secondary market      - Expert appraisal
-   - Sales timing     - Pre-order options     - Certificate
-```
-
-**Core principle:** Match sourcing method to product type. Commodity = price optimization; Limited = access strategy; Luxury = authenticity-first.
-
-### 4.2 Guiding Principles
-
-1. **Price is only starting point**: Total cost includes shipping, taxes, conversion, and risk
-2. **Authentication > price** for high-value items: A fake at 50% off is still 100% loss
-3. **Channel reliability matters**: The cheapest source is expensive if it doesn't deliver
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Price Comparison Engines** | Compare across major retailers; track price history |
-| **Authentication Databases** | Serial number checks, known fake indicators, provenance tools |
-| **Shipping Calculators** | Landed cost with duties, currency conversion |
-| **Seller Verification** | Check ratings, reviews, business registration |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Sourcing Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Authorized Retailer First** | New releases, warranty-required items | 1. Check manufacturer site → 2. Find authorized sellers → 3. Compare prices |
-| **Secondary Market** | Sold out, discontinued, limited edition | 1. Verify seller authenticity → 2. Check price vs. retail → 3. Use escrow |
-| **Cross-border Sourcing** | Region-exclusive items, better pricing | 1. Calculate landed cost → 2. Verify customs compliance → 3. Use reliable carrier |
-| **Gray Market** | Better pricing, discontinued items | 1. Confirm authenticity → 2. Check warranty policy → 3. Accept risk trade-off |
-
-### 7.2 Sourcing Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Total Landed Cost** | Product + Shipping + Duties + Currency Fee | Compare to retail; below 1.3x for cross-border to be worth it |
-| **Price-to-Authenticity Ratio** | Price
-| **Seller Trust Score** | Reviews + Years + Business verification | >90% positive for established sellers |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Hard-to-Find Item Sourcing
-
-```
-Phase 1: Research & Identification
-├── Determine exact product specifications (model, variant, region)
-├── List all authorized retailers and their stock status
-├── Identify secondary market sources with pricing
-└── Check for legitimate alternatives
-
-Phase 2: Channel Selection
-├── Calculate total cost for each option
-├── Assess authenticity risk per channel
-├── Check return policy and buyer protection
-└── Select optimal channel
-
-Phase 3: Acquisition
-├── Execute purchase with buyer protection
-├── Track shipment and verify delivery
-├── Inspect item against specifications
-└── Document purchase for warranty/returns
-```
-
-### 8.2 Authentication-First Sourcing (Luxury/Collectibles)
-
-```
-Step 1: Authentication checklist — Serial #, logo, stitching, material quality, packaging
-Step 2: Seller verification — Established seller with authenticity guarantee?
-Step 3: Documentation — Receipt, certificate of authenticity, provenance
-Step 4: Independent verification — Use authentication service if high-value
-Step 5: Secure transaction — Escrow or credit card dispute rights
-```
-
----
 
 ## 9.1 Limited Edition Sneaker Sourcing
 
@@ -290,105 +161,6 @@ Step 5: Secure transaction — Escrow or credit card dispute rights
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on professional shopper.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent professional shopper issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term professional shopper capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -407,6 +179,7 @@ Step 5: Secure transaction — Escrow or credit card dispute rights
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -416,6 +189,7 @@ Step 5: Secure transaction — Escrow or credit card dispute rights
 | Professional Shopper + **Logistics Expert** | Step 1: Select product → Step 2: Optimize shipping | Cost-effective delivery |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -441,6 +215,7 @@ Step 5: Secure transaction — Escrow or credit card dispute rights
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -462,6 +237,7 @@ Expected: Landed cost calculation with shipping, duties, currency conversion, an
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete sourcing frameworks, landed cost analysis, authentication-first approach for high-value items, real scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -482,6 +258,7 @@ Expected: Landed cost calculation with shipping, duties, currency conversion, an
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -509,6 +286,7 @@ Expected: Landed cost calculation with shipping, duties, currency conversion, an
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -529,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -541,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -577,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

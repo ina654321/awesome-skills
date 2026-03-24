@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -130,168 +131,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Editorial Analysis & Restructuring** — Evaluate rough cuts for pacing problems, narrative clarity, and emotional beats; propose specific restructuring solutions
-2. **Color Grading Direction** — Create cohesive color looks that enhance mood; communicate with colorists or execute primary/secondary corrections
-3. **Rhythmic Editing for Impact** — Build tension, release, and emotional payoff through strategic cut timing synced to audio
-4. **NLE Workflow Optimization** — Design efficient project architectures, keyboard shortcut strategies, and proxy workflows for large projects
-5. **Client Feedback Translation** — Convert vague client notes ("make it pop more," "feels too slow") into specific technical changes
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Data Loss** | 🔴 High | Corrupted project files, missed renders, or irreversible destructive edits | Always maintain backup Originals folder; use .prproj/.drp instead of flattened files; render Proxies before major changes |
-| **Missed Deadlines** | 🔴 High | Client expectations for delivery dates; especially live events or campaign launches | Build 20% buffer into timelines; communicate delays immediately with specific new dates |
-| **Copyright Issues** | 🟡 Medium | Using unlicensed music, stock footage exceeding license scope, or sampled audio | Use licensed libraries; verify stock footage terms; keep documentation of all licenses |
-| **Color Space Mismatch** | 🟡 Medium | Exporting HDR footage for SDR platforms or vice versa | Verify delivery specs early; create separate masters for each delivery format |
-| **Scope Creep** | 🟢 Low | Unpaid revision rounds beyond initial agreement | Define revision rounds in contract; communicate when additional changes require new quotes |
-
-**⚠️ IMPORTANT:**
-- Never work without a written scope of work specifying revision rounds and delivery format
-- Always protect yourself with backup copies of both source footage and project files
-- Be transparent about timeline risks — clients appreciate honesty more than surprise delays
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Three-Act Edit Framework
-
-```
-                    STORY STRUCTURE
-                           │
-         ┌─────────────────┼─────────────────┐
-         ▼                 ▼                 ▼
-      OPENING           MIDDLE            CLOSING
-    (Hook + Setup)   (Conflict + Rise)  (Resolution)
-         │                 │                 │
-         ▼                 ▼                 ▼
-   RHYTHM: FAST       RHYTHM: VARIED    RHYTHM: RESOLVE
-   Cut every 1-3s    Build/release      Hold on final
-   Establish energy  emotional waves    moments
-```
-
-The editor's job is to honor the story's emotional structure through rhythmic choices. Fast cuts create urgency; holds create weight. Every scene has a natural rhythm that amplifies the story's intended emotional effect.
-
-### 4.2 Guiding Principles
-
-1. **Story First, Technique Second**: Never make a cut because you "can" — only make cuts that serve the story's emotional or informational need
-2. **Audio Leads, Video Follows**: The best edits happen when you lock picture to audio and find video transitions that support the sound
-3. **Less Is More**: Junior editors add effects; senior editors know when to let the footage breathe
-4. **The First 5 Seconds Rule**: Your opening sequence determines whether the viewer watches or clicks away — always optimize the hook
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install video-editor` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | Read [URL] and install as skill | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | Read [URL] and install as skill | Append to `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/video-editor.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
-| **Kimi Code** | Read [URL] and install as skill | Append to `.kimi-rules` |
-
-[URL]: https://awesome-skills.dev/skills/creative/video-editor.md
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **DaVinci Resolve** | Primary NLE; industry standard for color grading and recently for editing |
-| **Adobe Premiere Pro** | Cross-platform editing with extensive plugin ecosystem |
-| **Avid Media Composer** | Film/TV industry standard for collaborative workflows |
-| **After Effects** | Motion graphics, compositing, and visual effects |
-| **Silent Watcher** | Frame-accurate playback for client review |
-| **RED GIANT Universe** | Color correction and effects plugins |
-| **RevisionFX** | Professional retiming and cleanup plugins |
-| **Frame.io** | Cloud-based collaboration and client review |
-| **CloudApp/Loom** | Quick async video feedback |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Editing Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **The 5-Step Assembly** | New projects with raw footage | 1. Organize → 2. Log best takes → 3. Build rough assembly → 4. Refine structure → 5. Polish |
-| **Rhythmic Music Video** | Music videos, promotional content | 1. Lock audio → 2. Mark beats → 3. Build picture to hits → 4. Layer effects → 5. Color |
-| **Documentary Act Structure** | Documentary, interview-based content | 1. Identify story beats → 2. Group interviews by theme → 3. Build A/B rolls → 4. Find visual transitions → 5. Mix audio |
-| **Social Media Hook System** | TikTok, Reels, YouTube Shorts | 0-3s: Hook → 3-15s: Value → 15-30s: CTA (varies by length) |
-
-### 7.2 Industry Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Cut Efficiency** | Total runtime / Number of cuts | Documentaries: 4-6s/shot; Commercials: 2-3s/shot; Music Videos: 1-2s/shot |
-| **Render Time** | Project complexity vs. hardware | Should not exceed 1:2 ratio (1 hour edit = 2 hour render max) |
-| **Client Revision Rate** | Revisions needed
-| **Delivery Error Rate** | Failed deliveries
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Project Workflow
-
-```
-Phase 1: Ingestion & Organization
-├── Receive footage; verify against shot list/checklist
-├── Create project folder structure (Footage/Project Files/Renders/Exports)
-├── Import and organize bins by scene/take/date
-├── Sync multi-cam if applicable; verify audio sync
-└── Create low-res proxies for 4K+ footage
-[✓] Done: All footage verified, bins organized, proxies created
-[✗] Fail: Missing footage, sync issues, wrong file formats
-
-Phase 2: Assembly & Structure
-├── Watch all footage; mark selects in metadata
-├── Build rough assembly in timeline (story first, not best shots)
-├── Lock structure before refining individual scenes
-├── Add temporary music/SOT to test pacing
-└── Review with stakeholders; gather feedback
-[✓] Done: Assembly locked, stakeholder feedback received
-[✗] Fail: Structure changes required, missing coverage
-
-Phase 3: Refinement & Polish
-├── Replace temporary cuts with selects
-├── Refine J/L cuts for smoother audio transitions
-├── Add motion graphics and titles
-├── Color grade (basic correction → creative look)
-└── Mix audio levels; add SFX bed
-[✓] Done: Picture locked, color complete, audio mixed
-[✗] Fail: Client revision requests, technical issues
-
-Phase 4: Delivery
-├── Create deliverables in required formats
-├── QC on reference monitor if possible
-├── Archive project with all assets
-└── Deliver via Frame.io or client portal
-[✓] Done: All deliverables sent, client confirmation received
-[✗] Fail: Format errors, delivery failures, missing assets
-```
-
-### 8.2 Color Grading Session
-
-```
-Step 1: Primary Correction (lift/gamma/gain, color temperature)
-Step 2: Secondary Isolation (skin tone, specific colors)
-Step 3: Creative Look (contrast curve, saturation, color blocking)
-Step 4: Output Formatting (Rec.709, P3, HDR)
-Step 5: Deliverable Split (different grades for social vs. broadcast)
-```
-
----
 
 ## 9.1 Pacing Problem Diagnosis
 
@@ -333,105 +172,6 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on video editor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent video editor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term video editor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -453,6 +193,7 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -463,6 +204,7 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 | Video Editor + **Director** | Editor realizes director's vision within budget/time constraints | Vision preserved in final cut |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -482,6 +224,7 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 - Voice-over recording → use **voice actor** skill instead
 
 ---
+
 
 ## § 13 · How to Use This Skill
 
@@ -514,6 +257,7 @@ echo "Read [URL] and apply video-editor skill." >> ./CLAUDE.md
 
 ---
 
+
 ## § 14 · Quality Verification
 
 ### Test Cases
@@ -533,6 +277,7 @@ Expected: Detailed workflow covering primary correction, white balance matching 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with specific credentials, actionable frameworks for different content types, concrete metrics and benchmarks, scenario-based examples with diagnostic tables, and real studio-level anti-patterns.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -553,6 +298,7 @@ Expected: Detailed workflow covering primary correction, white balance matching 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -580,6 +326,7 @@ Expected: Detailed workflow covering primary correction, white balance matching 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -600,6 +347,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -612,15 +360,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -648,3 +387,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

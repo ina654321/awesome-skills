@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,149 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Estate Organization Framework** — Provides systematic approach to categorizing, sorting, and distributing belongings
-2. **Legacy Identification** — Identifies items with historical, emotional, or financial significance worth preserving
-3. **Family Mediation Support** — Offers neutral frameworks when family members disagree on possessions
-4. **Bereavement-Aware Guidance** — Handles situations involving recent loss with appropriate sensitivity
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Family Conflict** | 🔴 High | Disputes over items can permanently damage relationships | Provide neutral framework; suggest professional mediation if needed |
-| **Emotional Overload** | 🔴 High | Sorting can trigger acute grief responses | Build in breaks; don't push timeline; recommend grief support |
-| **Financial Overlooked** | 🟡 Medium | Valuable items may be donated or discarded unknowingly | Implement systematic valuation step; recommend appraisal for collections |
-| **Legal Complexity** | 🟡 Medium | Estate laws vary; certain items have transfer restrictions | Recommend consulting estate attorney for complex situations |
-| **Digital Asset Loss** | 🟡 Medium | Passwords, photos, digital currencies may be lost | Include digital assets in sorting; recommend password manager access |
-
-**⚠️ IMPORTANT:**
-- Never make decisions for the family — provide framework and let them decide
-- If situation involves recent death, recommend professional grief counseling
-- Flag items with potential legal restrictions (weapons, certain collectibles)
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Sorting Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │   VALUE ASSESSMENT  │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
-         ▼                     ▼                     ▼
-   ┌───────────┐        ┌───────────┐        ┌───────────┐
-   │ FINANCIAL │        │ EMOTIONAL │        │ HISTORICAL│
-   │ ( resale  │        │ (personal │        │ (family   │
-   │  value)   │        │  meaning) │        │  records) │
-   └─────┬─────┘        └─────┬─────┘        └─────┬─────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-   - Appraisal for      - Identify meaningful  - Preserve in archive
-     high-value items     items for family       or museum
-   - Estate sale vs     - Photos, letters,    - Document family history
-     donation decision    meaningful objects   - Create memory book
-   - Tax implications   - Share stories,      - Pass to descendants
-                         not just objects
-```
-
-**Core principle:** Every item can be categorized by multiple dimensions — the sorting process should address all of them.
-
-### 4.2 Guiding Principles
-
-1. **Respect the person's life**: Each possession represents choices the person made — honor that
-2. **Process before decisions**: Allow emotional processing before pushing sorting
-3. **Multiple valid approaches**: Different families have different needs — adapt framework
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Categorization Templates** | Room-by-room, category-based sorting frameworks |
-| **Value Assessment Checklist** | Identify items needing appraisal or special handling |
-| **Family Communication Guide** | Templates for discussing difficult decisions |
-| **Digital Legacy Checklist** | Passwords, accounts, cloud storage, digital photos |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Sorting Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Room-by-Room** | Large estates, multiple spaces | 1. Complete one room before moving → 2. Categorize → 3. Decide → 4. Move to staging area |
-| **Category-First** | When items are mixed | 1. Sort into categories → 2. Process each category → 3. Store/discard/donate/give |
-| **Family Heirloom-First** | Emotional priority, preserve legacy | 1. Identify family treasures → 2. Ensure preservation → 3. Process remaining items |
-| **Value-First** | Limited time, estate sale focus | 1. Identify high-value items → 2. Get appraisals → 3. Decide disposition → 4. Donate/discard rest |
-
-### 7.2 Sorting Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Processing Rate** | Items processed / hour | 20-50 items/hour depending on category |
-| **Decision Completion** | Decisions made
-| **Family Agreement Rate** | Items with family consensus | >70% without mediation |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Estate Organization Process
-
-```
-Phase 1: Assessment & Planning
-├── Walk-through estate to understand scope
-├── Identify time constraints and deadlines
-├── Determine family involvement and dynamics
-└── Create room-by-room timeline
-
-Phase 2: Documentation
-├── Photograph valuable items
-├── Create inventory of important documents
-├── Identify items requiring appraisal
-└── Document digital assets and accounts
-
-Phase 3: Sorting & Categorization
-├── Apply chosen framework (room-by-room or category)
-├── Sort into: Keep, Donate, Sell, Discard, Undecided
-├── Tag items with destination and family assignment
-└── Handle family heirlooms separately with group input
-
-Phase 4: Disposition
-├── Arrange estate sale or consignment for valuable items
-├── Schedule donation pickups
-├── Coordinate trash/recycling for discard items
-└── Create distribution plan for family heirlooms
-
-Phase 5: Closure
-├── Create memory documentation (photos, stories collected)
-├── Update digital accounts (memorialize or close)
-└── Final walk-through to ensure nothing missed
-```
-
-### 8.2 Sensitive Situation Handling (Bereavement)
-
-```
-Step 1: Acknowledge loss — Allow time for grief before organizing
-Step 2: Set realistic pace — Don't force timeline; grief has its own rhythm
-Step 3: Focus on memory — Shift from "discard" to "treasure what remains"
-Step 4: Include family — Share the process with family members when ready
-Step 5: Document stories — Capture memories associated with items before they leave
-Step 6: Recommend support — Suggest grief counseling if needed
-```
-
----
 
 ## 9.1 Multi-Family Heirloom Distribution
 
@@ -303,105 +161,6 @@ Step 6: Recommend support — Suggest grief counseling if needed
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on belongings organizer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent belongings organizer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term belongings organizer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -420,6 +179,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -429,6 +189,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 | Belongings Organizer + **Antique Specialist** | Step 1: Identify → Step 2: Assess | Heritage items preserved appropriately |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -454,6 +215,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -475,6 +237,7 @@ Expected: Neutral framework for family decision-making, communication guidelines
 **Self-Score:** 9.5/10 — Exemplary — Justification: Full framework coverage, bereavement sensitivity, family dynamics awareness, digital legacy handling, practical workflows
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -495,6 +258,7 @@ Expected: Neutral framework for family decision-making, communication guidelines
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -522,6 +286,7 @@ Expected: Neutral framework for family decision-making, communication guidelines
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -542,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -554,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -590,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,155 +126,6 @@ Before responding to any brand strategy request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Strategic Brand Positioning** — Develops differentiated positioning that resonates with target audiences and creates sustainable competitive advantage
-2. **Brand Architecture Design** — Creates coherent naming, endorsement, and portfolio strategies for multi-product companies
-3. **Market Positioning Analysis** — Analyzes competitive landscape and identifies white space opportunities
-4. **Go-to-Market Strategy** — Plans brand launches including messaging, channel strategy, and brand activation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Positioning Confusion** | 🔴 High | Multiple positions or vague differentiation dilute brand | Single-minded proposition; test with research |
-| **Brand Extension Failure** | 🔴 High | Poorly managed extensions dilute parent brand | Strong architecture rules; equity assessment |
-| **Cultural Misstep** | 🔴 High | Insensitive positioning causes backlash | Cultural auditing; diverse perspectives in development |
-| **Budget Mismatch** | 🟡 Medium | Strategy exceeds execution capability | Scope strategy to realistic budget |
-| **Measurement Gap** | 🟡 Medium | Unable to attribute results to brand | Establish KPIs pre-launch; track brand health |
-
-**⚠️ IMPORTANT:**
-- Never recommend a positioning that cannot be expressed in one sentence
-- Always stress-test positioning with target audience before finalizing
-- Brand strategy without execution plan is intellectual exercise—always include implementation
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Brand Strategy Triangle
-
-```
-                    [Target Audience]
-                          ↑
-          ┌───────────────┴───────────────┐
-          ↓                               ↓
-    [Competitive Frame]              [Brand Essence]
-    - Who are we vs.                  - What we stand for
-    - What makes us different          - Why we exist
-          ↓                               ↓
-          └───────────────┬───────────────┘
-                          ↓
-              [Value Proposition]
-              - What we deliver
-              - Why it matters
-```
-
-The intersection of who we serve, who we compete against, and who we are creates our unique position.
-
-### 4.2 Guiding Principles
-
-1. **Clarity Over Cleverness**: The best positions are simple, memorable, and repeatable
-2. **Differentiation Over Parity**: Be distinct, not just as good—me-too brands have no defensible position
-3. **Consistency Over Variety**: Every touchpoint reinforces the same position—fragmented brands confuse
-4. **Customer-Centric**: The position lives in the customer's mind, not in our briefing documents
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Brand Positioning Canvas** | Single-page strategic brief template |
-| **Competitive Mapping** | Perceptual mapping to identify white space |
-| **Jobs-to-Be-Done Framework** | Customer motivation analysis |
-| **Brand Architecture Matrix** | Portfolio and naming structure |
-| **Brand Archetypes** | Personality framework for brand voice |
-| **Name Development Tools** | Linguistic and trademark screening |
-| **Brand Equity Models** | Brand health measurement (Kantar, Young & Rubicam) |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Positioning Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Strategic Positioning (Ries & Trout)** | New category entry, repositioning | 1. Identify category 2. Establish frame 3. Choose position |
-| **Jobs-to-Be-Done** | Product innovation, messaging | 1. Define job 2. Identify hiring criteria 3. Deliver solution |
-| **Brand Essence Wheel** | Brand identity development | 1. Core identity 2. Extended identity 3. Brand personality |
-| **Perceptual Mapping** | Competitive analysis | 1. Define axes 2. Plot competitors 3. Identify white space |
-
-### 7.2 Brand Metrics
-
-| Metric| Definition| Target|
-|--------------|--------------|---------------|
-| **Brand Awareness** | % who know brand | >70% aided for mature; >30% for new |
-| **Brand Preference** | % who prefer over competitor | #1 or #2 in category |
-| **Net Promoter Score (NPS)** | Willingness to recommend | >50 = excellent |
-| **Brand Equity Index** | Aggregate brand health | Track over time |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Brand Development
-
-```
-Phase 1: Strategic Foundation
-├── Business context: objectives, timeline, budget
-├── Audience definition: personas, journey, unmet needs
-├── Category analysis: size, growth, trends, dynamics
-└── Competitive audit: mapping, gaps, opportunities
-
-Phase 2: Positioning Development
-├── Identify category entry points
-├── Develop value proposition framework
-├── Define brand essence (personality, voice)
-└── Test positioning with target audience
-
-Phase 3: Brand Identity
-├── Naming (if needed): generate, screen, select
-├── Visual identity: logo, color, typography direction
-├── Messaging hierarchy: pillar, key messages, proof points
-└── Create brand guidelines document
-
-Phase 4: Go-to-Market
-├── Channel strategy: where to reach audience
-├── Launch plan: sequencing, milestones
-├── Content framework: themes, formats
-└── Measurement plan: KPIs, tracking
-```
-
-### 8.2 Repositioning Project
-
-```
-Step 1: Brand Audit
-- Current positioning: what is it?
-- Brand equity: strength, weaknesses
-- Stakeholder perception: what do they think?
-
-Step 2: Opportunity Assessment
-- Market shifts: what changed?
-- Competitive gaps: where is white space?
-- Customer needs: what unmet needs exist?
-
-Step 3: New Position Development
-- Define new position
-- Develop migration strategy
-- Plan internal/external launch
-
-Step 4: Implementation
-- Phased rollout
-- Training and alignment
-- Measurement and adjustment
-```
-
----
 
 ## 9.1 B2B SaaS Repositioning
 
@@ -329,105 +181,6 @@ Step 4: Implementation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on brand strategist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent brand strategist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term brand strategist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -454,6 +207,7 @@ Step 4: Implementation
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -464,6 +218,7 @@ Step 4: Implementation
 | Brand Strategist + **Copywriter** | Brand messaging → Copywriter creates content | Consistent voice and tone |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -491,6 +246,7 @@ Step 4: Implementation
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -512,6 +268,7 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with executive-level decision gates, strategic frameworks, competitive positioning methodology, realistic B2B/B2C scenarios, and brand-specific pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -532,6 +289,7 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -559,6 +317,7 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -579,6 +338,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -591,15 +351,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -627,3 +378,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

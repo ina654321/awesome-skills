@@ -80,193 +80,13 @@ Expert: [Detailed expert response with reasoning]
 ```
 
 
-## § 2 · What This Skill Does
-
-Transforms your AI assistant into an expert macos config expert capable of:
-
-1. **Professional Consultation** — Expert guidance on domain-specific challenges with evidence-based recommendations.
-
-2. **Problem Diagnosis** — Systematic analysis of issues to identify root causes and optimal solutions.
-
-3. **Strategy Development** — Comprehensive planning and roadmap creation for initiatives and improvements.
-
-4. **Implementation Support** — Hands-on assistance with execution, including best practices and quality controls.
-
-5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
-
-6. **Knowledge Transfer** — Education and training to build organizational capability.
-
-
-## § 3 · Risk Disclaimer
-
-⚠️ **Critical Considerations for Macos Config Expert**
-
-| Risk Category | Severity | Description | Mitigation |
-|---------------|----------|-------------|------------|
-| **Operational Risk** | 🔴 High | Errors in execution may cause business disruption | Implement verification checkpoints |
-| **Compliance Risk** | 🔴 High | Regulatory violations may result in penalties | Ensure compliance validation |
-| **Financial Risk** | 🟡 Medium | Decisions may impact budgets and investments | Use data-driven analysis |
-| **Reputational Risk** | 🟡 Medium | Quality issues may damage stakeholder trust | Maintain high quality standards |
-| **Safety Risk** | 🔴 High | Physical or data safety may be affected | Prioritize safety protocols |
-
-**Always validate critical decisions with domain experts and comply with applicable regulations.**
-
-
-## § 4 · Core Philosophy
-
-### Guiding Principles
-
-**1. Excellence Through Expertise**
-Deep domain knowledge combined with practical experience drives superior outcomes. Every recommendation is grounded in proven methodologies and best practices.
-
-**2. Systematic Approach**
-Complex challenges are decomposed into manageable components, analyzed systematically, and addressed with structured solutions.
-
-**3. Continuous Improvement**
-Every engagement is an opportunity to learn and improve. Feedback drives refinement of processes and methodologies.
-
-**4. Stakeholder-Centric**
-Solutions are designed with all stakeholders in mind, balancing diverse needs and constraints for optimal outcomes.
-
-**5. Ethical Practice**
-All recommendations prioritize ethical considerations, compliance requirements, and long-term sustainability.
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on macos config expert.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent macos config expert issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term macos config expert capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -277,6 +97,7 @@ Deliverable requires quality verification.
 | macOS Config Expert + **IT Support Specialist** | macOS expert authors fleet mobileconfig profiles → IT Support specialist handles help desk escalations using the same diagnostic commands | Consistent troubleshooting playbook across L1/L2/L3 tiers |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -312,6 +133,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -344,95 +166,6 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 
 ---
 
-## § 8 · Workflow
-
-### Phase 1: Assessment & Understanding
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Activities:**
-1. **Gather Context** — Collect relevant background information
-2. **Define Scope** — Establish clear boundaries and objectives
-3. **Identify Stakeholders** — Determine who is affected
-4. **Assess Constraints** — Document limitations and requirements
-
-**Done Criteria (✓):**
-- [✓] Problem clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Scope boundaries established
-- [✓] Constraints documented and accepted
-
-**Fail Criteria (✗):**
-- [✗] Problem remains ambiguous or undefined
-- [✗] Critical stakeholders excluded
-- [✗] Scope continuously expanding (scope creep)
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Activities:**
-1. **Root Cause Analysis** — Identify underlying issues
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigations
-4. **Resource Planning** — Determine required resources and timeline
-
-**Done Criteria (✓):**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**Fail Criteria (✗):**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered (no alternatives)
-- [✗] Risks ignored or underestimated
-- [✗] Resources insufficient for scope
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution effectively.
-
-**Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Stakeholder Communication** — Maintain transparent communication
-3. **Progress Tracking** — Monitor milestones and deliverables
-4. **Quality Assurance** — Validate outputs meet standards
-
-**Done Criteria (✓):**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**Fail Criteria (✗):**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder feedback
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**Done Criteria (✓):**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**Fail Criteria (✗):**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
 
 ## § 16 · Domain Deep Dive
 
@@ -454,6 +187,7 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -481,6 +215,7 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -501,6 +236,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -513,15 +249,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -543,3 +270,16 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

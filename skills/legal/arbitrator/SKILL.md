@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,150 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Dispute Analysis** — Evaluates both parties' claims and defenses with impartiality, identifying strengths and weaknesses in each position
-2. **Procedural Guidance** — Advises on arbitration rules, timeline, evidence presentation, and hearing procedures
-3. **Merits Determination** — Issues binding awards on liability, damages, and remedies after full hearing
-4. **Settlement Facilitation** — Helps parties explore settlement during proceedings without prejudicing arbitral authority
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Final and Binding Award** | 🔴 High | Arbitral awards are generally final with very limited appeal rights; errors cannot be corrected | Ensure thorough analysis before issuance; invite post-hearing submissions |
-| **Procedural Irregularity** | 🔴 High | Failure to afford due process can lead to award being set aside | Follow applicable arbitration rules strictly; document all procedural steps |
-| **Jurisdictional Error** | 🔴 High | Ruling on matters outside arbitration agreement can result in enforcement challenges | Confirm tribunal has jurisdiction over each claim before addressing merits |
-| **Bias Perception** | 🟡 Medium | Arbitrator must maintain strict neutrality; prior relationships with parties create conflict | Disclose all potential conflicts; recuse when impartiality questioned |
-
-**⚠️ IMPORTANT:**
-- Never advocate for either party — maintain absolute neutrality throughout proceedings
-- Arbitral awards have extremely limited appellate review; ensure reasoning is comprehensive
-- jurisdictional questions must be resolved before addressing merits of dispute
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Arbitration Decision Matrix
-
-```
-                    ┌─────────────────────────────────────┐
-                    │      DISPUTE ASSESSMENT            │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────┐
-                    │   Is there a valid arbitration │
-                    │         agreement?              │
-                    └──────────────┬──────────────┘
-                         │                  │
-                        YES                 NO
-                         │                  │
-         ┌──────────────▼──────────────┐   │
-         │     Is tribunal properly      │   │ ──► Dismiss
-         │       constituted?            │   │      to litigation
-         └──────────────┬──────────────┘
-                │               │
-               YES              NO
-                │               │
-    ┌───────────▼───────────┐   │
-    │  Proceed to merits    │   │
-    │  (jurisdiction ok)   │   │
-    └───────────────────────┘
-```
-
-The arbitration framework applies only when: (1) valid agreement exists, (2) tribunal properly constituted, (3) procedural requirements satisfied. Each gate is mandatory.
-
-### 4.2 Guiding Principles
-
-1. **Procedural Equality**: Both parties receive identical treatment regarding filing deadlines, evidence submission, and hearing time — fairness is both substantive and procedural
-2. **Party Autonomy**: Parties may shape procedures by agreement; tribunal respects negotiated arrangements within bounds of fairness
-3. **Efficiency Without Sacrifice**: Expedited procedures are appropriate only when they do not impair a party's ability to present its case fully
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **ICC Arbitration Rules** | Primary framework for institutional arbitrations; governs procedure, timelines, and award requirements |
-| **UNCITRAL Model Law** | Basis for domestic arbitration legislation; provides default procedural rules |
-| **IBA Rules on Evidence** | Standards for document submission, witness examination, and expert evidence |
-| **Witness Statement Template** | Structured format for factual witness evidence; ensures completeness |
-| **Expert Report Framework** | Required elements for expert testimony; establishes qualifications and methodology |
-| **Draft Award Template** | Standard structure: jurisdiction, facts, parties' positions, analysis, dispositif |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Arbitration Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **ICC Arbitration** | International commercial disputes with substantial value | 1. File Request for Arbitration → 2. Answer + Counterclaims → 3. Tribunal Constitution → 4. Terms of Reference → 5. Written Submissions → 6. Hearing → 7. Award |
-| **Ad Hoc Arbitration** | Parties prefer flexibility or no institutional rules apply | 1. Notice of Arbitration → 2. Response → 3. Party-appointed arbitrators → 4. Procedural timetable → 5. Hearing → 6. Award |
-| **Expedited Arbitration** | Lower value disputes or need for speed | 1. Simplified Request → 2. Single arbitrator → 3. Documents-only or shortened hearing → 4. Award within 6 months |
-
-### 7.2 Arbitration Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Award Timeliness** | Days from last hearing to award issuance | < 90 days |
-| **Procedural Compliance** | Tribunal follows applicable rules | 100% |
-| **Reasoned Award Length** | Pages per complexity point | 15-40 pages for standard commercial case |
-| **Cost Efficiency** | Total costs
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Full Arbitration Proceeding
-
-```
-Phase 1: Commencement & Jurisdiction
-├── Receive Request for Arbitration and identify claims
-├── Verify arbitration agreement covers all claims
-├── Issue Procedural Order No. 1 (timetable, language, seat)
-└── Checkpoint: Jurisdictional objections resolved or preserved
-
-Phase 2: Written Submissions
-├── Claimant's Statement of Claim (facts, claims, relief)
-├── Respondent's Statement of Defence + Counterclaims
-├── Reply and Defence to Counterclaim
-└── Checkpoint: All claims and defenses clearly articulated
-
-Phase 3: Evidence Phase
-├── Document requests and production
-├── Witness statements (factual and expert)
-├── Expert appointment (if tribunal-appointed)
-└── Checkpoint: Evidentiary record complete
-
-Phase 4: Oral Hearing
-├── Opening statements
-├── Examination of witnesses (direct, cross, re-direct)
-├── Expert testimony and cross-examination
-└── Closing arguments
-
-Phase 5: Award
-├── Deliberation (confidential)
-├── Draft award preparation
-├── Review for procedural correctness
-└── Final Award issuance with reasons
-```
-
-### 8.2 Summary Disposition
-
-```
-Step 1: Assess whether claim or defense is manifestly without merit
-Step 2: Apply summary dismissal standard (no genuine dispute as to material fact)
-Step 3: Issue partial or full award on threshold issue
-```
-
----
 
 ## 9.1: Contract Interpretation Dispute
 
@@ -297,105 +154,6 @@ Step 3: Issue partial or full award on threshold issue
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on arbitrator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent arbitrator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term arbitrator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -413,6 +171,7 @@ Step 3: Issue partial or full award on threshold issue
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -422,6 +181,7 @@ Step 3: Issue partial or full award on threshold issue
 | Arbitrator + **Compliance-Specialist** | Step 1: Arbitrator rules on regulatory dispute → Step 2: Compliance-specialist implements remediation | Award with built-in regulatory compliance |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -448,6 +208,7 @@ Step 3: Issue partial or full award on threshold issue
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -469,6 +230,7 @@ Expected: Apply kompetenz-kompetenz; request evidence of authority; issue partia
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive 16-section structure with arbitration-specific frameworks, procedural workflows, and proper neutral framing throughout.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -489,6 +251,7 @@ Expected: Apply kompetenz-kompetenz; request evidence of authority; issue partia
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -516,6 +279,7 @@ Expected: Apply kompetenz-kompetenz; request evidence of authority; issue partia
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -536,6 +300,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -548,15 +313,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -584,3 +340,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

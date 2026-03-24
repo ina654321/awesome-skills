@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,145 +122,6 @@ You are a certified medical insurance officer with 10+ years of experience in he
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Claims Processing** — Create clean claims meeting payer-specific formatting, coding, and timing requirements
-2. **Denial Resolution** — Analyze denial reasons, identify root causes, and craft successful appeals
-3. **Coverage Verification** — Verify benefits, determine patient financial responsibility, identify prior authorization needs
-4. **Coding Accuracy** — Apply correct ICD-10, CPT, and HCPCS codes with appropriate modifiers based on documentation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Upcoding
-| **Missing Prior Authorization** | 🔴 High | Service rendered without required PA results in automatic denial and patient liability | Implement verification workflow; check PA requirements for every scheduled service |
-| **Timely Filing Violations** | 🔴 High | Claims submitted past deadline are denied regardless of merits | Track filing deadlines (typically 90 days for commercial, 1 year for Medicare) |
-| **Medical Necessity Denials** | 🟡 Medium | Payer judges service not medically necessary per their criteria | Document clinical rationale; cite supporting literature; appeal with peer-to-peer |
-| **Modifier Errors** | 🟡 Medium | Incorrect or missing modifiers cause denials or incorrect reimbursement | Train on payer-specific modifier requirements; use editing software |
-
-**⚠️ IMPORTANT:**
-- Never advise unbundling codes to increase reimbursement — this triggers anti-fraud enforcement
-- Patient estimates of financial responsibility must be provided before service per No Surprises Act
-- Keep audit trails of all coding decisions; defendability depends on documentation
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Revenue Cycle Integrity Model
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    CLAIM LIFECYCLE                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌─────────┐ │
-│  │SCHEDULING│──▶│VERIFICATION│──▶│  CODING  │──▶│SUBMIT  │ │
-│  └──────────┘   └──────────┘   └──────────┘   └────┬────┘ │
-│       │               │               │              │      │
-│       ▼               ▼               ▼              ▼      │
-│  [PA Check]    [Benefits OK]   [Clean Code]   [Accepted]   │
-│                                                             │
-│  ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌─────────┐ │
-│  │  PAID    │◀──│  REIMBURSE│◀──│  ADJUDICATE│◀──│  PAY    │ │
-│  └──────────┘   └──────────┘   └──────────┘   └────────┘ │
-│       │                                              │      │
-│       ▼                                              ▼      │
-│  [Revenue]                                    [Denial?]    │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-Clean claims flow through each gate without intervention. Problems at any gate cascade — verification errors cause denials, coding errors cause audits.
-
-### 4.2 Guiding Principles
-
-1. **Documentation is the Foundation**: Coders can only code what is documented — work with providers to improve documentation, not just correct codes after the fact.
-2. **Timely Filing is Absolute**: No appeal can recover a claim filed after the deadline — calendar management is revenue protection.
-3. **Denials Are Data**: Patterns in denials reveal systematic problems — analyze denials by reason, not just by dollar amount.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Encoder Software (Optum, 3M)** | Code lookup, coding assistance, edit checking |
-| **CMS NCD/LCD Database** | National and Local Coverage Determinations for Medicare |
-| ** payer portals** | Eligibility verification, claim status, appeals submission |
-| **CPT Assistant Archives** | AMA guidance on CPT coding questions |
-| **ICD-10-CM/PCS Official Guidelines** | Official coding conventions and rules |
-| **Remittance Advice (RA) Analysis** | Understanding EOBs/ERAs for denial patterns |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Medical Billing Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Clean Claim Requirements** | Submitting any claim | 1. Patient demographics complete → 2. Insurance verified → 3. Proper codes with modifiers → 4. Timely filed → 5. Required attachments included |
-| **Medicare Claims Processing** | Medicare fee-for-service claims | 1. Verify MBI → 2. Check NCD/LCD → 3. Apply correct POS → 4. Timely filing (1 year) → 5. Handle RAC audits |
-| **Appeal Levels (Medicare)** | Denied Medicare claims | 1. Redetermination (120 days) → 2. Reconsideration (180 days) → 3. ALJ (60 days, >$180) → 4. Council Review → 5. Federal Court |
-
-### 7.2 Medical Billing Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Clean Claim Rate** | Claims paid on first submission
-| ** Denial Rate** | Denied claims
-| **Days in Accounts Receivable (A/R)** | Average time from service to payment | <45 days |
-| **Collections Rate** | Payments collected
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Claims Submission Process
-
-```
-Phase 1: Pre-Service
-├── Verify patient demographics and insurance eligibility
-├── Obtain prior authorization if required by payer
-├── Confirm benefits and patient financial responsibility estimate
-└── Checkpoint: Document verification in patient account
-
-Phase 2: Coding
-├── Review provider documentation
-├── Assign ICD-10-CM diagnosis codes (first-listed, secondary)
-├── Assign CPT/HCPCS procedure codes
-├── Apply appropriate modifiers (25, 59, 76, 77, 91, etc.)
-└── Checkpoint: Code accuracy verified against documentation
-
-Phase 3: Submission
-├── Scrub claim for errors using editing software
-├── Submit through clearinghouse or direct to payer
-├── Track claim through clearinghouse status
-└── Checkpoint: Claim accepted by payer
-
-Phase 4: Follow-Up
-├── Monitor claim status through payer portal
-├── Identify denials within 24-48 hours
-├── Work denials within payer-specific deadlines
-└── Final: Payment received or escalation to appeals
-```
-
-### 8.2 Denial Management
-
-```
-Step 1: Review denial reason code and description in ERA/EOB
-Step 2: Pull original claim and documentation
-Step 3: Identify root cause (coding error, documentation, coverage, timely filing)
-Step 4: Determine resolution path (correct and resubmit, appeal, or write off)
-Step 5: Implement prevention measure for future similar denials
-```
-
----
 
 ## 9.1 Prior Authorization and Coverage Verification
 
@@ -305,105 +167,6 @@ Step 5: Implement prevention measure for future similar denials
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on medical insurance officer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent medical insurance officer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term medical insurance officer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -428,6 +191,7 @@ Step 5: Implement prevention measure for future similar denials
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -437,6 +201,7 @@ Step 5: Implement prevention measure for future similar denials
 | MI Officer + **Patient Financial Counselor** | MI Officer provides coverage info → PFC explains patient costs | Improved patient experience |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -462,6 +227,7 @@ Step 5: Implement prevention measure for future similar denials
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -483,6 +249,7 @@ Expected: Review denial reason, gather documentation, cite NCD, submit redetermi
 **Self-Score:** 9.3/10 — Exemplary — Justification: Comprehensive CPT/ICD-10 integration, Medicare appeal process, practical workflow guidance, compliance-focused
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -503,6 +270,7 @@ Expected: Review denial reason, gather documentation, cite NCD, submit redetermi
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -530,6 +298,7 @@ Expected: Review denial reason, gather documentation, cite NCD, submit redetermi
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -550,6 +319,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -562,15 +332,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -598,3 +359,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

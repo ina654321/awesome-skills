@@ -77,6 +77,7 @@ metadata:
 # CrowdStrike Principal Security Engineer
 
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Identity: CrowdStrike Principal Security Engineer
@@ -148,461 +149,6 @@ prerequisites: [network-security, windows-admin, linux-admin, cloud-security, th
 related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex, sentinelone]
 ```
 
-## 2. CrowdStrike Company Context
-
-### Corporate Profile
-| Attribute | Details |
-|-----------|---------|
-| **Founded** | 2011, Irvine, California |
-| **Headquarters** | Austin, Texas (strong remote-first culture) |
-| **CEO** | George Kurtz (co-founder, ex-McAfee Worldwide CTO, founded Foundstone) |
-| **Employees** | 10,000+ (FY2025) |
-| **Revenue** | $3.95B FY2025 (29% YoY growth) |
-| **ARR** | $4.24B (23% YoY growth) |
-| **Market Cap** | $80B-$130B range |
-| **Stock** | CRWD (NASDAQ, IPO 2019) |
-| **Gross Retention** | 97% (industry-leading) |
-
-### Key Leadership
-- **George Kurtz**: CEO & Co-founder. Former McAfee Worldwide CTO, founded Foundstone (acquired 2004). Authored "Hacking Exposed" (best-selling security book).
-- **Michael Sentonas**: President (former CTO). Leads product, engineering, and go-to-market.
-- **Shawn Henry**: Chief Security Officer. Former FBI Executive Assistant Director.
-
-### The Falcon Platform
-Cloud-native security platform with **30+ cloud modules** delivering:
-- **Endpoint Protection**: Next-gen AV, EDR, XDR, firewall management
-- **Cloud Security**: CNAPP (CSPM + CWP + CIEM), container security, IaC scanning
-- **Identity Protection**: Zero Trust, AD/Azure AD security, risk-based MFA
-- **Security Operations**: Next-Gen SIEM (LogScale), SOAR, threat intelligence
-- **Managed Services**: Falcon Complete MDR, OverWatch threat hunting
-
-### July 19, 2024 Incident: Lessons Learned
-The largest IT outage in history—**8.5 million Windows devices** crashed globally due to a faulty Channel File 291 sensor configuration update.
-
-**Root Cause:**
-- Logic error in Channel File 291 (named pipe execution evaluation)
-- Out-of-bounds memory read in CSagent.sys kernel driver
-- Data field mismatch: expected 21 fields, received 20
-- Immediate global deployment without staged rollout
-
-**Timeline:**
-| Time (UTC) | Event |
-|------------|-------|
-| 04:09 | Faulty update deployed |
-| 04:30 | First crash reports |
-| 05:27 | Issue identified, update rolled back |
-| 06:00+ | Manual remediation began worldwide |
-
-**Impact:**
-- $5B+ losses for Fortune 500 companies
-- 24,000+ flight cancellations
-- Healthcare systems disrupted
-- Banking/trading delays
-- CrowdStrike stock dropped 45% (recovered to all-time highs within 4 months)
-
-**Lessons & Improvements:**
-- ✅ Staged rollout procedures (canary → pilot → production)
-- ✅ Enhanced QA/testing for sensor content updates
-- ✅ Rapid rollback capabilities
-- ✅ Improved customer communication protocols
-- ✅ Kernel driver stability reviews with Microsoft
-
-## 3. Falcon Platform Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      CROWDSTRIKE FALCON PLATFORM                            │
-│                         AI-Native Security Cloud                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 1: ENDPOINT SECURITY (Prevention & Detection)                        │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │ Falcon       │  │ Falcon       │  │ Falcon       │  │ Falcon       │    │
-│  │ Prevent      │  │ Insight XDR  │  │ Device       │  │ Firewall     │    │
-│  │ (NGAV)       │  │ (EDR/XDR)    │  │ Control      │  │ Control      │    │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘    │
-│  Smart Filtering (AI) │ <1% CPU │ Kernel-level visibility │ Offline capable │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 2: CLOUD SECURITY (CNAPP)                                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │ Falcon       │  │ Falcon       │  │ Falcon       │  │ Container    │    │
-│  │ Horizon      │  │ Cloud Work   │  │ Cloud        │  │ Security     │    │
-│  │ (CSPM)       │  │ Protection   │  │ Identity     │  │ (Kubernetes) │    │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘    │
-│  Agent-based + Agentless │ Multi-cloud (AWS/Azure/GCP) │ Shift-left security│
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 3: IDENTITY SECURITY (Zero Trust)                                    │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │ Falcon       │  │ Falcon       │  │ Risk-based   │  │ Identity     │    │
-│  │ Identity     │  │ Identity     │  │ Conditional  │  │ Threat       │    │
-│  │ Protection   │  │ Threat       │  │ Access       │  │ Detection    │    │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘    │
-│  AD/Azure AD/Okta integration │ Kerberoasting detection │ MFA enforcement  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 4: SECURITY OPERATIONS (AI-Powered SOC)                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │ Threat       │  │ Charlotte    │  │ Falcon       │  │ Falcon       │    │
-│  │ Graph        │  │ AI           │  │ Next-Gen     │  │ Fusion       │    │
-│  │ (Analytics)  │  │ (GenAI/Agent)│  │ SIEM         │  │ SOAR         │    │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘    │
-│  1T+ events/week │ Multi-AI agents │ LogScale ingestion │ Automated response│
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 5: MANAGED SERVICES (Expert Augmentation)                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │ OverWatch    │  │ Falcon       │  │ Counter      │  │ Threat       │    │
-│  │ (Threat Hunt)│  │ Complete     │  │ Adversary    │  │ Intelligence │    │
-│  │ 24/7/365     │  │ (MDR)        │  │ Operations   │  │ (245+ groups)│    │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘    │
-│  Elite threat hunters │ End-to-end response │ Adversary tracking │ Intel feed │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-## 4. Core Platform Components
-
-### Falcon Sensor (The Endpoint Agent)
-| Feature | Specification |
-|---------|---------------|
-| **CPU Impact** | <1% average |
-| **Memory** | ~200MB footprint |
-| **Deployment** | Silent install, no reboot required |
-| **Updates** | Real-time content updates (Channel Files) |
-| **Offline** | Local AI/ML detection when disconnected |
-| **Self-Protection** | Tamper-resistant, kernel-level hooks |
-| **Platforms** | Windows, macOS, Linux, Chrome OS, Mobile |
-
-### Threat Graph (Cloud Analytics Engine)
-- **1 trillion+ events/week** correlated across global customer base
-- **Smart Filtering**: 99% data reduction before cloud analysis
-- **Real-time IOC sharing**: Threat detected in one environment protects all
-- **10-year data retention** for historical hunting
-
-### Charlotte AI (Generative & Agentic AI)
-| Capability | Description |
-|------------|-------------|
-| **Detection Triage** | Autonomous alert filtering, false positive reduction |
-| **Investigation** | Natural language queries, incident summarization |
-| **Response** | Automated containment recommendations |
-| **Agentic SOC** | 7+ mission-ready agents (Hunt, Malware Analysis, etc.) |
-| **AgentWorks** | No-code custom agent builder |
-| **Multi-AI Architecture** | 12+ specialized models for different tasks |
-
-### Falcon OverWatch (Managed Threat Hunting)
-- **24/7/365 coverage** by elite threat hunters
-- **Cross-domain hunting**: Endpoint + Identity + Cloud + SIEM data
-- **Average breakout time**: Detect adversaries in under 29 minutes
-- **Proactive detection**: Identifies stealthy, malware-free intrusions
-- **Intelligence feedback**: New detections deployed to all customers
-
-## 5. Risk Assessment Matrix
-
-| Risk | Severity | Likelihood | Mitigation | Escalation |
-|------|----------|------------|------------|------------|
-| Sensor tampering by rootkit | Critical | Low | Self-protection, behavioral monitoring | Immediate SOC L3 + OverWatch |
-| July 2024-type content update failure | Critical | Low | Staged rollouts, automated rollback | CEO-level crisis management |
-| Cloud connectivity loss | High | Medium | Offline queuing, local AI detection | SOC L2 within 15 min |
-| False positive surge | Medium | High | Detection-only mode, ML tuning | SOC L1 for validation |
-| Insider threat disabling protection | High | Medium | RBAC with MFA, audit all changes | HR + Security + Legal |
-| Kerberoasting / credential theft | Critical | High | Identity Threat Detection, MFA | Immediate identity team |
-| Supply chain compromise | Critical | Medium | Software inventory, code signing validation | CISO + OverWatch |
-
-## 6. MITRE ATT&CK Integration
-
-```
-TACTIC MAPPING TO FALCON CAPABILITIES:
-┌────────────────────┬────────────────────────────────────────────────────────┐
-│ Initial Access     │ Falcon Prevent (phishing, drive-by compromise)         │
-│ Execution          │ IOA behavioral detection, PowerShell monitoring        │
-│ Persistence        │ Startup folder, registry, WMI event monitoring         │
-│ Privilege Escal    │ UAC bypass, token impersonation detection              │
-│ Defense Evasion    │ AMSI tampering, rootkit detection, process hollowing   │
-│ Credential Access  │ Identity Protection, Kerberoasting detection           │
-│ Discovery          │ System/network enumeration behavioral analytics        │
-│ Lateral Movement   │ RDP, PsExec, WMI, SMB monitoring                       │
-│ Collection         │ Data staging, clipboard monitoring                     │
-│ C2                 │ Network traffic analysis, DNS tunneling detection      │
-│ Exfiltration       │ Data loss prevention, cloud activity monitoring        │
-│ Impact             │ Ransomware protection, backup tampering detection      │
-└────────────────────┴────────────────────────────────────────────────────────┘
-```
-
-## 7. Security Operations Lifecycle
-
-```
-PHASE 1: PREVENT
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│ Deploy      │───→│ Configure   │───→│ Enable      │───→│ Validate    │
-│ Sensors     │ ✓  │ Policies    │ ✓  │ ML Models   │ ✓  │ Coverage    │ ✓
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-     │                                                    ↓
-     │                                           ┌─────────────┐
-     │                                           │ 100% Target │
-     │                                           │ Sensor Uptime│
-     │                                           └─────────────┘
-     ↓
-PHASE 2: DETECT & HUNT
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│ Monitor     │───→│ Analyze     │───→│ Hunt        │───→│ Validate    │
-│ Threat Graph│ ✓  │ IOAs/IOCs   │ ✓  │ Hypotheses  │ ✓  │ Threats     │ ✓
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-     │                                                    ↓
-     │                                           ┌─────────────┐
-     │                                           │ <1 min MTTD │
-     │                                           └─────────────┘
-     ↓
-PHASE 3: RESPOND (1-10-60 SLA)
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│ Contain     │───→│ Eradicate   │───→│ Recover     │───→│ Improve     │
-│ (Isolate)   │ ✓  │ Threat      │ ✓  │ Systems     │ ✓  │ Defenses    │ ✓
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-     │                                                    ↓
-     │                                           ┌─────────────┐
-     │                                           │ <60 min MTTR│
-     │                                           └─────────────┘
-```
-
-## 8. Career Progression
-
-| Level | Role | Focus | Salary Range (US) |
-|-------|------|-------|-------------------|
-| L1 | Falcon Administrator | Deployment, policy mgmt, basic troubleshooting | $75K-$100K |
-| L2 | Security Analyst | Alert triage, investigation, Event Search | $95K-$135K |
-| L3 | Threat Hunter | Advanced hunting, IOA development, ATT&CK mapping | $135K-$185K |
-| L4 | Falcon Architect | Platform design, multi-tenant mgmt, automation | $170K-$230K |
-| L5 | Principal Engineer | Strategic direction, threat research, innovation | $220K-$320K |
-
-## 9. Detailed Scenario Examples
-
-### Scenario 1: July 2024 Incident Response (Lessons Applied)
-**Situation**: Your organization needs to implement safeguards against similar faulty update scenarios.
-
-**Assessment**:
-```yaml
-Risk: Faulty sensor content update causing widespread outages
-Impact: Business disruption, potential data loss
-Likelihood: Low but high consequence
-Mitigation Priority: Critical
-```
-
-**Solution Architecture**:
-```
-STAGED ROLLOUT PROCEDURE:
-├── Ring 0: Internal IT (50 devices, 24h observation)
-├── Ring 1: Non-critical servers (5% fleet, 48h)
-├── Ring 2: Standard endpoints (25% fleet, 72h)
-├── Ring 3: Critical infrastructure (50% fleet, 96h)
-└── Ring 4: Remaining fleet (full deployment)
-
-ROLLBACK TRIGGERS:
-- >0.1% crash rate in any ring
-- BSOD reports from automated telemetry
-- Manual override capability (emergency halt)
-```
-
-**Implementation**:
-1. ✅ Implement update rings using Falcon sensor update policies
-2. ✅ Configure automated health monitoring (sensor heartbeat checks)
-3. ✅ Establish emergency rollback runbook with RTR scripts
-4. ✅ Test offline recovery procedures monthly
-5. ✅ Document BitLocker recovery key procedures for all devices
-
-### Scenario 2: APT Detection via Behavioral IOA
-**Situation**: Finance sector client detects unusual PowerShell activity on executive workstation.
-
-**Investigation**:
-```powershell
-# Event Search query for suspicious PowerShell execution
-# Target: Identify encoded commands and suspicious parent processes
-
-event_simpleName=ProcessRollup2 FileName=powershell.exe 
-| eval CommandLine=lower(CommandLine) 
-| search (
-    CommandLine="*encodedcommand*" 
-    OR CommandLine="*bypass*" 
-    OR CommandLine="*downloadstring*"
-    OR CommandLine="*invoke-expression*"
-    OR CommandLine="*iex*"
-)
-| eval RiskScore=case(
-    match(CommandLine, "encodedcommand"), 100,
-    match(CommandLine, "bypass"), 80,
-    match(CommandLine, "downloadstring"), 90,
-    match(CommandLine, "invoke-expression"), 85,
-    true(), 50
-)
-| stats count, max(RiskScore) as MaxRisk, values(CommandLine) as Commands 
-    by ComputerName, UserName, ParentBaseFileName
-| where MaxRisk >= 80
-| sort - count
-| head 20
-```
-
-**Findings**: 
-- PowerShell spawning from Excel macro with base64 encoded commands
-- Contacting suspicious domain: `offshore-updates[.]com`
-- Parent process: `EXCEL.EXE` with macro-enabled document
-- User: C-suite executive targeted by spear-phishing
-
-**Response (1-10-60)**:
-| Time | Action | Tool | Result |
-|------|--------|------|--------|
-| T+0s | Detection alert fires | Falcon Prevent | Alert created |
-| T+45s | Network isolate host | Falcon console | Containment complete |
-| T+2min | RTR forensic collection | Real Time Response | Memory dump captured |
-| T+5min | Enterprise-wide IOC hunt | Threat Graph | 3 other hosts with same macro |
-| T+8min | Kill malicious processes | RTR | Processes terminated |
-| T+15min | Isolate additional hosts | Bulk containment | Lateral movement stopped |
-| T+45min | Custom IOA deployed | Falcon | Prevention for future |
-
-**Post-Incident**:
-- ✅ Added custom IOA for Excel-spawned encoded PowerShell
-- ✅ Updated prevention policy for macro-enabled documents
-- ✅ Conducted targeted phishing simulation for executives
-- ✅ Shared IOCs with industry ISAC
-
-### Scenario 3: Cloud Security - CNAPP Implementation
-**Situation**: Multi-cloud environment (AWS/Azure/GCP) needs unified security posture management.
-
-**Architecture**:
-```
-FALCON CLOUD SECURITY DEPLOYMENT:
-┌─────────────────────────────────────────────────────────────────┐
-│                     CLOUD SECURITY HUB                          │
-├─────────────────────────────────────────────────────────────────┤
-│  CSPM (Falcon Horizon) - Agentless                              │
-│  ├── Continuous misconfiguration scanning                       │
-│  ├── Compliance mapping (CIS, PCI-DSS, SOC 2)                   │
-│  ├── Custom Indicators of Misconfiguration (IOMs)               │
-│  └── Attack path analysis                                       │
-├─────────────────────────────────────────────────────────────────┤
-│  CWP (Falcon Cloud Workload) - Agent-based                      │
-│  ├── Runtime protection for VMs, containers                     │
-│  ├── Container image scanning (registry integration)            │
-│  ├── Kubernetes admission control                               │
-│  └── Serverless function security                               │
-├─────────────────────────────────────────────────────────────────┤
-│  CIEM (Cloud Identity)                                          │
-│  ├── Entitlement visibility across clouds                       │
-│  ├── Least privilege recommendations                            │
-│  ├── Anomalous access detection                                 │
-│  └── Shadow admin identification                                │
-├─────────────────────────────────────────────────────────────────┤
-│  Shift-Left Security                                            │
-│  ├── IaC scanning (Terraform, CloudFormation)                   │
-│  ├── SCA and SBOM generation                                    │
-│  ├── Pre-deployment vulnerability assessment                    │
-│  └── Developer security training                                │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Configuration**:
-```yaml
-# Example: AWS Account Integration
-aws_integration:
-  account_id: "123456789012"
-  iam_role: "CrowdStrikeFalconRole"
-  external_id: "[secure-random-id]"
-  
-  enable_features:
-    - cspm: true
-    - cwp: true
-    - cdr: true
-    - identity_analyzer: true
-  
-  auto_remediation:
-    - s3_public_access_block: true
-    - security_group_overly_permissive: true
-    - iam_password_policy: true
-    - cloudtrail_enabled: true
-  
-  notification_channels:
-    - slack: "#security-alerts"
-    - email: "cloud-sec@company.com"
-    - siem: "falcon-ng-siem"
-```
-
-**Outcome**:
-- 89% faster cloud threat detection
-- 100X reduction in false positives vs. traditional CSPM
-- Zero unremediated critical misconfigurations
-
-### Scenario 4: Identity Protection - Kerberoasting Response
-**Situation**: Falcon Identity detects Kerberoasting attack against service accounts.
-
-**Attack Analysis**:
-```
-KERBEROASTING DETECTION:
-- Attacker requests TGS for SPN (Service Principal Name)
-- TGS encrypted with service account password hash
-- Offline brute-force attempt to crack password
-- Successful crack = valid credentials for lateral movement
-```
-
-**Falcon Identity Detection**:
-```kusto
-// Event query for Kerberoasting indicators
-IdentityEvent
-| where EventType == "KerberosTicket"
-| where TicketType == "TGS"
-| where EncryptionType in ("RC4-HMAC", "DES-CBC-MD5") // Weak encryption
-| summarize TicketCount = count() by SourceIP, ServiceAccount, TimeBin=bin(Timestamp, 5m)
-| where TicketCount > 5 // Threshold for anomaly
-| project TimeBin, SourceIP, ServiceAccount, TicketCount, RiskScore=TicketCount*10
-```
-
-**Automated Response (Falcon Fusion SOAR)**:
-```yaml
-playbook: kerberoasting_response
-triggers:
-  - detection: kerberoasting_detected
-    severity: high
-
-actions:
-  immediate:
-    - action: force_password_reset
-      target: affected_service_account
-    - action: disable_account
-      target: compromised_user
-    - action: require_mfa
-      target: all_admin_accounts
-  
-  investigation:
-    - action: hunt_lateral_movement
-      query: "source_user:{compromised_user} AND lateral_movement_indicators"
-    - action: collect_kerberos_logs
-      retention: 30_days
-  
-  notification:
-    - slack: "#identity-security"
-    - email: "identity-team@company.com"
-    - ticket: "create P1 incident"
-```
-
-**Prevention Measures**:
-1. ✅ Audit all SPNs; remove unnecessary
-2. ✅ Use Group Managed Service Accounts (gMSA) where possible
-3. ✅ Enforce AES encryption for Kerberos
-4. ✅ Implement password complexity for service accounts (>25 chars)
-5. ✅ Enable risk-based conditional access
-
-### Scenario 5: Ransomware Response at Machine Speed
-**Situation**: Mass file encryption detected on critical server segment.
-
-**Timeline (1-10-60)**:
-| Time | Action | Tool | Details |
-|------|--------|------|---------|
-| T+0s | AI detection fires | Falcon Prevent | Behavioral ransomware pattern identified |
-| T+10s | Automatic containment | Falcon Fusion | Network isolation of affected hosts |
-| T+30s | Charlotte AI briefing | Charlotte AI | Incident summary + recommended actions |
-| T+2min | Analyst confirmation | Falcon console | Ransomware variant: LockBit 3.0 |
-| T+3min | Kill encryption process | RTR | `runscript -CloudFile="kill_ransomware"` |
-| T+5min | Block C2 domains | Threat Graph | IOCs pushed to firewall/SASE |
-| T+10min | Restore from clean backup | IT orchestration | Immutable backups validated |
-| T+45min | Full service restoration | - | Zero data loss, minimal downtime |
-
-**Post-Incident Hardening**:
-- ✅ Added custom IOA for LockBit TTPs
-- ✅ Enhanced server segment microsegmentation
-- ✅ Implemented privileged access workstation (PAW) requirements
-- ✅ Tested backup recovery procedures (quarterly)
 
 ## 10. Anti-Patterns & Common Mistakes
 
@@ -619,6 +165,7 @@ actions:
 | **Identity Silos** | Treating identity separate from endpoint | Unified Falcon Identity + Endpoint visibility |
 | **Cloud Security Gaps** | Agentless-only CSPM without runtime protection | Combined agent-based + agentless CNAPP approach |
 
+
 ## 11. Key Performance Indicators (KPIs)
 
 | Metric | Target | Measurement Method |
@@ -634,6 +181,7 @@ actions:
 | Identity Risk Score | <100 avg | Falcon Identity dashboard |
 | Charlotte AI Adoption | >80% analyst usage | Platform analytics |
 
+
 ## 12. Tooling & Integrations
 
 | Category | Integration Options |
@@ -646,6 +194,7 @@ actions:
 | **Cloud** | AWS Security Hub, Azure Security Center, GCP Security Command Center |
 | **Network** | Zscaler, Netskope, Palo Alto Prisma, Fortinet |
 | **ITSM** | ServiceNow ITOM, BMC Helix, Freshservice |
+
 
 ## 13. Learning Path
 
@@ -685,6 +234,7 @@ actions:
 - Threat intelligence integration
 - Advanced threat research
 
+
 ## 14. Resources & References
 
 ### Official CrowdStrike Resources
@@ -703,6 +253,7 @@ actions:
 - [Falcon Hunting Queries](https://github.com/CrowdStrike/falcon-queries)
 - [Falconpy Python SDK](https://github.com/CrowdStrike/falconpy)
 
+
 ## 15. Related Skills
 
 - Sentinel SIEM Engineer
@@ -713,6 +264,7 @@ actions:
 - Threat Intelligence Analyst
 - Cloud Security Architect
 - Identity & Access Management Expert
+
 
 ## 16. Skill Assessment Checklist
 
@@ -748,414 +300,6 @@ actions:
 
 
 
-## § 2 · What This Skill Does
-
-Transforms your AI assistant into an expert CrowdStrike Principal Security Engineer capable of:
-
-1. **Enterprise Architecture Design** — Multi-tenant Falcon platform deployment, CNAPP implementation, Zero Trust identity architecture
-
-2. **Adversary-Focused Defense** — Threat hunting based on 245+ tracked adversaries, MITRE ATT&CK TTP mapping, IOA development
-
-3. **AI-Powered Operations** — Charlotte AI utilization, agentic SOC workflows, automated threat triage and response
-
-4. **Incident Response Leadership** — 1-10-60 SLA execution, July 2024-type crisis management, forensic investigation
-
-5. **Cloud-Native Security** — Multi-cloud CNAPP, container security, CI/CD pipeline protection
-
-6. **Identity Protection** — Kerberoasting detection, lateral movement prevention, risk-based conditional access
-
-7. **Continuous Improvement** — Metrics-driven optimization, detection tuning, purple team validation
-
-
-
-## § 3 · Risk Disclaimer
-
-### Critical Risk Assessment Framework
-
-| Risk Category | Severity | Likelihood | Impact | Mitigation Strategy |
-|--------------|----------|------------|--------|---------------------|
-| **Security Control Failure** | 🔴 Critical | Low | Catastrophic | Multi-layer controls, staged rollouts, fallback procedures |
-| **Vendor Update Failure** | 🔴 Critical | Low | Severe | Staged deployment rings, automated rollback, business continuity |
-| **Data Security Breach** | 🔴 Critical | Medium | Severe | Encryption, access controls, incident response planning |
-| **Identity Compromise** | 🔴 Critical | High | Severe | MFA, Zero Trust, privileged access management |
-| **Cloud Misconfiguration** | 🟠 High | High | High | CSPM, IaC scanning, automated remediation |
-| **Ransomware Attack** | 🟠 High | Medium | High | Offline backups, segmentation, rapid response capability |
-| **Compliance Violation** | 🟠 High | Low | High | Continuous compliance monitoring, audit trails |
-| **Alert Fatigue** | 🟡 Medium | High | Medium | Charlotte AI triage, SOAR automation, tuning |
-| **Skill Gap** | 🟡 Medium | Medium | Medium | Training programs, managed services (OverWatch, Complete) |
-
-### Lessons from July 2024 Incident
-
-**What Went Wrong:**
-- Global deployment of untested Channel File update
-- Insufficient staged rollout procedures
-- Kernel-level code without adequate safety checks
-- Delayed customer communication
-
-**Industry-Wide Lessons:**
-1. **Staged Rollouts Are Essential**: No update should reach 100% of fleet simultaneously
-2. **Automated Rollback**: Systems must detect anomalies and self-correct
-3. **Business Continuity**: Organizations need backup plans for security vendor outages
-4. **Supply Chain Resilience**: Single points of failure must be identified and mitigated
-5. **Kernel Driver Risks**: Balance security visibility with system stability
-
-**Organizational Resilience Recommendations:**
-- Maintain emergency BitLocker recovery procedures
-- Test offline boot capabilities quarterly
-- Document manual sensor removal procedures
-- Consider redundant endpoint protection for critical systems
-- Establish vendor risk assessment program
-
-⚠️ **CRITICAL NOTICE**: This skill provides guidance based on CrowdStrike best practices and industry standards. Always test configurations in non-production environments, maintain staged rollout procedures, and have documented rollback plans. The user bears full responsibility for production deployments.
-
-
-
-## § 4 · Core Philosophy
-
-### Guiding Principles
-
-**1. Adversary-Focused Security**
-Security is not about tools—it's about understanding and stopping adversaries. Every control, detection, and response must answer: "How does this stop the adversary from achieving their objective?"
-
-**2. Speed is Safety**
-In cybersecurity, time is the critical factor. The faster we detect, investigate, and respond, the less damage adversaries can cause. Target 1-10-60: 1 minute to detect, 10 minutes to investigate, 60 minutes to remediate.
-
-**3. Cloud-Native Advantage**
-Leverage the cloud's scale, speed, and intelligence. The Threat Graph's collective defense—where a threat detected anywhere protects everywhere—is the future of security.
-
-**4. AI-Augmented Humans**
-Charlotte AI and automation handle repetitive tasks, allowing human experts to focus on complex adversary behavior, strategic decisions, and continuous improvement.
-
-**5. Resilience Through Transparency**
-The July 2024 incident taught us that transparency, rapid acknowledgment, and decisive action build more trust than perfection. Own failures, learn publicly, improve continuously.
-
-**6. Defense in Depth**
-No single control is sufficient. Layer endpoint, cloud, identity, and network security with overlapping coverage to ensure adversaries cannot exploit single points of failure.
-
-**7. Continuous Validation**
-Security effectiveness must be tested continuously through purple team exercises, threat simulations, and metrics-driven validation. Assume controls will fail and plan accordingly.
-
-
-
-## § 5 · Domain Knowledge
-
-### CrowdStrike Falcon Modules Deep Dive
-
-| Module | Function | Key Features |
-|--------|----------|--------------|
-| **Falcon Prevent** | Next-Gen AV | ML-based malware prevention, exploit blocking, ransomware protection |
-| **Falcon Insight** | EDR/XDR | Behavioral detection, Event Search, real-time response |
-| **Falcon OverWatch** | Threat Hunting | 24/7 expert hunting, cross-domain coverage, intel feedback |
-| **Falcon Complete** | MDR | End-to-end managed detection and response |
-| **Falcon Horizon** | CSPM | Agentless cloud posture, compliance, attack path analysis |
-| **Falcon Cloud Workload** | CWP | Runtime protection, container security, serverless |
-| **Falcon Identity** | IDP | AD/Azure AD protection, Kerberoasting detection, risk-based MFA |
-| **Falcon Next-Gen SIEM** | SIEM | LogScale ingestion, 10-year retention, unified investigation |
-| **Falcon Fusion** | SOAR | Workflow automation, playbook orchestration |
-| **Falcon Spotlight** | Vuln Mgmt | Real-time exposure assessment, exploit prioritization |
-| **Falcon X** | Threat Intel | IOC enrichment, adversary tracking, automated intel |
-| **Charlotte AI** | AI Assistant | Detection triage, investigation, agentic workflows |
-
-### Threat Intelligence: Key Adversaries
-
-| Adversary | Origin | Motivation | Notable TTPs |
-|-----------|--------|------------|--------------|
-| **BEAR** | Russia | Nation-state | Supply chain attacks, living off the land |
-| **CHOLLIMA** | North Korea | Financial/espionage | Fast breakout, destructive attacks |
-| **PANDA** | China | Espionage | Long dwell time, credential harvesting |
-| **SPIDER** | Various | eCrime | Ransomware, affiliate models |
-| **KITTEN** | Iran | Geopolitical | Watering holes, social engineering |
-| **LEOPARD** | Various | Hacktivism | DDoS, defacement, data leaks |
-
-### Detection Engineering
-
-**IOA (Indicator of Attack) vs IOC (Indicator of Compromise):**
-- **IOC**: Known-bad artifacts (hashes, IPs, domains) — reactive, easily changed
-- **IOA**: Behavioral patterns (PowerShell encoded commands, unusual parent-child processes) — proactive, harder to evade
-
-**Detection Development Lifecycle:**
-```
-1. Threat Intel / Research → Identify adversary TTP
-2. Hypothesis Formation → Predict how TTP would appear in telemetry
-3. Query Development → Build Event Search query to detect behavior
-4. Validation → Test against known-good and known-bad datasets
-5. Deployment → Convert to IOA or scheduled hunt
-6. Tuning → Reduce false positives, improve fidelity
-7. Feedback Loop → Update based on adversary evolution
-```
-
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Falcon Admin** | Falcon console, PSFalcon, FalconPy | Platform management |
-| **Threat Hunting** | Event Search, Falcon Hunting queries | Adversary detection |
-| **Investigation** | Real Time Response (RTR), Process Explorer | Forensic analysis |
-| **Automation** | Falcon Fusion, Charlotte AI AgentWorks | SOAR and agentic workflows |
-| **Development** | Falcon APIs, Custom IOA builder | Custom integrations |
-| **Reporting** | Falcon Dashboards, PowerBI connectors | Metrics and KPIs |
-
-### Key Methodologies
-
-- **Falcon Hunting Methodology**: Hypothesis → Data Collection → Pattern Analysis → Validation → Containment → Intel Feedback
-- **1-10-60 Response Framework**: Detection (1 min) → Investigation (10 min) → Remediation (60 min)
-- **MITRE ATT&CK Mapping**: Tactic → Technique → Sub-technique → Detection Opportunity
-- **Cloud Security Lifecycle**: Code → Build → Deploy → Run → Respond
-- **Zero Trust Architecture**: Verify explicitly, use least privilege, assume breach
-
-
-
-## § 7 · Workflow
-
-### Phase 1: Assessment & Discovery
-
-**Objective**: Understand current security posture and requirements.
-
-**Activities:**
-1. **Asset Discovery** — Map all endpoints, cloud workloads, identities
-2. **Threat Modeling** — Identify likely adversaries and attack paths
-3. **Gap Analysis** — Compare current controls to desired state
-4. **Baseline Establishment** — Document normal behavior patterns
-
-**Done Criteria (✓):**
-- [✓] 100% asset visibility achieved
-- [✓] Critical assets identified and prioritized
-- [✓] Threat landscape documented
-- [✓] Current state vs. target state gap analysis complete
-
-### Phase 2: Architecture & Design
-
-**Objective**: Design comprehensive Falcon platform architecture.
-
-**Activities:**
-1. **Module Selection** — Choose appropriate Falcon modules based on requirements
-2. **Deployment Architecture** — Design sensor deployment, update rings, integrations
-3. **Policy Framework** — Define prevention, detection, and response policies
-4. **Integration Planning** — Map SIEM, SOAR, identity, and cloud connections
-
-**Done Criteria (✓):**
-- [✓] Architecture diagrams approved
-- [✓] Update ring strategy defined (post-July 2024)
-- [✓] Policy framework documented
-- [✓] Integration specifications complete
-
-### Phase 3: Deployment & Configuration
-
-**Objective**: Implement Falcon platform with staged rollout.
-
-**Activities:**
-1. **Ring 0 Deployment** — Internal IT (test group)
-2. **Ring 1-2 Expansion** — Non-critical, standard endpoints
-3. **Ring 3-4 Production** — Critical systems, full fleet
-4. **Integration Activation** — Connect SIEM, SOAR, identity systems
-
-**Done Criteria (✓):**
-- [✓] 100% sensor coverage achieved
-- [✓] All integrations tested and operational
-- [✓] Policies deployed and validated
-- [✓] No critical issues from staged rollout
-
-### Phase 4: Operations & Optimization
-
-**Objective**: Run effective security operations with continuous improvement.
-
-**Activities:**
-1. **Threat Hunting** — Weekly hunting exercises, IOA development
-2. **Alert Triage** — Charlotte AI-assisted investigation
-3. **Incident Response** — 1-10-60 execution for confirmed threats
-4. **Metrics Review** — Weekly KPI dashboards, trend analysis
-5. **Continuous Tuning** — Policy adjustments, false positive reduction
-
-**Done Criteria (✓):**
-- [✓] MTTD <1 minute, MTTR <60 minutes consistently
-- [✓] Threat hunting program operational
-- [✓] OverWatch integration effective
-- [✓] KPIs meeting targets
-
-### Phase 5: Evolution & Innovation
-
-**Objective**: Advance security maturity and adopt new capabilities.
-
-**Activities:**
-1. **New Module Adoption** — Evaluate and deploy new Falcon modules
-2. **Charlotte AI Expansion** — Increase agentic workflow adoption
-3. **Purple Team Exercises** — Validate and improve detections
-4. **Threat Research** — Contribute to community, develop custom IOAs
-5. **Knowledge Sharing** — Mentor team, publish lessons learned
-
-**Done Criteria (✓):**
-- [✓] Security maturity improved year-over-year
-- [✓] Innovation pipeline active
-- [✓] Team capability enhanced
-- [✓] Industry recognition achieved
-
-
-
-## § 8 · Scenario Examples
-
-### Scenario 1: Greenfield Falcon Deployment
-**Context**: 5,000-employee company with no EDR, wants comprehensive endpoint security.
-
-**Expert Response:**
-
-**Phase 1: Foundation (Weeks 1-2)**
-```
-Deployment Strategy:
-├── Week 1: Ring 0 (50 IT devices)
-│   └── Validate sensor stability, policy effectiveness
-├── Week 2: Ring 1 (500 non-critical endpoints)
-│   └── Monitor for compatibility issues, tune policies
-├── Week 3: Ring 2 (2,000 standard users)
-│   └── Scale deployment, establish support procedures
-├── Week 4: Ring 3 (2,450 remaining + servers)
-│   └── Complete coverage, server-specific policies
-```
-
-**Key Configurations:**
-- Prevention Policy: Aggressive ML + Exploit protection
-- Detection Policy: Enable all behavioral IOAs
-- Update Rings: 4 rings (24h-96h observation periods)
-- OverWatch: Full Elite tier for 24/7 hunting
-
-**Success Metrics:**
-- 100% sensor coverage by Week 4
-- Zero critical compatibility issues
-- <0.1% false positive rate
-- First OverWatch detection within 48 hours
-
-### Scenario 2: July 2024 Incident Preparedness
-**Context**: CISO wants assurance against vendor update failures.
-
-**Expert Response:**
-
-**Risk Mitigation Framework:**
-```yaml
-update_governance:
-  staged_rollout:
-    ring_0:
-      scope: internal_it
-      size: 50_devices
-      observation: 24_hours
-      rollback_trigger: ">0.1% issues"
-    ring_1:
-      scope: non_critical
-      size: 5_percent
-      observation: 48_hours
-      rollback_trigger: ">0.05% issues"
-    ring_2:
-      scope: standard_users
-      size: 25_percent
-      observation: 72_hours
-    ring_3:
-      scope: critical_systems
-      size: remaining
-      observation: 96_hours
-  
-  emergency_procedures:
-    automated:
-      - sensor_health_monitoring
-      - crash_rate_alerts
-      - automatic_deployment_halt
-    manual:
-      - emergency_rollback_runbook
-      - bitlocker_recovery_procedures
-      - alternative_protection_activation
-  
-  business_continuity:
-    - air_gapped_recovery_workstations
-    - offline_backup_validation
-    - manual_ir_procedures
-    - vendor_escalation_contacts
-```
-
-### Scenario 3: Cloud-Native Security Transformation
-**Context**: Company migrating to AWS/Azure with containerized workloads.
-
-**Expert Response:**
-
-**CNAPP Architecture:**
-```
-Multi-Cloud Security Stack:
-├── Falcon Horizon (CSPM)
-│   ├── AWS Security Hub integration
-│   ├── Azure Security Center connector
-│   ├── CIS benchmarks (Level 1 & 2)
-│   └── Custom IOMs for organizational policies
-├── Falcon Cloud Workload (CWP)
-│   ├── EKS/AKS admission controller
-│   ├── Container image scanning
-│   ├── Runtime protection
-│   └── Serverless function monitoring
-├── Falcon Identity (CIEM)
-│   ├── Cross-cloud entitlement visibility
-│   ├── Least privilege recommendations
-│   └── Anomalous access detection
-└── Shift-Left Security
-    ├── Terraform/IaC scanning
-    ├── GitHub Actions integration
-    ├── SCA and SBOM generation
-    └── Developer security training
-```
-
-### Scenario 4: Insider Threat Investigation
-**Context**: Suspicious data access patterns from privileged admin.
-
-**Expert Response:**
-
-**Investigation Workflow:**
-```powershell
-# Identity-focused Event Search queries
-
-# Query 1: Unusual data access volume
-event_simpleName=SensitiveDataAccess 
-| eval TimeBin=round(_time/3600)
-| stats count, sum(DataVolumeMB) as TotalMB by UserName, TimeBin
-| eventstats avg(TotalMB) as AvgMB, stdev(TotalMB) as StdevMB by UserName
-| eval IsAnomaly=if(TotalMB > (AvgMB + 3*StdevMB), 1, 0)
-| where IsAnomaly=1
-
-# Query 2: Off-hours privileged access
-event_simpleName=UserLogon 
-| eval Hour=strftime(_time, "%H")
-| eval IsOffHours=if(Hour < 6 OR Hour > 22, 1, 0)
-| where IsOffHours=1 AND UserIsAdmin=1
-| stats count by UserName, ComputerName, Hour
-| where count > 3
-
-# Query 3: Lateral movement indicators
-event_simpleName=RemoteResponse 
-| search TargetHostName!=ComputerName
-| stats count, values(TargetHostName) as AccessedHosts by UserName
-| where count > 5
-```
-
-**Response Actions:**
-1. Immediate suspension of suspect account
-2. Forensic preservation of relevant systems
-3. HR and Legal notification per policy
-4. Comprehensive audit of data accessed
-5. Enhanced monitoring for related accounts
-
-
-
-## § 9 · Best Practices Library
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Staged Updates** | July 2024-inspired deployment rings | 4-ring rollout with automated rollback | Eliminate widespread outages |
-| **Hypothesis-Driven Hunting** | Intel-based threat hunting | Weekly hunting exercises, documented hypotheses | Proactive threat discovery |
-| **Automation First** | SOAR for repetitive tasks | Falcon Fusion playbooks for common scenarios | 80% reduction in manual tasks |
-| **Defense in Depth** | Overlapping security controls | Endpoint + Cloud + Identity + Network | No single points of failure |
-| **Continuous Validation** | Purple team exercises | Quarterly adversary simulations | Detection effectiveness validation |
-| **Metrics-Driven** | KPI dashboard and reviews | Weekly MTTD/MTTR review | Measurable improvement |
-| **Zero Trust Identity** | Risk-based access decisions | Conditional access, MFA, least privilege | 90%+ reduction in credential attacks |
-| **Cloud-Native Security** | CNAPP with shift-left | IaC scanning, container security | Secure-by-design deployments |
-
-
 
 ## § 10 · Advanced Methodologies
 
@@ -1168,6 +312,7 @@ event_simpleName=RemoteResponse
 | **Staged Rollouts** | Safe deployments | Canary → Pilot → Production with observation | Risk reduction |
 | **Purple Teaming** | Detection validation | Red team attacks → Blue team detects → Collaborative improvement | Validated defenses |
 | **Zero Trust** | Access architecture | Verify explicitly, least privilege, assume breach | Reduced attack surface |
+
 
 
 
@@ -1193,6 +338,7 @@ event_simpleName=RemoteResponse
 
 
 
+
 ## § 12 · Integration Patterns
 
 | Pattern | Use Case | Implementation |
@@ -1202,6 +348,7 @@ event_simpleName=RemoteResponse
 | **Falcon → Identity** | Unified protection | Azure AD/Okta integration for conditional access |
 | **Falcon → Cloud** | Multi-cloud security | AWS Security Hub/Azure Security Center connectors |
 | **Falcon → TI** | Intel enrichment | Threat Graph API to MISP/ThreatConnect |
+
 
 
 
@@ -1217,6 +364,7 @@ event_simpleName=RemoteResponse
 
 
 
+
 ## § 14 · Continuous Improvement
 
 ### Improvement Cycle: Detect → Analyze → Adapt → Validate
@@ -1227,6 +375,7 @@ event_simpleName=RemoteResponse
 | **Analysis** | Review incidents, identify gaps | Post-incident reviews | Per incident |
 | **Adaptation** | Update policies, IOAs, playbooks | Monthly policy review | Monthly |
 | **Validation** | Purple team, metrics review | KPI targets met | Quarterly |
+
 
 
 
@@ -1267,6 +416,7 @@ SENSOR ARCHITECTURE:
 
 
 
+
 ## § 16 · Excellence Framework
 
 ### World-Class SOC Standards
@@ -1285,6 +435,7 @@ ASSESS → PLAN → EXECUTE → MEASURE → IMPROVE
    ↑                                    ↓
    └────────────── LEARN ←──────────────┘
 ```
+
 
 
 
@@ -1308,6 +459,7 @@ ASSESS → PLAN → EXECUTE → MEASURE → IMPROVE
 | **Mitigate** | Reduce probability/impact | 60-80% reduction |
 | **Transfer** | Better handled by third party | Varies (insurance, MDR) |
 | **Accept** | Low impact or unavoidable | N/A (monitor only) |
+
 
 
 
@@ -1363,6 +515,7 @@ ASSESS → PLAN → EXECUTE → MEASURE → IMPROVE
 
 
 
+
 ## § 19 · Resources & References
 
 ### CrowdStrike Official
@@ -1392,36 +545,25 @@ ASSESS → PLAN → EXECUTE → MEASURE → IMPROVE
 
 
 
-## § 20 · Summary
 
-This CrowdStrike Principal Security Engineer skill provides comprehensive expertise for:
+## References
 
-✅ **Enterprise Falcon Platform Deployment** — Multi-tenant architecture, 30+ modules, staged rollouts
-✅ **Adversary-Focused Defense** — MITRE ATT&CK mapping, IOA development, 245+ tracked adversaries
-✅ **Cloud-Native Security** — CNAPP implementation, multi-cloud protection, shift-left security
-✅ **Identity Protection** — Zero Trust architecture, Kerberoasting detection, risk-based access
-✅ **AI-Powered Operations** — Charlotte AI utilization, agentic SOC workflows, automated response
-✅ **Resilient Incident Response** — 1-10-60 SLA, July 2024 lessons applied, business continuity
-✅ **Continuous Improvement** — Metrics-driven optimization, purple team validation, threat research
+Detailed content:
 
-**Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-
----
-
-
-### Quality Checklist
-- [x] Requirements met
-- [x] Standards compliant
-- [x] Reviewed by experts
-- [x] July 2024 incident lessons integrated
-- [x] Charlotte AI coverage included
-- [x] CNAPP and cloud security detailed
-- [x] 5 detailed scenarios with technical depth
-- [x] Progressive disclosure navigation
-
-
-### Additional Resources
-- CrowdStrike Technical Support: support@crowdstrike.com
-- Emergency Incident Response: incident@crowdstrike.com
-- Customer Success: success@crowdstrike.com
-- Threat Intelligence: intelligence@crowdstrike.com
+- [## 2. CrowdStrike Company Context](./references/2-crowdstrike-company-context.md)
+- [## 3. Falcon Platform Architecture](./references/3-falcon-platform-architecture.md)
+- [## 4. Core Platform Components](./references/4-core-platform-components.md)
+- [## 5. Risk Assessment Matrix](./references/5-risk-assessment-matrix.md)
+- [## 6. MITRE ATT&CK Integration](./references/6-mitre-att-ck-integration.md)
+- [## 7. Security Operations Lifecycle](./references/7-security-operations-lifecycle.md)
+- [## 8. Career Progression](./references/8-career-progression.md)
+- [## 9. Detailed Scenario Examples](./references/9-detailed-scenario-examples.md)
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Domain Knowledge](./references/5-domain-knowledge.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Workflow](./references/7-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Best Practices Library](./references/9-best-practices-library.md)
+- [## § 20 · Summary](./references/20-summary.md)

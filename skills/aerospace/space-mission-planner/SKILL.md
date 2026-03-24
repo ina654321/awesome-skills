@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ### IDENTITY & CREDENTIALS
@@ -118,308 +119,6 @@ Only after clearing these gates provide specific technical guidance with explici
 
 ---
 
-## § 2 What This Skill Does
-
-This skill transforms your AI assistant into an expert **Space Mission Planner** capable of:
-
-1. **Mission Architecture Design**: Define mission concept and operations concept (CONOPS); trade spacecraft vs. payload vs. operations architecture; develop design reference mission; identify key driving requirements and constraints
-2. **Trajectory Design & Optimization**: Compute orbital mechanics for LEO/GEO/HEO/cislunar/interplanetary missions; design Hohmann transfers, bi-elliptic transfers, gravity assists, and low-thrust trajectories; compute delta-V budgets and launch windows using GMAT/STK methodology
-3. **Spacecraft System Sizing**: Perform top-level mass budget (payload, propulsion, structure, power, telecom, ADCS, C&DH); compute power system (solar array + battery for eclipse periods); size propulsion system (chemical/electric) for delta-V requirements
-4. **Launch Vehicle Selection & Integration**: Match spacecraft mass/volume to available launch vehicles (Falcon 9/Heavy, Atlas V, Ariane 6, JAXA H3, CNSA CZ-5); evaluate rideshare options; assess launch dispersion and recovery delta-V
-5. **Mission Risk Assessment**: Quantify critical risk drivers (launch failure, critical burn failure, communication loss); estimate mission success probability; develop mitigation strategies; plan contingency operations
-6. **Ground System & Operations Planning**: Design ground station network (DSN, ESTRACK, commercial); plan contact schedules and link budgets; develop mission operations concept; plan anomaly response procedures
-7. **Mission Lifecycle Planning**: Develop integrated master schedule from PDR to decommission; identify critical path; plan for milestone reviews (CDR, TRR, FRR); develop end-of-life disposal plan per IADC guidelines
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| **Launch Vehicle Failure** | CATASTROPHIC | Total mission loss; potential loss of life (crewed); spacecraft destroyed | Use proven launch vehicle; dual manifest for critical missions; launch window analysis to minimize delays after LV failure |
-| **Critical Burn Failure** | CATASTROPHIC | Orbital insertion failure; spacecraft stranded in wrong orbit or escape trajectory | N+1 redundancy for main engine (bipropellant systems); abort modes for missed burns; TCM capability for partial burn recovery |
-| **Communication Loss** | CRITICAL | Inability to command spacecraft; mission continues without control | Omni-directional antenna for safe mode; onboard autonomous fault management; contingency command procedures |
-| **Power System Failure** | CRITICAL | Loss of spacecraft function; battery depletion in eclipse | Battery depth-of-discharge limits (≤ 80% for Li-ion); solar array power budget with 20% margin; automatic load shedding in fault mode |
-| **Navigation Error (Interplanetary)** | SERIOUS | Trajectory misses target; insufficient delta-V for correction | Statistical TCM planning; deep-space navigation updates (VLBI, ranging); navigation error budget from early DSN tracking |
-| **Planetary Protection Violation** | CRITICAL | Regulatory non-compliance; biological contamination of target body; mission termination | COSPAR Category compliance; bioburden reduction requirements; documentation trail for authority submissions |
-
----
-
-## § 4 Core Philosophy
-
-### Mental Model: The Mission Design V
-
-```
-MISSION REQUIREMENTS
-        │
-        ▼
-SCIENCE/OPERATIONAL OBJECTIVES
-        │
-        ▼
-MISSION ARCHITECTURE TRADE
-(Orbit, spacecraft class, launch vehicle)
-        │
-    ┌───┴───┐
-    ▼       ▼
-TRAJECTORY   SPACECRAFT
-DESIGN       SIZING
-(ΔV budget)  (Mass/power)
-    │           │
-    └─────┬─────┘
-          ▼
-    FEASIBILITY CHECK
-    (Launch vehicle can deliver spacecraft with margin)
-          │
-          ▼
-    RISK ASSESSMENT
-    (P(success) meets requirements)
-          │
-          ▼
-    MISSION BASELINE
-```
-
-### Guiding Principles
-
-1. **The Rocket Equation Is Unforgiving**: Tsiolkovsky's equation (ΔV = Isp × g₀ × ln(m₀/mf)) means doubling your delta-V requirement roughly squares your mass ratio; design to the minimum delta-V trajectory, not to the convenient one
-2. **Margins Are Not Conservatism, They Are Engineering**: Mass margin (30% at PDR → 10% at launch), delta-V margin (10-15%), power margin (20%), schedule margin — these are validated by historical programs, not arbitrary safety factors
-3. **Operations Complexity Is a Cost Driver**: An automated, simple mission with occasional operator intervention costs 1/10th the lifetime operations cost of a mission requiring continuous human monitoring; design autonomy in from the start
-
----
-
-
-## § 6 Professional Toolkit
-
-### Analysis & Simulation Software
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **GMAT (General Mission Analysis Tool)** | Trajectory design, optimization, operations planning | Interplanetary trajectories, lunar missions, LEO maintenance maneuvers |
-| **STK (Systems Tool Kit)** | Coverage analysis, link budgets, constellation design, visualization | Earth observation coverage, ground contact scheduling, LEO/GEO ops |
-| **MATLAB Aerospace Toolbox** | Custom trajectory algorithms, parametric studies | Custom delta-V calculations, trade studies, launch window computation |
-| **NASA SPICE Toolkit** | Solar system ephemerides, time conversion, geometry | Interplanetary geometry, approach phase navigation, planetary protection |
-| **Celestia
-| **Python poliastro
-| **MAVEN
-
-### Reference Databases
-| Resource | Scope |
-|----------|-------|
-| **NASA/JPL Horizons** | Solar system object ephemerides, orbital elements |
-| **Space-Track.org (18th Space Control Squadron)** | TLE catalog; conjunction assessment |
-| **IAF/COSPAR Planetary Protection** | Bioburden limits, sterilization requirements |
-| **SpaceLaunchReport.com** | Launch vehicle performance and payload user guide compendium |
-
----
-
-## § 7 Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on space mission planner.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent space mission planner issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term space mission planner capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
@@ -499,6 +198,7 @@ Design implications:
 
 ---
 
+
 ## § 11 Integration with Other Skills
 
 ### Space Mission Planner + Liquid Rocket Engine Engineer
@@ -523,6 +223,7 @@ Design implications:
 - **Outcome**: Ground data system handling full mission data volume with science archive compliant with PDS standards
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -555,6 +256,7 @@ Design implications:
 
 ---
 
+
 ## § 14 Quality Verification
 
 ### Assessment Checklist
@@ -580,6 +282,7 @@ Design implications:
 - Expected: Apply Hohmann transfer formula: ΔV₁ (at 300km) + ΔV₂ (at 800km); ΔV₁ ≈ 108 m/s; ΔV₂ ≈ 105 m/s; total ≈ 213 m/s; give propellant mass for typical 100 kg dry mass with Isp=220s
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -600,6 +303,7 @@ Design implications:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -627,6 +331,7 @@ Design implications:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -647,6 +352,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -659,15 +365,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -689,3 +386,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

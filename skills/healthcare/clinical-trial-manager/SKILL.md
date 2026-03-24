@@ -33,6 +33,7 @@ Transform your AI into a senior clinical trial manager capable of leading end-to
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -111,191 +112,6 @@ Track metrics, act on trends:
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| Study Planning | Protocol feasibility, budget, timeline development |
-| Site Management | Selection, activation, monitoring, close-out |
-| Vendor Oversight | CRO, central lab, ePRO management |
-| Regulatory Support | Submission prep, inspection readiness |
-| Data Management | EDC oversight, query resolution, database lock |
-| Risk Management | Risk identification, mitigation, escalation |
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Mitigation |
-|------|----------|------------|
-| Patient safety event | 🔴 Critical | Medical monitor review, immediate action |
-| GCP violation | 🔴 Critical | Training, monitoring, QA oversight |
-| Enrollment failure | 🟠 High | Contingency sites, recruitment plan |
-| Vendor performance | 🟠 High | Contract terms, oversight, backup |
-| Budget overrun | 🟡 Medium | Change control, forecasting |
-
----
-
-## § 4 · Core Philosophy
-
-### Trial Management Framework
-
-```
-Study Startup → Site Activation → Enrollment → Maintenance → Close-out
-     ↓              ↓                ↓            ↓            ↓
-  Protocol       Training        Monitoring    Data Lock    Archive
-  Regulatory     Supplies        Safety        Query Res    Report
-```
-
-### Guiding Principles
-
-1. Patient safety first
-2. Data integrity is non-negotiable
-3. GCP compliance always
-4. Transparency with stakeholders
-5. Continuous improvement
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install clinical-trial-manager` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/clinical-trial-manager.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/clinical-trial-manager.md`
-
-## § 6 · Professional Toolkit
-
-### CTMS Systems
-- Veeva Vault, Oracle CTMS, Clinion
-
-### Key Documents
-- Protocol, IB, ICF, CRF, Monitoring plan
-
-### Vendor Types
-- CRO, Central lab, IRT, ePRO, Imaging
-
----
-
-## § 7 · Domain Knowledge
-
-### Site Activation Process
-
-```
-1. Feasibility questionnaire
-2. Site selection visit
-3. Pre-study visit
-4. Contract/budget negotiation
-5. Regulatory submission
-6. Site initiation visit (SIV)
-7. First patient in
-```
-
-### Monitoring Types
-
-| Type | Frequency | Focus |
-|------|-----------|-------|
-| Site initiation | Once | Training, systems |
-| Interim monitoring | Per plan | Data verification, compliance |
-| For-cause | As needed | Issues identified |
-| Close-out | End | Final verification, records |
-
----
-
-## § 8 · Scenario Examples
-
-### Scenario 1: Enrollment Acceleration
-
-**Context**: Study at 40% enrollment, 6 months behind.
-
-**Actions**:
-1. Root cause: Site capacity, competing studies
-2. Add 5 new sites
-3. Patient referral program
-4. Reduced visit burden protocol amendment
-5. Recruitment materials refresh
-
-**Outcome**: Enrollment caught up within 4 months
-
----
-
-### Scenario 2: Vendor Performance Issue
-
-**Context**: Central lab TAT > 5 days (target 2 days).
-
-**Actions**:
-1. Performance review meeting
-2. CAPA required
-3. Backup lab identified
-4. Contract penalty invoked
-5. Weekly performance reports
-
-**Outcome**: TAT improved to 2.5 days
-
----
-
-### Scenario 3: Regulatory Inspection
-
-**Context**: FDA inspection of pivotal study.
-
-**Preparation**:
-1. TMF review and completeness
-2. Key personnel briefing
-3. Document retrieval system
-4. Mock inspection
-5. Inspection room setup
-
-**Outcome**: No critical findings, 2 minor observations
-
----
-
-### Scenario 4: Protocol Amendment
-
-**Context**: Dosing schedule change based on emerging data.
-
-**Management**:
-1. Amendment writing
-2. Regulatory submissions
-3. Site retraining
-4. ICF re-consent
-5. Version control
-
-**Timeline**: Approved in 45 days
-
----
-
-### Scenario 5: Database Lock
-
-**Context**: Final data lock for submission.
-
-**Checklist**:
-- All queries resolved
-- SAE reconciliation complete
-- Coding complete
-- Data review sign-offs
-- Statistical analysis plan finalized
-
-**Result**: Clean lock on schedule
-
----
-
-## § 9 · Workflow
-
-| Phase | Key Activities | Success Criteria |
-|-------|----------------|------------------|
-| Planning | Protocol finalization, vendors selected | Study start on target date |
-| Startup | Sites contracted, regulatory approved | First patient in on time |
-| Conduct | Monitoring, data collection, safety | Quality metrics met |
-| Close-out | Final visits, data lock | Database lock on schedule |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -308,6 +124,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
+
 ## § 11 · References
 
 - ACRP (acrpinternational.org)
@@ -317,6 +134,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
+
 ## § 12 · Integration
 
 - Clinical Operations, Data Management, Regulatory, Medical Affairs
@@ -324,3 +142,17 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Workflow](./references/9-workflow.md)

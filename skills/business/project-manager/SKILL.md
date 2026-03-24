@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -123,256 +124,6 @@ ESTIMATION APPROACH:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Project charter and scope definition (WBS, acceptance criteria, RACI)
-- Project planning: schedule, dependencies, critical path, milestone tracking
-- Risk management: RAID log (Risks, Assumptions, Issues, Dependencies)
-- Stakeholder analysis and communication planning
-- Budget management: baseline, tracking, earned value analysis (SPI, CPI, EAC)
-- Agile delivery: sprint planning, backlog grooming, retrospectives, velocity tracking
-- Change management: impact assessment, approval workflow
-- Project closure: lessons learned, benefit realization, operational handover
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Scope Creep | 🟡 High | Uncontrolled additions bust schedule and budget | Change control; impact assessment before any addition |
-| Optimism Bias in Estimates | 🟡 High | Teams consistently underestimate; creates false confidence | Three-point estimation; explicit contingency buffers |
-| Single Point of Failure | 🟡 High | Key resource departure blocks project | Cross-train; knowledge documentation; succession planning |
-| Stakeholder Misalignment | 🟡 High | Undiscovered disagreement surfaces at delivery | RACI; stakeholder interviews during initiation; alignment checkpoints |
-| Unrealistic Deadline Acceptance | 🟢 Medium | PM accepts impossible constraints without pushback | Present options with trade-offs; never accept all three iron triangle constraints fixed |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Scope is Sacred, Schedule is Negotiable** — Lock scope before finalizing schedule. Changing scope after schedule commitment is the root of most project failures.
-2. **Risk Management is Continuous** — RAID logs are not documents; they are living tools. Review weekly. Pre-plan responses before risks materialize.
-3. **Communicate Early, Communicate Proactively** — Bad news doesn't age well. Surface problems while there's still time to act.
-4. **The PM Serves the Team** — Remove blockers, provide clarity, shield the team from organizational noise. Not micromanagement.
-5. **Milestones are Checkpoints** — An opportunity to validate progress and adjust. Treat them as learning moments, not just schedule markers.
-6. **Retrospectives are Non-Optional** — Even on successful projects. Continuous improvement requires honest reflection.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Project Planning | MS Project, Smartsheet, Asana, Monday.com, Linear |
-| Agile | Jira, GitHub Projects, Azure DevOps, Rally (SAFe) |
-| Risk / Documentation | RAID log (Excel/Notion/Confluence), Lucidchart, Miro |
-| Budget Tracking | Excel, Smartsheet, Jira budget plugins |
-| Communication | Confluence, Notion, Slack, MS Teams |
-| Reporting | Power BI, Looker Studio, custom dashboards |
-| Frameworks | PMBOK 7th Edition, Prince2, SAFe, Scrum Guide |
-
----
-
-## § 7 · Standards & Reference
-
-### RAID Log Template
-
-```
-RISKS (potential future issues):
-ID | Description | Probability (H/M/L) | Impact (H/M/L) | Score | Response | Owner
-
-ASSUMPTIONS (things treated as true without verification):
-ID | Assumption | Impact If Wrong | Verification Date | Status
-
-ISSUES (current active problems):
-ID | Description | Date Raised | Impact | Resolution Plan | Owner | Target Date
-
-DEPENDENCIES (what the project needs from others):
-ID | Dependency | Provider | Required By | Status | Risk If Late
-```
-
-### Earned Value Analysis
-
-```
-Key formulas:
-  PV = Planned Value (budgeted cost of scheduled work)
-  EV = Earned Value (budgeted cost of completed work)
-  AC = Actual Cost (actual spend for completed work)
-
-  SPI = EV
-    SPI < 1.0: Behind schedule
-    SPI > 1.0: Ahead of schedule
-
-  CPI = EV
-    CPI < 1.0: Over budget
-    CPI > 1.0: Under budget
-
-  EAC = BAC
-    If BAC = $1M and CPI = 0.85 → EAC = $1.18M (18% overrun projected)
-
-  VAC = BAC - EAC  (Variance at Completion)
-    Negative = projected overrun; positive = projected savings
-```
-
-### Agile Sprint Ceremonies
-
-```
-Sprint Planning (2 hours per week of sprint):
-  Input: Prioritized backlog; team velocity
-  Output: Sprint goal; committed backlog; task breakdown
-
-Daily Standup (15 minutes):
-  Yesterday / Today
-  PM: Listen for blockers; resolve externally after standup
-
-Sprint Review (1 hour per sprint week):
-  Demo completed work; accept/reject stories
-  PM: Invite stakeholders; capture feedback as backlog items
-
-Retrospective (45-90 minutes):
-  Start / Stop
-  Output: ≥1 committed improvement action for next sprint
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Project Initiation & Planning
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Project charter | Scope, objectives, success criteria, sponsor signed | Start planning without charter approval |
-| 2 | Stakeholder mapping | Power/interest grid; RACI completed | Identify only the sponsor |
-| 3 | WBS and scope baseline | Work breakdown to 3-4 levels; 100% rule verified | High-level scope only; no decomposition |
-| 4 | Critical path schedule | CPM applied; critical path identified; buffers allocated | Gantt without identifying critical path |
-| 5 | RAID log initialized | ≥5 risks documented with probability, impact, response | No formal risk register |
-
-### Phase 2: Execution, Monitoring & Control
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Weekly status report | RAG status + quantified progress + decisions needed | Monthly status or narrative-only reporting |
-| 2 | Milestone gate review | Deliverable quality verified; stakeholder acceptance obtained | Mark milestone complete without sign-off |
-| 3 | Change control | Every scope change: impact assessed → formally approved/rejected | Informal verbal "yes" to scope changes |
-| 4 | Risk review | RAID updated weekly; new risks identified; responses tracked | Risk register never updated after creation |
-| 5 | Issue escalation | Blockers at PM authority limit escalated within 48 hours | PM holds blockers hoping self-resolution |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on project manager.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent project manager issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term project manager capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -387,6 +138,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -398,6 +150,7 @@ Deliverable requires quality verification.
 | `financial-analyst` | Business case, budget baseline, earned value analysis |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -416,9 +169,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -439,6 +194,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -466,6 +222,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -486,6 +243,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -498,15 +256,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -528,3 +277,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

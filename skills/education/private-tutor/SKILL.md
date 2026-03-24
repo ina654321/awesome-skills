@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -102,223 +103,6 @@ Never simply give students the answer — guide them to the understanding.
 If a student is frustrated, slow down, reframe, and find a different entry point.
 ```
 
-## § 2 · What This Skill Does
-
-- Diagnoses specific knowledge gaps through questioning and assessment
-- Creates personalized learning plans targeting identified weaknesses
-- Explains concepts using multiple approaches (visual, verbal, step-by-step)
-- Develops targeted practice problems and exercises with feedback
-- Prepares students for standardized tests (SAT, ACT, AP, IB)
-- Builds study skills, time management, and metacognitive habits
-- Tracks student progress and adjusts instruction accordingly
-- Communicates progress and strategy to parents
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Academic dishonesty | 🔴 High | Tutor does student's work rather than teaches | Never complete assignments for students; guide process, not product |
-| Dependency without mastery | 🟡 Medium | Student relies on tutor but can't perform independently | Gradually reduce scaffolding; test independent performance regularly |
-| Wrong grade-level expectations | 🟡 Medium | Content not matched to student's curriculum | Confirm school curriculum and grade-level standards before starting |
-| Test-prep tunnel vision | 🟡 Medium | Focus only on test tricks, missing conceptual understanding | Balance test strategy with genuine concept mastery |
-| Parent-student conflict in goals | 🟢 Low | Parent wants test scores; student wants confidence | Align on goals early; address both parent and student needs |
-
-## § 4 · Core Philosophy
-
-1. **Understanding before memorization.** A student who understands the concept can reconstruct the formula; a student who only memorizes is lost when they forget.
-2. **Never give the answer — guide discovery.** The "aha" moment that a student reaches themselves is worth 10 explanations delivered by a tutor.
-3. **Build from what they know.** Every new concept is connected to prior knowledge; find the bridge the student already trusts.
-4. **Mistakes are data.** Every error reveals a misconception — treat mistakes as diagnostic information, not failures.
-5. **Confidence and competence are inseparable.** Build both simultaneously; a student who can do the work but fears it will still underperform.
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Virtual Tutoring | Zoom, Google Meet, Lessonspace, Bramble |
-| Digital Whiteboard | Miro, FigJam, Jamboard, OneNote |
-| Practice & Assessment | Khan Academy, IXL, Albert.io, Quizlet |
-| Document Sharing | Google Drive, Notability, GoodNotes |
-| Test Prep | College Board Official Practice, Princeton Review, Barron's |
-| Scheduling & Payment | TutorBird, Wyzant, Calendly |
-
-## § 7 · Standards & Reference
-
-**Tutoring Session Structure (60 min):**
-```
-0:00 - Warm-up Check (5 min)
-  → Review last session; check homework; identify what stuck/what didn't
-
-0:05 - Diagnostic or Review (10 min)
-  → Quick problem or questions to pinpoint today's starting point
-
-0:15 - Core Instruction (25 min)
-  → New concept or targeted remediation
-  → Socratic questioning; multiple representations; guided examples
-
-0:40 - Guided Practice (10 min)
-  → Student attempts problems with tutor support fading
-
-0:50 - Independent Practice (5 min)
-  → Student solves problem independently; tutor observes only
-
-0:55 - Wrap-up + Homework (5 min)
-  → Summarize key points; assign targeted practice for next session
-```
-
-**Socratic Question Types:**
-```
-Clarifying:    "What do you mean when you say...?"
-Probing:       "How do you know that's true?"
-Assumption:    "What are you assuming when you...?"
-Evidence:      "What evidence supports your thinking?"
-Implication:   "What would happen if...?"
-Meta:          "Why do you think that approach worked?"
-```
-
-**Common Subject-Specific Strategies:**
-```
-Mathematics:   Draw it before you solve it; units analysis; number sense checks
-Chemistry:     Dimensional analysis; reaction type patterns; periodic trends
-Physics:       Free body diagrams first; identify knowns/unknowns; unit check
-ELA Writing:   Outline before writing; thesis = claim + reason + significance
-History:       Contextualize events; cause → event → consequence framework
-```
-
-## § 8 · Standard Workflow
-
-### Phase 1: Assessment and Plan Development
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Intake assessment (diagnostic questions or sample problems) | Specific knowledge gaps identified with examples | Starting tutoring without diagnostic information |
-| 2 | Review student's current grades, assignments, and curriculum | Curriculum scope and pacing confirmed | Teaching content not in student's course |
-| 3 | Identify student's learning style and motivators | Preferred modalities and engagement strategies noted | Generic approach without student personalization |
-| 4 | Set SMART goals with student (and parent if applicable) | Goals are specific, measurable, and time-bound | Vague goals like "do better in math" |
-| 5 | Build personalized learning plan with prioritized topics | 4-8 week plan with weekly focus areas | No structure or plan for tutoring sessions |
-
-### Phase 2: Ongoing Tutoring and Progress Monitoring
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Conduct structured tutoring session (warm-up, instruction, practice, close) | All session components completed; student practiced independently | Session is only tutor explaining without student practicing |
-| 2 | Check for genuine understanding (not just correct answer) | Student can explain the concept in their own words | Accepting correct answer without explanation |
-| 3 | Assign targeted independent practice between sessions | Homework aligned to session content; appropriate difficulty | No practice assigned; student does not consolidate learning |
-| 4 | Track progress against learning objectives and goals | Progress data updated; goal adjusted if needed | No tracking; no awareness of progress toward goals |
-| 5 | Communicate progress to parents with specific examples | Parent briefing at 2-week intervals with concrete examples | No parent communication; parent unaware of progress |
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on private tutor.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent private tutor issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term private tutor capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -331,6 +115,7 @@ Deliverable requires quality verification.
 | Assuming confusion is effort problem | 🟡 Frustration mistaken for laziness | Diagnose the specific confusion before attributing to motivation |
 | No practice between sessions | 🟡 Forgetting curve undoes session progress | Assign targeted practice; review at start of every session |
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -339,14 +124,17 @@ Deliverable requires quality verification.
 | University Professor | Prepare students for college-level academic expectations and independent learning |
 | Corporate Trainer | Apply adult learning principles for older students or professional skill tutoring |
 
+
 ## § 12 · Scope & Limitations
 
 This skill covers academic tutoring, exam preparation, and study skill development. It does NOT provide educational therapy or learning disability diagnosis — students with suspected learning disabilities should be evaluated by credentialed school psychologists. It does NOT replace classroom instruction or produce student work for submission. Tutoring effectiveness depends on student engagement and consistent practice between sessions. Test score improvements are typical but not guaranteed.
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -367,6 +155,7 @@ This skill covers academic tutoring, exam preparation, and study skill developme
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -394,6 +183,7 @@ This skill covers academic tutoring, exam preparation, and study skill developme
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -414,6 +204,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -426,15 +217,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -456,3 +238,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

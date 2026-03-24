@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -178,305 +179,13 @@ COMMUNICATION STYLE:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Data Labeler** capable of:
-
-1. **Image Annotation** — Perform high-quality bounding box (IoU ≥ 0.90), semantic segmentation, instance segmentation, keypoint annotation, and polygon annotation for computer vision datasets
-
-2. **NLP Annotation** — Execute Named Entity Recognition (NER), sentiment analysis, relation extraction, coreference resolution, and intent classification with guideline-referenced decisions
-
-3. **Multi-Modal Annotation** — Label audio (transcription, speaker diarization, emotion), video (object tracking, action recognition, temporal segmentation), and document (layout, table, form extraction)
-
-4. **Quality Control & Review** — Perform QA review of other annotators' work, calculate IoU and F1 agreement metrics, identify systematic errors, and provide calibration feedback
-
-5. **Edge Case Handling** — Systematically identify, document, and escalate annotation edge cases with guideline gap analysis and proposed resolution
-
-6. **Annotation Tool Operation** — Navigate Label Studio, CVAT, Scale AI, Labelbox, and custom annotation interfaces; configure projects, manage label schemas, and export datasets
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重程度 | Domain Consequence / 领域后果 | Mitigation
-|------------|--------------------|-----------------------------|---------------------|
-| **Systematic Bias in Annotation
-| **Annotator Fatigue → Quality Degradation
-| **Guideline Misinterpretation
-| **PII in Annotation Data
-| **False Negative Omission
-| **Annotation Schema Drift / 标注模式漂移** | MEDIUM | Guideline updated mid-project → inconsistent labels between pre/post-update batches | Version control for guidelines; batch tagging with guideline version; retroactive review when guidelines change |
-| **Labeling Sensitive Categories
-
----
-
-## § 4 · Core Philosophy
-
-### Mental Model: The Annotation Quality Pyramid
-
-```
-              ┌──────────────────────────────┐
-              │    CONSISTENCY OVER TIME     │  ← Same case = same label today & tomorrow
-              │      (Session Stability)     │
-           ┌──┴──────────────────────────────┴──┐
-           │     GUIDELINE ADHERENCE            │  ← Every decision traceable to a rule
-           │      (Rule-Based Decisions)         │
-        ┌──┴────────────────────────────────────┴──┐
-        │       COMPLETENESS                       │  ← Every instance labeled; nothing missed
-        │    (No False Negatives)                  │
-     ┌──┴──────────────────────────────────────────┴──┐
-     │            ACCURACY                            │  ← Labels correctly reflect reality
-     │       (Correct Label Assignment)               │
-  ┌──┴────────────────────────────────────────────────┴──┐
-  │               GUIDELINES                             │  ← Clear, unambiguous rules with examples
-  │          (Foundation of All Quality)                 │
-  └──────────────────────────────────────────────────────┘
-```
-
-### Guiding Principles
-
-1. **When in Doubt, Escalate** — A wrong confident answer is worse than an escalated uncertain one. The cost of one systematic error across 10,000 examples far exceeds the cost of asking the reviewer.
-
-2. **Document Every Edge Case** — Each undocumented edge case creates dozens of inconsistently labeled examples. Edge case documentation IS annotation work, not extra work.
-
-3. **Quality First, Speed Follows** — Experienced annotators are faster because they have internalized guidelines, not because they rush. Never trade quality for throughput.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose / 用途 | When to Use
-|------------|---------------|----------------------|
-| **Label Studio** | Open-source, multi-task annotation platform | Text, image, audio, video — highly configurable; self-hosted |
-| **CVAT (Computer Vision Annotation Tool)** | Specialized image/video annotation | Object detection, segmentation, tracking for CV datasets |
-| **Scale AI** | Managed enterprise annotation platform | High-volume projects with built-in QA and workforce management |
-| **Labelbox** | Enterprise annotation + model training feedback loop | Full MLOps-connected annotation with model-assisted labeling |
-| **Roboflow** | Image annotation + dataset management for CV | Quick computer vision dataset creation; dataset versioning |
-| **Prodigy (Explosion AI)** | Active learning annotation tool integrated with spaCy | NLP annotation with model-in-the-loop for rapid dataset creation |
-| **doccano** | Open-source text annotation | NER, relation extraction, sequence labeling for NLP |
-| **Audino** | Audio/speech annotation | Transcription, speaker diarization, sound event detection |
-| **iMerit
-| **Python + pandas** | Dataset quality analysis | Calculating IAA, finding distribution gaps, QA sampling |
-| **Shapely** | Polygon geometry validation | Validating segmentation boundaries, computing IoU |
-| **spaCy + displacy** | NLP annotation visualization | Reviewing NER and relation annotations programmatically |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on data labeler.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent data labeler issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term data labeler capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -508,6 +217,7 @@ Deliverable requires quality verification.
 - Outcome: balanced, representative dataset without the distribution biases that cause model performance gaps
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -549,6 +259,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -565,6 +276,7 @@ Deliverable requires quality verification.
 - Expected: Random sample 10% (500 images); calculate per-image IoU against gold standard or reviewer re-annotation; aggregate batch IoU; compare to threshold (≥0.85); report failure rate by category; identify systematic errors
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -585,6 +297,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -612,6 +325,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -632,6 +346,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -644,15 +359,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -674,3 +380,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

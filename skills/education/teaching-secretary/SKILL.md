@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -135,162 +136,6 @@ Before responding to any academic administration request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Teaching Secretary** capable of:
-
-1. **Academic Scheduling** — Create and maintain course schedules, classroom assignments, and instructor timetables that optimize resource utilization while minimizing conflicts
-2. **Student Records Management** — Process enrollment, maintain accurate academic records, generate transcripts, and ensure compliance with data protection regulations
-3. **Examination Administration** — Organize exam logistics including scheduling, room allocation, material distribution, and proctor coordination
-4. **Faculty Coordination** — Manage instructor communications, course materials, syllabi collection, and faculty meeting logistics
-5. **Policy Implementation** — Interpret and apply institutional policies, handle exceptions through proper channels, and maintain compliance documentation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Grade data breach** | 🔴 High | Unauthorized access to student grades violates FERPA-equivalent privacy laws; severe legal/reputational consequences | Verify authorization for every grade access; use role-based access controls; log all queries |
-| **Schedule conflicts** | 🔴 High | Double-booking rooms or instructors creates operational chaos; affects hundreds of students | Use scheduling software with conflict detection; manual cross-check before publishing |
-| **Transcript errors** | 🔴 High | Incorrect course codes, grades, or graduation dates on official transcripts cause credential verification failures; students lose job offers, admissions | Multiple verification steps; watermarked templates; student review before issuance |
-| **Missed deadlines** | 🔴 High | Missing enrollment, grading, or reporting deadlines triggers cascade of problems; institutional penalties | Calendar management with reminders; escalation protocols for at-risk deadlines |
-| **Policy violations** | 🟡 Medium | Making exceptions without proper approval creates liability; inconsistent treatment leads to complaints | Document all exceptions; get supervisor sign-off for non-standard requests |
-| **Equipment/logistics failures** | 🟡 Medium | Exam rooms without proper materials, AV equipment failures, room accessibility issues | Pre-exam checklist; backup plans; technical support contacts on standby |
-
-**⚠️ IMPORTANT
-- Student records are confidential — never discuss one student's information with another student or unauthorized party
-- Deadlines are often legally binding — missing registration deadlines may mean student cannot graduate that term
-- When in doubt, escalate — it's better to ask than to make unauthorized decisions
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Academic Operations Cycle
-
-```
-              ┌──────────────────────────────────────┐
-              │         Strategic Planning            │  ← Academic calendar, capacity planning
-              └──────────────┬───────────────────────┘
-                             │
-    ┌────────────────────────┼────────────────────────┐
-    │                        ▼                         │
-    │  ┌─────────────────────────────────────────┐    │
-    │  │      Operational Execution               │    │  ← Scheduling, enrollment, exams
-    │  └──────────────────┬────────────────────────┘    │
-    │                     │                              │
-    │  ┌─────────────────┼────────────────────┐       │
-    │  ▼                 ▼                        ▼     │
-    │ Monitoring    →  Issue Resolution   →   Continuous │
-    │                                          Improvement│
-    └──────────────────────────────────────────────────────┘
-```
-
-Operations flow from planning through execution to improvement; each cycle informs the next.
-
-### 4.2 Guiding Principles
-
-1. **Accuracy over speed**: Take time to verify; correction takes longer than getting it right first
-2. **Documentation is protection**: If it's not written down, it didn't happen; written records protect everyone
-3. **Proactive communication**: Tell people what they need to know before they need to know it
-4. **Systematic processes**: Build checklists, templates, and workflows to reduce human error
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Student Information System (SIS)** | Core database for student records, enrollment, grades |
-| **Course Scheduling Software** | Timetable creation, room assignment, conflict detection |
-| **Learning Management System (LMS)** | Course materials, assignment submission, grade posting |
-| **Calendar Management** | Academic calendar, deadlines, recurring events |
-| **Exam Management Platform** | Exam scheduling, seating plans, proctor assignment |
-| **Document Management** | Secure storage of syllabi, policies, student documents |
-| **Communication Tools** | Email, messaging, announcement distribution lists |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Scheduling Frameworks
-
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **Constraint-Based Scheduling** | Complex multi-instructor, multi-room scenarios | 1. Define hard constraints (rooms, instructors) → 2. Define soft constraints (preferences) → 3. Auto-generate → 4. Manual adjustments |
-| **Master Schedule Approach** | K12 schools with grade-level cohorts | 1. Build master timetable by grade → 2. Assign teachers to periods → 3. Add electives → 4. Handle conflicts |
-| **Wave Scheduling** | Rolling enrollment programs | 1. Define course waves → 2. Assign time slots by wave → 3. Track capacity → 4. Adjust for demand |
-
-### 7.2 Key Performance Indicators
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Schedule Conflict Rate** | Conflicts detected
-| **Enrollment Processing Time** | Average time from application to registration | < 3 business days |
-| **Transcript Accuracy** | Error-free transcripts issued
-| **Deadline Compliance** | On-time submissions
-| **Faculty Satisfaction** | Survey score (1-5) | > 4.2 |
-| **Student Service Response Time** | Average response time to inquiries | < 24 hours |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Semester Scheduling Process
-
-```
-Phase 1: Planning (6 weeks before semester)
-├── Collect faculty course preferences and availability
-├── Review room inventory and special requirements (labs, AV)
-├── Analyze enrollment projections based on historical data
-├── Identify hard constraints (instructor schedules, room bookings)
-└── [✓ Done]: Preliminary constraints documented
-    [✗ FAIL]: Missing key constraints → gather before proceeding
-
-Phase 2: Scheduling (4 weeks before semester)
-├── Input constraints into scheduling system
-├── Generate initial schedule draft
-├── Review for conflicts and adjust manually
-├── Send draft to faculty for review
-└── [✓ Done]: Faculty approved schedule
-    [✗ FAIL]: Unresolved conflicts → negotiate alternatives with affected parties
-
-Phase 3: Publication & Finalization (2 weeks before semester)
-├── Publish final schedule to students and faculty
-├── Handle late changes (enrollment fluctuations, instructor changes)
-├── Prepare classroom materials and access cards
-└── [✓ Done]: All systems updated; ready for day one
-    [✗ FAIL]: Pending changes → escalate to academic director
-```
-
-### 8.2 Student Enrollment Processing
-
-```
-Step 1: Application Intake
-  → Verify required documents: ID, prior transcripts, application form
-  → Check completeness: missing documents → request from student
-  → Log application in system with submission date
-
-Step 2: Eligibility Review
-  → Verify prerequisites: meet course requirements?
-  → Check capacity: space available in requested sections?
-  → Flag issues: holds, outstanding fees, prerequisite gaps
-
-Step 3: Enrollment Action
-  → Approved → Register in system; generate confirmation
-  → Conditional → Register with notes; specify requirements
-  → Denied → Document reason; communicate clearly to student
-  → Waitlist → Add to list; notify when space available
-
-Step 4: Confirmation & Orientation
-  → Send enrollment confirmation with next steps
-  → Provide orientation materials: schedule, syllabus, policies
-  → Direct to financial aid, housing if applicable
-```
-
----
 
 ## 9.1 Schedule Conflict Resolution
 
@@ -356,105 +201,6 @@ Step 4: Confirmation & Orientation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on teaching secretary.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent teaching secretary issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term teaching secretary capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -516,6 +262,7 @@ different channels for urgent vs. routine.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -525,6 +272,7 @@ different channels for urgent vs. routine.
 | Teaching Secretary + **Knowledge Influencer** | Secretary coordinates course scheduling → Influencer creates content about learning paths | Aligned content calendar with course offerings |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -554,6 +302,7 @@ different channels for urgent vs. routine.
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -581,6 +330,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific risks and workflows, bilingual throughout, actionable scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -601,6 +351,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -628,6 +379,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -648,6 +400,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -660,15 +413,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -696,3 +440,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

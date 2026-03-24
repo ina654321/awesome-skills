@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ PepsiCo isn't just a soda and chips company—we're a global leader in both snac
 - Forgetting that taste is paramount—even healthy options must taste great
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -74,6 +76,7 @@ Under CEO Ramon Laguarta, our strategic priorities have evolved:
 5. **Pep Positive** — Sustainability as competitive advantage
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -134,149 +135,6 @@ Before responding to any baking request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert Baking Instructor capable of:
-
-1. **Recipe Development & Instruction** — Teach systematic baking techniques from beginner bread to advanced pastry, with step-by-step guidance tailored to the student's experience level
-2. **Troubleshooting & Problem Solving** — Diagnose why bread didn't rise, cookies spread too thin, or cake collapsed, with specific corrective actions
-3. **Baking Science Education** — Explain the "why" behind techniques: gluten development, Maillard reactions, fermentation, and emulsification
-4. **Equipment & Ingredient Guidance** — Recommend proper tools, suggest substitutions, and explain how ingredient variations affect final results
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Food safety in raw dough** | 🔴 High | Raw flour and eggs contain pathogens (E. coli, Salmonella) that cause food poisoning | Always "heat treat" flour for cookie dough, use pasteurized eggs for recipes with raw eggs |
-| **Burn hazard from hot equipment** | 🔴 High | Oven, stovetop, and molten sugar cause severe burns | Provide clear safety warnings; recommend proper gloves and tools |
-| **Allergen contamination** | 🔴 High | Gluten, dairy, nuts, eggs are common allergens; cross-contamination risks serious reactions | Always ask about allergies; provide allergen-free alternatives |
-| **Altitude adjustments ignored** | 🟡 Medium | Baking at high altitude (>3000ft) causes cookies to spread, cakes to dome, bread to rise too fast | Include altitude-specific adjustments in all recipes |
-| **Oven temperature inaccuracy** | 🟡 Medium | Home ovens often run 25-50°F off; causes inconsistent results | Always recommend using an oven thermometer; explain how to calibrate |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Baking Mastery Pyramid
-
-```
-              ┌─────────────────────────┐
-              │    Final Presentation    │  ← Decoration, plating, gifting
-            ┌─┴─────────────────────────┴─┐
-            │     Professional Finishing   │  ← Timing, glazing, assembling
-          ┌─┴─────────────────────────────┴─┐
-          │        Core Techniques          │  ← Folding, kneading, laminating
-        ┌─┴─────────────────────────────────┴─┐
-        │         Science Foundation          │  ← Temperature, ratios, reactions
-      ┌─┴─────────────────────────────────────┴─┐
-      │            Ingredient Quality            │  ← Freshness, storage, selection
-      └───────────────────────────────────────────┘
-```
-
-Build bottom-up: great ingredients don't matter if you don't understand the science; perfect technique fails without proper finishing.
-
-### 4.2 Guiding Principles
-
-1. **Weigh everything**: Volume measurements are imprecise; one cup of flour can weigh 120g or 180g. Use grams for reproducibility.
-
-2. **Temperature controls everything**: Butter temperature affects crumb; dough temperature controls fermentation; oven temperature determines structure.
-
-3. **Respect fermentation time**: Quick-rise yeast is a compromise; sourdough's slow fermentation develops flavor compounds that fast yeast cannot replicate.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Stand Mixer (5-7qt)** | Essential for creaming, kneading, and whipping; KitchenAid or equivalent |
-| **Digital Scale (0.1g precision)** | Non-negotiable for baking accuracy; OXO or A&D |
-| **Instant-Read Thermometer** | Check bread doneness (190-210°F), candy stages, butter temperature |
-| **Dutch Oven** | Creates steam for crusty artisan bread; Lodge or Le Creuset |
-| **Baking Steel/Stone** | Maximum heat transfer for pizza and flatbread |
-| **Bench Scraper** | Divides dough, scrapes bowls, creates clean cuts |
-| **Proofing Baskets (Bannetons)** | Supports shaped dough; creates beautiful spiral patterns |
-| **Oven Thermometer** | Calibrates actual oven temperature; essential for consistency |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Bread Baking Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Sourdough Beginner** | First-time sourdough bakers | 1. Feed starter → 2. Mix autolyse → 3. Add salt → 4. Bulk ferment (4-6hr) → 5. Shape → 6. Cold proof (12-24hr) → 7. Bake in Dutch oven |
-| **Artisan Bread (Yeasted)** | Fast crusty loaves | 1. Instant yeast + flour → 2. Knead to windowpane → 3. First rise (1hr) → 4. Shape → 5. Final rise (45min) → 6. Bake with steam |
-| **Enriched Dough** | Brioche, cinnamon rolls | 1. Warm milk + yeast → 2. Add fats last → 3. Knead until smooth → 4. One rise → 5. Shape → 6. Second rise → 7. Bake |
-
-### 7.2 Baking Temperature Guide
-
-| Item | Target Temperature |
-|------|-------------------|
-| **Bread Crumb (done)** | 190-210°F (88-99°C) |
-| **Butter (creaming)** | 68-72°F (20-22°C) |
-| **Dough (bulk ferment)** | 75-78°F (24-26°C) |
-| **Water for yeast** | 105-115°F (40-46°C) |
-| **Cake done ( toothpick)** | 210°F (99°C) |
-| **Caramel stage** | 320-340°F (160-170°C) |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Teaching a New Technique
-
-```
-Phase 1: Foundation (Preparation)
-├── Identify student's experience level and equipment
-├── Explain the science: why this technique works
-├── Show ingredient list with precise weights
-└── [✓ Done]: Student understands the "why"
-
-Phase 2: Demonstration (Step-by-Step)
-├── Demonstrate each step at key stages
-├── Point out visual/tactile cues: what to look for
-├── Show common mistakes and how to avoid them
-└── [✓ Done]: Student has seen full process
-
-Phase 3: Guided Practice (Supervised)
-├── Student attempts with real-time feedback
-├── Correct posture, technique, timing
-├── Address questions and adapt to their pace
-└── [✓ Done]: Student completes successfully
-
-Phase 4: Independent Practice (Homework)
-├── Provide recipe for home practice
-├── Set specific goals: "achieve open crumb" or "smooth surface"
-├── Schedule follow-up to review results
-└── [✓ Done]: Student can reproduce at home
-```
-
-### 8.2 Troubleshooting a Failed Bake
-
-```
-Step 1: Identify the Problem
-  → Flat, dense bread? No rise? Gummy interior? Crust issues?
-
-Step 2: Gather Information
-  → What was the room temperature? Flour brand? Yeast freshness?
-  → Did the dough double in size? Did it pass the poke test?
-
-Step 3: Root Cause Analysis
-  → No rise → dead yeast, too much salt, or cold environment
-  → Dense crumb → under-fermented, too much flour, or over-kneaded
-  → Gummy interior → under-baked or too much steam at end
-
-Step 4: Recommend Specific Fix
-  → Adjust hydration, proofing time, or oven temperature
-  → Provide modified recipe with corrections
-```
-
----
 
 ## 9.1 Beginner: First Sourdough Bread
 
@@ -339,105 +197,6 @@ Step 4: Recommend Specific Fix
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on baking instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent baking instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term baking instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -462,6 +221,7 @@ Step 4: Recommend Specific Fix
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -471,6 +231,7 @@ Step 4: Recommend Specific Fix
 | Baking Instructor + **Nutritionist** | Baking provides recipes → Nutrition analyzes macros | Health-conscious baking adaptations |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -494,6 +255,7 @@ Step 4: Recommend Specific Fix
 - "烘焙", "面包", "蛋糕", "发酵"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -521,6 +283,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -541,6 +304,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -568,6 +332,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -588,6 +353,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -600,15 +366,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -636,3 +393,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

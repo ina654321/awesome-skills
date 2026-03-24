@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,156 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Vaccine Administration** — Perform IM, SC, ID injections at correct anatomical sites using proper technique
-2. **Contraindication Screening** — Identify medical precautions, contraindications, and timing requirements before vaccination
-3. **Cold Chain Management** — Ensure proper vaccine storage, transport, and temperature monitoring
-4. **Immunization Schedule Compliance** — Apply CDC, WHO, or regional schedules for children, adults, and special populations
-5. **Adverse Event Response** — Recognize, manage, and report vaccine adverse events including anaphylaxis
-6. **Documentation & Reporting** — Complete immunization records and mandatory reporting requirements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Anaphylaxis** | 🔴 High | Severe allergic reaction can occur within minutes; life-threatening without treatment | Pre-screen for allergies; have epinephrine available; observe for 15-30 minutes post-vaccination |
-| **Wrong Vaccine/Dose** | 🔴 High | Administering incorrect product or dosage can cause harm or render vaccination invalid | Two-person verification; barcode scanning; strict 5-rights protocol |
-| **Cold Chain Breach** | 🔴 High | Temperature excursion destroys vaccine potency without visible change | Continuous monitoring; never use compromised doses; proper storage verification |
-| **Wrong Route/Site** | 🔴 High | Intramuscular vs. subcutaneous vs. intradermal; wrong site causes reduced efficacy or injury | Know correct route/site for each vaccine; use proper landmarks |
-| **Needle Stick Injury** | 🟡 Medium | Exposure to bloodborne pathogens from sharps injuries | Use safety-engineered devices; proper sharps disposal; follow exposure protocol |
-
-**⚠️ IMPORTANT:**
-- This skill provides vaccination guidance, NOT medical diagnosis. Individual patient decisions require clinical assessment.
-- Always have emergency equipment (epinephrine, oxygen, BP cuff) available and staff trained in emergency response.
-- Document ALL conversations, assessments, and interventions — if it wasn't documented, it wasn't done.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The 5-Rights Vaccination Protocol
-
-```
-┌─────────────────────────────────────────────────────┐
-│              RIGHT PATIENT                          │
-│         (Verify identity, age, schedule)             │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              RIGHT VACCINE                           │
-│    (Product, lot number, expiration checked)         │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              RIGHT DOSE                              │
-│         (Age-appropriate formulation)                │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              RIGHT ROUTE & SITE                      │
-│    (IM, SC, ID; deltoid, thigh, forearm)            │
-└─────────────────────┬───────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────┐
-│              RIGHT TIME                              │
-│    (Interval met, not contraindicated)                │
-└─────────────────────────────────────────────────────┘
-```
-
-Every vaccination requires verification of ALL five elements. Skip none. Check twice.
-
-### 4.2 Guiding Principles
-
-1. **When in Doubt, Don't Give It Out**: If there's any question about validity, identity, or appropriateness, hold the vaccine and consult. Patient safety trumps schedule compliance.
-2. **The Schedule is a Guide, Not a Command**: Patients with legitimate contraindications or special circumstances may need modified schedules. Individualize when needed.
-3. **Every Cold Chain Violation is Suspect**: Temperature excursions require investigation. Don't assume "it's probably fine" — discard and replace.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Vaccine Information Statements (VIS)** | Required informed consent documents; provide before administration |
-| **Temperature Monitoring Log** | Document 2x daily readings; track excursions |
-| **Immunization Information System (IIS)** | Registry lookup for vaccination history |
-| **Contraindication Checklist** | Standardized screening questions |
-| **Emergency Kit** | Epinephrine 1:1000, oxygen, BP cuff, airway supplies |
-| **Sharps Container** | Immediate disposal of used needles |
-| **CDC Pink Book** | Reference for vaccine-preventable diseases |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Vaccination Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **ACIP Immunization Schedule** | Routine childhood/adult vaccination | 1. Assess age → 2. Check history → 3. Identify gaps → 4. Administer appropriate doses → 5. Schedule follow-up |
-| **Catch-Up Schedule** | Patients with delayed immunization | 1. Determine age → 2. Use catch-up table → 3. Administer valid doses with minimum intervals → 4. Verify completion |
-| **Anaphylaxis Protocol** | Severe reaction management | 1. Recognize signs → 2. Administer epinephrine IM → 3. Call emergency → 4. Position patient → 5. Monitor vitals → 6. Document |
-| **Cold Chain Emergency Protocol** | Temperature excursion | 1. Quarantine vaccines → 2. Document temps → 3. Contact manufacturer → 4. Report to health dept |
-
-### 7.2 Vaccination Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Wastage Rate** | (Doses discarded
-| **Coverage Rate** | (Eligible population vaccinated
-| **Observation Compliance** | (Patients observed full period
-| **Documentation Completeness** | (Complete records
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Routine Vaccination Administration
-
-```
-Phase 1: Pre-Vaccination
-├── Verify patient identity (2 identifiers)
-├── Review immunization history (IIS, records)
-├── Assess contraindications and precautions
-├── Select appropriate vaccine(s)
-├── Verify product, lot, expiration
-├── Obtain informed consent (VIS)
-└── Prepare patient (position, site selection)
-
-Phase 2: Administration
-├── Perform hand hygiene
-├── Select correct site (deltoid, thigh, forearm)
-├── Use correct technique (IM: 90° angle, SC: 45°)
-├── Aspirate (unless specified otherwise)
-├── Administer at correct speed
-├── Apply gentle pressure post-injection
-└── Activate safety device immediately
-
-Phase 3: Post-Vaccination
-├── Document in record (date, site, route, lot, VIS date)
-├── Provide post-vaccine information sheet
-├── Instruct on adverse reactions to report
-├── Observe for required period (15-30 min for most)
-└── Schedule next appointment if needed
-```
-
-### 8.2 Adverse Event Response
-
-```
-Step 1: Recognize — itching, hives, wheezing, throat tightness, hypotension, tachycardia
-Step 2: Stop — immediately stop vaccination; do not remove needle yet
-Step 3: Call — shout for help; have someone call emergency services
-Step 4: Position — lay flat, elevate legs if stable; if airway compromised, position for breathing
-Step 5: Treat — epinephrine 1:1000 IM anterolateral thigh 0.01mg/kg max 0.5mg
-Step 6: Monitor — repeat epinephrine q5-15min if no response; treat secondary reactions
-Step 7: Document — time, symptoms, interventions, vital signs, outcome
-```
-
----
 
 ## 9.1 Pediatric Vaccination Visit
 
@@ -323,105 +174,6 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on vaccination staff.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent vaccination staff issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term vaccination staff capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -440,6 +192,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -449,6 +202,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 | Vaccination Staff + **Pharmacy** | VS orders vaccine → Pharmacy manages inventory | Continuous supply chain |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -478,6 +232,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -499,6 +254,7 @@ Expected: Detailed response including quarantine, documentation, manufacturer co
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, safety-focused risks, 5-rights protocol, detailed workflows, and realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -519,6 +275,7 @@ Expected: Detailed response including quarantine, documentation, manufacturer co
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -546,6 +303,7 @@ Expected: Detailed response including quarantine, documentation, manufacturer co
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -566,6 +324,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -578,15 +337,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -614,3 +364,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

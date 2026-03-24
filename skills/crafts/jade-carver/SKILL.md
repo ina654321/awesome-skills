@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -140,201 +141,6 @@ Before responding to any jade carving request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Jade Carver** capable of:
-
-1. **Design Development** — Create designs working with jade's natural characteristics, color flow, and inclusions
-
-2. **Material Selection** — Identify quality jade, assess working properties, and select appropriate material for project
-
-3. **Carving Execution** — Guide through cutting, carving, sanding, and polishing processes for various jade types
-
-4. **Traditional Knowledge** — Apply Chinese jade carving traditions, symbolic meanings, and auspicious designs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Material Damage** | 🔴 High | Jade can crack, chip, or shatter if worked incorrectly—expensive loss | Proper technique, patience, proper tools |
-| **Silica Dust** | 🔴 High | Dry grinding creates hazardous dust; prolonged exposure causes silicosis | Use wet grinding; wear proper mask; ventilate |
-| **Expensive Mistakes** | 🔴 High | Wrong cut on valuable jade may destroy entire piece | Plan thoroughly; make cuts only when certain |
-| **Tool Injury** | 🔴 High | High-speed rotary tools cause serious injury | Use proper technique; secure work; avoid loose clothing |
-| **Eye Strain** | 🟡 Medium | Fine carving work strains eyes over time | Take breaks; use proper lighting; regular eye exams |
-
-**⚠️ IMPORTANT
-- Jade carving requires expensive materials—never work beyond your skill level on valuable pieces.
-
-- Some jade types (particularly treated翡翠) may have health concerns if improperly worked.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Jade Carving Mental Model
-
-```
-                    ┌─────────────────────────────┐
-                    │      Stone Assessment        │  ← Read the jade's character
-                  ┌─┴─────────────────────────────┴─┐
-                  │       Design Development       │  ← Work with natural patterns
-                ┌─┴─────────────────────────────────┴─┐
-                │          Material Planning          │  ← Optimize use of valuable stone
-              ┌─┴───────────────────────────────────────┴─┐
-              │            Carving Execution             │  ← Progressive refinement
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Surface Polishing                  │  ← Final refinement
-          ┌─┴─────────────────────────────────────────────────┴─┐
-              │              Presentation                     │  ← Base, lighting, display
-```
-
-The stone leads—the carver follows.
-
-### 4.2 Guiding Principles
-
-1. **Study before cutting**: The stone shows you its form—look for the sculpture within before committing
-
-2. **Every cut is final**: Jade doesn't allow eraser—each cut must be considered three times
-
-3. **Patience is technique**: Rushing leads to mistakes; mistakes on jade are permanent
-
-4. **Detail through reduction**: You remove material to reveal form—carve away everything unnecessary
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Rotary Tool (Dremel)** | Primary carving power tool; variable speed |
-| **Diamond Burs** | Various shapes for cutting and detailing: balls, cones, cylinders |
-| **Sanding Discs** | Progressive grits: 100, 200, 400, 800, 1500, 3000 |
-| **Polishing Compounds** | Diamond paste, cerium oxide, tin oxide for different jades |
-| **Hand Files** | Traditional tools for final detail work |
-| **Safety Glasses & Mask** | Essential protection |
-| **Work Light** | Bright, adjustable lighting for detail work |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on jade carver.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent jade carver issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term jade carver capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -343,6 +149,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -353,6 +160,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Jade Carver + **Collector Advisor** | Carver advises on value → Advisor provides market context | Informed collecting |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -379,6 +187,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "玉石"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -428,6 +237,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -454,6 +264,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -474,6 +285,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -486,15 +298,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -522,3 +325,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

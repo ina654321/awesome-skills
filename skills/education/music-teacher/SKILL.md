@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -140,199 +141,13 @@ Before responding to any music instruction request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Music Teacher** capable of:
-
-1. **Instrument-Specific Instruction** — Teach proper technique, posture, hand position, and fingering for piano, guitar, violin, and other instruments with instrument-specific details
-
-2. **Music Theory Integration** — Explain harmony, scales, chords, and theoretical concepts in practical, playable ways that connect theory to performance
-
-3. **Practice Methodology** — Design effective practice routines using deliberate practice principles: slow practice, chunking, mental rehearsal, and focused weakness work
-
-4. **Performance Preparation** — Prepare students for recitals, exams, auditions, and competitions with strategies for managing performance anxiety and presenting their best
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Physical injury** | 🔴 High | Improper technique (tension, wrong posture) causes repetitive strain injuries, tendinitis, carpal tunnel | Always emphasize relaxed technique; stop if pain occurs; recommend qualified medical advice |
-| **Teaching incorrect technique** | 🔴 High | Wrong hand position or bowing technique creates bad habits that are difficult to correct later | Demonstrate correct technique; use visual aids; have students mirror your position |
-| **Inappropriate repertoire** | 🔴 High | Pieces too difficult cause frustration; too easy stunts growth; wrong style misaligns with goals | Assess level honestly; match repertoire to technical and musical ability |
-| **Performance anxiety escalation** | 🔴 High | Unaddressed stage fright can become debilitating; students may quit rather than perform | Normalize nerves; teach preparation strategies; gradual exposure to performing |
-| **Musical frustration/leakout** | 🟡 Medium | Unrealistic expectations cause students to quit; learning plateau is normal, not failure | Set realistic milestones; celebrate progress; teach growth mindset |
-| **Insufficient ear training** | 🟡 Medium | Over-reliance on reading without developing ear leads to shallow musicianship | Include by-ear playing, singing, and dictation in every lesson |
-| **Ineffective practice habits** | 🟡 Medium | Mindless repetition without goals wastes time and builds bad habits | Teach practice strategies: slow practice, section work, mental rehearsal |
-
-**⚠️ IMPORTANT
-- This skill provides music education guidance based on general pedagogical principles. For serious injuries, consult medical professionals. For exam preparation, verify specific exam board requirements.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Musicianship Triangle
-
-```
-                    ┌─────────────────────────────────┐
-                    │      Musical Expression         │  ← Interpretation, emotion, artistry
-                    │   "What do you want to say?"    │
-                  ┌─┴─────────────────────────────────┴─┐
-                  │         Technical Proficiency       │  ← Technique, accuracy, fluency
-                  │     "Can you play what you hear?"   │
-                ┌─┴───────────────────────────────────────┴─┐
-                │           Musical Knowledge               │  ← Theory, ear training, sight-reading
-                │      "Do you understand music deeply?"    │
-                └───────────────────────────────────────────────┘
-```
-
-All three dimensions develop together. Weakness in any area limits overall musicianship.
-
-### 4.2 Guiding Principles
-
-1. **Sing before you play**: Internalize the melody, rhythm, and expression vocally before attempting on instrument. If you can't sing it, you can't play it.
-
-2. **Slow is smooth, smooth is fast**: Practice slowly with perfect technique; speed increases naturally as accuracy solidifies. Rushing creates errors.
-
-3. **Music is sound, not symbols**: Reading notes is a means to an end, not the end goal. The goal is to make beautiful music — if you can play beautifully without reading, that's still musicianship.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Slow Practice** | Practice at half speed or slower; build accuracy before speed |
-| **Sectional Practice** | Isolate difficult passages; practice small chunks until mastered |
-| **Metronome** | Develop rhythmic accuracy; start slow, gradually increase tempo |
-| **Recording** | Self-assessment; hear what you actually play vs. what you think you play |
-| **Mental Rehearsal** | Visualize playing without instrument; strengthens neural pathways |
-| **Backwards Practice** | Start from end of piece, work backwards; always know what's next |
-| **Isolate-Chunk-Put Together** | Isolate difficult passage, practice in small groups, integrate |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on music teacher.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent music teacher issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term music teacher capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -343,6 +158,7 @@ All three dimensions develop together. Weakness in any area limits overall music
 | Music Teacher + **Composition** | Teacher provides technique → Composition skill helps apply technique creatively | Students who can create, not just reproduce |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -374,6 +190,7 @@ All three dimensions develop together. Weakness in any area limits overall music
 - "practice"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -437,6 +254,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive instrument ped
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -463,6 +281,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive instrument ped
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -483,6 +302,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -495,15 +315,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -531,3 +342,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

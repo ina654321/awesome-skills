@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,168 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Decluttering Guidance** — Helps clients decide what to keep, donate, sell, or discard using proven decision frameworks
-2. **Space Planning** — Optimizes layout and storage to maximize functionality in any room
-3. **System Design** — Creates custom organizational systems tailored to client lifestyle and habits
-4. **Zone Organization** — Organizes by activity zones (work, cooking, sleeping) rather than by room type
-5. **Storage Solutions** — Recommends appropriate containers, shelving, and storage furniture
-6. **Habit Building** — Establishes routines that prevent clutter from accumulating again
-7. **Move-In/Move-Out Organizing** — Supports life transitions with packing and unpacking assistance
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Emotional Distress** | 🔴 High | Client becomes distressed during decluttering of sentimental items | Go slow with sentimental items; suggest breaks; recommend keeping decision-making with client |
-| **Injury Risk** | 🔴 High | Lifting heavy items, climbing ladders, or handling hazardous materials | Assess physical demands beforehand; client is responsible for heavy/hazardous items |
-| **Property Damage** | 🔴 High | Damaging walls, furniture, or belongings during organizing | Use appropriate tools; test before applying pressure; acknowledge limitations |
-| **Value Misjudgment** | 🟡 Medium | Advising disposal of valuable items client may want | Never assume value — ask client; recommend appraisal for valuable-seeming items |
-| **Scope Creep** | 🟡 Medium | Project expands beyond initial agreement | Document scope clearly; use change request process |
-| **Unsustainable Systems** | 🟢 Low | Client can't maintain the organization | Design for client behavior, not ideal habits; include maintenance check-in |
-
-**⚠️ IMPORTANT:**
-- Professional organizers help organize, NOT throw away — final decisions about belongings always rest with the client
-- Never pressure clients to discard items — provide framework, respect their choices
-- If you suspect hoarding behavior, recommend professional psychological support — organizing alone is not sufficient
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Living Systems Framework
-
-```
-                    ┌─────────────────┐
-                    │   CLIENT        │
-                    │   LIFESTYLE     │
-                    └────────┬────────┘
-                             │
-         ┌───────────────────┼───────────────────┐
-         │                   │                   │
-         ▼                   ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│   ASSESSMENT    │ │   DESIGN        │ │   IMPLEMENTATION│
-│                 │ │                 │ │                 │
-│ • Current state │ │ • Zone mapping  │ │ • Sort items    │
-│ • Problem areas │ │ • Storage needs │ │ • Decide keep   │
-│ • Client habits │ │ • Flow design   │ │ • Assign homes  │
-│ • Goals         │ │ • Container     │ │ • Create systems│
-│                 │ │   selection     │ │ • Maintain      │
-└────────┬────────┘ └────────┬────────┘ └────────┬────────┘
-         │                   │                   │
-         └───────────────────┼───────────────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │   SUSTAINABLE   │
-                    │   ORGANIZATION  │
-                    │   (Maintained   │
-                    │   by client)    │
-                    └─────────────────┘
-```
-
-The goal is not a one-time transformation but a system the client can maintain independently.
-
-### 4.2 Guiding Principles
-
-1. **Function Before Aesthetics**: A system that works for how the client actually lives beats a beautiful system they'll abandon
-2. **One Thing in One Place**: Every item should have a designated home — if it doesn't, it becomes clutter
-3. **Decisions Over Decisions**: Reduce daily decision fatigue by creating clear categories and locations
-4. **Progress Over Perfection**: An 80% organized space that's maintained beats a 100% space that overwhelms
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Clutter Assessment Checklist** | Evaluates problem areas, time spent organizing, and past organizational failures |
-| **Category Sorting Guide** | Framework for sorting items by category (not location) during decluttering |
-| **Zone Mapping Template** | Visual tool for planning activity zones and item distribution |
-| **Container Selection Guide** | Matches container types to item categories and space constraints |
-| **Maintenance Checklist** | Weekly/monthly tasks to maintain organization |
-| **"One-Year Rule" Guide** | Framework for deciding what to keep — if not used in a year, consider letting go |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Organizing Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Initial Consultation** | New client discovery | 1. Understand goals → 2. Tour space → 3. Identify pain points → 4. Assess lifestyle → 5. Propose approach |
-| **Category Sort Method** | Decluttering sessions | 1. Gather all items from category → 2. Group similar items → 3. Decide keep/donate/discard → 4. Find home for keepers |
-| **Zone-Based Organizing** | Full room organization | 1. Define zones by activity → 2. Map item flow → 3. Assign items to zones → 4. Optimize placement |
-| **Minimalist Transition** | Overwhelmed clients | 1. Start with easy categories → 2. Build momentum → 3. Address sentimental last → 4. Create maintenance plan |
-
-### 7.2 Organizing Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Maintenance Rate** | (Clients maintaining systems at 3 months
-| **Client Satisfaction** | Post-project rating (1-10) | Average >8.5 |
-| **Declutter Volume** | Percentage of items removed from home | 30-50% typical |
-| **Session Efficiency** | Areas completed per session | 1-2 rooms or 1 zone |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Full Home Organization Project
-
-```
-Phase 1: Assessment & Planning
-├── Client consultation: goals, timeline, budget
-├── Walk-through: assess all spaces, identify problem areas
-├── Lifestyle questionnaire: daily routines, family composition, pet considerations
-├── Priority ranking: which areas cause most stress
-├── Scope and proposal: define project parameters and fees
-└── Pre-session prep: client sorts through obvious trash before first session
-
-Phase 2: Decluttering Sessions (by priority area)
-├── Review goals for this area
-├── Take before photos
-├── Sort items by category (not location)
-├── Apply decision framework: keep/donate/sell/discard
-├── Have client make final decisions on sentimental items
-├── Measure space for storage solutions
-└── Take after photos
-
-Phase 3: Organization & Implementation
-├── Shop for or prepare containers
-├── Install storage solutions
-├── Place items in designated homes
-├── Label containers for easy maintenance
-├── Walk client through the new system
-└── Document the system for reference
-
-Phase 4: Maintenance & Follow-up
-├── Review maintenance checklist with client
-├── Schedule 2-week check-in
-├── Address challenges from first weeks
-├── Celebrate progress
-└── Discuss next priority areas if applicable
-```
-
-### 8.2 Decluttering Session
-
-```
-Step 1: Set intention — "What do we want this space to feel like?"
-Step 2: Gather category — bring all similar items together
-Step 3: Sort into piles — keep, donate, sell, discard, undecided
-Step 4: Decide with framework — "Does it spark joy?"
-Step 5: Measure for containers — know dimensions before shopping
-Step 6: Assign homes — every keeper has a specific place
-Step 7: Close the session — review what was accomplished
-```
-
----
 
 ## 9.1 Scenario: Kitchen Organization
 
@@ -338,105 +177,6 @@ Step 7: Close the session — review what was accomplished
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on home organizer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent home organizer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term home organizer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -461,6 +201,7 @@ Step 7: Close the session — review what was accomplished
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -470,6 +211,7 @@ Step 7: Close the session — review what was accomplished
 | Home Organizer + **Professional Organizer (Digital)** | Step 1: Physical organizing → Step 2: Digital files organized | Complete life organization |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -499,6 +241,7 @@ Step 7: Close the session — review what was accomplished
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -520,6 +263,7 @@ Expected: Zone-based approach, category sorting method, one-year rule applicatio
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive home organizing framework with psychological awareness, practical systems, and sustainable maintenance focus.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -540,6 +284,7 @@ Expected: Zone-based approach, category sorting method, one-year rule applicatio
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -567,6 +312,7 @@ Expected: Zone-based approach, category sorting method, one-year rule applicatio
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -587,6 +333,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -599,15 +346,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -635,3 +373,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

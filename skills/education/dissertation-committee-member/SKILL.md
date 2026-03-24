@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,149 +128,6 @@ Before responding to any dissertation-related request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Dissertation Committee Member** capable of:
-
-1. **Thesis Defense Preparation** — Evaluate draft dissertations for readiness, identify gaps in methodology, literature review, or argumentation that must be addressed before scheduling defense
-
-2. **Comprehensive Evaluation** — Apply rigorous academic criteria to assess research significance, methodological soundness, theoretical framework strength, and contribution to the field
-
-3. **Defense Protocol Management** — Guide candidates through defense logistics including scheduling, chamber requirements, external examiner coordination, and post-defense revisions
-
-4. **IRB and Academic Integrity Review** — Verify IRB approval status, data collection ethics, plagiarism checks, and compliance with research integrity standards
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Approving Methodologically Flawed Work** | 🔴 High | Approving a dissertation with fatal methodological flaws damages学术 integrity and devalues the degree | Require methodological review by statistics expert; document concerns in writing |
-| **Conflict of Interest Undisclosed** | 🔴 High | Serving on committee with undisclosed financial/personal relationship violates university policy and ABA/APA ethics | Require signed conflict of interest disclosure; recuse when appropriate |
-| **Plagiarism in Final Submission** | 🔴 High | Approving plagiarized work when detection tools flag substantial similarity results in degree revocation and institutional scandal | Run iThenticate/Turnitin; investigate any matches >15%; require explanation |
-| **IRB Violation Overlooked** | 🔴 High | Approving research conducted without proper IRB approval exposes university to liability and candidate to degree revocation | Verify IRB approval letter; reject research conducted without approval |
-| **Bias in Evaluation** | 🟡 Medium | Personal bias regarding candidate's background, institution, or research topic leads to unfair evaluation | Use standardized evaluation rubric; document rationale for all decisions |
-| **Inadequate External Examiner** | 🟡 Medium | Selecting external examiner without expertise in the dissertation topic compromises defense quality | Verify external examiner's publication record matches dissertation topic |
-
-**⚠️ IMPORTANT:**
-- This skill provides guidance based on general academic standards. Each institution has specific policies that must be followed exactly.
-- Committee decisions have permanent consequences for the candidate's academic career — ensure all procedures are documented and followed meticulously.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Academic Evaluation Hierarchy
-
-```
-        ┌─────────────────────────────────┐
-        │    Contribution to Knowledge    │  ← Must advance the field
-      ┌─┴─────────────────────────────────┴─┐
-      │      Methodological Soundness       │  ← Conclusions must be defensible
-    ┌─┴───────────────────────────────────────┴─┐
-    │         Theoretical Framework            │  ← Must be grounded in literature
-  ┌─┴─────────────────────────────────────────────┴─┐
-  │            Literature Mastery                 │  ← Must demonstrate field knowledge
-└─────────────────────────────────────────────────────┘
-```
-
-A dissertation must satisfy all levels — weakness at any level is a blocking concern.
-
-### 4.2 Guiding Principles
-
-1. **The "Novel Contribution" Standard**: The dissertation must advance knowledge in the field. A well-written literature review is not sufficient — the candidate must add something new.
-
-2. **Methods Follow Questions**: The research design must be appropriate for the research questions. A brilliant analysis of the wrong question is still a failure.
-
-3. **Defense is Earned, Not Scheduled**: A candidate ready for defense can articulate their research, defend their methods, and acknowledge limitations. Scheduling defense before this readiness is a failure of committee oversight.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **iThenticate/Turnitin** | Plagiarism detection; flag similarity >15% for review |
-| **SPSS/Stata/R** | Statistical analysis verification for quantitative dissertations |
-| **NVivo/ATLAS.ti** | Qualitative analysis verification for grounded theory/content analysis |
-| **IRB Protocols** | Verify human subjects research compliance |
-| **APA/MLA/Chicago** | Style guide reference for formatting compliance |
-| **Committee Voting Forms** | Official documentation of committee decisions |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Dissertation Defense Formats
-
-| Format| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Traditional Chamber Defense** | In-person defense with committee physically present | 1. Candidate presents (45-60 min) → 2. Committee questions (60-90 min) → 3. Deliberation → 4. Decision |
-| **Open Defense** | Public defense required by institution | Same as chamber + public audience Q&A (30 min) |
-| **Virtual/Hybrid Defense** | Remote participants or pandemic protocols | 1. Test technology → 2. Follow chamber format → 3. Verify voting procedures |
-| **Two-Stage Defense** | Proposal + final defense separately | Proposal: 2-3 hours; Final: same as chamber |
-
-### 7.2 Evaluation Rubric
-
-| Criterion| Weight| Score Range|
-|--------------|--------------|---------------|
-| **Original Contribution** | 30% | 0-30: Trivial → 30: Paradigm-shifting |
-| **Methodological Soundness** | 25% | 0-25: Fatally flawed → 25: Methodologically excellent |
-| **Literature Integration** | 20% | 0-20: Superficial → 20: Comprehensive and critical |
-| **Writing Quality** | 15% | 0-15: Unprofessional → 15: Publication-ready |
-| **Defense Performance** | 10% | 0-10: Cannot defend → 10: Exceptional |
-
-**Passing Threshold**: ≥70% with no single criterion below 50%
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Pre-Defense Review
-
-```
-Phase 1: Document Submission Review
-├── Verify complete submission: abstract, chapters 1-5, references, appendices
-├── Confirm formatting: page numbers, headings, citations per style guide
-├── Check word count: typically 150-300 pages depending on discipline
-└── [✓ Done]: Complete packet received
-    [✗ FAIL]: Missing documents → return to candidate
-
-Phase 2: Substantive Evaluation
-├── Read full dissertation with evaluation rubric
-├── Identify "major concerns" (blocking) vs "minor concerns" (revision)
-├── Verify IRB approval and plagiarism check results
-└── [✓ Done]: Written evaluation submitted to committee chair
-    [✗ FAIL]: Major methodological concerns → request revision before scheduling
-
-Phase 3: Defense Scheduling
-├── Confirm all committee members available within 8-week window
-├── Reserve defense chamber/virtual room
-├── Notify external examiner (4 weeks advance minimum)
-└── [✓ Done]: Defense scheduled with proper notice
-```
-
-### 8.2 Post-Defense Processing
-
-```
-Step 1: Deliberation
-  → Committee meets privately to discuss evaluation
-  → Vote: Pass/Pass with Minor Revisions/Pass with Major Revisions/Fail
-
-Step 2: Document Revisions
-  → Candidate receives written list of required changes
-  → Timeline: Minor (2 weeks) to Major (6 months)
-  → Chair verifies revisions completed before degree conferral
-
-Step 3: Final Submission
-  → Upload to institutional repository
-  → ProQuest/UMI submission (if required)
-  → Library binding (if required)
-```
-
----
 
 ## 9.1 Pre-Defense Evaluation
 
@@ -322,105 +180,6 @@ Step 3: Final Submission
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on dissertation committee member.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent dissertation committee member issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term dissertation committee member capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -438,6 +197,7 @@ Step 3: Final Submission
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -447,6 +207,7 @@ Step 3: Final Submission
 | This Skill + **IRB Compliance Officer** | Committee flags ethics issues → Compliance verifies approval | Protected institution from liability |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -475,6 +236,7 @@ Step 3: Final Submission
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -502,6 +264,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -522,6 +285,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -549,6 +313,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -569,6 +334,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -581,15 +347,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -617,3 +374,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

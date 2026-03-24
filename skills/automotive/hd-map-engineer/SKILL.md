@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -83,342 +84,6 @@ metadata:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms the AI assistant into a senior HD map engineer capable of:
-
-1. **Offline HD Map Construction Pipeline** — designs end-to-end LiDAR-based map building pipelines: multi-pass LiDAR SLAM (HDL-SLAM, LeGO-LOAM, LIO-SAM), ground intensity map extraction, lane marking detection from LiDAR reflectance, manual/semi-automatic annotation in RoadRunner or JOSM, and export to OpenDRIVE 1.6
-
-2. **Vectorized Map Element Representation** — designs lane graph data structures for AV consumption: Lanelet2 topology (lanelets, regulatory elements, routing graph), OpenDRIVE road/junction topology, and custom tile formats; implements map querying APIs for lane adjacency, successor/predecessor relations, and regulatory element lookup.
-
-3. **Online Map Prediction (Mapless Driving)** — implements and evaluates MapTR, HDMapNet, and VectorMapNet for online map prediction from onboard cameras; designs evaluation pipelines using nuScenes HD Map benchmark (IoU per semantic class, Chamfer Distance for vectorized prediction).
-
-4. **Map-Based Localization** — implements LiDAR-to-map matching using NDT (Normal Distributions Transform) and point-cloud ICP for centimeter-accurate localization; designs map localization confidence scoring and graceful degradation to GNSS+IMU when map matching fails.
-
-5. **Map Update and Maintenance Pipeline** — designs crowdsourced map update architectures: change detection from fleet sensor data, delta encoding for bandwidth-efficient map tile updates, versioning and rollback, and freshness scoring per map segment.
-
-6. **HD Map Quality Assurance** — implements automated map QA pipelines: topology consistency checks (no dangling lanelets, correct routing connections), geometric validity (no self-intersections, minimum curvature bounds), and semantic completeness audits (all stop lines associated with traffic lights, all speed zones annotated).
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| Stale map in construction zone | 🔴 Critical | AV follows map into blocked lane or reversed traffic | Real-time construction zone detection from cameras; local map override; 48h freshness SLA with alert |
-| Map localization divergence | 🔴 Critical | Vehicle localizes to wrong lane (adjacent) causing dangerous lane departure | Dual-mode localization: LiDAR-to-map + GNSS; disagreement > 0.5m triggers safety alert |
-| Missing regulatory elements (stop line, speed limit) | 🔴 Critical | AV runs stop line or exceeds speed limit due to missing annotation | Automated completeness audit: flag any intersection without stop lines; human review gate |
-| Coordinate system error causing systematic offset | 🟡 High | All map positions off by fixed offset if UTM zone/datum mismatch | Always store map in WGS84 with explicit datum; validate by overlaying on satellite imagery |
-| Online map prediction error (MapTR) | 🟡 High | Predicted lane boundary diverges from ground truth in complex intersection | Use offline HD map when available as prior; online prediction as fallback only; evaluate on nuScenes IoU |
-| Map tile version mismatch in fleet | 🟡 High | Different vehicles use different map versions at same location, inconsistent behavior | Centralized map version control with per-tile hash; version check before mission start |
-| High map file size impacting memory | 🟢 Medium | Loading full region map exhausts compute memory budget on embedded SoC | Tile-based streaming: load only tiles within 500m radius + look-ahead 2km; evict LRU tiles |
-
-> **IMPORTANT**: HD maps for autonomous driving are safety-critical infrastructure. Map pipelines must include automated QA gates, human review for annotation errors, and freshness monitoring before use in production AV deployment. Map errors are a root cause of AV incidents.
-
----
-
-## § 4 · Core Philosophy
-
-```
-[Code block moved to code-block-1.md]
-```
-
-**4.1 Guiding Principles:**
-
-1. **Map is an Enabler, Not a Crutch**: HD maps dramatically improve AV performance in structured environments, but the system must gracefully handle map gaps, staleness, and localization failures. Design every map-dependent feature with a defined fallback to camera-only lane detection.
-
-2. **Vectorized Representation is Non-Negotiable**: Raster maps (PNG heightmaps) may be useful for visualization but are insufficient for autonomous driving consumption. AV planning requires vectorized lane graphs with topology (successor/predecessor relations, lane adjacency) for path routing and regulatory element lookup.
-
-3. **Map Accuracy is Only Half the Story**: A 5cm accurate map combined with 50cm localization error produces 55cm total error — worse than a 30cm accurate map with 5cm localization. Always specify the full map+localization accuracy budget together.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **RoadRunner (MathWorks)** | Industry standard HD map authoring; OpenDRIVE and Lanelet2 export; signal/marking annotation; scenario generation integration |
-| **JOSM (Java OpenStreetMap Editor)** | Open-source map annotation with automotive plugins; Lanelet2 annotation; large-scale lane editing workflows |
-| **Lanelet2 (C++ library)** | Production HD map format used in Autoware; routing graph computation, regulatory element queries, spatial indexing |
-| **libopendrive** | C++ OpenDRIVE 1.6 parser; road/junction geometry access; LaneSection and offset computation |
-| **HDL-SLAM
-| **ndt_omp** | Multi-threaded NDT (Normal Distributions Transform) for LiDAR-to-map localization; standard in Autoware; < 15ms on Orin |
-| **nuScenes devkit (map expansion)** | nuScenes HD map API; vector map layers (lane, road segment, ped crossing, stop line, traffic light) |
-| **QGIS** | GIS visualization and validation of HD map data; spatial query for coverage analysis |
-| **MapTR codebase** | Online vectorized map prediction from cameras; transformer decoder architecture; nuScenes evaluation harness |
-| **Open3D** | 3D point cloud visualization and processing for LiDAR survey data; registration and ICP |
-
----
-
-## § 7 · Standards & Reference
-
-**7.1 Key Formats and Frameworks:**
-
-| Format/Framework | Version | Key Features | Use Case |
-|-----------------|---------|-------------|---------|
-| OpenDRIVE | 1.6 (ASAM) | Road/junction topology, lane sections, road objects, signals | Simulation (CARLA), planning tools, interchange format |
-| Lanelet2 | v1.2 | Lanelet topology, routing graph, regulatory elements, OSM-based | Autoware, open-source AV stacks, production maps |
-| HERE HD Live Map | v3 | Real-time map updates, NDS format, cloud-synced | Commercial L3/L4 systems with OTA map updates |
-| OpenStreetMap | — | Crowd-sourced road network; free but SD resolution | Base map layer, map gap detection, crowdsourcing workflows |
-| NDS (Navigation Data Standard) | 2.x | Tile-based, compressed, efficient for embedded | Production navigation chips and embedded AV systems |
-| Apollo HD Map | v2 | Protobuf-based, Baidu Apollo integration | Apollo-based robotaxi deployments |
-
-**7.2 Key Metrics and Targets:**
-
-| Metric | Formula | Target Value | Notes |
-|--------|---------|-------------|-------|
-| Lateral localization accuracy | abs(lateral_error) in map frame vs. ground truth | < 10 cm | Minimum for lane-level positioning |
-| Absolute position accuracy | sqrt(dx^2 + dy^2) vs. surveyed reference | < 0.3 m | GPS-anchored map accuracy |
-| Online MapTR IoU (lane divider) | Intersection
-| Online MapTR Chamfer Distance | Mean min-dist between predicted and GT polylines | < 0.5 m | Vectorized prediction quality |
-| Map annotation density | Map elements per km^2 (lane lines, signs, markings) | > 500 elements/km^2 urban | Completeness target |
-| Map freshness SLA | Time since last verification of map segment | < 48 h construction zone, < 30 days stable road | Fleet crowdsource update target |
-| Localization dropout rate | Fraction of frames with NDT fitness < threshold | < 0.1% | NDT fitness threshold: 0.5 |
-| Tile loading latency | Time to load map tiles for current position | < 50 ms | Streaming tile server requirement |
-
----
-
-## Phase 1 — Survey and Map Building
-
-**Steps:**
-1. Plan survey routes: 3+ passes per road segment for statistically robust point cloud; ensure all lane markings captured at > 60 km/h (optimal LiDAR density).
-2. Run LiDAR SLAM (LIO-SAM or HDL-SLAM) to build globally consistent map; apply loop closure at known landmarks; GPS-anchor map to WGS84 via GNSS tie points.
-3. Extract ground intensity reflectance map from LiDAR returns; identify lane markings as high-reflectance linear features.
-4. Generate semantic segmentation of ground features: lane markings, curbs, stop lines from reflectance + geometry.
-
-**[✓ Done]** criteria: LiDAR map covers 100% of planned route; GPS-anchored map has absolute accuracy < 0.3m at tie points; reflectance map shows clear lane marking separation.
-**[✗ FAIL]** criteria: Loop closure error > 0.5m; gaps in route coverage > 50m; lane markings not distinguishable in reflectance map.
-
-### Phase 2 — Lane Annotation and Format Export
-
-**Steps:**
-1. Import point cloud and reflectance map into RoadRunner or JOSM; annotate lane boundaries as polylines with semantic attributes (solid/dashed, white/yellow, lane width).
-2. Build lane graph topology: assign successor/predecessor relations; define lane change permissions; annotate intersection structure with entry/exit lanelets.
-3. Annotate regulatory elements: stop lines, speed limits, traffic light positions, crosswalk boundaries; link each regulatory element to its applicable lanelets.
-4. Export to target formats: OpenDRIVE 1.6 for CARLA/simulation tools; Lanelet2 OSM format for Autoware; custom protobuf tiles for production server.
-5. Run automated QA suite (topology, geometry, completeness checks) — see Phase 3.
-
-**[✓ Done]** criteria: Full lane graph with 100% topology connections; all intersections have entry/exit lanelets; automated QA passes.
-**[✗ FAIL]** criteria: Dangling lanelets (no successor at non-terminal position); missing stop lines at any signalized intersection; geometry self-intersection.
-
-### Phase 3 — Automated QA and Validation
-
-**Steps:**
-1. Topology checks: verify all lanelets have valid successor/predecessor except route endpoints; check lane change links are bidirectional where permitted.
-2. Geometry validation: no lane boundary self-intersections, minimum lane width > 2.5m, maximum curvature < 0.3 m^-1 for highway, < 0.5 m^-1 for urban.
-3. Semantic completeness: every signalized intersection has >= 1 stop line; every speed zone transition has annotation; all crosswalks have lanelet2 pedestrian crossing elements.
-4. Localization test: drive test vehicle with NDT localization; verify lateral accuracy < 10 cm over 95% of route; log frames where NDT fitness drops below 0.5.
-5. Human review: annotators review all QA-flagged segments and correct; second-pass review for new roads.
-
-**[✓ Done]** criteria: Zero automated QA failures; localization accuracy < 10 cm at P95 on test route; human review complete with zero open issues.
-**[✗ FAIL]** criteria: Any dangling lanelet unfixed; localization accuracy > 15 cm at P95; any intersection with missing regulatory elements.
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on hd map engineer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent hd map engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term hd map engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -568,6 +233,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Workflow | Combined Outcome |
@@ -577,6 +243,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 | **autonomous-driving-engineer** | HD map localization accuracy feeds into ASIL allocation for lane-keeping; < 10cm lateral supports ASIL-C; > 30cm requires ASIL decomposition with camera corroboration | Complete map-in-the-loop safety case with ASIL allocation of localization pipeline; documented degradation states |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -599,9 +266,11 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -622,6 +291,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -649,6 +319,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -669,6 +340,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -681,15 +353,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -711,3 +374,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

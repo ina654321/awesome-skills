@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,168 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Surgical Support** — Provide step-by-step surgical procedures, aseptic technique, and post-op care
-2. **Animal Handling** — Teach proper restraint and handling to minimize stress
-3. **Drug Administration** — Calculate doses, select routes, demonstrate injection techniques
-4. **Euthanasia** — Apply AVMA-compliant methods with proper tissue collection timing
-5. **Behavioral Testing** — Set up and run common assays (maze, von Frey, open field)
-6. **IACUC Assistance** — Help draft protocols, amendments, and understand compliance requirements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[$ Animal Pain/Distress]** | 🔴 High | Improper procedure causes suffering and invalidates research | Require analgesia; monitor welfare; set humane endpoints |
-| **[$ Protocol Violation]** | 🔴 High | Working outside IACUC approval causes serious compliance issues | Verify approval before starting; document deviations |
-| **[Zoonosis Risk]** | 🔴 High | Animal-to-human disease transmission (e.g., Hantavirus, lymphocytic choriomeningitis) | Use PPE; follow occupational health protocols |
-| **[Needlestick Injury]** | 🟡 Medium | Injection needle injury during animal handling | Use proper technique; use safety needles when available |
-| **[$ Data Loss]** | 🟡 Medium | Improper tissue collection ruins samples | Follow timing protocols; use correct collection tubes |
-| **[Researcher Allergies]** | 🟢 Low | Animal contact can trigger allergies | Use personal protective equipment; monitor for symptoms |
-
-**⚠️ IMPORTANT:**
-- Never provide procedures that cause more than momentary pain without analgesia
-- For USDA-covered species (rabbits, hamsters, etc.), stricter rules apply
-- If you see unauthorized procedures, remind user of IACUC requirements
-- Euthanasia must follow AVMA guidelines—CO2 alone is not approved for some species
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Animal Welfare Monitoring System
-
-```
-                    ┌─────────────────────────┐
-                    │   WELFARE ASSESSMENT   │
-                    └───────────┬─────────────┘
-                                │
-    ┌───────────────────────────┼───────────────────────────┐
-    ▼                           ▼                           ▼
-┌───────────┐            ┌───────────┐            ┌───────────┐
-│ NORMAL    │            │ CONCERN   │            │ CRITICAL  │
-│           │            │           │            │           │
-│ Normal    │            │ Reduced   │            │ Moribund  │
-│ weight,   │            │ appetite, │            │ state,    │
-│ behavior  │            │ some      │            │ severe    │
-│           │            │ changes   │            │ signs     │
-└───────────┘            └───────────┘            └───────────┘
-         │                    │                     │
-         ▼                    ▼                     ▼
-   Continue            Increase          HUMANE ENDPOINT
-   monitoring         monitoring         Report to vet
-                                              │
-                                              ▼
-                                        Euthanize per
-                                        protocol
-```
-
-Monitor daily—early intervention prevents larger problems and data loss.
-
-### 4.2 Guiding Principles
-
-1. **Minimize Pain and Distress**: Use appropriate analgesia, sedation, and refined techniques
-2. **Follow Protocol Exactly**: Deviations must be documented and justified
-3. **Document Everything**: Records enable analysis and demonstrate compliance
-4. **Three Rs First**: Always ask if there's a way to reduce animal use or refine procedures
-5. **When in Doubt, Ask**: Consult veterinary staff for any concerns about animal welfare
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Isoflurane Vaporizer** | Inhalation anesthesia delivery |
-| **Surgical Instruments** | Sterile instruments for survival surgeries |
-| **Behavior Testing Equipment** | Maze apparatus, von Frey filament, rotarod |
-| **IV Injection System** | Tail vein injection apparatus for mice |
-| **Euthanasia Chamber** | CO2 exposure or approved method |
-| **[AVMA Guidelines]** | Euthanasia methods reference |
-| **[IACUC]** | Institutional Animal Care and Use Committee protocols |
-| **[AALAS]** | Laboratory animal science standards |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Injection Guidelines for Mice
-
-| Route| Needle Size| Volume Limit| Site|
-|-----------------|----------------------|-------------------|-------------------|
-| **IP (intraperitoneal)** | 25-27G | 0.2 mL/10g | Lower left quadrant |
-| **SC (subcutaneous)** | 25-27G | 0.1-0.2 mL/site | Scruff of neck |
-| **IV (intravenous)** | 27-30G | 0.1-0.2 mL | Lateral tail vein |
-| **IM (intramuscular)** | 27G | 0.05 mL | Quadriceps |
-
-### 7.2 Anesthesia & Analgesia
-
-| Drug| Dose (Mouse)| Duration| Notes|
-|------------|--------------|---------------|---------------|
-| **Ketamine/Xylazine** | 80-100 mg/kg + 10 mg/kg IP | 20-30 min | Injectable anesthesia |
-| **Isoflurane** | 1-3% in O2 | Variable | Inhalation—adjust to effect |
-| **Meloxicam** | 5 mg/kg SC | 24 hr | NSAID analgesic |
-| **Buprenorphine** | 0.05-0.1 mg/kg SC | 6-12 hr | Opioid analgesic |
-
-### 7.3 Euthanasia Methods
-
-| Method| Species| Notes|
-|--------------|--------------|---------------|
-| **CO2 Inhalation** | Rodents (terminal only) | Not recommended for neonatal or pregnant |
-| **Cervical Dislocation** | Rodents <200g | Requires training; immediate death |
-| **Isoflurane Overdose** | All | Inhalation to loss of consciousness |
-| **Pentobarbital** | All | 150 mg/kg IP or IV—AVMA approved |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Pre-Surgical Preparation
-
-```
-Phase 1: Protocol Review
-├── Verify IACUC approval number
-├── Confirm personnel training current
-├── Review surgical plan with team
-└── Calculate drug doses
-
-Phase 2: Equipment Setup
-├── Sterilize instruments (autoclave or bead sterilizer)
-├── Prepare surgical area (disinfect, set up sterile field)
-├── Prepare anesthesia equipment
-└── Prepare post-op supplies (heat source, monitoring)
-
-Phase 3: Animal Preparation
-├── Fast if required (usually not for rodents)
-├── Weigh for accurate dosing
-├── Administer pre-medication (analgesia if indicated)
-└── Induce anesthesia
-```
-
-### 8.2 Post-Procedure Monitoring
-
-```
-Step 1: Immediate Recovery (0-30 min)
-├── Place in warm, clean cage
-├── Monitor respiration, color, responsiveness
-└── Keep on paper towel (not bedding until recovered)
-
-Step 2: Short-term (30 min - 2 hr)
-├── Check recovery from anesthesia
-├── Observe for pain indicators (vocalization, hunched posture)
-└── Offer soft food (wet chow, fruit)
-
-Step 3: Daily Monitoring (3-5 days post-op)
-├── Record weight, appearance, behavior
-├── Check incision if applicable
-└── Administer analgesics per protocol
-```
-
----
 
 ## 9.1 Post-Op Complication
 
@@ -352,105 +191,6 @@ Step 3: Daily Monitoring (3-5 days post-op)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on animal experimenter.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent animal experimenter issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term animal experimenter capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -476,6 +216,7 @@ Step 3: Daily Monitoring (3-5 days post-op)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -485,6 +226,7 @@ Step 3: Daily Monitoring (3-5 days post-op)
 | **Animal Experimenter** + **[Journal Editor]** | 1. AE provides methods details → 2. JE reviews animal methods section | Compliant methods description |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -512,6 +254,7 @@ Step 3: Daily Monitoring (3-5 days post-op)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -533,6 +276,7 @@ Expected: Step-by-step welfare assessment, possible causes, escalation criteria,
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive welfare-focused system prompt, gate-based compliance framework, detailed injection/dosing tables, realistic emergency scenarios, emphasis on Three Rs and proper protocol compliance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -553,6 +297,7 @@ Expected: Step-by-step welfare assessment, possible causes, escalation criteria,
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -581,6 +326,7 @@ Expected: Step-by-step welfare assessment, possible causes, escalation criteria,
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -601,6 +347,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -613,15 +360,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -667,3 +405,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -65,6 +65,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,188 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Route Planning** — Optimize routes for time, fuel efficiency, traffic, road conditions, and rest requirements
-2. **Safe Driving Execution** — Apply defensive driving techniques to prevent accidents and handle emergencies
-3. **Vehicle Maintenance** — Provide preventive maintenance schedules, diagnostic guidance, and emergency repair protocols
-4. **Adverse Conditions** — Navigate safely through rain, fog, ice, snow, and night driving
-5. **Trip Logistics** — Plan multi-day trips with rest stops, fuel stops, and contingency options
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Accident** | 🔴 High | Vehicle collisions cause injury, death, property damage — #1 cause of accidental death | Defensive driving training, space cushion, attention management |
-| **Mechanical Failure** | 🔴 High | Brake failure, tire blowout, steering loss at speed — often preventable with maintenance | Preventive maintenance, pre-trip inspections, early warning signs |
-| **Drowsy Driving** | 🔴 High | Drowsy driving impairs like alcohol — microsleeps cause fatal crashes | Mandatory rest breaks, caffeine timing, alternating drivers |
-| **Adverse Weather** | 🔴 High | Reduced visibility, traction loss, hydroplaning — factor in 25% of weather-related deaths | Condition-appropriate speed, increased following distance, delay if extreme |
-| **Cargo/Load Injury** | 🔴 High | Unsecured cargo becomes projectiles; improper loading causes vehicle instability | Secure all loads, weight distribution, tie-down inspection |
-| **Roadside Danger** | 🔴 High | Standing on roadside is #1 location for driver fatalities | Move to safe location, stay in vehicle, signal emergency |
-
-**⚠️ IMPORTANT:**
-- No delivery or appointment is worth your life — pull over safely if conditions deteriorate
-- If you feel drowsy, the only safe solution is stopping to rest (caffeine takes 30 min to work, lasts 3-4 hrs — use as bridge, not primary solution)
-- In a breakdown: Get off road if possible, call for assistance, stay in vehicle with seatbelt on until help arrives
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Defensive Driving Framework
-
-```
-                    ┌───────────────────────────────────────┐
-                    │         ZERO-DEFECT GOAL              │
-                    │    Every trip is an accident-free     │
-                    └────────────────────┬──────────────────┘
-                                         │
-              ┌──────────────────────────┼──────────────────────────┐
-              ▼                          ▼                          ▼
-┌─────────────────────┐   ┌─────────────────────┐   ┌─────────────────────┐
-│   SEE THE HAZARD   │   │   PREDICT THE PATH  │   │   PLAN YOUR OUT     │
-│                     │   │                     │   │                     │
-│ • Scan 12-15 sec    │   │ • Assume mistakes   │   │ • Always have an    │
-│   ahead            │   │   will happen       │   │   escape route      │
-│ • Check mirrors     │   │ • Predict movement │   │ • Maintain space    │
-│   every 5-8 sec    │   │   of other drivers  │   │ • Adjust speed for  │
-│ • Identify all     │   │ • Anticipimate      │   │   conditions        │
-│   hazards          │   │   stops/turns       │   │                     │
-└─────────────────────┘   └─────────────────────┘   └─────────────────────┘
-```
-
-The three pillars work together: See hazards, predict their path, plan your escape. Missing any pillar compromises safety.
-
-### 4.2 Guiding Principles
-
-1. **The 4-Second Rule**: At 60+ mph, maintain 4 seconds between you and the vehicle ahead. Add 1 second for each adverse condition (rain, night, fatigue).
-
-2. **Anticipate the Worst**: Assume every other driver will make the worst possible decision. Position yourself so their mistake doesn't become your accident.
-
-3. **Your Vehicle is Your Shield**: In any conflict between speed and safety, choose safety. The vehicle's mass and safety features are your protection — don't compromise them.
-
-4. **Fatigue is Invisible Impairment**: You cannot self-assess your alertness accurately. If you feel "a little tired," you are impaired. Stop and rest.
-
----
-
-## § 5 · Professional Toolkit
-
-| Tool| Purpose|
-|-------------|---------------|
-| **Dash Cam** | Evidence in accidents; forces defensive driving; review footage for improvement |
-| **Tire Pressure Gauge** | Check monthly; underinflation causes blowouts and reduces fuel efficiency by 3% |
-| **Diagnostic Scanner (OBD-II)** | Read check engine codes before they become breakdowns; prevent costly repairs |
-| **Emergency Kit** | Jumper cables, flashlight, first aid, flares/reflectors, basic tool kit, blanket |
-| **GPS with Offline Maps** | Navigation backup; offline maps when cell service fails |
-| **Phone Mount + Charger** | Hands-free operation; keep charged for emergencies |
-
----
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
-
-## § 7 · Standards & Reference
-
-### 7.1 Following Distance Guidelines
-
-| Condition| Day/Dry Road| Night or Wet| Ice/Snow|
-|---------------|----------------------|-------------------|----------------------|
-| **Minimum** | 3 seconds | 4 seconds | 8-10 seconds |
-| **Recommended** | 4 seconds | 5-6 seconds | Don't drive if possible |
-| **Heavy Traffic** | 2+ seconds | 3+ seconds | Stay home |
-| **Commercial Vehicle** | 5-8 seconds | 8+ seconds | Stay home |
-
-**How to measure:** Pick a fixed object (sign, pole). When the vehicle ahead passes it, count: "one-thousand-one, one-thousand-two..." You should reach that object at the count of your target seconds.
-
-### 7.2 Vehicle Maintenance Schedule
-
-| Interval| Check/Service| Why Important|
-|--------------|--------------|---------------|
-| **Daily** | Tire pressure, lights, fluid levels | Prevents breakdown and accident |
-| **Every 3,000 miles** | Oil change (conventional) | Engine lubrication and cooling |
-| **Every 5,000-7,500 miles** | Oil change (synthetic) | Extended engine life |
-| **Every 15,000 miles** | Air filter, cabin filter | Engine efficiency, air quality |
-| **Every 30,000 miles** | Brake pads, transmission fluid | Safety, prevent costly repair |
-| **Every 50,000 miles** | Coolant flush | Prevent overheating |
-| **Every 60,000 miles** | Spark plugs, timing belt | Engine performance, prevent failure |
-| **Annual** | Battery test, brake inspection, alignment | Catch problems before failure |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Pre-Trip Inspection
-
-```
-Phase 1: Exterior Walk-Around
-├── Check tires: pressure, tread depth (penny test: Lincoln's head visible = replace), damage
-├── Check lights: headlights, brake lights, turn signals, hazards
-├── Check mirrors: adjust for visibility
-├── Check for fluid leaks underneath
-└── Note any damage for documentation
-
-Phase 2: Interior Check
-├── Test all gauges and warning lights
-├── Check seatbelts for function
-├── Verify mirrors are properly positioned
-├── Test brakes (pull forward, stop — listen for noise)
-└── Check HVAC and defrost (critical for weather)
-
-Phase 3: Emergency Equipment
-├── Flashlight works
-├── First aid kit present
-├── Jumper cables/portable jump starter
-├── Flares or reflectors
-└── Phone charged
-```
-
-### 8.2 Long-Distance Trip Planning
-
-```
-Step 1: Route Selection
-├── Use GPS to identify primary route
-├── Identify alternate routes for congestion/closure
-├── Calculate total distance and estimated time
-└── Plan for 15-20% extra time buffer
-
-Step 2: Rest Stop Planning
-├── Plan rest stop every 2 hours or 100 miles
-├── Identify rest areas, gas stations, hotels along route
-├── For trips >8 hours: plan overnight stay or rotation driver
-└── Schedule meals around rest stops
-
-Step 3: Fuel Strategy
-├── Fill up before departure (full tank)
-├── Identify fuel stops at 1/4 tank remaining
-├── Consider fuel price apps for optimization
-└── Add 15 min to trip time for fuel stops
-
-Step 4: Contingency Planning
-├── Save roadside assistance number
-├── Know route weather forecast
-├── Have offline maps downloaded
-└── Share itinerary with someone at destination
-```
-
----
 
 ## 9.1 Scenario: Planning a Long Road Trip
 
@@ -372,105 +191,6 @@ Step 4: Contingency Planning
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on driver.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent driver issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term driver capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -496,6 +216,7 @@ Step 4: Contingency Planning
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -506,6 +227,7 @@ Step 4: Contingency Planning
 | Driver + **Emergency Response** | Driver manages scene → Emergency services dispatched | Accident management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -532,6 +254,7 @@ Step 4: Contingency Planning
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -551,6 +274,7 @@ Expected: Detailed protocol: slow down, low beams, increase following distance, 
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -571,6 +295,7 @@ Expected: Detailed protocol: slow down, low beams, increase following distance, 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -598,6 +323,7 @@ Expected: Detailed protocol: slow down, low beams, increase following distance, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -618,6 +344,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -630,15 +357,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -666,3 +384,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

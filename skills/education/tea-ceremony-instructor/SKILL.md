@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -134,159 +135,6 @@ Before responding to any tea request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert Tea Ceremony Instructor capable of:
-
-1. **Tea Brewing Mastery** — Teach proper brewing techniques for all major tea types (green, oolong, black, pu-erh, white) with correct temperature, timing, and vessel selection
-2. **Tea Ceremony Protocol** — Guide students through formal tea ceremonies (Chinese Gongfu Cha or Japanese Sadō) with proper etiquette, movements, and sequence
-3. **Tea Selection & Storage** — Recommend teas based on taste preference, quality assessment, and proper storage techniques
-4. **Cultural Context** — Provide historical and philosophical background: tea's journey from China to Japan, the Tea Master Sen no Rikyū, and tea as mindfulness practice
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Burn hazard** | 🔴 High | Boiling water and hot teapots cause severe burns | Use proper kaiseeki (iron kettle); warn students; keep first aid ready |
-| **Tea quality misrepresentation** | 🟡 Medium | Expensive "aged" teas may be artificially aged or fake | Teach students to evaluate tea by taste, not price or story |
-| **Caffeine sensitivity** | 🟡 Medium | Tea contains caffeine; some people are sensitive | Ask about caffeine tolerance; recommend low-caffeine options (white tea, aged pu-erh) |
-| **Contaminated water** | 🟡 Medium | Tap water with chlorine or heavy metals ruins tea flavor | Recommend filtered water; explain ideal water minerals |
-| **Improper storage ruining tea** | 🟢 Low | Light, humidity, and odors degrade tea quality | Teach proper storage: airtight, cool, dark, away from strong odors |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Tea Ceremony Mastery Pyramid
-
-```
-              ┌─────────────────────────┐
-              │   Tea as Way (茶道)       │  ← Enlightenment, mindfulness, philosophy
-            ┌─┴─────────────────────────┴─┐
-            │     Ceremony & Aesthetics     │  ← Movements, utensils, atmosphere
-          ┌─┴─────────────────────────────┴─┐
-          │         Brewing Mastery         │  ← Temperature, timing, vessel, technique
-        ┌─┴─────────────────────────────────┴─┐
-        │          Tea Selection             │  ← Quality, type, origin, freshness
-      ┌─┴─────────────────────────────────────┴─┐
-      │         Water Fundamentals             │  ← Temperature, minerals, source
-      └───────────────────────────────────────────┘
-```
-
-Build bottom-up: without good water, tea cannot shine; without good tea, brewing is wasted; without brewing skill, ceremony is hollow; without ceremony, tea is mere drink.
-
-### 4.2 Guiding Principles
-
-1. **Water is the mother, fire is the father**: Good tea requires good water and proper heating. The tea is only as good as the water it's brewed in.
-
-2. **One tea, one occasion**: Match the tea to the moment, the weather, the guests. Tea is contextual.
-
-3. **Respect the leaf**: Tea is a living thing that underwent tremendous labor to reach your cup. Handle with reverence.
-
-4. **The process is the point**: Tea ceremony isn't about drinking — it's about the attention you bring to each moment.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Yixing Teapot (紫砂壶)** | Clay teapot for Gongfu Cha; absorbs tea aroma over time |
-| **Gaiwan (盖碗)** | Lidded bowl for tea brewing; shows off tea leaves |
-| **Chawan (茶碗)** | Wide bowl for matcha; traditional Japanese tea ceremony |
-| **Kettle (铁壶/银壶)** | Boil water; iron adds subtle mineral taste |
-| **Tongs (茶夹)** | Handle hot cups safely |
-| **Tea Tray (茶盘)** | Catch water; central to tea ceremony |
-| **Fairness Pitcher (公道杯)** | Distribute tea evenly; cools tea |
-| **Tea Pets (茶宠)** | Ceramic animals that absorb tea; decorative tradition |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Tea Brewing Temperature Guide
-
-| Tea Type | Temperature (°C) | Temperature (°F) | Steep Time | Infusions |
-|----------|------------------|-----------------|------------|------------|
-| **Green (绿茶)** | 70-80°C | 158-176°F | 1-3 min | 2-3 |
-| **White (白茶)** | 75-85°C | 167-185°F | 3-5 min | 3-5 |
-| **Oolong (乌龙)** | 85-95°C | 185-203°F | 2-5 min | 4-8 |
-| **Black (红茶)** | 90-100°C | 194-212°F | 3-5 min | 2-4 |
-| **Pu-erh (普洱)** | 95-100°C | 203-212°F | 10-30 sec | 10+ |
-| **Yellow (黄茶)** | 80-85°C | 176-185°F | 2-3 min | 2-3 |
-| **Matcha (抹茶)** | 70-80°C | 158-176°F | Whisk 15 sec | 1 |
-
-### 7.2 Chinese Tea Ceremony (Gongfu Cha) Sequence
-
-| Step | Name (Chinese) | Action |
-|------|----------------|--------|
-| 1 | 温杯 (Wēn bēi) | Warm the teapot and cups with hot water |
-| 2 | 置茶 (Zhì chá) | Add tea leaves to pot (3-5g per 100ml) |
-| 3 | 洗茶 (Xǐ chá) | First steep (5-10 sec) — "wash" the tea, discard |
-| 4 | 醒茶 (Xǐng chá) | Let leaves open; second steep (10-15 sec) |
-| 5 | 冲泡 (Chōng pào) | Pour boiling water, steep proper time |
-| 6 | 出汤 (Chū tāng) | Pour tea into fairness pitcher |
-| 7 | 分茶 (Fēn chá) | Pour into guests' cups |
-| 8 | 奉茶 (Fèng chá) | Offer tea to guests with both hands |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Introduction to Tea Ceremony
-
-```
-Phase 1: Tea Foundation (First Session)
-├── Teach tea types: green, white, oolong, black, pu-erh
-├── Explain processing: how leaves become different teas
-├── Demonstrate: proper water temperature for each type
-├── Taste: 3-4 teas to develop palate
-└── [✓ Done]: Student can name 5 tea types and basic characteristics
-
-Phase 2: Gongfu Cha Basics (Sessions 2-4)
-├── Learn the 8-step ceremony sequence
-├── Practice with Gaiwan: handling hot tools safely
-├── Master timing: short steeps, multiple infusions
-├── Water: importance of temperature and quality
-└── [✓ Done]: Student can perform complete Gongfu ceremony
-
-Phase 3: Advanced Brewing (Sessions 5-8)
-├── Match tea to vessel: Yixing for oolong/pu-erh, Gaiwan for all
-├── Water tuning: mineral content, hardness
-├── Aging: understanding pu-erh and white tea aging
-└── [✓ Done]: Student can adjust brewing for any tea
-
-Phase 4: Ceremony & Mindful Practice (Ongoing)
-├── Focus on presence: each movement with full attention
-├── Host a tea gathering: invite friends, serve tea
-├── Study tea culture: history, philosophy, aesthetics
-└── [✓ Done]: Tea becomes a daily mindfulness practice
-```
-
-### 8.2 Troubleshooting Tea Problems
-
-```
-Problem: Tea tastes bitter
-  → Cause: Water too hot, steeping too long, too much tea
-  → Fix: Lower temp by 10°C, reduce steep time by 5 sec, use less tea
-
-Problem: Tea has no flavor
-  → Cause: Water too cool, old tea, not enough tea
-  → Fix: Increase temp, check freshness, use more tea leaves
-
-Problem: Tea tastes "off"
-  → Cause: Tap water with chlorine, dirty teapot, stale tea
-  → Fix: Use filtered water, clean tools properly, buy fresh tea
-
-Problem: Can't get multiple infusions
-  → Cause: Tea too weak, wrong tea type for multiple steeps
-  → Fix: Use 5g not 3g; try oolong or pu-erh (10+ infusions)
-```
-
----
 
 ## 9.1 Complete Beginner: Starting Tea Journey
 
@@ -362,105 +210,6 @@ Problem: Can't get multiple infusions
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on tea ceremony instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent tea ceremony instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term tea ceremony instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -485,6 +234,7 @@ Problem: Can't get multiple infusions
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -494,6 +244,7 @@ Problem: Can't get multiple infusions
 | Tea Ceremony + **Herbalist** | Tea provides ceremony → Herbalism adds medicinal plants | Holistic wellness |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -516,6 +267,7 @@ Problem: Can't get multiple infusions
 - "功夫茶", "茶文化", "泡茶", "紫砂壶", "绿茶", "普洱"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -554,6 +306,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -574,6 +327,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -601,6 +355,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -621,6 +376,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -633,15 +389,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -669,3 +416,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

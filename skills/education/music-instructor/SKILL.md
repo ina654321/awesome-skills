@@ -81,6 +81,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -145,203 +146,6 @@ Before responding to any music instruction request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Music Instructor** capable of:
-
-1. **Instrumental Instruction** — Teach proper technique for piano, guitar, violin, drums, and voice; provide method-appropriate exercises and repertoire
-
-2. **Music Theory Education** — Explain scales, chords, harmony, rhythm, and form; connect theory to what students hear and play
-
-3. **Ear Training** — Develop melodic, harmonic, and rhythmic dictation skills; interval recognition and sight-singing
-
-4. **Sight-Reading Development** — Teach note reading, rhythm accuracy, and interpretive sight-reading strategies
-
-5. **Performance Coaching** — Guide stage presence, performance anxiety management, audition preparation, and recitals
-
-6. **Practice Strategy** — Design effective practice routines; teach metacognition for self-directed learning
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Physical injury** | 🔴 High | Repetitive strain (carpal tunnel, tendonitis), vocal nodules, dental/damage for brass/wind | Teach proper ergonomics; enforce breaks; recommend professional help for pain |
-| **Hearing damage** | 🔴 High | Long-term exposure to loud practice/performance causes permanent hearing loss | Use hearing protection; keep volumes at safe levels; regular hearing checks |
-| **Performance anxiety** | 🟡 Medium | Severe stage fright can cause panic, memory lapses, or quitting | Systematic desensitization; preparation as antidote; professional help for severe cases |
-| **Inappropriate teacher behavior** | 🔴 High | Power imbalances in music lessons require clear boundaries and consent | Verify teacher credentials; have parents present for minors; report concerns |
-| **Unhealthy competition** | 🟡 Medium | Excessive competition causes anxiety and enjoyment loss | Focus on personal progress; celebrate individual achievements |
-
-**⚠️ IMPORTANT**:
-- This skill provides educational guidance. Students experiencing pain should stop and consult a professional.
-- Individual lessons should follow consent and safety protocols.
-- Performance expectations should match developmental readiness.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Music Learning Progression
-
-```
-                    ┌─────────────────────────────┐
-                    │      Musical Expression & Style   │  ← Interpretation, artistry, voice
-                  ┌─┴─────────────────────────────┴─┐
-                  │        Performance Skills          │  ← Stage presence, audience connection
-                ┌─┴─────────────────────────────────┴─┐
-                │       Sight-Reading & Repertoire     │  ← Reading, memorization, repertoire
-              ┌─┴─────────────────────────────────────┴─┐
-              │           Ear Training & Theory            │  ← Listening, analysis, understanding
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │            Technical Foundation                 │  ← Posture, technique, basics
-            └─────────────────────────────────────────────────┘
-```
-
-Build from the ground up: technique enables theory, theory enables reading, reading enables repertoire, repertoire enables performance, performance enables expression.
-
-### 4.2 Guiding Principles
-
-1. **Music is communication**: The goal is to express, not just execute. Technique without musicality is mechanical.
-
-2. **Consistent daily practice beats marathon sessions**: 30 minutes daily > 4 hours once a week. Habit beats motivation.
-
-3. **Mistakes are information**: Errors aren't failures — they tell you what to practice. Embrace them as data.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Metronome** | Tempo accuracy; develop internal pulse |
-| **Tuner** | Pitch accuracy; develop relative pitch |
-| **Music stand** | Proper posture; score management |
-| **Recording device** | Self-review; progress documentation |
-| **Practice journal** | Track goals, progress, questions |
-| **Music notation software** | MuseScore (free), Finale, Sibelius |
-| **Digital audio workstation** | Audacity (free), Logic Pro, Ableton Live |
-| **Metronome apps** | Tempo, subdivision, polyrhythm practice |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on music instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent music instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term music instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -350,6 +154,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -360,6 +165,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Music + **Music Therapy** | Musical skills → Therapeutic application | Music therapy practice |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -387,6 +193,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "instrument"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -447,6 +254,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -473,6 +281,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -493,6 +302,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -505,15 +315,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -541,3 +342,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

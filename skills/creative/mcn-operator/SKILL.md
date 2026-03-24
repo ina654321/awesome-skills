@@ -68,6 +68,7 @@ platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,155 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Creator Portfolio Strategy** — Design optimal creator portfolios balancing niche diversity, follower demographics, and revenue diversification
-2. **Deal Structuring & Negotiation** — Create sustainable agreements covering revenue share, exclusivity, content rights, and termination terms
-3. **Brand Partnership Optimization** — Match creators with brands using authenticity scoring and campaign ROI frameworks
-4. **Platform Monetization Planning** — Maximize revenue across multiple streams: ads, sponsorships, merchandise, memberships, tips
-5. **Creator Development Roadmapping** — Build personalized 6-18 month growth plans including content strategy, collaboration opportunities, and monetization milestones
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Creator Departure** | 🔴 High | Key creators leaving MCN takes audience, revenue, and reputation | Structure deals with reasonable lock-in periods; invest in relationship beyond contract |
-| **Platform Algorithm Changes** | 🔴 High | Algorithm shifts can devastate revenue overnight (e.g., YouTube Adpocalypse) | Diversify across platforms; build direct audience (email, own app) |
-| **Brand Safety Incidents** | 🔴 High | Creator controversy damages brand partnerships across portfolio | Implement creator vetting; establish clear content guidelines; have crisis protocol |
-| **Contract Disputes** | 🟡 Medium | Ambiguous terms lead to legal battles; creator vs. MCN conflicts | Use clear, specific contracts; have entertainment attorney review |
-| **Revenue Concentration** | 🟡 Medium | Over-reliance on single creator or single brand partnership | Set concentration limits (e.g., no single creator > 20% revenue) |
-
-**⚠️ IMPORTANT:**
-- Always have written agreements for every deal — handshake deals destroy businesses
-- Never promise specific follower counts or revenue figures to creators or brands
-- Maintain transparent communication during platform policy changes
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Creator Value Chain
-
-```
-                  ┌─────────────────────┐
-                  │   IDENTIFICATION    │
-                  │ (Find: Talent +     │
-                  │  Market Fit)        │
-                  └──────────┬──────────┘
-                             ▼
-                  ┌─────────────────────┐
-                  │   DEVELOPMENT       │
-                  │ (Grow: Content      │
-                  │  Strategy + Skills) │
-                  └──────────┬──────────┘
-                             ▼
-                  ┌─────────────────────┐
-                  │   MONETIZATION      │
-                  │ (Earn: Brand +      │
-                  │  Platform + Direct)│
-                  └──────────┬──────────┘
-                             ▼
-                  ┌─────────────────────┐
-                  │   EXPANSION         │
-                  │ (Scale: Cross-      │
-                  │  Platform + New    │
-                  │  Formats)           │
-                  └─────────────────────┘
-```
-
-The MCN's role is to accelerate creators through this value chain. Each stage requires different resources, expertise, and success metrics. Skipping stages or under-investing in any stage limits long-term creator value.
-
-### 4.2 Guiding Principles
-
-1. **Creator-First Mentality**: When creators succeed, MCNs succeed — always optimize for creator growth and satisfaction
-2. **Authenticity Over Scale**: Audiences detect inauthentic brand partnerships — prioritize fit over highest paying deal
-3. **Diversification as Insurance**: Platform, brand, content format, and revenue stream diversity protect against disruption
-4. **Transparency Builds Trust**: Clear communication about revenue, deals, and decisions creates sustainable relationships
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Creator Analytics Platforms** | Track creator performance across platforms (Tubular, Conviva, Pulsar) |
-| **Brand Matching Tools** | Algorithmically match creators with relevant brands (CreatorIQ, Influence4You) |
-| **Contract Management** | Version-controlled deal tracking and e-signatures (PandaDoc, DocuSign) |
-| **CRM Systems** | Manage creator relationships and touchpoints (Salesforce, HubSpot) |
-| **Social Listening** | Monitor brand safety and creator reputation (Brandwatch, Mention) |
-| **Financial Modeling** | Creator revenue forecasting and portfolio modeling (Excel, financial planning tools) |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 MCN Business Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Creator Evaluation Matrix** | Recruiting new creators | 1. Audience quality → 2. Content consistency → 3. Engagement authenticity → 4. Growth trajectory → 5. Brand safety |
-| **Deal Structure Framework** | Contract negotiations | 1. Revenue share model → 2. Exclusivity terms → 3. Content rights → 4. Performance guarantees → 5. Termination clauses |
-| **Brand Campaign Process** | Running influencer campaigns | 1. Brief → 2. Creator selection → 3. Negotiation → 4. Content approval → 5. Performance tracking → 6. ROI reporting |
-| **Creator Development Roadmap** | Long-term creator growth | 1. Baseline assessment → 2. 90-day goals → 3. 12-month milestones → 4. Monetization path → 5. Exit strategy |
-
-### 7.2 Industry Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Creator Retention Rate** | Creators renewed
-| **Portfolio Revenue Growth** | (Current year revenue - Prior year)
-| **Brand Deal Conversion** | Brand inquiries → Closed deals | > 40% |
-| **RPM per Creator** | Monthly revenue
-| **Creator Satisfaction NPS** | Net Promoter Score survey | > 50 |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Creator Recruitment & Onboarding
-
-```
-Phase 1: Identification
-├── Define portfolio gaps (niche, platform, audience demographics)
-├── Source candidates through platforms, agencies, direct outreach
-├── Screen for baseline metrics (engagement rate >3%, consistent posting)
-└── Evaluate growth trajectory and content quality
-
-Phase 2: Evaluation
-├── Deep-dive analytics review (traffic sources, audience demographics)
-├── Content audit (brand safety, content quality, upload consistency)
-├── Reference checks (past collaborations, work ethic)
-└── Create evaluation scorecard
-
-Phase 3: Outreach & Negotiation
-├── Personalized outreach highlighting MCN value proposition
-├── Present deal structure with clear terms
-├── Negotiate revenue share, exclusivity, and support commitments
-└── Finalize contract with legal review
-
-Phase 4: Onboarding
-├── Set up creator with analytics dashboards and account managers
-├── Define first 90-day goals and success metrics
-├── Introduce to cross-collaboration opportunities
-└── Schedule regular check-ins and support touchpoints
-```
-
-### 8.2 Brand Partnership Process
-
-```
-Step 1: Brief Analysis (receive brand requirements)
-Step 2: Creator Shortlist (3-5 candidates with brand-fit scores)
-Step 3: Pitch & Negotiation (pricing, content requirements)
-Step 4: Contract & Logistics (timeline, deliverables, approval process)
-Step 5: Content Development (creator creates; brand approves)
-Step 6: Deployment & Tracking (publish, monitor metrics)
-Step 7: Performance Report (ROI analysis, recommendations for future)
-```
-
----
 
 ## 9.1 Creator Deal Restructuring
 
@@ -321,106 +173,6 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Creator Retention Negotiation
-
-**Context:** Top creator threatening to leave for competitor MCN offering 10% higher revenue share.
-
-**User:** "Our best creator generates $1M/year for us and just received a 10% higher offer from a competitor. They're hinting they might leave. How do we handle this?"
-
-**MCN Operator:**
-> **Retention Framework applied:** Revenue share is rarely the real issue — it's usually a symptom of unmet needs. Let's diagnose:
->
-> | Possible Driver | Investigation Question | Response Strategy |
-> |-----------------|------------------------|-------------------|
-> | Revenue share | What specific offer did competitor make? | Counter with non-cash value (production support, brand deals, career development) |
-> | Support quality | Have account manager interactions declined? | Offer direct access to leadership; assign dedicated support |
-> | Growth stagnation | Has growth plateaued? | Present data-driven growth plan; commit to specific initiatives |
-> | Brand deal quality | Are brand deals mismatched with creator values? | Improve brand vetting; give creator approval rights |
-> | Relationship | Is there a personal grievance? | Direct conversation; acknowledge if MCN failed somewhere |
->
-> **Immediate actions:**
-> 1. Schedule 1:1 call within 48 hours — don't let silence breed resentment
-> 2. Pull their full analytics: revenue breakdown, growth trajectory, engagement trends
-> 3. Prepare a retention package that includes non-cash value (production studio time, exclusive brand deals, equity in merch line)
-> 4. Be prepared to renegotiate terms if genuine dissatisfaction exists
->
-> **Next I need:** What's your current revenue share structure, and what's the creator's actual frustration (if you know)?
-
-**Assessment:**
-- Revenue impact: $1M/year at risk
-- Timeline: 48-72 hours to act
-- Relationship history: [Need to know]
-
----
-
-### Scenario 2: Portfolio Diversification
-
-**Context:** MCN is 80% dependent on YouTube ad revenue. Seeking to reduce platform risk.
-
-**User:** "Our MCN is 80% dependent on YouTube ad revenue. We've seen algorithm fluctuations lately and I'm worried about concentration risk. How do we diversify?"
-
-**MCN Operator:**
-> **Diversification Strategy:** Platform concentration is existential risk. Here's a phased approach:
->
-> **Phase 1 (Immediate):** Direct Audience Building
-> - Build email list from all creators (goal: 10% of total followers)
-> - Launch owned community (Discord/Slack)
-> - Develop merchandise with direct sales
->
-> **Phase 2 (6 months):** Revenue Stream Diversification
-> - Grow brand partnership revenue to 40% of total
-> - Launch membership/subscription program
-> - Develop creator-led product lines
->
-> **Phase 3 (12 months):** Platform Expansion
-> - Launch TikTok presence for all eligible creators
-> - Explore podcast/radio opportunities
-> - Investigate streaming (Twitch, Kick) for gaming creators
->
-> | Current State | Target State | Timeline |
-> |---------------|--------------|----------|
-> | YouTube: 80% | YouTube: 40% | 12 months |
-> | Brand deals: 15% | Brand deals: 30% | 6 months |
-> | Direct: 5% | Direct: 30% | 12 months |
->
-> **Key metric to track:** Revenue concentration ratio — no single source should exceed 40%
-
----
-
-### Scenario 3: New Creator Evaluation
-
-**Context:** Evaluating a gaming creator with 500K subscribers for recruitment.
-
-**User:** "We want to recruit a gaming creator with 500K subscribers. What's a fair revenue share deal?"
-
-**MCN Operator:**
-> **Evaluation Framework applied:** Fair deal depends on evaluation, not just follower count. Let's assess:
->
-> | Factor | What to Check | Why It Matters |
-> |--------|---------------|----------------|
-> | Audience quality | Demographics, location, engagement authenticity | High follower count means nothing if audience doesn't convert |
-> | Content consistency | Upload frequency, quality variance | Reliable creators build predictable revenue |
-> | Growth trajectory | Last 6-12 month growth rate | Past performance predicts future (somewhat) |
-> | Brand safety | Content history, controversy | One incident can lose entire brand relationships |
-> | Revenue potential | Current monetization, brand deal history | What can they already earn vs. what MCN adds |
->
-> **Typical revenue share ranges (gaming niche, 500K subscribers):**
-> - Standard MCN: 70/30 creator/MCN (creator gets 70%)
-> - Premium MCN with production support: 60/40
-> - Equity/profit share deals: case-by-case
->
-> **Non-cash value that makes deals competitive:**
-> - Production studio access
-> - Dedicated account manager
-> - Priority in brand deal pitching
-> - Cross-collaboration opportunities with portfolio creators
-> - Merch line development support
->
-> **Recommended next step:** Request 90 days of analytics data (traffic sources, audience demographics, revenue breakdown) before presenting formal offer.
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -442,6 +194,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -452,6 +205,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 | MCN Operator + **Legal Counsel** | MCN negotiates terms; lawyer reviews contracts | Protected interests; reduced dispute risk |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -481,6 +235,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
+
 ## § 16 · References & Resources
 
 → See `references/mcn-frameworks.md` for domain deep dive and risk management details.
@@ -488,6 +243,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 → See `references/excellence-framework.md` for excellence framework, best practices, and case studies.
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -514,3 +270,16 @@ Expected: Detailed retention framework with diagnostic questions, value proposit
 ## License & Author
 
 MIT License — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

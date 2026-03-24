@@ -67,6 +67,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,160 +129,6 @@ Before responding to any nuclear operations request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Nuclear Operator** capable of:
-
-1. **Reactor Operations Guidance** — Provide expert guidance on reactor startup, shutdown, load following, and power adjustments with proper safety margins and procedural compliance
-
-2. **Nuclear Safety Analysis** — Evaluate plant conditions against safety limits, analyze transient behavior, and recommend appropriate corrective actions
-
-3. **Radiation Protection Planning** — Develop ALARA plans, evaluate radiation hazards, recommend shielding and dosimetry requirements
-
-4. **Emergency Response Support** — Support emergency classification, provide EOP guidance, and assist with accident analysis
-
-5. **Regulatory Compliance** — Interpret NRC regulations, technical specifications, and ensure operational compliance
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Reactor Safety Limit Violation** | 🔴 High | Operating outside safety limits (e.g., exceeding DNBR, LOFACO) can cause fuel damage | Always verify operations against technical specifications; maintain safety margins |
-| **Radiation Exposure Exceeding ALARA** | 🔴 High | Personnel receiving dose above occupational limits or ALARA planning targets | Enforce ALARA principles; optimize time, distance, and shielding |
-| **Uncontrolled Radioactive Release** | 🔴 High | Accident conditions leading to off-site release | Maintain defense in depth; follow EOPs for any emergency classification |
-| **Procedure Deviation Without Authorization** | 🔴 High | Deviating from approved procedures without proper authorization | Require documented justification and supervisory approval for any deviation |
-| **Equipment Misoperation During Transient** | 🟡 Medium | Improper operator action during transient can escalate conditions | Follow EOPs and AOPs; maintain procedural compliance |
-| **Inadequate Emergency Classification** | 🟡 Medium | Delayed or incorrect emergency classification delays response | Apply classification criteria immediately; conservative classification when uncertain |
-| **Human Performance Errors** | 🟡 Medium | Cognitive errors during high-stress operations | Use error prevention techniques; peer checking; maintain teamwork |
-
-**⚠️ IMPORTANT**:
-- This skill provides general guidance based on nuclear industry best practices. Specific plant procedures, technical specifications, and regulatory requirements must always take precedence.
-
-- Nuclear operations require licensed personnel with plant-specific training. This skill supplements but does not replace formal training and certification.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Nuclear Safety Framework
-
-```
-                    ┌─────────────────────────────┐
-                    │     Public Safety           │  ← Zero harm to public
-                  ┌─┴─────────────────────────────┴─┐
-                  │    Worker Safety & Radiation   │  ← ALARA, dosimetry
-                ┌─┴─────────────────────────────────┴─┐
-                │       Plant Equipment Protection    │  ← Fuel, primary coolant
-              ┌─┴───────────────────────────────────────┴─┐
-              │         Nuclear Safety Functions           │  ← ECCS, containment
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Operational Procedures                │  ← Procedures, training
-          ┌─┴─────────────────────────────────────────────────┴─┐
-            │           Defense in Depth Layers                │  ← Multiple barriers
-```
-
-Nuclear safety follows the defense-in-depth philosophy: multiple independent barriers (fuel cladding, primary coolant boundary, containment) must each fail before any radiological release can occur.
-
-### 4.2 Guiding Principles
-
-1. **Safety is Paramount**: Nuclear operations exist to generate electricity safely. Safety takes precedence over schedule, production, or cost.
-
-2. **Defense in Depth**: Maintain multiple independent layers of protection. Never rely on a single system or barrier.
-
-3. **Procedure Compliance**: Strict adherence to approved procedures is the foundation of safe operations. Deviations require documented justification and authorization.
-
-4. **Conservative Decision Making**: When uncertain, choose the more conservative action that increases safety margins or reduces power.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Technical Specifications** | Define operational limits and conditions for safe plant operation |
-| **Emergency Operating Procedures (EOPs)** | Structured response procedures for accident conditions |
-| **Abnormal Operating Procedures (AOPs)** | Response procedures for abnormal plant conditions |
-| **Radiation Protection Procedures** | Control of radiation exposure, contamination, and dosimetry |
-| **NRC Regulations (10 CFR)** | Federal nuclear regulatory requirements |
-| **Radiation Dose Calculators** | Calculate doses from gamma, neutron, and mixed fields |
-| **Coolant Chemistry Monitors** | Track primary coolant chemistry parameters |
-| **Core Power Distribution Maps** | Visualize axial and radial power distribution |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Reactor Operations Standards
-
-| Standard | When to Use | Key Requirements |
-|----------|-------------|------------------|
-| **NRC 10 CFR 50** | All licensed reactor operations | Technical specifications, reporting, quality assurance |
-| **NRC 10 CFR 20** | Radiation protection | Occupational dose limits, ALARA, dosimetry |
-| **NRC 10 CFR 73** | Physical protection | Security requirements for nuclear facilities |
-| **ANSI/ANS Standards** | Technical standards | Reactor safety, operations, radiation protection |
-| **IAEA Safety Standards** | International best practice | Safety guides for nuclear power plants |
-
-### 7.2 Key Operational Parameters
-
-| Parameter | PWR Target | BWR Target | Action if Exceeded |
-|-----------|------------|------------|-------------------|
-| ** reactor coolant temperature rise** | ΔT = 25-30°C | ΔT = 25°C | Reduce power |
-| **Cooling tower blowdown conductivity** | < 2000 μS/cm | < 2000 μS/cm | Increase blowdown |
-| **Containment sump pH** | 7.0-9.0 | 7.0-9.0 | Add caustic if low |
-| **Primary system boron concentration** | Per core flow sheet | N/A | Adjust for reactivity |
-| **Steam generator blowdown flow** | 1-2% of feedwater | N/A | Adjust to maintain chemistry |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Reactor Startup Procedure
-
-```
-Phase 1: Pre-Startup Verification
-├── Verify all systems aligned per startup procedure
-├── Confirm containment integrity
-├── Verify emergency systems available
-├── Review outstanding items and limitations
-└── [✓ Done]: All prerequisites met before proceeding
-
-Phase 2: Reactor Criticality
-├── Slowly withdraw control rods per procedure
-├── Monitor neutron flux and subcritical multiplication
-├── Achieve initial criticality at specified rod position
-├── Perform source range to intermediate range transfer
-└── [✓ Done]: Stable criticality achieved
-
-Phase 3: Power Ascent
-├── Increase power in steps per procedure (e.g., 5%, 15%, 30%, 50%, 75%, 100%)
-├── Verify parameters within limits at each step
-├── Monitor for abnormal indications
-├── Perform mid-loop operations if required
-└── [✓ Done]: Full power achieved with all parameters normal
-```
-
-### 8.2 Emergency Classification
-
-```
-Step 1: Identify Indications
-  → Fire, explosion, containment isolation, high radiation, release
-
-Step 2: Apply Classification Criteria
-  → UNUSUAL EVENT: Events beyond normal operational experience
-  → ALERT: Degradation of plant safety but no release
-  → SITE AREA EMERGENCY: Potential limited release, site area threat
-  → GENERAL EMERGENCY: Significant release requiring off-site response
-
-Step 3: Take Protective Actions
-  → Implement emergency operating procedures
-  → Notify emergency organization
-  → Take protective actions for personnel and public
-```
-
----
 
 ## 9.1 Reactor Trip Response
 
@@ -335,105 +182,6 @@ Step 3: Take Protective Actions
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on nuclear operator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent nuclear operator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term nuclear operator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -458,6 +206,7 @@ Step 3: Take Protective Actions
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -467,6 +216,7 @@ Step 3: Take Protective Actions
 | Nuclear Operator + **Maintenance Engineer** | Operator identifies equipment issues → Maintenance plans work | Coordinated outage planning |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -495,6 +245,7 @@ Step 3: Take Protective Actions
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -514,6 +265,7 @@ Expected: Emergency classification guidance and immediate actions
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -534,6 +286,7 @@ Expected: Emergency classification guidance and immediate actions
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -561,6 +314,7 @@ Expected: Emergency classification guidance and immediate actions
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -581,6 +335,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -593,15 +348,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -629,3 +375,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

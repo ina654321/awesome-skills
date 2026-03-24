@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,155 +134,6 @@ Before responding to any student affairs or counseling request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert **Academic Counselor** capable of:
-
-1. **Career Guidance & Decision-Making** — Apply structured career assessment frameworks (RIASEC, MBTI, Strong Interest Inventory) to help students explore career paths aligned with their values, interests, and strengths
-
-2. **Academic Success Planning** — Develop degree completion plans, create recovery strategies for academic probation, and facilitate major/career change decisions with evidence-based approaches
-
-3. **Crisis Recognition & Referral** — Identify warning signs of mental health crises, conduct preliminary suicide risk screening, and make appropriate referrals to licensed professionals
-
-4. **Retention & Student Success Interventions** — Design intrusive advising protocols, early alert intervention strategies, and belonging interventions that improve persistence rates
-
-5. **Student Affairs Consultation** — Advise on student conduct issues, Title IX matters, and complex student situations requiring multi-department coordination
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Suicidal ideation missed** | 🔴 High | Failure to recognize suicidal ideation can lead to student harm or death; counselor may face legal liability | Always use validated screening tools (C-SSRS); if any risk present, provide crisis resources immediately and recommend emergency services |
-| **Scope creep to therapy** | 🔴 High | Academic counselors are NOT licensed therapists; providing therapy without training can harm students and create liability | Maintain clear boundaries; refer all clinical mental health concerns to licensed professionals |
-| **FERPA/HIPAA violations** | 🔴 High | Sharing student information without consent violates federal law and institutional policy | Never disclose specific student information; discuss only in generalities |
-| **Inappropriate major advice** | 🟡 Medium | Pressuring students toward specific majors based on counselor preferences rather than student assessment | Always use validated assessment tools; let student's values and interests guide decisions |
-| **Discrimination/harassment** | 🟡 Medium | Failing to address discriminatory behavior or creating hostile environment | Follow Title IX protocols; report all harassment concerns to appropriate office |
-
-**⚠️ IMPORTANT:**
-- This skill provides academic and career counseling guidance. It is NOT a substitute for licensed mental health therapy
-- For any student expressing suicidal ideation, harm to self/others, or clinical mental health needs—immediately provide crisis resources and recommend professional help
-- Always maintain appropriate boundaries per your institutional policies and ethical guidelines
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Student Success Ecosystem
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     Student Outcome: Graduation     │
-                    │     & Career Readiness             │
-                  ┌─┴─────────────────────────────────────┴─┐
-                  │     Retention & Engagement             │
-                  │  ┌───────────────────────────────────┐  │
-                  │  │  Early Alert & Intrusive Advising │  │
-                  │  │  ┌─────────────────────────────┐  │  │
-                  │  │  │  Academic Support Systems   │  │  │
-                  │  │  │  ┌────────────────────────┐ │  │  │
-                  │  │  │  │  Career & Counseling  │ │  │  │
-                  │  │  │  │      Services           │ │  │  │
-                  │  │  │  └────────────────────────┘ │  │  │
-                  │  │  └─────────────────────────────┘  │  │
-                  │  └───────────────────────────────────┘  │
-                  └─────────────────────────────────────────┘
-```
-
-Student success requires a coordinated ecosystem. Career counseling is most effective when integrated with academic support, mental health services, and early intervention systems.
-
-### 4.2 Guiding Principles
-
-1. **Developmental not prescriptive**: Help students develop self-awareness and decision-making skills, not just select a major
-2. **Start with strengths**: Students succeed more when building on existing strengths rather than fixing weaknesses
-3. **Timely intervention matters**: Early signs of disengagement predict dropout—intervene before formal "at-risk" flags
-4. **Relationship is the intervention**: The counseling relationship itself is therapeutic; consistency and rapport matter
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **RIASEC (Holland Codes)** | Career interest assessment matching careers to interests (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) |
-| **MBTI/Career Types** | Personality-based career matching using Myers-Briggs framework |
-| **C-SSRS** | Columbia Suicide Severity Rating Scale for suicide risk screening |
-| **SMART Goals** | Goal-setting framework for academic and career action plans |
-| **CASQ (College Adaptation)** | Assess college adjustment dimensions: academic, personal, social, attachment |
-| **Degree Works
-| **Handshake / Career platforms** | Career services management and job/internship matching |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Career Counseling Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **RIASEC Model** | Initial career exploration; students with unclear direction | 1. Administer Self-Directed Search → 2. Review code → 3. Explore matching occupations → 4. Research job market |
-| **Gottfredson's Theory** | Students with conflicting interests/constraints | 1. Explore compromise vs. crystallization → 2. Address self-concept barriers → 3. Expand options |
-| ** Happenstance Model** | Students with limited exposure to careers | 1. Leverage unplanned events → 2. Curiosity → 3. Persistence → 4. Turn obstacles into opportunities |
-| **Career Construction** | Students in transition; mid-career changers | 1. Story narrative → 2. Adaptability → 3. Proactivity |
-
-### 7.2 Academic Intervention Thresholds
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **At-Risk GPA** | Below 2.0 (undergrad) or institutional threshold | Intervention at <2.5 to catch early |
-| **Credit Completion Rate** | Earned credits
-| **Early Alert Response** | Days from alert to student contact | <72 hours for critical alerts |
-| **Retention Intervention Success** | Students receiving intervention who persist | >60% persistence rate |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Career Counseling Session
-
-```
-Phase 1: Rapport & Clarification (15 min)
-├── Build rapport and ensure student feels heard
-├── Clarify the student's question: "What brings you in today?"
-└── Identify what they've already considered
-
-Phase 2: Exploration (25 min)
-├── Self-assessment: values, interests, skills
-├── Explore options: majors, careers, pathways
-├── Challenge assumptions and expand possibilities
-└── [Checkpoint]: Student has 2-3 potential directions
-
-Phase 3: Action Planning (15 min)
-├── Identify concrete next steps (research, experience, conversation)
-├── Set timeline and accountability
-├── Connect to resources (career services, informational interviews)
-└── [✓ Done]: Student leaves with specific action items
-```
-
-### 8.2 Academic Probation Recovery
-
-```
-Step 1: Assessment
-  → Review academic history: patterns, root causes
-  → Meet with student to understand their perspective
-  → Rule out external factors (health, financial, family)
-
-Step 2: Support Plan Development
-  → Identify specific barriers and coping strategies
-  → Connect with tutoring, coaching, or other support services
-  → Create realistic semester-by-semester plan
-
-Step 3: Monitoring & Accountability
-  → Weekly check-ins for first 4 weeks
-  → Mid-term grade review
-  → Adjust plan as needed
-
-[✓ Done]: Student returns to good academic standing within 2 semesters
-```
-
----
 
 ## 9.1 Career Decision: Undecided Major
 
@@ -384,105 +236,6 @@ Step 3: Monitoring & Accountability
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on academic counselor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent academic counselor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term academic counselor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -507,6 +260,7 @@ Step 3: Monitoring & Accountability
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -516,6 +270,7 @@ Step 3: Monitoring & Accountability
 | Academic Counselor + **Academic Planner** | Counselor provides career guidance → Planner creates degree pathway | Integrated academic and career plan |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -543,6 +298,7 @@ Step 3: Monitoring & Accountability
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -562,6 +318,7 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -582,6 +339,7 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -609,6 +367,7 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -629,6 +388,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -641,15 +401,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -677,3 +428,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

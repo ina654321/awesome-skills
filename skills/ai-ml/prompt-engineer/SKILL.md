@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -136,373 +137,13 @@ Before designing any prompt, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Prompt Engineer** capable of:
-
-1. **Prompt Design** — Craft zero-shot, few-shot, CoT, and role prompts for any task
-2. **Prompt Optimization** — Diagnose failures, run A/B variations, measure improvements
-3. **RAG Pipeline Design** — Chunking strategy, retrieval config, context injection patterns
-4. **Agent Workflow Architecture** — Tool calling, planning loops, multi-agent coordination
-5. **Evaluation Design** — Build LLM-as-judge pipelines, human eval rubrics, regression suites
-6. **Security & Robustness** — Prompt injection defense, adversarial testing, output guardrails
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Description / 描述 | Mitigation
-|-------------|-------------------|--------------------|
-| **Model drift** | Prompts optimized for GPT-4 may degrade on Claude or Gemini | Maintain a model-specific test suite; re-eval on model updates |
-| **Overfitting to examples** | Prompts tuned on 10 examples fail on distribution shift | Test on held-out set before deploying; use diverse examples |
-| **Prompt injection** | User input can hijack system prompt instructions | Separate user input from instructions; validate output schema |
-| **Hallucination amplification** | Poorly designed prompts increase, not decrease, hallucination rates | Add "if uncertain, say so" instructions; use grounding |
-| **Cost spiral** | Longer prompts × high token cost × high volume = significant spend | Profile token usage before scaling; consider smaller models |
-
----
-
-## § 4 · Core Philosophy
-
-### Prompt Engineering Principles
-
-1. **Measure Before Claiming** — A prompt that "feels better" is not better until measured on a held-out eval set.
-
-2. **First Prompt is a Hypothesis** — Ship fast, measure, iterate. Don't spend days on v1; spend hours and iterate to v5.
-
-3. **Precision is Safety** — Every ambiguous word in a prompt is a future production bug. Be surgical.
-
-4. **Model-Aware Design** — Work with the model's training distribution, not against it. Understand what it was trained to do.
-
-5. **Security by Design** — Prompt injection defense, PII handling, and output validation must be designed in from day one.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category / 类别 | Tools / 工具 | Notes
-|----------------|------------|------------|
-| **Eval Frameworks** | Ragas, DeepEval, PromptFlow, Promptfoo | Promptfoo for automated A/B testing |
-| **LLM-as-Judge** | OpenAI GPT-4o, Claude 3.5 Sonnet, Gemini | Calibrate against human ratings (Cohen's κ > 0.7) |
-| **RAG Evaluation** | Ragas, TruLens, ARES | Ragas is standard for faithfulness metrics |
-| **Prompt Management** | PromptLayer, LangSmith, Langfuse | Track prompt versions, A/B results |
-| **Structured Output** | Instructor (Pydantic), Outlines, LM-Format-Enforcer | Instructor for type-safe LLM output |
-| **Testing** | pytest + LLM mocks, Promptfoo regression suite | Never trust manual testing for production |
-| **Token Counting** | tiktoken (OpenAI), Anthropic tokenizer | Always count before deploying to production |
-
----
-
-## § 7 · Standards & Reference
-
-### Prompt Quality Metrics
-
-| Metric / 指标 | Definition / 定义 | Target
-|--------------|-----------------|--------------|
-| **Task Accuracy** | % of responses meeting success criteria on eval set | > 90% for production |
-| **Hallucination Rate** | % of responses with factual errors (vs. grounded source) | < 10%; < 5% for high-stakes |
-| **Format Compliance** | % of responses matching required output schema | > 99% for structured output |
-| **Injection Bypass Rate** | % of adversarial inputs that bypass safety instructions | 0% target |
-| **Token Efficiency** | Output tokens
-
-### Few-Shot Example Quality Criteria
-
-| Criterion | Requirement |
-|-----------|-------------|
-| Coverage | Examples span the full output distribution (not just easy cases) |
-| Diversity | Different inputs, edge cases, and failure modes represented |
-| Volume | Minimum 5 examples; 20+ for production-critical tasks |
-| Label Quality | Domain expert verified, not just prompt engineer |
-| Held-out | Eval examples never used for prompt optimization |
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Prompt Design & Initial Testing
-
-**Objective**: Deliver a working prompt with measured baseline quality
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Define success criteria: measurable, specific (e.g., "extracts all 4 fields correctly 95% of time") | Criteria written and agreed before writing any prompt | Vague criteria ("should work well") → unmeasurable; redesign |
-| 2 | Collect 20+ representative examples (diverse inputs, edge cases, failure modes) | Examples cover full distribution; reviewed by domain expert | < 10 examples or only easy cases → eval is not representative |
-| 3 | Write v1 prompt: role + task + constraints + output format + 3-5 few-shot examples | Prompt passes 70%+ of eval set on first pass | < 50% → revisit task definition or increase few-shot count |
-| 4 | A/B test: run 3 prompt variations against the eval set | Best variant identified with quantified improvement | Variations all identical → insufficient exploration |
-| 5 | Adversarial testing: 20+ edge cases (empty input, injection attempts, out-of-distribution) | All adversarial inputs handled gracefully | Any injection bypass → add defense layer before production |
-
-### Phase 2: Production Hardening
-
-**Objective**: Production-ready prompt with monitoring and security
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Token budget analysis: prompt tokens × volume × price = monthly cost | Cost estimate provided and approved | No cost estimate → budget surprise at scale |
-| 2 | Output schema validation: JSON parsing, length limits, schema enforcement | 100% schema validation coverage | Any unvalidated output path → production parsing errors |
-| 3 | Regression test suite: 50+ cases covering known failure modes | All prior failure modes covered in regression suite | Regression suite < 30 cases → changes will break silently |
-| 4 | Production monitoring: alert on format compliance < 95%, hallucination rate spike | Monitoring dashboard live before go-live | No monitoring → problems discovered by users, not you |
-
----
-
-## § 4 · Prompt Pattern Reference
-
-### 4.1 Core Patterns
-
-| Pattern | When to Use | Token Cost | Reliability |
-|---------|-------------|-----------|-------------|
-| **Zero-shot** | Well-defined tasks the model already knows | Low | Variable |
-| **Few-shot** | Tasks requiring specific format or style | Medium | High |
-| **Chain-of-Thought (CoT)** | Multi-step reasoning, math, logic | Medium | High for reasoning |
-| **ReAct** | Agent tasks requiring tool use + reasoning | High | High |
-| **Self-consistency** | High-stakes reasoning (sample N, vote) | Very high | Very high |
-| **Tree-of-Thought** | Complex planning, open-ended problems | Very high | High |
-| **Role + Persona** | Tone, domain expertise, communication style | Low | Medium |
-
-### 4.2 Prompt Structure Template
-
-```
-[SYSTEM
-You are a [role] with [credentials]. Your task is to [primary objective].
-Constraints: [what to avoid]. Output format: [exact format].
-
-[CONTEXT] (optional)
-Background: [relevant background the model cannot infer]
-Data: [relevant data, documents, or examples]
-
-[EXAMPLES] (few-shot)
-Input: [example 1 input]
-Output: [example 1 output]
-
-Input: [example 2 input]
-Output: [example 2 output]
-
-[TASK]
-Input: {{user_input}}
-Output:
-```
-
-### 4.3 Chain-of-Thought Variants
-
-```
-Standard CoT:
-"Let's think step by step before giving the final answer."
-
-Zero-shot CoT trigger:
-"Before answering, write your reasoning in <thinking> tags,
-then provide your answer in <answer> tags."
-
-Self-correction CoT:
-"Think step by step. After your first answer, review it
-critically and provide an improved final answer."
-```
-
----
-
-## § 5 · RAG Architecture Patterns
-
-### 5.1 Chunking Strategy Decision Matrix
-
-| Document Type | Recommended Chunk Size | Overlap | Strategy |
-|--------------|----------------------|---------|----------|
-| Technical docs | 512 tokens | 10% | Fixed-size with sentence boundary |
-| Legal
-| Code | By function/class | 0% | AST-aware chunking |
-| Conversations | By turn | 5% | Fixed-size |
-| Tables
-
-### 5.2 Context Injection Patterns
-
-```
-Pattern 1: Direct injection (simple)
-  System: "Answer using the following context:\n\n{context}\n\nContext ends here."
-  Risk: Model may ignore context if it contradicts training data
-
-Pattern 2: Citation-required (more reliable)
-  System: "Answer ONLY from the provided context. Cite [Doc X] for each claim.
-          If the context doesn't contain the answer, say 'Not found in context.'"
-  Benefit: Reduces hallucination; auditable
-
-Pattern 3: Compression before injection (for long contexts)
-  Step 1: Compress each retrieved chunk: "Summarize the key facts from this passage
-          relevant to: {query}"
-  Step 2: Inject compressed summaries + source references
-  Benefit: Fits more sources in context window
-```
-
-### 5.3 Retrieval Quality Checklist
-
-- [ ] Embedding model trained on domain-similar data
-- [ ] Chunk size validated against retrieval precision (not just recall)
-- [ ] Hybrid search (dense + sparse) for factual queries
-- [ ] Re-ranking step for top-k candidates
-- [ ] Relevance score threshold to filter low-quality hits
-- [ ] Metadata filtering for recency or source credibility
-
----
-
-## § 6 · Evaluation Framework
-
-### 6.1 LLM-as-Judge Prompt Template
-
-```
-You are an expert evaluator. Rate the following response on a 1-5 scale.
-
-Criteria:
-- Accuracy (1-5): Is the information factually correct?
-- Relevance (1-5): Does it directly address the question?
-- Completeness (1-5): Are all important aspects covered?
-- Clarity (1-5): Is it easy to understand?
-
-Question: {question}
-Response: {response}
-Reference answer (if available): {reference}
-
-For each criterion, provide:
-1. Score (1-5)
-2. One-sentence justification
-3. Specific improvement suggestion
-
-Output as JSON:
-{"accuracy": {"score": X, "reason": "...", "improvement": "..."},
- "relevance": {"score": X, ...},
- "completeness": {"score": X, ...},
- "clarity": {"score": X, ...},
- "overall": X}
-```
-
-### 6.2 Regression Test Suite Structure
-
-```python
-# Minimal eval harness (pseudo-code)
-test_cases = [
-    {
-        "id": "factual_01",
-        "input": "What is the capital of France?",
-        "expected_contains": ["Paris"],
-        "expected_not_contains": ["London", "Berlin"],
-        "eval_type": "exact_match"
-    },
-    {
-        "id": "reasoning_01",
-        "input": "If A > B and B > C, is A > C?",
-        "eval_type": "llm_judge",
-        "rubric": "Answer must be 'yes' with correct transitive reasoning"
-    }
-]
-
-for case in test_cases:
-    response = call_llm(prompt_template, case["input"])
-    score = evaluate(response, case)
-    log_result(case["id"], score, response)
-```
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on prompt engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent prompt engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term prompt engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Integration with Other Skills
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
+
 
 ## § 11 · Version History
 
@@ -514,6 +155,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 1.0.0 | 2026-02-16 | Initial release with basic patterns and process |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -553,6 +195,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 15 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
@@ -590,9 +233,11 @@ https://github.com/theneoai/awesome-skills
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -613,6 +258,7 @@ https://github.com/theneoai/awesome-skills
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -640,6 +286,7 @@ https://github.com/theneoai/awesome-skills
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -660,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -672,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -702,3 +341,20 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 4 · Prompt Pattern Reference](./references/4-prompt-pattern-reference.md)
+- [## § 5 · RAG Architecture Patterns](./references/5-rag-architecture-patterns.md)
+- [## § 6 · Evaluation Framework](./references/6-evaluation-framework.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

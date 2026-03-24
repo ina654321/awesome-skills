@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,162 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Claim Verification** — Analyze statements and determine accuracy against verifiable evidence
-2. **Source Evaluation** — Assess source credibility, bias, and reliability
-3. **Misinformation Detection** — Identify manipulated media, fake quotes, and disinformation patterns
-4. **Contextual Analysis** — Provide full context that shapes claim accuracy
-5. **Research Methodology** — Apply systematic verification processes
-6. **Confidence Assessment** — Clearly communicate certainty levels about findings
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **False Positives** | 🔴 High | Incorrectly marking true claims as false damages credibility | Require multiple independent sources before concluding false |
-| **Outdated Information** | 🔴 High | Facts change over time; verification must include recency | Always note date of verification; flag time-sensitive claims |
-| **Source Manipulation** | 🔴 High | Fake sources, deepfakes, and fabricated documents are increasingly sophisticated | Verify source authenticity; check for known manipulation patterns |
-| **Confirmation Bias** | 🟡 Medium | Seekers may unconsciously favor sources that confirm desired conclusions | Actively look for contradicting evidence |
-| **Incomplete Verification** | 🟡 Medium | Partial verification can lead to incorrect conclusions | Follow complete verification workflow |
-
-**⚠️ IMPORTANT:**
-- Always acknowledge uncertainty — "unverified" is a valid and important conclusion
-- Verify your sources' sources — don't rely solely on aggregated or secondary claims
-- Consider the incentive structure — who benefits from this claim being believed?
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Verification Pyramid
-
-```
-                    ▲ CLAIM
-                   ╱ ╲
-                  ╱   ╲
-                 ╱─────╲
-                ╱PRIMARY╲
-               ╱SOURCE  ╲
-              ╱───────────╲
-             ╱ INDEPENDENT ╲
-            ╱  CORROBORATION ╲
-           ╱───────────────────╲
-          ▲                     ▲
-         ╱ ╲                   ╱ ╲
-        ╱   ╲                 ╱   ╲
-       ╱     ╲               ╱     ╲
-      ╱  EXPERT ╲           ╱  EXPERT ╲
-     ╱CONSENSUS  ╲         ╱CONSENSUS  ╲
-    ╱─────────────╲       ╱─────────────╲
-```
-
-A claim is verified when multiple independent sources converge on the same fact. The strength of verification depends on source quality and independence.
-
-### 4.2 Guiding Principles
-
-1. **Triangulation Required**: No single source is sufficient — verify with 3+ independent sources
-2. **Source Transparency**: Always cite sources with reliability assessment and access dates
-3. **Uncertainty is Honest**: Clearly distinguish between verified, unverified, and disputed claims
-4. **Consider Incentives**: Examine who benefits from the claim and why it might be propagated
-
----
-
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install fact-checker` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/fact-checker.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/media/fact-checker.md`
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Google Fact Check Tools** | Built-in fact check verification in search results |
-| **Wayback Machine** | Historical versions of web pages for verification |
-| **Reverse Image Search** | TinEye, Google Images for image verification |
-| **WHOIS Lookup** | Domain registration verification |
-| **News verification databases** | Snopes, PolitiFact, FactCheck.org for known claims |
-| **Academic databases** | JSTOR, Google Scholar for peer-reviewed sources |
-| **Official statistics portals** | World Bank, government statistical agencies |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Verification Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **SIFT Method** | Any claim verification | 1. Stop — Don't share first → 2. Investigate source → 3. Find better coverage → 4. Trace claims |
-| **Claim Decomposition** | Complex multi-part claims | 1. Break into atomic facts → 2. Verify each separately → 3. Reassemble with confidence levels |
-| **Source Triangulation** | High-stakes verification | 1. Find 3+ independent sources → 2. Assess each reliability → 3. Weight evidence → 4. Conclude |
-
-### 7.2 Source Reliability Matrix
-
-| Source Type| Reliability| Verification Need|
-|--------------|--------------|---------------|
-| Official government records | High | Direct access preferred |
-| Peer-reviewed research | High | Check journal reputation and citations |
-| Major news outlets | Medium-High | Cross-reference with original reporting |
-| Social media | Low | Require strong external verification |
-| Anonymous sources | Low | Need corroboration from named sources |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Claim Verification
-
-```
-Phase 1: Claim Analysis
-├── Identify the specific factual claim to verify
-├── Break down into verifiable components
-├── Note any ambiguities or loaded language
-└── Determine appropriate source types needed
-
-Phase 2: Source Discovery
-├── Search for primary sources (official records, direct quotes)
-├── Find secondary verification (news, academic)
-├── Identify expert consensus if applicable
-└── Document all sources found
-
-Phase 3: Evidence Evaluation
-├── Assess each source's reliability and potential bias
-├── Check for conflicts between sources
-├── Verify source authenticity (not fabricated)
-└── Note access dates and any limitations
-
-Phase 4: Conclusion & Communication
-├── Assign confidence level based on evidence
-├── Clearly state findings with source citations
-├── Acknowledge limitations or unverified components
-└── Provide recommendation if action is required
-```
-
-### 8.2 Misinformation Detection
-
-```
-Step 1: Source Check — Who originally made this claim? Can you verify them?
-Step 2: Evidence Check — What evidence supports the claim? Is it verifiable?
-Step 3: Logic Check — Does the claim follow logically? Any logical fallacies?
-Step 4: Context Check — Is this presented in full context? Any missing details?
-Step 5: Consensus Check — What do experts say? Any known debunkings?
-```
-
----
 
 ## 9.1 Political Claim Verification
 
@@ -320,105 +165,6 @@ Step 5: Consensus Check — What do experts say? Any known debunkings?
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on fact checker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent fact checker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term fact checker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -437,6 +183,7 @@ Step 5: Consensus Check — What do experts say? Any known debunkings?
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -446,6 +193,7 @@ Step 5: Consensus Check — What do experts say? Any known debunkings?
 | Fact Checker + **Legal Research** | Fact Checker verifies factual claims → Legal analyzes implications | Evidence-based legal analysis |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -473,6 +221,7 @@ Step 5: Consensus Check — What do experts say? Any known debunkings?
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -494,6 +243,7 @@ Expected: Source tracing, verification of authenticity, conclusion with confiden
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive verification frameworks, clear confidence calibration, detailed workflow, real-world examples
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -514,6 +264,7 @@ Expected: Source tracing, verification of authenticity, conclusion with confiden
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -541,6 +292,7 @@ Expected: Source tracing, verification of authenticity, conclusion with confiden
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -561,6 +313,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -573,15 +326,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -610,3 +354,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

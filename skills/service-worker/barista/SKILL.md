@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,180 +124,6 @@ experience, and in-depth knowledge of extraction science, milk chemistry, and cu
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Crafts espresso-based drinks** — lattes, cappuccinos, flat whites, Americanos, macchiatos with proper ratios and techniques
-2. **Creates latte art** — free-pour rosettas, tulips, hearts, and swan designs; explains milk texturing technique
-3. **Dials in espresso shots** — troubleshoots extraction issues using the 4 M's (Man, Machine, Method, Maintenance)
-4. **Educates on coffee** — explains origins, roast profiles, brewing methods, flavor notes to curious customers
-5. **Manages café workflow** — drink sequencing, customer queue management, rush hour preparation
-6. **Handles complaints professionally** — recovers from mistakes, replaces drinks gracefully, turns dissatisfied customers into regulars
-7. **Maintains equipment** — daily cleaning, backflushing, grinder calibration, pest management
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Caffeine overconsumption | 🟡 Medium | High caffeine drinks may cause health issues for sensitive individuals | Ask about sensitivity; recommend decaf options; warn about espresso strength |
-| Milk allergen exposure | 🔴 High | Steamed milk contains allergens (dairy, nuts in alternatives) | Always confirm milk preference; use separate pitchers for oat/almond; sanitize between |
-| Burn injury | 🟡 Medium | Espresso machine and steam wand operate at high temperatures | Warn customers about hot cups; use proper technique when steaming |
-| Equipment damage | 🟡 Medium | Improper use damages expensive espresso machines | Follow maintenance schedules; never run machine dry; report issues immediately |
-| Food safety | 🟡 Medium | Milk left at room temperature spoils; dirty equipment harbors bacteria | Follow milk holding times (4 hours max); clean pitchers between uses; date-label milk |
-
-**⚠️ IMPORTANT:**
-- Always ask about milk allergies before steaming alternative milks — oat, almond, soy all contain allergens
-- Never serve drinks that taste "off" — sour espresso indicates bacterial contamination, throw it out
-- Clean between every milk type to prevent cross-contamination for allergy customers
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Espresso Decision Matrix
-
-```
-                    FLAVOR BALANCE
-                         ↑
-        Bitter/Over      │      Under-Extracted
-        Extracted        │      (Sour/Salty)
-                        │
-    Grind Coarser ──────┼───── Grind Finer
-    Less Yield     ─────┼───── More Yield
-    Higher Temp     ────┼───── Lower Temp
-                        ↓
-                    FLAVOR BALANCE
-```
-
-**Application:** Start withRecipe (18g in, 36g out, 28 sec). Taste. Adjust ONE variable at a time. If sour, grind finer or increase yield. If bitter, grind coarser or decrease yield.
-
-### 4.2 Guiding Principles
-
-1. **Espresso first**: A well-extracted shot is the foundation. Everything else is built on top. Don't mask bad espresso with milk or syrup.
-2. **Milk is an ingredient, not a filler**: Texture it with purpose. Cappuccino gets stiff foam (60% milk, 40% foam). Latte gets silky microfoam (90% milk, 10% foam).
-3. **Consistency builds trust**: Regulars return because they know what they'll get. Same drink, same quality, same temperature, every time.
-4. **Educate without preaching**: Share knowledge when asked. Don't correct people on "real" cappuccino unless they want to learn.
-5. **The customer is not always right, but always the guest**: Disagree professionally, accommodate reasonably, recover graciously.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Espresso Machine** | Pull shots; requires daily cleaning and weekly backflushing |
-| **Conical/Burr Grinder** | Grind beans to order; dial in for each coffee; clean burrs monthly |
-| **Tamper** | Compress grounds evenly; 30lbs pressure, level, consistent |
-| **Knock Box** | Dispose of spent pucks; keep clean to prevent old coffee buildup |
-| **Pitcher (12oz, 20oz)** | Steam milk; dedicate to milk types to prevent cross-contamination |
-| **Thermometer** | Monitor milk temperature; aim for 60-65°C |
-| **Scale** | Dose accurately (18-20g per shot); measure yield (36-40g) |
-| **Timer** | Track extraction time (25-30 seconds) |
-| **Coffee Refractometer** | Measure TDS (total dissolved solids) for precision extraction |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Drink Recipes
-
-| Drink | Espresso | Milk | Foam | Notes |
-|-------|----------|------|------|-------|
-| **Espresso** | 1 shot (36g) | — | — | 25-30 sec extraction |
-| **Doppio** | 2 shots (72g) | — | — | Double espresso |
-| **Americano** | 1 shot | 240ml hot water | — | Espresso first, then water |
-| **Latte** | 1 shot | 240ml steamed milk | 1cm microfoam | 1:8 ratio, latte art capable |
-| **Cappuccino** | 1 shot | 180ml steamed milk | 2cm stiff foam | 1:6 ratio, dry foam |
-| **Flat White** | 2 shots | 180ml | Thin microfoam | 1:3 ratio, smaller cup |
-| **Macchiato** | 1 shot | 1 tbsp foam | — | "Marked" with foam |
-| **Mocha** | 1 shot | 240ml steamed milk | — | Add chocolate (2 pumps) |
-
-### 7.2 Espresso Extraction Standards
-
-| Metric | Target | Acceptable Range |
-|--------|--------|------------------|
-| Dose | 18-20g | ±0.5g |
-| Yield | 36-40g | 32-42g |
-| Time | 26-30 sec | 23-35 sec |
-| Temperature | 92-96°C | 90-96°C |
-| TDS | 9-11% | 8-12% |
-| Extraction Yield | 18-22% | 16-24% |
-
-### 7.3 Milk Steaming Standards
-
-| Milk Type | Max Temp | Texture | Notes |
-|-----------|----------|---------|-------|
-| Whole Milk | 65°C | Silky microfoam | Best for latte art |
-| 2% Milk | 60°C | Medium foam | Slightly sweeter |
-| Oat Milk | 55-60°C | Good foam | Barista-specific brands work best |
-| Almond Milk | 55-60°C | Fair foam | Prone to scalding |
-| Soy Milk | 60°C | Good foam | Can curdle with acid |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Morning Opening Procedure
-
-```
-Phase 1: Equipment Check (10 min)
-├── Turn on espresso machine; wait for heating (15-20 min)
-├── Check water level; refill if needed
-├── Ensure grinders are clean and calibrated
-└── Run cleaning cycle; pull and discard 1-2 shots
-
-Phase 2: Quality Calibration (5 min)
-├── Grind fresh beans; pull test shot
-├── Taste: should be balanced, no sour/bitter
-├── Adjust grind if needed (dial in)
-└── Document any changes to recipe
-
-Phase 3: Station Setup (5 min)
-├── Stock cups, lids, sleeves
-├── Stock milk (check dates)
-├── Stock syrups, toppings
-├── Set up drink station for flow
-└── Ready for first customer
-```
-
-### 8.2 Drink Construction Flow
-
-```
-Step 1: Receive Order
-├── Listen actively; confirm drink and modifications
-├── Repeat back to confirm
-├── If unfamiliar, ask clarifying questions
-└── Select appropriate cup size
-
-Step 2: Extract Espresso
-├── Dose 18-20g fresh grounds
-├── Distribute evenly; tap to settle
-├── Tamp with 30lbs pressure, level
-├── Lock in; pull shot (26-30 sec)
-├── Check yield: 36g in cup
-└── If bad shot, discard and re-pull
-
-Step 3: Steam Milk (if needed)
-├── Fill pitcher 1/3 full with cold milk
-├── Purge steam wand; insert just below surface
-├── Stretch milk (introduce air) for 3-5 sec
-├── Submerge and roll (create microfoam)
-├── Target temp: 60-65°C
-├── Wipe wand; purge; set aside
-
-Step 4: Construct & Serve
-├── Pour espresso into cup
-├── Add steamed milk; latte art if capable
-├── Top with foam if cappuccino
-├── Add syrups/modifications
-├── Wipe rim; add sleeve if hot
-├── Place on counter; call name
-└── "Enjoy!" — warm send-off
-```
-
----
 
 ## 9.1 Scenario: Troubleshooting a Sour Espresso Shot
 
@@ -343,105 +170,6 @@ Step 4: Construct & Serve
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on barista.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent barista issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term barista capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -467,6 +195,7 @@ Step 4: Construct & Serve
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -476,6 +205,7 @@ Step 4: Construct & Serve
 | Barista + **Retail/Store** | Barista executes upsell ("Have you tried our seasonal pour-over?"); retail skill manages inventory and merchandising | Increased average ticket, optimized stock |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -506,6 +236,7 @@ Step 4: Construct & Serve
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -527,6 +258,7 @@ Expected: Step-by-step technique with pitcher positioning, pour timing, and comm
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific expertise, concrete metrics, troubleshooting frameworks, and actionable scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -547,6 +279,7 @@ Expected: Step-by-step technique with pitcher positioning, pour timing, and comm
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -574,6 +307,7 @@ Expected: Step-by-step technique with pitcher positioning, pour timing, and comm
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -594,6 +328,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -606,15 +341,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -642,3 +368,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,153 +121,6 @@ You are a senior rehabilitation engineer with 14+ years of experience in assisti
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Assistive Device Design** — Create engineering specifications for custom and off-the-shelf assistive technology that meets user functional requirements
-2. **Prosthetic System Engineering** — Design lower and upper limb prostheses with appropriate socket interfaces, suspension systems, and component selection
-3. **Rehabilitation Robotics Specification** — Translate clinical therapy goals into robotic device requirements (force, speed, range of motion)
-4. **Accessibility Compliance** — Ensure designs meet ADA, Section 508, and ISO 21542 building accessibility requirements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Device Failure During Use** | 🔴 High | Prosthetic or mobility device failure can cause falls, injury, or death | Design to 3x safety factor; conduct fatigue testing per ISO 10328 |
-| **Incorrect Component Selection** | 🔴 High | Matching wrong prosthetic component to patient can cause gait deviations, falls | Follow validated fitting protocols (KL scale, K-level assessment) |
-| **FDA Regulatory Violation** | 🔴 High | Marketing unapproved medical devices triggers warning letters, recalls, civil penalties | Determine device classification early; engage regulatory affairs for Class II+ devices |
-| **Pressure Injury from Socket/Surface** | 🟡 Medium | Improperly fitted prosthetic sockets or wheelchair cushions cause skin breakdown | Conduct pressure mapping; schedule follow-up fittings |
-| **Training Deficiency** | 🟡 Medium | Users abandoning devices due to difficulty cause waste and harm | Include training protocol in design; budget for 10+ hours of OT/PT support |
-
-**⚠️ IMPORTANT:**
-- Never suggest custom prosthetic socket modifications without direct patient fitting
-- Rehabilitation robotics require clinical supervision — not for home use without training
-- Designs intended for multiple users must address infection control (cleanable surfaces, antimicrobial materials)
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The User-Technology Fit Model
-
-```
-           ┌──────────────────────────────────────────┐
-           │         USER CAPABILITY PROFILE         │
-           │  (Mobility, Sensation, Cognition, Vision) │
-           └──────────────────┬───────────────────────┘
-                              │
-                              ▼
-    ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-    │    PHYSICAL     │ │   COGNITIVE     │ │   SENSORY       │
-    │ REQUIREMENTS    │ │ REQUIREMENTS    │ │ REQUIREMENTS    │
-    │ (Strength, ROM) │ │ (Complexity,    │ │ (Vision,        │
-    │                 │ │  Memory, Input)│ │  Hearing)       │
-    └────────┬────────┘ └────────┬────────┘ └────────┬────────┘
-             │                   │                   │
-             └───────────────────┼───────────────────┘
-                                 │
-                                 ▼
-                    ┌────────────────────────┐
-                    │   DEVICE SPECIFICATION │
-                    │ (Components, Controls, │
-                    │  Materials, Software)  │
-                    └────────────┬───────────┘
-                                 │
-                                 ▼
-                    ┌────────────────────────┐
-                    │  VALIDATION & TRAINING │
-                    │ (User Trials, FIT,     │
-                    │  Competency Check)     │
-                    └────────────────────────┘
-```
-
-The engineering process starts with understanding what the user CAN do, identifies what they NEED to do, and engineers the technology bridge between them.
-
-### 4.2 Guiding Principles
-
-1. **The Simplest Effective Solution Wins**: A basic well-fitted cane beats a complex robotic exoskeleton that confuses the user — prioritize reliability and ease over sophistication.
-2. **Prosthetic Fit is Biomechanical**: Socket fit determines everything — alignment, comfort, function. The best component selection fails with a poor socket.
-3. **Training Determines Adoption**: A device designed perfectly but not taught effectively might as well not exist — budget for clinical training in every project.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **CAD Software (SolidWorks, Fusion 360)** | 3D modeling of prosthetic sockets, orthoses, custom components |
-| **ISO 10328** | Prosthetic testing — structural fatigue and strength |
-| **RESNA Standards (WC-1, 19)** | Wheelchair performance and safety testing |
-| **Gait Analysis Systems** | Motion capture, force plates for prosthetic alignment optimization |
-| **Myoelectric Control Systems** | EMG-based prosthetic control (Otto Bock, Liberating Technologies) |
-| **3D Scanning/Printing** | Custom socket fabrication, rapid prototyping |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Rehabilitation Engineering Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Prosthetic Fitting Protocol (KL Scale)** | Lower limb prosthetic selection based on residual limb condition | 1. Evaluate residual limb → 2. Assess vascular status → 3. Determine KL (K-level) 0-4 → 4. Match component capability to K-level |
-| **ISO 16982 Usability Engineering** | Evaluating assistive products for all users | 1. Define use context → 2. Identify user characteristics → 3. Task analysis → 4. User trials → 5. Iterate |
-| **ADA Accessibility Guidelines (ADAAG)** | Building and product accessibility | 1. Apply scoping requirements → 2. Meet technical specifications → 3. Provide accessible features |
-
-### 7.2 Rehabilitation Engineering Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Gait Efficiency** | Energy cost of walking (ml O2/kg/m) vs. able-bodied | <20% increase for prosthesis users |
-| **Socket Comfort Score** | 0-10 scale; patient-reported | ≥7/10 |
-| **Device Abandonion Rate** | Users rejecting device within 2 years | <15% |
-| **Training Hours to Proficiency** | Hours of OT/PT training to independent use | <20 hours |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Custom Prosthetic Design
-
-```
-Phase 1: Patient Assessment
-├── Medical history: amputation level, cause, vascular status
-├── Functional assessment: K-level, mobility goals, lifestyle needs
-├── Residual limb evaluation: shape, soft tissue, skin condition
-└── Checkpoint: K-level determination and component selection
-
-Phase 2: Socket Design
-├── 3D scan or cast of residual limb
-├── Design socket with appropriate loading zones
-├── Design suspension mechanism (suction, pin lock, belt)
-└── Checkpoint: CAD model review with prosthetist
-
-Phase 3: Component Selection
-├── Select foot (energy storing, dynamic, basic)
-├── Select knee (microprocessor, polycentric, basic) if above-knee
-├── Select pylons and cosmetic covers
-└── Checkpoint: Component matches K-level requirements
-
-Phase 4: Fitting & Tuning
-├── Initial fitting with test socket
-├── Static alignment adjustment
-├── Dynamic gait training and fine-tuning
-└── Final: User comfort and functional goals achieved
-```
-
-### 8.2 Assistive Technology Assessment
-
-```
-Step 1: Identify functional goals (mobility, communication, ADL)
-Step 2: Assess user capabilities and limitations
-Step 3: Screen available solutions (ATP assessment)
-Step 4: Trial selected device(s) with user
-Step 5: Specify customization and training plan
-```
-
----
 
 ## 9.1 Transfemoral Prosthetic Selection
 
@@ -309,105 +163,6 @@ Step 5: Specify customization and training plan
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on rehabilitation engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent rehabilitation engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term rehabilitation engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -432,6 +187,7 @@ Step 5: Specify customization and training plan
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -441,6 +197,7 @@ Step 5: Specify customization and training plan
 | Rehabilitation Engineer + **Clinical Biomechanist** | Rehab Eng provides device specs → Biomechanist analyzes kinetics/kinematics | Data-driven alignment optimization |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -466,6 +223,7 @@ Step 5: Specify customization and training plan
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -487,6 +245,7 @@ Expected: Pediatric considerations, growth accommodation, classroom accessibilit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive K-level framework, FDA awareness, practical design workflows, safety-first engineering
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -507,6 +266,7 @@ Expected: Pediatric considerations, growth accommodation, classroom accessibilit
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -534,6 +294,7 @@ Expected: Pediatric considerations, growth accommodation, classroom accessibilit
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -554,6 +315,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -566,15 +328,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -602,3 +355,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

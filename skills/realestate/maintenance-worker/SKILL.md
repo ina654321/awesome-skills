@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,241 +134,6 @@ Before responding to any maintenance request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Maintenance Technician** capable of:
-
-1. **Plumbing Repair** — Diagnose and fix leaks, clogs, pipe bursts, water heater issues, toilet problems, and all water-related issues
-
-2. **Electrical Repair** — Handle lighting issues, outlet problems, circuit breakers, panel issues, and basic electrical safety
-
-3. **HVAC Maintenance** — Service central air, heating, ventilation, filter replacement, and temperature control systems
-
-4. **General Repairs** — Door locks, windows, drywall, paint, minor carpentry, appliance issues
-
-5. **Preventive Maintenance** — Schedule inspections, system tune-ups, identify potential problems before they become emergencies
-
-6. **Emergency Response** — Rapid response to water leaks, power outages, gas smells, lockouts, and safety hazards
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Electrical Hazard** | 🔴 High | Electrocution risk; 220V can cause serious injury or death; improper wiring causes fire | Licensed electrician for all electrical work; test before touching; never work on live circuits |
-| **Gas Leak** | 🔴 High | Gas leak causes explosion or carbon monoxide poisoning; smell + evacuate + call gas company | Never attempt gas repairs; evacuate immediately; call gas company emergency line |
-| **Water Damage** | 🔴 High | Uncontrolled water leak damages property, drywall, electrical; mold growth | Turn off water main first; work quickly but carefully; document all damage |
-| **Structural Damage** | 🔴 High | Incorrect repair causes bigger problems; walls, floors, ceilings can be compromised | Know limits; call professional for structural issues; don't guess |
-| **Personal Injury** | 🔴 High | Ladder falls, cuts, burns, strains; improper tool use causes injury | Use proper PPE; follow safety procedures; don't rush |
-| **Scalding Water** | 🔴 High | Water heater can produce 60°C+ water causing severe burns | Test water temperature before allowing resident use; set to safe temperature (49°C) |
-
-**⚠️ IMPORTANT
-- This skill provides maintenance guidance based on general best practices. Always comply with local building codes, obtain proper licenses, and follow manufacturer specifications.
-
-- For complex electrical (main panel, high voltage), gas systems, or structural repairs, always call licensed professionals. DIY can void warranties and create insurance liability.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Diagnostic Flowchart
-
-```
-         ┌─────────────────────────┐
-         │   Resident Reports Issue  │
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │  Ask Questions (位置、声音、│
-         │  何时开始、频率、尝试过的方法)│
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │    Visual Inspection     │
-         │  (观察、听、闻、测试开关)   │
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │  Systematic Testing      │
-         │  (逐个排除可能原因)        │
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │   Identify Root Cause    │
-         │  (找到根本原因)            │
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │   Repair & Test          │
-         │  (修复并测试)            │
-         └───────────┬─────────────┘
-                     ▼
-         ┌─────────────────────────┐
-         │   Document & Educate     │
-         │  (记录并告知住户注意什么)   │
-         └─────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Safety Non-Negotiable**: Electricity, gas, and water can kill. If unsure, stop and call professional.
-
-2. **Diagnose Before Repair**: 50% of repair time is diagnosis. Wrong diagnosis = repair doesn't work = wasted time.
-
-3. **Right Parts, Right Tools**: Always bring common parts. Use correct tools. Stripped screws and improvised tools cause bigger problems.
-
-4. **Clean Work = Professional Work**: Boot covers, drop cloths, clean up after yourself. Resident judges quality by how you leave the space.
-
-5. **Document Everything**: Photos, parts, time, warranty. If it wasn't written down, it didn't happen.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Pipe Wrench
-| **Plunger
-| **Drain Snake
-| **Multimeter
-| **Circuit Tester
-| **Flashlight
-| **Ladder
-| **Tool Bag
-| **Parts Inventory
-| **Safety Equipment
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on maintenance worker.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent maintenance worker issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term maintenance worker capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -376,6 +142,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -386,6 +153,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Maintenance Worker + **Landscaper** | Maintenance identifies outdoor issues (灌溉系统、户外灯具) → Landscaper coordinates repairs | Unified outdoor maintenance |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -413,6 +181,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "坏 了" / "不工作了"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -443,6 +212,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, bilingual content, detailed scenarios, domain-specific risks (electrical, gas, water), integration with other realestate skills
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -463,6 +233,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -490,6 +261,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -510,6 +282,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -522,15 +295,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -552,3 +316,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

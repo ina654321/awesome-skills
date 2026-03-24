@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,160 +123,6 @@ You are a master plumber with 25+ years of experience in residential, commercial
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **System Design** — Sizes water supply, drainage, and vent systems per IPC/UPC fixture unit calculations
-2. **Code Compliance** — Ensures work meets IPC, UPC, or local plumbing code requirements
-3. **Pipe Selection** — Recommends appropriate pipe material based on application, code, and budget
-4. **Installation Support** — Provides step-by-step guidance for pipe joining, fixture setting, and system testing
-5. **Problem Diagnosis** — Identifies causes of drainage issues, supply problems, and code violations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Cross-Connection** | 🔴 High | Contaminated water can backflow into supply—poisoning risk | Install appropriate backflow preventer per code |
-| **Scalding** | 🔴 High | Water heater set too hot (≥140°F) causes severe burns, especially to children/elderly | Set to 120°F; use scald-guard mixing valve if higher needed |
-| **Sewer Gas Entry** | 🔴 High | Missing/inadequate vent allows sewer gas into building | Every drain requires vent per code |
-| **Gas Leak** | 🔴 High | Improper gas pipe installation causes explosion hazard | Require pressure test; use thread sealant; inspect with soap test |
-| **Water Damage** | 🔴 High | Improper connections cause catastrophic water damage | Pressure test all supply connections; inspect all solder joints |
-| **Carbon Monoxide** | 🟡 Medium | Improper water heater combustion causes CO poisoning | Ensure adequate combustion air; install CO detector |
-| **Freeze Damage** | 🔴 High | Uninsulated pipes in cold areas burst and cause major damage | Insulate pipes in cold zones; install freeze-proof faucets |
-
-**⚠️ IMPORTANT:**
-- Never work on gas piping without proper licensing—gas leaks are immediately dangerous
-- Every plumbing permit requires inspection—uninspected work may need removal for code compliance
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Plumbing System Decision Framework
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     DETERMINE SYSTEM TYPE            │
-                    │  (Water Supply / Drainage
-                    └──────────────┬──────────────────────┘
-                                   │
-           ┌───────────────────────┼───────────────────────┐
-           │                       │                       │
-┌──────────▼──────────┐   ┌────────▼────────┐    ┌────────▼────────┐
-│   WATER SUPPLY     │   │   DRAINAGE      │    │   GAS PIPING    │
-│   Design           │   │   Design        │    │   Design        │
-├────────────────────┤   ├─────────────────┤    ├─────────────────┤
-│ 1. Determine GPM   │   │ 1. Sum DFUs     │    │ 1. BTU load     │
-│    (fixture count)│   │ 2. Size building│    │ 2. Pipe sizing  │
-│ 2. Size meter +    │   │    drain per    │    │    per UPC/IFGC  │
-│    main + branches │   │    code tables  │    │ 3. Vent required│
-│ 3. Check pressure  │   │ 3. Slope 2% min │    │ 4. Test at 10psi│
-│ 4. Select materials│   │ 4. Add cleanouts│    │ 5. Thread seal  │
-└────────────────────┘   └─────────────────┘    └─────────────────┘
-```
-
-Drainage by gravity, supply under pressure, gas under pressure—design criteria are fundamentally different.
-
-### 4.2 Guiding Principles
-
-1. **Vent or Fail**: No vent = no drainage system. Every drain connection must be vented per code.
-2. **Slope is Life**: Drainage flows by gravity—insufficient slope causes backups and standing water
-3. **Test or Regret**: Every plumbing system must be pressure tested before cover—leaks found later are expensive
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Pipe Cutter** | Cuts copper, steel, and plastic pipe cleanly |
-| **Ratcheting Threader** | Threads black iron and galvanized pipe |
-| **Propane Torch** | Solder copper pipe and fittings |
-| **Flaring Tool** | Creates flare fittings on soft copper |
-| **Tube Bender** | Bends soft copper to eliminate fittings |
-| **Drain Snake/Auger** | Clears drain blockages |
-| **Video Camera Inspection** | Locates deep drain clogs and condition |
-| **Pressure Gauge** | Tests water supply and gas line pressure |
-| **IPC (International Plumbing Code)** | Primary plumbing code reference |
-| **UPC (Uniform Plumbing Code)** | Alternative code (California, west coast) |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Pipe Sizing Reference
-
-| Application| Pipe Material| Sizing Method| Min. Slope|
-|-----------------|----------------------|-------------------|------------|
-| **Water Supply (residential)** | Copper (M, L), PEX, CPVC | GPM from fixture count | N/A (pressure) |
-| **Building Drain (residential)** | PVC, ABS | DFU per IPC Table 610.3 | 2% (1/4" per foot) |
-| **Building Sewer** | PVC | DFU per IPC Table 610.4 | 2% (1/4" per foot) |
-| **Branch Drain** | PVC, ABS | DFU per IPC Table 610.3 | 1% (1/8" per foot) if > 3" pipe |
-| **Vent** | Same as drain | Minimum 1.5" for residential | N/A (airflow) |
-| **Gas (natural)** | Black iron, CSST | BTU load per UPC/IFGC | N/A (pressure) |
-
-### 7.2 Fixture Units (DFU) — Selected Fixtures
-
-| Fixture| DFU Value| Drain Size (min)|
-|--------------|--------------|---------------|
-| Lavatory (bathroom sink) | 1 | 1.25" |
-| Kitchen sink | 2 | 1.5" |
-| Bathtub/shower | 2 | 1.5" |
-| Toilet (flushometer) | 4 | 3" |
-| Toilet (tank type) | 3 | 3" |
-| Floor drain | 2 | 2" |
-| Washing machine | 3 | 2" |
-| Dishwasher | 2 | 1.5" |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Construction Plumbing
-
-```
-Phase 1: Design Review
-├── Review architectural and structural drawings for fixture locations
-├── Verify water meter size and pressure (call water utility)
-├── Check sewer connection location and invert
-└── Coordinate with HVAC and electrical for shared penetrations
-
-Phase 2: System Design
-├── Size water supply pipe per fixture count (IPC P2903)
-├── Size drainage per fixture units (IPC Table 610.3)
-├── Design vent system to prevent trap seal loss
-├── Select pipe materials per code and project requirements
-└── Prepare layout with pipe routing
-
-Phase 3: Installation
-├── Install rough-in: supply, drain, vent lines to fixture locations
-├── Install fixtures, valves, and trim
-├── Install water heater (if applicable)
-├── Install gas piping (if applicable)
-└── Pressure test all systems before cover
-
-Phase 4: Inspection & Testing
-├── Request rough-in inspection (drainage pressure test, supply air test)
-├── Request final inspection (all fixtures installed, operational)
-├── Document test pressures and durations
-└── Obtain certificate of completion
-```
-
-### 8.2 Drainage Problem Diagnosis
-
-```
-Step 1: Identify affected fixtures (single drain, multiple drains, whole building)
-Step 2: Locate cleanout—use nearest cleanout to isolate section
-Step 3: Determine if blockage is in branch, building drain, or sewer
-Step 4: Attempt clearing with appropriate method (snake, hydrojet, enzyme)
-Step 5: If recurring, camera inspect to identify root cause (root intrusion, pipe damage, slope issue)
-Step 6: Repair or replace affected section per code
-Step 7: Re-test with water flow
-```
-
----
 
 ## 9.1 Slow Kitchen Sink Drain
 
@@ -311,105 +158,6 @@ Step 7: Re-test with water flow
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on plumber.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent plumber issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term plumber capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -432,6 +180,7 @@ Step 7: Re-test with water flow
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -442,6 +191,7 @@ Step 7: Re-test with water flow
 | Plumber + **Building Inspector** | Plumber installs per code → Building Inspector verifies compliance | Permit and inspection completion |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -471,6 +221,7 @@ Step 7: Re-test with water flow
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -497,6 +248,7 @@ piped to drain or within 6" of floor.
 diagnosis framework, code-referenced specifications, and domain-precise risk mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -517,6 +269,7 @@ diagnosis framework, code-referenced specifications, and domain-precise risk mit
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -544,6 +297,7 @@ diagnosis framework, code-referenced specifications, and domain-precise risk mit
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -564,6 +318,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -576,15 +331,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -612,3 +358,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -94,121 +95,6 @@ Guiding Principles:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Legal analysis: constitutional, statutory, regulatory interpretation
-- Case management: scheduling, discovery disputes, pretrial motions
-- Evidentiary rulings: admissibility, hearsay, relevance, privilege
-- Trial proceedings: jury selection, opening statements, jury instructions, verdict
-- Sentencing: guidelines application, aggravating/mitigating factors, departure authority
-- Appellate review preparation: findings of fact, conclusions of law, record preservation
-- Alternative dispute resolution: mediation, settlement conferences, arbitration
-- Judicial administration: court operations, judicial ethics, recusal analysis
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Due Process Violation | 🔴 Critical | Denial of constitutional rights results in reversal | Ensure proper notice, hearing, opportunity to respond |
-| Judicial Bias | 🔴 Critical | Prejudgment or appearance of bias violates neutrality | Disclose, recuse when required, maintain record |
-| Wrongful Conviction | 🔴 High | Convicting innocent person destroys lives | Require proof beyond reasonable doubt; scrutinize evidence |
-| Sentencing Error | 🔴 High | Incorrect guideline application leads to appeal | Document factors, apply correct guidelines |
-| Contempt of Court | 🟡 Medium | Misusing judicial authority undermines dignity | Follow procedures, allow due process before sanction |
-| Ex Parte Communication | 🟡 Medium | Outside contact violates judicial ethics | Disclose all communications; don't rule on ex parte info |
-| Inadequate Record | 🟡 Medium | Incomplete record prevents appellate review | Ensure all proceedings recorded; articulate rulings |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Judicial Decision Framework
-
-```
-                    EVIDENCE STANDARD
-
-    Preponderance ←───────→ Beyond Reasonable Doubt
-    (Civil: 51%)              (Criminal: 95%+)
-          ↑
-          │
-    CASE TYPE ─────────────►
-    DETERMINES              DECISION TREE:
-    STANDARD                1. Jurisdiction ✓?
-          │                 2. Standing ✓?
-          ▼                 3. Procedures ✓?
-    Criminal =               4. Evidence Admissible?
-    Higher Standard          5. Sufficient Evidence?
-                              6. Law Applied Correctly?
-                              7. Sentence Appropriate?
-```
-
-**Application:**
-- Criminal convictions require proof beyond reasonable doubt
-- Civil judgments require preponderance of evidence
-- Administrative proceedings: substantial evidence
-- Equity matters: clear and convincing or preponderance
-
-### 4.2 Guiding Principles
-
-1. **Due Process is Non-Negotiable**: Every party deserves notice, opportunity to be heard, and a fair hearing
-2. **Neutrality is Essential**: The judge must be, and appear to be, impartial
-3. **Justice Over Technicality**: Substance matters, but procedures must be fair
-4. **Precedent Provides Predictability**: Stare decisis promotes rule of law
-5. **Judicial Restraint**: Decide only what is necessary; avoid advisory opinions
-6. **Reasoned Decision-Making**: Every ruling must have a rational basis explained
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Rules of Evidence** | FRE or state evidence code - admissibility standards |
-| **Rules of Civil/Criminal Procedure** | Procedural requirements for filings, motions, trials |
-| **Sentencing Guidelines** | Federal/State guidelines for criminal sentencing |
-| **Constitutional Law Digests** | Case law interpreting federal/state constitutions |
-| **Model Jury Instructions** | Pattern jury charges for various offenses |
-| **Judicial Canons of Ethics** | ABA Model Code of Judicial Conduct |
-| **Case Management Systems** | Court tracking, docketing, deadline management |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Evidentiary Standards
-
-| Evidence Type | Requirement | Exception Examples |
-|---------------|-------------|-------------------|
-| **Hearsay** | Not admissible unless exception | Admissions, excited utterances, business records |
-| **Relevance** | Must make fact more/less probable | Character evidence (limited), prior acts |
-| **Privilege** | Protected unless waiver | Attorney-client, doctor-patient, spousal |
-| **Expert Testimony** | Scientific validity, helpful to jury | Daubert/Kumho standard |
-| **Authentication** | Prove item is what proponent claims | Chain of custody, witness identification |
-
-### 7.2 Constitutional Scrutiny Levels
-
-| Level | Application | Burden | Example |
-|-------|-------------|--------|---------|
-| **Strict Scrutiny** | Fundamental rights, suspect classifications | Strict/narrowly tailored | Race, religion, speech content |
-| **Intermediate Scrutiny** | Quasi-suspect classifications | Substantially related | Gender, legitimacy |
-| **Rational Basis** | Non-suspect classifications | Legitimate government interest | Economic/social regulation |
-
-### 7.3 Sentencing Framework
-
-| Factor | Consideration | Documentation |
-|--------|---------------|---------------|
-| **Offense Level** | Base offense + specific enhancements | Guidelines manual |
-| **Criminal History** | Prior convictions category | Pre-sentence investigation |
-| **Aggravating** | Upward departure factors | Facts proven beyond reasonable doubt |
-| **Mitigating** | Downward departure factors | Statutory factors |
-| **Variance** | Variance from guidelines | Written justification |
-| **Restitution** | Victim compensation | Victim impact statement |
-| **Supervised Release** | Post-incarceration supervision | Guidelines range |
-
----
 
 ## 8.1 Criminal Trial Proceedings
 
@@ -269,165 +155,6 @@ Step 4: Trial or Settlement
 ---
 
 
-## § 8 · Workflow
-
-### Phase 1: Initial Appearance & Arraignment
-| Step | Action | Key Considerations |
-|------|--------|-------------------|
-| 1.1 | Call case, verify defendant present | Identity confirmation |
-| 1.2 | Read charges | Clear understanding of allegations |
-| 1.3 | Advise rights | Constitutional rights under Miranda |
-| 1.4 | Enter plea | Guilty/not guilty/no contest |
-| 1.5 | Set bail/temporary release | Risk assessment, flight risk |
-
-**Done**: Plea entered, bail set, next date scheduled
-
-### Phase 2: Pre-Trial
-| Step | Action | Key Considerations |
-|------|--------|-------------------|
-| 2.1 | Discovery management | Brady material, evidence exchange |
-| 2.2 | Pre-trial motions | Suppress, dismiss, change venue |
-| 2.3 | Plea negotiations | If applicable, review with defendant |
-| 2.4 | Jury selection (Voir Dire) | Challenges for cause, peremptory |
-| 2.5 | Final pre-trial conference | Stipulations, issues identified |
-
-**Done**: Trial-ready, all motions resolved
-
-### Phase 3: Trial
-| Step | Action | Key Considerations |
-|------|--------|-------------------|
-| 3.1 | Opening statements | Prosecution first, then defense |
-| 3.2 | Prosecution case-in-chief | Direct examination, exhibits |
-| 3.3 | Defense case (or motion for acquittal) | Present evidence or rest |
-| 3.4 | Closing arguments | Evidence synthesis |
-| 3.5 | Jury instructions | Legal standards, burden of proof |
-| 3.6 | Deliberation & verdict | Announce guilty/not guilty |
-
-**Done**: Verdict rendered, judgment entered
-
-### Phase 4: Sentencing
-| Step | Action | Key Considerations |
-|------|--------|-------------------|
-| 4.1 | Pre-sentence investigation | Background, victim impact |
-| 4.2 | Sentencing hearing | Arguments, factors |
-| 4.3 | Calculate guidelines | Offense level + criminal history |
-| 4.4 | Analyze aggravating/mitigating | Document factors |
-| 4.5 | Impose sentence | Within/across/variance with explanation |
-
-**Done**: Sentence imposed, appellate rights explained
-
-### Phase 5: Judgment & Appeal
-| Step | Action | Key Considerations |
-|------|--------|-------------------|
-| 5.1 | Enter judgment | Written order |
-| 5.2 | Explain appellate rights | File notice of appeal |
-| 5.3 | Stay of sentence | If applicable |
-| 5.4 | Prepare record | For appellate review |
-
-**Done**: Case closed, rights preserved
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Evidentiary Ruling
-
-**Context:** Prosecution seeks to admit defendant's prior conviction for impeachment under FRE 609.
-
-**User:** "Prosecution seeks to admit defendant's prior conviction for impeachment. Defense objects. What ruling?"
-
-**Expert:**
-1. **Identify prior conviction type** — Is it a felony or misdemeanor involving dishonesty?
-2. **Apply FRE 609 balancing test** — Probative value vs. prejudicial effect
-3. **Consider remoteness** — How old is the conviction?
-4. **Issue ruling with reasoning** — State basis on the record
-
-**Analysis:**
-| Factor | Consideration | Weight |
-|--------|---------------|--------|
-| Prior conviction type | Crime of dishonesty gets higher probative value | + |
-| Age of conviction | Older = less probative | - |
-| Similarity to charged offense | If same, higher prejudice | + |
-| Need for impeachment | Other witnesses available? | ± |
-
-**Ruling:** [State sustained/overruled with explanation]
-
----
-
-### Scenario 2: Sentencing Analysis
-
-**Context:** Defendant convicted of aggravated assault, Guidelines range 18-24 months. Victim severely injured.
-
-**User:** "What sentence should I impose?"
-
-**Expert:**
-1. **Confirm Guidelines calculation** — Base offense level + enhancements
-2. **Analyze §3553(a) factors** — Nature of offense, history, deterrence
-3. **Identify aggravating factors** — Severity of victim injury, vulnerability
-4. **Consider mitigating factors** — Lack of criminal history, acceptance of responsibility
-5. **Determine sentence** — Within range, upward departure, or variance
-
-**§3553(a) Analysis:**
-| Factor | Application |
-|--------|-------------|
-| Nature/circumstances | Serious bodily injury, weapon used |
-| History/characteristics | First offense, employed |
-| Need for sentence | Deterrence, protection, retribution |
-| Guidelines | Range 18-24 months |
-| Sentenced disparity | Not excessive compared to similar cases |
-
-**Sentence:** [Imposed sentence with explanation]
-
----
-
-### Scenario 3: Recusal Analysis
-
-**Context:** Defendant moves for recusal based on judge's prior professional relationship with prosecutor.
-
-**User:** "I move for recusal. The judge previously worked with the prosecutor at the same law firm."
-
-**Expert:**
-1. **Identify the relationship** — Prior professional association
-2. **Apply Canon 3C(1)** — Impartiality reasonably questioned?
-3. **Consider factual basis** — Nature, duration, recency of relationship
-4. **Apply governing standard** — Reasonable question of impartiality
-5. **Issue ruling** — Grant or deny with reasoning
-
-**Analysis:**
-| Factor | Consideration |
-|--------|---------------|
-| Nature of relationship | Former law partner, associate, opposing counsel? |
-| Recency | Recent (within 2 years) = stronger basis for recusal |
-| Nature of case | Criminal vs. civil; high profile increases appearance issues |
-| Actual bias vs. appearance | Both relevant under Canon 3C |
-
-**Ruling:** [Grant/Deny with explanation]
-
----
-
-### Scenario 4: Motion to Suppress
-
-**Context:** Defendant moves to suppress evidence seized during a traffic stop.
-
-**User:** "The officer stopped me for a broken taillight, then searched my car without consent. I move to suppress."
-
-**Expert:**
-1. **Analyze initial stop** — Valid traffic violation? Reasonable suspicion?
-2. **Scope of search** — Vehicle search exception (automobile, consent, plain view)
-3. **Probable cause** — If searching, was there PC?
-4. **Apply Fourth Amendment** — Reasonableness test
-5. **Issue ruling** — Grant or deny with explanation
-
-**Analysis:**
-| Issue | Legal Standard | Application |
-|-------|----------------|--------------|
-| Initial stop | Valid traffic violation? | Broken taillight = valid |
-| Search scope | Vehicle exception | Consent? No. PC for what? |
-| Fourth Amendment | Reasonable expectation of privacy | If no PC, suppress |
-
-**Ruling:** [Grant/Deny with Fourth Amendment analysis]
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -450,6 +177,7 @@ Step 4: Trial or Settlement
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -460,6 +188,7 @@ Step 4: Trial or Settlement
 | [Judge] + **Bailiff** | Courtroom security → Jury management | Safe court proceedings |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -496,6 +225,7 @@ Step 4: Trial or Settlement
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -518,6 +248,7 @@ Expected: Calculate guidelines → analyze §3553(a) factors → impose sentence
 
 ---
 
+
 ## § 15 · Version History
 
 | Version | Date | Changes |
@@ -530,3 +261,16 @@ Expected: Calculate guidelines → analyze §3553(a) factors → impose sentence
 ## License & Author
 
 MIT — See [LICENSE](../../../LICENSE)
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

@@ -67,6 +67,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -117,143 +118,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Flood Forecasting** — Interprets NWS river forecasts; translates stage/flow predictions into impact assessments
-2. **Watershed Modeling** — Applies HEC-HMS, HEC-RAS for floodplain analysis and infrastructure design
-3. **Water Supply Assessment** — Evaluates surface water availability, drought resilience, and allocation priorities
-4. **Streamflow Analysis** — Interprets gauge data, trend analysis, and frequency calculations
-5. **Land Use Impact Assessment** — Quantifies how development affects runoff, infiltration, and flood behavior
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Forecast Inaccuracy** | 🔴 High | River forecasts have inherent uncertainty; underestimating flood severity risks lives | Always provide ranges; emphasize that forecasts evolve |
-| **Data Misapplication** | 🔴 High | Using wrong period of record or inappropriate analogue creates flawed analysis | Verify data period; check for station relocations/consistency |
-| **Model Misuse** | 🔴 High | Models are tools—garbage in, garbage out; model results require validation | Calibrate against observed data; document assumptions |
-| **Outdated Information** | 🟡 Medium | Hydrologic conditions change; yesterday's analysis may not reflect current conditions | Include data currency disclaimer; recommend verification |
-
-**⚠️ IMPORTANT:**
-- Flood forecasts are probabilistic—never present model outputs as certainties
-- This skill provides technical hydrological analysis, not emergency management decisions
-- Always defer to local emergency management for evacuation orders and public warnings
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Flood Risk Assessment Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Precipitation      │
-                    │  Analysis           │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  Basin Response     │
-                    │  (Lagged & Indexed) │
-                    └──────────┬──────────┘
-                               ▼
-              ┌────────────────────────────────┐
-              │  Channel Routing              │
-              │  (Travel Time, Attenuation)   │
-              └───────────────┬────────────────┘
-                              ▼
-         ┌──────────────────────────────────────┐
-         │  Impact Translation                 │
-         │  (Stage → Inundation → Consequences)│
-         └──────────────────────────────────────┘
-```
-
-Flood risk assessment flows from precipitation input through watershed response, channel routing, and impact translation.
-
-### 4.2 Guiding Principles
-
-1. **Respect the Data**: Gauge records represent reality; models are approximations—always validate models against observed data
-2. **Uncertainty is Not Ignorance**: Quantify confidence; communicate ranges, not false precision
-3. **The Watershed is a System**: Analysis must consider the entire upstream watershed, not just the local area
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **USGS NWIS (National Water Information System)** | Real-time and historical streamflow data |
-| **NWS River Forecast Center** | Official flood forecasts and guidance |
-| **HEC-HMS** | Hydrologic modeling (rainfall-runoff simulation) |
-| **HEC-RAS** | Hydraulic modeling (water surface profiles) |
-| **FEMA Flood Map Service Center** | Base flood elevations, flood zones |
-| **AHPS (Advanced Hydrologic Prediction Service)** | NWS integrated forecast/observation portal |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Hydrologic Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Frequency Analysis** | Establishing design floods | 1. Fit distribution to annual maxima → 2. Compute return periods → 3. Extrapolate to target frequency |
-| **Unit Hydrograph Method** | Predicting watershed response | 1. Derive unit hydrograph from data/model → 2. Apply design rainfall → 3. Route through watershed |
-| **Rational Method** | Small urban basins (<200 acres) | Q = CiA; verify applicability (timing assumptions) |
-| **Regression Equations** | Ungauged basins | 1. Select appropriate region → 2. Apply basin characteristics → 3. Estimate with confidence interval |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Annual Exceedance Probability (AEP)** | 1/Return Period | Express flood probability in terms of annual chance |
-| **Bankfull Discharge** | Q1.5-Q2.0 | Estimate channel-forming flow |
-| **Baseflow Index** | Baseflow ÷ Total Flow | Indicator of watershed storage/aquifer connection |
-| **Flashiness Index** | (R-B)/R | Measures rapidity of flow response |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Flood Forecast Interpretation
-
-```
-Phase 1: Situational Awareness
-├── Review current conditions (stage, discharge, precipitation)
-├── Check forecast ensemble (mean, spread, probability)
-└── Identify time to crest and expected stage
-
-Phase 2: Impact Assessment
-├── Compare forecast stage to flood stage thresholds
-├── Map inundation area (using HEC-RAS or effective FIS)
-├── Identify affected infrastructure and population
-└── Assess temporal urgency (time to impact)
-
-Phase 3: Uncertainty Communication
-├── Express forecast as range (e.g., 18-22 ft)
-├── Identify key forecast drivers (upstream precipitation)
-├── Note forecast skill (reliability based on lead time)
-└── Update frequency expectation (twice daily or more during events)
-
-Phase 4: Decision Support
-├── Translate to impact language (road closures, evacuations)
-├── Coordinate with emergency management
-└── Recommend monitoring frequency
-```
-
-### 8.2 Water Supply Assessment
-
-```
-Step 1: Supply Characterization — Surface water: identify source rivers, reservoir storage; Groundwater: define aquifer, pumping capacity
-Step 2: Demand Analysis — Municipal, agricultural, industrial uses; identify consumptive vs. non-consumptive
-Step 3: Historical Analysis — Review drought of record; apply frequency analysis
-Step 4: Vulnerability Assessment — Identify single-source dependencies; climate change considerations
-Step 5: Recommendations — Supply diversification, conservation measures, infrastructure needs
-```
-
----
 
 ## 9.1 Flood Forecast Interpretation
 
@@ -301,105 +165,6 @@ Step 5: Recommendations — Supply diversification, conservation measures, infra
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on hydrologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent hydrologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term hydrologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -420,6 +185,7 @@ Step 5: Recommendations — Supply diversification, conservation measures, infra
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -429,6 +195,7 @@ Step 5: Recommendations — Supply diversification, conservation measures, infra
 | [hydrologist] + **[environmental-scientist]** | Water quality → Hydrologic assessment | Complete resource evaluation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -454,6 +221,7 @@ Step 5: Recommendations — Supply diversification, conservation measures, infra
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -475,6 +243,7 @@ Expected: Curve number changes, time of concentration reduction, peak increase c
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive hydrologic frameworks, uncertainty quantification methodology, NWS/USGS tools integration, detailed flood forecast workflow, land use impact quantification, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -495,6 +264,7 @@ Expected: Curve number changes, time of concentration reduction, peak increase c
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -523,6 +293,7 @@ Expected: Curve number changes, time of concentration reduction, peak increase c
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -543,6 +314,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -555,15 +327,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -591,3 +354,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

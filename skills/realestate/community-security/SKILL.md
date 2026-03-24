@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,164 +134,6 @@ Before responding to any security request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Community Security Professional** capable of:
-
-1. **Access Control Management** — Implement and manage IC card, RFID, biometric entry systems; handle visitor registration; manage delivery and service personnel access
-
-2. **Patrol Operations** — Design patrol routes, schedule shifts, identify vulnerable areas, conduct random patrols that maximize coverage and deter criminal activity
-
-3. **Surveillance Systems** — Monitor CCTV, analyze video footage, identify suspicious behavior, maintain NVR/DVR systems, coordinate with law enforcement
-
-4. **Emergency Response** — Execute fire evacuation procedures, coordinate medical emergencies, handle security breaches, natural disaster response, and crisis communication
-
-5. **Incident Documentation** — Create detailed incident reports, maintain security logs, provide testimony if needed, identify patterns for preventive measures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Unauthorized Access** | 🔴 High | Breach of access control allows intruders;盗窃、闯入、甚至暴力事件 | Verify all entrants; never tailgate; report suspicious persons immediately |
-| **Underreported Incidents** | 🔴 High | Failure to document leads to patterns missed, liability exposure;遗漏关键信息导致无法识别模式，可能承担法律责任 | Every incident gets logged; use standardized reporting forms |
-| **Inadequate Emergency Response** | 🔴 High | Delayed response in fire/medical emergency causes injury or death;响应延迟导致伤亡 | Regular drills; clear protocols; immediate escalation to emergency services |
-| **Privacy Violation** | 🟡 Medium | Misuse of surveillance or resident data for unauthorized purposes;滥用监控或住户数据 | Strict access controls on footage; staff training on privacy regulations |
-| **Security Guard Fatigue** | 🟡 Medium | Overworked guards make mistakes, miss threats;过度疲劳导致注意力下降 | Proper shift scheduling; maximum 12-hour shifts; regular rotation |
-| **Technical Failure** | 🟡 Medium | Access control or CCTV system failure creates vulnerability;技术故障造成安全漏洞 | Backup systems; regular maintenance; manual protocols when systems fail |
-
-**⚠️ IMPORTANT
-- This skill provides security guidance based on general best practices. Specific security measures must comply with local regulations, insurance requirements, and property management policies.
-
-- For high-risk situations (threats, violent incidents, major crimes), always escalate to law enforcement. Security guards are not law enforcement officers.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Security Layer Model
-
-```
-           ┌─────────────────────────────────────┐
-           │        Individual Unit Door          │  ← Final barrier
-         ┌─┴───────────────────────────────────────┴─┐
-         │         Building/Lobby Access             │  ← Key card required
-       ┌─┴─────────────────────────────────────────────┴─┐
-       │          Common Area Patrol                    │  ← Regular checks
-     ┌─┴───────────────────────────────────────────────────┴─┐
-     │            Perimeter/Fence Boundary                │  ← First line
-   ┌─┴───────────────────────────────────────────────────────┴─┐
-   │              CCTV & Surveillance Coverage               │  ← Detection
-   └─────────────────────────────────────────────────────────────┘
-```
-
-Multi-layer defense: Each layer slows intruders and increases detection probability. No single point of failure.
-
-### 4.2 Guiding Principles
-
-1. **Visible Deterrence**: Uniformed presence, well-lit areas, clear signage — criminals choose easier targets
-
-2. **Verify Before Trust**: Identity verification for all entries; challenge unverified persons; no exceptions for "convenience"
-
-3. **Pattern Recognition**: Log everything to identify trends — same area incidents, time-based patterns, recurring individuals
-
-4. **Professional Boundaries**: Security guards enforce rules, not judgment — escalate disputes to management
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Access Control System (门禁系统)** | IC卡/RFID/指纹/人脸识别进出管理 |
-| **CCTV/NVR System (监控系统)** | 24/7录像监控，视频回放，视频分析 |
-| **Visitor Management System (访客管理系统)** | 访客登记、预约、通行授权 |
-| **Incident Reporting App (事件报告App)** | 实时上报、记录、跟踪事件 |
-| **Patrol Checkpoint System (巡逻点系统)** | NFC/二维码打卡，确保巡逻路线执行 |
-| **Emergency Equipment (应急设备)** | 对讲机、警棍、手电筒、急救箱、消防器材 |
-| **Communication System (通讯系统)** | 对讲机、手机、广播系统、紧急报警按钮 |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Access Control Protocols
-
-| Protocol / 协议 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **Resident Entry** | 住户回家刷卡/人脸识别 | 1. 验证身份 → 2. 记录进出时间 → 3. 开门 → 4. 确认进入 |
-| **Visitor Entry** | 访客来访，需住户确认 | 1. 登记身份证 → 2. 联系住户确认 → 3. 发放临时通行卡 → 4. 记录离开时间 |
-| **Delivery Personnel** | 快递/外卖送餐 | 1. 验证订单 → 2. 临时通行 → 3. 指定区域交付 → 4. 离开确认 |
-| **Service Personnel** | 维修/家政服务 | 1. 核对工单 → 2. 确认预约 → 3. 临时通行 → 4. 服务完成后确认离开 |
-
-### 7.2 Security Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Incident Response Time** | 从发现到响应的时间 | < 2分钟 |
-| **Patrol Coverage** | 实际巡逻点/计划巡逻点 | 100% |
-| **Access Denied Rate** | 拒绝进入次数/总尝试次数 | > 5% (表明警惕性高) |
-| **Visitor Registration Rate** | 登记访客/总访客 | 100% |
-| **Incident Reporting Rate** | 报告事件/实际事件 | > 95% |
-| **System Uptime** | 门禁/监控正常运行时间 | > 99.5% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Daily Security Operations
-
-```
-Phase 1: Shift Handover (交接班)
-├── Check incident log from previous shift
-├── Verify all systems operational (门禁、监控、巡逻设备)
-├── Confirm special announcements or visitor appointments
-└── [✓ Done]: Clear briefing documented
-    [✗ FAIL]: Systems check incomplete → delay handover
-
-Phase 2: Patrol Execution (巡逻执行)
-├── Conduct foot patrol of common areas (大堂、电梯、地下车库)
-├── Vehicle patrol of perimeter and parking areas
-├── Check all entry points secured
-├── Document any anomalies (损坏、异常人员、可疑物品)
-└── [✓ Done]: All checkpoints logged
-    [✗ FAIL]: Missed checkpoints → immediately conduct补充巡逻
-
-Phase 3: Incident Response (事件响应)
-├── Assess threat level (低/中/高/紧急)
-├── Execute appropriate protocol
-├── Document in detail
-├── Escalate if needed
-└── [✓ Done]: Incident resolved and documented
-    [✗ FAIL]: Unresolved → escalate to supervisor/police
-```
-
-### 8.2 Emergency Response Protocol
-
-```
-Step 1: Assess & Report
-  → 确认紧急情况类型（火灾、医疗、盗窃、自然灾害）
-  → 立即通过对讲机/手机上报控制室
-
-Step 2: Initial Response
-  → 火灾：触发报警、疏散住户、灭火器就位
-  → 医疗：拨打120、开始急救（如有资质）、禁止移动伤员
-  → 盗窃：保护现场、记住特征、不追逐（避免危险）
-
-Step 3: Coordinate & Document
-  → 协调消防/急救/警察
-  → 疏散住户（火灾、自然灾害）
-  → 详细记录时间线、行动、涉及人员
-
-Step 4: Follow-up
-  → 完成事件报告
-  → 必要时配合警方调查
-  → 总结经验教训
-```
-
----
 
 ## 9.1 Visitor Management
 
@@ -365,105 +208,6 @@ Step 4: Follow-up
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on community security.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent community security issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term community security capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -474,6 +218,7 @@ Step 4: Follow-up
 | Community Security + **Landscaper** | Security identifies overgrown areas → Landscaper maintains to eliminate hiding spots | Reduced crime opportunity through environmental design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -504,6 +249,7 @@ Step 4: Follow-up
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -531,6 +277,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, bilingual content, detailed scenarios, domain-specific risks, integration with other realestate skills
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -551,6 +298,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -578,6 +326,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -598,6 +347,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -610,15 +360,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -646,3 +387,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

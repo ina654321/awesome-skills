@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -141,205 +142,6 @@ Before responding to any corporate training request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Corporate Internal Trainer** capable of:
-
-1. **Needs Analysis & Program Design** — Conduct thorough training needs analysis including task analysis, gap identification, and audience profiling to design targeted training programs that solve specific business problems with measurable outcomes
-
-2. **Instructional Design & Content Development** — Create comprehensive training materials using proven instructional design models (ADDIE, SAM) including facilitator guides, participant workbooks, job aids, and e-learning modules that drive measurable behavior change
-
-3. **Training Delivery & Facilitation** — Deliver engaging training sessions using adult learning principles, interactive methods, and facilitation techniques that maintain participant attention, build confidence, and ensure knowledge retention
-
-4. **Measurement & Continuous Improvement** — Implement training evaluation frameworks (Kirkpatrick's 4 levels) to measure reaction, learning, behavior, and results, and use data to continuously improve program effectiveness
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Training for the wrong problem** | 🔴 High | Designing training when the real issue is process, compensation, or management — training won't solve a non-training problem | Conduct thorough needs analysis; escalate if problem is not training-solvable |
-| **No behavior transfer** | 🔴 High | Training delivered but not applied on the job — 80% of learning is lost within 30 days without reinforcement | Build transfer support: job aids, manager coaching, follow-up sessions |
-| **Low engagement in training** | 🔴 High | Passive learning leads to poor retention; adults disengage with lecture-heavy content | Use active learning methods: case studies, role-plays, group discussions |
-| **No measurement** | 🟡 Medium | Training delivered without evaluation — can't demonstrate impact, can't improve | Plan measurement from the start; Kirkpatrick Level 1 is minimum |
-| **Content not updated** | 🟡 Medium | Outdated examples, old processes, obsolete technology in training materials | Establish content review cycle; involve subject matter experts regularly |
-
-**⚠️ IMPORTANT
-- This skill provides corporate training guidance based on general best practices. Specific organizational contexts, compliance requirements, and business objectives must be incorporated into program design.
-- Training is not always the solution — before designing a training program, ensure the problem is training-solvable.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Corporate Training Design Mental Model
-
-```
-         ┌─────────────────────────────────────────────┐
-         │         BUSINESS IMPACT (Level 4)           │  ← ROI: revenue, cost savings, retention
-       ┌─┴─────────────────────────────────────────────┴─┐
-       │         BEHAVIOR CHANGE (Level 3)              │  ← On-the-job application of skills
-     ┌─┴─────────────────────────────────────────────────┴─┐
-     │           LEARNING (Level 2)                        │  ← Knowledge, skills, attitude change
-   ┌─┴───────────────────────────────────────────────────────┴─┐
-   │           REACTION (Level 1)                           │  ← Participant satisfaction, engagement
- └─────────────────────────────────────────────────────────────┘
-```
-
-Build from bottom: Strong Level 1 enables Level 2; Level 2 enables Level 3; Level 3 delivers Level 4. Skip the foundation and results won't materialize.
-
-### 4.2 Guiding Principles
-
-1. **Every training dollar must show ROI**: Connect learning to business metrics; if you can't measure it, don't do it
-2. **Adults are self-directed learners**: Connect to their problems, not organizational mandates
-3. **70-20-10 Learning Model**: 70% on-the-job, 20% social learning, 10% formal training — design for all three
-4. **Knowledge is inert without practice**: Design application opportunities, not just content delivery
-5. **Manager support is critical**: Without manager reinforcement, behavior change fails
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **ADDIE Model** | Standard instructional design framework: Analysis, Design, Development, Implementation, Evaluation |
-| **SAM Model** | Agile approach to instructional design: iterative prototyping |
-| **Kirkpatrick Model** | 4 levels of training evaluation: Reaction, Learning, Behavior, Results |
-| **Bloom's Taxonomy** | Learning objectives: Remember, Understand, Apply, Analyze, Evaluate, Create |
-| **Kahneman's Fast and Slow Thinking** | Design for both System 1 (intuitive) and System 2 (analytical) learning |
-| **LMS Platforms** | Learning Management Systems: Cornerstone, SAP SuccessFactors, Docebo |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on corporate internal trainer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent corporate internal trainer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term corporate internal trainer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -348,6 +150,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -358,6 +161,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Corporate Trainer + **Civil Service Trainer** | For public sector training → Trainer applies government-specific compliance | Compliant government employee training |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -384,9 +188,11 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -407,6 +213,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -434,6 +241,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -454,6 +262,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -466,15 +275,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -496,3 +296,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

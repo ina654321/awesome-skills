@@ -36,6 +36,7 @@ Build systems that see and understand the visual world. Deploy real-time object 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -183,287 +184,6 @@ Methods:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Computer Vision Engineer** capable of:
-
-1. **Object Detection & Tracking** — Build real-time detection systems with YOLO, DETR, and tracking algorithms for video analysis.
-
-2. **Image Segmentation** — Implement instance and semantic segmentation with SAM, Mask R-CNN for pixel-level understanding.
-
-3. **OCR & Document Understanding** — Extract text from images and documents using deep learning OCR pipelines.
-
-4. **Model Optimization** — Deploy optimized models to edge devices using TensorRT, ONNX, and quantization.
-
-5. **3D Vision** — Work with stereo vision, depth estimation, and point cloud processing for spatial understanding.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Adversarial Examples** | 🔴 Critical | Small perturbations fool model | Adversarial training, input validation |
-| **Bias in Recognition** | 🔴 Critical | Unequal performance across demographics | Balanced training data, bias testing |
-| **Overfitting** | 🟠 High | Poor generalization to real world | Augmentation, regularization, more data |
-| **Privacy Violations** | 🟠 High | Unauthorized face detection/rec | Privacy controls, consent, blurring |
-| **Corner Cases** | 🟠 High | Unusual inputs cause failures | Extensive testing, fallback behavior |
-| **Latency in Production** | 🟡 Medium | Inference too slow for use case | Optimization, model selection |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 CV System Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         Application Layer               │  ← Detection, tracking, analysis
-├─────────────────────────────────────────┤
-│         Post-Processing                 │  ← NMS, tracking, filtering
-├─────────────────────────────────────────┤
-│         Deep Learning Model             │  ← YOLO, DETR, SAM
-├─────────────────────────────────────────┤
-│         Inference Engine                │  ← TensorRT, ONNX Runtime
-├─────────────────────────────────────────┤
-│         Pre-Processing                  │  ← Resize, normalize, augment
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Data Quality First** — Clean, diverse, representative data beats complex models
-2. **Measure in Real Conditions** — Lab accuracy ≠ real-world performance
-3. **Optimize for Deployment** — Model compression is part of the job
-4. **Temporal Consistency** — Video requires tracking and smoothing
-5. **Privacy by Design** — Handle visual data with care and consent
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **Frameworks** | PyTorch, TensorFlow, OpenMMLab | Model development |
-| **Detection** | YOLOv8, Detectron2, MMDetection | Object detection |
-| **Segmentation** | SAM, MMSegmentation | Instance/semantic seg |
-| **OCR** | PaddleOCR, EasyOCR | Text recognition |
-| **Optimization** | TensorRT, ONNX, OpenVINO | Deployment |
-| **Classical** | OpenCV, scikit-image | Preprocessing |
-| **Annotation** | CVAT, Label Studio, Roboflow | Data labeling |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 Model Selection for Detection
-
-| Model | Speed (FPS) | mAP | Best For |
-|-------|-------------|-----|----------|
-| **YOLOv8-nano** | 1000+ | 37.3 | Edge, real-time |
-| **YOLOv8-small** | 500 | 44.9 | Mobile, fast |
-| **YOLOv8-medium** | 250 | 50.2 | Balanced |
-| **YOLOv8-large** | 150 | 52.9 | Accuracy |
-| **DETR** | 30 | 42.0 | Complex scenes |
-
-### 6.2 Optimization Techniques
-
-| Technique | Speedup | Accuracy Loss | When to Use |
-|-----------|---------|---------------|-------------|
-| **INT8 Quantization** | 2-4× | 1-2% | Edge deployment |
-| **FP16 Mixed** | 2× | < 1% | GPU inference |
-| **Pruning** | 2-3× | 2-5% | Model too large |
-| **Distillation** | 2-4× | 1-3% | Train smaller model |
-| **TensorRT** | 5-10× | Minimal | NVIDIA GPUs |
-
-### 6.3 Evaluation Metrics
-
-| Metric | Description | Target |
-|--------|-------------|--------|
-| **mAP** | Mean Average Precision | > 0.50 for production |
-| **IoU** | Intersection over Union | > 0.75 for tight boxes |
-| **FPS** | Frames per second | > 30 for real-time |
-| **F1** | Precision-Recall balance | Use when class imbalance |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Problem & Data (Days 1-5)
-
-```
-├── Define detection/segmentation task
-├── Collect and annotate images/videos
-├── Analyze class distribution
-├── Split train/validation/test
-└── [✓ Done]: Dataset ready, annotations validated
-    [✗ FAIL]: Insufficient data → collect or use synthetic
-```
-
-### Phase 2: Model Development (Days 6-15)
-
-```
-├── Select architecture based on speed/accuracy needs
-├── Configure training pipeline
-├── Train with augmentation
-├── Validate and iterate
-└── [✓ Done]: Model trained, accuracy acceptable
-    [✗ FAIL]: Poor accuracy → more data or different architecture
-```
-
-### Phase 3: Optimization & Deployment (Days 16-20)
-
-```
-├── Export to deployment format (ONNX, TensorRT)
-├── Quantize if edge deployment
-├── Optimize preprocessing pipeline
-├── Test on target hardware
-└── [✓ Done]: Model deployed, meets latency targets
-    [✗ FAIL]: Too slow → further optimization or smaller model
-```
-
-### Phase 4: Monitoring (Ongoing)
-
-```
-├── Track accuracy drift
-├── Monitor inference latency
-├── Collect failure cases for retraining
-├── Regular model updates
-└── [✓ Done]: System stable, improving
-    [✗ FAIL]: Performance degradation → trigger retraining
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: Autonomous Vehicle Perception
-
-**Context**: Real-time object detection for self-driving car.
-
-**System**:
-```
-Architecture:
-├── Multi-camera input (8 cameras, 360°)
-├── YOLOv8-large for detection
-├── DeepSORT for tracking
-├── Sensor fusion with LiDAR
-
-Requirements:
-├── Latency: < 50ms end-to-end
-├── Range: 200m detection
-├── Classes: vehicles, pedestrians, cyclists, traffic signs
-├── Weather robustness: rain, fog, night
-
-Optimization:
-├── TensorRT optimization
-├── Multi-GPU pipeline
-├── Temporal filtering
-```
-
----
-
-### Example 2: Retail Shelf Analysis
-
-**Context**: Automated inventory counting from camera feeds.
-
-**Solution**:
-```
-Pipeline:
-├── Image capture from fixed cameras
-├── Product detection (YOLOv8-small)
-├── OCR for price tag reading
-├── Stock level estimation
-├── Alert generation for restocking
-
-Challenges:
-├── Varying lighting conditions
-├── Occluded products
-├── New product onboarding
-└── Real-time processing for 1000+ SKUs
-```
-
----
-
-### Example 3: Medical Image Segmentation
-
-**Context**: Tumor segmentation in CT scans.
-
-**Implementation**:
-```
-Model: 3D U-Net with attention
-├── Pre-trained on public datasets
-├── Fine-tuned on hospital data
-├── Uncertainty quantification
-
-Validation:
-├── Dice coefficient: 0.89
-├── Inter-rater agreement with radiologists
-├── Regulatory compliance (FDA)
-
-Deployment:
-├── On-premise (privacy)
-├── Integration with PACS system
-├── Radiologist review workflow
-```
-
----
-
-### Example 4: Industrial Quality Inspection
-
-**Context**: Defect detection on manufacturing line.
-
-**System**:
-```
-Setup:
-├── High-speed camera (1000 FPS)
-├── Consistent lighting enclosure
-├── YOLOv8-nano for speed
-├── Edge deployment (NVIDIA Jetson)
-
-Performance:
-├── Detection rate: 99.7%
-├── False positive rate: 0.1%
-├── Latency: < 10ms
-├── Throughput: 100 parts/second
-```
-
----
-
-### Example 5: Document OCR Pipeline
-
-**Context**: Automated document processing for invoices.
-
-**Pipeline**:
-```
-Stages:
-├── Document detection and deskewing
-├── Layout analysis (text blocks, tables)
-├── OCR with PaddleOCR
-├── Field extraction (regex + LLM)
-├── Data validation
-
-Optimization:
-├── Batch processing for throughput
-├── GPU acceleration for OCR
-├── Confidence thresholding
-├── Human review queue for low confidence
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Train/Test Leakage** | Same image in both sets | Strict splits, check for near-duplicates |
-| **Ignoring Aspect Ratio** | Distorted images hurt accuracy | Letterboxing, not stretching |
-| **Poor Augmentation** | Overfitting to training conditions | Realistic augmentations only |
-| **No Hard Negative Mining** | Many false positives | Include hard negatives in training |
-| **Skipping Post-Processing** | Raw model output noisy | NMS, tracking, temporal smoothing |
-| **Edge Case Neglect** | Fails on unusual inputs | Extensive edge case testing |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -482,6 +202,7 @@ Optimization:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -490,3 +211,17 @@ Optimization:
 | [references/segmentation.md](references/segmentation.md) | SAM, Mask R-CNN, techniques |
 | [references/cv-optimization.md](references/cv-optimization.md) | TensorRT, quantization, deployment |
 | [references/ocr-techniques.md](references/ocr-techniques.md) | Text detection and recognition |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

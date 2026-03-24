@@ -31,6 +31,7 @@ Lead transformational process improvement using DMAIC methodology, statistical t
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -132,217 +133,6 @@ MASTER BLACK BELT: Multiple years
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**LSS Challenge Indicators**:
-- Chronic quality problems
-- Process inefficiency and waste
-- High defect rates or variation
-- Customer complaints
-- Cost reduction needs
-
-**Complexity Markers**:
-- Project duration: 3-6 months
-- Team size: 4-8 members
-- Savings target: $100K-$1M+
-- Data points: 30-1,000+ for analysis
-- Process steps: 5-50+ analyzed
-
-### User Signals
-
-Invoke when users need to:
-- Define improvement projects
-- Analyze process data
-- Identify root causes
-- Design experiments
-- Implement controls
-- Coach improvement teams
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Define & Measure
-
-**Purpose**: Understand the problem and baseline performance.
-
-**Core Elements**:
-- **Project Charter**: Problem, scope, goals, team
-- **VOC/CTQ**: Customer requirements
-- **Process Mapping**: Current state, SIPOC
-- **Measurement System**: Gage R&R, data collection plan
-- **Baseline**: Process capability, sigma level
-
-📄 **Details**: [references/05-layer1-define-measure.md](references/05-layer1-define-measure.md)
-
-### Layer 2: Analyze & Improve
-
-**Purpose**: Find root causes and implement solutions.
-
-**Core Elements**:
-- **Data Analysis**: Graphical, statistical, hypothesis testing
-- **Root Cause**: 5 Whys, FMEA, cause-effect diagrams
-- **Vital Few**: Pareto, correlation, regression
-- **Solution Design**: Brainstorming, selection matrix
-- **Implementation**: Pilot, validation, rollout
-
-📄 **Details**: [references/06-layer2-analyze-improve.md](references/06-layer2-analyze-improve.md)
-
-### Layer 3: Control & Sustain
-
-**Purpose**: Maintain gains and standardize.
-
-**Core Elements**:
-- **Control Plan**: Monitoring, response procedures
-- **SPC**: Control charts, process monitoring
-- **Documentation**: Standard work, procedures
-- **Training**: Operator, maintainer, auditor
-- **Financial Validation**: Track savings
-
-📄 **Details**: [references/07-layer3-control.md](references/07-layer3-control.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Sigma Levels & DPMO
-
-| Sigma | DPMO | Yield | Cpk |
-|-------|------|-------|-----|
-| 1σ | 691,462 | 30.85% | 0.33 |
-| 2σ | 308,538 | 69.15% | 0.67 |
-| 3σ | 66,807 | 93.32% | 1.00 |
-| 4σ | 6,210 | 99.38% | 1.33 |
-| 5σ | 233 | 99.977% | 1.67 |
-| 6σ | 3.4 | 99.99966% | 2.00 |
-
-```
-Process Capability:
-Cp = (USL - LSL) / (6 × σ)
-Cpk = min[(USL - μ), (μ - LSL)] / (3 × σ)
-
-Target: Cp ≥ 1.33, Cpk ≥ 1.33
-World-class: Cpk ≥ 2.0 (6σ)
-```
-
-### Statistical Tools
-
-```
-DESCRIPTIVE:
-├── Mean, median, mode
-├── Standard deviation, variance
-├── Histograms, box plots
-└── Normal probability plot
-
-INFERENTIAL:
-├── Confidence intervals
-├── Hypothesis tests (t-test, ANOVA)
-├── Chi-square, proportion tests
-└── Non-parametric tests
-
-ADVANCED:
-├── Regression (linear, logistic)
-├── Design of Experiments (DOE)
-├── Control charts (SPC)
-└── Measurement systems (Gage R&R)
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Project Selection Matrix
-
-| Criteria | Weight | Score 1-5 |
-|----------|--------|-----------|
-| Financial Impact | 25% | $ savings |
-| Customer Impact | 20% | CTQ alignment |
-| Strategic Alignment | 20% | Business goals |
-| Feasibility | 20% | Data availability |
-| Urgency | 15% | Pain level |
-
-### Hypothesis Testing Decision Tree
-
-```
-Data Type?
-├── Continuous → t-test, ANOVA, regression
-└── Discrete → Chi-square, proportion test
-
-Number of Groups?
-├── 2 groups → 2-sample t-test, paired t-test
-└── 3+ groups → ANOVA, chi-square
-
-Paired Data?
-├── Yes → Paired t-test
-└── No → 2-sample test
-
-Normal Distribution?
-├── Yes → Parametric tests
-└── No → Non-parametric (Mann-Whitney, Kruskal-Wallis)
-```
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Project Charter Development | [references/10-sop-charter.md](references/10-sop-charter.md) |
-| SOP 2 | Gage R&R Study | [references/11-sop-gage-rnr.md](references/11-sop-gage-rnr.md) |
-| SOP 3 | DOE Execution | [references/12-sop-doe.md](references/12-sop-doe.md) |
-| SOP 4 | Control Plan Creation | [references/13-sop-control-plan.md](references/13-sop-control-plan.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### LSS Project Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Scope Creep** | High | Medium | Charter discipline, tollgates |
-| **Data Quality** | Medium | High | MSA early, data validation |
-| **Resistance to Change** | High | High | Change management, engagement |
-| **Solution Not Effective** | Medium | High | Pilot testing, validation |
-| **Sustainment Failure** | Medium | High | Control plan, audits |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Define | Project alignment | Charter approved | Unclear scope |
-| Measure | Baseline established | Valid MSA, capability | Poor data |
-| Analyze | Root causes identified | Vital few confirmed | Wrong causes |
-| Improve | Solutions implemented | Statistically validated | No improvement |
-| Control | Gains sustained | Control plan active | Backsliding |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Defect Reduction | Manufacturing quality | [references/16-example-defect-reduction.md](references/16-example-defect-reduction.md) |
-| 2 | Cycle Time Reduction | Process lead time | [references/17-example-cycle-time.md](references/17-example-cycle-time.md) |
-| 3 | Yield Improvement | Chemical process | [references/18-example-yield.md](references/18-example-yield.md) |
-| 4 | Transactional Process | Office efficiency | [references/19-example-transactional.md](references/19-example-transactional.md) |
-| 5 | Design for Six Sigma | New product development | [references/20-example-dfss.md](references/20-example-dfss.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -383,3 +173,17 @@ Normal Distribution?
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

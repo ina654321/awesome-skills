@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -130,150 +131,6 @@ Before responding to any electrical request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Rough-In Specification** — Provides NEC-compliant wiring diagrams including box fill calculations, conductor sizing, conduit fill, and grounding requirements
-2. **Service & Panel Design** — Creates service entrance specifications, panel schedules, and circuit allocation plans with proper load calculations
-3. **Code Compliance** — Ensures all work meets NEC, local amendments, and OSHA electrical safety standards
-4. **Troubleshooting** — Diagnoses electrical issues with systematic approach using voltage, continuity, and insulation testing
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Electrical Shock** | 🔴 High | Contact with energized conductors can kill | Lockout/tagout; test before touch; verify neutral is not hot |
-| **Arc Flash** | 🔴 High | Panel work can produce explosive arc flash | PPE: arc-rated clothing, face shield, gloves per NFPA 70E |
-| **Fire** | 🔴 High | Overloaded circuits, loose connections cause fires | Proper sizing, torqued connections, wire gauge per load |
-| **Grounding Failure** | 🔴 High | Improper grounding creates shock hazard | Ensure equipment grounding conductor throughout |
-| **Code Violation** | 🔴 Medium | Non-compliant work fails inspection, creates liability | Always cite specific NEC articles |
-
-**⚠️ IMPORTANT:**
-- Never work on energized systems without proper PPE and lockout/tagout
-- Always verify absence of voltage with tester—never assume
-- Some jurisdictions require licensed electrician for all work—even changing fixtures
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Electrical Safety Hierarchy
-
-```
-                    [Hazard Assessment]
-                          ↑
-          ┌───────────────┴───────────────┐
-          ↓                               ↓
-    [Engineering Controls]        [Administrative Controls]
-    - Proper grounding             - Lockout/tagout
-    - GFCI/AFCI protection         - Energized work permits
-    - Proper conductors            - Training
-          ↓                               ↓
-          └───────────────┬───────────────┘
-                          ↓
-              [PPE - Last Line of Defense]
-              - Arc-rated clothing
-              - Insulated tools
-              - Eye protection
-```
-
-### 4.2 Guiding Principles
-
-1. **Verify Before Touch**: Test every conductor for voltage—even "neutral" can be hot in miswired circuits
-2. **Size for 80%**: Circuits sized for 80% of breaker rating for continuous loads
-3. **Box Fill is Law**: 80% fill maximum; every conductor, device, and ground counts
-4. **Ground Everything**: No exceptions—equipment grounding conductor to all boxes and devices
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Multimeter** | Test voltage, continuity, insulation resistance |
-| **Non-contact voltage tester** | Quick hot-check before work; verify de-energized |
-| **Torque screwdriver** | Tighten connections to proper torque (NEC 110.14) |
-| **Fish tape/fiber rod** | Pull conductors in conduit |
-| **Conduit bender** | Create accurate bends for EMT, IMC, RMC |
-| **NEC Code Book** | Current edition with local amendments |
-| **NFPA 70E** | Arc flash PPE categories and approach boundaries |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 NEC Key Articles
-
-| Article| Application| Requirement|
-|-----------------|----------------------|-------------------|
-| **NEC 110.14** | All connections | Torque to manufacturer specs |
-| **NEC 210.8** | GFCI protection | Required in wet locations, kitchens, bathrooms |
-| **NEC 210.12** | AFCI protection | Required in dwelling living spaces, bedrooms |
-| **NEC 220.82** | Dwelling service calc | Load calculation for service upgrade |
-| **NEC 230.79** | Service rating | Minimum service ratings by dwelling size |
-| **NEC 250.52** | Grounding electrodes | Required: UFER, water pipe, ground rod |
-
-### 7.2 Conductor Sizing
-
-| Load| Breaker| Wire Gauge| Typical Use|
-|--------------|--------------|---------------|---------------|
-| 15A continuous | 20A | #14 AWG | Lighting, general outlets |
-| 20A | 20A | #12 AWG | Kitchen, bathroom, outdoor |
-| 30A | 30A | #10 AWG | Dryers, ranges, AC units |
-| 40A | 40A | #8 AWG | Electric ranges, large equipment |
-| 50A | 50A | #6 AWG | Sub-panels, EV chargers |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Construction Rough-In
-
-```
-Phase 1: Planning
-├── Review architectural/structural plans
-├── Locate all boxes per code (switches 48" AFF, receptacles 18" AFF)
-├── Calculate box fill per NEC 314.16
-├── Size circuits per NEC 210
-└── Create circuit schedule
-
-Phase 2: Installation
-├── Install boxes: secure, flush, level
-├── Run cable/conduit: secure per spacing requirements
-├── Pull conductors: do not exceed 40% conduit fill
-├── Install device yokes: ground, neutral, hot connections
-└── Install grounding: bond all boxes, equipment
-
-Phase 3: Inspection Prep
-├── Verify all connections: tightness, polarity
-├── Complete panel schedule: circuit numbers, descriptions
-├── Document any deviations from plan
-└── Schedule inspection
-```
-
-### 8.2 Service Upgrade
-
-```
-Step 1: Load Calculation
-- Sum all loads per NEC 220.82
-- Include general lighting, fixed appliances, HVAC, electric range
-- Apply demand factors for diversified load
-
-Step 2: Service Size
-- <3000 sq ft = 100A minimum
-- 3000-4000 sq ft = 200A minimum
-- >4000 sq ft = 400A recommended
-
-Step 3: Equipment Selection
-- Meter base: appropriate for utility requirements
-- Panel: load center with spaces for 200% of calculated load
-- Conductors: service entrance cable sized per table
-- Grounding: UFER + water pipe bond + ground rods
-```
-
----
 
 ## 9.1 Kitchen Rewire
 
@@ -322,105 +179,6 @@ Step 3: Equipment Selection
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on electrician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent electrician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term electrician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -447,6 +205,7 @@ Step 3: Equipment Selection
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -457,6 +216,7 @@ Step 3: Equipment Selection
 | Electrician + **Energy Auditor** | Install → Auditor tests → Efficiency verification | Compliant, efficient install |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -485,6 +245,7 @@ Step 3: Equipment Selection
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -506,6 +267,7 @@ Expected: Load calculation per NEC 220.82, equipment selection, grounding requir
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with NEC decision gates, detailed code references, box fill calculations, realistic scenarios, and electrical-specific safety pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -526,6 +288,7 @@ Expected: Load calculation per NEC 220.82, equipment selection, grounding requir
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -553,6 +316,7 @@ Expected: Load calculation per NEC 220.82, equipment selection, grounding requir
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -573,6 +337,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -585,15 +350,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -621,3 +377,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

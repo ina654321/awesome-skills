@@ -31,6 +31,7 @@ Optimize oil and gas production using reservoir simulation, drilling technology,
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -124,208 +125,6 @@ ENHANCED OIL RECOVERY (EOR):
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Petroleum Engineering Challenge Indicators**:
-- Field development planning
-- Well drilling and completion design
-- Production optimization and forecasting
-- Reservoir simulation and management
-- EOR project evaluation
-
-**Complexity Markers**:
-- Reservoir: 1-50 km², 1,000-6,000m depth
-- Wells: 10-10,000+ per field
-- Simulation: 1M-100M+ grid cells
-- Development: 5-30 years
-- Recovery: 5-60% of OOIP
-
-### User Signals
-
-Invoke when users need to:
-- Estimate reserves and recovery
-- Design well trajectories
-- Optimize hydraulic fracturing
-- Forecast production
-- Plan EOR projects
-- Troubleshoot production issues
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Reservoir Characterization
-
-**Purpose**: Understand the subsurface.
-
-**Core Elements**:
-- **Geology**: Structure, stratigraphy, facies
-- **Petrophysics**: Porosity, permeability, saturation
-- **Fluid Properties**: PVT analysis, phase behavior
-- **Dynamic Data**: Pressure, production history, PLT
-
-📄 **Details**: [references/05-layer1-reservoir.md](references/05-layer1-reservoir.md)
-
-### Layer 2: Well Engineering
-
-**Purpose**: Drill and complete production wells.
-
-**Core Elements**:
-- **Drilling**: Trajectory, BHA, hydraulics, ROP
-- **Completions**: Casing, cementing, perforating
-- **Stimulation**: Hydraulic fracturing, acidizing
-- **Intelligent Wells**: ICDs, monitoring, control
-
-📄 **Details**: [references/06-layer2-wells.md](references/06-layer2-wells.md)
-
-### Layer 3: Production & Recovery
-
-**Purpose**: Maximize hydrocarbon recovery.
-
-**Core Elements**:
-- **Production Systems**: Artificial lift, facilities
-- **Reservoir Management**: Pressure maintenance, optimization
-- **EOR Implementation**: Design, pilot, expansion
-- **Abandonment**: P&A, environmental compliance
-
-📄 **Details**: [references/07-layer3-production.md](references/07-layer3-production.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Reservoir Fluid Types
-
-| Fluid Type | API Gravity | GOR (scf/bbl) | Formation Volume Factor |
-|------------|-------------|---------------|-------------------------|
-| Black Oil | 15-45° | <2,000 | 1.0-1.5 rb/stb |
-| Volatile Oil | 40-50° | 2,000-3,300 | 1.5-2.5 rb/stb |
-| Retrograde Gas | 40-60° | 3,300-150,000 | - |
-| Wet Gas | 60°+ | 50,000-100,000 | - |
-| Dry Gas | - | >100,000 | - |
-
-### Darcy's Law
-
-```
-Flow Rate Equation:
-q = (k × A × ΔP) / (μ × L)
-
-Where:
-- q: Flow rate (cm³/s or bbl/day)
-- k: Permeability (Darcy)
-- A: Cross-sectional area (cm²)
-- ΔP: Pressure drop (atm or psi)
-- μ: Viscosity (cp)
-- L: Length (cm or ft)
-
-For radial flow to a well:
-q = (2π × k × h × (Pe - Pwf)) / (μ × ln(re/rw))
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Field Development Planning
-
-```
-Step 1: Resource Assessment
-├── Volumetric: STOIIP = 7758 × A × h × φ × (1-Sw) / Boi
-├── Analogs: Similar field performance
-├── Probabilistic: P10/P50/P90 ranges
-└── Uncertainty: Geologic, fluid, dynamic
-
-Step 2: Development Concept
-├── Well count and placement
-├── Surface facilities capacity
-├── Recovery mechanism
-├── Schedule and phasing
-
-Step 3: Economics
-├── CAPEX: Wells, facilities, pipelines
-├── OPEX: Lifting, maintenance, G&A
-├── Price forecast and sensitivities
-├── NPV, IRR, payout, DPI
-
-Step 4: Risk Analysis
-├── Technical: Reserves, productivity
-├── Commercial: Price, cost, regulatory
-├── Execution: Schedule, cost overrun
-└── Mitigation strategies
-```
-
-### Hydraulic Fracturing Design
-
-| Parameter | Typical Range | Optimization |
-|-----------|---------------|--------------|
-| Stage Spacing | 150-400 ft | Rock quality, stress |
-| Cluster Spacing | 30-60 ft | Perforation efficiency |
-| Fluid Volume | 1,500-3,000 bbls/stage | Net pressure, height |
-| Proppant | 2,000-4,000 lbs/ft | Conductivity, embedment |
-| Pump Rate | 80-120 bpm | Tortuosity, pressure |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Reservoir Simulation | [references/10-sop-simulation.md](references/10-sop-simulation.md) |
-| SOP 2 | Well Completion Design | [references/11-sop-completion.md](references/11-sop-completion.md) |
-| SOP 3 | Production Forecasting | [references/12-sop-forecasting.md](references/12-sop-forecasting.md) |
-| SOP 4 | Reserves Estimation | [references/13-sop-reserves.md](references/13-sop-reserves.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Petroleum Engineering Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Reservoir Underperformance** | Medium | High | Pilot programs, appraisal |
-| **Well Failure** | Medium | High | Quality assurance, monitoring |
-| **Cost Overrun** | High | Medium | Contingency, contracting |
-| **Price Volatility** | High | High | Hedging, portfolio |
-| **Regulatory Change** | Medium | Medium | Compliance, engagement |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Exploration | Discover resources | Commercial discovery | Dry hole |
-| Appraisal | Quantify reserves | Reserves booking | Sub-commercial |
-| Development | Build facilities | First production | Major delays |
-| Production | Maximize recovery | Economic limit reached | Premature abandonment |
-| Abandonment | Safe closure | P&A complete | Environmental liability |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Shale Development | Permian Basin well | [references/16-example-shale.md](references/16-example-shale.md) |
-| 2 | Offshore Platform | Deepwater development | [references/17-example-offshore.md](references/17-example-offshore.md) |
-| 3 | CO2 EOR Project | Enhanced recovery | [references/18-example-co2-eor.md](references/18-example-co2-eor.md) |
-| 4 | Well Intervention | Production enhancement | [references/19-example-intervention.md](references/19-example-intervention.md) |
-| 5 | Reservoir Simulation | History matching | [references/20-example-simulation.md](references/20-example-simulation.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -374,3 +173,17 @@ EUR = ∫ q(t) dt from 0 to ∞
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

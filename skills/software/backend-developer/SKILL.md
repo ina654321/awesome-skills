@@ -36,6 +36,7 @@ Build the engine that powers applications. Design APIs, optimize databases, and 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -182,290 +183,6 @@ Practices:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Backend Developer** capable of:
-
-1. **API Design & Implementation** — Design RESTful and GraphQL APIs with proper versioning, authentication, and rate limiting.
-
-2. **Database Design & Optimization** — Design schemas, write efficient queries, optimize indexes, and implement caching strategies.
-
-3. **Microservices Development** — Build services with clear boundaries, inter-service communication, and shared infrastructure.
-
-4. **Distributed Systems Implementation** — Implement patterns like CQRS, event sourcing, sagas, and circuit breakers.
-
-5. **Performance Optimization** — Profile applications, optimize bottlenecks, and scale systems horizontally.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **SQL Injection** | 🔴 Critical | Unsanitized user input → data breach | Parameterized queries, ORM |
-| **N+1 Queries** | 🔴 Critical | Unoptimized ORM → performance collapse | Eager loading, DataLoader |
-| **Data Race** | 🔴 Critical | Concurrent access corrupts data | Transactions, optimistic locking |
-| **Memory Leaks** | 🟠 High | Unclosed connections, unbounded caches | Resource cleanup, limits |
-| **API Breaking Changes** | 🟠 High | Undocumented changes break clients | Versioning, deprecation |
-| **Race Conditions** | 🟡 Medium | Timing-dependent bugs | Proper locking, idempotency |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Backend Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         API Layer (REST/GraphQL)        │  ← Controllers, resolvers
-├─────────────────────────────────────────┤
-│         Service Layer                   │  ← Business logic
-├─────────────────────────────────────────┤
-│         Data Access Layer               │  ← Repositories, ORM
-├─────────────────────────────────────────┤
-│         Database / Cache                │  ← PostgreSQL, Redis
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **API Contracts First** — Design interfaces before implementation
-2. **Database Performance** — Schema and queries matter most
-3. **Fail Gracefully** — Handle errors, provide fallbacks
-4. **Observability Built-In** — Logs, metrics, traces from day one
-5. **Security by Default** — Validate inputs, authenticate, authorize
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **Languages** | Python, Go, Node.js, Rust | Service implementation |
-| **Frameworks** | FastAPI, Express, Gin, Spring Boot | Web frameworks |
-| **Databases** | PostgreSQL, MongoDB, Redis | Data persistence |
-| **ORM/Query** | SQLAlchemy, Prisma, GORM | Database access |
-| **API** | OpenAPI, gRPC, GraphQL | API contracts |
-| **Message** | Kafka, RabbitMQ, NATS | Async communication |
-| **Testing** | pytest, Jest, Go test | Unit/integration tests |
-| **Observability** | OpenTelemetry, Jaeger | Distributed tracing |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 REST API Best Practices
-
-| Aspect | Best Practice | Example |
-|--------|---------------|---------|
-| **Resources** | Nouns, plural | `/users`, `/orders` |
-| **Actions** | HTTP methods | `GET`, `POST`, `PUT`, `DELETE` |
-| **Status Codes** | Appropriate codes | `200`, `201`, `400`, `404`, `500` |
-| **Versioning** | URL or header | `/v1/users` |
-| **Pagination** | Cursor or offset | `?cursor=xyz&limit=20` |
-| **Filtering** | Query parameters | `?status=active&sort=-created` |
-
-### 6.2 Database Index Strategy
-
-| Query Pattern | Index Type | Example |
-|---------------|------------|---------|
-| Exact match | B-tree | `WHERE id = 1` |
-| Range queries | B-tree | `WHERE created_at > '2024-01-01'` |
-| Text search | GIN/GiST | `WHERE content @@ 'search'` |
-| Full-text | Full-text index | `to_tsvector(content)` |
-| Composite | Multi-column | `INDEX(a, b, c)` |
-
-### 6.3 Microservices Patterns
-
-| Pattern | Use Case | Implementation |
-|---------|----------|----------------|
-| **API Gateway** | Single entry point | Kong, Ambassador |
-| **Circuit Breaker** | Fail fast on errors | Resilience4j, Polly |
-| **Saga** | Distributed transactions | Orchestration/choreography |
-| **CQRS** | Read/write optimization | Separate models |
-| **Event Sourcing** | Audit trail | Event store |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: API Design (Day 1)
-
-```
-├── Define resources and relationships
-├── Design endpoints with REST principles
-├── Create OpenAPI specification
-├── Review with stakeholders
-└── [✓ Done]: API spec approved, contracts defined
-    [✗ FAIL]: Ambiguous contracts → clarify before coding
-```
-
-### Phase 2: Implementation (Days 2-7)
-
-```
-├── Database schema design
-├── API endpoint implementation
-├── Business logic services
-├── Authentication and authorization
-└── [✓ Done]: Core functionality implemented
-    [✗ FAIL]: Tests failing → fix before proceeding
-```
-
-### Phase 3: Optimization (Days 8-10)
-
-```
-├── Query optimization
-├── Caching implementation
-├── Load testing
-├── Error handling review
-└── [✓ Done]: Performance targets met
-    [✗ FAIL]: Performance issues → profile and optimize
-```
-
-### Phase 4: Deployment (Days 11-12)
-
-```
-├── Containerization
-├── CI/CD pipeline setup
-├── Monitoring configuration
-├── Documentation finalization
-└── [✓ Done]: Production ready, monitored
-    [✗ FAIL]: Security scan issues → remediate
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: E-commerce API Design
-
-**Context**: Design API for online store.
-
-**API Structure**:
-```
-GET    /v1/products              # List with filters
-GET    /v1/products/{id}         # Get product details
-POST   /v1/cart/items            # Add to cart
-GET    /v1/orders                # List user orders
-POST   /v1/orders                # Create order
-PATCH  /v1/orders/{id}/cancel    # Cancel order
-
-Optimizations:
-├── Pagination: Cursor-based for performance
-├── Caching: Redis for product catalog
-├── Rate limiting: 100 req/min per user
-└── Webhooks: Order status updates
-```
-
----
-
-### Example 2: Database Performance Issue
-
-**Context**: API response time degraded from 50ms to 2s.
-
-**Diagnosis**:
-```
-Investigation:
-├── Query analysis: Missing index on user_id
-├── N+1 problem: Order items loaded individually
-├── No caching: Same queries repeated
-
-Fixes:
-├── Added composite index (user_id, created_at)
-├── Implemented DataLoader for batch loading
-├── Redis cache for user profiles
-
-Result:
-├── p99 latency: 50ms → 30ms
-├── Database CPU: 80% → 20%
-```
-
----
-
-### Example 3: Microservices Migration
-
-**Context**: Split monolith into services.
-
-**Migration**:
-```
-Services:
-├── User Service: Authentication, profiles
-├── Catalog Service: Products, inventory
-├── Order Service: Orders, payments
-├── Notification Service: Email, push
-
-Communication:
-├── Synchronous: gRPC for critical paths
-├── Asynchronous: Kafka for events
-├── Saga: Distributed order processing
-
-Challenges:
-├── Data consistency: Eventual consistency
-├── Service discovery: Kubernetes DNS
-├── Observability: Distributed tracing
-```
-
----
-
-### Example 4: High-Throughput Service
-
-**Context**: Build notification service (1M notifications/minute).
-
-**Architecture**:
-```
-Components:
-├── API: Accept notification requests
-├── Queue: Kafka for buffering
-├── Workers: Process and send
-├── Providers: SMS, email, push
-
-Scaling:
-├── Horizontal pod autoscaling
-├── Database connection pooling
-├── Circuit breakers for providers
-└── Dead letter queue for failures
-```
-
----
-
-### Example 5: GraphQL API Implementation
-
-**Context**: Replace REST with GraphQL for mobile clients.
-
-**Benefits**:
-```
-Before (REST):
-├── 5 API calls to load screen
-├── Over-fetching: Unused fields
-├── Versioning complexity
-
-After (GraphQL):
-├── Single query for all data
-├── Exact field selection
-├── Strong typing, introspection
-├── No versioning needed
-
-Implementation:
-├── Schema-first design
-├── Resolver optimization
-├── Query complexity limits
-├── persisted queries for mobile
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **God Object** | One model does everything | Split into focused models |
-| **Anemic Domain Model** | Logic in services, not models | Rich domain objects |
-| **Leaky Abstractions** | Implementation details exposed | Clean interfaces |
-| **No Pagination** | Unbounded result sets | Always paginate lists |
-| **Missing Timeouts** | Requests hang forever | Set aggressive timeouts |
-| **No Circuit Breaker** | Cascading failures | Circuit breaker pattern |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -484,6 +201,7 @@ Implementation:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -492,3 +210,17 @@ Implementation:
 | [references/database-optimization.md](references/database-optimization.md) | Query tuning, indexing |
 | [references/microservices-patterns.md](references/microservices-patterns.md) | Distributed systems patterns |
 | [references/performance-tuning.md](references/performance-tuning.md) | Profiling, caching, scaling |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

@@ -35,6 +35,7 @@ Bridge the gap between ML research and production. Build automated pipelines for
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldworld
@@ -181,287 +182,6 @@ Metrics:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **MLOps Engineer** capable of:
-
-1. **ML Pipeline Automation** — Build end-to-end pipelines from data ingestion to model deployment using Kubeflow, Airflow, or Prefect.
-
-2. **Experiment Tracking** — Implement centralized experiment management with MLflow or Weights & Biases for reproducibility.
-
-3. **Model Serving** — Deploy models to production with KServe, Seldon, or BentoML for scalable, low-latency inference.
-
-4. **Model Monitoring** — Detect data drift, concept drift, and performance degradation with Evidently or WhyLabs.
-
-5. **Feature Store Management** — Implement Feast or Tecton for consistent feature engineering across training and serving.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Training-Serving Skew** | 🔴 Critical | Different code paths for train/serve | Unified feature store, same transformation |
-| **Model Degradation** | 🔴 Critical | Silent accuracy drop in production | Automated monitoring, drift detection |
-| **Pipeline Failures** | 🟠 High | Broken data dependencies | Data validation, lineage tracking |
-| **Shadow Deployment** | 🟠 High | Model tested but never validated | Gradual rollout, automated rollback |
-| **Reproducibility Loss** | 🟠 High | Can't reproduce results | Version pinning, containerization |
-| **Resource Waste** | 🟡 Medium | Unused experiments, large artifacts | Cleanup policies, artifact lifecycle |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 MLOps Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         Model Serving                   │  ← KServe, REST/gRPC APIs
-├─────────────────────────────────────────┤
-│         Model Registry                  │  ← MLflow Model Registry
-├─────────────────────────────────────────┤
-│         Feature Store                   │  ← Feast, online/offline store
-├─────────────────────────────────────────┤
-│         Training Pipeline               │  ← Kubeflow, Airflow
-├─────────────────────────────────────────┤
-│         Experiment Tracking             │  ← MLflow, W&B
-├─────────────────────────────────────────┤
-│         Data Versioning                 │  ← DVC, LakeFS
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Version Everything** — Code, data, models, configurations
-2. **Automate Everything** — Training, testing, deployment
-3. **Monitor Everything** — Data, model, business metrics
-4. **Test ML Systems** — Model quality, not just code
-5. **Enable Collaboration** — Centralized tracking, clear lineage
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **Orchestration** | Kubeflow, Airflow, Prefect | ML pipelines |
-| **Tracking** | MLflow, W&B, Neptune | Experiments |
-| **Serving** | KServe, Seldon, BentoML | Model deployment |
-| **Monitoring** | Evidently, WhyLabs, Arize | Drift detection |
-| **Feature Store** | Feast, Tecton | Feature management |
-| **Data Versioning** | DVC, LakeFS, Pachyderm | Data versioning |
-| **Container** | Docker, Kubernetes | Deployment |
-| **CI/CD** | GitHub Actions, GitLab CI | Automation |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 MLOps Maturity Levels
-
-| Level | Name | Characteristics |
-|-------|------|-----------------|
-| **0** | Manual | No automation, ad-hoc |
-| **1** | DevOps | CI/CD for code, some automation |
-| **2** | Automated Training | Pipelines, experiment tracking |
-| **3** | Automated Deployment | CI/CD for ML, model registry |
-| **4** | Full MLOps | Auto-retraining, monitoring, governance |
-
-### 6.2 Drift Detection Methods
-
-| Type | Method | When to Use |
-|------|--------|-------------|
-| **Data Drift** | KS test, PSI, Wasserstein | Input distribution changes |
-| **Concept Drift** | Model performance tracking | Relationship changes |
-| **Prediction Drift** | Distribution comparison | Output distribution shifts |
-| **Feature Drift** | Individual feature monitoring | Specific feature issues |
-
-### 6.3 Model Testing Strategy
-
-| Test Type | Purpose | Tools |
-|-----------|---------|-------|
-| **Unit** | Code correctness | pytest |
-| **Integration** | Pipeline end-to-end | Custom tests |
-| **Model Quality** | Performance regression | Great Expectations |
-| **Shadow** | Production comparison | Canary deployment |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Infrastructure Setup (Week 1)
-
-```
-├── Set up experiment tracking (MLflow)
-├── Configure model registry
-├── Set up feature store
-├── Create CI/CD pipelines
-└── [✓ Done]: Infrastructure ready for development
-    [✗ FAIL]: Missing components → complete setup
-```
-
-### Phase 2: Pipeline Development (Weeks 2-4)
-
-```
-├── Build data validation step
-├── Create training pipeline
-├── Add model evaluation
-├── Implement deployment step
-└── [✓ Done]: Pipeline runs end-to-end
-    [✗ FAIL]: Pipeline errors → debug and fix
-```
-
-### Phase 3: Monitoring Setup (Week 5)
-
-```
-├── Configure drift detection
-├── Set up performance monitoring
-├── Create alerting rules
-├── Build dashboards
-└── [✓ Done]: Monitoring active for all models
-    [✗ FAIL]: Gaps in monitoring → fill gaps
-```
-
-### Phase 4: Production Deployment (Week 6+)
-
-```
-├── Deploy to staging
-├── Run integration tests
-├── Canary deployment
-├── Full production rollout
-└── [✓ Done]: Model serving traffic, monitored
-    [✗ FAIL]: Issues in canary → rollback, fix
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: Recommendation System MLOps
-
-**Context**: ML platform for real-time recommendations.
-
-**Architecture**:
-```
-Components:
-├── Feature Store: Feast for user/item features
-├── Training: Daily batch pipeline (Airflow)
-├── Model Registry: MLflow with approval workflow
-├── Serving: KServe with A/B testing
-├── Monitoring: Evidently for drift detection
-
-Pipeline:
-├── Extract features from data lake
-├── Train collaborative filtering model
-├── Evaluate offline metrics
-├── A/B test online metrics
-├── Auto-promote if metrics improve
-```
-
----
-
-### Example 2: Fraud Detection Platform
-
-**Context**: Real-time fraud scoring with high availability.
-
-**Setup**:
-```
-Requirements:
-├── Latency: < 50ms p99
-├── Availability: 99.99%
-├── Throughput: 10K TPS
-
-Implementation:
-├── Feature Store: Redis + Feast
-├── Model: XGBoost served via Triton
-├── Monitoring: Real-time feature drift
-├── Fallback: Rule-based if model fails
-
-Reliability:
-├── Multi-region deployment
-├── Circuit breaker pattern
-├── Automatic rollback on drift
-```
-
----
-
-### Example 3: NLP Model Lifecycle
-
-**Context**: Managing lifecycle of LLM fine-tuning pipeline.
-
-**Pipeline**:
-```
-Stages:
-├── Data versioning with DVC
-├── Experiment tracking with W&B
-├── Hyperparameter optimization (Optuna)
-├── Model evaluation harness
-├── Gradual rollout with shadow mode
-
-Governance:
-├── Model cards for documentation
-├── Approval workflow for production
-├── Bias evaluation before deployment
-└── Performance monitoring post-deployment
-```
-
----
-
-### Example 4: Computer Vision at Edge
-
-**Context**: Deploy CV models to edge devices.
-
-**Solution**:
-```
-Pipeline:
-├── Training in cloud (GPU cluster)
-├── Quantization and optimization
-├── Over-the-air model updates
-├── Device-side monitoring
-├── Rollback on device errors
-
-Edge MLOps:
-├── Model versioning per device
-├── Bandwidth-efficient updates (delta)
-├── Battery-aware update scheduling
-└── Local model ensemble
-```
-
----
-
-### Example 5: Multi-Model Service
-
-**Context**: Platform serving 100+ models.
-
-**Architecture**:
-```
-Infrastructure:
-├── Kubernetes with autoscaling
-├── Model cache for hot models
-├── A/B testing framework
-├── Cost optimization (spot instances)
-
-Governance:
-├── Centralized model registry
-├── Usage tracking per model
-├── Cost allocation by team
-├── Deprecation workflow
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Notebook to Production** | Research code doesn't scale | Production-ready pipelines |
-| **No Data Validation** | Bad data trains bad models | Great Expectations, schema validation |
-| **Missing Monitoring** | Silent model degradation | Automated drift detection |
-| **Manual Deployments** | Human error, slow releases | CI/CD for ML |
-| **No Rollback Plan** | Stuck with bad model | Instant rollback capability |
-| **Training-Serving Skew** | Different preprocessing | Feature store, same code |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -480,6 +200,7 @@ Governance:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -488,3 +209,17 @@ Governance:
 | [references/mlflow-guide.md](references/mlflow-guide.md) | Experiment tracking and registry |
 | [references/model-serving.md](references/model-serving.md) | KServe, Seldon deployment |
 | [references/drift-detection.md](references/drift-detection.md) | Monitoring and alerting setup |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

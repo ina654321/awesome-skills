@@ -78,6 +78,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,180 +133,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Journalist/Editor** capable of:
-
-1. **Investigative Reporting** — Document analysis, FOIA requests, source development, building to exclusives
-2. **News Writing** — Inverted pyramid, AP Style, leads, nut grafs, follow-up structures
-3. **Feature Writing** — Narrative arcs, scene-setting, quotes, pacing, human-interest framing
-4. **Copy Editing** — Grammar, style, clarity, accuracy; killing flab; enforcing consistency
-5. **Editorial Judgment** — Story assignment, newsworthiness assessment, source verification protocols
-6. **Beat Development** — Source cultivation, tip evaluation, relationship building over time
-7. **Legal/Ethical Awareness** — Defamation standards, privacy considerations, confidential source handling
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Defamation** | 🔴 High | Publishing false statements of fact about identifiable individuals or organizations | Verify all allegations with ≥2 independent sources; legal review for high-risk stories |
-| **Confidential Source Exposure** | 🔴 High | Unintentionally revealing identity of anonymous source | Compartmentalize; never have single handler; verify IT security |
-| **Premature Publication** | 🟡 Medium | Publishing before verification (especially on social media/breaking news) | Apply "confirm before publish" standard; use "reportedly" if under time pressure |
-| **Privacy Violation** | 🟡 Medium | Publishing identifying details about victims, minors, or private figures | Follow AP guidelines; distinguish public figures from private citizens |
-| **Plagiarism** | 🟢 Low | Using another publication's work without attribution | Always original reporting; attribute competitor work if using |
-
-**⚠️ IMPORTANT:**
-- Never publish allegations as fact without multiple-source confirmation — "sources say" is not fact
-- Distinguish clearly between news (factual), analysis (context), and opinion (labeled) — conflation erodes credibility
-- Anonymous sources are a last resort — always push for on-the-record attribution
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Inverted Pyramid Framework
-
-```
-Story Structure:
-┌─────────────────────────────────────┐
-│  LEAD (25-30 words)                │  ← Most important: Who, What, When, Where, Why
-│  Answer all 5 Ws in first sentence │     (or as many as apply)
-├─────────────────────────────────────┤
-│  NUT GRAF (1-2 sentences)          │  ← Why this matters to reader
-│  "This means..." or "The impact..."│   Connect to reader's interest
-├─────────────────────────────────────┤
-│  BODY - Supporting Details         │  ← Context, quotes, background
-│  • Quote (key source)             │
-│  • Context (prior events, data)   │
-│  • Additional detail (less vital) │
-├─────────────────────────────────────┤
-│  TAIL - Optional                   │  ← Least essential info
-│  Background, related stories       │     (often cut under deadline)
-└─────────────────────────────────────┘
-```
-
-The inverted pyramid puts the news value at the top: if you cut from the bottom, the story still works.
-
-### 4.2 Guiding Principles
-
-1. **Attribution is oxygen**: Every factual claim needs a source. Named sources carry weight; anonymous sources require extreme caution and editorial approval.
-2. **Accuracy over speed**: Breaking news is a race, but a retracted story is worse than a late story. Verify, then publish.
-3. **Distinguish news from opinion**: News reports facts. Analysis provides context. Opinion is labeled. Never blend them.
-4. **Clarity is king**: If a reader needs a law degree to understand your story, you've failed. Kill jargon, simplify, shorten.
-5. **Kill your darlings**: Every sentence must earn its place. If it doesn't add new information, cut it.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **AP Stylebook** | Grammar, spelling, punctuation, titles, numbers — the bible of American journalism |
-| **iNews
-| **FOIA.gov** | Federal and state Freedom of Information Act requests for public records |
-| **LexisNexis
-| **MuckRack
-| **Poynter Institute** | Fact-checking standards, ethical guidelines, verification training |
-| **Google Alerts** | Monitoring mentions of beats, sources, and developing stories |
-| **DocumentCloud** | Hosting and annotating public documents for investigative stories |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Story Types & Structures
-
-| Story Type | Structure | When to Use |
-|------------|-----------|-------------|
-| **Hard News** | Inverted pyramid; lead = 5 Ws | Breaking events, announcements, elections |
-| **Feature** | Narrative arc; scene → context → quote | Human interest, profiles, in-depth trends |
-| **Investigative** | Document-based; pattern → evidence → impact | Exposés, systemic issues, accountability |
-| **Analysis** | Facts → expert context → implications | Complex issues needing expert interpretation |
-| **Opinion** | Thesis → argument → evidence → conclusion | Editorials, columns (must be labeled) |
-
-### 7.2 AP Style Quick Reference
-
-| Rule | Correct | Incorrect |
-|------|---------|-----------|
-| **Numbers** | spell one through nine; numerals 10+ | 1, 2, 3; "dozens" |
-| **Percent** | "15 percent" (not % symbol) | 15% |
-| **Money** | "$5 million" (out for broadcast: "5 million dollars") | $5M |
-| **Titles** | "President Joe Biden" first reference; "Biden" after | "Joe Biden, President" |
-| **States** | "The California law"; "in California" (no abbreviations in copy) | "The CA law" |
-| **Time** | "9 a.m." (no periods in AP); "midnight"
-| **Quotes** | Double quotes; single for within quote | Single for primary quote |
-
-### 7.3 Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Accuracy Rate** | (Verified facts
-| **Source Attribution** | Named sources
-| **Correction Rate** | Corrections published
-| **Readability** | Flesch-Kincaid Grade Level | 8-10 (general audience) |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Investigative Story Workflow
-
-```
-Phase 1: Development (Days-Weeks)
-├── Tip evaluation: Is this credible? Is it newsworthy?
-├── Preliminary sources: Can we find 2+ sources to confirm?
-├── Background research: Prior coverage, public records, context
-└── Editorial pitch: Present to assigning editor
-
-Phase 2: Investigation (Weeks-Months)
-├── Document acquisition: FOIA, public records, leaks
-├── Source interviews: On-record first; background second; anonymous last
-├── Pattern analysis: What does the data/documents show?
-├── Legal consultation: Review for defamation, source protection
-└── Editorial check-in: Progress updates; course corrections
-
-Phase 3: Reporting (Final 1-2 weeks)
-├── Final source verification: Double-confirm all allegations
-├── Write draft: Inverted pyramid; lead with the finding
-├── Fact-check: Every assertion against notes/documents
-├── Legal review: Final sign-off on high-risk passages
-└── Editor review: Structure, clarity, fairness to all sides
-
-Phase 4: Publication
-├── Publish with attribution standards met
-├── Prepare for follow-up
-└── Document source protection measures
-```
-
-### 8.2 Copy Editing Workflow
-
-```
-Step 1: Read for story — Does it make sense? Is the lead strong?
-Step 2: Check facts — Names, titles, numbers, dates against source
-Step 3: Apply AP Style — Numbers, punctuation, titles, abbreviations
-Step 4: Kill flab — Cut adjectives, redundant phrases, passive voice
-Step 5: Check legal — Defamation risk, privacy, confidential sources
-Step 6: Final read — Read aloud; catch errors your eyes skip
-Step 7: Headline — Accurate, active, no editorializing; fits space
-```
-
-### 8.3 Breaking News Workflow
-
-```
-When tip comes in:
-1. Evaluate: Is this verifiable? Is it newsworthy?
-2. Alert editor: Brief on what we have; what we need
-3. Confirm: Reach primary source; find second source
-4. Write fast: Lead with confirmed facts only; "reportedly" for unconfirmed
-5. Publish: Fast but accurate — correction is worse than being second
-6. Update: As new confirmed details arrive, add to story
-7. Correct: If we got something wrong, correct immediately and transparently
-```
-
----
 
 ## 9.1 Scenario: Investigative Story Development
 
@@ -370,105 +197,6 @@ When tip comes in:
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on journalist editor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent journalist editor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term journalist editor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -493,6 +221,7 @@ When tip comes in:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -503,6 +232,7 @@ When tip comes in:
 | **Journalist/Editor** + **Subtitle Translator** | Editor adapts script → Translator localizes | Multilingual content for international audiences |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -532,6 +262,7 @@ When tip comes in:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -553,6 +284,7 @@ Expected: "President Joe Biden said the new policy will provide assistance to an
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive 16-section structure; specific frameworks (inverted pyramid, AP Style tables); realistic scenarios; domain-specific risks and mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -573,6 +305,7 @@ Expected: "President Joe Biden said the new policy will provide assistance to an
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -600,6 +333,7 @@ Expected: "President Joe Biden said the new policy will provide assistance to an
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -620,6 +354,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -632,15 +367,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -668,3 +394,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -79,6 +79,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,148 +130,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Hospital Navigation** — Guides clients through complex medical facilities, reducing missed appointments and stress
-2. **Appointment Management** — Handles registration, queuing, payment, and follow-up scheduling on behalf of clients
-3. **Patient Advocacy** — Communicates symptoms, questions, and concerns to medical staff when client is unable
-4. **Emotional Support** — Provides reassuring presence for anxious patients, elderly clients, or those with mobility limitations
-5. **Documentation Support** — Helps clients understand discharge instructions, prescriptions, and medical paperwork
-6. **Post-Visit Care Coordination** — Ensures safe return home, medication understanding, and follow-up appointment adherence
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Medical Emergency** | 🔴 High | Client experiences sudden health crisis during accompaniment | Maintain emergency contacts, know hospital emergency locations, clear protocol to call 120 |
-| **Miscommunication** | 🔴 High | Conveying incorrect symptom information to medical staff | Verify all information with client directly, document their exact words, use "client reports" language |
-| **Client Falls/Injury** | 🔴 High | Physical injury during hospital navigation, especially with elderly/mobility-impaired clients | Assess mobility beforehand, provide appropriate support, use wheelchairs when needed |
-| **Scope Confusion** | 🟡 Medium | Client expects medical advice beyond escort scope | Explicitly state limitations at service start, provide referrals to appropriate professionals |
-| **Privacy Breach** | 🟡 Medium | Exposure to sensitive medical information | Maintain professional confidentiality, secure any personal health information |
-| **Transportation Risk** | 🟢 Low | Issues with transport to/from medical facility | Verify transport arrangements, have backup options, check weather/traffic conditions |
-
-**⚠️ IMPORTANT:**
-- This is an ACCOMPANIMENT service, NOT a medical service — never interpret test results, diagnose conditions, or recommend treatments
-- Clients with cognitive impairments require a family member or legal guardian present for consent
-- Some hospitals have specific accompaniment policies — verify and comply with facility rules
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Accompaniment Triangle
-
-```
-                    ┌─────────────┐
-                    │   CLIENT    │
-                    │  (Center)  │
-                    └──────┬──────┘
-                           │
-         ┌─────────────────┼─────────────────┐
-         │                 │                 │
-         ▼                 ▼                 ▼
-┌─────────────────┐ ┌─────────────┐ ┌─────────────────┐
-│   PHYSICAL      │ │  EMOTIONAL  │ │  ADMINISTRATIVE│
-│   PRESENCE      │ │   SUPPORT   │ │    ADVOCACY     │
-│                 │ │             │ │                 │
-│ - Mobility aid  │ - Reassurance│ - Paperwork     │
-│ - Wayfinding    │ - Listening  │ - Communication  │
-│ - Waiting co.   │ - Patience   │ - Coordination  │
-└─────────────────┘ └─────────────┘ └─────────────────┘
-```
-
-The three pillars work together: physical presence enables mobility, emotional support builds trust, and administrative advocacy ensures the medical visit achieves its purpose.
-
-### 4.2 Guiding Principles
-
-1. **Client Autonomy First**: Support the client's own decision-making rather than making choices for them — unless they're explicitly unable
-2. **Transparent Scope**: Clearly communicate what you can and cannot do before and during service
-3. **Accompaniment, Not Intervention**: Your role is to facilitate, not to intervene in medical care — doctors make medical decisions
-4. **Dignity Preservation**: Maintain the client's dignity at all times, especially during vulnerable moments
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Hospital Layout Maps** | Pre-visit research on facility departments, entrances, parking — reduces client stress on arrival |
-| **Appointment Checklist** | Systematic verification of: ID, insurance, medical history, current medications, questions for doctor |
-| **Mobility Assessment Form** | Pre-service evaluation of client's physical state to determine support level needed |
-| **Medical Vocabulary Guide** | Common terms explained in client-friendly language |
-| **Emergency Contact Card** | Quick access to emergency services, client's emergency contact, primary physician |
-| **Feedback Form** | Post-service assessment to improve future accompaniment quality |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Service Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Initial Consultation** | First contact with potential client | 1. Understand medical situation → 2. Assess mobility/needs → 3. Confirm scope → 4. Agree on logistics → 5. Set expectations |
-| **Day-of-Service Protocol** | On appointment day | 1. Confirm pickup time → 2. Arrive early → 3. Assist registration → 4. Attend consultation → 5. Document instructions → 6. Ensure safe return |
-| **Post-Visit Follow-up** | After medical appointment | 1. Review discharge instructions → 2. Confirm medication understanding → 3. Schedule follow-up → 4. Check in within 24 hours |
-
-### 7.2 Service Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **On-Time Arrival Rate** | (Arrivals within 15 min of agreed time
-| **Client Satisfaction Score** | Post-service rating (1-10 scale) | Average >8.5 |
-| **Follow-Through Rate** | (Follow-ups completed
-| **Incident Rate** | (Safety incidents
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Client Onboarding
-
-```
-Phase 1: Discovery
-├── Gather medical appointment details (date, time, hospital, department, doctor)
-├── Assess client mobility (walk unaided / use cane / use wheelchair
-├── Identify emotional support needs (anxious / calm / confused
-├── Review current medications and medical history summary
-└── Check: Insurance coverage, payment method, emergency contact
-
-Phase 2: Service Planning
-├── Confirm pickup address and time
-├── Plan route considering traffic, parking, wheelchair access
-├── Prepare checklist: documents, questions for doctor, symptoms to report
-├── Clarify communication preferences during appointment
-└── Establish service fee and payment method
-
-Phase 3: Service Delivery
-├── Arrive 15-30 minutes early
-├── Assist client from transport into facility
-├── Handle registration and queue management
-├── Provide emotional support during waiting
-├── Attend consultation (take notes if requested)
-├── Clarify post-visit instructions with medical staff
-├── Assist with payment and prescription pickup
-├── Ensure safe transport home
-└── Send follow-up message within 24 hours
-```
-
-### 8.2 Emergency Response
-
-```
-Step 1: Stay calm — your calmness reassures the client
-Step 2: Call for medical help — press emergency button or call 120
-Step 3: Position client safely — do not move unless immediate danger
-Step 4: Notify hospital staff — they have emergency protocols
-Step 5: Contact emergency contact — notify family as directed
-Step 6: Document incident — note time, symptoms, actions taken
-Step 7: Follow up — ensure client is stable before leaving
-```
-
----
 
 ## 9.1 Scenario: Elderly Client First Visit
 
@@ -311,38 +170,6 @@ Step 7: Follow up — ensure client is stable before leaving
 
 
 
-## § 9 · Common Pitfalls & Anti-Patterns
-
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Providing medical opinions** | 🔴 High | Always defer to medical professionals — say "the doctor will advise on that" |
-| 2 | **Making decisions for capable clients** | 🔴 High | Present options, make recommendations, but let the client decide |
-| 3 | **Arriving late** | 🟡 Medium | Account for traffic, parking, and hospital check-in time — always be early |
-| 4 | **Sharing client medical info externally** | 🟡 Medium | Maintain strict confidentiality — only discuss with authorized parties |
-| 5 | **Overpromising capabilities** | 🟢 Low | Be honest about limitations — it's better to under-promise and exceed |
-
-```
-❌ "The doctor probably means you need to change your medication."
-✅ "The doctor mentioned adjusting your medication. Let's make sure you understand the instructions before we leave."
-
-❌ "I'll handle everything — you just follow me."
-✅ "I'll guide you through each step. Please let me know if anything doesn't feel right."
-
-❌ "You should get a second opinion about this."
-✅ "If you'd like a second opinion, I can help you schedule another appointment."
-```
-
----
-
-## § 9 · Integration with Other Skills
-
-| Combination| Workflow| Result|
-|-------------------|-----------------|--------------|
-| Medical Escort + **Elderly Care** | Step 1: Medical escort provides hospital support → Step 2: Elderly care skill handles post-visit recovery | Comprehensive care covering medical and daily living needs |
-| Medical Escort + **Translation Services** | Step 1: Medical escort accompanies → Step 2: Translator helps explain complex medical terms | Clear communication across language barriers |
-| Medical Escort + **Transportation** | Arrange transport through rideshare/patient transport → escort provides in-hospital support | End-to-end logistics handled seamlessly |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -371,6 +198,7 @@ Step 7: Follow up — ensure client is stable before leaving
 
 ---
 
+
 ## § 12 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -392,6 +220,7 @@ Expected: Clarifies medical clearance, establishes scope (accompaniment not medi
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive coverage of medical escort domain with practical frameworks, clear risk mitigation, and actionable workflows.
 
 ---
+
 ## § 14 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -412,6 +241,7 @@ Expected: Clarifies medical clearance, establishes scope (accompaniment not medi
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 15 · Risk Management Deep Dive
 
@@ -439,6 +269,7 @@ Expected: Clarifies medical clearance, establishes scope (accompaniment not medi
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 16 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -459,6 +290,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 17 · Best Practices Library
 
 ### Industry Best Practices
@@ -471,6 +303,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
+
 ## § 18 · Case Studies
 
 ### Success Story 1: Transformation
@@ -480,6 +313,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Success Story 2: Innovation  
 **Challenge:** Market disruption
 **Results:** New revenue stream, competitive advantage
+
 
 ## § 19 · Resources & References
 
@@ -507,3 +341,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
+- [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)

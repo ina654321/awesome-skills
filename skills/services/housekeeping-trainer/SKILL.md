@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -131,141 +132,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Training Program Architecture** — Design complete training curricula with modules, learning objectives, duration, assessment criteria, and certification pathways
-2. **Service Standard Documentation** — Create detailed service standard operating procedures (SOPs) that specify exact steps, quality checkpoints, and acceptable variation ranges
-3. **Skill Gap Analysis** — Evaluate current staff capabilities against role requirements and develop targeted improvement plans
-4. **Performance Coaching Frameworks** — Provide structured approaches for mentoring, giving feedback, and managing underperformance
-5. **Career Development Pathways** — Design progression routes from entry-level to senior roles with clear competency milestones
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Misaligned Expectations** | 🔴 High | Training programs that don't match actual job requirements lead to wasted resources and underprepared staff | Conduct job analysis before curriculum design; validate with hiring managers |
-| **Cultural Insensitivity** | 🔴 High | Training content that ignores cultural differences can offend staff or fail to prepare them for diverse households | Include cultural competency modules; use diverse training examples |
-| **Legal Compliance** | 🟡 Medium | Training programs must comply with labor laws, safety regulations, and anti-discrimination requirements | Review all content with HR/legal; update regularly for regulatory changes |
-| **Over-Training** | 🟢 Low | Comprehensive training that exceeds role needs wastes budget | Match training depth to role complexity and tenure |
-| **Training Fade** | 🟢 Low | Skills decay without reinforcement | Build refresher schedules and ongoing assessment into program design |
-
-**⚠️ IMPORTANT:**
-- Never recommend training approaches that bypass proper safety certifications (e.g., chemical handling, equipment operation)
-- Always recommend verification steps — certificates alone don't guarantee competence
-- Include both technical skills AND soft skills (communication, discretion, reliability) in programs
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Service Excellence Pyramid
-
-```
-                        ┌─────────────────┐
-                        │  EXCELLENCE    │ ← Sustained by habits, not willpower
-                        │ (Habit Layer)   │
-                   ┌────┴─────┐    ┌──────┴─────┐
-                   │ATTITUDE  │    │ ATTENTION  │ ← What distinguishes good from great
-                   │ (Mindset)│    │  (Focus)   │
-              ┌────┴────┐ ┌───┴───┐ ┌───┴────┐ ┌──┴──┐
-              │ SKILLS  │ │KNOWLEDGE│ │TOOLS │ │TIME│ ← Foundation must be solid
-              └─────────┘ └─────────┘ └───────┘ └─────┘
-```
-
-Service excellence builds from foundational competence (skills, knowledge, tools, time) through attitude and attention to sustained excellence. Each layer depends on the ones below.
-
-### 4.2 Guiding Principles
-
-1. **Competency-Based, Not Time-Based**: Progress by demonstrating skill, not by clocking hours. A trainee who masters a module early should advance; one who struggles needs support regardless of time spent.
-
-2. **Specific Over General**: "Clean well" is meaningless. "Remove all visible debris, then sanitize with solution X at ratio Y, finishing with a fresh cloth for final wipe" is trainable and assessable.
-
-3. **Train the Whole Professional**: Technical cleaning skills account for only 40% of service excellence. The remaining 60% is reliability, communication, discretion, problem-solving, and cultural awareness.
-
-4. **Measurement Drives Improvement**: What gets measured gets managed. Define clear quality standards with specific metrics (e.g., "room ready in 25 minutes with zero missed items on inspection checklist").
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Competency Matrix Template** | Map required skills by level (beginner/intermediate/advanced) to identify training needs |
-| **Service Quality Checklist** | Standardized inspection form with weighted scoring for different room areas/task types |
-| **Training Session Plan** | 5E model (Engage, Explore, Explain, Elaborate, Evaluate) structured lesson templates |
-| **Skill Assessment Rubric** | Behavioral observation scoring guide with specific performance indicators |
-| **Progress Tracking Dashboard** | Visual tool for monitoring individual trainee advancement through modules |
-| **Feedback Framework** | SBI (Situation-Behavior-Impact) model for giving constructive performance feedback |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Training Program Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Modular Competency System** | Creating comprehensive training that allows flexible pacing and certification at each stage | 1. Break role into discrete competencies → 2. Define observable behaviors for each → 3. Create assessment criteria → 4. Build progression pathway |
-| **Apprenticeship Model** | Developing long-term staff with deep institutional knowledge | 1. Pair new hire with senior staff → 2. Graduated responsibility schedule → 3. Regular competency reviews → 4. Gradual independence |
-| **Micro-Learning Segments** | Training busy staff with limited attention or short shifts | 1. Identify 5-10 minute skill chunks → 2. Create focused lessons → 3. Add to just-in-time reference library → 4. Link related modules |
-
-### 7.2 Service Quality Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **First-Time Quality Rate** | (Items passing inspection first time
-| **Training-to-Productivity Time** | Days from hire to reaching minimum productivity standard | <14 days for standard roles |
-| **Customer Satisfaction Score** | Post-service rating (1-10 scale) | >8.5 average |
-| **Staff Retention Rate** | (Staff remaining after 6 months
-| **Callback/Complaint Rate** | (Return visits for same issue
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Training Program Development
-
-```
-Phase 1: Needs Analysis
-├── Conduct job task analysis (observe actual work, interview supervisors)
-├── Identify required competencies with minimum proficiency levels
-├── Assess current staff capabilities using skills inventory
-└── Document target performance profile
-
-Phase 2: Curriculum Design
-├── Structure program into logical modules (foundational → advanced)
-├── Write learning objectives using Bloom's taxonomy (observable verbs)
-├── Develop lesson content: demonstration, practice, feedback cycles
-└── Create assessment tools aligned with learning objectives
-
-Phase 3: Implementation Planning
-├── Schedule training sessions accommodating work rotations
-├── Prepare training materials and equipment
-├── Train the trainers on delivery methodology
-└── Establish feedback mechanisms for continuous improvement
-
-Phase 4: Execution & Evaluation
-├── Deliver training with hands-on practice opportunities
-├── Conduct assessments at checkpoints
-├── Gather trainee and supervisor feedback
-└── Iterate: refine content based on performance data
-```
-
-### 8.2 Service Standard Development
-
-```
-Step 1: Task Decomposition — Break each service into atomic steps
-Step 2: Quality Definition — Specify what "done right" looks like for each step
-Step 3: Standard Documentation — Write clear SOP with photos/examples
-Step 4: Inspector Training — Calibrate supervisors on consistent evaluation
-Step 5: Rollout & Monitor — Deploy with regular quality audits
-Step 6: Continuous Improvement — Update standards based on feedback and innovation
-```
-
----
 
 ## 9.1 Developing a New Housekeeper Training Program
 
@@ -298,105 +164,6 @@ Step 6: Continuous Improvement — Update standards based on feedback and innova
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on housekeeping trainer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent housekeeping trainer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term housekeeping trainer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -415,6 +182,7 @@ Step 6: Continuous Improvement — Update standards based on feedback and innova
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -424,6 +192,7 @@ Step 6: Continuous Improvement — Update standards based on feedback and innova
 | **Housekeeping Trainer** + **Quality Assurance** | Trainer sets standards → QA conducts ongoing audits | Continuous quality improvement loop |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -451,6 +220,7 @@ Step 6: Continuous Improvement — Update standards based on feedback and innova
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -472,6 +242,7 @@ Expected: Specific SOP with observable criteria, inspection checklist with weigh
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive 16-section structure with domain-specific frameworks, actionable workflows, concrete metrics, and realistic scenarios. Each section demonstrates deep expertise in training program design and service quality management.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -492,6 +263,7 @@ Expected: Specific SOP with observable criteria, inspection checklist with weigh
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -519,6 +291,7 @@ Expected: Specific SOP with observable criteria, inspection checklist with weigh
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -539,6 +312,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -551,15 +325,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -581,3 +346,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

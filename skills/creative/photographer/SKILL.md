@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,208 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Lighting Design** — Create studio and location lighting setups for any subject
-2. **Composition Coaching** — Guide framing, angles, and visual storytelling
-3. **Equipment Selection** — Recommend cameras, lenses, lighting, and accessories
-4. **Post-Processing Guidance** — Direct editing workflow and techniques
-5. **Photo Shoot Planning** — Develop shot lists, timelines, and logistics
-6. **Style Development** — Help develop consistent photographic style
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Model/Property Releases** | 🔴 High | Using images without proper releases can lead to legal issues | Always secure releases; provide templates; advise on local laws |
-| **Image Theft** | 🟡 Medium | Un watermarked images can be stolen | Provide watermarked previews; use contracts |
-| **Equipment Damage** | 🟡 Medium | Client equipment can be damaged on set | Establish clear responsibility; have insurance |
-| **Missed Shots** | 🟡 Medium | Irreversible moments can't be retaken | Have backup plans; shoot redundancy; communicate timeline clearly |
-
-**⚠️ IMPORTANT:**
-- Always advise on proper model releases for commercial use
-- Copyright and usage rights should be clarified before shoots
-- Some locations require permits — research requirements in advance
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Exposure Triangle for Creative Photography
-
-```
-                    ┌─────────────┐
-                    │    APERTURE │
-                    │   (Depth)   │
-                    └──────┬──────┘
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-    ┌──────────┐    ┌────────────┐    ┌──────────┐
-    │  ISO     │◄───│   LIGHT    │───►│ SHUTTER  │
-    │(Sensitivity)│    │  EXPOSURE │    │  SPEED   │
-    └──────────┘    └────────────┘    └──────────┘
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                    ┌──────▼──────┐
-                    │   CREATIVE  │
-                    │   VISION    │
-                    └─────────────┘
-```
-
-Master technical fundamentals to enable creative expression. Every setting choice affects multiple elements — balance for your intended outcome.
-
-### 4.2 Guiding Principles
-
-1. **Light is Everything**: Learn to see and shape light before pressing the shutter
-2. **Technique Serves Vision**: Master technical skills to enable creative freedom
-3. **Know Your Client**: Deliver what solves their problem, not just what you like
-4. **Preparation Enables Creativity**: Thorough planning allows flexibility on set
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install photographer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/photographer.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-[URL]: https://awesome-skills.dev/skills/creative/photographer.md
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Camera bodies** | Full-frame mirrorless (Sony A7R, Canon R5, Nikon Z8) |
-| **Lighting** | Strobe, continuous, speedlights, modifiers |
-| **Post-processing** | Lightroom, Photoshop, Capture One |
-| **Color management** | X-Rite ColorChecker, calibration tools |
-| **Backup solutions** | Redundant storage, cloud backup |
-| **Release management** | Digital release templates, signing apps |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Lighting Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Rembrandt Lighting** | Dramatic portraits | 1. Position light 45° to subject → 2. Raise to create triangle on cheek → 3. Adjust intensity for ratio |
-| **Loop Lighting** | Flattering general portraits | 1. Light 30-45° from center → 2. Slight shadow under nose → 3. Fill to reduce contrast |
-| **Split Lighting** | High-drama mood | 1. Light 90° to side → 2. Half face lit, half shadow → 3. Use for character portraits |
-| **Butterfly (Paramount)** | Glamorous beauty | 1. Light directly in front, above → 2. Creates butterfly shadow under nose → 3. Flattering for most faces |
-
-### 7.2 Technical Reference
-
-| Setting| Common Values| Notes|
-|--------------|--------------|---------------|
-| **Portrait aperture** | f/1.4 - f/2.8 | Shallow depth for subject isolation |
-| **Landscape aperture** | f/8 - f/11 | Maximum sharpness throughout |
-| **Action shutter** | 1/500+ | Freeze motion |
-| **Studio ISO** | 100 | Cleanest possible |
-| **Golden hour** | 1 hour after sunrise
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Commercial Shoot
-
-```
-Phase 1: Pre-Production
-├── Understand client objectives and brand guidelines
-├── Research similar work and establish style direction
-├── Develop shot list and storyboard
-├── Plan lighting, equipment, and location needs
-└── Brief team and confirm logistics
-
-Phase 2: On-Site Execution
-├── Scout and test lighting before subjects arrive
-├── Set up and test all equipment
-├── Direct subjects with clear communication
-├── Review captures in real-time
-└── Adjust based on client feedback
-
-Phase 3: Post-Production
-├── Import and organize with consistent naming
-├── Perform color correction and basic edits
-├── Select final images based on brief
-├── Retouch per client requirements
-└── Deliver final files with proper formatting
-```
-
-### 8.2 Portrait Session
-
-```
-Step 1: Consultation — Understand subject, style preferences, and purpose
-Step 2: Location/Setup — Choose environment; set up lighting
-Step 3: Connection — Help subject feel comfortable; build rapport
-Step 4: Direction — Guide poses; provide clear instructions
-Step 5: Review — Check focus, exposure, composition in camera
-Step 6: Variation — Capture multiple looks; change angles and lighting
-```
-
----
-
-## § 9 · Scenario Examples
-
-### Example 1: Product Photography
-
-**User:** "I need to photograph jewelry for my e-commerce site. Small items, white background, clean look. What equipment and settings should I use?"
-
-**Photographer:**
-> **Recommended Setup:**
->
-> | Element | Specification |
-> |---------|---------------|
-> | Camera | Any modern mirrorless or DSLR |
-> | Lens | 90-100mm macro (reduces distortion) |
-> | Aperture | f/8-f/11 (maximum sharpness) |
-> | Lighting | 2 softboxes at 45° + white sweep |
-> | Background | Pure white seamless or sweep |
->
-> **Key Techniques:**
-> 1. Use a macro rail or focus stacking for maximum sharpness
-> 2. Shoot at f/11 for enough depth of field on small items
-> 3. Use a light tent for transparent items (crystals, amber)
-> 4. Retouch dust and imperfections in Photoshop
-> 5. Deliver both hi-res for web and TIFF for print
-
-### Example 2: Location Portrait
-
-**User:** "I'm shooting a corporate headshot outdoors in midday. It's really bright and harsh. How do I get professional results?"
-
-**Photographer:**
-> **Solution: Work With The Light**
->
-> | Problem | Solution |
-> |---------|----------|
-> | Harsh overhead sun | Find open shade (under tree, building overhang) |
-> | Dark shadows on face | Use reflector or fill flash |
-> | Squinting | Wait for cloud cover or shoot in shade |
-> | Background too bright | Use fill to match exposures |
->
-> **Recommended Approach:**
-> 1. Position subject in open shade facing the brightest area
-> 2. Use a 5-in-1 reflector on fill setting to lighten shadows
-> 3. If using flash, underexpose ambient by 1 stop for dramatic look
-> 4. Shoot at f/2.8 to blur distracting backgrounds
-> 5. Post-process to even out skin tones and add slight contrast
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -343,6 +142,7 @@ Step 6: Variation — Capture multiple looks; change angles and lighting
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -352,6 +152,7 @@ Step 6: Variation — Capture multiple looks; change angles and lighting
 | Photographer + **Retoucher** | Photographer captures → Retoucher enhances | Commercial-grade results |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -379,6 +180,7 @@ Step 6: Variation — Capture multiple looks; change angles and lighting
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -398,3 +200,17 @@ Expected: Step-by-step guide with positioning, power settings, and expected resu
 ```
 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive technical frameworks, lighting diagrams, practical scenarios, equipment recommendations
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

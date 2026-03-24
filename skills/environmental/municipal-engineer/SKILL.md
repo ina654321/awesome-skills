@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,167 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Water System Design** — Design water supply, storage (tanks, reservoirs), pumping, and distribution mains
-2. **Sewer Collection Design** — Design sanitary sewer collection systems, pump stations, force mains
-3. **Stormwater Management** — Design collection, conveyance, detention/retention, and water quality treatment
-4. **Road & Traffic Design** — Design urban/rural roads, intersections, traffic signals, pavement sections
-5. **Capital Improvement Planning** — Develop CIP programs, cost estimates, and funding strategies
-6. **Public Works Operations** — Develop O&M procedures, asset management, rate studies
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Design Errors** | 🔴 High | Infrastructure failures (pipe burst, road collapse) can endanger public safety | Independent review; follow standards; specify materials |
-| **Regulatory Violations** | 🔴 High | Drinking water, stormwater permits have enforceable penalties | Design for compliance; maintain records; respond to violations |
-| **Construction Claims** | 🔴 High | Change orders, delays, contractor disputes can double project costs | Clear specs; proper bidding; construction observation |
-| **Inadequate Capacity** | 🔴 High | Undersized water/sewer/storm causes service failures | Design for build-out; include redundancy |
-| **Rate Sufficiency** | 🟡 Medium | Insufficient rates lead to infrastructure deterioration | Annual rate reviews; cost-of-service studies |
-| **Climate Resilience** | 🟡 Medium | Aging infrastructure not designed for current climate extremes | Design for updated precipitation IDF curves; consider sea level rise |
-
-**⚠️ IMPORTANT:**
-- Most municipal infrastructure requires PE stamp; don't provide final design without licensed engineer
-- NPDES stormwater permits apply to construction >1 acre; plan accordingly
-- Water system designs must meet state drinking water standards
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Municipal Infrastructure Design Framework
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────┐
-│                    MUNICIPAL PROJECT DEVELOPMENT                                      │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Phase 1: Planning & Alternatives                                                    │
-│  ├── Define: Project need, service area, capacity requirements                       │
-│  ├── Evaluate: Alternatives (do nothing, upgrade, new construction)                  │
-│  ├── Select: Preferred alternative with regulatory acceptance                        │
-│  └── Deliverable: Project memo, preliminary cost estimate                           │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Phase 2: Preliminary Design                                                         │
-│  ├── Develop: Site plan, system layout, major components                            │
-│  ├── Size: Pipes, structures, equipment based on design criteria                    │
-│  ├── Coordinate: Utilities, environmental, traffic                                  │
-│  └── Deliverable: 30% design, opinion of probable cost                                │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Phase 3: Final Design                                                              │
-│  ├── Complete: Civil/site drawings, specifications                                  │
-│  ├── Obtain: Permits (grading, building, environmental)                              │
-│  ├── Develop: Construction cost estimate                                            │
-│  └── Deliverable: 100% design, bid documents                                        │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Phase 4: Construction                                                              │
-│  ├── Bid: Advertise, evaluate bids, award contract                                   │
-│  ├── Construct: Administer contract, inspect work, process pay requests              │
-│  ├── Complete: Startup, testing, final inspection                                   │
-│  └── Deliverable: Record drawings, O&M manuals, warranty                            │
-└──────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-The framework moves through traditional engineering project phases from planning through construction, ensuring regulatory compliance and cost control at each stage.
-
-### 4.2 Guiding Principles
-
-1. **Design for Build-Out**: Infrastructure serves current AND future population; oversizing is often justified
-2. **Standard Details Save Money**: Use adopted standard details; custom details increase design costs and errors
-3. **O&M is 80% of Life-Cycle Cost**: Design for maintainability, not just capital cost
-4. **Public Money Requires Public Process**: Document decisions, hold hearings, maintain transparency
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **AutoCAD Civil 3D** | Civil/site design, grading, pipe networks |
-| **WaterCAD
-| **StormCAD
-| **SWMM** | Stormwater quality, LID modeling |
-| **EPANET** | Water quality modeling in distribution systems |
-| **AASHTOWare** | Pavement design (AASHTO 93, ME) |
-| **InRoads
-| **ArcGIS** | Asset management, mapping, spatial analysis |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Municipal Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Water System Design** | New water supply/distribution | 1. Demand projection → 2. Source capacity → 3. Storage sizing → 4. Pipe network → 5. Appurtenances |
-| **Stormwater Design** | Urban drainage (per local stormwater manual) | 1. Rational method/SCS → 2. Pipe sizing → 3. Detention sizing → 4. Water quality → 5. LID/BMPs |
-| **Road Design** | Urban/suburban streets | 1. Design speed → 2. Geometric design → 3. Pavement section → 4. Drainage → 5. Traffic control |
-| **Sanitary Sewer Design** | Gravity sewer collection | 1. Population projection → 2. Flow estimation → 3. Pipe sizing (Manning) → 4. Manholes → 5. Pump stations |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Water Design Flow** | Avg Day + Max Day + Fire Flow | Per state standards, ISO requirements |
-| **Pipe Velocity** | V = Q/A | 2-5 fps (min self-cleansing, max 10 fps) |
-| **Storm Pipe Capacity** | Q = (1.49/n)A(R)^(2/3)S^(1/2) | 10-year or 25-year storm depending on classification |
-| **Detention Volume** | Rational Method hydrograph | Detain runoff from specified storm |
-| **Pavement Section** | AASHTO 93 or ME | Design based on traffic (ESALs), soil, reliability |
-| **Water Main Sizing** | Hazen-Williams or Darcy-Weisbach | Min 8" for dead-end, 12"+ for main |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Water Distribution System Design
-
-```
-Phase 1: System Planning
-├── Determine: Service area, population projections, land use
-├── Establish: Design criteria (max day + fire flow, pressure requirements)
-├── Evaluate: Source options (groundwater, surface water, wholesale)
-└── Deliverable: Water master plan
-
-Phase 2: Distribution Analysis
-├── Model: Existing system using WaterCAD/EPANET
-├── Identify: Deficiencies (capacity, pressure, fire flow)
-├── Propose: Improvements
-└── Deliverable: System model, improvement plan
-
-Phase 3: Pipeline Design
-├── Survey: Existing utilities, right-of-way
-├── Route: Main alignment
-├── Size: Pipe diameter based on hydraulic analysis
-├── Specify: Material (DIP, PVC, HDPE), class, fittings
-└── Deliverable: Plan/profile drawings
-
-Phase 4: Appurtenances
-├── Design: Valves, hydrants, blow-offs, air releases
-├── Locate: Appurtenances for operation/maintenance
-└── Deliverable: Details, specifications
-
-Phase 5: Storage & Pumping
-├── Size: Ground storage, elevated storage per criteria
-├── Design: Pump station (if needed) for firm capacity
-└── Deliverable: Tank/pump station drawings
-```
-
-### 8.2 Stormwater Management Design
-
-```
-Step 1: Develop IDF Curve - Use NOAA Atlas 14 for precipitation
-Step 2: Runoff Analysis - Rational Method or unit hydrograph
-Step 3: Conveyance Design - Pipes, channels, culverts for 10-25yr storm
-Step 4: Detention Design - Detain post-development to pre-development rates
-Step 5: Water Quality - BMPs for pollutant removal (TSS, nutrients)
-Step 6: LID Integration - Rain gardens, permeable pavement where feasible
-```
-
----
 
 ## 9.1 Water Distribution Extension
 
@@ -345,105 +185,6 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on municipal engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent municipal engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term municipal engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -465,6 +206,7 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -475,6 +217,7 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 | Municipal Engineer + **Landscape Architect** | 1. ME designs infrastructure → 2. LA provides aesthetic treatment | Design complete |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -507,6 +250,7 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -528,6 +272,7 @@ Expected: Rational method analysis, detention sizing, water quality BMPs, LID in
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive infrastructure frameworks, AASHTO/applicable standards, hydraulic calculations, capital project workflows, practical scenarios with next-step questions
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -548,6 +293,7 @@ Expected: Rational method analysis, detention sizing, water quality BMPs, LID in
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -575,6 +321,7 @@ Expected: Rational method analysis, detention sizing, water quality BMPs, LID in
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -595,6 +342,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -607,15 +355,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -643,3 +382,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

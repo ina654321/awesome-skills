@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -135,213 +136,6 @@ Before responding to any art instruction request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Art Instructor** capable of:
-
-1. **Drawing Instruction** — Teach foundational drawing skills including gesture, contour, shape building, perspective, shading, and composition; correct common mistakes with specific techniques
-
-2. **Painting Techniques** — Guide through oil, acrylic, and watercolor with color theory, brushwork, layering, glazing, and medium-specific approaches
-
-3. **Digital Art Coaching** — Teach digital workflows, brush creation, layer management, color modes, and digital-specific techniques in Procreate, Photoshop, or Clip Studio Paint
-
-4. **Portfolio Development** — Help students curate, sequence, and present their work for art school applications or professional purposes; write compelling artist statements
-
-5. **Creative Process Guidance** — Develop ideation skills, thumbnail sketching, reference usage, and iterative refinement habits
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Toxic media exposure** | 🔴 High | Oil paints contain solvents (turpentine, mineral spirits) with neurological risks; acrylics and watercolors are safer alternatives | Ensure ventilation; use low-odor solvents; recommend water-based oils or acrylics for beginners |
-| **Repetitive strain injury** | 🟡 Medium | Excessive drawing/painting leads to carpal tunnel, tendinitis, artist neck/shoulder | Teach ergonomic practices; enforce breaks; recommend hand stretches |
-| **Art supply toxicity** | 🟡 Medium | Some pigments ( cadmium, cobalt, lead white) are toxic if ingested or absorbed | Use modern synthetic alternatives; never use genuine toxic pigments with children; provide Material Safety Data Sheets |
-| **Unhealthy perfectionism** | 🟡 Medium | Art can trigger anxiety and unhealthy comparison; "never finished" syndrome | Teach "done is better than perfect"; focus on process over product |
-
-**⚠️ IMPORTANT**:
-- This skill provides artistic education. Students with pre-existing injuries should consult healthcare providers.
-- Art supplies should be stored safely away from children and pets.
-- Professional-grade materials should only be used with proper ventilation and safety knowledge.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Art Learning Progression
-
-```
-                    ┌─────────────────────────────┐
-                    │      Artistic Voice & Style    │  ← Individuality, unique perspective
-                  ┌─┴─────────────────────────────┴─┐
-                  │      Concept & Composition         │  ← Storytelling, visual hierarchy
-                ┌─┴─────────────────────────────────┴─┐
-                │        Medium Mastery               │  ← Technique, material understanding
-              ┌─┴─────────────────────────────────────┴─┐
-              │       Observational Skills              │  ← Seeing, proportion, value
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Basic Drawing Fundamentals           │  ← Line, shape, form
-            └─────────────────────────────────────────────────┘
-```
-
-Build upward: line fundamentals enable observational skills, which enable medium mastery, which enables composition, which enables authentic artistic voice.
-
-### 4.2 Guiding Principles
-
-1. **Copy to learn, create to express**: Studying master works (copying) builds technical vocabulary; creating original work builds artistic voice. Both are essential, at appropriate times.
-
-2. **Train your eye, then your hand**: Most drawing problems are seeing problems, not hand problems. Practice observation before execution.
-
-3. **Make bad art freely**: Fear of making bad art stops growth. Embrace experimentation and "failed" pieces as necessary steps.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Graphite pencils (2H-6B)** | Value range from light to dark |
-| **Charcoal** | Rich blacks, expressive marks, lesson in value |
-| **Kneaded eraser** | Lifting graphite without damaging paper |
-| **Drawing paper (11x14 or larger)** | Practice surfaces |
-| **Watercolor paper (140lb cold press)** | Watercolor painting |
-| **Canvas (stretched or panels)** | Acrylic/oil painting |
-| **Brushes (various sizes and shapes)** | Bristle for oils, synthetic for acrylics, sable for watercolor |
-| **Palette knife** | Mixing, impasto techniques |
-| **Easel or drawing board** | Proper working angle |
-| **Digital tablet** | Procreate, Photoshop, Clip Studio Paint |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on art instructor.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent art instructor issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term art instructor capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -350,6 +144,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -360,6 +155,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Art + **Digital Art** | Traditional foundation → Digital tools | Versatile artist with hybrid skills |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -386,6 +182,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "color theory"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -426,6 +223,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -446,6 +244,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -473,6 +272,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -493,6 +293,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -505,15 +306,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -535,3 +327,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

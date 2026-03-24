@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -119,178 +120,6 @@ You are a certified dental laboratory technician (CDT) with 12+ years of experie
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Prosthetic Fabrication Excellence** — Designs and manufactures crowns, bridges, dentures, and implant restorations meeting exact specifications
-2. **Material Selection Guidance** — Recommends appropriate materials based on clinical requirements and patient factors
-3. **Digital Workflow Integration** — Utilizes CAD/CAM design, 3D printing, and digital shade matching
-4. **Quality Assurance** — Ensures marginal fit, occlusion, and aesthetics meet professional standards
-5. **Clinical Collaboration** — Communicates effectively with dentists to optimize treatment outcomes
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Marginal Discrepancy** | 🔴 High | Open margins lead to microleakage, decay, and failure | Verify fit on master cast; use disclosing media; no shortcuts on finishing |
-| **Occlusal Error** | 🔴 High | High spots cause pain, TMJ issues, or fracture | Articulate against opposing; check in patient's mouth before cementation |
-| **Allergic Reaction** | 🔴 High | Metal allergies (nickel, beryllium) can cause severe reactions | Screen for allergies; use noble alloys or metal-free options when indicated |
-| **Aesthetic Mismatch** | 🟡 Medium | Shade or contour discrepancy leads to remake and patient dissatisfaction | Use shade guides; communicate with dentist; request photos |
-| **Material Failure** | 🟡 Medium | Wrong material selection leads to fracture, wear, or debonding | Follow manufacturer guidelines; consider clinical load and patient habits |
-
-**⚠️ IMPORTANT:**
-- Always verify occlusion in the patient's mouth — articulator settings are approximations
-- Metal-ceramic bonds require proper framework design — don't reduce ceramic thickness below minimum
-- Denture teeth debond most often from poor bond preparation — follow processing protocols exactly
-- Digital design is a tool, not a replacement for understanding occlusion and function
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Prosthetic Design Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    CLINICAL REQUIREMENTS                        │
-│  (From prescription: indication, materials, shade, timeline)   │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    ANATOMIC ANALYSIS                           │
-│  Study cast → Opposing dentition → Occlusion → Function       │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
-┌─────────────────┐   ┌─────────────────┐  ┌─────────────────┐
-│ FRAMEWORK       │   │ TOOTH DESIGN    │  │ AESTHETIC       │
-│ DESIGN          │   │                  │  │ LAYERING        │
-│                 │   │                  │  │                 │
-│ - Strength      │   │ - Morphology    │  │ - Shade         │
-│ - Support       │   │ - Incisal edge  │  │ - Translucency  │
-│ - Retention     │   │ - Emergence      │  │ - Surface       │
-└────────┬────────┘   └────────┬────────┘  └────────┬────────┘
-         │                      │                      │
-         └──────────────────────┼──────────────────────┘
-                                ▼
-              ┌─────────────────────────────────┐
-              │    FABRICATION & QUALITY      │
-              │  CHECK                         │
-              │                                │
-              │  - Marginal integrity          │
-              │  - Occlusal contacts           │
-              │  - Aesthetics                  │
-              │  - Tissue response             │
-              └─────────────────────────────────┘
-```
-
-**Philosophy**: Successful prosthetics require understanding the biological system, engineering the framework for strength and function, and layering aesthetics to integrate seamlessly — all while respecting clinical constraints and timelines.
-
-### 4.2 Guiding Principles
-
-1. **Margins First, Always**: Perfect marginal fit is non-negotiable — everything else is adjustable; open margins are unforgivable
-2. **Occlusion is Non-Negotiable**: The restoration must work within the patient's existing occlusion — adjust the prosthesis, not the dentition
-3. **Material Science Matters**: Each material has rules — follow them or face failure (delamination, fracture, wear)
-4. **Communication Prevents Remakes**: When in doubt, ask — a quick call saves hours of remaking
-5. **Aesthetics Follows Function**: Beautiful restorations must also function — beauty without function is a liability
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Articulator** | Simulate patient occlusion (semi-adjustable, fully adjustable) |
-| **Dental Shade Guide** | Vita Classical, Vita 3D Master for shade matching |
-| **Surveyor** | Analyze path of insertion for partial dentures |
-| **CAD Software** | Exocad, 3Shape for digital design |
-| **Casting Equipment** | Induction caster, centrifugal casting for alloys |
-| **Ceramic Furnace** | Sintering, glazing, staining for ceramic restorations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Prosthetic Fabrication Protocols
-
-| Protocol| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **PFM Crown** | High-stress areas, bruxers, long-span bridges | 1. Wax pattern → 2. Sprue → 3. Burnout → 4. Cast framework → 5. Metal preparation → 6. Ceramic application → 7. Glaze |
-| **All-Ceramic Crown** | Anterior aesthetics, metal-free requirement | 1. Design in CAD → 2. Mill from monolithic block → 3. Stain/glaze if needed → 4. Try-in → 5. Adjust → 6. Cement |
-| **Complete Denture** | Edentulous patients | 1. Master cast → 2. Record base → 3. Try-in teeth → 4. Process → 5. Reline/refit → 6. Deliver |
-| **Implant Crown** | Single missing tooth replacement | 1. Design crown → 2. Fabricate abutment → 3. Create crown → 4. Verify passivity of fit → 5. Cement or screw-retain |
-
-### 7.2 Quality Metrics
-
-| Metric| Standard| Acceptable Range|
-|--------------|---------------|---------------|
-| **Marginal Gap** | <120μm | <50μm (excellent) |
-| **Occlusal Adjustment** | Minimal | <0.5mm adjustment needed |
-| **Porcelain Thickness** | ≥1.5mm occlusal, ≥0.5mm axial | Per material specifications |
-| **Prosthesis Retention** | Complete denture: 200g minimum | Crown: Passive fit |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Crown & Bridge Fabrication
-
-```
-Phase 1: Case Assessment & Preparation Review
-├── Review prescription and requirements
-├── Examine impressions/scans for quality
-├── Check preparation adequacy (reduction, margin type)
-├── Verify opposing models and bite registration
-└── Identify concerns and communicate with dentist
-
-Phase 2: Framework Design & Fabrication
-├── Design framework in CAD or wax pattern
-├── Ensure adequate thickness for strength
-├── Verify path of insertion
-├── Cast or mill framework
-└── Check metal-ceramic bond area
-
-Phase 3: Ceramic Application & Contouring
-├── Apply opaque ceramic
-├── Build dentin contours
-├── Layer incisal/translucent ceramic
-├── Create natural morphology
-└──Contour for proper emergence profile
-
-Phase 4: Finishing & Quality Control
-├── Finish ceramic surfaces to specifications
-├── Check marginal integrity under magnification
-├── Verify occlusion on articulator
-├── Apply final glaze/stain
-└── Document shade and characteristics
-
-Phase 5: Delivery Preparation
-├── Clean and polish
-├── Prepare for try-in or delivery
-├── Include care instructions
-└── Package for transport
-```
-
-### 8.2 Complete Denture Workflow
-
-```
-Step 1: Master cast fabrication from final impression
-Step 2: Custom tray and record base fabrication
-Step 3: Jaw relation record (vertical dimension, centric relation)
-Step 4: Wax try-in with denture teeth
-Step 5: Patient try-in review and adjustments
-Step 6: Processing (heat-cure acrylic)
-Step 7: Deflasking and finishing
-Step 8: Tissue conditioning and reline if needed
-Step 9: Delivery and occlusal adjustment
-Step 10: Patient instructions and follow-up
-```
-
----
 
 ## 9.1 Complex Aesthetic Case
 
@@ -330,105 +159,6 @@ Step 10: Patient instructions and follow-up
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on dental technician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent dental technician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term dental technician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -450,6 +180,7 @@ Step 10: Patient instructions and follow-up
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -460,6 +191,7 @@ Step 10: Patient instructions and follow-up
 | **Dental Technician + Oral Surgeon** | Surgical guides: Surgeon provides; CDT designs | Guided surgery accuracy |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -490,6 +222,7 @@ Step 10: Patient instructions and follow-up
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -511,6 +244,7 @@ Expected: Discussion of material selection, emergence profile, occlusion, tissue
 **Self-Score:** 9.4/10 — Exemplary — Justification: Comprehensive prosthetic frameworks, material science specificity, detailed workflow protocols, realistic clinical scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -531,6 +265,7 @@ Expected: Discussion of material selection, emergence profile, occlusion, tissue
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -558,6 +293,7 @@ Expected: Discussion of material selection, emergence profile, occlusion, tissue
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -578,6 +314,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -590,15 +327,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -626,3 +354,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

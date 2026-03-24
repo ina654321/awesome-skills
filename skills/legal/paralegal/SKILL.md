@@ -79,6 +79,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,164 +130,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Legal Research** — Conducts thorough research on statutes, regulations, case law, and secondary sources; presents findings with proper citations
-2. **Document Preparation** — Drafts contracts, pleadings, discovery requests, and correspondence for attorney review
-3. **Case Management** — Maintains case files, tracks deadlines, organizes evidence, and manages discovery
-4. **Due Diligence** — Investigates facts, verifies information, and compiles due diligence reports for transactions
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT LEGAL DISCLAIMER**
-
-This skill provides general legal information for educational purposes only. It is NOT a substitute for legal advice from a licensed attorney.
-
-**Jurisdiction Notice:**
-- Laws vary significantly by country, state, and locality
-- International legal matters require specific expertise
-- Regulations change frequently - verify current law
-- AI cannot provide jurisdiction-specific legal advice
-
-**For Legal Matters:**
-- Consult a licensed attorney in your jurisdiction
-- Do not make legal decisions based solely on AI content
-- Document all legal advice received from professionals
-
-*This skill should be used for learning and reference only.*
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Unauthorized Practice of Law** | 🔴 High | Paralegals cannot provide legal advice or represent parties in court | Clearly label all work as "for attorney review"; never give legal conclusions |
-| **Missed Deadline** | 🔴 High | Filing deadlines are strict; missing can result in default judgment or dismissal | Double-check all deadlines against court rules; maintain calendar system |
-| **Document Error** | 🔴 High | Mistakes in filed documents can harm client and draw sanctions | Multiple review passes; attorney must approve all filings |
-| **Confidentiality Breach** | 🔴 High | Client information is privileged; unauthorized disclosure is ethical violation | Follow firm confidentiality protocols; secure document storage |
-
-**⚠️ IMPORTANT:**
-- Never give legal advice or express legal opinions — only attorneys can provide legal advice
-- All documents must be reviewed by supervising attorney before filing or sending
-- Maintain clear boundaries between paralegal tasks and attorney responsibilities
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Legal Research Pyramid
-
-```
-                    ┌─────────────────────┐
-                    │   SECONDARY SOURCES │
-                    │  (Law Reviews, A.L.R., │
-                    │   Treatises, Practice │
-                    │      Guides)          │
-                    └──────────┬────────────┘
-                               │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-    │   STATUTES  │    │ REGULATIONS │    │  RULES      │
-    │ (Federal,   │    │ (Agency     │    │ (Court,     │
-    │  State,     │    │  Rules,     │    │  Evidence,  │
-    │  Local)     │    │  Updates)   │    │  Procedure) │
-    └──────┬──────┘    └──────┬──────┘    └──────┬──────┘
-           │                  │                  │
-           └──────────────────┼──────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │      CASE LAW        │
-                    │  (Appellate, Trial   │
-                    │   Court Decisions)   │
-                    └──────────┬────────────┘
-                               │
-                              ▼
-                    ┌─────────────────────┐
-                    │   YOUR RESEARCH     │
-                    │   FINDINGS          │
-                    └─────────────────────┘
-```
-
-Begin with secondary sources for context, move to statutes for authority, conclude with case law for application. Each level supports and validates the others.
-
-### 4.2 Guiding Principles
-
-1. **Accuracy First**: Incorrect research can lead to wrong legal strategy; verify all citations independently
-2. **Completeness**:遗漏关键判例可能毁灭案件;进行全面的多辖区搜索
-3. **Efficiency Within Bounds**: Research must be thorough — time savings cannot compromise quality
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Westlaw
-| **Bloomberg Law** | Legal research with integrated practice tools and jurisdictional tracking |
-| **CourtListener** | Free case law database; useful for appellate research |
-| **Legal Citation Manual ( StandardBluebook)** | citation format for legal documents |
-| **e-Discovery Platforms** | Relativity, Concordance for document review and discovery management |
-| **Case Management Software** | Clio, MyCase for deadline tracking and case organization |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Research Methodologies
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Issue-Spotting Research** | Client presents facts, need to identify applicable law | 1. Extract legal issues → 2. Identify relevant jurisdiction → 3. Search key terms → 4. Filter by validity → 5. Compile authorities |
-| **Case Validation Research** | Know the law, need to verify current status | 1. List governing cases → 2. Check for negative treatment → 3. Verify subsequent history → 4. Confirm still good law |
-| **Due Diligence Research** | Transaction requires factual investigation | 1. Define scope → 2. Identify information sources → 3. Compile and verify → 4. Flag issues → 5. Summarize findings |
-
-### 7.2 Paralegal Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Research Accuracy** | Correct citations
-| **Turnaround Time** | Research completion within deadline | 90% on-time |
-| **Document Accuracy** | Errors caught in attorney review | < 3 per document |
-| **Deadline Compliance** | Filings submitted before deadline | 100% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Legal Research Assignment
-
-```
-Phase 1: Understanding the Request
-├── Clarify specific legal issues with attorney
-├── Identify jurisdiction and time frame
-├── Determine depth of research required
-└── Confirm deadline and delivery format
-
-Phase 2: Research Execution
-├── Search secondary sources for context
-├── Identify applicable statutes and regulations
-├── Locate relevant case law (binding and persuasive)
-└── Check for recent developments or pending changes
-
-Phase 3: Compilation and Review
-├── Organize authorities by issue
-├── Summarize key holdings with pinpoint citations
-├── Flag contradictory or negative authority
-└── Deliver to attorney with cover memo
-```
-
-### 8.2 Document Drafting
-
-```
-Step 1: Identify document purpose and required elements
-Step 2: Obtain template or prior similar document
-Step 3: Draft based on facts and applicable law
-Step 4: Add comments flagging attorney review points
-Step 5: Submit for attorney review with change log
-```
-
----
 
 ## 9.1: Contract Research
 
@@ -329,105 +172,6 @@ Step 5: Submit for attorney review with change log
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on paralegal.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent paralegal issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term paralegal capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -445,6 +189,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -454,6 +199,7 @@ Step 5: Submit for attorney review with change log
 | Paralegal + **Compliance-Specialist** | Step 1: Paralegal researches regulatory requirements → Step 2: Compliance-specialist develops program | Compliant regulatory approach |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -481,6 +227,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -502,6 +249,7 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive structure with research methodology, document workflows, case management protocols, and proper paralegal scope boundaries.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -522,6 +270,7 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -549,6 +298,7 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -569,6 +319,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -581,15 +332,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -617,3 +359,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

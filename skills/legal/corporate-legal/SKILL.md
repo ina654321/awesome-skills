@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,154 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Contract Analysis & Risk Assessment** — Review contracts (NDAs, MSA, SOW, employment, leasing) and produce clause-by-clause risk analysis with recommendations
-2. **Regulatory Compliance Guidance** — Map applicable regulations (GDPR, FCPA, industry-specific), identify obligations, and design compliance frameworks
-3. **Corporate Governance Advisory** — Advise on board procedures, fiduciary duties, shareholder agreements, and corporate formalities
-4. **Legal Risk Quantification** — Estimate litigation probability, financial exposure, and remediation costs; prioritize risk mitigation
-5. **Deal Structuring Support** — Support M&A, joint ventures, and financing transactions with legal due diligence and structure recommendations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Unqualified Advice** | 🔴 High | Giving advice beyond expertise or outside jurisdiction | Always qualify: "Based on general principles; verify with local counsel." |
-| **Privilege Breach** | 🔴 High | Accidentally waiving attorney-client privilege | Use clear markings: "PRIVILEGED AND CONFIDENTIAL" |
-| **Missed Deadline** | 🔴 High | Failing to identify statutory deadlines or cure periods | Create explicit timeline tables for critical dates |
-| **Conflict of Interest** | 🟡 Medium | Advising on matters where client interests conflict | Disclose any potential conflicts; recommend independent counsel |
-| **Over-Legalization** | 🟡 Medium | Making simple transactions overly complex | Balance: legal rigor vs. business practicality |
-
-**⚠️ IMPORTANT:**
-- This skill provides general legal information, not legal advice. "Legal advice" is the application of law to specific facts; that requires a lawyer-client relationship.
-- AI outputs should never be used as substitutes for qualified legal counsel in any jurisdiction with legal professional privilege requirements.
-- Always recommend verification by licensed local counsel for jurisdiction-specific matters.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Legal Risk Matrix
-
-```
-                        LIKELIOD
-                  Low         Medium        High
-            ┌─────────────┬─────────────┬─────────────┐
-      High  │   MONITOR   │   MITIGATE   │   ELIMINATE │
-IMPACT      │  (Log &     │  (Clauses,   │  (Don't     │
-            │   Track)    │  Insurance)  │  Proceed)   │
-            ├─────────────┼─────────────┼─────────────┤
-   Medium   │   ACCEPT    │   MONITOR    │   MITIGATE  │
-            │  (Low cost  │  (Set        │  (Cap       │
-            │   to accept)│  reminders)  │  liability) │
-            ├─────────────┼─────────────┼─────────────┤
-      Low   │   ACCEPT    │   ACCEPT     │   MONITOR   │
-            │  (No action)│  (Document)  │  (Review    │
-            │             │              │  quarterly) │
-            └─────────────┴─────────────┴─────────────┘
-```
-
-The framework guides: (1) categorize risk by impact × likelihood; (2) apply appropriate response; (3) document the decision.
-
-### 4.2 Guiding Principles
-
-1. **Due Diligence Before Advice**: Never advise without full facts. State assumptions explicitly; note when advice changes with new information.
-2. **Prefer Prevention Over Cure**: Identify risks early; build compliance into processes rather than litigating after failure.
-3. **Clarity Over Cleverness**: Draft for the reader who doesn't know the deal; avoid ambiguity that creates future disputes.
-4. **Document Everything**: Verbal advice is no advice. Every significant recommendation should be in writing with basis and caveats.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Contract Review Checklist** | Clause-by-clause analysis: parties, definitions, obligations, termination, liability, dispute resolution |
-| **Regulatory Compliance Matrix** | Map applicable regulations → obligations → controls → evidence |
-| **Risk Register Template** | Track identified risks: description, likelihood, impact, mitigation, owner, status |
-| **Board Resolution Template** | Formal corporate action documentation |
-| **Legal Opinion Framework** | Structure legal conclusions with facts, law, analysis, conclusion |
-| **KYC/AML Framework** | Client/counterparty due diligence for anti-money laundering |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Contract Review Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Redline Review** | Standard contract review | 1. Read holistically → 2. Mark issues by severity → 3. Draft comments → 4. Summarize key risks |
-| **Term Sheet to Contract** | Transaction structuring | 1. Verify all terms captured → 2. Check consistency → 3. Identify gaps → 4. Draft full agreement |
-| **Contract Lifecycle** | Ongoing vendor management | 1. Creation → 2. Negotiation → 3. Execution → 4.存储 → 5. Review → 6. Renew/terminate |
-
-### 7.2 Corporate Governance Standards
-
-| Standard| Applicability| Key Requirements|
-|--------------|--------------|---------------|
-| **Delaware General Corporation Law** | US corporations, common choice | Board quorum, officer duties, shareholder voting |
-| **Fiduciary Duties** | All jurisdictions | Duty of care, duty of loyalty, duty of obedience |
-| **SOX Compliance** | US public companies | Internal controls, audit committee, disclosure |
-
-### 7.3 Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Contract Risk Score** | (High Risk Clauses × 3 + Medium × 2 + Low × 1)
-| **Compliance Coverage** | Controls Implemented
-| **Review Turnaround** | Business Days from Receipt to Delivery | < 3 days for standard contracts |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Contract Review Workflow
-
-```
-Phase 1: Document Intake
-├── Verify: correct version, all exhibits attached, fully executed
-├── Identify: deal parties, transaction type, governing law
-└── Check: conflicts, capacity, authority
-
-Phase 2: Substantive Analysis
-├── Read: holistically first, then deeply
-├── Map: key obligations, milestones, payment terms
-├── Identify: risky clauses (liability caps, indemnification, termination)
-└── Research: unfamiliar provisions, jurisdictional requirements
-
-Phase 3: Risk Assessment & Recommendations
-├── Rank: each issue by severity and business impact
-├── Recommend: specific changes, alternatives, or acceptances
-├── Draft: redline comments or summary memo
-└── Escalate: high-risk items to senior counsel or business leader
-
-Phase 4: Delivery & Documentation
-├── Present: clear summary with recommendations
-├── Explain: rationale in business terms
-└── Archive: final version with review notes
-```
-
-### 8.2 Regulatory Compliance Advisory
-
-```
-Step 1: Scope Definition
-   → What is the business activity? What jurisdictions apply?
-Step 2: Regulation Mapping
-   → List all applicable laws, regulations, guidance
-Step 3: Obligation Extraction
-   → What must the business do? (permits, reports, controls)
-Step 4: Gap Analysis
-   → Current state vs. required state
-Step 5: Remediation Plan
-   → Specific actions, timelines, responsibilities
-Step 6: Ongoing Monitoring
-   → How will compliance be maintained and demonstrated?
-```
-
----
 
 ## 9.1 Standard Contract Review
 
@@ -315,105 +168,6 @@ Step 6: Ongoing Monitoring
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on corporate legal.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent corporate legal issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term corporate legal capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +189,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -445,6 +200,7 @@ Step 6: Ongoing Monitoring
 | Corporate Legal + **Notary Public** | Legal prepares corporate documents → Notary authenticates | Compliant execution of corporate transactions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -474,6 +230,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -495,6 +252,7 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific legal content, real workflows, actionable scenarios, proper risk disclosures
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -515,6 +273,7 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -542,6 +301,7 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -562,6 +322,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -574,15 +335,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -610,3 +362,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

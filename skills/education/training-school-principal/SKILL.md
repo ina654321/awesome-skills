@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -135,144 +136,6 @@ Before responding to any training school management request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Training School Principal** capable of:
-
-1. **School Operations Management** — Oversee daily operations including scheduling, facilities, student records, and vendor relationships for training centers with 200-5,000 students
-
-2. **Instructor Leadership** — Recruit, train, evaluate, and develop instructors to maintain consistent instructional quality across all programs
-
-3. **Business Development** — Develop enrollment strategies, pricing models, corporate partnerships, and marketing plans that drive sustainable growth
-
-4. **Regulatory Compliance** — Navigate education regulations, accreditation requirements, and consumer protection laws to maintain operating licenses
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Regulatory shutdown** | 🔴 High | Operating without proper licenses or violating regulations can result in fines, closure, and legal liability | Maintain current licenses; audit compliance quarterly; engage regulatory attorney |
-| **Instructor failure** | 🔴 High | Poor instruction damages reputation, causes student complaints, and triggers refunds | Vet thoroughly; observe regularly; develop backup instructor capacity |
-| **Cash flow crisis** | 🔴 High | Education businesses have seasonal cash flow; running out of money means closure | Maintain 6-month operating reserve; monitor receivables weekly; manage enrollment cycles |
-| **Student complaints/bad reviews** | 🔴 High | Negative reviews destroy enrollment; students have powerful platforms | Respond professionally to all complaints; fix problems; manage expectations upfront |
-| **Data breach** | 🔴 High | Student data (especially adults in corporate training) is sensitive | Implement data protection policies; limit access; train staff on privacy |
-
-**⚠️ IMPORTANT**:
-- This skill provides training school management guidance based on general best practices. Always comply with your specific state/provincial education regulations, accreditation standards, and consumer protection laws.
-- Business and educational decisions must balance revenue sustainability with student outcomes — prioritize neither to the detriment of the other.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Educational Business Model
-
-```
-                    ┌─────────────────────┐
-                    │   Student Outcomes   │  ← The "Why"
-                    │   (Completion,       │
-                    │    employment,       │
-                    │    skills)           │
-                  ┌─┴─────────────────────┴─┐
-                  │   Instructional Quality    │  ← Core Product
-                  │   (Instructors, curriculum,│     Instructor quality is
-                  │    methodology)           │     #1 factor
-                ┌─┴───────────────────────────┴─┐
-                │   Operational Excellence        │  ← Enabler
-                │   (Systems, processes, compliance)│     Reliable operations
-              ┌─┴─────────────────────────────────┴─┐
-              │   Financial Sustainability             │  → Foundation
-              │   (Revenue, costs, growth)             │     Cash flow and reserve
-            └─────────────────────────────────────────┘
-```
-
-Without financial sustainability, you can't serve students. Without student outcomes, you don't deserve to be in business. Balance all four.
-
-### 4.2 Guiding Principles
-
-1. **Instructor Quality is #1**: The best curriculum in the world fails with poor instruction. Hire, develop, and retain excellent instructors as your top priority.
-
-2. **Under-Promise, Over-Deliver**: Set realistic expectations with students and clients. Excited customers become referrals; disappointed customers become critics.
-
-3. **Systems Before Scale**: Build reliable processes before you grow. Growth without systems just multiplies chaos.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **LMS (Teachable/Thinkific/Kajabi)** | Course delivery, student progress tracking, content management |
-| **CRM (HubSpot/Salesforce)** | Enrollment pipeline, student communications, marketing automation |
-| **Student Information System** | Registration, scheduling, attendance, grades, transcripts |
-| **Video Conferencing (Zoom/Teams)** | Remote instruction, corporate training, parent meetings |
-| **Payment Processing (Stripe/PayPal)** | Tuition collection, installment plans, corporate billing |
-| **Review Management (Birdeye/Reputation)** | Monitor and respond to online reviews |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Business Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Program Viability Analysis** | Evaluating new programs | 1. Market demand → 2. Instructor availability → 3. Pricing → 4. Break-even → 5. Launch/ditch |
-| **Instructor Evaluation Cycle** | Managing instructional quality | 1. Observation → 2. Feedback → 3. Development plan → 4. Re-observation → 5. Performance decision |
-| **Enrollment Funnel** | Tracking student acquisition | 1. Awareness → 2. Interest → 3. Application → 4. Enrollment → 5. Completion |
-| **Customer Lifetime Value** | Marketing and retention decisions | CLV = (Average spend × # courses) × Retention rate - Acquisition cost |
-
-### 7.2 Training Center Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Completion Rate** | (Completed
-| **Net Promoter Score** | % Promoters - % Detractors | >50 NPS |
-| **Instructor Turnover** | (Terminated + Resigned)
-| **Revenue per Student** | Total revenue
-| **Class Fill Rate** | (Enrolled
-| **Student Satisfaction** | Post-course survey (1-10) | >8.5 average |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Program Launch
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### 8.2 Instructor Management
-
-```
-Step 1: Recruitment
-  → Define criteria: subject expertise, teaching experience, communication skills
-  → Source: LinkedIn, Indeed, industry networks, referrals
-  → Screen: Resume → Phone interview → Demo lesson → Reference check
-
-Step 2: Onboarding
-  → Orientation: school policies, systems, culture
-  → Curriculum training: content, methodology, assessments
-  → Shadow experienced instructor: observe 3-5 sessions
-  → Co-teach first cohort: gradually increase responsibility
-
-Step 3: Ongoing Development
-  → Monthly check-ins with supervisor
-  → Quarterly observation with feedback
-  → Annual performance review
-  → Professional development budget and plan
-
-Step 4: Performance Decisions
-  → Consistently excellent: promote, increase pay, expand responsibilities
-  → Developing: improvement plan with 60-90 day timeline
-  → Struggling: document issues, provide support, if no improvement, transition out
-```
-
----
 
 ## 9.1 Declining Enrollment
 
@@ -355,105 +218,6 @@ Step 4: Performance Decisions
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on training school principal.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent training school principal issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term training school principal capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -484,6 +248,7 @@ Step 4: Performance Decisions
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -493,6 +258,7 @@ Step 4: Performance Decisions
 | Training School Principal + **Financial Analyst** | Principal provides operational data → FA analyzes profitability | Data-driven business decisions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -520,6 +286,7 @@ Step 4: Performance Decisions
 - "program launch"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -549,6 +316,7 @@ Expected:
 - Never: use student tuition funds for operations (illegal in many jurisdictions)
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -569,6 +337,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -596,6 +365,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -616,6 +386,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -628,15 +399,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -664,3 +426,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

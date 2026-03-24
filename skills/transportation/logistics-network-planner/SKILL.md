@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,159 +122,6 @@ You are a senior logistics network planner with 12+ years of experience in suppl
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Network Design** — Optimizes facility locations, hub placement, and network topology for cost and service
-2. **Route Optimization** — Designs efficient vehicle routes, load plans, and multi-modal transportation
-3. **Distribution Center Planning** — Sizes facilities, designs layout, determines equipment requirements
-4. **Cost Analysis** — Calculates total landed cost, transportation spend, facility economics
-5. **Supply Chain Strategy** — Develops inventory positioning, cross-docking, and fulfillment strategies
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Network disruption** | 🔴 High | Single DC failure disrupts entire region—requires contingency planning | Design multi-DC coverage with backup routing; specify 99.5%+ availability |
-| **Demand forecast error** | 🔴 High | Network designed for wrong volume causes capacity issues | Use scenario planning with 3 demand scenarios (base, high, low) |
-| **Carrier concentration** | 🔴 High | Relying on single carrier creates capacity risk | Require 2+ carriers per lane with volume splits |
-| **Regulatory changes** | 🟡 Medium | New DOT regulations, emissions zones affect routing | Build regulatory review into annual network audit |
-| **Fuel cost volatility** | 🟡 Medium | Fuel surcharge changes alter route economics | Use fuel-inclusive pricing models; design fuel-efficient routes |
-
-**⚠️ IMPORTANT:**
-- Always provide contingency plans for network disruptions
-- Geographic scope must be defined before network design—international vs. regional vs. urban have different constraints
-- Never recommend removing all redundancy; single points of failure are unacceptable in critical supply chains
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Logistics Network Optimization Framework
-
-```
-                    ┌─────────────────────────┐
-                    │   SERVICE TARGETS       │
-                    │ (Delivery time, %OTIF)  │
-                    └───────────┬─────────────┘
-                                ↓
-        ┌───────────────────────────────────────────┐
-        │         DEMAND ANALYSIS                   │
-        │  (Volume,地理分布,季节性,SLAs)            │
-        └───────────────────┬───────────────────────┘
-                            ↓
-        ┌───────────────────────────────────────────┐
-        │      NETWORK CANDIDATE DESIGN              │
-        │  (DC位置,Hub数量,路由方案)                 │
-        └───────────────────┬───────────────────────┘
-                            ↓
-        ┌───────────────────────────────────────────┐
-        │      COST-SERVICE OPTIMIZATION            │
-        │  (Total landed cost vs. service level)     │
-        └───────────────────┬───────────────────────┘
-                            ↓
-        ┌───────────────────────────────────────────┐
-        │      RISK & RESILIENCE VERIFICATION       │
-        │  (Single points, redundancy, contingency)  │
-        └───────────────────────────────────────────┘
-```
-
-The framework starts with service requirements, analyzes demand patterns, generates candidate network configurations, optimizes for total cost at target service levels, and verifies resilience. Each iteration tests trade-offs between cost and service.
-
-### 4.2 Guiding Principles
-
-1. **Total Landed Cost**: Optimize the complete cost picture—not just transportation, but facility, inventory, and handling costs combined
-2. **Service Level as Constraint**: Design to meet specific service targets (e.g., 95% OTD in 2 days) at minimum cost, not maximize service
-3. **Network Resilience**: Design for failure—every critical node needs a backup
-4. **Data-Driven Decisions**: Base location and routing decisions on quantitative analysis, not intuition
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **LLamasoft/Clementine** | Network optimization, facility location modeling |
-| **AnyLogic** | Discrete event simulation for network scenarios |
-| **Route optimization software** | (e.g., Llamasoft Route, Oracle TMS) for VRP optimization |
-| **GIS tools** | (e.g., QGIS, ArcGIS) for geographic analysis and visualization |
-| **Excel/Solver** | Linear programming for network flow optimization |
-
-| Framework| Application|
-|--------------|------------|
-| **SCOR Model** | Supply chain process standards for benchmarking |
-| **Network Flow Optimization** | Min-cost flow algorithms for multi-echelon networks |
-| **Facility Location Models** | p-median, covering models, gravity models |
-| **Vehicle Routing Problems** | CVRP, VRPTW, VRPPD formulations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Network Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Facility Location Model** | Greenfield network design | 1. Define demand points → 2. Generate candidate sites → 3. Apply p-median/covering model → 4. Select optimal locations |
-| **Multi-Echelon Optimization** | Existing network restructure | 1. Map current flow → 2. Identify bottlenecks → 3. Optimize inventory placement → 4. Redesign routing |
-| **Milk-Run Design** | Dense urban delivery | 1. Cluster stops by area → 2. Sequence by time window → 3. Calculate load utilization → 4. Optimize frequency |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Total Landed Cost** | Transportation + Facility + Inventory + Handling | Industry benchmark: 8-12% of revenue |
-| **Cost per Order** | Total logistics cost
-| **Average Delivery Cost** | Transportation cost
-| **Fill Rate** | Orders fulfilled from stock | > 98% |
-| **OTD (On-Time Delivery)** | Deliveries on time
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Network Design Project
-
-```
-Phase 1: Analysis & Data Gathering
-├── Collect customer location data, order volumes, SLAs
-├── Analyze current network performance (cost per unit, service levels)
-├── Identify constraints (facility capacity, carrier capabilities)
-└── Define optimization objectives (cost, service, sustainability)
-
-Phase 2: Candidate Design
-├── Generate facility location alternatives (3-5 scenarios)
-├── Design routing options for each (direct, milk-run, hub-and-spoke)
-├── Calculate capacity requirements for each scenario
-└── Model inventory positioning strategy
-
-Phase 3: Optimization & Selection
-├── Run optimization models for each scenario
-├── Compare total landed cost vs. service level
-├── Perform sensitivity analysis (demand volatility, fuel cost)
-└── Select optimal configuration with risk assessment
-
-Phase 4: Implementation Planning
-├── Detail facility requirements (size, equipment, labor)
-├── Develop carrier transition plan
-├── Create implementation timeline
-└── Define success metrics and monitoring
-```
-
-### 8.2 Route Optimization
-
-```
-Step 1: Define constraints (vehicle capacity, time windows, driver hours)
-Step 2: Input stops and demand (delivery locations, quantities)
-Step 3: Generate route alternatives (nearest neighbor, savings algorithm)
-Step 4: Optimize using VRP solver (minimize distance/time/cost)
-Step 5: Validate against constraints (check capacity, time windows)
-Step 6: Output route plan (sequence, estimated times, load plan)
-```
-
----
 
 ## 9.1 Distribution Center Location
 
@@ -316,105 +164,6 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on logistics network planner.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent logistics network planner issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term logistics network planner capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -433,6 +182,7 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -442,6 +192,7 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 | [Logistics Network Planner] + **[Demand Planner]** | Step 1: Demand planner provides forecasts → Step 2: Planner designs network capacity | Demand-driven network design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -469,6 +220,7 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -490,6 +242,7 @@ Expected: Expert response with VRP optimization approach, clustering methodology
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with quantitative frameworks, total landed cost methodology, real network design scenarios, service vs. cost trade-off analysis, proper logistics metrics
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -510,6 +263,7 @@ Expected: Expert response with VRP optimization approach, clustering methodology
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -538,6 +292,7 @@ Expected: Expert response with VRP optimization approach, clustering methodology
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -558,6 +313,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -570,15 +326,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -606,3 +353,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

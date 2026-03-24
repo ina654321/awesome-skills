@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -100,248 +101,6 @@ metadata:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-This skill enables comprehensive, defensible data asset appraisal across four core capabilities:
-
-**Capability 1 — Data Asset Inventory and Classification**
-Systematically catalogues data assets by type (transactional, behavioral, reference, derived/enriched), source provenance (first-party, second-party, third-party), collection mechanism (direct capture, licensed, scraped, purchased), retention schedule, and legal encumbrances. Produces a structured data asset register aligned with DAMA-DMBOK data governance taxonomy.
-
-**Capability 2 — Data Quality Scoring (Multi-Dimensional DQI)**
-Computes the Data Quality Index (DQI) as a weighted composite of six DAMA-DMBOK quality dimensions: completeness, conformity, consistency, accuracy, integrity, and timeliness. Applies tooling from Informatica, Talend, Monte Carlo, and Great Expectations to generate auditable quality scores. DQI directly adjusts valuation multiples.
-
-**Capability 3 — Data Valuation (Three-Approach Framework)**
-Applies the income approach (discounted cash flows from data monetization), cost approach (replacement cost of collecting equivalent-quality data), and market approach (comparable data transactions from data broker market benchmarks). Triangulates across all three; weights by data type and monetization maturity. Output: P10/P50/P90 value range with stated assumptions.
-
-**Capability 4 — Data Monetization Strategy**
-Maps data assets to monetization pathways (direct licensing, data product development, marketplace listing on Snowflake Marketplace or AWS Data Exchange, API productization, synthetic data generation) and estimates incremental revenue potential. Prioritizes pathways by regulatory feasibility, time-to-revenue, and competitive differentiation.
-
----
-
-## § 3 · Risk Disclaimer
-
-> This skill provides analytical frameworks and valuation methodologies. Data asset valuations are inherently uncertain and subject to legal, regulatory, and market risks. All valuations should be reviewed by qualified legal counsel and a licensed appraiser before use in M&A transactions, financial statements, or litigation.
-
-| # | Risk | Severity | Mitigation |
-|---|------|----------|------------|
-| 1 | **Legal Disputes Over Data Ownership** (scraped, licensed, or user-generated data with ambiguous IP rights — e.g., X/Twitter ToS litigation, LinkedIn v. hiQ) | HIGH | Require chain-of-title documentation; recommend IP escrow in M&A; flag UGC and scraped data for legal review before assigning income approach value |
-| 2 | **GDPR Non-Transferability in M&A** (personal data assets may require fresh consent or become non-transferable to a buyer in a different jurisdiction or with a different processing purpose) | HIGH | Conduct regulatory encumbrance analysis before financial modeling; apply GDPR transferability discount (0-100%) to personal data asset values; involve EU counsel |
-| 3 | **Data Quality Inflation in Seller Representations** (sellers routinely overstate DQI or completeness rates; buyer due diligence rarely samples sufficiently) | HIGH | Independently validate DQI using Great Expectations or Monte Carlo against a stratified random sample (min 5% of records); include quality rep & warranty in purchase agreement |
-| 4 | **Privacy Law Changes Devaluing Data Assets Retroactively** (e.g., CPRA expanding opt-out rights, state ADPPA enactment reducing addressable data pools) | MEDIUM | Apply regulatory risk discount (5-20%) to consumer behavioral data assets; model value degradation scenarios under expanded opt-out adoption |
-| 5 | **Data Monopoly / Antitrust Regulatory Risk** (FTC/DOJ scrutiny of data-driven acquisitions — e.g., Facebook/Instagram/WhatsApp data network effect concerns) | MEDIUM | Flag when acquired data creates dominant market position; note antitrust risk in valuation; recommend regulatory counsel review for deals with data component >$100M |
-| 6 | **Over-Valuation Leading to M&A Write-Downs** (goodwill impairment from overpriced data assets, especially in adtech and data broker acquisitions) | HIGH | Apply IAS 36 impairment testing framework; set performance milestones tied to data monetization revenue before full value recognition; use earnout structures |
-| 7 | **Underestimating Data Maintenance and Freshness Costs** (data assets depreciate rapidly without ongoing collection, cleansing, and enrichment; freshness half-life varies by data type) | MEDIUM | Model ongoing data maintenance opex (typically 15-30% of initial collection cost per year); include freshness decay curve in income approach DCF assumptions |
-
----
-
-## § 4 · Core Philosophy
-
-### Mental Model: The Data Asset Value Stack
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### Guiding Principles
-
-**Principle 1 — Quality Multiplies, Volume Adds**
-Volume is a starting point, never a valuation basis. A 10M-record dataset with DQI 90 is worth more than a 1B-record dataset with DQI 40. Every engagement begins with quality scoring before any financial modeling.
-
-**Principle 2 — Regulatory Encumbrance is a First-Order Risk**
-GDPR, PIPL, HIPAA, and CCPA do not merely add compliance cost — they can reduce the transferable scope of a data asset to zero. Regulatory analysis precedes financial modeling in every engagement. A clean legal opinion is a prerequisite for income approach valuation of personal data.
-
-**Principle 3 — Triangulate or Don't Publish**
-No single valuation approach is authoritative for data assets. Income approach assumptions are too speculative without market comparables; cost approach ignores strategic premium; market approach comparables are thin. Triangulation across all three — with explicit confidence weighting — produces defensible outputs.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Collibra Data Intelligence Cloud** | Enterprise data governance platform for data asset inventory, lineage tracking, and stewardship workflows; source of truth for data classification and ownership in M&A due diligence |
-| **Alation Data Catalog** | Business glossary and data catalog for discovering, documenting, and classifying data assets; integrates with Snowflake, BigQuery, and Redshift for automated metadata extraction |
-| **Informatica Data Quality (IDQ)** | Enterprise-grade data profiling and quality scoring; computes conformity, completeness, and consistency metrics at scale; generates auditable DQI reports for M&A due diligence packages |
-| **Talend Data Quality** | Open-source-friendly data quality toolkit for profiling, cleansing, and scoring datasets; generates statistical quality reports across dimensions aligned with ISO/IEC 25012 |
-| **AWS Glue Data Catalog** | Managed metadata repository for data assets stored in AWS; enables automated schema discovery, classification, and lineage tracking across S3, Redshift, and RDS data stores |
-| **Snowflake Marketplace** | Data marketplace for assessing market comparables (active listings, pricing benchmarks); also a primary monetization channel for data product listings |
-| **Azure Data Share** | Managed data sharing service for structuring second-party data exchange agreements; relevant for modeling second-party data asset value and transfer feasibility |
-| **Monte Carlo Data Observability** | Data reliability and observability platform for detecting data quality anomalies, freshness violations, and lineage breaks; provides continuous DQI monitoring post-acquisition |
-| **DataHub (LinkedIn OSS)** | Open-source metadata platform for data lineage, ownership, and discovery; used to reconstruct lineage in assets where provenance documentation is missing |
-| **Great Expectations** | Python-based data validation framework for defining, running, and documenting DQI test suites; produces HTML reports suitable for inclusion in due diligence packages |
-| **dbt (data build tool)** | SQL-based transformation lineage tracker; reconstructs data derivation chains from raw sources to enriched assets, critical for cost approach replacement cost estimation |
-
----
-
-## § 7 · Standards & Reference
-
-### Governance Frameworks
-
-| Standard | Scope | Application |
-|----------|-------|-------------|
-| **DAMA-DMBOK (2nd Ed.)** | Data quality dimensions: Completeness, Conformity, Consistency, Accuracy, Integrity, Timeliness | Primary DQI framework; 6 dimensions weighted per asset type |
-| **ISO/IEC 25012:2008** | 15 data quality characteristics (inherent + system-dependent) including availability, portability, recoverability | Supplements DAMA-DMBOK for system-dependent quality assessment; relevant for SaaS data product valuation |
-| **ISO 8000** | Data quality for master data and transactional data; formal data quality measurement | Applied to B2B reference data and master data assets |
-| **IVSC (International Valuation Standards)** | Independence, objectivity, transparency, fit-for-purpose | Adapted for data asset appraisals; governs engagement ethics and report standards |
-| **GAAP ASC 350** | Intangible assets — goodwill and other; impairment testing | Applied to data assets recognized on balance sheet post-acquisition |
-| **IAS 38 (IFRS)** | Intangible assets recognition, amortization, impairment | International equivalent of ASC 350; used for cross-border M&A with IFRS-reporting entities |
-| **GDPR (EU 2016/679)** | Personal data processing, data subject rights, cross-border transfers | Regulatory encumbrance analysis; transferability assessment |
-
-### Key Metrics & Target Ranges
-
-| Metric | Formula / Definition | Target
-|--------|---------------------|-------------------|
-| **Data Quality Index (DQI)** | Weighted average: DQI = Sum(w_i x score_i) for 6 DAMA-DMBOK dimensions, 0-100 scale | >= 80 for income approach; 60-79 with adjustment; < 60 speculative only |
-| **Data Freshness Score** | % of records within acceptable age threshold for the asset type (e.g., behavioral data: 90 days) | >= 85% within threshold for full value |
-| **Uniqueness Ratio** | (Unique records
-| **Coverage Completeness %** | % of target population
-| **Estimated Replacement Cost** | $/GB equivalent (normalized for data type and quality); market range $50-$5,000/GB depending on data type | Establishes cost approach floor; benchmark against data broker acquisition prices |
-| **Revenue Multiplier** | ARR multiple for comparable data licensing transactions | Premium first-party data: 10-50x commodity data ARR; market approach comparable benchmarks |
-| **Regulatory Encumbrance Discount** | % reduction in transferable value due to GDPR/PIPL/HIPAA restrictions | 0% (unencumbered) to 100% (non-transferable personal data in cross-border M&A) |
-| **Data Monetization Runway** | Estimated years of monetizable value before competitive displacement or regulatory obsolescence | >= 5 years for income approach; < 3 years requires terminal value adjustment |
-
----
-
-## Phase 1: Data Asset Due Diligence (M&A Context)
-
-```
-[Code block moved to code-block-2.md]
-```
-
-### Phase 2: Data Monetization Roadmap
-
-```
-[Code block moved to code-block-2.md]
-```
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Valuing a Customer Dataset for an M&A Deal
-
-**Context:** Private equity firm acquiring a B2C e-commerce company. Target claims their 50M customer behavioral dataset is worth $200M.
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### Scenario 2: Assessing Data Product Marketability
-
-**Context:** Enterprise SaaS company with rich B2B firmographic data wants to list on Snowflake Marketplace.
-
-```
-[Code block moved to code-block-3.md]
-```
-
-### Scenario 3: GDPR Impact Assessment on Data Asset Portfolio Value
-
-**Context:** German analytics firm assessing their data portfolio value after GDPR enforcement action.
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### Scenario 4 (Anti-Pattern): Valuing Data by Volume Alone
-
-```
-[Code block moved to code-block-2.md]
-```
-
----
 
 ## § 10 · Common Pitfalls
 
@@ -438,6 +197,7 @@ GOOD: "We conduct a transferability audit of all 15 datasets pre-close:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 ### Integration 1: Legal Contract Analyzer + Data Asset Appraiser
@@ -459,6 +219,7 @@ The Compliance Auditor skill conducts GDPR/PIPL/HIPAA/CCPA regulatory analysis t
 **Example workflow:** Compliance Auditor assesses 20M EU records and identifies Article 9 special category health data with no valid consent for transfer. Transferability score: 0% for the EU health data subset. Data Asset Appraiser removes 8M records from income approach and reduces cost approach replacement value proportionally, adjusting the triangulated total from $45M to $28M.
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -498,9 +259,11 @@ The skill activates on any of these phrases in your prompt:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -521,6 +284,7 @@ The skill activates on any of these phrases in your prompt:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -548,6 +312,7 @@ The skill activates on any of these phrases in your prompt:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -568,6 +333,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -580,15 +346,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -616,3 +373,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

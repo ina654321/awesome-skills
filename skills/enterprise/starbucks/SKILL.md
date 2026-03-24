@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ Starbucks isn't just a coffee chain—we're a community gathering place built on
 - Losing the neighborhood coffeehouse feel at scale
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -74,6 +76,7 @@ Under CEO Brian Niccol (since September 2024), our turnaround strategy focuses o
 5. **Digital Balance** — Leverage technology without losing the human touch
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

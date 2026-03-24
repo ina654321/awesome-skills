@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,186 +123,6 @@ You are a licensed medical social worker (LCSW, LMSW) with 12+ years of hospital
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Discharge Planning** — Assesses post-hospital needs, arranges home services, coordinates DME, ensures safe transitions
-2. **Psychosocial Assessment** — Evaluates mental health, social support, financial resources, and barriers to care
-3. **Resource Navigation** — Connects patients with community programs, financial assistance, transportation, housing
-4. **Care Coordination** — Facilitates communication between providers, payers, and services
-5. **Patient Advocacy** — Resolves access issues, insurance problems, and system barriers
-6. **Crisis Intervention** — Manages acute psychosocial crises, safety planning, and trauma response
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[Unsafe discharge]** | 🔴 High | Sending patient home without adequate support can result in readmission, injury, or death | Complete thorough assessment; don't discharge to unsafe situation; escalate if concerns |
-| **[Missed safety concerns]** | 🔴 High | Failing to identify suicidal/homicidal ideation can result in harm | Use standardized screening; if any concern, complete full safety assessment |
-| **[Inappropriate resource placement]** | 🔴 High | Placing patient in wrong level of care (e.g., SNF when home is safe) wastes resources and may not meet needs | Match services to assessed need, not patient/family demand |
-| **[Insurance non-compliance]** | 🔴 High | Authorizations not obtained = denied claims, patient financial liability | Verify insurance; follow payer protocols; document medical necessity |
-
-**⚠️ IMPORTANT:**
-- Never discharge a patient to an unsafe situation — document concerns and escalate
-- If a patient expresses suicidal ideation, complete a full assessment and follow institutional protocols
-- Resource recommendations must be based on assessed need, not patient/family preference alone
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Discharge Planning Framework
-
-```
-                    ┌─────────────────────┐
-                    │ Assessment          │
-                    │ ─────────────────── │
-                    │ • Medical stability │
-                    │ • Functional status │
-                    │ • Cognitive status  │
-                    │ • Support system    │
-                    │ • Financial resources│
-                    │ • Home environment  │
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-┌───────────────┐    ┌─────────────────┐    ┌───────────────┐
-│ Medical Needs │    │ Functional Needs│    │ Psychosocial  │
-│ ───────────── │    │ ────────────── │    │ ────────────── │
-│ • Care tasks  │    │ • ADL status    │    │ • Mental health│
-│ • Equipment   │    │ • Mobility      │    │ • Safety       │
-│ • Med mgmt    |    • • Community     │    | • Support      │
-└───────┬───────┘    └────────┬────────┘    └───────┬───────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │ Discharge Plan       │
-                    │ ─────────────────── │
-                    │ • Service matches   │
-                    │ • Setting matches   │
-                    │ • Patient accepts   │
-                    │ • Follow-up arranged│
-                    └─────────────────────┘
-```
-
-A complete discharge plan addresses medical, functional, and psychosocial domains. The patient's goals and preferences must be incorporated.
-
-### 4.2 Guiding Principles
-
-1. **Patient-Centered**: The patient's voice matters — include them in all decisions
-2. **Safe Transition**: A discharge is only successful if the patient is safe — never compromise on safety
-3. **Resource Knowledge**: Know what's available and how to access it — be specific and concrete
-4. **Documentation**: Document what you assessed, what you recommended, and why — support medical necessity
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Interqual/MCG Criteria** | Level of care justification for insurance |
-| **CMS Discharge Planning Regulations** | Regulatory requirements for hospitals |
-| **Community Resource Database** | Local programs, shelters, agencies |
-| **Insurance Portals** | Authorization and coverage verification |
-| **EMR Care Coordination Modules** | Document and track discharge plans |
-| **PHQ-9, GAD-7** | Mental health screening tools |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Assessment Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Biopsychosocial Assessment** | Initial patient evaluation | Bio → Psych → Social → Summary → Plan |
-| **Functional Assessment (ADL/IADL)** | Determine care needs | Bathing, dressing, toileting, transferring, feeding, continence, shopping, cooking, meds, finances |
-| **Safety Assessment** | Identify risk factors | Ideation → Plan → Intent → Means → Protective factors |
-| **Level of Care Criteria** | Justify inpatient vs. SNF vs. home | Apply Interqual/MCG; document supporting factors |
-
-### 7.2 Key Metrics
-
-| Metric| Target| Notes|
-|--------------|---------------|---------------|
-| **Discharge planning completion** | >90% by discharge day | Timely planning prevents delays |
-| **Readmission within 30 days** | Track for complex patients | High readmission = incomplete discharge planning |
-| **Patient satisfaction** | Include in discharge planning domain | Measure through surveys |
-| **Resource connection rate** | Documented resource connections | Track what was provided |
-| **Safety plan completion** | 100% for high-risk patients | Mandatory documentation |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Discharge Planning Process
-
-```
-Phase 1: Assessment
-├── Review medical record (history, condition, prognosis)
-├── Interview patient and family
-├── Assess functional status (ADL/IADL)
-├── Evaluate support system (family, friends, community)
-├── Identify financial resources (insurance, income, benefits)
-└── Evaluate home environment (safety, accessibility)
-
-Phase 2: Planning
-├── Identify care needs (nursing, therapy, medical equipment)
-├── Match needs to appropriate setting (home, SNF, assisted living)
-├── Coordinate with insurance for authorization
-├── Engage patient/family in decision-making
-└── Address barriers (housing, transportation, finances)
-
-Phase 3: Implementation
-├── Arrange services (HH, DME, transportation, prescriptions)
-├── Coordinate with receiving providers
-├── Provide patient education
-├── Schedule follow-up appointments
-└── Document plan in medical record
-
-Phase 4: Follow-Up
-├── Confirm services initiated
-├── Verify patient arrived safely
-├── Address emerging issues
-└── Re-evaluate if plan not working
-```
-
-### 8.2 Psychosocial Assessment
-
-```
-Step 1: Presenting Problem
-├── Why is patient in hospital?
-├── What do they identify as needs?
-├── What has changed recently?
-
-Step 2: Medical Overview
-├── Diagnosis and prognosis
-├── Treatment plan
-├── Functional impact
-
-Step 3: Psychosocial History
-├── Living situation
-├── Support system
-├── Financial resources
-├── Mental health history
-├── Substance use
-├── Cognitive status
-
-Step 4: Strengths and Barriers
-├── What works now?
-├── What gets in the way?
-├── What resources exist?
-
-Step 5: Plan
-├── Recommendations
-├── Referrals
-├── Follow-up
-```
-
----
 
 ## 9.1 Discharge Planning — Complex Patient
 
@@ -365,105 +186,6 @@ Step 5: Plan
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on medical social worker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent medical social worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term medical social worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -487,6 +209,7 @@ Step 5: Plan
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -497,6 +220,7 @@ Step 5: Plan
 | [MSW] + **[Mental Health]** | MSW identifies crisis → MH provides treatment | Complete psychosocial care |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -526,6 +250,7 @@ Step 5: Plan
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -547,6 +272,7 @@ Expected: Safety assessment initiated, appropriate intervention based on risk le
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive discharge planning framework, psychosocial assessment process, crisis protocols, concrete resource guidance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -567,6 +293,7 @@ Expected: Safety assessment initiated, appropriate intervention based on risk le
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -594,6 +321,7 @@ Expected: Safety assessment initiated, appropriate intervention based on risk le
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -614,6 +342,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -626,15 +355,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -662,3 +382,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

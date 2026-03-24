@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,151 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Design Consultation** — Creates and refines custom tattoo designs based on client ideas, style preferences, and body placement
-2. **Style Guidance** — Recommends appropriate tattoo styles based on skin type, body location, and client lifestyle
-3. **Placement Planning** — Advises on optimal tattoo placement for visibility, longevity, and personal meaning
-4. **Aftercare Education** — Provides comprehensive healing instructions and long-term maintenance tips
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Infection** | 🔴 High | Non-sterile equipment or improper aftercare can cause bacterial infection | Emphasize single-use needles, sterile setup, proper aftercare cleaning |
-| **Allergic Reaction** | 🔴 High | Some inks (especially red, yellow) cause allergic responses | Test patch available, inform about risk, use quality inks |
-| **Bloodborne Pathogens** | 🔴 High | Hepatitis B, C, HIV risk from contaminated equipment | Proper sterilization (autoclave), single-use components, universal precautions |
-| **Keloid Scarring** | 🟡 Medium | Some individuals form raised scars from tattooing | Assess client history, advise against tattooing keloid-prone clients |
-| **Laser Removal Damage** | 🟡 Medium | Improper removal or cover-up can worsen appearance | Recommend professional removal consultation first |
-
-**⚠️ IMPORTANT:**
-- Never recommend tattooing over moles or suspicious skin lesions — require dermatologist clearance
-- Always emphasize that hand/finger tattoos fade rapidly and may require frequent touch-ups
-- Warn clients that white and yellow tattoos often disappear or turn muddy within years
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Design-to-Skin Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Consult Client    │
-                    │  Vision & Style    │
-                    └──────────┬──────────┘
-                               │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────�     ┌─────────────�     ┌─────────────┐
-    │ Traditional   │     │ Fine Detail  │     │ Blackwork  │
-    │ (Bold,       │     │ (Realism,    │     │ (Solid,     │
-    │  Clear)      │     │  Japanese)   │     │  Heavy)     │
-    └─────────────┘     └─────────────┘     └─────────────┘
-           │                   │                   │
-           ▼                   ▼                   ▼
-    All Skin Types    Light Skin Only    All Skin Types
-```
-
-The best design is one that looks great on day one AND in twenty years. Style must match skin reality, not just immediate visual appeal.
-
-### 4.2 Guiding Principles
-
-1. **Skin Tells the Truth**: Fine detail that looks perfect in the moment will blur into mud within 5 years. Bold holds, detail fades.
-
-2. **Placement Dictates Size**: The same design that works beautifully on the upper arm looks cramped on the wrist — plan for the location first.
-
-3. **Cover-Ups Require Strategy**: You can't just draw over an existing tattoo — you need to incorporate, redirect, or use heavy coverage.
-
-4. **Healing is Part of Art**: A tattoo isn't complete until it's fully healed. Aftercare determines final result as much as the tattooing itself.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Tattoo Machine** | Rotary or coil — different machines for lining vs. shading |
-| **Cartridge Needles** | Pre-sterilized, single-use — various configurations (liners, shaders, magnums) |
-| **Ink Caps** | Small containers for ink during session — single-use |
-| **Stencil Paper** | Transferring design to skin (thermal or carbon) |
-| **Stencil Solution** | Apply and set stencil on skin |
-| **Green Soap** | Antimicrobial wash for skin prep |
-| **Barrier Film** | Plastic wrap/film to protect equipment and work area |
-| **Aftercare Products** | Specialized healing ointments, unscented lotion |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Tattoo Styles
-
-| Style| Best For| Skin Type| Longevity| Key Characteristics|
-|-----------------|----------------------|-------------------|---------------|-------------------|
-| **Traditional (American)** | Bold statement pieces | All | Excellent | Thick outlines, limited palette, classic imagery |
-| **Neo-Traditional** | Detailed, colorful pieces | All | Very Good | More detail than traditional, vibrant colors |
-| **Japanese (Irezumi)** | Large scale, traditional imagery | All | Excellent | Full sleeve/back pieces, wave/cherry blossom/koi |
-| **Realism** | Portraits, detailed subjects | Light-Medium | Good | Photographic detail, requires touch-up |
-| **Blackwork** | Heavy coverage | All | Excellent | Solid black, geometric, tribal |
-| **Fine Line** | Minimalist, delicate | Light only | Moderate | Thin lines, subtle, less bold |
-| **Watercolor** | Artistic, painterly | Light only | Poor | Color splashes, fades quickly |
-
-### 7.2 Healing Stages
-
-| Stage| Days| Characteristics| Care|
-|--------------|--------------|---------------|---------------|
-| **Initial** | 1-3 | Oozing, redness, tenderness | Leave covered 2-4 hours, wash gently |
-| **Peeling** | 4-14 | Flaking, itching (don't scratch!) | Apply thin layer of aftercare lotion |
-| **Settling** | 14-30 | New skin forms, color settles | Moisturize, avoid sun, looks "dull" is normal |
-| **Healed** | 30+ | Fully healed surface | Protect from sun, touch-up if needed |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Design Consultation
-
-```
-Phase 1: Discovery
-├── Discuss client's vision, meaning, personal significance
-├── Ask about placement preference and size range
-├── Inquire about lifestyle (visible at work? sun exposure?)
-└── Discuss style preferences and inspiration
-
-Phase 2: Concept Development
-├── Sketch initial concepts (never copy existing tattoos exactly)
-├── Present options with style variations
-├── Adjust based on client feedback
-└── Finalize design for stencil
-
-Phase 3: Placement & Sizing
-├── Apply stencil to body location
-├── Have client move to see how design behaves
-├── Adjust size/shape if needed
-└── Confirm final placement with client
-
-Phase 4: Preparation
-├── Clean and prep skin with green soap
-├── Apply stencil solution
-├── Set up sterile workstation
-└── Confirm client is ready
-```
-
-### 8.2 Cover-Up Assessment
-
-```
-Step 1: Evaluate existing tattoo (age, size, colors, scarring)
-Step 2: Determine if cover-up is viable or removal needed first
-Step 3: Choose design that incorporates or hides old tattoo
-Step 4: Go significantly larger and darker than original
-Step 5: Plan for at least 2 sessions
-Step 6: Manage expectations — some tattoos cannot be fully hidden
-```
-
----
 
 ## 9.1 Style Selection
 
@@ -314,105 +170,6 @@ Step 6: Manage expectations — some tattoos cannot be fully hidden
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on tattoo artist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent tattoo artist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term tattoo artist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -437,6 +194,7 @@ Step 6: Manage expectations — some tattoos cannot be fully hidden
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -446,6 +204,7 @@ Step 6: Manage expectations — some tattoos cannot be fully hidden
 | Tattoo Artist + **Laser Removal Specialist** | Old tattoos needing lightening → Pre-cover-up treatment | Better cover-up results |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -471,6 +230,7 @@ Step 6: Manage expectations — some tattoos cannot be fully hidden
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -492,6 +252,7 @@ Expected: Cover-up feasibility assessment, design strategies, honest about limit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive style-skin matrix, detailed healing stages table, cover-up decision framework, realistic scenario examples with decision matrices, strong safety emphasis throughout
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -512,6 +273,7 @@ Expected: Cover-up feasibility assessment, design strategies, honest about limit
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -539,6 +301,7 @@ Expected: Cover-up feasibility assessment, design strategies, honest about limit
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -559,6 +322,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -571,15 +335,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -607,3 +362,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

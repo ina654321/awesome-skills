@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,164 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Wetland Delineation** — Apply USACE routine method or regional supplements to delineate jurisdictional wetlands with field-verified boundaries
-2. **Biological Surveys** — Design and conduct vegetation, wildlife, aquatic, and rare species surveys following agency protocols
-3. **Impact Assessment** — Evaluate direct, indirect, and cumulative impacts under NEPA, CEQA, and state environmental laws
-4. **Restoration Design** — Develop restoration plans that achieve ecological functions and meet regulatory success criteria
-5. **Regulatory Navigation** — Identify permit requirements (404, 401, state) and coordinate with USACE, EPA, and state agencies
-6. **Expert Testimony** — Provide expert witness support for litigation, hearings, and regulatory proceedings
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Jurisdictional Error** | 🔴 High | Incorrect wetland boundary can lead to illegal fill, enforcement action | Require field verification by qualified delineator; use regional supplements |
-| **ESA Violations** | 🔴 High | Take of listed species without permit carries criminal penalties | Verify species presence via IPaC, state databases; conduct focused surveys |
-| **Inadequate Mitigation** | 🔴 High | Permit rejection or post-construction failures | Develop defensible mitigation plan; include monitoring adaptive management |
-| **Data Gaps** | 🟡 Medium | Incomplete surveys lead to permit conditions or legal challenges | Follow agency protocols; document data limitations; recommend additional surveys |
-| **Climate Misalignment** | 🟡 Medium | Restoration fails under future climate conditions | Use climate-adjusted reference conditions; select climate-resilient species |
-| **Cumulative Impacts** | 🟢 Low | Underestimating cumulative effects leads to inadequate mitigation | Consider indirect and cumulative impacts at watershed scale |
-
-**⚠️ IMPORTANT:**
-- Wetland delineations require field verification; desktop analysis alone is insufficient
-- ESA compliance cannot be delegated; direct coordination with USFWS may be required
-- Restoration success criteria are legally enforceable; design to meet them
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Wetland Assessment Framework
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────┐
-│                    WETLAND DELINEATION DECISION TREE                                │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 1: Site Visit                                                                 │
-│  ├── Review: USGS quad, NRCS soil survey, NWI maps, aerial photos                 │
-│  ├── Identify: Landscape position, hydrology indicators                              │
-│  └── Prepare: Field forms, GPS, delineation flags                                   │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 2: Wetland Parameters (USACE Routine Method)                                  │
-│  ├── 1. hydrophytic vegetation → >50% wetland indicator status                      │
-│  ├── 2. wetland hydrology → ≥14 days inundation/soil saturation                     │
-│  └── 3. hydric soils → soil matrix chroma ≤2, redoximorphic features               │
-│                                                                                      │
-│  POSITIVE for ALL THREE → Jurisdictional Wetland                                     │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 3: Boundary Delineation                                                       │
-│  ├── Sample: Transects at regular intervals                                         │
-│  ├── Flag: Wetland/upland boundary in field                                         │
-│  └── GPS: Survey boundary coordinates                                               │
-├──────────────────────────────────────────────────────────────────────────────────────┤
-│  Step 4: Data Documentation                                                         │
-│  ├── Record: Data forms for each sample point                                       │
-│  ├── Photograph: Representative vegetation, hydrology, soils                        │
-│  └── Map: Delineation boundary on aerial base                                       │
-└──────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-The framework applies the three-parameter approach systematically: verify all three criteria (vegetation, hydrology, soils) to establish wetland jurisdiction, then precisely delineate the boundary.
-
-### 4.2 Guiding Principles
-
-1. **Field Verification is Non-Negotiable**: Desktop delineations are screening tools only; regulatory determinations require field verification
-2. **Follow the Manual**: Use USACE Manual + regional supplement; deviations require justification
-3. **Document Everything**: Photos, GPS tracks, field notes become part of administrative record
-4. **Design for Success**: Restoration plans must meet specific, measurable, achievable success criteria
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **USACE Wetland Delineation Manual** | Regulatory guidance for wetland identification |
-| **Regional Supplements** | Regional modifications to national criteria |
-| **USFWS IPaC** | Information for Planning and Consultation - listed species |
-| **NRCS Web Soil Survey** | Hydric soil identification |
-| **NWI (National Wetlands Inventory)** | Desktop wetland mapping |
-| **ArcGIS
-| ** Floristic Quality Assessment | Native plant community evaluation |
-| **Raptor Research Foundation** | Bird survey protocols |
-| **EPA Level III Ecoregions** | Ecological regionalization |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Ecological Assessment Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **USACE Wetland Delineation** | Determining wetland jurisdiction | 1. Desktop review → 2. Field verification → 3. Parameter assessment → 4. Boundary delineation → 5. Documentation |
-| **Rapid Assessment Methods** | Screening-level assessment | 1. Site visit → 2. Score indicators → 3. Assign category → 4. Prioritize for detailed study |
-| **Biological Survey Protocol** | Species-specific surveys | 1. Determine target species → 2. Select survey method → 3. Conduct surveys → 4. Analyze results → 5. Prepare report |
-| **CEQA/NEPA Impact Assessment** | Environmental review | 1. Scoping → 2. Baseline establishment → 3. Impact analysis → 4. Mitigation identification → 5. Alternatives analysis |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Wetland Delineation Accuracy** | % of points correctly classified | >95% based on field verification |
-| **Species Richness** | Number of species per unit area | Reference ecosystem comparison |
-| **Floristic Quality Index (FQI)** | Σ(CVI)
-| **Habitat Suitability Index (HSI)** | 0-1 scale based on life requisites | >0.7 for suitable habitat |
-| **Restoration Success** | % of success criteria met | 100% of specified metrics |
-| **Mitigation Ratio** | Created/restored : impacted | 1:1 to 3:1 depending on wetland type |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Wetland Delineation Project
-
-```
-Phase 1: Desktop Analysis
-├── Gather: USGS quad, NWI, soil survey, aerial photos, floodplain maps
-├── Identify: Potential wetland areas, problem areas
-├── Prepare: Field forms, sampling strategy, equipment checklist
-└── Deliverable: Desktop memo with proposed sample points
-
-Phase 2: Field Investigation
-├── Visit: During growing season (typically April-October)
-├── Sample: hydrophytic vegetation, wetland hydrology indicators, hydric soils
-├── Delineate: Flag wetland/upland boundary
-├── Document: Photographs, GPS coordinates, field notes
-└── Deliverable: Field data forms, preliminary delineation
-
-Phase 3: Analysis & Documentation
-├── Analyze: Data from all three parameters
-├── Resolve: Data gaps or anomalies (additional sampling)
-├── Map: Delineation on aerial photograph base
-└── Deliverable: Wetland delineation report with figures
-
-Phase 4: Regulatory Coordination
-├── Submit: Pre-construction notification (PCN) or JD request
-├── Respond: Agency comments or site visit requests
-├── Resolve: Disputes through field verification
-└── Deliverable: Final approved delineation
-```
-
-### 8.2 Ecological Restoration Design
-
-```
-Step 1: Define Restoration Goals - What ecological functions to achieve?
-Step 2: Select Reference Ecosystem - Which nearby high-quality ecosystem to model?
-Step 3: Assess Site Constraints - Hydrology, soils, slopes, existing vegetation
-Step 4: Design Grading & Hydrology - Achieve target hydrology for wetland type
-Step 5: Select Plant Species - Native, locally-appropriate, climate-adapted
-Step 6: Specify Installation - Planting methods, densities, timing
-Step 7: Define Success Criteria - Cover %, species richness, hydrology targets
-Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management triggers
-```
-
----
 
 ## 9.1 Wetland Delineation for Development
 
@@ -343,105 +186,6 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ecologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ecologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ecologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -463,6 +207,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -473,6 +218,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 | Ecologist + **Wildlife Biologist** | 1. Ecologist does general survey → 2. Wildlife biologist conducts focused species surveys | Comprehensive biological assessment |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -505,6 +251,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -526,6 +273,7 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive delineation framework, regulatory specificity (USACE, ESA, 404/401), quantified metrics, practical scenarios with workflow diagrams
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -546,6 +294,7 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -573,6 +322,7 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -593,6 +343,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -605,15 +356,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -641,3 +383,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

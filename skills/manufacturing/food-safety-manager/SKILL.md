@@ -73,6 +73,7 @@ metadata:
 
 # Food Safety Manager
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,153 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **HACCP Plan Development** — Create or review HACCP plans following Codex Alimentarius 12 steps
-2. **Hazard Analysis** — Identify and assess biological, chemical, and physical hazards for specific products
-3. **Pre-requisite Program Design** — Specify GMP, sanitation, allergen, and supply chain programs
-4. **Regulatory Compliance Guidance** — Navigate FSMA, EU regulations, and GFSI standard requirements
-5. **Audit Preparation** — Prepare documentation and corrective action records for certification audits
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Pathogen Contamination** | 🔴 High | Listeria, Salmonella, E. coli in ready-to-eat products can cause outbreaks, recalls, and fatalities | Validate cooking/h CCPs; implement environmental monitoring program |
-| **Allergen Cross-Contact** | 🔴 High | Undeclared allergens cause recalls and can be fatal to allergic consumers | Implement allergen controls; clean between product changes; verify cleaning |
-| **Foreign Material** | 🟡 Medium | Metal, glass, plastic in product causes consumer injury and recalls | Implement metal detection; establish glass control program |
-| **Recall Readiness** | 🔴 High | Inability to quickly trace and recall contaminated product amplifies outbreak impact | Maintain lot traceability; conduct recall drills |
-
-**⚠️ IMPORTANT:**
-- HACCP plans must be site-specific; generic templates require validation for each facility
-- Always recommend consulting with qualified food safety professional for final plan approval
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 HACCP Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PREREQUISITE PROGRAMS                        │
-│   (GMP, Sanitation, Allergen, Supply Chain, Personnel Hygiene)│
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     HACCP PLAN DEVELOPMENT                      │
-├─────────────────────────────────────────────────────────────────┤
-│  Step 1-5:     │  Step 6-7:      │  Step 8-12:                   │
-│  Assemble Team │  Identify CCPs │  Verify & Maintain            │
-│  Describe     │  Establish      │  Record Keeping               │
-│  Product      │  Critical       │  Documentation                │
-│  Identify     │  Limits         │                                │
-│  Intended Use  │                 │                                │
-│  Flow Diagram │                 │                                │
-│  Verify Flow  │                 │                                │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-         ┌───────────────────────────────────────┐
-         │     HAZARD → CCP → CONTROL → MONITOR  │
-         │  Biological    Cooking    Temperature │
-         │  Chemical      Metal Det.  Sensitivity│
-         │  Physical      Blanching   Time/Temp   │
-         └───────────────────────────────────────┘
-```
-
-HACCP is built on a foundation of prerequisite programs. Without solid PRPs, HACCP cannot be effective.
-
-### 4.2 Guiding Principles
-
-1. **Hazard Analysis First**: Every control measure must be tied to a specific identified hazard
-2. **Science-Based Decisions**: CCPs must be validated; refer to scientific literature for critical limits
-3. **Document Everything**: If it's not documented, it didn't happen — especially for CCPs
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Codex Alimentarius HACCP** | International HACCP standard and guidelines |
-| **21 CFR Part 117** | FDA FSMA Preventive Controls for Human Food |
-| **ISO 22000:2018** | Food safety management systems |
-| **GFSI Technical Documents** | SQF, BRCGS, FSSC 22000 benchmark requirements |
-| **FDA Food Safety Modernization Act** | US food safety regulatory requirements |
-| **SOPs and Records Templates** | Standard documentation for HACCP plan implementation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 HACCP Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Codex HACCP (12 Steps)** | New HACCP plan development | 1. Assemble team → 2. Product description → 3. Intended use → 4. Flow diagram → 5. Verify → 6. Hazard analysis → 7. CCP determination → 8. Critical limits → 9. Monitoring → 10. Corrective actions → 11. Verification → 12. Documentation |
-| **FSMA Preventive Controls** | US market food facility | 1. Written food safety plan → 2. Hazard analysis → 3. Preventive controls → 4. Monitoring → 5. Corrective actions → 6. Verification → 7. Supply chain controls |
-| **ISO 22000** | Certification to international standard | 1. Context → 2. Leadership → 3. Planning → 4. Support → 5. Operation → 6. Performance evaluation → 7. Improvement |
-
-### 7.2 Risk Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Critical Control Point** | Process step where control can be applied | No more than necessary; typically 3-5 for simple products |
-| **Verification Frequency** | How often CCP is verified | Daily for high-risk; weekly for moderate |
-| **Calibration Interval** | Measurement device accuracy check | Per manufacturer; typically monthly for thermometers |
-| **Allergen Validation** | Cleaning verification after allergen changeover | Zero detectable residue |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 HACCP Plan Development
-
-```
-Phase 1: Prerequisite Programs
-├── Verify GMP status: (personnel, facility, sanitation)
-├── Review existing programs: (sanitation, allergen, traceability)
-└── Gap analysis: (what needs improvement before HACCP)
-
-Phase 2: HACCP Plan Design
-├── Assemble HACCP team: (cross-functional expertise)
-├── Describe product: (ingredients, processing, packaging)
-├── Identify intended use: (consumer type, handling)
-├── Construct flow diagram: (all steps from raw to finished)
-└── Verify on-site: (team confirms diagram accuracy)
-
-Phase 3: Hazard Analysis
-├── List all potential hazards: (biological, chemical, physical)
-├── Conduct hazard analysis: (severity × likelihood)
-├── Identify control measures: (existing and needed)
-└── Determine CCPs: (using decision tree)
-
-Phase 4: CCP Implementation
-├── Establish critical limits: (specific measurable values)
-├── Establish monitoring: (who, what, how, frequency)
-├── Establish corrective actions: (what happens when failed)
-├── Establish verification: (how to confirm plan works)
-└── Establish documentation: (records, procedures)
-```
-
-### 8.2 Incident Investigation
-
-```
-Step 1: Contain product - Hold all potentially affected product
-Step 2: Gather information - What, when, where, how much
-Step 3: Determine root cause - Use fishbone or 5-Why analysis
-Step 4: Implement corrective action - Fix the immediate problem
-Step 5: Implement preventive action - Fix the system that allowed it
-Step 6: Verify effectiveness - Confirm corrective action worked
-Step 7: Document - Complete all required records and reports
-```
-
----
 
 ## 9.1 Ready-to-Eat Product Hazard Analysis
 
@@ -343,105 +197,6 @@ Step 7: Document - Complete all required records and reports
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on food safety manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent food safety manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term food safety manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -459,6 +214,7 @@ Step 7: Document - Complete all required records and reports
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -468,6 +224,7 @@ Step 7: Document - Complete all required records and reports
 | Food Safety Manager + **Regulatory Affairs** | FS identifies requirements → RA confirms compliance | Market access |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -494,6 +251,7 @@ Step 7: Document - Complete all required records and reports
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -515,6 +273,7 @@ Expected: Provides framework for documentation including CIP validation, monitor
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with real regulations (FSMA, Codex), actionable workflows, and industry-appropriate scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -535,6 +294,7 @@ Expected: Provides framework for documentation including CIP validation, monitor
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -562,6 +322,7 @@ Expected: Provides framework for documentation including CIP validation, monitor
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -582,6 +343,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -594,15 +356,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -630,3 +383,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

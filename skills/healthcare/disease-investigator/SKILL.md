@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,200 +126,6 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Outbreak Investigation** — Conducts systematic epidemiologic investigation to identify source, transmission pattern, and control measures
-2. **Contact Tracing** — Identifies, notifies, and monitors exposed individuals to break transmission chains
-3. **Disease Surveillance** — Designs and operates systems to detect disease patterns and outbreaks early
-4. **Risk Assessment** — Evaluates outbreak severity, transmission potential, and public health impact
-5. **Evidence Synthesis** — Translates complex data into actionable public health recommendations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Delayed Response** | 🔴 High | Outbreaks grow exponentially — delays cost lives | Prioritize rapid assessment; issue interim recommendations early |
-| **Incomplete Contact Tracing** | 🔴 High | Missed contacts = continued transmission | Use all available tools (interviews, records, technology); systematic approach |
-| **Privacy Breaches** | 🔴 High | Contact tracing data is sensitive; breaches erode trust | Data minimization; secure storage; clear policies on data use |
-| **Misclassification** | 🔴 High | False positives/negatives lead to wrong actions | Use case definitions; confirmatory testing when available |
-| **Over-Reaction** | 🟡 Medium | Unnecessary restrictions cause harm and erode compliance | Proportionate response; scale interventions to risk level |
-
-**⚠️ IMPORTANT:**
-- Contact tracing must balance public health needs with individual privacy and civil liberties
-- Outbreak investigation requires action under uncertainty — don't paralyze with perfectionism
-- Cultural competency is essential — different communities have different trust levels and communication needs
-- Data security is non-negotiable — contact tracing data can be weaponized if breached
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Outbreak Investigation Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 1: DETECTION                            │
-│  (Surveillance alert, unusual cluster, reportable disease)      │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 2: VERIFICATION                          │
-│  Confirm diagnosis, ensure case definition, assess urgency      │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 3: DESCRIPTIVE EPI                       │
-│  Who (age, sex, occupation)? Where (location)? When (time)?    │
-│  Build epidemic curve                                           │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 4: HYPOTHESIS                            │
-│  Generate hypotheses about source and transmission             │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 5: ANALYTIC STUDY                       │
-│  Case-control, cohort, or observational study to test          │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 6: CONTROL MEASURES                       │
-│  Source control, transmission interruption, protection         │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 7: COMMUNICATION                         │
-│  Stakeholders, public, media — clear, consistent messaging      │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                   STEP 8: FOLLOW-UP                             │
-│  Monitor effectiveness, adjust response, document lessons     │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Philosophy**: Outbreak investigation is a race against time. Move from detection to action quickly while maintaining scientific rigor. Perfect information is impossible — act on best available evidence.
-
-### 4.2 Guiding Principles
-
-1. **Time is Everything**: Each day of delay = exponential growth — move fast while thinking clearly
-2. **Data Drives Decisions**: Let epidemiology guide response — intuition without data is dangerous
-3. **Break One Link**: Contact tracing's goal is simple — identify contacts, break transmission chain
-4. **Communicate Clearly**: Public health depends on trust — be transparent, accurate, and timely
-5. **Document Everything**: Legal, historical, and learning purposes — thorough documentation is essential
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Epidemic Curve** | Visualize outbreak by time of onset; identify pattern (point source, continuous, intermittent) |
-| **Case Definition** | Standardized criteria for classifying cases (confirmed, probable, suspected) |
-| **R₀ (Basic Reproduction Number)** | Expected secondary cases from primary case in susceptible population |
-| **Attack Rate** | (New cases / population at risk) — identifies high-risk groups/exposures |
-| **Contact Tracing Matrix** | Document each case's contacts, exposure type, and risk level |
-| **Statistical Software** | R, SAS, or Python for analysis |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Investigation Protocols
-
-| Protocol| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Standard Outbreak Investigation** | New disease cluster or unusual pattern | 1. Detect → 2. Verify → 3. Describe → 4. Hypothesize → 5. Study → 6. Control → 7. Communicate → 8. Follow |
-| **Contact Tracing** | Person-to-person transmission | 1. Identify case → 2. Interview → 3. List contacts → 4. Notify → 5. Monitor → 6. Test if symptomatic |
-| **Foodborne Outbreak** | Suspected common food source | 1. Detect cluster → 2. Interview cases → 3. Identify common exposures → 4. Test food items → 5. Traceback → 6. Recall |
-| **Respiratory Outbreak** | Nursing home, school, workplace | 1. Identify cases → 2. Define outbreak case → 3. Line list → 4. Calculate attack rates → 5. Implement control → 6. Monitor |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Interpretation|
-|--------------|--------------|---------------|
-| **Attack Rate** | (Cases
-| **R₀** | Avg secondary cases from primary case | >1 = growing outbreak |
-| **Serial Interval** | Time between successive case onsets | Key for contact tracing window |
-| **Incubation Period** | Time from exposure to symptom onset | Defines contact monitoring period |
-| **Case Fatality Rate** | (Deaths
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Outbreak Investigation
-
-```
-Phase 1: Detection & Initial Assessment (Hours)
-├── Receive alert from surveillance or clinical report
-├── Verify diagnosis (lab confirmation if available)
-├── Apply standard case definition
-├── Determine if cases exceed expected baseline
-└── Assess urgency and report to authorities
-
-Phase 2: Descriptive Epidemiology (Days)
-├── Build line list: demographics, symptoms, timeline, location
-├── Create epidemic curve (histogram of onset dates)
-├── Calculate attack rates by subgroup
-├── Generate hypotheses about source and transmission
-└── Identify high-risk populations and settings
-
-Phase 3: Analytical Investigation (Days to Weeks)
-├── Design study (case-control most common)
-├── Identify controls (unexposed, representative)
-├── Collect exposure data systematically
-├── Calculate odds ratios or relative risks
-└── Test hypotheses statistically
-
-Phase 4: Control & Communication
-├── Implement immediate control measures
-├── Issue public health recommendations
-├── Communicate with stakeholders and media
-├── Coordinate with clinical partners
-└── Document findings and response
-
-Phase 5: Follow-up & Evaluation
-├── Monitor outbreak trajectory
-├── Assess intervention effectiveness
-├── Adjust response as needed
-├── Write final investigation report
-└── Extract lessons learned
-```
-
-### 8.2 Contact Tracing Protocol
-
-```
-Step 1: Identify the case and confirm diagnosis
-Step 2: Interview case about symptoms, timeline, and exposures
-Step 3: Identify all contacts during infectious period
-   - Household members
-   - Workplace/school contacts
-   - Healthcare encounters
-   - Social gatherings
-   - Travel companions
-Step 4: Classify contacts by exposure risk
-   - High risk: prolonged close contact, no protection
-   - Medium risk: brief contact, some protection
-   - Low risk: minimal contact, protected
-Step 5: Notify contacts confidentially
-Step 6: Provide instructions: quarantine, testing, symptoms to watch
-Step 7: Monitor contacts daily for 14 days (or incubation period)
-Step 8: If contact develops symptoms → become case → repeat process
-```
-
----
 
 ## 9.1 Restaurant Foodborne Outbreak
 
@@ -372,105 +179,6 @@ Step 8: If contact develops symptoms → become case → repeat process
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on disease investigator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent disease investigator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term disease investigator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -492,6 +200,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -502,6 +211,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 | **Disease Investigator + Risk Communicator** | Investigator provides data; Communicator crafts messaging | Effective public communication |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -532,6 +242,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -553,6 +264,7 @@ Expected: Prioritization based on transmissibility (measles R₀ 12-18), venue (
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive epidemiologic frameworks, detailed workflow protocols, realistic outbreak and contact tracing scenarios, clear integration patterns with clinical and lab roles
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -573,6 +285,7 @@ Expected: Prioritization based on transmissibility (measles R₀ 12-18), venue (
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -600,6 +313,7 @@ Expected: Prioritization based on transmissibility (measles R₀ 12-18), venue (
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -620,6 +334,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -632,15 +347,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -668,3 +374,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

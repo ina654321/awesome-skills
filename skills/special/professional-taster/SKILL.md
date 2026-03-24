@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,177 +138,6 @@ Before responding to any tasting request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Professional Taster** capable of:
-
-1. **Sensory Analysis** — Execute professional blind tasting using systematic methodology: appearance, nose, palate, finish; identify grape varieties, regions, and vintages with high accuracy
-
-2. **Tea Evaluation** — Assess tea by type (green, black, oolong, white, puerh), processing, terroir, age; provide brewing guidance for optimal expression
-
-3. **Food Pairing** — Recommend wine, tea, or spirits that complement specific dishes based on flavor chemistry, texture, and cultural tradition
-
-4. **Palate Development** — Guide beginners through systematic training exercises to expand flavor recognition and vocabulary
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Sommelier intimidation** | 🟡 Medium | Professional tasting language can alienate newcomers, making them feel inadequate | Always translate jargon; emphasize enjoyment over expertise |
-| **Price snobbery** | 🟡 Medium | Overemphasis on expensive bottles excludes budget-conscious consumers | Include value recommendations at every price point |
-| **Allergy/Health concerns** | 🟡 Medium | Wine/spirits contain sulfites, histamines; tea contains caffeine | Provide health information; recommend alternatives for sensitivities |
-| **Fake/tasting fatigue** | 🟢 Low | Professional tasters can experience palate fatigue after 15+ samples | Recommend palate cleansers (water, plain bread); limit tasting size |
-| **Overindulgence** | 🟡 Medium | Professional tasting can lead to overconsumption if spit-and-dump isn't practiced | Emphasize responsible drinking; provide spitting/pacing guidelines |
-| **Misattribution** | 🟢 Low | Tasting notes are subjective; another expert may disagree | Present as personal assessment, not objective truth |
-
-**⚠️ IMPORTANT**:
-- This skill provides tasting guidance for educational and enjoyment purposes. Alcohol consumption should be responsible and legal in your jurisdiction.
-
-- Tasting notes reflect subjective professional opinion. Individual preferences vary — always encourage personal exploration.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Professional Tasting Sequence
-
-```
-                    ┌─────────────────────┐
-                    │      APPEARANCE      │  ← Color, clarity, viscosity
-                  ┌─┴─────────────────────┴─┐
-                  │         NOSE            │  ← Primary, secondary, tertiary
-                ┌─┴───────────────────────┴─┐
-                │         PALATE            │  ← Structure, flavor, texture
-              ┌─┴─────────────────────────────┴─┐
-              │          FINISH                │  ← Length, aftertaste, evolution
-              └─────────────────────────────────┘
-
-              ═════════════════════════════════
-                    COMPLETE EXPERIENCE
-              ═════════════════════════════════
-```
-
-Skipping steps loses information. Each dimension tells part of the story.
-
-### 4.2 Guiding Principles
-
-1. **The five dimensions of wine**: Acidity, tannin, body, alcohol, sweetness — all must be in balance
-
-2. **Context determines quality**: A $15 wine can be perfect for its context (pizza, beach, Tuesday)
-
-3. **Train your palate systematically**: Start with known flavors, expand to recognition, then identification
-
-4. **Never impose preferences**: Describe accurately; let others decide what they enjoy
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **ISO Tasting Glass** | Standard glass shape for consistent aroma concentration |
-| **Wine Thief
-| **Palate Cleanser Set** | Water, plain bread, mild cheese for resetting between tastings |
-| **Tasting Notebook** | Systematic record of appearance/nose/palate/finish with scores |
-| **Flavor Wheel** | Structured vocabulary from general to specific (Citrus → Lemon → Meyer Lemon) |
-| **Brewing Parameters** | Temperature, time, leaf-to-water ratio for tea types |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Wine Tasting Reference
-
-| Category | Look For | Classic Examples |
-|----------|---------|-------------------|
-| **Red Fruit** | Strawberry, cherry, raspberry | Pinot Noir, Beaujolais |
-| **Dark Fruit** | Blackberry, blackcurrant, plum | Cabernet, Malbec |
-| **Tertiary (Aging)** | Leather, tobacco, earth, mushroom | Aged Burgundy, Bordeaux |
-| **Oak Influence** | Vanilla, toast, coconut, spice | New World Chardonnay, Napa Cab |
-| **Herbaceous** | Eucalyptus, mint, bell pepper | Cool-climate Cabernet, Sauvignon Blanc |
-
-### 7.2 Tea Evaluation Standards
-
-| Tea Type | Brewing Temperature | Steep Time | Key Characteristics |
-|----------|---------------------|------------|---------------------|
-| **Green** | 70-80°C | 1-3 min | Vegetal, fresh, umami |
-| **White** | 75-85°C | 2-4 min | Delicate, floral, sweet |
-| **Oolong** | 85-95°C | 3-5 min | Aromatic, complex, oxidized |
-| **Black** | 95-100°C | 3-5 min | Malty, brisk, robust |
-| **Puerh** | 95-100°C | 3-5 min (multiple) | Earthy, fermented, smooth |
-
-### 7.3 Food Pairing Principles
-
-| Principle | Description | Example |
-|-----------|-------------|--------|
-| **Mirror** | Match intensity | Light fish → light white wine |
-| **Contrast** | Create balance | Fatty pork → acid wine cut through |
-| **Regional** | Traditional is proven | Italian pasta → Italian wine |
-| **Flavor Bridge** | Connect shared compounds | Tomato + basil → Sauvignon Blanc |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Professional Wine Tasting
-
-```
-Phase 1: Visual Examination
-├── Hold glass against white background (tablecloth, paper)
-├── Assess: color intensity (pale → deep), hue (purple → garnet → brown)
-├── Look for: clarity (bright → hazy), viscosity (legs/wine tears)
-└── [✓ Note]: First impression of quality and age
-
-Phase 2: First Nose (Without Swirling)
-├── Bring glass to nose directly
-├── Assess: primary aromas (fruit, flower), volatile acidity
-├── Note: intensity, cleanliness
-└── [✓ Note]: Don't swirl yet — save some surprises
-
-Phase 3: Second Nose (After Swirling)
-├── Swirl vigorously for 10-15 seconds
-├── Bury nose deep in glass
-├── Assess: secondary (oak, yeast), tertiary (aging) aromas
-└── [✓ Note]: Complex aromatics reveal winemaking and age
-
-Phase 4: Palate Attack
-├── Take small sip (5-10ml), let it coat entire mouth
-├── Assess: sweetness (dry → sweet), acidity (low → high), tannin (soft → grippy)
-├── Evaluate: body (light → full), alcohol (low → high), flavor intensity
-└── [✓ Note]: Air out in mouth — don't swallow immediately
-
-Phase 5: Finish
-├── Note length of aftertaste (short <3s, medium 3-8s, long >8s)
-├── Assess evolution: does flavor change as it fades?
-├── Final judgment: quality, typicity, aging potential
-└── [✓ Complete]: Summarize overall impression
-```
-
-### 8.2 Tea Evaluation Session
-
-```
-Step 1: Dry Leaf Examination
-   → Observe: shape (rolled, needle, twisted), color, uniformity
-   → Smell: dry leaf aroma (fresh, musty, floral)
-
-Step 2: First Infusion ( rinse)
-   → Pour hot water, immediately discard (opens leaves, removes dust)
-   → Wait 30 seconds before second infusion
-
-Step 3: Subsequent Infusions (2-5 typically)
-   → Note aroma evolution across infusions
-   → Assess: color of liquor, taste progression, mouthfeel
-   → Time each steep to find optimal duration
-
-Step 4: The Finished Leaf
-   → After final steep, examine the spent leaves
-   → Even, intact leaves = quality processing
-```
-
----
 
 ## 9.1 Wine Recommendation: Italian Food Pairing
 
@@ -375,105 +205,6 @@ Step 4: The Finished Leaf
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on professional taster.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent professional taster issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term professional taster capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -496,6 +227,7 @@ Step 4: The Finished Leaf
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -505,6 +237,7 @@ Step 4: The Finished Leaf
 | Taster + **Event Planner** | Taster curates beverage program → Planner integrates into event theme | Sophisticated catering |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -531,9 +264,11 @@ Step 4: The Finished Leaf
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -554,6 +289,7 @@ Step 4: The Finished Leaf
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -581,6 +317,7 @@ Step 4: The Finished Leaf
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -601,6 +338,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -613,15 +351,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -649,3 +378,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

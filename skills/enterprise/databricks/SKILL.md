@@ -19,6 +19,7 @@ description: >
   "Mosaic AI", "DBRX", "Apache Spark optimization".
 ---
 
+
 ## 1. System Prompt
 
 ### 1.1 Role Definition: Databricks Principal Engineer
@@ -105,535 +106,6 @@ You are a **Databricks Principal Engineer** — a professional operating at the 
 
 ---
 
-## 2. What This Skill Does
-
-| Capability | Description | Output |
-|------------|-------------|--------|
-| **Lakehouse Architecture** | Design medallion architecture with Delta Lake | Production data pipelines with ACID guarantees |
-| **Spark Optimization** | Tune Apache Spark with Photon engine and AQE | 3-10x performance improvements |
-| **Delta Lake Operations** | Implement time travel, Z-ordering, VACUUM, CDC | Reliable data lakes with schema evolution |
-| **MLflow Lifecycle** | Manage ML experiments, model registry, deployment | Full ML lifecycle governance |
-| **Unity Catalog** | Configure unified governance, lineage, data sharing | Enterprise-grade data + AI security |
-| **Real-time Streaming** | Build Structured Streaming pipelines with Auto Loader | Low-latency data ingestion |
-| **Mosaic AI** | Implement Vector Search, Model Serving, AI agents | Production GenAI applications |
-| **DBRX Integration** | Deploy and fine-tune DBRX open-source LLM | Custom LLM workloads on Databricks |
-| **Cost Optimization** | Optimize DBU consumption and infrastructure | 40-60% cost reduction |
-
----
-
-## 3. Risk Disclaimer
-
-⚠️ **CRITICAL LIMITATIONS**
-
-| Risk | Severity | Mitigation | Escalation |
-|------|----------|------------|------------|
-| **DBU Cost Explosion** | 🔴 High | Enable autoscaling with bounds; set budget alerts | Cost >$10K/day without approval |
-| **Small Files Problem** | 🔴 High | Schedule OPTIMIZE/VACUUM; use Auto Loader | Query performance degradation >50% |
-| **Concurrent Write Conflicts** | 🔴 High | Use optimistic concurrency; implement retry logic | Data corruption in production |
-| **Vector Search Sync Lag** | 🔴 High | Monitor index freshness; enable continuous sync | RAG responses with stale data |
-| **Model Serving Latency** | 🟡 Medium | Use provisioned throughput; enable route optimization | p99 latency >500ms |
-| **Schema Drift** | 🟡 Medium | Enable schema enforcement; use schema evolution | Pipeline failures on upstream changes |
-| **Over-Partitioning** | 🟡 Medium | Target 1GB+ per partition; avoid high-cardinality columns | Excessive metadata overhead |
-
----
-
-## 4. Core Philosophy
-
-### Databricks Technical Pillars
-
-| Pillar | Technology | Enterprise Value |
-|--------|------------|------------------|
-| **Apache Spark** | Distributed processing engine | Foundation for big data at scale |
-| **Delta Lake** | Open-source storage layer | ACID transactions on data lakes |
-| **Unity Catalog** | Unified governance | Data + AI asset management |
-| **MLflow** | ML lifecycle platform | Experiment tracking, model registry |
-| **Photon Engine** | Vectorized execution engine | 3x+ query performance |
-| **Mosaic AI** | AI/ML platform | Vector search, model serving, agents |
-| **DBRX** | Open-source LLM (132B MoE) | Enterprise GenAI foundation |
-
-### Lakehouse vs Traditional Architectures
-
-| Feature | Data Lake | Data Warehouse | Databricks Lakehouse |
-|---------|-----------|----------------|----------------------|
-| Data Types | All types | Structured only | All types |
-| ACID Transactions | ❌ | ✅ | ✅ (Delta Lake) |
-| Real-Time Analytics | Limited | Limited | ✅ |
-| Cost Efficiency | ✅ | ❌ | ✅ |
-| AI & ML Support | ✅ | Limited | ✅ (Mosaic AI) |
-| Governance | Partial | Strong | ✅ (Unity Catalog) |
-| Open Standards | ✅ | ❌ | ✅ |
-
----
-
-## 5. Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|----------------|-------------------|
-| **OpenCode** | `/skill install databricks-engineer` | Auto-saved |
-| **Claude Code** | `Read [URL] and apply skill` | `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | `~/.cursor/rules/` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` |
-| **Cline** | Paste §1 into Custom Instructions | `.clinerules` |
-| **Kimi Code** | `Read [URL] and install` | `.kimi-rules` |
-
-**[URL]**: `https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/databricks/SKILL.md`
-
----
-
-## 6. Professional Toolkit
-
-### 6.1 Core Frameworks
-
-| Framework | Application | Threshold |
-|-----------|-------------|-----------|
-| **Delta Lake** | ACID transactions, time travel, schema evolution | Open-source standard |
-| **Apache Spark** | Distributed data processing | 3.5+ with AQE enabled |
-| **MLflow** | ML lifecycle management | 2.0+ for production |
-| **Unity Catalog** | Unified governance | Databricks Enterprise |
-| **Photon Engine** | Vectorized SQL execution | Enabled by default on DBR 9.1+ |
-| **Mosaic AI** | AI/ML platform | Vector search, model serving |
-| **DBRX** | Open-source LLM | 132B MoE parameters |
-
-### 6.2 Databricks-Specific Tools
-
-| Tool | Purpose | Target |
-|------|---------|--------|
-| **Delta Live Tables** | Declarative ETL pipelines | Simplified pipeline development |
-| **Auto Loader** | Incremental data ingestion | Cloud file ingestion at scale |
-| **Databricks SQL** | Data warehousing workloads | $1B+ product run-rate |
-| **Mosaic AI Model Serving** | Real-time ML/LLM inference | <100ms latency |
-| **Mosaic AI Vector Search** | Embedding-based search | RAG applications |
-| **Feature Store** | ML feature management | Online/offline consistency |
-| **Lakeflow** | Data engineering orchestration | Unified ingestion + transformation |
-
----
-
-## 7. Standards & Reference
-
-### 7.1 Delta Lake Operations
-
-```python
-# OPTIMIZE (file compaction)
-spark.sql("OPTIMIZE delta.`/path/to/table` ZORDER BY (date, user_id)")
-
-# VACUUM (remove old versions)
-spark.sql("VACUUM delta.`/path/to/table` RETAIN 168 HOURS")
-
-# Time Travel
-spark.read.format("delta").option("versionAsOf", 5).load("/path/to/table")
-spark.read.format("delta").option("timestampAsOf", "2025-01-01").load("/path")
-
-# Liquid Clustering (alternative to partitioning)
-spark.sql("ALTER TABLE table CLUSTER BY (date, region)")
-
-# MERGE (upsert)
-from delta.tables import DeltaTable
-delta_table = DeltaTable.forPath(spark, "/path/to/table")
-delta_table.alias("target").merge(
-    updates_df.alias("source"),
-    "target.id = source.id"
-).whenMatchedUpdateAll().whenNotMatchedInsertAll().execute()
-```
-
-### 7.2 Spark Optimization on Databricks
-
-```python
-# Photon engine (C++ vectorized execution)
-spark.conf.set("spark.databricks.photon.enabled", "true")
-
-# AQE (Adaptive Query Execution)
-spark.conf.set("spark.sql.adaptive.enabled", "true")
-spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
-
-# Predictive I/O for storage
-spark.conf.set("spark.databricks.delta.predictiveIO.enabled", "true")
-
-# Optimal shuffle partitions
-data_size_gb = 100  # Estimate
-spark.conf.set("spark.sql.shuffle.partitions", max(200, data_size_gb * 2))
-
-# Broadcast join threshold
-spark.conf.set("spark.sql.autoBroadcastJoinThreshold", "100MB")
-```
-
-### 7.3 Unity Catalog Setup
-
-```sql
--- Create catalog
-CREATE CATALOG IF NOT EXISTS production;
-
--- Create schema
-CREATE SCHEMA IF NOT EXISTS production.sales;
-
--- Create table with governance
-CREATE TABLE production.sales.transactions (
-    transaction_id STRING,
-    customer_id STRING,
-    amount DECIMAL(18,2),
-    transaction_date DATE
-) USING DELTA;
-
--- Grant access
-GRANT SELECT ON TABLE production.sales.transactions TO DATA_ANALYSTS;
-
--- Enable predictive optimization
-ALTER TABLE production.sales.transactions SET TBLPROPERTIES (
-    'delta.enablePredictiveOptimization' = 'true'
-);
-```
-
-### 7.4 Mosaic AI Vector Search
-
-```python
-# Create vector search index
-from databricks.vector_search.client import VectorSearchClient
-
-client = VectorSearchClient()
-
-# Create endpoint
-client.create_endpoint(
-    name="vs_endpoint",
-    endpoint_type="STANDARD"
-)
-
-# Create delta sync index
-client.create_delta_sync_index(
-    endpoint_name="vs_endpoint",
-    index_name="product_index",
-    source_table_name="catalog.schema.products",
-    primary_key="id",
-    embedding_source_column="description",
-    embedding_model_endpoint_name="databricks-gte-large-en"
-)
-
-# Query vector search
-results = client.similarity_search(
-    index_name="product_index",
-    query_text="wireless headphones",
-    num_results=10
-)
-```
-
-### 7.5 Mosaic AI Model Serving
-
-```python
-# Deploy model for real-time serving
-import mlflow
-from mlflow.deployments import get_deploy_client
-
-client = get_deploy_client("databricks")
-
-# Deploy registered model
-client.create_endpoint(
-    name="fraud-detection",
-    config={
-        "served_entities": [{
-            "entity_name": "FraudDetectionModel",
-            "entity_version": "1",
-            "workload_size": "Small",
-            "scale_to_zero_enabled": True
-        }]
-    }
-)
-
-# Query endpoint
-import requests
-response = requests.post(
-    f"{workspace_url}/serving-endpoints/fraud-detection/invocations",
-    headers={"Authorization": f"Bearer {token}"},
-    json={"inputs": [[1.0, 2.0, 3.0]]}
-)
-```
-
----
-
-## 8. Standard Workflow
-
-### Phase 1: Lakehouse Design
-
-| Step | Action | Output | ✓ Done When | ✗ FAIL If |
-|------|--------|--------|-------------|-----------|
-| 1.1 | Assess data sources | Source inventory | All sources documented | Missing CDC sources |
-| 1.2 | Design medallion layers | Architecture diagram | Bronze→Silver→Gold mapped | No data quality gates |
-| 1.3 | Define Delta Lake config | Table properties | OPTIMIZE/VACUUM scheduled | Default retention only |
-| 1.4 | Configure Unity Catalog | Access policies | Row/column security set | No lineage tracking |
-
-### Phase 2: Pipeline Implementation
-
-| Step | Action | Output | ✓ Done When | ✗ FAIL If |
-|------|--------|--------|-------------|-----------|
-| 2.1 | Ingest with Auto Loader | Bronze tables | Schema evolution handled | Manual file listing |
-| 2.2 | Transform with DLT | Silver tables | Data quality constraints | No validation rules |
-| 2.3 | Build Gold aggregates | Business tables | Incremental refresh | Full rebuild required |
-| 2.4 | Optimize performance | Z-ordered tables | Query <10s on gold | Full scans on large tables |
-
-### Phase 3: AI & Governance
-
-| Step | Action | Output | ✓ Done When | ✗ FAIL If |
-|------|--------|--------|-------------|-----------|
-| 3.1 | Set up MLflow tracking | Experiment registry | All runs logged | Manual model versioning |
-| 3.2 | Deploy Model Serving | REST endpoints | <100ms p99 latency | Batch inference for real-time |
-| 3.3 | Configure Vector Search | Search indexes | Auto-sync enabled | Stale embeddings |
-| 3.4 | Enable data sharing | Delta Sharing | Cross-org access | Manual data copies |
-
----
-
-## 9. Scenario Examples
-
-### Scenario 1: Spark Performance Optimization
-
-**User**: "My Databricks job is running too slow on a 500GB dataset. It's taking 4 hours to complete a simple aggregation."
-
-**Expected Response**:
-```
-Let me help optimize your Spark job. Based on the symptoms, I suspect partition 
-imbalance and lack of AQE optimization.
-
-DIAGNOSIS:
-1. Check Spark UI → Stages tab for stragglers
-2. Verify partition count: df.rdd.getNumPartitions()
-3. Look for shuffle spill in SQL tab
-
-OPTIMIZATION PLAN:
-
-1. ENABLE AQE (Spark 3.0+)
-spark.conf.set("spark.sql.adaptive.enabled", "true")
-spark.conf.set("spark.sql.adaptive.skewJoin.enabled", "true")
-
-2. OPTIMIZE PARTITIONS
-Target ~128MB per partition for 500GB = ~4,000 partitions
-spark.conf.set("spark.sql.shuffle.partitions", "4000")
-
-3. USE PHOTON ENGINE
-Ensure cluster uses DBR 9.1+ with Photon enabled
-
-4. Z-ORDER FOR FILTERING
-If filtering on high-cardinality columns:
-spark.sql("OPTIMIZE table ZORDER BY (user_id, event_type)")
-
-EXPECTED RESULT: 4 hours → 20-30 minutes
-```
-
-### Scenario 2: Delta Lake CDC Implementation
-
-**User**: "I need to implement change data capture from PostgreSQL to Delta Lake with near real-time latency."
-
-**Expected Response**:
-```
-RECOMMENDED ARCHITECTURE: CDC to Delta Lake
-
-BRONZE LAYER (Raw CDC):
-```python
-from pyspark.sql.functions import from_json, col
-from pyspark.sql.avro.functions import from_avro
-
-# Auto Loader for CDC files
-cdc_df = (spark.readStream
-    .format("cloudFiles")
-    .option("cloudFiles.format", "json")
-    .option("cloudFiles.schemaLocation", "/checkpoint/cdc_schema")
-    .load("/mnt/cdc/postgres/")
-)
-
-# Apply CDC changes using MERGE
-delta_table.alias("target").merge(
-    cdc_df.alias("source"),
-    "target.id = source.id"
-).whenMatchedUpdateAll(
-    condition="source.op = 'U'"
-).whenNotMatchedInsertAll(
-    condition="source.op = 'I'"
-).whenMatchedDelete(
-    condition="source.op = 'D'"
-).execute()
-```
-
-SILVER LAYER (Cleaned):
-- Deduplicate using window functions
-- Schema validation with constraints
-- Enforce data quality with Delta constraints
-
-```sql
-ALTER TABLE silver.orders ADD CONSTRAINT valid_amount CHECK (amount > 0);
-```
-
-GOLD LAYER (Aggregated):
-- Incremental aggregations with watermarks
-- Z-ordered for BI queries
-
-LATENCY TARGET: <5 minutes end-to-end
-```
-
-### Scenario 3: MLflow Model Registry
-
-**User**: "How do I productionize my scikit-learn model with proper versioning and A/B testing on Databricks?"
-
-**Expected Response**:
-```
-MLFLOW MODEL LIFECYCLE:
-
-1. TRACK EXPERIMENTS
-```python
-import mlflow
-import mlflow.sklearn
-
-mlflow.set_experiment("/Users/data-scientist/fraud-detection")
-
-with mlflow.start_run(run_name="xgboost_v2"):
-    # Log parameters
-    mlflow.log_params({"max_depth": 6, "learning_rate": 0.1})
-    
-    # Train model
-    model = xgb.XGBClassifier(**params)
-    model.fit(X_train, y_train)
-    
-    # Log metrics
-    mlflow.log_metrics({"auc": 0.94, "f1": 0.89})
-    
-    # Log model with signature
-    signature = infer_signature(X_test, model.predict(X_test))
-    mlflow.sklearn.log_model(model, "model", signature=signature)
-```
-
-2. REGISTER TO MODEL REGISTRY
-```python
-result = mlflow.register_model(
-    "runs:/<run_id>/model",
-    "FraudDetectionModel"
-)
-```
-
-3. TRANSITION STAGES
-```python
-client = MlflowClient()
-client.transition_model_version_stage(
-    name="FraudDetectionModel",
-    version=result.version,
-    stage="Staging"
-)
-```
-
-4. A/B TESTING WITH MODEL SERVING
-- Deploy multiple versions to Model Serving
-- Route traffic percentage between versions
-- Monitor latency and accuracy metrics
-```
-
-### Scenario 4: Unity Catalog Migration (Anti-Pattern)
-
-**User**: "I want to migrate from Hive metastore to Unity Catalog but keep all my existing table paths."
-
-**Expected Response**:
-```
-⚠️ MIGRATION ANTI-PATTERN DETECTED
-
-❌ WRONG APPROACH:
-- Manually registering external tables
-- Keeping same paths without governance review
-- Granting broad access without column-level security
-- Skipping lineage analysis
-
-✅ CORRECT APPROACH:
-
-1. ASSESS CURRENT STATE
-   - Inventory all tables in Hive metastore
-   - Document access patterns and dependencies
-   - Identify sensitive data (PII/PHI)
-
-2. PLAN CATALOG STRUCTURE
-```sql
-CREATE CATALOG production;  -- Production workloads
-CREATE CATALOG analytics;   -- BI and analytics
-CREATE CATALOG sandbox;     -- Development/testing
-```
-
-3. MIGRATE WITH GOVERNANCE
-   - Use SYNC command for external tables
-   - Implement row/column filters for sensitive data
-   - Set up automated lineage tracking
-
-4. VALIDATE
-   - Compare row counts: Hive vs Unity Catalog
-   - Verify query performance
-   - Test access controls
-
-5. DEPRECATE OLD METASTORE
-   - Set TTL on Hive tables
-   - Update all downstream jobs
-   - Monitor for orphaned references
-```
-
-### Scenario 5: RAG Application with Mosaic AI
-
-**User**: "How do I build a RAG application using Mosaic AI Vector Search and DBRX on Databricks?"
-
-**Expected Response**:
-```
-RAG ARCHITECTURE WITH MOSAIC AI:
-
-1. SET UP VECTOR SEARCH
-```python
-from databricks.vector_search.client import VectorSearchClient
-
-client = VectorSearchClient()
-
-# Create vector search endpoint
-client.create_endpoint(
-    name="knowledge_base_endpoint",
-    endpoint_type="STANDARD"
-)
-
-# Create index on documentation table
-client.create_delta_sync_index(
-    endpoint_name="knowledge_base_endpoint",
-    index_name="docs_index",
-    source_table_name="catalog.schema.documentation",
-    primary_key="doc_id",
-    embedding_source_column="content",
-    embedding_model_endpoint_name="databricks-gte-large-en"
-)
-```
-
-2. BUILD RAG CHAIN
-```python
-# Query vector search for relevant context
-results = client.similarity_search(
-    index_name="docs_index",
-    query_text=user_question,
-    num_results=5
-)
-
-# Combine context with DBRX for generation
-context = "\n".join([r["content"] for r in results["result"]["data_array"]])
-
-prompt = f"""Based on the following context, answer the question:
-
-Context:
-{context}
-
-Question: {user_question}
-
-Answer:"""
-
-# Use DBRX via Foundation Model APIs
-response = client.predict(
-    endpoint="databricks-dbrx-instruct",
-    inputs={"messages": [{"role": "user", "content": prompt}]}
-)
-```
-
-3. EVALUATION & MONITORING
-- Use Mosaic AI Agent Evaluation for RAG quality
-- Monitor retrieval accuracy and generation relevance
-- Track token usage and latency metrics
-
-BEST PRACTICES:
-- Enable continuous sync for real-time updates
-- Use hybrid search (keyword + semantic) for better recall
-- Implement re-ranking for improved precision
-```
-
----
 
 ## 10. Gotchas & Anti-Patterns
 
@@ -689,6 +161,7 @@ BEST PRACTICES:
 
 ---
 
+
 ## 11. Integration with Other Skills
 
 | Skill | Integration | When to Use |
@@ -702,6 +175,7 @@ BEST PRACTICES:
 | `genai-engineer` | Mosaic AI for GenAI | LLM and agent development |
 
 ---
+
 
 ## 12. Scope & Limitations
 
@@ -724,6 +198,7 @@ BEST PRACTICES:
 - Generic SQL optimization (use `data-analyst`)
 
 ---
+
 
 ## 13. How to Use This Skill
 
@@ -750,6 +225,7 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ---
 
+
 ## 14. Quality Verification
 
 ### Self-Assessment
@@ -773,6 +249,7 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ---
 
+
 ## 15. Progressive Disclosure Navigation
 
 | Section | Depth | Purpose |
@@ -794,6 +271,7 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ---
 
+
 ## 16. Version History
 
 | Version | Date | Changes |
@@ -802,6 +280,7 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 | 3.1.0 | 2026-03-22 | Previous exemplary release with full Databricks coverage |
 
 ---
+
 
 ## 17. License & Author
 
@@ -813,3 +292,17 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 ---
 
 **End of Skill Document**
+
+
+## References
+
+Detailed content:
+
+- [## 2. What This Skill Does](./references/2-what-this-skill-does.md)
+- [## 3. Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## 4. Core Philosophy](./references/4-core-philosophy.md)
+- [## 5. Platform Support](./references/5-platform-support.md)
+- [## 6. Professional Toolkit](./references/6-professional-toolkit.md)
+- [## 7. Standards & Reference](./references/7-standards-reference.md)
+- [## 8. Standard Workflow](./references/8-standard-workflow.md)
+- [## 9. Scenario Examples](./references/9-scenario-examples.md)

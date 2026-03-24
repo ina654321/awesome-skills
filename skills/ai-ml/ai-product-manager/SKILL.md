@@ -19,6 +19,7 @@ Ship AI products that users love and trust. Bridge the gap between ML capabiliti
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -165,303 +166,6 @@ Framework:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **AI Product Manager** capable of:
-
-1. **AI Product Strategy** — Define AI product vision, identify high-value AI opportunities, and align stakeholders on AI investments.
-
-2. **LLM Product Development** — Ship products powered by large language models including chatbots, content generation, and code assistants.
-
-3. **ML Feature Prioritization** — Prioritize ML investments using ROI analysis, feasibility assessment, and user impact.
-
-4. **AI Ethics & Fairness** — Lead responsible AI practices including bias audits, fairness testing, and transparency initiatives.
-
-5. **AI Experimentation** — Design and analyze A/B tests for AI features, balancing model improvements with user experience.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **AI Bias** | 🔴 Critical | Unfair outcomes for user groups | Bias audits, diverse data |
-| **Hallucination (LLM)** | 🔴 Critical | False information from LLMs | Grounding, citations, human review |
-| **Over-Promising** | 🟠 High | User expectations exceed capability | Transparent communication |
-| **Model Failure** | 🟠 High | AI produces harmful outputs | Safety filters, guardrails |
-| **Privacy Violations** | 🟠 High | AI exposes sensitive data | Differential privacy, access controls |
-| **User Distrust** | 🟡 Medium | Users don't trust AI | Transparency, control, feedback |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 AI Product Development Cycle
-
-```
-┌─────────────────────────────────────────┐
-│         Problem Discovery               │  ← User research, market analysis
-├─────────────────────────────────────────┤
-│         AI Feasibility                  │  ← Data assessment, baseline
-├─────────────────────────────────────────┤
-│         Ethical Review                  │  ← Bias, safety, fairness
-├─────────────────────────────────────────┤
-│         UX Design                       │  ← Probabilistic UX patterns
-├─────────────────────────────────────────┤
-│         Experimentation                 │  ← A/B testing, validation
-├─────────────────────────────────────────┤
-│         Launch & Monitor                │  ← Gradual rollout, monitoring
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **User Value First** — AI is a means, not an end
-2. **Embrace Uncertainty** — Design for probabilistic outcomes
-3. **Responsible by Default** — Ethics integrated from start
-4. **Measure Everything** — Offline and online metrics
-5. **Iterate Rapidly** — Learn from real user feedback
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install ai-product-manager` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/ai-product-manager.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-[URL]: https://awesome-skills.dev/skills/ai-ml/ai-product-manager.md
-
----
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **Research** | UserTesting, Dovetail, Amplitude | User research, analytics |
-| **Experimentation** | Statsig, LaunchDarkly | Feature flags, A/B tests |
-| **LLM** | OpenAI, Anthropic, LangChain | LLM product features |
-| **ML Monitoring** | Fiddler, Arize, WhyLabs | Model performance |
-| **Fairness** | Fairlearn, AI Fairness 360 | Bias detection |
-| **Roadmap** | Productboard, Aha!, Notion | Roadmap management |
-
----
-
-## § 7 · Domain Knowledge
-
-### 7.1 AI Product Types
-
-| Type | Example | Considerations |
-|------|---------|----------------|
-| **Recommendation** | Netflix, Spotify | Serendipity vs. relevance |
-| **Prediction** | Fraud detection | False positive/negative costs |
-| **Generation** | ChatGPT, Copilot | Hallucination, attribution |
-| **Classification** | Content moderation | Scale, edge cases |
-| **Automation** | Smart replies | Control, user override |
-
-### 7.2 LLM Product Patterns
-
-| Pattern | Use Case | UX Approach |
-|---------|----------|-------------|
-| **Chat Interface** | Q&A, assistance | Turn-based, context aware |
-| **Inline Suggestion** | Code completion, writing | Ghost text, accept/reject |
-| **Generation** | Content creation | Draft mode, user editing |
-| **Summarization** | Document review | Key points, expandable |
-| **Extraction** | Data parsing | Structured output, validation |
-
-### 7.3 AI Ethics Checklist
-
-- [ ] Bias testing across demographic groups
-- [ ] Fairness metrics defined and measured
-- [ ] Transparency to users about AI use
-- [ ] User consent for AI features
-- [ ] Safety guardrails implemented
-- [ ] Human oversight for high-stakes decisions
-- [ ] Regular ethical reviews
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Discovery (Weeks 1-2)
-
-```
-├── User research: Pain points, AI acceptance
-├── Market analysis: Competitive landscape
-├── Technical feasibility: Data availability
-├── Ethical assessment: Potential risks
-└── [✓ Done]: Problem validated, AI fit confirmed
-    [✗ FAIL]: AI not right solution → pivot
-```
-
-### Phase 2: Definition (Weeks 3-4)
-
-```
-├── Define success metrics (user + business)
-├── Create PRD with AI requirements
-├── Ethical review and bias assessment
-├── UX design for probabilistic outputs
-└── [✓ Done]: PRD approved, team aligned
-    [✗ FAIL]: Ethical concerns → address or cancel
-```
-
-### Phase 3: Development (Weeks 5-10)
-
-```
-├── ML model development (baseline → improved)
-├── UX implementation
-├── Safety guardrails
-├── Internal testing
-└── [✓ Done]: Feature ready for beta
-    [✗ FAIL]: Accuracy insufficient → iterate
-```
-
-### Phase 4: Launch (Weeks 11-12)
-
-```
-├── Beta launch to limited users
-├── A/B test vs. control
-├── Monitor metrics and feedback
-├── Gradual rollout
-└── [✓ Done]: Full launch, monitoring active
-    [✗ FAIL]: Metrics negative → iterate or rollback
-```
-
----
-
-## § 9 · Scenario Examples
-
-### Example 1: AI Writing Assistant
-
-**Context**: Launch AI-powered writing assistant.
-
-**Product**:
-```
-Features:
-├── Inline suggestions (tone, clarity)
-├── Rewrite options
-├── Grammar and style checks
-
-UX Design:
-├── Suggestions appear inline
-├── User can accept, reject, or modify
-├── Confidence indicators
-
-Ethics:
-├── Bias testing for gendered language
-├── User control over AI assistance level
-├── Transparency about AI use
-
-Results:
-├── 40% increase in writing efficiency
-├── 90% user satisfaction
-├── No significant bias detected
-```
-
----
-
-### Example 2: Recommendation Algorithm Update
-
-**Context**: Improve content recommendation algorithm.
-
-**Approach**:
-```
-Goals:
-├── Increase engagement 10%
-├── Maintain content diversity
-├── Reduce filter bubble effect
-
-Experiment:
-├── Offline: New model 15% better accuracy
-├── A/B test: 2% lift in engagement
-├── Guardrail: Diversity maintained
-
-Decision:
-├── Ship new model
-├── Monitor long-term effects
-├── Plan diversity improvements
-```
-
----
-
-### Example 3: LLM Customer Support Bot
-
-**Context**: Deploy GPT-powered support chatbot.
-
-**Implementation**:
-```
-Safety Measures:
-├── RAG: Ground responses in knowledge base
-├── Human escalation triggers
-├── Response quality scoring
-
-Rollout:
-├── 10% of queries initially
-├── Monitor resolution rate
-├── Track escalation rate
-
-Metrics:
-├── 70% resolution without human
-├── < 5% inappropriate responses
-├── CSAT: 4.2/5 (vs. 4.5 human)
-```
-
----
-
-### Example 4: Bias Remediation Project
-
-**Context**: Discovered bias in hiring AI tool.
-
-**Response**:
-```
-Discovery:
-├── Model favored male candidates
-├── Root cause: Historical bias in training data
-
-Remediation:
-├── Diverse training data collection
-├── Fairness constraints in model
-├── Bias auditing in CI/CD
-├── Human-in-the-loop for final decisions
-
-Outcome:
-├── Demographic parity achieved
-├── Model accuracy maintained
-├── Trust restored with users
-```
-
----
-
-### Example 5: AI Feature Sunsetting
-
-**Context**: AI feature not delivering value, decision to sunset.
-
-**Process**:
-```
-Analysis:
-├── Low adoption (5% of users)
-├── High maintenance cost
-├── Limited user value
-
-Sunset Plan:
-├── User communication (60 days notice)
-├── Migration path to alternatives
-├── Data export options
-├── Feedback collection
-
-Execution:
-├── Gradual feature disablement
-├── Support for affected users
-├── Learnings documented
-```
-
----
 
 ## § 10 · Common Pitfalls
 
@@ -475,6 +179,7 @@ Execution:
 | **Transparency Gaps** | Users unaware of AI use | Clear disclosure |
 
 ---
+
 
 ## § 11 · Scope & Limitations
 
@@ -492,6 +197,7 @@ Execution:
 - Data analysis → use `data-scientist`
 
 ---
+
 
 ## § 12 · How to Use
 
@@ -513,8 +219,22 @@ Execution:
 
 ---
 
+
 ## § 13 · License & Author
 
 **License:** MIT  
 **Author:** neo.ai <lucas_hsueh@hotmail.com>  
 **Version:** 5.0.0 (2026-03-21)
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

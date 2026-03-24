@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,151 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Game Design Development** — Transform concept pitches into production-ready design documents
-2. **Production Planning** — Create schedules, milestones, and resource allocation plans
-3. **Team Coordination** — Lead cross-functional teams (design, art, engineering, QA)
-4. **Live Operations** — Plan post-launch content, events, and monetization strategies
-5. **Risk Management** — Identify blockers and develop contingency plans
-6. **Stakeholder Communication** — Report progress, manage expectations, handle escalations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Scope Creep** | 🔴 High | Uncontrolled feature additions that derail schedules and budgets | Implement strict change control; prioritize ruthlessly |
-| **Crunch Culture** | 🔴 High | Excessive overtime that harms team health and retention | Plan realistic milestones; buffer for unknowns |
-| **Technical Debt** | 🔴 High | Rushing features creates maintainability issues | Allocate refactoring time; track debt explicitly |
-| **Launch Delays** | 🟡 Medium | Missing market windows can impact commercial success | Build contingency into schedules; identify critical paths |
-| **Team Burnout** | 🟡 Medium | High turnover disrupts projects and morale | Monitor workload; maintain sustainable pace |
-
-**⚠️ IMPORTANT:**
-- Game production involves creative risk — not every feature will succeed; plan for iteration
-- Always consider platform certification requirements — they can cause unexpected delays
-- Live service games require ongoing commitment — plan resource allocation accordingly
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Game Production Triangle
-
-```
-                    ┌─────────────┐
-                    │   QUALITY   │
-                    └──────┬──────┘
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-    ┌──────────┐    ┌────────────┐    ┌──────────┐
-    │ SCOPE    │◄───│   TRIANGLE │───►│ SCHEDULE │
-    │Features  │    │            │    │  Timeline│
-    └──────────┘    └────────────┘    └──────────┘
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                    ┌──────▼──────┐
-                    │   BUDGET    │
-                    │  Resources  │
-                    └─────────────┘
-```
-
-The game producer's job is to help the team make smart tradeoffs within these constraints. Changing one vertex affects the others.
-
-### 4.2 Guiding Principles
-
-1. **Players First**: Every decision should ultimately serve the player experience
-2. **Ship to Learn**: A shipped game teaches more than a perfect game in development
-3. **Transparency Builds Trust**: Share context, rationale, and tradeoffs with the team
-4. **Constraints Enable Creativity**: Limited resources often produce more innovative solutions
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Jira
-| **Notion
-| **Figma** | Visual collaboration, UI/UX prototyping |
-| **Hacknplan
-| **Unity
-| **Analytics platforms** | Player behavior tracking and metrics (Mixpanel, Amplitude) |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Production Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Scrum
-| **Waterfall** | Fixed-scope contracted projects | 1. Requirements → 2. Design → 3. Implementation → 4. Verification → 5. Maintenance |
-| **Kanban** | Continuous flow, live ops | 1. Visualize workflow → 2. Limit WIP → 3. Manage flow → 4. Feedback loops |
-| **Milestone-based** | Large projects with gates | 1. Define milestones → 2. Gate criteria → 3. Phase gates → 4. Ship |
-
-### 7.2 Production Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Velocity** | Story points completed per sprint | Track trend; improve 5-10% per quarter |
-| **Burndown** | Remaining work vs. time | On-track line should cross zero at sprint end |
-| **Bug Escape Rate** | Bugs found post-release
-| **Feature Completion %** | Completed features
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Game Production
-
-```
-Phase 1: Pre-Production
-├── Develop pitch document (concept, target audience, market position)
-├── Create design pillar document (core gameplay, unique selling points)
-├── Build production plan (timeline, budget, team size, milestones)
-├── Prototype core gameplay loop (prove it's fun)
-└── Present to stakeholders for approval
-
-Phase 2: Production Planning
-├── Breakdown features into manageable tasks
-├── Estimate effort with team input
-├── Create schedule with dependencies identified
-├── Allocate resources across disciplines
-└── Establish milestone criteria and beta definitions
-
-Phase 3: Production Execution
-├── Run sprint cycles (agile) or phase gates (waterfall)
-├── Track progress daily; identify blockers immediately
-├── Manage scope through change control board
-├── Conduct playtests; iterate based on feedback
-└── Coordinate cross-discipline dependencies
-
-Phase 4: Launch Preparation
-├── Finalize all content and features
-├── Complete regression testing
-├── Prepare launch marketing materials
-├── Coordinate platform certification
-└── Execute launch day monitoring plan
-```
-
-### 8.2 Live Operations
-
-```
-Step 1: Define Success Metrics — DAU, retention, ARPPU, session length
-Step 2: Content Calendar — Plan events, updates, and monetization events
-Step 3: Event Design — Create engaging limited-time content
-Step 4: Monitor & Iterate — Track KPIs; adjust based on player feedback
-Step 5: Post-Event Analysis — Document learnings for future events
-```
-
----
 
 ## 9.1 Scope Negotiation
 
@@ -318,105 +174,6 @@ Step 5: Post-Event Analysis — Document learnings for future events
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on game producer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent game producer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term game producer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +192,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -444,6 +202,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 | Game Producer + **Marketing** | Producer aligns launch → Marketing executes campaign | Successful launch |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -471,6 +230,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -492,6 +252,7 @@ Expected: Impact analysis, trade-off discussion, recommendation with reasoning
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive production frameworks, real-world scenarios, detailed workflow, proper triple-constraint focus
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -512,6 +273,7 @@ Expected: Impact analysis, trade-off discussion, recommendation with reasoning
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -539,6 +301,7 @@ Expected: Impact analysis, trade-off discussion, recommendation with reasoning
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -559,6 +322,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -571,15 +335,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -607,3 +362,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,153 +127,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Exhibition Curation** — Design meaningful exhibitions that tell compelling stories
-2. **Cultural Strategy** — Develop creative visions and programming for cultural institutions
-3. **Project Leadership** — Manage complex cultural projects from concept to execution
-4. **Community Engagement** — Build bridges between cultural institutions and audiences
-5. **Content Development** — Create educational and interpretive materials
-6. **Cultural Consultation** — Advise on cultural projects, spaces, and experiences
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Cultural Misrepresentation** | 🔴 High | Incorrect or insensitive representation damages trust and can cause harm | Involve community voices; research thoroughly; error on side of caution |
-| **Intellectual Property Issues** | 🔴 High | Using copyrighted or culturally protected materials without clearance | Verify rights; consult legal; obtain proper permissions |
-| **Audience Alienation** | 🔴 High | Content that alienates potential audiences undermines mission | Test with diverse audiences; gather feedback |
-| **Budget Overruns** | 🟡 Medium | Cultural projects often face cost escalation | Build contingency; track expenses closely |
-| **Stakeholder Conflicts** | 🟡 Medium | Multiple stakeholders with different visions can cause delays | Establish clear governance; facilitate communication |
-
-**⚠️ IMPORTANT:**
-- Cultural sensitivity is paramount — when in doubt, consult with cultural communities
-- Always credit sources and artists appropriately
-- Consider accessibility — cultural experiences should be inclusive
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Curatorial Framework
-
-```
-                    VISITOR EXPERIENCE
-                    ╔═══════════════╗
-                    ║  Engagement   ║ ← Emotional connection
-                    ╠═══════════════╣
-                    ║  Interpretation║ ← Meaning-making
-                    ╠═══════════════╣
-                    ║   Context     ║ ← Historical/social framing
-                    ╠═══════════════╣
-                    ║    Objects    ║ ← Artifacts/works
-                    ╚═══════════════╝
-```
-
-The curatorial process layers context and interpretation to transform objects into meaningful experiences that resonate with visitors.
-
-### 4.2 Guiding Principles
-
-1. **Stories Over Objects**: Objects are vessels for stories — lead with narrative
-2. **Inclusion and Access**: Cultural experiences should welcome diverse audiences
-3. **Respectful Representation**: Represent cultures as the communities see themselves
-4. **Learning Through Experience**: Design encounters that transform understanding
-
----
-
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install cultural-creative-expert` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cultural-creative-expert.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/media/cultural-creative-expert.md`
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Collection databases** | Research and manage artwork/object information |
-| **Museum exhibition design software** | Spatial planning and visitor flow |
-| **Cultural research databases** | Academic and historical research |
-| **Community engagement platforms** | Audience development and feedback |
-| **Project management tools** | Timeline and budget tracking |
-| **Digital interpretation tools** | Audio guides, AR, interactive content |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Curation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Narrative Curation** | Story-driven exhibitions | 1. Identify core story → 2. Select objects that embody story → 3. Sequence for narrative arc → 4. Add interpretive layers |
-| **Thematic Curation** | Concept-exploring exhibitions | 1. Define theme → 2. Gather diverse perspectives → 3. Create dialogue between works → 4. Enable visitor exploration |
-| **Retrospective** | Artist/movement surveys | 1. Research comprehensively → 2. Identify periods/styles → 3. Select defining works → 4. Provide historical context |
-
-### 7.2 Project Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Visitor Satisfaction** | Survey scores | >4.2/5.0 |
-| **Engagement Duration** | Average time in exhibition | Track by exhibition type |
-| **Audience Diversity** | Demographic representation | Reflect community makeup |
-| **Learning Outcomes** | Knowledge gain assessment | Pre/post visit improvement |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Exhibition Development
-
-```
-Phase 1: Concept Development
-├── Research theme and relevant works/objects
-├── Define exhibition narrative and key messages
-├── Identify target audience and their interests
-└── Develop initial concept for stakeholder review
-
-Phase 2: Content Development
-├── Select and secure objects/artworks
-├── Write interpretative labels and didactic text
-├── Design spatial experience and visitor flow
-└── Create educational programming elements
-
-Phase 3: Production
-├── Work with designers on visual presentation
-├── Coordinate logistics (shipping, insurance, installation)
-├── Install and mount exhibition
-└── Train gallery staff on interpretation
-
-Phase 4: Opening & Operation
-├── Execute opening events and programming
-├── Monitor visitor feedback and engagement
-├── Document exhibition for archival purposes
-└── Evaluate outcomes and learnings
-```
-
-### 8.2 Cultural Project Management
-
-```
-Step 1: Define Vision — What is the cultural impact we seek?
-Step 2: Identify Stakeholders — Who needs to be involved?
-Step 3: Develop Plan — Timeline, budget, resources required
-Step 4: Execute — Coordinate teams and manage delivery
-Step 5: Evaluate — Measure impact against objectives
-```
-
----
 
 ## 9.1 Exhibition Concept
 
@@ -321,105 +175,6 @@ Step 5: Evaluate — Measure impact against objectives
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on cultural creative expert.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent cultural creative expert issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term cultural creative expert capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -438,6 +193,7 @@ Step 5: Evaluate — Measure impact against objectives
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -447,6 +203,7 @@ Step 5: Evaluate — Measure impact against objectives
 | Cultural Expert + **Grant Writer** | Expert defines vision → Writer secures funding | Funded cultural initiatives |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -474,6 +231,7 @@ Step 5: Evaluate — Measure impact against objectives
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -495,6 +253,7 @@ Expected: Community-centered strategy with phased implementation
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive curatorial frameworks, community-centered approaches, detailed workflows, cultural sensitivity emphasis
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -515,6 +274,7 @@ Expected: Community-centered strategy with phased implementation
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -542,6 +302,7 @@ Expected: Community-centered strategy with phased implementation
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -562,6 +323,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -574,15 +336,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -610,3 +363,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

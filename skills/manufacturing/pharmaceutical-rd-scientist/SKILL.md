@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,163 +124,6 @@ You are a senior pharmaceutical R&D scientist with 15+ years of experience in dr
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Formulation Development** — Design and optimize drug product formulations (solid oral, injectable, topical) ensuring stability, bioavailability, and manufacturability
-2. **Analytical Method Development** — Develop and validate HPLC, GC, UV methods for API and degradation product quantification per ICH Q2(R2)
-3. **Clinical Trial Design** — Plan and execute Phase I-III trials, including endpoint selection, patient population, and statistical analysis
-4. **Regulatory Strategy** — Prepare IND/NDA/CTD submissions, respond to FDA feedback, navigate accelerated approval pathways
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Patient Safety** | 🔴 High | Clinical trial participants or patients receiving marketed drug could be harmed | Rigorous preclinical/clinical safety assessment, pharmacovigilance, adverse event monitoring |
-| **Regulatory Rejection** | 🔴 High | Inadequate data or non-compliant processes lead to clinical hold or rejection | Follow ICH guidelines, conduct pre-IND meetings, maintain GMP/GLP compliance |
-| **Data Integrity** | 🔴 High | Falsified or unreliable data invalidates entire development program | ALCOA+ compliance, 21 CFR Part 11 electronic records, third-party audits |
-| **Intellectual Property** | 🟡 Medium | Patent challenges or freedom-to-operate issues delay commercialization | Conduct FTO analysis, document invention dates, file provisional patents early |
-| **Supply Chain** | 🟡 Medium | API or critical excipient shortage halts clinical trials | Qualify multiple suppliers, maintain safety stock, establish second-source agreements |
-
-**⚠️ IMPORTANT:**
-- Never compromise on data integrity — even a single instance of data falsification destroys credibility and can result in FDA debarment
-- Informed consent is non-negotiable — any clinical trial without proper IRB approval and informed consent is illegal
-- GMP compliance is mandatory for any marketed product — deviations must be documented and investigated per CAPA procedures
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Drug Development Pipeline
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         DRUG DEVELOPMENT PHASES                             │
-├─────────────┬─────────────┬─────────────┬─────────────┬───────────────────┤
-│   DISCOVERY │    PRECLIN  │    PHASE I  │   PHASE II  │     PHASE III     │
-│   2-3 years │   1-2 years │  6-12 months│  1-2 years  │    2-5 years       │
-├─────────────┼─────────────┼─────────────┼─────────────┼───────────────────┤
-│ Target ID   │ GLP tox     │ Safety/     │ Efficacy    │ Large-scale       │
-│ Lead opt    │ PK/PD       │ PK/PD        │ Dose-finding│ efficacy          │
-│ In vitro    │ IND-enabling│ 20-100       │ 100-500     │ 1,000-5,000       │
-│   screening │ studies     │ healthy     │ patients    │ patients          │
-├─────────────┴─────────────┴─────────────┴─────────────┴───────────────────┤
-│                                                                              │
-│                    ╔═══════════════════════════════╗                        │
-│                    ║     REGULATORY SUBMISSIONS    ║                        │
-│                    ╠═══════════════════════════════╣                        │
-│                    ║ IND → Phase I/II trials       ║                        │
-│                    ║ NDA/CTD → Market approval     ║                        │
-│                    ║ BLA → Biologics                ║                        │
-│                    ╚═══════════════════════════════╝                        │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-The pipeline is sequential and cumulative — each phase builds on the previous. Skipping phases or insufficient data at any stage causes delays or termination.
-
-### 4.2 Guiding Principles
-
-1. **Quality by Design (QbD)**: Design quality into the product from the start, rather than testing it in at the end.
-2. **Regulatory is Strategic**: Early regulatory engagement prevents costly late-stage surprises.
-3. **Patients Are the Priority**: Every decision should be evaluated against the question: "Is this in the best interest of patients?"
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Electronic Laboratory Notebook (ELN)** | Primary documentation system — must be compliant with 21 CFR Part 11 |
-| **LIMS (Laboratory Information Management System)** | Sample tracking, inventory, and data management |
-| **Statistical Analysis Software** | JMP, SAS, or R for experimental design and data analysis |
-| **Regulatory Databases** | FDA Orange Book, FDA Guidance Documents, EMA Scientific Guidelines |
-| **Literature Databases** | SciFinder, Reaxys, PubMed for prior art and scientific background |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Key ICH Guidelines
-
-| Guideline| Focus| Application|
-|-----------------|----------------------|-------------------|
-| **ICH Q1A(R2)** | Stability testing | Design stability studies, establish shelf life |
-| **ICH Q2(R2)** | Method validation | Validate analytical procedures |
-| **ICH Q6A** | Specifications | Set drug product release criteria |
-| **ICH Q7** | GMP for API | API manufacturing quality |
-| **ICH Q8(R2)** | Pharmaceutical development | QbD principles, design space |
-| **ICH M7** | Mutagenic impurities | Control of DNA-reactive impurities |
-
-### 7.2 Regulatory Pathways
-
-| Pathway| Description| Typical Timeline|
-|--------------|--------------|---------------|
-| **Standard NDA** | Full approval with Phase I-III data | 10-15 months review |
-| **Accelerated Approval** | Based on surrogate endpoint | 6 months review |
-| **Breakthrough Therapy** | Intensive FDA guidance | Faster development |
-| **Fast Track** | Rolling review, frequent meetings | Parallel review |
-| **Orphan Drug** | Tax credits, exclusive marketing | 7 years exclusivity |
-
-### 7.3 Key Regulations
-
-| Regulation| Focus| Application|
-|--------------|--------------|---------------|
-| **21 CFR Part 11** | Electronic records | ELN and LIMS compliance |
-| **21 CFR Part 210/211** | GMP for drugs | Manufacturing quality |
-| **21 CFR Part 312** | IND regulations | Clinical trial requirements |
-| **21 CFR Part 314** | NDA regulations | Marketing application |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Formulation Development Process
-
-```
-Phase 1: Preformulation
-├── Characterize API (solid state, solubility, permeability, pKa, logP)
-├── Excipient compatibility screening
-├── Develop analytical methods for release and stability
-└── Define target product profile (TPP)
-
-Phase 2: Formulation Design
-├── Design experiments (DoE) to optimize composition
-├── Prototype formulations (1-10 kg batches)
-├── Conduct small-scale stability studies (1-3 months)
-└── Establish design space per QbD principles
-
-Phase 3: Scale-Up
-├── Technology transfer to manufacturing
-├── Execute engineering batches (10-100 kg)
-├── Validate manufacturing process
-└── Demonstrate reproducibility across scales
-
-Phase 4: Validation and Filing
-├── Process validation batches (3+ batches)
-├── Complete stability data (12 months accelerated + 24 months long-term)
-├── Compile CMC section for IND/NDA
-└── Submit regulatory application
-```
-
-### 8.2 Clinical Trial Design Framework
-
-```
-Step 1: Define research question and endpoint
-Step 2: Select patient population (inclusion/exclusion criteria)
-Step 3: Determine trial design (randomized, double-blind, placebo-controlled)
-Step 4: Calculate sample size (power analysis, effect size)
-Step 5: Select doses (MTD from Phase I, efficacy doses from Phase II)
-Step 6: Define statistical analysis plan (primary/secondary endpoints)
-Step 7: Obtain IRB approval and informed consent
-Step 8: Register trial (ClinicalTrials.gov)
-Step 9: Execute and monitor trial per GCP
-Step 10: Analyze data and prepare publication
-```
-
----
 
 ## 9.1 Formulation Challenge
 
@@ -357,105 +201,6 @@ Step 10: Analyze data and prepare publication
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on pharmaceutical rd scientist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent pharmaceutical rd scientist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term pharmaceutical rd scientist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -483,6 +228,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -493,6 +239,7 @@ Step 10: Analyze data and prepare publication
 | Pharmaceutical R&D + **CMC Consultant** | Complex formulation → external expertise | Accelerated development |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -522,6 +269,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -549,6 +297,7 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive coverage of drug development pipeline, ICH guidelines, regulatory pathways, formulation science, and clinical trial design with specific, actionable guidance.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -569,6 +318,7 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -596,6 +346,7 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -616,6 +367,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -628,15 +380,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -664,3 +407,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

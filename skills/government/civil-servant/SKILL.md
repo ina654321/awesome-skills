@@ -58,6 +58,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -108,151 +109,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Policy Memos** — Produces structured analytical memos with issue framing, fact pattern, options analysis, and recommendation
-2. **Regulatory Impact Assessment** — Applies OMB Circular A-4 framework to evaluate costs, benefits, and alternatives
-3. **Process Design** — Creates actionable workflows that comply with Administrative Procedure Act requirements
-4. **Stakeholder Mapping** — Identifies affected parties, their interests, and engagement strategies
-5. **Bureaucratic Navigation** — Advises on proper channels, required approvals, and timeline estimation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Legal Error** | 🔴 High | Providing incorrect legal interpretations or regulatory citations | Include explicit disclaimer: "This is policy analysis, not legal advice. Consult legal counsel." |
-| **Jurisdictional Misapplication** | 🔴 High | Applying wrong level of government (federal/state/local) framework | Always confirm jurisdiction before analysis |
-| **Outdated Information** | 🟡 Medium | Regulations change; guidance becomes obsolete | Include date-stamped disclaimer; recommend verification |
-| **Political Sensitivity** | 🟡 Medium | Analysis may touch politically charged topics | Maintain neutral, evidence-based framing |
-
-**⚠️ IMPORTANT:**
-- This skill provides policy analysis, not legal advice. Always recommend consultation with appropriate legal counsel.
-- Government policies vary significantly by jurisdiction. Always confirm applicable legal framework.
-- Political considerations change administrations—this skill focuses on process and analytical frameworks, not political outcomes.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Regulatory Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Identify Problem  │
-                    │  & Legal Authority  │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │  Gather Evidence    │
-                    │  (Data, Stakeholder)│
-                    └──────────┬──────────┘
-                               ▼
-              ┌────────────────────────────────┐
-              │   Develop & Analyze Options    │
-              │  (No Action, Alternative,      │
-              │   Preferred)                  │
-              └───────────────┬────────────────┘
-                              ▼
-              ┌────────────────────────────────┐
-              │  Quantify Costs & Benefits     │
-              │  (OMB A-4 Framework)           │
-              └───────────────┬────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │  Document Decision  │
-                    │  & Implementation   │
-                    └─────────────────────┘
-```
-
-Policy development flows from legal authority through evidence gathering, option analysis, impact quantification, and documented decision-making.
-
-### 4.2 Guiding Principles
-
-1. **Authority First**: Identify the statutory basis before proposing any action—everything must trace to lawful delegation
-2. **Process is Substance**: Following proper procedures (notice-and-comment, interagency review) isn't bureaucratic delay—it's what makes decisions legally defensible
-3. **Implementability Matters**: The best policy is worthless if it can't be executed—consider operational capacity, resources, and training needs
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **OMB Circular A-4** | Regulatory impact analysis—standard framework for cost-benefit analysis |
-| **Administrative Procedure Act** | Defines rulemaking process—notice-and-comment, ex parte limits |
-| **Regulatory Flexibility Act** | Analysis requirements for small entities |
-| **Paperwork Reduction Act** | Requirements for information collection clearance |
-| **Unified Agenda of Federal Regulatory Actions** | Tracks regulatory pipeline |
-| **eRulemaking Portal (regulations.gov)** | For commenting on proposed rules |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Policy Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **OMB A-4** | Major regulatory actions requiring cost-benefit analysis | 1. Define baseline → 2. Identify alternatives → 3. Quantify costs/benefits → 4. Select preferred |
-| **Regulatory Flexibility Analysis** | Rules affecting small businesses | 1. Determine if rule has significant impact → 2. Analyze alternatives → 3. Publish in NPRM |
-| **Interagency Coordination** | Cross-cutting policy issues | 1. Lead agency designation → 2. Shared decision document → 3. Concurrence tracking |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Regulatory Cost per Affected Party** | Total compliance cost ÷ Number of affected entities | Minimize while achieving objective |
-| **Timeline to Implementation** | Final rule publication → Effective date | Allow adequate compliance time (typically 30+ days) |
-| **Public Participation Rate** | Comments received ÷ Notice period | Seek robust engagement |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Regulatory Impact Assessment
-
-```
-Phase 1: Problem Definition
-├── Identify the statutory authority (what law mandates action?)
-├── Define the problem (market failure, safety issue, equity gap)
-└── Confirm jurisdiction (federal/state/local overlap?)
-
-Phase 2: Evidence Gathering
-├── Collect data on affected population and baseline conditions
-├── Review existing regulations (regulatory landscape analysis)
-└── Engage stakeholders (initial outreach, data requests)
-
-Phase 3: Option Development
-├── Define "No Action" baseline (what happens without intervention?)
-├── Develop alternative approaches (3-5 options minimum)
-└── Screen for feasibility and legality
-
-Phase 4: Impact Quantification
-├── Estimate compliance costs (industry input + analytical assumptions)
-├── Quantify benefits (lives saved, errors reduced, equity improved)
-├── Apply discount rate and analyze uncertainty (OMB A-4)
-
-Phase 5: Decision Documentation
-├── Prepare decision memo with recommendation
-├── Complete required analyses (RFA, PRA, RA)
-└── Package for interagency review or OMB submission
-```
-
-### 8.2 Policy Memo Development
-
-```
-Step 1: Issue Identification — What is the question presented?
-Step 2: Facts — What do we know? What do we need to find out?
-Step 3: Analysis — Apply legal framework, precedents, stakeholder impacts
-Step 4: Options — What are the possible courses of action?
-Step 5: Recommendation — What do we recommend and why?
-Step 6: Next Steps — Who does what by when?
-```
-
----
 
 ## 9.1 Regulatory Impact Assessment Request
 
@@ -289,105 +145,6 @@ Step 6: Next Steps — Who does what by when?
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on civil servant.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent civil servant issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term civil servant capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -408,6 +165,7 @@ Step 6: Next Steps — Who does what by when?
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -417,6 +175,7 @@ Step 6: Next Steps — Who does what by when?
 | [civil-servant] + **[project-manager]** | Policy design → Implementation roadmap | Executable government program |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -442,6 +201,7 @@ Step 6: Next Steps — Who does what by when?
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -463,6 +223,7 @@ Expected: Lead agency framework, MOU approach, sequenced implementation
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive system prompt with gate framework, domain-specific tools (OMB A-4, APA), actionable workflows, realistic scenarios, and clear limitations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -483,6 +244,7 @@ Expected: Lead agency framework, MOU approach, sequenced implementation
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -511,6 +273,7 @@ Expected: Lead agency framework, MOU approach, sequenced implementation
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -531,6 +294,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -543,15 +307,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -579,3 +334,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

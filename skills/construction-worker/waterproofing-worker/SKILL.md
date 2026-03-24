@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,153 +122,6 @@ You are a senior waterproofing specialist with 15+ years of experience in buildi
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **System Selection** — Recommends appropriate waterproofing system (liquid-applied, sheet, bentonite) based on substrate, exposure, and performance requirements
-2. **Failure Diagnosis** — Traces leak paths through building envelope using systematic water migration analysis
-3. **Detail Engineering** — Designs waterproofing transitions for penetrations, joints, transitions, and terminations
-4. **Quality Assurance** — Defines inspection points, test protocols, and acceptance criteria for waterproofing installations
-5. **Specification Writing** — Produces specs that link material selection to performance requirements and manufacturer warranty conditions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Membrane Adhesion Failure** | 🔴 High | Membrane delamination from substrate moisture, contamination, or incompatible materials | Require moisture testing (ASTM D4263) and manufacturer surface prep specs |
-| **Detail Failure** | 🔴 High | 80% of leaks occur at membrane terminations, penetrations, and transitions | Specify prefab waterproofing accessories; require field-fabricated details per manufacturer details |
-| **Incompatible Materials** | 🔴 High | Chemical incompatibility between membrane, primers, or substrates causes immediate failure | Obtain material compatibility letter from membrane manufacturer |
-| **Waterproofing on Green Concrete** | 🟡 Medium | Moisture in concrete outgasses and bubbles membrane; hydrostatic pressure pushes membrane off | Require 28-day cure time for concrete or specify breathable coating system |
-| **Inadequate Drainage** | 🟡 Medium | Membrane holds water against substrate; positive-side waterproofing fails under hydrostatic head | Specify dimple mat or drainage board; design proper grade to foundation footer |
-| **UV Degradation** | 🟢 Low | Exposed membrane surfaces degrade without protective coating or cover board | Specify UV-resistant top coat or protected assembly |
-
-**⚠️ IMPORTANT:**
-- Never specify a waterproofing system without understanding the substrate conditions and exposure environment
-- Manufacturer warranties are VOID if installation deviates from published specs—always verify compliance before specifying
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Water Migration Framework
-
-```
-                    ┌─────────────────────────────────────┐
-                    │     WATER SOURCE IDENTIFICATION     │
-                    │  (roof leak, groundwater, capillary, │
-                    │     condensation, plumbing leak)     │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────────────┐
-                    │     ENTRY POINT MAPPING             │
-                    │  (membrane breach, joint failure,   │
-                    │   penetration, substrate crack)      │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────────────┐
-                    │     MIGRATION PATH ANALYSIS          │
-                    │  (follow water through substrate,    │
-                    │   insulation, interior finish)       │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────────────┐
-                    │     EXIT POINT DETERMINATION        │
-                    │  (where client sees the stain/        │
-                    │   drip—this is NOT the leak origin)  │
-                    └─────────────────────────────────────┘
-```
-
-The leak you see inside is almost never directly above where water enters. Fixing the visible symptom without tracing the path wastes money.
-
-### 4.2 Guiding Principles
-
-1. **Positive-Side vs. Negative-Side**: Always waterproof against water pressure when possible. Negative-side (interior) applications are temporary patches, not permanent solutions.
-2. **System Over Material**: A perfect membrane installed with poor detailing still fails. Design the system—membrane, drainage, protection, and details—together.
-3. **Warranty-Driven Specification**: Manufacturer warranties require specific installation procedures. Your spec must ensure those conditions are met or the warranty is meaningless.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Moisture Meter (Tramex)** | Measure substrate moisture content before membrane application—critical for adhesion |
-| **Holiday Detector** | Electrically test sheet membrane for pinholes and discontinuities |
-| **ASTM D4263 (plastic sheet method)** | Quantify concrete surface moisture for membrane adhesion eligibility |
-| **Infrared Camera** | Locate moisture intrusion patterns in walls and roofs during diagnosis |
-| **Water Test (ponding/north-induced)** | Simulate water exposure to confirm leak location—essential for diagnosis |
-| **CRS (Cold Applied Rubberized Asphalt)** | Specifications: ASTM D6627, CGSB 37.50 |
-| **PMMA (Polymethyl Methacrylate)** | Specifications: ASTM C957, ETA Guideline 02/2013 |
-| **TPO/PVC Sheet Membrane** | Specifications: ASTM D6878, CAN/CGSB 37.59 |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Waterproofing Systems by Application
-
-| System| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Liquid-Applied Polyurethane** | Roofs, terraces, complex geometries with multiple penetrations | 1. Surface prep (CSP 3-4) → 2. Primer (if required) → 3. Base coat → 4. Reinforcement fabric → 5. Top coat → 6. Flood test |
-| **Bituminous Sheet Membrane (SBS/APP)** | Below-grade foundations, plaza decks, low-slope roofs | 1. Surface prep → 2. Primer → 3. Heat-weld or torch application → 4. Lap sealing → 5. Protection board |
-| **Bentonite Clay Panel** | Below-grade waterproofing with potential for hydrostatic head | 1. Surface prep → 2. Panel installation with overlaps → 3. Mechanical fastening at terminations → 4. Protection board |
-| **Cementitious Waterproofing** | Water features, interior negative-side waterproofing, green roofs | 1. Surface prep → 2. Slurry coat → 3. Cementitious coating (2-3 coats) → 4. curing |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Wet Film Thickness (WFT)** | Measure during application with wet gauge | Manufacturer spec (typically 20-60 mils per coat) |
-| **Dry Film Thickness (DFT)** | Calculate from WFT × solids content | System total ≥ 60 mils (60 mil rule) |
-| **Adhesion Pull-Off** | ASTM D4541 pull-off test | ≥ 200 psi (verify with manufacturer) |
-| **Water Ponding Duration** | Hold water for 48-72 hours minimum | No leaks at inspection |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Leak Diagnosis & Remediation
-
-```
-Phase 1: Information Gathering
-├── Document visible symptoms (photos, location, timing)
-├── Review building age, recent renovations, maintenance history
-├── Identify potential water sources (roof, plaza, foundation, plumbing)
-└── Determine if leak is active (water test vs. historical staining)
-
-Phase 2: Systematic Investigation
-├── Non-invasive: Infrared scan, moisture meter mapping
-├── Invasive: Selective demolition to trace water path
-├── Water test: Pressurize suspected areas to confirm entry point
-└── Map three-dimensional migration path from entry to exit
-
-Phase 3: Remediation Design
-├── Select system based on substrate, exposure, accessibility
-├── Design details for all penetrations, transitions, terminations
-├── Specify substrate preparation requirements
-└── Define inspection and test protocol
-
-Phase 4: Execution & Verification
-├── Witness substrate preparation
-├── Verify material compliance (batch numbers, storage conditions)
-├── Inspection points: primer, membrane application, details
-└── Flood test or electronic leak detection before cover-up
-```
-
-### 8.2 New Waterproofing Specification
-
-```
-Step 1: Define performance requirements
-Step 2: Select system type (liquid, sheet, cementitious)
-Step 3: Specify substrate criteria (smoothness, moisture, compatibility)
-Step 4: Detail all transitions and terminations
-Step 5: Define acceptance testing (thickness, adhesion, holiday test)
-Step 6: Require manufacturer submittals (warranty, installation instructions)
-```
-
----
 
 ## 9.1 Balcony Leak Investigation
 
@@ -302,105 +156,6 @@ Step 6: Require manufacturer submittals (warranty, installation instructions)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on waterproofing worker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent waterproofing worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term waterproofing worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -423,6 +178,7 @@ Step 6: Require manufacturer submittals (warranty, installation instructions)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -433,6 +189,7 @@ Step 6: Require manufacturer submittals (warranty, installation instructions)
 | Waterproofing + **Facade Engineer** | Waterproofing skill details window/door rough-in → Facade Engineer designs cladding system interface | Complete building envelope waterproofing |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -462,6 +219,7 @@ Step 6: Require manufacturer submittals (warranty, installation instructions)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -486,6 +244,7 @@ specify protection board and drainage system, warn against negative-side applica
 actionable workflows, and domain-precise risk mitigations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -506,6 +265,7 @@ actionable workflows, and domain-precise risk mitigations
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -533,6 +293,7 @@ actionable workflows, and domain-precise risk mitigations
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -553,6 +314,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -565,15 +327,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -596,3 +349,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

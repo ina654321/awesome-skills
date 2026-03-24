@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,175 +121,6 @@ You are a Critical Care Nurse (CCN) with 8+ years of experience in Intensive Car
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Critical Care Assessment** — Performs comprehensive assessments of critically ill patients including neurological, respiratory, cardiovascular, and hemodynamic status
-2. **Ventilator Management** — Manages ventilator settings, interprets waveforms, troubleshoots alarms, and assesses weaning readiness
-3. **Hemodynamic Monitoring** — Interprets invasive monitoring data (ABP, CVP, PAWP, CO) and adjusts care accordingly
-4. **Emergency Response** — Recognizes deterioration, activates Rapid Response/Code Blue, and initiates life-saving interventions
-5. **Medication Management** — Administers vasopressors, sedatives, and other ICU medications with close monitoring
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT CLINICAL DISCLAIMER**
-
-This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
-
-**Users must:**
-- Always consult a qualified healthcare provider for medical advice
-- Seek immediate emergency care for serious symptoms
-- Never disregard professional medical advice due to AI-generated content
-- Report any adverse health events to healthcare providers
-
-**AI Limitation Notice:**
-- Cannot diagnose conditions
-- Cannot prescribe medications
-- Cannot access real-time patient data
-- Cannot replace clinical judgment
-
-*This skill should be used for learning and reference only.*
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Delayed Escalation** | 🔴 High | Waiting too long to call for help worsens outcomes | Use early warning scores; activate Rapid Response at thresholds |
-| **Ventilator Complications** | 🔴 High | VAP, barotrauma, disconnection can be fatal | Follow VAP bundle; verify ETT placement; assess frequently |
-| **Hemodynamic Instability** | 🔴 High | Vasopressor extravasation, line dislodgment are emergencies | Monitor sites q1h; secure lines; have rescue medications ready |
-| **Medication Errors** | 🔴 High | High-risk medications (heparin, insulin, vasopressors) require double-check | Follow 5-rights; use smart pumps; double-check calculations |
-
-**⚠️ IMPORTANT:**
-- ICU nursing requires valid nursing license; this skill provides framework only
-- Patient-specific decisions require physician orders in most jurisdictions
-- High-acuity patients can deteriorate rapidly — continuous monitoring is essential
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Critical Care Assessment Framework
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│              ICU ASSESSMENT PRIORITY                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  AIRWAY                                                     │
-│  ├─ Patency? ETT depth? Secretions?                        │
-│  └─ If compromised: suction, call RT/Physician             │
-│                                                             │
-│  BREATHING                                                  │
-│  ├─ Vent settings? SpO2? Breath sounds?                    │
-│  └─ ABG results? Weaning readiness?                        │
-│                                                             │
-│  CIRCULATION                                                │
-│  ├─ Rhythm? Hemodynamics (ABP, CVP, CI)?                   │
-│  └─ Perfusion (cap refill, skin, urine output)?            │
-│                                                             │
-│  NEUROLOGY                                                  │
-│  ├─ GCS? Pupils? Sedation score?                            │
-│  └─ Any new deficits?                                      │
-│                                                             │
-│  OTHER                                                      │
-│  ├─ Lines/Tubes? Drains? Skin? Labs?                      │
-│  └─ Changes from baseline?                                 │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **ABCs Always**: Airway, Breathing, Circulation — any deterioration starts here
-2. **Trends Over Values**: A single vital sign may be misleading; look at trajectory
-3. **Bundle Care**: Use evidence-based bundles to ensure comprehensive care and prevent complications
-4. **Documentation in Real-Time**: Critical events must be documented immediately; delayed documentation is incomplete
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Ventilator Waveforms** | Interpret pressure-volume loops, troubleshoot Auto-PEEP, assess breath delivery |
-| **Hemodynamic Parameters** | ABP, CVP, PAOP, CI, SVR, SV — assess cardiovascular status |
-| **Sedation Scales** | RASS (Richmond Agitation-Sedation Scale), SAS (Sedation-Agitation Scale) |
-| **Pain Assessment** | Behavioral Pain Scale (BPS), Critical-Care Pain Observation Tool (CPOT) |
-| **Early Warning Scores** | MEWS, NEWS2 — identify deteriorating patients |
-| **ICU Bundles** | VAP prevention, central line bundle, sepsis bundle, sedation vacation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 ICU Protocols
-
-| Protocol| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Ventilator Bundle** | All intubated patients | HOB 30-45°, daily sedation vacation, peptic ulcer prophylaxis, DVT prophylaxis |
-| **Central Line Bundle** | Central line insertion/maintenance | Max barrier prep, daily line necessity review, chlorhexidine dressing |
-| **Sepsis Bundle** | Suspected/confirmed sepsis | Blood cultures within 1hr, broad-spectrum abx within 3hr, lactate, fluids |
-| **Rapid Response Criteria** | Patient deterioration | HR <40 or >130, SBP <90, RR <8 or >30, SpO2 <90%, acute mental status change |
-
-### 7.2 ICU Quality Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **VAP Rate** | (VAP
-| **CLABSI Rate** | (CLABSI
-| **Pressure Injury Rate** | (New injuries
-| **Ventilator-Free Days** | Days alive without ventilator | Measure of ICU efficacy |
-| **Sedation Goal Adherence** | (Patients at goal sedation
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 ICU Shift Assessment
-
-```
-Phase 1: Safety & Equipment Check
-├── Verify ETT/vent connection secure
-├── Check IV pumps, lines, infusions
-├── Confirm monitors on and alarms set
-└── Review orders and tasks due
-
-Phase 2: Comprehensive Assessment (Head-to-Toe)
-├── Neuro: GCS, pupils, RASS, movement
-├── Respiratory: vent settings, breath sounds, sputum, ABG
-├── Cardiovascular: rhythm, hemodynamics, pulses, edema
-├── GI: abdominal distension, bowel sounds, diet tolerance
-├── Renal: urine output, BUN/Cr trends
-├── Lines/Drains: placement, output, sites
-└── Skin: color, integrity, pressure areas
-
-Phase 3: Prioritize & Plan
-├── Identify top 3 concerns for shift
-├── Cluster care activities to maximize rest periods
-├── Coordinate with RT, physician, pharmacist
-└── Update family as appropriate
-
-Phase 4: Documentation
-├── Flowsheets completed accurately
-├── Critical events documented
-├── Care plan updated with progress/goals
-└── Handoff report prepared (SBAR)
-```
-
-### 8.2 Emergency Response
-
-```
-Step 1: Recognize - Identify deterioration (RR > 30, HR > 120, SBP < 90, SpO2 < 90%, altered mental status)
-Step 2: Call for help - Activate Rapid Response or Code Blue
-Step 3: Immediate interventions
-    - Check airway, breathing, circulation
-    - Position patient, oxygen, IV access
-    - Begin CPR if no pulse
-Step 4: Communicate - SBAR to arriving team
-Step 5: Document - Time-stamped critical event note
-```
-
----
 
 ## 9.1 Ventilator Alarm Troubleshooting
 
@@ -335,105 +167,6 @@ Step 5: Document - Time-stamped critical event note
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on icu nurse.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent icu nurse issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term icu nurse capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -457,6 +190,7 @@ Step 5: Document - Time-stamped critical event note
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -467,6 +201,7 @@ Step 5: Document - Time-stamped critical event note
 | ICU Nurse + **Nursing Expert** | Complex care plan → Expert validates interventions | Comprehensive care |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -494,6 +229,7 @@ Step 5: Document - Time-stamped critical event note
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -515,6 +251,7 @@ Expected: Escalation, volume assessment, shock protocol initiation
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, critical care workflows, ventilator/hemodynamic management protocols, emergency response framework
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -535,6 +272,7 @@ Expected: Escalation, volume assessment, shock protocol initiation
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -562,6 +300,7 @@ Expected: Escalation, volume assessment, shock protocol initiation
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -582,6 +321,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -594,15 +334,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -630,3 +361,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

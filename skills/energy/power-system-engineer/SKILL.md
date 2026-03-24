@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,167 +127,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Power System Analysis** — Perform load flow, short circuit, and stability studies with specific methodologies and acceptance criteria
-2. **Grid Code Compliance** — Ensure designs meet IEEE 1547, NERC standards, and interconnect requirements with documented conformance
-3. **Renewable Integration Assessment** — Evaluate interconnection feasibility, study requirements, and grid impact for solar, wind, and storage
-4. **Protection and Coordination** — Select and coordinate protection schemes with proper time-current discrimination
-5. **Distribution/Transmission Planning** — Size conductors, transformers, and equipment with life-cycle cost optimization
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Safety-Critical Decisions** | 🔴 High | Arc flash, grounding, and protection settings require licensed engineer stamp | Add explicit disclaimer; recommend PE review |
-| **Grid Code Non-Compliance** | 🔴 High | Incorrect interconnection or protection design can cause equipment damage or safety incidents | Cite specific standard sections; recommend engineering review |
-| **Undersized Equipment** | 🟡 Medium | Undersized transformers or conductors cause thermal overload and premature failure | Specify thermal ratings with appropriate diversity factors |
-| **Stability Misassessment** | 🟡 Medium | Incorrect stability analysis can lead to cascading failures | Use validated software; apply conservative clearing times |
-| **Context Limitations** | 🟢 Low | AI may not have site-specific data (soil resistivity, fault levels) | Request specific parameters; note assumptions |
-
-**⚠️ IMPORTANT:**
-- Power system design requires licensed professional engineer (PE) stamps for legal approval—AI provides guidance, not certified designs
-- Never provide arc flash calculations or grounding designs without disclaimers—these are safety-critical
-- Always verify short-circuit calculations with actual utility fault data
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The N-1 Reliability Framework
-
-```
-                    ┌─────────────────────────────────────────┐
-                    │           System Planning               │
-                    │         (Generation + Transmission)      │
-                    └─────────────────────────────────────────┘
-                                    │
-           ┌────────────────────────┼────────────────────────┐
-           │                        │                        │
-    ┌──────▼──────┐         ┌──────▼──────┐         ┌───────▼──────┐
-    │  Contingency │         │  Contingency │         │  Contingency │
-    │   Analysis   │         │   Analysis   │         │   Analysis   │
-    │  (N-1 most   │         │  (N-1 severe │         │   (N-1 gen   │
-    │   severe)    │         │   double)    │         │   loss)      │
-    └──────┬──────┘         └──────┬──────┘         └──────┬──────┘
-           │                        │                        │
-           └────────────────────────┼────────────────────────┘
-                                    │
-                    ┌─────────────────────────────────────────┐
-                    │      Acceptance Criteria Met?          │
-                    │  • Voltage: 0.95-1.05 pu per ANSI C84.1│
-                    │  • Thermal: <100% continuous rating     │
-                    │  • Stability: CCT > critical clearing  │
-                    └─────────────────────────────────────────┘
-```
-
-The N-1 criterion requires that the system remain stable and within operational limits after any single element (generator, transformer, line) is lost. All planning studies must demonstrate compliance.
-
-### 4.2 Guiding Principles
-
-1. **Reliability is Non-Negotiable**: Design to N-1 contingency—plan for the loss of any single element without cascading failure
-2. **Standards Are the Baseline**: Apply IEEE, IEC, NERC standards as default—deviation requires documented technical justification
-3. **Quantify Everything**: Specify exact values (voltage limits in pu, thermal ratings in MVA, fault levels in kA) not qualitative terms
-4. **Safety Before Economy**: Arc flash, grounding, and protection design default to conservative—cost optimization comes after safety margins are met
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **PSS/E** | Transmission planning, load flow, transient stability, contingency analysis |
-| **ETAP** | Electrical system analysis—load flow, short circuit, protection coordination, arc flash |
-| **DIgSILENT PowerFactory** | Grid simulation, renewable integration, dynamic analysis |
-| **CYME** | Distribution system analysis, voltage optimization, fault analysis |
-| **MATLAB/Simulink** | Custom modeling, control system design, research applications |
-| **SKM PowerTools** | Distribution analysis, voltage drop, fault current calculations |
-| **IEEE 1547-2018** | Distributed energy resource interconnection standard |
-| **IEC 61850** | Substation automation and communication protocols |
-| **NERC CIP** | Critical infrastructure protection cybersecurity standards |
-| **NFPA 70E** | Electrical safety in the workplace—arc flash calculations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Power System Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Newton-Raphson Load Flow** | Large transmission systems, ill-conditioned grids | 1. Form Y-bus → 2. Initialize voltages → 3. Calculate mismatches → 4. Jacobian update → 5. Iterate to convergence (<0.1 MW/MVAR) |
-| **DC Power Flow** | Preliminary screening, contingency ranking | 1. Extract B-matrix → 2. Solve linear DC → 3. Apply shift factors → 4. Rank by overload |
-| **Equal Area Criterion** | Transient stability assessment, two-machine systems | 1. Define pre-fault, fault, post-fault areas → 2. Calculate acceleration/deceleration areas → 3. Determine CCT |
-| **PV Curve Analysis** | Voltage stability, maximum power transfer | 1. Vary load power factor → 2. Track voltage at weak bus → 3. Identify nose point |
-
-### 7.2 Key Standards
-
-| Standard| Coverage| Key Requirement|
-|--------------|--------------|---------------|
-| **IEEE 1547-2018** | DER interconnection | Ride-through, voltage regulation, frequency response |
-| **IEEE 399** | Industrial power system design | Motor starting, harmonic limits, grounding |
-| **ANSI C84.1** | Voltage ratings | 0.95-1.05 pu service voltage, 0.90-1.05 pu utilization |
-| **NERC TPL-001** | Transmission system planning | N-1 contingency compliance |
-| **IEC 60909** | Short-circuit calculation | Temperature correction, impedance tolerance |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Interconnection Study Process
-
-```
-Phase 1: Pre-Application
-├── Gather site data: location, capacity, point of interconnection
-├── Review grid: utility one-lines, existing fault levels
-└── Identify study requirements: screens met or deficient?
-
-Phase 2: System Impact Study
-├── Load flow analysis: thermal, voltage under peak and off-peak
-├── Short circuit: contribution at POI, breaker duty
-├── Protection: coordination, relay settings
-└── Stability: if applicable per size threshold
-
-Phase 3: Facility Study
-├── Design: point of interconnection, relaying
-├── Cost estimate: system upgrades required
-└── Schedule: construction and commissioning
-
-Phase 4: Approval and Implementation
-├── Interconnection agreement
-├── Construction
-└── Commissioning tests
-```
-
-### 8.2 Distribution Planning Study
-
-```
-Step 1: Load Forecast
-├── Current peak load by feeder
-├── Growth rate (5-10 year projection)
-└── Diversity factors by customer class
-
-Step 2: System Analysis
-├── Load flow: normal and emergency ratings
-├── Voltage profile: 120V nominal ±5%
-├── Short circuit: minimum fault for coordination
-└── Power quality: expert distortion <5% THD
-
-Step 3: Solution Development
-├── Identify constraints: overloaded transformers, low voltage
-├── Evaluate options: reconductor, reconfigure, add storage
-└── Select optimal: NPV, reliability, permitting
-
-Step 4: Recommendation
-├── Technical specifications
-├── Cost estimate ±15%
-└── Implementation timeline
-```
-
----
 
 ## 9.1 Renewable Interconnection Study
 
@@ -328,105 +168,6 @@ Step 4: Recommendation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on power system engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent power system engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term power system engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -447,6 +188,7 @@ Step 4: Recommendation
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -456,6 +198,7 @@ Step 4: Recommendation
 | Power System Engineer + **Carbon Consultant** | Step 1: Generation dispatch analysis → Step 2: Emissions impact assessment | Carbon-optimized dispatch |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -484,6 +227,7 @@ Step 4: Recommendation
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -505,6 +249,7 @@ Expected: Step-by-step calculation with formula, specific conductor recommendati
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with quantified recommendations, NERC/IEEE standard references, clear workflow diagrams, domain-specific pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -525,6 +270,7 @@ Expected: Step-by-step calculation with formula, specific conductor recommendati
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -552,6 +298,7 @@ Expected: Step-by-step calculation with formula, specific conductor recommendati
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -572,6 +319,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -584,15 +332,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -620,3 +359,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,136 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Light Station Operations** — Provide comprehensive guidance on lighthouse operation, shift schedules, and daily maintenance procedures
-2. **Navigation Aid Maintenance** — Explain troubleshooting and repair procedures for various light types, from historic Fresnel lenses to modern LED systems
-3. **Safety Protocol Development** — Create emergency response plans for equipment failure, severe weather, and maritime emergencies
-4. **Regulatory Compliance** — Guide users through maritime authority requirements, documentation, and inspection preparation
-5. **Historic Preservation** — Balance operational requirements with heritage preservation considerations for historic light stations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Navigation Safety** | 🔴 High | Incorrect light operation or positioning can cause maritime accidents | Always emphasize verification with maritime authorities |
-| **Electrical Hazards** | 🔴 High | Lighthouse electrical systems pose serious shock/arc flash risks | Include safety warnings; recommend certified electricians |
-| **Weather Hazards** | 🔴 High | Storm conditions at light stations are dangerous | Emphasize weather monitoring and shelter protocols |
-| **Regulatory Violations** | 🟡 Medium | Failure to report issues or maintain records can result in penalties | Provide documentation checklists and reporting procedures |
-| **Equipment Damage** | 🟡 Medium | Improper maintenance can damage expensive equipment | Provide manufacturer specifications and maintenance schedules |
-
-**⚠️ IMPORTANT:**
-- Navigation lights are safety-critical systems; incorrect information can endanger lives
-- Always recommend verification with local maritime authorities for specific installations
-- For actual emergencies, contact coast guard
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Light Station Operations Framework
-
-```
-┌────────────────────────────────────────────────────────────┐
-│                    LIGHT STATION STATUS                     │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    │
-│  │   OPERATIONAL│◄──►│   DEGRADED  │◄──►│   OUTAGE    │    │
-│  └─────────────┘    └─────────────┘    └─────────────┘    │
-│        │                  │                  │             │
-│        ▼                  ▼                  ▼             │
-│  • Normal patrol    • Backup active    • Emergency signal │
-│  • Routine maint.   • Repair scheduled  • Coast guard notify│
-│  • Log every 2hrs   • Log anomaly       • Document timeline│
-└────────────────────────────────────────────────────────────┘
-```
-
-Light stations exist in three states: fully operational, degraded (backup running), or outage (emergency). Each state has specific procedures. Always know current status before any action.
-
-### 4.2 Guiding Principles
-
-1. **Light Never Sleeps**: A lighthouse must show the correct light, always. If main fails, backup must activate. If backup fails, emergency protocols activate.
-2. **Documentation is Legal Protection**: Logs are legal records. Record everything, accurately, with timestamps.
-3. **Weather is Always a Factor**: Every decision considers current and forecast conditions. Visibility, wind, sea state all affect operations.
-4. **Communication is Lifeline**: Maintain contact with coast guard, neighboring stations, and supervisor. Isolation is dangerous.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Light Source Equipment** | Spare bulbs, LED modules, backup lamps for various systems |
-| **Optical Maintenance Kit** | Lens cleaning supplies, alignment tools, Fresnel lens care |
-| **Weather Monitoring** | Anemometer, visibility meter, fog detector, barometer |
-| **Communication Equipment** | VHF radio, satellite phone, emergency beacon |
-| **Logbook & Documentation** | Standardized logs, report forms, maintenance checklists |
-| **Safety Equipment** | Hard hats, safety harnesses, flashlights, first aid kit |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Operational Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Daily Opening Procedure** | Beginning of each shift | 1. Check weather → 2. Verify light status → 3. Test backup system → 4. Log observations → 5. Report to supervisor |
-| **Equipment Failure Response** | Light fails to operate | 1. Confirm failure → 2. Activate backup → 3. Notify coast guard → 4. Document timeline → 5. Request repair |
-| **Storm Protocol** | Severe weather approaching | 1. Secure loose equipment → 2. Check backup power → 3. Monitor for structural issues → 4. Log conditions hourly → 5. Report status |
-| **Fog Operation** | Visibility < 1 nautical mile | 1. Activate fog signal → 2. Increase patrol frequency → 3. Verify sound signals working → 4. Log visibility readings |
-
-### 7.2 Navigation Light Standards
-
-| Light Type| Color| Pattern| Range| Meaning|
-|-----------|------|--------|------|--------|
-| **Fixed White** | White | Continuous | 15-25nm | Landfall light |
-| **Flashing** | White/Red/Green | Flash 0.3s
-| **Occulting** | White/Red/Green | Light > dark | 15-25nm | Sector boundary |
-| **Isophase** | White/Red/Green | Equal light/dark | 15-25nm | Specific channel |
-| **Group Flashing** | White/Red/Green | Groups of 2-3 | 15-25nm | Distinctive mark |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Shift Opening Procedure
-
-```
-Phase 1: Pre-Shift Preparation (15 min)
-├── Review previous shift logs
-├── Check weather forecast
-├── Verify inventory of supplies
-└── Confirm communication equipment charged
-
-Phase 2: Equipment Verification (30 min)
-├── Test main light system
-├── Test backup system
-├── Check fog signal
-├── Verify radio communication
-└── Inspect physical condition of tower
-
-Phase 3: Documentation (15 min)
-├── Log all observations
-├── Record equipment status
-├── Report to supervisor
-└── Sign logbook
-```
-
-### 8.2 Emergency Response Procedure
-
-```
-Step 1: ASSESS - Determine nature and severity of emergency
-Step 2: ACTIVATE - Initiate emergency protocols (backup light, fog signal, etc.)
-Step 3: NOTIFY - Contact coast guard, supervisor, neighboring stations
-Step 4: DOCUMENT - Record timeline, actions taken, conditions
-Step 5: MITIGATE - Take all reasonable steps to maintain safety
-Step 6: PRESERVE - Protect equipment and evidence for investigation
-```
-
----
 
 ## 9.1 Equipment Failure Response
 
@@ -337,105 +208,6 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on lighthouse keeper.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent lighthouse keeper issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term lighthouse keeper capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -446,6 +218,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 | [lighthouse-keeper] + **[facility-maintenance]** | This skill covers navigation systems → Facility skill addresses building/grounds maintenance | Complete light station management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -474,6 +247,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -495,6 +269,7 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive maritime navigation focus, safety-first protocols, IALA standards, detailed emergency procedures
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -515,6 +290,7 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -543,6 +319,7 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -563,6 +340,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -575,15 +353,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -611,3 +380,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

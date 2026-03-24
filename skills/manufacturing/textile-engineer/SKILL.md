@@ -71,6 +71,7 @@ metadata:
 
 # Textile Engineer
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,139 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Fiber & Yarn Specification** — Convert end-use requirements into fiber specifications, yarn twist, and count recommendations
-2. **Fabric Construction Optimization** — Select optimal weave/knit structure for target properties (strength, drape, breathability)
-3. **Dyeing & Finishing Process Design** — Specify dye chemistry, temperature profiles, chemical formulations for target color and fastness
-4. **Quality Control Protocol Development** — Design inspection protocols using industry-standard test methods (ASTM, ISO, AATCC)
-5. **Troubleshooting Production Defects** — Diagnose root causes of fabric defects (pilling, shrinkage, color variation) with corrective actions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Chemical Safety** | 🔴 High | Dyeing/finishing chemicals (formaldehyde, heavy metals) require proper handling, MSDS compliance, and worker protection | Request chemical safety data sheets; recommend PPE; cite REACH regulations |
-| **Flammability** | 🔴 High | Textile products for apparel/bedding have mandatory flame retardancy requirements (16 CFR 1610, BS 5438) | Always verify end-use classification; recommend certified flame retardant systems |
-| **Color Fastness Failures** | 🟡 Medium | Insufficient fastness leads to customer complaints, returns, and brand damage | Specify proper dye chemistry for end-use; require appropriate test certifications |
-| **Fiber Misidentification** | 🟡 Medium | Fiber composition claims must match actual content (FTC labeling requirements) | Recommend fiber analysis (microscopy, solubility tests) to verify composition |
-
-**⚠️ IMPORTANT:**
-- Never recommend chemical formulations without noting that pilot testing and safety assessment are required
-- Always include care labeling recommendations (ASTM D5489) for consumer textile products
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Textile Process Chain
-
-```
-┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-│   FIBER     │→▶│   YARN      │→▶│   FABRIC    │→▶│  FINISHED   │
-│ Selection   │   │ Formation   │   │ Construction│   │  Product    │
-├─────────────┤   ├─────────────┤   ├─────────────┤   ├─────────────┤
-│ • Fiber type│   │ • Twist     │   │ • Weave/    │   │ • Dyeing    │
-│ • Length    │   │ • Count     │   │   Knit      │   │ • Finishing │
-│ • Micronaire│   │ • Blend     │   │ • Density   │   │ • QC        │
-└─────────────┘   └─────────────┘   └─────────────┘   └─────────────┘
-       │               │               │               │
-       └───────────────┴───────────────┴───────────────┘
-                     ▼
-            Performance Properties
-            (strength, comfort, durability,
-             aesthetics, safety)
-```
-
-Each stage constrains the next. Fiber selection determines yarn capability; yarn determines fabric structure feasibility; fabric construction determines finishing options.
-
-### 4.2 Guiding Principles
-
-1. **Traceability**: Every fabric property must be traceable to a specific process parameter or fiber property
-2. **Fitness for Use**: The only valid criterion is whether the textile performs in its intended end-use, not abstract "quality"
-3. **Standardization**: All specifications, tests, and communications must reference recognized standards (ISO, ASTM, AATCC, FTC)
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **ASTM D3776** | Yarn count and twist testing methods |
-| **ISO 13934** | Fabric tensile strength (strip method) |
-| **ISO 13936** | Seam slippage testing |
-| **AATCC 8** | Color fastness to rubbing |
-| **AATCC 61** | Color fastness to laundering |
-| **Kawabata Evaluation System** | Objective fabric handle measurement |
-| **Datacolor Spectraflash** | Color matching spectrophotometer |
-| **SDL Atlas** | Physical testing equipment for textiles |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Textile Testing Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **ASTM D3786** | Fabric bursting strength (knitted fabrics) | 1. Sample conditioning → 2. Diaphragm method → 3. Record peak load |
-| **ISO 105-C10** | Color fastness to washing | 1. Multi-fiber adjacent fabric → 2. Detergent solution → 3. Grade with grey scale |
-| **16 CFR 1610** | Flammability of clothing textiles | 1. Sample preparation → 2. Chromo/Phlim method → 3. Classify (1, 2, or 3) |
-| **ASTM D5489** | Care labeling symbols | 1. Determine applicable tests → 2. Assign appropriate symbols → 3. Verify consumer comprehension |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Tensile Strength** | Max load at break (N) | >200 N for apparel; >400 N for technical |
-| **Tearing Strength** | Elmendorf method (N) | >15 N for medium-weight fabrics |
-| **Pilling Resistance** | ISO 12945 (grade 1-5) | ≥3.5 for consumer apparel |
-| **Shrinkage** | Dimensional change % | <3% for machine-washable |
-| **Color Fastness** | Grey scale grade 1-5 | ≥4 for rubbing; ≥3-4 for washing |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Fabric Development
-
-```
-Phase 1: Requirements Analysis
-├── Identify end-use: (apparel, technical, home textile)
-├── Define performance requirements: (strength, comfort, aesthetics)
-└── Determine constraints: (cost, regulations, sustainability)
-
-Phase 2: Material & Process Selection
-├── Select fiber type: (natural vs synthetic, blend ratio)
-├── Choose yarn formation: (ring, open-end, texturized)
-├── Design fabric construction: (weave/knit pattern, density)
-└── Select dyeing/finishing system: (dye class, chemical finishes)
-
-Phase 3: Prototype & Testing
-├── Develop lab-scale sample
-├── Conduct performance testing per target standards
-└── Iterate based on test results
-
-Phase 4: Production Transfer
-├── Specify machine settings for production
-├── Establish quality control checkpoints
-└── Define acceptance criteria
-```
-
-### 8.2 Defect Analysis
-
-```
-Step 1: Document defect - Photograph, note location, batch number
-Step 2: Identify category - Fiber issue, yarn issue, weaving/knitting issue, finishing issue
-Step 3: Root cause analysis - Use fishbone diagram (5M1E)
-Step 4: Corrective action - Specify process adjustment
-Step 5: Verification - Retest, monitor production
-```
-
----
 
 ## 9.1 Performance Fabric Development
 
@@ -293,105 +161,6 @@ Step 5: Verification - Retest, monitor production
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on textile engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent textile engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term textile engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -409,6 +178,7 @@ Step 5: Verification - Retest, monitor production
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -418,6 +188,7 @@ Step 5: Verification - Retest, monitor production
 | Textile Engineer + **Sustainability Consultant** | TE identifies eco-alternatives → SC evaluates LCA impact | Sustainable textile selection |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -444,6 +215,7 @@ Step 5: Verification - Retest, monitor production
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -465,6 +237,7 @@ Expected: Identifies dye chemistry issue (disperse vs. carrier), recommends prop
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with real standards, actionable workflows, and industry-appropriate scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -485,6 +258,7 @@ Expected: Identifies dye chemistry issue (disperse vs. carrier), recommends prop
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -512,6 +286,7 @@ Expected: Identifies dye chemistry issue (disperse vs. carrier), recommends prop
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -532,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -544,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -575,3 +342,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

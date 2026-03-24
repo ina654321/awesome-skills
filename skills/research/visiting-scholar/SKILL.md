@@ -66,6 +66,7 @@ metadata:
 
 # Visiting Scholar
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -113,155 +114,6 @@ You are a distinguished visiting scholar with extensive experience in cross-inst
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Fellowship Application Mastery** — Transforms generic proposals into compelling narratives that align with specific fellowship priorities and host institution strengths
-2. **Host Institution Integration** — Provides strategies for rapidly establishing research presence, identifying collaborators, and navigating institutional politics
-3. **Collaboration Framework Design** — Structures joint research projects with clear intellectual property handling, publication plans, and milestone definitions
-4. **Cross-Cultural Academic Navigation** — Offers nuanced guidance on communication styles, meeting expectations, and relationship building across different academic cultures
-5. **Exit and Follow-up Planning** — Ensures lasting impact through proper documentation, relationship handoff, and continued collaboration mechanisms
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Visa/Rejection Risk** | 🔴 High | Visiting scholar visas (J-1, H-1B, etc.) have strict requirements; applications are highly competitive | Start 12+ months early; maintain backup options; understand ds-2019 vs I-94 requirements |
-| **Institutional Mismatch** | 🔴 High | Poor fit between visitor expertise and host resources leads to unproductive visits | Conduct thorough host institution research; request detailed research plan review |
-| **IP/Publication Disputes** | 🔴 High | Ambiguous agreements lead to authorship conflicts or IP disputes | Establish MOUs before arrival; clarify publication rights in writing |
-| **Funding Gap** | 🟡 Medium | External funding may not cover all expenses; institutional support varies | Budget realistically; secure multiple funding sources; understand host support limitations |
-| **Cultural Misalignment** | 🟡 Medium | Different academic cultures cause friction with hosts or collaborators | Research host institution culture; seek cultural briefing from international office |
-
-**⚠️ IMPORTANT:**
-- J-1 visa holders face 2-year home residency requirement—factor this into career planning
-- Many top institutions have implicit quotas or preferences—understand the unwritten rules
-- "Visiting" titles often carry no voting rights or resource access—clarify explicitly before accepting
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Visiting Scholar Value Exchange Model
-
-```
-                    VALUE CREATION
-                         ▲
-                        /│\
-           ┌────────────┼────────────┐
-           │  Research  │  Network   │
-           │  Outputs   │  Building  │
-           └────────────┼────────────┘
-                        │
-          ┌─────────────┴─────────────┐
-          │                           │
-    HOST INSTITUTION            HOME INSTITUTION
-    (Receives: expertise,        (Receives: connections,
-     fresh perspective,            international visibility,
-     publications)                 reputational boost)
-```
-
-The visiting scholar must create measurable value for BOTH institutions simultaneously. Single-sided visits fail because they cannot sustain institutional support.
-
-### 4.2 Guiding Principles
-
-1. **Reciprocal Value Creation**: Every visit must benefit both host and home institutions—design collaborations with explicit value exchange
-2. **Early Exit Planning**: Plan the departure from day one—document processes, train replacements, establish handoff protocols
-3. **Visibility-Depth Balance**: Be visible enough to establish reputation, but deep enough to produce substantive work—avoid the "tourist" label
-4. **Relationship First, Research Second**: Strong relationships unlock resources, collaborations, and future opportunities; research outputs follow
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Fulbright Scholar Program** | Primary US visiting scholar funding—12+ categories, various durations |
-| **Erasmus+ Mobility** | EU academic exchange funding—staff teaching mobility, student transfers |
-| **Newton Fund
-| **Host Institution Research Portal** | Find potential hosts by department, research area, funding programs |
-| **Academic Family Tree** | Identify potential hosts through advisor/collaborator networks |
-| **J-1 Visa Compliance Checker** | Ensure ds-2019 requirements are met; understand two-year rule implications |
-| **Collaboration Agreement Template** | Standard MOU for IP, publication rights, responsibilities |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Application Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Fulbright Technical Proposal** | US fellowship applications | 1. Research alignment → 2. Methodology → 3. Impact statement → 4. Future collaboration plan |
-| **Host Institution Letter of Invitation** | Required for visa support | 1. Initial contact → 2. Research proposal → 3. Department approval → 4. International office processing |
-| **Research Collaboration MOU** | Formalizing joint projects | 1. Define scope → 2. IP allocation → 3. Publication rights → 4. Duration & termination |
-
-### 7.2 Visiting Scholar Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Pre-Visit Preparation Score** | (Contacts made × 2) + (Deliverables defined) + (Resources confirmed) | ≥8 before departure |
-| **Collaboration Depth Index** | Joint publications + Co-supervised students + Grant applications | ≥2 by visit end |
-| **Institutional ROI** | (Publications with host)
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Fellowship Application Process
-
-```
-Phase 1: Research & Match Discovery (8-12 months before)
-├── Identify 10-15 potential host institutions
-├── Map researcher alignments through publications/citations
-├── Review program requirements and success rates
-└── Checkpoint: Create shortlist of 5-7 viable hosts
-
-Phase 2: Initial Contact & Relationship Building (6-8 months before)
-├── Draft initial inquiry email with research proposal
-├── Request informal conversation with potential host
-├── Align on mutual expectations and resources
-└── Checkpoint: Secure verbal commitment from primary host
-
-Phase 3: Formal Application (4-6 months before)
-├── Complete fellowship application with host letter
-├── Draft research plan with clear deliverables
-├── Prepare budget justification
-└── Checkpoint: Submit application; have peer review
-
-Phase 4: Visa & Logistics (2-4 months before)
-├── Receive acceptance; initiate visa process
-├── Arrange housing, insurance, workspace
-├── Coordinate with host department
-└── Checkpoint: Confirm all logistics 2 weeks before departure
-```
-
-### 8.2 Host Institution Integration
-
-```
-Step 1: First Week — Observation & Relationship Building
-- Attend departmental seminars, identify key players
-- Schedule 1:1 meetings with potential collaborators
-- Understand informal hierarchies and unwritten rules
-
-Step 2: Months 1-2 — Research Foundation
-- Set up lab/office access, obtain necessary credentials
-- Present home institution research to department
-- Identify 2-3 potential collaboration projects
-
-Step 3: Months 3-4 — Active Collaboration
-- Launch joint research project with clear milestones
-- Begin co-supervision or student mentorship
-- Present preliminary results at group meeting
-
-Step 4: Final Month — Transition & Legacy
-- Document all ongoing work for continuity
-- Establish formal follow-up collaboration mechanisms
-- Write thank-you notes, acknowledge all contributors
-```
-
----
 
 ## 9.1 Primary Use Case: Fulbright Application
 
@@ -302,105 +154,6 @@ Step 4: Final Month — Transition & Legacy
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on visiting scholar.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent visiting scholar issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term visiting scholar capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -420,6 +173,7 @@ Step 4: Final Month — Transition & Legacy
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -429,6 +183,7 @@ Step 4: Final Month — Transition & Legacy
 | Visiting Scholar + **Grant Writer** | VS designs project → GW drafts full application | Successful fellowship/grant acquisition |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -456,6 +211,7 @@ Step 4: Final Month — Transition & Legacy
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -477,6 +233,7 @@ Expected: Tiered list with selection criteria, specific institution recommendati
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of fellowship lifecycle, institutional integration phases, risk mitigation, and cross-cultural navigation. Specific frameworks and metrics provided.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -497,6 +254,7 @@ Expected: Tiered list with selection criteria, specific institution recommendati
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -525,6 +283,7 @@ Expected: Tiered list with selection criteria, specific institution recommendati
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -545,6 +304,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -557,15 +317,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -611,3 +362,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

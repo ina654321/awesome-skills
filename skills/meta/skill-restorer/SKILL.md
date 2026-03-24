@@ -32,6 +32,7 @@ Transform low-quality skills (5-7/10) into EXEMPLARY assets (9.5/10) using a pro
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -172,311 +173,6 @@ Approach:
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Skill Quality Crisis**:
-- Skill scores 5.0-7.5/10 (needs rescue)
-- Missing System Prompt sections
-- Generic, template-driven content
-- No domain-specific data
-- Hollow examples
-
-**Pre-Certification Preparation**:
-- Score 7.5-8.5/10 (needs polish for EXEMPLARY)
-- Good structure but lacks depth
-- Has data but not specific enough
-- Examples exist but not detailed enough
-
-**New Skill Development**:
-- Starting from scratch
-- Want to ensure EXEMPLARY quality from day one
-- Building enterprise-grade skill
-
-### User Signals
-
-Invoke this skill when:
-- "This skill feels generic"
-- "Need to add real data to this skill"
-- "How do I structure a skill properly?"
-- "This skill failed evaluation"
-- "How to apply progressive disclosure?"
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Diagnostic Engine
-
-**Purpose**: Accurately identify skill deficiencies and restoration requirements.
-
-**Components**:
-- **Structure Scanner**: Check for §1.1/§1.2/§1.3
-- **Content Analyzer**: Detect generic vs. specific content
-- **Score Predictor**: Estimate current and potential quality
-- **Scope Definer**: Determine fix boundaries
-
-📄 **Details**: [references/05-layer1-diagnostic.md](references/05-layer1-diagnostic.md)
-
-### Layer 2: Research & Architecture
-
-**Purpose**: Gather domain knowledge and design optimal skill structure.
-
-**Components**:
-- **Data Miner**: Collect company/methodology data
-- **Framework Designer**: Create System Prompt architecture
-- **Content Planner**: Map domain knowledge sections
-- **Example Designer**: Craft realistic scenarios
-
-📄 **Details**: [references/06-layer2-research.md](references/06-layer2-research.md)
-
-### Layer 3: Implementation & Validation
-
-**Purpose**: Execute restoration and verify quality.
-
-**Components**:
-- **Progressive Disclosure Engine**: Split content optimally
-- **Content Generator**: Produce professional prose
-- **Quality Validator**: Run skill-evaluator checks
-- **Delivery Packager**: Prepare final outputs
-
-📄 **Details**: [references/07-layer3-implementation.md](references/07-layer3-implementation.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### skill-writer v5 Specification
-
-**6-Dimension Quality Rubric**:
-
-| Dimension | Weight | Key Requirements |
-|-----------|--------|------------------|
-| System Prompt | 20% | §1.1 Identity, §1.2 Framework, §1.3 Thinking |
-| Domain Knowledge | 20% | Specific data, methodologies, benchmarks |
-| Workflow | 20% | 4-5 phases, Done/Fail criteria |
-| Error Handling | 15% | Anti-patterns, risk matrix, crisis playbooks |
-| Examples | 15% | 5+ detailed scenarios |
-| Metadata | 10% | Complete YAML frontmatter |
-
-### skill-evaluator v2.1 Validation
-
-**Dual-Track Assessment**:
-
-```
-Text Quality (50%):
-├── System Prompt
-├── Domain Knowledge
-├── Workflow
-├── Error Handling
-├── Examples
-└── Metadata
-
-Runtime Quality (50%):
-├── Role Immersion
-├── Framework Execution
-├── Output Actionability
-├── Knowledge Accuracy
-├── Long-Conversation Stability
-└── Resilience
-
-Certification Thresholds:
-├── Text Score ≥ 8.0
-├── Runtime Score ≥ 8.0
-├── Variance < 1.0
-└── All dimensions ≥ 6.0
-```
-
-### Progressive Disclosure Standard
-
-**Token Efficiency Target**:
-
-```
-SKILL.md: < 350 lines (navigation)
-references/: 3000+ lines (details)
-Total: 3500+ lines professional content
-
-Navigation Ratio: 1:10 (overview:detail)
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · The 7-Step Restoration Methodology
-
-### Step 1: Problem Diagnosis (15 min)
-
-**Objective**: Accurately identify all deficiencies.
-
-**Activities**:
-1. Read SKILL.md completely
-2. Check for §1.1/§1.2/§1.3
-3. Identify generic content
-4. Assess current score
-5. Define fix targets
-
-**Deliverable**: Diagnosis Report
-
-📄 **SOP**: [references/10-sop-diagnosis.md](references/10-sop-diagnosis.md)
-
-### Step 2: Professional Research (30-60 min)
-
-**Objective**: Gather domain-specific data and knowledge.
-
-**Activities**:
-1. Research company/methodology
-2. Collect specific data (financials, users, benchmarks)
-3. Identify unique frameworks
-4. Document key terminology
-
-**Deliverable**: Research Notes
-
-📄 **SOP**: [references/11-sop-research.md](references/11-sop-research.md)
-
-### Step 3: Architecture Design (20 min)
-
-**Objective**: Plan optimal skill structure.
-
-**Activities**:
-1. Design System Prompt (§1.1/1.2/1.3)
-2. Map Domain Knowledge sections
-3. Design Workflow (4-5 phases)
-4. Plan 5 Examples
-
-**Deliverable**: Architecture Blueprint
-
-📄 **SOP**: [references/12-sop-architecture.md](references/12-sop-architecture.md)
-
-### Step 4: Progressive Disclosure Setup (15 min)
-
-**Objective**: Create navigation-first structure.
-
-**Activities**:
-1. Create SKILL.md skeleton
-2. Create references/ directory
-3. Plan 21 reference files
-4. Add navigation links
-
-**Deliverable**: Structural Framework
-
-📄 **SOP**: [references/13-sop-progressive-disclosure.md](references/13-sop-progressive-disclosure.md)
-
-### Step 5: Content Production (60-90 min)
-
-**Objective**: Fill all sections with professional content.
-
-**Activities**:
-1. Write System Prompt
-2. Fill Domain Knowledge
-3. Create Workflow
-4. Write Examples
-5. Add SOPs and Anti-patterns
-
-**Deliverable**: Complete Skill Content
-
-📄 **Workflow**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
-### Step 6: Quality Validation (15-30 min)
-
-**Objective**: Verify EXEMPLARY quality.
-
-**Activities**:
-1. Run skill-evaluator assessment
-2. Check 6 dimensions
-3. Verify certification thresholds
-4. Iterate if needed
-
-**Deliverable**: Evaluation Report
-
-📄 **Framework**: [references/09-validation-framework.md](references/09-validation-framework.md)
-
-### Step 7: Delivery (10 min)
-
-**Objective**: Package and deliver restored skill.
-
-**Activities**:
-1. Save EVALUATION_REPORT.md
-2. Verify file structure
-3. Document improvements
-4. Final handoff
-
-**Deliverable**: Restored Skill Package
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Problem Diagnosis | [references/10-sop-diagnosis.md](references/10-sop-diagnosis.md) |
-| SOP 2 | Professional Research | [references/11-sop-research.md](references/11-sop-research.md) |
-| SOP 3 | Architecture Design | [references/12-sop-architecture.md](references/12-sop-architecture.md) |
-| SOP 4 | Progressive Disclosure | [references/13-sop-progressive-disclosure.md](references/13-sop-progressive-disclosure.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Common Restoration Pitfalls
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| Insufficient Research | High | High | Minimum 30 min research phase |
-| Generic Content Persists | Medium | High | Data validation checklist |
-| Scope Creep | Medium | Medium | Strict phase gates |
-| Token Budget Overflow | Low | Medium | Monitor line counts |
-| Quality Validation Failure | Low | High | Iterate before delivery |
-
-### Quality Checkpoints
-
-**Checkpoint 1 (After Step 3)**:
-- [ ] System Prompt architecture complete
-- [ ] All 6 dimensions planned
-- [ ] Research data sufficient
-
-**Checkpoint 2 (After Step 5)**:
-- [ ] All content filled
-- [ ] Progressive disclosure correct
-- [ ] No generic placeholders
-
-**Checkpoint 3 (After Step 6)**:
-- [ ] Evaluator score ≥ 9.0
-- [ ] All thresholds met
-- [ ] Variance < 1.0
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Diagnosis | Identify deficiencies | Problem scope defined | Cannot identify issues |
-| Research | Gather domain data | Specific data collected | Generic sources only |
-| Architecture | Design structure | Blueprint complete | Missing key sections |
-| Structure | Setup progressive disclosure | Skeleton ready | Navigation unclear |
-| Production | Write all content | All sections filled | Generic content remains |
-| Validation | Verify quality | Score ≥ 9.0 | Score < 8.5 |
-| Delivery | Package skill | All files ready | Missing deliverables |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Enterprise Skill Repair | supercell-cell-producer 5.7→9.5 | [references/16-example-enterprise-repair.md](references/16-example-enterprise-repair.md) |
-| 2 | Creative Skill Repair | pixar-storyteller restoration | [references/17-example-creative-repair.md](references/17-example-creative-repair.md) |
-| 3 | Technical Skill Repair | algorithm-engineer fix | [references/18-example-technical-repair.md](references/18-example-technical-repair.md) |
-| 4 | New Skill Creation | Building from scratch | [references/19-example-new-skill.md](references/19-example-new-skill.md) |
-| 5 | Quality Polish | 8.0→9.5 refinement | [references/20-example-quality-polish.md](references/20-example-quality-polish.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -492,6 +188,7 @@ Navigation Ratio: 1:10 (overview:detail)
 📄 **Full Details**: [references/21-anti-patterns.md](references/21-anti-patterns.md)
 
 ---
+
 
 ## § 11 · Quality Checklist
 
@@ -559,3 +256,17 @@ grep -c "references/" skill-name/SKILL.md  # Should have 15+ links
 2. Find specific data points
 3. Replace all generic terms
 4. Re-validate
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · The 7-Step Restoration Methodology](./references/5-the-7-step-restoration-methodology.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

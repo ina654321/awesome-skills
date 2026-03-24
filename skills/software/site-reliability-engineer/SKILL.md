@@ -35,6 +35,7 @@ Build and operate systems that never sleep. Define SLOs, eliminate toil through 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -190,306 +191,6 @@ Chaos Engineering:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Site Reliability Engineer** capable of:
-
-1. **SLO/SLI Definition** — Define meaningful service level objectives based on user experience, calculate error budgets, and govern reliability vs. velocity trade-offs.
-
-2. **Observability Architecture** — Build comprehensive monitoring with Prometheus, Grafana, and distributed tracing. Implement RED/USE metrics and symptom-based alerting.
-
-3. **Incident Management** — Lead structured incident response with clear roles, communication protocols, and blameless postmortems that drive real improvements.
-
-4. **Chaos Engineering** — Design and execute failure injection tests to validate system resilience and build confidence in recovery mechanisms.
-
-5. **Toil Elimination** — Identify repetitive operational work and eliminate it through automation, self-service, or process improvement.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Alert Fatigue** | 🔴 Critical | Too many alerts → real issues ignored | Alert on symptoms, page sparingly |
-| **Missing Observability** | 🔴 Critical | Can't debug without logs/traces | OpenTelemetry, structured logging |
-| **Automation Failure** | 🟠 High | Self-healing makes things worse | Circuit breakers on automation |
-| **Chaos in Production** | 🟠 High | Uncontrolled failure injection | Safety checks, blast radius limits |
-| **Toil Overload** | 🟠 High | Team drowning in manual work | Toil budget, automation investment |
-| **SLO Misalignment** | 🟡 Medium | Wrong metrics drive wrong behavior | User-centric SLIs, regular review |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 SRE Mental Model
-
-```
-┌─────────────────────────────────────────┐
-│         User Experience                 │  ← SLOs measure user pain
-├─────────────────────────────────────────┤
-│         Error Budget Policy             │  ← Reliability vs velocity trade-off
-├─────────────────────────────────────────┤
-│         Observability Stack             │  ← Metrics, logs, traces
-├─────────────────────────────────────────┤
-│         Automation & Self-Healing       │  ← Reduce toil, improve MTTR
-├─────────────────────────────────────────┤
-│         Incident Management             │  ← Structured response, learning
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Reliability is a Feature** — Users notice downtime; it has business cost
-2. **Error Budgets Enable Velocity** — When budget available, ship fast; when exhausted, freeze
-3. **Toil is Technical Debt** — Manual, repetitive work should be automated or eliminated
-4. **Observability Enables Understanding** — Debug production without adding new instrumentation
-5. **Incidents are Learning Opportunities** — Blameless postmortems drive systemic improvement
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Metrics** | Prometheus, Datadog, New Relic | Time-series monitoring |
-| **Logging** | ELK, Loki, Splunk | Log aggregation and search |
-| **Tracing** | Jaeger, Zipkin, Tempo | Distributed request tracing |
-| **Visualization** | Grafana, Datadog | Dashboards and alerting |
-| **Incident** | PagerDuty, Opsgenie | Alert routing and management |
-| **Runbooks** | Notion, Confluence, Git | Operational documentation |
-| **Chaos** | Chaos Monkey, Gremlin | Failure injection |
-| **SLO** | Nobl9, Datadog SLO | SLO tracking and error budgets |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 SLI/SLO/SLA Definitions
-
-| Term | Definition | Example |
-|------|------------|---------|
-| **SLI** | Service Level Indicator | Request latency, error rate |
-| **SLO** | Service Level Objective | 99.9% availability |
-| **SLA** | Service Level Agreement | Contractual obligation |
-| **Error Budget** | 100% - SLO | 0.1% = 43min/month downtime |
-
-### 6.2 RED Method (Services)
-
-| Metric | Description | Example |
-|--------|-------------|---------|
-| **Rate** | Requests per second | 1000 req/s |
-| **Errors** | Error rate | 0.1% 5xx errors |
-| **Duration** | Response time | p99 < 200ms |
-
-### 6.3 USE Method (Resources)
-
-| Metric | Description | Alert Threshold |
-|--------|-------------|-----------------|
-| **Utilization** | Resource busy time | CPU > 80% |
-| **Saturation** | Queue length / backlog | Disk queue > 10 |
-| **Errors** | Error count | Disk errors > 0 |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: SLO Definition (Week 1)
-
-```
-├── Identify user journeys (login, checkout, search)
-├── Define SLIs for each journey (latency, availability)
-├── Set SLO targets (99.9%, 99.99%)
-├── Calculate error budgets
-└── [✓ Done]: SLOs defined, error budgets calculated
-    [✗ FAIL]: No user-centric metrics → redefine SLIs
-```
-
-### Phase 2: Observability Implementation (Weeks 2-4)
-
-```
-├── Instrument services with OpenTelemetry
-├── Create RED metrics dashboards
-├── Set up alerting (symptom-based)
-├── Write runbooks for every alert
-└── [✓ Done]: Services observable, alerts actionable
-    [✗ FAIL]: Alert fatigue → tune thresholds, reduce noise
-```
-
-### Phase 3: Automation & Self-Healing (Ongoing)
-
-```
-├── Identify toil (manual, repetitive tasks)
-├── Automate highest-impact toil
-├── Implement auto-remediation for known issues
-├── Measure toil percentage (target < 50%)
-└── [✓ Done]: Toil eliminated or automated
-    [✗ FAIL]: Toil increasing → prioritize automation
-```
-
-### Phase 4: Chaos Engineering (Monthly)
-
-```
-├── Design failure scenarios (hypothesis-driven)
-├── Test in staging first
-├── Execute controlled chaos in production
-├── Measure recovery time
-└── [✓ Done]: Resilience validated, improvements identified
-    [✗ FAIL]: Recovery failed → fix before next chaos test
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: SLO Definition for E-commerce
-
-**Context**: Define SLOs for checkout service.
-
-**SLO Document**:
-```
-Service: Checkout API
-
-SLIs:
-├── Availability: % of successful checkout requests
-├── Latency: Time to complete checkout
-└── Error Rate: % of requests returning 5xx
-
-SLOs:
-├── Availability: 99.95% (21min downtime/month)
-├── Latency p99: < 500ms
-└── Error Rate: < 0.1%
-
-Error Budget Policy:
-├── Budget: 0.05% errors allowed per month
-├── If budget > 50% remaining: ship features
-├── If budget < 50%: freeze launches, focus on reliability
-├── If budget exhausted: mandatory freeze
-```
-
----
-
-### Example 2: Incident Response
-
-**Context**: Production database is down, checkout failing.
-
-**Response**:
-```
-T+0: Alert fires (checkout error rate > 1%)
-├── IC paged, incident declared
-├── War room created (Slack/Zoom)
-├── Status page updated: "Investigating"
-
-T+5min: Assessment
-├── Database connection pool exhausted
-├── Root cause: Connection leak in new deployment
-├── Decision: Rollback deployment
-
-T+8min: Mitigation
-├── Rollback initiated
-├── Error rate dropping
-├── Monitoring for stabilization
-
-T+15min: Resolution
-├── Service stable, incident resolved
-├── Postmortem scheduled within 24 hours
-├── Status page: "Resolved"
-
-Postmortem:
-├── Timeline documented
-├── Action items: Connection pool monitoring, tests
-├── Shared with engineering org
-```
-
----
-
-### Example 3: Chaos Engineering GameDay
-
-**Context**: Test database failover procedure.
-
-**GameDay Plan**:
-```
-Hypothesis: If primary DB fails, failover to replica completes in < 2 minutes.
-
-Scenario:
-├── Terminate primary database instance
-├── Measure detection time
-├── Measure failover time
-├── Verify application recovery
-
-Results:
-├── Detection: 30 seconds (monitoring lag)
-├── Failover: 3 minutes (longer than expected)
-├── Recovery: Partial (some stale reads)
-
-Improvements:
-├── Reduce health check interval
-├── Optimize failover script
-├── Add read replica lag monitoring
-```
-
----
-
-### Example 4: Toil Elimination Project
-
-**Context**: Team spending 30 hours/week on manual certificate renewals.
-
-**Solution**:
-```
-Before:
-├── 50 certificates expiring monthly
-├── Manual renewal process: 30 min each
-├── 25 hours/week of toil
-
-Automation:
-├── cert-manager in Kubernetes
-├── Let's Encrypt integration
-├── Automatic renewal 30 days before expiry
-├── Alert on renewal failures only
-
-Result:
-├── Toil reduced from 25 hrs/week to 1 hr/week
-├── Zero expired certificates since implementation
-```
-
----
-
-### Example 5: Observability Implementation
-
-**Context**: Microservices with no distributed tracing.
-
-**Implementation**:
-```
-Before:
-├── 5-minute average time to identify failing service
-├── Logs in 10 different systems
-├── No correlation between requests
-
-After:
-├── OpenTelemetry instrumentation across all services
-├── Jaeger for distributed tracing
-├── Correlation IDs in all logs
-├── RED metrics dashboards
-
-Results:
-├── MTTR reduced from 30 min to 5 min
-├── Can trace request through 20 services
-├── Proactive alerts on latency spikes
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Alert Spam** | Hundreds of alerts, none actionable | Alert on symptoms, page sparingly |
-| **Monitoring vs Observability** | Predefined dashboards only | Explore unknown-unknowns with traces |
-| **Wrong SLIs** | Measuring server uptime, not user experience | User-centric SLIs (login works, checkout succeeds) |
-| **Postmortem Blame** | Finding who to punish vs. what to fix | Blameless culture, focus on systemic fixes |
-| **No Error Budget** | Always 100% reliability target | Acceptable downtime enables velocity |
-| **Chaos Without Safety** | Breaking production randomly | Hypothesis-driven, blast radius limits |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -507,6 +208,7 @@ Results:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -515,3 +217,17 @@ Results:
 | [references/observability-stack.md](references/observability-stack.md) | Prometheus, Grafana, Jaeger setup |
 | [references/incident-response.md](references/incident-response.md) | IC procedures, runbooks |
 | [references/chaos-engineering.md](references/chaos-engineering.md) | GameDays, failure injection |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

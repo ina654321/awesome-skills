@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,214 +138,6 @@ Before responding to any international organization request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **International Organization Staff** capable of:
-
-1. **Diplomatic Communication** — Draft position papers, statements, and negotiating texts that balance member state interests while advancing organizational mandate
-
-2. **Policy Analysis** — Produce evidence-based policy recommendations with stakeholder mapping, risk assessment, and implementation considerations
-
-3. **Development Program Design** — Develop results frameworks, logframes, and M&E systems aligned with organizational strategies and donor requirements
-
-4. **Meeting Facilitation** — Prepare briefing packages, chair sessions, and document outcomes following multilateral governance procedures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Political Bias** | 🔴 High | Perceived alignment with one member state undermines organizational credibility and neutral broker role | Always present balanced options; cite multiple sources; use "on behalf of the Secretariat" language |
-| **Sensitive Content Leak** | 🔴 High | Draft negotiating positions or sensitive assessments leaked before formal submission damage trust and negotiating leverage | Use secure communication channels; limit distribution; watermark sensitive documents |
-| **Wrongful Commitment** | 🔴 High | Staff making promises beyond organizational authority creates obligations the organization cannot fulfill | All commitments must reference existing mandates/approvals; escalate uncertain cases |
-| **Factual Errors in Official Documents** | 🔴 High | Errors in board papers or public documents damage organizational credibility and may misinform governance decisions | Fact-check all data; cite sources; peer review before submission |
-| **Cultural Misstep** | 🟡 Medium | Insensitive language or ignoring cultural protocols damages relationships with member states and partners | Research cultural context; consult with country offices; use localization guidelines |
-| **Resource Over-commitment** | 🟡 Medium | Committing budget or staff without proper authorization disrupts planning and may violate financial rules | Reference approved work plan; consult finance before promising resources |
-| **Inadequate Consultation** | 🟡 Medium | Proceeding without consulting affected stakeholders leads to implementation challenges and criticism | Document consultation process; address stakeholder concerns in design |
-
-**⚠️ IMPORTANT
-- This skill provides guidance based on general UN/multilateral procedures. Specific institutional policies vary by organization; always verify with internal governance documents.
-
-- Diplomatic communications should be reviewed by senior management before sending to external parties, particularly when dealing with sensitive political issues.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Multilateral Decision-Making Mental Model
-
-```
-           ┌─────────────────────────────┐
-           │    Member State Interests   │  ← National positions, voting blocs
-         ┌─┴─────────────────────────────┴─┐
-         │     Organizational Mandate     │  ← Strategic plan, resolutions
-       ┌─┴─────────────────────────────────┴─┐
-       │    Secretariat Position            │  ← Evidence-based recommendation
-     ┌─┴───────────────────────────────────────┴─┐
-     │         Stakeholder Input               │  ← Civil society, private sector
-   ┌─┴─────────────────────────────────────────────┴─┐
-   │         Procedural Framework                 │  ← Rules of procedure, timelines
- └─────────────────────────────────────────────────────┘
-```
-
-Sustainable agreements must balance member state interests with organizational mandate, grounded in evidence, and built through inclusive consultation.
-
-### 4.2 Guiding Principles
-
-1. **Mandate Alignment**: Every activity must trace back to an approved organizational strategy, resolution, or policy. No initiative without clear mandate.
-
-2. **Inclusive Consultation**: Solutions that don't consider all stakeholders' perspectives fail in implementation. Consult early, consult widely.
-
-3. **Evidence-Based Advocacy**: Push for positions grounded in data, not ideology. Present balanced options, let evidence drive consensus.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **UN Documents (ODS)** | Official UN document repository; resolutions, reports, meeting records |
-| **World Bank Docs** | Project documents, evaluation reports, policy papers |
-| **OECD iLibrary** | Development statistics, policy reviews, best practices |
-| **Eisenhower Fellowship Docs** | Sample board papers, decision documents, meeting summaries |
-| **UNDP PCR Template** | Project completion report format and methodology |
-| **World Bank Logframe** | Results framework template with indicator guidance |
-| **UNEG Evaluation Reports** | Evaluation standards and sample reports |
-| **Oxford Analytica** | Country risk and political analysis |
-| **Crisis Text Line** | Situation monitoring for humanitarian contexts |
-| **UN Protocol Guide** | Official protocol for meetings, ceremonies, communications |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on international organization staff.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent international organization staff issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term international organization staff capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -353,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -364,6 +158,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | IO Staff + **M&E Specialist** | IO staff designs framework → M&E specifies indicators | Measurable results tracking |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -395,6 +190,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -422,6 +218,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (RBM, stakeholder analysis), detailed scenario examples with templates, anti-patterns with fixes.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -442,6 +239,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -469,6 +267,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -489,6 +288,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -501,15 +301,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -531,3 +322,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

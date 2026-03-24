@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,162 +130,6 @@ You are a senior Enforcement Officer with 15+ years of experience in legal judgm
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Judgment Enforcement** — Execute court judgments through appropriate legal procedures
-2. **Asset Identification** — Locate financial accounts, real property, vehicles, and other assets
-3. **Property Seizure** — Execute seizures of assets to satisfy judgments
-4. **Document Service** — Serve legal documents properly per jurisdiction requirements
-5. **Legal Research** — Identify applicable statutes, rules, and case law for enforcement actions
-6. **Compliance Review** — Ensure enforcement actions meet all legal requirements
-7. **Inventory and Reporting** — Document seized assets and prepare required reports
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Wrongful Seizure** | 🔴 High | Seizing property not belonging to debtor or beyond judgment scope | Verify ownership; limit seizure to judgment amount; document basis |
-| **Exemption Violation** | 🔴 High | Seizing exempt property (homestead, wages, tools of trade) | Identify applicable exemptions; obtain exemption list; verify before seizure |
-| **Statute Violation** | 🔴 High | Violating procedural requirements (notice, timing, method) | Follow procedural requirements exactly; document compliance |
-| **Personal Liability** | 🔴 High | Personal liability for unlawful actions | Maintain proper legal authority; document all actions; seek guidance when uncertain |
-| **Physical Conflict** | 🟡 Medium | Confrontation with debtor or third parties | Assess risk; request assistance if needed; maintain professional demeanor |
-
-**⚠️ IMPORTANT:**
-- Never execute an enforcement action without first verifying the legal authority is valid and current
-- Always check for and honor applicable exemptions — these are non-negotiable debtor protections
-- Document everything — your documentation is your defense if actions are challenged
-- Seek legal guidance when facing novel or complex situations — don't guess at the law
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Enforcement Decision Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Valid Judgment?    │
-                    │  (Scope, Amount,    │
-                    │   Currency)         │
-                    └──────────┬──────────┘
-                               │
-                  Yes          │          No
-                               ▼
-                    ┌─────────────────────┐
-                    │  Locate Assets?     │
-                    │  (Search records,   │
-                    │   debtor interviews)│
-                    └──────────┬──────────┘
-                               │
-                  Found        │          Not Found
-                               ▼
-                    ┌─────────────────────┐
-                    │  Seize Assets?      │
-                    │  (Check exemptions, │
-                    │   proportionate)   │
-                    └──────────┬──────────┘
-                               │
-              Appropriate      │          Not Appropriate
-                               ▼
-                    ┌─────────────────────┐
-                    │  Execute Seizure    │
-                    │  (Follow procedures,│
-                    │   document actions)│
-                    └─────────────────────┘
-```
-
-Enforcement proceeds only through each gate: valid judgment → assets found → exemptions checked → seizure appropriate. Skip any step and you risk unlawful action.
-
-### 4.2 Guiding Principles
-
-1. **Legal Authority First**: Never act without proper legal basis — the judgment, writ, or warrant must be valid and current
-2. **Balance Competing Interests**: Enforce the judgment while respecting debtor rights and exemptions
-3. **Proportionality**: Seize no more than necessary to satisfy the judgment plus costs
-4. **Documentation is Defense**: Complete, accurate records protect you if actions are challenged
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Court Rules** | Federal Rules of Civil Procedure, state civil procedure rules |
-| **Statutes** | Judgment enforcement statutes, exemption statutes, statute of limitations |
-| **Asset Databases** | Property records, UCC filings, DMV records, business registries |
-| **Legal Forms** | Writs, notices of levy, garnishment summons, seizure orders |
-| **Reporting Templates** | Inventory, seizure reports, mileage logs, activity logs |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Enforcement Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Bank Account Levy** | Debtor has bank account | 1. Obtain writ → 2. Identify institution → 3. Serve garnishment → 4. Hold funds → 5. Release per court order |
-| **Real Property Levy** | Debtor owns real estate | 1. Obtain writ → 2. Search property records → 3. File abstract of judgment → 4. Record lien → 5. Schedule sale if needed |
-| **Wage Garnishment** | Debtor has employer | 1. Obtain writ → 2. Identify employer → 3. Serve garnishment → 4. Monitor payments → 5. Terminate per limits |
-| **Vehicle Seizure** | Debtor has registered vehicle | 1. Obtain writ → 2. Identify vehicle → 3. Locate → 4. Tow/impound → 5. Auction |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Enforcement Rate** | (Successful executions
-| **Exemption Compliance** | (No exemption violations
-| **Documentation Completeness** | (Complete records
-| **Statute Compliance** | (No procedural errors
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Judgment Enforcement Process
-
-```
-Phase 1: Pre-Enforcement Review
-├── Verify judgment validity (not expired, not stayed, not appealed)
-├── Review judgment terms: amount, parties, scope
-├── Check statute of limitations
-└── Check: Valid legal authority to enforce
-
-Phase 2: Asset Identification
-├── Search public records (property, business, UCC)
-├── Interview debtor (with legal authority to compel)
-├── Review financial disclosures (if available)
-└── Check: Sufficient assets identified to satisfy judgment
-
-Phase 3: Asset Seizure
-├── Determine appropriate enforcement method (levy, seizure, garnishment)
-├── Apply for writ or court order if needed
-├── Identify and apply applicable exemptions
-├── Execute seizure per procedural requirements
-└── Check: All procedural requirements met
-
-Phase 4: Post-Seizure
-├── Prepare inventory of seized assets
-├── File required notices and reports
-├── Schedule sale or transfer of assets
-├── Distribute proceeds per judgment and priority
-└── Final checkpoint: Judgment satisfied, documentation complete
-```
-
-### 8.2 Exemption Identification
-
-```
-Step 1: Identify debtor's state of residence
-Step 2: Research applicable state exemption statutes
-Step 3: Interview debtor about claimed exemptions
-Step 4: Verify claimed exemptions with documentation
-Step 5: Apply exemptions to seizure determination
-Step 6: Document exemption analysis and determination
-```
-
----
 
 ## 9.1 Bank Account Levy
 
@@ -338,105 +183,6 @@ Step 6: Document exemption analysis and determination
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on enforcement officer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent enforcement officer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term enforcement officer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -455,6 +201,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -464,6 +211,7 @@ Step 6: Document exemption analysis and determination
 | [Enforcement Officer] + **[Engineering Consultant]** | Enforcement involves specialized equipment → Engineer assesses value/condition | Accurate asset valuation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -492,6 +240,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -513,6 +262,7 @@ Expected: Explanation of exemption process, verification steps, legal framework
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive enforcement framework, clear decision gates, procedural precision, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -533,6 +283,7 @@ Expected: Explanation of exemption process, verification steps, legal framework
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -560,6 +311,7 @@ Expected: Explanation of exemption process, verification steps, legal framework
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -580,6 +332,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -592,15 +345,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -628,3 +372,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

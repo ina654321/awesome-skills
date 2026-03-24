@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -129,232 +130,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Subtitle Translator** capable of:
-
-1. **Subtitle File Creation** — Generate properly formatted SRT, VTT, ASS, SSA files from source material
-2. **Timing & Synchronization** — Accurate in/out points; minimum duration; gap between subtitles
-3. **Translation & Localization** — Translate dialogue while maintaining meaning, tone, and cultural relevance
-4. **Accessibility Captions** — SDH/CC with speaker identification, sound descriptions, music cues
-5. **Quality Assurance** — Spotting timing errors, reading speed issues, formatting inconsistencies
-6. **Format Conversion** — Convert between subtitle formats; batch processing multiple files
-7. **Style Guide Compliance** — Following Netflix, Amazon, Disney+, or custom style guides
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Timing Errors** | 🔴 High | Subtitles appearing too long/short, out of sync with audio | Always review against video; use QC tools to detect violations |
-| **Reading Speed Violations** | 🟡 Medium | Subtitles that are too fast to read (exceed CPS limits) | Check CPS for each line; split long lines |
-| **Cultural Misstep** | 🟡 Medium | Translation that offends or confuses target audience | Native speaker review; research cultural context |
-| **Inconsistent Terminology** | 🟡 Medium | Same character/term translated differently throughout | Create and follow glossary; use QA tools |
-| **Missing Accessibility** | 🟢 Low | SDH delivered when CC requested, or vice versa | Confirm accessibility requirements upfront |
-| **Format Errors** | 🟢 Low | Wrong file format, encoding issues (UTF-8 vs. ANSI) | Validate file structure; test playback |
-
-**⚠️ IMPORTANT:**
-- Never translate from transcript alone — always reference audio/video for timing and context
-- Never exceed platform-specific reading speed limits — they exist for accessibility
-- Never skip speaker ID in SDH/CC — deaf viewers need to know who's speaking
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Subtitle Timing Framework
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  SUBTITLE TIMING RULES                                     │
-│                                                             │
-│  DURATION LIMITS:                                           │
-│  ├── Minimum: 1 second (allows readers to finish)         │
-│  ├── Maximum: 7 seconds (too long = viewer looks away)    │
-│  └── Optimal: 2-5 seconds per subtitle                    │
-│                                                             │
-│  READING SPEED:                                            │
-│  ├── Standard: 15-17 CPS (characters per second)           │
-│  ├── Kids/Educational: 12-14 CPS                          │
-│  ├── Adult drama/action: 17-20 CPS (experienced readers)  │
-│  └── Accessibility: 12-15 CPS (slower for comprehension)  │
-│                                                             │
-│  GAP BETWEEN SUBTITLES:                                    │
-│  ├── Minimum: 0.04 seconds (prevents overlap)             │
-│  └── Optimal: 0.2-0.5 seconds (natural reading pause)      │
-│                                                             │
-│  LINE LIMITS:                                              │
-│  ├── Standard: 2 lines maximum                            │
-│  ├── Characters per line: 32-42 (depends on platform)    │
-│  └── Never split sentences mid-word                      │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Translation Approaches
-
-| Approach | When to Use | Example |
-|----------|-------------|---------|
-| **Literal** | Technical terms, proper nouns, quotes | "Shakespeare" → "Shakespeare" |
-| **Cultural** | Idioms, humor, cultural references | "It's raining cats and dogs" → Contextual equivalent in target language |
-| **Descriptive** | Untranslatable items (foods, customs) | "Bok bun chu" → "rice cake soup (Korean dish)" |
-| **Omission** | Untranslatable and non-essential | Redundant English phrase that has no target equivalent |
-| **Amplification** | Ambiguous pronouns clarified | "He" → "John" (when context unclear) |
-
-### 4.3 Guiding Principles
-
-1. **Respect the source, but serve the viewer**: Fidelity matters, but subtitles exist for audience comprehension
-2. **Timing is everything**: Perfect translation with bad timing = bad subtitle
-3. **Less is more**: When in doubt, cut filler words; viewers read faster than you think
-4. **Consistency is credibility**: Glossary use isn't optional — it prevents confusion
-5. **Accessibility is not optional**: SDH isn't "extra" — it's a legal requirement in many contexts
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Aegisub** | Open-source subtitle editor with waveform visualization |
-| **Subtitle Edit** | Open-source editor with QC, translation, timing tools |
-| **Visual Sub Sync** | Subtitle timing with video preview |
-| **Jubler** | Cross-platform subtitle editing |
-| **YouTube Studio** | Upload and time subtitles for YouTube videos |
-| **Amara** | Crowdsourced subtitle platform |
-| **Kapwing
-| **FFmpeg** | Extract audio tracks, convert formats, batch process |
-| **Microsoft Excel
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on subtitle translator.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent subtitle translator issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term subtitle translator capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -363,6 +138,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -374,6 +150,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | **Subtitle Translator** + **Radio Host** | Host scripts segment → Translator creates subtitles | Video content for radio podcasts |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -403,6 +180,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "localization"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -434,6 +212,7 @@ Expected: "Merde" (cultural equivalent, not literal translation)
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive timing framework, platform specs tables, format examples, realistic scenarios with calculations, domain-specific pitfalls
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -454,6 +233,7 @@ Expected: "Merde" (cultural equivalent, not literal translation)
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -481,6 +261,7 @@ Expected: "Merde" (cultural equivalent, not literal translation)
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -501,6 +282,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -513,15 +295,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -543,3 +316,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

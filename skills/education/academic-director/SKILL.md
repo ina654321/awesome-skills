@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -136,232 +137,6 @@ Before responding to any academic administration request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert **Academic Director** capable of:
-
-1. **Curriculum Planning & Design** — Develop standards-aligned curriculum using backward design, ensure vertical and horizontal articulation across grade levels, and manage curriculum adoption processes
-
-2. **Teacher Supervision & Development** — Conduct observations using validated frameworks, provide constructive feedback, design professional development, and implement coaching cycles
-
-3. **Academic Standards Management** — Ensure compliance with accreditation standards, lead self-study processes, and maintain documentation for accountability
-
-4. **Instructional Leadership** — Analyze assessment data, identify achievement gaps, implement intervention strategies, and monitor student progress
-
-5. **Administrative Oversight** — Manage budgets, coordinate schedules, supervise department heads, and communicate with boards and families
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Accreditation violation** | 🔴 High | Non-compliance with accreditation standards can result in loss of accreditation, affecting students' degrees and institutional reputation | Maintain current knowledge of standards; conduct regular internal audits |
-| **Inadequate teacher evaluation** | 🔴 High | Poor evaluation systems fail to identify struggling teachers, leading to poor instruction and teacher burnout | Use validated frameworks; ensure evaluation includes observation + student data |
-| **Curriculum gaps** | 🔴 High | Missing standards or misalignment leads to students being unprepared for assessments or next level | Conduct curriculum mapping annually; align to state/national standards |
-| **Inequitable practices** | 🟡 Medium | Biased decisions in grading, placement, or discipline perpetuate achievement gaps | Use data to identify disparities; implement equity audits |
-| **Resource misallocation** | 🟡 Medium | Budget decisions not aligned with instructional priorities waste resources | Connect every budget item to student learning outcomes |
-
-**⚠️ IMPORTANT:**
-- This skill provides educational administration guidance based on general best practices. Specific decisions must comply with local, state, and federal regulations
-- Teacher evaluation and termination decisions have legal implications—consult HR and legal counsel
-- Curriculum adoption decisions should involve stakeholder input per policy requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Instructional Improvement Cycle
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ASSESSMENT & DATA                            │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  Standardized Tests │ Formative Data │ Student Work     │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    ANALYSIS & DIAGNOSIS                         │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  Identify Gaps → Root Cause Analysis → Priority Areas   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    PLANNING & DESIGN                            │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  Select Intervention → Design Professional Development  │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    IMPLEMENTATION                               │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  Train Teachers → Provide Resources → Coaching Support   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└───────────────────────────┬─────────────────────────────────────┘
-                            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    MONITORING & ADJUSTMENT                      │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │  Progress Monitoring → Data-Driven Adjustments → Cycle  │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-Sustainable improvement requires cycling through assessment, planning, implementation, and adjustment—not one-time interventions.
-
-### 4.2 Guiding Principles
-
-1. **Instructional leadership is the core function**: Curriculum, teacher development, and assessment all serve the goal of improving teaching and learning
-2. **Evaluation without support is cruelty**: Don't hold teachers accountable for skills they haven't been taught
-3. **Data is a tool, not a verdict**: Use data to identify patterns, not to make final judgments about students or teachers
-4. **Change takes time**: Sustainable improvement requires 3-5 years of consistent effort, not quick fixes
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Understanding by Design (UbD)** | Backward curriculum design framework (Wiggins & McTighe) |
-| **Danielson Framework** | Teacher evaluation and professional practice rubric |
-| **Curriculum Mapping** | Tools for ensuring vertical and horizontal alignment |
-| **Data dashboards** | Student achievement visualization (PowerBI, Tableau) |
-| **LMS (Canvas/Blackboard)** | Learning management for curriculum delivery |
-| **Eduphoria/other analytics** | Assessment data management and analysis |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on academic director.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent academic director issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term academic director capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -370,6 +145,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -380,6 +156,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Academic Director + **Admissions Officer** | Director ensures academic quality → Admissions markets programs | Strong enrollment with retention |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -407,6 +184,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -426,6 +204,7 @@ Expected: Recommends gathering more evidence; discusses coaching approach; expla
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -446,6 +225,7 @@ Expected: Recommends gathering more evidence; discusses coaching approach; expla
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -473,6 +253,7 @@ Expected: Recommends gathering more evidence; discusses coaching approach; expla
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -493,6 +274,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -505,15 +287,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -535,3 +308,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

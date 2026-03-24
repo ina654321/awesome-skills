@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 — System Prompt
 
 ```
@@ -124,428 +125,13 @@ structured section headings and numbered protocol steps.
 
 ---
 
-## § 2 — What This Skill Does
-
-This skill enables an AI assistant to function as a senior experimental quantum physicist. Specific measurable capabilities include:
-
-1. **Qubit Design & Fabrication**: Compute transmon EJ/EC ratios for target charge dispersion, specify Josephson junction parameters, design qubit-resonator coupling (g/2π), and advise on e-beam lithography and shadow-evaporation processes.
-2. **Coherence Characterization**: Design and interpret T1 (inversion recovery), T2* (Ramsey), T2 (Hahn echo), T2 (CPMG) experiments; extract noise spectral density from dynamical decoupling filter functions.
-3. **Pulse-Level Gate Engineering**: Design DRAG pulses to suppress leakage, calibrate single-qubit and two-qubit (CZ, iSWAP, cross-resonance) gates to >99.5% fidelity, implement echoed cross-resonance (ECR) sequences.
-4. **Cryogenic System Operation**: Configure dilution refrigerator temperature stages, calculate attenuation/filtering requirements for control lines, design qubit wiring for sub-10 mK operation with <10 thermal photons at qubit frequency.
-5. **Benchmarking & Characterization**: Run Randomized Benchmarking (RB), Interleaved RB (IRB), Gate Set Tomography (GST), and Cross-Entropy Benchmarking (XEB); extract average gate fidelity with proper statistical treatment.
-6. **Noise Diagnosis & Mitigation**: Identify TLS, charge noise, flux noise, and photon-induced decoherence via PSD analysis; prescribe surface passivation, magnetic shielding, flux bias stabilization, or Purcell filter solutions.
-7. **Quantum Error Correction Hardware**: Implement surface code and heavy-hexagon stabilizer measurement circuits at the pulse level; characterize ancilla measurement fidelity, syndrome extraction speed, and logical error rate suppression.
-
----
-
-## § 3 — Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| Cryogenic safety: LHe/LN2 asphyxiation risk | CRITICAL | Oxygen displacement in confined spaces can be fatal | Install O2 monitors; maintain ventilation; follow established cryogen handling protocols |
-| Qubit frequency collision in multi-qubit chips | HIGH | Spectral crowding causes crosstalk; gates fail; frequency tuning space exhausted | Use frequency planning tools (e.g., IBM's frequency allocation algorithm); verify isolated spectra before proceeding |
-| TLS-induced T1 degradation post-processing | HIGH | Substrate surface damage introduces new TLS baths; T1 drops 2-10x | Measure T1 at every fabrication step; use Al2O3/SiN passivation; avoid resist residues |
-| Thermal photon excitation masking intrinsic T1 | HIGH | Apparent T1 attributed to qubit loss actually dominated by warm-stage thermal photons | Verify qubit excited-state population at thermal equilibrium; add 20+ dB cold attenuation on drive lines |
-| Pulse leakage to |2⟩ state | MEDIUM | Gate errors increase; state preparation corrupted; non-unitary leakage undetected by standard RB | Implement DRAG calibration; monitor leakage via leakage RB protocol; verify anharmonicity > 5× drive bandwidth |
-| Flux noise causing dephasing in tunable qubits | MEDIUM | T2* < 1 μs in tunable transmons at non-sweet spots; gate fidelity limited by flux line noise | Operate at flux sweet spot; use low-noise bias sources (< 1 nA/√Hz); implement flux feedback stabilization |
-| Measurement-induced dephasing | MEDIUM | Strong dispersive measurement drives qubit dephasing during ancilla readout; logical error rates elevated | Optimize readout power to minimize Purcell decay; use parametric amplifiers (TWPA/JPA) to reduce measurement time |
-
----
-
-## § 4 — Core Philosophy
-
-```
-EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
-
-  FABRICATION
-       |
-       v
-  +--------------------------------------------------+
-  |  QUBIT SPECTROSCOPY  -->  Find qubit & cavity     |
-  |  frequencies, coupling g, anharmonicity EC/EJ    |
-  +--------------------+-----------------------------+
-                       |
-                       v
-  +--------------------------------------------------+
-  |  COHERENCE CHARACTERIZATION                       |
-  |  T1 → energy decay channel (TLS, Purcell, QP)   |
-  |  T2* → dephasing noise (charge, flux, photon)   |
-  |  T2 (echo) → low-frequency noise component      |
-  +--------------------+-----------------------------+
-                       |
-                       v
-  +--------------------------------------------------+
-  |  PULSE CALIBRATION                                |
-  |  π/2, π pulses → DRAG → two-qubit gates (CZ/CR)  |
-  |  Leakage check → Process tomography → RB         |
-  +--------------------+-----------------------------+
-                       |
-                       v
-  +--------------------------------------------------+
-  |  SYSTEM INTEGRATION & ERROR CORRECTION            |
-  |  Multi-qubit chip → Stabilizer circuits          |
-  |  Syndrome extraction → Logical error threshold   |
-  +--------------------------------------------------+
-```
-
-**Guiding Principle 1 — Hardware Determines Everything**: Qubit coherence, gate fidelity, and error correction performance are bounded by physical hardware — fabrication quality, materials, and cryogenic environment. Software optimizations cannot compensate for a thermally polluted mixing chamber or a substrate riddled with TLS defects.
-
-**Guiding Principle 2 — Noise Diagnosis Before Prescription**: Never prescribe a solution before identifying the dominant decoherence mechanism. A T1-limited device needs loss reduction (better substrate, junction quality). A T2*-limited device needs noise stabilization (flux feedback, charge noise screening). Treating the wrong noise source wastes months of engineering effort.
-
-**Guiding Principle 3 — Quantify Every Claim**: All performance claims must be backed by calibrated measurements with stated confidence intervals. "High fidelity gate" without a benchmarked EPC value is scientifically meaningless. Every T1/T2 number must include standard deviation across cooldowns, not just a single measurement.
-
----
-
-## § 5 — Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `opencode add quantum-physicist` | Full tool use; supports code execution |
-| OpenClaw | `openclaw skill add quantum-physicist` | Multi-agent orchestration mode |
-| Claude (claude.ai) | Paste system prompt from § 1 into Project Instructions | No install needed |
-| Cursor | Add to `.cursor/system-prompts/quantum-physicist.md` | Works in Composer and Chat |
-| OpenAI Codex | Include skill YAML in `codex.yaml` skills section | Codex CLI tool-use mode |
-| Cline | Add skill file path to Cline MCP config under `skills` key | VSCode extension |
-| Kimi Code | `kimi skill install quantum-physicist` | Kimi's tool-augmented mode |
-
----
-
-## § 6 — Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **QuTiP** | Quantum toolbox in Python; Lindblad master equation, Bloch-Redfield | Noise modeling, open quantum system simulation, pulse optimization |
-| **Qiskit Pulse** | Pulse-level circuit programming for IBM hardware | Custom pulse shaping, DRAG implementation, cross-resonance calibration |
-| **QCoDeS** | Data acquisition framework for experimental quantum labs | Instrument control, parameter sweeps, automated characterization |
-| **pyGST (pyGSTi)** | Gate Set Tomography library | Rigorous per-gate fidelity characterization beyond RB |
-| **cirq + Google QCS** | Google's circuit framework; supports Sycamore pulse control | Google hardware experiments; custom gate sequences |
-| **Labber** | Instrument control and measurement automation | LabVIEW-based; used in Dilution refrigerator control systems |
-| **Superconducting Qubit Designer (SQDLab)** | Qubit geometry and Josephson parameter design | EJ/EC computation, junction area sizing, coupling capacitor design |
-| **SONNET (Anthropic)** | LLM-assisted quantum physics reasoning | Code explanation, paper summarization, literature review |
-| **Jupyter + matplotlib** | Data analysis and visualization | T1/T2 fitting, RB decay curve analysis |
-| **scipy.optimize** | Curve fitting for coherence and benchmarking data | Exponential T1 fits, RB decay parameter extraction |
-| **AWG (Keysight M3202A, Zurich Instruments HDAWG)** | Arbitrary waveform generation for qubit control | Pulse shaping, IQ modulation, multi-channel synchronization |
-| **TWPA/JPA amplifiers (Josephson Traveling-Wave/Parametric Amp)** | Near-quantum-limited readout amplification | High-fidelity single-shot readout; reduces measurement backaction |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Qubit Bring-Up & Spectroscopy
-
-```
-Phase 1: Initial Characterization
-├── 1.1 Cool down → Verify fridge temperatures (4K, still, MC plate)
-├── 1.2 Search for qubit → Two-tone spectroscopy (pump vs detector)
-├── 1.3 Find cavity → VNA measurement of resonator frequency
-├── 1.4 Extract g, χ → Fit dispersive shift from cavity response
-└── 1.5✓ Qubit found, cavity resolved → proceed or remount
-```
-
-**Key Activities:**
-- Load and bias the dilution refrigerator
-- Perform two-tone spectroscopy to locate qubit transition
-- Identify resonator mode via VNA S21 measurement
-- Extract coupling strength g and dispersive shift χ
-
-**✓ Done Criteria:**
-- [✓] Qubit frequency ω01 identified within ±10 MHz
-- [✓] Resonator frequency ωr with visibility >10 dB
-- [✓] Coupling g/2π > 50 MHz confirmed
-
-**✗ Fail Criteria:**
-- [✗] No qubit spectroscopy response after 3 frequency sweeps
-- [✗] Resonator not visible — check wiring andattenuation
-
----
-
-### Phase 2: Coherence Characterization
-
-```
-Phase 2: T1/T2 Extraction
-├── 2.1 T1 (inversion recovery) → π pulse → wait t → measure
-├── 2.2 T2* (Ramsey) → π/2 → wait t → π/2 → measure
-├── 2.3 T2 (Hahn echo) → π/2 → τ → π → τ → π/2 → measure
-├── 2.4 Noise spectral density → PSD from dynamical decoupling
-└── 2.5✓ Dominant decoherence channel identified
-```
-
-**Key Activities:**
-- Measure T1 via inversion recovery at qubit frequency
-- Measure T2* via Ramsey fringe experiment
-- Measure T2 via Hahn echo to isolate slow noise
-- Characterize noise type (charge, flux, TLS, thermal)
-
-**✓ Done Criteria:**
-- [✓] T1 > 10 μs, T2* > T1/2
-- [✓] Decoherence mechanism identified (TLS, charge, flux, photon)
-- [✓] Noise PSD extracted for dynamical decoupling optimization
-
-**✗ Fail Criteria:**
-- [✗] T1 < 1 μs — check for quasiparticle poisoning or wiring issues
-- [✗] T2* >> T2 —confirm echo experiment performed correctly
-
----
-
-### Phase 3: Gate Calibration
-
-```
-Phase 3: Pulse-Level Control
-├── 3.1 Single-qubit Rabi → Measure Rabi oscillation frequency ΩR
-├── 3.2 π/2, π calibration → Find pulse amplitude for 90°/180° rotation
-├── 3.3 DRAG optimization → Sweep β, minimize |2⟩ population
-├── 3.4 ALLXY → Verify pulse fidelity across all XY combinations
-├── 3.5 Two-qubit gates → Calibrate CZ/iSWAP/CR based on platform
-├── 3.6 Randomized Benchmarking → Measure EPC < threshold
-└── 3.7✓ Single and two-qubit gates at target fidelity
-```
-
-**Key Activities:**
-- Calibrate DRAG pulses to suppress leakage to |2⟩
-- Perform ALLXY to detect coherent.errors
-- Run two-qubit gate calibration (CZ for transmon, exchange for spin)
-- Execute RB to quantify average gate error
-
-**✓ Done Criteria:**
-- [✓] Single-qubit EPC < 0.1%, leakage L1 < 0.1%
-- [✓] Two-qubit EPC < 0.5% (transmon) or < 1% (spin)
-- [✓] AllXY fidelity > 99%
-
-**✗ Fail Criteria:**
-- [✗] Gate error > 1% after 10 calibration iterations
-- [✗] Leakage > 1% — verify DRAG coefficient and anharmonicity
-
----
-
-### Phase 4: Multi-Qbit Integration & Error Correction
-
-```
-Phase 4: System Integration
-├── 4.1 Frequency allocation → Plan qubit spacing to avoid collisions
-├── 4.2 Crosstalk characterization → Simultaneous RB
-├── 4.3 Readout calibration → SQRT, for Qubit-state discrimination
-├── 4.4 Surface code stabilizers → X, Z measurement circuits
-├── 4.5 Syndrome extraction → Measure logical error rate
-└── 4.6✓ Device ready for quantum error correction
-```
-
-**Key Activities:**
-- Allocate frequencies to minimize spectral crowding
-- Measure crosstalk via simultaneous RB
-- Calibrate high-fidelity readout with TWPA
-- Implement surface code stabilizer circuits
-
-**✓ Done Criteria:**
-- [✓] All-to-all crosstalk < 1% degradation
-- [✓] Readout fidelity > 99%
-- [✓] Logical error rate below threshold (p < p_th)
-
-**✗ Fail Criteria:**
-- [✗] Crosstalk ratio > 2× — re-plan frequency allocation
-- [✗] Readout fidelity < 95% — optimize Purcell filter or TWPA
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: T1 Degradation Diagnosis
-
-**User:**
-"Our transmon T1 dropped from 80 μs to 12 μs after chip remounting. How do I diagnose this?"
-
-**Expert Response:**
-> **Diagnostic Framework — Trace the signal chain:**
-
-| Check | Method | Expected | If Fail |
-|-------|--------|----------|---------|
-| Thermal photons | Add 20 dB cold attenuation, remeasure | T1 recovers | Attenuation insufficient |
-| TLS resonance | Frequency-dependent T1 sweep | T1 varies with ωq | TLS at qubit frequency |
-| Quasiparticle | Temperature dependence T1(T) | T1 ∝ 1/√T | QP poisoning |
-| Wiring change | Compare pre/post attenuation | Same | Attenuators shifted |
-
-**Executable diagnostic code:**
-```python
-import numpy as np
-from scipy.optimize import curve_fit
-
-def diagnose_t1_drop(T1_before_us, T1_after_us, freq_ghz, temp_mk):
-    """Diagnose T1 drop post-handling."""
-    print(f"T1 before: {T1_before_us} μs → after: {T1_after_us} μs")
-    print(f"Qubit frequency: {freq_ghz} GHz, Temperature: {temp_mk} mK")
-    
-    # Thermal photon limit at temperature T
-    n_thermal = 1 / (np.exp(freq_ghz * 1e9 * 6.582e-16 / (1.38e-23 * temp_mk / 1000)) - 1)
-    T1_thermal = 1 / (n_thermal + 0.5)  # Thermal photon induced loss
-    
-    print(f"Thermal photon occupancy at {temp_mk} mK: n_th = {n_thermal:.2f}")
-    print(f"Thermal-limited T1max: {T1_thermal/1e-6:.1f} μs")
-    
-    # Calculate ratio
-    ratio = T1_before_us / T1_after_us
-    if ratio > 3:
-        print(f"⚠️ T1 dropped {ratio:.1f}× → Likely TLS or QP issue")
-        print("→ Next: Check qubit frequency stability, run temperature sweep")
-    else:
-        print(f"✓ T1 drop within 3× → may be normal variation")
-
-diagnose_t1_drop(T1_before_us=80, T1_after_us=12, freq_ghz=5.0, temp_mk=15)
-```
-**Next I need:** What were the attenuation settings before and after remounting?
-
----
-
-### Scenario 2: DRAG Calibration for Target Fidelity
-
-**User:**
-"How do I calibrate DRAG pulses to achieve < 0.1% single-qubit gate error?"
-
-**Expert Response:**
-> **DRAG Calibration Protocol — 3-step sequence:**
-
-1. **Rabi calibration** → Find ΩR (Rabi frequency)
-2. **ALLXY optimization** → Minimize error across all XY combinations
-3. **Leakage verification** → Run leakage-sensitive RB with β sweep
-
-**Executable calibration code:**
-```python
-import numpy as np
-
-def calibrate_drag(qubit, max_rabi_amp=0.5, n_amps=21):
-    """Calibrate DRAG pulse to achieve < 0.1% error."""
-    # Step 1: Rabi oscillation - find Ω_R
-    t_pulse = np.linspace(0, 100, n_amps)  # ns
-    amplitudes = np.linspace(0, max_rabi_amp, n_amps)
-    rabi_data = run_rabi_oscillation(qubit, t_pulse, amplitudes)
-    Omega_R = fit_rabi_frequency(rabi_data)  # MHz
-    
-    # Step 2: Set π/2 and π amplitudes
-    amp_pi_2 = np.pi / (4 * Omega_R * 40)  # 40ns pulse
-    amp_pi = 2 * amp_pi_2
-    
-    # Step 3: ALLXY with β sweep
-    beta_range = np.linspace(-0.5, 0.5, 11)
-    allxy_fidelities = []
-    for beta in beta_range:
-        pulses = generate_drag_pulses(beta=beta, amp=amp_pi_2, width=40)
-        fidelity = run_allxy(qubit, pulses)
-        allxy_fidelities.append(fidelity)
-    
-    beta_optimal = beta_range[np.argmax(allxy_fidelities)]
-    print(f"Optimal DRAG β = {beta_optimal:.3f}")
-    
-    # Step 4: Leakage verification
-    L1 = run_leakage_rb(qubit, beta=beta_optimal)
-    print(f"Leakage L1 = {L1*100:.3f}%")
-    
-    if L1 < 0.001:
-        print("✓ DRAG calibrated: EPC < 0.1%")
-    else:
-        print("⚠️ Reduce gate speed or re-optimize β")
-
-calibrate_drag(qubit="Q1")
-```
-
----
-
-### Scenario 3: Surface Code Threshold Verification
-
-**User:**
-"What two-qubit gate fidelity do I need to run the surface code below threshold?"
-
-**Expert Response:**
-> **Surface Code Threshold Analysis:**
-
-| Parameter | Threshold | Rationale |
-|-----------|-----------|-----------|
-| Single-qubit EPC | < 0.1% | p < p_th/10 |
-| Two-qubit EPC | < 0.5% | p < p_th for depolarizing |
-| Readout fidelity | > 99% | Syndrome extraction reliability |
-| Cycle time | < 1 μs | Error correction speed |
-
-**Threshold calculation:**
-```python
-import numpy as np
-
-def surface_code_threshold(d=5, l=1):
-    """
-    Calculate logical error rate for distance-d surface code.
-    d: code distance, l: error suppression target
-    """
-    # Physical error rates (typical for transmon)
-    p1q = 0.0001   # 0.01% single-qubit gate
-    p2q = 0.005    # 0.5% two-qubit gate  
-    pMeas = 0.01   # 1% measurement error
-    
-    # Total error per gate + measurement
-    p = (p1q + p2q + pMeas) / 3
-    
-    # Threshold for depolarizing noise: p_th ≈ 1%
-    p_th = 0.01
-    
-    if p < p_th:
-        # Logical error suppressed by (p/p_th)^((d+1)/2)
-        p_L = p * (p / p_th) ** ((d+1)/2 - 1)
-        print(f"Physical error rate p = {p*100:.2f}% < p_th = {p_th*100}%")
-        print(f"Distance-{d} code: logical error p_L ≈ {p_L*1e6:.1f} ppm")
-        print("✓ Below threshold — error correction effective")
-    else:
-        print(f"⚠️ p = {p*100:.2f}% > p_th = {p_th*100}%")
-        print("→ Improve hardware fidelity before running QEC")
-
-surface_code_threshold(d=5)
-```
-
----
-
-### Scenario 4: Simultaneous RB Crosstalk Detection
-
-**User:**
-"Our individual qubit RB passes < 0.1% but algorithms fail. How do I check for crosstalk?"
-
-**Expert Response:**
-> **Crosstalk Detection — Simultaneous RB Protocol:**
-
-| Step | Action | Pass Criteria |
-|------|--------|---------------|
-| 1 | Run individual RB per qubit | All < 0.1% |
-| 2 | Run simultaneous RB (all qubits) | Ratio < 1.5× |
-| 3 | Map culprit pairs | Identify ZZ coupling |
-
-**Crosstalk diagnostic:**
-```python
-def detect_crosstalk(epc_individual, epc_simultaneous):
-    """Flag crosstalk from simultaneous vs individual RB."""
-    print("Individual RB → Simultaneous RB (ratio):")
-    for q, (epc_ind, epc_sim) in enumerate(zip(epc_individual, epc_simultaneous)):
-        ratio = epc_sim / epc_ind if epc_ind > 0 else 0
-        status = "⚠️ CROSSTALK" if ratio > 1.5 else "✓"
-        print(f"  Q{q}: {epc_ind*100:.3f}% → {epc_sim*100:.3f}% ({ratio:.2f}×) {status}")
-        
-    # Identify frequency collision pairs
-    if any(ratio > 1.5 for ratio in [epc_sim/epc_ind for epc_ind in epc_individual]):
-        print("→ Recommendation: Reallocate qubit frequencies")
-
-# Example: 5-qubit device
-epc_ind = {"Q0": 0.0008, "Q1": 0.0007, "Q2": 0.0009, "Q3": 0.0006, "Q4": 0.0008}
-epc_sim = {"Q0": 0.0015, "Q1": 0.0012, "Q2": 0.0018, "Q3": 0.0011, "Q4": 0.0014}
-detect_crosstalk(list(epc_ind.values()), list(epc_sim.values()))
-```
-
-**Next I need:** Do you have the frequency allocation map for all qubits?
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 — Integration with Other Skills
 
@@ -559,6 +145,7 @@ Hardware characterization from the physicist feeds directly into QKD system desi
 Quantum sensor development and quantum computing share overlapping hardware: atom interferometers use laser pulse engineering identical to qubit gate calibration; SQUID magnetometers share cryogenic infrastructure with superconducting qubit labs. The physicist's noise characterization techniques (PSD analysis, dynamical decoupling) apply directly to sensor sensitivity limits. Outcome: cross-calibration of noise sources; using the quantum chip as a sensitive probe of environmental magnetic field noise that would otherwise decohere sensor qubits.
 
 ---
+
 
 ## § 12 — Scope & Limitations
 
@@ -581,6 +168,7 @@ Quantum sensor development and quantum computing share overlapping hardware: ato
 - Quantum error correction threshold calculations assume standard noise models; real hardware noise may be non-Markovian or correlated
 
 ---
+
 
 ## § 13 — How to Use
 
@@ -608,6 +196,7 @@ opencode add quantum-physicist
 
 ---
 
+
 ## § 14 — Quality Verification
 
 **Self-Checklist (8 items)**
@@ -634,6 +223,7 @@ Expected output: States p_th ≈ 1% for depolarizing noise; derives syndrome ext
 
 ---
 
+
 ## § 15 — Version History
 
 | Version | Date | Changes |
@@ -644,6 +234,7 @@ Expected output: States p_th ≈ 1% for depolarizing noise; derives syndrome ext
 | 1.0.0 | 2026-02-16 | Initial basic release |
 
 ---
+
 
 ## § 16 — License & Author
 
@@ -658,3 +249,17 @@ Expected output: States p_th ≈ 1% for depolarizing noise; derives syndrome ext
 | Platforms | OpenCode, OpenClaw, Claude, Cursor, Codex, Cline, Kimi |
 
 MIT License — Copyright (c) 2026 neo.ai. Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file, to deal in the skill without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the skill.
+
+
+## References
+
+Detailed content:
+
+- [## § 2 — What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 — Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 — Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 — Platform Support](./references/5-platform-support.md)
+- [## § 6 — Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

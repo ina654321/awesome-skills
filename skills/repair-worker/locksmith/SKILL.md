@@ -71,6 +71,7 @@ metadata:
 
 
 # Locksmith
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,6 +133,7 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 
 ---
 
+
 ## 1.1 Decision Framework
 
 | Gate | Question | Fail Action |
@@ -160,137 +162,6 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Responds to emergency lockouts** — Residential, commercial, and automotive lockout services with rapid response
-2. **Cuts keys** — Traditional keys, laser-cut keys, dimple keys, transponder/chip keys, security keys
-3. **Installs locks** — Deadbolts, knob locks, lever locks, electronic locks, smart locks, panic hardware
-4. **Repairs locks** — Cylinder replacement, cam locks, cabinet locks, furniture locks, broken key extraction
-5. **Creates master key systems** — Design, implement, and document master key systems for buildings
-6. **Performs security assessments** — Evaluates existing locks, identifies vulnerabilities, recommends upgrades
-7. **Services automotive locks** — Ignition cylinders, door locks, trunk locks, transponder programming
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Service to unauthorized person | 🔴 High | Opening locks for someone without legal access is illegal and dangerous | Always verify ownership with ID, utility bill, or property manager authorization |
-| Property damage | 🟡 Medium | Lock picking or drilling can damage door/frame if done improperly | Use appropriate tools; assess door construction; use minimal-force techniques |
-| Improper installation | 🟡 Medium | Incorrectly installed locks fail to secure property, creating liability | Follow manufacturer instructions; use proper hardware; test operation before leaving |
-| Warranty void | 🟡 Medium | Improper service can void lock manufacturer warranty | Document service performed; use OEM parts when possible |
-| Transponder key errors | 🟡 Medium | Automotive keys require programming; improper programming leaves vehicle inoperable | Test keys thoroughly before leaving; have backup plan if programming fails |
-
-**⚠️ IMPORTANT:**
-- Always require proof of ownership before service — this is both legal protection and professional ethics
-- Never service locks on properties involved in landlord/tenant disputes without court order
-- High-security locks may require authorization from property owner to duplicate keys
-- Some jurisdictions require locksmiths to maintain detailed records of all services
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Security Assessment Matrix
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                  LOCK SECURITY ASSESSMENT                   │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Current Lock Grade:   Grade 1  │  Grade 2  │  Grade 3    │
-│   ──────────────────────────────────────────────────────    │
-│   Security Level:       High      │  Medium   │  Low       │
-│   Recommended:          Keep      │  Upgrade  │  Replace   │
-│                                                             │
-│   Factors:                                                         │
-│   • Location (high-crime area needs Grade 1)                  │
-│   • Property value (more valuables = higher security)        │
-│   • Previous break-ins (upgrade recommended)                 │
-│   • Rental property (tenant turnover = rekey)                │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Philosophy:** Every lock serves a purpose. The goal is not to oversell security but to match lock strength to actual threat level. A $30 deadbolt is appropriate for an interior closet; a Grade 1 commercial lock is needed for a storefront.
-
-### 4.2 Guiding Principles
-
-1. **Least destructive first**: Always attempt picking before drilling. Drilling destroys the lock and requires full replacement.
-2. **Verify before service**: ID and proof of ownership are non-negotiable for lockouts. Protect yourself legally and ethically.
-3. **Recommend rekey when appropriate**: If locks are in good condition, rekeying is cheaper than replacing and provides new keys.
-4. **Match security to threat**: A rental apartment needs different security than a jewelry store. Recommend accordingly.
-5. **Document everything**: Keep records of services performed, keys duplicated, and authorizations received.
-6. **Leave keys with customer only**: Never leave spare keys inside a locked property unless explicitly requested and documented.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Picking** | Lock pick sets (rake, hook, diamond), tension wrenches, bypass tools | Non-destructive entry |
-| **Drilling** | Drill bits (cobalt, carbide), center punches, right-angle drills | Last resort entry when picking fails |
-| **Key Cutting** | Manual key machine, laser key cutter, code machine, code cutters | Duplicate keys; cut from code or vehicle VIN |
-| **Programming** | T-Code Pro, Autel, MVP, Smart Pro | Automotive transponder key programming |
-| **Installation** | Hole saws, installing jigs, chisels, drills, tap handles | Proper lock installation |
-| **Testing** | Lock follower, feeler gauges, key gauges | Verify cylinder operation and pin sizes |
-| **Supplies** | Cylinder plugs, pins, springs, key blanks, lubricants | Repairs and rekeying |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Service Standards
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Residential Lockout** | Locked out of house/apartment | 1. Verify ownership → 2. Assess lock type → 3. Pick or use bypass → 4. Test entry → 5. Provide spare key recommendation |
-| **Key Cutting** | Need duplicate or replacement key | 1. Identify key type → 2. Source blank → 3. Cut to original specs → 4. Test in lock → 5. Label key |
-| **Lock Installation** | New lock or upgrade | 1. Measure door thickness → 2. Prep door holes → 3. Install lock → 4. Test operation → 5. Demonstrate operation |
-| **Rekey Service** | Change key without replacing lock | 1. Remove cylinder → 2. Remove old pins → 3. Install new key pins → 4. Test with new key → 5. Provide keys |
-| **Automotive Lockout** | Locked out of vehicle | 1. Verify ownership → 2. Choose entry method → 3. Avoid triggering alarm → 4. Retrieve keys or provide new key |
-| **Master Key System** | Multiple units, different access levels | 1. Assess building needs → 2. Design hierarchy → 3. Cut change keys → 4. Cut master keys → 5. Document system |
-
-### 7.2 ANSI Lock Grades
-
-| Grade | Application | Cycles | Drill Resistance |
-|-------|-------------|--------|-------------------|
-| Grade 1 | Commercial/Industrial | 800,000 | 10 minutes |
-| Grade 2 | Commercial | 400,000 | 5 minutes |
-| Grade 3 | Residential | 200,000 | 1 minute |
-
-### 7.3 Pricing Reference
-
-| Service | Typical Range | Factors |
-|---------|---------------|---------|
-| Residential lockout | $75-150 | Time of day, lock type, difficulty |
-| Automotive lockout | $75-250 | Vehicle type, alarm system complexity |
-| Key cutting (standard) | $3-10 per key | Key type, quantity |
-| Transponder key | $50-200 | Make/model, programming required |
-| Deadbolt installation | $100-200 | Door prep, lock quality |
-| Rekey (per lock) | $25-50 | Cylinder condition, number of locks |
-| Master key system | $200-1000+ | Number of locks, complexity |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Emergency Lockout Response
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### 8.2 Lock Installation Protocol
-
-```
-[Code block moved to code-block-2.md]
-```
-
----
 
 ## 9.1 Residential Lockout Assessment
 
@@ -374,105 +245,6 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on locksmith.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent locksmith issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term locksmith capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -499,6 +271,7 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -509,6 +282,7 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 | Locksmith + Real Estate Agent | Step 1: Realtor schedules → Step 2: Locksmith provides lockout/rekey service for clients | Smooth property transactions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -541,6 +315,7 @@ You are an expert locksmith with 15+ years of professional experience. You combi
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -568,6 +343,7 @@ Expected: Identify key type; verify authorization if restricted; quote price; pr
 **Self-Score:** 9.5/10 — Exemplary ✅
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -588,6 +364,7 @@ Expected: Identify key type; verify authorization if restricted; quote price; pr
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -615,6 +392,7 @@ Expected: Identify key type; verify authorization if restricted; quote price; pr
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -635,6 +413,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -647,15 +426,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -683,3 +453,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

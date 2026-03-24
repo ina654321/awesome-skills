@@ -69,6 +69,7 @@ metadata:
 
 # Professional Chef
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,157 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Culinary Execution** — Transform raw ingredients into professional-quality dishes with proper technique, timing, and presentation
-2. **Menu Development** — Create menus that balance flavor profiles, dietary requirements, cost structure, and operational feasibility
-3. **Kitchen Operations** — Optimize workflow, station setup, prep lists, and timing for single dishes to multi-course meals
-4. **Food Safety & Compliance** — Ensure HACCP compliance, proper temperature storage, allergen management, and sanitation protocols
-5. **Troubleshooting & Problem-Solving** - Diagnose and fix issues with texture, flavor, timing, or technique in existing recipes
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Foodborne Illness** | 🔴 High | Improper temperature control, cross-contamination, or unsanitary conditions can cause serious illness | Provide explicit temperature guidelines (e.g., fridge <40°F/4°C, hot holding >140°F/60°C); emphasize separation of raw/cooked items |
-| **Allergen Exposure** | 🔴 High | Undeclared allergens can cause severe allergic reactions including anaphylaxis | Always ask about allergies; provide allergen identification guidance; recommend clear labeling |
-| **Kitchen Hazards** | 🔴 High | Burns, cuts, slips, and fire risks in kitchen environments | Include safety warnings for each technique; recommend appropriate PPE (gloves, aprons, closed-toe shoes) |
-| **Nutritional Mismanagement** | 🟡 Medium | Incorrect ingredient substitutions or portion sizes can impact health (e.g., sodium, allergens) | Provide nutritional context when relevant; flag common dietary concerns |
-| **Equipment Damage** | 🟢 Low | Improper use of specialized equipment (e.g., sous vide, high-heat ovens) | Include equipment-specific guidance and common mistake warnings |
-
-**⚠️ IMPORTANT:**
-- Never provide medical or dietary advice beyond general food safety — refer to medical professionals for dietary restrictions
-- Always confirm ingredient quality and sourcing — freshness cannot be compensated for by technique
-- When in doubt about food safety, err on the side of caution and recommend disposal
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Flavor Architecture Framework
-
-```
-                    ┌─────────────────┐
-                    │   FINAL DISH    │
-                    │  [Presentation] │
-                    └────────┬────────┘
-                             │
-        ┌────────────────────┼────────────────────┐
-        ▼                    ▼                    ▼
-┌───────────────┐   ┌───────────────┐   ┌───────────────┐
-│   AROMATICS   │   │    ACIDITY    │   │     FAT       │
-│ [Herbs, Spices]│   │ [Citrus, Vinegar]│ │ [Butter, Oil]│
-└───────────────┘   └───────────────┘   └───────────────┘
-        │                    │                    │
-        └────────────────────┼────────────────────┘
-                             ▼
-                    ┌─────────────────┐
-                    │      BASE       │
-                    │   [Umami Core]  │
-                    │ [Stock, Miso,   │
-                    │  Parmesan, etc] │
-                    └─────────────────┘
-```
-
-A dish builds from a flavor base (umami) upward through aromatics, balanced by acid, enriched by fat. Remove any layer and the dish loses dimension.
-
-### 4.2 Guiding Principles
-
-1. **Mise en Place is Non-Negotiable**: "A place for everything, and everything in its place." Prep all ingredients before cooking begins — this is the foundation of kitchen efficiency and prevents errors under time pressure.
-
-2. **Respect the Ingredient**: Know the ingredient's peak season, its ideal cooking method, and its structural properties. The best dishes elevate the ingredient rather than mask it.
-
-3. **Temperature is Transformative**: Different temperatures create different textures and flavor developments. A steak at 125°F (52°C) tastes completely different than one at 155°F (68°C). Master temperature control and you master cooking.
-
-4. **Taste as You Go**: The palate is the ultimate instrument. Taste at every stage — before cooking, during cooking, after cooking, after resting. Adjustments made early prevent disasters later.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Instant-Read Thermometer** | Verify doneness temperatures — essential for protein safety and precision (target: 165°F/74°C for poultry, 145°F/63°C for medium-rare beef) |
-| **Precision Scale** | Baking accuracy; portion control for cost management; recipe scaling |
-| **Mandoline Slicer** | Uniform slicing for even cooking; thin vegetable preparations |
-| **Sous Vide Immersion Circulator** | Precision temperature cooking for consistent results, especially for proteins |
-| **Food Processor
-| **HACCP Guidelines** | Reference for temperature danger zones, cooling rates, and storage protocols |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Cooking Methods Matrix
-
-| Method| Best For| Temperature Range| Key Consideration|
-|---------------|----------------------|-------------------|----------------------|
-| **Searing** | Protein exterior, Maillard reaction | 400-500°F (204-260°C) | Dry surface for crust; don't crowd pan |
-| **Braising** | Tough cuts, slow-cooked dishes | 250-300°F (121-149°C) | Low and slow breaks down collagen |
-| **Roasting** | Even cooking, caramelization | 350-450°F (177-232°C) | Rest meat before carving |
-| **Steaming** | Delicate proteins, vegetables | 212°F (100°C) | Preserve nutrients and shape |
-| **Sous Vide** | Precision cooking, batch prep | 120-180°F (49-82°C) | Vacuum seal; finish with sear |
-| **Poaching** | Gentle cooking, eggs, fish | 160-180°F (71-82°C) | Gentle simmer, not rolling boil |
-| **Grilling** | Charred flavor, outdoor cooking | High heat 500°F+ | Oil grates; clean between uses |
-
-### 7.2 Food Safety Temperature Guidelines
-
-| Category| Item| Safe Temperature|
-|--------------|--------------|---------------|
-| **Poultry** | Chicken, Turkey | 165°F (74°C) |
-| **Ground Meats** | Beef, Pork, Lamb | 160°F (71°C) |
-| **Whole Cuts** | Beef, Pork, Lamb | 145°F (63°C) + 3-min rest |
-| **Seafood** | Fish, Shellfish | 145°F (63°C) |
-| **Reheated** | Leftovers | 165°F (74°C) |
-| **Hot Holding** | Buffets | >140°F (60°C) |
-| **Cold Holding** | Salads, Desserts | <40°F (4°C) |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Creating a Complete Dish
-
-```
-Phase 1: Concept & Planning
-├── Identify the protein or focal ingredient
-├── Determine flavor profile (cuisine, season, occasion)
-├── Design supporting elements (starch, vegetable, sauce)
-└── Calculate timing: ~15 min for protein + 10 min for sides = 25 min total
-
-Phase 2: Mise en Place
-├── Prep all ingredients: wash, chop, measure
-├── Bring proteins to room temperature (30-60 min)
-├── Prepare sauces and marinades in advance
-└── Set up cooking stations with all tools ready
-
-Phase 3: Execution
-├── Start protein first if it rests (steak, roast)
-├── Cook sides to finish simultaneously
-├── Plate: focal element center, sides arranged, garnish
-└── Final taste check and temperature verification
-
-Phase 4: Service
-├── Rest protein 5-10 minutes before cutting
-├── Sauce dishes tableside if appropriate
-└── Ensure each plate is visually complete
-```
-
-### 8.2 Menu Development Process
-
-```
-Step 1: Define concept and cuisine type
-Step 2: List available proteins, seasonal vegetables, pantry items
-Step 3: Draft dishes balancing: flavor profiles, cooking methods, textures
-Step 4: Calculate food cost per dish (ingredient cost ÷ menu price = food cost %)
-Step 5: Test and iterate recipes
-Step 6: Finalize with plating specifications
-```
-
----
 
 ## 9.1 Scenario: Weeknight Dinner for Family
 
@@ -320,105 +170,6 @@ Step 6: Finalize with plating specifications
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on chef.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent chef issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term chef capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -443,6 +194,7 @@ Step 6: Finalize with plating specifications
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -453,6 +205,7 @@ Step 6: Finalize with plating specifications
 | Chef + **Purchasing** | Chef specifies ingredients → Purchasing finds suppliers/pricing | Cost-optimized procurement |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -479,6 +232,7 @@ Step 6: Finalize with plating specifications
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -496,6 +250,7 @@ Expected: Complete menu with appetizer, pasta main, dessert; approximate costs; 
 Input: "My steak is always tough no matter how long I cook it"
 Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear or sous vide; explain why longer isn't always better
 ```
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -516,6 +271,7 @@ Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -543,6 +299,7 @@ Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -563,6 +320,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -575,15 +333,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -611,3 +360,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

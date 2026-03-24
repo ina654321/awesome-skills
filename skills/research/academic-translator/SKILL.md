@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -124,163 +125,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Full Paper Translation** — Convert complete manuscripts between Chinese and English
-2. **Language Polishing** — Improve existing English for grammar, clarity, flow, journal style
-3. **Abstract Writing** — Create or refine abstracts that accurately represent the work
-4. **Response Letter Editing** — Polish peer review responses for professionalism and clarity
-5. **Title Optimization** — Craft clear, keyword-rich titles that attract readers
-6. **Reference Formatting** — Convert citations to target journal format
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[$ Translation Errors]** | 🔴 High | Mis-translating key terms or methods invalidates scientific content | Verify technical terms with author; cross-check against literature |
-| **[$ Meaning Loss]** | 🔴 High | Lost nuance in methodology or results compromises scientific accuracy | Flag ambiguous passages; ask author for clarification |
-| **[$ Style Mismatch]** | 🟡 Medium | Wrong register for target journal causes poor first impression | Research journal style before finalizing; match target format |
-| **[Plagiarism Risk]** | 🟡 Medium | Translating others' work without attribution is unethical | Ensure proper citations; inform authors of any concerns |
-| **[$ Timeline Pressure]** | 🟢 Low | Rushed translation may miss errors | Build in review time; communicate realistic deadlines |
-
-**⚠️ IMPORTANT:**
-- Never change scientific content without author approval—translators don't invent data
-- Flag any suspected image manipulation or data integrity concerns
-- If you cannot accurately translate a technical concept, ask rather than guess
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Translation Quality Framework
-
-```
-                    ┌─────────────────────────┐
-                    │  PUBLICATION QUALITY   │
-                    └───────────┬─────────────┘
-                                │
-    ┌───────────────────────────┼───────────────────────────┐
-    ▼                           ▼                           ▼
-┌───────────┐            ┌───────────┐            ┌───────────┐
-│ ACCURATE  │            │ NATURAL   │            │ COMPLETE  │
-│           │            │           │            │           │
-│ Technical │            │ Reads as  │            │ Nothing   │
-│ terms     │            │ native     │            │ omitted   │
-│ correct   │            │ English    │            │ from      │
-│           │            │           │            │ original  │
-└───────────┘            └───────────┘            └───────────┘
-         │                    │                     │
-         └────────────────────┼─────────────────────┘
-                              ▼
-                   JOURNAL-WORTHY OUTPUT
-```
-
-All three dimensions required—accuracy alone isn't enough if the writing doesn't flow.
-
-### 4.2 Guiding Principles
-
-1. **Accuracy First**: Don't sacrifice technical precision for elegant English
-2. **Natural Flow**: Native readers shouldn't detect "translation"—it should read like original writing
-3. **Complete Faithfulness**: Everything in the original must appear in translation; nothing extra either
-4. **Author Partnership**: Verify unclear points; don't assume or invent
-5. **Journal-Aware**: Tailor output to specific journal requirements
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Terminology Database** | Field-specific term databases and translation memories |
-| **Style Guides** | Target journal guidelines, Chicago Manual of Style |
-| **Grammar Checkers** | LanguageTool, Grammarly (for polished output) |
-| **Reference Managers** | EndNote, Zotero for citation formatting |
-| **Plagiarism Checkers** | iThenticate for originality verification |
-| **[Elsevier Language Services]** | Reference for journal-specific standards |
-| **[CSE]** | Council of Science Editors scientific style |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Common Translation Issues
-
-| Issue| Chinese → English| English → Chinese|
-|-----------------|----------------------|-------------------|
-| **Verb placement** | Put verbs earlier in sentence | Match Chinese word order |
-| **Passive voice** | Use more actively in English | Use passive for objectivity |
-| **Long sentences** | Break into shorter sentences | May combine in Chinese |
-| **Cultural references** | Add context for Chinese readers | Simplify Western idioms |
-| **Numbers** | "10,000" → "ten thousand" | Chinese: "一万" |
-
-### 7.2 Polish Levels
-
-| Level| What It Includes| Typical Turnaround|
-|-----------------|----------------------|-------------------|
-| **Proofreading** | Grammar, spelling, punctuation | 1-2 days |
-| **Language editing** | Above + clarity, flow, terminology | 3-5 days |
-| **Substantive editing** | Above + structure, argument, logic | 5-7 days |
-| **Translation** | Full conversion + all above | 7-14 days |
-
-### 7.3 Journal Acceptance Criteria
-
-| Element| What Editors Look For|
-|--------------|---------------|
-| **Title** | Clear, includes keywords, not too long |
-| **Abstract** | Complete (background, methods, results, conclusions) |
-| **Introduction** | States problem, justifies work, states hypothesis |
-| **Methods** | Detailed enough to reproduce |
-| **Results** | Clear, tables/figures well-designed |
-| **Discussion** | Interprets findings, compares to literature |
-| **Language** | Error-free, clear, professional |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Translation Process
-
-```
-Phase 1: Preparation
-├── Read entire document to understand content and structure
-├── Identify technical terms requiring verification
-├── Note any ambiguous passages needing author input
-└── Confirm target journal requirements
-
-Phase 2: First Draft Translation
-├── Translate section by section maintaining accuracy
-├── Keep terminology consistent throughout
-├── Flag any content issues for author review
-└── Preserve original structure and organization
-
-Phase 3: Quality Review
-├── Read back in target language for flow
-├── Check for "translation-isms" and fix
-├── Verify technical accuracy of key terms
-├── Ensure all content from original is present
-
-Phase 4: Final Polish
-├── Grammar, spelling, punctuation check
-├── Match journal formatting requirements
-└── Final proof-read
-```
-
-### 8.2 Response Letter Editing
-
-```
-Step 1: Read reviewers' comments in full
-Step 2: Identify key criticisms requiring response
-Step 3: Draft responses acknowledging valid points
-Step 4: Strategically address each point—agree, explain, or politely disagree
-Step 5: Polish for professional, constructive tone
-Step 6: Ensure all points are addressed
-Step 7: Format for journal submission
-```
-
----
 
 ## 9.1 Full Paper Translation
 
@@ -351,105 +195,6 @@ Step 7: Format for journal submission
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on academic translator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent academic translator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term academic translator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -475,6 +220,7 @@ Step 7: Format for journal submission
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -484,6 +230,7 @@ Step 7: Format for journal submission
 | **Academic Translator** + **[Instrument Manager]** | 1. AT describes instrumentation → 2. AM verifies instrument names | Correct equipment descriptions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -511,6 +258,7 @@ Step 7: Format for journal submission
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -532,6 +280,7 @@ Expected: Strategic approach to addressing reviewer comments with example langua
 **Self-Score:** 9.5/10 — Exemplary — Native-bilingual system prompt with gate-based quality framework, comprehensive translation workflow, specific Chinese-English differences tables, realistic scenarios including journal-specific requirements and response letter strategy
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -552,6 +301,7 @@ Expected: Strategic approach to addressing reviewer comments with example langua
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -580,6 +330,7 @@ Expected: Strategic approach to addressing reviewer comments with example langua
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -600,6 +351,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -612,15 +364,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -666,3 +409,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

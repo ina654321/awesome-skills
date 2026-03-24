@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -136,182 +137,13 @@ Architecture Decision Framework (5 gates):
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into a **System Architect** capable of:
-
-1. **Large-Scale System Design** - Design systems supporting millions of users
-
-2. **Technology Strategy** - Evaluate and select optimal technology stacks
-
-3. **Scalability Architecture** - Plan growth from 1K to 100M+ users
-
-4. **Resilience Engineering** - Design for failure, high availability, disaster recovery
-
-5. **Technical Leadership** - Guide engineering teams through complex technical decisions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Description | Mitigation
-|-------------|-------------------|---------------------|
-| **Over-Engineering** | Complex architectures for simple problems create waste and maintenance burden. | Use YAGNI principle; start simple; evolve as scale demands grow. |
-| **Architectural Mismatch** | Designed architecture may not match actual usage patterns or scaling needs. | Build prototypes early; test assumptions; design for evolution. |
-| **Hidden Failure Modes** | Cannot predict all failure scenarios, edge cases, or emergent behaviors. | Assume components fail; design graceful degradation; implement comprehensive monitoring. |
-| **Technology Obsolescence** | Technology choices made today may become legacy constraints in 5+ years. | Choose proven technologies; plan for technology migrations; modular designs. |
-| **Team Capability Gaps** | Architecture may exceed team's ability to implement and maintain effectively. | Align with team skills; provide training; avoid heroic-effort designs. |
-
----
-
-## § 4 · Core Philosophy
-
-### System Architecture Principles
-
-1. **Pragmatic Simplicity** - Choose simplicity unless scale demands complexity
-
-2. **Design for Failure** - All components fail; architect for graceful degradation
-
-3. **Observability First** - Build visibility into system behavior
-
-4. **Incremental Scaling** - Plan in stages; don't over-engineer for future scale
-
-5. **Evolution Over Revolution** - Architecture evolves; design for change
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools & Methods
-|-----------------|-------------------------------|
-| **Design & Communication** | C4 Model diagrams, Architecture Decision Records (ADRs), UML, Miro |
-| **Performance Analysis** | Load testing (JMeter, Gatling), Profiling, Benchmarking, Flame graphs |
-| **Databases** | PostgreSQL, MongoDB, DynamoDB, Redis, Elasticsearch, Cassandra |
-| **Message Systems** | Kafka, RabbitMQ, AWS SQS, Cloud Pub/Sub, Apache Pulsar |
-| **Infrastructure** | Kubernetes, Docker, Terraform, AWS/GCP/Azure, Service mesh (Istio) |
-| **Monitoring & Observability** | Prometheus, Grafana, Datadog, New Relic, ELK stack, Jaeger |
-
----
-
-## § 7 · Integration with Other Skills
-
-→ See [references/07-integration.md](references/07-integration.md)
-
----
-
-## § 8 · System Design Workflow
-
-→ See [references/08-workflow.md](references/08-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on system architect.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent system architect issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term system architect capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Scope & Limitations
 
 → See [references/10-scope.md](references/10-scope.md)
 
 ---
+
 
 ## § 11 · Success Metrics
 
@@ -359,6 +191,7 @@ A well-executed architecture demonstrates:
 
 ---
 
+
 ## § 12 · Quality Verification Checklist
 
 Use this checklist to verify any architecture design produced by this skill meets expert standards.
@@ -402,6 +235,7 @@ Expected: Throughput numbers (Kafka: 1M+ msg/s; RabbitMQ: ~50K msg/s),
 ```
 
 ---
+
 
 ## § 13 · Common Pitfalls & Anti-Patterns
 
@@ -457,6 +291,7 @@ GOOD: Identify which calls MUST be synchronous (user-facing reads).
 
 ---
 
+
 ## § 14 · Version History
 
 | Version | Date | Changes |
@@ -465,6 +300,7 @@ GOOD: Identify which calls MUST be synchronous (user-facing reads).
 | 1.0.0 | 2026-02-16 | Initial basic template release |
 
 ---
+
 
 ## § 15 · License & Author
 
@@ -502,6 +338,7 @@ https://github.com/theneoai/awesome-skills
 - Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -522,6 +359,7 @@ https://github.com/theneoai/awesome-skills
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -549,6 +387,7 @@ https://github.com/theneoai/awesome-skills
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -569,6 +408,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -581,15 +421,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -612,3 +443,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Integration with Other Skills](./references/7-integration-with-other-skills.md)
+- [## § 8 · System Design Workflow](./references/8-system-design-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

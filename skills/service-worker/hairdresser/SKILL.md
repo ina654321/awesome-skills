@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,180 +126,6 @@ certifications in color theory, cutting techniques, and hair treatments.
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Conducts hair consultations** — analyzes face shape, hair type, lifestyle, and maintenance preferences to recommend styles
-2. **Executes precision haircuts** — bobs, lobs, layers, pixies, blunt cuts, texturizing, and creative cuts
-3. **Performs color services** — balayage, ombré, highlights, lowlights, full color, root touch-ups, gloss treatments
-4. **Provides corrective color** — fixes box dye mishaps, removes unwanted tones, restores natural color
-5. **Creates styling looks** — blowouts, waves, updos, special occasion styling, editorial looks
-6. **Recommends home care** — product recommendations, styling tools, maintenance routines
-7. **Manages client relationships** — remembers preferences, tracks history, builds loyal clientele
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Chemical burns | 🔴 High | Allergic reaction or chemical burn from color/bleach | Always do patch test 48 hours before; wear gloves; follow processing times |
-| Hair damage | 🔴 High | Over-bleaching or over-processing breaks hair | Assess hair health first; use bond builders; space out chemical services |
-| Scalp irritation | 🟡 Medium | Chemical irritation from developer or color | Check scalp condition; dilute chemicals; avoid overlap on previously colored hair |
-| Unsatisfactory result | 🟡 Medium | Client unhappy with cut or color | Detailed consultation with visual references; manage expectations; offer correction |
-| Infection transmission | 🟡 Medium | Dirty tools spreading bacteria/fungi | Sanitize all tools between clients; use disposable supplies where required |
-
-**⚠️ IMPORTANT:**
-- Always patch test for color allergies — even if client says they've used it before, formulations change
-- Never bleach hair that shows signs of extreme damage — protein treatments first
-- If client mentions pregnancy, avoid certain chemicals (some developers, certain color lines)
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Hair Consultation Framework
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    HAIR ANALYSIS                        │
-├─────────────────────────────────────────────────────────┤
-│  FACE SHAPE        HAIR TYPE         LIFESTYLE          │
-│  ─────────────     ──────────        ──────────         │
-│  ○ Oval            ○ Fine            ○ Minimal effort   │
-│  ○ Round           ○ Medium          ○ Moderate effort  │
-│  ○ Square          ○ Thick           ○ High maintenance  │
-│  ○ Heart           ○ Curly           ○ Event-focused     │
-│  ○ Diamond         ○ Coily                                │
-│                                                         │
-│  ↓                    ↓                ↓               │
-│  CUT                 COLOR             STYLE            │
-│  Recommendation     Recommendation    Recommendation    │
-│  Based on frame     Based on desired  Based on routine  │
-└─────────────────────────────────────────────────────────┘
-```
-
-**Application:** Every great service starts with understanding the whole client. Skip the consultation, and you give a generic cut. Understand the client, and you give them *their* perfect cut.
-
-### 4.2 Guiding Principles
-
-1. **Cut for the client, not for yourself**: Your artistic vision matters less than what makes the client feel confident and manageable.
-2. **Color is an investment, not an expense**: Good color requires maintenance. Set realistic expectations about touch-ups (4-6 weeks for roots, 8-12 for balayage).
-3. **Health before beauty**: Damaged hair can't hold a style or color. Repair before transforming.
-4. **The consultation never ends**: Every interaction is an opportunity to learn more about what the client wants.
-5. **Education empowers clients**: Teach them *why* you're recommending something, so they can make informed decisions.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Shears (cutting scissors)** | Precision cutting; sharp, Japanese-style for clean cuts |
-| **Thinning shears** | Remove bulk in thick hair; texturize layered cuts |
-| **Razor** | Create soft edges, texture, layered looks; requires skill |
-| **Clippers** | Fades, tapered cuts, beard work |
-| **Sectioning clips** | Organize hair into sections for precise cutting |
-| **Tail comb** | Part hair precisely; create clean sections |
-| **Blow dryer** | Blowout styling; ionic and tourmaline for reduced damage |
-| **Flat iron
-| **Color bowl & brush** | Apply color precisely; avoid mess |
-| **Foil (highlighting)** | Foil technique for balayage and highlights |
-| **Gloves** | Protect hands from chemicals during color |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Face Shape Recommendations
-
-| Face Shape | Best Cuts | Avoid |
-|------------|-----------|-------|
-| **Oval** | Almost anything — versatile | Very short crops may elongate |
-| **Round** | Long bobs, layers with height on top; angled bobs | Blunt bobs at chin length (adds width) |
-| **Square** | Soft layers, waves, textured cuts | Sharp geometric lines |
-| **Heart** | Side-swept bangs, chin-length bobs | Heavy bangs (emphasize forehead) |
-| **Diamond** | Short bobs, layered looks; volume at bottom | Too much length at top |
-
-### 7.2 Hair Porosity Guide
-
-| Porosity | Characteristics | Best Treatments | Color Notes |
-|----------|-----------------|-----------------|-------------|
-| **Low** | Resistant to penetration; shines; takes long to dry | Protein treatments; apple cider vinegar rinses | Color takes longest; use higher volume developer |
-| **Medium** | Normal; absorbs and retains well | Balanced protein and moisture | Standard processing time |
-| **High** | Absorbs quickly; dries quickly; prone to frizz | Moisture-heavy treatments; leave-in conditioners | Color fades fastest; use semi-permanent; seal with gloss |
-
-### 7.3 Color Correction Guidelines
-
-| Problem | Cause | Solution | Time Required |
-|---------|-------|----------|---------------|
-| Orange roots, yellow lengths | Box dye over bleached hair | Bleach again to pale yellow; tone | 2-3 hours |
-| Brassy blonde | Warm tones not neutralized | Ash/blue/violet toner | 30-45 min |
-| Green tint | Blue-green pigments from demi-permanent | Red shampoo; clarifying treatment | 15-30 min |
-| Uneven color | Application error | Reapply to lighter areas; blend | 1-2 hours |
-| Too dark | Color selected too dark | Lightening treatment; color remover | 2-4 hours |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 The Complete Hair Consultation
-
-```
-Phase 1: Discovery (5-10 min)
-├── Greet; build rapport
-├── Ask: "What brings you in today?"
-├── Ask: "What do you love about your hair right now?"
-├── Ask: "What would you like to change?"
-├── Ask: "How much time do you spend on your hair at home?"
-└── Ask: "Any events or occasions we're preparing for?"
-
-Phase 2: Analysis (3-5 min)
-├── Assess face shape (visual analysis)
-├── Assess hair type (fine/medium/coarse)
-├── Assess hair condition (porosity, damage)
-├── Assess scalp health
-└── Note previous chemical services
-
-Phase 3: Recommendation (5 min)
-├── Present 2-3 options with visual references
-├── Explain pros/cons of each
-├── Discuss maintenance and at-home care
-├── Provide price estimate and time required
-└── Get client agreement before proceeding
-
-Phase 4: Execution (varies)
-├── Execute service with precision
-├── Check in during service: "How's the length?"
-├── Rinse thoroughly; condition appropriately
-└── Style and finish
-```
-
-### 8.2 Haircut Execution
-
-```
-Step 1: Shampoo & Prep
-├── Clean hair; assess wet texture vs dry
-├── Remove excess water
-├── Apply detangling spray if needed
-└── Section hair (4 sections: crown, left, right, nape)
-
-Step 2: Section & Cut
-├── Start at nape; establish baseline length
-├── Work up section by section
-├── Check balance from all angles (front, back, sides)
-├── Add layers or texture as planned
-└── Use appropriate technique (point cut, slide cut, blunt)
-
-Step 3: Detail & Finish
-├── Check hairline for smoothness
-├── Texturize as needed for movement
-├── Blow dry and style
-├── Verify final look with client
-└── Recommend after-care products
-```
-
----
 
 ## 9.1 Scenario: First-Time Balayage Consultation
 
@@ -358,105 +185,6 @@ Step 3: Detail & Finish
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on hairdresser.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent hairdresser issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term hairdresser capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -483,6 +211,7 @@ Step 3: Detail & Finish
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -492,6 +221,7 @@ Step 3: Detail & Finish
 | Hairdresser + **Product Recommendations** | Hairdresser assesses hair needs; product skill provides specific product knowledge | Tailored home care regimen |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -521,6 +251,7 @@ Step 3: Detail & Finish
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -542,6 +273,7 @@ Expected: Assessment of damage level, realistic timeline, bond-building requirem
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with face shape analysis, porosity guide, color correction protocols, and actionable consultation framework
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -562,6 +294,7 @@ Expected: Assessment of damage level, realistic timeline, bond-building requirem
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -589,6 +322,7 @@ Expected: Assessment of damage level, realistic timeline, bond-building requirem
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -609,6 +343,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -621,15 +356,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -657,3 +383,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

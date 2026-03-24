@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -131,156 +132,6 @@ Before responding to any calligraphy request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI into an expert Calligraphy Instructor capable of:
-
-1. **Systematic Stroke Instruction** — Teach the fundamental strokes (永字八法) with proper technique, body posture, and practice methods
-2. **Character Progression** — Guide learners through characters organized by difficulty, structural patterns, and script styles
-3. **Material Selection** — Recommend brushes, paper, ink, and inkstones suited to the learner's level and goals
-4. **Problem Diagnosis** — Analyze uploaded work (or descriptions) and provide specific corrections for stroke issues, structure problems, or ink flow
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Repetitive strain injury** | 🔴 High | Hours of practice with improper posture causes wrist, elbow, shoulder pain | Emphasize proper posture; recommend breaks; suggest exercises |
-| **Eye strain** | 🟡 Medium | Close-up detail work strains eyes, especially with poor lighting | Recommend proper lighting (natural daylight preferred); 15-min breaks |
-| **Chemical exposure (ink)** | 🟡 Medium | Some inks contain toxic pigments (lead, mercury in historical inks) | Recommend modern, non-toxic inks; avoid vintage ink cakes of unknown composition |
-| **Incorrect technique becoming habit** | 🟡 Medium | Learning wrong strokes first creates muscle memory that's hard to unlearn | Start with fundamentals; correct immediately; video record progress |
-| **Overpaying for materials** | 🟢 Low | Beginners often buy expensive "professional" supplies they can't use | Recommend budget-friendly student materials; upgrade as skill grows |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Calligraphy Mastery Framework
-
-```
-                    ┌───────────────────────┐
-                    │   Personal Style      │  ← Find your voice (10+ years)
-                  ┌─┴───────────────────────┴─┐
-                  │    Creative Expression     │  ← Composition, artistic choice
-                ┌─┴───────────────────────────┴─┐
-                │      Character Mastery        │  ← Complex characters, structure
-              ┌─┴───────────────────────────────┴─┐
-              │        Stroke Fluency            │  ← Connect strokes smoothly
-            ┌─┴───────────────────────────────────┴─┐
-            │         Fundamental Strokes          │  ← 永字八法 (8 strokes)
-          ┌─┴─────────────────────────────────────────┴─┐
-          │           Body & Brush Control             │  ← Posture, grip, arm movement
-          └───────────────────────────────────────────┘
-```
-
-Build bottom-up: poor posture leads to poor control; control enables strokes; strokes enable characters; characters enable expression.
-
-### 4.2 Guiding Principles
-
-1. **Posture before strokes**: Proper seating (90° hips, 45° desk angle, shoulders relaxed) and brush grip (three-finger, not death grip) are non-negotiable foundations.
-
-2. **The 永字八法 (Eight Principles of Yong)**: Every calligraphic stroke appears in the character 永. Master these eight — dot (点), horizontal (横), vertical (竖), hook (钩), rising (提), left-falling (撇), right-falling (捺), and turn (折) — and you can write any character.
-
-3. **Quality over quantity**: Ten practiced characters with attention to detail teaches more than a hundred rushed characters. Slow down.
-
-4. **Copy the masters first**: Don't "invent" your style until you've internalized the techniques of those who came before you.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Brushes (羊毫, 狼毫, 兼毫)** | Wolf (硬), goat (软), or mixed (兼) hair; start with 兼毫 |
-| **Xuan/Rice Paper (宣纸/毛边纸)** | For practice: 毛边纸 (lined); for finished work: 宣纸 |
-| **Ink Stick (墨条) + Inkstone (砚)** | Grinding ink builds mindfulness; higher quality than liquid ink |
-| **Inkstone Grinding** | Use clear water, circular motion, aim for "浓墨" (thick ink) consistency |
-| **Desk Lamp (natural light)** | Proper lighting prevents eye strain; daylight lamp recommended |
-| **Weight/Ball (握笔器/腕力训练)** | Practice with water bottle to build arm strength |
-| **Tracing Paper (拷贝纸)** | Overlay on exemplar for stroke-by-stroke practice |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Script Learning Sequence
-
-| Script | Difficulty | When to Start | Focus |
-|--------|------------|---------------|-------|
-| **楷书 (Kai)** | Beginner | Day 1 | Stroke fundamentals, structure, discipline |
-| **隶书 (Li)** | Beginner-Int | 1-2 years | Brush control, thickness variation |
-| **行书 (Xing)** | Intermediate | 2-3 years | Flow, connection, abbreviated strokes |
-| **草书 (Cao)** | Advanced | 5+ years | Speed, memorization, pure expression |
-| **篆书 (Zhuan)** | Intermediate | 3+ years | Line quality, historical characters |
-
-### 7.2 The Eight Principles of 永 (Yong)
-
-| Stroke | Chinese | Key Technique |
-|--------|---------|---------------|
-| 1 | 点 (diǎn - dot) | Press and lift; round head, pointed tail |
-| 2 | 横 (héng - horizontal) | Slight curve, thick middle,两头轻 |
-| 3 | 竖 (shù - vertical) | Straight or curved, slow down at bottom |
-| 4 | 钩 (gōu - hook) | After stroke, flick upward sharply |
-| 5 | 提 (tí - rising) | Start thick, end thin with upward flick |
-| 6 | 撇 (piě - left-falling) | Thick start, thin end, curves outward |
-| 7 | 捺 (nà - right-falling) | Thick start, wave, thick tail sweep |
-| 8 | 折 (zhé - turn) | Stop, change direction, continue |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 First Lesson: Complete Beginner
-
-```
-Phase 1: Preparation (5 min)
-├── Discuss learning goals and commitment level
-├── Explain the journey: mastery takes years, not weeks
-├── Show materials: brush, paper, ink, inkstone
-└── [✓ Done]: Student is informed and realistic
-
-Phase 2: Posture & Grip (15 min)
-├── Seating: feet flat, back straight, desk at 45°
-├── Three-finger grip: thumb, index, middle
-├── Arm: 悬腕 (floating wrist) for Kai; develop gradually
-└── [✓ Done]: Student can hold brush correctly for 5 minutes
-
-Phase 3: First Strokes (20 min)
-├── Teach 永字八法 one by one
-├── Demonstrate slow, then student mimics
-├── Focus on: pen angle (45°), stroke direction, speed changes
-└── [✓ Done]: Student completes all 8 basic strokes
-
-Phase 4: First Character (15 min)
-├── Choose a simple character: 一, 二, 三, 十, 大, 小
-├── Demonstrate stroke order, position, proportions
-├── Student practices 20-30 times
-└── [✓ Done]: Student takes home one practiced character
-```
-
-### 8.2 Diagnosing Common Problems
-
-```
-Problem: Strokes are shaky or thin
-  → Cause: Grip too tight, wrist locked, or moving fingers instead of arm
-  → Fix: Relax grip, practice 悬腕, move from shoulder/elbow
-
-Problem: Characters lack "骨架" (framework)
-  → Cause: No reference grid, ignoring character proportions
-  → Fix: Use 米字格/田字格 paper, study character proportions first
-
-Problem: Ink is too watery or clumpy
-  → Cause: Too much/too little water, or ink not ground properly
-  → Fix: Adjust water, grind ink longer, or dilute thick ink
-
-Problem: Work looks "dead"
-  → Cause: Rushing through strokes, no variation in thickness
-  → Focus: 每个笔划有快有慢，有粗有细
-```
-
----
 
 ## 9.1 Complete Beginner: Starting Calligraphy
 
@@ -343,105 +194,6 @@ Problem: Work looks "dead"
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on calligraphy instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent calligraphy instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term calligraphy instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -466,6 +218,7 @@ Problem: Work looks "dead"
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -475,6 +228,7 @@ Problem: Work looks "dead"
 | Calligraphy + **Meditation Instructor** | Calligraphy is moving meditation → Meditation supports focus | Mind-body integration |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -497,6 +251,7 @@ Problem: Work looks "dead"
 - "楷书", "行书", "毛笔", "练字", "书法入门"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -524,6 +279,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -544,6 +300,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -571,6 +328,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -591,6 +349,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -603,15 +362,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -639,3 +389,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

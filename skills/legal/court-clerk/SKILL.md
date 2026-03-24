@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -127,156 +128,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Case File Management** — Maintain accurate, complete case files; track case status, deadlines, and filings
-2. **Document Processing** — Receive, file, docket, and distribute court documents per rules
-3. **Hearing Preparation** — Prepare courtroom, assemble case files, assist during proceedings
-4. **Records Maintenance** — Archive, retrieve, and manage official court records
-5. **Administrative Support** — Manage court calendar, coordinate with attorneys, issue court orders
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Filing Errors** | 🔴 High | Incorrect filing can result in missed deadlines or case dismissal | Verify requirements; use checklists; double-check filings |
-| **Confidentiality Breach** | 🔴 High | Unauthorized disclosure of case information | Follow access controls; use secure systems |
-| **Deadline Mismanagement** | 🔴 High | Missing court deadlines can cause serious harm | Docketing system; reminder protocols; verification |
-| **Record Alteration** | 🔴 High | Unauthorized changes to court records | Audit trails; proper authorization; verification |
-| **Procedural Errors** | 🟡 Medium | Deviations from court rules cause delays | Training; reference materials; supervisor review |
-
-**⚠️ IMPORTANT:**
-- Court clerks cannot provide legal advice. They can only provide procedural information about court processes.
-- Court records are confidential in most jurisdictions. Access requires proper authorization.
-- Each court has specific rules. Always verify local requirements before taking action.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Court Document Processing Flow
-
-```
-                    ┌─────────────────────────────────────────┐
-                    │        DOCUMENT RECEIPT                  │
-                    └──────────────────┬──────────────────────┘
-                                       │
-                    ┌──────────────────┼──────────────────────┐
-                    ▼                  ▼                      ▼
-              Complete             Incomplete             Rejected
-                │                      │                      │
-                ▼                      ▼                      ▼
-    ┌───────────────────┐    ┌─────────────────┐    ┌──────────────────┐
-    │ 1. Verify        │    │ 1. Return to   │    │ 1. Document      │
-    │    filing        │    │    filer        │    │    rejection     │
-    │ 2. Assign case   │    │ 2. Specify      │    │ 2. Explain       │
-    │ 3. Docket entry  │    │    deficiencies  │    │    deficiency    │
-    │ 4. Distribute    │    │ 3. Set deadline │    │ 3. Keep copy     │
-    │ 5. Archive       │    │    to cure      │    │    for record    │
-    └───────────────────┘    └─────────────────┘    └──────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Accuracy First**: Every docketing entry, every filed document, every record must be exactly correct. Errors create downstream problems.
-2. **Process Over Outcome**: Focus on following correct procedures; the judge decides the case, not the clerk.
-3. **Neutrality Always**: Serve the court, not the parties. Treat all parties equally regardless of case outcome.
-4. **Security Paramount**: Court records contain sensitive information. Protect confidentiality at all times.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Case Management System (CMS)** | Docketing, case tracking, deadline management |
-| **Court Forms Library** | Required forms by case type and court |
-| **Docketing Checklist** | Verify complete filing before processing |
-| **Calendar Management** | Schedule hearings, trials, deadlines |
-| **Transcript Format Template** | Standard format for hearing recordings |
-| **Records Request Form** | Standard form for public records requests |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Filing Standards
-
-| Standard| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Electronic Filing (ECF)** | Most federal and state courts | 1. Create account → 2. Upload document → 3. Pay fee → 4. Receive confirmation |
-| **Manual Filing** | Courts without ECF or restricted documents | 1. Prepare document → 2. Submit to clerk → 3. Pay fee → 4. Receive file-stamped copy |
-| **Service Requirements** | Documents requiring notice to parties | 1. File document → 2. Prepare certificate of service → 3. Serve all parties → 4. File proof of service |
-
-### 7.2 Court Record Standards
-
-| Record Type| Retention| Access|
-|--------------|--------------|---------------|
-| **Case Files** | Varies by case type (often permanent) | Authorized personnel only |
-| **Hearing Transcripts** | Permanent | Parties, attorneys, public (with exceptions) |
-| **Court Orders** | Permanent | Public access |
-| **Exhibits** | Varies by court rule | Court discretion |
-
-### 7.3 Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Filing Accuracy** | Correct filings
-| **Processing Time** | Time from receipt to docketing | < 24 hours |
-| **Record Retrieval** | Requests fulfilled
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Document Filing Workflow
-
-```
-Phase 1: Document Intake
-├── Receive: paper or electronic filing
-├── Log: date/time of receipt
-├── Verify: filer information complete
-└── Initial review: complete or deficient
-
-Phase 2: Technical Review
-├── Check: proper form and format
-├── Verify: required fees paid or fee waiver granted
-├── Confirm: parties listed correctly
-├── Review: required attachments included
-└── Identify: any procedural issues
-
-Phase 3: Docketing
-├── Assign: unique case number (or verify existing)
-├── Enter: docket entry with description
-├── Scan: document to case file (if paper)
-├── Index: document by type and date
-└── Distribute: to appropriate parties or judge
-
-Phase 4: Archive
-├── Store: original document in case file
-├── Update: case management system status
-└── Notify: parties of filing (if required)
-```
-
-### 8.2 Hearing Preparation Workflow
-
-```
-Step 1: Case Review
-   → Review case file, pending motions, prior orders
-Step 2: Courtroom Setup
-   → Ensure equipment working, exhibits organized, seating prepared
-Step 3: Document Assembly
-   → Prepare judge's bench copy, all case documents
-Step 4: Calendar Check
-   → Verify hearing time, participants, special requirements
-Step 5: Day-of Support
-   → Escort parties, manage exhibits, record proceedings
-```
-
----
 
 ## 9.1 Document Filing Support
 
@@ -321,105 +172,6 @@ Step 5: Day-of Support
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on court clerk.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent court clerk issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term court clerk capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -441,6 +193,7 @@ Step 5: Day-of Support
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -451,6 +204,7 @@ Step 5: Day-of Support
 | Court Clerk + **Paralegal** | Paralegal prepares filings → CC reviews and processes | Efficient filing workflow |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -479,6 +233,7 @@ Step 5: Day-of Support
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -500,6 +255,7 @@ Expected: Process for accessing case records, authorization requirements, fees, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive court clerk content, document workflows, proper procedural guidance, neutrality in handling parties, risk disclaimers
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -520,6 +276,7 @@ Expected: Process for accessing case records, authorization requirements, fees, 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -547,6 +304,7 @@ Expected: Process for accessing case records, authorization requirements, fees, 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -567,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -579,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -615,3 +365,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

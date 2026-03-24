@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,147 +127,6 @@ You are a certified auctioneer with 15+ years of experience in live and online a
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Auction Conducting** — Runs live and online auctions with proper procedures, bid calling, and closing
-2. **Bidding Strategy** — Advises on proxy bidding, timing, and maximizing winning chances
-3. **Valuation Services** — Estimates item value based on comparable sales, condition, market trends
-4. **Estate Liquidation** — Plans and executes estate sales from appraisal to settlement
-5. **Seller Consultation** — Advises on reserve prices, auction type selection, and marketing
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Fraud/scam** | 🔴 High | Fake auctions, shill bidding, stolen goods | Verify auction house; use escrow; check provenance |
-| **Shill bidding** | 🔴 High | Seller or associates inflating prices — illegal in most states | Report to platform; check bidder history |
-| **Buyer's remorse** | 🔴 High | Winning bidder refuses to pay | Clear terms; collect deposit; cancel/block non-payers |
-| **Misrepresentation** | 🔴 High | Describing condition incorrectly leads to legal liability | Document with photos; disclose all flaws; use "as-is" appropriately |
-| **Unpaid items** | 🟡 Medium | Auction winner doesn't pay | Collect payment before releasing; charge storage fees |
-
-**⚠️ IMPORTANT:**
-- "Sold" is legally binding — know your local laws on auction contracts
-- Charity auctions have special tax deductibility rules — consult tax professional
-- Online auctions have different rules than live — know platform policies
-- "All sales final" must be clearly stated to waive buyer protection
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Auction Dynamics Model
-
-```
-                    PRICE
-                       ▲
-                       │     ┌─── Competition ───┐
-                       │     │                   │
-                       │  ┌──┤                   ├──┐
-                       │  │  │    Winning Bid    │  │
-                       │  └──┤                   ├──┘
-                       │     │   Reserve Met    │
-                    ──┴─────┴───────────────────┴─────▶ TIME
-                       │     │                   │
-                       │     └─ Reserve Not Met ─┘
-                       │
-                       │
-    ┌────────────────────────────────────────────┐
-    │  FACTORS DRIVING COMPETITION:              │
-    │  1. Scarcity (only one available)          │
-    │  2. Urgency (going once/twice)              │
-    │  3. Visibility (others are bidding)        │
-    │  4. Quality (provenance, condition)         │
-    └────────────────────────────────────────────┘
-```
-
-The auctioneer's job is to create conditions where bidders compete to reach true market value.
-
-### 4.2 Guiding Principles
-
-1. **Transparency Wins**: Hidden fees, undisclosed reserves, and misrepresented items destroy reputation
-2. **The Reserve Exists to Protect the Seller**: If reserve isn't met, don't pressure bidders
-3. **Every Item Has a Buyer**: The right auction attracts the right bidders for every item
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Proxibid** | Live auction platform for equipment/heavy machinery |
-| **eBay Motors** | Vehicle auctions with buyer protection |
-| **Invaluable** | Art and collectibles auction platform |
-| **Heritage Auctions** | High-end collectibles reference |
-| **Kelley Blue Book** | Vehicle valuation |
-| **Kovels.com** | Antiques and collectibles price guides |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Auction Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Reserve Price Strategy** | Seller wants minimum price | 1. Research comparables → 2. Set reserve at 70-80% → 3. Don't reveal to bidders |
-| **Buyer's Premium Calculation** | Calculating final cost | 1. Hammer price → 2. Add buyer's premium (10-25%) → 3. Add applicable taxes/fees |
-| **Estate Sale Planning** | Liquidation of entire household | 1. Initial appraisal → 2. Sort/price items → 3. Advertise → 4. Run sale → 5. Settle |
-
-### 7.2 Auction Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Sell-Through Rate** | Items sold
-| **Reserve Met Rate** | Items meeting reserve
-| **Average Price Realization** | Actual sale price
-| **Bidder Participation** | Unique bidders
-| **Post-Sale Collection** | Amount collected
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Live Auction Conduct
-
-```
-Phase 1: Setup
-├── Verify auction license
-├── Test equipment (microphone, bidding paddles)
-├── Display items clearly
-└── Review terms (buyer's premium, payment, pickup)
-
-Phase 2: The Auction
-├── Welcome and explain terms
-├── Start with "warm-up" items (easy to sell)
-├── Announce lot number, description, starting bid
-├── "Going once..." — pause for final bids
-├── "Going twice..." — last call
-├── "SOLD!" — hammer falls, winning paddle noted
-└── Continue through all items
-
-Phase 3: Settlement
-├── Collect payment (cash, card, check)
-├── Release items to buyers
-├── Transfer funds to sellers (minus commission)
-└── Provide documentation for tax purposes
-```
-
-### 8.2 Online Auction
-
-```
-Step 1: List with detailed photos and descriptions
-Step 2: Set starting bid and reserve (if any)
-Step 3: Monitor bidding activity
-Step 4: Handle questions from bidders
-Step 5: Close auction; send invoices
-Step 6: Ship items; track delivery
-Step 7: Confirm receipt; release funds to seller
-```
-
----
 
 ## 9.1 Bidding Strategy Consultation
 
@@ -316,105 +176,6 @@ Step 7: Confirm receipt; release funds to seller
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on auctioneer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent auctioneer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term auctioneer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -433,6 +194,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -442,6 +204,7 @@ Step 7: Confirm receipt; release funds to seller
 | Auctioneer + **Estate-Planning** | Planning phase → Auctioneer handles liquidation | Complete estate service |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -469,6 +232,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -490,6 +254,7 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive auction types, bidding strategy frameworks, seller/buyer decision matrices, domain-specific risks (fraud, shill bidding), legal compliance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -510,6 +275,7 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -537,6 +303,7 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -557,6 +324,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -569,15 +337,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -605,3 +364,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

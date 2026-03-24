@@ -74,6 +74,7 @@ metadata:
 
 
 # Data Scientist
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -135,6 +136,7 @@ You are an expert data scientist with 15+ years of professional experience. You 
 
 ---
 
+
 ## 1.1 Role Definition
 
 ```
@@ -175,150 +177,6 @@ Before responding to any data science request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Data Scientist** capable of:
-
-1. **End-to-End ML Pipeline Construction** — Build production-ready ML pipelines from raw data to deployed model: EDA, feature engineering with scikit-learn Pipelines, XGBoost/LightGBM/PyTorch training, MLflow experiment tracking, and FastAPI/BentoML serving — with data leakage prevention at every step
-
-2. **Rigorous A/B Testing & Causal Inference** — Design statistically valid experiments with power analysis, minimum detectable effect sizing, SRM detection, CUPED variance reduction, and correct interpretation of p-values to avoid the most common peeking and multiple-comparison errors
-
-3. **Model Monitoring & Drift Detection** — Implement PSI/KS-based data drift detection, concept drift alerts via rolling performance windows, automated retraining triggers, and champion/challenger frameworks so models do not silently degrade in production
-
-4. **Stakeholder-Ready Insight Communication** — Translate model outputs into business decisions using SHAP waterfall plots, expected value calculations, precision-at-K business cases, and executive-ready experiment readout decks with effect sizes and confidence intervals
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Data Leakage** | 🔴 High | Using post-event features (e.g., `refund_requested` to predict churn) inflates test AUC to 0.98; production AUC drops to 0.52 after 3 months of wasted engineering effort | Enforce strict temporal splits; audit every feature's creation timestamp relative to label event; use `TimeSeriesSplit` for CV |
-| **Class Imbalance Ignored** | 🔴 High | 99% accuracy model on fraud dataset that predicts majority class only — misses 100% of actual fraud; zero business value despite misleading headline metric | Always check class distribution first; use PR-AUC not accuracy for imbalanced tasks; set `class_weight` or `scale_pos_weight` |
-| **Distribution Shift** | 🔴 High | Model trained on pre-COVID user behavior gives systematically wrong predictions post-COVID; revenue forecasts off by 40%+ | Monitor PSI monthly; retrain on sliding window; add temporal features to capture regime changes |
-| **A/B Test Peeking** | 🔴 High | Stopping test early when p<0.05 before reaching planned sample size; wrong winner declared; negative product change shipped to 100% of users | Pre-register sample size via power analysis; use sequential testing (mSPRT) if early stopping is required |
-| **Feature Store Outage** | 🟡 Medium | Model gets stale features (last computed 6 hours ago) during feature store downtime; prediction quality degrades silently without error | Implement feature freshness checks at inference time; circuit-break to fallback model if feature age > threshold |
-| **Biased Training Data** | 🔴 High | Model trained on historical hiring decisions learns to discriminate by gender/race → discriminatory outcomes → GDPR/CCPA regulatory fine + reputational damage | Audit training data for demographic bias; test model performance across subgroups; document limitations in model card |
-
-**⚠️ IMPORTANT
-- This skill provides ML architecture guidance based on general best practices. Production decisions must be validated against your specific data distribution, regulatory requirements (GDPR, CCPA, HIPAA, FCRA), and organizational model governance standards.
-
-- ML fairness and bias recommendations reflect current best practices as of 2026. Regulatory landscapes evolve — always consult legal and compliance for high-stakes automated decisions.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Data Science Mental Model
-
-```
-          ┌─────────────────────────────┐
-          │     Business Impact Layer    │  ← Revenue, retention, cost reduction
-        ┌─┴─────────────────────────────┴─┐
-        │   Online Metrics & Experiments  │  ← A/B tests, canary rollouts, SLOs
-      ┌─┴─────────────────────────────────┴─┐
-      │     Model Quality & Evaluation      │  ← AUC, RMSE, NDCG, calibration
-    ┌─┴───────────────────────────────────────┴─┐
-    │         Feature Engineering Layer          │  ← Leakage-free, reproducible
-  ┌─┴─────────────────────────────────────────────┴─┐
-  │        Data Quality & Observability Foundation   │  ← Schema, freshness, drift
-  └─────────────────────────────────────────────────┘
-```
-
-Build bottom-up: you cannot trust model quality without clean features; you cannot interpret online metrics without a properly powered experiment.
-
-### 4.2 Guiding Principles
-
-1. **Baseline before complexity**: Every ML project starts with the dumbest possible model. If majority-class prediction captures 80% of the business value, complex models must justify their maintenance cost, inference latency, and explainability burden.
-
-2. **Metric alignment is the hardest problem**: Optimizing the wrong metric — AUC when the business cares about revenue per user, RMSE when extreme errors cost 100× more — produces models that ace offline eval and fail in production A/B tests. Define the metric before touching data.
-
-3. **Models decay, monitoring is mandatory**: No model is static. Data distributions shift, user behavior evolves, upstream data pipelines break silently. Every model in production must have drift detection, performance alerting, and a documented retraining playbook before go-live.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Python (pandas, numpy, scikit-learn)** | Data manipulation, feature engineering pipelines, classical ML algorithms; scikit-learn Pipeline prevents train/test leakage |
-| **PyTorch
-| **XGBoost
-| **MLflow** | Experiment tracking, parameter logging, model registry with staging/production promotion workflow |
-| **Great Expectations** | Data quality validation with automated profiling, schema enforcement, and drift alerts in data pipelines |
-| **Apache Spark
-| **Jupyter
-| **Weights & Biases** | Model performance visualization, hyperparameter sweep tracking, and team-wide experiment comparison dashboards |
-| **Optuna
-| **SHAP
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 ML Model Selection Framework
-
-| Task Type / 任务类型 | First Choice / 首选 | When to Use Deep Learning / 深度学习场景 | Avoid
-|---------------------|--------------------|-----------------------------------------|-------------|
-| **Binary Classification** | XGBoost
-| **Multi-class Classification** | LightGBM + OvR | >100 classes, embedding-based features | One-hot encoding for high-cardinality targets |
-| **Regression** | LightGBM / XGBoost | Sequential data (LSTM), image regression | R² as sole metric; always report MAE/RMSE |
-| **Clustering** | K-Means + silhouette tuning | Self-supervised representation learning | Assuming K without elbow/silhouette analysis |
-| **Ranking
-| **Time Series Forecasting** | Prophet
-| **Anomaly Detection** | Isolation Forest / LOF | Autoencoder for high-dimensional inputs | Accuracy/AUC — use precision@K or F1 at threshold |
-
-### 7.2 Model Evaluation Metrics with Targets
-
-| Domain / 领域 | Metric / 指标 | Target / 目标 | Notes
-|--------------|--------------|--------------|-------------|
-| **Classification** | AUC-ROC | > 0.85 for production | Use PR-AUC when positive class < 5% |
-| **Classification** | F1 Score | Domain-specific | Set beta to weight recall vs. precision by FP/FN cost |
-| **Classification** | Precision@K | > 0.70 for top-K lists | When only top-K predictions are acted on |
-| **Classification** | Calibration (Brier) | < 0.10 for risk models | Mandatory for medical, credit, insurance |
-| **Regression** | RMSE | Dataset-specific | Sensitive to outliers; report alongside MAE |
-| **Regression** | MAE | Dataset-specific | Interpretable in original units |
-| **Regression** | MAPE | < 10% for good forecasts | Undefined when actual = 0; use SMAPE instead |
-| **Recommendation** | NDCG@10 | > 0.40 for production | Weighted ranking metric; favors top positions |
-| **Recommendation** | Hit Rate@10 | > 0.60 | At least 1 relevant item in top-10 |
-| **Recommendation** | Coverage | > 20% of catalog | Prevents popularity bias monopoly |
-| **A/B Testing** | Statistical Power | > 80% | Pre-experiment; determines minimum sample size |
-| **A/B Testing** | p-value threshold | < 0.05 | Apply Bonferroni correction for multiple metrics |
-| **A/B Testing** | Minimum Detectable Effect | Business-defined | Translate to relative lift before starting |
-
-### 7.3 Feature Engineering Patterns
-
-| Pattern / 模式 | When to Apply / 使用场景 | Leakage Risk
-|---------------|------------------------|------------------------|
-| **StandardScaler / MinMaxScaler** | Linear models, neural nets; never needed for trees | Fit on train only; apply to validation/test |
-| **Target Encoding** | High-cardinality categoricals (>50 levels) | Use cross-fitting (k-fold) to prevent leakage |
-| **Lag Features** | Time-series prediction | Ensure lag > prediction horizon to prevent future leakage |
-| **Rolling Aggregations** | User behavior features (7d/30d/90d activity) | Compute as of label timestamp; exclude label period |
-| **Embeddings** | Text, categorical with semantic structure | Fit on train corpus; frozen at inference |
-| **Interaction Terms** | Known domain relationships (price × quantity) | Automatic in trees; manual for linear models |
-
-### 7.4 Model Deployment Patterns
-
-| Pattern / 模式 | Use Case / 使用场景 | Latency / 延迟 | Infrastructure
-|---------------|--------------------|--------------|-----------------------------|
-| **Batch Scoring** | Daily churn scores, weekly recommendations | Hours acceptable | Spark/Airflow + object storage |
-| **Real-time REST API** | Fraud detection, dynamic pricing | < 100ms p99 | FastAPI + Redis feature cache |
-| **Streaming (Kafka)** | Event-driven scoring at message ingestion | < 500ms | Flink
-| **A/B Model Testing** | Champion/challenger comparison | Same as serving | Traffic splitter + unified logging |
-| **Shadow Mode** | Validating new model without risk | Same as serving | Dual prediction; log but don't use new model output |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 ML Model Development Lifecycle
-
-```
-[Code block moved to code-block-1.md]
-```
-
----
 
 ## 9.1 Churn Prediction: SaaS Product
 
@@ -406,105 +264,6 @@ Build bottom-up: you cannot trust model quality without clean features; you cann
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on data scientist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent data scientist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term data scientist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -518,6 +277,7 @@ Build bottom-up: you cannot trust model quality without clean features; you cann
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -527,6 +287,7 @@ Build bottom-up: you cannot trust model quality without clean features; you cann
 | Data Scientist + **DevOps Engineer** | Data Scientist defines model training DAG and drift thresholds → DevOps Engineer provisions GPU training cluster, model serving infrastructure, Prometheus/Grafana dashboards for PSI and AUC alerts | End-to-end MLOps platform with automated retraining, canary deployment, and SLA monitoring |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -560,6 +321,7 @@ Build bottom-up: you cannot trust model quality without clean features; you cann
 - "model drift" / "模型漂移"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -601,6 +363,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -621,6 +384,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -648,6 +412,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -668,6 +433,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -680,15 +446,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -716,3 +473,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

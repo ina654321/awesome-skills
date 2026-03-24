@@ -63,6 +63,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ```
@@ -71,365 +72,6 @@ metadata:
 
 ---
 
-## § 2 What This Skill Does
-
-This skill enables 6 specific, measurable capabilities for AI-assisted drug design:
-
-1. **Target Structure Analysis**: Interprets AlphaFold2/3 and experimental structures, identifies binding pockets with fpocket/SiteMap, assesses druggability scores (Dscore > 0.5), and maps key pharmacophore features with uncertainty quantification from pLDDT scores.
-
-2. **De Novo Molecular Generation**: Runs and interprets outputs from DiffSBDD, TargetDiff, REINVENT 4, and LIMO for pocket-conditioned molecular generation; filters by Lipinski/Veber rules, synthetic accessibility (SA score < 4), and novelty against known databases.
-
-3. **ADMET Profile Prediction & Risk Stratification**: Predicts and interprets ADMET endpoints across absorption, distribution, metabolism, excretion, and toxicity; assigns risk tiers (LOW/MEDIUM/HIGH) across 12+ endpoints with structural alert detection (PAINS, Brenk, NIH).
-
-4. **GNN-QSAR Model Building**: Designs and validates graph neural network QSAR models using AttentiveFP, MPNN, or SchNet on ChEMBL/BindingDB data; reports R2, RMSE, and applicability domain; flags extrapolation predictions.
-
-5. **Hit-to-Lead Optimization**: Conducts systematic SAR analysis, proposes bioisosteres and scaffold hops, performs multi-parameter optimization using weighted desirability functions, and tracks compound evolution through ADMET/potency space.
-
-6. **Active Learning & Synthesis Prioritization**: Implements Bayesian optimization and uncertainty-aware acquisition functions (EI, UCB, Thompson sampling) to rank compound proposals for synthesis, minimizing experimental cycles to reach candidate quality.
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| False positive ADMET predictions from in silico tools | HIGH | Compounds advanced without real liabilities flagged, wasting synthesis/testing resources | Always confirm with orthogonal wet-lab assays (kinetic solubility, microsomal stability, Caco-2) before major investment |
-| Structure prediction errors in AlphaFold models (low pLDDT regions) | HIGH | Incorrect binding pocket geometry leads to wrong pharmacophore hypotheses and useless docking poses | Use only high-confidence regions (pLDDT > 70); confirm with experimental structure when progressing beyond hit stage |
-| PAINS/reactive compound false negatives | HIGH | Compounds with promiscuous mechanisms selected as hits, corrupting SAR campaigns | Screen every compound against PAINS, Brenk, and NIH alert filters; validate with counter-assays (thermal shift, NMR) |
-| Dataset bias in QSAR models | MEDIUM | Models trained on biased chemical series extrapolate poorly, misleading SAR interpretation | Define applicability domain; report RMSE and uncertainty on held-out external test set |
-| Regulatory non-compliance in candidate selection | CRITICAL | IND rejection or clinical hold due to unresolved genotoxicity, hERG risk, or metabolic liabilities | Consult FDA/ICH guidelines (M7, S7B) early; flag genotoxic alerts and hERG predictions at lead stage |
-| Intellectual property conflicts in generated structures | MEDIUM | AI-generated molecules may reproduce patented structures, creating freedom-to-operate issues | Run generated structures against patent databases (SureChEMBL, Derwent) before synthesis |
-| Overconfidence in virtual screening rankings | HIGH | Docking scores are highly approximate; top-ranked virtual hits have low experimental confirmation rates (5-20%) | Treat docking results as hypothesis generators; require experimental validation before any resource commitment |
-
----
-
-## § 4 Core Philosophy
-
-```
-[Code block moved to code-block-2.md]
-```
-
-**Principle 1 — Structure Drives Design**: Every atom added or removed must be justified by an explicit 3D interaction hypothesis. Blind physicochemical optimization without structural context wastes cycles and erodes SAR understanding.
-
-**Principle 2 — Predict Early, Fail Cheap**: ADMET liabilities and toxicological alerts must be assessed computationally at the idea stage. A compound failing hERG or showing genotoxic alerts in silico costs nothing to eliminate; the same failure post-synthesis costs weeks and thousands of dollars.
-
-**Principle 3 — Uncertainty is Data**: Every prediction carries confidence bounds. Communicate model uncertainty, applicability domain limits, and assay variability explicitly. Decision-making under uncertainty requires quantified risk, not point estimates.
-
----
-
-
-## § 6 Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **AlphaFold2
-| **RoseTTAFold** | Alternative structure prediction with better multi-chain modeling | Protein-protein complexes, antibody modeling |
-| **AutoDock Vina
-| **Glide (Schrodinger)** | High-accuracy docking with physics-based scoring | Lead optimization, pose refinement in commercial pipeline |
-| **REINVENT 4** | Reinforcement learning-based de novo molecular generation | Scaffold decoration, bioisostere generation, MPO-directed optimization |
-| **DiffSBDD
-| **SchNet
-| **ADMETlab 2.0** | Comprehensive in silico ADMET prediction platform | Early ADMET profiling, structural alert detection |
-| **SwissADME** | Free ADMET and drug-likeness prediction | Quick Lipinski/Veber check, BBB penetration, oral bioavailability |
-| **RDKit** | Cheminformatics toolkit (Python) | Fingerprint generation, similarity search, structure manipulation, SA score |
-| **DeepPurpose** | Deep learning for DTI and ADMET prediction | Drug-target interaction modeling with sequence or structure inputs |
-| **BoTorch** | Bayesian optimization library (PyTorch) | Active learning for compound prioritization under uncertainty |
-| **SureChEMBL / Derwent** | Patent structure search | Freedom-to-operate analysis on generated/proposed structures |
-
----
-
-## § 7 Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a ai drug design scientist matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this ai drug design scientist challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex ai drug design scientist issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term ai drug design scientist strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in ai drug design scientist. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
-
----
 
 ## § 10 Common Pitfalls
 
@@ -499,6 +141,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 11 Integration with Other Skills
 
 ### Integration 1: AI Drug Design + Synthetic Biologist
@@ -514,6 +157,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 **Specific outcome:** Design metabolic checkpoint inhibitors (e.g., A2aR antagonists, IDO1 inhibitors) that relieve TME-mediated immunosuppression. The AI Drug Design skill optimizes the small molecule for CNS penetration/TME distribution and ADMET; the Cell Therapy Scientist skill designs the combination protocol, dosing schedule, and in vitro/in vivo evaluation in co-culture tumor models.
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -552,6 +196,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 Quality Verification
 
 ### Self-Checklist (8 items)
@@ -579,6 +224,7 @@ Input: "50 compounds with pIC50 data, 5000 virtual library, want next 10 synthes
 Expected output: Morgan fingerprint featurization, GP surrogate model training code, EI acquisition function scoring of virtual library, top-10 selection with uncertainty estimates, instructions for iterative updating after each synthesis batch.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -599,6 +245,7 @@ Expected output: Morgan fingerprint featurization, GP surrogate model training c
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -627,6 +274,7 @@ Expected output: Morgan fingerprint featurization, GP surrogate model training c
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -647,6 +295,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -659,15 +308,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -689,3 +329,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

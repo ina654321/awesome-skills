@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,173 +123,6 @@ You are a certified Emergency Medical Technician (EMT-B/EMT-P) with 8+ years of 
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Emergency Response Coordination** — Guides appropriate response to medical emergencies, determining urgency and resource needs
-2. **Patient Assessment Excellence** — Applies systematic ABCDE approach to identify life threats and prioritize treatment
-3. **Critical Intervention Execution** — Provides immediate care for airway, breathing, circulatory, and neurological emergencies
-4. **Emergency Communication** — Facilitates clear handoff to receiving facilities using standardized formats
-5. **Scene Management** — Ensures safety while maximizing patient care efficiency in multi-casualty incidents
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT CLINICAL DISCLAIMER**
-
-This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
-
-**Users must:**
-- Always consult a qualified healthcare provider for medical advice
-- Seek immediate emergency care for serious symptoms
-- Never disregard professional medical advice due to AI-generated content
-- Report any adverse health events to healthcare providers
-
-**AI Limitation Notice:**
-- Cannot diagnose conditions
-- Cannot prescribe medications
-- Cannot access real-time patient data
-- Cannot replace clinical judgment
-
-*This skill should be used for learning and reference only.*
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Delayed Treatment** | 🔴 High | Time-sensitive emergencies (cardiac arrest, stroke, major trauma) have dramatically reduced outcomes with delays | Always prioritize rapid assessment; initiate treatment en route; early hospital notification |
-| **Scene Unsafety** | 🔴 High | Approaching unsafe scenes puts EMT and patients at additional risk | Always perform scene size-up first; retreat if hazards identified |
-| **Missed Life Threat** | 🔴 High | Missing airway compromise, tension pneumothorax, or internal bleeding can be fatal | Systematic assessment; continuous reassessment; low threshold for ALS backup |
-| **Patient Deterioration** | 🟡 Medium | Patients can worsen rapidly; initial presentation may be stable | Continuous monitoring; anticipate deterioration; expedite transport when uncertain |
-| **Legal Liability** | 🟡 Medium | Documentation errors or protocol deviations can result in litigation | Thorough documentation; follow protocols; consult medical direction when needed |
-
-**⚠️ IMPORTANT:**
-- This skill provides emergency response guidance but does not replace professional medical care — always call 911 for real emergencies
-- Never provide medical advice that exceeds your training or scope of practice
-- Local protocols vary — always follow your state/county medical direction
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The RAPID Assessment Model
-
-```
-Scene Size-up (30 sec)
-    ↓
-Primary Assessment (ABCs + disability)
-    ↓
-Rapid Transport Decision
-    ├─ "Stay and Play" → Treat on scene, then transport
-    └─ "Scoop and Run" → Immediate transport, treat en route
-    ↓
-Secondary Assessment (detailed exam)
-    ↓
-Continuous Reassessment
-```
-
-**Philosophy**: In emergency medicine, the greatest good for the greatest number often means aggressive, rapid transport of the most critical patients while providing life-saving interventions en route.
-
-### 4.2 Guiding Principles
-
-1. **Scene Safety is Non-Negotiable**: A dead EMT cannot help a living patient — assess and control hazards before patient contact
-2. **Your Hands Are Your Primary Tool**: Physical assessment reveals more than any equipment
-3. **Time is Tissue**: For time-critical emergencies, the best intervention is rapid transport to definitive care
-4. **You Treat the Patient, Not the Monitor**: Vital signs guide but don't replace clinical judgment
-5. **Clear Communication Saves Lives**: Effective handoffs prevent critical information loss
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **OPQRST** | Pain assessment: Onset, Provocation, Quality, Radiation, Severity, Time |
-| **SAMPLE** | History taking: Symptoms, Allergies, Medications, Past medical history, Last oral intake, Events leading to presentation |
-| **AVPU** | Level of consciousness: Alert, Voice, Pain, Unresponsive |
-| **Glasgow Coma Scale** | Standardized neurological assessment (Eyes, Verbal, Motor) |
-| **SAMPLE History** | Secondary assessment framework |
-| **SBAR** | Handoff communication: Situation, Background, Assessment, Recommendation |
-| **PEDS** | Pediatric assessment: Physical, Emotional, Developmental, Social |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Emergency Protocols
-
-| Protocol| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Cardiac Arrest** | Unconscious, no pulse | 1. Confirm arrest → 2. Start CPR → 3. Attach AED → 4. Analyze rhythm → 5. Defibrillate if indicated → 6. Resume CPR → 7. Consider advanced airway → 8. Transport |
-| **Choking** | Unable to speak, cough, or breathe | 1. Assess severity → 2. If complete obstruction: Heimlich/back blows → 3. Repeat until effective → 4. If unconscious: CPR |
-| **Severe Bleeding** | Active hemorrhage | 1. Direct pressure → 2. Elevate extremity → 3. Apply pressure dressing → 4. If uncontrolled: tourniquet |
-| **Stroke (FAST)** | Face drooping, Arm weakness, Speech difficulty, Time | 1. Assess FAST → 2. Determine last known well → 3. Rapid transport → 4. Early hospital notification |
-| **Anaphylaxis** | Severe allergic reaction with airway/swelling | 1. Remove allergen → 2. Administer epinephrine IM → 3. Airway support → 4. Antihistamines → 5. Transport |
-
-### 7.2 Vital Sign Targets
-
-| Vital Sign| Normal Range| Critical Threshold|
-|--------------|--------------|---------------|
-| **Heart Rate** | 60-100 bpm | <50 or >130 (significant) |
-| **Respiratory Rate** | 12-20/min | <8 or >30 |
-| **Blood Pressure** | 90/60 - 140/90 | SBP <90 or >180 |
-| **SpO2** | 95-100% | <92% |
-| **Temperature** | 97.8-99.1°F | >101°F or <95°F |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Emergency Response
-
-```
-Phase 1: Scene Size-up (30 seconds)
-├── Check for hazards (fire, traffic, chemicals, violence)
-├── Determine number of patients
-├── Request additional resources if needed
-└── BSI/PPE: Body Substance Isolation
-
-Phase 2: Primary Assessment (2-3 minutes)
-├── Level of consciousness (AVPU)
-├── Airway: patent? obstruction?
-├── Breathing: present? adequate?
-├── Circulation: pulse? bleeding?
-├── Disability: GCS? pupils? lateralization?
-└── Exposure: undress, examine, prevent hypothermia
-
-Phase 3: Rapid Transport Decision
-├── Is patient stable?
-├── Is transport time >10 minutes?
-├── Is there a life threat requiring immediate intervention?
-└── Decision: Stay and play OR Scoop and run
-
-Phase 4: Secondary Assessment (en route or on scene)
-├── Head-to-toe physical exam
-├── SAMPLE history
-├── OPQRST for pain
-├── Vital signs
-└── Ongoing reassessment every 5 minutes
-
-Phase 5: Patient Transfer
-├── Hospital notification
-├── SBAR handoff
-├── Documentation
-└── Equipment restock
-```
-
-### 8.2 Cardiac Emergency Response
-
-```
-Step 1: Confirm cardiac emergency (chest pain, dyspnea, sweating, nausea)
-Step 2: Immediate 12-lead ECG if available
-Step 3: Aspirin 324mg (chewable) unless allergic/contraindicated
-Step 4: Nitroglycerin SL if BP >90 systolic and no PDE-5 inhibitor use
-Step 5: Oxygen if SpO2 <94%
-Step 6: IV access
-Step 7: Expedited transport to PCI-capable facility
-Step 8: Continuous monitoring, treat arrhythmias
-```
-
----
 
 ## 9.1 Cardiac Emergency
 
@@ -333,105 +167,6 @@ Step 8: Continuous monitoring, treat arrhythmias
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on emergency medical tech.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent emergency medical tech issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term emergency medical tech capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -453,6 +188,7 @@ Step 8: Continuous monitoring, treat arrhythmias
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -463,6 +199,7 @@ Step 8: Continuous monitoring, treat arrhythmias
 | **EMT + Public Health** | EMT reports notifiable conditions; Public health initiates follow-up | Outbreak detection and containment |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -491,6 +228,7 @@ Step 8: Continuous monitoring, treat arrhythmias
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -512,6 +250,7 @@ Expected: C-spine precautions, primary assessment, secondary assessment focused 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with decision gates, domain-specific protocols, realistic scenarios, clear integration patterns
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -532,6 +271,7 @@ Expected: C-spine precautions, primary assessment, secondary assessment focused 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -559,6 +299,7 @@ Expected: C-spine precautions, primary assessment, secondary assessment focused 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -579,6 +320,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -591,15 +333,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -627,3 +360,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,144 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Coverage Determination** — Analyze whether specific perils, causes of loss, and damages fall within policy coverage — identifying exclusions and conditions that may limit or bar recovery
-2. **Damage Quantification** — Calculate actual cash value, replacement cost, depreciation, and replacement cost minus depreciation using industry-standard valuation methods
-3. **Liability Assessment** — Evaluate third-party claims by analyzing negligence elements, comparative fault, contribution rights, and recommended reserve/settlement ranges
-4. **Fraud Indicator Identification** — Detect patterns suggesting claim exaggeration, misrepresentation, or staged losses — documenting red flags without making accusatory statements
-5. **Settlement Negotiation Strategy** — Develop negotiation approaches based on claim strength, claimant expectations, jurisdiction, and litigation risk
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Policy Interpretation Errors** | 🔴 High | AI may misinterpret specific policy language, endorsements, or jurisdiction-specific coverage rules | Always verify with actual policy documents and advise consultation for complex coverage questions |
-| **Undervaluing/Overvaluing Damages** | 🔴 High | Estimates may not reflect local market conditions, labor rates, or material costs | Provide ranges and recommend independent appraisals for high-value claims |
-| **Fraud Accusation Liability** | 🔴 High | Stating fraud findings improperly can expose insurers to defamation claims | Frame red flags as "investigation required" not "fraud confirmed" |
-| **Statute of Limitations Missed** | 🔴 High | Missing filing deadlines voids coverage rights entirely | Always flag jurisdictional deadlines prominently |
-| **Bad Faith Exposure** | 🟡 Medium | Unrealistic claim denial timelines or improper investigation can trigger bad faith liability | Document all investigation steps and communicate coverage decisions promptly |
-
-**⚠️ IMPORTANT:**
-- This skill provides analysis and recommendations — not definitive coverage decisions, which require actual policy review
-- Jurisdiction-specific insurance laws vary significantly; always flag when local expertise is needed
-- Settlement authority limits vary by insurer; confirm authority before recommending specific resolution amounts
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Coverage-Damage-Liability Matrix
-
-```
-                    COVERAGE ANALYSIS
-                           │
-            ┌──────────────┴──────────────┐
-            ▼                              ▼
-      COVERED ✓                      NOT COVERED ✗
-            │                              │
-            ▼                              ▼
-    DAMAGE QUANTIFICATION           EXCLUSION ANALYSIS
-            │                              │
-    ┌───────┴───────┐              ┌───────┴───────┐
-    ▼               ▼              ▼               ▼
-  VALUED         DISPUTED      APPEALABLE      FINAL DENIAL
-    │               │              │               │
-    └───────────────┴──────────────┴───────────────┘
-                           ▼
-               LIABILITY DETERMINATION (3rd party)
-                           │
-            ┌──────────────┴──────────────┐
-            ▼                              ▼
-      FAULT ESTABLISHED              FAULT DISPUTED
-            │                              │
-            ▼                              ▼
-      SETTLEMENT RANGE               LITIGATION PATH
-```
-
-The three pillars must align: Coverage must exist → Damages must be proven → Liability must attach. If any pillar fails, the claim structure collapses.
-
-### 4.2 Guiding Principles
-
-1. **Indemnity Over Settlement**: Every decision aims to restore the insured to their pre-loss financial position — avoid windfalls that incentivize fraud and avoid underpayment that triggers bad faith
-2. **Documentation is Evidence**: Every interaction, photo, statement, and calculation must be documented contemporaneously — "If it isn't documented, it didn't happen"
-3. **Timeliness is a Duty**: Policy conditions often require prompt notice and cooperation. Missing deadlines forfeits coverage regardless of claim merit
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Xactimate** | Industry-standard property estimating software for construction/repair costs |
-| **Mitchell/CCC ONE** | Auto physical damage estimating and claims management |
-| **ISO Claims Search** | Verify prior claims history and potential fraud indicators |
-| **NADA/Black Book** | Vehicle valuation for auto claims (actual cash value) |
-| **Moody's/Corelogic** | Comparable sales data for real property claims |
-| **PolicyOnDemand** | E-policy retrieval and analysis |
-| **NICB Database** | National Insurance Crime Bureau checks for suspected fraud |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Coverage Analysis Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Policy Interpretation (Ettman)** | Ambiguous policy language | (1) Plain meaning → (2) Reasonable expectations → (3) Contra proferentem against insurer |
-| **Peril-by-Peron Analysis** | Multiple cause of loss | (1) Identify all potential perils → (2) Apply policy perils (named perils vs open perils) → (3) Apply exclusion analysis |
-| **Causation Sequence** | Progressive damage or multiple causes | (1) Determine proximate cause → (2) Apply efficient proximate cause doctrine → (3) Analyze concurrent causation |
-
-### 7.2 Damage Valuation Methods
-
-| Method| Formula| When to Use|
-|--------------|--------------|---------------|
-| **Replacement Cost (RC)** | Material + Labor + Markup | New construction, undamaged items, when policy pays RC |
-| **Actual Cash Value (ACV)** | RC - Depreciation | Standard for most policies, items where RC not specifically provided |
-| **Depreciation** | (Age
-| **Fair Market Value** | Comparable sales - Selling costs | Total loss where property is being sold |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 First-Party Property Claim
-
-```
-Phase 1: Claim Intake & Coverage Verification
-├── Verify policy is in force at loss date
-├── Confirm covered peril vs. excluded cause
-├── Identify coverage limits and deductibles
-└── Establish: Covered? → YES → Proceed to Phase 2
-
-Phase 2: Damage Investigation
-├── Inspect damaged property (or request photos/video)
-├── Document cause of loss with photos, witnesses, expert reports
-├── Create itemized damage list with quantities
-└── Obtain repair/replacement estimates (Xactimate or similar)
-
-Phase 3: Valuation & Settlement
-├── Calculate: RC, ACV, depreciation, deductible
-├── Determine: Actual Cash Value payment, Replacement Cost benefits
-├── Prepare: Settlement offer with line-item breakdown
-└── Close: Payment issued or coverage dispute documented
-```
-
-### 8.2 Third-Party Liability Claim
-
-```
-Step 1: Verify coverage (auto liability, general liability, etc.)
-Step 2: Investigate facts: accident reconstruction, witness statements, police reports
-Step 3: Analyze liability: negligence elements, comparative fault, joint & several liability
-Step 4: Reserve: Set reserve based on exposure analysis (minimum, likely, maximum)
-Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within authority
-```
-
----
 
 ## 9.1 First-Party Property Claim — Roof Damage
 
@@ -295,105 +158,6 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on insurance claim adjuster.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent insurance claim adjuster issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term insurance claim adjuster capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -419,6 +183,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -428,6 +193,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 | Insurance Claim Adjuster + **Legal Counsel** | Complex coverage issue → Legal provides coverage opinion → Adjuster implements | Defensible coverage decision |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -457,6 +223,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -476,6 +243,7 @@ Expected: Use NADA/Black Book to determine clean retail value, apply mileage dep
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -496,6 +264,7 @@ Expected: Use NADA/Black Book to determine clean retail value, apply mileage dep
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -523,6 +292,7 @@ Expected: Use NADA/Black Book to determine clean retail value, apply mileage dep
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -543,6 +313,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -555,15 +326,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -591,3 +353,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

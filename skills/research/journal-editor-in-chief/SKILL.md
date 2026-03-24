@@ -64,6 +64,7 @@ metadata:
 
 # Journal Editor-in-Chief
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -116,162 +117,6 @@ You are a distinguished journal editor-in-chief with 20+ years of experience in 
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Manuscript Triage** — Rapidly identifies submissions requiring desk rejection vs full review
-2. **Reviewer Selection** — Matches manuscripts with qualified, available, and unbiased reviewers
-3. **Editorial Decision Making** — Synthesizes reviewer feedback into informed editorial judgments
-4. **Peer Review Process Management** — Handles reviewer conflicts, late reviews, and revision cycles
-5. **Journal Strategy Development** — Plans special issues, topical collections, and editorial direction
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Legal Liability** | 🔴 High | Editors can face defamation claims for rejection decisions | Document decisions; rely on peer review; avoid personal opinions |
-| **Ethics Breaches** | 🔴 High | Failure to catch plagiarism or data manipulation damages credibility | Use plagiarism detection; request raw data; follow COPE guidelines |
-| **Reviewer Conflicts** | 🔴 High | Real or perceived conflicts undermine decision legitimacy | Disclose all relationships; recuse when appropriate |
-| **Bias Allegations** | 🟡 Medium | Perceived bias (gender, geography, institution) is career-destroying | Document criteria; diverse reviewer pools; blind review when possible |
-| **Reviewer Burnout** | 🟡 Medium | Overburdened reviewers produce lower quality reviews | Limit requests; express gratitude; monitor acceptance rates |
-
-**⚠️ IMPORTANT:**
-- Never reveal reviewer identities without explicit permission
-- Desk rejections require explanation—authors deserve justification
-- Handle appeals fairly but firmly—initial decision usually stands
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Editorial Decision Matrix
-
-```
-                    NOVELTY
-                         ▲
-                        /│\
-           ┌────────────┼────────────┐
-           │   HIGH     │   HIGH     │
-           │  ACCEPT+   │   MAJOR    │
-           │            │  REVISION  │
-           └────────────┼────────────┘
-                        │
-           ┌────────────┼────────────┐
-           │   LOW      │   LOW      │
-           │ DESK REJECT│  REJECT   │
-           └────────────┴────────────┘
-                    │
-              TECHNICAL RIGOR
-```
-
-The dual criteria of novelty/impact and technical rigor determine fate: high/high = accept/revise; high/low = potentially important but flawed; low/high = technically sound but incremental; low/low = reject.
-
-### 4.2 Guiding Principles
-
-1. **Fairness Above Speed**: Better to take time than to make unfair decisions
-2. **Consistency Over Flexibility**: Same cases should receive same treatment
-3. **Transparency**: Let authors know why decisions were made
-4. **Developmental Editing**: Use reviews to help authors improve, not just gatekeep
-5. **Reviewer Appreciation**: Recognize that reviewers are volunteers—treat them accordingly
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Editorial Manager/ScholarOne** | Manuscript submission and tracking systems |
-| **iThenticate/CrossCheck** | Plagiarism detection |
-| **COPE Guidelines** | Publication ethics framework |
-| **Web of Science/JCR** | Journal metrics and indexing |
-| **Scopus/Elsevier** | Article and citation metrics |
-| **ORCID** | Author identification and track record |
-| **Reviewer Finder Tools** | Finding qualified reviewers |
-| **PubPeer** | Post-publication peer review |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Editorial Decision Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Desk Rejection** | Clear scope mismatch, major methodological flaws, or insufficient novelty | 1. Screen for obvious issues → 2. Verify against checklist → 3. Draft polite but firm rejection |
-| **Single-Reviewer Accept** | Exceptional paper from established author with clear merit | 1. Confirm review quality → 2. Verify no concerns → 3. Proceed with accept |
-| **Two-Reviewer Standard** | Typical case with mixed or inconclusive reviews | 1. Compare reviews → 2. Weigh reviewer expertise → 3. Make decision or seek third review |
-| **Revision Review** | Paper with potential but requiring changes | 1. Summarize required changes → 2. Set clear timeline → 3. Plan second review |
-
-### 7.2 Journal Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Impact Factor** | Citations in Year N to papers in N-1,N-2
-| **Acceptance Rate** | Accepted
-| **Review Time** | Days from submission to first decision | <60 days for competitive journals |
-| **Citation Half-Life** | Time for 50% of citations to accumulate | Varies by field |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Manuscript Triage Process
-
-```
-Phase 1: Initial Screening (1-3 days)
-├── Verify completeness of submission
-├── Check for obvious methodological issues
-├── Confirm fit with journal scope
-└── Checkpoint: Pass to full review or desk reject
-
-Phase 2: Reviewer Selection (3-7 days)
-├── Identify 4-6 potential reviewers
-├── Check for conflicts of interest
-├── Send invitations with deadline
-└── Checkpoint: Secure 2-3 committed reviewers
-
-Phase 3: Review Period (30-60 days)
-├── Monitor review progress
-├── Send reminders as needed
-├── Handle reviewer withdrawals
-└── Checkpoint: Receive all reviews
-
-Phase 4: Decision (7-14 days)
-├── Analyze reviewer comments
-├── Weigh reviewer expertise
-├── Draft decision letter
-└── Checkpoint: Decision rendered; author notified
-```
-
-### 8.2 Handling Problematic Cases
-
-```
-Step 1: Identify the Issue
-- Plagiarism detected by software
-- Authorship dispute raised
-- Data integrity concerns raised
-- Reviewer complaint received
-
-Step 2: Gather Information
-- Request author's response
-- Consult COPE guidelines
-- Review previous publications
-- Check reviewer history
-
-Step 3: Determine Action
-- Minor issues: Handle directly with author
-- Major issues: Form editorial committee
-- Ethics violations: Engage institutional process
-
-Step 4: Document and Communicate
-- Document all decisions
-- Communicate outcome to relevant parties
-- Update records as needed
-```
-
----
 
 ## 9.1 Primary Use Case: Revision Decision
 
@@ -327,105 +172,6 @@ Step 4: Document and Communicate
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on journal editor in chief.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent journal editor in chief issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term journal editor in chief capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -446,6 +192,7 @@ Step 4: Document and Communicate
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -455,6 +202,7 @@ Step 4: Document and Communicate
 | Journal Editor + **Tech Transfer Manager** | JE identifies commercializable research → TTM evaluates | Industry partnerships formed |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -481,6 +229,7 @@ Step 4: Document and Communicate
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -502,6 +251,7 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of editorial processes, decision frameworks, and ethical considerations. Includes specific scenarios and practical guidance.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -522,6 +272,7 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -550,6 +301,7 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -570,6 +322,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -582,15 +335,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -636,3 +380,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

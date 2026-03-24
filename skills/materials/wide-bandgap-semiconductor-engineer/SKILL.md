@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt (Role Definition)
 
 ```
@@ -114,418 +115,6 @@ sequence or design equation, (c) Python/MATLAB simulation code where applicable,
 
 ---
 
-## § 2 What This Skill Does
-
-This skill delivers expert-level guidance across wide bandgap semiconductor science and engineering:
-
-1. **Material Selection & Physics** — Compare SiC, GaN, Ga2O3, and AlN material properties (bandgap, critical field, electron mobility, thermal conductivity) and select optimal material for target application.
-2. **Power Device Design** — Design SiC MOSFETs, SiC JFETs, GaN HEMTs, SiC Schottky barrier diodes; determine drift layer doping/thickness for target breakdown voltage using impact ionization theory.
-3. **Epitaxial Growth Process** — Specify CVD epitaxy conditions for SiC (temperature 1550–1650°C, C/Si ratio, growth rate) and MOCVD conditions for GaN (AlGaN barrier composition, 2DEG density optimization).
-4. **Device Fabrication Flow** — Design full process flows: ion implantation (species, dose, energy, anneal), gate oxide growth (thermal/PECVD), dry etch (ICP-RIE), ohmic and Schottky contact metallization.
-5. **Electrical Characterization** — Interpret I-V, C-V, Hall effect, breakdown voltage, switching waveforms, and thermal impedance measurements; extract device parameters (Vth, R_ds(on), Q_g, C_oss).
-6. **EV & Power Electronics Integration** — Evaluate SiC/GaN devices in three-phase inverter, DC-DC converter, and OBC circuits; compute switching losses using double-pulse test methodology.
-7. **Thermal Management** — Design thermal stack (die attach solder, DBC substrate, heat sink); calculate junction-to-case thermal resistance; specify thermal interface materials.
-8. **AEC-Q101 Qualification** — Plan HTGB, HTRB, TC cycling, HTOL, ESD, and latch-up tests; analyze failure modes and define corrective actions for automotive reliability.
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|--------------------|------------|
-| Bipolar degradation in SiC (basal plane dislocations) | CRITICAL | R_ds(on) increase >20% in field; EV recall risk | Epitaxial BPD density < 100 cm⁻², post-process bipolar stress screen |
-| Gate oxide reliability at high-Vgs/high-T | CRITICAL | Oxide breakdown in field; device failure in EV application | TDDB test; limit gate voltage swing; use NO-annealed gate oxide |
-| GaN buffer trapping (current collapse) | HIGH | Dynamic R_ds(on) 2–5× static value; efficiency loss | Carbon doping optimization; buffer trap characterization under hard switching |
-| Thermal runaway in packaging | HIGH | Die overheat; bond wire/solder fatigue failure | T_j max < 175°C for SiC; Ag-sinter die attach for high-T cycling |
-| AEC-Q101 HTRB failure (hot carrier) | HIGH | Automotive disqualification; supply disruption | Hot carrier injection analysis; gate oxide thickness > 40 nm for SiC |
-| Schottky contact degradation | MEDIUM | Increased forward voltage drop; reverse leakage at temperature | Ti/Ni/Ag stack optimized; anneal at 950°C; barrier height measured by C-V |
-| Ga2O3 cleavage
-
----
-
-## § 4 Core Philosophy
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│           WIDE BANDGAP DEVICE DESIGN HIERARCHY                   │
-│                                                                  │
-│  MATERIAL PROPERTIES                                             │
-│  E_g, E_crit, μ_n, λ_th, ε_r                                   │
-│       │                                                          │
-│       ▼                                                          │
-│  DEVICE ARCHITECTURE                                             │
-│  Drift layer (N_D, t_drift), MOS/HEMT structure, termination    │
-│       │                                                          │
-│       ▼                                                          │
-│  FABRICATION PROCESS                                             │
-│  Epitaxy → Implant → Gate oxide → Metallization → Passivation   │
-│       │                                                          │
-│       ▼                                                          │
-│  CHARACTERIZATION & QUALIFICATION                                │
-│  I-V, C-V, Hall, BV, switching, AEC-Q101                        │
-│       │                                                          │
-│       ▼                                                          │
-│  SYSTEM INTEGRATION                                              │
-│  Gate driver, thermal stack, EMI, system efficiency              │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-**Principle 1 — Material Properties Are Non-Negotiable:** The Baliga figure-of-merit (BFOM = ε × μ × E_crit³) determines the theoretical R_ds(on) limit. SiC has 400× and GaN 1000× BFOM advantage over Si — design to approach this limit.
-
-**Principle 2 — Interface Quality Determines Reliability:** SiC MOS channel mobility is limited by interface traps (D_it ~ 10¹¹–10¹² cm⁻² eV⁻¹). Nitric oxide (NO) annealing reduces D_it by 10×; this single step often determines whether a device qualifies for automotive use.
-
-**Principle 3 — Qualification Is the Product:** A device datasheet value is meaningless without a test escape rate < 1 DPPM and demonstrated field reliability. Design for reliability from the first epitaxial layer, not as an afterthought.
-
----
-
-
-## § 6 Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| Silvaco ATLAS | 2D/3D device simulation (TCAD) | Drift layer optimization; breakdown voltage simulation |
-| Synopsys Sentaurus TCAD | Process and device simulation | Process integration; SiC implant anneal modeling |
-| MATLAB
-| LTspice
-| ANSYS Icepak
-| Hall Effect Measurement System | Carrier density and mobility | Epitaxial layer characterization; 2DEG sheet density |
-| Semiconductor Parameter Analyzer (Keysight B1505A) | I-V, C-V, BV measurement | Device characterization; R_ds(on), Vth, BV, leakage |
-| Double-Pulse Tester | Switching energy measurement | E_on, E_off, Q_rr measurement; gate driver validation |
-| TEM
-| Thermal Transient Tester (T3Ster) | Thermal impedance (Zth) measurement | Junction-to-case Rth; thermal stack validation |
-| Wafer-level Prober (Cascade
-| XRD
-
----
-
-## § 7 Standards & Reference
-
-**Frameworks:**
-- **AEC-Q101** — Stress test qualification for discrete semiconductor devices (automotive grade)
-- **IEC 60747** — Semiconductor devices; discrete device testing standards
-- **JEDEC JESD24** — High Temperature Reverse Bias and related semiconductor reliability tests
-
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Breakdown Voltage | V_BR = E_crit × t_drift
-| Specific On-Resistance | R_on,sp = (4 × V_BR²)
-| Threshold Voltage (Vth) | From I_D–V_GS linear extrapolation | 2–4 V for SiC MOSFET |
-| Channel Mobility | μ_ch from I_D = μ_ch × C_ox × (W/L) × (V_GS−Vth) × V_DS | 10–40 cm²/V·s (SiC MOS) |
-| Baliga Figure of Merit | BFOM = ε₀ × ε_r × μ_n × E_crit³ | SiC: 400× Si; GaN: 1000× Si |
-| 2DEG Sheet Density | n_s from C-V integration or Hall | 0.8–1.2 × 10¹³ cm⁻² (GaN HEMT) |
-| Schottky Barrier Height | φ_B from I-V: J = A** × T² × exp(−qφ_B/kT) | 1.0–1.5 eV (Ni on 4H-SiC) |
-| Thermal Resistance (die) | R_th,jc = ΔT_jc / P_diss | < 0.5 K/W for TO-247 SiC |
-| Switching Losses | E_sw = E_on + E_off from double-pulse test | < 0.5 mJ per cycle at 600 V, 20 A |
-| HTGB Pass Criterion | ΔV_th < ±0.5 V; ΔBVDSS < 5%; ΔI_DSS < 5× | Per AEC-Q101 Table 3 |
-
----
-
-## Phase 1 — Material & Device Design
-- Define V_BR, I_D, R_ds(on) targets from system specification
-- Calculate drift layer: N_D and t_drift using ionization integral
-- Run TCAD (Silvaco ATLAS) to verify breakdown profile and electric field crowding at termination
-- [✓ Done]: TCAD BV matches target ±5%; field crowding < 90% of E_crit at termination edge
-- [✗ FAIL]: BV < 90% of target; E-field peaks at surface without termination (JTE/FGR design required)
-
-### Phase 2 — Epitaxial Growth & Process
-- Specify CVD conditions: temperature, C/Si ratio (=1.0 for 4H-SiC), growth rate, N or Al doping
-- Define implantation schedule: p-well (Al), source (N), JFET (N), JTE (Al)
-- Activate implants at 1650°C, 30 min in Ar; inspect surface by SEM/AFM
-- [✓ Done]: Epitaxial thickness ±3%, doping ±10%; RMS roughness < 1 nm post-anneal
-- [✗ FAIL]: BPD density > 1000 cm⁻²; step bunching visible by Nomarski; n-type compensation
-
-### Phase 3 — Gate Oxide & Metallization
-- Grow gate oxide by dry O₂ at 1150°C; anneal in NO at 1175°C for 2 h to reduce D_it
-- Deposit Ni/Ti source and drain ohmic contacts; anneal at 950°C in Ar
-- [✓ Done]: C-V flatband voltage shift < 1 V; contact resistivity < 10⁻⁵ Ω·cm²
-- [✗ FAIL]: Oxide fixed charge density > 5×10¹¹ cm⁻²; contact resistivity > 10⁻⁴ Ω·cm²
-
-### Phase 4 — Characterization & Qualification
-- Measure V_th, R_ds(on), BV, I_GSS on every die; sort by bin
-- Package selected dice; run AEC-Q101: HTGB (1000h, 150°C), HTRB (1000h), TC (−55 to 150°C, 1000 cycles)
-- [✓ Done]: All AEC-Q101 criteria met; R_ds(on) shift < 10%, V_th shift < ±0.5 V
-- [✗ FAIL]: Any unit fail on BV, I_DSS, or V_th shift exceeding limits
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## Scenario 2: Problem Resolution
-
-**Context:**
-Urgent wide bandgap semiconductor engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term wide bandgap semiconductor engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on wide bandgap semiconductor engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent wide bandgap semiconductor engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick Fix | Immediate | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term wide bandgap semiconductor engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 Common Pitfalls
 
@@ -589,6 +178,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 Integration with Other Skills
 
 | Combination | Outcome |
@@ -598,6 +188,7 @@ Deliverable requires quality verification.
 | Wide Bandgap Semiconductor Engineer + 6G Communication Researcher | GaN HEMT for THz power amplifier front-end; optimize AlGaN/GaN epitaxy for 300 GHz operation; integrate with 6G NR beamforming antenna array |
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -618,6 +209,7 @@ Deliverable requires quality verification.
 - For Ga₂O₃ ultra-wide bandgap research: consult emerging materials literature directly
 
 ---
+
 
 
 ## § 14 Quality Verification
@@ -641,6 +233,7 @@ Deliverable requires quality verification.
 | "What does AEC-Q101 HTRB test require?" | Condition (80% BV, 150°C), duration (1000 h), sample size (77), acceptance criteria table |
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -661,6 +254,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -688,6 +282,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -708,6 +303,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -720,15 +316,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -750,3 +337,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

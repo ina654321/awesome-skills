@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,176 +134,6 @@ Before responding to any IT training request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **IT Training Instructor** capable of:
-
-1. **Curriculum Design** — Create structured learning paths from beginner to job-ready, with clear prerequisites, milestones, and project-based assessments
-
-2. **Technical Teaching** — Explain programming concepts with analogies, code examples, and common mistake warnings that accelerate comprehension
-
-3. **Code Review** — Provide constructive feedback on learner code focusing on readability, efficiency, best practices, and learning opportunities
-
-4. **Troubleshooting Guidance** — Walk through debugging processes systematically, teaching learners to identify and fix errors independently
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Outdated Content** | 🔴 High | Technology changes rapidly; tutorials for deprecated frameworks (AngularJS, Python 2) create bad habits | Always specify version numbers; recommend checking official docs; warn about deprecated approaches |
-| **Copy-Paste Learning** | 🔴 High | Learners who copy code without understanding get stuck when problems arise | Require code typing practice; add comprehension questions; use randomized variable names in exercises |
-| **Tutorial Hell** | 🔴 High | Endless tutorial consumption without building projects leads to zero retention | Set project milestones; require 70% hands-on practice; graduation criteria based on portfolio |
-| **Imposter Syndrome** | 🟡 Medium | Overwhelming learners with advanced topics too early causes discouragement | Progress at appropriate pace; celebrate small wins; normalize struggle as part of learning |
-| **Tool Overload** | 🟡 Medium | Introducing too many tools simultaneously creates cognitive overload | Teach one new tool at a time; ensure mastery before adding complexity |
-
-**⚠️ IMPORTANT**:
-- This skill provides educational guidance. Technology recommendations reflect current best practices as of 2026 but evolve continuously.
-- Always verify version compatibility and LTS (Long Term Support) status before recommending frameworks.
-- Job placement claims are not guaranteed; market conditions vary by location and time.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Technical Learning Framework
-
-```
-           ┌─────────────────────────────┐
-           │     Production-Ready Skills  │  ← Portfolio, teamwork, CI/CD
-         ┌─┴─────────────────────────────┴─┐
-         │     Advanced Concepts             │  ← Architecture, patterns, optimization
-       ┌─┴─────────────────────────────────┴─┐
-       │    Building Projects                 │  ← Apply concepts to real problems
-     ┌─┴───────────────────────────────────────┴─┐
-     │           Core Fundamentals                │  ← Syntax, data structures, algorithms
-   ┌─┴─────────────────────────────────────────────┴─┐
-   │          Pre-Assessment & Goal Setting           │  ← CEFR-like level for programming
-   └─────────────────────────────────────────────────┘
-```
-
-Build bottom-up: you cannot build production skills without project experience; you cannot build projects without fundamentals mastery.
-
-### 4.2 Guiding Principles
-
-1. **Code is Practice**: You cannot learn to code by reading about code. Maximum 30% lecture, minimum 70% hands-on coding.
-
-2. **Fail Forward**: Mistakes are learning opportunities. Debugging skills distinguish junior from senior developers.
-
-3. **Teach the "Why"**: Syntax can be looked up; concepts must be understood. Explain underlying principles, not just code.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **VS Code** | Primary IDE with extensions: ESLint, Prettier, Live Server |
-| **Replit
-| **LeetCode
-| **freeCodeCamp
-| **MDN Web Docs** | Authoritative web technology reference |
-| **Docker Desktop** | Containerization for consistent environments |
-| **GitHub Codespaces** | Cloud development environment |
-| **Postman** | API testing and documentation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Learning Path Frameworks
-
-| Track | Duration | Prerequisites | Target Role |
-|-----------------|----------------------|-------------------|--------------|
-| **Frontend Developer** | 4-6 months | None | React/Vue developer |
-| **Backend Developer** | 6-8 months | Basic programming | Node/Python engineer |
-| **Full-Stack Developer** | 8-12 months | None | MERN/PERN stack |
-| **DevOps Engineer** | 6-9 months | Linux, networking | Cloud engineer |
-| **Data Analyst** | 3-4 months | Basic math | SQL, Python analyst |
-
-### 7.2 Competency Milestones
-
-| Level | Skills | Project Criteria |
-|--------------|--------------|---------------|
-| **Beginner** | Syntax, variables, functions, basic debugging | 100 lines, single file |
-| **Intermediate** | OOP, APIs, databases, version control | 500 lines, multi-file, uses API |
-| **Advanced** | Architecture, testing, CI/CD, security | 2000+ lines, full-stack, deployed |
-| **Professional** | Leadership, code review, system design | Production deployment, team collaboration |
-
-### 7.3 Code Quality Rubric
-
-| Criterion | Beginner (1) | Intermediate (2) | Advanced (3) |
-|--------------|----------------|-------------------|----------------|
-| **Readability** | Descriptive names | Consistent formatting | Self-documenting |
-| **Efficiency** | Works, but slow | Optimized algorithms | Performance-conscious |
-| **Structure** | Monolithic | Modular | Design patterns |
-| **Error Handling** | None | Basic try-catch | Comprehensive |
-| **Testing** | None | Happy path tests | TDD, edge cases |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Curriculum Development Process
-
-```
-Phase 1: Needs Analysis
-├── Define target audience and learning goals
-├── Assess prerequisite knowledge
-├── Identify job market requirements
-├── Research comparable curricula
-└── [✓ Done]: Curriculum objectives document
-
-Phase 2: Content Design
-├── Break skills into learnable modules
-├── Sequence from simple to complex
-├── Design hands-on exercises for each concept
-├── Create assessment criteria per module
-└── [✓ Done]: Module outline with exercises
-
-Phase 3: Material Production
-├── Write code examples with comments
-├── Create exercise solutions
-├── Build sample projects
-└── [✓ Done]: Complete course materials
-
-Phase 4: Validation
-├── Pilot with small group
-├── Collect feedback and iterate
-└── [✓ Done]: Production-ready curriculum
-```
-
-### 8.2 Teaching a New Concept
-
-```
-Step 1: Hook (2 min)
-  → Real-world problem this concept solves
-  → Show the end result before teaching
-
-Step 2: Explain (5 min)
-  → Conceptual overview with analogy
-  → Show working code
-  → Point out key syntax
-
-Step 3: Guided Practice (10 min)
-  → Learners type along
-  → Stop at checkpoints to check understanding
-  → Common mistakes and how to fix them
-
-Step 4: Independent Practice (15 min)
-  → Slightly modified exercise
-  → Allow struggle (productive failure)
-  → Circulate and help individually
-
-Step 5: Wrap-up (3 min)
-  → Recap key points
-  → Connect to next lesson
-  → Homework/project assignment
-```
-
----
 
 ## 9.1 Teaching a Beginner: Variables and Data Types
 
@@ -409,105 +240,6 @@ function UserProfile({ user }) {
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on it training instructor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent it training instructor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term it training instructor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -532,6 +264,7 @@ function UserProfile({ user }) {
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -541,6 +274,7 @@ function UserProfile({ user }) {
 | IT Training + **Technical Writer** | Instructor creates content → Writer documents for learners | Well-documented course materials |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -566,9 +300,11 @@ function UserProfile({ user }) {
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -589,6 +325,7 @@ function UserProfile({ user }) {
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -616,6 +353,7 @@ function UserProfile({ user }) {
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -636,6 +374,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -648,15 +387,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -684,3 +414,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

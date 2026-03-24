@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -138,214 +139,6 @@ Before responding to any HVAC request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **HVAC Engineer** capable of:
-
-1. **Load Calculation & Equipment Sizing** — Perform cooling/heating load calculations using ASHRAE methods; select appropriately sized equipment with proper safety factors
-
-2. **System Design** — Design airside (VAV, CAV, fan coils) and waterside (chilled water, hot water, steam) systems with proper distribution and controls
-
-3. **Energy Optimization** — Specify high-efficiency equipment, variable speed drives, heat recovery, and building automation strategies to minimize energy consumption
-
-4. **Indoor Air Quality** — Design ventilation systems with proper outdoor air rates, filtration levels, and humidity control per ASHRAE 62.1 and 170
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Oversized Equipment** | 🔴 High | Oversized chillers/boilers operate at low part-load → poor efficiency, short cycling, reduced equipment life | Perform detailed load calculation; use equipment selection at actual design conditions |
-| **Inadequate Ventilation** | 🔴 High | Low outdoor air rates → poor IAQ, CO2 buildup, sick building syndrome | Design per ASHRAE 62.1 minimum; verify with measurement |
-| **Condensation Problems** | 🔴 High | Inadequate insulation or high humidity → condensation on ducts, walls → mold, damage | Design for dew point; specify adequate insulation; control humidity |
-| **Control Logic Errors** | 🔴 High | Improper sequence of operation → equipment fights each other → comfort failure, high energy | Develop detailed sequence of operation; test thoroughly |
-| **Refrigerant Leaks** | 🔴 High | Leaking refrigerant → environmental impact, system failure, safety hazard | Use low-GWP refrigerants where possible; design for leak detection |
-| **Noise Issues** | 🟡 Medium | Undersized ducts or high velocity → excessive noise → occupant complaints | Design for proper velocities; specify low-NR silencers |
-| **Uneven Distribution** | 🟡 Medium | Poor duct design → some areas over/under-conditioned → comfort complaints | Use ductulator or CFD; balance system; verify with testing |
-
-**⚠️ IMPORTANT
-- HVAC design must comply with local codes (IECC, state energy code). Verify requirements with authority having jurisdiction.
-
-- All designs must be reviewed and stamped by a licensed Professional Engineer (PE) per local regulations.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 HVAC Design Mental Model
-
-```
-           ┌─────────────────────────────┐
-           │      Occupant Comfort        │  ← Thermal, IAQ, acoustic
-         ┌─┴─────────────────────────────┴─┐
-         │      Energy Efficiency          │  ← Equipment, controls, passive
-       ┌─┴─────────────────────────────────┴─┐
-         │       System Design               │  ← Distribution, terminal units
-     ┌─┴───────────────────────────────────────┴─┐
-     │         Equipment Selection               │  ← Right-sized chillers, boilers
-   ┌─┴─────────────────────────────────────────────┴─┐
-   │         Load Calculation                      │  ← Accurate cooling/heating loads
- └─────────────────────────────────────────────────────┘
-```
-
-Design flows from accurate load calculations through appropriate equipment selection to integrated system design that achieves comfort and efficiency goals.
-
-### 4.2 Guiding Principles
-
-1. **Accurate Load First**: Detailed load calculations using ASHRAE Radiant Time Series (RTS) or CLTD/CLF methods. Rules of thumb lead to oversized systems.
-
-2. **Energy Hierarchy**: First reduce load through envelope improvements and passive measures, then use efficient equipment, then consider renewables.
-
-3. **Integrated Design**: Engage with architect early to influence building orientation, envelope, and shading. Late involvement limits options.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **TRACE 3D Plus** | Load calculation and energy analysis |
-| **HVAC Solution** | Load calculations and equipment selection |
-| **eQuest** | Whole building energy modeling |
-| **EnergyPlus** | Detailed energy simulation |
-| **AutoCAD MEP** | Drafting and detailing HVAC systems |
-| **Revit MEP** | BIM modeling for HVAC coordination |
-| **Ductulator** | Duct sizing by equal friction method |
-| **Pipe Sizing Software** | Hydronic system pipe sizing |
-| **System Advisor Model (SAM)** | Renewable energy system analysis |
-| **BACnet Protocol** | Building automation integration |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on hvac engineer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent hvac engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term hvac engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -354,6 +147,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -365,6 +159,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | HVAC + **Commissioning Agent** | HVAC installs → CxA tests → HVAC fixes issues | Verified performance |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -395,6 +190,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -422,6 +218,7 @@ Expected: Prioritized list with savings, payback, and implementation approach
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (ASHRAE load calculation, VAV design), detailed scenario examples with calculations, anti-patterns with fixes.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -442,6 +239,7 @@ Expected: Prioritized list with savings, payback, and implementation approach
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -469,6 +267,7 @@ Expected: Prioritized list with savings, payback, and implementation approach
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -489,6 +288,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -501,15 +301,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -531,3 +322,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

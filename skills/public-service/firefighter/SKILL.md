@@ -63,6 +63,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -103,270 +104,6 @@ COMMUNICATION STYLE:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Fire suppression: offensive (interior attack) vs. defensive (exterior, protect exposures)
-- Incident Command System (ICS) operations - multi-agency coordination
-- Technical rescue: vehicle extraction, confined space, rope rescue, water rescue
-- Hazardous materials response: identification, containment, decontamination
-- Fire cause determination: origin and cause investigation
-- Emergency medical services: BLS/ALS first response, patient stabilization
-- Fire prevention: inspections, public education, code enforcement
-- Wildland fire behavior and suppression tactics
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Structural Collapse | 🔴 Critical | Fire-weakened structures can collapse trapping firefighters | Continuous building assessment; exit protocols; PSD/RECEO |
-| Flashover/Rollover | 🔴 Critical | Unpredictable fire behavior kills firefighters | Thermal imaging; stay low; monitor for warning signs |
-| Air Supply Emergency | 🔴 Critical | Running out of air in IDLH environment | Buddy system; SCBA tracking; immediate egress protocols |
-| Hazmat Exposure | 🔴 Critical | Chemical/biological/radiological exposure | Proper PPE levels; decon protocols; hazmat team response |
-| Firefighter Mayday | 🔴 Critical | Lost/trapped/injured firefighter | Dedicated RIT team; training; rapid intervention protocols |
-| Civilian Harm | 🟡 High | Civilians in harm's way | Aggressive search; evacuation; rescue priority |
-| Vehicle Accident | 🟡 Medium | Apparatus response accidents | Driving policies; defensive driving; lights/siren protocols |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Fire Attack Decision Matrix
-
-```
-                        FIRE CONDITION
-
-    Incipient ←————————————→ Fully Involved
-    (Extinguishable)      (Defensive Only)
-          ↑
-          │
-    VICTIMS ──────────────►
-    PRESENT               DECISION:
-    → Interior Attack     → Defensive (exterior)
-    → Primary Search      → Exposure Protection
-          │               → No Interior Entry
-          ▼
-    NO VICTIMS → Defensive Operations (most cases)
-```
-
-**Application:**
-- Incipient + No Victims → Quick knock, salvage
-- Incipient + Victims Present → Aggressive interior, primary search
-- Fully Involved → Defensive, exposure protection, no interior
-- Unknown → Recon before commitment
-
-### 4.2 Guiding Principles
-
-1. **Life Safety is Paramount**: "Risk a lot to save a lot, risk little to save little" - civilian life > property > firefighter safety
-2. **Offensive When Warranted**: Don't delay rescue for perfect conditions; victims won't survive
-3. **Defensive When Necessary**: Don't risk firefighters for lost cause; protect exposures
-4. **Incident Command First**: No scene is too small for ICS - establish command immediately
-5. **Continuous Size-Up**: Conditions change - reassess every 30 seconds internally
-6. **Everyone Goes Home**: End of shift is the goal; no funeral processions
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Incident Command System (ICS)** | Multi-agency coordination, resource management, unified command |
-| **SCBA (Self-Contained Breathing Apparatus)** | IDLH atmosphere protection, 30-minute cylinders |
-| **Thermal Imaging Camera (TIC)** | Locating victims, identifying fire extension, void searches |
-| **Hydraulics Calculator** | Hose line GPM, nozzle reaction, pump pressure calculations |
-| **NIOSH Line-of-Duty Death Reports** | Learning from past tragedies |
-| **Risk Management Matrix** | Benefit vs. risk analysis for tactical decisions |
-| **Fire Behavior Indicators** | Smoke color/pressure/volume → fire location/phase |
-| **RIC/RIT Equipment** | Rapid intervention team tools for downed firefighter |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
-## § 7 · Incident Response Workflow
-
-### Phase 1: Size-Up & Command Establishment
-
-**Objective:** Rapid assessment and initial command.
-
-| Step | Action | Key Questions |
-|------|--------|---------------|
-| 1.1 | Arrival assessment | What's showing? Smoke color, volume, location |
-| 1.2 | Identify life hazards | Victims visible? Voices heard? |
-| 1.3 | Announce command | "Engine 4 assuming [location] command" |
-| 1.4 | Request resources | Dispatch what's needed NOW |
-
-**Done:** Command established, resources requested, life safety confirmed
-
-### Phase 2: Tactical Decision
-
-**Objective:** Choose attack strategy based on conditions.
-
-| Fire Condition | Victims | Decision |
-|----------------|----------|----------|
-| Incipient | No | Offensive - quick knock, salvage |
-| Incipient | Yes | Offensive - primary search priority |
-| Growth | Any | Offensive if viable, otherwise transitional attack |
-| Fully Involved | Unknown | Defensive - no interior entry |
-| Flashover signs | Any | Defensive immediately |
-
-**Done:** Attack mode selected and communicated
-
-### Phase 3: Attack & Operations
-
-**Objective:** Execute tactical plan safely.
-
-| Operation | Sequence | Notes |
-|-----------|----------|-------|
-| Water Supply | Establish before attack | Hydrant or tanker |
-| Line Deployment | Attack line to seat of fire | 1.5" minimum for interior |
-| Search | Concurrent with attack | Primary then secondary |
-| Ventilation | Coordinate with attack | Horizontal then vertical |
-| Salvage | After fire knocked | Cover, roll, remove |
-
-**Done:** Fire controlled, searched complete, overhaul done
-
-### Phase 4: Termination & Investigation
-
-**Objective:** Secure scene and document.
-
-| Step | Action |
-|------|--------|
-| 4.1 | Overhaul - check for extension |
-| 4.2 | Salvage - minimize water damage |
-| 4.3 | Scene security |
-| 4.4 | Cause determination begin |
-| 4.5 | Command transferred/terminated |
-
-**Done:** Incident closed, reports completed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Single-Family Residential Fire
-
-**User Input:**
-"Single-family residence, smoke showing from roof, no reports of victims. Engine 4 arrives first, what's your tactical plan?"
-
-**Expert Response:**
-**Size-Up:**
-- Smoke: Black, heavy, pushing from roof → fully involved void space
-- Structure: Wood-frame, typical residential
-- Conditions: No visible victims, but survival possible
-
-**Command:** "Engine 4 assuming Command"
-
-**Tactical Decision:**
-- Fire phase: Growth to fully involved
-- Attack: Defensive exterior
-- Primary: Protect exposures
-- Secondary: No interior entry until ladder arrived
-
-**Resource Request:**
-- 2nd alarm for additional engines
-- Ladder truck for roof operations
-- Rescue for RIT
-
----
-
-### Scenario 2: Vehicle Accident with Entrapment
-
-**User Input:**
-"MVA on Highway 101, vehicle vs. pole, driver trapped, fuel leaking, unknown injuries. Engine 7 and Rescue 1 arriving."
-
-**Expert Response:**
-**Immediate Actions:**
-1. Establish command: "Highway 101 accident, Rescue assuming Command"
-2. HAZMAT alert: fuel leak → approach upwind, no sparks
-3. Patient assessment through window
-4. Request: Add'l engine for fluid control, ALS
-
-**Extrication Plan:**
-| Phase | Action |
-|-------|--------|
-| Stabilize | Crib vehicle, disconnect battery |
-| Access | Remove door, roof flap |
-| Disentangle | Remove dash, steering wheel |
-| Package | C-collar, board, remove |
-
-**Key Considerations:**
-- Fuel = ignition risk → ABC extinguisher ready
-- Patient stability before full extrication
-- Traffic control for safety
-
----
-
-### Scenario 3: Multi-Alarm Commercial Fire
-
-**User Input:**
-"3-alarm working fire at industrial warehouse, possible hazmat, 2 civilians reported inside. Incident Commander requests assistance."
-
-**Expert Response:**
-**Unified Command:**
-- Staging: Establish at safe distance
-- Sectors: Operations, Logistics, Planning, Safety
-- Communication: Tactical channel, command on dedicated
-
-**Incident Action Plan:**
-| Sector | Assignment |
-|--------|------------|
-| Fire Attack | 2 lines offensive, front and side |
-| Search | 2 teams - rapid primary |
-| Exposure | 2 lines protecting east wall |
-| RIT | Dedicated team, staged at entry |
-| Hazmat | Identification, zone establishment |
-
-**Resource Management:**
-- Water supply: Hydrant + tender shuttle
-- Personnel: Rotation for accountability
-- Air: SCBA exchange at staging
-
-**Civilian Rescue Priority:**
-- Rapid primary search first 5 minutes
-- Update IC every 2 minutes
-- If found: ALS handoff immediately
-
----
-
-### Scenario 4: Hazmat Unknown Substance
-
-**User Input:**
-"Chemical facility, 55-gallon drum ruptured, 3 employees symptomatic, unknown substance, mild vapor cloud. First-due engine on scene."
-
-**Expert Response:**
-**Immediate Isolation:**
-- Hot zone: 330ft (minimum)
-- Warm zone: 330-660ft
-- Cold zone: >660ft
-- Upwind approach essential
-
-**IC Establishment:**
-"Chemical facility incident, Engine 1 assuming Command"
-- Request: Hazmat team, ALS, law enforcement
-- Set up sectors: Decon, Treatment, Command
-
-**Victim Management:**
-| Victim Status | Action |
-|---------------|--------|
-| Symptomatic | Rapid decon, ALS evaluation |
-| Exposed, asymptomatic | Decon, 24hr observation |
-| Non-exposed | Secure in cold zone |
-
-**Action Priorities:**
-1. Remove victims from hot zone
-2. Identify product (shipping docs, placards)
-3. Establish decon corridor
-4. Protect downwind civilians
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -380,6 +117,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -390,6 +128,7 @@ See [references/07-standards.md](references/07-standards.md)
 | [Firefighter] + **Building Inspector** | Fire cause investigation → Code violation | Post-incident investigation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -427,6 +166,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 **Test 1: Fire Attack Strategy**
@@ -444,6 +184,7 @@ Expected: Command presence → IC announcement → unified command → section c
 **Self-Score:** 8.5/10 — Expert — Justification: Comprehensive ICS protocols, fire behavior analysis, attack strategies, hazmat response, rescue operations, safety frameworks, NIMS integration
 
 ---
+
 
 ## § 16 · Fire Behavior Indicators
 
@@ -467,6 +208,7 @@ Expected: Command presence → IC announcement → unified command → section c
 
 ---
 
+
 ## § 17 · ICS Position Quick Reference
 
 | Position | Responsibility | Key Tasks |
@@ -479,6 +221,7 @@ Expected: Command presence → IC announcement → unified command → section c
 
 ---
 
+
 ## § 18 · Fire Ground Accountability
 
 | System Element | Description |
@@ -489,6 +232,7 @@ Expected: Command presence → IC announcement → unified command → section c
 | **Lost Timer** | Air depletion alarm (25 min, 15 min warnings) |
 
 ---
+
 
 ## § 19 · Post-Incident Analysis
 
@@ -501,17 +245,6 @@ Expected: Command presence → IC announcement → unified command → section c
 
 ---
 
-## § 20 · Training Requirements
-
-| Certification | Requirement |
-|---------------|-------------|
-| Firefighter I | Basic operations |
-| Firefighter II | Advanced skills |
-| Hazmat Ops | Initial response |
-| Fire Instructor | Training delivery |
-| ICS 100-400 | All personnel |
-
----
 
 ## § 21 · Key References
 
@@ -522,3 +255,17 @@ Expected: Command presence → IC announcement → unified command → section c
 | NIOSH LODD | Website | Line-of-duty death analysis |
 | IFSTA | Manual | Training textbooks
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 7 · Incident Response Workflow](./references/7-incident-response-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Training Requirements](./references/20-training-requirements.md)

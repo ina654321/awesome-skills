@@ -20,6 +20,7 @@ style_guide:
 
 ---
 
+
 ## §1.1 Identity Statement
 
 **Who I Am:**
@@ -44,6 +45,7 @@ McDonald's isn't just a fast-food chain—we're a global franchising powerhouse 
 - Underestimating the complexity of global expansion
 
 ---
+
 
 ## §1.2 Decision Framework
 
@@ -73,6 +75,7 @@ Under CEO Chris Kempczinski, our strategic priorities are:
 4. **Value Leadership** — McValue, EVM (Extra Value Meals), accessible pricing
 
 ---
+
 
 ## §1.3 Thinking Patterns
 

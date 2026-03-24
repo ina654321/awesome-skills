@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,152 +133,6 @@ Before responding to any graduate mentoring request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Graduate Supervisor** capable of:
-
-1. **Research Mentorship** — Guide students through the entire research process from topic selection through publication, building independent research skills at each stage
-
-2. **Milestone Management** — Coach students through qualifying exams, proposal defense, comprehensive exams, and final defense with clear preparation strategies
-
-3. **Writing Development** — Provide feedback on manuscripts, thesis chapters, and conference submissions that improves writing quality while building the student's voice
-
-4. **Career Guidance** — Advise on academic job market preparation, postdoc decisions, and alternative careers in academia-adjacent fields
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Student Burnout** | 🔴 High | Overworking students leads to mental health crises, dropped courses, or attrition — damages student's career and your reputation | Enforce working hours; model healthy boundaries; check in on wellbeing |
-| **Mismatched Expectations** | 🔴 High | Student thinks "close to done" when advisor expects "major revisions" — leads to conflict and emotional distress | Document expectations in writing; review annually; be explicit about gap |
-| **Micro-Management** | 🔴 High | Over-supervising prevents independence development; students can't graduate without ability to work autonomously | Define your role clearly: guide, not do; step back as student progresses |
-| **Exploitation** | 🔴 High | Using students for endless grant work without progress toward their degree — ethical violation, grievance filed | Protect student time for their research; cap service obligations |
-| **Plagiarism in Student Work** | 🔴 High | Failing to detect plagiarism destroys student's career when discovered later; your reputation suffers | Use iThenticate; teach proper citation early; check drafts regularly |
-| **Unfunded Student** | 🟡 Medium | Student without funding or stipend cannot focus on research; may need to work externally, extending time-to-degree | Advocate for funding; help apply for fellowships; plan for self-funded years |
-
-**⚠️ IMPORTANT:**
-- Graduate supervision is a position of power with ethical obligations. The student's success is your success.
-- Mental health is as important as research progress. Recognize warning signs and refer to counseling.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Graduate Student Development Model
-
-```
-        ┌─────────────────────────────────────────┐
-        │          Independent Researcher          │  ← Goal: no longer needs you
-      ┌─┴─────────────────────────────────────────┴─┐
-      │         Publication-Ready Writing          │  ← Can produce without heavy editing
-    ┌─┴───────────────────────────────────────────────┴─┐
-    │            Confident Defender                    │  ← Can defend work independently
-  ┌─┴───────────────────────────────────────────────────┴─┐
-  │             Proactive Problem-Solver                │  ← Identifies issues before asked
-└─────────────────────────────────────────────────────────┘
-```
-
-Mentoring should build toward independence — your job is to work yourself out of a job.
-
-### 4.2 Guiding Principles
-
-1. **The Milestone Calendar**: Map every deadline from now to defense. Students who plan backward don't panic forward.
-
-2. **"Good Enough" is a Conversation**: Avoid the trap of endless revision. Define what "ready for submission" means before you start editing.
-
-3. **Your Network is Their Network**: Introduce students to your collaborators, recommend them for opportunities, write recommendation letters that open doors.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Zotero/Mendeley** | Reference management; shared libraries with students |
-| **Overleaf** | Collaborative LaTeX writing for manuscripts/thesis |
-| **Grammarly/ProWritingAid** | Writing quality improvement |
-| **iThenticate** | Plagiarism detection before submission |
-| **Student Tracking Spreadsheet** | Milestones, deadlines, progress notes |
-| **Weekly Meeting Template** | Structured 1:1 agenda and notes |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Doctoral Milestone Timeline
-
-| Milestone| Typical Timing| Key Deliverable| Failure Consequence|
-|--------------|--------------|----------------|----------------------|
-| **Qualifying Exams** | Year 1-2 | Comprehensive subject exam | Cannot proceed to candidacy |
-| **Proposal Defense** | Year 2-3 | Written proposal + oral defense | Cannot collect data |
-| **IRB Approval** | After proposal | Approved protocol | Cannot begin research |
-| **Data Collection** | Year 2-4 | Completed dataset | No thesis without data |
-| **Writing/Revision** | Year 3-5 | Complete draft chapters | Cannot defend |
-| **Final Defense** | Year 4-6 | Final dissertation | Cannot graduate |
-
-### 7.2 Writing Feedback Framework
-
-| Level| Definition| Response Time|
-|--------------|--------------|---------------|
-| **Conceptual** | Major structural issues, missing arguments | Return within 1 week; extensive rewrite needed |
-| **Organizational** | Chapter flow, section ordering | Return within 5 days; substantial revision |
-| **Paragraph** | Clarity, transitions, paragraph structure | Return within 3 days; moderate revision |
-| **Sentence** | Grammar, word choice, style | Return within 2 days; light editing |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Student Onboarding
-
-```
-Phase 1: Expectations Alignment (Month 1)
-├── Discuss: weekly meeting schedule, response time expectations, feedback style
-├── Review: program requirements, milestone timeline, funding structure
-├── Set: first milestone date (typically qualifying exam or proposal)
-└── [✓ Done]: Signed mentoring agreement on file
-
-Phase 2: Research Direction (Month 2-6)
-├── Read: student's CV and writing sample
-├── Discuss: research interests, career goals, strengths/weaknesses
-├── Assign: 2-3 foundational papers to read and summarize
-└── [✓ Done]: Initial research direction identified
-
-Phase 3: First Project (Month 6-12)
-├── Define: manageable first project (paper or pilot study)
-├── Schedule: weekly check-ins until complete
-├── Review: draft, provide feedback, revise
-└── [✓ Done]: First co-authored submission
-```
-
-### 8.2 Proposal Development
-
-```
-Step 1: Literature Mastery (8-12 weeks)
-  → Student builds Zotero library (100+ key papers)
-  → Weekly literature summaries (2 pages)
-  → Identify: research gap → research question
-
-Step 2: Method Design (4-6 weeks)
-  → Draft Chapter 3 (Methods)
-  → Present to lab group for feedback
-  → Refine design based on feasibility
-
-Step 3: Proposal Writing (4-6 weeks)
-  → Draft complete proposal (15-25 pages)
-  → Internal review by advisor
-  → Revise based on feedback
-
-Step 4: Defense (1 session)
-  → 30-minute presentation
-  → Committee questions (60-90 minutes)
-  → Pass/Revise/Fail decision
-```
-
----
 
 ## 9.1 Research Direction Guidance
 
@@ -347,105 +202,6 @@ Step 4: Defense (1 session)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on graduate supervisor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent graduate supervisor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term graduate supervisor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -463,6 +219,7 @@ Step 4: Defense (1 session)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -472,6 +229,7 @@ Step 4: Defense (1 session)
 | This Skill + **Research Consultant** | Student needs methods help → Consultant provides expertise | Stronger methodology |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -500,6 +258,7 @@ Step 4: Defense (1 session)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -527,6 +286,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -547,6 +307,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -574,6 +335,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -594,6 +356,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -606,15 +369,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -642,3 +396,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

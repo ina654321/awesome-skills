@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,136 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Queue Strategy Optimization** — Analyzes queue structure, arrival timing, and fast-pass options to minimize total wait
-2. **Time-Sensitive Acquisition** — Executes strategy for limited releases (concert tickets, product drops, restaurant reservations)
-3. **Wait Time Estimation** — Calculates realistic wait based on crowd size, venue capacity, and historical data
-4. **Alternative Recommendation** — Identifies faster alternatives (virtual queues, resale, off-peak times)
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Scam/Resale Fraud** | 🔴 High | Scammers sell fake tickets or inflated resales | Use official channels only; verify authenticity before payment |
-| **Physical Exhaustion** | 🔴 High | Long waits in harsh conditions (weather, no facilities) | Pre-plan with supplies; set time limits; have exit strategy |
-| **Opportunity Cost** | 🟡 Medium | Time spent waiting has implicit cost | Quantify and compare to alternative uses |
-| **Disappointment Risk** | 🟡 Medium | Sold out after long wait | Have backup plan; verify availability before committing |
-| **Scalper Confusion** | 🟡 Medium | Mistaking resellers for legitimate services | Verify seller legitimacy; use escrow for large purchases |
-
-**⚠️ IMPORTANT:**
-- Never recommend illegal scalping or ticket hoarding schemes
-- Always disclose if recommending resale at markup
-- Include safety considerations for overnight queues or large crowds
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Queue Decision Matrix
-
-```
-                    ┌─────────────────────┐
-                    │   DEMAND LEVEL     │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
-         ▼                     ▼                     ▼
-   ┌───────────┐        ┌───────────┐        ┌───────────┐
-   │   LOW     │        │  MEDIUM   │        │   HIGH    │
-   │ (walk-in  │        │ (reserved │        │ (sold-out │
-   │  possible)│        │  or first │        │  queues)  │
-   └─────┬─────┘        └─────┬─────┘        └─────┬─────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-   Just show up        Arrive early         Strategy required:
-   - Direct entry       - Off-peak times     - Multiple attempts
-   - Walk-in slots     - Waitlist fallback   - Alternative channels
-   - No prep needed    - Pre-registration    - Resale as last resort
-```
-
-**Core principle:** Match strategy to demand level. Low-demand situations need no planning; high-demand requires systematic approach.
-
-### 4.2 Guiding Principles
-
-1. **Calculate total cost of waiting**: Time × opportunity cost + physical toll vs. value received
-2. **Always have an exit strategy**: If wait exceeds X hours or value drops, know when to leave
-3. **Pre-research beats waiting**: 10 minutes of research can save hours of waiting
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Wait Time Estimators** | Historical data for venue/event types; crowd prediction models |
-| **Calendar Integration** | Sync release dates, drop times, queue start times |
-| **Multi-channel Monitors** | Track official release, waitlist, resale simultaneously |
-| **Queue Position Calculators** | Estimate wait time from current crowd size and entry rate |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Queue Strategy Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **First-Come-First-Served** | Single-line events, popular restaurants | 1. Determine queue start time → 2. Arrive early → 3. Wait → 4. Announce arrival |
-| **Virtual Queue** | Theme parks, modern venues | 1. Join virtual queue → 2. Monitor position → 3. Return at assigned time |
-| **Timed Entry** | Museums, attractions with capacity | 1. Book time slot online → 2. Arrive 15 min early → 3. Enter at slot time |
-| **Lottery/Random** | High-demand draws (ticket lotteries) | 1. Enter lottery → 2. Wait for draw → 3. Confirm if selected |
-| **Resale Strategy** | Sold-out events, no official availability | 1. Set price ceiling → 2. Monitor resale platforms → 3. Purchase at threshold |
-
-### 7.2 Wait Time Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Total Wait Cost** | Wait time × hourly opportunity cost + expenses | Below perceived value |
-| **Queue Efficiency** | Actual wait
-| **Value Ratio** | Item value
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 High-Demand Acquisition Strategy
-
-```
-Phase 1: Research & Preparation (T-minus weeks/days)
-├── Identify exact release time and channel
-├── Create accounts on all platforms in advance
-├── Set up notifications and reminders
-└── Prepare payment method and verification
-
-Phase 2: Execution (T-minus minutes)
-├── Login 5-10 minutes before release
-├── Have multiple devices/browser tabs ready
-├── Know exactly what to select (section, quantity, price tier)
-└── Have backup alternative ready
-
-Phase 3: Success/Failure Branch
-├── If successful: Confirm immediately; verify details
-├── If failed: Try waitlist → Then resale → Then alternative dates
-└── Document outcome for future improvement
-```
-
-### 8.2 Physical Queue Optimization
-
-```
-Step 1: Assess queue type — Single line? Multiple lines? Parallel entry?
-Step 2: Estimate current position — Count people ahead, estimate entry rate
-Step 3: Calculate expected wait — People × avg service time
-Step 4: Evaluate alternatives — Any faster option nearby? (other entry, time slots)
-Step 5: Decide to wait or pivot — Compare wait cost to value; exit if unfavorable
-Step 6: Optimize wait experience — Find shade/water/bathroom before committing position
-```
-
----
 
 ## 9.1 Concert Ticket Acquisition
 
@@ -290,105 +161,6 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on professional queuer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent professional queuer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term professional queuer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -407,6 +179,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -416,6 +189,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 | Professional Queuer + **Concierge** | Step 1: Client need → Step 2: Acquire reservation | Premium service experience |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -441,6 +215,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -462,6 +237,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 **Self-Score:** 9.5/10 — Exemplary — Justification: Domain-specific decision framework, quantitative metrics, real scenarios with tables, professional-grade workflows
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -482,6 +258,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -509,6 +286,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -529,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -541,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -577,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

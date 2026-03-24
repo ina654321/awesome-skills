@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -106,244 +107,6 @@ C — Competition: Who else are they evaluating? What is our differentiation?
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Sales strategy: ICP definition, territory design, channel strategy (direct/channel/PLG)
-- Pipeline management: stage definitions, conversion rates, coverage ratios
-- Quota setting and compensation plan design
-- Sales team coaching: call review, deal strategy, objection handling
-- Deal qualification: MEDDIC/MEDDPICC application and gap analysis
-- Negotiation strategy: pricing, terms, procurement navigation
-- Sales forecasting: commit/upside/at-risk pipeline categorization
-- Sales-marketing alignment: MQL/SQL definitions, pipeline attribution
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Forecast Credibility | 🟡 High | Inaccurate forecasts damage trust with executives; may trigger performance review | Build forecast from bottoms-up pipeline with MEDDIC rigor, not top-down hope |
-| Quota Miscalibration | 🟡 High | Too high: team burns out; too low: underperformance and cap table issues | Set quota at 70-80% attainment target; adjust with ramp period for new hires |
-| Champion Loss | 🟡 High | Losing internal champion mid-deal can kill 6+ months of work | Always build 2+ champions; never single-threaded |
-| Discount Precedent | 🟢 Medium | Excessive discounting trains customers to wait for discounts | Establish discount authority levels; tie discounts to accelerated close, not prospect requests |
-| Win Rate Neglect | 🟢 Medium | Measuring only activity (calls, demos) vs. outcomes (win rate, ACV) | Track win rate by stage, rep, and segment as primary health metric |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Pipeline Coverage is Oxygen** — Maintain 3-4x pipeline coverage of quota. Without coverage, you're managing attrition, not growth.
-2. **Qualification Over Volume** — A pipeline of 20 well-qualified deals beats 200 poorly-qualified ones. Win rate is the multiplier.
-3. **Economic Buyer Access is Non-Negotiable** — You do not have a deal until you've spoken with the economic buyer. Champions without economic authority can't close.
-4. **Urgency Must be Created, Not Found** — Buyers rarely feel urgency on your timeline. Build the business case that makes the cost of waiting visible.
-5. **Coaching is the Manager's Primary Job** — Not email review, not deal chasing, not admin. Rep development at scale is the force multiplier.
-6. **Predictability Over Peaks** — Consistent quarterly attainment at 90% beats 60%/130%/80%/120%. Predictability = credibility = investment.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| CRM | Salesforce, HubSpot CRM, Pipedrive |
-| Sales Engagement | Outreach, Salesloft, Apollo.io |
-| Conversation Intelligence | Gong, Chorus, Clari |
-| Pipeline Analytics | Clari, Tableau CRM, InsightSquared |
-| Sales Intelligence | LinkedIn Sales Navigator, ZoomInfo, Lusha |
-| Proposal/CPQ | DocuSign, PandaDoc, Salesforce CPQ |
-| Training | Sandler, Challenger Sale, SPIN, MEDDPICC certification |
-
----
-
-## § 7 · Standards & Reference
-
-### Sales Pipeline Stage Definitions
-
-| Stage | Definition | Entry Criteria | Exit Criteria | Win Rate |
-|-------|-----------|---------------|---------------|---------|
-| 1 — Prospect | Identified, not yet qualified | ICP fit confirmed | Discovery call booked | 5% |
-| 2 — Discovery | Pain and budget explored | Discovery call completed | Pain confirmed; champion identified | 15% |
-| 3 — Qualified | MEDDIC validated | Economic buyer accessed; decision criteria known | Demo/POC approved | 30% |
-| 4 — Proposal | Solution presented; ROI quantified | Formal proposal submitted | Verbal agreement; paper process started | 55% |
-| 5 — Negotiation | Legal/procurement engaged | MSA/SOW in legal review | Signed contract | 75% |
-| 6 — Closed Won | Contract signed, invoice sent | PO/signature received | — | 100% |
-
-### MEDDPICC Qualification Scorecard
-
-```
-Score each element: 0 = unknown, 1 = identified, 2 = validated, 3 = confirmed
-
-M — Metrics: Quantified ROI calculated? Customer validated the numbers?
-E — Economic Buyer: Identified? Met? Actively supportive?
-D — Decision Criteria: Know their evaluation criteria? Mapped our strengths to them?
-D — Decision Process: Steps? Timeline? Who approves?
-P — Paper Process: Legal/procurement steps? Known timeline? Security review?
-I — Identify Pain: Acute pain articulated? Cost of doing nothing quantified?
-C — Champion: Named? Tested? Has access to economic buyer?
-C — Competition: Who? Our differentiators understood by champion?
-
-Score 0-8: Early/unqualified — do not commit to forecast
-Score 9-16: Developing — upside pipeline
-Score 17-21: Strong — commit pipeline
-Score 22-24: Locked — best case for current quarter
-```
-
-### Quota and Compensation Design
-
-```
-Quota Setting:
-- Total revenue target
-- Apply ramp: New hire: Month 1 = 25%, M2 = 50%, M3 = 75%, M4+ = 100%
-- Target 70-80% of reps at or above quota (bell curve)
-- If <50% attaining: quota too high or pipeline/support issues
-- If >90% attaining: quota too low; leaving money on table
-
-OTE Benchmark (B2B SaaS):
-  AE OTE: 5-7x annual quota (OTE = base + variable at 50/50 split)
-  SDR OTE: $60-80K OTE; quota = 15-20 qualified opportunities/month
-  Variable: Accelerators at 120%, 150% for quota overachievement
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Deal Qualification & Strategy
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | MEDDPICC gap assessment | All 8 elements scored; gaps identified | Advancing deal with score <9 |
-| 2 | Champion validation test | Champion delivers internal meeting or information | Calling someone a champion who can't mobilize |
-| 3 | Economic buyer engagement plan | Meeting with EB scheduled; talking points prepared | "Our champion will handle the EB" |
-| 4 | Competitive positioning | Know competitors in evaluation; differentiation clear | "We don't have competition" or unknown |
-| 5 | Mutual Close Plan (MCP) | Buyer agrees to MCP with milestones and dates | No defined path to contract signature |
-
-### Phase 2: Forecast & Pipeline Management
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Weekly pipeline review | Every deal in commit reviewed; changes explained | Skip weeks; review only at quarter end |
-| 2 | Pipeline coverage check | 3-4x coverage maintained; gap actions assigned | <2x coverage with no corrective plan |
-| 3 | Stage conversion analysis | Win rate by stage tracked; drop-off stages identified | Track only total win rate |
-| 4 | Forecast categorization | Commit / Upside / At-Risk
-| 5 | Coaching actions | 1 specific coaching action per underperforming rep per week | No rep-specific development actions |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on sales manager.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent sales manager issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term sales manager capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -358,6 +121,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -369,6 +133,7 @@ Deliverable requires quality verification.
 | `legal-counsel` | Contract negotiation, non-standard terms escalation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -389,9 +154,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -412,6 +179,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -439,6 +207,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -459,6 +228,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -471,15 +241,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -501,3 +262,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

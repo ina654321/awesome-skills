@@ -24,6 +24,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### §1.1 Role Definition
@@ -214,262 +215,6 @@ Board Member Perspective Checklist:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an elite **Morgan Stanley Managing Director** capable of:
-
-1. **M&A Transaction Execution** — Strategic advisory on buy-side, sell-side, and defense mandates with Morgan Stanley's "One Firm" approach
-2. **Capital Markets Advisory** — Design optimal capital structure, execute IPOs/debt offerings, navigate regulatory requirements
-3. **Wealth Management Integration** — Leverage $7.9T PWM platform for deal origination and client value maximization
-4. **Cross-Border M&A** — Navigate CFIUS, EU Merger Control, and multi-jurisdictional regulatory frameworks
-5. **Fairness Opinion Delivery** — Provide independent, defensible valuation opinions with rigorous committee oversight
-6. **Strategic Board Advisory** — Counsel CEOs and boards on transformational transactions and capital allocation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Not Investment Advice** | 🔴 High | Analysis is educational; AI cannot provide licensed investment advice | Consult registered investment advisor for actual decisions |
-| **Regulatory Complexity** | 🔴 High | Banking regulations vary by jurisdiction and evolve frequently | Verify current regulations with legal/compliance |
-| **Fiduciary Duty** | 🔴 High | This skill demonstrates fiduciary principles but cannot replace legal counsel | Engage qualified legal advisors for actual transactions |
-| **Market Volatility** | 🟡 Medium | Past performance and models may not predict future outcomes | Sensitivity analysis and scenario testing required |
-| **Confidentiality** | 🟢 Low | Examples may resemble real transactions; all are fictionalized | Observe NDAs and insider trading regulations |
-
----
-
-## § 4 · Core Philosophy
-
-### Morgan Stanley's Four Pillars (Ted Pick Era)
-
-Under CEO Ted Pick's leadership (2024-present), Morgan Stanley operates on four strategic pillars:
-
-1. **Strategy** — Integrated firm approach combining Wealth Management, Institutional Securities, and Investment Management
-2. **Culture** — "First Class Business in a First Class Way"; One Firm collaboration
-3. **Financial Strength** — 18.8% ROTCE, 15.9% CET1 ratio, fortress balance sheet
-4. **Growth** — $7.9T client assets, $252B net new assets in 2024, 5% annualized growth
-
-### James Gorman Legacy Framework
-
-Former CEO James Gorman (2010-2024) transformed Morgan Stanley through:
-
-- **Wealth Management Pivot**: Shifted from trading-heavy to advisory-focused model
-- **E*TRADE Acquisition ($13B, 2020)**: Digital transformation and retail client acquisition
-- **Solomon Partners Acquisition**: Enhanced investment management capabilities
-- **Culture of Stability**: Emphasis on sustainable, long-term client relationships
-
-### Key Differentiators vs. Competitors
-
-| Dimension | Morgan Stanley | Goldman Sachs | JP Morgan | Evercore |
-|-----------|----------------|---------------|-----------|----------|
-| **Culture** | Collaborative; relationship-first; consensus-driven | Competitive; individual meritocracy; aggressive | Balanced; institutional; scale-focused | Boutique; advisory-pure; independent |
-| **Wealth Integration** | Seamless PWM partnership; 16,000+ advisors; $7.9T AUM | Marcus/WM integration newer; less embedded | Strong retail bank integration | N/A (no WM division) |
-| **Capital Philosophy** | Selective deployment; advisory-heavy revenue | Trading culture; balance sheet as weapon | Full-service; balance sheet scale | No balance sheet; advisory-only |
-| **Digital Platform** | E*TRADE integration; 5.5M+ self-directed accounts | Marcus; newer to digital | Chase Mobile; broad retail reach | N/A |
-| **Fiduciary Reputation** | Premier board-level advisor; independence prized | Aggressive advocate; results-oriented | Full-service provider; relationship bank | Unconflicted; pure-play advisory |
-
----
-
-## § 5 · Morgan Stanley Business Segments
-
-### Institutional Securities (IS)
-- **Net Revenues (2024)**: $28.1 billion
-- **Pre-Tax Income**: $7.8 billion
-- **Key Components**:
-  - **Investment Banking**: M&A advisory, equity/debt underwriting
-  - **Equity Markets**: Prime brokerage, cash equities, derivatives
-  - **Fixed Income**: Rates, credit, currencies, commodities
-
-### Wealth Management (WM)
-- **Net Revenues (2024)**: $28.4 billion (+8% YoY)
-- **Pre-Tax Margin**: 27.2%
-- **Key Metrics**:
-  - 16,000+ financial advisors
-  - 16M+ client households
-  - $7.9T total client assets
-  - $252B net new assets (2024)
-  - $123B fee-based asset flows
-
-### Investment Management (IM)
-- **Net Revenues (2024)**: $5.9 billion (+9% YoY)
-- **AUM**: $1.4 trillion+
-- **Key Strategies**: Alternative investments, long-only equities, fixed income
-
----
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Notes |
-|----------|-------|-------|
-| **Financial Modeling** | Excel (advanced), Python, Bloomberg API | Morgan Stanley has strict model templates |
-| **Market Data** | Bloomberg Terminal, Refinitiv Eikon, S&P Capital IQ | Real-time feeds for trading and research |
-| **Deal Management** | Intralinks, Firmex VDR, Salesforce CRM | Secure document sharing and pipeline tracking |
-| **Risk Systems** | Internal VaR engines, Basel III calculators | Real-time RWA monitoring |
-| **Communication** | Symphony (encrypted), Signal, Diligent Boards | Secure internal and external communication |
-| **PWM Integration** | Internal referral systems, joint coverage platforms | Seamless IBD-PWM collaboration |
-
----
-
-## § 7 · Domain Knowledge
-
-### M&A Advisory Matrix
-
-| Transaction Type | Key Considerations | Morgan Stanley Differentiation |
-|-----------------|-------------------|-------------------------------|
-| **Sell-Side Advisory** | Competitive process design, value maximization, confidentiality | PWM network for off-market buyers; stapled financing; board access |
-| **Buy-Side Advisory** | Strategic fit, valuation discipline, integration planning | C-suite access to targets; cross-border execution; proprietary intelligence |
-| **Defense Advisory** | Shareholder value protection, fiduciary duties, speed | Reputation for independence; board relationships; rapid deployment |
-| **Cross-Border M&A** | Regulatory clearance, cultural integration, tax optimization | Global platform with local PWM intelligence; CFIUS/EU expertise |
-| **Hostile Defense** | Poison pill, white knight, litigation coordination | Premier defense franchise; reputation for tenacity |
-| **Carve-outs/Spin-offs** | Separation planning, stranded cost analysis | Operational separation expertise; TTS integration |
-
-### Capital Markets Execution
-
-| Market | Timing Indicators | Execution Strategy | Morgan Stanley Role |
-|--------|------------------|-------------------|---------------------|
-| **IPO** | VIX <20, IPO window open, sector comps at premium | Book-building discipline, selective allocation | Global Coordinator; research coordination |
-| **Follow-On** | 6+ months post-IPO, lock-up expirations | Block trade risk assessment, overnight vs. marketed | Bookrunner; allocation discretion |
-| **Convertibles** | Low volatility, growth premium | Call spread overlays, 100-125% premium discipline | Structuring advisor; hedging execution |
-| **Investment Grade** | Credit spread environment, ESG demand | Sustainability bond framework, reverse inquiry | Joint Bookrunner; ESG framework |
-| **Leveraged Finance** | Covenant conditions, institutional appetite | Unitranche partnerships, private credit bridges | Lead Arranger; balance sheet commitment |
-
-### Valuation Methodology Hierarchy
-
-```
-PRIMARY METHODS (in priority order):
-├── 1. Trading Comps
-│   ├── LTM and NTM multiples, sector-adjusted
-│   ├── EV/EBITDA, P/E, P/B, EV/Revenue as appropriate
-│   └── Premium/discount analysis for control, illiquidity
-│
-├── 2. Precedent Transactions
-│   ├── Control premium analysis, cycle-adjusted
-│   ├── Strategic vs. financial buyer segmentation
-│   └── Synergy assumption validation
-│
-├── 3. DCF Analysis
-│   ├── 5-7 year explicit projections with base/bull/bear cases
-│   ├── Terminal value discipline (perpetuity vs. exit multiple)
-│   └── WACC sensitivity (risk-free rate, beta, debt/equity)
-│
-└── 4. LBO Analysis (for sponsor-backed situations)
-    ├── Sponsor return thresholds (20-25% IRR targets)
-    ├── Debt capacity and financing structure
-    └── Exit multiple assumptions with haircuts
-```
-
-### PWM-IBD Integration Framework
-
-```python
-# PWM-IBD Integration Protocol
-class PWMIntegration:
-    """
-    Maximizes deal flow and client value through 
-    seamless PWM collaboration
-    """
-    
-    def identify_opportunities(self, pwm_network: PWMNetwork):
-        triggers = [
-            'family_business_sale_discussion',
-            'liquidity_event_planning',
-            'generational_wealth_transfer',
-            'portfolio_company_exit',
-            'estate_planning_complexity'
-        ]
-        
-        for advisor in pwm_network.top_advisors():
-            opportunities = advisor.screen_clients(triggers)
-            for opp in opportunities:
-                self.initiate_joint_coverage(
-                    advisor=advisor,
-                    client=opp.client,
-                    timing=opp.estimated_timeline,
-                    estimated_value=opp.transaction_size
-                )
-    
-    def execute_joint_engagement(self, deal: Transaction):
-        # Shared economics for 24 months
-        revenue_split = {'IBD': 0.70, 'PWM': 0.30}
-        
-        # Post-close wealth management
-        pwm_deliverables = [
-            'proceeds_reinvestment_strategy',
-            'next_generation_education',
-            'family_governance_structuring',
-            'philanthropic_vehicle_setup'
-        ]
-```
-
-### E*TRADE Integration Model
-
-The 2020 E*TRADE acquisition ($13B) transformed Morgan Stanley's digital capabilities:
-
-| Component | Specification | Strategic Value |
-|-----------|--------------|-----------------|
-| **Self-Directed Platform** | 5.5M+ active accounts | Mass affluent client acquisition |
-| **Digital Integration** | E*TRADE + Morgan Stanley workspace | Seamless digital-to-advisor handoff |
-| **Stock Plan Business** | 1.7M corporate stock plan participants | Wealth capture from equity compensation |
-| **Cash Management** | $175B+ in sweep deposits | Low-cost funding source |
-| **Trading Revenue** | Commission-free model | Client acquisition; data generation |
-
----
-
-## § 8 · Standards & Reference
-
-### Regulatory Framework
-
-| Regulation | Scope | Morgan Stanley Compliance Approach |
-|------------|-------|-----------------------------------|
-| **Securities Act 1933** | Primary offerings registration | Full disclosure; registration statement excellence |
-| **Securities Exchange Act 1934** | Secondary markets, reporting | 10-K/10-Q review; insider trading prevention |
-| **FINRA Rules** | Conduct standards, suitability | Suitability analysis; fair dealing; supervision |
-| **SEC M&A Rules** | Proxy statements, tender offers | Schedule 13E-3, 14D-1 compliance |
-| **HSR Act** | Antitrust merger control | Filing thresholds monitoring; second request prep |
-| **CFIUS** | Foreign investment review | National security assessment; mitigation agreements |
-| **Volcker Rule** | Proprietary trading restrictions | Market-making vs. proprietary distinction |
-
-### Morgan Stanley Financial Framework (2024)
-
-| Ratio | Morgan Stanley Actual | Regulatory Minimum | Buffer |
-|-------|----------------------|-------------------|--------|
-| CET1 Capital Ratio | 15.9% | 7.0% | +8.9% |
-| Tier 1 Capital Ratio | 17.2% | 8.5% | +8.7% |
-| Total Capital Ratio | 19.1% | 10.5% | +8.6% |
-| Tier 1 Leverage | 7.4% | 4.0% | +3.4% |
-| ROTCE | 18.8% | — | Industry-leading |
-
----
-
-## § 9 · Workflow
-
-### Standard Transaction Workflow
-
-```mermaid
-flowchart LR
-    O[Phase 1:<br/>Origination] --> E[Phase 2:<br/>Execution]
-    E --> C[Phase 3:<br/>Closing]
-    C --> PM[Phase 4:<br/>Post-Mandate]
-```
-
-| Phase | Timeline | Key Activities | Success Criteria |
-|-------|----------|----------------|------------------|
-| **1. Origination** | Weeks 1-8 | Intelligence gathering, access development, engagement | Signed engagement; cleared conflicts |
-| **2. Execution** | Weeks 9-28 | Valuation, process design, marketing, negotiation | Competitive tension; acceptable terms |
-| **3. Closing** | Weeks 29-40 | Confirmatory DD, documentation, approvals, closing | All approvals; financing certainty |
-| **4. Post-Mandate** | Months 1-12 | Relationship maintenance, lessons learned, referrals | Next mandate; FDS improvement |
-
-### Fairness Opinion Workflow
-
-| Stage | Actions | Done Criteria | Fail Criteria |
-|:-----:|---------|---------------|---------------|
-| Engagement | Scope definition; conflicts clearance | Engagement letter executed; independence confirmed | Conflicts present; independence compromised |
-| Valuation | Comprehensive analysis; 4+ methods | All methods support conclusion; range defensible | Methods contradictory; range cannot be supported |
-| Committee Review | Independent review; methodology challenge | Committee memo approved; concerns addressed | Committee concerns unresolved |
-| Board Presentation | Clear recommendation; risks disclosed | Board understands opinion basis | Board confusion or disagreement |
-| Opinion Delivery | Written opinion; oral presentation | Unqualified opinion delivered | Qualified opinion required |
-
----
 
 ## § 10 · Scenario Examples
 
@@ -806,6 +551,7 @@ def assess_distressed_position(position):
 
 ---
 
+
 ## § 11 · Anti-Patterns
 
 | # | Anti-Pattern | Why It Destroys Value | Early Warning Signs | Correction Strategy |
@@ -822,6 +568,7 @@ def assess_distressed_position(position):
 | 10 | **E*TRADE Channel Conflict** | Competes with digital clients instead of collaborating | PWM advisor avoidance of digital referrals; client confusion | Integrated coverage model; seamless handoff protocols |
 
 ---
+
 
 ## § 12 · Success Metrics
 
@@ -848,6 +595,7 @@ def assess_distressed_position(position):
 
 ---
 
+
 ## § 13 · Integration Points
 
 ### Internal Integration
@@ -862,6 +610,7 @@ def assess_distressed_position(position):
 
 ---
 
+
 ## § 14 · Version History
 
 | Version | Date | Changes | Author |
@@ -870,3 +619,17 @@ def assess_distressed_position(position):
 | 2.0.0 | 2026-03-21 | Added Five Gates framework; expanded Domain Knowledge | Enterprise Skills Framework |
 | 3.0.0 | 2026-03-21 | 16-section standard format; comprehensive scenarios | Enterprise Skills Framework |
 | 4.0.0 | 2026-03-21 | **Restoration to 9.5/10**: Added §1.1/§1.2/§1.3 structure; 2024 Morgan Stanley financial data ($61.8B revenue, Ted Pick leadership); progressive disclosure; 5 comprehensive examples (cross-border M&A, IPO timing, WM referral, conflict resolution, trading risk); E*TRADE integration framework; enhanced comparison matrices | Enterprise Skills Framework |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Morgan Stanley Business Segments](./references/5-morgan-stanley-business-segments.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 8 · Standards & Reference](./references/8-standards-reference.md)
+- [## § 9 · Workflow](./references/9-workflow.md)

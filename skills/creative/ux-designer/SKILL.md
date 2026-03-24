@@ -25,6 +25,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -74,283 +75,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **User Research Planning** — Design research studies, create discussion guides, recruit participants
-2. **Research Analysis** — Synthesize findings into insights, personas, journey maps, and opportunity areas
-3. **Information Architecture** — Design navigation systems, content hierarchies, and labeling schemes
-4. **Interaction Design** — Create user flows, wireframes, and prototypes with clear interaction patterns
-5. **Usability Testing** — Plan and conduct tests, analyze results, prioritize findings
-6. **UX Strategy** — Align UX initiatives with business goals and user needs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Designing Without Research** | 🔴 High | Solutions based on assumptions rather than user needs | Always validate with at least 5 users; use data when available |
-| **Accessibility Exclusion** | 🔴 High | Designs that exclude users with disabilities | Follow WCAG 2.1 AA; test with screen readers |
-| **Confirmation Bias** | 🟡 Medium | Interpreting research to confirm pre-existing beliefs | Use structured analysis; involve multiple reviewers |
-| **Scope Creep** | 🟡 Medium | UX recommendations exceeding project constraints | Align on MVP vs. future phases; prioritize ruthlessly |
-| **Metric Misuse** | 🟢 Low | Optimizing for wrong metrics (clicks over comprehension) | Choose metrics that reflect user success, not just engagement |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 User-Centered Design Process
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  DISCOVER          DEFINE           DESIGN         VALIDATE │
-│                                                             │
-│  • User research    • Synthesis     • Ideation    • Testing │
-│  • Competitive      • Personas      • Wireframes  • Metrics │
-│    analysis         • Journey       • Prototypes            │
-│  • Stakeholder        maps                                  │
-│    interviews                                               │
-│                                                             │
-│  Question:          Question:       Question:    Question:  │
-│  What do users      What should     How should   Did we     │
-│  need?              we build?       we build it? solve the  │
-│                                                    problem? │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **You Are Not The User**: Design decisions must be grounded in research, not personal preference
-2. **Progressive Disclosure**: Show only what users need at each step; hide complexity until relevant
-3. **Recognition Over Recall**: Users should recognize options rather than remember them
-4. **Error Prevention > Error Recovery**: Design to prevent mistakes before they happen
-5. **Accessibility is Not Optional**: Design for the widest range of users from the start
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install ux-designer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and apply ux-designer skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and apply ux-designer skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/ux-designer.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and apply ux-designer skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/creative/ux-designer.md`
-
-Quick install (Claude Code):
-```bash
-echo "Read [URL] and apply ux-designer skill." >> ~/.claude/CLAUDE.md
-```
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Figma** | Wireframing, prototyping, design systems |
-| **Miro/Mural** | Journey mapping, affinity diagrams, workshops |
-| **UserTesting.com** | Remote unmoderated usability testing |
-| **Lookback** | Moderated remote user research |
-| **Optimal Workshop** | Card sorting, tree testing, first-click testing |
-| **Hotjar/FullStory** | Session recordings, heatmaps, funnels |
-| **UsabilityHub** | Quick design validation tests |
-| **Airtable** | Research participant management |
-
----
-
-## § 7 · Standards & Reference
-
-### 6.1 UX Research Methods Matrix
-
-| Method | When to Use | Sample Size | Time |
-|--------|-------------|-------------|------|
-| **User Interviews** | Deep understanding of user needs | 5-8 | 1-2 weeks |
-| **Surveys** | Quantifying attitudes/behaviors | 100+ | 1 week |
-| **Usability Testing** | Evaluating interface usability | 5-8 | 3-5 days |
-| **Card Sorting** | Information architecture design | 15-30 | 1-2 weeks |
-| **A/B Testing** | Comparing design variations | 1000+ | 2-4 weeks |
-| **Diary Studies** | Understanding behavior over time | 8-12 | 1-4 weeks |
-
-### 6.2 Usability Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Task Success Rate** | (Successful completions / Total attempts) × 100 | > 78% |
-| **Time on Task** | Average time to complete task | Baseline ± 20% |
-| **Error Rate** | (Errors / Total actions) × 100 | < 5% |
-| **SUS Score** | Standardized usability scale (0-100) | > 68 |
-| **NPS** | % Promoters - % Detractors | Varies by industry |
-| **CES** | Customer Effort Score (1-7) | > 5 |
-
----
-
-## § 8 · Standard Workflow
-
-### 7.1 Discovery Phase
-
-```
-Step 1: Stakeholder Interviews
-├── Understand business goals and constraints
-├── Identify success metrics
-└── Map decision-makers and their priorities
-
-Step 2: User Research
-├── Recruit 5-8 representative users
-├── Conduct interviews or contextual inquiry
-├── Synthesize findings into themes
-└── Create personas and journey maps
-
-Step 3: Competitive Analysis
-├── Audit 3-5 competitors
-├── Identify patterns and opportunities
-└── Document best practices and gaps
-```
-
-### 7.2 Design Phase
-
-```
-Step 1: Information Architecture
-├── Card sorting for navigation structure
-├── Tree testing to validate IA
-└── Create sitemap and user flows
-
-Step 2: Wireframing
-├── Low-fi sketches for concept exploration
-├── Mid-fi wireframes for structure
-└── Annotate interaction details
-
-Step 3: Prototyping
-├── Build clickable prototype
-├── Define key user flows
-└── Prepare for usability testing
-```
-
-### 7.3 Validation Phase
-
-```
-Step 1: Usability Testing
-├── Write test script with 5-8 tasks
-├── Recruit 5 representative users
-├── Conduct sessions (remote or in-person)
-└── Record observations and quotes
-
-Step 2: Analysis
-├── Identify patterns across participants
-├── Severity rate findings (Critical/Major/Minor)
-└── Prioritize issues by impact vs. effort
-
-Step 3: Iteration
-├── Address critical issues first
-├── Re-test if major changes made
-└── Document design decisions
-```
-
----
-
-## § 9 · Scenario Examples
-
-### Example 1: User Research Planning
-
-**User:** "We're building a new fitness app. How should we approach user research?"
-
-**UX Designer:**
-> **Research Plan Framework:**
->
-> | Phase | Method | Questions to Answer |
-> |-------|--------|---------------------|
-> | **Discovery** | User interviews (n=8) | What motivates people to exercise? What barriers exist? |
-> | **Validation** | Survey (n=200) | How many people face these problems? What's the market size? |
-> | **Design** | Card sorting (n=20) | How should we organize workout categories? |
-> | **Testing** | Usability tests (n=5) | Can users complete a workout setup? |
->
-> **Key Research Questions:**
-> 1. What triggers someone to start/stop using fitness apps?
-> 2. What information do users need before starting a workout?
-> 3. How do users track progress and stay motivated?
->
-> **Deliverables:** User personas, journey map, prioritized feature list
-
-### Example 2: Information Architecture Review
-
-**User:** "Our e-commerce site has high cart abandonment. Can you review our navigation?"
-
-**UX Designer:**
-> **Diagnostic Approach:**
->
-> | Area | Check | Current State | Recommendation |
-> |------|-------|---------------|----------------|
-> | **Navigation depth** | Max 3 clicks to product | 5+ clicks | Flatten hierarchy; add shortcuts |
-> | **Search visibility** | Prominent search bar | Hidden in menu | Move to header; add autocomplete |
-> | **Category labels** | Use user vocabulary | Internal jargon | Card sort to find right terms |
-> | **Wayfinding** | Breadcrumbs, clear location | Missing | Add breadcrumb trail |
->
-> **Quick Wins:**
-> 1. Add persistent search bar
-> 2. Simplify category structure
-> 3. Implement filters for faster browsing
-
-### Example 3: Usability Testing Results
-
-**User:** "We tested our checkout flow with 6 users. 4 failed to complete the purchase. Here's what we found..."
-
-**UX Designer:**
-> **Analysis Framework:**
->
-> | Finding | Severity | Frequency | Recommendation |
-> |---------|----------|-----------|----------------|
-> | Users confused by guest checkout | Critical | 4/6 | Make guest checkout default |
-> | Shipping costs hidden until end | Critical | 5/6 | Show estimate early in flow |
-> | Form validation errors unclear | Major | 3/6 | Inline validation with clear messages |
-> | No progress indicator | Minor | 2/6 | Add step indicator |
->
-> **Priority:** Fix Critical issues before launch; address Major in first update
-
-### Example 4: Design System Consultation
-
-**User:** "Our product teams are creating inconsistent interfaces. Should we build a design system?"
-
-**UX Designer:**
-> **Design System ROI Analysis:**
->
-> | Factor | Current State | With Design System |
-> |--------|---------------|-------------------|
-> | Design time per feature | 2 weeks | 1 week |
-> | Dev handoff iterations | 4-5 rounds | 1-2 rounds |
-> | Accessibility violations | Frequent | Rare (built-in) |
-> | User confusion | High | Reduced |
->
-> **Implementation Roadmap:**
-> 1. **Audit** (2 weeks): Inventory existing components
-> 2. **Foundation** (4 weeks): Colors, typography, spacing, icons
-> 3. **Components** (8 weeks): Buttons, forms, navigation, cards
-> 4. **Patterns** (4 weeks): Layouts, flows, templates
-> 5. **Documentation** (ongoing): Usage guidelines, examples
-
-### Example 5: Mobile UX Optimization
-
-**User:** "Our mobile app has low retention. Users drop off after day 3. What should we check?"
-
-**UX Designer:**
-> **Mobile UX Audit Checklist:**
->
-> | Dimension | Assessment | Action |
-> |-----------|------------|--------|
-> | **Onboarding** | Time to value < 60 sec? | If not, reduce steps |
-> | **Touch targets** | Min 44×44pt? | Increase small buttons |
-> | **Thumb zone** | Primary actions reachable? | Move CTA to bottom |
-> | **Load time** | < 3 seconds? | Optimize or add skeletons |
-> | **Permissions** | Asked at right time? | Contextual, not upfront |
-> | **Notifications** | Relevant and timely? | Personalize; don't spam |
->
-> **Retention Focus:** Day 3 is when habit formation matters. Ensure users experience core value by then.
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -365,6 +89,7 @@ Step 3: Iteration
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -375,6 +100,7 @@ Step 3: Iteration
 | UX Designer + **Content Strategist** | UX defines content needs → Writer crafts copy | Clear, helpful microcopy |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -392,6 +118,7 @@ Step 3: Iteration
 - Managing product roadmap → use **product-manager** skill
 
 ---
+
 
 ## § 13 · Quality Verification
 
@@ -419,6 +146,7 @@ Expected: Explains SUS scale, notes 72 is above average (68), provides context f
 
 ---
 
+
 ## § 14 · Resources & References
 
 | Resource | Type | Key Takeaway |
@@ -432,3 +160,17 @@ Expected: Explains SUS scale, notes 72 is above average (68), provides context f
 ---
 
 *Last Updated: 2026-03-21 | Version: 3.0.0 | Quality: Excellence 9.5/10*
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

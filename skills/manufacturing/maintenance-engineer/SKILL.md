@@ -31,6 +31,7 @@ Maximize equipment reliability using predictive maintenance, RCM methodology, an
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -130,205 +131,6 @@ PROACTIVE (Root Cause):
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Maintenance Engineering Challenge Indicators**:
-- High unplanned downtime
-- Frequent equipment failures
-- High maintenance costs
-- Aging asset base
-- Safety incidents related to equipment
-
-**Complexity Markers**:
-- Assets: 100-10,000+ maintained items
-- Work orders: 1,000-50,000+ per year
-- Technicians: 10-200+
-- Maintenance spend: $1M-$100M+ annually
-- Systems: Integrated CMMS, condition monitoring
-
-### User Signals
-
-Invoke when users need to:
-- Develop maintenance strategies
-- Implement predictive maintenance
-- Analyze equipment failures
-- Optimize spare parts inventory
-- Design preventive maintenance plans
-- Improve maintenance processes
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Asset Strategy
-
-**Purpose**: Define how to maintain each asset.
-
-**Core Elements**:
-- **Criticality Analysis**: Rating based on safety, production, cost
-- **RCM Analysis**: Reliability-Centered Maintenance decisions
-- **Maintenance Strategy**: Run-to-fail, PM, PdM, redesign
-- **Spare Parts Strategy**: Critical spares, lead times, costs
-
-📄 **Details**: [references/05-layer1-strategy.md](references/05-layer1-strategy.md)
-
-### Layer 2: Work Execution
-
-**Purpose**: Plan and execute maintenance work.
-
-**Core Elements**:
-- **Work Management**: Request, plan, schedule, execute, close
-- **Planning**: Job plans, BOMs, procedures, resources
-- **Scheduling**: Load leveling, priority management
-- **Execution**: Safety, quality, efficiency
-
-📄 **Details**: [references/06-layer2-execution.md](references/06-layer2-execution.md)
-
-### Layer 3: Reliability Improvement
-
-**Purpose**: Continuously improve asset performance.
-
-**Core Elements**:
-- **Condition Monitoring**: Vibration, thermography, oil analysis
-- **Failure Analysis**: RCA, FMEA, bad actor analysis
-- **Improvement Projects**: Design changes, process changes
-- **TPM**: Autonomous maintenance, operator care
-
-📄 **Details**: [references/07-layer3-reliability.md](references/07-layer3-reliability.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Condition Monitoring Techniques
-
-| Technique | Detects | Frequency | Cost |
-|-----------|---------|-----------|------|
-| Vibration Analysis | Bearing, gear, imbalance | Monthly | Medium |
-| Thermography | Hot connections, bearings | Quarterly | Low |
-| Oil Analysis | Wear, contamination | Monthly | Medium |
-| Ultrasonic | Leaks, electrical, bearing | Monthly | Low |
-| Motor Current | Electrical, mechanical | Continuous | Medium |
-| Visual Inspection | Obvious issues | Daily | Low |
-
-### Reliability Metrics
-
-```
-MTBF (Mean Time Between Failures):
-MTBF = Total Operating Time / Number of Failures
-
-MTTR (Mean Time To Repair):
-MTTR = Total Repair Time / Number of Repairs
-
-Availability:
-Availability = MTBF / (MTBF + MTTR)
-
-or
-
-Availability = (Planned Production Time - Downtime) / Planned Production Time
-
-Target: >95% for critical equipment
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Criticality Analysis Matrix
-
-```
-Consequence Rating:
-├── Safety: 10 = Potential fatality
-├── Environmental: 10 = Major release
-├── Production: 10 = Plant shutdown
-└── Cost: 10 = >$1M impact
-
-Probability Rating:
-├── 10 = Failure imminent or frequent
-├── 5 = Likely within 1-2 years
-└── 1 = Rare or never
-
-Criticality = Consequence × Probability
-
-Priority:
-├── 80-100: Immediate action required
-├── 50-79: High priority
-├── 25-49: Medium priority
-└── <25: Low priority
-```
-
-### RCM Decision Logic
-
-| Question | Yes Action | No Action |
-|----------|------------|-----------|
-| Safety consequence? | Must prevent - redesign or PM | Continue analysis |
-| Hidden failure? | Inspection to find | Continue analysis |
-| Multiple failures? | Prevent multiple | Continue analysis |
-| Wear-out pattern? | Age-based maintenance | Continue analysis |
-| P-F interval long? | Condition monitoring | No scheduled maintenance |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Criticality Analysis | [references/10-sop-criticality.md](references/10-sop-criticality.md) |
-| SOP 2 | Vibration Analysis | [references/11-sop-vibration.md](references/11-sop-vibration.md) |
-| SOP 3 | Work Order Management | [references/12-sop-work-order.md](references/12-sop-work-order.md) |
-| SOP 4 | Root Cause Analysis | [references/13-sop-rca.md](references/13-sop-rca.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Maintenance Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Unexpected Failure** | Medium | High | PdM, critical spares |
-| **Maintenance Backlog** | High | Medium | Prioritization, resources |
-| **Spare Stockout** | Medium | High | Critical spares strategy |
-| **Skill Shortage** | Medium | High | Training, documentation |
-| **Safety Incident** | Low | Critical | LOTO, procedures, training |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Strategy | Define maintenance approach | Criticality ranked | All treated same |
-| Planning | Prepare work packages | Job plans complete | Rushed execution |
-| Scheduling | Optimize resource use | Schedule leveled | Emergency only |
-| Execution | Safe, quality work | Work complete, verified | Rework, incidents |
-| Analysis | Learn and improve | RCA complete, actions assigned | Repeat failures |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Predictive Implementation | Vibration program setup | [references/16-example-pdm-setup.md](references/16-example-pdm-setup.md) |
-| 2 | Critical Pump Overhaul | Major rotating equipment | [references/17-example-pump-overhaul.md](references/17-example-pump-overhaul.md) |
-| 3 | Spare Parts Optimization | Inventory reduction | [references/18-example-spares.md](references/18-example-spares.md) |
-| 4 | Chronic Failure Resolution | Recurring breakdown | [references/19-example-chronic.md](references/19-example-chronic.md) |
-| 5 | TPM Implementation | Operator maintenance | [references/20-example-tpm.md](references/20-example-tpm.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -379,3 +181,17 @@ Wear-out pattern, 63% fail by 10,000 hrs
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

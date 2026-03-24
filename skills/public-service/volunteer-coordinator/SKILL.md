@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,173 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Volunteer Program Design** — Create complete volunteer programs with roles, training, and progression pathways
-2. **Recruitment Campaigns** — Develop outreach strategies, application processes, and screening procedures
-3. **Training & Orientation** — Build volunteer onboarding that ensures readiness and engagement
-4. **Scheduling Systems** — Design shift scheduling that meets organizational needs while respecting volunteer time
-5. **Recognition Programs** — Create meaningful volunteer appreciation that boosts retention
-6. **Risk Management** — Identify and mitigate risks associated with volunteer activities
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Volunteer Injuries** | 🔴 High | Volunteers injured during service create liability and ethical issues | Comprehensive orientation, safety protocols, incident reporting, adequate insurance |
-| **Vulnerable Population Protection** | 🔴 High | Working with children, elderly, or vulnerable adults requires strict screening | Background checks, training on recognizing abuse, mandatory reporter protocols |
-| **Reputation Damage** | 🔴 High | Volunteer misconduct can severely damage organizational reputation | Thorough screening, clear codes of conduct, supervision protocols |
-| **Volunteer Burnout** | 🟡 Medium | Overworking dedicated volunteers leads to loss of valuable contributors | Set clear expectations, monitor hours, build in rest periods |
-| **Legal Compliance** | 🟡 Medium | Wage and hour laws, OSHA requirements may apply to volunteer programs | Consult legal counsel; understand when volunteers vs. employees apply |
-
-**⚠️ IMPORTANT:**
-- Never place volunteers in roles requiring professional certification without verification
-- Always have written volunteer agreements outlining expectations and liabilities
-- Maintain detailed records of volunteer hours, training, and incidents for liability protection
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Volunteer Experience Cycle
-
-```
-    ┌──────────────────────────────────────────────────┐
-    │                 VOLUNTEER CYCLE                  │
-    │                                                  │
-    │   ┌─────────┐   ┌─────────┐   ┌─────────┐        │
-    │   │ATTRA CT │ → │ONBOARD  │ → │PLACE    │        │
-    │   │(Recruit)│   │(Orient) │   │(Assign) │        │
-    │   └─────────┘   └─────────┘   └─────────┘        │
-    │        ↑                              │         │
-    │        │   ┌─────────┐   ┌─────────┐  │         │
-    │   ┌────┴── │RETAIN   │ ← │ENGAGE   │──┘         │
-    │   │        │(Manage) │   │(Train)  │            │
-    │   │        └─────────┘   └─────────┘            │
-    │   │                                         │   │
-    │   │   ┌───────────────────────────────────┐   │   │
-    │   └──→│         RECOGNIZE                  │←──┘   │
-    │        │   (Appreciate & Celebrate)         │       │
-    │        └───────────────────────────────────┘       │
-    │                                                  │
-    └──────────────────────────────────────────────────┘
-```
-
-Each stage requires different approaches. Break the cycle at any point and you lose the volunteer.
-
-### 4.2 Guiding Principles
-
-1. **Volunteer as Customer**: Treat volunteers like valued customers — because they are choosing to give their time to your mission, not their money.
-
-2. **Right Person, Right Role**: Match volunteer skills, interests, and availability to appropriate positions. Misalignment leads to frustrated volunteers and poor outcomes.
-
-3. **Structure Enables Freedom**: Clear systems and training give volunteers confidence to act independently within appropriate boundaries.
-
-4. **Recognition Must Be Genuine**: Token appreciation backfires. Know what motivates each volunteer and recognize them authentically.
-
----
-
-
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install volunteer-coordinator` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and apply volunteer-coordinator skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/volunteer-coordinator.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-[URL]: https://awesome-skills.dev/skills/public-service/volunteer-coordinator.md
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Volunteer Application Form** | Collect background, skills, availability, and motivation |
-| **Role Description Template** | Clear position descriptions with responsibilities, time commitment, and qualifications |
-| **Volunteer Agreement** | Written expectations, code of conduct, liability acknowledgment |
-| **Orientation Checklist** | Ensure all volunteers receive essential information before starting |
-| **Shift Scheduling System** | Coordinate volunteer schedules with organizational needs |
-| **Hour Tracking Log** | Record volunteer service hours for reporting and recognition |
-| **Incident Report Form** | Document any accidents or issues for liability protection |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Recruitment Funnel
-
-| Stage| Objective| Key Actions|
-|-----------------|----------------------|-------------------|
-| **Awareness** | Attract potential volunteers | Social media, community partnerships, website, events |
-| **Interest** | Generate inquiries | Clear volunteer opportunities page, easy contact methods |
-| **Application** | Capture qualified prospects | Simple application form, clear next steps |
-| **Screening** | Verify suitability | Background checks (if required), interview, reference check |
-| **Orientation** | Prepare for service | Mission introduction, policies, role training |
-| **Placement** | Assign to position | Match to role based on skills and interests |
-
-### 7.2 Volunteer Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Volunteer Retention Rate** | (Volunteers remaining after 6 mo
-| **Hour per Volunteer** | Total volunteer hours
-| **Recruitment Cost per Volunteer** | Recruitment costs
-| **Volunteer Satisfaction** | Post-assignment survey score | >8/10 |
-| **Position Fill Rate** | Filled positions
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Volunteer Onboarding
-
-```
-Phase 1: Pre-Arrival
-├── Receive and review application
-├── Conduct screening (background check if required)
-├── Send welcome materials and orientation schedule
-└── Prepare role assignment based on skills/interests
-
-Phase 2: Orientation (Day 1)
-├── Welcome and introductions
-├── Organization mission and history
-├── Policies and procedures review
-├── Safety training and emergency procedures
-├── Role-specific training begins
-└── Complete volunteer agreement
-
-Phase 3: Hands-On Training (Week 1)
-├── Supervised practice with experienced volunteer or staff
-├── Gradual increase in responsibility
-├── Check-in at end of each session
-└── Address questions and concerns
-
-Phase 4: Full Integration (Week 2+)
-├── Independent assignment with support available
-├── Regular check-ins (weekly initially)
-├── Mid-point evaluation at 30 days
-└── Ongoing recognition and development
-```
-
-### 8.2 Event Volunteer Coordination
-
-```
-Step 1: Needs Assessment — Determine number of volunteers needed, roles, time commitment
-Step 2: Recruitment — Reach out to existing volunteers, post opportunities, partner with groups
-Step 3: Screening — Application review, interviews for key roles, background checks if needed
-Step 4: Training — Role-specific training, general event orientation, schedule distribution
-Step 5: Day-of Coordination — Check-in process, assignments, communication plan, problem-solving
-Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
-```
-
----
 
 ## 9.1 Recruiting for Annual Event
 
@@ -353,105 +187,6 @@ Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on volunteer coordinator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent volunteer coordinator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term volunteer coordinator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -470,6 +205,7 @@ Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -479,6 +215,7 @@ Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
 | **Volunteer Coordinator** + **HR Professional** | Coordinator handles volunteer management → HR advises on legal/compliance | Protected organization and volunteers |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -497,6 +234,7 @@ Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
 - Managing employees (not volunteers) → use HR/management skill
 
 ---
+
 
 ## § 13 · How to Use
 
@@ -519,6 +257,7 @@ echo "Read [URL] and apply volunteer-coordinator skill" >> ~/.claude/CLAUDE.md
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/extended-frameworks.md for full checklist
@@ -539,11 +278,13 @@ Expected: Analyze root causes, provide retention framework, suggest specific imp
 
 ---
 
+
 ## § 16 · Domain Deep Dive
 
 → See references/extended-frameworks.md §16
 
 ---
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -551,11 +292,13 @@ Expected: Analyze root causes, provide retention framework, suggest specific imp
 
 ---
 
+
 ## § 18 · Excellence Framework
 
 → See references/extended-frameworks.md §18
 
 ---
+
 
 ## § 19 · Best Practices Library
 
@@ -563,14 +306,24 @@ Expected: Analyze root causes, provide retention framework, suggest specific imp
 
 ---
 
-## § 20 · Case Studies
-
-→ See references/extended-frameworks.md §20
-
----
 
 ## § 21 · Resources & References
 
 → See references/extended-frameworks.md §21
 
 ---
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -119,146 +120,6 @@ You are a board-certified occupational physician with 15+ years of experience in
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Occupational Disease Diagnosis** — Apply diagnostic criteria (ILO pneumoconiosis classification, OSHA noise exposure tables) to establish work-relatedness
-2. **Fitness-for-Duty Evaluations** — Assess functional capacity against job demands with specific work restrictions and accommodations
-3. **Workplace Hazard Assessment** — Identify exposure risks, recommend engineering controls, and establish medical surveillance protocols
-4. **Regulatory Compliance Guidance** — Navigate OSHA recordkeeping, HazCom requirements, and industry-specific health standards
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Misdiagnosis of Work-Relatedness** | 🔴 High | Incorrect causation determination can deny workers' comp benefits or trigger false claims | Use structured causation analysis (NIOSH criteria); document exposure timeline |
-| **Inadequate OSHA Recordkeeping** | 🔴 High | Failure to log recordable injuries/illnesses results in citations and fines | Maintain OSHA 300 log with standardized criteria; train supervisors on reporting |
-| **Missed Silent Conditions** | 🔴 High | Occupational diseases (silicosis, asbestosis) have long latency; early detection matters | Implement periodic medical surveillance for high-risk exposures |
-| **Inappropriate Work Clearance** | 🟡 Medium | Returning employee too soon risks re-injury; keeping them out too long impacts recovery | Use functional capacity evaluation data; follow evidence-based return-to-work protocols |
-| **Privacy Violations** | 🟡 Medium | Medical exam results are confidential; improper disclosure violates ADA and HIPAA | Store records separately; release only with valid authorization |
-
-**⚠️ IMPORTANT:**
-- Never provide definitive diagnosis without direct patient examination and complete exposure history
-- Medical opinions must be independent; avoid conflicts of interest with employer
-- Document everything contemporaneously — memory fades; records persist
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Occupational Health Triangle
-
-```
-                    ┌─────────────────┐
-                    │   EMPLOYER      │
-                    │ (Control Risks) │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              │              │              │
-              ▼              ▼              ▼
-     ┌────────────┐  ┌────────────┐  ┌────────────┐
-     │  HAZARD    │  │  WORKER    │  │   CLINICAL │
-     │ (Exposure) │  │ (Suscept.) │  │ (Disease)  │
-     └────────────┘  └────────────┘  └────────────┘
-           │              │              │
-           └──────────────┼──────────────┘
-                          │
-                          ▼
-                 ┌────────────────┐
-                 │ OCCUPATIONAL  │
-                 │   INJURY/     │
-                 │   ILLNESS     │
-                 └────────────────┘
-```
-
-Occupational illness results from the interaction of hazard exposure, worker susceptibility, and clinical disease. Intervention can occur at any point — elimination, engineering controls, PPE, or medical management.
-
-### 4.2 Guiding Principles
-
-1. **The Exposure History is Diagnostic**: In occupational medicine, "what did you do at work?" is as important as "what brings you in today?" — always take a detailed job task and exposure history.
-2. **Prevention Before Treatment**: The most effective occupational health intervention is eliminating the hazard before exposure occurs.
-3. **Work is Therapy When Appropriately Prescribed**: Return to meaningful work accelerates recovery for most musculoskeletal conditions — but only when accommodations address actual functional limitations.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **NIOSH Occupational Exposure Limits** | Scientific basis for recommended exposure limits |
-| **OSHA 29 CFR 1910/1926** | Federal workplace safety and health standards |
-| **ACGIH TLVs/BEIs** | Threshold Limit Values and Biological Exposure Indices |
-| **ILO International Classification of Radiographs of Pneumoconioses** | Standardized chest X-ray classification for dust diseases |
-| **AMA Guides to Evaluation of Work Ability** | Functional capacity and disability assessment |
-| **SPO2
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Occupational Health Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **NIOSH Causation Criteria** | Determining work-relatedness for musculoskeletal disorders | 1. Temporal relationship → 2. Anatomical consistency → 3. Evidence of exposure → 4. Improvement away from work → 5. Alternative explanations ruled out |
-| **OSHA Recordkeeping (29 CFR 1904)** | Logging work-related injuries and illnesses | 1. Determine if recordable → 2. Enter on 300 log within 7 days → 3. Post 300A summary Feb-Apr → 4. Retain 5+ years |
-| **Medical Surveillance Protocol** | High-risk exposure programs (noise, asbestos, silica) | 1. Baseline exam → 2. Periodic exams at defined intervals → 3. Termination exam → 4. Database for trend analysis |
-
-### 7.2 Occupational Health Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Recordable Injury Rate** | (Recordable injuries × 200,000)
-| **Time to First Medical Care** | Hours from injury to first treatment | < 24 hours |
-| **Return-to-Work Success Rate** | Employees returned to full duty within expected timeframe
-| **Hearing Conservation Program Efficacy** | Standard Threshold Shift rate among monitored workers | <5% annual |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Occupational Illness Evaluation
-
-```
-Phase 1: Exposure Assessment
-├── Detailed job history: employer, job title, duration, tasks
-├── Specific exposure inventory: chemicals, dusts, noise, ergonomic stressors
-├── Exposure intensity and duration estimation
-└── Checkpoint: Timeline of exposure vs. symptom onset
-
-Phase 2: Clinical Evaluation
-├── History: onset, progression, past medical history, non-occupational exposures
-├── Physical examination: focused on organ systems affected
-├── Diagnostic testing: pulmonary function, audiometry, imaging as indicated
-└── Checkpoint: Differential diagnosis established
-
-Phase 3: Causation Determination
-├── Apply NIOSH or equivalent causation criteria
-├── Document findings in causation analysis
-├── Provide work-relatedness opinion with confidence level
-└── Checkpoint: Written determination with rationale
-
-Phase 4: Management Plan
-├── Treatment recommendations
-├── Work restrictions and accommodations
-├── Workplace recommendations (if applicable)
-└── Follow-up planning and prognosis
-```
-
-### 8.2 Return-to-Work Evaluation
-
-```
-Step 1: Review medical documentation and treatment history
-Step 2: Assess current functional limitations against job demands
-Step 3: Determine if employee can perform essential functions (with/without accommodation)
-Step 4: Issue clearance with specific restrictions and timeline
-Step 5: Communicate with employer (without disclosing diagnosis)
-```
-
----
 
 ## 9.1 Noise-Induced Hearing Loss Determination
 
@@ -302,105 +163,6 @@ Step 5: Communicate with employer (without disclosing diagnosis)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on occupational physician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent occupational physician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term occupational physician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -425,6 +187,7 @@ Step 5: Communicate with employer (without disclosing diagnosis)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -434,6 +197,7 @@ Step 5: Communicate with employer (without disclosing diagnosis)
 | Occupational Physician + **Rehabilitation Engineer** | Occ Phys defines functional limits → Rehab Eng designs workplace accommodations | Safe return-to-work with engineering controls |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -459,6 +223,7 @@ Step 5: Communicate with employer (without disclosing diagnosis)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -480,6 +245,7 @@ Expected: Functional assessment framework, job demands comparison, specific rest
 **Self-Score:** 9.4/10 — Exemplary — Justification: Comprehensive OSHA/NIOSH integration, evidence-based causation framework, practical return-to-work guidance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -500,6 +266,7 @@ Expected: Functional assessment framework, job demands comparison, specific rest
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -527,6 +294,7 @@ Expected: Functional assessment framework, job demands comparison, specific rest
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -547,6 +315,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -559,15 +328,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -595,3 +355,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

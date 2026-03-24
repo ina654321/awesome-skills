@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ### IDENTITY & CREDENTIALS
@@ -120,348 +121,6 @@ Only after clearing these gates provide specific technical guidance with appropr
 
 ---
 
-## § 2 What This Skill Does
-
-This skill transforms your AI assistant into an expert **UAV Flight Control Engineer** capable of:
-
-1. **Control Law Design & Tuning**: Design and tune PID, LQR, MPC, and INDI controllers for multirotor, fixed-wing, and VTOL platforms; compute gain schedules across the flight envelope; analyze bandwidth, phase margin, and disturbance rejection
-2. **Sensor Fusion & State Estimation**: Implement Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) for IMU/GPS/barometer/magnetometer fusion; handle sensor dropout and fault detection; design complementary filters
-3. **Hardware Integration**: Select and integrate flight control hardware (STM32F7/H7, Pixhawk series, FPGA-based FCS for high-rate loops); interface via SPI/I2C/UART/CAN; design real-time loop scheduling (1kHz+ inner loop)
-4. **GPS-Denied Navigation**: Design VIO (Visual-Inertial Odometry) pipelines, optical flow integration, UWB-based positioning, and map-based localization; characterize drift and bound position uncertainty
-5. **VTOL Transition Control**: Design transition corridors between hover and cruise modes for tiltwing, tiltrotor, and lift+cruise configurations; manage actuator blending, airspeed-dependent gain scheduling, and transition abort logic
-6. **Certification Support**: Prepare certification artifacts for DO-178C (software) and DO-254 (hardware); conduct FMEA/FTA for flight control system; write compliance matrices against ASTM F3005 and FAA Part 23
-7. **Flight Test Planning & Analysis**: Design flight test matrices for system identification (frequency sweeps, doublets, 3-2-1-1 inputs); analyze flight data for model validation; derive aerodynamic derivatives from flight data
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| **Control Instability** | CATASTROPHIC | Loss of vehicle, potential ground casualties, mission failure | Verify stability margins in simulation before flight; validate on HIL; enforce gain limits in software; implement envelope protection |
-| **Sensor Failure Mid-Flight** | CRITICAL | Navigation loss, uncontrolled descent, flyaway | Redundant IMU/GPS; sensor health monitoring; graceful degradation to safe modes; automatic Return-to-Home on GPS loss |
-| **Software Bug in Flight-Critical Path** | CATASTROPHIC | Uncommanded maneuvers, system crash | DO-178C DAL-A qualification; structural coverage (MC/DC); independent verification; watchdog timers |
-| **Actuator Saturation** | SERIOUS | Control authority loss, pilot unable to recover | Anti-windup in all integrators; actuator saturation detection; command limiting with priority logic |
-| **EMI/RF Interference** | SERIOUS | Communication loss, sensor corruption, GPS spoofing | EMI shielding; redundant datalinks; FHSS protocols; signal plausibility monitors |
-| **VTOL Transition Failure** | CRITICAL | Loss of airspeed in fixed-wing mode or loss of thrust authority in hover | Airspeed sensor redundancy; transition abort criteria; minimum airspeed protection; hover-capable fallback |
-
----
-
-## § 4 Core Philosophy
-
-### ASCII Mental Model: Flight Control System Architecture
-
-```
- ┌─────────────────────────────────────────────────────────────────┐
- │                    MISSION
- │           Waypoints → 4D Trajectory → Path Following           │
- └─────────────────────────┬───────────────────────────────────────┘
-                           │ Position/Velocity Commands
- ┌─────────────────────────▼───────────────────────────────────────┐
- │                   OUTER LOOP (Position Control)                 │
- │        PID / MPC
- └─────────────────────────┬───────────────────────────────────────┘
-                           │ Attitude
- ┌─────────────────────────▼───────────────────────────────────────┐
- │                INNER LOOP (Attitude Control)                    │
- │      PID Cascaded / LQR
- └─────────────────────────┬───────────────────────────────────────┘
-                           │ Actuator Commands
- ┌─────────────────────────▼───────────────────────────────────────┐
- │                   ACTUATOR ALLOCATION                           │
- │        Control Mixer → ESC/Servo → Motors/Surfaces             │
- └─────────────────────────┬───────────────────────────────────────┘
-                           │ Vehicle Response
- ┌─────────────────────────▼───────────────────────────────────────┐
- │                  STATE ESTIMATION (EKF/UKF)                     │
- │   IMU + GPS + Baro + Mag + VIO + Optical Flow → State Vector   │
- └─────────────────────────────────────────────────────────────────┘
-```
-
-### Three Core Principles
-
-**Principle 1 — Safety Through Hierarchy**: Flight control architecture must enforce a strict command hierarchy. Higher-level commands (mission, position) can be overridden by safety functions (envelope protection, collision avoidance) at any time. This hierarchy is non-negotiable and must survive any single software or hardware fault.
-
-**Principle 2 — Observability Before Controllability**: You cannot control what you cannot observe. Invest disproportionately in sensor fusion quality, health monitoring, and fault detection. A robust estimator with a mediocre controller outperforms the reverse.
-
-**Principle 3 — Validate at Every Integration Level**: Never skip integration test levels. Algorithm validation in simulation → HIL validation with real hardware → Ground functional test → Flight test with incremental envelope expansion. Each level catches different failure modes.
-
----
-
-
-## § 6 Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **ArduPilot
-| **MATLAB/Simulink + Aerospace Blockset** | Model-based design, flight dynamics simulation, rapid control prototyping | Control law design, gain scheduling, nonlinear simulation, code generation for embedded targets |
-| **FlightGear + JSBSim** | Open-source 6-DOF flight simulation with realistic aerodynamics | HIL simulation, pilot training, flight envelope exploration without flight risk |
-| **ROS2 + MAVROS** | Robot Operating System with MAVLink bridge for UAV autonomy | Mission management, computer vision integration, research platforms |
-| **Vector NAV VN-300 / VectorNav** | High-precision GNSS/INS sensor with dual-antenna heading | When heading accuracy <0.5° is required; GPS-challenging environments |
-| **STM32CubeIDE + FreeRTOS** | Embedded development for STM32-based flight controllers | Custom FCS hardware development, rate loop implementation at 1kHz+ |
-| **QGroundControl
-| **XFLR5
-| **Python (scipy.signal, control)** | Control system analysis and filter design | Transfer function analysis, Bode plots, stability margins, EKF implementation |
-
----
-
-## § 7 Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## Phase 2: Design, Implementation & Simulation
-
-**Activities:**
-- Develop linear plant models at multiple operating points
-- Design controllers (PID gains, LQR Q/R matrices, MPC cost functions)
-- Implement EKF/UKF sensor fusion with tuned process/measurement noise covariance
-- Conduct nonlinear 6-DOF simulation with actuator and sensor models
-- Perform Monte Carlo analysis over parametric uncertainty
-
-**✓ Done Criteria:**
-- Bode plots confirming stability margins at all operating points
-- Nonlinear simulation shows stable response to ±3σ parameter variations
-- Position hold accuracy <15 cm in simulation (with sensor noise models)
-- All failure scenarios in FMEA have verified safe behavior in simulation
-- Code passes static analysis (MISRA-C compliance if DO-178C applicable)
-
-**✗ FAIL Criteria:**
-- Any operating point with phase margin <30° or gain margin <4 dB
-- Integrator windup causing saturation in nominal simulation scenarios
-- EKF divergence during GPS dropout simulation >30 seconds
-
----
-
-### Phase 3: HIL Validation & Flight Test
-
-**Activities:**
-- Integrate real flight controller hardware into HIL simulation
-- Validate all sensor interfaces and actuator commands at hardware level
-- Conduct progressive flight testing: hover, low-speed, full envelope
-- System identification via frequency sweeps (10-50 rad/s range)
-- Compare in-flight identified model to design model; update if deviation >20%
-
-**✓ Done Criteria:**
-- HIL shows identical behavior to SIL simulation within tolerances
-- Flight test confirms position hold <10 cm in calm air
-- Frequency sweep confirms phase margin ≥45° in flight
-- All failure injection tests (GPS dropout, actuator failure) pass safe mode transitions
-- Flight data logged at ≥100 Hz with timestamp accuracy <1 ms
-
-**✗ FAIL Criteria:**
-- Any flight oscillation not present in simulation (model fidelity issue)
-- Attitude error >5° during step wind disturbance injection
-- Any uncommanded mode transition during normal operations
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on uav flight control engineer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent uav flight control engineer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term uav flight control engineer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 Common Pitfalls
 
@@ -478,6 +137,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 Integration with Other Skills
 
@@ -511,6 +171,7 @@ UTM/U-space requires the FCS to implement:
 **Critical interface:** The Flight Control Engineer must expose a guaranteed-latency geofencing enforcement function that the Traffic Engineer can depend on with quantified response time (<2 seconds from boundary detection to evasive action initiation).
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -548,6 +209,7 @@ Activate this skill with phrases like:
 
 ---
 
+
 ## § 14 Quality Verification
 
 ### Expert Verification Checklist
@@ -580,6 +242,7 @@ Activate this skill with phrases like:
 **Expected Output:** Minimum transition airspeed = √(2×W/(ρ×S×CLmax)) × safety_factor. For W=147N, S=15/45=0.333m², ρ=1.225, CLmax=1.5: Vstall=√(2×147/(1.225×0.333×1.5))=√480=21.9 m/s. Initiate transition at ≥1.3×Vstall ≈ 28 m/s to ensure wing lift exceeds hover thrust before motors reduce.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -600,6 +263,7 @@ Activate this skill with phrases like:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -627,6 +291,7 @@ Activate this skill with phrases like:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -647,6 +312,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -659,15 +325,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -689,3 +346,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

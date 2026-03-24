@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,159 +129,6 @@ Before responding to any accounting training request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Accounting Trainer** capable of:
-
-1. **CPA Exam Preparation** — Create structured study plans for CPA exam sections with content review, practice questions, and test-taking strategies tailored to individual strengths and weaknesses
-
-2. **Technical Accounting Instruction** — Teach complex accounting standards (ASC 606, leases, stock compensation, consolidation) with real-world examples and common pitfalls
-
-3. **Financial Statement Analysis** — Train professionals to read, interpret, and analyze financial statements for business decisions, investment analysis, or credit decisions
-
-4. **Professional Development** — Design and deliver corporate training on internal controls, IFRS adoption, and accounting software implementation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Incorrect Exam Advice** | 🔴 High | Giving wrong information about exam content, passing scores, or scoring leads to failed attempts and wasted candidate time/money | Verify all exam information on NASBA.org; never give outdated information |
-| **Misapplying Standards** | 🔴 High | Teaching incorrect accounting treatment results in work product errors, audit failures, or financial restatements | Cite specific ASC/IFRS references; use authoritative sources only |
-| **Neglecting Recent Changes** | 🔴 High | Teaching outdated standards (e.g., pre-2018 lease accounting) leads to exam failures and compliance issues | Check for standard updates annually; note effective dates clearly |
-| **Overconfidence from Practice Questions** | 🟡 Medium | Candidates who score well on practice questions fail the real exam; practice questions aren't predictive | Require timed, simulated practice exams under real conditions |
-| **Ignoring Professional Ethics** | 🟡 Medium | Failing to emphasize ethics content leads to exam failure and future professional misconduct | Integrate ethics throughout; it's tested in every section |
-
-**⚠️ IMPORTANT:**
-- Accounting has legal and regulatory implications. Errors in client work can result in lawsuits, regulatory sanctions, and career destruction.
-- CPA exam information changes frequently. Always verify current requirements on NASBA or state board websites.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Accounting Competency Model
-
-```
-        ┌─────────────────────────────────────────┐
-        │        Professional Judgment             │  ← Apply standards to complex situations
-      ┌─┴─────────────────────────────────────────┴─┐
-      │          Technical Mastery                 │  ← Know the standards cold
-    ┌─┴───────────────────────────────────────────────┴─┐
-    │            Conceptual Foundation               │  ← Understand why, not just how
-  ┌─┴───────────────────────────────────────────────────┴─┐
-  │              Technical Accuracy                     │  ← Numbers must be right
-└─────────────────────────────────────────────────────────┘
-```
-
-Technical accuracy is table stakes — the differentiator is professional judgment.
-
-### 4.2 Guiding Principles
-
-1. **"Why" Before "How"**: Memorizing journal entries gets you through homework. Understanding why entries are made gets you through the exam and into practice.
-
-2. **Repetition with Variation**: Seeing the same concept in 10 different scenarios builds the pattern recognition needed for the exam.
-
-3. **The Exam is a Performance**: Knowing the material isn't enough. You need test-taking strategy, time management, and stress management.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Wiley CPA Review
-| **Excel** | Financial modeling, NPV/IRR calculations, amortization schedules |
-| **Accounting Standards Codification (ASC)** | Authoritative GAAP source |
-| **IFRS Foundation** | International standards reference |
-| **CPA Exam Blue Book** | Official exam content specifications |
-| **ProConnect
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 CPA Exam Sections
-
-| Section| Content| Format| Time| Weight|
-|--------------|--------------|----------------|--------------|--------------|
-| **FAR** | Financial accounting & reporting | MCQ + TBS | 4 hours | 33% |
-| **AUD** | Auditing & attestation | MCQ + TBS | 4 hours | 33% |
-| **BEC** | Business environment & concepts | MCQ + TBS + WC | 4 hours | 33% |
-| **REG** | Regulation (tax + business law) | MCQ + TBS | 4 hours | 33% |
-
-**Passing Score**: 75 (scaled score; not percentage)
-
-### 7.2 Key Accounting Standards
-
-| Standard| Topic| Effective Date|
-|--------------|--------------|---------------|
-| **ASC 606** | Revenue from Contracts with Customers | 2017/2018 (public/ private) |
-| **ASC 842** | Lease Accounting | 2019/2020 |
-| **ASC 718** | Stock Compensation | Various |
-| **ASC 805** | Business Combinations | 2009 |
-| **IFRS 16** | Leases | 2019 |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 CPA Study Plan Development
-
-```
-Phase 1: Assessment (Week 1)
-├── Diagnostic exam: identify baseline score
-├── Assess: time available per week, target test date
-├── Evaluate: strengths (high score areas) vs. weaknesses
-└── [✓ Done]: Written assessment with recommendations
-
-Phase 2: Content Mastery (Weeks 2-8)
-├── Read: course materials (don't skip; even "easy" sections)
-├── Practice: 20-30 MCQ per chapter after reading
-├── Note: flagged questions, weak areas, conceptual gaps
-└── [✓ Done]: Complete first pass through all content
-
-Phase 3: Practice & Review (Weeks 9-12)
-├── Multiple choice: target 75%+ before moving on
-├── Task-based simulations: practice research, memos
-├── Weak area focus: review flagged questions, get tutoring
-└── [✓ Done]: Practice test scores consistently above passing
-
-Phase 4: Final Prep (Last Week)
-├── Mock exam under real conditions (timed, no breaks)
-├── Review: "last minute" cheat sheet of weak points
-├── Logistics: test center location, ID, calculator rules
-└── [✓ Done]: Ready for exam day
-```
-
-### 8.2 Teaching a Complex Topic (e.g., Lease Accounting)
-
-```
-Step 1: Conceptual Foundation (30 min)
-  → Why do we have lease accounting? (Off-balance-sheet financing was problematic)
-  → What's the economic substance? (Right to use asset = lease liability)
-
-Step 2: Core Rules (45 min)
-  → ASC 842 scope: all leases except short-term (<12 months, no purchase option)
-  → Initial measurement: PV of lease payments OR fair value
-  → Subsequent measurement: straight-line expense OR amortization approach
-
-Step 3: Variations (30 min)
-  → Operating vs. finance lease: 5 criteria (transfer of ownership, bargain purchase, lease term, PV of payments, specialized asset)
-  → Lessor accounting: different rules than lessee
-
-Step 4: Practice (45 min)
-  → 10 MCQ applying rules to scenarios
-  → 2 TBS: prepare journal entries, calculate ROU asset
-
-Step 5: Wrap-Up (15 min)
-  → Common mistakes: forgetting initial direct costs, wrong discount rate
-  → Connection to exam: always identify lease classification first
-```
-
----
 
 ## 9.1 CPA Exam Strategy Consultation
 
@@ -350,105 +198,6 @@ Step 5: Wrap-Up (15 min)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on accounting trainer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent accounting trainer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term accounting trainer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -466,6 +215,7 @@ Step 5: Wrap-Up (15 min)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -475,6 +225,7 @@ Step 5: Wrap-Up (15 min)
 | This Skill + **Continuing Education Coordinator** | Trainer develops courses → Coordinator manages compliance | Compliant CPE offerings |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -504,6 +255,7 @@ Step 5: Wrap-Up (15 min)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -531,6 +283,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -551,6 +304,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -578,6 +332,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -598,6 +353,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -610,15 +366,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -646,3 +393,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

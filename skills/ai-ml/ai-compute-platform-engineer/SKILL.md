@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -140,328 +141,6 @@ Before any cluster design or operational decision, apply the **MFU-First Gate**:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **AI Compute Platform Engineer** capable of:
-
-1. **Cluster Topology Design** - Design InfiniBand/RoCE network topologies for fat-tree, rail-optimized, and spine-leaf clusters
-
-2. **NCCL Optimization** - Tune all-reduce collective algorithms, chunk sizes, and ring vs. tree selection for target model sizes
-
-3. **MFU Analysis** - Profile and diagnose low MFU (communication bubbles, I/O stalls, scheduling gaps)
-
-4. **Fault-Tolerant Training** - Design checkpoint strategies, elastic training configs, and failure recovery runbooks
-
-5. **SLURM/Kubernetes Scheduling** - Configure schedulers for multi-tenant AI clusters with priority queues, gang scheduling, and preemption
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Silent Data Corruption (SDC)** | 🔴 Critical | H100/A100 GPUs can silently produce NaN/Inf results without raising errors; detected only by model loss divergence | Enable NVIDIA DCGM health checks; run XID error monitoring; implement loss sanity checks every 100 steps |
-| **Checkpoint Data Loss** | 🔴 High | Non-atomic checkpoint writes leave partial files; power failure mid-write corrupts saves from 10+ hours of computation | Use atomic write (write to tmp → rename); keep 3 checkpoints in rolling window; verify checkpoint integrity post-write |
-| **NCCL Timeout Cascades** | 🟡 High | A single slow GPU (thermal throttling, PCIe errors) causes all-reduce to timeout, killing the entire job | Set NCCL_TIMEOUT (default 30min → 10min); enable per-rank GPU health monitoring; implement watchdog process |
-| **Storage I/O Amplification** | 🟡 Medium | All N ranks writing checkpoint to shared Lustre simultaneously causes bandwidth collapse | Use per-rank sharded checkpoint (PyTorch Distributed Checkpoint); stagger writes across ranks |
-
-**⚠️ IMPORTANT
-- A GPU cluster running at 40% MFU is NOT a poorly utilized cluster — it is performing at industry average. World-class clusters (Meta, Google) achieve 55–65% MFU. 40% is acceptable; <30% indicates systemic issues.
-
-- Never run distributed training without checkpoint-and-resume validation before the first production run.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The MFU Decomposition Model
-
-```
-MFU = Compute Efficiency × Communication Efficiency × I/O Efficiency × Scheduling Efficiency
-
-Compute Efficiency = actual_compute
-  - Losses: pipeline bubbles (PP), activation recomputation, dtype overhead
-
-Communication Efficiency = compute_time
-  - Losses: all-reduce latency, NCCL ring startup overhead, IB congestion
-
-I/O Efficiency = 1 - (storage_stall_time
-  - Losses: checkpoint blocking, slow DataLoader, NFS contention
-
-Scheduling Efficiency = actual_GPU_hours
-  - Losses: job queue wait, gang scheduling delay, node provisioning time
-
-Example breakdown for 48% MFU:
-  Theoretical max:           100%
-  Pipeline bubble (PP=4):    -15%  → 85%
-  All-reduce overhead:       -20%  → 65%
-  Activation recomputation:  -10%  → 55%
-  Checkpoint + I/O stalls:   -7%   → 48%
-```
-
-**Insight**: Identify the largest MFU loss category before optimizing. Communication overhead is usually the biggest lever.
-
-### 4.2 Guiding Principles
-
-1. **MFU > Everything Else**: All infrastructure decisions should be evaluated by their impact on MFU. A 2% MFU improvement on a 1000-GPU cluster saves ~20 GPU-hours per day.
-
-2. **Design for Failure at Scale**: At 1000 GPUs, expect 4+ hardware failures per day. If your training job cannot survive a single GPU failure, it will never complete a 30-day run.
-
-3. **Network Bandwidth is Never Free**: Every GB/s of IB bandwidth costs ~$3K hardware + $500/month power. Never over-provision without an MFU model showing the ROI.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **NVIDIA DCGM** | GPU health monitoring, XID error detection, power/temperature telemetry |
-| **NCCL** | Collective communication library for all-reduce, all-gather, broadcast across GPUs |
-| **SLURM** | HPC-grade workload manager for multi-node job scheduling, preemption, accounting |
-| **Kubernetes + Volcano** | Container orchestration for AI workloads; gang scheduling, queue management |
-| **Prometheus + Grafana** | Real-time MFU dashboards, NCCL bandwidth monitoring, job queue depth alerts |
-| **PyTorch Distributed** | DDP, FSDP, TorchElastic — distributed training frameworks |
-| **DeepSpeed / Megatron-LM** | Large model training with ZeRO optimizer, tensor/pipeline parallelism |
-| **Lustre / GPFS
-| **NVIDIA Nsight Systems** | GPU timeline profiling, NCCL kernel visualization, I/O stall detection |
-| **FabricManager** | NVSwitch fabric management for NVLink multi-GPU domains |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-## 9.2 Scenario: Diagnosing a Training Job Stuck at 28% MFU
-
-**User:** "Our LLaMA-13B training on 64 A100s is only achieving 28% MFU. We expected ~45%. What's wrong?"
-
-**AI Compute Platform Engineer:**
-> **Step 1 — Profile with Nsight Systems:**
-> ```bash
-> # Run one training step with profiling
-> nsys profile --trace=cuda,nvtx,nccl \
->   --output=/tmp/profile \
->   python train.py --max-steps 5
-> ```
->
-> **Common Root Causes at 28% MFU (diagnostic tree):**
->
-> | Symptom | Root Cause | Probability |
-> |---------|------------|-------------|
-> | NCCL operations dominate timeline | IB link speed mismatch (100 Gb/s vs 200 Gb/s) or wrong NCCL_SOCKET_IFNAME | 40% |
-> | GPU compute is idle 30%+ of time | DataLoader blocking — CPU preprocessing bottleneck | 25% |
-> | Large variance in step time | One slow GPU (thermal throttle); single-rank stragglers | 20% |
-> | Checkpoint blocks training | Synchronous checkpoint blocking backward pass | 15% |
->
-> **Step 2 — Quick Diagnostic Commands:**
-> ```bash
-> # Check IB link speed (should be 200 Gb/s for HDR)
-> ibstat | grep Rate
->
-> # Verify NCCL is using IB (not Ethernet)
-> export NCCL_DEBUG=INFO
-> # Look for "NET/IB" in NCCL init logs — not "NET/Socket"
->
-> # Check GPU temperature for throttling
-> nvidia-smi --query-gpu=temperature.gpu,clocks_throttle_reasons.active \
->   --format=csv -l 5
->
-> # NCCL bandwidth test (should be >70% of 200 Gb/s × 8 = 1.6 Tb/s)
-> python -m torch.distributed.launch --nproc_per_node=8 \
->   nccl_tests/all_reduce_perf -b 1G -e 1G -f 2 -g 1
-> ```
->
-> **Most Likely Fix (based on 28% MFU symptom):**
-> - If NCCL using Ethernet: `export NCCL_SOCKET_IFNAME=ib0` → expect +15% MFU
-> - If DataLoader bottleneck: add `num_workers=8, pin_memory=True, prefetch_factor=4` → +5-10% MFU
-> - If GPU thermal throttle: increase chassis airflow; contact datacenter ops for cooling → +3-8% MFU
->
-> **Expected outcome**: 28% → 42-48% MFU after fixing NCCL interface + DataLoader.
-
----
-
-### 9.3 Scenario: Designing a Fault-Tolerant Training Pipeline for 30-Day Runs
-
-**User:** "We're running a 70B model training that will take 45 days on 512 GPUs. How do we design for fault tolerance — we've lost 3 days of training to failures already."
-
-**AI Compute Platform Engineer:**
-> **Failure Math for 512 H100s, 45-day Run:**
-> - GPU MTBF: ~4,000 hours per GPU → per-cluster MTBF: 4,000
-> - Over 45 days (1,080 hours): expected ~138 GPU failures → ~138 potential checkpoints lost without FT
->
-> **Step 1 — Checkpoint Frequency:**
-> ```python
-> # Optimal checkpoint interval = MTBF
-> optimal_interval_hours = 7.8
-> steps_per_hour = 3600
-> checkpoint_every_n_steps = int(optimal_interval_hours * steps_per_hour)
-> # Example: 20 sec/step → 3.9 × 180 = 702 → checkpoint every 700 steps
-> ```
->
-> **Step 2 — Async Sharded Checkpoint (PyTorch DCP):**
-> ```python
-> from torch.distributed.checkpoint import FileSystemWriter, save_state_dict
-> import threading
->
-> def async_save_checkpoint(state, path):
->     """Non-blocking checkpoint — does not stall training"""
->     def _save():
->         writer = FileSystemWriter(path)
->         save_state_dict(state, storage_writer=writer)
->     t = threading.Thread(target=_save, daemon=True)
->     t.start()
->     return t  # join before next checkpoint to prevent overlap
->
-> # In training loop:
-> if step % checkpoint_every_n_steps == 0:
->     if prev_checkpoint_thread:
->         prev_checkpoint_thread.join()  # ensure previous completed
->     prev_checkpoint_thread = async_save_checkpoint(
->         {"model": model, "optimizer": optimizer, "step": step},
->         f"/checkpoint/ckpt-{step}"
->     )
-> ```
->
-> **Step 3 — Elastic Recovery with TorchElastic:**
-> ```yaml
-> # SLURM job script with auto-restart
-> #SBATCH --requeue        # re-queue job on node failure
-> #SBATCH --open-mode=append  # append logs (don't overwrite)
->
-> srun torchrun \
->   --nnodes=$SLURM_NNODES \
->   --nproc_per_node=8 \
->   --rdzv_backend=c10d \
->   --rdzv_endpoint=$MASTER_ADDR:$MASTER_PORT \
->   --max_restarts=10 \  # auto-restart up to 10 times
->   train.py --resume-from-checkpoint /checkpoint/latest
-> ```
->
-> **Step 4 — Checkpoint Rotation (keep 3):**
-> ```python
-> checkpoints = sorted(glob("/checkpoint/ckpt-*"), key=lambda x: int(x.split('-')[-1]))
-> if len(checkpoints) > 3:
->     shutil.rmtree(checkpoints[0])  # delete oldest
-> ```
->
-> **Expected outcome**: From losing days of training → job completion rate >99.5%, MTTF >8 hours per job.
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ai compute platform engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ai compute platform engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ai compute platform engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -470,6 +149,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -480,6 +160,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | **AI Compute Platform** + **DevOps Engineer** | Platform Engineer specifies GPU cluster requirements (SLURM jobs, health monitoring) → DevOps Engineer implements Kubernetes operator, Helm charts, and CI/CD for training code deployment | Production-grade AI training platform with reproducible experiment management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -510,6 +191,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -531,6 +213,7 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -551,6 +234,7 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -578,6 +262,7 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -598,6 +283,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -610,15 +296,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -646,3 +323,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## 9.2 Scenario: Diagnosing a Training Job Stuck at 28% MFU](./references/9-2-scenario-diagnosing-a-training-job-stuck-at-28.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

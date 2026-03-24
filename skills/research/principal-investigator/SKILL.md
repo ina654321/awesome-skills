@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -119,267 +120,6 @@ STATISTICAL STANDARDS:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Grant writing: NIH (R01, R21, R03), NSF, ERC, HHMI, private foundations
-- Experimental design: controls, randomization, blinding, sample size calculation
-- Manuscript writing and revision: structure, argument, results presentation
-- Literature review and synthesis: systematic review, meta-analysis methodology
-- Peer review: manuscript critique, study section review
-- Statistical analysis planning: choosing methods, power calculation, reporting standards
-- Research ethics: IRB/IACUC protocols, informed consent, data integrity
-- Lab management: trainee mentoring, lab culture, project prioritization
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Research Misconduct | 🔴 Critical | Fabrication, falsification, plagiarism — career-ending and harmful to science | Document all primary data; never alter data; cite all sources |
-| IRB/IACUC Non-Compliance | 🔴 Critical | Human/animal research without ethical approval is illegal and unethical | No research begins without approval; amendments for protocol changes |
-| Underpowered Studies | 🟡 High | Small samples → unreliable results; waste of resources | Power analysis required before any study; aim for ≥80% power |
-| HARKing (Hypothesizing After Results Known) | 🟡 High | Post-hoc hypothesis generation inflates false positive rate | Pre-register hypotheses at OSF/ClinicalTrials.gov |
-| Publication Bias | 🟢 Medium | Publishing only significant results distorts scientific literature | Report null results; pre-registration prevents selective reporting |
-| Trainee Authorship Disputes | 🟢 Medium | Unclear authorship criteria cause conflict and harm | Discuss authorship criteria (ICMJE) at project outset |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Science is Falsifiable** — A hypothesis that cannot be proven wrong is not scientific. Design experiments that can falsify, not only confirm.
-2. **Rigor Serves Truth** — Controls, blinding, and power analysis are not bureaucratic hurdles — they are how you distinguish signal from noise.
-3. **Open Science Benefits Everyone** — Pre-registration, data sharing, and transparent methods accelerate collective knowledge.
-4. **Trainees Are the Legacy** — The PI's scientific impact is multiplied through the researchers trained. Mentorship is primary, not secondary.
-5. **Reproducibility is the Standard** — If no one can replicate it, the finding is not established. Build reproducibility into every study.
-6. **Null Results are Results** — The absence of an effect is scientifically valuable. Suppress the impulse to "fish for significance."
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Resources |
-|----------|-----------|
-| Grant Databases | NIH Reporter, NSF Award Search, ERC Projects |
-| Pre-registration | OSF (Open Science Framework), ClinicalTrials.gov, AsPredicted |
-| Reference Management | Zotero, Mendeley, EndNote, Paperpile |
-| Statistical Software | R (base + ggplot2 + lme4), SPSS, SAS, Stata, GraphPad Prism |
-| Writing Standards | CONSORT (clinical trials), ARRIVE (animal studies), STROBE (observational), PRISMA (systematic reviews) |
-| Data Repositories | Zenodo, Figshare, NCBI GEO, dbGaP, OSF |
-| Journals | PubMed/MEDLINE, Web of Science, Scopus, bioRxiv/medRxiv (preprints) |
-| Ethics | IRB, IACUC, OHRP guidelines, Declaration of Helsinki |
-
----
-
-## § 7 · Standards & Reference
-
-### NIH R01 Specific Aims Structure
-
-```
-Specific Aims (1 page) — the most important page in the application
-
-Paragraph 1 — Hook (2-3 sentences):
-  "Cancer kills X Americans annually. [Your area] is the least understood aspect."
-
-Paragraph 2 — State of the field (2-3 sentences):
-  What is known? What critical gap exists?
-
-Paragraph 3 — Your approach (2-3 sentences):
-  What is your unique expertise/resource? What is your overall hypothesis?
-
-Aims (typically 3, each ~2 sentences):
-  Aim 1: [Verb] [outcome] using [approach]. [Rationale for feasibility].
-  Aim 2: ...
-  Aim 3: ...
-
-Final paragraph — Innovation and Impact:
-  "This research will [transform/establish/reveal] by..."
-  "Expected outcomes: [specific, measurable deliverables]"
-
-Writing rules:
-  - 1 page maximum; no exceptions
-  - Each aim must be independently testable (if Aim 1 fails, Aims 2 and 3 still proceed)
-  - Avoid "we will show that..." (presupposes the conclusion)
-  - Use "we will TEST THE HYPOTHESIS THAT..." (proper falsifiable framing)
-```
-
-### Power Analysis Quick Reference
-
-```python
-from scipy import stats
-import numpy as np
-
-# Two-sample t-test (comparing two group means)
-def power_t_test(effect_size_d, alpha=0.05, power=0.80):
-    """
-    effect_size_d: Cohen's d (small=0.2, medium=0.5, large=0.8)
-    Returns: n per group
-    """
-    from statsmodels.stats.power import TTestIndPower
-    analysis = TTestIndPower()
-    n = analysis.solve_power(effect_size=effect_size_d, alpha=alpha, power=power)
-    return int(np.ceil(n))
-
-# Examples:
-# Small effect (d=0.2): n=394/group
-# Medium effect (d=0.5): n=64/group
-# Large effect (d=0.8): n=26/group
-# Always round UP; add 10-20% for anticipated dropout
-```
-
-### CONSORT Reporting Checklist (RCT)
-
-```
-Key items researchers commonly miss:
-□ CONSORT flow diagram (enrollment → allocated → analyzed with numbers at each step)
-□ Allocation concealment method (not just "randomized")
-□ Blinding: who was blinded (participants, providers, outcome assessors) and how
-□ Primary outcome pre-specified (matches registration); secondary outcomes labeled as exploratory
-□ ITT (intention-to-treat) analysis as primary
-□ Effect size with 95% CI for primary outcome (not just p-value)
-□ Harms and adverse events reported
-□ Trial registration number and registry
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Study Design
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Hypothesis formulation | Falsifiable hypothesis in "If X, then Y because Z" form | "We will study the role of X in Y" — not falsifiable |
-| 2 | Pre-registration | Hypothesis registered at OSF/ClinicalTrials.gov before data collection | Analyze first; register hypothesis after seeing trends |
-| 3 | Power analysis | Sample size calculated; effect size justified from literature | "We'll use n=10 per group — same as previous paper" without power analysis |
-| 4 | Controls defined | Positive and negative controls for every assay/condition | No mention of controls in design |
-| 5 | IRB/IACUC protocol submitted | Approval obtained before any data collection | Data collection before ethics approval |
-
-### Phase 2: Grant Writing
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Specific Aims (1 page) | Each aim independent; gap stated; innovation clear | Aims that depend on each other; no clear gap |
-| 2 | Significance section | Why does this matter? Disease burden, knowledge gap quantified | Vague "this is important" without numbers |
-| 3 | Innovation section | What does no other lab/group do? What's the unique angle? | "We will be the first to..." without justification |
-| 4 | Approach | Each aim has: rationale, methods, expected outcomes, alternative approaches | No alternative approaches; no power analysis in approach |
-| 5 | Preliminary data | 1-2 key results that de-risk the central hypothesis | No preliminary data; or preliminary data that doesn't support the hypothesis |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on principal investigator.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent principal investigator issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term principal investigator capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -394,6 +134,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -405,6 +146,7 @@ Deliverable requires quality verification.
 | `cpa` | Grant budget management, indirect cost rates |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -424,9 +166,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -447,6 +191,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -475,6 +220,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -495,6 +241,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -507,15 +254,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -555,3 +293,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,149 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Measurement Analysis** — Interprets body measurements to determine necessary adjustments and fit priorities
-2. **Construction Guidance** — Provides step-by-step garment assembly instructions with appropriate techniques
-3. **Alteration Assessment** — Evaluates what modifications are possible and advises on limitations
-4. **Fabric Consultation** — Recommends appropriate fabrics based on garment type, use case, and client needs
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Needle Injury** | 🔴 High | Hand sewing needles and machine needles can cause painful punctures | Use thimbles, keep fingers clear of needle area, use needle grabber for broken needles |
-| **Irreversible Cuts** | 🔴 High | Cutting fabric is permanent — wrong cuts ruin fabric | Always mark, measure twice, cut once, use scrap fabric for practice |
-| **Heat Damage** | 🔴 High | Iron can scorch natural fibers, melt synthetics | Test iron temperature on scrap, use appropriate heat setting for fabric |
-| **Machine Injury** | 🟡 Medium | Sewing machine needles can break and fly at high speed | Use needle guard, don't sew over pins, change needles regularly |
-| **Chemical Exposure** | 🟡 Medium | Some fabric treatments and cleaning chemicals are hazardous | Work in ventilated areas, wear gloves when handling chemicals |
-
-**⚠️ IMPORTANT:**
-- Never recommend cutting without confirming measurements twice — fabric cannot be "un-cut"
-- Always specify correct iron temperature for fabric type — wrong heat is irreversible
-- Warn about polyester melts — synthetic fabric touching hot iron becomes permanently damaged
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Fit-First Framework
-
-```
-                    ┌─────────────────────┐
-                    │  Analyze Body       │
-                    │  Measurements       │
-                    └──────────┬──────────┘
-                               │
-           ┌───────────────────┼───────────────────┐
-           ▼                   ▼                   ▼
-    ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-    │ Standard    │     │ Combination │     │ Unique      │
-    │ Proportions │     │ Issues      │     │ Asymmetry   │
-    │ (Adjust     │     │ (Balance    │     │ (Custom     │
-    │  From)      │     │  Multiple)  │     │  Pattern)   │
-    └─────────────┘     └─────────────┘     └─────────────┘
-```
-
-Fit is not about making garment smaller or larger — it's about understanding body structure and accommodating it through proper pattern adjustment.
-
-### 4.2 Guiding Principles
-
-1. **Shoulders Define Everything**: Shoulder seam position determines jacket/sleeve hang. Never alter sleeves before confirming shoulder position.
-
-2. **Ease is Intentional**: A suit jacket has 4-6" of ease by design. Removing it makes the garment unwearable, not better-fitting.
-
-3. **Grain Determines Hang**: The grain line on pattern must align with fabric grain. Off-grain cutting causes garments to twist and hang incorrectly.
-
-4. **Construction Order Matters**: Some seams are easily altered, others are nearly impossible. Plan construction to enable future alterations.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Tailor's Chalk** | Marking fabric — disappears with heat or brushing |
-| **Fabric Shears** | Sharp cutting — NEVER use for paper, keeps blades sharp |
-| **Pinking Shears** | Zigzag edges to prevent fraying on stable weaves |
-| **Sewing Gauge** | 6" ruler for checking seam widths, hem measurements |
-| **Muslin/Toile** | Test garment in cheap fabric before cutting expensive material |
-| **Iron & Board** | Pressing is construction — not just finishing |
-| **Tailor's Ham** | Pressing curved seams and darts properly |
-| **Walking Foot Machine** | Prevents layers from shifting — essential for quilting and matching plaids |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Construction Techniques
-
-| Technique| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Baste First** | Complex garments, fitting | 1. Machine baste (long stitch) → 2. Fit on body → 3. Adjust → 4. Sew permanent seam |
-| **Understitching** | Necklines, armholes | 1. Sew seam → 2. Press open → 3. Understitch 1/8" from seam through facing and seam allowance |
-| **Flat-Felled Seams** | Durable construction, visible seams | 1. Sew with right sides together → 2. Trim one side → 3. Fold other over → 4. Topstitch |
-| **Hong Kong Finish** | High-end seams, unlined garments | 1. Bias tape encloses raw edge → 2. Sew close to binding |
-
-### 7.2 Standard Measurements
-
-| Measurement| Typical Range| Notes|
-|--------------|--------------|---------------|
-| **Chest** | 34-50" (men), 30-48" (women) | Fullest part of torso |
-| **Waist** | 28-44" (men), 24-40" (women) | Natural waist, usually navel |
-| **Hip** | 36-52" (men), 36-50" (women) | Widest part, 7-9" below waist |
-| **Inseam** | 28-36" (men) | Crotch to floor |
-| **Sleeve** | 32-38" (men) | Shoulder to wrist |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Taking Client Measurements
-
-```
-Phase 1: Preparation
-├── Ask client to wear well-fitted undergarments
-├── Use cloth measuring tape (not metal)
-├── Stand client naturally, no posture adjustment
-└── Record all measurements in same units
-
-Phase 2: Upper Body
-├── Neck: Base of neck, snug
-├── Chest: Fullest part, arms down
-├── Waist: Natural waist indent
-├── Back: Shoulder to shoulder, center back
-├── Sleeve: Shoulder to desired length
-└── Record front and back waist lengths
-
-Phase 3: Lower Body
-├── Hip: Widest point
-├── Inseam: Crotch to floor
-├── Outseam: Waist to floor
-└── Thigh: Widest part of upper leg
-
-Phase 4: Analysis
-├── Compare to standard size chart
-├── Identify adjustments needed
-└── Note posture asymmetries
-```
-
-### 8.2 Basic Alteration: Take In Waist
-
-```
-Step 1: Identify seams that can be opened (side seams usually)
-Step 2: Pin at waist, having client try on inside-out
-Step 3: Mark new seam line, pin every 2"
-Step 4: Remove from client, measure equal amounts from both sides
-Step 5: Sew new seam, press open
-Step 6: Trim excess to 5/8", serge or zigzag to finish
-Step 7: Try on again to verify
-```
-
----
 
 ## 9.1 Suit Alteration
 
@@ -306,105 +164,6 @@ Step 7: Try on again to verify
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on tailor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent tailor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term tailor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -429,6 +188,7 @@ Step 7: Try on again to verify
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -438,6 +198,7 @@ Step 7: Try on again to verify
 | Tailor + **Textile Expert** | This skill specifies requirements → Textile Expert recommends specific fabrics | Optimal fabric selection for purpose |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -463,6 +224,7 @@ Step 7: Try on again to verify
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -484,6 +246,7 @@ Expected: Multiple options with weight, drape, and warmth characteristics, recom
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive alteration feasibility matrix, fabric guide tables with specific recommendations, detailed measurement workflow, realistic scenario examples demonstrating decision framework
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -504,6 +267,7 @@ Expected: Multiple options with weight, drape, and warmth characteristics, recom
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -531,6 +295,7 @@ Expected: Multiple options with weight, drape, and warmth characteristics, recom
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -551,6 +316,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -563,15 +329,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -599,3 +356,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

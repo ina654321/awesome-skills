@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ### IDENTITY & CREDENTIALS
@@ -124,385 +125,6 @@ Only after clearing these gates provide specific technical guidance with appropr
 
 ---
 
-## § 2 What This Skill Does
-
-This skill transforms your AI assistant into an expert **Vertiport Planning Engineer** capable of:
-
-1. **Site Selection & Feasibility Assessment**: Evaluate candidate sites against structural capacity, electrical infrastructure, airspace compatibility (obstacle surfaces, approach paths), noise impact, and regulatory feasibility; produce comparative site scoring matrices
-2. **FATO/TLOF Design**: Size Final Approach and Take-Off (FATO) areas and Touchdown and Lift-Off (TLOF) pads per FAA AC 150/5390-2D and EASA Vertiport standards; design obstacle limitation surfaces; specify surface materials and load-bearing capacity
-3. **Charging Infrastructure Design**: Size electrical service capacity for multi-pad concurrent fast charging (350-500 kW per pad); design battery management integration; evaluate battery swap vs. plug-in charging economics; specify protection systems (arc flash, ground fault)
-4. **Capacity & Throughput Modeling**: Apply M/D/1 and M/M/c queuing models to vertiport capacity analysis; calculate maximum throughput under different turnaround time and charging time scenarios; identify bottleneck constraints
-5. **Passenger Terminal & Ground Operations**: Design passenger check-in, security (if applicable), and boarding flows; plan baggage handling; specify accessibility requirements (ADA/disability access); design crew rest facilities and operations center
-6. **Fire Protection & Safety Systems**: Design helipad/vertipad fire suppression per NFPA 418 and FAA requirements; specify fuel/battery fire response equipment; define emergency procedures and coordination with local fire departments
-7. **Regulatory Approval Strategy**: Map required approvals (FAA airspace, building permit, planning variance, utility coordination, environmental impact); develop stakeholder engagement plan; prepare vertiport design documentation for authority review
-
----
-
-## § 3 Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| **Structural Failure of Elevated Vertiport** | CATASTROPHIC | Collapse of aircraft, passengers, and structure; potential casualties to building occupants | Structural engineer certification; load case analysis including emergency landing (hard landing 2-3g); regular structural inspection program |
-| **Battery Fire at Vertiport** | CRITICAL | Fire spread to building structure; evacuated passengers at risk; vertiport shutdown | NFPA 418-compliant fire suppression; minimum 3m separation between charging pads; automated fire detection at each pad; trained ground crew response |
-| **Obstacle Strike on Approach/Departure** | CATASTROPHIC | Aircraft collision with building, crane, or tall structure; loss of aircraft and occupants | Obstacle Limitation Surface (OLS) analysis; protect critical surfaces (approach/departure, transitional, conical); NOTAM for temporary obstacles |
-| **Electrical Fault (High-Power Charging)** | SERIOUS | Arc flash injury to ground crew; equipment damage; grid disruption | Arc flash hazard analysis per IEEE 1584; PPE requirements; ground fault circuit interrupters; emergency disconnect within 3 seconds of fault detection |
-| **Ground Crew FOD/Rotor Strike** | SERIOUS | Injury from rotor wash or debris; aircraft damage; operation shutdown | Defined safety zones during aircraft powered; FOD walk procedures; colored safety markings on TLOF perimeter; crew training |
-| **Noise Ordinance Violation** | SERIOUS | Community complaints; local authority restriction on operating hours or aircraft types | Noise monitoring system; preferential departure routes; night curfew design; community liaison program |
-
----
-
-## § 4 Core Philosophy
-
-### Mental Model: Vertiport as a System
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  AIRSPACE INTERFACE                                      │
-│  Approach/departure paths, UTM OV filing, noise abatement│
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│  FATO
-│  Landing pads, obstacle limitation surfaces, lighting    │
-│  ← Safety-critical; aviation authority jurisdiction →   │
-├─────────────────────────────────────────────────────────┤
-│  TRANSITION ZONE                                         │
-│  Passenger marshaling, aircraft towing/positioning       │
-├─────────────────────────────────────────────────────────┤
-│  CHARGING
-│  Charging stations, basic maintenance, turnaround ops   │
-├─────────────────────────────────────────────────────────┤
-│  TERMINAL
-│  Passenger processing, ticketing, ground transport      │
-│  ← Building authority
-└─────────────────────────────────────────────────────────┘
-```
-
-### Guiding Principles
-
-1. **Airside is Aviation Authority's Domain**: Any area where aircraft operate or taxi is subject to aviation authority jurisdiction; building departments cannot override FAA/EASA requirements for FATO design, obstacle surfaces, or lighting
-2. **Design the Bottleneck, Not the Average**: Vertiport capacity is set by the slowest step (usually charging time); design around 90th percentile turnaround time, not mean; model queuing under disruption scenarios, not just smooth operations
-3. **Community Is a Permitting Authority**: Local governments cannot block FAA airspace approval, but they can block building permits, zoning variances, and operating licenses; treat community relations as a critical path item from Day 1
-
----
-
-
-## § 6 Professional Toolkit
-
-### Design & Analysis Tools
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **AutoCAD Civil 3D
-| **ArcGIS
-| **FAA OE/AAA (Obstruction Evaluation)** | FAA 7460-1 notice filing; airspace analysis for structures | Required for any structure above 200 ft AGL or within approach surfaces |
-| **EUROCONTROL ARC-IT** | European airspace integration planning | EU vertiport projects with airspace integration requirements |
-| **Arena
-| **NFPA 418** | Standard for Heliports (fire protection, construction) | Fire suppression design, construction material requirements |
-| **AGi32
-
-### Reference Standards
-| Standard | Jurisdiction | Scope |
-|----------|-------------|-------|
-| FAA AC 150/5390-2D | USA | Heliport design (primary reference for vertiports) |
-| EASA Easy Access Vertiports (EAD-RYD VTOL) | EU | Emerging vertiport-specific regulation |
-| ICAO Heliport Manual Doc 9261 | Global | International heliport design standard |
-| NFPA 418 | USA | Fire protection for heliports/vertiports |
-| ASCE 7 | USA | Structural loads (wind, snow, landing loads) |
-
----
-
-## § 7 Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a vertiport planning engineer matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this vertiport planning engineer challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex vertiport planning engineer issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term vertiport planning engineer strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in vertiport planning engineer. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
-
----
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
@@ -568,6 +190,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 
 ---
 
+
 ## § 11 Integration with Other Skills
 
 ### Vertiport Planning Engineer + eVTOL Chief Designer
@@ -592,6 +215,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 - **Outcome**: Approved vertiport operating certificate with compliant operations manual
 
 ---
+
 
 ## § 12 Scope & Limitations
 
@@ -631,6 +255,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 
 ---
 
+
 ## § 14 Quality Verification
 
 ### Self-Assessment Checklist
@@ -656,6 +281,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 - Expected: Diagnose likely causes (overcurrent, inrush current at connect, ground fault); recommend arc flash study; specify proper circuit protection coordination; verify charger startup inrush vs. breaker instantaneous trip setting
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -676,6 +302,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -703,6 +330,7 @@ Minimum 150m separation from residential areas for approach/departure paths.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -723,6 +351,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -735,15 +364,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -765,3 +385,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,153 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Credit Risk Analysis** — Evaluate borrower creditworthiness, calculate expected loss components (PD, LGD, EAD), and assess portfolio concentration
-2. **Market Risk Measurement** — Compute Value at Risk (VaR), Expected Shortfall, stress scenario impacts, and Greeks exposure
-3. **Regulatory Compliance** — Apply Basel III/IV, IFRS 9, CECL, CCAR, and DFAST requirements to risk calculations
-4. **Risk Model Development** — Design, validate, and monitor risk models including scorecards, PD/LGD estimation, and stress testing
-5. **Capital Allocation** — Optimize risk-adjusted returns, manage CET1 ratio, and balance RWA across business lines
-6. **Stress Testing** — Design and execute scenario analysis, reverse stress tests, and sensitivity analysis
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Model Risk** | 🔴 High | Models may fail in unexpected conditions; backtesting is not prediction | Multiple model validation, manual overrides, model inventory management |
-| **Regulatory Changes** | 🔴 High | Basel IV, CECL implementation timelines and requirements change | Stay current with regulatory publications, engage regulators early |
-| **Data Quality** | 🟡 Medium | Risk models are only as good as input data; GIGO applies | Data quality frameworks, reconciliation,上游 validation |
-| **Parameter Estimation Error** | 🟡 Medium | PD/LGD estimates have confidence intervals; point estimates mislead | Use confidence intervals, sensitivity analysis, expert judgment overlays |
-| **Interpretability vs. Accuracy** | 🟢 Low | Complex ML models may outperform but lack explainability for regulators | Balance with interpretable models, use SHAP/LIME for explanation |
-
-**⚠️ IMPORTANT:**
-- This skill provides analysis and guidance — not definitive regulatory or investment advice
-- Risk models are probabilistic estimates, not predictions; actual outcomes will vary
-- Always involve legal and compliance teams for regulatory interpretations
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Risk Management Framework
-
-```
-                    RISK IDENTIFICATION
-                           │
-            ┌──────────────┴──────────────┐
-            ▼                              ▼
-    QUANTIFIABLE                   NON-QUANTIFIABLE
-    (Credit, Market,               (Reputation, Strategic,
-     Operational)                   Compliance)
-            │                              │
-    ┌───────┴───────┐              ┌───────┴───────┐
-    ▼               ▼              ▼               ▼
-  MEASURE         MONITOR         ASSESS         CONTROL
-  (Metrics)       (KRIs)          (Scenarios)     (Policies)
-     │               │               │               │
-     └───────────────┴───────────────┴───────────────┘
-                           │
-                           ▼
-                   RISK REPORTING
-                   (Board, Regulators, Senior Management)
-```
-
-All risks must be identified, measured, monitored, and reported. Non-quantifiable risks require qualitative assessment and control frameworks.
-
-### 4.2 Guiding Principles
-
-1. **Expected Loss is a Cost of Doing Business**: Price loans and transactions to cover expected loss — unexpected loss is what requires capital
-2. **Capital is Expensive**: Minimize RWA for equivalent risk — optimize not just absolute exposure but capital consumption
-3. **Three Lines of Defense**: Business owns risk, Risk Management oversees, Internal Audit assures — no single point of failure
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Python (pandas, numpy, scikit-learn)** | Model development, data analysis, backtesting |
-| **R (quantmod, PerformanceAnalytics)** | Statistical modeling, time-series analysis |
-| **SAS** | Enterprise-scale credit risk modeling, regulatory reporting |
-| **SQL** | Data extraction, portfolio analytics, warehouse queries |
-| **Excel/VBA** | Prototyping, ad-hoc analysis, presentation |
-| **Bloomberg Terminal** | Market data, credit spreads, VaR calculations |
-| **Moody's Analytics (CreditEdge)** | PD/LGD estimation, portfolio credit risk |
-| **Refinitiv (Risk管理的)** | Credit risk data, counterparty exposures |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Risk Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Basel III/IV** | Banking capital adequacy | (1) Calculate RWA by asset class → (2) Apply risk weights → (3) Derive capital requirements → (4) Optimize CET1 ratio |
-| **IFRS 9 / CECL** | Expected credit loss provisioning | (1) Stage assessment (1/2/3) → (2) Calculate PD × LGD × EAD → (3) Apply forward-looking scenarios → (4) Derive ECL reserve |
-| **VaR (Historical Simulation)** | Market risk measurement | (1) Gather 250+ days returns → (2) Sort and find 5th percentile → (3) Apply to current position → VaR at confidence level |
-| **Stress Testing (CCAR)** | Capital adequacy under stress | (1) Define baseline/ adverse scenarios → (2) Project losses by portfolio → (3) Project RWA and capital → (4) Assess capital adequacy |
-
-### 7.2 Risk Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Expected Loss (EL)** | PD × LGD × EAD | Built into pricing |
-| **Value at Risk (VaR)** | Percentile of loss distribution | <1% of capital (99% VaR) |
-| **Expected Shortfall (ES)** | Average loss beyond VaR | <2% of capital |
-| **Risk-Weighted Assets (RWA)** | Exposure × Risk Weight | Minimize while maintaining business |
-| **CET1 Ratio** | CET1 Capital
-| **Sharpe Ratio** | (Return - Risk-free)
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Credit Risk Assessment
-
-```
-Phase 1: Borrower Analysis
-├── Financial statement analysis (balance sheet, income statement, cash flow)
-├── Industry and macroeconomic factors
-├── Management quality and governance
-├── Credit history and bureau score
-└── Output: Borrower risk rating
-
-Phase 2: Facility Analysis
-├── Loan structure, tenor, covenants
-├── Collateral quality and coverage
-├── Transaction purpose and repayment source
-└── Output: Facility risk rating
-
-Phase 3: Exposure Calculation
-├── Committed amount, outstanding, undrawn
-├── Currency and maturity adjustments
-├── Netting and collateral offsets
-└── Output: EAD calculation
-
-Phase 4: Portfolio View
-├── Concentration limits (single name, sector, geography)
-├── Correlation and diversification
-├── Expected loss vs. actual loss tracking
-└── Output: Reserve adequacy, capital allocation
-```
-
-### 8.2 Market Risk VaR Calculation
-
-```
-Step 1: Position Capture — Get current portfolio positions by asset class
-Step 2: Risk Factors — Map positions to risk factors (equity indices, interest rates, FX, commodities)
-Step 3: Return Series — Gather historical returns (250+ days minimum)
-Step 4: VaR Calculation — Apply historical simulation: find Nth percentile loss
-Step 5: Stress Test — Apply historical/ad hoc stress scenarios
-Step 6: Backtesting — Compare predicted vs. actual losses
-Step 7: Reporting — Present to Risk Committee with commentary
-```
-
----
 
 ## 9.1 Credit Risk — Corporate Loan Portfolio
 
@@ -330,105 +184,6 @@ Step 7: Reporting — Present to Risk Committee with commentary
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on finance risk expert.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent finance risk expert issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term finance risk expert capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -454,6 +209,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -464,6 +220,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 | Finance Risk + **Treasury** | Risk measures market risk exposure → Treasury manages hedging → Risk monitors hedge effectiveness | Balanced risk-return |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -497,6 +254,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -516,6 +274,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -536,6 +295,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -563,6 +323,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -583,6 +344,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -595,15 +357,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -631,3 +384,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

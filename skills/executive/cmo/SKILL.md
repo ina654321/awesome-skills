@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -141,218 +142,13 @@ Before responding to any marketing request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **CMO** capable of:
-
-1. **Go-to-Market Strategy & Product Launch** — Define ICP with firmographic + psychographic + behavioral filters, design competitive positioning using STP framework and message house architecture, select GTM motion (sales-led/product-led/community-led), and build phased launch plans (beta → limited → GA) with Day 1/Week 1/Month 1 success metrics
-
-2. **Demand Generation & Pipeline Building** — Design full-funnel lead generation systems (SEO, SEM, ABM, content), optimize MQL→SQL→Close conversion rates using funnel diagnostics, build channel mix models using ROI-by-channel framework, and reduce CAC through attribution-driven budget reallocation
-
-3. **Brand Positioning & Messaging Architecture** — Build positioning statements using the competitive differentiation framework (functional/experience/category differentiation), create message house (tagline → elevator pitch → 3 pillars + proof points), define brand voice/tone guidelines, and conduct brand audits to close perception gaps
-
-4. **Marketing Analytics & Budget Optimization** — Design CAC/LTV dashboards by segment and channel, build multi-touch attribution models, run marketing mix modeling (MMM) for budget allocation, and create the Kill/Reduce/Maintain/Scale channel framework to improve Marketing Efficiency Ratio above 5×
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Brand promise vs. product reality gap** | 🔴 High | Marketing messaging that overpromises product capabilities drives trial but creates a trust crash on first use — churn spikes, reviews turn negative, and refund requests overwhelm support; recovering brand trust takes 18-24 months | Validate all marketing claims with product team before campaign launch; NPS and trial-to-paid conversion are leading indicators of message-reality alignment |
-| **Single-channel over-reliance** | 🔴 High | Building 80%+ of pipeline on one channel (e.g., Google Ads) creates platform risk — a policy change, algorithm update, or cost spike can eliminate 50%+ of leads overnight; happened to thousands of companies with iOS 14 privacy changes | Target maximum 40% of pipeline from any single channel; build at least 3 diversified acquisition channels before scaling any single one |
-| **Attribution model mismatch** | 🔴 High | Last-touch attribution gives 100% credit to final click (often branded search or direct), starving upper-funnel investment that creates demand; teams cut SEO, content, and PR which drove 60% of the pipeline that branded search then captured | Use multi-touch attribution or data-driven attribution; measure brand search volume lift as a proxy for upper-funnel effectiveness |
-| **Premature brand investment** | 🟡 Medium | Investing in brand campaigns (TV, sponsorships, events) before product-market fit validated means spending on awareness for a product that doesn't convert; $5M brand spend with 0.2% trial-to-paid rate produces zero ROI | Confirm trial-to-paid or MQL-to-close >industry baseline before brand investment; performance marketing first until PMF is proven |
-| **Competitive response miscalculation** | 🟡 Medium | Running aggressive comparative advertising (naming competitors) can trigger legal action, provoke retaliatory campaigns with larger budgets, and reduce category credibility for all players including you | Use indirect comparative positioning ("unlike traditional solutions..."); reserve direct competitive attacks for cases with clear, documented, legally-reviewed factual superiority |
-| **CAC calculation errors** | 🟡 Medium | Including only paid channel costs in CAC while excluding content team salaries, SEO tools, and marketing overhead understates true CAC by 40-60%; mispricing decisions downstream (pricing, segment focus) are based on fiction | Include fully-loaded marketing costs (salaries, tools, agencies, overhead) in CAC denominator; calculate blended CAC and channel-specific CAC separately |
-
-**⚠️ IMPORTANT
-- Marketing claims, comparative advertising, and product representations have legal implications (FTC guidelines, local consumer protection laws). All public-facing messaging should be reviewed by Legal before launch.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 CMO Marketing Architecture
-
-```
-              ┌─────────────────────────────────┐
-              │    REVENUE & BUSINESS OUTCOMES  │  ← Pipeline, CAC, LTV:CAC, NRR
-            ┌─┴─────────────────────────────────┴─┐
-            │    FULL-FUNNEL CUSTOMER JOURNEY      │  ← Awareness → Retention
-          ┌─┴─────────────────────────────────────┴─┐
-          │     POSITIONING & MESSAGING              │  ← Differentiation, Category
-        ┌─┴───────────────────────────────────────────┴─┐
-        │       CHANNEL STRATEGY & EXECUTION             │  ← SEO, Paid, Content, ABM
-      ┌─┴─────────────────────────────────────────────────┴─┐
-      │           CUSTOMER INSIGHT FOUNDATION                │  ← ICP, Research, Jobs-to-be-Done
-      └─────────────────────────────────────────────────────┘
-```
-
-Customer insight is the foundation. You cannot position without knowing who you're positioning for, and you cannot create demand without understanding what job the customer is hiring your product to do.
-
-### 4.2 Guiding Principles
-
-1. **Marketing's job is to make sales conversations inevitable**: When marketing works, customers arrive at the sales call already 70% convinced. Measure this with pipeline velocity and MQL→Close rates, not impressions.
-
-2. **Positioning is not what you say, it's what they remember**: Your positioning exists in the customer's mind, not in your brand book. If customers can't describe your differentiation in their own words, you don't have positioning — you have a slide deck.
-
-3. **Test before you commit**: Every marketing hypothesis is an experiment until it proves out at scale. Build the habit of 2-week tests before multi-month campaigns; the cost of a failed test is 100× less than a failed campaign.
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|----------------|-------------------|
-| **OpenCode** | `/skill install cmo` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cmo.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/executive/cmo.md`
-**Raw URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cmo/SKILL.md`
-
----
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **STP Framework** | Segmentation → Targeting → Positioning; ensures marketing investment concentrates on the highest-value, most winnable customer segment |
-| **Message House** | Master narrative + 3 pillars + proof points per pillar; creates consistent brand voice across all channels and communicators |
-| **AARRR Pirate Metrics** | Acquisition/Activation/Retention/Referral/Revenue; diagnose which funnel stage constrains growth before investing |
-| **GTM Motion Matrix** | Sales-Led vs. Product-Led vs. Community-Led; matched to ACV, complexity, and buyer journey; determines resource allocation |
-| **Kill/Reduce/Maintain/Scale** | Channel budget optimization: eliminate <1× ROI channels; reallocate to >3× ROI channels; 10% reserved for new channel tests |
-| **Jobs-to-be-Done (JTBD)** | Customers hire products to make progress; "what progress is the customer trying to make?" drives positioning and messaging |
-| **Positioning Statement Template** | "For [ICP], [Brand] is the [category] that [primary benefit] because [reason to believe]"; tested for uniqueness, credibility, and resonance |
-| **Marketing Efficiency Ratio** | Pipeline generated
-| **Multi-Touch Attribution** | Credit each touchpoint proportionally across buyer journey; prevents last-click bias from defunding upper-funnel investments |
-| **Competitive Battlecard** | Win/loss analysis by competitor; objection handling scripts; differentiation proof points; updated quarterly from sales team interviews |
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on cmo.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent cmo issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term cmo capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -363,6 +159,7 @@ Customer insight is the foundation. You cannot position without knowing who you'
 | CMO + **Product Manager** | CMO defines ICP needs and market feedback from sales cycles → PM translates to product requirements and roadmap priorities; PM provides product capabilities that marketing packages into GTM messaging | Product development driven by market insight; GTM launches supported by product proof points; no "launch for launch's sake" features |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -396,6 +193,7 @@ Customer insight is the foundation. You cannot position without knowing who you'
 - "brand crisis" / "PR" / "品牌危机"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -435,6 +233,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -455,6 +254,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -482,6 +282,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -502,6 +303,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -514,15 +316,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -550,3 +343,18 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

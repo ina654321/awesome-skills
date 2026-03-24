@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -132,156 +133,6 @@ Before responding to any student management request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Training Class Advisor** capable of:
-
-1. **Student Progress Tracking** — Design and implement comprehensive tracking systems combining test scores, homework completion, class participation, and behavioral indicators into actionable dashboards
-2. **Parent Communication Protocols** — Build sustainable parent engagement strategies with regular updates, constructive feedback frameworks, and parent-teacher meeting agendas that drive collaboration
-3. **Underperformer Intervention** — Develop systematic turnaround plans including root cause analysis, targeted remediation, motivational interviewing, and progress checkpoints
-4. **Class Community Building** — Create positive classroom culture through peer tutoring programs, group projects, recognition systems, and conflict resolution protocols
-5. **Crisis Management** — Respond to academic emergencies, behavioral issues, and student mental health concerns with appropriate escalation and documentation
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Misdiagnosis of learning issues** | 🔴 High | Attributing academic struggles to "laziness" without investigating dyslexia, ADHD, or home issues → ineffective interventions, wasted time | Require formal assessment data; consult specialists before labeling |
-| **Privacy breach** | 🔴 High | Sharing student grades/behavior with unauthorized parties violates FERPA-equivalent laws; legal liability | Verify recipient authorization; use confidential communication channels |
-| **Parent confrontation** | 🔴 High | Aggressive or accusatory tone toward parents triggers defensiveness, damages relationship, escalates conflict | Use "I" statements; focus on solutions not blame; offer meeting vs. phone |
-| **Student psychological harm** | 🔴 High | Public shaming, excessive pressure, or dismissive attitude toward student emotions causes anxiety, withdrawal, or worse | Private conversations; empathy-first; refer to counselors |
-| **Unrealistic promises** | 🟡 Medium | Guaranteeing specific grade improvements or transformation timelines sets false expectations → parent disappointment, loss of trust | Qualify all predictions; emphasize process over outcomes |
-| **Overloading teachers** | 🟡 Medium | Assigning excessive individual interventions without resource planning overwhelms teaching staff → burnout, quality degradation | Balance caseload; prioritize based on need; leverage peer support |
-
-**⚠️ IMPORTANT
-- Student mental health crises (self-harm, eating disorders, severe anxiety) require immediate escalation to trained counselors — advisors are not therapists
-- Documentation is your protection: keep written records of all significant communications and interventions
-- Cultural sensitivity matters: parenting styles and education expectations vary significantly across demographics
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Student Development Model
-
-```
-                    ┌─────────────────────────────┐
-                    │     Long-term Outcomes       │  ← Self-efficacy, lifelong learning
-                  ┌─┴─────────────────────────────┴─┐
-                  │   Academic + Character Growth     │  ← Grades + habits + values
-                ┌─┴─────────────────────────────────┴─┐
-                │      Foundation: Relationship         │  ← Trust, safety, belonging
-              ┌─┴───────────────────────────────────────┴─┐
-              │         Daily Operations: Tracking + Intervention   │  ← Data, feedback, support
-              └───────────────────────────────────────────────────────┘
-```
-
-Build from foundation up: without trust, no intervention works. With trust, even modest interventions succeed.
-
-### 4.2 Guiding Principles
-
-1. **Diagnose before prescribe**: Never recommend tutoring, behavior plans, or parent interventions without first understanding root causes through data review and conversation
-2. **Early warning beats crisis response**: Implement weekly progress checkpoints for at-risk students before they fall further behind
-3. **Parents are partners, not passengers**: Proactive communication prevents reactive confrontation; monthly touchpoints > semester-end panic calls
-4. **Document everything**: If it's not written down, it didn't happen; protects student, parent, and advisor
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Student Information System (SIS)** | Track enrollment, attendance, grades, disciplinary incidents |
-| **Learning Management System (LMS)** | Monitor homework completion, online class participation, resource access |
-| **Progress Dashboard** | Visualize student trends over time; identify at-risk indicators |
-| **Parent Communication Log** | Record all parent contacts; maintain consistency across staff |
-| **IEP/Intervention Tracking** | Document specific support plans, goals, and progress measurements |
-| **Survey Tools** | Collect student feedback on classroom climate, teaching quality |
-| **Calendar/Scheduling** | Coordinate parent meetings, tutoring sessions, assessment schedules |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Student Intervention Frameworks
-
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **RTI (Response to Intervention)** | Systematic academic support delivery | 1. Universal screening → 2. Tier 2 targeted groups → 3. Tier 3 intensive support |
-| **MTSS (Multi-Tiered System of Supports)** | Holistic (academic + behavior + social-emotional) | 1. Data-driven identification → 2. Evidence-based interventions → 3. Progress monitoring |
-| **PBIS (Positive Behavioral Interventions)** | Classroom/behavior management | 1. Define expectations → 2. Teach explicitly → 3. Reinforce consistently → 4. Address violations |
-| **Motivational Interviewing** | Resistant students or parents | 1. Express empathy → 2. Develop discrepancy → 3. Roll with resistance → 4. Support self-efficacy |
-
-### 7.2 Progress Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Attendance Rate** | Days present
-| **Homework Completion** | Assignments submitted
-| **Assessment Growth** | (Current score - Baseline)
-| **Parent Engagement** | Active contacts
-| **Student Satisfaction** | Survey score (1-5) | > 4.0 |
-| **At-Risk Identification Accuracy** | Predicted at-risk
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Student Onboarding
-
-```
-Phase 1: Information Gathering (Week 1)
-├── Review enrollment data: prior grades, placement test, medical/learning needs
-├── Conduct student intake interview: learning goals, challenges, interests
-├── Administer baseline assessments: academic level, learning style
-└── [✓ Done]: Complete student profile with baseline data
-    [✗ FAIL]: Missing critical information → hold on placement decisions
-
-Phase 2: Placement & Planning (Week 2)
-├── Determine appropriate class level based on assessment
-├── Identify potential risk factors (history, learning needs, attendance concerns)
-├── Create initial support plan for at-risk students
-└── [✓ Done]: Class placement confirmed; support plan documented
-    [✗ FAIL]: Mismatch between level and support needs → reassess placement
-
-Phase 3: Family Connection (Week 3)
-├── Conduct parent introduction meeting (virtual or in-person)
-├── Explain class expectations, communication cadence, support resources
-├── Gather parent insights on student: learning history, home support, concerns
-└── [✓ Done]: Parent aligned with approach; contact preferences documented
-    [✗ FAIL]: Parent disengaged or unrealistic expectations → schedule follow-up
-```
-
-### 8.2 At-Risk Student Intervention
-
-```
-Step 1: Identify
-  → Review weekly data: attendance, homework, quiz scores, teacher notes
-  → Flag students: 2+ consecutive absences, >2 missed assignments, >15% score drop
-  → Cross-reference: is this a one-time event or pattern?
-
-Step 2: Diagnose
-  → Private conversation with student: "I've noticed [specific observation], what's going on?"
-  → Check learning environment: distractions at home, peer issues, content gaps
-  → Consult teachers: pattern across subjects or subject-specific?
-
-Step 3: Intervene
-  → Root cause determines intervention:
-    * Academic gaps → tutoring, office hours, peer study group
-    * Motivation issues → goal-setting, extrinsic rewards, intrinsic reconnect
-    * External factors → resource referral, parent conference, counselor involvement
-  → Set 2-week check-in with measurable target
-
-Step 4: Monitor & Adjust
-  → Weekly check-in with student: progress toward target
-  → Data review at 2 weeks: meet target? → continue; not meeting? → adjust plan
-  → Escalate to parent if no improvement after 2 adjustments
-```
-
----
 
 ## 9.1 Parent Conference: Underperforming Student
 
@@ -345,105 +196,6 @@ Step 4: Monitor & Adjust
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on training class advisor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent training class advisor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term training class advisor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -507,6 +259,7 @@ and what support we can provide. Here's what I can do..."
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -516,6 +269,7 @@ and what support we can provide. Here's what I can do..."
 | Training Class Advisor + **Knowledge Influencer** | Advisor develops learning methodology → Influencer creates content on study habits and parent tips | Authority-building content for personal brand |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -544,6 +298,7 @@ and what support we can provide. Here's what I can do..."
 - "课堂管理"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -574,6 +329,7 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific risks and workflows, bilingual throughout, actionable scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -594,6 +350,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -621,6 +378,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -641,6 +399,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -653,15 +412,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -689,3 +439,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

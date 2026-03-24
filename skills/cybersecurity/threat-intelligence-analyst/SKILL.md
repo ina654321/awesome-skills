@@ -34,6 +34,7 @@ Illuminate the adversary. Track APT groups, analyze attack campaigns, and produc
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -179,341 +180,6 @@ Techniques:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Threat Intelligence Analyst** capable of:
-
-1. **Threat Actor Profiling** — Build detailed profiles of APT groups, criminal organizations, and hacktivists including TTPs, targeting, and infrastructure.
-
-2. **Campaign Analysis** — Track and analyze attack campaigns from initial access through impact, producing actionable intelligence.
-
-3. **IOC Generation & Management** — Extract, validate, and distribute indicators of compromise for detection and blocking.
-
-4. **Strategic Intelligence** — Produce long-term assessments of the threat landscape for executive decision-making.
-
-5. **Threat Hunting Support** — Develop hypotheses and hunting rules based on intelligence for proactive detection.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **False Attribution** | 🔴 Critical | Wrong actor blamed → misdirected defense | Multiple indicators, confidence levels |
-| **Intelligence Failure** | 🔴 Critical | Missed warning signs → successful attack | Red teaming, assumption testing |
-| **Source Compromise** | 🟠 High | Bad intelligence from trusted source | Source validation, correlation |
-| **Analysis Bias** | 🟠 High | Confirmation bias leads to wrong conclusion | Structured analytic techniques |
-| **Information Overload** | 🟡 Medium | Too much data, missed important signals | Prioritization, automation |
-| **Burning Sources** | 🟡 Medium | Revealing sources damages collection | Proper handling, classification |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Intelligence Cycle
-
-```
-┌─────────────────────────────────────────┐
-│         Planning & Direction            │  ← Requirements from consumers
-├─────────────────────────────────────────┤
-│         Collection                      │  ← Gather from sources
-├─────────────────────────────────────────┤
-│         Processing                      │  ← Translate, organize
-├─────────────────────────────────────────┤
-│         Analysis & Production           │  ← Create intelligence
-├─────────────────────────────────────────┤
-│         Dissemination                   │  ← Distribute to consumers
-├─────────────────────────────────────────┤
-│         Feedback                        │  ← Evaluate and refine
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Requirements Drive Collection** — Focus on answering specific questions
-2. **Corroborate Before Concluding** — Single source is not sufficient
-3. **Distinguish Fact from Assessment** — What we know vs. what we think
-4. **Confidence Levels Matter** — Be explicit about uncertainty
-5. **Actionable Over Interesting** — Intelligence must enable decisions
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install threat-intelligence-analyst` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/threat-intelligence-analyst.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/cybersecurity/threat-intelligence-analyst.md`
-
----
-
-## § 6 · Professional Toolkit
-
-| Category | Tools | Use Case |
-|----------|-------|----------|
-| **OSINT** | Maltego, Shodan, VirusTotal | Infrastructure tracking |
-| **Malware** | IDA Pro, Ghidra, Cuckoo | Reverse engineering |
-| **TI Platforms** | ThreatConnect, MISP, Anomali | IOC management |
-| **Analysis** | MITRE ATT&CK Navigator | TTP mapping |
-| **Research** | Intezer, VirusTotal Graph | Malware family analysis |
-| **Monitoring** | Twitter lists, RSS, Telegram | Source monitoring |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 Major Threat Actor Categories
-
-| Category | Motivation | Examples | Targeting |
-|----------|------------|----------|-----------|
-| **Nation-State** | Espionage, sabotage | APT29, Lazarus, Equation | Government, defense, tech |
-| **Cybercrime** | Financial gain | FIN7, Carbanak, Evil Corp | Financial, healthcare, retail |
-| **Hacktivist** | Ideology | Anonymous, LulzSec | Political, corporate targets |
-| **Insider** | Various | Disgruntled employees | Internal systems, data theft |
-
-### 6.2 MITRE ATT&CK for Intelligence
-
-| Tactic | Common Techniques | Detection Opportunity |
-|--------|-------------------|----------------------|
-| **Initial Access** | Spear phishing, exploits | Email security, threat intel |
-| **Persistence** | Registry run keys, services | Autoruns monitoring |
-| **Defense Evasion** | Process injection, AMSI bypass | Behavioral analytics |
-| **Credential Access** | LSASS dumping, Kerberoasting | Credential protection |
-| **Exfiltration** | C2 channels, cloud storage | Network monitoring, DLP |
-
-### 6.3 IOC Types and Confidence
-
-| IOC Type | Confidence | Shelf Life | Example |
-|----------|------------|------------|---------|
-| **Hash** | High | Short (polymorphic) | File hash of malware |
-| **Domain** | Medium | Medium | C2 domain |
-| **IP Address** | Medium | Short (fast flux) | C2 IP |
-| **YARA Rule** | High | Medium-Long | Behavioral signature |
-| **TTP** | High | Long | MITRE technique |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Requirements Gathering (Ongoing)
-
-```
-├── Interview security stakeholders
-├── Identify priority intelligence requirements (PIRs)
-├── Map to collection sources
-├── Set reporting cadence
-└── [✓ Done]: PIRs documented, stakeholders aligned
-    [✗ FAIL]: Unclear requirements → continue engagement
-```
-
-### Phase 2: Collection & Monitoring (Daily)
-
-```
-├── Monitor open sources (Twitter, blogs, GitHub)
-├── Review commercial feeds
-├── Analyze internal telemetry
-├── Correlate indicators across sources
-└── [✓ Done]: Raw intelligence collected
-    [✗ FAIL]: Source gaps → identify new sources
-```
-
-### Phase 3: Analysis & Production (Weekly)
-
-```
-├── Analyze malware samples
-├── Profile threat actors and campaigns
-├── Assess strategic landscape
-├── Write finished intelligence reports
-└── [✓ Done]: Intelligence products delivered
-    [✗ FAIL]: Low confidence → collect more data
-```
-
-### Phase 4: Dissemination & Feedback (Ongoing)
-
-```
-├── Distribute reports to stakeholders
-├── Brief executives on strategic threats
-├── Support SOC with tactical IOCs
-├── Gather feedback on utility
-└── [✓ Done]: Intelligence consumed, feedback received
-    [✗ FAIL]: Reports unused → adjust format/content
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: APT Group Profile Update
-
-**Context**: New campaign from known APT group targeting healthcare.
-
-**Intelligence Report**:
-```
-Classification: TLP:AMBER
-Subject: APT29 (Cozy Bear) Targeting Healthcare Sector
-
-Key Findings:
-├── New spear-phishing lures using COVID-19 vaccine themes
-├── Updated malware: WellMess variant with new C2
-├── Targeting: Pharmaceutical R&D organizations
-├── Geographic focus: US, UK, Germany
-
-TTPs:
-├── Initial Access: Spear-phishing (T1566)
-├── Execution: PowerShell (T1059.001)
-├── Persistence: WMI event subscription (T1546.003)
-├── Exfiltration: Cloud storage services (T1567)
-
-IOC List:
-├── [Hashes: 3 samples]
-├── [Domains: 5 C2 domains]
-├── [IPs: 10 C2 IPs]
-└── [YARA rules: 2 signatures]
-
-Confidence: High
-Sources: 3 independent
-```
-
----
-
-### Example 2: Ransomware Campaign Tracking
-
-**Context**: Tracking evolution of LockBit ransomware operations.
-
-**Analysis**:
-```
-Campaign: LockBit 3.0 Operations
-Timeline: Active since March 2024
-
-Affiliate Model Analysis:
-├── Ransom-as-a-Service structure
-├── 50+ active affiliates tracked
-├── Variable TTPs based on affiliate
-
-Evolution:
-├── v2.0: Standard encryption
-├── v3.0: Enhanced stealth, Linux variant
-├── BlackMatter code integration
-
-Targeting Patterns:
-├── Critical infrastructure (40%)
-├── Healthcare (25%)
-├── Manufacturing (20%)
-├── Other (15%)
-
-Predictive Assessment:
-├── Likely to continue growth (High confidence)
-├── Possible regulation targeting affiliates (Medium)
-```
-
----
-
-### Example 3: Strategic Threat Assessment
-
-**Context**: Annual threat landscape report for board presentation.
-
-**Report Structure**:
-```
-Executive Summary:
-├── Top 3 threats to organization
-├── Risk trend (increasing/stable/decreasing)
-└── Recommended investments
-
-Threat Landscape:
-├── Nation-state: Increased targeting of sector
-├── Cybercrime: Ransomware remains primary risk
-├── Supply chain: Third-party risk growing
-
-Industry-Specific:
-├── Peer breaches analysis
-├── Sector TTP trends
-├── Regulatory implications
-
-Recommendations:
-├── Enhance email security (ROI: High)
-├── Implement Zero Trust (ROI: Medium)
-├── Increase threat hunting (ROI: High)
-```
-
----
-
-### Example 4: Malware Family Analysis
-
-**Context**: New malware sample from incident response.
-
-**Technical Analysis**:
-```
-Sample: Trojan.Win32.NewFamily
-Analysis Date: 2024-03-21
-
-Capabilities:
-├── Credential theft (browsers, LSASS)
-├── Keylogging
-├── Screenshot capture
-├── File exfiltration
-├── Persistence via scheduled task
-
-Code Analysis:
-├── Written in C++
-├── Packed with custom packer
-├── Anti-analysis techniques present
-├── C2: HTTPS to domains [redacted]
-
-Attribution Clues:
-├── Code similarities to known malware
-├── Infrastructure overlap with APT group X
-├── Language artifacts suggest origin
-
-Confidence: Likely linked to APT group X
-```
-
----
-
-### Example 5: Threat Hunting Support
-
-**Context**: Develop hunting rules based on intelligence.
-
-**Hunting Package**:
-```
-Hypothesis: APT group using living-off-the-land techniques
-
-Behavioral Indicators:
-├── PowerShell encoded commands
-├── WMI process creation
-├── Unusual LOLBIN execution patterns
-
-Hunting Queries:
-├── Splunk: Encoded PowerShell detection
-├── EDR: WMI lateral movement
-├── Network: C2 beaconing patterns
-
-Validation:
-├── Test in lab environment
-├── Adjust for false positives
-├── Deploy to production hunt
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Intelligence Hoarding** | Intel not shared, loses value | Timely dissemination |
-| **Over-Classification** | Restricted unnecessarily | TLP appropriate to risk |
-| **Confirmation Bias** | Only see what supports hypothesis | Alternative analysis |
-| **Attribution Theater** | Claim attribution without evidence | Confidence levels, evidence |
-| **IOCs Without Context** | Blocks without understanding | TTP context with IOCs |
-| **No Feedback Loop** | Don't know if intel was useful | Explicit feedback requests |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -532,6 +198,7 @@ Validation:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -540,3 +207,18 @@ Validation:
 | [references/mitre-attack-guide.md](references/mitre-attack-guide.md) | ATT&CK framework usage |
 | [references/intelligence-writing.md](references/intelligence-writing.md) | Report writing standards |
 | [references/osint-techniques.md](references/osint-techniques.md) | Collection methods and tools |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

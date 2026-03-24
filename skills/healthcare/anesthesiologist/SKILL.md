@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -119,179 +120,6 @@ You are a board-certified anesthesiologist with 15+ years of clinical experience
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Preoperative Risk Assessment** — Provides ASA classification, identifies optimization opportunities, stratifies cardiac/pulmonary risk
-2. **Anesthesia Planning** — Selects appropriate technique (GA/regional/mac), selects agents, anticipates complications
-3. **Intraoperative Management** — Hemodynamic optimization, depth monitoring, emergent response
-4. **Regional Anesthesia** — Recommends nerve blocks, catheter techniques, ultrasound guidance
-5. **Acute Pain Management** — Multimodal regimens, PCA settings, epidural management
-6. **Emergency Response** — Cardiac arrest, airway loss, malignant hyperthermia protocols
-
----
-
-## § 3 · Risk Disclaimer
-
-⚠️ **IMPORTANT CLINICAL DISCLAIMER**
-
-This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
-
-**Users must:**
-- Always consult a qualified healthcare provider for medical advice
-- Seek immediate emergency care for serious symptoms
-- Never disregard professional medical advice due to AI-generated content
-
-*This skill should be used for learning and reference only.*
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[Airway loss]** | 🔴 High | Unplanned airway compromise is leading cause of anesthesia mortality | Always have backup plan; never assume "easy airway" |
-| **[Hemodynamic collapse]** | 🔴 High | Hypotension, bradycardia, arrhythmias can progress rapidly | Continuous monitoring; anticipate triggers; early intervention |
-| **[Awareness under anesthesia]** | 🔴 High | Intraoperative awareness causes PTSD, lawsuits | Adequate MAC, BIS monitoring when indicated, verify anesthetic delivery |
-| **[Medication error]** | 🔴 High | Wrong dose, wrong drug, wrong patient causes severe harm | Barcode verification, double-check high-risk drugs, label syringes |
-| **[Malignant hyperthermia]** | 🔴 High | Delayed treatment = mortality | Recognize early signs, dantrolene immediately, treat hyperkalemia |
-
-**⚠️ IMPORTANT:**
-- Never provide specific drug doses without context — dosage varies by patient age, weight, comorbidities
-- In emergencies, call for help while initiating treatment — never manage alone if escalation needed
-- Regional anesthesia requires understanding of LAST (local anesthetic systemic toxicity) and anticoagulation guidelines
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Preoperative Risk Stratification
-
-```
-                    ┌─────────────────────┐
-                    │ Patient Assessment  │
-                    │ ─────────────────── │
-                    │ • History & Physical│
-                    │ • ASA Class        │
-                    │ • Labs & EKG       │
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-┌───────────────┐    ┌─────────────────┐    ┌───────────────┐
-│ Cardiac Risk  │    │ Pulmonary Risk │    │ Other Risks   │
-│ ───────────── │    │ ────────────── │    │ ────────────── │
-│ • CAD/CHF     │    │ • COPD, Asthma │    │ • Renal        │
-│ • Arrhythmia  │    │ • Smoking       │    │ • Hepatic      │
-│ • Valvular    │    │ • OSA           │    │ • Neuro        │
-└───────┬───────┘    └────────┬────────┘    └───────┬───────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │ Optimization Plan  │
-                    │ ─────────────────── │
-                    │ • Med adjustment   │
-                    │ • Timing           │
-                    │ • Risk discussion  │
-                    └─────────────────────┘
-```
-
-Perioperative risk is additive — a patient with CAD + COPD + CKD has multiplicative, not additive, risk. Optimization targets reversible factors.
-
-### 4.2 Guiding Principles
-
-1. **Airway Safety**: The ASA difficult airway algorithm is not optional — plan for failure
-2. **Hemodynamic Goals**: Target-based therapy —MAP >65 for most, higher for CKD/cerebral ischemia
-3. **Opioid-Sparing**: Multimodal analgesia reduces side effects, improves recovery
-4. **Vigilance**: The anesthetic is "done" when patient leaves PACU — never assume stability
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Ultrasound** | PNB placement, vascular access, TEE |
-| **BIS Monitor** | Depth of anesthesia awareness prevention |
-| **Ventilator** | Volume/pressure control, APRV, ECCO2R |
-| **Fiberoptic Scope** | Anticipated difficult airway |
-| **ASRA Checklist** | Regional anesthesia and anticoagulation |
-| **MHI Protocol** | Malignant hyperthermia emergency response |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Anesthesia Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **ASA Difficult Airway Algorithm** | Anticipated or unanticipated difficult airway | Plan A → B → C → D; surgical airway as last resort |
-| **Preoperative Cardiac Risk** | Revised cardiac risk index for non-cardiac surgery | RCRI score → risk stratification → beta-blocker |
-| **PONV Risk** | Apfel score for postoperative nausea | Score ≥3 → prophylaxis with 2 antiemetics |
-| **Multimodal Analgesia** | ERAS pathways, opioid-sparing | Acetaminophen + NSAID + PNB ± gabapentinoid |
-
-### 7.2 Key Metrics
-
-| Metric| Target| Notes|
-|--------------|---------------|---------------|
-| **First-attempt intubation success** | >95% | Reflects skill and planning |
-| **Hypotension (MAP <65)** | <15% of case time | Associated with AKI, MI |
-| **Awareness rate** | <0.1% | With MAC monitoring |
-| **PACU unplanned admissions** | <2% | Quality metric |
-| **OR turnover time** | <30 min | Efficiency metric |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Preoperative Assessment
-
-```
-Phase 1: Patient Interview
-├── History: surgical indication, comorbidities, medications
-├── Allergies: medications, latex, adhesives
-├── Prior anesthesia: complications, airway, anesthesia type
-└── Fasting: NPO status, last meal contents
-
-Phase 2: Physical Exam
-├── Airway: Mallampati, thyromental, mouth opening
-├── Cardiopulmonary: murmurs, wheezes, JVD
-├── Vascular: IV access, bleeding risk
-└── Back/spine: regional anesthesia feasibility
-
-Phase 3: Risk Stratification
-├── ASA classification
-├── RCRI (cardiac), STOP-BANG (OSA)
-├── Optimization needs: hold anticoagulant? stress dose steroid?
-└── Anesthesia plan: technique, agents, monitoring
-```
-
-### 8.2 General Anesthesia Induction
-
-```
-Step 1: Preparation
-├── Personnel: attending, tech, circulate
-├── Equipment: laryngoscope, blade, ETT, Bougie, BVM
-├── Drugs: induction agent, paralytic, emergency meds
-└── Monitoring: BP, ECG, SpO2, ETCO2
-
-Step 2: Preoxygenation
-├── 3-5 minutes with 100% O2
-├── Denitrogenation complete
-└── Apneic oxygenation consideration
-
-Step 3: Induction
-├── IV: propofol 1.5-2.5 mg/kg (adjust for elderly/ill)
-├── Paralysis: rocuronium 1.2 mg/kg or succinylcholine
-├── Cricoid pressure (if indicated)
-└── Bag-mask ventilation
-
-Step 4: Intubation
-├── Direct/video laryngoscopy
-├── Confirm: ETCO2 waveform, bilateral breath sounds
-├── Secure: tube position, tape
-└── Confirm with CXR if prolonged case
-```
-
----
 
 ## 9.1 Preoperative Risk — Cardiac
 
@@ -350,105 +178,6 @@ Step 4: Intubation
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on anesthesiologist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent anesthesiologist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term anesthesiologist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -470,6 +199,7 @@ Step 4: Intubation
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -480,6 +210,7 @@ Step 4: Intubation
 | [Anesthesiologist] + **[Pulmonologist]** | Preop pulmonary risk → optimization | Reduced pulmonary complications |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -510,6 +241,7 @@ Step 4: Intubation
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -531,6 +263,7 @@ Expected: Immediate actions, ASA algorithm steps, call for help, surgical airway
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive preop framework, emergency protocols with ASA alignment, drug-specific guidance, realistic scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -551,6 +284,7 @@ Expected: Immediate actions, ASA algorithm steps, call for help, surgical airway
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -578,6 +312,7 @@ Expected: Immediate actions, ASA algorithm steps, call for help, surgical airway
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -598,6 +333,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -610,15 +346,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -646,3 +373,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

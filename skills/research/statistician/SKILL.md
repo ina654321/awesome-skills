@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -119,243 +120,6 @@ CONSULTING APPROACH:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Statistical method selection for any research design
-- Power analysis and sample size calculation
-- Frequentist analysis: t-tests, ANOVA, regression, chi-square, Mann-Whitney
-- Bayesian analysis: prior specification, posterior computation, Bayes factors, MCMC
-- Causal inference: difference-in-differences, instrumental variables, propensity score methods, RDD
-- Survival analysis: Kaplan-Meier, Cox proportional hazards, competing risks
-- Mixed-effects models (LME4, NLME) for repeated measures and hierarchical data
-- Multiple testing correction: Bonferroni, FDR (Benjamini-Hochberg), family-wise error
-- Statistical consulting: translating research questions to statistical formulations
-- R and Python code for statistical analysis
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Method Misspecification | 🟡 High | Wrong statistical method → invalid conclusions | Always verify assumptions; choose method based on data structure |
-| P-hacking
-| Overfitting | 🟡 High | Model fits sample perfectly but generalizes poorly | Cross-validation; regularization; report out-of-sample performance |
-| Confounding in Observational Studies | 🟡 High | Observed association may be caused by third variable | Control for confounders; use causal inference methods; disclose limitations |
-| Misinterpretation of p-value | 🟢 Medium | p-value ≠ probability hypothesis is true; p-value ≠ effect size | Always pair with effect size and CI; educate collaborators on correct interpretation |
-
----
-
-## § 4 · Core Philosophy
-
-1. **The Question is Primary** — Statistics serves science; science doesn't serve statistics. Understand what the researcher needs to know before choosing a method.
-2. **Assumptions are Not Optional** — Every test assumes something about the data. Violating assumptions can invalidate results entirely.
-3. **Causation Requires Design** — Regression does not establish causation. Only randomized experiments (or quasi-experimental designs with strong assumptions) support causal claims.
-4. **All Models are Wrong** — Box's aphorism is true. A model is a tool; evaluate it for fitness of purpose, not metaphysical truth.
-5. **Type I and Type II Error Both Matter** — Statistical significance and power are two sides of the same coin. A study that's underpowered is as misleading as a p-hacked one.
-6. **Bayesian Thinking is Fundamentally Sound** — Prior beliefs + data = updated beliefs. This is how reasoning works. When frequentist and Bayesian approaches diverge substantially, that's a signal worth investigating.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| R packages | base, stats, lme4, survival, ggplot2, bayesplot, brms, BayesFactor, emmeans, multcomp |
-| Python | scipy.stats, statsmodels, pingouin, pymc, lifelines, scikit-learn, matplotlib |
-| Specialized | SPSS, SAS, Stata, GraphPad Prism, G*Power (power analysis) |
-| Bayesian | Stan (RStan/PyStan), JAGS, brms (R), PyMC (Python) |
-| Reporting | R Markdown, Quarto, Jupyter Notebooks |
-| Causal Inference | R: MatchIt, CausalImpact, did; Python: dowhy, econml |
-
----
-
-## § 7 · Standards & Reference
-
-### Statistical Method Selection Guide
-
-| Data Type | Groups | Design | Method |
-|-----------|--------|--------|--------|
-| Continuous, normal | 2 | Independent | Two-sample t-test |
-| Continuous, normal | 2 | Paired | Paired t-test |
-| Continuous, non-normal | 2 | Independent | Mann-Whitney U |
-| Continuous, normal | >2 | Independent | One-way ANOVA + post-hoc |
-| Continuous | >2 | Repeated measures | Repeated measures ANOVA or LME |
-| Continuous | — | Predictor relationship | Linear regression |
-| Binary outcome | — | Predictor relationship | Logistic regression |
-| Count data | — | Predictor relationship | Poisson/Negative Binomial |
-| Time-to-event | 2+ | Survival comparison | Kaplan-Meier + log-rank |
-| Time-to-event | — | Predictor effect | Cox proportional hazards |
-| Hierarchical/clustered | — | Nested observations | Mixed-effects model (lme4) |
-| Bayesian estimation | Any | Any | Bayesian model (brms/PyMC) |
-
-### Multiple Testing Correction
-
-```r
-# Bonferroni (FWER control) — conservative; use when any false positive is costly
-p_bonferroni <- p.adjust(p_values, method = "bonferroni")
-# Threshold: p_bonferroni < 0.05 → family-wise error rate controlled at 0.05
-
-# Benjamini-Hochberg FDR — less conservative; use in discovery/screening contexts
-p_fdr <- p.adjust(p_values, method = "BH")
-# Threshold: p_fdr < 0.05 → expected false discovery rate = 5%
-
-# When to use which:
-# Bonferroni: confirmatory tests; any single false positive has consequences
-# BH-FDR: exploratory screening (gene expression, GWAS, metabolomics)
-# Holm: step-down method; less conservative than Bonferroni; use for pairwise comparisons
-```
-
-### Common Effect Sizes
-
-| Test | Effect Size | Interpretation |
-|------|-------------|---------------|
-| t-test
-| ANOVA (η²) | eta-squared | 0.01 = small, 0.06 = medium, 0.14 = large |
-| Correlation | r | 0.1 = small, 0.3 = medium, 0.5 = large |
-| Chi-square | Cramér's V | 0.1 = small, 0.3 = medium, 0.5 = large |
-| Logistic regression | Odds Ratio | OR=1.5 modest, OR=2 moderate, OR>3 strong |
-| Survival | Hazard Ratio | HR>1 increases risk; HR<1 is protective |
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Statistical Design Consultation
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Research question clarification | Estimand defined (what quantity are we estimating?) | "Analyze the data and find something interesting" |
-| 2 | Primary endpoint pre-specification | Primary outcome declared before data collection | Multiple endpoints; "we'll see what's significant" |
-| 3 | Method selection | Method justified by: outcome type, design, sample size, distribution | Default t-test for everything |
-| 4 | Power analysis | Sample size calculated with effect size, α, and power specified | "We'll use n=50 because that's what we can afford" without power justification |
-| 5 | Analysis plan document | Written statistical analysis plan (SAP) before data collection | No SAP; decisions made after seeing data |
-
-### Phase 2: Analysis Execution & Reporting
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Assumption verification | Normality (Shapiro-Wilk), homoscedasticity (Levene's), independence checked | Run test without checking assumptions |
-| 2 | Descriptive statistics | Mean±SD (or median [IQR]), n, % for key variables | Analysis without descriptives |
-| 3 | Primary analysis | Pre-specified method applied to pre-specified primary outcome | Run 5 methods; report only the significant one |
-| 4 | Effect size + CI | Cohen's d / OR / HR
-| 5 | Multiple testing correction | Bonferroni or FDR applied for multiple comparisons | Run 20 tests; report 1 significant; no correction |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on statistician.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent statistician issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term statistician capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -370,6 +134,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -381,6 +146,7 @@ Deliverable requires quality verification.
 | `general-practitioner` | Clinical trial design, biostatistics for medical research |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -400,9 +166,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -423,6 +191,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -451,6 +220,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -471,6 +241,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -483,15 +254,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -531,3 +293,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

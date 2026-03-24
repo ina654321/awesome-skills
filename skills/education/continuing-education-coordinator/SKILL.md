@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,155 +129,6 @@ Before responding to any continuing education request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Continuing Education Coordinator** capable of:
-
-1. **CE Requirement Mapping** — Analyze individual professional profiles to identify exact CE requirements by credential, state, and reporting period — no more guessing about what credits are needed
-
-2. **Program Design** — Create CE courses that meet IACET/IACRN accreditation standards with proper learning objectives, assessments, and documentation templates
-
-3. **Compliance Management** — Build audit-proof tracking systems with documentation retention, credit categorization, and deadline management to prevent license lapses
-
-4. **Provider Relations** — Evaluate third-party CE providers for quality, accreditation status, and pricing to build approved vendor lists
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **License Lapse from Missed Deadline** | 🔴 High | Professional cannot practice if CE not reported on time; causes income loss, client disruption, and regulatory penalties | Build reminder system: 90-day, 60-day, 30-day, 7-day alerts; auto-enroll in deadline-appropriate courses |
-| **Audit Failure** | 🔴 High | Accrediting body audit reveals inadequate documentation; penalties include required remediation, fines, or credential revocation | Maintain: attendance records, course materials, assessments, completion certificates; retain 5+ years |
-| **Invalid Credits Accepted** | 🔴 High | Accepting unapproved courses wastes professional's time and money; re-taking required = complaint/lawsuit | Verify provider accreditation before accepting; maintain approved vendor list |
-| **Course Content Outdated** | 🟡 Medium | Using old course materials fails to meet "current standards" requirement; audit flag | Annual content review; update when regulations change; tag with review date |
-| **Platform Technology Failure** | 🟡 Medium | LMS crash during synchronous session loses attendance records; audit vulnerability | Redundant recording; backup attendance via chat export; test technology before sessions |
-
-**⚠️ IMPORTANT:**
-- CE compliance is legally mandated for licensed professionals. Errors result in inability to practice, not just administrative inconvenience.
-- Each accrediting body has unique audit procedures. Always verify current requirements with the specific credentialing body.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 CE Compliance Framework
-
-```
-        ┌─────────────────────────────────────────┐
-        │    Professional's Career Continuity    │  ← Goal: uninterrupted practice
-      ┌─┴─────────────────────────────────────────┴─┐
-      │        Compliant CE Documentation           │  ← Audit defense
-    ┌─┴───────────────────────────────────────────────┴─┐
-    │         Approved Course Content                 │  ← Meets standards
-  ┌─┴───────────────────────────────────────────────────┴─┐
-  │        Accurate Requirements Tracking               │  ← Right credits, right cycle
-└─────────────────────────────────────────────────────────┘
-```
-
-Everything builds from accurate requirements tracking — wrong inputs cause cascading failures.
-
-### 4.2 Guiding Principles
-
-1. **The Documentation Imperative**: If it isn't documented, it didn't happen. Audits happen 2-5 years after reporting. Your memory is unreliable; paper (or PDF) is defensible.
-
-2. **Deadline is the North Star**: The best course taken after the deadline is worthless. Help professionals plan backward from the deadline.
-
-3. **Relevance Over Quantity**: One immediately applicable course beats ten checkbox exercises. Help professionals select courses that actually improve their practice.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **State Licensing Board Websites** | Verify current CE requirements by state |
-| **Credentialing Body Portals** | AICPA/NASBA, HRCI, SHRM reporting systems |
-| **LMS (Learning Management System)** | Track enrollment, completion, certificates |
-| **IACET Standards** | Design accredited CE programs |
-| **SurveyMonkey/Typeform** | Post-course evaluations for improvement |
-| **Excel/CRM** | Professional records, deadline tracking |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Major Credential CE Requirements
-
-| Credential| Credits/Year| Ethics Required| Reporting Cycle| Key Provider|
-|--------------|--------------|----------------|----------------|--------------|
-| **CPA (AICPA)** | 40 | 4 | Annual (Jan-Dec) | NASBA |
-| **CMA (IMA)** | 30 | 0 | Annual | IMA |
-| **CFP** | 30 | 6 | Biennial | CFP Board |
-| **HRCI (PHR/SPHR)** | 60 | 0 | 3 years | HRCI |
-| **SHRM-CP/SCPM** | 60 | 0 | 3 years | SHRM |
-| **Physician (CME)** | 50 | 2-4 | Varies by state | ACCME |
-| **Attorney (CLE)** | Varies | Varies | State-specific | State bar |
-
-### 7.2 Course Approval Criteria
-
-| Criterion| Requirement| Documentation|
-|--------------|--------------|---------------|
-| **Learning Objectives** | 3-5 measurable objectives per course | Syllabus/registration page |
-| **Instructor Qualifications** | Subject matter expert with credentials | Instructor bio |
-| **Assessment** | Quiz, case study, or practical application | Completion certificate |
-| **Evaluation** | Post-course participant feedback | Summary report |
-| **Credits** | 1 credit = 50 minutes instruction | Certificate of completion |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Professional Onboarding
-
-```
-Phase 1: Requirements Analysis
-├── Identify credential(s) held by professional
-├── Determine reporting jurisdiction (state)
-├── Map current reporting cycle dates
-└── [✓ Done]: Requirements profile documented
-    [✗ FAIL]: Unknown credential → research before proceeding
-
-Phase 2: Gap Analysis
-├── Request last CE report or transcript
-├── Identify: credits earned vs. required, category gaps
-├── Note: ethics, specialty, and general requirements
-└── [✓ Done]: Written gap analysis delivered
-    [✗ FAIL]: No credits obtained → immediate enrollment needed
-
-Phase 3: Course Planning
-├── Match gaps to approved course catalog
-├── Prioritize: deadline-critical courses first
-├── Enroll professional in courses
-└── [✓ Done]: Enrollment confirmed with calendar
-    [✗ FAIL]: No approved courses available → find alternative provider
-```
-
-### 8.2 Program Development
-
-```
-Step 1: Needs Assessment
-  → Survey target professionals about skill gaps
-  → Review regulatory changes requiring new content
-
-Step 2: Design
-  → Write learning objectives (Bloom's taxonomy)
-  → Select delivery modality (classroom/online/self-paced)
-  → Create assessments aligned to objectives
-
-Step 3: Accreditation
-  → Apply to IACET or other accrediting body
-  → Submit course materials for review
-  → Address feedback and re-submit
-
-Step 4: Launch
-  → Marketing to target audience
-  → LMS setup with registration and tracking
-  → Instructor briefing
-```
-
----
 
 ## 9.1 CE Requirement Consultation
 
@@ -331,105 +183,6 @@ Step 4: Launch
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on continuing education coordinator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent continuing education coordinator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term continuing education coordinator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -447,6 +200,7 @@ Step 4: Launch
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -456,6 +210,7 @@ Step 4: Launch
 | This Skill + **Project Manager** | Professional develops → PM tracks enrollment/deadlines | No license lapses across team |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -484,6 +239,7 @@ Step 4: Launch
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -510,6 +266,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -530,6 +287,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -557,6 +315,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -577,6 +336,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -589,15 +349,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -625,3 +376,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

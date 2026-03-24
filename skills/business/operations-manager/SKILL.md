@@ -21,6 +21,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -133,304 +134,6 @@ Identify → Exploit → Subordinate → Elevate → Return
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary Functions:**
-- Process optimization and waste elimination using Lean/Six Sigma
-- KPI framework design and operational dashboard development
-- Supply chain optimization: S&OP, inventory management, logistics
-- Quality management system implementation (TQM, ISO 9001)
-- Capacity planning and production scheduling
-- Continuous improvement program design and deployment
-- SOP development and standardization
-- Operational cost reduction and efficiency improvement
-- Changeover/setup time reduction (SMED)
-- Preventive maintenance program design
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Over-Optimization | 🟡 High | Optimizing local metrics damages global performance | Always optimize for system throughput, not local efficiency |
-| Change Resistance | 🟡 High | Frontline workers resist new processes | Involve operators in design, provide training, celebrate wins |
-| Safety Incident | 🔴 Critical | Process changes introduce safety hazards | Safety review mandatory for all changes; PPE compliance |
-| Quality Escape | 🟡 High | Cost reduction sacrifices quality | Quality gates non-negotiable; defect tracking |
-| Inventory Stockout | 🟡 High | Lean inventory leads to stockouts | Calculate safety stock properly; monitor supplier reliability |
-| Data Blindness | 🟢 Medium | Focusing on easy-to-measure vs. important | Balance lagging indicators with leading indicators |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Gemba is Truth** — Go to the actual place, see the actual thing, get the actual facts. Reports are abstractions; reality is on the floor.
-2. **Standard Work is Foundation** — Without standards, there can be no improvement. Standard work documents the current best-known method.
-3. **Flow Over Batch** — Continuous flow minimizes waste. Batching hides problems and increases WIP.
-4. **Stop and Fix** — Jidoka (autonomation) means stopping the line when defects occur. Quality at source beats inspection.
-5. **Respect for People** — Operators are process experts. Improvement ideas come from those doing the work.
-6. **Long-Term Thinking** — Short-term cost cutting destroys capability. Invest in people, process, and prevention.
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | Tools & Frameworks |
-|----------|-------------------|
-| Lean Tools | Value Stream Mapping, 5S, Kanban, SMED, Poka-Yoke, Heijunka |
-| Six Sigma | DMAIC, SPC, DOE, FMEA, MSA, Hypothesis Testing |
-| Supply Chain | S&OP, MRP, EOQ, Safety Stock Calc, ABC Analysis |
-| Quality | PDCA, 8D Problem Solving, 5 Whys, Fishbone Diagram |
-| Analytics | Excel, Minitab, Tableau, Power BI, SQL |
-| ERP Systems | SAP, Oracle, NetSuite, Microsoft Dynamics |
-| Project Mgmt | Lean Project Management, Agile for Ops, Kaizen Events |
-
----
-
-## § 6 · Standards & Reference
-
-### Value Stream Mapping Template
-
-```
-CURRENT STATE MAP — [Process Name] — [Date]
-
-Customer Requirements:
-- Demand: [X units/day]
-- Takt Time: [Available time / Demand]
-- Quality Requirement: [PPM or %]
-
-Process Steps:
-| Step | Process | Cycle Time | C/O Time | Uptime | Operators |
-|------|---------|------------|----------|--------|-----------|
-| 1    | [Name]  | [X min]    | [Y min]  | [Z%]   | [N]       |
-
-Information Flow:
-- Customer order → [System] → Production control → [Signal type]
-
-Material Flow:
-- Supplier [Lead time] → Receiving [Wait time] → Process 1...
-
-Key Metrics:
-- Total Lead Time: [X days]
-- Process Time: [Y hours]
-- Value-Add Ratio: [Z%]
-- WIP Inventory: [N units]
-```
-
-### 8 Wastes (DOWNTIME) Checklist
-
-| Waste | Description | Examples | Elimination Strategy |
-|-------|-------------|----------|---------------------|
-| **D**efects | Products/services requiring rework | Scrap, returns, warranty claims | Poka-yoke, SPC, quality at source |
-| **O**verproduction | Making more than needed | Large batches, just-in-case production | Pull system, takt time production |
-| **W**aiting | Idle time when value-add stops | Material shortages, approvals, breakdowns | Continuous flow, preventive maintenance |
-| **N**on-utilized Talent | Underusing people's skills | No improvement suggestions, micromanagement | Empowerment, training, involvement |
-| **T**ransportation | Unnecessary movement of materials | Double handling, distant warehouses | Cell layout, point-of-use storage |
-| **I**nventory | Excess materials beyond needs | WIP, safety stock, obsolete items | Kanban, vendor managed inventory |
-| **M**otion | Unnecessary movement of people | Walking, searching, reaching | 5S, ergonomic workstation design |
-| **E**xtra-processing | More work than required | Redundant approvals, over-specification | Standard work, customer requirement focus |
-
-### KPI Framework Template
-
-```
-OPERATIONS KPI DASHBOARD — [Business Unit]
-
-SAFETY (Leading Indicators)
-- Near Miss Reports: [Target: 10/month] | Actual: [X]
-- Safety Training Completion: [Target: 100%] | Actual: [Y%]
-- Safety Audits Score: [Target: ≥90%] | Actual: [Z%]
-
-QUALITY
-- First Pass Yield: [Target: ≥98%] | Actual: [X%]
-- Customer Complaints: [Target: <5/month] | Actual: [Y]
-- Internal Defect Rate (PPM): [Target: <1000] | Actual: [Z]
-
-DELIVERY
-- On-Time Delivery: [Target: ≥98%] | Actual: [X%]
-- Order Fill Rate: [Target: ≥99%] | Actual: [Y%]
-- Lead Time (Days): [Target: 5] | Actual: [Z]
-
-COST
-- Cost per Unit: [Target: -5% YoY] | Actual: [X%]
-- Inventory Turns: [Target: 12] | Actual: [Y]
-- Overtime %: [Target: <10%] | Actual: [Z%]
-
-PRODUCTIVITY
-- OEE (Overall Equipment Effectiveness): [Target: ≥85%] | Actual: [X%]
-- Units per Labor Hour: [Target: +10% YoY] | Actual: [Y%]
-- Setup/Changeover Time: [Target: <30 min] | Actual: [Z min]
-```
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Operational Assessment
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Current state mapping | Value stream map complete with data boxes | Map without time data |
-| 2 | Waste identification | All 8 wastes quantified in current state | Generic waste list without $ impact |
-| 3 | KPI baseline | 3-6 months historical data for key metrics | Single data point baseline |
-| 4 | Constraint identification | System constraint pinpointed with data | Assuming constraint without analysis |
-| 5 | Stakeholder alignment | Leadership buy-in for improvement initiative | Starting without executive sponsor |
-
-### Phase 2: Improvement Design
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Future state design | Future state VSM with target metrics | Future state without implementation plan |
-| 2 | Kaizen event planning | Events scheduled with scope and team | Events without clear metrics |
-| 3 | Solution pilot | Pilot results vs. target documented | Full rollout without pilot validation |
-| 4 | Standard work creation | SOPs updated with new methods | New process without documentation |
-| 5 | Training delivery | 100% affected staff trained | Launch without training |
-
-### Phase 3: Implementation & Control
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Full rollout | New process implemented across scope | Partial implementation |
-| 2 | Performance monitoring | Daily/weekly KPI tracking active | No tracking mechanism |
-| 3 | Audit schedule | Layered process audits scheduled | No audit plan |
-| 4 | Continuous improvement | Improvement suggestions flowing | Kaizen stops after initial gains |
-| 5 | Standardization | Best practices spread to other areas | Islands of improvement |
-
----
-
-## § 8 · Scenario Examples
-
-### Scenario 1: Manufacturing Line Optimization
-
-**Context:** Electronics manufacturer with 15% defect rate and 12-day lead time.
-
-**Assessment:**
-- Current State VSM shows 8-day wait time between operations
-- Constraint: Testing station (4-hour cycle time vs. 2-hour takt)
-- Major wastes: Overproduction (large batches), waiting (test queue), defects (rework loop)
-
-**Solution:**
-- Implement pull system with kanban (batch size: 50 → 10)
-- Add parallel testing capacity (elevate constraint)
-- Poka-yoke at assembly (prevent defects at source)
-- SMED on changeovers (2 hours → 30 minutes)
-
-**Results:**
-- Lead time: 12 days → 4 days (-67%)
-- Defect rate: 15% → 2% (-87%)
-- OEE: 62% → 84% (+35%)
-- Cost savings: $2.4M annually
-
----
-
-### Scenario 2: Warehouse Process Redesign
-
-**Context:** E-commerce fulfillment center with picking accuracy of 94% and 24-hour average order cycle time.
-
-**Assessment:**
-- Travel time: 60% of picker time
-- Pick errors: Wrong location picks, quantity errors
-- Batch picking creates sorting bottleneck
-
-**Solution:**
-- Zone picking with parallel pick zones
-- Voice-directed picking (hands-free, eyes-free)
-- Slotting optimization (ABC velocity-based)
-- Quality checkpoints at pack stations
-
-**Results:**
-- Picking accuracy: 94% → 99.7%
-- Order cycle time: 24h → 8h (-67%)
-- Units per hour: 45 → 85 (+89%)
-- Labor cost per order: -40%
-
----
-
-### Scenario 3: Supply Chain S&OP Implementation
-
-**Context:** Consumer goods company with chronic stockouts (15%) and excess inventory (30% of SKUs).
-
-**Assessment:**
-- No formal S&OP process
-- Sales and operations plans disconnected
-- Forecast accuracy: 55%
-- Supplier lead times: 8-12 weeks
-
-**Solution:**
-- Monthly S&OP cycle (demand review → supply review → executive meeting)
-- Statistical forecasting with collaborative inputs
-- Safety stock optimization by SKU velocity
-- Supplier lead time reduction program
-
-**Results:**
-- Stockouts: 15% → 2%
-- Excess inventory: 30% → 12% of SKUs
-- Forecast accuracy: 55% → 78%
-- Working capital reduction: $8M
-
----
-
-### Scenario 4: Quality Management System Overhaul
-
-**Context:** Medical device manufacturer facing FDA warning letter. Need QMS rebuild.
-
-**Assessment:**
-- Document control issues
-- CAPA (Corrective Action) backlog: 120 items
-- No risk management file integration
-- Training records incomplete
-
-**Solution:**
-- ISO 13485-compliant QMS implementation
-- Risk management per ISO 14971
-- Electronic document control system
-- Layered process audit program
-- CAPA process redesign with escalation
-
-**Results:**
-- FDA warning letter closed in 6 months
-- CAPA backlog cleared
-- Audit findings: 45 → 3 per audit
-- First pass yield: 92% → 98.5%
-
----
-
-### Scenario 5: Service Operations Efficiency
-
-**Context:** Customer service center with high attrition (45%), long handle times (12 min), and low CSAT (3.2/5).
-
-**Assessment:**
-- Agents searching for information 40% of time
-- No standard troubleshooting process
-- Training: 6 weeks but low knowledge retention
-- High variability in handle times
-
-**Solution:**
-- Knowledge base redesign with decision trees
-- Standard work for top 20 call types
-- Reduced training to 3 weeks with simulation
-- Real-time performance dashboard
-
-**Results:**
-- Handle time: 12 min → 7 min (-42%)
-- First call resolution: 65% → 82%
-- Agent attrition: 45% → 22%
-- CSAT: 3.2 → 4.4 (+38%)
-
----
-
-## § 9 · Common Pitfalls & Anti-Patterns
-
-| Anti-Pattern | Risk | Correct Approach |
-|-------------|------|-----------------|
-| **Local Optimization** | Improving one department hurts overall flow | Optimize for system throughput, not local efficiency |
-| **Tool-First Lean** | Implementing 5S without understanding waste | Start with value stream mapping; tools follow understanding |
-| **Kaizen Event Fatigue** | Too many events, no time to implement | Balance events with implementation time; sustain gains |
-| **Management by Dashboard** | Managing numbers without gemba visits | KPIs guide questions; answers come from the floor |
-| **Copy-Paste Solutions** | Applying Toyota solutions without context | Understand principles; adapt practices to your context |
-| **Ignoring the Soft Side** | Technical fixes without change management | Invest 70% in people, 30% in tools |
-| **Project vs. Process** | Treating lean as a project with end date | Lean is operational system, not project |
-
----
 
 ## § 10 · Integration with Other Skills
 
@@ -444,6 +147,7 @@ PRODUCTIVITY
 | `hr-manager` | Change management → training and development |
 
 ---
+
 
 ## § 11 · Scope & Limitations
 
@@ -464,6 +168,7 @@ PRODUCTIVITY
 
 ---
 
+
 ## § 12 · References
 
 📄 **Detailed Resources:**
@@ -476,6 +181,7 @@ PRODUCTIVITY
 - [references/supply-chain-basics.md](references/supply-chain-basics.md) — S&OP and inventory optimization
 
 ---
+
 
 ## § 13 · Quality Verification
 
@@ -498,3 +204,17 @@ wc -l SKILL.md  # Should be < 400
 # References check
 ls references/  # Should have 7+ files
 ```
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Standards & Reference](./references/6-standards-reference.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)

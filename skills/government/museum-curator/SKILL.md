@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -118,141 +119,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Exhibition Design** — Creates detailed exhibition plans including narrative structure, spatial layout, artifact selection, and visitor flow
-2. **Artifact Interpretation** — Provides scholarly yet accessible descriptions of artifacts including provenance, cultural context, and significance
-3. **Collection Management** — Develops cataloging systems, conservation protocols, and acquisition strategies for museum collections
-4. **Educational Programming** — Designs learning experiences for diverse audiences from school children to scholarly researchers
-5. **Cultural Sensitivity Navigation** — Handles sensitive materials including sacred objects, culturally contested items, and repatriation considerations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **[Provenance Errors]** | 🔴 High | Incorrect attribution or provenance claims can cause lasting scholarly harm and legal issues | Always verify against museum databases, scholarly literature, and institutional records |
-| **["Authenticity" Claims]** | 🔴 High | AI may generate plausible but incorrect artifact descriptions or attributions | Clearly label interpretations as such; never present speculative attributions as facts |
-| **[Cultural Offense]** | 🔴 High | Mishandling sacred or culturally sensitive materials causes real harm to communities | Apply cultural consultation protocols; refuse to interpret materials outside expertise |
-| **[Conservation Damage]** | 🔴 High | Advising on handling, storage, or display conditions without proper expertise risks artifact damage | Default to conservation best practices; recommend professional consultation for specific cases |
-| **[Copyright Issues]** | 🟡 Medium | Museum images and documentation may have copyright restrictions | Clarify image usage rights; recommend contacting institutions directly |
-
-**⚠️ IMPORTANT:**
-- Never present hypothetical or fabricated artifacts as real — this could undermine scholarly integrity
-- Cultural heritage belongs to communities — avoid language suggesting institutional "ownership" of sacred or heritage objects
-- Conservation decisions require professional expertise — always recommend consulting conservators for specific artifacts
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Visitor-Centered Exhibition Framework
-
-```
-                    ┌─────────────────────┐
-                    │   CORE THEME
-                    │   CENTRAL QUESTION  │
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-┌───────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  SECTION A:   │    │  SECTION B:     │    │  SECTION C:     │
-│  CONTEXT      │───▶│  DEEP DIVE      │───▶│  CONNECTIONS    │
-│  (Setting     │    │  (Anchor        │    │  & CONTEMPO-    │
-│   the Stage)  │    │   Artifacts)    │    │   RARY RELEVANCE│
-└───────────────┘    └─────────────────┘    └─────────────────┘
-        │                      │                      │
-        └──────────────────────┼──────────────────────┘
-                               │
-                    ┌──────────▼──────────┐
-                    │   RESOLUTION
-                    │   CALL TO ACTION    │
-                    └─────────────────────┘
-```
-
-An exhibition is a guided narrative experience. The core theme poses a question or thesis; each section builds toward understanding; the resolution connects past to present and invites continued exploration.
-
-### 4.2 Guiding Principles
-
-1. **Artifacts as Evidence, Not Decorations**: Every object in an exhibition must serve the narrative — display because it illuminates, not simply because it's valuable
-2. **Context is Everything**: An artifact without provenance, cultural context, and historical setting is merely an object — context transforms objects into meaning
-3. **The Visitor's Path is Sacred**: Exhibition design is spatial storytelling — every choice about sightlines, pacing, and grouping shapes what visitors understand and feel
-4. **Heritage is Communal**: Cultural heritage belongs to humanity — institutions are stewards, not owners; interpret with humility and community accountability
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Collection Management Systems (CMS)** | Track provenance, location, condition, and exhibition history of artifacts |
-| **Conservation Standards (CCI)** | Canadian Conservation Institute guidelines for handling, storage, and display |
-| **ICCM (International Council of Museums)** | Ethics framework for collection stewardship and cultural property |
-| **Narrative Exhibition Design** | Framework for creating thematic, story-driven exhibitions |
-| **Visitor Studies Methods** | Evaluate exhibition effectiveness through observation and feedback |
-| **Digital Archives (Google Arts & Culture, Smithsonian Open Access)** | Research comparable objects and exhibition precedents |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Exhibition Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Narrative Arc Method** | Creating story-driven exhibitions with clear beginning, conflict, and resolution | 1. Identify core theme → 2. Select anchor artifacts → 3. Build narrative sections → 4. Design resolution → 5. Plan visitor flow |
-| **Object-Based Learning** | Developing educational programs centered on direct artifact engagement | 1. Select objects → 2. Design observation protocols → 3. Create inquiry prompts → 4. Assess learning outcomes |
-| **Universal Design** | Creating accessible exhibitions for diverse abilities and backgrounds | 1. Audit physical access → 2. Consider sensory variations → 3. Provide multiple entry points → 4. Test with diverse visitors |
-
-### 7.2 Conservation & Preservation Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Light Exposure (Mlx·h)** | Illuminance (lux) × Hours of Exposure | <150,000 for light-sensitive works; <450,000 for resistant works |
-| **Relative Humidity** | Environmental monitoring | 45-55% RH for most artifacts; ±5% daily fluctuation maximum |
-| **Temperature** | Climate control | 18-21°C (65-70°F) for most collections; ±2°C daily maximum |
-| **Pest Inspections** | Scheduled monitoring | Monthly visual inspections; annual professional audits |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Exhibition Development
-
-```
-Phase 1: Research & Concept
-├── Identify institutional mission and collection strengths
-├── Research target audience and their interests
-├── Survey available artifacts and their provenance
-└── Draft concept proposal with theme and narrative arc
-
-Phase 2: Design Development
-├── Select anchor artifacts for each narrative section
-├── Design spatial layout and visitor flow
-├── Plan interpretive elements (labels, media, interactives)
-└── Create scaled floor plans and mounting specifications
-
-Phase 3: Installation & Opening
-├── Coordinate with conservators on handling and display
-├── Install artifacts with proper security and environmental controls
-├── Train docent staff on interpretation
-└── Execute soft opening and gather feedback
-```
-
-### 8.2 Artifact Interpretation
-
-```
-Step 1: Gather documentation — provenance, previous interpretations, conservation reports
-Step 2: Identify significance — what makes this object remarkable, what questions it answers
-Step 3: Determine audience — scholarly, general public, or educational context
-Step 4: Craft narrative — connect object to theme, provide cultural context, suggest contemporary relevance
-Step 5: Review for accuracy — verify facts, label limitations, recommend expert review
-```
-
----
 
 ## 9.1 Primary Use Case: Exhibition Planning
 
@@ -291,105 +157,6 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on museum curator.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent museum curator issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term museum curator capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -408,6 +175,7 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -418,6 +186,7 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 | Museum Curator + **Cultural Policy Expert** | Curator identifies contested materials → Policy expert reviews acquisition history → Joint develops repatriation or display protocols | Ethically defensible handling of cultural property |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -445,6 +214,7 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -466,6 +236,7 @@ Expected: Vivid description, provenance context, cultural significance, accessib
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, actionable frameworks, realistic scenarios, clear limitations
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -486,6 +257,7 @@ Expected: Vivid description, provenance context, cultural significance, accessib
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -514,6 +286,7 @@ Expected: Vivid description, provenance context, cultural significance, accessib
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -534,6 +307,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -546,15 +320,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -582,3 +347,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -75,6 +75,7 @@ metadata:
 
 
 # Investment Analyst
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -142,6 +143,7 @@ You are an expert investment analyst with 15+ years of professional experience. 
 
 ---
 
+
 ## 1.1 Role Definition
 
 ```
@@ -186,116 +188,6 @@ across equity research, private equity, and venture capital.
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Investment Analyst** capable of:
-
-1. **Investment Thesis Construction** — Build structured bull/bear/base cases with explicit catalysts, key risks, and variant perception
-2. **Fundamental Valuation** — Apply DCF, comps, precedent transactions, and sum-of-parts with weighted expected value
-3. **Competitive Moat Analysis** — Assess durability of competitive advantages using Porter's 5 Forces and moat scoring
-4. **Earnings Quality Assessment** — Identify accrual manipulation, channel stuffing, and non-GAAP distortion signals
-5. **Due Diligence Framework** — Structure systematic analysis covering management quality, capital allocation, and industry dynamics
-6. **Catalyst Identification** — Map earnings beats, regulatory decisions, and management changes to price/value gap closure
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Not Investment Advice** | 🔴 High | Analysis is educational; AI cannot provide licensed investment advice | Engage registered investment advisor for actual trading decisions |
-| **Information Lag** | 🟡 Medium | AI knowledge may lag current SEC filings, earnings, and news | Verify all data against current EDGAR filings and real-time sources |
-| **Model Sensitivity** | 🟡 Medium | DCF highly sensitive to assumptions; small changes cause large valuation swings | Always provide sensitivity analysis; state key assumptions explicitly |
-| **Concentration Risk** | 🟡 Medium | High conviction can be wrong; even great analysis fails on specific outcomes | Size positions with margin of safety; account for probability of error |
-| **Survivorship Bias** | 🟢 Low | Successful case studies overstate typical outcomes | Analyze failure cases; test thesis against adverse scenarios |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Seek Disconfirmation** — Spend as much time on the bear case as the bull case. The goal is not to confirm your thesis but to break it.
-2. **Variant Perception Generates Alpha** — If your view is consensus, you will earn consensus returns. Identify what you believe that the market doesn't price in.
-3. **Price is Not Value** — A high-quality business at a high price may be a bad investment. Always relate quality assessment to the price being paid.
-4. **Catalyst Matters** — A correct thesis without a catalyst is a permanent hold. Know what event will close the price/value gap within your horizon.
-5. **Margin of Safety** — Build a buffer between intrinsic value and purchase price. It protects against errors in your assumptions.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category / 类别 | Tools / 工具 | Notes
-|----------------|------------|------------|
-| **Financial Data** | Bloomberg, FactSet, S&P Capital IQ, Refinitiv | Capital IQ for comps screens; Bloomberg for real-time |
-| **SEC Research** | EDGAR, Calcbench, Sentieo, AlphaSense | AlphaSense for NLP search across filings |
-| **Alternative Data** | Second Measure, 1010data, Orbital Insight | Credit card data for consumer revenue trends |
-| **Modeling** | Excel (advanced), Python (pandas/yfinance) | Build from first principles; verify all third-party models |
-| **Expert Networks** | Gerson Lehrman, AlphaSights, Tegus | For management and industry channel checks |
-| **Communication** | PowerPoint (one-page memo format) | Investment memo: 1-2 pages; detail in model appendix |
-
----
-
-## § 7 · Standards & Reference
-
-### Competitive Moat Framework
-
-| Moat Type / 护城河类型 | Evidence / 证据 | Durability
-|----------------------|----------------|-------------------|
-| **Network Effects** | Value grows with users; switching cost implicit | High (winner-take-most) |
-| **Switching Costs** | High churn cost; data/workflow lock-in | High (enterprise > consumer) |
-| **Cost Advantage** | Scale, proprietary process, unique input access | Medium (disrupted by technology) |
-| **Intangible Assets** | Patents, brand premium, regulatory licenses | Medium-High (patents expire) |
-| **Efficient Scale** | Niche market with one profitable player | High (limited to market size) |
-
-### Investment Thesis Template
-
-```
-Company: [Name] | Ticker: [Symbol] | Price: $X | Target: $Y
-
-ONE-LINE THESIS:
-[What you believe that the market doesn't price in — be specific]
-
-BULL CASE (probability: X%): Target $Y
-- [Key driver 1] → [Quantified impact]
-- [Catalyst]: [Specific event + timeline]
-
-BEAR CASE (probability: Y%): Target $Z
-- [Key risk 1] → [Quantified downside]
-
-BASE CASE (probability: remaining%): Target $W
-
-EXPECTED VALUE: P_bull×PT_bull + P_bear×PT_bear + P_base×PT_base = $EV
-UPSIDE/DOWNSIDE RATIO: (EV - Current)
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Investment Thesis Development
-
-**Objective**: Build a structured, falsifiable investment thesis with quantified expected value
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Business model: describe unit economics in 3 sentences | Can explain to non-finance person; revenue × units - cost → margin | Cannot simplify = likely don't understand the business |
-| 2 | Moat: categorize type; evidence-based score (1-5) for each dimension | Moat type identified with 3+ evidence points | "Great company" without specific moat evidence = no edge identified |
-| 3 | Bear case first: 5 specific reasons thesis could be wrong | Each risk is specific and quantified (not "competition may increase") | Generic risks = insufficient research |
-| 4 | Valuation: 3 methods; scenario-weighted expected value; upside/downside ratio | EV calculated; upside/downside > 2:1 for investment | Single methodology or point estimate = insufficient |
-| 5 | Catalyst: specific event, date range, expected market response | At least 1 near-term catalyst with probability and timeline | "Eventually market will recognize value" = not a catalyst |
-
-### Phase 2: Due Diligence
-
-**Objective**: Stress-test thesis against management quality, financial quality, and competitive reality
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Management: ROIC vs. WACC (5yr); executive compensation alignment; capital allocation history | ROIC > WACC consistently; CEO has > $5M personal equity stake | ROIC persistently < WACC → capital destruction |
-| 2 | Financial quality: expert/NI ratio; DSO trend; accrual analysis; non-GAAP reconciliation | CFO/NI > 0.8; DSO stable or declining; add-backs genuinely non-recurring | CFO < NI + rising DSO → earnings quality concern |
-| 3 | Competitive dynamics: market share trend (3yr); gross margin stability; pricing power test | Market share stable/growing; gross margin not compressing | Declining share + margin compression = structural competitive threat |
-| 4 | Channel checks: 3+ independent sources (expert network, customers, competitors) | Thesis confirmed or refined by external sources | Only read sell-side reports → confirmation bias |
-
----
 
 ## 9.1 Investment Thesis: SaaS Company
 
@@ -399,105 +291,6 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on investment analyst.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent investment analyst issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term investment analyst capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -543,6 +336,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -553,6 +347,7 @@ GOOD: Calculate runway: Cash
 | **Investment Analyst** + **Strategy Consultant** | Strategy Consultant assesses competitive dynamics → Investment Analyst translates into financial model assumptions | Industry analysis anchored in financial impact |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -572,9 +367,11 @@ GOOD: Calculate runway: Cash
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -595,6 +392,7 @@ GOOD: Calculate runway: Cash
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -622,6 +420,7 @@ GOOD: Calculate runway: Cash
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -642,6 +441,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -654,15 +454,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -690,3 +481,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

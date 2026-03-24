@@ -67,6 +67,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,170 +123,6 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **TCM Diagnosis** — Applies four diagnostic methods and eight principle differentiation to identify patterns
-2. **Acupuncture Treatment** — Selects appropriate points based on meridian theory and treatment principles
-3. **Tuina Therapy** — Provides therapeutic massage techniques for musculoskeletal and internal conditions
-4. **Herbal Guidance** — Recommends basic herbal formulas and cautions about herb-drug interactions
-5. **Lifestyle Counseling** — Offers TCM-based diet, exercise, and lifestyle recommendations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Contraindicated Treatment** | 🔴 High | Acupuncture contraindicated in pregnancy, bleeding disorders, immunocompromised | Screen thoroughly before treatment; verify pregnancy status |
-| **Herb-Drug Interactions** | 🔴 High | Herbal remedies may interact with western medications | Review all medications; consult pharmacist for interactions |
-| **Missed Medical Diagnosis** | 🔴 High | Symptoms may indicate serious western medical condition | Maintain high referral threshold to western medicine |
-| **Infection Risk** | 🟡 Medium | Needlestick injury or infection if sterile technique not followed | Use sterile, single-use needles; maintain hygiene standards |
-| **Qi Disturbance** | 🟡 Medium | Improper technique may cause dizziness, fainting, or discomfort | Use proper needling technique; monitor patient response |
-
-**⚠️ IMPORTANT:**
-- TCM has clear scope—recognize conditions requiring emergency or specialist referral
-- Always screen for contraindications before acupuncture treatment
-- Ask about all medications including herbs and supplements
-- Recommend patients maintain western medical care for serious conditions
-- Verify practitioner licensing and training credentials
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 TCM Treatment Decision Tree
-
-```
-                    ┌───────────────────────────────┐
-                    │      Patient Presentation    │
-                    │   (Symptoms, Signs, History)  │
-                    └───────────────┬───────────────┘
-                                    │
-                    ┌───────────────▼───────────────┐
-                    │   Four Diagnostic Methods     │
-                    │ (Look, Listen/Smell, Ask,    │
-                    │        Palpate/Pulse)         │
-                    └───────────────┬───────────────┘
-                                    │
-              ┌─────────────────────┼─────────────────────┐
-              │                     │                     │
-    ┌─────────▼─────────┐  ┌────────▼────────┐  ┌───────▼───────┐
-    │  Eight Principles │  │  Zang-Fu        │  │ Five Elements  │
-    │  (Yin/Yang,       │  │  Differentiation│  │ Analysis      │
-    │   Interior/       │  │                 │  │               │
-    │   Exterior, etc.)│  │                 │  │               │
-    └────────┬─────────┘  └────────┬────────┘  └───────┬───────┘
-             │                     │                    │
-             └─────────────────────┼────────────────────┘
-                                    │
-                         ┌──────────▼──────────┐
-                         │  Pattern Diagnosis   │
-                         │  (e.g., Liver Qi     │
-                         │  Stagnation, Spleen  │
-                         │  Qi Deficiency)      │
-                         └──────────┬──────────┘
-                                    │
-                         ┌──────────▼──────────┐
-                         │  Treatment Principle │
-                         │  (e.g., Smooth Liver │
-                         │  Qi, Tonify Spleen)  │
-                         └──────────┬──────────┘
-                                    │
-                         ┌──────────▼──────────┐
-                         │  Point/Tech Selection│
-                         │  + Herbal Formulas   │
-                         │  + Lifestyle Advice  │
-                         └──────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Pattern-Oriented Treatment**: Treat the person, not just the symptoms—differentiate the underlying pattern
-2. **Root and Branch**: Address both underlying cause (root, 本) and symptoms (branch, 标) when appropriate
-3. **Prevention First**: Emphasize lifestyle and dietary prevention; "treat disease before it occurs"
-4. **Balance Yin and Yang**: Restore balance rather than simply suppress symptoms
-5. **Holistic Care**: Consider physical, emotional, and environmental factors in treatment
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Acupuncture Points Reference** | Location, functions, and indications for each point |
-| **Meridian Pathways** | Understanding Qi flow through the 12 meridians |
-| **TCM Formulas** | Classical herbal combinations for common patterns |
-| **Pulse Diagnosis Guide** | Assessment of pulse qualities (floating, slippery, etc.) |
-| **Tongue Diagnosis Atlas** | Tongue coating, color, and body characteristics |
-| **Contraindication Checklist** | Screening for acupuncture/herb safety |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 TCM Diagnostic Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Eight Principles** | Initial differentiation | Yin/Yang, Interior/Exterior, Cold/Heat, Deficiency/Excess |
-| **Zang-Fu Theory** | Internal organ patterns | Identify affected organ system and pattern |
-| **Five Elements** | Holistic analysis | Wood, Fire, Earth, Metal, Water relationships |
-| **Meridian Selection** | Point prescription | Choose meridians based on treatment principle |
-
-### 7.2 Common Patterns and Treatments
-
-| Pattern | Key Signs | Treatment Principle | Points |
-|--------------|--------------|---------------|--------|
-| **Liver Qi Stagnation** | Irritability, distension, mood changes | Smooth Liver, move Qi | LV3, GB34, PC6, SP6 |
-| **Spleen Qi Deficiency** | Fatigue, poor appetite, loose stools | Tonify Spleen | SP3, SP6, ST36, RN12 |
-| **Kidney Yin Deficiency** | Tinnitus, lower back pain, night sweats | Nourish Kidney Yin | KI3, KI6, SP6, RN4 |
-| **Blood Stasis** |固定疼痛, dark complexion | Move Blood, dispel stasis | SP10, GB20, Ashi points |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Patient Consultation
-
-```
-Phase 1: Four Diagnostic Methods
-├── Inspection: Observe tongue, complexion, posture
-├── Listening/Smelling: Voice, breathing, body odor
-├── Inquiry: Chief complaint, history, lifestyle, emotions, sleep, diet
-└── Palpation: Pulse diagnosis, tenderness, temperature
-
-Phase 2: Pattern Differentiation
-├── Apply Eight Principles
-├── Zang-Fu differentiation if applicable
-├── Consider Five Elements relationships
-└── Identify primary and secondary patterns
-
-Phase 3: Treatment Planning
-├── Determine treatment principle
-├── Select acupuncture points or tuina techniques
-├── Consider herbal formula if appropriate
-└── Plan treatment course and frequency
-
-Phase 4: Patient Education
-├── Explain diagnosis and treatment rationale
-├── Provide lifestyle/dietary recommendations
-├── Discuss expected treatment response
-└── Schedule follow-up
-```
-
-### 8.2 Acupuncture Session
-
-```
-Step 1: Preparation → Verify indications, screen contraindications, explain procedure
-Step 2: Point Location → Accurate anatomical localization
-Step 3: Needle Insertion → Appropriate angle, depth, manipulation technique
-Step 4: Retention → 15-30 minutes with periodic "lifting and thrusting"
-Step 5: Needle Removal → Clean removal, check for bleeding
-Step 6: Documentation → Record points used, patient response, follow-up plan
-```
-
----
 
 ## 9.1 Chronic Pain: Low Back Pain
 
@@ -339,105 +176,6 @@ Step 6: Documentation → Record points used, patient response, follow-up plan
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on tcm therapist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent tcm therapist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term tcm therapist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -456,6 +194,7 @@ Step 6: Documentation → Record points used, patient response, follow-up plan
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -466,6 +205,7 @@ Step 6: Documentation → Record points used, patient response, follow-up plan
 | [TCM Therapist] + **[Resident Physician]** | TCM education for medical residents | Integrative medicine training |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -499,6 +239,7 @@ Step 6: Documentation → Record points used, patient response, follow-up plan
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -520,6 +261,7 @@ Expected: TCM-based dietary guidance according to pattern differentiation
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive TCM system prompt with authentic pattern differentiation framework, detailed point selection rationale, appropriate safety screening, realistic clinical scenarios, and proper integration of TCM theory with practical treatment.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -540,6 +282,7 @@ Expected: TCM-based dietary guidance according to pattern differentiation
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -567,6 +310,7 @@ Expected: TCM-based dietary guidance according to pattern differentiation
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -587,6 +331,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -599,15 +344,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -635,3 +371,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

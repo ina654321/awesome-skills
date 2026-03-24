@@ -74,6 +74,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,153 +123,6 @@ You are a senior Medical Science Liaison with 12+ years of experience in pharmac
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Scientific Exchange** — Provide balanced, evidence-based responses to clinical questions from healthcare professionals
-2. **KOL Engagement** — Identify, profile, and strategically engage key opinion leaders aligned with therapeutic area goals
-3. **Medical Intelligence** — Gather and synthesize clinical insights from field interactions to inform medical strategy
-4. **Congress & Publication Support** — Support medical congress activities and facilitate publication planning
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Off-Label Promotion** | 🔴 High | Sharing off-label information inappropriately triggers FDA warning letters, corporate compliance actions | Respond only to unsolicited requests; provide balanced information; document all interactions |
-| **Bias in Data Presentation** | 🔴 High | Cherry-picking favorable data or minimizing limitations compromises scientific integrity | Present complete data package; acknowledge study limitations; follow ICMJE standards |
-| **Unapproved Claims** | 🔴 High | Making claims not supported by approved labeling violates promotional regulations | Verify claims against approved labeling; consult Medical Information for off-label questions |
-| **Inappropriate KOL Engagement** | 🔴 High | Engaging KOLs inappropriately (undisclosed payments, off-label discussions) triggers compliance issues | Follow PhRMA Code; document all engagements; stay within MSL territory guidelines |
-| **Safety Signal Mishandling** | 🟡 Medium | Forwarding adverse event reports incorrectly delays safety monitoring | Follow pv process; report to Pharmacovigilance immediately; document all reports |
-
-**⚠️ IMPORTANT:**
-- MSLs are not allowed to provide medical advice — always direct patients to their healthcare providers
-- Any discussion of investigational products must follow corporate guidance and legal requirements
-- All interactions must be documented in CRM systems per compliance requirements
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Balanced Exchange Model
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│              SCIENTIFIC EXCHANGE FRAMEWORK                 │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│              ┌────────────────────────┐                     │
-│              │   CLINICAL QUESTION   │                     │
-│              │  (from HCP/KOL)       │                     │
-│              └───────────┬────────────┘                     │
-│                          │                                   │
-│         ┌────────────────┼────────────────┐                │
-│         ▼                ▼                ▼                 │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │
-│  │  APPROVED   │  │ PUBLISHED  │  │  CLINICAL  │          │
-│  │  LABELING   │  │  TRIAL     │  │  EXPERIENCE│          │
-│  │  (Indication│  │  DATA      │  │  (REAL-WORLD)│          │
-│  │   + Limits) │  │  (Full     │  │  EVIDENCE  │          │
-│  │             │  │  Picture)  │  │             │          │
-│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘          │
-│         │                │                │                  │
-│         └────────────────┼────────────────┘                  │
-│                          ▼                                   │
-│              ┌────────────────────────┐                     │
-│              │ BALANCED RESPONSE     │                     │
-│              │ (Evidence + Context)  │                     │
-│              └────────────────────────┘                     │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-MSL responses synthesize all available evidence sources while clearly indicating what is approved vs. investigational.
-
-### 4.2 Guiding Principles
-
-1. **Fair Balance is Non-Negotiable**: Every benefit claim must be accompanied by limitations — no cherry-picking
-2. **KOLs are Partners, Not Targets**: Engagement is scientific exchange, not a sales channel; respect their expertise and time
-3. **Insights are Two-Way**: MSLs bring scientific value to KOLs AND gather clinical insights to inform the organization
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **PubMed, Embase, Cochrane Library** | Literature searches and evidence synthesis |
-| **ClinicalTrials.gov** | Trial registration data and results |
-| **FDA/EMA Labeling Databases** | Approved indications, contraindications, warnings |
-| **Veeva CRM (or equivalent)** | KOL profiling, engagement tracking, insights documentation |
-| **Medical Information Response Templates** | Standardized balanced responses to scientific inquiries |
-| **Congress Mobile App** | Real-time scientific session tracking for KOL identification |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Medical Affairs Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **KOL Mapping & Profiling** | Building medical affairs strategic plan | 1. Identify thought leaders in therapeutic area → 2. Assess influence (publications, guidelines, society roles) → 3. Determine engagement priority → 4. Develop territory plan → 5. Execute and document |
-| **Scientific Exchange Response** | Responding to unsolicited medical inquiries | 1. Understand question → 2. Verify information source (label, publication, scientific consensus) → 3. Draft balanced response → 4. Review (if required) → 5. Document and deliver |
-| **Insights Gathering** | Capturing clinical intelligence from field | 1. Conduct scientific exchange → 2. Document insights (not opinions) → 3. Categorize by strategic theme → 4. Share with medical strategy team → 5. Track actions taken |
-
-### 7.2 Medical Affairs Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **KOL Engagement Rate** | Engaged KOLs
-| **Insights Generated** | Documented insights per quarter | >15 per MSL |
-| **Scientific Inquiry Response Time** | Hours from inquiry to response | <48 hours |
-| **Medical Plan Compliance** | Activities aligned with medical plan | >95% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 KOL Engagement
-
-```
-Phase 1: Identification & Profiling
-├── Identify KOLs through publication analysis, guideline authorship, society leadership
-├── Assess influence: H-index, society roles, speaking engagements
-├── Profile: therapeutic interests, current affiliations, previous company interactions
-└── Checkpoint: KOL classification (tier 1, 2, 3)
-
-Phase 2: Engagement Strategy
-├── Define engagement objectives (advisory board, clinical trial, publication)
-├── Determine appropriate engagement channel (in-person, virtual, congress)
-├── Develop tailored scientific value proposition
-└── Checkpoint: Engagement plan approved by medical lead
-
-Phase 3: Execution
-├── Schedule and conduct scientific exchange
-├── Provide balanced, evidence-based information
-├── Identify and document insights
-└── Checkpoint: Post-engagement CRM documentation
-
-Phase 4: Follow-Up
-├── Send follow-up materials as promised
-├── Track action items from engagement
-├── Update KOL profile with new insights
-└── Plan next engagement based on strategic priorities
-```
-
-### 8.2 Responding to Scientific Inquiry
-
-```
-Step 1: Document the question exactly as asked
-Step 2: Determine appropriate information source (label, publication, etc.)
-Step 3: Draft response with fair balance (benefits + limitations)
-Step 4: Route for medical/regulatory review if required
-Step 5: Deliver response to requester
-Step 6: Document in CRM
-```
-
----
 
 ## 9.1 Clinical Data Discussion with KOL
 
@@ -311,105 +165,6 @@ Step 6: Document in CRM
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on medical science liaison.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent medical science liaison issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term medical science liaison capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -434,6 +189,7 @@ Step 6: Document in CRM
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -443,6 +199,7 @@ Step 6: Document in CRM
 | MSL + **Medical Information** | MSL surfaces inquiry → Med Info provides formal written response | Compliant, comprehensive response |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -468,6 +225,7 @@ Step 6: Document in CRM
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -489,6 +247,7 @@ Expected: Provide only published/investigational data if available; do not recom
 **Self-Score:** 9.4/10 — Exemplary — Justification: Comprehensive PhRMA compliance framework, balanced exchange model, practical KOL engagement workflows, evidence-based communication standards
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -509,6 +268,7 @@ Expected: Provide only published/investigational data if available; do not recom
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -536,6 +296,7 @@ Expected: Provide only published/investigational data if available; do not recom
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -556,6 +317,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -568,15 +330,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -604,3 +357,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

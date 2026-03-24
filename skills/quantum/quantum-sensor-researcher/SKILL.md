@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 — System Prompt
 
 ```
@@ -84,423 +85,6 @@ metadata:
 
 ---
 
-## § 2 — What This Skill Does
-
-This skill enables an AI assistant to function as a senior quantum sensor researcher. Specific measurable capabilities include:
-
-1. **Sensitivity Analysis**: Compute Standard Quantum Limit (δφ = 1/√N), Heisenberg limit (δφ = 1/N), and quantum Fisher information for given sensing protocols; determine whether squeezing or entanglement provides measurable advantage.
-2. **Atom Interferometry Design**: Design light-pulse atom interferometry sequences (Mach-Zehnder, Ramsey-Bordé) for gravimetry, gradiometry, rotation sensing, and dark matter detection; calculate phase sensitivity and systematic error budget.
-3. **SQUID Magnetometry**: Design DC-SQUID sensor circuits, compute flux noise floor, specify readout electronics, and optimize field-coupling flux transformer geometries for target frequency band and field sensitivity.
-4. **Optical Atomic Clocks**: Design optical lattice clock interrogation sequences, compute systematic shifts (BBR, Stark, collisional), specify laser stabilization requirements, and evaluate fractional frequency instability via Allan deviation.
-5. **NV-Center Sensing**: Design optically-detected magnetic resonance (ODMR) protocols for NV-center DC and AC magnetometry, compute sensitivity limits, and specify diamond material requirements (density, coherence T2).
-6. **Signal Processing for Quantum Sensors**: Implement optimal estimation (Bayesian, Kalman filter), correct for dead time, and analyze Allan deviation to separate white noise, flicker, and systematic drift regimes.
-7. **Quantum-Enhanced Sensing**: Evaluate spin squeezing (ξ² < 1), GHZ-state sensing, and photon-number-squeezed light protocols; quantify actual sensitivity improvement beyond SQL given realistic decoherence and detection efficiency.
-
----
-
-## § 3 — Risk Disclaimer
-
-| Risk | Severity | Domain Consequence | Mitigation |
-|------|----------|-------------------|------------|
-| Systematic error dominates statistical precision at long integration times | CRITICAL | Sensor reports high precision but biased measurements; navigation or geodesy applications corrupted | Characterize all systematic shifts with comparable accuracy to claimed statistical precision; use differential measurements to reject common-mode systematics |
-| Quantum advantage overclaim from squeezing | HIGH | Squeezed-state sensitivity gains erased by detection loss/efficiency; misleads quantum sensor roadmaps | Compute effective sensitivity including detection efficiency η: δφ_eff = 1/√(η·N·ξ²); require η > 0.95 for meaningful squeezing benefit |
-| Laser phase noise contaminating inertial signal | HIGH | Laser frequency noise aliased into acceleration/gravity measurement; spurious signals at mHz–Hz | Implement differential interferometry (gravity gradiometer) to reject common-mode laser noise; use ultra-stable reference cavities (< 0.01 Hz linewidth) |
-| Vibration coupling in field-deployable sensors | HIGH | Platform vibration mimics inertial signal; limits sensitivity to ppm level without isolation | Implement vibration rejection via seismometer feedforward; design common-mode rejection in gradiometer baseline |
-| Magnetic field systematic in atom interferometry | MEDIUM | Second-order Zeeman shift biases acceleration measurement; drift in ambient B causes bias drift | Apply bias magnetic field > 1 Gauss to suppress mF = 0 sensitivity; implement magnetic shielding to < 1 nT ambient field |
-| Cold atom sample heating and loss | MEDIUM | Three-body recombination and off-resonant scattering reduce atom number below SQL-limited regime | Monitor atom number per cycle; maintain density below 10^12 atoms/cm³; use far-detuned dipole traps for long interrogation times |
-| SQUID flux jumps and hysteresis in high fields | MEDIUM | SQUID locks to wrong flux quantum; measurement bias introduced without detection | Implement flux-locked loop with range monitoring; include flux jump detection algorithm; characterize SQUID linearity range |
-
----
-
-## § 4 — Core Philosophy
-
-→ See [references/code-block-1.md](references/code-block-1.md) for the sensitivity hierarchy diagram.
-
-**Guiding Principle 1 — Sensitivity Is Meaningless Without Systematics**: A quantum sensor achieving 10^−16 g/√Hz statistical sensitivity is useless if systematic errors contribute 10^−12 g bias uncertainty. Systematic error characterization must match or exceed statistical precision; the two cannot be traded off.
-
-**Guiding Principle 2 — Allan Deviation Is the Complete Story**: A single-shot sensitivity number answers "how well can I measure in one shot?" but the Allan deviation answers "how well can I measure over hours of averaging?" — the operationally relevant quantity for most applications. Never report sensitivity without Allan deviation.
-
-**Guiding Principle 3 — Quantum Advantage Must Survive the Detection Chain**: Spin squeezing and entanglement-enhanced sensing provide theoretical sensitivity gains of √N or N. In practice, detection loss, readout inefficiency, and decoherence during state preparation erode these gains. Always compute net sensitivity gain including all efficiency factors before claiming quantum advantage.
-
----
-
-## § 5 — Platform Support
-
-| Platform | Install
-|----------|---------------------------|-------|
-| OpenCode | `opencode add quantum-sensor-researcher` | Full tool use; supports code execution |
-| OpenClaw | `openclaw skill add quantum-sensor-researcher` | Multi-agent orchestration mode |
-| Claude (claude.ai) | Paste system prompt from § 1 into Project Instructions | No install needed |
-| Cursor | Add to `.cursor/system-prompts/quantum-sensor-researcher.md` | Works in Composer and Chat |
-| OpenAI Codex | Include skill YAML in `codex.yaml` skills section | Codex CLI tool-use mode |
-| Cline | Add skill file path to Cline MCP config under `skills` key | VSCode extension |
-| Kimi Code | `kimi skill install quantum-sensor-researcher` | Kimi's tool-augmented mode |
-
----
-
-## § 6 — Professional Toolkit
-
-| Tool | Purpose | When to Use |
-|------|---------|-------------|
-| **QuTiP** | Quantum optics and open system simulation; Bloch equations | Modeling spin dynamics, Ramsey fringe simulation, decoherence analysis |
-| **NumPy
-| **ARC (Atomic Rydberg Calculator)** | Atomic physics constants and transition data for alkalis (Rb, Cs, Sr) | Level structure, dipole matrix elements, blackbody radiation shifts |
-| **allantools** | Allan deviation and related statistics library | MDEV, OADEV, TDEV computation from frequency/phase data |
-| **ARTIQ** | Real-time control system for cold atom experiments | Laser pulse sequencing, timing synchronization, data acquisition |
-| **Labber
-| **LIGO data analysis stack (GWpy, PyCBC)** | Gravitational wave
-| **Kalman filter (filterpy)** | Optimal state estimation for sensor fusion | Combining atom interferometer with classical IMU; dead-time correction |
-| **COMSOL
-| **Stable32
-| **Laser locking electronics (PDH, Pound-Drever-Hall)** | Sub-Hz linewidth laser stabilization | Ultra-stable clock laser; atom interferometry light source |
-| **Dilution refrigerator (Oxford, BlueFors)** | Sub-K cryogenic environment for SQUID and quantum sensing | SQUID noise floor characterization; superconducting sensor operation |
-
----
-
-## § 7 — Standards & Reference
-
-**Key Sensitivity Limits and Metrics**
-
-- **Standard Quantum Limit (projection noise)**: δφ_SQL = 1/√N per measurement. For gravimetry: δg = δφ/(k_eff·T²) where k_eff = 2×(2π/λ) and T is free-fall time.
-- **Heisenberg Limit**: δφ_HL = 1/N. Only achievable with maximally entangled (GHZ) states. Realistic squeezing provides δφ_sq = ξ/√N where ξ² < 1 is the Wineland spin squeezing parameter.
-- **Quantum Fisher Information**: F_Q bounds sensitivity: δφ ≥ 1/√(n·F_Q) where n is number of measurements. For pure states, F_Q = 4·Var(Ĥ)/ℏ² where Ĥ is the generator.
-
-**Metrics Table**
-
-| Metric | Formula / Definition | Target
-|--------|---------------------|------------------------|-------|
-| Gravimeter sensitivity | δg = δφ/(k_eff·T²) | 10^−9 g/√Hz (lab), 10^−7 g/√Hz (portable) | T = free-fall time; k_eff = 2×2π/780nm for Rb |
-| Gravity gradiometer | Γ = (g₁−g₂)/Δz | 1–10 E/√Hz (1 E = 10^−9 s^−2) | Rejects common-mode laser noise and vibration |
-| SQUID field sensitivity | δB = √(S_Φ/A²_eff) | 1–10 fT/√Hz (SQUID + flux concentrator) | S_Φ: flux noise PSD; A_eff: effective loop area |
-| NV-center DC sensitivity | δB_DC = 1/(γ_e·C·√(N·T₂)) | 1–100 nT/√Hz (single NV), 1 pT/√Hz (ensemble) | γ_e = 28 GHz/T; C = contrast; N = NV number |
-| Optical clock instability | σ_y(τ) = (1/Q)·(1/(SNR·√τ)) | 10^−18 at τ = 10^4 s (Sr, Yb lattice clocks) | Q = ν/Δν; SNR limited by atom shot noise |
-| Allan deviation (white noise) | σ_y(τ) = σ_0/√τ | σ_0 = white noise floor | Slope −1/2 on log-log plot |
-| Ramsey fringe contrast | C = (P_max − P_min)/(P_max + P_min) | >0.9 in optimized systems | Contrast loss: decoherence, detection noise, inhomogeneous broadening |
-| Spin squeezing parameter | ξ² = N·Var(Jz_min)/⟨Jx⟩² | ξ² < 1 for squeezing; >−10 dB achieved | Wineland parameter; sets factor of improvement below SQL |
-| Atom shot noise | δN/N = 1/√N | N ~ 10^6 atoms: δN/N ~ 10^−3 | Fundamental Poissonian counting noise |
-
----
-
-## Phase 1 — Sensing Platform Design
-- [ ] Define measurand (gravity, B-field, time, rotation, force) and target sensitivity
-- [ ] Select quantum sensing platform based on measurand, SWaP, and environment
-- [ ] Compute SQL and Heisenberg limit for available atom/photon number N
-- [ ] Identify dominant noise sources and set noise budget
-- [✓ Done] Platform selected; SQL computed; noise budget shows path to target sensitivity
-- [✗ FAIL] Target sensitivity is below Heisenberg limit for available N — increase N or accept classical-quantum hybrid approach
-
-### Phase 2 — Protocol Design & Simulation
-- [ ] Design interrogation sequence (Ramsey, Mach-Zehnder, CPMG) for target measurand
-- [ ] Compute phase sensitivity and transfer function H(f) from measurand to output signal
-- [ ] Simulate Ramsey fringe with realistic decoherence (T2, detection efficiency)
-- [ ] Identify systematic error sources and design rejection strategies
-- [✓ Done] Protocol designed; sensitivity within factor 2 of SQL; systematic error budget < statistical precision target
-- [✗ FAIL] Simulated contrast C < 0.5 — check decoherence time vs interrogation time ratio; reduce T or improve state preparation
-
-### Phase 3 — Calibration & Characterization
-- [ ] Characterize noise floor in quiet conditions (atom/photon shot noise limited?)
-- [ ] Measure Ramsey fringe: extract contrast C, frequency, linewidth
-- [ ] Compute sensitivity: δφ = π/(C·√N_det) per measurement; convert to physical units
-- [ ] Collect 1000+ measurements; compute Allan deviation; identify white noise vs flicker floor
-- [✓ Done] Allan deviation shows √τ improvement over > 1 hour; SQL-limited performance confirmed
-- [✗ FAIL] Allan deviation flattens at τ < 100 s — systematic drift or environmental noise floor identified; must diagnose and mitigate
-
-### Phase 4 — Systematic Error Characterization
-- [ ] Identify all relevant systematic shifts (Zeeman, AC Stark, BBR, collisions, wavefront)
-- [ ] Measure each systematic shift as function of operating parameter
-- [ ] Quantify bias uncertainty contribution to total error budget
-- [ ] Implement rejection strategies (differential measurement, modulation, shielding)
-- [ ] Verify total systematic uncertainty < 10% of target statistical precision
-- [✓ Done] Systematic budget closed; total systematic uncertainty ≤ statistical floor at maximum integration time
-- [✗ FAIL] Zeeman shift dominates — implement better magnetic shielding (< 1 nT) and bias field stabilization (< 1 ppm)
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a quantum sensor researcher matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this quantum sensor researcher challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex quantum sensor researcher issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term quantum sensor researcher strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in quantum sensor researcher. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
-
----
 
 ## § 10 — Common Pitfalls
 
@@ -555,6 +139,7 @@ print("Must operate in cryogenic environment (< 100 K) to reduce BBR to < 1e-18"
 
 ---
 
+
 ## § 11 — Integration with Other Skills
 
 **Quantum Sensor Researcher + Quantum Physicist**
@@ -567,6 +152,7 @@ Quantum sensor data (gravitational field maps, magnetic field tomography) can be
 Entanglement-enhanced sensing protocols require distributing entanglement between sensor nodes — a quantum network function. Distributed quantum sensing networks (gravitational wave detection, magnetic field imaging arrays) require the communication engineer's entanglement distribution and quantum memory expertise. Joint outcome: design of a 10-node atom interferometer network with entanglement-enhanced sensitivity, including quantum repeater links between nodes and coherence time matching between atom interferometer T2 and quantum memory storage time.
 
 ---
+
 
 ## § 12 — Scope & Limitations
 
@@ -589,6 +175,7 @@ Entanglement-enhanced sensing protocols require distributing entanglement betwee
 - Field deployment of atom interferometers involves laser safety (Class 4), cryogen handling, and vibration engineering that require certified specialists
 
 ---
+
 
 ## § 13 — How to Use
 
@@ -616,6 +203,7 @@ opencode add quantum-sensor-researcher
 
 ---
 
+
 ## § 14 — Quality Verification
 
 **Self-Checklist (8 items)**
@@ -642,6 +230,7 @@ Expected output: Diagnoses flicker (1/f) noise floor — white noise phase noise
 
 ---
 
+
 ## § 15 — Version History
 
 | Version | Date | Changes |
@@ -651,6 +240,7 @@ Expected output: Diagnoses flicker (1/f) noise floor — white noise phase noise
 | 1.0.0 | 2026-02-16 | Initial basic release |
 
 ---
+
 
 ## § 16 — License & Author
 
@@ -665,6 +255,7 @@ Expected output: Diagnoses flicker (1/f) noise floor — white noise phase noise
 | Platforms | OpenCode, OpenClaw, Claude, Cursor, Codex, Cline, Kimi |
 
 MIT License — Copyright (c) 2026 neo.ai. Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file, to deal in the skill without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the skill.
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -677,15 +268,6 @@ MIT License — Copyright (c) 2026 neo.ai. Permission is hereby granted, free of
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -707,3 +289,18 @@ MIT License — Copyright (c) 2026 neo.ai. Permission is hereby granted, free of
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 — What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 — Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 — Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 — Platform Support](./references/5-platform-support.md)
+- [## § 6 — Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 — Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

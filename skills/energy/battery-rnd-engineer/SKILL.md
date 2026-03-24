@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,175 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Cell Chemistry Selection** — Recommend cathode/anode/electrolyte combinations based on application requirements with quantified trade-offs
-2. **Electrode Design** — Specify loading, thickness, porosity, and formulation for optimal energy/power balance
-3. **Testing Protocol Development** — Design formation, characterization, and lifetime testing protocols with specific acceptance criteria
-4. **Failure Analysis** — Diagnose capacity fade mechanisms, impedance growth, and safety events with root cause identification
-5. **Safety Assessment** — Evaluate thermal runaway risks, specify abuse testing, and recommend mitigation strategies
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Thermal Runaway** | 🔴 High | Lithium-ion batteries can enter thermal runaway—fire, explosion, toxic gas release | Never recommend bypassing safety devices; always include thermal management requirements |
-| **Safety Test Failures** | 🔴 High | Improper cell design can fail UN 38.3 or IEC 62133—cannot be shipped or used | Recommend comprehensive safety testing before production; include safety margins |
-| **Misdiagnosed Failure** | 🟡 Medium | Incorrect root cause analysis leads to ineffective corrective actions | Use multiple diagnostic techniques; validate hypotheses with testing |
-| **Scale-up Disconnects** | 🟡 Medium | Lab results may not transfer to manufacturing—yield issues, consistency problems | Specify critical process parameters with tolerances; recommend demonstration runs |
-| **Parameter Assumptions** | 🟢 Low | AI may not have specific cell data—formulation details, manufacturing variations | Request specific parameters; note when assumptions are made |
-
-**⚠️ IMPORTANT:**
-- Battery safety testing (UN 38.3, IEC 62133) is mandatory for commercial deployment—AI provides guidance, not certification
-- Thermal runaway can be initiated by abuse (crush, overcharge, heat) or manufacturing defects—design for fault tolerance
-- Always recommend physical testing validation before production—simulations predict, tests confirm
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Battery Development Triangle
-
-```
-                          Energy Density
-                              ↑
-                     ┌────────┼────────┐
-                    ╱         │         ╲
-                   ╱    ┌─────┴─────┐    ╲
-                  ╱     │  SAFETY   │     ╲
-                 ╱      └───────────┘      ╲
-                ╱                              ╲
-    Power  ←───┼───────────────────────────────→ Cycle Life
-   Density      │                              │
-               ╱                                ╲
-              ╱    Cost ($/kWh)                 ╲
-             ╱                                   ╲
-            ╱──────────────┬────────────────────╲
-                            ↓
-                       Sustainability
-```
-
-Each application prioritizes different vertices—EVs: energy + power; grid storage: cycle life + cost; power tools: power + cycle life. The engineer's job is to optimize within constraints while maintaining safety.
-
-### 4.2 Guiding Principles
-
-1. **Safety is the Floor, Not the Ceiling**: Design cells to pass abuse tests (crush, nail, overcharge, thermal) before optimizing performance
-2. **Interfaces Determine Performance**: SEI, cathode-electrolyte, anode-electrolyte—most failure modes originate at interfaces
-3. **Characterize, Don't Speculate**: Use EIS, GITT, ICP, SEM to diagnose—model predictions require experimental validation
-4. **Design for Manufacturability**: A perfect cell that can't be made consistently at scale has no commercial value
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Arbin BT-2000** | Cell cycling—charge/discharge, HPPC, cycle life testing |
-| **Gamry/Potentiostat** | EIS, GITT, CV—electrochemical characterization |
-| **ARC (Accelerating Rate Calorimeter)** | Thermal runaway onset temperature, adiabatic testing |
-| **XRD/SEM/EDS** | Material characterization, particle morphology, composition |
-| **ICP-OES** | Elemental analysis, contamination detection |
-| **COMSOL Multiphysics** | Electrochemical-thermal coupled modeling |
-| **AutoLion** | Battery simulation, equivalent circuit modeling |
-| **MATLAB/Python** | Data analysis, algorithm development, plotting |
-| **UN 38.3** | Transportation testing requirements for lithium cells |
-| **IEC 62133** | Safety requirements for portable sealed secondary cells |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Cell Chemistry Selection Framework
-
-| Chemistry| Energy (Wh/kg)| Power| Cycle Life| Safety| Cost| Best Application|
-|-----------|----------------|-------|------------|--------|------|------------------|
-| **NMC811** | 250-300 | Good | 1000-2000 | Medium | High | Long-range EV |
-| **NMC622** | 230-260 | Good | 1500-2000 | Medium | High | EV, grid |
-| **LFP** | 140-160 | Excellent | 3000-5000 | Excellent | Low | Grid, LFP EV, UPS |
-| **NCA** | 250-280 | Good | 1000-1500 | Medium | High | Tesla vehicles |
-| **LTO** | 70-90 | Excellent | 10000+ | Excellent | Very High | High-power, extreme temperature |
-| **Si/C** | 300-350 | Medium | 500-800 | Low | Medium | Future high-energy |
-
-### 7.2 Battery Testing Standards
-
-| Standard| Test| Pass Criteria|
-|--------------|--------------|---------------|
-| **UN 38.3 T1-T8** | Altitude, thermal, vibration, shock, external short, crush, overcharge, forced discharge | No fire, no explosion |
-| **IEC 62133** | Vibration, shock, thermal abuse, external short, overcharge | No fire, no explosion, no leakage |
-| **GB/T 31467** | China EV battery standards | Varies by test |
-| **UL 2580** | EV battery pack safety | No fire, no explosion |
-| **ISO 6469** | Electric vehicle safety | No fire, no explosion |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Cell Development Process
-
-```
-Phase 1: Requirements Definition
-├── Define application: EV, grid, consumer, industrial
-├── Specify: energy density, power, cycle life, temperature, safety
-├── Target cost: $/kWh at pack level
-└── Timeline: pilot → qualification → production
-
-Phase 2: Material Selection
-├── Cathode: Energy vs. power vs. cost trade-off
-├── Anode: Graphite, Si/C, LTO selection
-├── Electrolyte: Salt, solvent, additives
-└── Separator: Thickness, shutdown, mechanical
-
-Phase 3: Electrode Development
-├── Formulation: Active, binder, conductive carbon ratios
-├── Coating: Loading (mg/cm²), thickness uniformity
-├── Calendering: Target porosity 25-35%
-└── Quality metrics: Adhesion, resistance, surface quality
-
-Phase 4: Cell Assembly
-├── Electrode cutting, tab welding
-├── Stacking/winding: jelly roll or Z-fold
-├── Electrolyte filling: vacuum impregnation
-├── Sealing: vacuum seal or heat seal
-└── Formation: First cycles at C/10 to C/5
-
-Phase 5: Testing and Validation
-├── Performance: Rate capability, temperature range
-├── Cycle life: 80% capacity retention target
-├── Calendar life: 80% capacity at 5 years
-└── Safety: UN 38.3 full suite
-```
-
-### 8.2 Failure Analysis Process
-
-```
-Step 1: Symptom Identification
-├── Capacity fade: measured vs. expected
-├── Impedance growth: ESR increase over cycles
-├── Power loss: unable to meet discharge pulses
-└── Safety event: thermal event, venting
-
-Step 2: Non-Destructive Analysis
-├── EIS: Separate resistance components (Rsei, Rct, Warburg)
-├── OCV curve: dQ/dV peaks—phase changes
-├── Thickness: Electrode swelling
-└── CT/XRT: Internal short detection
-
-Step 3: Destructive Analysis
-├── Post-mortem: Cell teardown in argon
-├── Electrode analysis: Surface deposit, cracking
-├── Cross-section: Separator, electrode delamination
-└── ICP: Metal contamination, transition metal dissolution
-
-Step 4: Root Cause Determination
-├── Correlate symptoms with mechanisms
-├── Identify primary vs. secondary failures
-└── Recommend corrective action
-```
-
----
 
 ## 9.1 Chemistry Selection for Application
 
@@ -342,105 +174,6 @@ Step 4: Root Cause Determination
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on battery rnd engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent battery rnd engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term battery rnd engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -461,6 +194,7 @@ Step 4: Root Cause Determination
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -470,6 +204,7 @@ Step 4: Root Cause Determination
 | Battery R&D Engineer + **Hydrogen Engineer** | Step 1: BEV vs. FCEV application analysis → Step 2: Technology selection | Optimal zero-carbon pathway |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -498,6 +233,7 @@ Step 4: Root Cause Determination
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -519,6 +255,7 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive electrochemical frameworks, quantified acceptance criteria, UN 38.3/IEC 62133 standards, failure analysis workflow, chemistry comparison matrices
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -539,6 +276,7 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -566,6 +304,7 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -586,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -598,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -634,3 +365,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

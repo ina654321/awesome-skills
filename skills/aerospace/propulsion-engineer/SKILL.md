@@ -31,6 +31,7 @@ Design advanced propulsion systems using gas turbine thermodynamics, FADEC contr
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -120,213 +121,6 @@ ADVANCED CONCEPTS:
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Propulsion Challenge Indicators**:
-- New engine preliminary design
-- Cycle optimization studies
-- Component performance analysis
-- Engine control system design
-- Engine-airframe integration
-- In-service problem investigation
-
-**Complexity Markers**:
-- Development: 8-15 years, $1-5B
-- Testing: 10,000+ hours before EIS
-- Parts: 20,000-40,000 per engine
-- Temperatures: 1,700-1,900°C (TIT)
-- Pressures: 50-60:1 (OPR)
-
-### User Signals
-
-Invoke when users need to:
-- Size a new engine concept
-- Optimize thermodynamic cycle
-- Design compressor/turbine stages
-- Develop FADEC control laws
-- Analyze engine performance
-- Troubleshoot operational issues
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Thermodynamic Cycle
-
-**Purpose**: Define engine cycle parameters and performance.
-
-**Core Elements**:
-- **Brayton Cycle Analysis**: Compressor, combustor, turbine, nozzle
-- **Design Parameters**: BPR, OPR, TIT, FPR
-- **Performance Prediction**: Thrust, SFC, mass flow
-- **Off-Design Behavior**: Throttle response, altitude effects
-
-📄 **Details**: [references/05-layer1-thermodynamics.md](references/05-layer1-thermodynamics.md)
-
-### Layer 2: Component Design
-
-**Purpose**: Design major engine components.
-
-**Core Elements**:
-- **Fan/LPC**: Aerodynamics, blisk, containment
-- **HPC**: Multi-stage compression, variable stators
-- **Combustor**: Emissions, pattern factor, durability
-- **Turbine**: Cooling, materials, clearance control
-- **Nozzle**: Performance, noise, thrust reverser
-
-📄 **Details**: [references/06-layer2-components.md](references/06-layer2-components.md)
-
-### Layer 3: Systems Integration
-
-**Purpose**: Engine control and aircraft integration.
-
-**Core Elements**:
-- **FADEC Architecture**: EEC, sensors, actuators, redundancy
-- **Control Laws**: Schedules, limits, protection logic
-- **Airframe Interface**: Pylon, nacelle, systems
-- **Certification Compliance**: Part 33 requirements
-
-📄 **Details**: [references/07-layer3-integration.md](references/07-layer3-integration.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Key Engine Parameters
-
-| Parameter | Symbol | Civil Transport | Regional Jet | Business Jet |
-|-----------|--------|-----------------|--------------|--------------|
-| Bypass Ratio | BPR | 8-12 | 4-6 | 2-4 |
-| Overall Pressure Ratio | OPR | 40-60 | 20-30 | 15-25 |
-| Fan Pressure Ratio | FPR | 1.3-1.6 | 1.6-2.0 | 2.0-3.0 |
-| Turbine Inlet Temp | TIT | 1,700-1,900K | 1,600-1,750K | 1,500-1,650K |
-| Thrust Range | - | 20K-115K lbf | 5K-25K lbf | 2K-10K lbf |
-
-### Engine Performance Metrics
-
-```
-Specific Fuel Consumption (SFC):
-├── Units: lb fuel / lbf thrust / hour
-├── Cruise SFC: 0.50-0.55 (modern turbofans)
-├── Improvement: ~1% per year (historical trend)
-└── GTF advantage: 15-16% vs conventional
-
-Propulsive Efficiency (ηp):
-├── ηp = 2 / (1 + Ve/V0)
-├── Higher BPR → higher ηp
-├── Limit: Fan diameter, weight, drag
-└── GTF: Optimize fan speed independently
-
-Thermal Efficiency (ηth):
-├── ηth = 1 - (1/OPR)^((γ-1)/γ)
-├── Higher OPR → higher ηth
-├── Limit: Compressor efficiency, TIT
-└── Current: ~55% combined efficiency target
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Cycle Selection Process
-
-```
-Step 1: Define Requirements
-├── Thrust: Takeoff, cruise, climb
-├── Mission: Range, payload, speed
-├── Constraints: Noise, emissions, weight
-└── Market: Timing, competition
-
-Step 2: Select Architecture
-├── BPR: Based on speed (high BPR for M0.8)
-├── OPR: Balance ηth vs complexity
-├── TIT: Material/technology readiness
-└── Fan drive: Direct vs geared
-
-Step 3: Component Sizing
-├── Fan: Diameter from bypass flow
-├── Core: Flow from core thrust requirement
-├── Turbine: Work extraction matching compression
-└── Mechanical: Shaft speeds, bearing locations
-
-Step 4: Performance Optimization
-├── On-design: Design point efficiency
-├── Off-design: Operating line, surge margin
-├── Transient: Acceleration, deceleration
-└── Control: Schedules, limits
-```
-
-### Material Selection Matrix
-
-| Component | Temperature | Material | Technology |
-|-----------|-------------|----------|------------|
-| Fan blades | <500°C | Ti-6Al-4V, CFRP | Wide chord, 3D aero |
-| Compressor | 500-700°C | Ti alloys, Ni alloys | Blisk, TiAl LPT |
-| Combustor | 1,800°C+ | Superalloys, TBC | Advanced cooling |
-| HPT | 1,700°C+ | Single crystal, CMCs | Film cooling, TBC |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Cycle Analysis | [references/10-sop-cycle-analysis.md](references/10-sop-cycle-analysis.md) |
-| SOP 2 | Component Matching | [references/11-sop-component-matching.md](references/11-sop-component-matching.md) |
-| SOP 3 | FADEC Control Design | [references/12-sop-fadec.md](references/12-sop-fadec.md) |
-| SOP 4 | Performance Testing | [references/13-sop-performance-test.md](references/13-sop-performance-test.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Engine Development Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Surge/Stall** | Medium | Critical | Surge margin, variable stators, FADEC |
-| **High Cycle Fatigue** | Medium | High | Vibration analysis, strain gauges |
-| **Low Cycle Fatigue** | Medium | High | Thermal analysis, life monitoring |
-| **Bird Strike** | High | High | Ingestion testing, blade design |
-| **Schedule Delay** | High | Medium | Parallel development, risk reduction |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Concept | Cycle definition | Feasible thermodynamic cycle | Performance targets missed |
-| Preliminary | Component sizing | Matching analysis complete | Surge margin inadequate |
-| Detailed | Design release | Drawings, specifications | Certification gaps |
-| Test | Validation | Certification tests passed | Failure to meet specs |
-| Service | Entry into service | ETOPS approval | Operational issues |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | New Turbofan Cycle Design | 35K lbf regional jet | [references/16-example-cycle-design.md](references/16-example-cycle-design.md) |
-| 2 | FADEC Control Law Development | Thrust management system | [references/17-example-fadec-design.md](references/17-example-fadec-design.md) |
-| 3 | Engine Performance Analysis | Cruise fuel flow optimization | [references/18-example-performance.md](references/18-example-performance.md) |
-| 4 | Bird Ingestion Analysis | Part 33.76 compliance | [references/19-example-ingestion.md](references/19-example-ingestion.md) |
-| 5 | In-Service Investigation | EGT margin deterioration | [references/20-example-investigation.md](references/20-example-investigation.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -374,3 +168,17 @@ Where:
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

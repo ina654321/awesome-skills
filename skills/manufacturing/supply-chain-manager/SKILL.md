@@ -31,6 +31,7 @@ Optimize end-to-end supply chains using strategic sourcing, network design, and 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -121,210 +122,6 @@ INVENTORY STRATEGY:
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Supply Chain Challenge Indicators**:
-- Stockouts or excess inventory
-- High procurement costs
-- Supplier quality or delivery issues
-- Long lead times
-- Supply chain disruptions
-
-**Complexity Markers**:
-- Suppliers: 100-10,000+
-- SKUs: 1,000-100,000+
-- Spend: $100M-$10B+
-- Regions: Multi-country sourcing
-- Inventory: $50M-$1B+ value
-
-### User Signals
-
-Invoke when users need to:
-- Develop sourcing strategies
-- Optimize inventory levels
-- Design logistics networks
-- Manage supplier relationships
-- Improve supply chain resilience
-- Reduce supply chain costs
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Strategic Sourcing
-
-**Purpose**: Acquire goods and services optimally.
-
-**Core Elements**:
-- **Category Management**: Spend analysis, strategy, market intelligence
-- **Supplier Selection**: RFx, evaluation, negotiation
-- **Contract Management**: T&Cs, pricing, performance
-- **Supplier Development**: Capability building, improvement
-
-📄 **Details**: [references/05-layer1-sourcing.md](references/05-layer1-sourcing.md)
-
-### Layer 2: Inventory & Planning
-
-**Purpose**: Balance service and working capital.
-
-**Core Elements**:
-- **Demand Planning**: Forecasting, S&OP, consensus
-- **Inventory Optimization**: Policies, safety stock, targets
-- **Material Planning**: MRP, Kanban, VMI
-- **Production Planning**: MPS, finite scheduling
-
-📄 **Details**: [references/06-layer2-inventory.md](references/06-layer2-inventory.md)
-
-### Layer 3: Logistics & Fulfillment
-
-**Purpose**: Move materials and deliver to customers.
-
-**Core Elements**:
-- **Network Design**: Warehouses, flows, nodes
-- **Transportation**: Mode, routing, carrier management
-- **Warehousing**: Layout, operations, automation
-- **Customer Service**: Order management, fulfillment, returns
-
-📄 **Details**: [references/07-layer3-logistics.md](references/07-layer3-logistics.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### Inventory Formulas
-
-```
-Economic Order Quantity (EOQ):
-EOQ = √(2 × D × S / H)
-
-Where:
-- D: Annual demand (units)
-- S: Ordering cost ($/order)
-- H: Holding cost ($/unit/year)
-
-Reorder Point (ROP):
-ROP = d × L + SS
-
-Where:
-- d: Average daily demand
-- L: Lead time (days)
-- SS: Safety stock
-
-Safety Stock:
-SS = Z × σd × √L
-
-Where:
-- Z: Service factor (1.65 for 95%, 2.33 for 99%)
-- σd: Standard deviation of demand
-- L: Lead time
-```
-
-### Incoterms 2020
-
-| Group | Term | Risk Transfer | Best For |
-|-------|------|---------------|----------|
-| E | EXW | Seller's premises | Seller's control |
-| F | FCA/FAS/FOB | Main carrier | Sea transport |
-| C | CFR/CIF/CPT/CIP | Main carrier | Seller pays freight |
-| D | DAP/DPU/DDP | Destination | Buyer convenience |
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Make vs Buy Decision
-
-```
-MAKE (Insource):
-├── Pros: Control, IP protection, margin capture
-├── Cons: Capital investment, capacity risk
-└── When: Core competency, high volume, strategic
-
-BUY (Outsource):
-├── Pros: Flexibility, expertise access, lower capital
-├── Cons: Dependency, less control
-└── When: Non-core, variable demand, expertise gap
-
-CRITERIA:
-├── Strategic importance
-├── Volume and stability
-├── Capability gap
-├── Cost comparison
-└── Risk assessment
-```
-
-### Supplier Scorecard
-
-| Category | Weight | Metrics |
-|----------|--------|---------|
-| Quality | 30% | PPM, rejection rate, CAR closure |
-| Delivery | 25% | OTIF, lead time, flexibility |
-| Cost | 20% | Price competitiveness, cost reduction |
-| Service | 15% | Responsiveness, technical support |
-| Innovation | 10% | Ideas, continuous improvement |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Strategic Sourcing Process | [references/10-sop-sourcing.md](references/10-sop-sourcing.md) |
-| SOP 2 | Inventory Policy Setting | [references/11-sop-inventory.md](references/11-sop-inventory.md) |
-| SOP 3 | Supplier Performance Review | [references/12-sop-supplier-review.md](references/12-sop-supplier-review.md) |
-| SOP 4 | S&OP Process | [references/13-sop-snop.md](references/13-sop-snop.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Supply Chain Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Supplier Failure** | Medium | High | Multi-sourcing, monitoring |
-| **Geopolitical** | Medium | High | Regional diversification |
-| **Natural Disaster** | Low | Critical | Business continuity plans |
-| **Demand Surge** | Medium | High | Flexibility, safety stock |
-| **Quality Issue** | Medium | High | Incoming inspection, audits |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Plan | Align supply and demand | Consensus forecast | Silo planning |
-| Source | Acquire materials | POs placed, contracts active | Supplier issues |
-| Make | Produce goods | Production complete | Quality/schedule |
-| Deliver | Fulfill customers | OTIF delivery | Service failure |
-| Return | Handle returns | Processed, analyzed | No learning |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Strategic Sourcing Initiative | Category transformation | [references/16-example-sourcing.md](references/16-example-sourcing.md) |
-| 2 | Inventory Optimization | Multi-echelon policy | [references/17-example-inventory.md](references/17-example-inventory.md) |
-| 3 | Logistics Network Design | Regional DC optimization | [references/18-example-network.md](references/18-example-network.md) |
-| 4 | Supply Disruption Response | Force majeure event | [references/19-example-disruption.md](references/19-example-disruption.md) |
-| 5 | Supplier Development | Underperforming key supplier | [references/20-example-supplier-dev.md](references/20-example-supplier-dev.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -370,3 +167,17 @@ Example: 98% × 96% × 99% × 97% = 90.4% perfect order rate
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

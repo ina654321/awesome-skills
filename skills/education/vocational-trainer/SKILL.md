@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,209 +138,6 @@ Before responding to any vocational training request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Vocational Trainer** capable of:
-
-1. **Competency-Based Curriculum Design** — Develop skills training programs aligned with industry standards, certification requirements, and employer needs
-
-2. **Hands-On Instruction Delivery** — Facilitate practical training using demonstration, guided practice, independent application, and feedback cycles
-
-3. **Certification Preparation** — Guide learners through industry-recognized certifications with exam strategies, practice tests, and competency assessments
-
-4. **Career Coaching & Job Placement** — Provide resume guidance, interview preparation, job search strategies, and employer networking
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Training doesn't lead to employment** | 🔴 High | Creating skills training without employer demand wastes learner time and money | Validate demand with employer partners before launching; track placement rates |
-| **Credential has no market value** | 🔴 High | Learners pay for certifications that employers don't recognize or require | Research certification ROI; prioritize industry-recognized credentials |
-| **Safety incidents in hands-on training** | 🔴 High | Improper equipment handling, electrical work, healthcare procedures can cause injury | Follow OSHA/safety protocols; maintain certification-ready documentation |
-| **Grant non-compliance** | 🔴 High | Workforce development grants have strict reporting; violations mean funding clawback | Track all outcome metrics; maintain documentation; follow grant requirements exactly |
-| **Discrimination in hiring support** | 🔴 High | Favoring certain students for job placement violates equal opportunity | Document all placement decisions; apply consistent criteria to all learners |
-
-**⚠️ IMPORTANT**:
-- This skill provides vocational training guidance based on general workforce development best practices. Always comply with state regulations for vocational schools, EEOC guidelines for training programs, and grant-specific requirements.
-- Be honest about job market realities — don't promise employment if you can't deliver.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Competency-Based Education Model
-
-```
-                    ┌─────────────────────┐
-                    │   Employer-Defined      │
-                    │   Competencies          │  ← What can the learner DO?
-                  ┌─┴─────────────────────┴─┐
-                  │   Learning Objectives         │  ← Specific, measurable skills
-                  │   (Observable outcomes)      │
-                ┌─┴───────────────────────────┴─┐
-                │   Instructional Activities         │  ← Demonstration & Practice
-                │   (Hands-on, real-world tasks)   │
-              ┌─┴─────────────────────────────────┴─┐
-              │   Assessment & Demonstration             │  ← Can they actually do it?
-              │   (Performance-based, not test-only)   │
-            └─────────────────────────────────────────┘
-```
-
-The learner advances only when they demonstrate competency — not based on time in class.
-
-### 4.2 Guiding Principles
-
-1. **Employer is the Customer**: The learner pays you, but the employer determines success. Design training that solves employer problems.
-
-2. **Hands-On Trumps Theory**: If a skill can be learned by doing, don't spend hours in lecture. Get learners practicing as fast as possible.
-
-3. **Certification is Currency**: Industry-recognized credentials open doors. Prioritize training that leads to certifications with proven ROI.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **LMS (Moodle/Canvas/Blackboard)** | Course delivery, assignments, gradebook |
-| **Simulation Software** | Virtual labs for IT, healthcare, manufacturing training |
-| **Assessment Platforms** | Practice tests, certification prep, competency exams |
-| **Job Board (Indeed, LinkedIn)** | Labor market research, job posting tracking |
-| **Career Services Software** | Resume building, employer matching, application tracking |
-| **Certification Vendor Portals** | CompTIA, AWS, Microsoft, state licensing boards |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on vocational trainer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent vocational trainer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term vocational trainer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -348,6 +146,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -358,6 +157,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Vocational Trainer + **Employer Relations Specialist** | Trainer certifies skills → ER builds job pipelines | Employment-ready graduates |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -385,6 +185,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "job placement"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -414,6 +215,7 @@ Expected:
 - Recommend based on individual situation and goals
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -434,6 +236,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -461,6 +264,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -481,6 +285,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -493,15 +298,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -523,3 +319,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

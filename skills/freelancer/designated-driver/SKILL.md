@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,195 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Safe Transportation** — Provides reliable, responsible driving from pickup to destination
-2. **Vehicle Management** — Drives client's vehicle (or provides own) with care and responsibility
-3. **Impaired Passenger Support** — Assists intoxicated clients safely in and out of vehicle
-4. **Night/Event Services** — Available for parties, bars, events where drinking occurs
-5. **Airport/Long-Distance Transport** — Reliable transport for early flights or late arrivals
-6. **Multi-Stop Coordination** — Handles multiple pickups or drop-offs as needed
-7. **Peace of Mind** — Family/friends know their loved one is getting home safely
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Client Safety Incident** | 🔴 High | Client injures themselves entering/exiting vehicle | Assist carefully; wait until safely seated before moving; keep vehicle stationary when needed |
-| **Intoxication Medical Emergency** | 🔴 High | Client becomes unconscious or unresponsive | Know basic first aid; have emergency contacts; call 911 if needed |
-| **Vehicle Damage** | 🔴 High | Damage to client's vehicle during service | Pre-trip documentation; careful driving; clear responsibility terms |
-| **False Accusations** | 🔴 High | Accusations of improper conduct or theft | Maintain professional boundaries; have witness or documentation; clear communication |
-| **Unsafe Passenger Behavior** | 🟡 Medium | Passenger becomes violent or inappropriate | Remain calm; refuse service if unsafe; document incident; call authorities if necessary |
-| **Road Safety** | 🟡 Medium | Adverse weather, poor road conditions | Check conditions before departure; adjust speed accordingly; know when to pause |
-
-**⚠️ IMPORTANT:**
-- ZERO TOLERANCE for alcohol or drugs while driving — absolute non-negotiable
-- Never consume any alcohol within 8 hours of providing designated driver services
-- If you feel unwell or fatigued, do not accept or continue service — safety is paramount
-- Report any incidents immediately to appropriate parties and document
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Safety-First Protocol
-
-```
-                    ┌─────────────────┐
-                    │   SERVICE       │
-                    │   REQUEST       │
-                    └────────┬────────┘
-                             │
-         ┌───────────────────┼───────────────────┐
-         │                   │                   │
-         ▼                   ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│   PRE-SERVICE   │ │   TRANSIT       │ │   POST-SERVICE  │
-│                 │ │                 │ │                 │
-│ • Verify safe   │ │ • Client safety│ │ • Confirm drop- │
-│   pickup        │ │   priority     │ │   off complete │
-│ • Confirm       │ │ • Defensive    │ │ • Ensure safe   │
-│   destination   │ │   driving      │ │   exit          │
-│ • Assess client │ │ • Monitor      │ │ • Document      │
-│   state         │ │   passenger    │ │   any incidents │
-│ • Clear pricing │ │   condition     │ │ • Update client │
-│                 │ │ • Professional  │ │   status        │
-│                 │ │   boundaries    │ │                 │
-└────────┬────────┘ └────────┬────────┘ └────────┬────────┘
-         │                   │                   │
-         └───────────────────┼───────────────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │   ZERO          │
-                    │   INCIDENT      │
-                    │   COMPLETION    │
-                    └─────────────────┘
-```
-
-Every service = zero incidents. That's the only acceptable outcome.
-
-### 4.2 Guiding Principles
-
-1. **Impairment is Not Negotiable**: Never drive if any impairment suspected — client trust depends on absolute sobriety
-2. **Client Dignity**: Treat intoxicated clients with respect and patience — they're trusting you
-3. **Defensive Driving**: Assume other drivers are impaired — especially at night/weekends
-4. **Clear Boundaries**: No alcohol in vehicle during service; no accepting rides from strangers
-5. **Documentation**: Document vehicle condition and any incidents for protection
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Pre-Trip Vehicle Checklist** | Ensures vehicle is safe: lights, brakes, tires, mirrors |
-| **Service Request Form** | Captures: pickup location, destination, time, number of passengers, contact info |
-| **Pricing Calculator** | Calculates fare based on distance, time, vehicle type, wait time |
-| **Incident Report Template** | Documents any incidents for liability protection |
-| **Client Feedback Form** | Post-service satisfaction survey |
-| **Emergency Contact Card** | Quick access to emergency services and emergency contacts |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Service Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Service Request** | Initial client contact | 1. Get pickup/destination → 2. Confirm time → 3. Passenger count → 4. Quote price → 5. Confirm booking |
-| **Pickup Protocol** | Arriving at pickup location | 1. Confirm arrival → 2. Identify client → 3. Assess condition → 4. Assist if needed → 5. Confirm destination |
-| **Transit Service** | During transport | 1. Ensure seatbelts → 2. Drive safely → 3. Monitor passenger → 4. Handle any issues → 5. Navigate to destination |
-| **Drop-off Protocol** | Arriving at destination | 1. Confirm correct address → 2. Assist exit if needed → 3. Wait until safely inside → 4. Document completion |
-
-### 7.2 Service Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Safety Record** | (Incidents
-| **On-Time Arrival** | (Arrivals within 5 min of ETA
-| **Client Satisfaction** | Post-service rating (1-10) | Average >8.5 |
-| **Completion Rate** | (Completed services
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Standard Service Request
-
-```
-Phase 1: Booking & Confirmation
-├── Receive service request (phone, app, or in-person)
-├── Collect: pickup location, destination, pickup time
-├── Confirm number of passengers and any special needs
-├── Provide quote (base + distance + waiting time)
-├── Obtain client contact information
-├── Confirm booking and send confirmation
-└── Note any special circumstances
-
-Phase 2: Pre-Service Preparation
-├── Confirm vehicle is in safe operating condition
-├── Review route and estimated travel time
-├── Check for any route advisories or weather issues
-├── Ensure personal readiness (rested, sober, alert)
-└── Confirm client contact info readily accessible
-
-Phase 3: Service Execution
-├── Arrive at pickup location at scheduled time
-├── Confirm identity of client(s)
-├── Assess client condition — is assistance needed?
-├── Help client(s) into vehicle safely
-├── Confirm seatbelts are fastened
-├── Drive to destination using safe route
-├── Monitor passenger condition during transit
-└── Arrive at destination safely
-
-Phase 4: Service Completion
-├── Assist client(s) out of vehicle at destination
-├── Ensure client reaches safe entry point (door, person)
-├── Collect payment (prepaid or upon completion)
-├── Confirm client is safe inside before departing
-├── Document service completion
-└── Send follow-up message if appropriate
-```
-
-### 8.2 Handling Difficult Situations
-
-```
-Situation: Client is too intoxicated to safely exit vehicle
-Response:
-1. Stay calm and patient
-2. Offer water and time to recover
-3. If unresponsive, check vital signs
-4. Call emergency services if needed
-5. Notify emergency contact if possible
-6. Stay with client until help arrives
-7. Document everything
-
-Situation: Client refuses to pay
-Response:
-1. Remain calm and professional
-2. Explain terms clearly
-3. Offer to discuss after ensuring safety
-4. If unsafe to resolve, leave situation safely
-5. Document incident
-6. Do not escalate to confrontation
-
-Situation: Client becomes aggressive
-Response:
-1. Keep voice calm and level
-2. Do not engage emotionally
-3. Keep vehicle stationary if possible
-4. Create distance if possible
-5. If threat escalates, exit and call police
-6. Safety is always the priority
-```
-
----
 
 ## 9.1 Scenario: Standard Night Service
 
@@ -363,38 +175,6 @@ Response:
 
 ---
 
-## § 9 · Common Pitfalls & Anti-Patterns
-
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Accepting any fare regardless of safety** | 🔴 High | Decline service if client or situation seems unsafe — no exceptions |
-| 2 | **Driving after consuming any alcohol** | 🔴 High | Zero tolerance — absolute sobriety during service hours |
-| 3 | **Rushing to complete multiple rides** | 🟡 Medium | Safety > speed — always allow adequate time |
-| 4 | **Leaving intoxicated client at drop-off** | 🟡 Medium | Wait until client is safely inside with someone or confirmed safe |
-| 5 | **Not verifying client identity** | 🟢 Low | Confirm you're picking up the right person — ask for name |
-
-```
-❌ "She's pretty drunk but she can probably walk."
-✅ "Let me help her to the car carefully. If she can't stand, we may need to call someone to assist."
-
-❌ "I only had one drink 2 hours ago, I'm fine to drive."
-✅ "I don't consume any alcohol during service hours. Even one drink could impair judgment — my zero tolerance policy keeps everyone safe."
-
-❌ "Here's your drop-off. Thanks, bye!"
-✅ "I've made sure you're at the right address. Can you get inside safely? I'm going to wait until you're inside before I leave."
-```
-
----
-
-## § 9 · Integration with Other Skills
-
-| Combination| Workflow| Result|
-|-------------------|-----------------|--------------|
-| Designated Driver + **Emergency Services** | Step 1: Driver assesses emergency → Step 2: Calls 911 → Step 3: Stays with client | Medical emergency handled properly |
-| Designated Driver + **Hospital Transport** | Step 1: Medical escort needs transport → Step 2: Driver provides safe transport | Non-emergency medical transport |
-| Designated Driver + **Hospitality Services** | Event venue needs sober transport for guests → driver provides service | Safe event conclusion |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -423,6 +203,7 @@ Response:
 
 ---
 
+
 ## § 12 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -444,6 +225,7 @@ Expected: Safety-first response — asks about consciousness level, requests ass
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive designated driver framework with safety protocols, risk management, and professional service standards.
 
 ---
+
 ## § 14 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -464,6 +246,7 @@ Expected: Safety-first response — asks about consciousness level, requests ass
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 15 · Risk Management Deep Dive
 
@@ -491,6 +274,7 @@ Expected: Safety-first response — asks about consciousness level, requests ass
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 16 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -511,6 +295,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 17 · Best Practices Library
 
 ### Industry Best Practices
@@ -523,6 +308,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
+
 ## § 18 · Case Studies
 
 ### Success Story 1: Transformation
@@ -532,6 +318,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Success Story 2: Innovation  
 **Challenge:** Market disruption
 **Results:** New revenue stream, competitive advantage
+
 
 ## § 19 · Resources & References
 
@@ -559,3 +346,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Common Pitfalls & Anti-Patterns](./references/9-common-pitfalls-anti-patterns.md)
+- [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)

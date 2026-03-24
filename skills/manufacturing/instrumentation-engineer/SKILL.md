@@ -73,6 +73,7 @@ metadata:
 
 # Instrumentation Engineer
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,137 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Sensor Selection** — Recommend optimal sensor type, range, accuracy, and materials for specific process conditions
-2. **Measurement System Design** — Design complete measurement chains from sensor to display/control
-3. **Calibration Protocol Development** — Specify calibration procedures, intervals, and traceability requirements
-4. **Control Loop Analysis** — Diagnose control issues, recommend tuning parameters, identify instability causes
-5. **Safety System Assessment** — Evaluate SIL requirements, recommend safety instrumented functions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Safety Instrument Failure** | 🔴 High | Incorrect SIL-rated instrument selection can cause catastrophic failure | Always verify SIL requirements; recommend certified instruments (TÜV, exida) |
-| **Hazardous Area Ignition** | 🔴 High | Non-compliant instrumentation in flammable atmospheres causes explosions | Verify area classification; recommend properly rated instruments (ATEX, IECEx) |
-| **Measurement Error** | 🟡 Medium | Inaccurate measurement causes off-spec product or unsafe conditions | Specify appropriate accuracy; implement proper installation and calibration |
-| **Calibration Drift** | 🟡 Medium | Undetected drift causes gradual process deviation | Establish calibration intervals based on instrument stability data |
-
-**⚠️ IMPORTANT:**
-- Safety instrumented systems (SIS) require formal safety lifecycle management per IEC 61511
-- Always specify hazardous area classification before instrument selection
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Measurement Chain
-
-```
-┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-│   PRIMARY  │→▶│  SIGNAL     │→▶│   SIGNAL    │→▶│   OUTPUT    │
-│   ELEMENT  │   │  TRANSMITTER│  │  CONDITIONING│  │   DEVICE   │
-├─────────────┤   ├─────────────┤   ├─────────────┤   ├─────────────┤
-│ • Sensor   │   │ • 4-20mA    │   │ • Isolation │   │ • DCS/PLC   │
-│ • Element  │   │ • HART      │   │ • Filtering │   │ • Indicator│
-│ • Probe    │   │ • Fieldbus  │   │ • Conversion│   │ • Recorder  │
-└─────────────┘   └─────────────┘   └─────────────┘   └─────────────┘
-       │               │               │               │
-       └───────────────┴───────────────┴───────────────┘
-                     ▼
-            Total Measurement Uncertainty
-            = √(sensor² + transmitter² + installation²)
-```
-
-Each component contributes to total measurement uncertainty. The weakest link determines overall system accuracy.
-
-### 4.2 Guiding Principles
-
-1. **Fitness for Purpose**: Select instruments based on actual process requirements, not maximum specifications
-2. **Installability**: Consider installation environment, accessibility, and maintenance before final selection
-3. **Total Lifecycle Cost**: Include calibration, maintenance, and replacement costs in selection decisions
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **ISA S5.1** | P&ID Symbols and Instrumentation Identification |
-| **IEC 60534** | Control Valve Sizing |
-| **IEC 61511** | Functional Safety - SIS |
-| **API RP 550** | Manual of Petroleum Measurement Standards |
-| **HART Communication Protocol** | Digital communication for field instruments |
-| **Field Communicator (Rosemount 375)** | HART configuration and diagnostics |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Sensor Selection Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Temperature Selection** | Process temperature measurement | 1. Range → 2. Accuracy → 3. Response time → 4. Sheath material |
-| **Pressure Selection** | Pressure/DP measurement | 1. Range → 2. Media compatibility → 3. Accuracy → 4. Output |
-| **Flow Selection** | Fluid flow measurement | 1. Fluid type → 2. Reynolds number → 3. Accuracy → 4. Installation requirements |
-| **Level Selection** | Level measurement | 1. Media → 2. Interface → 3. Accuracy → 4. Tank geometry |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Measurement Accuracy** | ±(% of URL) | ±0.5% for control; ±1% for monitoring |
-| **Response Time** | Time to reach 63% of step | <1 sec for control; <10 sec acceptable for monitoring |
-| **Turndown Ratio** | Max range
-| **Stability** | Drift per year | <0.1% URL per year for precision applications |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Instrument Specification
-
-```
-Phase 1: Process Requirements
-├── Define measured variable: (temperature, pressure, flow, level)
-├── Determine operating range: (min, normal, max values)
-├── Specify accuracy requirements: (% of reading or URL)
-└── Identify process conditions: (media, temperature, pressure, hazards)
-
-Phase 2: Instrument Selection
-├── Select sensor type: (thermocouple, RTD, pressure transducer, etc.)
-├── Determine range: (URL = 1.25 × max operating)
-├── Choose output signal: (4-20mA, HART, Fieldbus)
-└── Specify materials: (wetted materials, housing)
-
-Phase 3: Installation & Commissioning
-├── Verify location: (representative measurement point)
-├── Check installation requirements: (orientation, insertion depth, piping)
-└── Configure transmitter: (range, damping, linearization)
-└── Perform loop check: (signal verification from sensor to DCS)
-
-Phase 4: Documentation
-├── Create instrument data sheets: (ISA format)
-├── Update P&IDs: (instrument tag, type, range)
-└── Establish calibration schedule: (interval based on stability data)
-```
-
-### 8.2 Control Loop Troubleshooting
-
-```
-Step 1: Identify symptoms - Oscillation, slow response, offset
-Step 2: Check valve - Positioner calibration, sticking, stiction
-Step 3: Check transmitter - Range, output, calibration
-Step 4: Check controller - Mode, PID settings, output
-Step 5: Tune or adjust - Based on root cause analysis
-```
-
----
 
 ## 9.1 Flow Measurement Selection
 
@@ -319,105 +189,6 @@ Step 5: Tune or adjust - Based on root cause analysis
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on instrumentation engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent instrumentation engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term instrumentation engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -435,6 +206,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -444,6 +216,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 | Instrumentation Engineer + **Safety Engineer** | IE provides instrument data → SE performs SIL verification | Compliant safety system |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -470,6 +243,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -491,6 +265,7 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with real standards (ISA, IEC), actionable specifications, and practical scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -511,6 +286,7 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -538,6 +314,7 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -558,6 +335,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -570,15 +348,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -601,3 +370,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

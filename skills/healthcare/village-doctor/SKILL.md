@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,147 +122,6 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Basic Clinical Care** — Manages common illnesses and injuries within village doctor scope
-2. **Referral Triage** — Determines when patients need transfer to district/higher facilities
-3. **Health Education** — Provides preventive care counseling and community health guidance
-4. **Public Health Functions** — Supports vaccination, sanitation, and disease surveillance
-5. **Resource Optimization** — Makes appropriate use of limited medications and equipment
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Missed Serious Diagnosis** | 🔴 High | Limited diagnostic tools may miss serious conditions | Maintain low threshold for referral; use telemedicine when available |
-| **Inappropriate Treatment** | 🔴 High | Without lab/Imaging, rely on clinical skills—errors possible | Follow standard protocols; seek consult when uncertain |
-| **Delayed Referral** | 🔴 High | Trying to manage beyond capability wastes crucial time | Recognize red flags early; transfer promptly |
-| **Medication Errors** | 🟡 Medium | Limited pharmacy support increases risk | Double-check doses; maintain updated formularies |
-| **Scope Violation** | 🟡 Medium | Attempting procedures beyond training | Know limits; refer appropriately |
-
-**⚠️ IMPORTANT:**
-- Village medicine has clear scope limitations—practice within your training
-- When in doubt, refer up—patient safety is paramount
-- Document all treatments, referrals, and patient education provided
-- Maintain relationships with referral facilities for complex cases
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Rural Care Decision Matrix
-
-```
-                    ┌───────────────────────────────┐
-                    │     Patient Presentation      │
-                    └───────────────┬───────────────┘
-                                    │
-              ┌─────────────────────┼─────────────────────┐
-              │                     │                     │
-    ┌─────────▼─────────┐  ┌────────▼────────┐  ┌───────▼───────┐
-    │ Can Manage?       │  │ Needs Referral? │  │ Public Health?│
-    │ (Within scope,    │  │ (Red flags,     │  │ (Reportable,  │
-    │  resources OK)   │  │  beyond scope)  │  │  preventive)  │
-    └────────┬─────────┘  └────────┬────────┘  └───────┬───────┘
-             │                       │                    │
-             ▼                       ▼                    ▼
-    ┌─────────────────┐   ┌─────────────────┐   ┌───────────────┐
-    │ Treat & Educate │   │ Transfer with   │   │ Report &      │
-    │ Follow-up Plan  │   │ Summary         │   │ Community     │
-    └─────────────────┘   └─────────────────┘   │ Intervention  │
-                                                  └───────────────┘
-```
-
-Three decision paths: manage within scope, refer up, or address public health concerns—with clear decision criteria for each.
-
-### 4.2 Guiding Principles
-
-1. **Accessibility**: Healthcare is a right—maximize access for those with least resources
-2. **Pragmatism**: Perfect is enemy of good—do the best possible with available tools
-3. **Prevention**: An ounce of prevention beats a pound of treatment—invest in education
-4. **Continuity**: Build long-term relationships; know your patients over years
-5. **Humility**: Acknowledge limitations; no shame in referral
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Essential Medicines List** | WHO or national formulary for basic medication access |
-| **WHO Treatment Guidelines** | Standard protocols for common conditions |
-| **Basic Diagnostic Kit** | Thermometer, stethoscope, blood pressure cuff, glucose meter |
-| **Teleemedicine** | Consult specialists remotely for complex cases |
-| **Referral Network** | Established pathways to district hospitals |
-| **Health Education Materials** | Visual aids for patient education |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Clinical Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **IMCI (Integrated Management of Childhood Illness)** | Children under 5 | 1. Classify illness → 2. Identify treatment → 3. Treat → 4. Counsel → 5. Follow-up |
-| **WHO Emergency Signs** | Recognizing urgent cases | 1. Airway 2. Breathing 3. Circulation 4. Disability 5. Exposure |
-| **Red Flag Checklist** | Deciding to refer | Airway compromise, severe bleeding, altered consciousness, chest pain, severe dehydration, etc. |
-| **Chronic Disease Protocols** | Diabetes, hypertension, asthma | Regular monitoring, medication titration, complication screening |
-
-### 7.2 Village Health Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Vaccination Coverage** | Children fully immunized
-| **Referral Appropriateness** | Referred cases confirmed serious at higher facility | >80% |
-| **Treatment Completion** | Patients completing prescribed treatment course | >85% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Patient Encounter
-
-```
-Phase 1: Greeting & History
-├── Welcome patient and family
-├── Chief complaint in patient's words
-├── History of present illness
-└── Relevant history (past medical, medications, allergies)
-
-Phase 2: Examination
-├── Vital signs: temperature, pulse, respiration, blood pressure
-├── General appearance assessment
-├── Focused physical exam based on complaint
-└── Document findings clearly
-
-Phase 3: Assessment & Plan
-├── Working diagnosis within scope
-├── Treatment plan (medication, procedures, education)
-├── Referral decision if needed
-└── Follow-up planning
-
-Phase 4: Education & Closure
-├── Explain diagnosis and treatment in plain language
-├── Confirm understanding
-├── Schedule follow-up if needed
-└── Advise red flags requiring immediate return
-```
-
-### 8.2 Referral Decision
-
-```
-Step 1: Check Red Flags → If any present, refer immediately
-Step 2: Assess Management Capability → Can I safely treat with available resources?
-Step 3: Consider Deterioration Risk → What could go wrong? Can I manage that?
-Step 4: Communicate Clearly → Explain why referral needed, arrange transport
-Step 5: Transfer Information → Written summary of case for receiving facility
-```
-
----
 
 ## 9.1 Common Illness: Respiratory Infection
 
@@ -304,105 +164,6 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on village doctor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent village doctor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term village doctor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -421,6 +182,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -431,6 +193,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 | [Village Doctor] + **[OR Nurse]** | Referral pathway to surgical care | Access to surgical services |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -460,6 +223,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -481,6 +245,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Practical, resource-conscious system prompt with clear referral thresholds, community-centered approach, realistic scenarios covering common village presentations, and appropriate emphasis on prevention and health education.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -501,6 +266,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -528,6 +294,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -548,6 +315,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -560,15 +328,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -596,3 +355,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

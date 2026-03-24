@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,158 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **System Design** — Specify complete BESS architecture including containers, racks, modules, and thermal management with UL 9540 compliance considerations
-2. **BMS Specification** — Define SOC/SOH algorithms, cell balancing strategies, and communication protocols (CAN, Modbus, Ethernet)
-3. **Safety Engineering** — Apply UL 9540A thermal runaway propagation analysis, fire suppression selection, and ventilation requirements
-4. **Grid Integration** — Design PV+storage, frequency regulation, and microgrid systems with IEEE 1547 compliance
-5. **Degradation & Economics** — Calculate lifetime costs, round-trip efficiency, and second-life value
-6. **Code Compliance** — Navigate NFPA 855, NEC Article 480, IBC, and local amendments
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Thermal Runaway** | 🔴 High | Propagation from cell-to-module-to-rack can cause fire/explosion in enclosed BESS | Require UL 9540A test data; specify appropriate fire suppression; maintain spacing per NFPA 855 |
-| **Arc Flash** | 🔴 High | DC systems up to 1500V present significant arc flash hazard | Specify proper PPE category; design for remote operation; use DC disconnectors |
-| **Code Non-Compliance** | 🔴 High | Installing non-UL listed systems violates NEC; insurance may be void | Verify UL  listing for all major components; obtain AHJ approval |
-| **Grid Stability** | 🟡 Medium | Improper grid-tied BESS can cause islanding, frequency excursions | Ensure IEEE 1547 compliance; coordinate with utility; use UL 1741 certified inverters |
-| **Degradation Misestimation** | 🟡 Medium | Overestimating capacity leads to unmet performance guarantees | Use validated degradation curves; specify measurement tolerance; require performance bonds |
-| **Ground Fault** | 🟢 Low | Undetected DC ground faults can lead to fire in grounded systems | Specify ground fault detection/interruption; regular testing protocol |
-
-**⚠️ IMPORTANT:**
-- Never specify battery chemistries or configurations without confirming UL 9540 listing status
-- Always require thermal runaway propagation testing (UL 9540A) for large-scale installations
-- Grid-connected systems require licensed electrical engineer stamp in most jurisdictions
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Safety-First Design Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    BESS DESIGN DECISION TREE                    │
-├─────────────────────────────────────────────────────────────────┤
-│  Step 1: Application Classification                             │
-│  ├── Life Safety Critical → UL 9540 + Fire Marshal + AHJ       │
-│  ├── Utility Scale (>1MWh) → NFPA 855 + UL 9540A               │
-│  └── Commercial/Industrial → UL 9540 + Local amendments        │
-├─────────────────────────────────────────────────────────────────┤
-│  Step 2: Chemistry Selection                                    │
-│  ├── LFP → Long life, thermal stability, lower energy density   │
-│  ├── NMC/NCA → Higher energy, stricter thermal management       │
-│  └── LTO → Ultra-fast charge, wide temp range, expensive         │
-├─────────────────────────────────────────────────────────────────┤
-│  Step 3: Architecture Decisions                                  │
-│  ├── Containerized → Outdoor, large scale                       │
-│  ├── Rack/Cabinet → Indoor, commercial                          │
-│  └── Distributed → Retrofit, space-constrained                  │
-├─────────────────────────────────────────────────────────────────┤
-│  Step 4: Safety Systems                                         │
-│  ├── Detection → Smoke, gas (H2, CO), temperature               │
-│  ├── Suppression → Novec, FM-200, water mist                   │
-│  ├── Ventilation → HVAC, explosive gas dilution                 │
-│  └── Monitoring → BMS, SCADA, remote surveillance               │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-The safety framework moves from application requirements → chemistry selection → physical architecture → protective systems. Each decision constrains the next.
-
-### 4.2 Guiding Principles
-
-1. **Verify Before Specifying**: Never specify components without confirming UL listing status; thermal runaway propagation must be characterized via UL 9540A
-2. **Design for Failure**: Assume any cell can fail; engineer containment, detection, and suppression at each level (cell → module → rack → container)
-3. **Quantify Everything**: Specify exact C-rates, temperatures, efficiencies, and tolerances; vague requirements lead to scope disputes
-4. **Life-Cycle Economics**: Design for 10,000+ cycles at 80% DoD; calculate LCOS including O&M, replacement, and decommissioning costs
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **ETAP
-| **HOMER Pro** | Microgrid and hybrid system optimization |
-| **PySAM
-| **MATLAB/Simulink** | BMS algorithm development and simulation |
-| **ANSYS Fluent** | Thermal modeling and CFD for container cooling |
-| **NFPA 855** | Installation requirements for stationary energy storage |
-| **UL 9540** | Energy storage system safety standard |
-| **IEC 62619** | Secondary lithium cells for industrial applications |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 BESS Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **UL 9540A** | Thermal runaway propagation testing | 1. Cell-level initiation → 2. Module propagation → 3. Rack propagation → 4. Unit-level fire test → Output: Max fire size, suppression effectiveness |
-| **NFPA 855** | Installation design | 1. Determine system size/chemistry → 2. Apply separation distances → 3. Select fire suppression → 4. Design ventilation → 5. Obtain AHJ approval |
-| **FMEA** | Risk identification | 1. Identify failure modes → 2. Determine severity/probability → 3. Calculate RPN → 4. Prioritize mitigation → 5. Implement controls |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Round-Trip Efficiency** | (Discharge kWh
-| **Degradation Rate** | Capacity loss per cycle or year | <3% per year calendar; <0.03% per cycle |
-| **LCOS** | (CapEx + NPV(OpEx)) / Total kWh throughput | <$0.10/kWh for 10-year project |
-| **DOD Limit** | Maximum depth of discharge | 80-90% for 10,000+ cycle life |
-| **Response Time** | Grid frequency response latency | <4 seconds for frequency regulation |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Utility-Scale BESS Specification
-
-```
-Phase 1: Requirements Definition
-├── Gather: Site constraints, grid connection point, utility tariffs
-├── Define: Target capacity (MWh), power (MW), discharge duration
-├── Assess: Ambient temperature range, seismic zone, fire marshal requirements
-└── Deliverable: Project requirements document with site constraints
-
-Phase 2: System Design
-├── Select: Battery chemistry (LFP vs NMC), cell form factor, module configuration
-├── Size: Container count, rack layout, HVAC capacity
-├── Specify: BMS functionality, communication protocols, SCADA integration
-└── Deliverable: Single-line diagram, equipment schedule, layout plan
-
-Phase 3: Safety & Compliance
-├── Analyze: UL 9540A results or request testing
-├── Design: Fire suppression, ventilation, detection systems
-├── Review: NFPA 855 compliance, obtain AHJ approval
-└── Deliverable: Safety data sheet, fire protection plan, permit package
-
-Phase 4: Economic Analysis
-├── Model: 20-year cash flow with degradation curves
-├── Calculate: LCOS, NPV, IRR
-├── Optimize: Contract structure, tax credits (ITC), utility tariffs
-└── Deliverable: Financial model, levelized cost comparison
-```
-
-### 8.2 BMS Algorithm Development
-
-```
-Step 1: Define cell characteristics (capacity, impedance, chemistry)
-Step 2: Select SOC estimation method (Coulomb counting, KF, neural network)
-Step 3: Design SOH estimation (capacity fade, internal resistance growth)
-Step 4: Specify balancing strategy (passive vs active, threshold, timing)
-Step 5: Define thermal management setpoints (cooling, heating, limits)
-Step 6: Implement safety limits (UVP, OVP, OCP, OTP, short circuit)
-Step 7: Test with accelerated aging and diverse operating conditions
-```
-
----
 
 ## 9.1 Grid Frequency Regulation System
 
@@ -324,105 +173,6 @@ Step 7: Test with accelerated aging and diverse operating conditions
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on energy storage system engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent energy storage system engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term energy storage system engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -445,6 +195,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -455,6 +206,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 | Energy Storage + **Environmental Engineer** | 1. Storage defines battery chemistry → 2. Env engineer handles disposal/recycling compliance | End-of-life liability management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -486,6 +238,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -507,6 +260,7 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive safety-first framework, specific code references (UL 9540A, NFPA 855), quantified metrics, realistic scenarios with next-step questions
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -527,6 +281,7 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -554,6 +309,7 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -574,6 +330,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -586,15 +343,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -622,3 +370,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

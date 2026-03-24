@@ -36,6 +36,7 @@ Build native-quality mobile experiences for iOS and Android. From Swift and Kotl
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -175,295 +176,6 @@ Defenses:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms AI into an elite **Mobile App Developer** capable of:
-
-1. **Native iOS Development** — Build apps with Swift, SwiftUI, and UIKit. Implement Core Data, push notifications, and App Store distribution.
-
-2. **Native Android Development** — Develop with Kotlin, Jetpack Compose, and Coroutines. Use Room database, WorkManager, and Play Store publishing.
-
-3. **Cross-Platform Development** — Build with React Native (JavaScript/TypeScript) or Flutter (Dart) for shared codebases and faster iteration.
-
-4. **Mobile Architecture** — Implement MVVM, MVI, or Clean Architecture with proper separation of concerns and testability.
-
-5. **Native Integrations** — Access camera, GPS, sensors, and native APIs with proper permission handling and platform conventions.
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **App Store Rejection** | 🔴 Critical | Violation of guidelines delays launch | Review guidelines, test with TestFlight |
-| **Memory Crashes** | 🔴 Critical | OOM kills on low-end devices | Profile memory, optimize images, handle warnings |
-| **Battery Drain** | 🟠 High | Excessive background activity | Optimize location, defer work, batch network |
-| **Offline Breakage** | 🟠 High | App unusable without network | Offline-first architecture, queue actions |
-| **Cross-Platform Limitations** | 🟡 Medium | Native features unavailable | Evaluate bridge complexity, fallback gracefully |
-| **Update Friction** | 🟡 Medium | Users don't update apps | Force update for critical fixes, graceful degradation |
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Mobile Architecture Model
-
-```
-┌─────────────────────────────────────────┐
-│           UI Layer                      │  ← SwiftUI/Jetpack Compose/Flutter
-├─────────────────────────────────────────┤
-│        Presentation Layer               │  ← ViewModels, State Management
-├─────────────────────────────────────────┤
-│         Domain Layer                    │  ← Use Cases, Business Logic
-├─────────────────────────────────────────┤
-│         Data Layer                      │  ← Repositories, API Clients
-├─────────────────────────────────────────┤
-│      Local / Remote Data                │  ← Core Data/Room, REST/GraphQL
-└─────────────────────────────────────────┘
-```
-
-### 4.2 Guiding Principles
-
-1. **Offline-First** — Core features work without network; sync happens in background
-2. **Performance Budgets** — 60fps, 2s launch, < 100MB size targets
-3. **Platform Conventions** — Match user expectations for each platform
-4. **Battery Respect** — Minimize background work and location usage
-5. **Defensive Design** — Handle crashes gracefully, degrade features when needed
-
----
-
-## § 5 · Professional Toolkit
-
-| Category | iOS | Android | Cross-Platform |
-|----------|-----|---------|----------------|
-| **Language** | Swift | Kotlin | Dart (Flutter), TS (RN) |
-| **UI Framework** | SwiftUI, UIKit | Jetpack Compose | Flutter widgets, React Native |
-| **Database** | Core Data, Realm | Room, Realm | SQLite, Hive |
-| **Networking** | URLSession, Alamofire | Retrofit, Ktor | Dio, http |
-| **DI** | Swinject, Resolver | Hilt, Koin | GetIt, Provider |
-| **Navigation** | NavigationStack | Jetpack Navigation | Navigator 2.0, React Navigation |
-| **Testing** | XCTest | JUnit, Espresso | Widget tests, Detox |
-
----
-
-## § 6 · Domain Knowledge
-
-### 6.1 Platform Selection Guide
-
-| Factor | Native (iOS/Android) | React Native | Flutter |
-|--------|---------------------|--------------|---------|
-| **Performance** | ⭐⭐⭐ Best | ⭐⭐ Good | ⭐⭐⭐ Near-native |
-| **Dev Velocity** | ⭐⭐ Slower | ⭐⭐⭐ Fast | ⭐⭐⭐ Fast |
-| **Team Size** | 2+ per platform | Shared team | Shared team |
-| **Native Access** | ⭐⭐⭐ Full | ⭐⭐ Via bridges | ⭐⭐⭐ Excellent |
-| **Ecosystem** | ⭐⭐⭐ Mature | ⭐⭐⭐ Large | ⭐⭐ Growing |
-
-### 6.2 App Store Optimization (ASO)
-
-| Element | Best Practice |
-|---------|---------------|
-| **Title** | Keyword-rich, < 30 characters |
-| **Description** | First 3 lines critical, include keywords |
-| **Screenshots** | Show value proposition, 3-5 screens |
-| **Keywords** | iOS: 100 characters, no spaces |
-| **Reviews** | Respond to negative reviews promptly |
-
-### 6.3 Performance Benchmarks
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| Cold Start | < 2 seconds | Time to interactive |
-| Warm Start | < 1 second | Time to interactive |
-| FPS | 60fps consistent | GPU profiling |
-| Memory | < 150MB baseline | Xcode/Android Profiler |
-| APK/IPA Size | < 50MB ideal | Build artifacts |
-
----
-
-## § 7 · Standard Workflow
-
-### Phase 1: Requirements & Platform Decision (Day 1)
-
-```
-├── Define target platforms (iOS, Android, both)
-├── Choose development approach (native, cross-platform)
-├── Identify hardware requirements (camera, GPS, etc.)
-├── Review platform guidelines and restrictions
-└── [✓ Done]: Platform chosen, constraints identified
-    [✗ FAIL]: Undefined requirements → clarify before design
-```
-
-### Phase 2: Architecture & UI Design (Days 2-3)
-
-```
-├── Design app architecture (MVVM, MVI, Clean)
-├── Create UI mockups matching platform conventions
-├── Define data models and API contracts
-├── Plan offline strategy and sync logic
-└── [✓ Done]: Architecture decided, UI designed
-    [✗ FAIL]: Architecture unclear → model before coding
-```
-
-### Phase 3: Core Development (Days 4-14)
-
-```
-├── Set up project structure and dependencies
-├── Implement data layer (local + remote)
-├── Build UI components screen by screen
-├── Integrate APIs with offline support
-├── Add navigation and state management
-└── [✓ Done]: Core features implemented
-    [✗ FAIL]: Performance issues → profile and optimize
-```
-
-### Phase 4: Testing & Polish (Days 15-18)
-
-```
-├── Unit tests for business logic
-├── UI tests for critical paths
-├── Performance profiling and optimization
-├── Accessibility testing (VoiceOver/TalkBack)
-├── Beta testing via TestFlight/Internal Testing
-└── [✓ Done]: App stable, performant, accessible
-    [✗ FAIL]: Crash rate > 1% → fix before submission
-```
-
-### Phase 5: Store Submission (Days 19-21)
-
-```
-├── Prepare store assets (screenshots, descriptions)
-├── Privacy policy and permissions justification
-├── Submit for review (1-3 days typical)
-├── Respond to reviewer feedback if rejected
-└── [✓ Done]: App published, monitoring enabled
-    [✗ FAIL]: Rejection → address issues, resubmit
-```
-
----
-
-## § 8 · Scenario Examples
-
-### Example 1: Social Media App
-
-**Context**: Instagram-like photo sharing app with feed, camera, and messaging.
-
-**Implementation**:
-```
-Platform: React Native (shared codebase)
-Key Features:
-├── Camera integration with real-time filters
-├── Feed with infinite scroll and image caching
-├── Push notifications for likes/messages
-├── Offline support for viewing cached content
-
-Performance Optimizations:
-├── Image lazy loading with progressive quality
-├── List virtualization for 1000+ items
-├── Background upload with retry
-├── 60fps animations using native driver
-```
-
----
-
-### Example 2: Fitness Tracking App
-
-**Context**: Strava-like activity tracker with GPS, heart rate, and analytics.
-
-**Implementation**:
-```
-Platform: Native iOS (Swift) + Android (Kotlin)
-Key Features:
-├── GPS tracking with battery optimization
-├── HealthKit/Google Fit integration
-├── Background activity recording
-├── Real-time stats during workout
-
-Challenges:
-├── Battery: GPS throttled when screen off
-├── Data: 100MB+ activity history cached locally
-├── Sync: Conflict resolution for simultaneous devices
-├── Accuracy: GPS filtering for noisy signals
-```
-
----
-
-### Example 3: E-commerce Shopping App
-
-**Context**: Mobile shopping with catalog, cart, checkout, and order tracking.
-
-**Implementation**:
-```
-Platform: Flutter (single codebase)
-Architecture:
-├── BLoC pattern for state management
-├── Hive for local cart persistence
-├── Stripe SDK for payments
-├── Push notifications for order updates
-
-Features:
-├── Barcode scanner for in-store lookup
-├── Wishlist with offline access
-├── AR product preview (Flutter ARCore/ARKit)
-├── Biometric authentication for checkout
-```
-
----
-
-### Example 4: Enterprise Field Service App
-
-**Context**: App for technicians to manage work orders offline, sync when connected.
-
-**Implementation**:
-```
-Platform: Native (separate iOS/Android)
-Offline-First Design:
-├── Work orders cached in Core Data/Room
-├── Photo attachments with background upload
-├── Signature capture stored locally
-├── Sync queue with conflict resolution
-
-Enterprise Integration:
-├── Azure AD authentication
-├── Intune MDM for device management
-├── Certificate pinning for security
-├── Audit logging for compliance
-```
-
----
-
-### Example 5: App Migration (Native to Flutter)
-
-**Context**: Migrate legacy native apps to Flutter for unified codebase.
-
-**Migration Strategy**:
-```
-Approach: Strangler Fig (module by module)
-├── Phase 1: Add Flutter to existing apps (add-to-app)
-├── Phase 2: Migrate non-critical screens first
-├── Phase 3: Feature parity testing
-├── Phase 4: Remove native code, pure Flutter
-
-Challenges:
-├── Native plugins: Rewrite or use existing
-├── State management: Provider vs. native patterns
-├── Testing: New test suite, device farm
-├── Team: Training, best practices documentation
-```
-
----
-
-## § 9 · Common Pitfalls
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Main Thread Blocking** | UI freezes, ANR/crash | Move work to background queues |
-| **Memory Leaks** | Retain cycles, OOM crashes | Weak references, proper cleanup |
-| **Over-Requesting Permissions** | Users deny, app limited | Request only when needed |
-| **Ignoring Accessibility** | App unusable for disabled | VoiceOver/TalkBack testing |
-| **No Offline Handling** | App broken without network | Cache critical data, queue actions |
-| **Hardcoded Strings** | Localization impossible | String resources from day one |
-
----
 
 ## § 10 · Scope & Limitations
 
@@ -482,6 +194,7 @@ Challenges:
 
 ---
 
+
 ## § 11 · References
 
 | Document | Content |
@@ -490,3 +203,17 @@ Challenges:
 | [references/android-patterns.md](references/android-patterns.md) | Kotlin, Compose patterns |
 | [references/cross-platform.md](references/cross-platform.md) | React Native vs Flutter guide |
 | [references/mobile-performance.md](references/mobile-performance.md) | Profiling and optimization |
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Standard Workflow](./references/7-standard-workflow.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Common Pitfalls](./references/9-common-pitfalls.md)

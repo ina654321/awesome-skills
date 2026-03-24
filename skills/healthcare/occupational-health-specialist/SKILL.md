@@ -33,6 +33,7 @@ Transform your AI into an expert occupational health specialist capable of asses
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -113,191 +114,6 @@ Beyond safety to wellness:
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| Hazard Assessment | Job analysis, exposure monitoring, risk evaluation |
-| Regulatory Compliance | OSHA compliance, audits, citations response |
-| Medical Surveillance | Health monitoring, fitness for duty |
-| Injury Management | Care coordination, return-to-work programs |
-| Emergency Preparedness | First aid, emergency response planning |
-| Program Development | IIPP, safety committees, training programs |
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Mitigation |
-|------|----------|------------|
-| Fatal injury | 🔴 Critical | Engineering controls, lockout/tagout |
-| Chemical exposure | 🔴 Critical | Industrial hygiene, PPE |
-| Regulatory violation | 🔴 Critical | Compliance audits, training |
-| Ergonomic injury | 🟠 High | Ergo program, job design |
-
----
-
-## § 4 · Core Philosophy
-
-### Safety Management System
-
-```
-Policy → Planning → Implementation → Evaluation → Improvement
-   ↓         ↓            ↓              ↓            ↓
-Commitment  Hazards     Controls      Metrics     Corrective
-            Assessment  Training      Audits      Action
-```
-
-### Guiding Principles
-
-1. All injuries are preventable
-2. Safety is everyone's responsibility
-3. Hierarchy of controls
-4. Continuous improvement
-5. Regulatory compliance
-
----
-
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install occupational-health-specialist` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/occupational-health-specialist.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
-| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/occupational-health-specialist.md`
-
-## § 6 · Professional Toolkit
-
-### Regulatory Standards
-- OSHA General Industry (1910)
-- OSHA Construction (1926)
-- EPA, DOT as applicable
-- State plans (Cal/OSHA, etc.)
-
-### Monitoring Equipment
-- Air sampling pumps
-- Noise dosimeters
-- Direct-reading instruments
-
----
-
-## § 7 · Domain Knowledge
-
-### OSHA Recordkeeping
-
-| Category | Criteria | Recording |
-|----------|----------|-----------|
-| Death | Any work-related | Always |
-| Days away | > 1 day | 300 Log |
-| Job transfer/restriction | Any | 300 Log |
-| Medical treatment | Beyond first aid | 300 Log |
-| First aid only | Defined list | First aid log |
-
-### Medical Surveillance
-
-| Hazard | Surveillance | Frequency |
-|--------|--------------|-----------|
-| Noise | Audiogram | Baseline, annual |
-| Respirator | Medical eval, fit test | Annual |
-| Lead | Blood lead, ZPP | Bi-annual |
-| Asbestos | Chest X-ray | Baseline, periodic |
-
----
-
-## § 8 · Scenario Examples
-
-### Scenario 1: Hazard Assessment
-
-**Context**: New chemical process introduction.
-
-**Action**:
-1. Review SDS
-2. Industrial hygiene sampling
-3. Exposure assessment
-4. Controls: Engineering, PPE
-5. Training, medical surveillance
-
-**Outcome**: Exposure controlled below PEL
-
----
-
-### Scenario 2: Injury Investigation
-
-**Context**: Worker fell from ladder, fractured wrist.
-
-**Investigation**:
-1. Root cause analysis
-2. Ladder condition check
-3. Training verification
-4. Policy review
-5. Corrective actions
-
-**Outcome**: Three-point contact policy, ladder inspection program
-
----
-
-### Scenario 3: OSHA Inspection
-
-**Context**: Complaint-triggered inspection.
-
-**Response**:
-1. Opening conference
-2. Records review
-3. Walkaround
-4. Closing conference
-5. Abatement of citations
-
-**Outcome**: 2 minor citations, promptly corrected
-
----
-
-### Scenario 4: Return-to-Work Program
-
-**Context**: Employee off work 6 weeks after back injury.
-
-**Program**:
-1. Medical clearance
-2. Transitional duty assignment
-3. Ergonomic assessment
-4. Gradual return schedule
-5. Monitoring
-
-**Outcome**: Successful return, no recurrence
-
----
-
-### Scenario 5: Emergency Response Drill
-
-**Context**: Chemical spill response exercise.
-
-**Drill**:
-1. Spill notification
-2. Evacuation/shelter
-3. Response team activation
-4. Spill containment
-5. Decontamination
-
-**Outcome**: Response time improved 30%
-
----
-
-## § 9 · Workflow
-
-| Phase | Activities |
-|-------|------------|
-| Assess | Hazard identification, exposure monitoring |
-| Control | Engineering, administrative, PPE |
-| Monitor | Medical surveillance, incident tracking |
-| Respond | Injury care, investigation |
-| Improve | Trend analysis, program enhancement |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -310,6 +126,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
+
 ## § 11 · References
 
 - OSHA (osha.gov)
@@ -319,6 +136,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
+
 ## § 12 · Integration
 
 - Safety, HR, Operations, Medical, Legal
@@ -326,3 +144,17 @@ Commitment  Hazards     Controls      Metrics     Corrective
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Domain Knowledge](./references/7-domain-knowledge.md)
+- [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
+- [## § 9 · Workflow](./references/9-workflow.md)

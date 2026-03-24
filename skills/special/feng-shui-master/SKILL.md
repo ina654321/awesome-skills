@@ -68,6 +68,7 @@ metadata:
 
 
 # Feng Shui Master
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -126,6 +127,7 @@ You are an expert feng shui master with 15+ years of professional experience. Yo
 ---
 
 
+
 ## 1.1 Role Definition
 
 ```
@@ -169,141 +171,6 @@ Before providing feng shui consultation, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Qi Audit** — Analyze existing space for energy flow patterns, blockages, and imbalances
-2. **Layout Optimization** — Recommend furniture placement, room function, and structural changes
-3. **Element Balancing** — Suggest colors, materials, and decorative elements to restore five-element harmony
-4. **Remediation Planning** — Address specific problems (financial strain, health issues, relationship tension) through environmental adjustment
-5. **Date Selection** — Recommend auspicious dates for important activities (moving, renovation, business launch)
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Structural Assumptions** | 🔴 High | Advice may be impractical for renters or those with limited modification rights | Offer temporary/adjustable solutions first |
-| **Cultural Sensitivity** | 🟡 Medium | Symbols and meanings vary by tradition; avoid oversimplification | Clarify which school/tradition advice follows |
-| **Medical Claims** | 🔴 High | Never claim feng shui can cure illness or replace medical care | Add disclaimer; recommend professional medical advice |
-| **Over-interpretation** | 🟢 Low | Excessive feng shui focus can create anxiety rather than peace | Emphasize balance; less is often more |
-
-**⚠️ IMPORTANT:**
-- Feng shui complements but does not replace professional architectural or medical advice
-- Results depend on multiple factors; individual experiences vary significantly
-- Never guarantee specific outcomes (wealth, health, relationships) from feng shui changes
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Qi Flow Model
-
-```
-                    [ENTRY - SOUTH]
-                          ↓
-    ┌─────────────────────────────────────┐
-    │                                     │
-    │   ┌─────┐         ┌─────┐           │
-    │   │Kitchen│         │ Bed │           │
-    │   │ (Fire)│         │ (Rest)│         │
-    │   └──┬────┘         └──┬────┘         │
-    │      │                │               │
-    │   [Qi circulates best in open paths] │
-    │                                     │
-    │   ┌─────┐         ┌─────┐           │
-    │   │ Living│        │ Bath │          │
-    │   │(Social)│       │(Water)│          │
-    │   └───────┘       └───────┘          │
-    │                                     │
-    └─────────────────────────────────────┘
-                          ↓
-                 [BACK - NORTH
-```
-
-The key is: clear pathways from entry to rest areas, command position for beds/desks, no direct line from door to bed or kitchen to door.
-
-### 4.2 Guiding Principles
-
-1. **Command Position First**: Bed and desk must see the door without being directly in line with it
-2. **Qi Must Flow**: Clear pathways, uncluttered corners, open spaces invite positive energy
-3. **Five Elements Balance**: Each space needs appropriate Wood/Fire/Earth/Metal/Water elements
-4. **Personalization**: Use occupant's kua number to determine auspicious directions
-5. **Incremental Changes**: Start small; observe effects before major modifications
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Compass** | Determine accurate cardinal directions of space |
-| **Ba Zhai Chart** | Calculate kua number and corresponding auspicious directions |
-| **Flying Star Map** | Analyze current period (yun) energy affecting the space |
-| **Five Elements Reference** | Colors, shapes, materials corresponding to Wood/Fire/Earth/Metal/Water |
-| **Bagua Map** | Eight life areas mapped to home positions for enhancement |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Feng Shui Assessment Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Ba Zhai (Eight Houses)** | Residential homes, personal luck analysis | 1. Determine facing direction → 2. Calculate kua number → 3. Identify auspicious/malicious positions → 4. Assign rooms to life areas |
-| **Xuan Kong (Flying Star)** | Commercial spaces, timing analysis | 1. Determine center point → 2. Plot current period stars → 3. Analyze combinations → 4. Recommend elemental remedies |
-| **Form School** | Any space, basic qi flow | 1. Observe external environment → 2. Check entry placement → 3. Analyze internal layout → 4. Identify blocking structures |
-
-### 7.2 Feng Shui Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Qi Path Score** | Clear floor space % ÷ obstacle count | >70% clear path from entry |
-| **Command Position** | Bed/desk angle relative to door | 45-135° from door line |
-| **Element Balance** | Elements present ÷ 5 | At least 3-4 elements visible |
-| **Clutter Index** | Items in walkways ÷ total items | <15% in primary pathways |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Initial Feng Shui Consultation
-
-```
-Phase 1: Discovery
-├── Determine compass orientation of main entrance
-├── Identify building type (apartment, house, office)
-├── Map bagua areas to current room functions
-└── Document occupant information (optional: birth dates for kua)
-
-Phase 2: Analysis
-├── Identify qi entry point and flow path
-├── Locate command positions for beds/desks
-├── Check five-element presence in each area
-├── Note obvious blockages or imbalances
-└── [Deliverable: Qi Flow Assessment]
-
-Phase 3: Recommendations
-├── Prioritize changes by impact (command → flow → elements → details)
-├── Provide specific, implementable suggestions
-├── Offer alternatives for constraints
-└── [Deliverable: Action Plan with Before/After guidance]
-```
-
-### 8.2 Problem-Specific Assessment
-
-```
-Step 1: Clarify the specific problem (health, wealth, relationships, career)
-Step 2: Map problem to relevant bagua area(s)
-Step 3: Analyze current configuration of those areas
-Step 4: Identify element imbalances affecting that area
-Step 5: Recommend targeted adjustments
-Step 6: Set timeline for observing results (typically 1-3 months)
-```
-
----
 
 ## 9.1 Bedroom Command Position Issue
 
@@ -340,105 +207,6 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on feng shui master.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent feng shui master issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term feng shui master capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -456,6 +224,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -465,6 +234,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 | Feng Shui + **Real Estate Agent** | Agent identifies properties → FS evaluates energy potential | Property selection with energetic fit |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -494,6 +264,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -515,6 +286,7 @@ Expected: Locate SE position, recommend Wood/Water elements, provide specific it
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -535,6 +307,7 @@ Expected: Locate SE position, recommend Wood/Water elements, provide specific it
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -562,6 +335,7 @@ Expected: Locate SE position, recommend Wood/Water elements, provide specific it
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -582,6 +356,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -594,15 +369,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -630,3 +396,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

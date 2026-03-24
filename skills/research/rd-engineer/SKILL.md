@@ -64,6 +64,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -116,150 +117,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Concept Development** — Transform customer needs into technical specifications and viable product concepts using systematic ideation and feasibility analysis
-2. **Prototype Planning** — Design appropriate prototype strategies (proof of concept, functional prototype, production intent) based on learning objectives and resource constraints
-3. **Design Analysis** — Apply DFMEA, tolerance analysis, and design for manufacturability to ensure producible, reliable designs
-4. **Technical Problem Solving** — Diagnose root causes of technical failures and develop robust engineering solutions
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Safety-Critical Failure** | 🔴 High | Products that fail catastrophically cause injury or death | Apply industry-specific safety standards (IEC 60601, ISO 26262, FAA); mandatory DFMEA for critical functions |
-| **Design for Manufacturability Issues** | 🔴 High | Designs that cannot be produced at scale are worthless | DFM review early; involve manufacturing early in design process |
-| **Intellectual Property Exposure** | 🔴 High | Inadvertent patent infringement or inadequate IP protection | Prior art search; patent clearance review; IP strategy alignment |
-| **Regulatory Non-Compliance** | 🟡 Medium | Products that cannot meet market entry requirements | Map regulations early; design to compliance from start |
-| **Schedule/Cost Overruns** | 🟡 Medium | R&D projects that exceed budget or timeline | Stage-gate process with go/no-go criteria; contingency planning |
-
-**⚠️ IMPORTANT:**
-- Safety-critical designs require formal validation and verification per industry standards — no exceptions
-- Production designs must pass design review gates before proceeding to tooling
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Stage-Gate Development Process
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    STAGE-GATE PRODUCT DEVELOPMENT                      │
-├─────────────┬─────────────┬─────────────┬─────────────┬────────────────┤
-│   Concept   │  Feasibility│ Development │  Validation │  Launch        │
-│   (Gate 0)  │  (Gate 1)   │  (Gate 2)   │  (Gate 3)   │  (Gate 4)      │
-├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┤
-│ • Ideation  │ • Tech      │ • Detailed  │ • Testing   │ • Production   │
-│ • Needs     │   feasibility│   design    │ • Validation│   ramp-up      │
-│   analysis  │ • Business  │ • Prototyping│ • Regulatory│ • Launch      │
-│ • Concept   │   case      │ • DFMEA     │   approval  │ • Support      │
-│   screening │ • Risk      │ • Supplier  │ • Safety    │                │
-│             │   assessment│   selection │   certification│            │
-└─────────────┴─────────────┴─────────────┴─────────────┴────────────────┘
-         │            │            │            │            │
-    GO / NO-GO   GO / NO-GO   GO / NO-GO   GO / NO-GO   GO
-```
-
-**Philosophy:** Each gate is a filter — resources are committed progressively as technical and commercial risk decreases.
-
-### 4.2 Guiding Principles
-
-1. **Requirements Traceability**: Every design input must link to a customer need; every test must link to a requirement
-2. **Design for Testability**: If you can't measure it, you can't verify it — design in test points
-3. **Iteration Over Perfection**: Get something in users' hands early; the market is smarter than any analysis
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **DFMEA (Design FMEA)** | Systematic identification of potential failure modes and mitigation actions |
-| **Pugh Matrix** | Concept selection using weighted criteria |
-| **Tolerance Stack Analysis** | Ensure assembly fits across variation |
-| **DFM Guidelines** | Design for manufacturability checklists by process (injection molding, CNC, casting) |
-| **DFA Analysis** | Minimize assembly cost and complexity |
-| **CAE Tools** | FEA, CFD, motion simulation for design validation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Stage-Gate** | Any structured product development | Concept → Feasibility → Development → Validation → Launch |
-| **DFMEA** | Safety-critical or complex designs | 1. Define scope 2. Identify functions 3. Identify failure modes 4. Assess severity/occurrence/detection 5. Calculate RPN 6. Mitigate 7. Re-evaluate |
-| **Design for Manufacturability** | Preparing for production | 1. Material selection 2. Process selection 3. Tolerancing 4. Assembly considerations 5. Cost modeling |
-| **Pugh Concept Selection** | Choosing between concept alternatives | 1. Select datum concept 2. Score alternatives vs. criteria 3. Calculate weighted scores 4. Select winner |
-
-### 7.2 Technical Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Design Margin** | (Actual Strength - Applied Load)
-| **First Pass Yield (Prototype)** | Good parts
-| **RPN (Risk Priority Number)** | Severity × Occurrence × Detection | <100 for acceptable; >100 requires action |
-| **Tooling Lead Time** | Weeks from design freeze to first article | Benchmark vs. industry: 4-12 weeks typical |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Product Development Process
-
-```
-Phase 1: Concept Phase (2-8 weeks)
-├── Gather voice of customer (interviews, surveys, observations)
-├── Translate to user requirements and technical specifications
-├── Generate multiple concept alternatives (minimum 3)
-├── Conduct concept screening (Pugh matrix or decision matrix)
-└── Gate Review: Select concept(s) for feasibility
-
-Phase 2: Feasibility Phase (4-12 weeks)
-├── Technical feasibility analysis (can we build it?)
-├── Business case development (should we build it?)
-├── Prototypes: Proof of concept (barely functional)
-├── Risk assessment and mitigation planning
-└── Gate Review: Proceed to development?
-
-Phase 3: Development Phase (3-12 months)
-├── Detailed design (CAD, CAE, DFMEA)
-├── Build functional prototypes (multiple iterations)
-├── Design for manufacturability review
-├── Supplier selection and qualification
-└── Gate Review: Proceed to validation?
-
-Phase 4: Validation Phase (2-6 months)
-├── Design verification testing (does it meet requirements?)
-├── Design validation testing (does it satisfy user needs?)
-├── Regulatory certifications (if applicable)
-├── Production process validation
-└── Gate Review: Ready for launch?
-
-Phase 5: Launch (Ongoing)
-├── Production ramp-up
-├── Launch support and issue resolution
-├── Post-launch monitoring and continuous improvement
-```
-
-### 8.2 Problem Diagnosis Workflow
-
-```
-Step 1: Define the Problem - What failed? How did it fail? When?
-Step 2: Gather Data - Failure analysis, test results, customer complaints
-Step 3: Root Cause Analysis - 5 Whys, Fishbone, or fault tree
-Step 4: Identify Countermeasures - Design change, process change, detection
-Step 5: Implement and Validate - Test the fix works
-Step 6: Update Documentation - DFMEA, PFMEA, control plans
-```
-
----
 
 ## 9.1 Design for Manufacturability Review
 
@@ -318,105 +175,6 @@ Step 6: Update Documentation - DFMEA, PFMEA, control plans
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on rd engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent rd engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term rd engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -427,6 +185,7 @@ Step 6: Update Documentation - DFMEA, PFMEA, control plans
 | R&D Engineer + **Quality Engineer** | DFMEA → Control plans | Production quality from day one |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -454,6 +213,7 @@ Step 6: Update Documentation - DFMEA, PFMEA, control plans
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -475,6 +235,7 @@ Expected: Structured failure mode analysis; severity/occurrence/detection rating
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive stage-gate framework, detailed DFM guidance, real-world cost analysis, technical metrics with targets, actionable scenarios
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -495,6 +256,7 @@ Expected: Structured failure mode analysis; severity/occurrence/detection rating
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -523,6 +285,7 @@ Expected: Structured failure mode analysis; severity/occurrence/detection rating
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -543,6 +306,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -555,15 +319,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -609,3 +364,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

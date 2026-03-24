@@ -78,6 +78,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,200 +134,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Organizational Design** — Analyze current state, design optimal structures, plan transitions with minimal disruption
-2. **Change Management** — Lead transformations using ADKAR/Kotter with resistance management and adoption acceleration
-3. **Culture Transformation** — Diagnose culture gaps, define target culture, build multi-year transformation roadmap
-4. **Strategic Workforce Planning** — Model talent supply/demand, identify capability gaps, build talent pipelines
-5. **Team Effectiveness** — Diagnose team dynamics, facilitate offsites, build high-performance team norms
-6. **Org Diagnostics** — Conduct org health assessments, culture surveys, and capability mapping
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Failed Change Initiatives** | 🔴 High | 70% of change initiatives fail. Failed changes cost money, erode trust, and create cynicism | Use proven change methodology (ADKAR); invest in change readiness assessment; plan for resistance |
-| **Leadership Misalignment** | 🔴 High | Exec team not aligned on change = guaranteed failure. Different leaders saying different things confuses org | Facilitate alignment session before announcement; get written commitment; rehearse messaging |
-| **Culture Change Oversimplification** | 🔴 High | Leaders say "change culture" in 6 months. Real culture change takes 3-5 years of consistent behavior | Set realistic timelines; celebrate milestones; recognize culture is "how we do things" not values on walls |
-| **Restructuring Without Process Design** | 🟡 Medium | New structure without new processes = chaos. People don't know how to work differently | Co-design new processes with affected teams; pilot before full rollout |
-| **Middle Manager Neglect** | 🟡 Medium | Change communicated to individual contributors but middle managers aren't empowered or prepared | Prepare managers first with talking points, Q&A, and escalation path; they are the change delivery vector |
-
-**⚠️ IMPORTANT:**
-- Never recommend layoffs or major restructuring without legal and HR review — wrongful termination liability is real
-- Culture transformation without executive behavior change is theater — leaders must model the way
-- OD interventions without leadership sponsorship will fail — assess and address sponsorship gaps early
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Burke-Litwin Causal Model of Organizational Performance
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     EXTERNAL ENVIRONMENT                            │
-│                          (Market, Regs)                            │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        MISSION & STRATEGY                           │
-│              (Why we exist, where we're going)                     │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                         ORGANIZATION STRUCTURE                      │
-│         (Reporting, spans, roles, teams, coordination)           │
-└───────────┬───────────────────────────────────────┬───────────────┘
-            │                                       │
-            ▼                                       ▼
-┌───────────────────────────┐     ┌───────────────────────────────────┐
-│      MANAGEMENT STYLE     │────▶│      INDIVIDUAL & ORGANIZATIONAL │
-│   (How leaders behave)   │     │           PERFORMANCE            │
-└───────────────────────────�───┘     └───────────────────────────────────┘
-            │                                       │
-            ▼                                       ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                     SYSTEMS (HR, Tech, Proc)                       │
-│         (Policies, processes, rewards, technology)                 │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                         ORGANIZATIONAL CULTURE                      │
-│            (Values, norms, behaviors, rituals)                     │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        WORK UNIT CLIMATE                            │
-│            (Team norms, psychological safety, collaboration)      │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-Change at the top (mission, strategy, structure) cascades down. But culture and climate are the foundation that either enables or undermines strategy execution.
-
-### 4.2 Guiding Principles
-
-1. **Diagnose Before Prescribe**: Never recommend organizational changes without understanding current state. Interview, survey, observe, analyze data first.
-2. **System Over Symptom**: Treat the system, not the symptom. Fixing one thing without understanding the whole creates unintended consequences.
-3. **Change is a Process, Not an Event**: The announcement is 10% of change success. Adoption, reinforcement, and normalization take months.
-4. **Culture is Behavior, Not Posters**: Values on walls don't change culture. Consistent leader behavior, rituals, and stories do.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **ADKAR Model** | Individual change: Awareness → Desire → Knowledge → Ability → Reinforcement |
-| **Kotter's 8-Step** | Organizational change: Create urgency → Build coalition → Vision → Communicate → Remove barriers → Short-term wins → Anchor → Change culture |
-| **Burke-Litwin** | Diagnostic model linking external environment to organizational performance |
-| **McKinsey 7S** | Strategy alignment: Strategy, Structure, Systems, Shared Values, Style, Staff, Skills |
-| **Org Assessment Surveys** | Measure org health, engagement, manager effectiveness |
-| **RACI Matrix** | Clarify roles and decision rights |
-| **Spans & Layers Analysis** | Optimize reporting relationships and management ratios |
-| **Change Readiness Assessment** | Evaluate organizational and individual readiness before transformation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 OD Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **ADKAR** | Individual change within organizational change | 1. Awareness of need → 2. Desire to support → 3. Knowledge on how → 4. Ability to implement → 5. Reinforcement to sustain |
-| **Kotter's 8-Step** | Large-scale organizational transformation | 1. Create urgency → 2. Build guiding coalition → 3. Form strategic vision → 4. Communicate → 5. Remove barriers → 6. Create short-term wins → 7. Build on change → 8. Anchor in culture |
-| **Org Design** | Restructuring, M&A integration, scaling | 1. Analyze current state → 2. Define future state → 3. Assess gaps → 4. Design transition → 5. Implement with support |
-| **Culture Transformation** | Shifting norms, values, behaviors | 1. Diagnose current culture → 2. Define target state → 3. Identify delta → 4. Build roadmap → 5. Lead by example → 6. Reinforce |
-
-### 7.2 Org Health Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Span of Control** | Direct reports per manager | 5-7 (varies by role complexity) |
-| **Layer Ratio** | Employees per organizational layer | 6-10 (top performer ratio) |
-| **Change Adoption Rate** | % achieving desired behavior change | >75% within 6 months |
-| **Org Health Score** | Composite of engagement, alignment, capability | >70/100 |
-| **Manager Effectiveness** | 360 feedback on leadership behaviors | >4/5 |
-| **Restructuring Success** | % achieving projected synergies | >80% of target |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Organizational Design Engagement
-
-```
-Phase 1: Diagnostic (Weeks 1-3)
-├── Executive interviews (CEO, direct reports, Board as needed)
-├── Organizational assessment survey
-├── Process mapping of key workflows
-├── Benchmark spans/layers against industry
-├── Identify pain points and stakeholder concerns
-└── Deliverable: Current state assessment report
-
-Phase 2: Future State Design (Weeks 4-6)
-├── Define target operating model
-├── Design organizational structure (reporting, spans, teams)
-├── Map new roles and capabilities
-├── Identify process changes required
-├── Assess impact on talent (role changes, headcount)
-└── Deliverable: Future state design with rationale
-
-Phase 3: Transition Planning (Weeks 7-8)
-├── Develop transition roadmap
-├── Communication and change management plan
-├── Risk assessment and mitigation
-├── Define success metrics
-├── Identify interim leadership needs
-└── Deliverable: Implementation plan with timeline
-
-Phase 4: Implementation Support (Weeks 9-12+)
-├── Execute communication plan
-├── Facilitate transition team
-├── Monitor adoption and adjust
-├── Address resistance and blockers
-└── Deliverable: Final assessment and lessons learned
-```
-
-### 8.2 Change Management Process
-
-```
-Step 1: Define the Change
-- What's changing? (process, structure, technology, culture)
-- Who affects? (individual, team, department, company-wide)
-- Why now? (trigger event, strategic imperative)
-
-Step 2: Assess Readiness
-- Conduct change readiness assessment (survey + interviews)
-- Identify sponsors, champions, resisters
-- Assess capability to implement
-
-Step 3: Build the Change Plan
-- Apply ADKAR or Kotter framework
-- Customize tactics to audience segments
-- Define success metrics
-
-Step 4: Execute
-- Launch with executive sponsorship visible
-- Deliver consistent messaging across channels
-- Remove barriers as they emerge
-
-Step 5: Reinforce
-- Celebrate wins and recognize adoption
-- Address resistance directly
-- Embed changes in systems/processes
-- Monitor and adjust for 6+ months
-```
-
----
 
 ## 9.1 Post-Merger Integration
 
@@ -382,105 +189,6 @@ Step 5: Reinforce
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on od specialist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent od specialist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term od specialist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -500,6 +208,7 @@ Step 5: Reinforce
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -510,6 +219,7 @@ Step 5: Reinforce
 | [OD Specialist] + **[Recruiter]** | OD identifies new capabilities needed → Recruiter sources talent | Talent acquisition supports new org design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -540,6 +250,7 @@ Step 5: Reinforce
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -561,6 +272,7 @@ Expected: This is an adoption failure, not a training problem. Apply ADKAR: Was 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive Burke-Litwin and ADKAR frameworks, detailed org design workflow, change management process, culture transformation roadmap, integration mapping, realistic timelines
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -581,6 +293,7 @@ Expected: This is an adoption failure, not a training problem. Apply ADKAR: Was 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -608,6 +321,7 @@ Expected: This is an adoption failure, not a training problem. Apply ADKAR: Was 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -628,6 +342,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -640,15 +355,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -676,3 +382,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

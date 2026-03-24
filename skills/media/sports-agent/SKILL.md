@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,142 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Contract Negotiation** — Draft, review, and negotiate player contracts with teams, including salary structure, guaranteed money, bonuses, and contract extensions
-2. **Endorsement Strategy** — Identify, secure, and manage brand partnership opportunities that align with athlete brand and maximize income
-3. **Career Management** — Provide strategic advice on career decisions, team selection, training decisions, and post-career planning
-4. **Financial Planning Coordination** — Work with financial advisors to structure earnings, manage taxes, and plan for retirement
-5. **Crisis Management** — Handle media relations, reputation management, and legal issues affecting athlete careers
-6. **Market Analysis** — Provide intelligence on team finances, salary cap situations, and market trends
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Contract Disputes** | 🔴 High | Improperly structured contracts can result in financial loss, breach claims, or career damage | Use standardized contracts; involve qualified sports attorneys |
-| **Endorsement Misalignment** | 🔴 High | Inappropriate brand partnerships can damage athlete reputation and market value | Conduct thorough brand vetting; require moral clauses |
-| **Salary Cap Violations** | 🔴 High | Negotiating contracts that violate league rules can void deals and incur penalties | Verify compliance with CBA and league regulations |
-| **Confidentiality Breaches** | 🟡 Medium | Leaking negotiation positions damages trust and negotiating leverage | Establish strict confidentiality protocols; limit information sharing |
-| **Unlicensed Representation** | 🟡 Medium | Acting without proper licensing can result in legal consequences and career bans | Maintain current certifications; operate only in licensed jurisdictions |
-
-**⚠️ IMPORTANT:**
-- This skill provides general guidance only — always involve qualified attorneys for contract review
-- Sports regulations vary significantly by league, country, and sport — verify jurisdiction-specific requirements
-- Never advise on tampering, contract violations, or any activity that could result in league sanctions
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Athlete-Centric Value Model
-
-```
-                    TOTAL ATHLETE VALUE
-                    ╔═══════════════╗
-                    ║  Contract     ║
-                    ║  Earnings     ║
-                    ╠═══════════════╣
-                    ║  Endorsements ║
-                    ║  + Brand      ║
-                    ╠═══════════════╣
-                    ║  Career       ║
-                    ║  Longevity    ║
-                    ╠═══════════════╣
-                    ║  Post-Career  ║
-                    ║  Planning     ║
-                    ╚═══════════════╝
-```
-
-The sports agent's role is to maximize the total value equation — not just immediate contract terms. A lower salary with better branding opportunities and career security may outweigh a bigger short-term deal.
-
-### 4.2 Guiding Principles
-
-1. **Total Package Over Salary**: Evaluate deals on guaranteed money, term security, role clarity, market size, and brand fit — not headline numbers
-2. **Long-term Wealth Building**: Prioritize financial security and brand equity over peak earnings years
-3. **Reputation as Currency**: Every action affects marketability; protect the athlete's brand as vigilantly as their contracts
-4. **Information Advantage**: Knowledge of market conditions, team needs, and comparable deals creates negotiating leverage
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Spotrac
-| **Sports Business Journal** | Industry news, deal tracking, and market trends |
-| **Sports contracts databases** | Model contracts and clause templates for specific leagues |
-| **Player Association resources** | CBA interpretation and player rights guidance |
-| **Brand valuation tools** | Athlete brand equity assessment for endorsement negotiations |
-| **Financial modeling (Excel)** | Contract structure analysis and long-term earnings projection |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Contract Negotiation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Comparable Deal Analysis** | Determining fair market value | 1. Identify 5-10 comparable players → 2. Adjust for performance, age, position → 3. Calculate percentile range → 4. Establish walk-away point |
-| **BATNA Development** | Creating negotiating leverage | 1. Identify alternative teams → 2. Quantify their interest → 3. Establish deadline pressure → 4. Prepare to walk away |
-| **Contract Structuring** | Maximizing guaranteed value | 1. Prioritize guaranteed money → 2. Structure incentives → 3. Include exit options → 4. Add option years |
-
-### 7.2 Performance Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Guaranteed Money %** | Guaranteed
-| **Cost Per Win** | Total Contract
-| **Endorsement-to-Salary Ratio** | Endorsement Income
-| **Career Earnings Index** | Career Earnings
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Contract Negotiation
-
-```
-Phase 1: Discovery & Assessment
-├── Gather player performance data and career trajectory
-├── Identify player's priorities (money, winning, location, role)
-├── Research team cap situation and organizational priorities
-└── Analyze comparable contracts in the league
-
-Phase 2: Strategy Development
-├── Determine target contract structure and walk-away points
-├── Identify leverage sources (competing teams, cap space, need)
-├── Prepare negotiation timeline and deadlines
-└── Develop messaging strategy for player and team
-
-Phase 3: Negotiation Execution
-├── Initial offer preparation and justification
-├── Counter-offer analysis and strategy adjustment
-├── Final terms structuring and guarantee verification
-└── Contract review with legal team
-
-Phase 4: Closure & Documentation
-├── Finalize contract language and bonuses
-├── Coordinate with team on announcement
-├── Update career management plan
-└── Document lessons for future negotiations
-```
-
-### 8.2 Endorsement Acquisition
-
-```
-Step 1: Brand Alignment Assessment — Evaluate brand fit with athlete image
-Step 2: Market Value Determination — Use comparable deals and brand equity data
-Step 3: Portfolio Strategy — Build diversified endorsement portfolio
-Step 4: Negotiation — Secure favorable terms with moral clauses
-Step 5: Relationship Management — Maintain long-term brand partnerships
-```
-
----
 
 ## 9.1 NFL Quarterback Contract Renewal
 
@@ -294,105 +159,6 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on sports agent.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent sports agent issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term sports agent capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -411,6 +177,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -420,6 +187,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 | Sports Agent + **Brand Strategist** | Agent secures deals → Strategist builds athlete brand | Enhanced endorsement value |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -446,6 +214,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -467,6 +236,7 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific frameworks, real-world contract examples, detailed negotiation strategies, proper risk disclosure
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -487,6 +257,7 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -514,6 +285,7 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -534,6 +306,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -546,15 +319,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -577,3 +341,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

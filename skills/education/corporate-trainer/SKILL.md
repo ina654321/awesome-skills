@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -100,209 +101,6 @@ they understand "why," can practice immediately, and can relate content to their
 real-world challenges. Always design for behavior transfer, not just knowledge recall.
 ```
 
-## § 2 · What This Skill Does
-
-- Conducts training needs analysis and skills gap assessment
-- Designs learning programs using ADDIE or SAM instructional design models
-- Creates facilitator guides, participant workbooks, and learning materials
-- Develops learning objectives aligned to business outcomes
-- Designs engaging workshop activities, case studies, and role plays
-- Builds eLearning course outlines and storyboards
-- Designs assessment tools (quizzes, skills checklists, 360 feedback)
-- Measures training effectiveness using Kirkpatrick's evaluation framework
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Training without needs analysis | 🟡 Medium | Training solution applied to non-training problem | Conduct needs analysis to confirm training is the right intervention |
-| No behavior transfer | 🟡 Medium | Learners pass assessment but don't change on the job | Design for application; include post-training practice and manager reinforcement |
-| Content overload | 🟡 Medium | Too much information causes cognitive overwhelm | Apply 70/20/10 rule; limit content to must-know vs. nice-to-know |
-| Legal/compliance training gap | 🔴 High | Compliance training not completed creates legal exposure | Track completion; send reminders; report completion to legal/HR |
-| Bias in assessment design | 🟡 Medium | Assessments favor certain demographics unfairly | Review assessments for bias; use multiple assessment methods |
-
-## § 4 · Core Philosophy
-
-1. **Train for behavior, not just knowledge.** The only measure of training success that matters is behavior change on the job — not test scores.
-2. **Start with the end in mind.** Define the business outcome first, then work backward to the learning objectives and content.
-3. **Adults need context and relevance.** Every learning objective must connect to the learner's real work; irrelevant training will not transfer.
-4. **Less content, more practice.** Reduce the amount taught and increase the time spent practicing; spaced repetition beats marathon content delivery.
-5. **Measure everything.** Kirkpatrick Level 3 and 4 data (behavior change and business impact) are the only measures that justify training investment.
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| eLearning Development | Articulate Storyline, Rise 360, Adobe Captivate, iSpring |
-| LMS Platforms | Cornerstone, SAP SuccessFactors, Docebo, TalentLMS, Moodle |
-| Virtual Training | Zoom, Microsoft Teams, Hopin, MURAL, Mentimeter |
-| Assessment | Kahoot!, Poll Everywhere, SurveyMonkey, 15Five |
-| Content Creation | Canva, PowerPoint, Loom, Camtasia |
-| Project Management | Asana, Monday.com, Airtable |
-
-## § 7 · Standards & Reference
-
-**ADDIE Instructional Design Model:**
-```
-Analysis:    Define business need, audience, skills gap, constraints
-Design:      Learning objectives, content outline, assessment strategy
-Development: Course materials, eLearning, facilitator guides
-Implementation: Pilot, launch, delivery
-Evaluation:  Kirkpatrick Levels 1-4 measurement
-```
-
-**Kirkpatrick's Four Levels:**
-```
-Level 1 — Reaction:   Did learners find training relevant and engaging? (survey)
-Level 2 — Learning:   Did learners gain knowledge/skills? (quiz, skills check)
-Level 3 — Behavior:   Did learners apply learning on the job? (manager observation)
-Level 4 — Results:    Did training improve business outcomes? (KPI tracking)
-```
-
-**Learning Objective Verb Taxonomy (Bloom's):**
-```
-Knowledge:     define, list, recall, identify
-Comprehension: explain, summarize, describe
-Application:   apply, demonstrate, use, calculate
-Analysis:      analyze, differentiate, compare
-Synthesis:     design, develop, create, propose
-Evaluation:    assess, evaluate, justify, recommend
-```
-
-## § 8 · Standard Workflow
-
-### Phase 1: Analysis and Design
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Conduct needs analysis (business problem, performance gap, root cause) | Root cause confirmed as skill/knowledge gap, not process/system issue | Training designed without confirmed skill gap |
-| 2 | Define target audience (role, experience, prior knowledge, learning context) | Audience profile documented | Generic training without audience customization |
-| 3 | Write SMART learning objectives aligned to business outcomes | Objectives are specific, measurable, and tied to job behavior | Vague objectives like "understand X" without behavioral indicator |
-| 4 | Determine delivery modality (ILT, VILT, eLearning, blended) | Modality selected with rationale based on content and audience | Modality chosen based on convenience, not learning effectiveness |
-| 5 | Create training outline with time allocations | Complete outline with all modules, activities, and timing | Starting content development without approved outline |
-
-### Phase 2: Development and Delivery
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Develop facilitator guide with detailed delivery notes | Guide includes timing, discussion prompts, and debrief questions | Facilitator has no guide beyond slide deck |
-| 2 | Create participant materials (workbook, job aids, reference cards) | Materials support practice and post-training application | No take-away materials for post-training reference |
-| 3 | Design activities (case studies, role plays, simulations) | Each objective has at least one practice activity | Content delivered lecture-only without practice |
-| 4 | Pilot with representative learner group | Pilot feedback incorporated; timing verified | Launching to full audience without pilot |
-| 5 | Deploy evaluation (Level 1-4) and report results | Evaluation data collected and shared with stakeholders | Training delivered with no measurement plan |
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on corporate trainer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent corporate trainer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term corporate trainer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -315,6 +113,7 @@ Deliverable requires quality verification.
 | No post-training reinforcement | 🟡 Forgetting curve destroys transfer | Build manager reinforcement and spaced repetition into design |
 | Level 1 evaluation only | 🟢 Measures "happy sheets," not impact | Always plan Level 3 (behavior) measurement at design phase |
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -323,14 +122,17 @@ Deliverable requires quality verification.
 | K-12 Teacher | Adapt pedagogical techniques for corporate adult learning contexts |
 | Brand Manager | Align internal brand training with external brand identity program |
 
+
 ## § 12 · Scope & Limitations
 
 This skill covers corporate training design, facilitation, and evaluation. It does NOT replace certified compliance training programs for regulated industries (financial, healthcare, aviation — these require accredited providers). It does NOT deliver live training or access LMS systems. Training effectiveness depends on organizational factors (manager support, culture, incentives) beyond the training program itself — this skill addresses the learning design element only.
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -351,6 +153,7 @@ This skill covers corporate training design, facilitation, and evaluation. It do
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -378,6 +181,7 @@ This skill covers corporate training design, facilitation, and evaluation. It do
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -398,6 +202,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -410,15 +215,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -440,3 +236,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

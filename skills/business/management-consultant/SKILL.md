@@ -79,6 +79,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -112,261 +113,6 @@ DELIVERABLE QUALITY:
 
 ---
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Problem structuring: issue trees, MECE decomposition, hypothesis generation
-- Business analysis: benchmarking, performance gap analysis, value driver analysis
-- Operating model design: organizational structure, RACI, process flows
-- Process improvement: Lean value stream mapping, Six Sigma DMAIC, bottleneck analysis
-- Change management: stakeholder mapping, communication planning, resistance management
-- Executive communication: pyramid principle, slide structure, story arc
-- Due diligence support: commercial, operational, and organizational assessment
-- Business case development: cost-benefit analysis, NPV/IRR, sensitivity analysis
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Analysis Paralysis | 🟡 High | Consulting can produce infinite analysis without decisions | Set decision deadline; 80% confidence is sufficient for action |
-| Solutions Without Context | 🟡 High | Applying a framework template without understanding client specifics | Diagnosis before prescription; every company is unique |
-| Change Resistance Underestimation | 🟡 High | Best strategy fails with poor implementation | Change management is 50% of every engagement; plan it upfront |
-| Recommendation Without Feasibility | 🟢 Medium | "Transform the culture" without a practical plan | Every recommendation has an implementation workplan |
-| Confidentiality | 🟢 Medium | Consulting access to sensitive business data creates confidentiality obligations | Treat all client data as confidential; anonymize examples |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Define Before Analyze** — Spending 15 minutes defining the problem precisely saves 15 hours of wasted analysis.
-2. **Structure is Thinking** — A MECE issue tree externalizes logic. If you can't draw the tree, you don't understand the problem.
-3. **Hypothesis-Driven Efficiency** — Generate the most likely answer first; use analysis to test and refine. Don't boil the ocean.
-4. **The So What? Test** — Every slide, every finding, every sentence must pass: "So what? Why does this matter to the decision?" If it can't, cut it.
-5. **Implementation is the Real Deliverable** — A brilliant strategy that isn't implemented is worth zero. Build for adoption from Day 1.
-6. **Disagree and Commit** — Push back on flawed thinking (including client thinking); then fully commit once direction is set.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Frameworks | MECE issue trees, 7-S (McKinsey), Value Chain (Porter), Business Model Canvas, SWOT |
-| Process Improvement | Lean value stream mapping, Six Sigma DMAIC, Theory of Constraints |
-| Financial Modeling | DCF, NPV/IRR, break-even analysis, sensitivity tables |
-| Change Management | Kotter 8-step, ADKAR, stakeholder mapping |
-| Communication | Pyramid Principle (Minto), SCR framework, SCQA |
-| Project Management | Work Breakdown Structure, Gantt, RACI, RAG status |
-| Data Analysis | Excel (advanced), Python (pandas), SQL, Tableau, Power BI |
-
----
-
-## § 7 · Standards & Reference
-
-### MECE Issue Tree Template
-
-```
-Problem Statement: [Why is profitability declining?]
-│
-├── Revenue issue?
-│   ├── Volume declining?
-│   │   ├── Market shrinking?
-│   │   └── Market share loss?
-│   └── Price declining?
-│       ├── Pricing strategy?
-│       └── Mix shift (lower-margin products)?
-│
-└── Cost issue?
-    ├── COGS increasing?
-    │   ├── Input cost inflation?
-    │   └── Efficiency declining (labor, waste)?
-    └── OpEx increasing?
-        ├── Fixed cost (overhead, rent)?
-        └── Variable cost (marketing, logistics)?
-
-MECE test for each level:
-✓ Mutually Exclusive: no overlap between branches
-✓ Collectively Exhaustive: if all branches are negative, problem is solved
-```
-
-### Pyramid Principle Slide Structure
-
-```
-Slide headline: Assertion (not topic)
-  ✗ BAD: "Revenue Performance Q3" (topic)
-  ✓ GOOD: "Revenue declined 12% due to European volume loss, not pricing" (assertion)
-
-Pyramid structure:
-  Governing thought (1 assertion = what we recommend
-  ├── Supporting argument 1 (evidence or reason)
-  ├── Supporting argument 2 (evidence or reason)
-  └── Supporting argument 3 (evidence or reason)
-
-Rule of 3: Three supporting arguments. Not 2 (feels thin). Not 4+ (feels exhausting).
-SCR setup (context slide):
-  S — Situation: "As previously agreed, our objective is to reduce COGS by 15%..."
-  C — Complication: "However, Q2 analysis reveals..."
-  Q — Question: "The key question then becomes..."
-  A — Answer: "Our recommendation is..."
-```
-
-### Change Management ADKAR Framework
-
-```
-A — Awareness: Do they know WHY the change is needed?
-D — Desire: Do they WANT to change? (can't force this; must address)
-K — Knowledge: Do they know HOW to change?
-A — Ability: Can they demonstrate the new behavior/skill?
-R — Reinforcement: Are new behaviors sustained and rewarded?
-
-Diagnosis: Which ADKAR element is the blocker?
-  If Awareness gap → more communication; leaders need to explain the "why"
-  If Desire gap → address WIIFM (What's In It For Me?); resistance management
-  If Knowledge gap → training; job aids; coaching
-  If Ability gap → practice; feedback loops; tools
-  If Reinforcement gap → incentive alignment; recognition programs; accountability
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Problem Structuring
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Problem definition | Problem statement agreed: 1 sentence, SMART | Jumping to solutions before agreeing on problem |
-| 2 | Issue tree construction | MECE tree passes mutual exclusivity and collective exhaustion tests | Missing a branch; overlapping branches |
-| 3 | Hypothesis generation | Top 3 most likely root causes ranked by probability | No hypotheses; pure inductive data mining |
-| 4 | Analysis plan | Which data answers which hypothesis; who gathers it | Starting analysis before knowing what question it answers |
-| 5 | Storyboard | Key slides and messages outlined before analysis | Starting with data; building story after |
-
-### Phase 2: Analysis and Communication
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Data analysis | Hypothesis proven/disproven; key drivers quantified | Descriptive stats only; no causal driver identification |
-| 2 | Findings synthesis | "Because of X (evidence), therefore Y (conclusion)" for each finding | Listing findings without so-what |
-| 3 | Recommendations | Specific, actionable recommendations with owner and timeline | "Improve customer service" without concrete action |
-| 4 | Implementation plan | Quick wins (30-60 days), medium (90 days), structural (6-12 months) | Recommendation with no implementation path |
-| 5 | Executive communication | Story arc: Situation → problem → insight → recommendation → ask | Data dump without narrative |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on management consultant.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent management consultant issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term management consultant capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -381,6 +127,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -392,6 +139,7 @@ Deliverable requires quality verification.
 | `data-analyst` | Data analysis to support consulting diagnoses |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -412,9 +160,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -435,6 +185,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -462,6 +213,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -482,6 +234,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -494,15 +247,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -524,3 +268,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

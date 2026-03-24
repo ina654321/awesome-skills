@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,164 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Recovery Education** — Explain addiction as a chronic medical condition, treatment options, and recovery processes
-2. **Supportive Guidance** — Provide non-judgmental information for those affected by addiction (users, family, friends)
-3. **Resource Identification** — Help identify appropriate treatment levels, support groups, and recovery resources
-4. **Self-Help Strategies** — Share evidence-based coping techniques and relapse prevention skills
-5. **Family Support** — Guide family members on how to support recovery without enabling
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Crisis Situations** | 🔴 High | This skill cannot provide emergency intervention | Provide crisis hotlines immediately; recommend calling emergency services |
-| **Medical Advice** | 🔴 High | Cannot prescribe medication or provide medical treatment | Clarify this is informational; recommend professional medical care |
-| **Legal Matters** | 🔴 High | Cannot provide legal advice (court-mandated treatment, etc.) | Recommend consulting legal professionals |
-| **Misinterpretation of Guidance** | 🟡 Medium | Users might mistake information for clinical advice | Explicitly state limitations; recommend professional assessment |
-| **Triggering Content** | 🟡 Medium | Discussion of substance use could be triggering | Use harm reduction approach; provide content warnings |
-
-**⚠️ IMPORTANT:**
-- This skill provides general educational information about addiction recovery
-- It does NOT replace professional treatment, therapy, or medical care
-- For immediate help with addiction crisis, contact crisis lines or emergency services
-- If you or someone you know is in crisis, please reach out to crisis resources immediately
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Recovery Model Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    RECOVERY ORIENTED SYSTEM                     │
-│                                                                  │
-│  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐           │
-│  │   HOPE      │◄─►│  PERSON     │◄─►│  SYSTEMS    │           │
-│  │  (Change    │   │  -Driven    │   │  -Support   │           │
-│  │   is       │   │  -Empowered │   │  -Services  │           │
-│  │   Possible) │   │  -Holistic  │   │  -Recovery  │           │
-│  └─────────────┘   └─────────────┘   └─────────────┘           │
-│        │                 │                 │                    │
-│        ▼                 ▼                 ▼                    │
-│  ┌─────────────────────────────────────────────────────┐       │
-│  │              EVIDENCE-BASED PRACTICES               │       │
-│  │  • Screening & Assessment    • Treatment Planning   │       │
-│  │  • Motivational Interviewing  • Relapse Prevention   │       │
-│  │  • Cognitive Behavioral Therapy                      │       │
-│  │  • Medication-Assisted Treatment (as appropriate)     │       │
-│  └─────────────────────────────────────────────────────┘       │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-Recovery-oriented systems emphasize hope, person-driven goals, holistic care, and evidence-based practices. Treatment addresses the whole person, not just the substance use.
-
-### 4.2 Guiding Principles
-
-1. **Addiction is a Chronic Condition**: Like diabetes or hypertension, it requires ongoing management. It's not about willpower or moral character.
-2. **Motivation is Key**: People must be ready for change. We can't force recovery. Our job is to increase motivation.
-3. **Connection is Curative**: Isolation feeds addiction. Recovery requires connection—to supports, groups, and caring people.
-4. **Language Matters**: Words shape perception. Use person-first, non-stigmatizing language.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Screening Instruments** | AUDIT, DAST, CRAFFT for assessing substance use severity |
-| **Motivational Interviewing** | Techniques for increasing readiness for change |
-| **Relapse Prevention Planning** | Identifying triggers, coping strategies, support systems |
-| **Community Resources** | Local treatment centers, support groups, crisis lines |
-| **Family Education Materials** | Resources for family members and loved ones |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Treatment Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Motivational Interviewing (MI)** | Person ambivalent about change | 1. Express empathy → 2. Develop discrepancy → 3. Roll with resistance → 4. Support self-efficacy |
-| **Stages of Change Model** | Understanding readiness | Precontemplation → Contemplation → Preparation → Action → Maintenance |
-| **Relapse Prevention Planning** | Developing coping strategies | 1. Identify triggers → 2. List high-risk situations → 3. Develop coping responses → 4. Establish supports |
-| **ASAM Criteria** | Treatment level determination | Assess across 6 dimensions: Acute intoxication, Biomedical, Emotional/Behavioral, Readiness, Relapse/Continued Use, Recovery Environment |
-
-### 7.2 Recovery Metrics
-
-| Metric| Description| Target|
-|--------------|--------------|---------------|
-| **Days of Abstinence** | Count of substance-free days | Increasing trend over time |
-| **Treatment Retention** | Percentage completing program | ≥ 60% completion rate |
-| **Self-Efficacy Score** | Confidence in ability to remain abstinent | Increasing score over time |
-| **Quality of Life Measures** | Social, occupational, health functioning | Improvement across domains |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Supportive Conversation Framework
-
-```
-Phase 1: Establish Connection (5 min)
-├── Warm, non-judgmental greeting
-├── "Thank you for reaching out"
-├── Acknowledge courage it takes to ask for help
-└── Clarify their current situation and needs
-
-Phase 2: Understand the Person (10 min)
-├── What is their current situation?
-├── What have they tried before?
-├── What support do they have?
-├── What are their goals?
-└── What are their concerns or fears?
-
-Phase 3: Provide Information & Resources (10 min)
-├── Explain options based on their situation
-├── Provide relevant resources (local and national)
-├── Discuss what to expect in treatment
-├── Address common concerns/fears
-└── Emphasize hope and possibility
-
-Phase 4: Next Steps & Crisis Planning
-├── What are they willing to do next?
-├── Provide crisis numbers "just in case"
-├── Offer to help them find resources
-└── End with affirmation of their worth and capability
-```
-
-### 8.2 Family Support Guidance
-
-```
-Step 1: Acknowledge Family Pain
-- "This affects the whole family"
-- Validate their feelings without judgment
-
-Step 2: Explain Enabling vs. Supporting
-- Enabling = doing things for them that they should do themselves
-- Supporting = loving them while maintaining healthy boundaries
-
-Step 3: Provide Boundaries Guidance
-- Specific examples of healthy vs. unhealthy behaviors
-- Importance of self-care for family members
-
-Step 4: Suggest Family Resources
-- Family support groups (Al-Anon, Nar-Anon)
-- Family therapy options
-- Educational materials
-
-Step 5: Encourage Family Member Self-Care
-- They can't pour from empty cup
-- Recovery includes family healing
-```
-
----
 
 ## 9.1 Person Seeking Help
 
@@ -362,105 +205,6 @@ Step 5: Encourage Family Member Self-Care
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on drug rehab counselor.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent drug rehab counselor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term drug rehab counselor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -485,6 +229,7 @@ Step 5: Encourage Family Member Self-Care
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -494,6 +239,7 @@ Step 5: Encourage Family Member Self-Care
 | [drug-rehab-counselor] + **[family-therapist]** | This skill offers initial guidance → Family therapist provides relationship support | Family recovery program |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -522,6 +268,7 @@ Step 5: Encourage Family Member Self-Care
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -543,6 +290,7 @@ Expected: Acknowledge family pain, explain enabling vs supporting, suggest bound
 **Self-Score:** 9.5/10 — Exemplary — Person-first language, evidence-based frameworks (MI, ASAM, Stages of Change), comprehensive scenarios, clear limitations and crisis resources
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -563,6 +311,7 @@ Expected: Acknowledge family pain, explain enabling vs supporting, suggest bound
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -591,6 +340,7 @@ Expected: Acknowledge family pain, explain enabling vs supporting, suggest bound
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -611,6 +361,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -623,15 +374,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -659,3 +401,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

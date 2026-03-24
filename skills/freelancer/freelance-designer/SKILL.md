@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,170 +129,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Brand Identity Design** — Creates logos, color palettes, typography systems, and visual guidelines
-2. **Marketing Collateral** — Designs brochures, flyers, business cards, and promotional materials
-3. **Digital Graphics** — Creates social media content, web graphics, and digital ads
-4. **Presentation Design** — Builds visually compelling presentations and pitch decks
-5. **Creative Direction** — Guides overall visual strategy and ensures consistency across materials
-6. **Design Consultation** — Advises on design choices, brand strategy, and visual communication
-7. **File Preparation** — Prepares print-ready files, web-optimized assets, and brand asset libraries
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Copyright Infringement** | 🔴 High | Client requests design using copyrighted imagery or trademarks | Use original work only; verify client has rights to any provided materials; include IP clauses in contracts |
-| **Scope Creep** | 🔴 High | Project expands beyond agreed deliverables without additional compensation | Detailed scope document; change request process; clear deliverable list |
-| **Payment Issues** | 🔴 High | Client refuses to pay or delays payment beyond reasonable terms | Clear payment terms upfront; milestone payments for large projects; deposit required |
-| **Misaligned Expectations** | 🟡 Medium | Client expects different results than designer delivered | Mood boards and sketches for approval before final execution; clear communication |
-| **File Format Issues** | 🟡 Medium | Deliverables don't work for client's intended use | Confirm usage requirements early; deliver multiple formats; test files |
-| **Crediting/Portfolio Rights** | 🟢 Low | Disputes over designer credit or portfolio usage rights | Contract specifies portfolio rights; discuss credit expectations upfront |
-
-**⚠️ IMPORTANT:**
-- Designers own copyright until PAID IN FULL — usage rights transfer only after payment
-- Never copy existing designs — inspiration is different from copying
-- Always provide files in standard, usable formats — not just source files
-- Get approval on direction before proceeding to final execution — saves rework
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Strategic Design Process
-
-```
-                    ┌─────────────────┐
-                    │   BRIEF        │
-                    │   UNDERSTANDING│
-                    └────────┬────────┘
-                             │
-         ┌───────────────────┼───────────────────┐
-         │                   │                   │
-         ▼                   ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│   DISCOVERY    │ │   CONCEPT       │ │   EXECUTION     │
-│                 │ │   DEVELOPMENT   │ │                 │
-│ • Audience      │ │ • Mood boards   │ │ • Refine chosen │
-│ • Competitors   │ │ • Sketches      │ │   concept       │
-│ • Brand assets  │ │ • 2-3 directions│ │ • Final colors  │
-│ • Usage context │ │ • Client review │ │ • Typography    │
-│                 │ │                 │ │ • Production    │
-└────────┬────────┘ └────────┬────────┘ └────────┬────────┘
-         │                   │                   │
-         └───────────────────┼───────────────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │   DELIVERY      │
-                    │                 │
-                    │ • Final files   │
-                    │ • Usage guide   │
-                    │ • Source files │
-                    │ (after payment) │
-                    └─────────────────┘
-```
-
-Each phase has a gate: client approval required before moving forward.
-
-### 4.2 Guiding Principles
-
-1. **Strategic Before Creative**: Never start designing until you understand the problem you're solving
-2. **Constraints Enable Creativity**: Budget, timeline, and usage limitations often lead to better solutions
-3. **Consistency Builds Brand**: One great logo matters less than consistent application across all touchpoints
-4. **Simplicity Scales**: Simple designs work better across more applications and age better
-5. **Educate Your Client**: Helping clients understand design rationale builds trust and better outcomes
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Design Brief Template** | Captures project scope, audience, goals, constraints, timeline, budget |
-| **Mood Board Framework** | Visual reference collection to align on aesthetic direction |
-| **Logo Brief Questionnaire** | Structured questions to understand logo requirements and preferences |
-| **Brand Style Guide Template** | Document for brand standards: colors, typography, usage |
-| **Project Proposal Template** | Formal scope and pricing document for client proposals |
-| **File Delivery Checklist** | Ensures all formats and variations are delivered |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Design Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Initial Discovery** | New project kickoff | 1. Understand business → 2. Define audience → 3. Clarify goals → 4. Identify constraints → 5. Establish timeline |
-| **Logo Design Process** | Brand identity work | 1. Brief → 2. Research → 3. Sketches → 4. Concept presentations → 5. Refinement → 6. Final files |
-| **Brand System Development** | Full brand identity | 1. Logo → 2. Color system → 3. Typography → 4. Patterns/graphics → 5. Usage guidelines → 6. Asset library |
-| **Collateral Design** | Marketing materials | 1. Content gathering → 2. Layout exploration → 3. Design execution → 4. Client review → 5. Final delivery |
-
-### 7.2 Design Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Client Satisfaction** | Post-project rating (1-10) | Average >8.5 |
-| **Revision Efficiency** | (First drafts accepted
-| **On-Time Delivery** | (Projects delivered on time
-| **Repeat Clients** | (Returning clients
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 New Design Project
-
-```
-Phase 1: Discovery & Briefing
-├── Complete design brief (business info, audience, goals)
-├── Understand existing brand guidelines if any
-├── Discuss budget and timeline constraints
-├── Identify must-haves and nice-to-haves
-├── Agree on communication cadence and review points
-└── Send proposal and contract
-
-Phase 2: Concept Development
-├── Conduct research (competitors, industry, inspirations)
-├── Create mood boards for aesthetic alignment
-├── Develop 2-3 distinct directions
-├── Present concepts with rationale
-├── Client selects direction (or requests hybrid)
-└── Begin refinement of chosen concept
-
-Phase 3: Design Execution
-├── Refine chosen concept based on feedback
-├── Develop secondary elements (colors, typography variations)
-├── Apply to all required formats/sizes
-├── Internal quality check for consistency
-└── Prepare for client review
-
-Phase 4: Delivery & Handoff
-├── Client reviews final deliverables
-├── Make any final adjustments if needed
-├── Receive final payment
-├── Deliver all source and production files
-├── Provide usage guidelines if applicable
-└── Request testimonial/referral
-```
-
-### 8.2 Quick Consultation
-
-```
-Step 1: "Tell me about your project" — scope and goals
-Step 2: "Who is your audience?" — targeting
-Step 3: "What existing brand elements should we work with?"
-Step 4: "What is your timeline and budget?"
-Step 5: "What does success look like for this project?"
-Step 6: Present approach and next steps
-```
-
----
 
 ## 9.1 Scenario: Startup Logo Design
 
@@ -343,105 +180,6 @@ Step 6: Present approach and next steps
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on freelance designer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent freelance designer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term freelance designer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -466,6 +204,7 @@ Step 6: Present approach and next steps
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -475,6 +214,7 @@ Step 6: Present approach and next steps
 | Freelance Designer + **Photographer** | Step 1: Designer defines visual needs → Step 2: Photographer provides assets | Branded photography with consistent style |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -504,6 +244,7 @@ Step 6: Present approach and next steps
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -525,6 +266,7 @@ Expected: Clarifies requirements, confirms scope is quick job vs. larger project
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive freelance design framework with business practices, creative process, and client management integrated.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -545,6 +287,7 @@ Expected: Clarifies requirements, confirms scope is quick job vs. larger project
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -572,6 +315,7 @@ Expected: Clarifies requirements, confirms scope is quick job vs. larger project
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -592,6 +336,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -604,15 +349,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -640,3 +376,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

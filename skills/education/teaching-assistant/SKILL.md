@@ -77,6 +77,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -137,149 +138,6 @@ Before responding to any teaching assistant request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Teaching Assistant** capable of:
-
-1. **Classroom Support** — Manage classroom routines, transitions, and behavioral guidance while maintaining a positive learning environment for 25-150 students
-
-2. **Instructional Delivery** — Deliver differentiated instruction, lead small groups, and provide one-on-one tutoring aligned with learning objectives
-
-3. **Assessment & Progress Monitoring** — Administer formative assessments, collect data on student progress, and identify students needing intervention
-
-4. **Material Development** — Create worksheets, graphic organizers, modified assessments, and learning center activities aligned with curriculum standards
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Misidentification of learning needs** | 🔴 High | Incorrectly identifying a learning disability vs. instructional gap leads to inappropriate support or delayed intervention | Always refer to formal assessments and collaborate with special education staff |
-| **Breaching student confidentiality** | 🔴 High | Sharing student information (grades, behavior, disabilities) with unauthorized parties violates FERPA/HIPAA | Share information only with educators who have legitimate educational interest |
-| **Inappropriate discipline** | 🔴 High | Using corporal punishment, humiliation, or excessive force violates school policy and law | Follow school-approved behavior management techniques; document all incidents |
-| **Inaccurate grade recording** | 🔴 High | Entering incorrect grades affects student records, transcripts, and future opportunities | Double-check all entries; have lead teacher verify before submission |
-| **Failing to report abuse** | 🔴 High | Not reporting suspected child abuse/neglect is a legal violation in all 50 states | Report immediately to designated school administrator; document observations factually |
-
-**⚠️ IMPORTANT**:
-- This skill provides educational guidance based on general best practices. Specific interventions must be developed in collaboration with certified teachers, special education staff, and administrators.
-- Always follow your school district's specific policies and procedures, especially regarding behavior intervention, mandatory reporting, and student privacy.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Gradual Release Model
-
-```
-           ┌─────────────────────────────┐
-           │   I Do (Modeling)           │  ← Teacher demonstrates thinking
-         ┌─┴─────────────────────────────┴─┐
-         │   We Do (Guided Practice)        │  ← Teacher and students work together
-       ┌─┴─────────────────────────────────┴─┐
-       │   You Do (Independent Practice)      │  ← Students apply independently
-     ┌─┴───────────────────────────────────────┴─┐
-     │   You Do (Transfer)                        │  ← Students extend to new contexts
-   └─────────────────────────────────────────────────┘
-```
-
-The Teaching Assistant supports students at each level: during "I Do" by reinforcing key points, during "We Do" by facilitating discussion, during "You Do" by providing scaffolds and feedback.
-
-### 4.2 Guiding Principles
-
-1. **Data-Informed Decisions**: Use assessment data to identify students needing additional support and to measure intervention effectiveness. Never rely on intuition alone.
-
-2. **Relationship First**: Students learn from people they trust. Invest time in building genuine relationships before expecting academic growth.
-
-3. **Scaffold and Fade**: Provide temporary support structures, then systematically remove them as students gain competence. Independence is the goal.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Canvas/Blackboard/Moodle** | Learning management for assignment distribution, grade recording, parent communication |
-| **Google Workspace/Office 365** | Document creation, collaboration, presentation tools |
-| **Assessment platforms** | Kahoot, Quizizz, Google Forms for formative assessment and data collection |
-| **SEIS/PowerSchool** | Student information system for attendance, grades, and demographic data |
-| **IEP/504 compliance tools** | Documentation systems for special education accommodations |
-| **Positive Behavior Interventions** | PBIS reward systems, behavior tracking apps, de-escalation protocols |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Instructional Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Gradual Release of Responsibility** | Planning lesson delivery | 1. Model → 2. Guide → 3. Independent Practice → 4. Transfer |
-| **Universal Design for Learning (UDL)** | Creating accessible materials | 1. Multiple means of engagement → 2. Representation → 3. Action/Expression |
-| **RTI/MTSS Tiered Intervention** | Identifying and supporting struggling students | 1. Universal screening → 2. Tier 2 intervention → 3. Tier 3 intensive support |
-| **Differentiated Instruction** | Planning for diverse learners | 1. Assess readiness → 2. Plan content/process/product variations → 3. Implement with flexibility |
-
-### 7.2 Classroom Management Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Instructional Time** | (Total lesson time - transitions/disruptions)
-| **Student Engagement** | Students actively participating
-| **Behavior Incident Rate** | Minor/major incidents per week | < 2 minor; 0 major per classroom |
-| **On-Task Behavior** | Observations of on-task behavior | > 85% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Small Group Instruction
-
-```
-Phase 1: Preparation (Before class)
-├── Review lesson objective and standards alignment
-├── Prepare differentiated materials (below-level, on-level, above-level)
-├── Set up learning center stations
-└── [✓ Done]: Materials organized and accessible
-    [✗ FAIL]: Missing materials → coordinate with lead teacher before instruction
-
-Phase 2: Delivery (During class)
-├── Orient students to task and success criteria
-├── Facilitate guided practice with frequent checks for understanding
-├── Provide immediate feedback and scaffolding
-├── Monitor independent practice while circulating
-└── [✓ Done]: All students demonstrate understanding before closing
-    [✗ FAIL]: >20% struggling → re-teach or provide additional support
-
-Phase 3: Assessment & Reflection (After class)
-├── Review exit ticket data and document observations
-├── Note students who need reteaching or extension
-├── Communicate progress to lead teacher
-└── [✓ Done]: Clear data on student mastery and next steps
-```
-
-### 8.2 Behavior Intervention
-
-```
-Step 1: Observe and Document
-  → Note antecedent, behavior, consequence (ABC data)
-  → Be objective: record facts, not interpretations
-
-Step 2: Implement Universal Strategies
-  → Proximity control, non-verbal cues, redirect to task
-  → Reinforce expected behavior when observed
-
-Step 3: Escalate Appropriately
-  → If behavior continues → implement classroom consequence
-  → If safety concern or repeated refusal → contact lead teacher
-
-Step 4: Follow Up
-  → Private conversation with student
-  → Restorative conversation if needed
-  → Document in behavior log
-```
-
----
 
 ## 9.1 Small Group Reading Intervention
 
@@ -340,105 +198,6 @@ Step 4: Follow Up
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on teaching assistant.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent teaching assistant issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term teaching assistant capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -463,6 +222,7 @@ Step 4: Follow Up
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -472,6 +232,7 @@ Step 4: Follow Up
 | Teaching Assistant + **Educational Technologist** | TA identifies need for tech integration → Techologist recommends and trains on tools | Effective use of edtech to enhance learning |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -501,6 +262,7 @@ Step 4: Follow Up
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -527,6 +289,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -547,6 +310,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -574,6 +338,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -594,6 +359,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -606,15 +372,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -642,3 +399,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

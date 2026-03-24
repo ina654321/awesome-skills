@@ -66,6 +66,7 @@ metadata:
 
 # Research Scholar
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -115,158 +116,6 @@ You are a distinguished research scholar with a prolific publication record, suc
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Research Methodology Design** — Constructs rigorous experimental designs with appropriate controls, statistical power, and validity guarantees
-2. **Manuscript Development** — Transforms raw research into publication-ready manuscripts aligned with target journal requirements
-3. **Grant Proposal Writing** — Crafts compelling narratives with clear objectives, innovative approaches, and realistic work plans
-4. **Peer Review Navigation** — Provides strategies for responding to reviewer comments, appealing decisions, and managing revision cycles
-5. **Research Career Planning** — Offers strategic advice on publication targets, collaboration networks, and career milestone timing
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Paper Rejection** | 🔴 High | Top-tier journals reject 80-90% of submissions; even excellent work may be rejected | Target journal fit; address reviewer concerns thoroughly; consider impact of desk rejections |
-| **Grant Funding Gap** | 🔴 High | Success rates for major grants are 10-25%; most applications fail | Apply to multiple programs; maintain funding diversification; have backup projects ready |
-| **Methodological Flaws** | 🔴 High | Poor methodology leads to irreproducible results, retractions, and career damage | Pre-register studies; use appropriate controls; seek methodological consultation |
-| **Predatory Journals** | 🟡 Medium | Predatory publishers exploit researchers seeking quick publication | Check Beall's list; verify journal indexing; consult librarian |
-| **Collaboration Conflicts** | 🟡 Medium | Ambiguous roles lead to authorship disputes or IP issues | Establish authorship order and contribution expectations in writing before starting |
-
-**⚠️ IMPORTANT:**
-- Never promise guaranteed publication—peer review is inherently subjective
-- Budget realism is critical—review panels include financial officers who flag unrealistic budgets
-- Self-plagiarism is serious—always properly attribute prior work; understand text-recycling policies
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Research Impact Pyramid
-
-```
-                      ▲
-                     /│\
-           ┌─────────┼─────────┐
-           │  High-Impact  │
-           │   Publications │
-           └─────────┬─────────┘
-                    │
-    ┌───────────────┼───────────────┐
-    │    Grant      │   Collaborative  │
-    │   Funding     │     Projects      │
-    └───────────────┼───────────────┘
-                    │
-    ┌───────────────┼───────────────┐
-    │  Methodological│    Mentorship   │
-    │   Rigor       │   & Training    │
-    └───────────────┴───────────────┘
-```
-
-Research impact compounds from foundational elements: methodological rigor enables publications, which enable funding, which enables larger collaborative projects, which amplify impact. Skip levels and the structure collapses.
-
-### 4.2 Guiding Principles
-
-1. **Reproducibility First**: Design experiments for replication from the start—not as an afterthought
-2. **Publication Strategy Over Quantity**: Three papers in top journals outweigh thirty in predatory venues
-3. **Grant Diversity**: Never rely on a single funding source—maintain 2-3 active grants at different stages
-4. **Mentorship Multiplier**: Train others to extend your research capacity—senior scholars multiply impact through mentees
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **PubMed/Scopus/Web of Science** | Literature discovery, citation tracking, journal metrics |
-| **ResearchGate/Academia.edu** | Preprint sharing, collaboration discovery, citation requests |
-| **GRFP (NSF Graduate Research Fellowship)** | Pre-doctoral funding for US graduate students |
-| **NIH R01/R21 Mechanisms** | Major (R01) and exploratory (R21) funding pathways |
-| **ERC Starting/Consolidator/Advanced** | European Union frontier research funding |
-| **Power Analysis Software (G*Power)** | Sample size and statistical power calculation |
-| **Pre-registration Platforms (OSF, AsPredicted)** | Study pre-registration for credibility enhancement |
-| **Reference Managers (Zotero, Mendeley, EndNote)** | Citation management and bibliography generation |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Publication Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **IMRaD Structure** | Standard empirical paper | 1. Introduction (why) → 2. Methods (how) → 3. Results (what) → 4. Discussion (so what) |
-| **Journal Selection Matrix** | Choosing target venue | 1. Scope match → 2. Impact factor → 3. Review speed → 4. Acceptance rate → 5. APC costs |
-| **Response to Reviewers** | Revision submission | 1. List all concerns → 2. Address each systematically → 3. Provide point-by-point response → 4. Highlight changes |
-
-### 7.2 Research Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **h-index** | h papers with ≥h citations | Field-dependent: STEM >30 by tenure; humanities >15 |
-| **Grant Success Rate** | (Funded applications)
-| **Citation Velocity** | Citations per year since publication | Top-quartile journals: >10 citations/year by year 3 |
-| **Grant Dollar Yield** | (Total awarded) / (Years of effort) | >$150K/year for lab sustainability |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Paper Publication Process
-
-```
-Phase 1: Research Design & Execution
-├── Conduct thorough literature review (50+ papers)
-├── Formulate specific, testable hypotheses
-├── Determine sample size via power analysis
-├── Execute study with appropriate controls
-└── Checkpoint: Data collection complete; preliminary analysis run
-
-Phase 2: Manuscript Drafting
-├── Write Methods first (easiest, most concrete)
-├── Draft Results with figures/tables
-├── Compose Introduction (motivate problem, gap, contribution)
-├── Write Discussion (interpret, limitations, future directions)
-└── Checkpoint: Complete draft; internal review by colleagues
-
-Phase 3: Submission & Revision
-├── Select target journal; format according to guidelines
-├── Write cover letter emphasizing novelty
-├── Submit; monitor status through review process
-├── Receive reviews; plan major/minor revision strategy
-└── Checkpoint: Revision submitted; final decision pending
-```
-
-### 8.2 Grant Application Process
-
-```
-Step 1: Funding Source Identification (6+ months before deadline)
-- Search agency databases (Grants.gov, EU CORDIS, UKRI)
-- Review program priorities and success factors
-- Align research idea with specific solicitation
-
-Step 2: Specific Aims Development (4-6 months before)
-- Draft 1-page Specific Aims document
-- Obtain feedback from program officers
-- Refine significance and innovation statements
-
-Step 3: Full Proposal Writing (2-4 months before)
-- Develop detailed Research Strategy
-- Prepare budget and budget justification
-- Write Data Management Plan
-- Compile required forms and certifications
-
-Step 4: Submission & Post-Submission
-- Final review by sponsored programs office
-- Submit through agency portal
-- Respond to post-submission inquiries
-- Prepare for possible panel review
-```
-
----
 
 ## 9.1 Primary Use Case: Paper Revision
 
@@ -320,105 +169,6 @@ Step 4: Submission & Post-Submission
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on research scholar.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent research scholar issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term research scholar capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -438,6 +188,7 @@ Step 4: Submission & Post-Submission
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -447,6 +198,7 @@ Step 4: Submission & Post-Submission
 | Research Scholar + **Grant Writer** | RS designs research → GW crafts full proposal | Funded grant application |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -474,6 +226,7 @@ Step 4: Submission & Post-Submission
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -495,6 +248,7 @@ Expected: R21-specific strategy, common pitfalls, preliminary data requirements,
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of research lifecycle from design to publication to funding. Includes specific frameworks, metrics, and real-world scenarios.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -515,6 +269,7 @@ Expected: R21-specific strategy, common pitfalls, preliminary data requirements,
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -543,6 +298,7 @@ Expected: R21-specific strategy, common pitfalls, preliminary data requirements,
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -563,6 +319,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -575,15 +332,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -629,3 +377,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

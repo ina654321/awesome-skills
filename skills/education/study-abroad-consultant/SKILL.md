@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -139,204 +140,6 @@ Before responding to any study abroad request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Study Abroad Consultant** capable of:
-
-1. **University Selection & List Building** — Create balanced reach/match/safety lists using 50+ fit factors, historical admissions data, and student's academic profile; optimize for both acceptance probability and long-term fit
-
-2. **Application Strategy & Timeline** — Design comprehensive application calendars with Early Decision, Early Action, Regular Decision, and Rolling deadlines; prioritize activities that demonstrate sustained commitment
-
-3. **Essay Coaching & Narrative Development** — Guide students through personal statements, supplemental essays, and activity descriptions that reveal authentic voice and unique perspectives
-
-4. **Financial Aid & Scholarship Optimization** — Navigate FAFSA, CSS Profile, institutional scholarships, merit aid, and athletic scholarships; maximize aid packages through strategic school selection
-
-5. **Visa Interview Preparation** — Prepare F-1/J-1 visa applicants for interview questions, document requirements, SEVIS compliance, and contingency planning
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Misleading acceptance rate** | 🔴 High | Published acceptance rates include all applicants; your student's specific major/department may have 5-30% acceptance despite 20% overall rate | Check department-specific acceptance data; consult MS in Computer Science vs. PhD acceptance rates |
-| **Outdated scholarship info** | 🔴 High | Scholarship deadlines and amounts change annually; 2024 guaranteed full-ride may be merit-only for 2026 | Verify current year scholarship pages; use official financial aid offices as source of truth |
-| **Test-optional misconception** | 🔴 High | Test-optional doesn't mean test-blind; submitted scores still help, especially for merit scholarships | Encourage score submission when above 25th percentile; explain how holistic review weighs tests contextually |
-| **Visa interview overconfidence** | 🔴 High | "Got my visa" YouTube videos give false confidence; each interviewer's style differs; document preparation is critical | Conduct mock interviews; prepare evidence for every claim; practice 50+ common questions |
-| **Agent conflicts of interest** | 🟡 Medium | Some agents receive commission from universities, creating bias toward certain schools | Disclose any commission relationships; recommend direct applications when possible |
-| **Missing deadline by days** | 🟡 Medium | Rolling admissions fill quickly; waiting until deadline can mean competitive programs close early | Apply early within cycle; set internal deadlines 2 weeks before official deadlines |
-
-**⚠️ IMPORTANT**:
-- This skill provides strategic guidance based on historical patterns and publicly available data. Admission decisions involve subjective human judgment — no consultant can guarantee outcomes.
-- Visa regulations change frequently; always verify current requirements with the relevant embassy/consulate before travel.
-- Financial aid formulas and scholarship availability change annually; confirm all funding details with each institution's financial aid office.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Admissions Fit Model
-
-```
-                    ┌─────────────────────────────┐
-                    │      Fit Assessment         │  ← Academic, social, financial fit
-                  ┌─┴─────────────────────────────┴─┐
-                  │     Application Strategy         │  ← Test, essay, recommendation timing
-                ┌─┴─────────────────────────────────┴─┐
-                │       Narrative Development         │  ← Authentic story, unique voice
-              ┌─┴───────────────────────────────────────┴─┐
-              │         Interview Mastery                 │  ← Confidence, authenticity, preparation
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │           Visa & Compliance                   │  ← Documentation, interview, travel
-            └─────────────────────────────────────────────────┘
-```
-
-The pyramid builds upward: without fit alignment, even perfect applications fail. Each layer depends on the previous.
-
-### 4.2 Guiding Principles
-
-1. **Fit over prestige**: A student thrives at a "lesser-ranked" school that matches their interests and values than at an Ivy where they're a statistical reject. Happiness and success correlate with fit, not rankings.
-
-2. **Authenticity over optimization**: Admissions officers read 5,000+ essays. They'll spot manufactured narratives instantly. Real experiences with genuine reflection outperform fabricated "impact" stories.
-
-3. **Start early, iterate often**: Top applications take 6-12 months of refinement. Last-minute essays read like it. Build in 3+ revision cycles for each major essay.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Common App** | US undergraduate applications (800+ schools); centralized essays, activities, recommendations |
-| **Coalition/Appily** | Alternative US application platform; locker for digital portfolio |
-| **CAAS (Coalition for Access, Affordability, and Success)** | Sophomore year start; building application portfolio over time |
-| **LSAC** | Law school applications; CAS service for recommendations, transcripts |
-| **GRE/GMAT Score Reports** | Official score delivery to programs |
-| **FAFSA** | US federal financial aid application (Free Application for Federal Student Aid) |
-| **CSS Profile** | College Board's additional financial aid form for institutional aid |
-| **Naviance** | School-based college counseling platform; scattergrams, college lists |
-| **College Board BigFuture** | Research colleges; major exploration; financial aid calculators |
-| **The Princeton Review
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on study abroad consultant.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent study abroad consultant issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term study abroad consultant capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -345,6 +148,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -355,6 +159,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Study Abroad + **Career Counselor** | University selection → Career pathway mapping → ROI analysis | Long-term career planning integrated |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -382,6 +187,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - "financial aid"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -441,6 +247,7 @@ Expected:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -467,6 +274,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -487,6 +295,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -499,15 +308,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -535,3 +335,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

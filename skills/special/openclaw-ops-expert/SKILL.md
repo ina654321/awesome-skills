@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -144,214 +145,13 @@ Before responding to any OpenClaw ops request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **OpenClaw Ops & Config Specialist** capable of:
-
-1. **Installation & Daemon Setup** — Walk through full installation (npm/pnpm, Node ≥22), daemon configuration (systemd/launchd), and onboarding wizard automation for headless environments
-
-2. **Gateway & Network Configuration** — Configure WebSocket gateway ports, bind addresses, remote access via Tailscale Serve/Funnel, and multi-instance setups
-
-3. **Channel Integration** — Set up and troubleshoot 20+ messaging platform integrations including OAuth flows, webhook endpoints, and device-dependent channels (iMessage, Signal)
-
-4. **Security & Access Control** — Configure DM policies, pairing codes, per-channel access rules, and Tailscale-based network-level access control
-
-5. **Skill & Model Management** — Install, update, and troubleshoot ClawHub skills; configure AI model providers (OpenAI, Anthropic, local endpoints)
-
-6. **Diagnostics & Incident Response** — Systematically diagnose gateway failures, channel disconnections, auth errors, and daemon crashes with targeted log analysis
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **DM policy set to `open`** | 🔴 High | Any user on the network can send messages to your OpenClaw instance; on a public IP this means unsolicited access from the internet | Only use `open` on Tailscale-scoped networks or verified private LANs; default to `pairing` |
-| **Gateway bound to 0.0.0.0** | 🔴 High | Binding the gateway to all interfaces without a firewall exposes the WebSocket port to the network; combined with `open` DM policy creates full remote control risk | Bind to `127.0.0.1` by default; use Tailscale Funnel for intentional remote access |
-| **API keys in openclaw.json** | 🔴 High | `~/.openclaw/openclaw.json` stored in plaintext; contains AI provider API keys and channel credentials; accessible to any process running as the same user | Set `chmod 600 ~/.openclaw/openclaw.json`; use a secrets manager or OS keychain integration |
-| **Daemon running as root** | 🟡 Medium | Installing the daemon with `sudo` causes the OpenClaw process to run as root; a compromised skill or agent can execute arbitrary commands with elevated privileges | Run daemon as a dedicated non-root user; use `User=openclaw` in systemd unit |
-| **Outdated Node.js runtime** | 🟡 Medium | Node <22 lacks native fetch and WebSocket APIs relied upon by OpenClaw; silent failures rather than clear error messages | Pin `engines.node: ">=22"` in your environment; use nvm or fnm for version management |
-| **Channel token expiry not handled** | 🟢 Low | OAuth tokens for Slack/Discord expire; gateway shows the channel as online but messages fail silently | Configure token refresh monitoring; set up `/ping` health-check commands per channel |
-
-**⚠️ IMPORTANT
-- OpenClaw agents can execute tools and browser automation on the host system. Only install skills from trusted ClawHub sources; review skill permissions before installation.
-
-- Device pairing (iOS/Android nodes) grants the agent access to camera, notifications, and screen recording. Revoke device pairings from `openclaw` CLI when not in use.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 OpenClaw Architecture Model
-
-```
-                    ┌─────────────────────────────────┐
-                    │       AI Model Providers         │  ← OpenAI / Anthropic
-                    └────────────────┬────────────────┘
-                                     │ API calls
-              ┌──────────────────────▼──────────────────────┐
-              │           Gateway (WebSocket :18789)          │  ← Control plane
-              │   ┌──────────┐  ┌──────────┐  ┌──────────┐  │
-              │   │ Channel  │  │  Agent   │  │  Skills  │  │
-              │   │  Router  │  │ Sessions │  │ Registry │  │
-              │   └────┬─────┘  └──────────┘  └──────────┘  │
-              └────────┼────────────────────────────────────┘
-                       │ Message routing
-     ┌─────────────────┼─────────────────────┐
-     │                 │                     │
-  ┌──▼──┐  ┌──────┐  ┌─▼───────┐  ┌───────┐ │  ┌────────┐
-  │ WA  │  │ TG   │  │  Slack  │  │Discord│ │  │iMessage│
-  └─────┘  └──────┘  └─────────┘  └───────┘ │  └────────┘
-  WhatsApp Telegram                          └── ... 20+ more
-```
-
-Messages flow: Messaging platform → Gateway → Agent session → AI model → response back through channel.
-
-### 4.2 Guiding Principles
-
-1. **Local-first, remote-by-choice**: Gateway binds to `127.0.0.1:18789` by default. Remote access is an intentional configuration step using Tailscale, not a default-on feature.
-
-2. **Workspace isolation as a feature**: Each agent workspace is independent. Use `AGENTS.md` and `SOUL.md` per workspace to scope agent behavior rather than relying on global config.
-
-3. **Idempotent operations**: `openclaw onboard --reinstall` should always be safe to run. Config changes should be applied via CLI or config file, never by manually editing daemon files.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **`openclaw gateway --verbose`** | Start gateway with full debug logging; first step for any connectivity diagnosis |
-| **`openclaw onboard`** | Interactive wizard for model selection, channel setup, and skill installation |
-| **`openclaw channels list`** | Show all configured channels with connection status |
-| **`openclaw skill install <name>`** | Install a skill from ClawHub registry |
-| **`launchctl` (macOS)** | Load/unload/restart the OpenClaw launchd daemon |
-| **`systemctl` (Linux)** | Start/stop/status/restart the OpenClaw systemd service |
-| **Tailscale Serve/Funnel** | Expose gateway WebSocket endpoint to Tailscale network (Serve) or internet (Funnel) |
-| **`~/.openclaw/openclaw.json`** | Primary config file: gateway, DM policy, model provider, channel settings |
-| **`nvm`
-
----
-
-## § 7 · Standards & Reference
-
-→ See [references/standards-reference.md](./references/standards-reference.md)
-
----
-
-## § 8 · Standard Workflow
-
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on openclaw ops expert.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent openclaw ops expert issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term openclaw ops expert capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -362,6 +162,7 @@ Messages flow: Messaging platform → Gateway → Agent session → AI model →
 | OpenClaw Ops + **Prompt Engineer** | Prompt Engineer crafts SOUL.md and AGENTS.md for agent persona → OpenClaw Ops deploys them into correct workspace directory with proper permissions | Customized per-channel agent behavior without polluting global configuration |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -394,6 +195,7 @@ Messages flow: Messaging platform → Gateway → Agent session → AI model →
 - "openclaw troubleshoot" / "openclaw 故障"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -432,6 +234,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -452,6 +255,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -479,6 +283,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -499,6 +304,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -511,15 +317,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -547,3 +344,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

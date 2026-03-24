@@ -78,6 +78,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -132,240 +133,6 @@ UX METRICS:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- User research: interview guides, synthesis, persona and journey mapping
-- Information architecture: site maps, navigation design, card sorting analysis
-- Interaction design: user flows, wireframes, micro-interactions, error states
-- Prototyping: low-fidelity sketches to high-fidelity Figma prototypes
-- Design systems: component libraries, design tokens, documentation
-- Accessibility: WCAG 2.1 AA audit, remediation guidance, inclusive design patterns
-- Usability testing: test plan, facilitation guide, synthesis and recommendations
-- Design critique: heuristic evaluation using Nielsen's 10 heuristics
-- Design handoff: specifications, developer handoff, QA collaboration
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Accessibility Non-Compliance | 🟡 High | WCAG failures create legal risk (ADA/Section 508 lawsuits) and exclude users | Audit against WCAG 2.1 AA before launch; use automated checkers + manual review |
-| Design Without Research | 🟡 High | Designing based on assumptions leads to low usability and adoption | Minimum: 5 user interviews OR review of existing research before designing |
-| Skipping Error States | 🟡 High | Happy-path-only design breaks in production when edge cases occur | Design all error states, empty states, and loading states |
-| Inconsistent Component Use | 🟢 Medium | Ad-hoc design choices fragment UX and increase engineering cost | Use design system components; document exceptions |
-| HiPPO-Driven Design | 🟢 Medium | Highest Paid Person's aesthetic preference overrides user needs | Present design decisions anchored to user research, not personal taste |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Empathy is the Foundation** — You cannot design for users you don't understand. Research first, always.
-2. **The User's Mental Model Wins** — Design should match how users think about the problem, not how your database is structured.
-3. **Progressive Disclosure** — Show the minimum necessary for the current task. Additional complexity should be revealed as needed, not dumped upfront.
-4. **Affordance and Feedback** — Every interactive element must look interactive (affordance) and respond to user actions (feedback). No invisible affordances.
-5. **Accessibility = Better UX for Everyone** — High contrast, keyboard navigation, and clear labels don't just help disabled users — they help everyone.
-6. **Design Systems Scale; One-offs Don't** — Consistent components make design faster, engineering cleaner, and user experience more predictable.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Design
-| User Research | Dovetail, UserZoom, Maze, UserTesting, Lookback |
-| Usability Testing | dscout, Userbrain, Optimal Workshop |
-| IA
-| Accessibility | axe DevTools, WAVE, Colour Contrast Analyser, screen readers (NVDA, VoiceOver) |
-| Analytics | Hotjar, FullStory, Microsoft Clarity, Heap |
-| Collaboration | Miro, FigJam, Notion, Confluence |
-| Design Systems | Zeroheight (docs), Storybook (component library), Chromatic |
-
----
-
-## § 7 · Standards & Reference
-
-### Nielsen's 10 Usability Heuristics
-
-| # | Heuristic | Key Question |
-|---|-----------|-------------|
-| 1 | Visibility of system status | Does the user always know what's happening? |
-| 2 | Match between system and real world | Does it use language/concepts users know? |
-| 3 | User control and freedom | Can users undo actions and exit unwanted states? |
-| 4 | Consistency and standards | Are conventions followed across the product? |
-| 5 | Error prevention | Are errors prevented before they happen? |
-| 6 | Recognition over recall | Is information visible rather than requiring memorization? |
-| 7 | Flexibility and efficiency | Can expert users shortcut? (power user paths) |
-| 8 | Aesthetic and minimalist design | Is only relevant information shown? |
-| 9 | Help users recognize, diagnose, recover from errors | Are error messages specific and constructive? |
-| 10 | Help and documentation | Is assistance findable and task-focused? |
-
-### WCAG 2.1 AA Key Requirements
-
-| Criterion | Level | Requirement |
-|-----------|-------|-------------|
-| 1.1.1 Non-text Content | A | All images have alt text |
-| 1.3.1 Info and Relationships | A | Structure conveyed programmatically (headings, labels) |
-| 1.4.3 Contrast (Minimum) | AA | 4.5:1 ratio for normal text; 3:1 for large text (18pt+) |
-| 1.4.11 Non-text Contrast | AA | 3:1 contrast for UI components and graphical objects |
-| 2.1.1 Keyboard | A | All functions operable via keyboard |
-| 2.4.3 Focus Order | A | Focus order is logical and meaningful |
-| 2.4.7 Focus Visible | AA | Keyboard focus indicator is visible |
-| 4.1.2 Name, Role, Value | A | UI components have accessible name, role, and state |
-| 4.1.3 Status Messages | AA | Status messages conveyed without focus change |
-
-### UX Writing Standards
-
-```
-Microcopy principles:
-1. Lead with user benefit: "Save your work" not "Enable autosave"
-2. Use active voice: "Delete this file" not "This file will be deleted"
-3. Be specific in errors: "Enter email in name@example.com format" not "Invalid input"
-4. CTAs are verbs: "Start free trial" not "Free trial"
-5. Empty states guide next action: "No projects yet. Create your first project →"
-6. Confirm destructive actions: "Delete [item name]? This cannot be undone."
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Research & Discovery
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Research objective definition | JTBD questions defined; success criteria for research stated | Research for research's sake; no clear question |
-| 2 | Participant recruitment | 5+ users matching ICP screener confirmed | Recruit internal employees to save time |
-| 3 | Interview/test facilitation | Sessions recorded; consent obtained; note-taking protocol set | Interviewer leading the witness with solutions |
-| 4 | Synthesis and insight clustering | Affinity map; 3-5 key insights; patterns vs. outliers distinguished | Cherry-pick insights that confirm existing assumptions |
-| 5 | Design implications | "Because we found X, we should consider Y" statements | Insights without actionable design implications |
-
-### Phase 2: Design & Validation
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Information architecture | Site map
-| 2 | Low-fidelity wireframes | Key flows sketched; team aligned before visual design | Go straight to high-fidelity without concept validation |
-| 3 | Heuristic evaluation | All 10 Nielsen heuristics checked; severity rated (1-4) | No heuristic review; trust gut only |
-| 4 | Usability test | 5 users tested on key tasks; task success rate measured | Ship without user testing |
-| 5 | Accessibility review | WCAG 2.1 AA check; axe audit run; contrast ratios verified | Accessibility as afterthought post-launch |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on ux designer.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent ux designer issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term ux designer capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -380,6 +147,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -390,6 +158,7 @@ Deliverable requires quality verification.
 | `copywriter` | Microcopy, error messages, onboarding content |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -410,9 +179,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -433,6 +204,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -460,6 +232,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -480,6 +253,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -492,15 +266,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -522,3 +287,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

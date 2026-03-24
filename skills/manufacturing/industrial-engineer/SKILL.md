@@ -31,6 +31,7 @@ Optimize manufacturing operations using time studies, facility layout, and lean 
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -121,221 +122,6 @@ FOCUS AREAS:
 
 ---
 
-## § 2 · Problem Signature
-
-### When to Use This Skill
-
-**Industrial Engineering Challenge Indicators**:
-- Low OEE or productivity metrics
-- High inventory or long lead times
-- Production bottlenecks
-- Facility expansion or layout changes
-- Lean transformation initiatives
-
-**Complexity Markers**:
-- Product mix: 10-10,000+ SKUs
-- Process steps: 5-100+ per product
-- Operators: 10-1,000+ per facility
-- Facilities: 10,000-1M+ sq ft
-- Improvement ROI: 3:1 to 10:1
-
-### User Signals
-
-Invoke when users need to:
-- Design production lines
-- Optimize facility layouts
-- Conduct time studies
-- Balance assembly lines
-- Implement lean manufacturing
-- Improve supply chain operations
-
-📄 **Full Details**: [references/04-problem-signature.md](references/04-problem-signature.md)
-
----
-
-## § 3 · Three-Layer Architecture
-
-### Layer 1: Process Analysis
-
-**Purpose**: Understand and measure current operations.
-
-**Core Elements**:
-- **Time Studies**: Direct observation, work sampling, predetermined time
-- **Process Mapping**: Flow charts, value stream maps, spaghetti diagrams
-- **Work Measurement**: Standard times, labor standards
-- **Capacity Analysis**: Bottleneck identification, throughput
-
-📄 **Details**: [references/05-layer1-process-analysis.md](references/05-layer1-process-analysis.md)
-
-### Layer 2: System Design
-
-**Purpose**: Design optimized manufacturing systems.
-
-**Core Elements**:
-- **Line Balancing**: Takt time, station allocation, efficiency
-- **Facility Layout**: Product, process, cellular, fixed-position
-- **Material Handling**: Equipment, routes, automation
-- **Workstation Design**: Ergonomics, tools, visual management
-
-📄 **Details**: [references/06-layer2-system-design.md](references/06-layer2-system-design.md)
-
-### Layer 3: Continuous Improvement
-
-**Purpose**: Sustain and enhance performance.
-
-**Core Elements**:
-- **Kaizen Events**: Rapid improvement workshops
-- **Standard Work**: Documentation, training, audits
-- **Performance Management**: KPIs, dashboards, reviews
-- **Change Management**: Engagement, communication, sustainment
-
-📄 **Details**: [references/07-layer3-improvement.md](references/07-layer3-improvement.md)
-
----
-
-## § 4 · Domain Knowledge
-
-### OEE Calculation
-
-```
-Overall Equipment Effectiveness:
-OEE = Availability × Performance × Quality
-
-Availability = Run Time / Planned Production Time
-├── Planned stops (breaks, changeovers) excluded
-└── Downtime: Breakdowns, setups, adjustments
-
-Performance = (Ideal Cycle Time × Total Count) / Run Time
-├── Speed losses: Running slow, micro-stops
-└── Theoretical max vs actual output
-
-Quality = Good Count / Total Count
-├── Defects, rework, scrap
-└── First-pass yield
-
-World-Class Targets:
-├── Availability: 90%+
-├── Performance: 95%+
-├── Quality: 99%+
-└── OEE: 85%+
-```
-
-### Line Balancing
-
-| Station | Task Time (s) | Takt Time (s) | Utilization |
-|---------|---------------|---------------|-------------|
-| 1 | 45 | 60 | 75% |
-| 2 | 58 | 60 | 97% |
-| 3 | 52 | 60 | 87% |
-| 4 | 55 | 60 | 92% |
-
-```
-Line Efficiency = (Sum of task times) / (Number of stations × Takt time)
-                = (45+58+52+55) / (4 × 60) = 210 / 240 = 87.5%
-
-Balance Delay = 1 - Efficiency = 12.5%
-```
-
-📄 **Full Details**: [references/08-domain-knowledge.md](references/08-domain-knowledge.md)
-
----
-
-## § 5 · Decision Frameworks
-
-### Facility Layout Selection
-
-```
-PRODUCT LAYOUT (Assembly Line):
-├── Sequential operations, high volume
-├── Low flexibility, efficient flow
-├── Examples: Automotive, electronics
-└── Key metric: Line efficiency
-
-PROCESS LAYOUT (Job Shop):
-├── Grouped by function, high variety
-├── Flexible, complex flow
-├── Examples: Machine shop, custom manufacturing
-└── Key metric: Throughput time
-
-CELLULAR LAYOUT:
-├── Grouped by product family
-├── U-shaped cells, balanced work
-├── Examples: Mixed model assembly
-└── Key metric: Cell cycle time
-
-FIXED-POSITION LAYOUT:
-├── Product stationary, resources move
-├── Very large products
-├── Examples: Ships, aircraft, buildings
-└── Key metric: Critical path
-```
-
-### Value Stream Mapping Steps
-
-| Step | Activity | Output |
-|------|----------|--------|
-| 1 | Select product family | Product group |
-| 2 | Map current state | Current state map |
-| 3 | Identify waste | Waste list |
-| 4 | Design future state | Future state map |
-| 5 | Create action plan | Implementation plan |
-
-📄 **Full Details**: [references/09-decision-frameworks.md](references/09-decision-frameworks.md)
-
----
-
-## § 6 · Standard Operating Procedures
-
-| SOP | Purpose | Link |
-|-----|---------|------|
-| SOP 1 | Time Study Method | [references/10-sop-time-study.md](references/10-sop-time-study.md) |
-| SOP 2 | Line Balancing | [references/11-sop-line-balancing.md](references/11-sop-line-balancing.md) |
-| SOP 3 | VSM Workshop | [references/12-sop-vsm.md](references/12-sop-vsm.md) |
-| SOP 4 | Kaizen Event | [references/13-sop-kaizen.md](references/13-sop-kaizen.md) |
-
----
-
-## § 7 · Risk Documentation
-
-### Industrial Engineering Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **Resistance to Change** | High | High | Engagement, communication, quick wins |
-| **Inaccurate Standards** | Medium | Medium | Proper measurement, validation |
-| **Layout Inflexibility** | Medium | High | Modular design, future expansion |
-| **Bottleneck Shifts** | Medium | Medium | Dynamic scheduling, buffer sizing |
-| **Sustainment Failure** | High | High | Standard work, audits, leadership |
-
-📄 **Full Details**: [references/14-risk-documentation.md](references/14-risk-documentation.md)
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| Analysis | Understand current | Baseline metrics | Incomplete data |
-| Design | Develop solution | Approved concept | Not implementable |
-| Implementation | Execute changes | Changes live | Operator resistance |
-| Validation | Confirm results | Target achieved | No improvement |
-| Sustainment | Maintain gains | Standard work followed | Backsliding |
-
-📄 **Full Details**: [references/15-workflow-phases.md](references/15-workflow-phases.md)
-
----
-
-## § 9 · Scenario Examples
-
-| # | Scenario | Context | Link |
-|---|----------|---------|------|
-| 1 | Assembly Line Optimization | Automotive component | [references/16-example-assembly-line.md](references/16-example-assembly-line.md) |
-| 2 | Warehouse Layout Redesign | Distribution center | [references/17-example-warehouse.md](references/17-example-warehouse.md) |
-| 3 | Value Stream Transformation | Make-to-order manufacturer | [references/18-example-vsm.md](references/18-example-vsm.md) |
-| 4 | Work Cell Implementation | Cellular manufacturing | [references/19-example-work-cell.md](references/19-example-work-cell.md) |
-| 5 | OEE Improvement Program | Plant-wide initiative | [references/20-example-oee.md](references/20-example-oee.md) |
-
----
 
 ## § 10 · Anti-Patterns
 
@@ -391,3 +177,17 @@ Takt Time = 420 min / 420 units = 1 min/unit = 60 seconds/unit
 ---
 
 **Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · Problem Signature](./references/2-problem-signature.md)
+- [## § 3 · Three-Layer Architecture](./references/3-three-layer-architecture.md)
+- [## § 4 · Domain Knowledge](./references/4-domain-knowledge.md)
+- [## § 5 · Decision Frameworks](./references/5-decision-frameworks.md)
+- [## § 6 · Standard Operating Procedures](./references/6-standard-operating-procedures.md)
+- [## § 7 · Risk Documentation](./references/7-risk-documentation.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

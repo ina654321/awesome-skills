@@ -69,6 +69,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -125,166 +126,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Market Benchmarking** — Match jobs to survey data (Radford, Mercer, Option Impact), analyze competitive positioning, and recommend ranges
-2. **Salary Structure Design** — Build grade structures, salary ranges, range widths, and progression policies
-3. **Total Rewards Strategy** — Design comprehensive compensation packages including base, bonus, equity, and benefits
-4. **Pay Equity Analysis** — Conduct gender/racial pay audits, identify gaps, build remediation roadmaps
-5. **Benefits Program Design** — Select and structure health, retirement, wellness, and perk programs
-6. **Compensation Communication** — Create total rewards statements, educate employees on package value
-7. **Executive Compensation** — Design equity grant structures, STI/LTI programs, and severance packages
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Pay Equity Violations** | 🔴 High | Gender/racial pay gaps create legal liability (EPA, state laws) and reputational harm | Conduct annual pay equity audits; document job evaluation rationale; remediate gaps within 12-18 months |
-| **Misclassification** | 🔴 High | Improper FLSA exempt classification results in back pay, penalties, and lawsuits | Use Dept of Labor tests; audit current classifications annually; classify conservatively |
-| **Equity Plan Violations** | 🔴 High | 409A valuation errors, option repricing without shareholder approval, improper vesting | Use qualified 409A valuations; consult securities counsel; maintain detailed equity records |
-| **Market Data Misuse** | 🔴 High | Using outdated or poorly matched survey data leads to mispriced jobs | Source current data; validate job matching; note data age in recommendations |
-| **Compensation Transparency Issues** | 🟡 Medium | Discussing individual pay openly in some jurisdictions (EU Pay Transparency Directive) | Train managers; create policy; review local requirements before implementing |
-
-**⚠️ IMPORTANT:**
-- Never provide individual compensation advice without understanding all facts and organizational policies
-- Executive compensation often requires Board/Comp Committee approval and securities counsel
-- International assignments require complex tax and benefits coordination — involve experts
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Total Rewards Model
-
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                        TOTAL REWARDS                                  │
-│                                                                      │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐ │
-│  │   BASE      │  │   BONUS     │  │   EQUITY    │  │  BENEFITS   │ │
-│  │   SALARY    │  │   (STI/LTI) │  │  (RSU/Opt)  │  │ Health/401k │ │
-│  │             │  │             │  │             │  │  + Perks    │ │
-│  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘ │
-│                                                                      │
-│  Target Positioning by Level:                                        │
-│  ┌─────────────────────────────────────────────────────────────────┐ │
-│  │ Entry      → P40-P50 (cash-focused)                           │ │
-│  │ Mid        → P50-P60 (balanced)                               │ │
-│  │ Senior     → P60-P75 (equity increases)                       │ │
-│  │ Executive  → P75+ (heavily equity-weighted)                   │ │
-│  └─────────────────────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-Compensation is not just base salary. Total rewards thinking ensures you consider the full package when benchmarking and designing offers.
-
-### 4.2 Guiding Principles
-
-1. **Market-Based, Not Market-Only**: Use market data as a guide, not a mandate. Internal equity, tenure, and performance matter equally.
-2. **Transparent Philosophy, Confidential Data**: Have a clear compensation philosophy that's communicated; keep individual pay confidential.
-3. **Total Rewards Over Cash Alone**: Employees optimize for different things. Help them understand the full value.
-4. **Equity is Ownership**: Equity compensation creates alignment. Design grants to incentivize long-term value creation, not short-term gains.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Market Surveys** | Radford (tech), Mercer (general), Option Impact (equity), Levels.fyi (tech total comp) |
-| **Job Evaluation** | Hay Method, Willis Towers Watson, Point Factor — determine internal job hierarchy |
-| **Salary Structures** | Ranges with minimum, midpoint, maximum; grade assignments; range penetration calculations |
-| **Compa-Ratio** | Employee salary
-| **FLSA Exemption Tests** | Dept of Labor tests for exempt vs. non-exempt classification |
-| **409A Valuation** | Required for private company equity; updated every 12 months |
-| **Pay Equity Analysis** | Statistical analysis of pay gaps by gender/ethnicity; regression-based controls |
-| **Equity Plan Management** | Cap tables, vesting schedules, exercise windows, 83(b) elections |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Compensation Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------|-------------|-----------|
-| **Market Benchmarking** | Any compensation decision | 1. Match job to survey → 2. Extract P50/P75 data → 3. Adjust for geography/industry → 4. Recommend positioning |
-| **Salary Structure Build** | Building or refreshing pay bands | 1. Job family grouping → 2. Job evaluation → 3. Market alignment → 4. Range spread设定 (40-50%) → 5. Grade assignments |
-| **Pay Equity Audit** | Annual compliance or proactive review | 1. Extract employee data → 2. Control for job level, tenure, location → 3. Run regression → 4. Identify gaps → 5. Plan remediation |
-| **Total Rewards Statement** | Employee communication | 1. Calculate all components → 2. Present as statement → 3. Educate managers on communication |
-
-### 7.2 Key Metrics & Targets
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Compa-Ratio** | Salary
-| **Range Penetration** | (Salary - Range Min)
-| **Market Position** | Company pay vs. market P50 | P50 standard; P75 for critical roles |
-| **Pay Equity Gap** | Controlled pay difference by demographic | <1-2% after controls; remediate >5% |
-| **Benefits Cost** | Benefits cost / FTE | $8-15K/year for tech; varies by region |
-| **Equity Burn Rate** | Options/RSUs granted
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Salary Structure Design
-
-```
-Phase 1: Job Family & Level Definition
-├── Group jobs into job families (Engineering, Sales, G&A)
-├── Define levels within each family (L1-L6 for IC; M1-M5 for Mgmt)
-├── Assign job codes and documentation
-
-Phase 2: Market Benchmarking
-├── Source appropriate survey data (Radford for tech, Mercer for general)
-├── Match jobs to survey titles with ≥70% match confidence
-├── Extract P50 and P75 for each role
-├── Adjust for geographic differential if applicable
-
-Phase 3: Structure Build
-├── Calculate base pay ranges: Midpoint × (1 ± range spread/2)
-├── Typical range spreads: 40-50% (entry), 50-60% (senior), 60-80% (executive)
-├── Assign jobs to grades based on market positioning
-├── Define progression (merit increase) guidelines
-
-Phase 4: Implementation & Communication
-├── Document compensation philosophy
-├── Train managers on range usage and compa-ratio
-├── Set up in HRIS
-└── Schedule annual refresh cycle
-```
-
-### 8.2 Pay Equity Audit Process
-
-```
-Step 1: Data Extraction
-- Pull employee population: role, level, tenure, location, compensation components
-- Include gender, ethnicity (if available) for analysis
-
-Step 2: Statistical Analysis
-- Run regression controlling for: job level, function, tenure, location, performance
-- Calculate unexplained gap (controlling for legitimate factors)
-- Flag roles/jobs with statistically significant gaps
-
-Step 3: Gap Analysis
-- Prioritize by: size of gap, # affected, legal risk
-- Identify root causes: initial offer, promotion timing, market adjustment history
-
-Step 4: Remediation Planning
-- Budget for adjustments (typically phased over 12-18 months)
-- Address systemic issues (offer practices, promotion timing)
-- Document rationale for each adjustment
-
-Step 5: Ongoing Monitoring
-- Implement controls: standardized offer templates, pay equity in hiring workflow
-- Schedule quarterly reviews, not just annual
-```
-
----
 
 ## 9.1 New Hire Offer Calculation
 
@@ -329,105 +170,6 @@ Step 5: Ongoing Monitoring
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on compensation benefits manager.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent compensation benefits manager issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term compensation benefits manager capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -447,6 +189,7 @@ Step 5: Ongoing Monitoring
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -457,6 +200,7 @@ Step 5: Ongoing Monitoring
 | [Comp Manager] + **[OD Specialist]** | OD designs org changes → Comp models cost impact and designs transition packages | Smooth org changes with fair transitions |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -489,6 +233,7 @@ Step 5: Ongoing Monitoring
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -510,6 +255,7 @@ Expected: Treat as urgent. Recommend immediate analysis of root causes, phased r
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive compensation frameworks, detailed workflows, market data sources, pay equity process, total rewards model, compliance warnings, integration mapping
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -530,6 +276,7 @@ Expected: Treat as urgent. Recommend immediate analysis of root causes, phased r
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -557,6 +304,7 @@ Expected: Treat as urgent. Recommend immediate analysis of root causes, phased r
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -577,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -589,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -625,3 +365,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -123,137 +124,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Benefits Eligibility Analysis** — Evaluate user scenarios against specific policy criteria, determining qualification for pension, medical, unemployment, workers' comp, or maternity benefits
-2. **Calculation Guidance** — Provide precise benefit calculations using official formulas, including contribution bases, accumulation periods, and applicable multipliers
-3. **Procedure Navigation** — Deliver step-by-step workflows for claims submission, appeals processes, and document preparation
-4. **Compliance Advisory** — Identify regulatory requirements, documentation standards, and potential penalties for non-compliance
-5. **Policy Comparison** — Explain differences between national policies and local implementing rules, especially for cross-provincial scenarios
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Outdated Policy Information** | 🔴 High | Social security policies change frequently; cited rules may be superseded | Always verify policy effective dates; recommend checking latest local bureau announcements |
-| **Jurisdiction-Specific Rules** | 🔴 High | Rules vary significantly by country, province, and city | Explicitly state jurisdiction limitations; recommend consulting local authorities |
-| **Legal Advice vs. Information** | 🟡 Medium | This skill provides general information, not legal advice | Add explicit disclaimer; recommend consultation with qualified legal professionals |
-| **Individual Circumstances** | 🟡 Medium | Individual cases may have unique factors affecting benefits | Recommend verifying with local social security bureau for specific situations |
-| **Calculation Approximations** | 🟢 Low | Calculated figures are estimates; actual benefits may vary | State that final amounts depend on official assessment |
-
-**⚠️ IMPORTANT:**
-- This skill provides general informational guidance only—not legal advice or official determinations
-- Always recommend users verify specific requirements with their local social security bureau
-- For disputes, appeals, or legal proceedings, recommend consulting qualified legal counsel
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Policy Hierarchy Framework
-
-```
-┌─────────────────────────────────────────────────────┐
-│         National Laws & Regulations                 │
-│    (Social Insurance Law, Pension Law, etc.)       │
-└──────────────────────┬──────────────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│      Provincial/Municipal Implementing Rules        │
-│    (Specific rates, thresholds, procedures)        │
-└──────────────────────┬──────────────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│           Bureau Announcements & Notices            │
-│    (Updates, clarifications, special cases)         │
-└─────────────────────────────────────────────────────┘
-```
-
-Policy application follows this hierarchy: National laws establish the framework, provincial/municipal rules provide implementation details, and bureau announcements address specific situations. Always identify which level applies to the user's question.
-
-### 4.2 Guiding Principles
-
-1. **Eligibility is Binary**: Benefits require meeting ALL specified criteria. "Almost qualifying" = not qualifying. Always verify each requirement explicitly.
-2. **Documentation is Everything**: Missing or incorrect documentation is the #1 reason for claim rejections. Provide specific document lists.
-3. **Timelines Are Critical**: Contribution periods, application windows, and appeal deadlines are strict. Missing deadlines may mean losing benefits entirely.
-4. **Contribution Determines Benefits**: Benefit amounts directly correlate with contribution history. No contributions = no benefits (in most cases).
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Official Policy Databases** | Access current national laws, provincial rules, and local announcements |
-| **Benefits Calculators** | Apply official formulas for pension, medical, unemployment benefit calculations |
-| **Document Templates** | Standardized forms for claims, appeals, and employer reporting |
-| **Eligibility Checklists** | Comprehensive criteria lists for each benefit type |
-| **Contribution Rate Tables** | Current employer/employee rates by jurisdiction and insurance type |
-| ** appeals Process Guides** | Step-by-step procedures for challenging benefit determinations |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Benefit Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Pension Eligibility Assessment** | User wants to know if they/they're eligible for pension benefits | 1. Verify contribution period ≥ 15 years → 2. Check retirement age requirements → 3. Confirm location-based rules → 4. Calculate benefit amount |
-| **Medical Insurance Enrollment** | User needs to enroll in or transfer medical insurance | 1. Determine household/employment status → 2. Select insurance type → 3. Prepare required documents → 4. Submit to local bureau |
-| **Unemployment Benefit Claim** | User lost job and wants unemployment benefits | 1. Verify employer contributed ≥ 12 months → 2. Confirm non-voluntary separation → 3. Register with employment service → 4. Submit claim within deadline |
-| **Work Injury Claim Process** | User suffered work-related injury | 1. Report to employer within deadline → 2. Get injury identification → 3. Apply for work injury medical treatment → 4. If disability, apply for disability assessment |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Pension Benefit** | Base × Contribution Factor × Accumulation Period | ≥ 40% of pre-retirement income |
-| **Medical Reimbursement** | (Total Cost - Deductible) × Reimbursement Rate | 50-90% based on hospital tier |
-| **Unemployment Benefit** | Local Minimum Wage × Replacement Rate × Duration | 60-80% of local minimum wage |
-| **Contribution Period for Pension** | Total months of contributions | ≥ 180 months (15 years) |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Benefits Eligibility Assessment
-
-```
-Phase 1: Information Gathering
-├── Identify user's jurisdiction (city, province, country)
-├── Determine insurance type (pension, medical, unemployment, etc.)
-├── Collect user's specific circumstances (age, contribution history, employment status)
-└── Check for special conditions (disability, chronic disease, etc.)
-
-Phase 2: Policy Analysis
-├── Identify applicable national regulations
-├── Check provincial/municipal implementing rules
-├── Look for recent policy updates or special announcements
-└── Verify all eligibility criteria
-
-Phase 3: Determination & Recommendation
-├── Present eligibility determination with policy citations
-├── Calculate estimated benefits if applicable
-├── List required documentation
-└── Outline next steps and deadlines
-```
-
-### 8.2 Claims Processing Assistance
-
-```
-Step 1: Confirm claim type and applicable insurance
-Step 2: Verify user meets all eligibility criteria
-Step 3: Provide comprehensive document checklist
-Step 4: Explain submission process (online vs. offline)
-Step 5: Outline expected timeline and follow-up requirements
-Step 6: Describe appeals process if claim is denied
-```
-
----
 
 ## 9.1 Pension Eligibility Determination
 
@@ -332,105 +202,6 @@ Step 6: Describe appeals process if claim is denied
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on social security expert.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent social security expert issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term social security expert capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -441,6 +212,7 @@ Step 6: Describe appeals process if claim is denied
 | [social-security-expert] + **[accountant]** | This skill explains contribution requirements → Accountant handles payroll compliance | Complete financial compliance package |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -469,6 +241,7 @@ Step 6: Describe appeals process if claim is denied
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -490,6 +263,7 @@ Expected: Verify enrollment status, explain temporary solutions, provide documen
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt with jurisdiction-aware decision framework, detailed risk disclaimers, policy hierarchy, real scenarios with actionable steps
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -510,6 +284,7 @@ Expected: Verify enrollment status, explain temporary solutions, provide documen
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -538,6 +313,7 @@ Expected: Verify enrollment status, explain temporary solutions, provide documen
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -558,6 +334,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -570,15 +347,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -606,3 +374,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

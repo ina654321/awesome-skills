@@ -72,6 +72,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,178 +134,6 @@ Before responding to any livestream training request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **E-commerce Livestream Trainer** capable of:
-
-1. **Host Training** — Teach livestream hosting skills including product presentation, audience engagement, objection handling, and conversion techniques that maximize sales
-
-2. **Content Strategy** — Create content calendars, hook scripts, and engagement tactics that attract and retain viewers during livestreams
-
-3. **Platform Optimization** — Optimize livestream setup, technical configuration, and platform-specific features for maximum reach and conversion
-
-4. **Performance Analytics** — Define key metrics, analyze performance data, and recommend data-driven improvements
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Misleading Claims** | 🔴 High | Exaggerated efficacy claims violate advertising regulations and damage trust | Stick to verifiable claims; comply with platform policies |
-| **Fake Scarcity** | 🔴 High | Artificially creating urgency (fake low stock, fake discounts) violates FTC/consumer laws | Use genuine scarcity; be transparent about real inventory |
-| **Platform Violations** | 🔴 High | Each platform has strict rules; violations result in account suspension | Stay updated on platform policies; review regularly |
-| **Inauthentic Reviews** | 🟡 Medium | Fake testimonials damage brand credibility; can lead to legal issues | Use genuine customer feedback only |
-| **Technical Failures** | 🟡 Medium | Poor audio/video quality drives viewers away | Invest in quality equipment; have backup plans |
-
-**⚠️ IMPORTANT**:
-- This skill provides training guidance. Actual sales results depend on product quality, pricing, market conditions, and host skill.
-- Advertising claims must comply with FTC (US), ASA (UK), SAMR (China), and platform-specific regulations.
-- Testimonial usage requires disclosure; authenticity is legally and ethically required.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Livestream Sales Framework
-
-```
-           ┌─────────────────────────────┐
-           │     Sales Conversion            │  ← Orders, revenue, ROI
-         ┌─┴─────────────────────────────┴─┐
-         │     Trust Building                  │  ← Social proof, expertise, authenticity
-       ┌─┴─────────────────────────────────┴─┐
-       │    Audience Engagement               │  ← Comments, questions, participation
-     ┌─┴───────────────────────────────────────┴─┐
-     │           Content Attraction                │  ← Hooks, product selection, timing
-   └─────────────────────────────────────────────┘
-```
-
-Build bottom-up: no attraction means no audience; no engagement means no trust; no trust means no conversion.
-
-### 4.2 Guiding Principles
-
-1. **Product is King**: The best script cannot sell a mediocre product. Help hosts deeply understand product features, benefits, and use cases.
-
-2. **Authenticity Over Perfection**: Audiences connect with real people, not polished performers. Train hosts to be themselves.
-
-3. **Data is Feedback**: Every livestream generates data; use it to improve. Low conversion? Review hook. Low retention? Review pacing.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **StreamYard
-| **Ecamm Live** | Professional Mac streaming |
-| **OBS Studio** | Free, powerful streaming software |
-| **Shopify
-| **Google Analytics 4** | Traffic and conversion tracking |
-| **Talkwalker
-| **Canva** | On-screen graphics creation |
-| **Notion
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Platform Comparison
-
-| Platform | Audience | Key Features | Best For |
-|-----------------|----------------------|-------------------|--------------|
-| **TikTok Shop** | Gen Z, Millennials | Short-form + live, viral potential | Beauty, fashion, trending products |
-| **Amazon Live** | Shoppers, intent buyers | Prime integration, reviews | Electronics, household |
-| **Taobao Live** | Chinese shoppers | High GMV, interactive | All categories (China market) |
-| **Instagram Shopping** | Millennials, Gen Z | Visual products, Stories | Fashion, beauty, lifestyle |
-| **YouTube Shopping** | Broad demographics | Long-form, evergreen | Tutorials, product reviews |
-
-### 7.2 Key Performance Metrics
-
-| Metric | Definition | Good Benchmark |
-|--------------|--------------|---------------|
-| **Conversion Rate** | Orders
-| **Watch Time** | Average minutes watched | >5 minutes |
-| **Peak Viewers** | Highest concurrent viewers | Varies by following |
-| **Engagement Rate** | Comments + shares
-| **Average Order Value** | Revenue
-| **ROI** | Revenue
-
-### 7.3 Livestream Script Structure
-
-| Segment | Duration | Purpose |
-|--------------|--------------|---------------|
-| **Hook (0-30 sec)** | 30 seconds | Stop scroll, grab attention |
-| **Introduction (30s-2min)** | 90 seconds | Introduce self, set expectations |
-| **Product 1 (2-10min)** | 8 minutes | Deep dive, demo, offer |
-| **Product 2** | 8 minutes | Continue with variation |
-| **Product 3** | 8 minutes | High-ticket item |
-| **Closing (Last 5 min)** | 5 minutes | Scarcity, urgency, CTA |
-| **Thank You** | 1 minute | Appreciate viewers |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Livestream Host Training Program
-
-```
-Phase 1: Foundation (Week 1-2)
-├── Product knowledge training
-├── Platform rules and policies
-├── Basic script structure
-├── Camera and lighting basics
-└── [✓ Done]: Product knowledge quiz passed
-
-Phase 2: Skills Development (Week 3-4)
-├── Hook writing and delivery
-├── Objection handling scripts
-├── Engagement techniques
-├── On-camera practice
-└--- [✓ Done]: Recorded practice session reviewed
-
-Phase 3: Live Practice (Week 5-6)
-├── Low-stakes practice streams
-├── Real audience interaction
-├── Feedback and iteration
-├── Performance metrics review
-└── [✓ Done]: First promoted livestream
-
-Phase 4: Optimization (Ongoing)
-├── A/B test hooks and offers
-├── Analyze data weekly
-├── Update scripts based on results
-└── [✓ Done]: Continuous improvement
-```
-
-### 8.2 Livestream Preparation Checklist
-
-```
-Pre-Stream (1-2 hours before):
-□ Check internet connection speed
-□ Test audio levels
-□ Set up camera angles
-□ Prepare products and inventory
-□ Review script and key points
-□ Set up promotional graphics
-
-During Stream:
-□ Smile and maintain energy
-□ Engage with every comment
-□ Follow script timing
-□ Highlight product benefits
-□ Use scarcity legitimately
-
-Post-Stream:
-□ Thank viewers
-□ Fulfill orders promptly
-□ Review performance data
-□ Document lessons learned
-□ Plan improvements
-```
-
----
 
 ## 9.1 Training a New Beauty Product Host
 
@@ -398,105 +227,6 @@ Post-Stream:
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on ecommerce livestream trainer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent ecommerce livestream trainer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term ecommerce livestream trainer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -521,6 +251,7 @@ Post-Stream:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -530,6 +261,7 @@ Post-Stream:
 | Livestream Trainer + **Sales Coach** | Trainer covers product → Coach enhances persuasion | Masterful selling technique |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -555,9 +287,11 @@ Post-Stream:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -578,6 +312,7 @@ Post-Stream:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -605,6 +340,7 @@ Post-Stream:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -625,6 +361,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -637,15 +374,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -668,3 +396,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

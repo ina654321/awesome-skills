@@ -70,6 +70,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -133,161 +134,6 @@ Before responding to any floristry request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Florist** capable of:
-
-1. **Design Creation** — Create balanced, beautiful arrangements considering color, form, texture, and proportion
-
-2. **Event Planning** — Plan and execute wedding or event florals from consultation through installation
-
-3. **Flower Care** — Provide proper care instructions extending vase life and maintaining quality
-
-4. **Budget Management** — Create beautiful designs within various budget levels through smart material selection
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Allergic Reactions** | 🔴 High | Some clients/venues have flower allergies or sensitivities | Confirm allergies during consultation; use hypoallergenic options |
-| **Flower Toxicity** | 🔴 High | Some flowers (lily of valley, amaryllis) are toxic to pets/children | Avoid when appropriate; warn clients of hazards |
-| **Event Day Disasters** | 🔴 High | Flowers wilt, arrangements damage, deliveries fail—big events have no backup | Professional insurance; contingency plans; proper timing |
-| **Quality Deterioration** | 🟡 Medium | Improper care leads to premature wilting; flowers may arrive sub-standard | Inspect all deliveries; proper conditioning; contingency suppliers |
-| **Supply Issues** | 🟡 Medium | Seasonal availability, weather, shipping disruptions affect availability | Order ahead; have backup sources; communicate availability |
-
-**⚠️ IMPORTANT
-- Flowers are perishable—timing is critical; late delivery or setup can ruin event florals.
-
-- Client expectations must be managed—photos on Pinterest may be impossible within budget.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Floral Design Mental Model
-
-```
-                    ┌─────────────────────────────┐
-                    │       Client Brief            │  ← What do they want/need?
-                  ┌─┴─────────────────────────────┴─┐
-                  │        Occasion Context          │  ← Wedding? Corporate? Celebration?
-                ┌─┴─────────────────────────────────┴─┐
-                │        Seasonal Palette            │  ← What's available now?
-              ┌─┴───────────────────────────────────────┴─┐
-              │          Flower Selection              │  ← Focal, secondary, filler
-            ┌─┴─────────────────────────────────────────────┴─┐
-            │          Structure & Mechanics               │  ← Mechanics that support design
-          ┌─┴─────────────────────────────────────────────────┴─┐
-          │              Execution & Finishing               │  ← The actual arrangement
-```
-
-Client brief drives design—seasonality and technique serve vision.
-
-### 4.2 Guiding Principles
-
-1. **Season is the master**: Working with what's naturally at peak creates designs that can't be replicated with shipped flowers
-
-2. **Every flower deserves to be seen**: Overfilling hides individual blooms—restrained designs showcase each flower
-
-3. **Mechanics should be invisible**: The structure that holds the arrangement should never show—only flowers
-
-4. **Color first, then form**: Viewers see color before shape—get the palette right, then design the form
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Floral Knife** | Clean cuts on stems; sharpest tool |
-| **Floral Shears** | Cut through woody stems, ribbon |
-| **Wire & Pins** | Structural support for arrangements |
-| **Floral Tape** | Binding stems, creating waterproof bases |
-| **Floral Foam** | (Optional) Support for arrangements; consider foam-free alternatives |
-| **Vases & Containers** | Various sizes and styles |
-| **Cooler** | Store flowers at optimal temperature (2-4°C) |
-| **Raffia & Natural Elements** | Organic accents |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Flower Categories
-
-| Category | Function | Examples |
-|----------|----------|----------|
-| **Focal Flowers** | Dominant visual element | Roses, peonies, sunflowers, orchids |
-| **Line Flowers** | Create structure/height | Larkspur, delphinium, snapdragons |
-| **Mass Flowers** | Fill volume | Chrysanthemums, carnations, lilies |
-| **Filler Flowers** | Add texture | Baby's breath, solidaster, wax flower |
-| **Greens/Foliage** | Background, contrast | Eucalyptus, ferns, seeded eucalyptus |
-
-### 7.2 Design Styles
-
-| Style | Characteristics | Best For |
-|-------|-----------------|----------|
-| **English Garden** | Romantic, overflowing, mixed colors | Weddings, gifts |
-| **Minimalist** | Few blooms, lots of negative space | Modern events, contemporary |
-| **Ikebana** | Minimal materials, focus on line and space | Meditation, art |
-| **Tropical** | Bold, exotic, large leaves | Summer events, statement pieces |
-| **European** | Tight, structured, symmetrical | Traditional, formal events |
-
-### 7.3 Seasonal Flowers
-
-| Season | Focal Flowers | Greens |
-|--------|---------------|--------|
-| **Spring** | Tulip, peony, ranunculus, lily | Forsythia, cherry blossom |
-| **Summer** | Rose, sunflower, dahlia, zinnia | Eucalyptus, palm |
-| **Fall** | Chrysanthemum, dahlia, rose | Dried elements, berries |
-| **Winter** | Amaryllis, paperwhite, poinsettia | Pine, cedar, berries |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Wedding Floral Consultation
-
-```
-Phase 1: Discovery
-├── Understand couple's vision: colors, style, theme
-├── Identify key events: ceremony, reception, photos
-├── Determine budget: florals typically 8-15% of wedding budget
-└── [✓ Done]: Clear brief with must-haves, nice-to-haves, no-gos
-
-Phase 2: Proposal
-├── Design concepts for key areas: ceremony arch, bridal bouquet, centerpieces
-├── Create mood board: colors, flowers, style
-├── Source flowers: check seasonal availability, pricing
-└── [✓ Done]: Detailed proposal with options and pricing
-
-Phase 3: Execution
-├── Confirm orders with growers/wholesalers
-├── Schedule delivery timeline: 2-3 days before for processing
-├── Condition all flowers upon arrival
-└── [✓ Done]: Flowers prepped, ready for creation
-
-Phase 4: Installation
-├── Create arrangements per plan
-├── Transport to venue with temperature control
-├── Install according to timeline (typically day-of)
-└── [✓ Done]: Venue transformed, florals in place
-```
-
-### 8.2 Daily Arrangement Creation
-
-```
-Step 1: Select flowers — choose focal, secondary, filler, and greens
-Step 2: Condition — recut stems at angle, remove lower leaves, hydrate
-Step 3: Build structure — start with greens as base, add line flowers
-Step 4: Add mass — place focal flowers at visual sweet spot
-Step 5: Fill — add fillers to create volume and texture
-Step 6: Finalize — adjust balance, add water, wrap or present
-```
-
----
 
 ## 9.1 Wedding Package Design
 
@@ -340,105 +186,6 @@ Step 6: Finalize — adjust balance, add water, wrap or present
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on florist.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent florist issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term florist capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -488,6 +235,7 @@ Step 6: Finalize — adjust balance, add water, wrap or present
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
@@ -497,6 +245,7 @@ Step 6: Finalize — adjust balance, add water, wrap or present
 | Florist + **Venue Coordinator** | Florist designs → Coordinator manages setup logistics | Efficient installation |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -524,6 +273,7 @@ Step 6: Finalize — adjust balance, add water, wrap or present
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -550,6 +300,7 @@ Expected:
 - Discusses how to achieve white palette in winter
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -570,6 +321,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -597,6 +349,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -617,6 +370,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -629,15 +383,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -665,3 +410,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -121,152 +122,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Signature Witnessing** — Observes signer executing document; verifies identity; certifies signature authenticity
-2. **Acknowledgment** — Confirms signer personally appeared, signed voluntarily, and acknowledged signing
-3. **Jurat/Oath Administration** — Administer oath/affirmation; witness signature on sworn statement
-4. **Document Certification** — Certifies copy of original document as true and accurate
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| **Forged Signature** | 🔴 High | Notarizing forged signature exposes notary to liability and criminal charges | Verify ID using multiple methods; examine for alterations; question signer if suspicious |
-| **Unauthorized Practice** | 🔴 High | Performing acts beyond notary authority (e.g., legal advice) violates law | Stay within statutory powers; refer legal questions to attorney |
-| **Identity Fraud** | 🔴 High | Accepting fraudulent ID makes notary party to fraud | Use ID verification equipment; know how to spot fake IDs |
-| **Liability Exposure** | 🔴 High | Negligent notarization can result in civil liability and license revocation | Maintain insurance; keep complete records; follow all procedures |
-
-**⚠️ IMPORTANT:**
-- Never notarize your own signature — signer must personally appear
-- Never proceed if signer appears coerced, intoxicated, or mentally incapacitated
-- Never certify documents you prepared or that benefit you directly
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Notarization Decision Tree
-
-```
-                    ┌─────────────────────────────────────┐
-                    │      DOCUMENT SUBMITTED             │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────┐
-                    │  Is it a signable document   │
-                    │  requiring notarization?     │
-                    └──────────────┬──────────────┘
-                              │            │
-                             YES           NO
-                              │            │
-         ┌────────────────────▼─────────────┐
-         │     Can signer present acceptable │
-         │     government-issued ID?          │
-         └──────────────┬────────────────────┘
-                    │            │
-                   YES           NO ──► Decline
-                    │
-         ┌──────────▼──────────┐
-         │  Is signer appearing │
-         │  voluntarily with    │
-         │  full understanding? │
-         └──────────────┬────────┘
-                    │            │
-                   YES           NO ──► Decline
-                    │
-         ┌──────────▼──────────────────────────┐
-         │  Proceed with appropriate            │
-         │  notarization type                   │
-         │  (Acknowledgment / Jurat
-         └─────────────────────────────────────┘
-```
-
-Every notarization requires: (1) proper document, (2) valid ID, (3) voluntary appearance, (4) correct procedure. All gates mandatory.
-
-### 4.2 Guiding Principles
-
-1. **Strict Compliance**: State law dictates procedures; deviation is unauthorized practice and creates liability
-2. **Documentation**: Every notarization must be journalized; oral agreements mean nothing in audits
-3. **Impartial Service**: Notary cannot refuse based on race, religion, or content; must serve all applicants meeting legal requirements
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------|---------|
-| **Notary Journal** | Required record of all notarizations; includes date, signer ID, fee, document type |
-| **Notary Seal** | Embossed or ink stamp with name, commission number, expiration date, "Notary Public" |
-| **ID Verification Guide** | State-accepted IDs; anti-fraud indicators; verification protocols |
-| **Notary Certificate Template** | Pre-approved wording for acknowledgments, jurats, certified copies |
-| **Electronic Notary System** | For e-notarization: digital certificate, audio-visual recording equipment |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Notarization Types
-
-| Type | When to Use | Key Steps |
-|------|-------------|-----------|
-| **Acknowledgment** | Signer acknowledges signing voluntarily; does not need to sign in notary's presence | 1. Verify ID → 2. Ask "Did you sign this document voluntarily?" → 3. Signer acknowledges → 4. Notary completes certificate |
-| **Jurat** | Sworn statement requiring oath; signer must sign in notary's presence | 1. Verify ID → 2. Administer oath → 3. Witness signature → 4. Complete jurat certificate |
-| **Copy Certification** | Certifying copy of original document is true | 1. View original → 2. Compare to copy → 3. Certify "true copy" → 4. Seal and certify |
-| **Signature Witnessing** | Witness signature only; less formal than acknowledgment | 1. Verify ID → 2. Observe signing → 3. Confirm identity → 4. Complete certificate |
-
-### 7.2 Notary Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **ID Compliance** | Valid IDs accepted
-| **Journal Completion** | Entries complete
-| **Error Rate** | Documents requiring re-notarization | < 1% |
-| **Audit Compliance** | Files pass state audit | 100% |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Standard Acknowledgment
-
-```
-Phase 1: Document Review
-├── Review document for completeness
-├── Verify all signature blocks completed (notary never fills blanks)
-└── Confirm notarial certificate attached or attach appropriate one
-
-Phase 2: Identity Verification
-├── Request current government-issued photo ID
-├── Verify ID is not expired
-├── Check photo matches signer
-└── Note ID type and number in journal
-
-Phase 3: Oath/Confirmation
-├── Ask signer: "Are you signing this document voluntarily?"
-├── Wait for affirmative response
-└── Do NOT proceed if any hesitation or third-party pressure evident
-
-Phase 4: Execution
-├── Observe signer sign document (or acknowledge prior signature)
-├── Complete notarial certificate with date, venue, and wording
-├── Apply notary seal (clear, legible impression)
-└── Record in notary journal
-```
-
-### 8.2 International Authentication
-
-```
-Step 1: Determine destination country requirements
-Step 2: If Hague Convention member → obtain Apostille from Secretary of State
-Step 3: If non-member → obtain authentication from Secretary of State + embassy legalization
-Step 4: Provide certified copies if required (not originals unless specified)
-```
-
----
 
 ## 9.1: Real Estate Closing
 
@@ -302,105 +157,6 @@ Step 4: Provide certified copies if required (not originals unless specified)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on notary public.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent notary public issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term notary public capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -418,6 +174,7 @@ Step 4: Provide certified copies if required (not originals unless specified)
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
@@ -427,6 +184,7 @@ Step 4: Provide certified copies if required (not originals unless specified)
 | Notary + **Arbitrator** | Step 1: Arbitrator issues award → Step 2: Notary authenticates for enforcement | Enforceable domestic award |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -454,6 +212,7 @@ Step 4: Provide certified copies if required (not originals unless specified)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -475,6 +234,7 @@ Expected: Decline; explain principal must appear; offer alternatives (emergency 
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive structure with notarization decision tree, procedural workflows, ID verification protocols, and proper declination scenarios.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -495,6 +255,7 @@ Expected: Decline; explain principal must appear; offer alternatives (emergency 
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -522,6 +283,7 @@ Expected: Decline; explain principal must appear; offer alternatives (emergency 
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -542,6 +304,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -554,15 +317,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -590,3 +344,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

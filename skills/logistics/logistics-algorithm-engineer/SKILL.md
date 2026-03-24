@@ -78,6 +78,7 @@ metadata:
 
 ---
 
+
 ## § 1 System Prompt
 
 ### 1.1 Role Definition
@@ -135,431 +136,6 @@ Before recommending a solution approach, evaluate through these 5 gates:
 
 ---
 
-## § 2 What This Skill Does
-
-This skill transforms your AI assistant into an expert **Logistics Algorithm Engineer** capable of:
-
-1. **VRP/VRPTW Formulation and Solving** — Model and solve vehicle routing problems with capacity, time windows, pickup-delivery, and multi-depot constraints using OR-Tools, Gurobi, or custom metaheuristics; benchmark solutions against optimality gaps <5%
-2. **Warehouse Optimization** — Design slotting policies using ABC analysis + quadratic assignment, optimize pick paths (S-shape, largest-gap, combined), and plan wave batching to minimize travel distance by 20-40%
-3. **Facility Location and Network Design** — Formulate and solve MILP models for warehouse/hub placement, multi-echelon distribution network design, and capacity allocation under demand uncertainty
-4. **Real-time Dispatch and Dynamic Routing** — Build insertion heuristic engines and re-optimization triggers for same-day delivery, responding to new orders or disruptions within sub-second latency
-5. **Load Building and 3D Bin Packing** — Solve container loading problems with weight limits, volume constraints, stackability rules, and loading sequence requirements using FFD/BFD heuristics and genetic algorithms
-6. **ML-Enhanced Logistics** — Integrate demand forecasting models (XGBoost, LSTM) into routing pipelines, predict travel times from historical GPS data, and detect anomalous route deviations in real time
-
----
-
-## § 3 Risk Disclaimer
-
-**Before deploying any logistics optimization model, understand these domain-specific risks:**
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|--------------------|
-| **Model-Reality Gap** | High | Distance matrices from static maps diverge from real travel times during peak hours, weather events, and road closures. A route optimal in the model may be infeasible or costly in practice | Use time-dependent travel time data (Google Maps Distance Matrix API with departure_time); validate against historical GPS traces quarterly |
-| **Overfitting to Historical Data** | High | Routing models trained or tuned on historical demand distributions perform poorly when demand patterns shift (new customers, seasonal spikes, promotional events) | Use rolling 90-day training windows; include demand variability buffers; test on held-out future dates, not random splits |
-| **Local Optima Traps** | Medium | Greedy construction heuristics and simulated annealing can converge to solutions 15-30% above optimal, especially on heterogeneous fleets | Run multi-start initialization with 10+ random seeds; apply LNS (Large Neighborhood Search) perturbation; compare against OR-Tools LNS upper bound |
-| **Real-time Latency Failures** | High | A dispatch algorithm that runs in 200ms for 50 stops may time out at 500 stops in production, causing missed assignments and driver idle time | Load-test at 2x expected peak volume; implement timeout fallbacks to nearest-neighbor insertion; monitor p99 latency in production |
-| **Data Quality Issues** | High | Invalid coordinates, duplicate customer IDs, infeasible time windows (close < open), and negative demands will cause solvers to produce incorrect or infeasible solutions | Implement pre-solve validation pipeline: coordinate bounding boxes, demand sign checks, time window feasibility checks, distance matrix triangle inequality audit |
-| **Constraint Omission** | Medium | Real-world routing has soft constraints often omitted in models: driver break regulations (HOS rules), preferred customer time windows, vehicle-customer compatibility, and toll avoidance preferences | Maintain a constraint registry; categorize hard vs. soft; add soft constraints as penalty terms; conduct monthly constraint audit with operations team |
-
----
-
-## § 4 Core Philosophy
-
-### Optimization Pipeline
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                  LOGISTICS OPTIMIZATION PIPELINE                    │
-├──────────────┬──────────────┬──────────────┬──────────────┬─────────┤
-│   PROBLEM    │    MODEL     │    SOLVE     │  VALIDATE    │ DEPLOY  │
-│              │              │              │              │         │
-│ - Define     │ - Sets &     │ - Exact:     │ - Optimality │ - API   │
-│   objective  │   parameters │   Gurobi
-│ - Identify   │ - Decision   │   CPLEX      │ - KPI vs     │ - A/B   │
-│   constraints│   variables  │ - Heuristic: │   baseline   │   test  │
-│ - Validate   │ - Objective  │   OR-Tools
-│   data       │   function   │   LKH-3      │   backtest   │ - Retrain│
-│ - Scope      │ - Constraint │ - Meta:      │ - Field      │         │
-│   instance   │   set        │   GA / SA
-│   size       │              │   Tabu       │              │         │
-└──────────────┴──────────────┴──────────────┴──────────────┴─────────┘
-       │               │              │              │            │
-  Gate: Data      Gate: Scale    Gate: Budget   Gate: Gap    Gate: SLA
-  quality OK?     <500 exact?    runtime OK?    <5%?         latency OK?
-```
-
-### Guiding Principles
-
-1. **Model before code**: Every optimization problem deserves a formal mathematical specification before implementation. A clean MILP or CP formulation prevents ambiguity, exposes hidden constraints, and enables solver selection based on problem structure.
-
-2. **Scale-appropriate methods**: No single algorithm wins at all scales. A branch-and-cut solver that finds optimal solutions for 100-stop instances will time out for 1000-stop instances. Always benchmark your specific instance size and select the method that delivers the best quality-within-time-budget tradeoff.
-
-3. **Validation as a first-class concern**: An algorithm that produces a 10% better route on paper but is rejected by drivers because it ignores realistic constraints has zero business value. Validate solutions with operations teams, pilot on a subset of routes before full rollout, and track actual vs. planned KPIs after deployment.
-
----
-
-
-## § 6 Professional Toolkit
-
-### Optimization Solvers
-
-| Tool | Type | Best For | License |
-|------|------|----------|---------|
-| **Gurobi** | MIP, LP, QP, MIQP | Large-scale MILP network design, exact VRP column generation; sub-second LP re-solves for real-time dispatch | Commercial (free academic) |
-| **CPLEX (IBM)** | MIP, LP, CP | Enterprise TMS integration; constraint programming for scheduling problems with logical constraints | Commercial |
-| **OR-Tools (Google)** | CP-SAT, VRP, Routing | Production-grade VRPTW solver; supports time windows, breaks, multi-depot; Python/C++/Java/Go | Apache 2.0 |
-| **PuLP** | LP, MILP | Rapid prototyping of facility location and load assignment models in Python; solver-agnostic API | MIT |
-| **SCIP** | MIP, MINLP | Research-grade exact solver for nonlinear logistics models; strong for academic benchmarking | ZIB Academic |
-| **LKH-3** | TSP/VRP heuristic | State-of-the-art Lin-Kernighan-Helsgott heuristic; best-known solutions on Solomon benchmark instances | Free for research |
-| **HiGHS** | LP, MIP | Open-source high-performance LP/MIP; excellent PuLP backend; 10-50x faster than CBC | MIT |
-
-### Geospatial and Routing APIs
-
-| Tool | Use Case |
-|------|----------|
-| **Google Maps Distance Matrix API** | Time-dependent travel times with `departure_time`; essential for realistic VRPTW distance matrices |
-| **OSRM (Open Source Routing Machine)** | Self-hosted, high-throughput routing engine; 10,000+ distance matrix requests/second; ideal for batch route planning |
-| **Valhalla** | Open-source routing with truck profile support (height/weight/hazmat restrictions); ideal for freight routing |
-| **HERE Routing API** | Commercial truck routing with live traffic; supports hazmat, trailer dimensions, weight limits |
-
-### Data and Pipeline Infrastructure
-
-| Tool | Use Case |
-|------|----------|
-| **Apache Kafka** | Real-time event streaming for dynamic dispatch: new order events, GPS position updates, driver status changes |
-| **Apache Airflow** | Batch optimization pipeline orchestration; daily route planning DAGs with dependency management and retry logic |
-| **AnyLogic** | Agent-based and discrete-event simulation for logistics network validation before live deployment |
-| **SimPy** | Python-native discrete-event simulation for warehouse throughput and dock scheduling analysis |
-
-### Scientific Python Stack
-
-| Library | Use Case |
-|---------|----------|
-| **NetworkX** | Graph modeling for network flow problems, shortest path preprocessing, distance matrix construction |
-| **SciPy (spatial, optimize)** | K-means clustering for zone design, scipy.optimize for parameter tuning |
-| **NumPy
-| **Scikit-learn** | Demand forecasting for routing (RandomForest, gradient boosting), travel time prediction |
-
----
-
-## § 7 Standards and Reference
-
-### Algorithm Complexity Reference
-
-| Algorithm | Problem | Complexity | Practical Scale | Notes |
-|-----------|---------|------------|-----------------|-------|
-| Nearest Neighbor | TSP/VRP | O(n²) | 100,000+ nodes | Construction heuristic; solution quality ~20-25% above optimal |
-| 2-opt | TSP | O(n²) per iteration | 10,000 nodes | Classic improvement; use with nearest-neighbor initialization |
-| LKH-3 | TSP/VRP | O(n² log n) empirical | 1,000-100,000 nodes | Best known heuristic; near-optimal on most benchmarks |
-| OR-Tools LNS | VRPTW | Varies | 50-5,000 stops | Production-recommended; guided LNS with CP-SAT backend |
-| Branch & Cut | MILP | Exponential worst-case | <300 nodes for VRP | Exact; Gurobi/CPLEX; use for network design and facility location |
-| Column Generation | VRP | Polynomial per column | 500-2,000 nodes | Exact or near-exact; handles VRPTW well; complex to implement |
-| Genetic Algorithm | Any combinatorial | O(g × p × f) | 500-10,000 nodes | g = generations, p = population size, f = fitness eval cost |
-| Simulated Annealing | Any combinatorial | O(iter × neighborhood) | 200-5,000 nodes | Easy to implement; sensitive to cooling schedule |
-| Tabu Search | Any combinatorial | O(iter × neighborhood) | 200-10,000 nodes | Strong short-term memory prevents cycling; good for VRP |
-
-### Performance Metrics
-
-| Metric | Formula | Target | Benchmark |
-|--------|---------|--------|-----------|
-| **Optimality Gap** | `(best_found - lower_bound)
-| **Vehicle Utilization Rate** | `actual_load
-| **On-Time Delivery Rate** | `deliveries_on_time
-| **Cost per Delivery** | `total_route_cost / number_of_stops` | Baseline − 10-20% | Compare before/after optimization with same demand set |
-| **Route Density** | `stops / km_driven` | Urban: >2.5 stops/km; Suburban: >1.0; Rural: >0.3 | Lower density = longer routes; review zone boundaries |
-| **Driver Utilization** | `active_driving_time
-| **Fleet Size Reduction** | `(baseline_vehicles - optimized_vehicles)
-| **Solver Runtime** | Wall-clock seconds to produce solution | Batch: <10 min; Tactical: <5 min; Real-time: <1 sec | Log p50/p95/p99; alert on p99 > 3× p50 |
-
----
-
-## Phase 1: Problem Formulation and Data Preparation
-
-```
-STEP 1.1 — Define the Problem
-  [ ] Identify problem type: pure routing / with scheduling
-  [ ] Document objective function: minimize cost / distance / time / emissions
-  [ ] List all hard constraints: capacity, time windows, driver hours, vehicle compatibility
-  [ ] List all soft constraints: preferred windows, driver-customer affinity, toll avoidance
-  [ ] Agree on instance scope: how many stops, vehicles, depots, time horizon
-
-  [✓ Done]: Written problem statement with formal notation agreed with business owner
-  [✗ FAIL]: Proceed without clear objective → model will optimize the wrong thing
-
-STEP 1.2 — Data Acquisition and Validation
-  [ ] Extract customer locations (lat/lon), time windows, demands, service times
-  [ ] Build distance/time matrix (OSRM for batch; Google Maps API for time-dependent)
-  [ ] Validate: no NaN coordinates, demands ≥ 0, time windows (open ≤ close)
-  [ ] Check triangle inequality: expert(A,C) ≤ d(A,B) + d(B,C) for all triplets
-  [ ] Profile demand distribution: mean, std dev, 95th percentile (for capacity planning)
-  [ ] Detect infeasible customers: demand > max vehicle capacity → flag for special handling
-```
-
-> See [references/09-scenarios.md](./references/09-scenarios.md) for Phase 1 code templates (data validation, distance matrix)
-
-### Phase 2: Algorithm Design and Solve
-
-```
-STEP 2.1 — Select Algorithm
-  [ ] Determine instance size (n = number of customer nodes)
-  [ ] If n < 100: try Gurobi/OR-Tools exact; set time limit 300s
-  [ ] If 100 ≤ n < 1000: OR-Tools LNS with guided local search; time limit 120s
-  [ ] If n ≥ 1000: custom metaheuristic (LKH-3 or GA/SA/Tabu); time limit 600s
-  [ ] For real-time (< 1s budget): nearest-neighbor construction + 1-pass 2-opt
-
-  [✓ Done]: Algorithm selected with documented rationale and time budget
-  [✗ FAIL]: Using branch-and-cut on 500+ node VRP without decomposition
-
-STEP 2.2 — Implement and Tune
-  [ ] Implement solution with unit tests on small instances (n=5, n=10)
-  [ ] Benchmark against OR-Tools baseline on medium instances
-  [ ] Tune solver parameters: time limit, neighborhood size, perturbation rate
-  [ ] Compute lower bound (LP relaxation or BHH bound) to calculate optimality gap
-  [ ] Log solution quality and runtime for each instance size bucket
-```
-
-> See [references/09-scenarios.md](./references/09-scenarios.md) for Phase 2 code templates (OR-Tools VRPTW solver, metaheuristics)
-
-### Phase 3: Validation and Deployment
-
-```
-STEP 3.1 — Solution Validation
-  [ ] Compute optimality gap: (best_found - lower_bound)
-  [ ] Verify all hard constraints satisfied: capacity, time windows, vehicle count
-  [ ] Compare KPIs against baseline: cost per delivery, fleet size, utilization
-  [ ] Run simulation backtest: replay 30 days of historical demand through new algorithm
-  [ ] Conduct field pilot: select 10% of routes; compare planned vs. actual completion
-
-  [✓ Done]: Optimality gap <5%, all constraints satisfied, KPI improvement ≥ 10%
-  [✗ FAIL]: Gap >10% or any hard constraint violation → return to Phase 2
-
-STEP 3.2 — Deployment
-  [ ] Wrap solver as REST API (Flask/FastAPI): POST /optimize, GET /status/:job_id
-  [ ] Implement async job queue for batch runs (Celery + Redis)
-  [ ] Add timeout fallback: if solver exceeds limit, return best partial solution
-  [ ] Set up monitoring: solution quality score, runtime p99, infeasibility rate
-  [ ] Document override UI: dispatchers must be able to manually adjust routes
-  [ ] Schedule model revalidation: monthly performance review against actuals
-
-  [✓ Done]: API deployed, <1% infeasibility rate, latency p99 within SLA
-  [✗ FAIL]: p99 latency > 3× SLA or infeasibility rate > 5% → scale back scope
-```
-
----
-
-## Quick Reference
-
-| Scenario | Problem Type | Algorithm | Expected Outcome |
-|----------|--------------|-----------|------------------|
-| **A: Last-Mile VRPTW** | 500 stops, 20 vehicles, time windows | OR-Tools GLS + zone clustering | 15-25% distance reduction, 88%→95% on-time |
-| **B: Warehouse Slotting** | ABC QAP, 12km picker travel | ABC velocity + affinity heuristic | 25-42% travel reduction |
-| **C: Network Design** | 50 candidates, ±30% demand uncertainty | Stochastic MILP (PuLP + HiGHS) | Robust facility selection across scenarios |
-
-### Anti-Patterns Summary
-
-| Severity | Anti-Pattern | Mitigation |
-|----------|--------------|------------|
-| 🔴 High | Over-optimizing on historical data | Evaluate on held-out future dates |
-| 🔴 High | Exact solver on 1000+ nodes | OR-Tools LNS or LKH-3 for large instances |
-| 🔴 High | Ignoring soft constraints | Penalty terms in objective + tuning |
-| 🟡 Medium | No sensitivity analysis | Multi-scenario analysis table |
-| 🟡 Medium | Black-box model | Route explainability API |
-| 🟡 Medium | Ignoring real-time drift | Kafka + re-optimization triggers |
-
----
-
-
-## § 8 · Workflow
-
-### Phase 1: Discovery & Assessment
-
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs  
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
-
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
-
----
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on logistics algorithm engineer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent logistics algorithm engineer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term logistics algorithm engineer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 Integration with Other Skills
 
@@ -571,6 +147,7 @@ STEP 3.2 — Deployment
 | **Logistics Algorithm Engineer + ML Engineer** | Travel time prediction to replace static distance matrices; learn from historical GPS data to predict realistic travel times by time-of-day and day-of-week | ML Engineer trains gradient boosting model on GPS traces → predicted travel time; Algorithm Engineer replaces OSRM static matrix with ML-predicted matrix; measure improvement in planned vs. actual arrival time accuracy |
 
 ---
+
 
 ## § 12 Scope and Limitations
 
@@ -627,6 +204,7 @@ Activate this skill when your conversation includes any of these terms:
 `路径优化`, `车辆调度`, `物流算法`, `仓库优化`, `设施选址`, `运筹学`, `最后一公里`
 
 ---
+
 
 ## § 14 Quality Verification
 
@@ -699,6 +277,7 @@ Expected output:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
+
 ## § 17 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
@@ -725,6 +304,7 @@ Expected output:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -745,6 +325,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -757,15 +338,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -788,3 +360,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 Standards and Reference](./references/7-standards-and-reference.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

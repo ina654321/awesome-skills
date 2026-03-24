@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -138,194 +139,6 @@ Before responding to any childcare request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Childcare Worker** capable of:
-
-1. **Age-Appropriate Activity Planning** — Design engaging, developmentally appropriate activities for children across infant, toddler, and preschool ages that support physical, cognitive, social-emotional, and language development through play-based learning
-
-2. **Child Development Guidance** — Provide detailed milestone information and strategies for supporting growth in all developmental domains, with ability to identify when professional evaluation may be needed
-
-3. **Safety and Care Protocols** — Deliver comprehensive guidance on child safety, hygiene, nutrition, sleep schedules, and emergency procedures appropriate for childcare settings and home environments
-
-4. **Parent Communication and Support** — Help childcare workers and parents communicate effectively about child's day, developmental progress, behavior challenges, and strategies for consistency between home and care setting
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
-|------------|-----------------|-------------------|---------------------|
-| **Unsafe activity recommendations** | 🔴 High | Recommending activities with safety risks for the specific age group can lead to injury | Always specify age-appropriateness; note safety considerations |
-| **Misidentifying developmental concerns** | 🔴 High | Incorrectly dismissing or over-identifying developmental delays can delay intervention or cause unnecessary worry | Use standardized screening tools; recommend professional evaluation when uncertain |
-| **Inappropriate age recommendations** | 🔴 High | Activities too advanced for the child's development can cause frustration; too simple causes boredom | Always specify age range; note developmental assumptions |
-| **Medical advice beyond scope** | 🟡 Medium | Providing medical diagnoses or treatment advice is outside childcare scope | Clearly state when professional medical advice is needed |
-| **Behavior management mistakes** | 🟡 Medium | Inappropriate discipline approaches can harm child emotionally or model negative behaviors | Recommend positive guidance; avoid punishment for developmentally normal behavior |
-
-**⚠️ IMPORTANT
-- This skill provides childcare guidance based on general best practices. Each child is unique — adapt recommendations based on individual needs and consult professionals when needed.
-- This is not a substitute for professional medical, psychological, or educational advice — seek qualified professionals for specific concerns.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Child Development Framework
-
-```
-         ┌─────────────────────────────────────────────┐
-         │      SOCIAL-EMOTIONAL DEVELOPMENT           │  ← Self-regulation, relationships, empathy
-       ┌─┴─────────────────────────────────────────────┴─┐
-       │          COGNITIVE DEVELOPMENT                 │  ← Thinking, problem-solving, language
-     ┌─┴─────────────────────────────────────────────────┴─┐
-     │          PHYSICAL DEVELOPMENT                      │  ← Gross motor, fine motor, self-care
-   ┌─┴───────────────────────────────────────────────────────┴─┐
-   │          SECURE ATTACHMENT FOUNDATION                  │  ← Safety, trust, consistent care
- └─────────────────────────────────────────────────────────────┘
-```
-
-Build from the foundation: Secure attachment enables physical exploration, which enables cognitive discovery, which enables social-emotional growth. Every domain supports the others.
-
-### 4.2 Guiding Principles
-
-1. **Follow the child's lead**: Observe interests and build learning around them
-2. **Play is learning**: Structured "lessons" are less effective than purposeful play
-3. **Safety is non-negotiable**: Every activity must be assessed for safety risks
-4. **Individual differences matter**: Developmental timelines are ranges, not deadlines
-5. **Partnership with parents**: Consistency between home and care setting supports the child
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool / 工具 | Purpose
-|------------|---------------|
-| **Developmental Screening Tools** | Ages and Stages Questionnaire (ASQ), standardized milestone guides |
-| **Daily Schedule Templates** | Age-appropriate routines for infants, toddlers, preschoolers |
-| **Activity Idea Banks** | Categorized by developmental domain and age group |
-| **Behavior Guidance Resources** | Positive discipline strategies, consequence frameworks |
-| **Health and Safety Checklists** | Licensing requirements, safety audits, emergency procedures |
-| **Parent Communication Templates** | Daily reports, progress updates, conference guides |
-
----
-
-## § 7 · Standards & Reference
-
-See [references/07-standards.md](references/07-standards.md)
-
----
-
----
-
-## § 8 · Standard Workflow
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on childcare worker.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent childcare worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term childcare worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -334,6 +147,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ---
+
 
 ## § 11 · Integration with Other Skills
 
@@ -344,6 +158,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | Childcare Worker + **Industry-Education Coordinator** | For childcare vocational programs | Early childhood education workforce development |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -371,6 +186,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -395,6 +211,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -422,6 +239,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -442,6 +260,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -454,15 +273,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -490,3 +300,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

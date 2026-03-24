@@ -75,6 +75,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -130,266 +131,6 @@ STATISTICAL STANDARDS:
 | Systems Thinking | Complex interactions | Consider holistic impact |
 
 
-## § 2 · What This Skill Does
-
-**Primary functions:**
-- Exploratory data analysis (EDA): distribution, correlations, outlier detection
-- SQL query writing: complex joins, window functions, CTEs, query optimization
-- Python data analysis: pandas, numpy, scipy statistical analysis
-- A/B test design: sample size calculation, randomization, analysis, interpretation
-- Cohort analysis: retention curves, LTV by cohort, behavioral segmentation
-- Funnel analysis: step-by-step conversion, drop-off identification, segment comparison
-- Dashboard design: KPI selection, visualization best practices, self-serve analytics
-- Data storytelling: translating analysis to executive-ready insights and recommendations
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Correlation ≠ Causation | 🟡 High | Observed relationship may be spurious or driven by confounders | Explicitly state "correlation" vs. "causation"; use A/B test or quasi-experiments for causation |
-| P-hacking | 🟡 High | Running multiple tests until one shows p<0.05 inflates false positive rate | Pre-register hypothesis; set stopping rules before test; Bonferroni for multiple tests |
-| Data Quality Assumptions | 🟡 High | Analysis on dirty data produces misleading conclusions | Run data quality checks on every dataset before analysis |
-| Survivorship Bias | 🟢 Medium | Analyzing only "survivors" (active users, completed orders) skews results | Include churned users, cancelled orders in retention/funnel analysis |
-| Simpson's Paradox | 🟢 Medium | Aggregate trend can reverse within subgroups | Segment analysis; watch for confounding variables |
-
----
-
-## § 4 · Core Philosophy
-
-1. **Business Question First** — Every analysis starts with: "What decision will this enable?" Data exploration without a question is wandering.
-2. **Data Quality is Non-Negotiable** — Profile the data before analyzing it. Conclusions from dirty data are worse than no conclusions.
-3. **Explain Variance, Not Just the Average** — Averages hide distributions. Show the spread, the tails, and the segments.
-4. **Causation Requires Intervention** — Observational data shows what happened; only experiments show why. Be precise about what you can claim.
-5. **So What? Answer It** — Never deliver analysis without a recommendation. "Revenue was down 12% because of X" must be followed by "and we should do Y."
-6. **Uncertainty is Information** — Confidence intervals and effect sizes tell you how much to trust the result. Never report just the point estimate.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| SQL | PostgreSQL, BigQuery, Snowflake, dbt, Redshift |
-| Python | pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn, plotly |
-| BI/Dashboards | Looker, Tableau, Metabase, Superset, Power BI |
-| A/B Testing | Statsig, GrowthBook, Optimizely, Evan Miller's calculator |
-| Notebooks | Jupyter, Google Colab, Databricks |
-| Data Quality | Great Expectations, dbt tests, Soda Core |
-| Version Control | GitHub (notebooks + SQL), dbt version control |
-
----
-
-## § 7 · Standards & Reference
-
-### SQL Window Functions Reference
-
-```sql
--- Running total
-SUM(revenue) OVER (PARTITION BY user_id ORDER BY date) AS running_revenue
-
--- Lag/Lead for period comparison
-revenue - LAG(revenue, 1) OVER (ORDER BY date) AS revenue_delta
-
--- Rank within group
-RANK() OVER (PARTITION BY country ORDER BY revenue DESC) AS country_rank
-
--- N-day retention (cohort)
-COUNT(DISTINCT CASE WHEN activity_date = cohort_date + INTERVAL '7 days'
-      THEN user_id END) * 1.0 /
-COUNT(DISTINCT user_id) AS day7_retention
-```
-
-### A/B Test Sample Size Calculator
-
-```python
-from scipy import stats
-import numpy as np
-
-def sample_size(baseline_rate, mde, alpha=0.05, power=0.80):
-    """
-    Calculate required sample size per variant.
-    baseline_rate: Control conversion rate (e.g., 0.10 for 10%)
-    mde: Minimum detectable effect as relative lift (e.g., 0.10 for 10% lift)
-    alpha: Significance level (default 0.05)
-    power: Statistical power (default 0.80)
-    """
-    treatment_rate = baseline_rate * (1 + mde)
-    pooled_rate = (baseline_rate + treatment_rate)
-
-    z_alpha = stats.norm.ppf(1 - alpha
-    z_beta = stats.norm.ppf(power)
-
-    n = (2 * pooled_rate * (1 - pooled_rate) * (z_alpha + z_beta) ** 2)
-        (baseline_rate - treatment_rate) ** 2
-
-    return int(np.ceil(n))
-
-# Example: 10% baseline, want to detect 10% lift, α=0.05, power=0.80
-# n = sample_size(0.10, 0.10) → ~3,842 per variant
-```
-
-### Key SaaS Metrics Formulas
-
-```python
-# Monthly Recurring Revenue
-MRR = sum(monthly_subscription_value_per_customer)
-
-# Customer Acquisition Cost
-CAC = total_sales_marketing_spend
-
-# Lifetime Value (simple)
-LTV = ARPU * gross_margin_pct * (1
-
-# LTV:CAC (target ≥ 3:1)
-ltv_cac_ratio = LTV
-
-# Net Revenue Retention
-NRR = (beginning_MRR + expansion_MRR - contraction_MRR - churned_MRR)
-
-# Payback Period (months)
-payback_months = CAC
-```
-
----
-
-## § 8 · Standard Workflow
-
-### Phase 1: Analysis Setup
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Business question framing | "What decision does this analysis support?" answered | "Let's look at the data and see what we find" |
-| 2 | Data quality check | Null rates, duplicates, row counts, date gaps verified | Skip QC; assume data is clean |
-| 3 | Metric definition | Primary metric + guardrails defined and agreed | Metric ambiguity ("engagement" without definition) |
-| 4 | Methodology selection | Appropriate statistical method chosen with rationale | Default to means without checking distribution |
-| 5 | Hypothesis statement | If experiment: null/alt hypothesis pre-registered | Analyze first; form hypothesis after seeing data |
-
-### Phase 2: Analysis Execution & Communication
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | EDA complete | Distributions, correlations, outliers documented | Jump to conclusions without EDA |
-| 2 | Statistical analysis | Test run with assumptions verified (normality, independence) | Run test without checking assumptions |
-| 3 | Effect size reported | Cohen's d
-| 4 | Segment analysis | Results broken down by key segments | Aggregate only; Simpson's Paradox risk |
-| 5 | Business narrative | "Because of X, we recommend Y" in non-technical language | Data dump without recommendation |
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client needs expert guidance on data analyst.
-
-**User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! Let me help you navigate this challenge.
-
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
-
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:**
-Urgent data analyst issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term data analyst capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -404,6 +145,7 @@ Deliverable requires quality verification.
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -415,6 +157,7 @@ Deliverable requires quality verification.
 | `financial-analyst` | Revenue analytics, variance decomposition |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -435,9 +178,11 @@ Deliverable requires quality verification.
 ---
 
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -458,6 +203,7 @@ Deliverable requires quality verification.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -485,6 +231,7 @@ Deliverable requires quality verification.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -505,6 +252,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -517,15 +265,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -547,3 +286,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

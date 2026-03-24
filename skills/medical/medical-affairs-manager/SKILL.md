@@ -34,6 +34,7 @@ Transform your AI into a senior medical affairs professional capable of building
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### § 1.1 · Identity & Worldview
@@ -149,290 +150,6 @@ Speed and accuracy are critical in medical crises.
 
 ---
 
-## § 2 · What This Skill Does
-
-| Capability | Description |
-|------------|-------------|
-| **KOL Engagement** | Thought leader mapping, relationship development, scientific exchange |
-| **Medical Strategy** | Medical planning, evidence generation strategy, launch preparation |
-| **Medical Education** | CME development, speaker programs, disease awareness campaigns |
-| **Publication Planning** | ISS development, congress strategy, manuscript support |
-| **Medical Information** | Scientific inquiry response, standard response letters, literature monitoring |
-| **Phase IV/ RWE** | Investigator-initiated studies, registry design, observational research |
-
----
-
-## § 3 · Risk Disclaimer
-
-**Critical Risk Assessment**:
-
-| Risk | Severity | Likelihood | Mitigation |
-|------|----------|------------|------------|
-| **Off-label promotion** | 🔴 Critical | Low | Medical-Legal review, training, monitoring |
-| **KOL relationship impropriety** | 🔴 Critical | Low | Transparency reporting, PhRMA code compliance |
-| **Unbalanced communication** | 🟠 High | Medium | Medical review, fair balance requirements |
-| **Data misinterpretation** | 🟠 High | Medium | Source verification, context provision |
-| **Competitive intelligence breach** | 🔴 Critical | Low | Confidentiality agreements, clean room procedures |
-| **Social media misstep** | 🟠 High | Medium | Social media policy, approval workflows |
-
-**Disclaimer**: Medical affairs activities must comply with PhRMA Code, local regulations, and company SOPs. Activities should never constitute promotion of unapproved uses.
-
----
-
-## § 4 · Core Philosophy
-
-### The Medical Affairs Value Chain
-
-```
-                    ┌─────────────────────────┐
-                    │   Improved Patient        │  ← Better outcomes through
-                  ┌─┴─────────────────────────┴─┤   evidence-based care
-                  │    Clinical Practice Change   │  ← Guidelines, protocols,
-                ┌─┴─────────────────────────────┴─┤   treatment adoption
-                │      KOL Engagement & Education   │  ← Scientific exchange,
-              ┌─┴───────────────────────────────────┴─┤   medical education
-              │        Evidence Generation &            │  ← Clinical trials,
-            ┌─┴─────────────────────────────────────────┴─┤   real-world evidence
-            │              Medical Strategy                 │  ← Scientific narrative,
-          ┌─┴───────────────────────────────────────────────┴─┤   evidence planning
-          │                  Clinical Science                   │  ← R&D data,
-          └───────────────────────────────────────────────────────┘   clinical insights
-```
-
-### Guiding Principles
-
-1. **Patient-Centric**: All activities ultimately serve patient wellbeing
-2. **Scientific Integrity**: Evidence drives all medical communications
-3. **Compliance First**: Regulations are non-negotiable boundaries
-4. **Collaborative Partnership**: Work with KOLs as scientific partners
-5. **Continuous Learning**: Medicine evolves; stay current
-
----
-
-## § 5 · Professional Toolkit
-
-### KOL Engagement Tools
-
-| Tool | Purpose | Platform |
-|------|---------|----------|
-| **Veeva CRM** | KOL profiling, interaction tracking, territory management | Veeva Systems |
-| **Zoom/Teams** | Virtual advisory boards, scientific exchanges | Microsoft, Zoom |
-| **Medical Insights** | Aggregate insights from field interactions | Internal systems |
-| **Publication Tracker** | Monitor KOL publications, citations | PubMed, Scopus |
-| **Congress Planning** | Abstract tracking, presentation scheduling | Internal tools |
-
-### Medical Education Formats
-
-| Format | Audience | Duration | Content Type |
-|--------|----------|----------|--------------|
-| **Advisory Board** | KOLs | 4-8 hours | Strategic discussion |
-| **Speaker Training** | Paid speakers | 1-2 days | Presentation skills, messaging |
-| **CME Program** | HCPs | 1-2 hours | Accredited education |
-| **Grand Rounds** | Institution | 1 hour | Disease state education |
-| **Digital Education** | Broad reach | Self-paced | Online modules, webinars |
-
-### Publication Types
-
-| Type | Timeline | Impact | Strategy Role |
-|------|----------|--------|---------------|
-| **Primary Manuscript** | 6-12 months | High | Pivotal trial results |
-| **Secondary Analysis** | 3-6 months | Medium | Subgroup, exploratory |
-| **Review Article** | 3-6 months | High | Thought leadership |
-| **Congress Abstract** | 3-6 months | Medium | Data dissemination |
-| **Poster Presentation** | 3-4 months | Low-Medium | Early data sharing |
-| **Real-World Evidence** | 6-12 months | Medium | Clinical practice data |
-
----
-
-## § 6 · Domain Knowledge
-
-### Medical Affairs Organizational Structure
-
-```
-Head of Medical Affairs
-├── Medical Strategy & Operations
-│   └── Medical planning, budget, analytics
-├── Medical Science Liaisons (MSLs)
-│   └── Field-based scientific exchange
-├── Medical Information
-│   └── Inquiry response, standard responses
-├── Medical Education
-│   └── CME, speaker programs, congress
-├── Phase IV / IIS
-│   └── Investigator-initiated studies
-└── Publications
-    └── ISS planning, medical writing
-```
-
-### PhRMA Code Compliance Checklist
-
-| Activity | Requirement | Documentation |
-|----------|-------------|---------------|
-| **Consulting payments** | Fair market value, written contract | FMV assessment, signed agreement |
-| **Meals** | Modest, occasion of scientific exchange | Attendance logs, receipts |
-| **Speaker programs** | Educational purpose, appropriate venue | Program agenda, attendance |
-| **Advisory boards** | Bona fide need, appropriate participants | Meeting minutes, recommendations |
-| **Grants** | Independent decision, no quid pro quo | Charitable giving policy |
-
-### Publication Planning Timeline
-
-| Phase | Timeline | Activities |
-|-------|----------|------------|
-| **Gap Analysis** | Y-2 to Y-1 | Literature review, evidence mapping |
-| **Planning** | Y-1 | Publication committee, author selection |
-| **Execution** | Y1-Y3 | Writing, submission, revision |
-| **Tracking** | Ongoing | Citation analysis, impact measurement |
-
----
-
-## § 7 · Scenario Examples
-
-### Scenario 1: Pre-Launch Medical Strategy
-
-**Context**: Novel oncology therapy approaching PDUFA date; 6 months to launch.
-
-**Medical Affairs Plan**:
-1. **KOL Mapping**:
-   - Identify 50 tier 1 KOLs nationally
-   - Assess current relationships (advocacy, competitive alignment)
-   - Prioritize engagement based on influence and openness
-
-2. **Advisory Board Series**:
-   - Q1: Clinical data deep dive, positioning input
-   - Q2: Launch strategy, medical education needs
-   - Q3: Post-launch evidence generation planning
-
-3. **Medical Education Development**:
-   - Disease state: Unmet needs in indication
-   - Product-specific: Mechanism of action, clinical data
-   - Competitive landscape: Differentiation, sequencing
-
-4. **Phase IV Planning**:
-   - Registry for real-world safety/efficacy
-   - Combination studies with standard of care
-   - Patient-reported outcomes validation
-
-5. **Publication Strategy**:
-   - Primary manuscript: Phase 3 results (target journal: NEJM/Lancet)
-   - Subgroup analyses: Special populations
-   - Review article: Disease landscape and treatment evolution
-
-**Success Metrics**: 80% tier 1 KOLs engaged, 5 publications in year 1, 50+ IIS applications
-
----
-
-### Scenario 2: Scientific Exchange with KOL
-
-**Context**: Meeting with Tier 1 oncologist to discuss new clinical data.
-
-**Pre-Meeting Preparation**:
-1. **KOL Profile**: Recent publications, clinical trial involvement, current prescribing
-2. **Data Package**: Latest abstract, full manuscript, supplementary data
-3. **Objectives**: Understand treatment algorithms, gather insights on data relevance
-4. **Questions**: Current unmet needs, competitor perceptions, evidence gaps
-
-**Meeting Execution**:
-- Opening: Scientific context, new data overview
-- Discussion: Efficacy endpoints, safety profile, patient selection
-- Insights: Practice patterns, formulary considerations
-- Next Steps: Follow-up materials, congress meeting, advisory board invitation
-
-**Post-Meeting**:
-- CRM documentation within 24 hours
-- Insights shared with cross-functional team
-- Follow-up commitments completed
-
----
-
-### Scenario 3: Investigator-Initiated Study (IIS)
-
-**Context**: KOL submits IIS proposal for combination study.
-
-**Review Process**:
-1. **Scientific Merit**: Hypothesis, design, feasibility
-2. **Strategic Alignment**: Evidence gap addressed, supports medical objectives
-3. **Regulatory Assessment**: IND/IDE requirements, compliance
-4. **Budget Review**: Fair market value, resource allocation
-5. **Legal/Compliance**: Contract terms, IP considerations
-
-**Decision**: Approve with modifications
-- Protocol refinement: Primary endpoint clarity
-- Budget: $150K over 2 years
-- Milestones: Progress reports every 6 months
-- Publication: Shared authorship per ICMJE guidelines
-
-**Management**:
-- Quarterly check-ins
-- Data monitoring (if applicable)
-- Publication support
-
----
-
-### Scenario 4: Medical Information Inquiry
-
-**Context**: HCP calls medical information line with off-label use question.
-
-**Response Process**:
-1. **Inquiry Documentation**: Caller credentials, specific question, context
-2. **Literature Search**: PubMed, clinical trial registries, guidelines
-3. **Response Development**:
-   - On-label information: Full response
-   - Off-label: "Not FDA-approved for this indication"
-   - Published evidence: Summary if available (balanced)
-   - Standard response: Pre-approved language
-4. **Medical Review**: Medical director sign-off for complex inquiries
-5. **Delivery**: Written response within SLA (2-3 days)
-
-**Documentation**: Inquiry logged, response archived, trend analysis
-
----
-
-### Scenario 5: Crisis Communication - Safety Signal
-
-**Context**: New safety signal identified in spontaneous reports.
-
-**Immediate Response (24-48 hours)**:
-1. **Cross-Functional Team**: Medical, PV, regulatory, legal, communications
-2. **Data Analysis**: Case review, frequency calculation, comparator rates
-3. **Risk Assessment**: Severity, reversibility, predictability
-4. **KOL Briefing**: Scientific explanation, clinical context
-5. **Communication Materials**: HCP letter, patient guide, FAQ
-
-**Ongoing Management**:
-- Label update (if warranted)
-- Regulatory notification
-- Enhanced surveillance
-- Publication of case series (if appropriate)
-
-**Outcome**: Transparent communication, maintained trust, appropriate risk mitigation
-
----
-
-## § 8 · Workflow
-
-| Phase | Objective | Done Criteria | Fail Criteria |
-|-------|-----------|---------------|---------------|
-| **Planning** | Medical strategy development | Medical plan approved, budget allocated | Misalignment with commercial |
-| **KOL Engagement** | Relationship development | 80% tier 1 KOLs engaged | Poor relationship quality |
-| **Evidence Generation** | Study execution | Protocols finalized, sites activated | Enrollment delays |
-| **Education** | Scientific communication | Programs delivered, evaluations positive | Low attendance, poor feedback |
-| **Launch Support** | Product introduction | Advisory boards complete, materials ready | Insufficient KOL readiness |
-| **Lifecycle** | Ongoing support | Publications delivered, IIS managed | Evidence gaps persist |
-
----
-
-## § 9 · Anti-Patterns
-
-| Anti-Pattern | Problem | Solution |
-|--------------|---------|----------|
-| **Promotional medical affairs** | Regulatory violations | Strict separation from commercial |
-| **Selective data presentation** | Loss of credibility | Full transparency, fair balance |
-| **Transactional KOL relationships** | Superficial engagement | Long-term partnership approach |
-| **Reactive evidence generation** | Missed opportunities | Proactive ISS planning |
-| **Siloed medical affairs** | Misaligned activities | Cross-functional collaboration |
-| **Inadequate documentation** | Compliance risk | Thorough CRM, call reporting |
-
----
 
 ## § 10 · References
 
@@ -456,6 +173,7 @@ Head of Medical Affairs
 
 ---
 
+
 ## § 11 · Integration
 
 - **Clinical Development** — Trial design, data interpretation, publication
@@ -466,3 +184,17 @@ Head of Medical Affairs
 ---
 
 **Version**: 2.0.0 | **Updated**: 2026-03-21 | **Quality**: EXCELLENCE 9.5/10
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Professional Toolkit](./references/5-professional-toolkit.md)
+- [## § 6 · Domain Knowledge](./references/6-domain-knowledge.md)
+- [## § 7 · Scenario Examples](./references/7-scenario-examples.md)
+- [## § 8 · Workflow](./references/8-workflow.md)
+- [## § 9 · Anti-Patterns](./references/9-anti-patterns.md)

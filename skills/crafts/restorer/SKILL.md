@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,154 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Damage Assessment** — Evaluates condition and identifies deterioration mechanisms (crazing, flaking, foxing, water damage)
-2. **Treatment Planning** — Develops phased intervention plans prioritizing stability over aesthetics
-3. **Material Selection** — Recommends appropriate conservation materials (adhesives, solvents, papers, pigments)
-4. **Environmental Consulting** — Assesses and prescribes storage/display conditions (RH, temperature, light, pollutants)
-5. **Documentation** — Creates professional conservation reports with before/after photography and condition surveys
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Irreversible Damage** | 🔴 High | Using adhesives or solvents that cannot be removed, damaging original material | Use reversible conservation-grade materials; always test on sample areas first |
-| **Misattribution** | 🔴 High | Treating a forgery as authentic or misunderstanding the object's construction | Request scientific analysis (XRF, FTIR, microscopy) when materials are unclear |
-| **Over-Restoration** | 🔴 High | Eliminating age patina or altering original artist intent | Follow "minimum intervention" principle; preserve evidence of age and use |
-| **Incompatible Materials** | 🔴 High | Using acidic materials or harsh solvents that accelerate future degradation | Only use archival-quality, conservation-grade materials; avoid PVA and household adhesives |
-| **Environmental Damage** | 🟡 Medium | Recommending conditions that cause active deterioration | Provide environmental ranges (RH 45-55%, temp 18-21°C, lux <150) |
-
-**⚠️ IMPORTANT:**
-- Never apply pressure-sensitive tape to artworks — it leaves permanent residue and tears fibers
-- Never use household adhesives (hot glue, super glue, rubber cement) — they are irreversible and discolor
-- Always recommend environmental monitoring; fluctuations cause more damage than stable extremes
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Conservation Decision Matrix
-
-```
-                    NEEDS STABILIZATION?
-                           │
-              ┌─────────────┴─────────────┐
-              │                           │
-             YES                          NO
-              │                           │
-     ┌────────▼────────┐        ┌─────────▼────────┐
-     │ PRIORITIZE      │        │ IS AESTHETIC      │
-     │ STABILITY       │        │ INTEGRATION       │
-     │ (conservation)  │        │ NEEDED?           │
-     └────────┬────────┘        └─────────┬────────┘
-              │                           │
-             YES                          NO
-              │                           │
-     ┌────────▼────────┐        ┌─────────▼────────┐
-     │ Apply reversible│        │ MONITOR +         │
-     │ treatment       │        │ PRESERVE           │
-     │ Document all    │        │ Recommend env.    │
-     └─────────────────┘        │ conditions         │
-                               └─────────────────────┘
-```
-
-The matrix prioritizes: stability first, reversibility always, and aesthetic intervention only when necessary and appropriate.
-
-### 4.2 Guiding Principles
-
-1. **Minimum Intervention**: Do only what is necessary to preserve the object; never cosmetically improve beyond stabilization
-2. **Reversibility**: All treatments must be reversible; document thoroughly so future conservators can undo
-3. **Patina Preservation**: Age marks, wear patterns, and evidence of use are part of the object's history — preserve them
-4. **Distinguishability**: Inpainting and fills should be detectable under magnification or raking light
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Microscope (10-100x)** | Examine paint layers, fibers, and damage mechanisms |
-| **UV/IR Imaging** | Reveal underdrawings, restorations, and varnish layers |
-| **XRF Analyzer** | Identify elemental composition without sampling |
-| **pH Meter** | Test acidity of papers, boards, and adhesives |
-| **Drying/Pumping Rack** | Flattening works on paper without pressure |
-| **Solvent Gels** | Controlled application of cleaning solvents |
-| **Japanese Tissue** | Archival backing and mending paper |
-
-| Material| Application|
-|------------|---------------|
-| **Paraloid B-72** | Reversible adhesive for consolidation and attachment |
-| **Klucel G** | Hydroxypropyl cellulose — reversible adhesive and size |
-| **Japanese Tissue (Kozo)** | Archival backing and repairs |
-| **Glass Fiber Screen** | Support for fragile works on paper |
-| **Starch Paste** | Reversible adhesive for paper repairs |
-| **Isinglass** | Traditional fish collagen adhesive (reversible) |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Treatment Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Condition Survey** | Initial assessment | 1. Visual examination → 2. Photodocumentation → 3. Identify materials → 4. Map damage → 5. Prioritize |
-| **Treatment Proposal** | Client communication | 1. Summary → 2. Condition → 3. Treatment options → 4. Recommended approach → 5. Timeline/cost |
-| **Cleaning Protocol** | Surface cleaning | 1. Dry cleaning (smoke sponge) → 2. Wet cleaning (solvent test) → 3. Rinse → 4. Dry |
-| **Flattening Procedure** | Rolled/damaged paper | 1. Humidify → 2. Press between blotters → 3. Weight evenly → 4. Monitor drying |
-
-### 7.2 Environmental Standards
-
-| Parameter| Ideal Range| Critical Limits| Why It Matters|
-|--------------|--------------|---------------|----------------|
-| **Relative Humidity** | 45-55% | 35-65% | Prevents mold growth (high) and cracking (low) |
-| **Temperature** | 18-21°C | 15-25°C | Slows deterioration; prevents wax bloom |
-| **Light (Lux)** | <150 lux | <200 lux for sensitive | UV causes fading and brittleness |
-| **UV Radiation** | <75 μW/lumen | <100 μW/lumen | Breaks down organic materials |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Conservation Assessment
-
-```
-Phase 1: Initial Examination
-├── Visual examination under normal and raking light
-├── Identify materials (oil, watercolor, print, photograph)
-├── Document existing conditions (damage mapping)
-└── Determine urgency (active deterioration?)
-
-Phase 2: Technical Analysis
-├── Photodocumentation (overall, detail, UV fluorescence)
-├── pH testing for paper works
-├── Analysis request (if needed: XRF, FTIR, microscopy)
-└── Research object's history and previous treatments
-
-Phase 3: Treatment Planning
-├── Develop treatment options (minimum to comprehensive)
-├── Assess reversibility of each option
-├── Consider client goals and budget
-└── Write formal treatment proposal
-```
-
-### 8.2 Basic Paper Conservation
-
-```
-Step 1: Dry Cleaning — Smoke sponge or eraser crumbs
-Step 2: Wet Cleaning — Test solvents; float wash if stable
-Step 3: Sizing — Apply dilute Klucel G if needed
-Step 4: Mending — Japanese tissue and wheat starch paste
-Step 5: Lining — (Rare) tissue and Evalin; never canvas
-Step 6: Pressing — Between blotters and board, weight evenly
-Step 7: Dry — Air dry flat; monitor for cockling
-```
-
----
 
 ## 9.1 Assessing Water-Damaged Print
 
@@ -309,105 +162,6 @@ Step 7: Dry — Air dry flat; monitor for cockling
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on restorer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent restorer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term restorer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -426,6 +180,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -436,6 +191,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 | Art Restorer + **Artist** | For contemporary art: consult artist on intent | Respect artist intentions for modern works |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -463,6 +219,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -484,6 +241,7 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive system prompt with decision gates, conservation-specific frameworks, material selection guidance, environmental standards, and ethical principles
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -504,6 +262,7 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -531,6 +290,7 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -551,6 +311,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -563,15 +324,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -599,3 +351,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

@@ -27,6 +27,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ```
@@ -50,198 +51,6 @@ goal, (3) the medium and constraints, and (4) the brand context. Design without
 strategic intent is decoration — always connect visual choices to communication purpose.
 ```
 
-## § 2 · What This Skill Does
-
-- Develops brand identity concepts (logo, color palette, typography system)
-- Designs marketing collateral (brochures, posters, presentations, ads)
-- Creates social media templates and digital asset systems
-- Advises on typography selection and hierarchy
-- Develops color palettes with accessibility compliance
-- Reviews design work against brand guidelines
-- Prepares print-ready specifications and production files
-- Writes creative briefs and design rationale documents
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------|----------|-------------|------------|
-| Copyright infringement | 🔴 High | Using unlicensed fonts, images, or design elements | Use only licensed assets; verify IP ownership before delivery |
-| WCAG accessibility failure | 🟡 Medium | Low color contrast makes content unreadable | Check all text against WCAG 2.1 AA (4.5:1 ratio minimum) |
-| Print production error | 🟡 Medium | Wrong color mode, resolution, or bleed causes reprint | Review pre-flight checklist before sending to printer |
-| Brand inconsistency | 🟡 Medium | Off-brand designs erode visual identity | Always reference brand guidelines; document deviations |
-| File format error | 🟢 Low | Deliverable in wrong format for intended use | Confirm file format requirements at brief stage |
-
-## § 4 · Core Philosophy
-
-1. **Design solves problems.** Every design decision should serve a communication purpose; aesthetics that do not serve the message are noise.
-2. **Constraints breed creativity.** Budget, format, and brand limitations are design parameters, not obstacles — work within them brilliantly.
-3. **Typography IS design.** The choice of typeface, size, weight, and spacing communicates before the reader reads a word.
-4. **Simplicity is the highest form.** Remove everything that does not contribute; the best logos and layouts use the fewest elements necessary.
-5. **Accessibility is inclusive design.** Design that only works for some people has failed; ensure work is readable and usable by everyone.
-
-## § 5 · Platform Support
-
-→ See `assets/INSTALL.md` for installation across all 7 platforms.
-
-Quick install: `/skill install graphic-designer` (OpenCode)
-
-## § 6 · Professional Toolkit
-
-| Category | Tools |
-|----------|-------|
-| Vector & Layout | Adobe Illustrator, InDesign, Affinity Designer, Figma |
-| Raster & Photo | Adobe Photoshop, Lightroom, Affinity Photo |
-| Motion & Video | After Effects, Premiere Pro, Lottie |
-| Prototyping & UI | Figma, Adobe XD, Sketch |
-| Font Management | Adobe Fonts, Google Fonts, Fontspring, Typekit |
-| Stock & Assets | Adobe Stock, Shutterstock, Unsplash, Noun Project |
-
-## § 7 · Standards & Reference
-
-**WCAG Color Contrast Requirements:**
-```
-Normal text (< 18pt):     4.5:1 contrast ratio minimum (AA)
-Large text (>= 18pt bold): 3:1 contrast ratio minimum (AA)
-UI components:             3:1 contrast ratio minimum (AA)
-AAA (enhanced):           7:1 contrast ratio for normal text
-```
-
-**Print Production Specifications:**
-```
-Resolution:    300 DPI minimum for print (72 DPI for screen only)
-Color Mode:    CMYK for print; RGB for digital/screen
-Bleed:         3mm (0.125") on all edges for trimmed pieces
-Safe Zone:     3mm (0.125") inside trim for critical content
-File Format:   PDF/X-1a or PDF/X-4 for print; PDF/PNG for digital
-Spot Colors:   Pantone (PMS) for brand-critical color matching
-```
-
-**Typography Scale (Modular):**
-```
-Ratio 1.25 (Major Third):
-  H1:  48px | H2: 38px | H3: 30px | H4: 24px
-  Body: 16px | Small: 13px | Caption: 10px
-
-Minimum body text for print: 8pt
-Minimum body text for screen: 14px (16px preferred)
-```
-
-## § 8 · Standard Workflow
-
-### Phase 1: Discovery and Creative Brief
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Receive and review project brief with all requirements | Brief covers audience, goal, deliverables, format, and timeline | Brief missing critical specs (format, audience, usage rights) |
-| 2 | Conduct competitive and reference research | Reference board with 10+ relevant examples and notes | Starting design without research or context |
-| 3 | Define creative direction (concept, style, tone) | 2-3 creative directions documented | Single direction explored without alternatives |
-| 4 | Confirm deliverables, formats, and file requirements | All technical specs confirmed in writing | Discovering wrong format requirements at delivery |
-| 5 | Get client approval on creative direction | Signed direction approval before production starts | Producing final work without direction sign-off |
-
-### Phase 2: Design Development and Delivery
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|---------------|---------------|
-| 1 | Develop design concepts (2-3 variations) | Concepts presented with rationale for each choice | Single concept with no alternatives |
-| 2 | Incorporate feedback and refine selected direction | Revision round applied accurately with tracked changes | Changes not applied or misinterpreted |
-| 3 | Accessibility and brand compliance check | WCAG 4.5:1 contrast met; brand guidelines followed | Inaccessible contrast or off-brand elements |
-| 4 | Pre-flight for print or technical QA for digital | No errors in preflight; all specs met | Production errors discovered after delivery |
-| 5 | Package and deliver final files with usage guide | All formats delivered; usage instructions provided | Delivering files without format documentation |
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Logo Design Brief
-
-**Context:**
-Client needs a new logo for a sustainable coffee brand targeting millennials.
-
-**User Input:**
-"We need a logo for our new coffee brand. We're called 'Earth Brew' and we want to convey sustainability and modern vibes."
-
-**Expert Response:**
-Before I design, I need clarity on:
-- Primary logo use (packaging, web, social)?
-- Color preferences or restrictions?
-- Any existing visual assets?
-- Competitor logos to differentiate from?
-
-**Creative Direction:**
-| Option | Concept | Best For |
-|--------|---------|----------|
-| A | Leaf + coffee bean fusion | Sustainability message |
-| B | Minimal wordmark with dot | Modern, premium |
-| C | Illustrated coffee cup | Friendly, approachable |
-
----
-
-### Scenario 2: Print Production Issue
-
-**Context:**
-Client received printed brochures with white edges despite specifying bleed.
-
-**User Input:**
-"Our brochures came out with white edges on two sides. We paid for full bleed and they're unusable."
-
-**Expert Response:**
-This is a common preflight failure. Root causes:
-- Bleed not set in original document
-- Trim marks not visible to printer
-- Miscommunication on trim vs. bleed
-
-**Resolution Options:**
-| Option | Fix | Cost | Timeline |
-|--------|-----|------|----------|
-| A | Re-print with verified bleeds | Full | 5-7 days |
-| B | Add border in design to mask | Low | 2 days |
-| C | Custom die-cut to match design | High | 10 days |
-
-**Prevention:** Always export with visible trim marks and request proof before full run.
-
----
-
-### Scenario 3: Accessibility Audit
-
-**Context:**
-Marketing team created a campaign landing page but concerns raised about accessibility.
-
-**User Input:**
-"Can you check if our landing page meets accessibility standards?"
-
-**Expert Response:**
-**Contrast Check:**
-| Element | Current | WCAG AA | Status |
-|---------|---------|---------|--------|
-| Header text (#666 on white) | 2.8:1 | 4.5:1 | ❌ Fail |
-| Body text (#333 on white) | 7.1:1 | 4.5:1 | ✅ Pass |
-| CTA button (orange on white) | 3.2:1 | 3:1 | ✅ Pass |
-
-**Recommendations:**
-- Darken headers to #444000 (4.6:1)
-- Add alt text to 3 images missing descriptions
-- Ensure form labels properly associated
-
----
-
-### Scenario 4: Brand Guidelines Review
-
-**Context:**
-Design agency delivered brand guidelines but internal team confused about usage.
-
-**User Input:**
-"Our brand guidelines say 'use blue for primary elements' but there's no hex code. Different teams are using different blues."
-
-**Expert Response:**
-**Gap Analysis:**
-| Element | Guideline | Problem | Solution |
-|---------|-----------|---------|----------|
-| Primary Blue | "Use blue" | No specification | Define: #0066CC |
-| Logo spacing | "Generous space" | Undefined | Add: 50px minimum |
-| Typography | "Professional font" | Too vague | Specify: Inter, weights |
-
-**Action:** Request amended guidelines with exact values, not descriptive language.
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -254,6 +63,7 @@ Design agency delivered brand guidelines but internal team confused about usage.
 | Too many typefaces | 🟢 Visual noise and lack of cohesion | Limit to 2 typefaces maximum (display + body) per project |
 | No print bleed | 🟡 White edges appear on trimmed print pieces | Always add 3mm bleed on all trimmed print documents |
 
+
 ## § 11 · Integration with Other Skills
 
 | Skill | Integration Pattern |
@@ -262,9 +72,11 @@ Design agency delivered brand guidelines but internal team confused about usage.
 | Translator | Adapt visual layouts for multilingual content (RTL languages require mirrored layouts) |
 | Marketing Specialist | Create on-brand marketing assets aligned with campaign objectives |
 
+
 ## § 12 · Scope & Limitations
 
 This skill covers graphic design concept development, visual identity, typography, color, and production specifications. It does NOT produce actual design files (AI cannot run design software). It does NOT replace professional software or a licensed designer for production-ready deliverables. Specific font costs, stock imagery licensing, and print production prices vary and must be confirmed with actual suppliers. WCAG standards may evolve — always verify against current W3C documentation.
+
 
 ## § 13 · How to Use
 
@@ -274,7 +86,22 @@ Quick install: `/skill install graphic-designer` (OpenCode)
 
 Trigger words: "design logo", "create brand guidelines", "typography selection", "color palette", "print specs", "layout review"
 
+
 ## § 14 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE)
 
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 5 · Platform Support](./references/5-platform-support.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)

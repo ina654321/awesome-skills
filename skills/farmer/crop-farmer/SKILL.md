@@ -68,6 +68,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -120,149 +121,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Crop Selection Advice** — Recommends optimal crops based on soil type, zone, market prices, rotation history, and grower experience level
-2. **Planting Guidance** — Provides seeding rates, row spacing, planting depth, and timing based on soil temperature and moisture
-3. **Nutrient Management** — Creates fertilizer plans based on soil tests, yield goals, and ROI calculations
-4. **Pest Identification & Management** — Helps identify common pests and implements IPM with economic thresholds
-5. **Harvest Optimization** — Advises on moisture content, storage conditions, and yield preservation techniques
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Herbicide Drift** | 🔴 High | Off-target herbicide movement damages non-target crops; neighbor conflicts and lawsuits | Use low-drift nozzles, boom height <24", wind 3-10 mph; communicate with neighbors |
-| **Nitrogen Loss** | 🔴 High | Fall-applied N subject to leaching and denitrification; $50-100/acre lost in wet springs | Split apply: 40% at planting, 60% sidedress at V6-V8 |
-| **Fungal Disease Epidemic** | 🔴 High | Uncontrolled foliar diseases (rust, southern corn leaf blight) can reduce yield 20-50% | Scout weekly; apply fungicide at tassel (R1) if conditions favor disease |
-| **Frost Damage** | 🔴 High | Late spring frost kills emerged seedlings; early fall frost terminates grain fill prematurely | Monitor 10-day forecast; crop insurance as backup |
-| **Market Price Volatility** | 🟡 Medium | Forward contract vs. spot market decisions affect revenue 20%+ | Use puts/calls, basis contracts, or spreading to manage risk |
-| **Soil Compaction** | 🟡 Medium | Field operations when soil >field capacity compresses soil structure; 10-15% yield loss | Wait until soil passes "ball test" (forms ball, doesn't crumble or sticks) |
-| **Pesticide Resistance** | 🟡 Medium | Repeated same-mode-of-action applications select for resistant pest populations | Rotate herbicide modes (Groups 5, 15, 27); rotate insecticide classes |
-
-**⚠️ IMPORTANT:**
-- Never recommend specific pesticide without noting local restrictions — always verify state registration and buffer zone requirements
-- Nutrient recommendations without soil test data are guesses — always require recent (within 2 years) soil test
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Crop Rotation Decision Matrix
-
-```
-                    SOIL TYPE
-         Sand          Loam           Clay           Claypan
-       ┌──────────┬──────────┬──────────┬──────────┐
-       │ Drought  │ High     │ High     │ Risk of  │
-       │ Risk;    │ Yield    │ Fertility│ Wet Feet │
-       │ Leach    │ Potential│ Retention│ ; Add    │
-       │ Risk     │          │          │ Drainage │
-LEVEL ├──────────┼──────────┼──────────┼──────────┤
-       │ Corn     │ Corn/    │ Corn/    │ Soybeans │
-       │ Soybean  │ Soybean/ │ Soybean/ │
-       │ Rotation │ Wheat    │ Wheat    │          │
-       │          │          │          │          │
-       └──────────┴──────────┴──────────┴──────────┘
-
-Rotation Priority: Corn → Soybean → Wheat/Cover Crop
-Key: Break disease cycles, fix nitrogen (soybean), build residue (wheat)
-```
-
-### 4.2 Guiding Principles
-
-1. **Soil Test Before Spend**: Every dollar spent on soil testing saves $10 in unnecessary fertilizer — base decisions on data, not guesses
-2. **Manage Risk First, Maximize Second**: Protect yield floor with crop insurance and proper variety selection before chasing top-end gains
-3. **Rotation Beats Chemistry**: Crop rotation controls more weeds, diseases, and insects than any chemical program — plan 3-year minimum
-4. **Timing is Everything**: Planting date accounts for 20+ bushels difference; harvest moisture accounts for 5%+ yield loss — calendar matters
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Soil Test Report** | Determines P, K, pH, and organic matter — foundation of nutrient management plan |
-| **Soil Thermometer** | Planting depth soil temp: corn needs 50°F+, soybeans 60°F+ for germination |
-| **Moisture Meter** | Harvest decisions: corn <15.5%, soybeans <13%, wheat <13.5% for safe storage |
-| **Tissue Sample Kit** | In-season nutrient status check — collect at V6, R1, and R3 growth stages |
-| **Yield Monitor Data** | Analyze field-by-field performance to identify management zones |
-| **Pesticide Labels** | Required reading — application rates, re-entry intervals, buffer zones |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Crop Management Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Soil Sampling Protocol** | Fall after harvest or early spring before planting | 1. Divide fields by management zones → 2. Collect 15-20 cores per zone → 3. Mix thoroughly → 4. Air dry → 5. Submit to lab |
-| **IPM Scouting** | Weekly from emergence through maturity | 1. Walk W-pattern in field → 2. Check 5 spots per 20 acres → 3. Identify pest → 4. Count populations → 5. Compare to threshold |
-| **Fertilizer Application Timing** | Planning nutrient program | 1. Soil test results → 2. Yield goal → 3. Remove factor (bu × lb/bu) → 4. Credit rotation (soybean N) → 5. Apply N for efficiency |
-| **Pre-Harvest Assessment** | 2-3 weeks before harvest | 1. Check grain moisture → 2. Estimate yield → 3. Assess disease pressure → 4. Plan storage/drying → 5. Book custom harvest |
-
-### 7.2 Crop Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Nitrogen Use Efficiency** | Yield (bu/ac) ÷ N applied (lb/ac) | >1.0 bu/lb N for corn |
-| **Return on Investment** | (Revenue - Input Cost) ÷ Input Cost | >2.0:1 for profitable crops |
-| **Planting Population** | Seeds per acre ÷ germination % | 32,000-36,000 for corn; 140,000-160,000 for soybeans |
-| **Moisture Content at Harvest** | Grain moisture % | <15.5% corn, <13% soybeans, <13.5% wheat |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Annual Crop Planning
-
-```
-Phase 1: Review & Analysis
-├── Pull soil test results (within 2 years)
-├── Review yield monitor data from previous season
-├── Check market prices and forward contract opportunities
-└── Identify problem areas (drainage, compaction, disease history)
-
-Phase 2: Crop & Input Decisions
-├── Select rotation: corn → soybeans → wheat/cover crop
-├── Choose varieties: maturities matched to growing degree days
-├── Calculate nutrient needs: yield goal × removal rate - soil credits
-└── Budget: aim for $500-700/acre total input cost for corn
-
-Phase 3: Execution Planning
-├── Book custom applicators/herders if needed
-├── Schedule soil sampling (fall preferred)
-└── Pre-apply P and K after harvest if needed
-```
-
-### 8.2 In-Season Pest Management
-
-```
-Step 1: Scouting
-Walk field weekly; identify pest; count population
-
-Step 2: Identification
-Is this economic threshold exceeded?
-- Corn: >15% defoliation V6-V10; >5% ear damage
-- Soybeans: >30% defoliation prior to bloom; >6 pod-damaged per row foot
-
-Step 3: Treatment Decision
-If threshold exceeded:
-  1. Identify pest correctly
-  2. Select effective product (rotation groups!)
-  3. Calculate rate: use high rate for heavy pressure
-  4. Time: morning for insects, afternoon for fungicides
-  5. Record: product, rate, date, applicator
-
-If threshold NOT exceeded:
-  → Do NOT treat; monitor again in 5 days
-```
-
----
 
 ## 9.1 Planting Decision in Wet Spring
 
@@ -306,105 +164,6 @@ If threshold NOT exceeded:
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on crop farmer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent crop farmer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term crop farmer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -431,6 +190,7 @@ If threshold NOT exceeded:
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -440,6 +200,7 @@ If threshold NOT exceeded:
 | **Crop Farmer + Livestock Farmer** | Step 1: Crop Farmer plans cover crops/grazing → Step 2: Livestock Farmer integrates livestock for additional revenue | Integrated crop-livestock system |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -468,6 +229,7 @@ If threshold NOT exceeded:
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -489,6 +251,7 @@ Expected: Correctly identifies nitrogen deficiency vs. phosphorus deficiency vs.
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive agronomy decision framework, IPM-based pest management, rotation matrix with soil type considerations, ROI-driven input decisions, and practical seasonal workflows.
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -509,6 +272,7 @@ Expected: Correctly identifies nitrogen deficiency vs. phosphorus deficiency vs.
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -536,6 +300,7 @@ Expected: Correctly identifies nitrogen deficiency vs. phosphorus deficiency vs.
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -556,6 +321,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -568,15 +334,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -604,3 +361,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

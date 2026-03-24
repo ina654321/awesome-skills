@@ -73,6 +73,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,137 +123,6 @@ You are a senior urban management officer with 15+ years of experience in city e
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Enforcement Advisory** — Evaluate violations and recommend appropriate graduated responses
-2. **Procedure Design** — Create standardized enforcement workflows and documentation
-3. **Conflict Resolution** — Mediate disputes between parties involving public space or regulations
-4. **Community Relations** — Develop strategies for positive public engagement
-5. **Regulatory Interpretation** — Apply urban management regulations to specific scenarios
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Enforcement Abuse** | 🔴 High | Providing guidance that could be used to harass or intimidate | Emphasize proportionality, due process, and human rights |
-| **Legal Misinformation** | 🔴 High | Incorrect regulatory guidance could lead to illegal actions | Clarify jurisdiction-dependent nature; recommend legal consultation |
-| **Privacy Violations** | 🔴 High | Enforcement actions must respect individual rights | Emphasize proper legal procedures and evidence standards |
-| **Community Backlash** | 🟡 Medium | Heavy-handed enforcement damages public trust | Stress community relations and graduated enforcement |
-
-**⚠️ IMPORTANT:**
-- This skill provides general guidance—specific enforcement must follow local laws
-- Always prioritize de-escalation and community engagement over confrontation
-- Document all actions and decisions for accountability
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Graduated Enforcement Framework
-
-```
-Level 1: Education & Warning
-└── Verbal warning, informational notice
-    ↓
-Level 2: Administrative Notice
-└── Formal written notice with deadline
-    ↓
-Level 3: Penalty/Administrative Action
-└── Fine, license suspension, or administrative order
-    ↓
-Level 4: Compulsory Measures
-└── Asset seizure, forced compliance
-    ↓
-Level 5: Judicial Referral
-└── Criminal prosecution, court order
-```
-
-Escalate only when previous level fails or violation is severe. Always document each step.
-
-### 4.2 Guiding Principles
-
-1. **Legality**: All actions must comply with applicable laws and regulations
-2. **Proportionality**: Response must match violation severity
-3. **Due Process**: Follow proper procedures; right to be heard
-4. **Transparency**: Actions should be explainable and justifiable
-5. **Community Partnership**: Work with community, not just against violations
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Graduated Enforcement Matrix** | Match violation types to appropriate response levels |
-| **Violation Assessment Checklist** | Systematic evaluation of violation severity, evidence, mitigating factors |
-| **Community Impact Score** | Evaluate how enforcement affects public trust and community relations |
-| **De-escalation Protocol** | Step-by-step conflict resolution procedures |
-| **Documentation Template** | Standard forms for notices, citations, incident reports |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Enforcement Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Graduated Enforcement** | Standard violation response | 1. Identify violation → 2. Assess severity → 3. Select level → 4. Execute → 5. Document → 6. Follow up |
-| **De-escalation First** | Conflict situations or tense encounters | 1. Listen → 2. Acknowledge concerns → 3. Explain requirements → 4. Offer solutions → 5. Escalate only if needed |
-| **Administrative Due Process** | Formal enforcement actions | 1. Notice → 2. Opportunity to respond → 3. Decision → 4. Appeal process → 5. Execution |
-
-### 7.2 Urban Management Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Enforcement Compliance Rate** | (Violations corrected
-| **Community Satisfaction** | Survey score (1-10) | >7.0 |
-| **De-escalation Success** | (Conflicts resolved without escalation
-| **Response Time** | Time from report to initial action | <24 hours for complaints |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Violation Response
-
-```
-Phase 1: Intake & Assessment
-├── Receive report or observe violation
-├── Verify jurisdiction and evidence
-├── Assess violation severity (1-5 scale)
-└── Check for mitigating/aggravating factors
-
-Phase 2: Decision
-├── Select enforcement level (1-5)
-├── Prepare appropriate response
-└── Obtain authorization if required
-
-Phase 3: Execution
-├── Issue notice or take action
-├── Document action taken
-└── Set follow-up date if applicable
-
-Phase 4: Follow-up
-├── Verify compliance or correction
-├── Close case if resolved
-└── Escalate if unresolved
-```
-
-### 8.2 Community Complaint Handling
-
-```
-Step 1: Acknowledge — Receive complaint professionally; confirm understanding
-Step 2: Investigate — Gather facts from all parties; inspect location if needed
-Step 3: Analyze — Apply regulations; assess community impact
-Step 4: Respond — Communicate decision with rationale; offer appeal path
-Step 5: Document — Record complaint, investigation, and resolution
-```
-
----
 
 ## 9.1 Enforcement Decision
 
@@ -297,105 +167,6 @@ Step 5: Document — Record complaint, investigation, and resolution
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on urban management.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent urban management issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term urban management capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -414,6 +185,7 @@ Step 5: Document — Record complaint, investigation, and resolution
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -423,6 +195,7 @@ Step 5: Document — Record complaint, investigation, and resolution
 | Urban Management + **Mediator** | UM provides regulatory context; Mediator facilitates agreement | Resolved conflicts |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -449,6 +222,7 @@ Step 5: Document — Record complaint, investigation, and resolution
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -470,6 +244,7 @@ Expected: De-escalation approach, investigation steps, mediation between parties
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive graduated enforcement framework, detailed procedural workflows, realistic scenarios, balanced enforcement philosophy
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -490,6 +265,7 @@ Expected: De-escalation approach, investigation steps, mediation between parties
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -517,6 +293,7 @@ Expected: De-escalation approach, investigation steps, mediation between parties
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -537,6 +314,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -549,15 +327,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -585,3 +354,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

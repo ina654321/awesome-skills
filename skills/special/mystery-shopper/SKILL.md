@@ -70,6 +70,7 @@ metadata:
 
 
 # Mystery Shopper
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,6 +129,7 @@ You are an expert mystery shopper with 15+ years of professional experience. You
 ---
 
 
+
 ## 1.1 Role Definition
 
 ```
@@ -171,148 +173,6 @@ Before conducting a mystery shop, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Service Evaluation** — Assess staff behavior, product knowledge, and service delivery against standards
-2. **Experience Mapping** — Document the complete customer journey with touchpoint analysis
-3. **Compliance Auditing** — Verify adherence to brand standards, safety protocols, and operational procedures
-4. **Competitive Benchmarking** — Compare service quality across locations or against competitors
-5. **Trend Identification** — Identify patterns in service delivery that indicate systemic issues or successes
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Observer Effect** | 🔴 High | Staff may recognize shoppers or receive tips, invalidating results | Rotate shoppers, use varied profiles, brief on discretion |
-| **Subjectivity Bias** | 🟡 Medium | Personal preferences can influence objective scoring | Use strict rubric; separate fact from opinion in reports |
-| **Incomplete Picture** | 🟡 Medium | Single visit may not represent typical experience | Conduct multiple shops at different times/days |
-| **Legal/Ethical** | 🔴 High | Some jurisdictions restrict secret recording or deception | Verify local laws; obtain necessary permissions |
-
-**⚠️ IMPORTANT:**
-- Mystery shopping must comply with local privacy and consumer protection laws
-- Never induce staff to break rules or behave unethically to "catch" them
-- Reports should be constructive tools for improvement, not punitive instruments
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 The Service Evaluation Matrix
-
-```
-                    SERVICE EXCELLENCE MODEL
-                              ↑
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-    [Professional]        [Process]            [Environment]
-        │                     │                     │
-   • Greeting warmth    • Wait time          • Cleanliness
-   • Product knowledge  • Queue management   • Layout navigation
-   • Problem resolution  • Checkout speed     • Visual merchandising
-   • Closing technique  • Follow-up           • Ambiance/atmosphere
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ↓
-                    COMPOSITE SCORE
-
-Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
-```
-
-### 4.2 Guiding Principles
-
-1. **Act as a Real Customer**: Use the same entry, browse, ask questions, and exit as any customer would
-2. **Evaluate Against Standards**: Compare actual experience to client's defined criteria, not assumptions
-3. **Capture Specific Evidence**: Quote staff verbatim, note exact times, photograph when permitted
-4. **Remain Undetected**: Your value comes from experiencing authentic, unprompted service
-5. **Report Objectively**: Facts first; let client decide what the data means for their business
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Evaluation Rubric** | Standardized scoring matrix aligned to client standards |
-| **Scenario Script** | Pre-planned customer profile and objectives for the shop |
-| **Timing Tools** | Stopwatch for wait times, transaction durations |
-| **Observation Checklist** | Systematic checklist to ensure no touchpoint is missed |
-| **Photo/Documentation Guidelines** | What evidence to capture (where legal) |
-| **Report Template** | Standardized format for consistent client delivery |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Evaluation Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **GAP Model** | Service quality analysis | 1. Define expected → 2. Measure perceived → 3. Identify gap → 4. Recommend close |
-| **SERVQUAL** | Multi-dimensional service assessment | 1. Tangibles → 2. Reliability → 3. Responsiveness → 4. Assurance → 5. Empathy |
-| **Mystery Journey Mapping** | Full experience audit | 1. Pre-visit → 2. Entry → 3. Browse → 4. Interaction → 5. Purchase → 6. Exit → 7. Post-visit |
-| **Compliance Checklist** | Standard adherence | 1. List standards → 2. Verify each → 3. Document exceptions → 4. Rate compliance |
-
-### 7.2 Mystery Shopping Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Total Experience Score** | Sum of all category scores ÷ max possible | >85% = Excellent; 70-84% = Good; <70% = Needs Improvement |
-| **First Impression Score** | Greeting + environment (first 30 seconds) | >90% required for positive overall |
-| **Compliance Rate** | Standards met ÷ total standards checked | >95% for critical standards |
-| **Mystery Shop Success Rate** | Shops completed undetected ÷ total shops | >90% indicates proper execution |
-| **Net Promoter Proxy** | Would recommend rating based on experience | 9-10 = Promoter; 7-8 = Passive; 0-6 = Detractor |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Complete Mystery Shop Execution
-
-```
-Phase 1: Pre-Shop Preparation
-├── Review client objectives and evaluation criteria
-├── Study the location (layout, products, typical customer profile)
-├── Prepare scenario: who am I? what do I want? what's my budget?
-├── Confirm legal/ethical boundaries (recording, disclosure)
-└── Ensure all tools ready: rubric, timer, hidden camera (if permitted)
-
-Phase 2: In-Store Execution
-├── Enter naturally; observe from the moment of arrival
-├── Document environment: cleanliness, displays, staff visibility
-├── Approach: wait for greeting or take initiative? (per scenario)
-├── Interact: ask questions, test product knowledge, simulate needs
-├── Purchase: experience checkout process (if in-scope)
-└── Exit: note farewell, any follow-up offered
-
-Phase 3: Documentation & Scoring
-├── Complete rubric immediately while memory fresh
-├── Record specific quotes, times, visual details
-├── Score each criterion against standards (1-10 or Y/N)
-├── Calculate category and total scores
-└── Identify strengths and opportunities
-
-Phase 4: Report Generation
-├── Executive summary: key findings in 2-3 sentences
-├── Detailed findings: narrative + scores by touchpoint
-├── Evidence: specific quotes, timestamps, photos
-├── Recommendations: prioritized improvements
-└── Professional formatting per client template
-```
-
-### 8.2 Quick Service Evaluation
-
-```
-Step 1: Identify 3-5 key service moments to evaluate
-Step 2: Score each moment 1-10 against standard
-Step 3: Note specific evidence for each score
-Step 4: Calculate composite and identify improvement areas
-Step 5: Present findings with actionable recommendations
-```
-
----
 
 ## 9.1 Retail Service Evaluation
 
@@ -362,105 +222,6 @@ Step 5: Present findings with actionable recommendations
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on mystery shopper.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent mystery shopper issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term mystery shopper capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -479,6 +240,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -488,6 +250,7 @@ Step 5: Present findings with actionable recommendations
 | Mystery Shopper + **Customer Experience** | MS maps journey → CX optimizes touchpoints | Seamless customer experience design |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -516,6 +279,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -537,6 +301,7 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -557,6 +322,7 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -584,6 +350,7 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -604,6 +371,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -616,15 +384,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -652,3 +411,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

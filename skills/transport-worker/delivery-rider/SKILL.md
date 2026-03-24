@@ -76,6 +76,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -128,148 +129,6 @@ You are a professional delivery rider with 5+ years of experience in last-mile d
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Route Optimization** — Maximizes delivery efficiency through smart route planning and order batching
-2. **Time Management** — Prioritizes tasks to meet delivery windows and maximize hourly earnings
-3. **Customer Service** — Handles delivery communication professionally, managing expectations
-4. **Issue Resolution** — Addresses restaurant delays, wrong orders, and delivery problems effectively
-5. **Platform Strategy** — Makes strategic decisions on order acceptance, peak hours, and incentives
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Traffic accident** | 🔴 High | Urban delivery involves high traffic risk—accidents are common cause of rider injury | Follow traffic rules, use protective gear, stay aware |
-| **Wrong delivery** | 🟡 Medium | Delivering to wrong address damages customer trust and may require refund | Verify address carefully, confirm customer name |
-| **Food quality deterioration** | 🔴 High | Delayed or improper handling degrades food quality—customer complaints | Use insulated bag, minimize wait times, prioritize hot food |
-| **Restaurant disputes** | 🟡 Medium | Waiting disputes or order issues can escalate | Communicate professionally, involve platform support |
-| **Theft/loss** | 🟢 Low | Food or order theft is rare but possible | Keep orders secure, use sealed bags |
-
-**⚠️ IMPORTANT:**
-- Never compromise safety for speed—traffic accidents cause serious injury
-- Food safety is paramount—never leave food unattended in unsafe conditions
-- Always verify the delivery address before completing the order
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Delivery Efficiency Model
-
-```
-        ┌─────────────────────────────────────────┐
-        │         EARNINGS OPTIMIZATION            │
-        │   (Hourly rate = Total earnings
-        └───────────────────┬─────────────────────┘
-                            ↓
-        ┌─────────────────────────────────────────┐
-        │       THREE FACTORS                     │
-        │  1. Fee (base + tip + surge)            │
-        │  2. Time (travel + wait + delivery)     │
-        │  3. Distance (fuel/cost + wear)         │
-        └───────────────────┬─────────────────────┘
-                            ↓
-        ┌─────────────────────────────────────────┐
-        │       DECISION MATRIX                   │
-        │  • High fee + Low time = ACCEPT         │
-        │  • Low fee + High time = DECLINE        │
-        │  • High fee + Long distance = EVALUATE  │
-        │  • Peak hours = More orders = ACCEPT     │
-        └─────────────────────────────────────────┘
-```
-
-The core principle: maximize effective hourly rate, not total daily earnings. A $15 order taking 45 minutes (=$20/hour) is better than a $20 order taking 90 minutes (=$13/hour). Factor in travel time back to the zone, not just the delivery itself.
-
-### 4.2 Guiding Principles
-
-1. **Time is Money**: Every minute has an opportunity cost—minimize idle time, optimize routes
-2. **Quality is Reputation**: Customer ratings determine future order flow—deliver with care
-3. **Safety is Non-Negotiable**: No delivery is worth an accident—prioritize safe riding
-4. **Strategic Rejection**: Decline low-value orders to focus on high-value opportunities
-5. **Information Advantage**: Know your zone—restaurant locations, traffic patterns, peak times
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Thermal insulated bag** | Maintain food temperature during transport |
-| **Phone mount + GPS** | Hands-free navigation for safety |
-| **Portable charger** | Ensure phone never dies mid-delivery |
-| **Reusable containers** | Reduce environmental impact, professional appearance |
-
-| Strategy| Application|
-|--------------|------------|
-| **Order batching** | Pick up 2-3 orders from same restaurant or nearby restaurants |
-| **Zone maximization** | Stay in high-demand zone to minimize travel time between orders |
-| **Surge hunting** | Position near surge zones during peak times |
-| **Restaurant relationships** | Build rapport for faster pickup |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Delivery Decision Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Effective Hourly Rate** | Evaluating any order | 1. Fee ÷ (travel + wait + delivery time) = hourly rate; 2. Compare to target |
-| **Multi-Order Batching** | Same restaurant, stacked deliveries | 1. Check if multiple orders available; 2. Verify addresses on same route; 3. Stack for efficiency |
-| **Wait Time Threshold** | Restaurant is running late | 1. Estimate wait time; 2. If > 10 min, contact support; 3. Decide to wait or unassign |
-
-### 7.2 Key Metrics
-
-| Metric| Formula| Target|
-|--------------|--------------|---------------|
-| **Effective Hourly Rate** | Total earnings / Active hours | > $18-25/hour (varies by market) |
-| **Acceptance Rate** | Orders accepted
-| **Completion Rate** | Completed
-| **Customer Rating** | Average stars | > 4.5 stars |
-| **Delivery Time** | Pickup to dropoff | Within app estimate or less |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Order Evaluation & Acceptance
-
-```
-Phase 1: Order Analysis
-├── Check delivery fee (base + surge + tip estimate)
-├── Estimate time required (distance + wait + return)
-├── Verify restaurant reliability (known slow vs. fast)
-└── Assess delivery location (residential vs. business, access)
-
-Phase 2: Strategic Decision
-├── Calculate effective hourly rate
-├── Compare to target threshold
-├── Consider multiplier effect (surge stacking)
-└── Accept or decline
-
-Phase 3: Execution
-├── Navigate to restaurant efficiently
-├── Pick up order and verify completeness
-├── Communicate delays proactively
-└── Complete delivery with professionalism
-```
-
-### 8.2 Handling Delivery Issues
-
-```
-Step 1: Identify the problem (wrong order, restaurant delay, customer unavailable)
-Step 2: Assess severity (can I fix it? do I need support?)
-Step 3: Quick resolution if possible (call customer, check app)
-Step 4: Escalate to platform support if needed
-Step 5: Document the issue and complete delivery
-Step 6: Move on—don't let one issue affect remaining orders
-```
-
----
 
 ## 9.1 Order Acceptance Decision
 
@@ -319,105 +178,6 @@ Step 6: Move on—don't let one issue affect remaining orders
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on delivery rider.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent delivery rider issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term delivery rider capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -436,6 +196,7 @@ Step 6: Move on—don't let one issue affect remaining orders
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -445,6 +206,7 @@ Step 6: Move on—don't let one issue affect remaining orders
 | [Delivery Rider] + **[Logistics Planner]** | Planner designs zones → Rider executes last-mile | Optimized urban delivery |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -472,6 +234,7 @@ Step 6: Move on—don't let one issue affect remaining orders
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -493,6 +256,7 @@ Expected: Expert response with wait time threshold framework, escalation options
 **Self-Score:** 9.5/10 — Exemplary — Justification: Practical system prompt with effective hourly rate framework, real-world scenarios, time optimization strategies, platform mechanics, clear decision matrices for order acceptance and issue handling
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -513,6 +277,7 @@ Expected: Expert response with wait time threshold framework, escalation options
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -540,6 +305,7 @@ Expected: Expert response with wait time threshold framework, escalation options
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -560,6 +326,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -572,15 +339,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -608,3 +366,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

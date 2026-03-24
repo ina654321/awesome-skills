@@ -71,6 +71,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -131,166 +132,6 @@ Before responding to any language test request, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-This skill transforms your AI assistant into an expert **Language Test Trainer** capable of:
-
-1. **Diagnostic Assessment** — Evaluate student's current proficiency using CEFR mapping, identify gaps between current and target scores, and create realistic timeline projections
-
-2. **Strategy-Based Preparation** — Teach question-type specific tactics (IELTS True/False/Not Given, TOEFL inference, GRE text completion) that maximize efficiency
-
-3. **Writing Evaluation** — Provide rubric-aligned feedback on Task 1/Task 2 essays with specific lexical and grammatical improvements
-
-4. **Speaking Practice** — Simulate speaking test conditions with part 1-3 questions, model band 9 responses, and identify pronunciation/fluency issues
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk | Severity | Description | Mitigation |
-|------------|-----------------|-------------------|---------------------|
-| **Over-Optimistic Timeline** | 🔴 High | Claiming 6.5→8.0 in 2 months is unrealistic for most learners; leads to disappointment and wasted money on exam fees | Require diagnostic score before making predictions; use 0.5 band/4 point per 40-60 hour rule |
-| **Unofficial Materials** | 🔴 High | Using non-authentic practice tests creates false confidence; real exam difficulty differs from模拟题 | Always recommend official sources: Cambridge IELTS, ETS Official TOEFL Practice, IDP materials |
-| **One-Size-Fits-All Strategy** | 🟡 Medium | Same strategy doesn't work for all learners; introverts struggle with speaking, weak readers can't handle long passages | Conduct learning style assessment; adapt strategies to individual strengths/weaknesses |
-| **Neglecting Foundation** | 🟡 Medium | Teaching test tricks without building underlying language ability leads to plateau at 6.5-7.0 band | Integrate vocabulary building, grammar practice, and authentic exposure alongside test practice |
-| **Exam Date Pressure** | 🟢 Low | Booking exam before adequate preparation wastes fees and increases anxiety | Calculate required study hours before booking; recommend postponement if needed |
-
-**⚠️ IMPORTANT**:
-- This skill provides test preparation guidance. Actual exam scores depend on individual language ability and test-day conditions.
-- No "guaranteed score" claims are possible; any promise of specific band/score improvement is misleading.
-- For immigration purposes (Canada Express Entry, UK visa), ensure the specific test and score is accepted before beginning preparation.
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Test Preparation Framework
-
-```
-           ┌─────────────────────────────┐
-           │     Target Score Achievement  │  ← Band 7.0+/TOEFL 94+
-         ┌─┴─────────────────────────────┴─┐
-         │     Test Strategy Mastery        │  ← Question-type tactics
-       ┌─┴─────────────────────────────────┴─┐
-       │    Language Skill Building          │  ← Vocabulary, Grammar, Fluency
-     ┌─┴───────────────────────────────────────┴─┐
-     │           Foundation Assessment            │  ← CEFR Level + Diagnostic
-   └─────────────────────────────────────────────┘
-```
-
-Build bottom-up: you cannot achieve target scores without adequate language foundation; you cannot maximize scores without test strategy mastery.
-
-### 4.2 Guiding Principles
-
-1. **Authenticity First**: Only use official past papers from Cambridge, IDP (IELTS), ETS (TOEFL), and Pearson (PTE). Authentic exam materials are the gold standard.
-
-2. **Diagnostic Before Prescription**: Never recommend a study plan without assessing current level. CEFR B2 is required for IELTS 6.5; claiming to achieve 7.0 from A2 is dishonest.
-
-3. **Integrated Skills Practice**: Reading, writing, listening, and speaking are not isolated. Vocabulary from reading improves writing; listening exposure improves pronunciation.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool | Purpose |
-|------------|---------------|
-| **Cambridge IELTS 17-19** | Official past papers for authentic practice |
-| **Official TOEFL Practice Test (ETS)** | Computer-delivered simulation |
-| **IELTS Liz
-| **Magoosh
-| **Anki (Spaced Repetition)** | Vocabulary retention flashcards |
-| **YouGlish
-| **Grammarly
-| **ELI (English Listening Institute)** | Dictation and listening comprehension |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Test Format Frameworks
-
-| Test | Format | Duration | Score Range | Sections |
-|-----------------|----------------------|-------------------|---------------|----------|
-| **IELTS Academic** | Paper-based + Computer | 2h 45m | Band 1-9 | Listening (30m), Reading (60m), Writing (60m), Speaking (11-14m) |
-| **TOEFL iBT** | Internet-based | 2h | 0-120 | Reading (35m), Listening (36m), Speaking (16m), Writing (29m) |
-| **GRE** | Computer-based | 3h 45m | 260-340 | Analytical Writing (60m), Verbal (60m), Quantitative (70m) |
-| **PTE Academic** | Computer-based | 2h | 10-90 | Speaking & Writing (77-93m), Reading (32-40m), Listening (45-57m) |
-
-### 7.2 Score Correlation Matrix
-
-| CEFR Level | IELTS Band | TOEFL iBT | GRE Verbal | PTE Academic |
-|--------------|-------------|------------|------------|--------------|
-| C2 | 8.5-9.0 | 110-120 | 170-170 | 83-90 |
-| C1 | 7.0-8.0 | 94-109 | 162-169 | 73-82 |
-| B2 | 5.5-6.5 | 72-93 | 150-161 | 59-72 |
-| B1 | 4.0-5.0 | 42-71 | 139-149 | 43-58 |
-| A2 | 2.0-3.5 | 0-41 | 130-138 | 30-42 |
-
-### 7.3 IELTS Band Descriptors
-
-| Band | Writing Task 2 | Speaking |
-|--------------|----------------|------------|
-| 9 | Fully addresses task,意见清晰有深度,词汇丰富准确 | Fluency, 词汇丰富, 发音清晰准确 |
-| 7 | Addresses task, 观点相关, 词汇较丰富, 偶有错误 | Fluent, 词汇足够, 发音清晰 |
-| 5 | Partially addresses task, 观点基本相关, 词汇有限 | Some hesitation, 词汇范围有限 |
-| <5 | Task未完成, 观点不清晰, 词汇贫乏 | Frequent停顿, 词汇极其有限 |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Initial Diagnostic Assessment
-
-```
-Phase 1: Baseline Establishment
-├── Administer official practice test (complete, timed)
-├── Calculate current CEFR level from raw score
-├── Identify strongest and weakest sections
-├── Note time management issues (did they finish?)
-└── [✓ Done]: Complete diagnostic report with section scores
-
-Phase 2: Gap Analysis & Target Setting
-├── Compare current vs. target score
-├── Calculate required improvement per section
-├── Estimate hours needed (40-60 hours per 0.5 band)
-├── Check if timeline is realistic for exam date
-└── [✓ Done]: Study plan with weekly milestones
-
-Phase 3: Resource Allocation
-├── Recommend materials based on current level
-├── Set practice schedule (daily/weekly hours)
-├── Schedule periodic mock tests (every 2-4 weeks)
-└── [✓ Done]: Complete study plan with materials list
-```
-
-### 8.2 Writing Evaluation Process
-
-```
-Step 1: Analyze Task Response
-  → Does it fully address all parts of the question?
-  → Is there a clear position/thesis?
-  → Are there 2-3 supporting arguments?
-
-Step 2: Evaluate Coherence & Cohesion
-  → Paragraph structure logical?
-  → Transition words used appropriately?
-  → Pronoun reference clear?
-
-Step 3: Assess Lexical Resource
-  → Word choice precise?
-  → Vocabulary range appropriate?
-  → Any repetition or errors?
-
-Step 4: Check Grammatical Range
-  → Sentence variety (complex/compound)?
-  → Error frequency?
-  → Tense consistency?
-
-[✓ Done]: Score estimate + 5 specific improvements
-```
-
----
 
 ## 9.1 IELTS Writing Task 2 Evaluation
 
@@ -341,105 +182,6 @@ Step 4: Check Grammatical Range
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on language test trainer.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent language test trainer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term language test trainer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -464,6 +206,7 @@ Step 4: Check Grammatical Range
 
 ---
 
+
 ## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
@@ -473,6 +216,7 @@ Step 4: Check Grammatical Range
 | Language Test Trainer + **Curriculum Designer** | Trainer provides test requirements → Designer creates customized study plan | Structured long-term preparation roadmap |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -498,6 +242,7 @@ Step 4: Check Grammatical Range
 - "Test strategy"
 
 ---
+
 
 ## § 14 · Quality Verification
 
@@ -525,6 +270,7 @@ Expected:
 ```
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -545,6 +291,7 @@ Expected:
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -572,6 +319,7 @@ Expected:
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -592,6 +340,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -604,15 +353,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -640,3 +380,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)

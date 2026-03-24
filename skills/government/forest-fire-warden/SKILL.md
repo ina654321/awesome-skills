@@ -66,6 +66,7 @@ metadata:
 
 ---
 
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -122,178 +123,6 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 2 · What This Skill Does
-
-1. **Fire Prevention Guidance** — Develop and communicate prevention strategies, fire bans, and public education programs
-2. **Risk Assessment** — Evaluate areas for fire danger based on vegetation, weather, and human activity
-3. **Emergency Response Planning** — Create response protocols for various fire scenarios
-4. **Controlled Burning Operations** — Plan and execute prescribed fires safely
-5. **Community Education** — Teach fire safety, defensible space, and evacuation procedures
-
----
-
-## § 3 · Risk Disclaimer
-
-| Risk| Severity| Description| Mitigation|
-|------------|-----------------|-------------------|---------------------|
-| **Wildfire Emergency** | 🔴 High | Active wildfire requires immediate professional response | This skill provides guidance; contact fire services for emergencies |
-| **Controlled Burn Gone Wrong** | 🔴 High | Prescribed fires can escape and become wildfires | Emphasize proper permits, weather monitoring, contingency planning |
-| **Smoke & Air Quality** | 🟡 Medium | Fire creates health hazards | Include public health warnings in all fire-related guidance |
-| **Property Damage** | 🔴 High | Fire can destroy property and natural resources | Emphasize prevention and evacuation planning |
-| **Personal Safety** | 🔴 High | Firefighting is inherently dangerous | Never encourage untrained persons to fight fires |
-
-**⚠️ IMPORTANT:**
-- This skill provides educational guidance on forest fire prevention and safety
-- For active fires, contact emergency services immediately
-- Controlled burning requires proper permits, training, and contingency plans
-- Never attempt to fight a wildfire without proper training and equipment
-
----
-
-## § 4 · Core Philosophy
-
-### 4.1 Fire Danger Assessment Framework
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│                 FIRE DANGER ASSESSMENT                         │
-│                                                                 │
-│    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
-│    │    FUEL      │ +  │   WEATHER   │ +  │ TOPOGRAPHY  │  │
-│    │ (Vegetation) │    │ (Wind/Temp) │    │  (Slope)    │  │
-│    └──────────────┘    └──────────────┘    └──────────────┘  │
-│           │                   │                   │            │
-│           └───────────────────┼───────────────────┘            │
-│                               ▼                                │
-│                    ┌─────────────────┐                          │
-│                    │  FIRE BEHAVIOR │                          │
-│                    │  Prediction    │                          │
-│                    └─────────────────┘                          │
-│                               │                                │
-│        ┌──────────┬────────────┼────────────┬──────────┐     │
-│        ▼          ▼            ▼            ▼          ▼      │
-│  ┌──────────┐┌──────────┐┌──────────┐┌──────────┐┌────────┐  │
-│  │ LOW      ││ MODERATE ││ HIGH     ││ VERY HIGH││ EXTREME│  │
-│  │ • Patrols││ • Warnings││ • Restrictions││ • Bans││ • All │  │
-│  │ • Normal ││ • Prepos.││ • Closures││ • Full   ││ closed │  │
-│  └──────────┘└──────────┘└──────────┘└──────────┘│ response│
-│                                                     └────────┘
-└────────────────────────────────────────────────────────────────┘
-```
-
-Fire danger is the combination of fuel availability, weather conditions, and topography. All three determine fire behavior and appropriate response levels.
-
-### 4.2 Guiding Principles
-
-1. **Prevention Over Suppression**: An ounce of prevention is worth a pound of cure. Public education and hazard reduction save more than firelines.
-2. **Early Detection, Rapid Response**: Minutes matter. The faster a fire is detected, the smaller it stays.
-3. **Defensibility is Key**: Properties and communities with defensible space survive. Those without don't.
-4. **Fire is Part of Ecology**: Some ecosystems require fire. Prescribed burning reduces catastrophic wildfire risk.
-
----
-
-
-## § 6 · Professional Toolkit
-
-| Tool| Purpose|
-|------------|---------------|
-| **Fire Danger Rating System** | NFDRS or local system for assessing daily danger |
-| **Weather Monitoring** | Wind, temperature, humidity, forecast monitoring |
-| **Fuel Models** | Classification of vegetation types for fire behavior |
-| **Communication Equipment** | Radio, satellite phone, emergency beacon |
-| **GIS/Mapping** | Topography, roads, water sources, values at risk |
-
----
-
-## § 7 · Standards & Reference
-
-### 7.1 Response Frameworks
-
-| Framework| When to Use| Key Steps|
-|-----------------|----------------------|-------------------|
-| **Fire Danger Assessment** | Daily operations during fire season | 1. Check weather → 2. Assess fuel moisture → 3. Review forecast → 4. Determine rating → 5. Adjust staffing/resources |
-| **Fire Suppression Priorities** | Active fire response | 1. Life safety → 2. Incident stabilization → 3. Property protection → 4. Natural resource protection |
-| **Defensible Space Evaluation** | Property assessments | Zone 1 (0-30ft): Non-flammable → Zone 2 (30-100ft): Reduced fuel → Zone 3: Healthy forest |
-| **Controlled Burn Planning** | Prescribed fire operations | 1. Define objectives → 2. Check windows → 3. Prepare lines → 4. Brief personnel → 5. Execute with contingency |
-
-### 7.2 Fire Danger Metrics
-
-| Metric| Description| Threshold|
-|--------------|--------------|---------------|
-| **Fire Weather Index (FWI)** | Composite index of wind, temperature, humidity | > 30 = High danger |
-| **Energy Release Component (ERC)** | Available fuel energy | Varies by fuel model |
-| **Wind Speed** | Sustained and gust speeds | > 20mph restricts burning |
-| **Relative Humidity** | Moisture in air | < 15% increases danger |
-| **Fuel Moisture** | Vegetation moisture content | < 10% = critical |
-
----
-
-## § 8 · Standard Workflow
-
-### 8.1 Fire Danger Assessment Procedure
-
-```
-Phase 1: Weather Monitoring (Ongoing)
-├── Check current conditions (temp, humidity, wind)
-├── Review forecast for next 24-72 hours
-├── Monitor for changing conditions
-└── Update assessment at least daily
-
-Phase 2: Fuel Assessment
-├── Check fuel moisture levels
-├── Assess recent precipitation
-├── Evaluate vegetation growth/dead fuel
-└── Note any significant fuel changes
-
-Phase 3: Determination
-├── Apply local Fire Danger Rating System
-├── Factor in special conditions (drought, etc.)
-├── Make staffing and resource recommendations
-└── Communicate to relevant authorities
-
-Phase 4: Public Communication
-├── Issue fire danger notices
-├── Update restriction levels as needed
-├── Coordinate with media if extreme
-└── Document decisions and rationale
-```
-
-### 8.2 Controlled Burn Protocol
-
-```
-Step 1: Define Objectives
-- What ecological/maintenance goal?
-- What are success criteria?
-
-Step 2: Environmental Assessment
-- Check weather windows (48hr, 10-day)
-- Verify fuel moisture
-- Assess smoke dispersion
-
-Step 3: Preparation
-- Construct containment lines
-- Pre-position equipment and water
-- Notify neighbors and authorities
-
-Step 4: Personnel & Safety
-- Brief all personnel
-- Establish escape routes
-- Designate safety zones
-- Medical personnel on standby
-
-Step 5: Execution
-- Ignite under optimal conditions
-- Monitor fire behavior continuously
-- Adjust as needed
-
-Step 6: Demobilization
-- Patrol and secure perimeter
-- Cold trail all edges
-- Document outcomes
-- Monitor for re-ignition (24-48hrs)
-```
-
----
 
 ## 9.1 Fire Danger Assessment
 
@@ -404,105 +233,6 @@ Step 6: Demobilization
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on forest fire warden.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent forest fire warden issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term forest fire warden capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
 
 ## § 11 · Integration with Other Skills
 
@@ -513,6 +243,7 @@ Step 6: Demobilization
 | [forest-fire-warden] + **[climate-scientist]** | This skill provides current conditions → Climate skill addresses long-term trends | Climate-aware fire management |
 
 ---
+
 
 ## § 12 · Scope & Limitations
 
@@ -541,6 +272,7 @@ Step 6: Demobilization
 
 ---
 
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
@@ -562,6 +294,7 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive fire behavior framework, NFDRS metrics, detailed controlled burn protocols, practical defensible space guidance
 
 ---
+
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -582,6 +315,7 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 | 3 | Competent | Execute independently |
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
+
 
 ## § 17 · Risk Management Deep Dive
 
@@ -610,6 +344,7 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 - Team velocity declining
 - Defect rates rising
 
+
 ## § 18 · Excellence Framework
 
 ### World-Class Execution Standards
@@ -630,6 +365,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
+
 ## § 19 · Best Practices Library
 
 ### Industry Best Practices
@@ -642,15 +378,6 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
 
 ## § 21 · Resources & References
 
@@ -678,3 +405,17 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## References
+
+Detailed content:
+
+- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
+- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
+- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
+- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+- [## § 20 · Case Studies](./references/20-case-studies.md)
