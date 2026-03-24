@@ -1,65 +1,34 @@
 # Skill Evaluation Report
 
-## solar-energy-engineer
+## Skill: solar-energy-engineer
 
-**Evaluation Date:** 2026-03-22  
-**Evaluator:** skill-evaluator v2.1  
-**Skill Type:** Technical Engineering  
+| Dimension | Weight | Score (1-10) | Assessment |
+|-----------|--------|--------------|------------|
+| **System Prompt Depth** | 20% | 9.5 | Structured prompt with identity, decision framework (5-level hierarchy), and thinking patterns. Professional DNA clearly defined. |
+| **Domain Knowledge Density** | 25% | 9.5 | Deep frameworks with quantified metrics (GHI 1,000-2,500 kWh/m²/year, PR 80-85%). Real plant examples (Noor 1.177 GW, Bhadla 2.245 GW). |
+| **Workflow Actionability** | 15% | 9.0 | 5 phases with done/fail criteria. SOPs referenced. |
+| **Risk Documentation** | 10% | 9.0 | Risk matrix with 5 solar-specific risks and mitigation. |
+| **Example Quality** | 20% | 9.5 | 5 scenarios covering utility, commercial, agrivoltaics, storage, recovery. |
+| **Metadata Completeness** | 10% | 9.0 | All 9 fields. Score 9.5/10. Tags: 7 relevant. |
 
----
+**Weighted Score:** 9.5×0.20 + 9.5×0.25 + 9.0×0.15 + 9.0×0.10 + 9.5×0.20 + 9.0×0.10 = **9.33**
 
-## Executive Summary
+### Tier: EXEMPLARY ⭐⭐
 
-| Metric | Score | Weight | Weighted |
-|--------|-------|--------|----------|
-| **System Prompt** | 9.5/10 | 20% | 1.90 |
-| **Domain Knowledge** | 9.5/10 | 20% | 1.90 |
-| **Workflow** | 9.5/10 | 20% | 1.90 |
-| **Error Handling** | 9.5/10 | 15% | 1.43 |
-| **Examples** | 9.5/10 | 15% | 1.43 |
-| **Metadata** | 9.5/10 | 10% | 0.95 |
-| **TOTAL** | **9.5/10** | 100% | **9.50** |
+### Strengths
+- Decision framework hierarchy (Energy→Efficiency→Reliability→Safety→Economics) is actionable
+- Technology selection with specific thresholds
+- References-first approach with references/ files
+- Consistent 16-section structure
 
-**Quality Rating:** EXEMPLARY ⭐  
-**Recommendation:** Production Ready
-
----
-
-## Detailed Scoring
-
-### §1 System Prompt (9.5/10)
-
-- Specific PV terminology (PERC, TOPCon, HJT, bifacial)
-- Real market data (1,419 GW global capacity)
-- Cost benchmarks ($0.85-1.50/W utility-scale)
-
-### §2 Domain Knowledge (9.5/10)
-
-- Solar resource metrics (GHI, DNI, DHI)
-- Performance ratio components
-- Temperature derating formulas
-- Real plant references (Noor Abu Dhabi 1.177 GW)
-
-### §3 Workflow (9.5/10)
-
-- 5 clear phases: Development → Engineering → Construction → Commissioning → Operations
-- Done/Fail criteria for each phase
-
-### §4 Error Handling (9.5/10)
-
-- Resource variability, equipment failure, grid curtailment risks
-- Specific mitigation strategies
-
-### §5 Examples (9.5/10)
-
-- Utility-scale, commercial rooftop, agrivoltaics, solar+storage, performance recovery
+### Anti-Pattern Check
+| Anti-Pattern | Status |
+|--------------|--------|
+| Scope Creep | ✅ None |
+| Shallow Depth | ✅ None |
+| Metadata Errors | ✅ None |
+| Token Waste | ✅ None |
+| False Activation | ✅ None |
 
 ---
-
-## Variance: 0.0
-
-Consistent performance across test scenarios.
-
----
-
-**Certified:** 9.5/10 EXEMPLARY
+*Report: 2026-03-24 | skill-writer methodology*
