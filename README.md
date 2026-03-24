@@ -9,7 +9,7 @@
 
 [![Skills](https://img.shields.io/badge/Skills-857-blueviolet?style=flat-square)](./CATALOG.md)
 [![Quality](https://img.shields.io/badge/Quality-EXCELLENCE%209.5%2F10-success?style=flat-square)](./README.md#methodology)
-[![Certified](https://img.shields.io/badge/Certified-242%2F857-28%25-brightgreen?style=flat-square)](./CATALOG.md)
+[![Certified](https://img.shields.io/badge/Certified-401%2F857-47%25-brightgreen?style=flat-square)](./CATALOG.md)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
 **[🌐 Website](https://theneoai.github.io/awesome-skills/)** · **[📚 Catalog](./CATALOG.md)** · **[📊 Quality System](#methodology)**
@@ -28,10 +28,10 @@
 | Metric | Value | Description |
 |--------|-------|-------------|
 | **Total Skills** | 857 | Across 70+ professional domains |
-| **Quality Certified** | 242 (28.2%) | EXCELLENCE 9.5/10 standard |
+| **Quality Certified** | 401 (46.8%) | EXCELLENCE 9.5/10 standard |
 | **Enterprise Skills** | 100+ | Top global company methodologies |
 | **Token Optimized** | -50% | Via references-first architecture |
-| **Last Updated** | 2026-03-21 | Batch 24 completed |
+| **Last Updated** | 2026-03-24 | Mass evaluation completed |
 
 ### 🎯 The Differentiator: Write → Evaluate → Restore
 
