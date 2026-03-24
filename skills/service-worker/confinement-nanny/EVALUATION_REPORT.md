@@ -1,204 +1,106 @@
-# Confinement Nanny Skill Evaluation Report
+# Skill Evaluation Report: confinement-nanny
 
-**Skill Name:** confinement-nanny  
-**Path:** skills/service-worker/confinement-nanny/  
-**Restoration Date:** 2026-03-21  
-**Restoration Specialist:** Skill Restoration Agent  
-
----
-
-## Executive Summary
-
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Overall Score** | 6.5/10 | 9.5/10 | +3.0 |
-| **Text Score** | 8.6 | 9.6 | +1.0 |
-| **Runtime Score** | 6.9 | 9.4 | +2.5 |
-| **Variance** | 1.7 | 0.2 | -1.5 (more consistent) |
-| **Quality Level** | Standard | Production | ↑ 2 tiers |
+**Evaluation Date:** 2026-03-24
+**Evaluator:** Skill Writer Methodology
+**Score:** 9.5/10 — Production-Ready
 
 ---
 
-## Detailed Assessment
+## 6-Dimension Quality Rubric
 
-### 1. System Prompt (§1) - NEW
+| Dimension | Score | Weight | Weighted | Justification |
+|-----------|-------|--------|---------|---------------|
+| **Prompt Quality** | 9.6 | 0.20 | 1.92 | 20+ yrs, TCM + Malay pantang, IBCLC-level lactation, clear decision framework with bilingual gates |
+| **Domain Knowledge** | 9.5 | 0.25 | 2.38 | TCM 4-stage confinement, Malay pantang phases, newborn development, lactation troubleshooting |
+| **Workflow** | 9.5 | 0.15 | 1.43 | Detailed daily schedule (6 AM - 2 AM), stage-based protocols |
+| **Risk Management** | 9.8 | 0.10 | 0.98 | Comprehensive red flag protocol with escalation pathways, strong safety focus |
+| **Examples** | 9.4 | 0.20 | 1.88 | 5 scenarios: Meal Plan, Latch Difficulty, Recovery Monitoring, Malay Pantang Setup, Emergency Response |
+| **Metadata** | 9.5 | 0.10 | 0.95 | All 9 fields present, multilingual tags (Chinese/Malay), quality: production |
 
-**Status:** ✅ ADDED (Previously Missing)
-
-**Components Added:**
-- **§1.1 Role Definition**: Comprehensive role identity with 20+ years experience, TCM and pantang training, certifications
-- **§1.2 Decision Framework**: 5-gate evaluation system (Safety, Cultural Context, Medical vs Care, Age/Stage, Recovery Phase)
-- **§1.3 Thinking Patterns**: Recovery staging, temperature paradigm, mother-baby unit, food as medicine, cultural adaptation
-
-**Impact:** High - Provides clear AI behavior guidelines and safety guardrails
-
-### 2. Content Enhancements
-
-#### Traditional Confinement Knowledge
-| Tradition | Coverage | Evidence |
-|-----------|----------|----------|
-| Chinese Zuo Yue Zi | Comprehensive | 4-stage framework, specific foods, herbs |
-| Malay Pantang | Comprehensive | Bertungku, bengkung, urut, jamu |
-| Modern Integration | Strong | Evidence-based modifications, safety filters |
-
-#### Postpartum Recovery Data
-- Uterine involution timeline (6-8 weeks)
-- Lochia stages (rubra/serosa/alba) with precise timelines
-- C-section healing milestones
-- Breastfeeding indicators (wet diapers, weight gain)
-- Hormonal changes timeline
-
-#### Newborn Development Data
-- Week-by-week milestones (Week 1 through Month 3)
-- Feeding guidelines by age
-- Sleep patterns
-- Developmental markers
-
-### 3. Progressive Disclosure Structure
-
-**Main SKILL.md:** Core concepts, examples, quick reference
-
-**Reference Files Created:**
-1. `references/confinement-recipes.md` - Detailed recipes, meal frameworks
-2. `references/traditional-therapies.md` - Therapy guides, safety protocols
-3. `references/newborn-care.md` - Extended newborn protocols (existing)
-4. `references/lactation-guide.md` - Extended lactation support (existing)
-5. `references/07-standards.md` - Safety standards (existing)
-
-**Benefit:** SKILL.md stays under 500 lines while deep content available on-demand
-
-### 4. Scenario Examples (§8) - COMPLETE
-
-**5 Comprehensive Examples Added:**
-
-| # | Example | Type | Quality |
-|---|---------|------|---------|
-| 1 | Complete 28-day meal plan | Postpartum Diet | High |
-| 2 | Latch difficulty support | Lactation/Baby Care | High |
-| 3 | Postpartum recovery monitoring | Mother Recovery | High |
-| 4 | Malay pantang setup | Traditional Practice | High |
-| 5 | Newborn emergency response | Baby Care/Safety | Critical |
-
-### 5. Safety Enhancements
-
-**Risk Disclaimer (§3):** 7 risks categorized by severity with mitigation protocols
-
-**Red Flag Protocols:**
-- Newborn fever ≥38°C → Emergency escalation
-- Postpartum hemorrhage → Immediate ER
-- PPD with harm thoughts → Crisis intervention
-- Jaundice progression → Same-day pediatrician
-
-**Traditional Practice Safety Filters:**
-- ALLOW: Warming foods, rest, herbal soups, loose binding
-- MODIFY: No bathing → warm showers, no AC → moderate temp
-- AVOID: Tight binding, vaginal steaming, alcohol, withheld medical care
-
-### 6. Bilingual Support
-
-**Chinese Terms:**
-- 坐月子 (zuo yue zi)
-- 月嫂 (yue sao)
-- 排毒期/修复期/滋补期/调理期 (4 stages)
-- Key herbs: 当归, 黄芪, 红枣, 枸杞
-
-**Malay Terms:**
-- Pantang (confinement)
-- Bertungku (hot compress)
-- Bengkung (belly binding)
-- Urut (massage)
-- Jamu (herbal tonics)
+**Final Weighted Score: 9.5/10**
 
 ---
 
-## Quality Score Breakdown
+## Dimension Breakdown
 
-| Dimension | Score | Justification |
-|-----------|-------|---------------|
-| Completeness | 9.6 | All sections present; comprehensive coverage |
-| Accuracy | 9.5 | Evidence-based + traditional knowledge |
-| Usability | 9.4 | Clear examples, progressive disclosure |
-| Safety | 9.8 | Strong risk management, escalation protocols |
-| Cultural Sensitivity | 9.5 | Respectful integration of Chinese + Malay traditions |
-| Structure | 9.4 | Consistent formatting, easy navigation |
-| Examples | 9.5 | 5 diverse, detailed, actionable scenarios |
-| Innovation | 9.2 | Traditional-modern integration approach |
+### ✅ Prompt Quality (9.6/10)
+- **Identity**: 20+ yrs, 500+ families, TCM dietary therapy, Malay pantang (bertungku, bengkung), IBCLC-level
+- **Framework**: Bilingual Decision Gates (Safety → Cultural → Medical → Age/Stage → Recovery Phase)
+- **Red Flag Protocol**: Newborn fever ≥38°C, heavy bleeding, PPD signs, jaundice below chest
+- **Thinking Patterns**: Recovery staging, temperature paradigm, mother-baby unit, food as medicine
 
-**Weighted Average: 9.5/10**
+### ✅ Domain Knowledge (9.5/10)
+- Chinese Zuo Yue Zi (坐月子) 4-stage framework
+- Malay Pantang 40-44 day phases
+- TCM ingredients with properties and timing
+- Malay pantang ingredients (jamu, turmeric, galangal, betel leaf)
+- Newborn development milestones (Week 1 → Month 3)
+- Breastfeeding guidelines with normal ranges
 
----
+### ✅ Workflow (9.5/10)
+- Detailed daily schedule (6 AM - 2 AM with 2 AM feeding)
+- Four-stage Chinese progression (Detox → Repair → Nourish → Regulate)
+- Malay pantang phases (bertungku → bengkung → urut → gradual return)
+- Stage-appropriate food guidelines
 
-## Changes Made
+### ✅ Risk Management (9.8/10)
+- Postpartum Hemorrhage (🔴 Critical) — with monitoring protocol
+- Newborn Medical Emergency (🔴 Critical) — red flags clearly listed
+- Mastitis/Breast Abscess (🔴 High)
+- Postpartum Depression (🔴 High) — with EPDS screening
+- SIDS Risk (🔴 High) — ABC sleep protocol
+- C-Section Infection (🟠 Medium)
+- Traditional Practice Harm (🟠 Medium) — with MODIFY/AVOID filters
 
-### Files Modified
-1. **SKILL.md** - Complete rewrite with new structure
+### ✅ Examples (9.4/10)
+1. Complete Confinement Meal Plan — 28-day Chinese plan with weekly tables
+2. Latch Difficulty & Breastfeeding Support — Positioning protocols, when to seek help
+3. Postpartum Recovery Monitoring — Lochia assessment, perineal tear care
+4. Malay Pantang Confinement Setup — Bertungku, bengkung, urut with safety notes
+5. Newborn Emergency Response — Temperature check, rapid assessment, action steps
 
-### Files Created
-1. **references/confinement-recipes.md** - Recipe database
-2. **references/traditional-therapies.md** - Therapy guide
-3. **backup/SKILL.md.original** - Original file backup
-
-### Files Preserved
-- references/07-standards.md
-- references/08-workflow.md
-- references/09-scenarios.md
-- references/10-pitfalls.md
-
----
-
-## Research Sources
-
-### Confinement Traditions
-1. Chinese Zuo Yue Zi (坐月子) practices - TCM dietary therapy principles
-2. Malay Pantang traditions - Bertungku, bengkung, jamu practices
-3. Singapore/Malaysia multicultural integration
-
-### Medical References
-1. ACOG Postpartum Care Guidelines
-2. AAP Safe Sleep Guidelines
-3. WHO Postpartum Care Recommendations
-4. Cleveland Clinic Postpartum Recovery Data
-5. Uterine involution studies (Browne & Browne, 1960)
-6. Lochia research (Eastman & Russell, 1977)
-
-### Industry Standards
-1. IBCLC lactation guidelines
-2. Postpartum doula training standards
-3. Traditional TCM practitioner resources
+### ✅ Metadata (9.5/10)
+- name: confinement-nanny ✓
+- All 9 YAML fields present ✓
+- Multilingual tags (Chinese: 坐月子, 月嫂, 新生儿护理; Malay: pantang, bertungku, bengkung) ✓
+- quality: production ✓
+- score: 9.5/10 ✓
 
 ---
 
-## Recommendations
+## Quality Tier Classification
 
-### For Users
-1. **Read System Prompt (§1) first** to understand AI behavior framework
-2. **Review Risk Disclaimer (§3)** before applying any traditional therapies
-3. **Use Example 5** for emergency reference - bookmark this section
-4. **Reference specialized guides** for detailed recipes/therapies
-
-### For Future Updates
-1. Add more diverse cultural traditions (Indian, Korean, etc.)
-2. Include video references for latch techniques
-3. Expand mental health resources
-4. Add postpartum exercise progression
+| Tier | Threshold | This Skill |
+|------|-----------|------------|
+| Basic | <5.0 | — |
+| Community | 5.0-6.9 | — |
+| Expert | 7.0-8.9 | — |
+| **Production-Ready** | **≥9.0** | **✅ 9.5** |
 
 ---
 
-## Conclusion
+## Strengths
 
-The confinement-nanny skill has been successfully restored from 6.5/10 to 9.5/10 quality through:
-
-1. ✅ System Prompt addition (§1.1/§1.2/§1.3)
-2. ✅ Comprehensive traditional knowledge (Chinese + Malay)
-3. ✅ Evidence-based recovery data integration
-4. ✅ Progressive disclosure structure
-5. ✅ 5 high-quality, diverse examples
-6. ✅ Strong safety protocols
-7. ✅ Cultural sensitivity and bilingual support
-
-The skill now provides production-quality guidance for confinement care across Chinese and Malay traditions, with appropriate modern adaptations and safety guardrails.
+1. **Cultural Breadth**: Integrates both Chinese (zuo yue zi) AND Malay (pantang) traditions with safety modifications
+2. **Red Flag Protocols**: Clear escalation pathways for medical emergencies
+3. **Bilingual Decision Framework**: Gates in both English and Chinese
+4. **Traditional Practice Safety Filters**: Explicit ALLOW/MODIFY/AVOID guidance prevents harm
+5. **Comprehensive Lactation Support**: Latch correction, supply management, mastitis prevention
 
 ---
 
-**Restoration Completed:** 2026-03-21  
-**Quality Verified:** 9.5/10 (Production-Ready)
+## Minor Observations
+
+1. **Line count**: 796 lines — exceeds 500-line guideline; references/ folder available
+2. **Self-scoring**: Already at 9.5 — limited room for improvement
+3. **Quality label**: Uses "production" vs "exemplary" — minor inconsistency with others
+
+---
+
+## Verdict
+
+**APPROVED — Production-Ready**
+
+This skill demonstrates exceptional depth in culturally-sensitive postpartum care. The integration of TCM and Malay traditions with evidence-based safety modifications is exemplary. Strong red flag protocols ensure safe practice.
+
+**Recommendation:** No critical updates required. Skill is production-ready.
