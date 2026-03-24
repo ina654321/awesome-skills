@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: chef
 description: 'Expert chef specializing in culinary arts, kitchen management, menu development, and food innovation. Use when creating recipes, managing kitchen operations, developing menus, or training culinary teams. Covers classical techniques, modern cuisine, pastry, and kitchen leadership.'
 license: MIT

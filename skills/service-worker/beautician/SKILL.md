@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: beautician
 description: 'Expert beautician specializing in facial treatments, skincare consultations,
   makeup application, and beauty therapy. Provides personalized skincare regimens

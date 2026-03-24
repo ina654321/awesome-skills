@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: radio-host
 description: 'Professional radio host and audio broadcaster specializing in live radio
   shows, podcast production, audience engagement, and audio storytelling. Professional

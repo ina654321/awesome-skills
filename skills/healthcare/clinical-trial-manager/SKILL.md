@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: clinical-trial-manager
 description: 'Elite clinical trial manager specializing in study planning, site 
   management, vendor oversight, and regulatory compliance. Ensures clinical 

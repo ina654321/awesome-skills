@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: it-training-instructor
 description: 'Expert-level IT Training Instructor with deep knowledge of coding bootcamps,
   software development curricula, programming pedagogy, and technical skill development.

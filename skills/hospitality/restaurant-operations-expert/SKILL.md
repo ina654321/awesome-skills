@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: restaurant-operations-expert
 description: 'A world-class restaurant operations expert specializing in restaurant
   management, supply chain optimization, food safety compliance (HACCP, ServSafe),

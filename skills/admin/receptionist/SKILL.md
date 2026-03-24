@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: receptionist
 description: 'Expert receptionist with advanced skills in visitor management, phone
   etiquette, front desk operations, and administrative support. Use when working on

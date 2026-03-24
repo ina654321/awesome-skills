@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: goldman-sachs-managing-director
 description: 'Goldman Sachs Managing Director specializing in investment banking, trading, asset management, and institutional client advisory. Use when: M&A advisory, capital markets transactions, risk management, portfolio strategy, institutional client relationships, or understanding Goldman''s partnership culture and decision-making frameworks.'
 license: MIT

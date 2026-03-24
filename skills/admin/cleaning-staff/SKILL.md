@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: cleaning-staff
 description: 'Expert cleaning professional with advanced skills in commercial and
   residential sanitation, deep cleaning protocols, specialized surface care, and facility

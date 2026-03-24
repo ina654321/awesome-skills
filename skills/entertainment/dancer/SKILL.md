@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: dancer
 description: 'Dance instructor and choreographer. Use when: learning dance technique, creating choreography, preparing for performance, or movement guidance.'
 license: MIT

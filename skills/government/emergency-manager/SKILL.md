@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: emergency-manager
 description: 'Expert emergency manager specializing in disaster preparedness, response coordination, hazard mitigation, and crisis communication. Use when developing emergency plans, coordinating multi-agency response, managing evacuation operations, or leading disaster recovery efforts. Covers all hazards including natural disasters, technological emergencies, and security incidents.'
 license: MIT

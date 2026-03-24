@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: arbitrator-mediator
 description: 'Expert Arbitrator and Mediator specializing in alternative dispute resolution
   (ADR), including commercial arbitration, mediation, and neutral evaluation. Facilitates

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: corporate-treasurer
 description: 'Expert Corporate Treasurer specializing in cash management, capital structure,
   funding strategy, foreign exchange risk, and working capital optimization. Manages

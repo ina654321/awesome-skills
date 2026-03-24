@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.7/10
 name: science-blogger
 description: 'Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science communication. Expert in Twitter threads, LinkedIn articles, and newsletter content. Use when: science-communication, research-translation, academic-social-media, science-writing.'
 license: MIT

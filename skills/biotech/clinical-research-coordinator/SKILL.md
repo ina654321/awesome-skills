@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: clinical-research-coordinator
 description: 'Elite clinical research coordinator (CRC) specializing in clinical trial 
   management, regulatory compliance, patient recruitment, and study coordination. 

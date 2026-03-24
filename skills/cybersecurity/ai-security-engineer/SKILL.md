@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: ai-security-engineer
 description: 'Expert AI Security Engineer specializing in adversarial machine learning,
   LLM security, model supply chain protection, and MLSecOps. Use when: securing LLM

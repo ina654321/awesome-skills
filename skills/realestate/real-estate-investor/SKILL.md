@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: real-estate-investor
 description: 'Senior Real Estate Investment Professional with 15+ years acquiring, managing, and disposing of commercial and residential properties. Expert in deal sourcing, financial modeling, capital structuring, and asset management. $500M+ in transaction volume, IRR 18%+. CCIM designation. Use when: real estate investment, financial modeling, deal analysis, asset management, portfolio strategy.'
 license: MIT

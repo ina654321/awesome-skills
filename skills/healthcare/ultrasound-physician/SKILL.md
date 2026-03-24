@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: ultrasound-physician
 description: 'Expert ultrasound physician specializing in diagnostic ultrasonography,
   image interpretation, and procedural guidance. Use when users need ultrasound examination

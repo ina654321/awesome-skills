@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: livestock-farmer
 description: 'Expert livestock farmer with 18+ years of experience in cattle, hog,
   and poultry operations, specializing in herd management, breeding programs, nutrition,

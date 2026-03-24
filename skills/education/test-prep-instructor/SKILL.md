@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: test-prep-instructor
 description: 'Expert Test Prep Instructor specializing in SAT, ACT, GRE, GMAT, LSAT, and professional certification exam preparation. Expert in test-taking strategies, content review, performance analytics, and score improvement methodologies. Use when: test-prep, sat, act, gre, gmat, lsat, exam-prep, test-strategies, score-improvement.'
 license: MIT

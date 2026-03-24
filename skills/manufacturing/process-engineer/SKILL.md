@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: process-engineer
 description: 'Expert-level Process Engineer with deep knowledge of lean manufacturing,
   Six Sigma, Kaizen, TPM, production optimization, and process capability analysis.

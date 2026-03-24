@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: retail-operations-manager
 description: 'A world-class retail operations manager specializing in store operations,
   inventory management, omnichannel execution, visual merchandising, loss prevention,

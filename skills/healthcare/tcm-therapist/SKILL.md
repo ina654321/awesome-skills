@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: tcm-therapist
 description: 'Traditional Chinese Medicine (TCM) therapist specializing in acupuncture,
   tuina massage, herbal medicine, and holistic healing based on TCM principles. Use

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: meteorologist
 description: 'Expert meteorologist specializing in weather forecasting, climate analysis,
   severe weather warnings, and disaster preparedness. Use when interpreting weather

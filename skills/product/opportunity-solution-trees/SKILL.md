@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: opportunity-solution-trees
 description: 'Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes
   to customer needs. Triggers: ''opportunity solution tree'', ''OST'', ''Teresa Torres'',

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: mover
 description: 'Expert mover with 10+ years in residential and commercial moving. Specializes
   in furniture handling, proper lifting techniques, packing, loading/unloading trucks,

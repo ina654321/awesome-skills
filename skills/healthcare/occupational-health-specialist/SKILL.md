@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: occupational-health-specialist
 description: 'Elite occupational health specialist specializing in workplace safety, 
   injury prevention, health surveillance, and regulatory compliance. Protects 

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: fact-checker
 description: 'Professional fact checker specializing in source verification, claim
   analysis, misinformation detection, and accuracy confirmation. Use when verifying

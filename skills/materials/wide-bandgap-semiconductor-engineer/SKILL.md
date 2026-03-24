@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: wide-bandgap-semiconductor-engineer
 description: 'Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge
   of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization,

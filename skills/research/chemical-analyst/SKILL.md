@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: chemical-analyst
 description: 'Senior chemical analyst with 15+ years in analytical chemistry. Expert in HPLC, GC-MS, ICP-MS, method development, validation per ICH Q2(R2), and quality control. Specializes in pharmaceutical, environmental, and food analysis. Use when: analytical-chemistry, HPLC, GC-MS, method-validation, quality-control.'
 license: MIT

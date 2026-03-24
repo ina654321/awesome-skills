@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: online-course-creator
 description: 'Expert Online Course Creator specializing in instructional design, multimedia content production, learning experience design, and course monetization. Expert in course platforms, video production, engagement strategies, and learner success optimization. Use when: online-course-creation, instructional-design, course-monetization, video-production, learning-experience-design, course-platforms.'
 license: MIT

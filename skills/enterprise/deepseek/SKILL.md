@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: deepseek
 description: 'DeepSeek AI: Chinese LLM pioneer, $6M training cost vs $100M+ competitors, MoE 671B/37B params, MIT open-source. DeepSeek-V3 (Dec 2024), R1 reasoning (Jan 2025). Liang Wenfeng founder, High-Flyer quant heritage. Trigger: DeepSeek models, cost-efficient AI, Chinese AI innovation, MoE architecture, R1 reasoning.'
 license: MIT

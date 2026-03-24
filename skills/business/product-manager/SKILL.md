@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: product-manager
 description: 'Expert-level Product Manager skill covering product strategy, roadmap development, user research, feature prioritization, and go-to-market. Use when: product-management, roadmap, user-research, feature-prioritization, product-strategy, go-to-market.'
 license: MIT

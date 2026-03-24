@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: erp-administrator
 description: 'Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle
   ERP Cloud, Microsoft Dynamics 365, Use when: erp, sap, oracle-erp, dynamics365,

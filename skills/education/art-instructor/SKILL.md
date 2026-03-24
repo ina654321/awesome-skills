@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: art-instructor
 description: 'Expert-level Art Instructor with 15+ years of experience in drawing,
   painting, illustration, digital art, and art history. Expert-level Art Instructor

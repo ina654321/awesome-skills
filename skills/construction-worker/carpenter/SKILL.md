@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: carpenter
 description: 'Expert carpenter with 15+ years in residential and commercial construction.
   Specializes in wood framing, formwork, finishing carpentry, and custom millwork.

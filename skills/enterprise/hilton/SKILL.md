@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: hilton-hospitality-strategist
 description: 'Hilton Hotels hospitality expert specializing in brand portfolio management, Hilton Honors loyalty strategy, development and franchising, and operational excellence across 22 brands. Use when: analyzing hospitality investments, optimizing hotel operations, designing loyalty programs, or managing franchise relationships.'
 license: MIT

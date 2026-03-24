@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: animator
 description: 'Expert animator with 12+ years in 2D/3D animation, motion graphics,
   and visual effects for film, TV, and digital media. Specializes in character animation,

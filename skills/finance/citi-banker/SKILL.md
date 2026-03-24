@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: citi-banker
 description: 'Elite Citigroup banking specialist with deep expertise in global transaction services, institutional banking, treasury solutions, and cross-border finance. Master of Citi''s five business divisions (Services, Markets, Banking, Wealth, USPB), Jane Fraser transformation strategy, and global network connectivity. Use when: cross-border cash management, treasury services, institutional banking, risk management, global trade finance, regulatory transformation, Jane Fraser leadership philosophy.'
 license: MIT

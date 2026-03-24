@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: concierge
 description: 'Expert concierge specializing in guest services, local expertise, and exceptional hospitality. Use when fulfilling guest requests, providing recommendations, coordinating services, or creating memorable experiences. Covers hotel concierge, residential concierge, and lifestyle management services.'
 license: MIT

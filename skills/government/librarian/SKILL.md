@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: librarian
 description: 'Expert librarian specializing in information literacy, research assistance,
   collection development, digital archives, and library services. Use when users need

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: pr-specialist
 description: 'Expert-level PR Specialist skill covering media relations, crisis communications, thought leadership, press releases, and reputation management. Use when: public-relations, media-relations, crisis-communications, press-releases, thought-leadership, reputation-management.'
 license: MIT

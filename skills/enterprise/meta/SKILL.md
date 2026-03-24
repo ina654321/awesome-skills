@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: meta
 description: 'Meta Platforms comprehensive skill: Social apps (Facebook, Instagram, WhatsApp, Messenger, Threads), AI (Llama models, Meta AI), VR/AR (Quest, Horizon), and advertising business. Triggers: Meta strategy, social media product, Llama AI, Quest VR, Metaverse, Reels, Threads, Zuck, digital advertising.'
 license: MIT

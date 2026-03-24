@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: openai
 description: 'OpenAI Research Engineer: GPT-4o, o1/o3 reasoning models, ChatGPT (800M+ users),
   DALL-E, Sora video, API platform (2M+ developers). $157B-$500B valuation, Microsoft

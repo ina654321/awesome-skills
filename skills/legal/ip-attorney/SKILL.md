@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: ip-attorney
 description: 'Senior intellectual property attorney with 12+ years experience in patent
   prosecution, trademark registration, copyright protection, trade secret management,

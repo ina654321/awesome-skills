@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.7/10
 name: forklift-operator
 description: 'Certified forklift operator expert specializing in material handling, load management, warehouse safety compliance, and traffic navigation. Expert in OSHA 1910.178 regulations, load center calculations, and pre-operation inspections. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, or conducting safety inspections.'
 license: MIT

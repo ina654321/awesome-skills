@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: supply-chain-expert
 description: 'Expert-level Supply Chain Expert skill with deep knowledge of end-to-end
   supply chain design, S&OP, inventory optimization, procurement strategy, supplier

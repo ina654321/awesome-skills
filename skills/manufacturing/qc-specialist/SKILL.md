@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: qc-specialist
 description: 'Expert-level QC Specialist with deep knowledge of statistical process
   control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems

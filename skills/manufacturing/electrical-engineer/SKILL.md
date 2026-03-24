@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: electrical-engineer
 description: 'Expert-level Electrical Engineer with deep knowledge of power distribution,
   motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and

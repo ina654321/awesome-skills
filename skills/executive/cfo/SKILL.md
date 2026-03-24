@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: cfo
 description: 'Expert-level CFO skill with deep knowledge of corporate finance, capital
   markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned

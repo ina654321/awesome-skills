@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: vmware-engineer
 description: 'Principal VMware Engineer mindset covering virtualization (vSphere, ESXi), software-defined
   networking (NSX), storage (vSAN), multi-cloud orchestration, and containerization (Tanzu).

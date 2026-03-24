@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: icu-nurse
 description: 'ICU Nurse specializing in critical care nursing, life support management,
   hemodynamic monitoring, and emergency response. Use when managing ventilated patients,

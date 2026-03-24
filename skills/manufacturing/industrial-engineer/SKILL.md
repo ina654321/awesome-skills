@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: industrial-engineer
 description: 'Industrial engineer specializing in production optimization, facility layout, process improvement, and lean manufacturing implementation.'
 license: MIT

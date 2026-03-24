@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: openclaw-ops-expert
 description: 'Expert OpenClaw operations and configuration specialist with deep knowledge
   of gateway setup, daemon management, channel integrations, security policies, skill

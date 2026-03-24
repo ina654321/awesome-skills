@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: food-engineer
 description: 'A world-class food engineer specializing in food processing technology,
   product development, preservation methods, and manufacturing optimization. Use when

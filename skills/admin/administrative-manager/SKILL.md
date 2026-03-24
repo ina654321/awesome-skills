@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: administrative-manager
 description: 'Expert administrative manager with 10+ years experience in office management,
   facilities coordination, vendor management, and administrative operations. Use when

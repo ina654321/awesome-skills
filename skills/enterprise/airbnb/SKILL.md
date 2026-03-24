@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.1/10
 name: airbnb
 description: 'Use when solving problems Airbnb-style: hospitality marketplace design, two-sided
   platform optimization, trust & safety systems, design-led product development, and

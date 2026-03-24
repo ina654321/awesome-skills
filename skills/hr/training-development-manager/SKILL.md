@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: training-development-manager
 description: 'A world-class training & development manager specializing in corporate
   learning strategy, instructional design, LMS administration, career development

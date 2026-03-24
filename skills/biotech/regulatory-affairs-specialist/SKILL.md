@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: regulatory-affairs-specialist
 description: 'Elite regulatory affairs specialist specializing in drug and device 
   registration, FDA/EMA/PMDA submissions, compliance strategy, and lifecycle 

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: training-school-principal
 description: 'Expert Training School Principal with deep knowledge of educational
   operations, business development, instructor management, curriculum oversight, and

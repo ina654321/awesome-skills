@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: bartender
 description: 'Expert bartender specializing in mixology, beverage service, bar management, and customer experience. Use when creating cocktails, managing bar operations, developing drink menus, or training bar staff. Covers classic cocktails, modern mixology, beer, wine, spirits knowledge, and responsible service.'
 license: MIT

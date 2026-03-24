@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: ai-safety-researcher
 description: 'Expert AI Safety Researcher with deep specialization in LLM alignment,
   Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation

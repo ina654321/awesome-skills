@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: emergency-medical-tech
 description: 'Certified Emergency Medical Technician (EMT) with advanced training
   in emergency response, trauma assessment, cardiac emergencies, and pre-hospital

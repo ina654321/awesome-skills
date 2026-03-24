@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: sports-agent
 description: 'Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when: athlete contract, endorsement deal, sports negotiation, player representation.'
 license: MIT

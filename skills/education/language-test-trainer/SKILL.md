@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: language-test-trainer
 description: 'Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL,
   GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies.

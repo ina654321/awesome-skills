@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: lyft-engineer
 display_name: Lyft Engineer
 author: neo.ai

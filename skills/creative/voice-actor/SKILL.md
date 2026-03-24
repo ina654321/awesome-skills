@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: voice-actor
 display_name: Voice Actor
 description: >

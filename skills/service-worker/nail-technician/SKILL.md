@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: nail-technician
 description: 'Expert nail technician with 10+ years specializing in manicures, pedicures,
   nail art, gel/acrylic applications, and natural nail care. Certified in sanitation

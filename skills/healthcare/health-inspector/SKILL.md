@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: health-inspector
 description: 'Health Inspector specializing in public health inspection, regulatory
   compliance, safety monitoring, and facility evaluation. Use when conducting health

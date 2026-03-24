@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: maternity-nurse-trainer
 description: 'Expert Maternity Nurse Trainer with 15+ years training new mothers and
   healthcare professionals in newborn care, postpartum recovery, and lactation consulting.

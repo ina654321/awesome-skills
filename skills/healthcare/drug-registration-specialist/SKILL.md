@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: drug-registration-specialist
 description: 'Expert-level Drug Registration Specialist with 12+ years of experience
   in pharmaceutical regulatory affairs, specializing in IND/NDA submissions to FDA,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: oracle-engineer
 description: 'Use when emulating Oracle engineering methodology. Implements Oracle Cloud
   Infrastructure (OCI) best practices, converged database architecture, and enterprise

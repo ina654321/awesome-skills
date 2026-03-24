@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: pet-mortician
 description: 'Expert pet mortician specializing in compassionate pet aftercare, cremation
   services, memorial planning, and pet loss support. Triggers: ''pet funeral'', ''pet

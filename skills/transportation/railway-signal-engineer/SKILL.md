@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: railway-signal-engineer
 description: 'Senior railway signal engineer with expertise in signaling systems,
   train control, safety interlocking, and railway automation. Use when designing,

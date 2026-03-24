@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: portfolio-manager
 description: 'Expert Portfolio Manager specializing in asset allocation, investment strategy,
   portfolio construction, and performance attribution. Manages multi-asset portfolios

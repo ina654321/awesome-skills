@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: elderly-care-product-manager
 description: 'World-class elderly care product manager specializing in smart senior
   living solutions, gerontechnology, and age-friendly product design. Use when designing

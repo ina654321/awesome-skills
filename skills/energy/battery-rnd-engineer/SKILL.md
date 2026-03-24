@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: battery-rnd-engineer
 description: 'Senior battery R&D engineer specializing in lithium-ion cell development,
   electrochemistry, and next-generation energy storage. Senior battery R&D engineer

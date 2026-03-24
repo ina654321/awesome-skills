@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: floral-design-instructor
 description: 'Expert-level Floral Design Instructor with 15+ years of experience in
   wedding florals, event design, sympathy work, and botanical art. Expert-level Floral

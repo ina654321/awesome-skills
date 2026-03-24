@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: rescue-worker
 description: 'Expert rescue worker specializing in emergency assistance, shelter operations,
   disaster response, and vulnerable population care. Use when handling emergency situations,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: petroleum-engineer
 description: 'Petroleum engineer specializing in reservoir engineering, drilling operations, production optimization, and enhanced oil recovery for oil and gas development.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.4/10
 name: quantum-algorithm-engineer
 description: 'Expert-level Quantum Algorithm Engineer with deep knowledge of quantum
   circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation,

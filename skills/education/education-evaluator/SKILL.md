@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: education-evaluator
 description: 'Expert-level Education Evaluator with deep knowledge of school accreditation,
   quality assurance frameworks, educational standards, and institutional assessment.

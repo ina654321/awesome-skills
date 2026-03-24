@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: academic-planner
 description: 'Expert Academic Planner with 12+ years experience in K-12 and higher
   education planning, career counseling, and college admission guidance. Use when:

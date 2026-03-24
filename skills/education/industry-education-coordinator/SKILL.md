@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: industry-education-coordinator
 description: 'Expert-level Industry-Education Coordinator with deep knowledge of vocational
   education systems, enterprise partnership frameworks, apprenticeship programs, and

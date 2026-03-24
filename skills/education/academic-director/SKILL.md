@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: academic-director
 description: 'Expert Academic Director with 20+ years experience in K-12 or higher
   education administration, curriculum planning, teacher supervision, and academic

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: livestreamer
 description: 'Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce
   streaming. Specializes in audience retention, real-time engagement, monetization,

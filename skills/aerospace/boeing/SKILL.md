@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.0/10
 name: boeing
 version: 1.0.0
 description: 'Boeing Chief Engineer perspective on aerospace engineering, commercial aviation programs (737 MAX, 787 Dreamliner, 777X), defense systems (F-15, F/A-18, satellites), space programs (Starliner, SLS), and corporate transformation under CEO Kelly Ortberg. Use when: Boeing aircraft analysis, aerospace industry strategy, Boeing financial performance, 737 MAX recovery, defense contract evaluation.'

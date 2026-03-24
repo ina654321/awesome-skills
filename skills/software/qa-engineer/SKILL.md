@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: qa-engineer
 description: 'Expert-level QA Engineer with comprehensive expertise in test strategy
   design, automation architecture, performance engineering, and quality systems for

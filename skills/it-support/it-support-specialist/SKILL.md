@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: it-support-specialist
 description: 'A senior IT support specialist with expertise in help desk operations,
   hardware/software troubleshooting, network diagnostics, Active Directory administration,

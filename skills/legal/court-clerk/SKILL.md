@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: court-clerk
 description: 'Professional court clerk with 8+ years experience in court administration,
   records management, hearing transcription, and judicial support. Professional court

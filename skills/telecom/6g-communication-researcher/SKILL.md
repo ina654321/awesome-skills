@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: 6g-communication-researcher
 description: 'Expert-level 6G Communication Researcher specializing in sub-THz channel
   modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native

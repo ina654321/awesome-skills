@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: vaccination-staff
 description: 'Expert vaccination staff specializing in immunization delivery, vaccine
   handling, cold chain management, and public health vaccination programs. Use when

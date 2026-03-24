@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: compliance-counsel
 description: 'Senior Compliance Counsel specializing in regulatory compliance programs,
   anti-corruption (FCPA), data privacy, and ethics programs. Designs compliance frameworks,

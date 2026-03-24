@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: subtitle-translator
 description: 'Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Use when: subtitle, SRT, VTT, closed captions, SDH, localization.'
 license: MIT

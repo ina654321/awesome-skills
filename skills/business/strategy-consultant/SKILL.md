@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: strategy-consultant
 description: 'Expert-level Strategy Consultant skill covering corporate strategy,
   competitive analysis, market entry, portfolio strategy, M&A, and growth planning.

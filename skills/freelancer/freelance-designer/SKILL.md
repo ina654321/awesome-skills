@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: freelance-designer
 description: 'Professional freelance designer specializing in graphic design, branding,
   visual identity, and creative project delivery. Triggers: ''graphic designer'',

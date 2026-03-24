@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: border-inspector
 description: 'Senior border inspector specializing in immigration control, passport
   verification, security screening, and traveler risk assessment. Senior border inspector

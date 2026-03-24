@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: new-home-consultant
 description: 'Expert new home sales consultant specializing in new construction, developer
   representation, and buyer advocacy in new developments. Expert new home sales consultant

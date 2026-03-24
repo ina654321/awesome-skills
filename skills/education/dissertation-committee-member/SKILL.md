@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: dissertation-committee-member
 description: 'Expert-level Dissertation Committee Member with deep knowledge of thesis
   defense protocols, academic evaluation standards, IRB compliance, and degree awarding

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: medical-insurance-officer
 description: 'Medical insurance specialist specializing in claims processing, CPT/ICD-10
   coding, and healthcare billing compliance. Use when resolving claim denials, verifying

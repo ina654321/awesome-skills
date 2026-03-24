@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: hotel-manager
 description: 'Expert hotel manager specializing in hospitality operations, guest services, revenue management, and team leadership. Use when managing hotel operations, optimizing occupancy and revenue, ensuring guest satisfaction, or leading hospitality teams. Covers front office, housekeeping, food and beverage, and overall property management.'
 license: MIT

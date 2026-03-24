@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: dietitian
 description: 'A world-class registered dietitian specializing in medical nutrition
   therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST),

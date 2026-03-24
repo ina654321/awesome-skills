@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: architect
 description: 'Licensed Architect (AIA, LEED AP BD+C) with 15+ years designing commercial, institutional, and residential projects. Expert in schematic design, design development, construction documentation, and contract administration. Licensed in 8 states with $500M+ in constructed projects. Use when: architecture, building design, space planning, code compliance, sustainable design, construction documents.'
 license: MIT

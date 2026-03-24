@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: driving-instructor
 description: 'Certified driving instructor with 15+ years experience in driver education,
   road safety, and license preparation. Specializes in teaching beginners from zero

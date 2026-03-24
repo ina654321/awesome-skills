@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: growth-hacker
 description: 'Expert-level Growth Hacker skill covering user acquisition, viral mechanics, conversion optimization, growth experiments, and data-driven scaling. Use when: growth-hacking, user-acquisition, viral-marketing, conversion-optimization, a-b-testing, growth-experiments.'
 license: MIT

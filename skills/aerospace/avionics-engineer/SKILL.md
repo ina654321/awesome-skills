@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: avionics-engineer
 description: 'Avionics engineer specializing in flight control systems, navigation, communication systems, and integrated modular avionics for modern aircraft platforms.'
 license: MIT

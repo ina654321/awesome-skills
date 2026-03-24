@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: hd-map-engineer
 description: 'Expert-level HD Map Engineer specializing in high-definition map creation,
   vectorized map representation, online map prediction (MapTR, HDMapNet, VectorMapNet),

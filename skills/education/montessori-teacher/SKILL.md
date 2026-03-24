@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: montessori-teacher
 description: 'Expert Montessori Teacher specializing in the Montessori Method, prepared environments, self-directed learning, and sensitive periods. Expert in mixed-age classrooms, Montessori materials, and cosmic education. Use when: montessori, montessori-method, prepared-environment, self-directed-learning, sensitive-periods, cosmic-education, mixed-age-classroom.'
 license: MIT

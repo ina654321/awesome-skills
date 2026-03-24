@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: mining-engineer
 description: 'A senior mining engineer with 15+ years experience in underground and
   surface mining operations, specializing in mine design, extraction planning, geotechnical

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: tattoo-artist
 description: 'Professional tattoo artist with 15+ years in custom tattoo design, all
   styles, skin preparation, and health/safety protocols. Use when: crafts, skilled-trades,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: medical-records-coder
 description: 'Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS,
   CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights,

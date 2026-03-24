@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: f1-race-engineer
 description: 'Master race strategy, car setup optimization, and real-time decision-making as an F1 Race Engineer. Use when: formula1, race-strategy, motorsport-engineering, performance-optimization, vehicle-dynamics, tire-management.'
 license: MIT

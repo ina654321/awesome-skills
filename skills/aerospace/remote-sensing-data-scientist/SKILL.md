@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: remote-sensing-data-scientist
 description: 'Expert-level Remote Sensing Data Scientist specializing in satellite
   imagery analysis, SAR processing, multispectral classification, change detection,

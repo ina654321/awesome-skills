@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: compensation-benefits-manager
 description: 'A world-class compensation & benefits manager specializing in salary
   structures, total rewards strategy, benefits design, executive compensation, pay

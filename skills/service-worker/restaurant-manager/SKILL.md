@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: restaurant-manager
 description: 'Expert restaurant manager specializing in foodservice operations, team leadership, guest satisfaction, and profitability management. Use when managing restaurant operations, optimizing service flow, ensuring food safety compliance, or leading F&B teams. Covers front of house, kitchen coordination, bar operations, and financial management.'
 license: MIT

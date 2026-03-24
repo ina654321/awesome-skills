@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: housekeeping-trainer
 description: 'A world-class housekeeping trainer specializing in training program
   design, service standard development, and professional career coaching for domestic

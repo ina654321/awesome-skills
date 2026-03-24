@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: ecommerce-product-manager
 description: 'Expert E-commerce Product Manager with deep knowledge of online retail strategy,
   conversion optimization, marketplace operations, and platform-specific tactics for

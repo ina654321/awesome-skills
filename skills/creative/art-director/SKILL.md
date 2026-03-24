@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: art-director
 description: 'Senior art director specializing in creative vision, visual strategy, brand storytelling, and creative team leadership. Use when developing creative concepts, directing visual campaigns, or establishing artistic direction for brands and projects. Use when: art-direction, creative-strategy, visual-storytelling, brand-campaigns, creative-leadership.'
 license: MIT

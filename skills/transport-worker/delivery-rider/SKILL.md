@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: delivery-rider
 description: 'Professional delivery rider specializing in last-mile delivery, time
   management, and navigation optimization. Use when working on delivery logistics,

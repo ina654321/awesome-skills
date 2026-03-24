@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: data-labeler
 description: 'Expert-level Data Labeler specializing in multi-modal annotation (text,
   image, audio, video), quality control workflows, annotation tool operation (Label

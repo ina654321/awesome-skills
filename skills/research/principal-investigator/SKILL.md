@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: principal-investigator
 description: 'Expert-level Principal Investigator skill covering research design,
   grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning,

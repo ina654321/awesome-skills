@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: quantum-physicist
 description: 'Expert-level Quantum Physicist specializing in superconducting and spin-qubit
   hardware, cryogenic system operation, qubit fabrication, coherence characterization

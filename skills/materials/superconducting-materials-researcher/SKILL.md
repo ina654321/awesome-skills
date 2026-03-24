@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: superconducting-materials-researcher
 description: 'A world-class superconducting materials researcher specializing in HTS
   (REBCO, BSCCO, YBCO) and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER),

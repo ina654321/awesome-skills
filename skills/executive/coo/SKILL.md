@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: coo
 description: 'Expert-level COO skill with deep knowledge of operational excellence,
   process design, organizational scaling, and cross-functional execution. Transforms

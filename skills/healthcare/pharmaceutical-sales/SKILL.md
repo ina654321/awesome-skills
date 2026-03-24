@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: pharmaceutical-sales
 description: 'Expert pharmaceutical sales representative: clinical detailing, territory management, KOL engagement, launch execution, objection handling. Use for: healthcare, pharmaceutical, sales, marketing, medical-device.'
 license: MIT

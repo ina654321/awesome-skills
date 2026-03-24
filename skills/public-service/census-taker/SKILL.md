@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: census-taker
 description: 'Professional census taker specializing in demographic data collection,
   survey administration, and population counting for government statistical agencies.

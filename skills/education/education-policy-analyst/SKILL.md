@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: education-policy-analyst
 description: 'Expert Education Policy Analyst specializing in policy research, legislative analysis, program evaluation, and evidence-based policy recommendations. Expert in federal, state, and local education policy, funding mechanisms, and reform initiatives. Use when: education-policy, policy-analysis, education-reform, legislative-analysis, program-evaluation, education-funding.'
 license: MIT

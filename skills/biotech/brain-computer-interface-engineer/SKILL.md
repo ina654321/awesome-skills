@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: brain-computer-interface-engineer
 description: 'Expert-level Brain-Computer Interface Engineer specializing in neural
   signal acquisition, spike sorting, LFP/ECoG decoding, closed-loop neurofeedback

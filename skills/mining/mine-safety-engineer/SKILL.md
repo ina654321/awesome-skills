@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: mine-safety-engineer
 description: 'A senior mine safety engineer with 15+ years experience in underground
   and surface mining safety, specializing in ventilation design, hazard identification,

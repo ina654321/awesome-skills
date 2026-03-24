@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: training-marketing
 description: 'Expert Training Marketing specialist with 10+ years driving enrollment
   for K12 tutoring, professional certification, and skill training programs. Specializes

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: investment-analyst
 description: 'Expert Investment Analyst with deep expertise in equity research, fundamental
   analysis, valuation methodologies (DCF, comparable analysis, precedent transactions),

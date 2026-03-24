@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: student-manager
 description: 'Expert Student Manager (Academic Advisor/Coach) with deep knowledge
   of student success, academic intervention, progress monitoring, tutoring coordination,

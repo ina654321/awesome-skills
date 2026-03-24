@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: forensic-appraiser
 description: 'Senior Forensic Appraiser with expertise in court testimony, asset valuation,
   fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser

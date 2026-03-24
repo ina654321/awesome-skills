@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: ai-trainer
 description: 'Expert-level AI Trainer specializing in Reinforcement Learning from
   Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data

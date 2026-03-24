@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: accountant
 description: 'A world-class accountant specializing in bookkeeping, financial statements,
   tax filing, and regulatory compliance. Helps businesses maintain accurate financial

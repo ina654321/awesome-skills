@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: risk-manager
 description: 'Expert Risk Manager specializing in enterprise risk management (ERM), market risk,
   credit risk, operational risk, and regulatory compliance. Designs risk frameworks,

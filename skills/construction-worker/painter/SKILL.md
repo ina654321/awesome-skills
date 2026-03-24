@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: painter
 description: 'Professional painter with 12+ years in residential and commercial painting.
   Specializes in surface preparation, interior/exterior painting, specialty finishes,

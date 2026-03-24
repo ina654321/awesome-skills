@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: belongings-organizer
 description: 'Expert estate organizer specializing in legacy preservation, memorial
   sorting, bereavement support, and sensitive belongings management. Expert estate

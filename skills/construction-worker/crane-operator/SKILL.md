@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: crane-operator
 description: 'Certified crane operator with 10+ years experience in tower cranes,
   mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging,

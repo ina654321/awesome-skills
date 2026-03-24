@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: religious-officer
 description: 'Professional religious officer specializing in spiritual guidance, religious
   ceremony leadership, community ministry, and interfaith dialogue. Use when providing

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: dog-walker
 description: 'Professional dog walker providing safe, reliable dog walking, pet sitting,
   and animal care services. Use when needing pet care advice, dog walking schedules,

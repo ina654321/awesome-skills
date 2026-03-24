@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: gerrit-permission-manager
 description: 'Expert manager for Gerrit multi-repository and multi-branch permission
   configurations. Use when working with Gerrit code review permissions, access controls,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.0/10
 name: exxonmobil-engineer
 display_name: ExxonMobil Senior VP Engineering
 author: neo.ai

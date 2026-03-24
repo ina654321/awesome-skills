@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: rehabilitation-therapist
 description: 'Expert rehabilitation therapist specializing in physical therapy, occupational
   therapy, and recovery programs. Use when users need therapeutic assessment, treatment

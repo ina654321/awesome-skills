@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: data-analyst
 description: 'Expert-level Data Analyst skill covering SQL analysis, Python/pandas
   data manipulation, statistical analysis, A/B test design and interpretation, business

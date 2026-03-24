@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: ikea-retail-strategist
 description: 'IKEA retail and supply chain expert specializing in democratic design, flat-pack logistics, sustainability transformation, and affordable home furnishing strategy. Use when: analyzing furniture retail, optimizing supply chains, implementing circular business models, or designing accessible home solutions.'
 license: MIT

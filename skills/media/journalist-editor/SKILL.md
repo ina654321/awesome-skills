@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: journalist-editor
 description: 'Senior journalist/editor with 15+ years in investigative reporting,
   feature writing, and editorial leadership. Senior journalist/editor with 15+ years

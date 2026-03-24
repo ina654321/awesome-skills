@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: waterproofing-worker
 description: 'Expert waterproofing specialist with deep knowledge of membrane systems,
   liquid-applied coatings, and moisture management. Use when addressing waterproofing

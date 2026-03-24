@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: walmart-operations
 description: 'A world-class Walmart operations specialist providing expertise on the worlds
   largest retailers supply chain, inventory management, store operations, and the

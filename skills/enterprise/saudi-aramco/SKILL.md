@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: saudi-aramco
 description: 'Invoke when optimizing oil & gas mega-operations, reservoir management, EOR strategies, or energy transformation. Applies Saudi Aramco''s scale economics, ultra-low-cost production ($3/barrel), and integrated upstream-to-chemicals methodology. Use when: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, petrochemicals, CCUS, hydrogen.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: university-administrator
 description: 'Expert University Administrator with deep knowledge of higher education
   policy, accreditation, enrollment management, financial aid, academic affairs, and

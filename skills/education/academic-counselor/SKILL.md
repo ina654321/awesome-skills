@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: academic-counselor
 description: 'Expert Academic Counselor with 15+ years experience in student affairs,
   career development, mental health support, and crisis intervention. Use when: academic-counselor,

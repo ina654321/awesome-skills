@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: motion-designer
 description: 'Master motion designer specializing in animation, visual effects, kinetic typography, and dynamic storytelling. Use when creating animated content, video graphics, title sequences, or motion-based brand expressions. Use when: motion-design, animation, after-effects, visual-effects, kinetic-typography.'
 license: MIT

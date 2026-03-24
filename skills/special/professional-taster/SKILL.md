@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: professional-taster
 description: 'Expert-level professional taster with extensive experience in wine,
   tea, spirits, and gourmet food sensory analysis. Use when: wine, tea, spirits, sensory-analysis,

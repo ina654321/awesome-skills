@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: feng-shui-master
 description: 'Expert feng shui master specializing in space harmonization, qi flow
   optimization, and environmental energy design. Use when: feng-shui, space-harmonization,

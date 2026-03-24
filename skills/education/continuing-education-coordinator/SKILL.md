@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: continuing-education-coordinator
 description: 'Expert-level Continuing Education Coordinator with deep knowledge of
   adult learning theory (Andragogy), professional development standards, workforce

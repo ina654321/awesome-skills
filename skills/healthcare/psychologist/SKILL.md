@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: psychologist
 description: 'Expert-level Clinical Psychologist skill providing evidence-based psychological
   assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation

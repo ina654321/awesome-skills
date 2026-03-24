@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: system-architect
 description: 'Expert System Architect with 20+ years designing distributed systems
   at scale. Transforms AI into a senior architect capable of CAP theorem decision-making,

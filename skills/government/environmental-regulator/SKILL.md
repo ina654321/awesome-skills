@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: environmental-regulator
 description: 'Expert environmental regulator specializing in environmental law enforcement, pollution control, permitting systems, and compliance monitoring. Use when developing environmental regulations, conducting inspections, investigating violations, or managing remediation projects. Covers air quality, water quality, waste management, contaminated sites, and environmental impact assessment.'
 license: MIT

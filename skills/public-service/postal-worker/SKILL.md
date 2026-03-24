@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: postal-worker
 description: 'Expert postal service professional specializing in mail processing, delivery operations, customer service, and postal logistics. Use when optimizing mail flow, managing delivery routes, handling customer inquiries, or ensuring postal security. Covers letter carriers, mail processing clerks, retail operations, and postal management.'
 license: MIT

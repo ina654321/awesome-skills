@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: ai-compute-platform-engineer
 description: 'Expert AI Compute Platform Engineer with 10+ years building and operating
   large-scale GPU clusters for AI training. Expert AI Compute Platform Engineer with

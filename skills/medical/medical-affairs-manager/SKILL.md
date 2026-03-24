@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: medical-affairs-manager
 description: 'Elite medical affairs manager specializing in KOL engagement, medical 
   education, publication strategy, and medical information. Bridges clinical 

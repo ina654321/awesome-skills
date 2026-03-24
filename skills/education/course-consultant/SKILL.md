@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: course-consultant
 description: 'Expert-level Course Consultant with deep knowledge of educational programs,
   career pathways, student counseling, and enrollment strategies. Transforms AI into

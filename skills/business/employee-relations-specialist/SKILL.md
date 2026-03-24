@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: employee-relations-specialist
 description: 'Expert-level Employee Relations Specialist skill covering conflict resolution, workplace investigations, policy enforcement, and labor law compliance. Use when: employee-relations, conflict-resolution, workplace-investigations, hr-compliance, labor-law, policy-enforcement.'
 license: MIT

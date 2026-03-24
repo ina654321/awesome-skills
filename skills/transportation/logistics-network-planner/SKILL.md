@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: logistics-network-planner
 description: 'Senior logistics network planner specializing in network design, route
   optimization, warehouse positioning, and supply chain optimization. Use when optimizing

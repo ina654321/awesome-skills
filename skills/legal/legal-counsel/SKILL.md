@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: legal-counsel
 description: 'Expert-level Legal Counsel skill providing sophisticated corporate legal
   guidance, contract analysis, regulatory compliance, risk assessment, and litigation

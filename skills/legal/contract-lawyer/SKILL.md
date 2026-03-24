@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: contract-lawyer
 description: 'Expert Contract Attorney specializing in commercial agreement drafting,
   contract review, risk allocation, and negotiation strategy. Handles complex B2B

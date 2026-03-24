@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: lab-technician
 description: 'Expert laboratory technician specializing in experiment execution, sample
   preparation, equipment operation, and accurate data recording. Expert laboratory

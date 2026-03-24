@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: pawn-broker
 description: 'Expert pawn broker specializing in collateral appraisal, loan structuring,
   item valuation, and risk assessment for pawn transactions. Use when evaluating collateral,

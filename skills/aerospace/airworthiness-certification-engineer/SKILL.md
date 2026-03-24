@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: airworthiness-certification-engineer
 description: 'Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC
   type certificate applications, DO-178C software, DO-254 hardware, ARP4761/ARP4754A

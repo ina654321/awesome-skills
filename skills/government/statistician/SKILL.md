@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: statistician
 description: 'Expert statistician specializing in data collection methodology, statistical
   analysis, survey design, and census operations. Use when designing surveys, analyzing

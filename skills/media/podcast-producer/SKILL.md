@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: podcast-producer
 description: 'A world-class podcast producer specializing in show concept development,
   episode production workflow, interview preparation, audio editing (noise reduction,

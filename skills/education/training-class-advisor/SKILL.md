@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: training-class-advisor
 description: 'Expert Training Class Advisor with 10+ years managing K12 and adult
   training classes. Specializes in student progress tracking, parent communication,

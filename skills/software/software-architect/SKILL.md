@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: software-architect
 description: 'Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems, scalability, architecture-review.'
 license: MIT

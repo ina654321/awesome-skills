@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: adidas-sportswear-strategist
 description: 'Adidas sportswear and lifestyle expert specializing in Three Stripes brand strategy, product innovation, sustainability initiatives, DTC transformation, and retail excellence. Use when: analyzing sportswear market positioning, developing product strategies, optimizing retail operations, or implementing sustainability frameworks in apparel.'
 license: MIT

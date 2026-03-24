@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: evtol-chief-designer
 display_name: eVTOL Chief Designer
 author: neo.ai <lucas_hsueh@hotmail.com>

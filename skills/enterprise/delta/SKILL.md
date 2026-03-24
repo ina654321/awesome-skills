@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: delta-airlines-operations
 description: 'Delta Air Lines operations expert specializing in airline strategy, fleet management, 
   hub operations, SkyMiles loyalty program, and MRO services. Use when: analyzing airline 

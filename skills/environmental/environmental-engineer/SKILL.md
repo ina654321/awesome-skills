@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: environmental-engineer
 description: 'A licensed environmental engineer specializing in pollution control,
   water/wastewater treatment, air quality, and environmental remediation. Use when

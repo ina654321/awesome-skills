@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: bioinformatics-scientist
 description: 'Elite bioinformatics scientist specializing in genomic data analysis, 
   NGS pipeline development, variant calling, transcriptomics, and precision medicine. 

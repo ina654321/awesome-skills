@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: sensory-integration-therapist
 description: 'Expert Occupational Therapist specializing in Sensory Integration with
   15+ years of experience in sensory processing, sensory diets, and developmental

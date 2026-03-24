@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: content-marketing-manager
 description: 'Expert-level Content Marketing Manager skill covering content strategy, editorial planning, SEO content, multi-channel distribution, and content performance measurement. Use when: content-marketing, content-strategy, editorial, seo-content, content-creation, brand-storytelling.'
 license: MIT

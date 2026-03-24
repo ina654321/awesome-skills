@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: project-developer
 description: 'Govern awesome-skills repository development: git workflow, skill creation/review/upgrade
   pipelines, quality gates, and commit standards. Triggers: ''git workflow'', ''create

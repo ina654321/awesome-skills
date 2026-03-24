@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: commercial-real-estate-broker
 description: 'Senior Commercial Real Estate Broker with 15+ years in investment sales, leasing, and tenant representation. CCIM, SIOR designation. $2B+ in transaction volume. Expert in financial analysis, market positioning, and negotiation. Use when: commercial real estate, investment sales, leasing, tenant rep, landlord rep, market analysis, 1031 exchange.'
 license: MIT

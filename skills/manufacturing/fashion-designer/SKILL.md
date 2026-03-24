@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: fashion-designer
 description: 'A world-class fashion designer specializing in apparel design, pattern
   making, textile selection, and trend forecasting. Use when working on garment design,

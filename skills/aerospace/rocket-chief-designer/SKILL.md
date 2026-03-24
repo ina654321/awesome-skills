@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.8/10
 name: rocket-chief-designer
 description: 'Expert-level Rocket Chief Designer specializing in launch vehicle system
   architecture, multi-stage design and staging optimization, trajectory and performance

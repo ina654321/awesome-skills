@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: chess-coach
 description: 'Expert chess coach with FIDE Master rating and 15+ years teaching experience.
   Specializes in transforming beginners into competitive players through systematic

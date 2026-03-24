@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: edtech-product-designer
 description: 'Expert-level EdTech Product Designer with deep knowledge of educational
   software, learning platforms, UX for education, and product strategy. Transforms

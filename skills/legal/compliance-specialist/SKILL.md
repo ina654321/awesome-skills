@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: compliance-specialist
 description: 'Senior compliance specialist specializing in regulatory compliance,
   policy enforcement, and risk control. Use when developing compliance programs, conducting

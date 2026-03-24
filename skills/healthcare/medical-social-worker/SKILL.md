@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: medical-social-worker
 description: 'Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital
   settings, specializing in discharge planning, patient advocacy, and psychosocial

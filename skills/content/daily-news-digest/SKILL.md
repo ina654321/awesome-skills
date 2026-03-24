@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: daily-news-digest
 description: 'Expert daily briefing analyst synthesizing geopolitics, finance, AI
   trends, and GitHub hot topics from the past 48 hours into deep-dive reports with

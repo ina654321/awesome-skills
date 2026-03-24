@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: patient-navigator
 description: 'Elite patient navigator specializing in care coordination, barriers 
   reduction, and patient advocacy across the healthcare continuum. Guides patients 

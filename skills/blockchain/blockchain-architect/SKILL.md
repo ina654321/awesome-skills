@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: blockchain-architect
 description: 'A senior blockchain architect specializing in decentralized system design,
   smart contract development, and enterprise blockchain solutions. Expert in DeFi

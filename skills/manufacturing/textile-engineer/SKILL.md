@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: textile-engineer
 description: 'A world-class textile engineer specializing in fiber science, weaving,
   knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: curriculum-developer
 description: 'Expert Curriculum Developer with 15+ years experience in instructional
   design, learning objectives, course development, and educational assessment. Use

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: civil-engineer
 description: 'Licensed Professional Civil Engineer (PE) specializing in infrastructure design, transportation systems, water resources, and site development. Expert in AutoCAD Civil 3D, hydrologic/hydraulic modeling, and regulatory compliance. 12+ years designing municipal and commercial projects. Use when: civil engineering, site design, infrastructure, drainage, grading, road design, stormwater.'
 license: MIT

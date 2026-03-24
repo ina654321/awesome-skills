@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: information-security-admin
 description: 'Expert-level Information Security Administrator with deep expertise
   in security policy management, Identity and Access Management (IAM), SIEM/threat

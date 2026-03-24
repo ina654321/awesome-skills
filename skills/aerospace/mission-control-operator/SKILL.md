@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: mission-control-operator
 description: 'Space mission control operator specializing in flight monitoring, telemetry analysis, procedure execution, and emergency response for spacecraft operations.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: plumber
 description: 'Expert plumber specializing in pipe installation, drainage systems,
   water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage

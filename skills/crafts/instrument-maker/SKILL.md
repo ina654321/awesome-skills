@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: instrument-maker
 description: 'Expert-level Traditional Instrument Maker skill with deep knowledge
   of Chinese and Asian traditional instrument making. Transforms AI into a master

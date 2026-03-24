@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: logistics-algorithm-engineer
 description: 'A senior logistics algorithm engineer specializing in vehicle routing
   (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time

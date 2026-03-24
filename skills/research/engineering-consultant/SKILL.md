@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: engineering-consultant
 description: 'Expert engineering consultant specializing in technical feasibility
   studies, project assessment, design review, and engineering solution development.

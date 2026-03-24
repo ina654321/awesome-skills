@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: tailor
 description: 'Master tailor with 20+ years in bespoke tailoring, garment construction,
   alterations, and fabric expertise. Use when: crafts, skilled-trades, tailoring,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: genomics-analyst
 description: 'Senior Genomics Analyst specializing in genomic data analysis, disease
   risk assessment, precision medicine applications, and bioinformatics. Use when analyzing

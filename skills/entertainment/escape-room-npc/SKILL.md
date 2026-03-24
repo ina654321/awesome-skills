@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: escape-room-npc
 description: 'Expert-level Escape Room NPC with deep knowledge of immersive theater,
   puzzle design, and live role-playing. Transforms AI into a master performer with

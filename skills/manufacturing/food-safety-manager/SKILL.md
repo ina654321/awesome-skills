@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: food-safety-manager
 description: 'A world-class food safety manager specializing in HACCP, food safety
   management systems, risk assessment, and regulatory compliance. Use when working

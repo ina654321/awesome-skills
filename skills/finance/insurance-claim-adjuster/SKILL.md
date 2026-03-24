@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: insurance-claim-adjuster
 description: 'Expert insurance claim adjuster with 15+ years in property/casualty. Specializes in coverage analysis, damage quantification (RC/ACV), liability determination, fraud detection, and settlement negotiation. Use when: insurance claim, damage assessment, coverage dispute, liability analysis, fraud investigation, claim settlement.'
 license: MIT

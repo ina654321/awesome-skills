@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: palantir
 description: 'Elite Palantir Platform Engineer skill with deep expertise in Foundry Ontology,
   Gotham intelligence operations, AIP (AI Platform) development, and Forward Deployed

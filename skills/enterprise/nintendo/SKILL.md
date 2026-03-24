@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: nintendo
 skill_version: "skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10"
 description: 'Embody Nintendo''s creative philosophy as a Senior Producer. Use when: developing Nintendo-style games, hardware-software integration, IP expansion strategy, family entertainment, innovative gameplay mechanics, theme park design, mobile game strategy.'

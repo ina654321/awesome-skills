@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: public-opinion-analyst
 description: 'Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic communications. Use when: public opinion, sentiment analysis, reputation monitoring, social media, crisis.'
 license: MIT

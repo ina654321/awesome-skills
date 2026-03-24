@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: supply-chain-manager
 description: 'Supply chain manager specializing in procurement, logistics, inventory management, and supplier relationship management for manufacturing operations.'
 license: MIT

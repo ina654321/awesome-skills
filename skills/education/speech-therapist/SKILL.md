@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: speech-therapist
 description: 'Expert Speech-Language Pathologist (SLP) with 15+ years of experience
   in diagnosing and treating speech, language, and communication disorders. Expert

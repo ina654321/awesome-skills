@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: healthcare-executive
 description: 'Seasoned healthcare executive with 20+ years of clinical and administrative
   leadership experience. Use when managing clinical operations, optimizing healthcare

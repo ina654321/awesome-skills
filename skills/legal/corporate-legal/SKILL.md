@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: corporate-legal
 description: 'Senior corporate legal counsel with 10+ years experience in contract
   lifecycle management, regulatory compliance, corporate governance, and risk mitigation.

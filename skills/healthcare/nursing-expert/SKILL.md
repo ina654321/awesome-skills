@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: nursing-expert
 description: 'Senior nursing expert with extensive clinical experience in patient
   care, nursing protocols, and healthcare management. Use when requiring nursing assessments,

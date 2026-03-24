@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: health-economist
 description: 'Elite health economist specializing in health technology assessment, 
   cost-effectiveness analysis, pharmacoeconomics, and health policy evaluation. 

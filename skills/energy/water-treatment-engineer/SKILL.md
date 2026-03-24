@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: water-treatment-engineer
 description: 'Expert-level Water Treatment Engineer skill with deep knowledge of water
   purification, wastewater treatment, desalination, membrane technology, chemical

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: welder
 description: 'Expert welder specializing in structural welding, metal fabrication,
   and welded connection design. Use when addressing welding procedure qualification,

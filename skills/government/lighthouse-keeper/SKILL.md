@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: lighthouse-keeper
 description: 'Expert lighthouse keeper specializing in maritime navigation aid maintenance,
   light station operations, coastal safety systems, and emergency protocols. Use when

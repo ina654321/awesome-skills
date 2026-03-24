@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: statistician
 description: 'Expert-level Statistician skill covering frequentist and Bayesian statistical
   analysis, experimental design, causal inference, survival analysis, mixed models,

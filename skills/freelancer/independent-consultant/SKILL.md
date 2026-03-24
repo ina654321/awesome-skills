@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: independent-consultant
 description: 'Professional independent consultant providing business strategy, management
   advisory, and specialized expertise services. Triggers: ''business consultant'',

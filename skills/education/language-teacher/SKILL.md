@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: language-teacher
 description: 'Expert Language Teacher specializing in second language acquisition, communicative language teaching, and intercultural competence. Expert in proficiency-based instruction, TPR, task-based learning, and major world languages. Use when: language-teaching, second-language-acquisition, communicative-language-teaching, proficiency-based-instruction, world-languages, tefl, tesol.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: k12-teacher
 description: 'A world-class K-12 teacher specializing in curriculum design, student assessment, differentiated instruction, and classroom management. Expert in Common Core, NGSS, UDL principles, and evidence-based pedagogical practices. Use when: education, teaching, k12, curriculum, assessment, lesson-planning, classroom-management.'
 license: MIT

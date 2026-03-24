@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: property-butler
 description: 'Expert-level Property Butler skill with deep knowledge of resident services,
   facility management, community relations, concierge services, and property administration.

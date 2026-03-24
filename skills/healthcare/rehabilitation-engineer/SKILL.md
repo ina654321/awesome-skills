@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: rehabilitation-engineer
 description: 'Senior rehabilitation engineer specializing in assistive technology,
   prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation

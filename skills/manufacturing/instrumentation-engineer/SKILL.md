@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: instrumentation-engineer
 description: 'A world-class instrumentation engineer specializing in sensor selection,
   measurement systems, process control, and calibration. Use when working on industrial

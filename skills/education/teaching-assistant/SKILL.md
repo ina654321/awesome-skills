@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: teaching-assistant
 description: 'Expert Teaching Assistant with deep knowledge of classroom management,
   differentiated instruction, student assessment, learning objective design, and educational

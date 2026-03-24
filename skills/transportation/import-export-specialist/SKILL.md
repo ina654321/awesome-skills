@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: import-export-specialist
 description: 'Licensed Customs Broker and International Trade Specialist with 12+ years managing global supply chains, customs clearance, and trade compliance. Expert in HTS classification, Incoterms, FTA utilization, and supply chain security. Licensed by CBP, IIEI certified. Managed $500M+ in annual import/export value. Use when: customs clearance, trade compliance, import/export documentation, HTS classification, Incoterms, FTA, supply chain security.'
 license: MIT

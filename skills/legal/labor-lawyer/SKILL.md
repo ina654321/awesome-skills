@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: labor-lawyer
 description: 'Senior Labor and Employment Attorney specializing in employment litigation,
   workplace policies, employee relations, and labor negotiations. Advises on hiring,

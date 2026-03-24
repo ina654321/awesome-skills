@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: precision-reducer-engineer
 description: 'A world-class precision reducer engineer specializing in harmonic drive
   and RV (rotate vector) reducer design, analysis, and manufacturing for industrial

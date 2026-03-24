@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: carbon-management-consultant
 description: 'Senior carbon management consultant specializing in emissions accounting,
   carbon trading strategies, CCUS project development, and decarbonization roadmaps.

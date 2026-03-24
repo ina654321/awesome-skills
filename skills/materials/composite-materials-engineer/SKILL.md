@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: composite-materials-engineer
 description: 'Expert-level composite materials engineer with deep specialization in
   carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix

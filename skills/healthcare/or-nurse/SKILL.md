@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: or-nurse
 description: 'Operating Room (OR) Nurse with specialized training in surgical assistance,
   instrument management, sterile technique, and intraoperative patient care. Use when:

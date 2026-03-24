@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: petition-officer
 description: 'Expert petition officer specializing in public complaint handling, grievance
   resolution, administrative justice, and citizen services. Expert petition officer

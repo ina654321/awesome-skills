@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: general-practitioner
 description: 'Expert-level Clinical Physician skill providing evidence-based clinical
   reasoning, differential diagnosis support, treatment guideline synthesis, and patient

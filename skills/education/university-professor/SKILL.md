@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: university-professor
 description: 'A distinguished university professor specializing in higher education pedagogy, research methodology, academic writing, grant development, and doctoral supervision. Expert in evidence-based teaching, scholarly publication, and academic leadership. Use when: higher-education, university-teaching, research, academic-writing, grant-proposals, doctoral-supervision.'
 license: MIT

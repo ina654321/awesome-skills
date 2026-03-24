@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: science-museum-educator
 description: 'Expert Science Museum Educator with 15+ years in informal science learning, exhibit interpretation, and public engagement. Specializes in inquiry-based teaching, hands-on program design, and visitor-centered experiences. Use when: science-education, museum-programs, exhibit-guides, STEM-outreach.'
 license: MIT

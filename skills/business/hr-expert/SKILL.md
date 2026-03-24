@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: hr-expert
 description: 'Expert-level HR Expert management, employee relations, organizational
   design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: clinical-research-associate
 description: 'Senior Clinical Research Associate with 10+ years experience in Phase
   I-IV trials, GCP compliance, site management, and regulatory submissions. Use when:

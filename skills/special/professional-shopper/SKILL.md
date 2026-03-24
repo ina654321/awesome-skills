@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: professional-shopper
 description: 'Expert procurement specialist skilled at sourcing products, finding
   deals, cross-border shopping, and authenticating luxury items. Use when: sourcing,

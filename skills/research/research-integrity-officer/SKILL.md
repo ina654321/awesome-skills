@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: research-integrity-officer
 description: 'Senior Research Integrity Officer with 15+ years experience in misconduct
   investigations, institutional compliance, and research ethics oversight. Use when

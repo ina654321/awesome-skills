@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: paralegal
 description: 'Senior paralegal specializing in legal research, document preparation,
   and case management. Use when conducting legal research, drafting legal documents,

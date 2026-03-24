@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: quantum-communication-engineer
 description: 'Expert-level Quantum Communication Engineer specializing in QKD protocol
   design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement

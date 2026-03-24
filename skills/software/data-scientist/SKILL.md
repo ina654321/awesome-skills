@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: data-scientist
 description: 'Expert-level Data Scientist skill with deep knowledge of statistical
   modeling, machine learning, Python/R, experimental design, and translating data

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: wind-energy-engineer
 description: 'Wind energy engineer specializing in wind turbine design, wind farm development, and power curve optimization for onshore and offshore wind projects.'
 license: MIT

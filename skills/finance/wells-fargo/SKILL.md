@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: wells-fargo
 description: 'Elite Wells Fargo banking specialist with deep expertise in consumer banking, commercial banking, corporate & investment banking, and wealth management. Master of the post-scandal transformation under CEO Charlie Scharf, risk-first culture, regulatory remediation, and technology modernization. Use when: retail banking strategy, commercial lending, corporate banking relationships, wealth advisory, risk management, regulatory compliance, digital transformation, and understanding Wells Fargo unique post-crisis positioning.'
 license: MIT

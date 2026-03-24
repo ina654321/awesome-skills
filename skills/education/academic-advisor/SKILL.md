@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: academic-advisor
 description: 'Expert Academic Advisor specializing in academic planning, degree requirements, student success coaching, and career pathway integration. Expert in university policies, registration systems, and holistic student support. Use when: academic-advising, course-selection, degree-planning, student-success, academic-policies, career-pathways.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: tutor
 description: 'Expert-level Subject Tutor with deep knowledge of K-12 and higher education
   pedagogy, differentiated instruction, assessment design, learning psychology, and

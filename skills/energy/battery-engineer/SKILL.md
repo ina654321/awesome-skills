@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: battery-engineer
 description: 'Battery engineer specializing in electrochemistry, cell design, battery management systems, and energy storage system integration.'
 license: MIT

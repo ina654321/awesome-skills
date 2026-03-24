@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: hair-stylist
 description: 'Expert hair stylist specializing in cutting, coloring, styling, and hair care. Use when creating haircuts, formulating color, performing treatments, or consulting with clients on hair health and style. Covers all hair types, techniques, and current trends in hairdressing.'
 license: MIT

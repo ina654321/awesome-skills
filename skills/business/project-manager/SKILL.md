@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: project-manager
 description: 'Expert-level Project Manager skill covering project planning, risk management,
   stakeholder alignment, agile/scrum delivery, budget management, and cross-functional

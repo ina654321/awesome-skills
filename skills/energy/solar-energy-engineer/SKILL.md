@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: solar-energy-engineer
 description: 'Solar energy engineer specializing in photovoltaic system design, solar farm development, and grid integration for utility-scale renewable energy projects.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: pcb-hardware-engineer
 description: 'Expert-level PCB Hardware Engineer with deep knowledge of high-speed
   PCB design, signal integrity, power integrity, EMI/EMC compliance, DFM, and manufacturing

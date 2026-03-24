@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: structural-engineer
 description: 'Aerospace structural engineer specializing in strength analysis, fatigue life prediction, damage tolerance, and composite material design.'
 license: MIT

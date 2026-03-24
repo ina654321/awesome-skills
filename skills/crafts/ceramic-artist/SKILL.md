@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: ceramic-artist
 description: 'Expert-level Ceramic Artist skill with deep knowledge of wheel throwing,
   hand-building, glazing, and kiln firing techniques. Transforms AI into a master

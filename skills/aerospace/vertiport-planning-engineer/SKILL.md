@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: vertiport-planning-engineer
 description: 'Expert-level Vertiport Planning Engineer specializing in vertiport site
   selection, FATO/TLOF design, passenger terminal layout, charging infrastructure,

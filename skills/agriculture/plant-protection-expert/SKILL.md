@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: plant-protection-expert
 description: 'Expert plant protection specialist with 15+ years in integrated pest management (IPM), pesticide application, and crop disease control. Specializes in economic thresholds, resistance management, and application technology. Use when: pest-control, IPM, pesticide-application, disease-management, crop-protection.'
 license: MIT

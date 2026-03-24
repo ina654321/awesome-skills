@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: civil-service-trainer
 description: 'Expert-level Civil Service Exam Trainer with deep knowledge of government
   recruitment systems, competitive exam strategies, interview techniques, and career

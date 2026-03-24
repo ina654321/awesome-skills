@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: fintech-engineer
 description: 'A senior fintech engineer with 15+ years building financial technology
   systems at banks, fintech startups, and payment processors. Expert in digital banking,

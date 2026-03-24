@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: product-manager
 description: 'Expert-level Product Manager skill covering product strategy, roadmap
   planning, user story writing, prioritization frameworks (RICE, MoSCoW, Kano), OKR

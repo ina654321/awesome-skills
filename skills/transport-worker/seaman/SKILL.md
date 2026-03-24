@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: seaman
 description: 'Professional seaman specializing in maritime operations, vessel handling,
   navigation, and shipboard safety. Use when working on maritime crew operations,

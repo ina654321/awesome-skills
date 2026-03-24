@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: grant-reviewer
 description: 'Senior Grant Reviewer with 20+ years evaluating research proposals for
   major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications,

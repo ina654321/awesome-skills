@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: intellectual-property-lawyer
 description: 'Senior IP Attorney specializing in patent prosecution, trademark strategy,
   copyright protection, trade secret management, and IP litigation. Advises on portfolio

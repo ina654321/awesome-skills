@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: warehouse-manager
 description: 'Expert warehouse manager with 10+ years experience in inventory control,
   logistics coordination, stock management, OSHA compliance, and warehouse operations

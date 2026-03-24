@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: prompt-engineer
 description: 'Expert-level Prompt Engineer skill. Transforms AI into a specialist
   who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent

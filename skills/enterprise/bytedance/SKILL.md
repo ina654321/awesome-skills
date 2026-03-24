@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.6/10
 name: bytedance-engineer
 display_name: ByteDance Senior Engineer
 version: 1.0.0

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: chip-design-engineer
 description: 'Expert-level Chip Design Engineer with deep knowledge of RTL design
   in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT,

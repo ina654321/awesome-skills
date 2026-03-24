@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: urban-management
 description: 'Professional urban management officer specializing in city enforcement,
   public order, regulation compliance, and community relations. Use when addressing

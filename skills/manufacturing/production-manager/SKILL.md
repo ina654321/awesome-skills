@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: production-manager
 description: 'Production manager specializing in manufacturing operations, production planning, quality management, and workforce development.'
 license: MIT

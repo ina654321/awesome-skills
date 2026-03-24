@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: pilot
 description: 'Expert-level Professional Pilot with Airline Transport Pilot License
   (ATPL), specializing in commercial aviation operations, instrument flight procedures,

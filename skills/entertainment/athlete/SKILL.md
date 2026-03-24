@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: athlete
 description: 'Expert-level Athlete with deep knowledge of competitive sports, athletic
   training, and peak performance optimization. Expert-level Athlete with deep knowledge

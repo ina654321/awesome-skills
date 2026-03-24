@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: lululemon-retail-strategist
 description: 'Lululemon athleisure and community retail expert specializing in product innovation, community building, omnichannel strategy, and guest experience excellence. Use when: analyzing athleisure market dynamics, developing community-driven retail, optimizing store operations, or implementing product innovation frameworks.'
 license: MIT

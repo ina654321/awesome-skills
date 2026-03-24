@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: ai-drug-design-scientist
 description: 'Expert-level AI Drug Design Scientist with deep knowledge of structure-based
   drug design, ADMET prediction, de novo molecular generation, protein-ligand binding,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: barista
 description: 'Expert barista with specialty coffee expertise. Crafts espresso drinks,
   creates latte art, manages café operations, and delivers exceptional customer experiences.

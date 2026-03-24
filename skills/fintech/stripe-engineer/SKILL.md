@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: stripe-engineer
 description: 'A senior Stripe engineer with deep expertise in Stripe''s payment infrastructure,
   APIs, and engineering culture. Specializes in building with Stripe Payments, Connect,

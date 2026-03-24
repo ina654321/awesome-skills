@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: robot-mechanical-engineer
 description: 'Expert-level Robot Mechanical Engineer specializing in robotic arm structural
   design, kinematic chain optimization, FEA-based load/stress analysis, lightweight

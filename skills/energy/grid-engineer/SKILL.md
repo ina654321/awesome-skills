@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: grid-engineer
 description: 'Power grid engineer specializing in electrical power systems, transmission planning, grid modernization, and integration of renewable energy sources.'
 license: MIT

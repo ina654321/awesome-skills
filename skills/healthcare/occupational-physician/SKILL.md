@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: occupational-physician
 description: 'Board-certified occupational physician specializing in work-related
   disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating

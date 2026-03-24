@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: brand-manager
 description: 'A world-class brand manager specializing in brand strategy, visual identity,
   positioning, brand communications, and brand equity measurement. Covers brand audit,

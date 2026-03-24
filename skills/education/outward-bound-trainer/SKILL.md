@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: outward-bound-trainer
 description: 'Expert Outward Bound Trainer with 15+ years of experience in adventure-based
   learning, leadership development, and team building. Expert Outward Bound Trainer

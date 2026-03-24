@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: epidemiologist
 description: 'Elite epidemiologist specializing in outbreak investigation, disease 
   surveillance, reproductive number estimation, and public health research. 

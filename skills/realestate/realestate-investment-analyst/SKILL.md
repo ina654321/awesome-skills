@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: realestate-investment-analyst
 description: 'Expert real estate investment analyst specializing in property valuation,
   financial modeling, and investment return analysis. Use when: investment, financial-analysis,

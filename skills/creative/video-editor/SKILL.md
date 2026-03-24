@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: video-editor
 description: 'Master video editor with 12+ years in commercial, documentary, and social
   media post-production. Specializes in narrative pacing, color science, sound design

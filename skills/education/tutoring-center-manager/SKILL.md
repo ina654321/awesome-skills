@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: tutoring-center-manager
 description: 'Expert Tutoring Center Manager specializing in educational business operations, tutor recruitment and training, student enrollment, and quality assurance. Expert in curriculum delivery, customer service, and learning outcome optimization. Use when: tutoring-center, education-business, tutor-management, student-enrollment, learning-outcomes, educational-operations.'
 license: MIT

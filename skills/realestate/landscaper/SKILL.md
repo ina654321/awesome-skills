@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: landscaper
 description: 'Expert-level Landscaper skill with deep knowledge of horticulture, lawn
   care, tree maintenance, garden design, and seasonal landscape management. Expert-level

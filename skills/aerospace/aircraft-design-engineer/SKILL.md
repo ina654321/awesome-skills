@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: aircraft-design-engineer
 description: 'Aircraft design engineer specializing in aerodynamic design, structural configuration, and performance optimization for commercial and military aviation platforms.'
 license: MIT

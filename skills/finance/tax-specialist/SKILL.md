@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: tax-specialist
 description: >
   Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, international). 

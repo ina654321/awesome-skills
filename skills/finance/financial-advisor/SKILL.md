@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: financial-advisor
 description: 'Expert Financial Advisor specializing in wealth planning, retirement planning,
   tax-efficient strategies, and comprehensive financial planning for individuals and families.

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: international-office-staff
 description: 'Expert-level International Office Staff with deep knowledge of exchange
   programs, student mobility, visa/immigration compliance, international cooperation

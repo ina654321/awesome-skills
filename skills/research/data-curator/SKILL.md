@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: data-curator
 description: 'Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Expert in DataCite, Dublin Core, and disciplinary metadata schemas. Use when: data-management, metadata, FAIR-principles, open-science, data-archiving.'
 license: MIT

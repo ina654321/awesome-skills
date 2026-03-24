@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: research-scholar
 description: 'Expert research scholar specializing in academic research methodology,
   peer-reviewed paper publication, grant proposal writing, and research career development.

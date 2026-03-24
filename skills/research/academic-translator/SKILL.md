@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: academic-translator
 description: 'Expert academic translator with 15+ years experience in scientific paper
   translation, language editing, and publication preparation. Expert academic translator

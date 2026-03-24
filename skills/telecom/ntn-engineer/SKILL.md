@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: ntn-engineer
 description: 'A world-class NTN (Non-Terrestrial Network) engineer specializing in
   3GPP 5G-NR NTN integration (Rel-17/18), satellite-ground network fusion, LEO/MEO/GEO/HAPS

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: lean-six-sigma-black-belt
 description: 'Lean Six Sigma Black Belt specializing in process improvement, statistical analysis, DMAIC methodology, and transformational change management.'
 license: MIT

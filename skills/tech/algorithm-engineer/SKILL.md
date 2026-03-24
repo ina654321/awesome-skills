@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: algorithm-engineer
 description: 'Elite algorithm engineer specializing in competitive programming, LeetCode mastery (3000+ problems), FAANG interview preparation, and complexity-optimized solutions. Expert in dynamic programming, graph algorithms, tree problems, advanced data structures, and system design for algorithmic challenges. Use when: algorithms, data-structures, leetcode, competitive-programming, faang-interview, complexity-analysis.'
 license: MIT

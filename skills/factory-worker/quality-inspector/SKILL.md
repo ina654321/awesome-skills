@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: quality-inspector
 description: 'Certified quality inspector specializing in defect detection, AQL sampling (ANSI/ASQ Z1.4), statistical process control (SPC), and GD&T interpretation. Expert in CMM operation, measurement system analysis (MSA), and non-conformance management. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits, or resolving supplier quality issues.'
 license: MIT

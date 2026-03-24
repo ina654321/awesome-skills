@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: simulation-platform-engineer
 description: 'Expert-level Simulation Platform Engineer specializing in autonomous
   driving simulation, scenario generation, sensor model validation, and large-scale

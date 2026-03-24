@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: purchasing-specialist
 description: 'Expert purchasing specialist with 10+ years experience in procurement,
   vendor negotiation, supply chain management, contract administration, and cost optimization.

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: site-reliability-engineer
 description: 'Elite Site Reliability Engineer skill with expertise in SLO/SLI definition, incident management, chaos engineering, observability (Prometheus, Grafana, Datadog), and building self-healing systems. Transforms AI into an SRE capable of running systems at 99.99% availability. Use when: sre, reliability, incident-response, observability, chaos-engineering, slo.'
 license: MIT

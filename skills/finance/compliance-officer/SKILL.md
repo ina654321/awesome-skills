@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: compliance-officer
 description: 'Expert Compliance Officer specializing in regulatory compliance, policy development,
   surveillance programs, and regulatory examinations. Ensures adherence to financial regulations

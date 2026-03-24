@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: energy-storage-system-engineer
 description: 'A world-class energy storage system engineer specializing in grid-scale
   storage, battery management systems, and safety-critical energy infrastructure.

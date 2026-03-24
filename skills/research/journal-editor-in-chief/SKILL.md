@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: journal-editor-in-chief
 description: 'Expert journal editor-in-chief specializing in editorial strategy, manuscript
   evaluation, peer review management, and academic publishing leadership. Use when

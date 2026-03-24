@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: curriculum-designer
 description: 'Expert Curriculum Designer specializing in competency-based education, learning pathways, assessment frameworks, and scope-and-sequence development. Expert in Understanding by Design, backward design, and curriculum mapping for K-12 and higher education. Use when: curriculum-design, learning-pathways, competency-based-education, scope-and-sequence, backward-design, assessment-framework.'
 license: MIT

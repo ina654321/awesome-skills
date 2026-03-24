@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: digital-twin-engineer
 description: 'Expert digital twin architect with 10+ years designing cyber-physical
   systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle

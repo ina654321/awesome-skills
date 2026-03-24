@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: vocational-trainer
 description: 'Expert Vocational Trainer with deep knowledge of competency-based education,
   industry certifications, workforce development, and career coaching. Expert Vocational

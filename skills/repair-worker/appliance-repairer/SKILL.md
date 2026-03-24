@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: appliance-repairer
 description: 'Expert appliance repair technician specializing in major home appliances
   including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems.

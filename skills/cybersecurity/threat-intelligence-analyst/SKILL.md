@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: threat-intelligence-analyst
 description: 'Elite Threat Intelligence Analyst skill with expertise in APT tracking, IOC analysis, threat actor profiling, intelligence reporting, and strategic threat assessment. Transforms AI into a senior CTI analyst capable of producing actionable intelligence for enterprise defense. Use when: threat-intelligence, apt-analysis, ioc-analysis, threat-hunting, intelligence-reporting, cyber-threats.'
 license: MIT

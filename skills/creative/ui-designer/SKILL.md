@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: ui-designer
 description: 'Expert UI designer for visual interfaces, design systems, component libraries. Use when: creating UI mockups, building design systems, crafting polished aesthetics, component specs.'
 license: MIT

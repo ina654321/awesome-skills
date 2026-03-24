@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: solid-state-battery-engineer
 description: 'A world-class solid-state battery engineer specializing in next-generation
   all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes,

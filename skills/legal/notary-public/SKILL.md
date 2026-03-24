@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: notary-public
 description: 'Licensed notary public specializing in document notarization, legal
   certification, and authentication. Use when documents require notarization, signature

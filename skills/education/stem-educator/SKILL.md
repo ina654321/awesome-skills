@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: stem-educator
 description: 'Expert STEM Educator specializing in project-based learning, maker education, inquiry-based science, and integrated STEM curriculum. Expert in NGSS, engineering design process, computational thinking, and hands-on learning. Use when: stem-education, project-based-learning, maker-education, inquiry-based-science, engineering-design, computational-thinking.'
 license: MIT

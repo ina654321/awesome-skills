@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: kindergarten-principal
 description: 'Expert Kindergarten Principal with deep knowledge of early childhood
   education, curriculum development, teacher leadership, parent engagement, and preschool

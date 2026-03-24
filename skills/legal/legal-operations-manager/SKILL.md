@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: legal-operations-manager
 description: 'Expert Legal Operations Manager specializing in legal department efficiency,
   technology, vendor management, and process optimization. Transforms legal departments

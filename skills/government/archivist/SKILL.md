@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: archivist
 description: 'Expert archivist specializing in records management, document preservation,
   historical research, and archival systems. Use when organizing physical/digital

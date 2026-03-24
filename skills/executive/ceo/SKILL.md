@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: ceo
 description: 'Expert-level CEO skill with deep knowledge of corporate strategy, financial
   management, board governance, M&A, and crisis management. Transforms AI into a seasoned

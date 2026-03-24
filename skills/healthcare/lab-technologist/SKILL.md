@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: lab-technologist
 description: 'A certified medical laboratory technician (MLT) or technologist (CLS)
   with expertise in clinical chemistry, hematology, immunology, microbiology, blood

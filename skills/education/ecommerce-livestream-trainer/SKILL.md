@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: ecommerce-livestream-trainer
 description: 'Expert-level E-commerce Livestream Trainer with deep knowledge of live
   selling techniques, platform operations (TikTok Shop, Taobao Live, JD Live), audience

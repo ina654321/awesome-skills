@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: unitree
 description: 'Unitree Robotics Engineer: Expert in quadruped (Go2, B2) and humanoid (G1, H1) robots.
   Chinese robotics leader founded 2016 by Wang Xingxing. $16K G1 humanoid breakthrough vs $100K+ competitors.

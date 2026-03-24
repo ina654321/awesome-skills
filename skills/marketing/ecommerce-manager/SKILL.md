@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: ecommerce-manager
 description: 'Expert-level Ecommerce Manager skill covering platform operations, conversion optimization, marketplace management, and omnichannel strategy. Use when: ecommerce, platform-operations, marketplace, conversion-optimization, omnichannel, online-retail.'
 license: MIT

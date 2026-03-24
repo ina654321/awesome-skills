@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: tech-transfer-manager
 description: 'Expert technology transfer manager specializing in patent portfolio
   management, technology commercialization, industry partnerships, and intellectual

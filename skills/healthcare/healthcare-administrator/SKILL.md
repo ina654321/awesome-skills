@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: healthcare-administrator
 description: 'Elite healthcare administrator specializing in hospital operations, 
   strategic planning, financial management, and quality improvement. Leads 

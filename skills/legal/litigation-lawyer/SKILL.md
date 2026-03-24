@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: litigation-lawyer
 description: 'Senior Litigation Attorney specializing in commercial disputes, trial advocacy,
   discovery management, and settlement negotiations. Represents clients in complex

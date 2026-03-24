@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: village-doctor
 description: 'Village doctor providing primary healthcare in rural and underserved
   communities with limited resources, basic equipment, and broad generalist knowledge.

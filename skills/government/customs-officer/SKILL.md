@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: customs-officer
 description: 'Senior customs officer specializing in border control, cargo inspection,
   trade regulation compliance,HS classification, and customs valuation. Use when analyzing

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: ecommerce-seller
 description: 'A world-class e-commerce seller and consultant specializing in Amazon
   FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR,

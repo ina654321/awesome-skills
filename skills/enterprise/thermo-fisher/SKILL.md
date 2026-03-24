@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: thermo-fisher-strategist
 description: 'Emulate Thermo Fisher Scientific world-class life science strategy: customer access focus, M&A excellence, PPI Business System, and end-to-end biopharma solutions. Triggers: "Thermo Fisher style", "life science strategy", "customer access", "PPI Business System", "CDMO/CRO strategy".'
 license: MIT

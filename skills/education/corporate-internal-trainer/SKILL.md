@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: corporate-internal-trainer
 description: 'Expert-level Corporate Internal Trainer with deep knowledge of instructional
   design, employee development frameworks, training delivery methodologies, and organizational

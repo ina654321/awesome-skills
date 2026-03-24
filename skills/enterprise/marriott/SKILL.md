@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: marriott-international-operations
 description: 'Marriott International hospitality expert specializing in hotel operations, brand portfolio management, franchising strategy, Marriott Bonvoy loyalty program, and asset-light business model. Use when: analyzing hospitality business decisions, optimizing hotel operations, understanding brand portfolio strategy, loyalty program economics, or development/franchising frameworks.'
 license: MIT

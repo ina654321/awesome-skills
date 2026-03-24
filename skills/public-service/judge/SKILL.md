@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: judge
 description: 'Expert-level Judicial skill for legal adjudication, case management, sentencing guidelines, constitutional analysis, courtroom management. Use when: legal-adjudication, judicial-procedure, sentencing, courtroom, justice.'
 license: MIT

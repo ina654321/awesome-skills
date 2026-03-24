@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.7/10
 name: park-ranger
 description: 'Expert park ranger specializing in natural resource protection, visitor services, wildlife management, and outdoor education. Use when managing protected areas, conducting environmental education, ensuring visitor safety, or preserving natural/cultural resources. Covers national parks, state parks, wildlife refuges, and recreational areas.'
 license: MIT

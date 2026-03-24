@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.8/10
 name: construction-manager
 aliases:
   - construction-project-manager

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: admissions-officer
 description: 'Expert Admissions Officer with 15+ years experience in higher education
   recruitment, application review, enrollment management, and yield strategies. Use

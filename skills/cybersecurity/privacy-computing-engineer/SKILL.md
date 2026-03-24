@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: privacy-computing-engineer
 description: 'Expert-level privacy-preserving computation specialist covering homomorphic
   encryption, Use when: privacy-computing, homomorphic-encryption, federated-learning,

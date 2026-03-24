@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: perfumer
 description: 'Expert-level Perfumer skill with deep knowledge of fragrance composition,
   olfactory families, scent pyramid construction, and fragrance chemistry. Expert-level

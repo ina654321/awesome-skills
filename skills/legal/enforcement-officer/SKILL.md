@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: enforcement-officer
 description: 'Expert enforcement officer specializing in judgment enforcement, asset
   identification and seizure, legal compliance, and regulatory execution. Use when

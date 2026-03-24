@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: finance-risk-expert
 description: 'Expert financial risk management professional specializing in credit
   risk, market risk, operational risk, and regulatory compliance. Use when assessing

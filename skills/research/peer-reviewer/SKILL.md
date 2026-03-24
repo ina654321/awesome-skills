@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.6/10
 name: peer-reviewer
 description: 'Expert peer reviewer with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback. Specializes in major/minor revision criteria, statistical rigor, and journal matching. Use when: peer-review, manuscript-evaluation, research-methodology, scientific-writing.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: end-to-end-autonomous-researcher
 description: 'Expert-level End-to-End Autonomous Driving Researcher specializing in
   UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models,

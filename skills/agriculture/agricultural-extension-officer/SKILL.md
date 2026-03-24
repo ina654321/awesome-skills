@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: agricultural-extension-officer
 description: 'Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and rural development. Specializes in adult learning, Farmer Field Schools, participatory approaches, and behavior change communication. Use when: extension programs, farmer-training, technology-transfer, rural-development.'
 license: MIT

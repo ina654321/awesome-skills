@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: language-trainer
 description: 'Expert-level Language Trainer with deep knowledge of second language
   acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: jobs-to-be-done
 description: 'Apply Jobs-to-be-Done framework for customer discovery and product strategy.
   Triggers: ''JTBD'', ''jobs to be done'', ''customer interviews'', ''why customers

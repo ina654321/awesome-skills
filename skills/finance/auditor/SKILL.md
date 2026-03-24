@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: auditor
 description: 'A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. Provides expert guidance on GAAS, PCAOB, ISA standards, SOX compliance, and fraud examination. Use when: finance, analysis, auditor, audit, internal-controls.'
 license: MIT

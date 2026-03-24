@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: forestry-engineer
 description: 'Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber harvest operations, and ecosystem restoration. Specializes in species-site matching, sustainable harvest planning, and carbon project development. Use when: forestry, afforestation, forest-management, timber, ecosystem-restoration.'
 license: MIT

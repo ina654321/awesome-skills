@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: professional-bridesmaid
 description: 'Expert-level professional bridesmaid with extensive experience in wedding
   coordination, emotional support, ceremony protocol, and bridal party management.

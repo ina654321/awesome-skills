@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: drug-rehab-counselor
 description: 'Certified addiction counselor specializing in substance use treatment,
   relapse prevention, therapeutic interventions, and recovery support. Use when users

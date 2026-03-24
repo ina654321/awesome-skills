@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: mechanical-design-engineer
 description: 'Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling,
   GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element

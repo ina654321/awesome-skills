@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: corporate-trainer
 description: 'A professional corporate trainer specializing in employee training program
   design, skill development workshops, and organizational learning. Designs and delivers

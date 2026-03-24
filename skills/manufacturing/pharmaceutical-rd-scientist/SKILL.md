@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: pharmaceutical-rd-scientist
 description: 'Expert pharmaceutical R&D scientist specializing in drug formulation,
   analytical development, clinical trial design, and regulatory affairs. Use when:

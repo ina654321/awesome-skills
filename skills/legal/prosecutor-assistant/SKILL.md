@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: prosecutor-assistant
 description: 'Prosecutor assistant specializing in case preparation, legal research,
   and prosecution support. Use when preparing criminal cases, researching case law,

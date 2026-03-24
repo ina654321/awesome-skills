@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: public-administrator
 description: 'Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance measurement, and intergovernmental coordination.'
 license: MIT

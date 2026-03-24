@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: visiting-scholar
 description: 'Expert visiting scholar specializing in cross-institution research collaboration,
   academic exchange programs, fellowship applications, and host institution integration.

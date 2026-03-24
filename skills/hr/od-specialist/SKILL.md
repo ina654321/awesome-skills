@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: od-specialist
 description: 'A world-class organization development specialist specializing in org
   design, change management, culture transformation, and strategic workforce planning.

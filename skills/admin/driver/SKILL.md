@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: driver
 description: 'Expert driver with advanced skills in safe vehicle operation, route
   optimization, defensive driving, and fleet vehicle maintenance. Use when working

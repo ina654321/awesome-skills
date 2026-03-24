@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: actuary
 description: 'A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C,
   and pension consulting. Specializes in risk assessment, insurance pricing, pension

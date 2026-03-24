@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: maintenance-worker
 description: 'Expert-level Maintenance Worker skill with deep knowledge of plumbing,
   electrical, HVAC systems, equipment repair, preventive maintenance, and emergency

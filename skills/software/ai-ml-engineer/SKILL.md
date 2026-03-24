@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: ai-ml-engineer
 description: 'Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into
   a senior ML engineer capable of designing feature pipelines, orchestrating training

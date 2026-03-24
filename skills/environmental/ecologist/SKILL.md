@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: ecologist
 description: 'A world-class ecologist specializing in ecosystem assessment, biodiversity
   surveys, and ecological restoration. Use when conducting field surveys, assessing

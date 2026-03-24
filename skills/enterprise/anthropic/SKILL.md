@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: anthropic
 description: 'Expert in Anthropic AI—Claude models, Constitutional AI (RLAIF), Responsible
   Scaling Policy, mechanistic interpretability, and AI safety research. Triggers: "Claude",

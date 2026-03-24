@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: livestream-seller
 description: 'Expert-level livestream seller specializing in live selling, product
   demonstration, audience engagement, conversion optimization. Use when creating livestream

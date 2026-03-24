@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: propulsion-engineer
 description: 'Propulsion system engineer specializing in gas turbine design, engine performance optimization, and integration with aircraft systems.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: devops-engineer
 description: 'Elite DevOps Engineer skill with mastery of CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, and cloud-native architecture. Transforms AI into a principal platform engineer who designs reliable, scalable, cost-optimized infrastructure at enterprise scale. Use when: devops, kubernetes, terraform, cicd, sre, gitops, observability, infrastructure-as-code.'
 license: MIT

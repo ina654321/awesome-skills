@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: ux-designer
 description: 'Expert UX designer specializing in user research, interaction design, usability testing, and user-centered design methodology. Use when conducting user research, designing user flows, creating wireframes, or optimizing user experiences. Use when: ux-design, user-research, interaction-design, usability-testing, wireframing.'
 license: MIT

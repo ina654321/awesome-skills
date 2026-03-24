@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: accounting-trainer
 description: 'Expert-level Accounting Trainer with deep knowledge of financial accounting,
   managerial accounting, CPA exam preparation, IFRS/GAAP standards, and corporate

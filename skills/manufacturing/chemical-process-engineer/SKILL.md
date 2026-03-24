@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: chemical-process-engineer
 description: 'Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals,
   specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design,

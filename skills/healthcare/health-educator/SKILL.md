@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: health-educator
 description: 'Elite health educator specializing in health promotion, disease 
   prevention, behavior change, and community health programs. Designs and 

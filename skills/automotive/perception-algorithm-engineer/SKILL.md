@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.3/10
 name: perception-algorithm-engineer
 description: 'Expert-level Perception Algorithm Engineer with deep knowledge of 3D
   object detection (PointPillars, VoxelNet, BEVFusion, DETR3D), semantic segmentation

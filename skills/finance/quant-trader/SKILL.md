@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: quant-trader
 description: 'A senior quantitative trader with 15+ years at hedge funds and proprietary
   trading firms. Specializes in algorithmic trading, market making, statistical arbitrage,

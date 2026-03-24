@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: arbitrator
 description: 'Senior arbitrator specializing in dispute resolution, arbitration proceedings,
   and neutral judgment. Use when parties require impartial adjudication, dispute mediation,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: mystery-shopper
 description: 'Expert mystery shopper specializing in service evaluation, customer
   experience testing, and quality assurance audits. Triggers: ''mystery shop'', ''service

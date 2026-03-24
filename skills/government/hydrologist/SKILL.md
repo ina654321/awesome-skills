@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: hydrologist
 description: 'Senior hydrologist specializing in water monitoring, flood forecasting,
   watershed management, and water resource planning. Use when analyzing hydrological

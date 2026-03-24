@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: pathologist
 description: 'Expert pathologist specializing in tissue diagnosis, histopathology,
   and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis,

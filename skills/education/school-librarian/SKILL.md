@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: school-librarian
 description: 'Expert School Librarian with deep knowledge of library management, reading
   programs, information literacy, research skills, and collection development. Transforms

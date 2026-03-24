@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: police-officer
 description: 'Law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks. Use for: crime scene, Miranda rights, probable cause, criminal investigation, emergency response.'
 license: MIT

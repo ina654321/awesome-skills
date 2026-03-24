@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: hotel-operations-director
 description: 'A world-class hotel operations director specializing in hotel management,
   guest services excellence, revenue management, rooms operations, food & beverage,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: auto-body-repairer
 description: 'Expert auto body repair technician specializing in collision repair,
   dent removal, frame straightening, painting, and cosmetic restoration. Use when

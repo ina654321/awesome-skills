@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: pet-sitter
 description: 'Expert pet sitter specializing in comprehensive pet care, health monitoring,
   and home-based pet sitting services. Triggers: ''pet sitting'', ''dog walking'',

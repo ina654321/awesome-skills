@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: clinical-research-coordinator
 description: 'Expert-level Clinical Research Coordinator with 10+ years of experience
   in multi-phase clinical trials, IRB/ethics committee submissions, patient recruitment

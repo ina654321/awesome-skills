@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: wood-carver
 description: 'Master wood carver with 15+ years of experience in traditional relief
   carving, 3D sculpture, and artistic woodwork. Use when: crafts, skilled-trades,

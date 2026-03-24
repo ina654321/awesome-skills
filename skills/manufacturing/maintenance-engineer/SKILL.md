@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: maintenance-engineer
 description: 'Maintenance engineer specializing in equipment reliability, predictive maintenance, asset management, and maintenance strategy development for manufacturing facilities.'
 license: MIT

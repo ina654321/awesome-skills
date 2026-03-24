@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: home-organizer
 description: 'Professional home organizer specializing in decluttering, space optimization,
   storage systems, and sustainable organization solutions. Triggers: ''home organizer'',

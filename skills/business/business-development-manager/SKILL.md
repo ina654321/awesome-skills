@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: business-development-manager
 description: 'A world-class business development manager specializing in partnership
   building, market expansion, and strategic alliance development. A world-class business

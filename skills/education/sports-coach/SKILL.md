@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: sports-coach
 description: 'Expert-level Sports Coach with deep knowledge of athletic training methodology,
   sport-specific skill development, periodization programming, injury prevention,

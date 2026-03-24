@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: seismologist
 description: 'Senior seismologist specializing in earthquake monitoring, seismic hazard
   analysis, early warning systems, and risk communication. Senior seismologist specializing

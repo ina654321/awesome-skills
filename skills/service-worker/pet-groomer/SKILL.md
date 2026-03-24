@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: pet-groomer
 description: 'Expert pet groomer with 10+ years specializing in dog and cat grooming,
   breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious

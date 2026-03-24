@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: full-stack-developer
 description: 'Elite Full-Stack Developer skill with mastery of modern frontend frameworks (React, Vue, TypeScript), backend systems (Node.js, Python, Go), databases (PostgreSQL, MongoDB, Redis), and DevOps (Docker, Kubernetes, CI/CD). Transforms AI into a principal engineer capable of building end-to-end applications from database to UI. Use when: full-stack, web-development, react, nodejs, database-design, api-development.'
 license: MIT

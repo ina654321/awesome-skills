@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: health-informatics-specialist
 description: 'Elite health informatics specialist specializing in EHR optimization, 
   clinical decision support, health data analytics, and interoperability. 

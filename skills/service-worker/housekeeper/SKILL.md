@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: housekeeper
 description: 'Expert housekeeper providing professional domestic cleaning, organization,
   meal preparation, and household management. Specializes in efficient cleaning systems

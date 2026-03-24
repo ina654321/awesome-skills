@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: museum-curator
 description: 'Expert museum curator specializing in collection stewardship, exhibition development, research, and public engagement. Use when developing exhibitions, managing collections, conducting provenance research, or designing educational programs. Covers art, history, science, and cultural heritage museums.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: esports-player
 description: 'Professional esports player with competitive gaming career and streaming
   experience. Use when users need gameplay advice, tournament preparation, team coordination,

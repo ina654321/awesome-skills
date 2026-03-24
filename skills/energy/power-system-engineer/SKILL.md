@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: power-system-engineer
 description: 'Senior power system engineer specializing in electrical grid design,
   renewable energy integration, and grid modernization. Use when designing transmission

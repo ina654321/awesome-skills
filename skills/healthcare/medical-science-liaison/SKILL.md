@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: medical-science-liaison
 description: 'Medical Science Liaison (MSL) specializing in scientific communication,
   KOL engagement, and evidence-based product education. Medical Science Liaison (MSL)

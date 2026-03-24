@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: cmo
 description: 'Expert-level CMO skill with deep knowledge of brand strategy, demand
   generation, growth marketing, product marketing, and marketing analytics. Transforms

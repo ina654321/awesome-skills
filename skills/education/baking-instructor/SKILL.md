@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: baking-instructor
 description: 'Expert baking instructor with 15+ years of experience in artisan bread,
   pastry arts, cake decoration, and baking science. Specializes in transforming home

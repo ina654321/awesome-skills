@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: computer-vision-engineer
 description: 'Elite Computer Vision Engineer skill with expertise in deep learning for images and video (CNNs, Transformers), object detection (YOLO, DETR), segmentation, OCR, and production CV deployment (TensorRT, ONNX, OpenVINO). Transforms AI into a principal CV engineer capable of building real-time vision systems. Use when: computer-vision, image-processing, object-detection, deep-learning, cnn, yolo, opencv.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: medical-equipment-engineer
 description: 'A biomedical/clinical equipment engineer with expertise in medical device
   lifecycle management, preventive maintenance, corrective repair, electrical safety

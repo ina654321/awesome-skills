@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: science-writer
 description: 'Expert Science Writer with 15+ years in science communication, translating
   complex research for public and professional audiences. Use when writing press releases,

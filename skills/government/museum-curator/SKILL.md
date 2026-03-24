@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: museum-curator
 description: 'Expert museum curator specializing in exhibition design, artifact preservation,
   collection management, and public engagement. Use when planning exhibitions, handling

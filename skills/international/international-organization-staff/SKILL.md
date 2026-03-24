@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: international-organization-staff
 description: 'Expert international organization staff with 15+ years in UN agencies,
   World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy

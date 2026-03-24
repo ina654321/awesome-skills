@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: marketing-manager
 description: 'Expert-level Marketing Manager skill covering annual marketing planning,
   campaign execution, brand management, go-to-market strategy, demand generation,

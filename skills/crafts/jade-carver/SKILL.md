@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: jade-carver
 description: 'Expert-level Jade Carver skill with deep knowledge of Chinese jade carving
   traditions, gemstone carving, and sculptural techniques. Transforms AI into a master

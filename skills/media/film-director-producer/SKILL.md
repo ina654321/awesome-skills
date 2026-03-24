@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: film-director-producer
 description: 'Senior film director/producer with 15+ years in feature films, documentaries,
   and commercial work. Expert in pre-production planning, creative direction, budget

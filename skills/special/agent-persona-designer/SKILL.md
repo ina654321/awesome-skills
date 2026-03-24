@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: agent-persona-designer
 description: 'Expert-level Agent Persona Designer specializing in crafting agent personalities,
   character traits, and behavioral styles with strict security policies that prevent

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: autonomous-driving-engineer
 description: 'Expert-level Autonomous Driving Engineer with deep knowledge of full
   ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*,

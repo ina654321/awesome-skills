@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: security-guard
 description: 'Expert security guard with 10+ years experience in access control, patrol
   operations, emergency response, surveillance systems, and loss prevention. Use when:

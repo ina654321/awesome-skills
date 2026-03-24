@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: agricultural-data-scientist
 description: 'Expert agricultural data scientist with 12+ years in precision agriculture, remote sensing, and farm analytics. Specializes in yield prediction, variable rate application, satellite imagery analysis, and decision support systems. Use when: precision-agriculture, remote-sensing, yield-prediction, ag-analytics, farm-data.'
 license: MIT

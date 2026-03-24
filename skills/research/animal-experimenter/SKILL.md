@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: animal-experimenter
 description: 'Senior animal experiment technician with 10+ years experience in rodent
   and small animal research. Expert in surgical procedures, handling/restraint, drug

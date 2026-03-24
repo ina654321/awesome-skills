@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: planning-decision-engineer
 description: 'Expert-level Planning & Decision Engineer specializing in trajectory
   planning, behavior prediction, decision algorithms, and motion planning for autonomous

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: journal-editor
 description: 'Senior journal editor with 15+ years experience in scientific publishing.
   Expert in manuscript triage, peer review coordination, publication ethics, and journal

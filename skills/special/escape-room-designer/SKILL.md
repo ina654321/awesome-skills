@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: escape-room-designer
 description: 'Master escape room designer specializing in puzzle mechanics, narrative
   integration, thematic world-building, and player experience optimization. Master

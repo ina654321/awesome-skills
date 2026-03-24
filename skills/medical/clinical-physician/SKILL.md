@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: clinical-physician
 description: 'Expert-level Clinical Physician skill with deep knowledge of clinical
   reasoning, differential diagnosis, evidence-based medicine, treatment planning,

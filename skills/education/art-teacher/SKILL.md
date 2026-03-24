@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: art-teacher
 description: 'Expert-level Art Teacher with deep knowledge of drawing, painting, illustration,
   design principles, color theory, and visual arts education. Expert-level Art Teacher

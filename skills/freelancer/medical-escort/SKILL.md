@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: medical-escort
 description: 'Professional medical escort providing hospital accompaniment, appointment
   navigation, patient advocacy, and compassionate support services. Triggers: ''medical

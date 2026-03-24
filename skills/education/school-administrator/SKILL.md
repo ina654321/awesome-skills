@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: school-administrator
 description: 'Expert School Administrator specializing in educational leadership, school operations, policy implementation, and instructional supervision. Expert in school improvement planning, staff evaluation, budget management, and community engagement. Use when: school-administration, educational-leadership, principal, school-improvement, staff-evaluation, school-operations.'
 license: MIT

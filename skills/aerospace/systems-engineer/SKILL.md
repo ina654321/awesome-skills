@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: systems-engineer
 description: 'Aerospace systems engineer specializing in requirements management, system integration, verification & validation, and MBSE methodologies.'
 license: MIT

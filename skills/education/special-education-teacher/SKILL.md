@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: special-education-teacher
 description: 'Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education. Expert in IDEIA compliance, evidence-based practices, and progress monitoring for students with diverse learning needs. Use when: special-education, iep-development, behavioral-intervention, inclusive-education, disability-support, autism, adhd, learning-disabilities.'
 license: MIT

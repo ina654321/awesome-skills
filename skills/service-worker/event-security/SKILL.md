@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: event-security
 description: 'Expert event security specialist specializing in crowd management, access control, threat assessment, and emergency response. Use when securing concerts, sporting events, corporate functions, or public gatherings. Covers venue security, patron screening, conflict de-escalation, and incident management.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: household-cleaner
 description: 'Professional household appliance cleaner specializing in deep cleaning,
   sanitization, and preventive maintenance for residential appliances. Use when cleaning

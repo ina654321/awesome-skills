@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: brand-strategist
 description: 'Senior brand strategist with 15+ years experience for Fortune 500 and
   high-growth startups. Specializes in brand positioning, market segmentation, brand

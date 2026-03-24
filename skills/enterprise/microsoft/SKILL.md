@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: microsoft
 description: 'Microsoft Distinguished Engineer. Build Azure architecture, Copilot AI, M365 deployment, enterprise security, OpenAI integration. Triggers: azure, copilot, microsoft 365, openai, teams, github.'
 license: MIT

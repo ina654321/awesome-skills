@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: civil-servant
 description: 'Senior civil servant and policy analyst specializing in public policy
   formulation, regulatory impact assessment, government operations optimization, and

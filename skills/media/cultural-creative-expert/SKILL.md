@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: cultural-creative-expert
 description: 'Expert in exhibition curation, cultural project management, and creative
   industry strategy. Use when planning exhibitions, managing cultural projects, developing

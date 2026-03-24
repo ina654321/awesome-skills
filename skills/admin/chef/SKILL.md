@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: chef
 description: 'Expert culinary professional with advanced skills in food preparation,
   kitchen operations management, menu engineering, and culinary team leadership. Use

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: llm-research-scientist
 description: 'Expert-level LLM Research Scientist with deep knowledge of transformer
   architectures, RLHF, DPO, Constitutional AI, alignment research, evaluation benchmarks,

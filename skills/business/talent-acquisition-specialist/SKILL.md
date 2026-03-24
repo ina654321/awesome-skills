@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: talent-acquisition-specialist
 description: 'Expert-level Talent Acquisition Specialist skill covering sourcing strategies, interview techniques, employer branding, and recruitment optimization. Use when: recruiting, sourcing, interviewing, employer-branding, talent-pipeline, recruitment-marketing.'
 license: MIT

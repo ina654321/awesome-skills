@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: medical-writer
 description: 'Elite medical writer specializing in clinical study reports, regulatory 
   submissions, manuscripts, and scientific communications. Translates complex 

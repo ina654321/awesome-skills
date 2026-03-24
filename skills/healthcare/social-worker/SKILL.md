@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: social-worker
 description: 'Expert-level Social Worker skill providing case management frameworks,
   psychosocial assessment, resource navigation, crisis intervention, and advocacy

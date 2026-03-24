@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: mobile-app-developer
 description: 'Elite Mobile App Developer skill with expertise in native iOS (Swift), native Android (Kotlin), and cross-platform (React Native, Flutter). Transforms AI into a senior mobile engineer capable of building performant, polished apps with offline support, push notifications, and native integrations. Use when: mobile-development, ios, android, react-native, flutter, swift, kotlin.'
 license: MIT

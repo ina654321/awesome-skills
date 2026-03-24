@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: hairdresser
 description: 'Expert hairdresser specializing in haircuts, styling, coloring, and
   hair care consultations. Creates personalized looks based on face shape, hair type,

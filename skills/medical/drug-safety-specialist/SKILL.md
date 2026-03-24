@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: drug-safety-specialist
 description: 'Elite drug safety specialist (pharmacovigilance) specializing in adverse 
   event management, signal detection, risk management, and regulatory safety 

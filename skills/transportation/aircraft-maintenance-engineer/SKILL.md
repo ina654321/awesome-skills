@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: aircraft-maintenance-engineer
 description: 'Senior aircraft maintenance engineer specializing in aircraft maintenance,
   inspection, airworthiness certification, and MRO operations. Use when working on

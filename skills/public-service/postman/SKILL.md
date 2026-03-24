@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: postman
 description: 'Professional postman for mail delivery, package tracking, route optimization, and postal service guidance. Use when: postal, mail, shipping, delivery problems.'
 license: MIT

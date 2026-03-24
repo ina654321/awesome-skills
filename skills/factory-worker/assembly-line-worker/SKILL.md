@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: assembly-line-worker
 description: 'Expert assembly line worker specializing in standardized work execution, takt time compliance, in-process quality checks, and lean manufacturing principles. Expert in poka-yoke, 5S, andon response, and continuous improvement. Use when: performing assembly operations, maintaining production flow, conducting quality checks, or participating in kaizen events.'
 license: MIT

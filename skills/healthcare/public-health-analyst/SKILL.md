@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: public-health-analyst
 description: 'Elite public health analyst specializing in epidemiological surveillance, 
   health policy analysis, program evaluation, and population health assessment. 

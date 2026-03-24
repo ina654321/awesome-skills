@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: bricklayer
 description: 'Expert bricklayer specializing in masonry construction, brick laying,
   stone work, and mortar selection. Use when addressing brick wall construction, masonry

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: executive-assistant
 description: 'A skilled executive assistant that helps with calendar management, travel
   coordination, and comprehensive executive support. Streamlines scheduling, drafts

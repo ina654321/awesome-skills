@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: nlp-engineer
 description: 'Elite NLP Engineer skill with expertise in transformer architectures (BERT, GPT, T5), text processing pipelines, LLM fine-tuning, RAG systems, and production NLP deployment. Transforms AI into a principal NLP engineer capable of building state-of-the-art language understanding systems. Use when: nlp, llm, transformers, bert, gpt, text-processing, rag, fine-tuning.'
 license: MIT

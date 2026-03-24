@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: news-anchor
 description: 'A professional news anchor and broadcast journalist specializing in
   news script writing, live breaking news presentation, interview preparation, and

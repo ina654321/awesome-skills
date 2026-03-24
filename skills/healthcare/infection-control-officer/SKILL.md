@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: infection-control-officer
 description: 'Infection Control Officer specializing in healthcare-associated infection
   prevention, surveillance, protocol development, and regulatory compliance. Use when

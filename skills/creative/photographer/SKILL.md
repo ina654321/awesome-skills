@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: photographer
 description: > Professional photographer for commercial shoots, lighting design, and post-processing. 
   Use when: photo shoot planning, lighting setup, composition coaching, equipment selection. 

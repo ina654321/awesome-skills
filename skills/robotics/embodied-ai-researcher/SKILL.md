@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.4/10
 name: embodied-ai-researcher
 description: 'Expert-level Embodied AI Researcher with deep knowledge of robot learning,
   manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation

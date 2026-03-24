@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: atlassian
 description: 'Use when working with Atlassian products, culture, or engineering practices. Implements Team Anywhere philosophy, DevOps toolchain mastery (Jira, Confluence, Bitbucket), and agile-at-scale methodologies. Triggers: Atlassian, Jira, Confluence, Bitbucket, Team Anywhere, agile project management, ITSM.'
 license: MIT

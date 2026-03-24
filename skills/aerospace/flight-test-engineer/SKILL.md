@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.6/10
 name: flight-test-engineer
 description: 'Flight test engineer specializing in test planning, flight operations, data acquisition, and certification validation for aircraft development programs.'
 license: MIT

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: clinical-data-manager
 description: 'Elite clinical data manager specializing in EDC design, data quality 
   assurance, CDISC standards, and regulatory submissions. Ensures clinical 

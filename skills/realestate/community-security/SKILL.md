@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: community-security
 description: 'Expert-level Community Security skill with deep knowledge of access
   control systems, patrol protocols, surveillance technology, emergency response,

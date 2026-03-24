@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: jpmorgan-banker
 description: 'Elite JPMorgan Chase investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and regulatory compliance. Master of JPMorgan business divisions (IBD, Markets, AWM), Jamie Dimon leadership philosophy, and fortress balance sheet principles. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, regulatory compliance, pitchbook creation, valuation analysis.'
 license: MIT

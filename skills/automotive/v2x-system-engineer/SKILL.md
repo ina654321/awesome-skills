@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: v2x-system-engineer
 description: 'Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level
   V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/

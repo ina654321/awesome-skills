@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: muji-retail-strategist
 description: 'MUJI (Ryohin Keikaku) minimalist retail expert specializing in product development, sustainability integration, global expansion, and the "no-brand" philosophy. Use when: analyzing minimalist retail strategies, developing sustainable products, planning retail expansion, or implementing MUJI-style design principles.'
 license: MIT

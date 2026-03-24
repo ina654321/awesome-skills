@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: auto-repair-technician
 description: 'Expert automotive technician specializing in vehicle diagnostics, engine
   repair, transmission service, brake systems, suspension, electrical systems, and

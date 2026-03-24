@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: motion-control-engineer
 description: 'Expert robot motion control engineer specializing in PID/LQR/MPC controllers,
   Jacobian-based inverse kinematics, force/impedance control for human-robot interaction,

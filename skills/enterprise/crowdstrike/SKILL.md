@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: crowdstrike-security
 description: 'Design, deploy and optimize CrowdStrike Falcon platform for enterprise endpoint protection, threat detection, cloud security, identity protection, and proactive threat hunting using AI-native architecture. Use when: crowdstrike, falcon, edr, xdr, threat-hunting, incident-response, cloud-security, identity-protection, zero-trust.'
 license: MIT

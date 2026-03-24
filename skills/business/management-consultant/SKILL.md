@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: management-consultant
 description: 'Expert-level Management Consultant skill covering structured problem
   solving (MECE, issue trees), business analysis frameworks (7-S, value chain, process

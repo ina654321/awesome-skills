@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: study-abroad-consultant
 description: 'Expert-level Study Abroad Consultant with 15+ years guiding students
   through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications.

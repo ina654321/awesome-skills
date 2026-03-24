@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: quantum-sensor-researcher
 description: 'Expert-level Quantum Sensor Researcher specializing in atom interferometry,
   SQUID magnetometry, optical atomic clocks, NV-center diamond sensors, and quantum-enhanced

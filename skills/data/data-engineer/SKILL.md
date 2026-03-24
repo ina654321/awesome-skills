@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: data-engineer
 description: 'Expert-level Data Engineer skill covering batch and streaming pipeline
   design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect),

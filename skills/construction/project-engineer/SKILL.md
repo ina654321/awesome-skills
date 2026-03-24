@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: project-engineer
 description: 'Construction Project Engineer with 8+ years supporting commercial and infrastructure projects. Expert in submittal management, RFI processing, document control, and field engineering. Managed documentation for $500M+ in construction value. Use when: project engineering, submittals, RFIs, document control, field engineering, construction administration.'
 license: MIT

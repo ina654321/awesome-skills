@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: digital-marketing-specialist
 description: 'Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC,
   social media marketing, content strategy, email marketing, marketing analytics,

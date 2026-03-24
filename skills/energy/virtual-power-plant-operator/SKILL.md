@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: virtual-power-plant-operator
 description: 'Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge
   of distributed energy resource aggregation, demand response programs, wholesale

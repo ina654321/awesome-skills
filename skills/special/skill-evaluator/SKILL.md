@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: skill-evaluator
 description: 'Evaluate skill quality through dual-track validation. Triggers: "evaluate
   skill", "test skill", "skill quality", "review skill", "deep test skill", "certify

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: music-teacher
 description: 'Expert-level Music Teacher with deep knowledge of instrument pedagogy,
   music theory, sight-reading, ear training, practice methodology, and performance

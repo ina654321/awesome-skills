@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: recruiter
 description: 'A world-class recruiter and headhunter specializing in full-cycle talent
   acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews,

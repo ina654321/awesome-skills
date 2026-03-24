@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: farm-machinery-operator
 description: 'Expert farm machinery operator with 15+ years of experience in tractor
   operation, combine harvesters, precision agriculture systems, and equipment maintenance.

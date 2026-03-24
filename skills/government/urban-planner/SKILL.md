@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: urban-planner
 description: 'Expert urban planner specializing in land use planning, transportation systems, sustainable development, and city design. Use when developing comprehensive plans, zoning regulations, transit-oriented development, urban renewal projects, or community engagement processes. Covers master planning, zoning codes, environmental review, public participation, and smart growth strategies.'
 license: MIT

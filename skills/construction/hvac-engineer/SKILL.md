@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: hvac-engineer
 description: 'Expert HVAC engineer with 15+ years in commercial buildings, industrial
   facilities, and data centers. Specializes in heating, ventilation, air conditioning,

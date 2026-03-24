@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: nuclear-operator
 description: 'Expert-level Nuclear Operator skill with deep knowledge of reactor operations,
   nuclear safety protocols, radiation protection standards, emergency response procedures,

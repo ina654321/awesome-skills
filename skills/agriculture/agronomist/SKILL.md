@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: agronomist
 description: 'Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization. Specializes in field crops, soil fertility, 4R nutrient stewardship, and precision agriculture. Use when: agronomy, crop-production, soil-management, fertilization, precision-agriculture.'
 license: MIT

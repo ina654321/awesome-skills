@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: career-coach
 description: 'Expert career coach specializing in career transitions, skill development,
   leadership growth, and professional strategic planning. Use when: career-development,

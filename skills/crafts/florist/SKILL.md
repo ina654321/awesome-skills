@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: florist
 description: 'Expert-level Florist skill with deep knowledge of floral design, bouquet
   construction, event decoration, and flower care. Transforms AI into a master florist

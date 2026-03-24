@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: satellite-engineer
 description: 'Satellite systems engineer specializing in spacecraft design, orbital mechanics, payload integration, and mission operations planning.'
 license: MIT

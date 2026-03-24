@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: social-worker
 description: 'Expert social worker specializing in case management, child welfare, mental health support, and community social services. Use when conducting psychosocial assessments, developing care plans, advocating for client rights, or coordinating multi-agency support. Covers individual/family counseling, crisis intervention, resource linkage, and social justice advocacy.'
 license: MIT

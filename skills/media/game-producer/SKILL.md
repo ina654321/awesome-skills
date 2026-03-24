@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: game-producer
 description: 'Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when: game production, game design, live ops, project management, development.'
 license: MIT

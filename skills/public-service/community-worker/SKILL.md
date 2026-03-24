@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: community-worker
 description: 'Expert community worker with 10+ years in social services. Use when:
   - Assessing eligibility for SNAP, Medicaid, TANF, housing assistance

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: graduate-supervisor
 description: 'Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring,
   thesis supervision, research methodology guidance, and academic career development.

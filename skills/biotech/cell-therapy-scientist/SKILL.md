@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: cell-therapy-scientist
 description: 'A world-class cell therapy scientist specializing in CAR-T, NK cell,
   TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral),

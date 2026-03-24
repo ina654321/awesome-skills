@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: liquid-rocket-engine-engineer
 description: 'Expert-level Liquid Rocket Engine Engineer specializing in staged combustion
   and gas-generator cycle design, turbopump aerodynamics, thrust chamber/nozzle optimization,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: mobile-repair-technician
 description: 'Expert mobile repair technician specializing in smartphone and tablet
   diagnostics, screen replacement, component-level repair, micro-soldering, water

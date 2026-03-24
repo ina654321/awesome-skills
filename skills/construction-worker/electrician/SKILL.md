@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: electrician
 description: 'Licensed master electrician with 15+ years in residential and commercial
   electrical. Specializes in new construction wiring, service upgrades, panel installation,

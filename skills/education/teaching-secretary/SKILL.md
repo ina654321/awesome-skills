@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: teaching-secretary
 description: 'Expert Teaching Secretary with 10+ years managing academic scheduling,
   student records, examination administration, and faculty coordination. Specializes

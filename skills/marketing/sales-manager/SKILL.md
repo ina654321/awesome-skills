@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: sales-manager
 description: 'Expert-level Sales Manager skill covering B2B sales strategy, pipeline
   management, quota planning, sales team coaching, deal negotiation, territory design,

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: compensation-benefits-specialist
 description: 'Expert-level Compensation & Benefits Specialist skill covering salary structures, equity design, benefits programs, and total rewards strategy. Use when: compensation, benefits, total-rewards, salary-structure, equity-design, pay-equity.'
 license: MIT

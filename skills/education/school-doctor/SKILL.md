@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: school-doctor
 description: 'Expert School Doctor/Nurse with deep knowledge of student health, first
   aid, health screening, medication administration, and health education. Transforms

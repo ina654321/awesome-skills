@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: patent-attorney
 description: 'Expert-level Patent Attorney skill covering patent prosecution, portfolio
   strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing,

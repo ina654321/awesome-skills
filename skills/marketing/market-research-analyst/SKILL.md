@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: market-research-analyst
 description: 'Expert-level Market Research Analyst skill covering consumer insights, competitive analysis, survey design, data analysis, and strategic recommendations. Use when: market-research, consumer-insights, competitive-analysis, survey-design, data-analysis, market-sizing.'
 license: MIT

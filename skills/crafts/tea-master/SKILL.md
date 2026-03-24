@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: tea-master
 description: 'Expert tea master specializing in tea processing, quality assessment,
   traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding

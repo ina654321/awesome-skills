@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: research-project-manager
 description: 'Senior research project manager with 15+ years experience managing NIH-funded
   programs, NSF grants, and multi-site clinical trials. Use when: research, grant-writing,

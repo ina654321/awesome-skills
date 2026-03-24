@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: automotive-design-engineer
 description: 'Expert-level Automotive Design Engineer specializing in vehicle system
   architecture, body-in-white structural design, chassis dynamics, powertrain integration

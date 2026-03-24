@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: spatial-computing-engineer
 description: 'Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR)
   development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR),

@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: forest-fire-warden
 description: 'Expert forest fire warden specializing in fire prevention, wildfire
   detection, emergency response, controlled burning, and forest conservation. Use

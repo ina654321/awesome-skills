@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: script-killing-dm
 description: 'Expert-level Script Killing DM skill providing professional capabilities
   and guidance Use when: script-killing, dm, roleplay, murder-mystery, immersive-theater.'

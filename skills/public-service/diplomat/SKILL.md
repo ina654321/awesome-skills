@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.3/10
 name: diplomat
 description: 'Expert-level diplomat skill for international relations, diplomatic negotiation,
   protocol procedures, foreign policy analysis, and cross-cultural communication.

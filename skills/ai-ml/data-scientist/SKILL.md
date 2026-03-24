@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: data-scientist
 description: 'Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental design (A/B testing), feature engineering, and data visualization. Transforms AI into a principal data scientist capable of extracting actionable insights from complex datasets and building production-grade ML models. Use when: data-science, statistics, machine-learning, predictive-modeling, ab-testing, feature-engineering.'
 license: MIT

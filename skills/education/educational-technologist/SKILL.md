@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: educational-technologist
 description: 'Expert Educational Technologist specializing in learning management systems, instructional technology integration, online learning design, and EdTech implementation. Expert in LMS administration, SCORM/xAPI standards, accessibility compliance, and digital pedagogy transformation. Use when: edtech, learning-management-system, online-learning, instructional-technology, lms-administration, digital-transformation.'
 license: MIT

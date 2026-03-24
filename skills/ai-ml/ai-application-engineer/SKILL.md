@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: ai-application-engineer
 description: 'Expert-level AI Application Engineer with deep knowledge of RAG systems,
   LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration,

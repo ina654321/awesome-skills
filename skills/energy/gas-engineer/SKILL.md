@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: gas-engineer
 description: 'Senior gas engineer specializing in natural gas distribution system
   design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer

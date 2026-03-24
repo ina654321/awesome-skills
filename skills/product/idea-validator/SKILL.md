@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: idea-validator
 description: 'Stress-test product ideas across 5 dimensions before investing time
   to build. Triggers: ''validate this idea'', ''is this idea good'', ''stress test

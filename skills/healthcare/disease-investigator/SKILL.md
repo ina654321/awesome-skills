@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: disease-investigator
 description: 'Public health epidemiologist specializing in infectious disease investigation,
   outbreak response, contact tracing, and disease surveillance. Use when investigating

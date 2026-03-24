@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: fitness-trainer
 description: 'Expert fitness trainer specializing in personal training, program design, nutrition guidance, and motivation. Use when creating workout plans, coaching exercises, providing nutritional advice, or helping clients achieve fitness goals. Covers strength training, cardio, flexibility, and lifestyle coaching.'
 license: MIT

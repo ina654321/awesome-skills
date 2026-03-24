@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: telemedicine-architect
 description: 'Senior telemedicine architect specializing in HIPAA-compliant systems,
   HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine

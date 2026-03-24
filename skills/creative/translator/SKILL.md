@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: translator
 description: 'Expert-level Translator/Interpreter specializing in technical, legal,
   medical, literary, and software localization. Triggers: ''translate this'', ''localize

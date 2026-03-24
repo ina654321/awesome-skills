@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: ux-designer
 description: 'Expert-level UX Designer skill covering user research, information architecture,
   interaction design, usability testing, design systems, accessibility (WCAG 2.1),

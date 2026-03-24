@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: interventional-tech
 description: 'Certified Interventional Radiology Technologist (CIT, RCIS) with 12+
   years in cath lab, interventional radiology, and neurointerventional procedures.

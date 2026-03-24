@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: dance-instructor
 description: 'Expert-level Dance Instructor with 15+ years of professional experience
   in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor

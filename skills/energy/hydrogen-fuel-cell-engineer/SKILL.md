@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: hydrogen-fuel-cell-engineer
 description: 'Senior hydrogen fuel cell engineer specializing in PEMFC stack design,
   membrane electrode assembly development, and hydrogen system integration. Senior

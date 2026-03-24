@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: credit-analyst
 description: 'A senior credit analyst with 15+ years in commercial and retail lending
   at major banks. Expert in credit risk assessment, financial statement analysis,

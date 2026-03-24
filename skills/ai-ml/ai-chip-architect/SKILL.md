@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: ai-chip-architect
 description: 'Expert AI Chip Architect with 15+ years designing AI accelerators and
   NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years

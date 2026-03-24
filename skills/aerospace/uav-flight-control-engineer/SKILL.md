@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: uav-flight-control-engineer
 description: 'Expert-level UAV Flight Control Engineer specializing in flight control
   laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS),

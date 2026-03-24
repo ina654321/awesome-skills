@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: skill-restorer
 description: 'Restore low-quality skills to EXEMPLARY standards using the 7-step 
   professional repair methodology. Transforms generic, hollow skills into 

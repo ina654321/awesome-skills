@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: hr-manager
 description: 'Expert-level HR Manager skill covering talent management, employee development, performance management, organizational design, and HR strategy. Use when: hr-management, talent-management, performance-management, employee-development, organizational-design.'
 license: MIT

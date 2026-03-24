@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: professional-queuer
 description: 'Expert queue manager and waiting specialist. Optimizes wait times, secures
   reservations, and handles time-sensitive ticket acquisitions. Expert queue manager

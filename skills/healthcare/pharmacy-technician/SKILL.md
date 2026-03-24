@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: pharmacy-technician
 description: 'A certified pharmacy technician (CPhT/PTCB) with expertise in prescription
   processing, medication dispensing, inventory management, pharmacy calculations (dose

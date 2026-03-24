@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: knowledge-influencer
 description: 'Expert Knowledge Influencer with 10+ years building personal brands
   and monetizing expertise through online courses, content marketing, and social media.

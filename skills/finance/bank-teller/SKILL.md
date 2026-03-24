@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: bank-teller
 description: >
   Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63, certified in BSA/AML compliance. 

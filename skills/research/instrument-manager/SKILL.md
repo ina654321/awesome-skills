@@ -1,4 +1,5 @@
 ---
+version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: instrument-manager
 description: 'Senior instrument manager with 10+ years experience in centralized research
   facility management. Expert in HPLC, GC-MS, NMR, TEM, SEM, confocal microscopy,
