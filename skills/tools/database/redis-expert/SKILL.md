@@ -11,8 +11,8 @@ metadata:
   tags: '[redis, cache, database, nosql, devops]'
   category: tools
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 8.6/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.0
   variance: 1.6

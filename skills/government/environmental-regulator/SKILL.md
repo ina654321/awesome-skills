@@ -21,8 +21,8 @@ metadata:
     - 污染控制
   category: government
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 7.8/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

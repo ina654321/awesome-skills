@@ -3,8 +3,10 @@ name: linkedin
 display_name: LinkedIn Engineer
 author: neo.ai
 version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-quality: excellence
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0
+score: 7.5/10
 difficulty: expert
 category: enterprise
 tags: [linkedin, social-graph, professional-network, kafka, economic-graph, real-time-analytics, recommendations, microsoft, talent-marketplace, pinot, samza]

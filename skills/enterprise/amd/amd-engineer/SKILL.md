@@ -3,8 +3,10 @@ name: amd-engineer
 display_name: AMD Engineer
 author: neo.ai
 version: 4.0.0
-quality: production
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 10.0
+score: 8.5/10
 difficulty: expert
 category: enterprise
 tags: [amd, semiconductor, zen, epyc, ryzen, instinct, gpu, cpu, data-center, gaming, lisa-su]

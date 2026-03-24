@@ -10,7 +10,9 @@ tags: [anthropic, ai-safety, constitutional-ai, interpretability, alignment, rlh
 version: 2.0.0
 difficulty: expert
 category: enterprise
-quality: exemplary
+quality: expert
+  variance: 0.5
+  text_score: 2.0
 ---
 
 # Anthropic AI Safety Researcher

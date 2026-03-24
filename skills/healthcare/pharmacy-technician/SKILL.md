@@ -14,8 +14,8 @@ metadata:
     PTCB, community-pharmacy
   category: healthcare
   difficulty: beginner
-  score: 8.6/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.1
   runtime_score: 8.0
   variance: 1.1

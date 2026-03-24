@@ -4,6 +4,8 @@ display_name: Professional Magician
 author: neo.ai <lucas_hsueh@hotmail.com>
 version: 3.0.1
 quality: expert
+  variance: 0.5
+  text_score: 10.0
 difficulty: expert
 category: entertainment
 tags: [magic, illusion, performance, close-up, stage]

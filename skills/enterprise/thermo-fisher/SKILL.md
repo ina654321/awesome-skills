@@ -9,8 +9,8 @@ metadata:
   tags: '[thermo-fisher, life-sciences, scientific-instruments, biopharma-services, CDMO, CRO, M&A, PPI-business-system, customer-access]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.0/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

@@ -14,6 +14,8 @@ metadata:
   difficulty: expert
   platforms: [opencode, openclaw, claude-code, cursor, codex, cline, kimi]
   quality: expert
+  variance: 0.5
+  text_score: 8.0
 ---
 
 

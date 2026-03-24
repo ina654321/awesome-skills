@@ -13,8 +13,8 @@ metadata:
     ev-inverter, high-temperature, thermal-management
   category: materials
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.0
   variance: 1.9

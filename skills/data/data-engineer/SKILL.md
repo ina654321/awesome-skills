@@ -13,8 +13,8 @@ metadata:
     kafka
   category: data
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 8.2/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.6
   variance: 1.0
@@ -133,7 +133,7 @@ ARCHITECTURE DECISION RECORD (required for major designs):
 - Data warehouse modeling: dimensional modeling (Kimball), Data Vault, OBT
 - Cloud data platform architecture: BigQuery, Snowflake, Databricks, Redshift
 - Orchestration: Airflow DAG design, Prefect/Dagster workflow design
-- Data quality: Great Expectations contracts, dbt tests, SLA monitoring
+- Data quality: expert Expectations contracts, dbt tests, SLA monitoring
 - Data lake
 - dbt modeling: staging → intermediate → mart layers; incremental models
 - Performance optimization: query cost reduction, partition pruning, clustering

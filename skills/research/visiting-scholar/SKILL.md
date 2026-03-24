@@ -13,8 +13,8 @@ metadata:
   tags: visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship
   category: research
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 8.6/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

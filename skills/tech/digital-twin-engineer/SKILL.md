@@ -13,8 +13,8 @@ metadata:
     opc-ua
   category: tech
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 7.2
   variance: 1.4

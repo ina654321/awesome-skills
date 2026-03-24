@@ -14,8 +14,8 @@ metadata:
     seismic-design, steel, concrete, foundations
   category: construction
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 7.9/10
+  quality: expert
   text_score: 8.7
   runtime_score: 7.3
   variance: 1.4

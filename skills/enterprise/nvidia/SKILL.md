@@ -13,8 +13,8 @@ metadata:
     jensen-huang, data-center, omniverse, dgx, triton, transformer-engine]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.6/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

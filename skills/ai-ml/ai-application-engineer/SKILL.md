@@ -14,8 +14,8 @@ metadata:
     production-ai
   category: ai-ml
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 8.9/10
+  quality: expert
   text_score: 8.8
   runtime_score: 7.2
   variance: 1.6

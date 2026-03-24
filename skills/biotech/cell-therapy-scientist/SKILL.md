@@ -12,8 +12,8 @@ metadata:
     GMP, immunotherapy
   category: biotech
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.3/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.7
   variance: 0.9

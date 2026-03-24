@@ -10,8 +10,8 @@ metadata:
   tags: art-direction, creative-strategy, visual-storytelling, brand-campaigns, creative-leadership
   category: creative
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.3/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

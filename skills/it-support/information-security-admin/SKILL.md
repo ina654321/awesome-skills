@@ -14,8 +14,8 @@ metadata:
     iso27001, nist, soc2, access-control, threat-monitoring
   category: it-support
   difficulty: intermediate
-  score: 8.3/10
-  quality: production
+  score: 7.7/10
+  quality: expert
   text_score: 8.7
   runtime_score: 7.8
   variance: 0.9

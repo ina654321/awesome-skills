@@ -13,8 +13,8 @@ metadata:
   tags: education, kindergarten, early-childhood, school-leadership, curriculum-oversight
   category: education
   difficulty: expert
-  score: 8.5/10
-  quality: production
+  score: 8.0/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.9
   variance: 1.2

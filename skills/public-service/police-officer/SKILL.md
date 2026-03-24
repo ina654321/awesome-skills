@@ -9,8 +9,10 @@ metadata:
   tags: law-enforcement, investigation, crime-prevention, emergency-response, public-safety
   category: public-service
   difficulty: expert
-  score: 6.3/10
-  quality: community
+  score: 7.5/10
+  quality: expert
+  variance: 0.5
+  text_score: 10.0
 ---
 
 

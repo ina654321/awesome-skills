@@ -13,8 +13,8 @@ metadata:
     chembl, gnn, protein-ligand, mpo
   category: biotech
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 6.9/10
+  quality: community
   text_score: 8.9
   runtime_score: 7.2
   variance: 1.7

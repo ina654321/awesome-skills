@@ -10,7 +10,9 @@ tags: [labor-law, arbitration, dispute-resolution, employment-law, china, 劳动
 version: 1.1.0
 category: enterprise
 difficulty: expert
-quality: exemplary
+quality: expert
+  variance: 0.5
+  text_score: 5.0
 license: MIT
 author: neo.ai <lucas_hsueh@hotmail.com>
 updated: 2026-03-23

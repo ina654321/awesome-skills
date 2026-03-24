@@ -15,8 +15,8 @@ metadata:
     - emergency-response
   category: aerospace
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 6.9/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

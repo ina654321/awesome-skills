@@ -7,8 +7,10 @@ license: MIT
 metadata:
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 5.1/10
+  quality: community
+  variance: 0.5
+  text_score: 2.0
   tags: [bcg, strategy, growth-share-matrix, experience-curve, mbb, consulting, competitive-advantage, portfolio-analysis, digital-transformation, ai-strategy]
   last_updated: 2026-03-21
   verified: true

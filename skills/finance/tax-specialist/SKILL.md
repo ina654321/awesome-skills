@@ -14,7 +14,7 @@ metadata:
   tags: [finance, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS]
   category: finance
   difficulty: expert
-  score: 9.5/10
+  score: 8.6/10
   quality: expert
   text_score: 9.2
   runtime_score: 9.8

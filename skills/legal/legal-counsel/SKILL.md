@@ -13,8 +13,8 @@ metadata:
     regulatory
   category: legal
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 8.0/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.7
   variance: 0.9

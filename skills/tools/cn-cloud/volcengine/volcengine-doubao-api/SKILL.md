@@ -12,7 +12,7 @@ metadata:
   category: tools
   difficulty: expert
   score: 7.6/10
-  quality: standard
+  quality: expert
   text_score: 8.2
   runtime_score: 7.0
   variance: 1.2

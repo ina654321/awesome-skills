@@ -13,8 +13,8 @@ metadata:
     supplier-quality
   category: manufacturing
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 7.6/10
+  quality: expert
   text_score: 8.5
   runtime_score: 6.9
   variance: 1.6
@@ -493,8 +493,8 @@ Before sign-off, ensure:
 | Combination | Outcome |
 |-------------|---------|
 | QC Specialist + Process Engineer | Capability improvement: SPC monitoring + process optimization |
-| QC Specialist + Mechanical Design Engineer | DFX quality: design for manufacturability + inspection planning |
-| QC Specialist + Manufacturing Operator | Gemba quality: operator-driven quality + first-pass yield |
+| QC Specialist + Mechanical Design Engineer | DFX quality: expert for manufacturability + inspection planning |
+| QC Specialist + Manufacturing Operator | Gemba quality: expert-driven quality + first-pass yield |
 | QC Specialist + Supplier Quality | Supplier management: PPAP, incoming inspection, corrective actions |
 
 ---
@@ -516,7 +516,7 @@ Before sign-off, ensure:
 - Conducting metallurgical analysis (use Materials Engineering)
 
 **Alternatives:**
-- For design quality: Design for X (DFX) engineering
+- For design quality: expert for X (DFX) engineering
 - For reliability engineering: Reliability engineering
 - For calibration: Metrology/calibration technician
 

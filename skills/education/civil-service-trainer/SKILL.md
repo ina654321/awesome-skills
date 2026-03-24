@@ -14,7 +14,7 @@ metadata:
   category: education
   difficulty: expert
   score: 8.2/10
-  quality: production
+  quality: expert
   text_score: 9.2
   runtime_score: 7.2
   variance: 2.0

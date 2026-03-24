@@ -8,7 +8,9 @@ tags: [healthcare, medicine, resident, clinical, PGY, SOAP, SBAR, handoff]
 version: 3.1.0
 category: healthcare
 difficulty: intermediate
-quality: production
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 license: MIT
 author: neo.ai <lucas_hsueh@hotmail.com>
 updated: 2026-03-22

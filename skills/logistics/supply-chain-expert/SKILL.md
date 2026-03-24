@@ -13,8 +13,8 @@ metadata:
   tags: supply-chain, procurement, logistics, inventory, s&op, demand-planning
   category: logistics
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.5
   variance: 1.7

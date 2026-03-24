@@ -3,8 +3,10 @@ name: lyft-engineer
 display_name: Lyft Engineer
 author: neo.ai
 version: 3.1.0
-quality: EXCELLENCE
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 7.0
+score: 8.4/10
 difficulty: expert
 category: enterprise
 tags: [lyft, ride-sharing, marketplace-optimization, hybrid-transportation, sustainability, driver-matching, dynamic-pricing, autonomous-vehicles]

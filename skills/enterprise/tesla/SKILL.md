@@ -1,8 +1,10 @@
 ---
 name: tesla
 version: skill-writer v5 | skill-evaluator v2.1
-score: 9.5/10
-quality: EXCELLENCE
+score: 8.5/10
+quality: expert
+  variance: 0.5
+  text_score: 10.0
 grade: S
 description: 'Tesla Senior Staff Engineer mindset — First principles thinking, mission-driven execution, and physics-based decision making. Covers EVs, autonomy (FSD), energy (Solar/Powerwall/Megapack), manufacturing (4680/Gigafactories), and robotics (Optimus).'
 triggers:

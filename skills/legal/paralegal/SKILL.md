@@ -13,8 +13,8 @@ metadata:
   tags: legal, paralegal, legal-research, document-preparation, case-management
   category: legal
   difficulty: intermediate
-  score: 9.5/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

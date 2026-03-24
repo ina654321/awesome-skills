@@ -14,8 +14,8 @@ metadata:
     mlsecops, trustworthy-ai]'
   category: cybersecurity
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 7.3/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.8
   variance: 1.1

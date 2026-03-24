@@ -13,8 +13,8 @@ metadata:
     post-production, independent-film
   category: media
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.1
   runtime_score: 9.4
   variance: 0.2

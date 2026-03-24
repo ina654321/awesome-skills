@@ -9,8 +9,8 @@ metadata:
   tags: '[visa, payments, card-networks, visa-direct, tokenization, fintech-partnerships, stablecoins, open-banking, commerce-orchestration]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 5.9/10
+  quality: community
   restoration: skill-writer v5 | skill-evaluator v2.1
   text_score: 9.6
   runtime_score: 9.4

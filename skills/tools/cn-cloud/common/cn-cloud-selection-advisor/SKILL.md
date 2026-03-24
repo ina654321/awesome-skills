@@ -12,8 +12,8 @@ metadata:
   tags: '[cloud-selection, aliyun, tencent, volcengine, china]'
   category: tools
   difficulty: beginner
-  score: 7.6/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 8.6
   runtime_score: 6.6
   variance: 2.0

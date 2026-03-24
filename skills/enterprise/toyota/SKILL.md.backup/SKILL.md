@@ -11,8 +11,8 @@ metadata:
   tags: '[toyota, manufacturing, tps, lean, kaizen, jidoka, jit]'
   category: enterprise
   difficulty: expert
-  score: 6.2/10
-  quality: beta
+  score: 9.4/10
+  quality: exemplary
   text_score: 6.9
   runtime_score: 5.5
   variance: 1.4

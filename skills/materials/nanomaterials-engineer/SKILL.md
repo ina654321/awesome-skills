@@ -13,8 +13,8 @@ metadata:
     tem-sem, xps, nanocomposites
   category: materials
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 7.6/10
+  quality: expert
   text_score: 8.5
   runtime_score: 7.2
   variance: 1.3

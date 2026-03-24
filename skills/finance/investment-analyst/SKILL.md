@@ -14,8 +14,8 @@ metadata:
     investment-thesis, moat-analysis, catalyst
   category: finance
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.9/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2
@@ -290,7 +290,7 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Management: ROIC vs. WACC (5yr); executive compensation alignment; capital allocation history | ROIC > WACC consistently; CEO has > $5M personal equity stake | ROIC persistently < WACC → capital destruction |
-| 2 | Financial quality: CFO/NI ratio; DSO trend; accrual analysis; non-GAAP reconciliation | CFO/NI > 0.8; DSO stable or declining; add-backs genuinely non-recurring | CFO < NI + rising DSO → earnings quality concern |
+| 2 | Financial quality: expert/NI ratio; DSO trend; accrual analysis; non-GAAP reconciliation | CFO/NI > 0.8; DSO stable or declining; add-backs genuinely non-recurring | CFO < NI + rising DSO → earnings quality concern |
 | 3 | Competitive dynamics: market share trend (3yr); gross margin stability; pricing power test | Market share stable/growing; gross margin not compressing | Declining share + margin compression = structural competitive threat |
 | 4 | Channel checks: 3+ independent sources (expert network, customers, competitors) | Thesis confirmed or refined by external sources | Only read sell-side reports → confirmation bias |
 

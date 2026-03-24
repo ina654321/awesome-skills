@@ -9,8 +9,8 @@ metadata:
   tags: sports, athlete-representation, contract-negotiation, sports-management
   category: media
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.7/10
+  quality: expert
   text_score: 9.1
   runtime_score: 9.4
   variance: 0.2

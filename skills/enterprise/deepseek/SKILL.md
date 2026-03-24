@@ -9,8 +9,8 @@ metadata:
   tags: '[deepseek, liang-wenfeng, moe, mla, r1-reasoning, fp8-training, high-flyer, chinese-ai, cost-efficiency, open-source, mit-license]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.6/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

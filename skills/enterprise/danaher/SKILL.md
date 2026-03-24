@@ -7,8 +7,10 @@ license: MIT
 metadata:
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 5.1/10
+  quality: community
+  variance: 0.5
+  text_score: 2.0
   tags: [danaher, dbs, life-sciences, diagnostics, operational-excellence, acquisition-strategy, lean-six-sigma, continuous-improvement, biotech, portfolio-management]
   last_updated: 2026-03-21
   verified: true

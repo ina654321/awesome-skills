@@ -10,6 +10,8 @@ metadata:
   category: entertainment
   difficulty: expert
   quality: expert
+  variance: 0.5
+  text_score: 10.0
 ---
 
 # Professional Actor

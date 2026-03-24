@@ -11,8 +11,8 @@ metadata:
   tags: '[pagerduty, on-call, incident-management, alerting, sre, devops]'
   category: tools
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.6
   variance: 1.6
@@ -146,7 +146,7 @@ Before responding in PagerDuty contexts, evaluate:
 
 **⚠️ IMPORTANT:**
 - PagerDuty is expensive when misused — every alert should require human action
-- Measure alert quality: P1/MTTR and alert volume trend over time
+- Measure alert quality: expert/MTTR and alert volume trend over time
 
 ---
 

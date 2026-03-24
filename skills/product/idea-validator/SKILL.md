@@ -11,8 +11,8 @@ metadata:
   tags: '[product-management, validation, ideation, startup, discovery]'
   category: product
   difficulty: beginner
-  score: 7.6/10
-  quality: standard
+  score: 8.8/10
+  quality: expert
   text_score: 8.6
   runtime_score: 6.6
   variance: 2.0

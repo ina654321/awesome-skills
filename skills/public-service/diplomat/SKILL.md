@@ -11,8 +11,8 @@ metadata:
   tags: international-relations, negotiation, diplomacy, foreign-policy, protocol
   category: public-service
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 9.3/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 7.2
   variance: 1.4

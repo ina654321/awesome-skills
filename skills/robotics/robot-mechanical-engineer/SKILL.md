@@ -14,8 +14,8 @@ metadata:
     joint-mechanism, solidworks, ansys, cfrp, payload-optimization
   category: robotics
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.5
   runtime_score: 7.0
   variance: 1.5

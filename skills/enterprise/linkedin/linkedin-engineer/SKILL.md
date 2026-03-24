@@ -3,8 +3,10 @@ name: linkedin-engineer
 display_name: LinkedIn Engineer
 author: neo.ai
 version: 4.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 7.0
+score: 7.2/10
 difficulty: expert
 category: enterprise
 tags: [linkedin, social-graph, professional-network, kafka, economic-graph, real-time-analytics, recommendations, microsoft, talent-marketplace]

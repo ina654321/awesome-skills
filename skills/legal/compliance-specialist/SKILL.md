@@ -13,7 +13,7 @@ metadata:
   category: legal
   difficulty: expert
   score: 8.7/10
-  quality: production
+  quality: expert
   text_score: 9.1
   runtime_score: 8.2
   variance: 0.9

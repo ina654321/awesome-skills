@@ -12,8 +12,8 @@ metadata:
   tags: landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance
   category: realestate
   difficulty: intermediate
-  score: 8.1/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.1
   variance: 1.9

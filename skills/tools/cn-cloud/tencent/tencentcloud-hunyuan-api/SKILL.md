@@ -11,8 +11,8 @@ metadata:
   tags: '[tencent, hunyuan, llm, api, 混元]'
   category: tools
   difficulty: expert
-  score: 7.5/10
-  quality: standard
+  score: 8.2/10
+  quality: expert
   text_score: 8.5
   runtime_score: 6.6
   variance: 1.9

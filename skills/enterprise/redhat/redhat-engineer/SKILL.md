@@ -21,8 +21,8 @@ metadata:
     - ibm
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 6.8/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

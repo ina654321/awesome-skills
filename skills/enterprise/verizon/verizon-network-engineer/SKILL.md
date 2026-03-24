@@ -11,8 +11,8 @@ metadata:
   tags: verizon, 5g, network-engineering, telecom, carrier-grade, five9s, network-security
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.3/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

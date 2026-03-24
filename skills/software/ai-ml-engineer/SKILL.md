@@ -13,8 +13,8 @@ metadata:
     triton, model-monitoring, drift-detection
   category: software
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.3
   variance: 1.9

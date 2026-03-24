@@ -12,8 +12,8 @@ metadata:
   tags: hospitality, restaurant, food-service, supply-chain, food-safety, hospitality-management
   category: hospitality
   difficulty: expert
-  score: 8.6/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.1
   runtime_score: 8.0
   variance: 1.1

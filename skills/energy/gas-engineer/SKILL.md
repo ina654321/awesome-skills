@@ -12,8 +12,8 @@ metadata:
   tags: gas, pipeline, natural-gas, distribution, CS4, pressure-regulation
   category: energy
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.8
   variance: 1.3

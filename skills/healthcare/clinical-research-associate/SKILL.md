@@ -11,8 +11,8 @@ metadata:
   tags: clinical trials, research, GCP, FDA, regulatory
   category: healthcare
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 7.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.8
   variance: 1.3

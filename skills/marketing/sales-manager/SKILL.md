@@ -12,8 +12,8 @@ metadata:
   tags: sales, b2b-sales, sales-management, pipeline, crm, quota, negotiation, revenue
   category: marketing
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 7.8/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.1
   variance: 1.5

@@ -12,8 +12,8 @@ metadata:
   tags: '[wandb, ml-experiment, tracking, logging, hyperparameters, mlops]'
   category: tools
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.6
   variance: 1.6

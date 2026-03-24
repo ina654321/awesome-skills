@@ -12,8 +12,8 @@ metadata:
   tags: v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its
   category: automotive
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 7.6/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.2
   variance: 1.4

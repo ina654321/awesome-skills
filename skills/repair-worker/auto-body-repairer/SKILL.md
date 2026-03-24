@@ -13,8 +13,8 @@ metadata:
     insurance, estimates
   category: repair-worker
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.8
   variance: 0.8

@@ -14,8 +14,8 @@ metadata:
     quantitative-analysis, risk-arbitrage
   category: finance
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 8.7
   runtime_score: 8.1
   variance: 0.6

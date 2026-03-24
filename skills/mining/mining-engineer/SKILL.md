@@ -13,8 +13,8 @@ metadata:
   tags: mining, mine-design, extraction, resource-recovery, subsurface
   category: mining
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.2/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.8
   variance: 1.3

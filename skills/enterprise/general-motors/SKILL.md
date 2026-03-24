@@ -445,7 +445,9 @@ Our focus: Maintain margin targets (8-10% EBIT) through product mix and efficien
 skill:
   name: general-motors
   version: 5.0.0
-  quality: EXCELLENCE
+  quality: community
+  variance: 0.5
+  text_score: 7.0
   rating: 9.5/10
   author: skill-restorer v7
   

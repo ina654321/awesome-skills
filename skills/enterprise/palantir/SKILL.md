@@ -15,8 +15,9 @@ metadata:
     enterprise-data
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.7/10
+  quality: expert
+  text_score: 9.0
   evaluator: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 ---
 

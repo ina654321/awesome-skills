@@ -9,7 +9,9 @@ updated: 2026-03-23
 tags: portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives
 category: finance
 difficulty: expert
-quality: production
+quality: expert
+  variance: 0.5
+  text_score: 8.0
 ---
 
 # Fund Manager

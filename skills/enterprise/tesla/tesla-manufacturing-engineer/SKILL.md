@@ -13,8 +13,8 @@ metadata:
     first-principles, vertical-integration]'
   category: enterprise
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 8.8
   runtime_score: 8.0
   variance: 0.8

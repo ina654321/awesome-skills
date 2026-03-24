@@ -9,8 +9,8 @@ metadata:
   tags: compensation, benefits, total-rewards, salary-structure, equity-design, pay-equity, executive-comp
   category: business
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.2/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

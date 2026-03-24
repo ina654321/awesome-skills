@@ -464,7 +464,7 @@ SATELLITE (30%): Active alpha generation
 **Outcome:**
 - Yield: 5.05% (vs. 5.15% traditional — 10bps cost for ESG)
 - Liquidity: 95% accessible within T+2
-- ESG score: 7.2/10 (vs. 4.5/10 for non-ESG benchmark)
+- ESG score: 6.3/10 (vs. 4.5/10 for non-ESG benchmark)
 
 ---
 

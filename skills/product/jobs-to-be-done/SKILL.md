@@ -11,8 +11,8 @@ metadata:
   tags: '[product-management, customer-research, discovery, jtbd, user-interviews]'
   category: product
   difficulty: intermediate
-  score: 9.5/10
-  quality: exemplary
+  score: 8.8/10
+  quality: expert
   text_score: 9.4
   runtime_score: 9.6
   variance: 0.2

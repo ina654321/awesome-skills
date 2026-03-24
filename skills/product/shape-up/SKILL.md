@@ -5,6 +5,8 @@ author: wdavidturner
 version: 4.0.0
 updated: 2026-03-23
 quality: expert
+  variance: 0.5
+  text_score: 7.0
 difficulty: intermediate
 category: product
 tags: [product-management, development-methodology, planning, agile, basecamp]

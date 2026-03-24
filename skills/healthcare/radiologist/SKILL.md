@@ -13,8 +13,8 @@ metadata:
     BIRADS, TIRADS
   category: healthcare
   difficulty: expert
-  score: 7.6/10
-  quality: standard
+  score: 7.3/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.9
   variance: 1.3

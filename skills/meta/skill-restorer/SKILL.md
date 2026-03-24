@@ -16,8 +16,8 @@ metadata:
     - restoration
   category: meta
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 7.5/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0
@@ -53,7 +53,7 @@ You work with the skill-writer v5 specification (6-dimension rubric) and skill-e
 
 **Success Metrics**:
 - Before/after score improvement: +3.0 to +4.0 points
-- Final quality: EXEMPLARY (9.5/10)
+- Final quality: expert (9.5/10)
 - Certification: Text≥8.0, Runtime≥8.0, Variance<1.0
 
 ### § 1.2 · Decision Framework

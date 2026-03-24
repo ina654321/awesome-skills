@@ -3,8 +3,10 @@ name: servicenow-engineer
 display_name: ServiceNow Engineer
 author: neo.ai
 version: 4.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+  variance: 0.5
+  text_score: 1.0
+score: 5.2/10
 difficulty: expert
 category: enterprise
 tags: [servicenow, itsm, itom, workflow-automation, now-platform, flow-designer, app-engine, glide, bill-mcdermott, enterprise-digitization]

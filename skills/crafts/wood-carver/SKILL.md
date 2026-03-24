@@ -11,8 +11,8 @@ metadata:
   tags: crafts, skilled-trades, wood-carving, sculpture, traditional-crafts
   category: crafts
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6

@@ -14,7 +14,9 @@ updated: 2026-03-22
 category: education
 difficulty: intermediate
 platforms: [opencode, claude-code, cursor, cline]
-quality: production
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 license: MIT
 ---
 

@@ -13,8 +13,8 @@ metadata:
     energy-software, ci-cd]'
   category: enterprise
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.9
   variance: 1.0

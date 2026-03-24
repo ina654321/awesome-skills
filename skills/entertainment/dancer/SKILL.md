@@ -9,7 +9,7 @@ metadata:
   tags: entertainment, dance, choreography, performance, movement
   category: entertainment
   difficulty: expert
-  score: 8.5/10
+  score: 8.8/10
   quality: expert
   text_score: 9.3
   runtime_score: 8.0

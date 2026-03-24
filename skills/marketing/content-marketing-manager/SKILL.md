@@ -9,8 +9,8 @@ metadata:
   tags: content-marketing, content-strategy, editorial, seo-content, content-creation, storytelling, thought-leadership
   category: marketing
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.3/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

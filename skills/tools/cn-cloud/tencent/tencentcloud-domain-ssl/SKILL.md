@@ -11,8 +11,8 @@ metadata:
   tags: '[tencent, domain, ssl, dns]'
   category: tools
   difficulty: beginner
-  score: 7.5/10
-  quality: standard
+  score: 8.0/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.8
   variance: 1.4

@@ -1,8 +1,10 @@
 ---
 name: mercedes-benz
 version: skill-writer v5 | skill-evaluator v2.1
-score: 9.5/10
-quality: EXCELLENCE
+score: 8.3/10
+quality: expert
+  variance: 0.5
+  text_score: 10.0
 grade: S
 description: 'Mercedes-Benz VP Engineering mindset — Luxury automotive excellence, precision engineering, and innovation leadership. Covers EQ EV lineup, Drive Pilot autonomous, MB.OS software platform, AMG performance, Maybach ultra-luxury, and Formula 1 technology transfer.'
 triggers:

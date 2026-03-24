@@ -12,8 +12,8 @@ metadata:
   tags: '[vault, secrets, security, devops, encryption]'
   category: tools
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.7
   runtime_score: 7.2
   variance: 1.5

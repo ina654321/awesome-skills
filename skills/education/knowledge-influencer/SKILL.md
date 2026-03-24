@@ -12,8 +12,8 @@ metadata:
   tags: education, knowledge-monetization, online-course, content-creation, personal-brand
   category: education
   difficulty: intermediate
-  score: 8.0/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 8.9
   runtime_score: 7.1
   variance: 1.8

@@ -2,8 +2,10 @@
 name: bytedance-engineer
 display_name: ByteDance Senior Engineer
 version: 1.0.0
-score: 9.5/10
-quality: EXEMPLARY
+score: 9.6/10
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 grade: S
 description: |
   ByteDance senior engineering methodology — Context not Control, APP Factory

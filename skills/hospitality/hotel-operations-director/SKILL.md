@@ -14,8 +14,8 @@ metadata:
     hospitality-leadership
   category: hospitality
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 7.9/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.7
   variance: 1.4

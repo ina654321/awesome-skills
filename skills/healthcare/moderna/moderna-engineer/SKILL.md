@@ -13,8 +13,8 @@ metadata:
     bioprocess-engineering, IVT, lipid-nanoparticle, CleanCap, TFF, microfluidics
   category: healthcare
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 8.4/10
+  quality: expert
   text_score: 9.7
   runtime_score: 9.3
   variance: 0.4

@@ -13,7 +13,9 @@ updated: 2026-03-23
 author: aakashg
 source: https://github.com/aakashg/pm-claude-skills
 license: MIT
-quality: expert
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 platforms: [opencode, claude-code, cursor, cline]
 ---
 

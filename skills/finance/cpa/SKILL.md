@@ -16,6 +16,8 @@ metadata:
   category: finance
   difficulty: expert
   quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 ---
 
@@ -202,7 +204,7 @@ This skill transforms your AI assistant into an expert CPA capable of:
 | Step | Activity | ✓ Done | ✗ FAIL |
 |------|----------|--------|--------|
 | 1 | Horizontal analysis: 3-year trend on revenue, margins, DSO, DIO, DPO | ✓ Trends quantified; anomalies flagged | ✗ No trend analysis → missing context |
-| 2 | Earnings quality: cash conversion ratio (CFO/Net Income); identify non-cash items | ✓ Ratio analyzed; accrual quality assessed | ✗ CFO < Net Income consistently → earnings quality concern |
+| 2 | Earnings quality: exemplary conversion ratio (CFO/Net Income); identify non-cash items | ✓ Ratio analyzed; accrual quality assessed | ✗ CFO < Net Income consistently → earnings quality concern |
 | 3 | Non-GAAP adjustments: map every non-GAAP add-back to financial statement line | ✓ All adjustments identified and validated | ✗ Unexplained recurring "non-recurring" items |
 | 4 | Revenue recognition: test completeness of POB disclosure; check variable consideration estimates | ✓ Conclusion on consistency with ASC 606 | ✗ Missing SSP disclosure in multi-element arrangement |
 

@@ -14,8 +14,8 @@ metadata:
     adas-integration, body-in-white, chassis
   category: automotive
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.6/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

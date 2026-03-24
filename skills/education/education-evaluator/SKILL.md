@@ -14,8 +14,8 @@ metadata:
     standards-compliance
   category: education
   difficulty: expert
-  score: 8.6/10
-  quality: production
+  score: 9.0/10
+  quality: expert
   text_score: 9.0
   runtime_score: 8.2
   variance: 0.8

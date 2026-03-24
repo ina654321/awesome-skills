@@ -11,8 +11,8 @@ metadata:
   tags: interventional radiology, catheterization, angiography, imaging, IR
   category: healthcare
   difficulty: intermediate
-  score: 8.3/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.6
   variance: 1.5

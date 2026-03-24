@@ -13,8 +13,8 @@ metadata:
     USPTO, EPO
   category: legal
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.2/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.9
   variance: 0.7

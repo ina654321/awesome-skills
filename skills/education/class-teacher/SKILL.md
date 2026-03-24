@@ -12,7 +12,9 @@ license: MIT
 tags: [education, class-management, student-affairs, parent-communication, holistic-education]
 category: education
 difficulty: intermediate
-quality: production
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 ---
 
 # Class Teacher / Homeroom Teacher

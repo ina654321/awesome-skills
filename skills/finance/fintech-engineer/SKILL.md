@@ -13,8 +13,8 @@ metadata:
     financial-software, regtech, cybersecurity
   category: finance
   difficulty: expert
-  score: 9.6/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.4
   runtime_score: 9.8
   variance: 0.2

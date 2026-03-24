@@ -7,6 +7,8 @@ description: >
 author: neo.ai
 version: 3.0.0
 quality: expert
+  variance: 0.5
+  text_score: 10.0
 difficulty: expert
 category: creative
 tags: [mcn, influencer-marketing, content-strategy, monetization, creator-economy]

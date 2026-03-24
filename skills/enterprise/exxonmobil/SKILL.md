@@ -3,8 +3,10 @@ name: exxonmobil-engineer
 display_name: ExxonMobil Senior VP Engineering
 author: neo.ai
 version: 5.0.0
-quality: EXCELLENCE
-score: 9.5/10
+quality: community
+  variance: 0.5
+  text_score: 2.0
+score: 6.0/10
 difficulty: expert
 category: enterprise
 tags: [exxonmobil, oil-gas, energy, upstream, downstream, low-carbon, permian, guyana, pioneer, lng, darren-woods, houston, supermajor]
@@ -457,8 +459,8 @@ Digital Integration:
 Reservoir Characterization:
 - Discovery: Hammerhead (latest in string of successes)
 - Water depth: 4,000-6,000 ft
-- Reservoir quality: High-permeability turbidite sands
-- Oil quality: 28-32° API, low GOR
+- Reservoir quality: community-permeability turbidite sands
+- Oil quality: community-32° API, low GOR
 - Estimated recoverable: 400-600 MMbbl
 
 Appraisal Program:

@@ -6,8 +6,10 @@ author: Lucas
 license: MIT
 category: biotech
 difficulty: expert
-score: 9.5/10
-quality: excellence
+score: 7.0/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0
 tags: [pharma, drug-development, clinical-trials, regulatory, oncology, vaccines, mRNA]
 triggers: ['Pfizer R&D', 'drug discovery', 'clinical trial design', 'regulatory strategy', 'COVID vaccine', 'oncology development', 'IND submission', 'NDA/BLA', 'CMC strategy']
 integrations: [veeva, medidata, oracle, benchling, sap]

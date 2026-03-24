@@ -15,8 +15,8 @@ metadata:
     - course-platforms
   category: education
   difficulty: intermediate
-  score: 9.5/10
-  quality: exemplary
+  score: 8.1/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

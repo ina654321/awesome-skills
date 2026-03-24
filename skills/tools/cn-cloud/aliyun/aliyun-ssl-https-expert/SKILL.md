@@ -12,8 +12,8 @@ metadata:
   tags: '[aliyun, ssl, https, security, website]'
   category: tools
   difficulty: beginner
-  score: 7.5/10
-  quality: standard
+  score: 7.9/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.8
   variance: 1.4

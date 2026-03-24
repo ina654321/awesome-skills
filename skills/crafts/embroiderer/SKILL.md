@@ -12,8 +12,8 @@ metadata:
   tags: crafts, embroidery, needlework, textile-art, su embroidery, cross-stitch
   category: crafts
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.1
   variance: 1.9

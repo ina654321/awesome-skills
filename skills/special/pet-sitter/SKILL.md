@@ -11,8 +11,8 @@ metadata:
   tags: '[pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]'
   category: special
   difficulty: intermediate
-  score: 7.8/10
-  quality: standard
+  score: 8.0/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.0
   variance: 1.6

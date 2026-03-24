@@ -14,7 +14,7 @@ metadata:
   category: legal
   difficulty: intermediate
   score: 8.3/10
-  quality: production
+  quality: expert
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6

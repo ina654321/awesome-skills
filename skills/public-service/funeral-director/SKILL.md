@@ -16,6 +16,8 @@ metadata:
   category: public-service
   difficulty: expert
   quality: expert
+  variance: 0.5
+  text_score: 10.0
   platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 ---
 

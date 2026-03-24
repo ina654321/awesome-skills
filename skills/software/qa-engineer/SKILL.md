@@ -13,8 +13,8 @@ metadata:
     test-strategy
   category: software
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 6.9/10
+  quality: community
   text_score: 8.7
   runtime_score: 7.9
   variance: 0.8

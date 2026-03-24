@@ -3,8 +3,10 @@ name: uber
 display_name: Uber Engineer
 author: skill-restorer-v7
 version: 5.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0
+score: 8.7/10
 difficulty: expert
 category: enterprise
 tags: [uber, marketplace-optimization, michelangelo-ml, microservices, geospatial, dynamic-pricing, matching-algorithms, eta-prediction, two-sided-marketplace]

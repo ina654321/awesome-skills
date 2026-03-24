@@ -11,8 +11,8 @@ metadata:
   tags: '[aliyun, qwen, llm, api, tongyi]'
   category: tools
   difficulty: expert
-  score: 7.4/10
-  quality: standard
+  score: 8.0/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.6
   variance: 1.6

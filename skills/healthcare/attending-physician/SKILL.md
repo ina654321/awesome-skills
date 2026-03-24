@@ -4,6 +4,8 @@ display_name: Attending Physician
 author: neo.ai <lucas_hsueh@hotmail.com>
 version: 3.1.0
 quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, attending, clinical, supervision]

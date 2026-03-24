@@ -12,8 +12,8 @@ metadata:
   tags: edtech, product-design, learning-platform, ux-education, educational-software
   category: education
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.9
   variance: 1.1

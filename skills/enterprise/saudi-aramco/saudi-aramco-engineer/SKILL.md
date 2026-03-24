@@ -12,8 +12,8 @@ metadata:
   tags: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, economies-of-scale
   category: enterprise
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 7.6/10
+  quality: expert
   text_score: 7.6
   runtime_score: 7.8
   variance: 0.2

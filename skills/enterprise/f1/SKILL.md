@@ -9,8 +9,8 @@ metadata:
   tags: formula1, race-engineer, motorsport, strategy, performance
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.4/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

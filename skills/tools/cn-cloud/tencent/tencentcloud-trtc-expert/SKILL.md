@@ -11,8 +11,8 @@ metadata:
   tags: '[tencent, trtc, video, realtime, webrtc]'
   category: tools
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 8.1/10
+  quality: expert
   text_score: 8.9
   runtime_score: 6.6
   variance: 2.3

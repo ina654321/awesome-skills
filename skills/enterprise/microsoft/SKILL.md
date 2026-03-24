@@ -9,8 +9,8 @@ metadata:
   tags: '[microsoft, azure, cloud, ai, copilot, openai, office-365, windows, xbox, github, linkedin, enterprise, productivity, gaming]'
   category: enterprise
   difficulty: expert
-  score: 9.8/10
-  quality: EXEMPLARY
+  score: 8.9/10
+  quality: expert
   text_score: 9.9
   runtime_score: 9.7
   variance: 0.1

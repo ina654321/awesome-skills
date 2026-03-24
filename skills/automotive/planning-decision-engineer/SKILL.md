@@ -14,8 +14,8 @@ metadata:
     lattice-planner, idm, contingency-planning, nuplan
   category: automotive
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.4
   variance: 1.2

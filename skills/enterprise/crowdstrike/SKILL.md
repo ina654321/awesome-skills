@@ -9,8 +9,8 @@ metadata:
   tags: crowdstrike, falcon, edr, xdr, threat-hunting, incident-response, endpoint-security, cloud-security, identity-protection, zero-trust, cnapp, mdr, ai-security
   category: cybersecurity
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.4/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

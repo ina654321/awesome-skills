@@ -12,7 +12,9 @@ version: 2.0.0
 tags: [crowdstrike, falcon, edr, threat-hunting, incident-response, endpoint-security, siem, soar]
 category: enterprise
 difficulty: expert
-quality: exemplary
+quality: expert
+  variance: 0.5
+  text_score: 2.0
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 ---
 

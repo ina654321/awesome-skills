@@ -11,8 +11,8 @@ metadata:
   tags: healthcare, rural, primary-care, community, basic-medicine
   category: healthcare
   difficulty: intermediate
-  score: 8.5/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.9
   variance: 1.2

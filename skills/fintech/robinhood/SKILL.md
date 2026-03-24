@@ -6,8 +6,10 @@ metadata:
   author: skill-restorer v7
   category: fintech
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.5/10
+  quality: expert
+  variance: 0.5
+  text_score: 9.0
   tags:
     - robinhood
     - product-management
@@ -767,7 +769,7 @@ Robinhood = Commission-free investing app
 
 ```yaml
 skill_version: 5.0
-evaluation_score: 9.5/10
+evaluation_score: 7.5/10
 quality_tier: EXCELLENCE
 restoration_date: 2026-03-21
 restoration_agent: skill-restorer v7

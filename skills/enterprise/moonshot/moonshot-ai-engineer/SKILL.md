@@ -9,8 +9,8 @@ metadata:
   tags: '[moonshot, kimi, long-context, chinese-ai, llm-engineering, k2.5, agentic]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 9.0/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

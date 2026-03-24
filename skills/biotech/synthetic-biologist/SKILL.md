@@ -14,8 +14,8 @@ metadata:
     BioBricks, dbtl-cycle, flux-balance-analysis, biomanufacturing, genetic-parts
   category: biotech
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 9.2/10
+  quality: exemplary
   text_score: 8.2
   runtime_score: 7.2
   variance: 1.0

@@ -13,8 +13,8 @@ metadata:
     liquidity-management
   category: finance
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

@@ -14,8 +14,8 @@ metadata:
     creator-monetization, everything-app]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: premium
+  score: 6.4/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

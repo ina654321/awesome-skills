@@ -12,8 +12,8 @@ metadata:
     apprenticeship]'
   category: enterprise
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.7/10
+  quality: expert
   text_score: 8.7
   runtime_score: 7.5
   variance: 1.2

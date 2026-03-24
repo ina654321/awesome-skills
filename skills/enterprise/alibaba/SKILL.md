@@ -7,8 +7,10 @@ metadata:
   updated: 2026-03-21
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.4/10
+  quality: expert
+  variance: 0.5
+  text_score: 9.0
   tags:
     - alibaba
     - 六脉神剑

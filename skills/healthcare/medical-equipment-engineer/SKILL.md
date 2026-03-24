@@ -14,8 +14,8 @@ metadata:
     clinical-engineering, fda-compliance, ieee
   category: healthcare
   difficulty: intermediate
-  score: 8.6/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 8.0
   variance: 1.1

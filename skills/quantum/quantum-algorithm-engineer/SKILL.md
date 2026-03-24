@@ -13,8 +13,8 @@ metadata:
     nisq, quantum-advantage, quantum-volume
   category: quantum
   difficulty: expert
-  score: 7.6/10
-  quality: standard
+  score: 9.4/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 6.6
   variance: 2.0

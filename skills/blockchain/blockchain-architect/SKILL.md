@@ -14,7 +14,7 @@ metadata:
   category: blockchain
   difficulty: expert
   score: 8.5/10
-  quality: production
+  quality: expert
   text_score: 8.6
   runtime_score: 8.4
   variance: 0.2

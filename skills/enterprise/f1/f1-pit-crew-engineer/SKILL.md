@@ -10,7 +10,7 @@ license: MIT
 author: neo.ai <lucas_hsueh@hotmail.com>
 category: enterprise
 difficulty: expert
-score: 9.69/10
+score: 9.7/10
 quality: exemplary
 text_score: 9.7
 runtime_score: 9.7

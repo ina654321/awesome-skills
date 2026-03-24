@@ -12,7 +12,7 @@ metadata:
   tags: [robotics, quadruped, unitree, go2, h1, humanoid, reinforcement-learning, locomotion-control, isaac-gym]
   category: enterprise
   difficulty: expert
-  score: 9.53/10
+  score: 9.5/10
   quality: exemplary
   text_score: 9.53
   runtime_score: 9.53

@@ -11,8 +11,8 @@ metadata:
   tags: '[trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]'
   category: tools
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 9.2/10
+  quality: exemplary
   text_score: 8.9
   runtime_score: 7.6
   variance: 1.3

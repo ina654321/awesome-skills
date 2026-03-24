@@ -12,8 +12,8 @@ metadata:
   tags: [meta, pytorch, llama, fair, open-research, computer-vision, recommendation-systems, fast-prototyping]
   category: enterprise
   difficulty: expert
-  score: 8.6/10
-  quality: production
+  score: 9.7/10
+  quality: exemplary
   text_score: 8.9
   runtime_score: 8.2
   variance: 0.7

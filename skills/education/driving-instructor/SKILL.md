@@ -12,8 +12,8 @@ metadata:
   tags: education, teaching, driving, road-safety, driving-license, defensive-driving
   category: education
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.8
   variance: 1.2

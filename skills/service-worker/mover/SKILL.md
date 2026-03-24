@@ -13,8 +13,8 @@ metadata:
     搬家, 搬家工人, 搬运
   category: service-worker
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.0/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

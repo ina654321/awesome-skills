@@ -7,7 +7,7 @@ metadata:
   version: 2.0.0
   skill_writer: v5
   skill_evaluator: v2.1
-  quality_score: 9.5/10
+  quality_score: 6.6/10
   quality_level: EXCELLENCE
   updated: 2026-03-21
   tags: [biotech, mRNA, pharmaceuticals, vaccine, platform, drug-development, regulatory, manufacturing]

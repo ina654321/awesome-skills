@@ -13,8 +13,8 @@ metadata:
     growth
   category: marketing
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.0/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 1.2

@@ -12,8 +12,8 @@ metadata:
   tags: news, ai-trends, finance, geopolitics, github-trends, daily-digest
   category: content
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6

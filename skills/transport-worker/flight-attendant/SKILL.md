@@ -13,8 +13,8 @@ metadata:
     in-flight, csm
   category: transport-worker
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 7.8/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.4
   variance: 1.2

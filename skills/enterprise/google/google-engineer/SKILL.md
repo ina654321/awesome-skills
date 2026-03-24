@@ -11,8 +11,8 @@ metadata:
   tags: '[google, tech, okr, 20-percent-time, googliness, monorepo, distributed-systems, sre, pagerank]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 5.6/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.3

@@ -14,8 +14,8 @@ metadata:
     sim2real, imitation-learning, dexterous-manipulation, libero
   category: robotics
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 9.4/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 6.9
   variance: 1.7

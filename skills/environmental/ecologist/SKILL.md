@@ -12,8 +12,8 @@ metadata:
   tags: ecology, biodiversity, ecosystem, restoration, environmental-assessment
   category: environmental
   difficulty: expert
-  score: 8.5/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 8.0
   variance: 1.1

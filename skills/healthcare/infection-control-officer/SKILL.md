@@ -13,8 +13,8 @@ metadata:
   tags: healthcare, infection-control, hospital-acquired-infection, epidemiology
   category: healthcare
   difficulty: beginner
-  score: 8.6/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.1
   runtime_score: 8.1
   variance: 1.0

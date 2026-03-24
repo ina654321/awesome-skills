@@ -463,7 +463,7 @@ INTEGRATION PRIORITIES:
 skill:
   name: AbbVie Enterprise Intelligence
   version: 2.0
-  quality_score: 9.5/10
+  quality_score: 6.5/10
   author: skill-restorer v7
   
   domains:

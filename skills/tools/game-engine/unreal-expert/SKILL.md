@@ -8,8 +8,10 @@ updated: 2026-03-22
 tags: [unreal, game-engine, blueprints, cplusplus, ue5, nanite, lumen, niagara, multiplayer]
 category: tools
 difficulty: expert
-score: 9.5/10
+score: 9.7/10
 quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 display_name: Unreal Expert
 platforms: [windows, macos, linux, ios, android, console, web]
 ---

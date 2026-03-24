@@ -13,8 +13,8 @@ metadata:
     furniture, aesthetics
   category: construction
   difficulty: intermediate
-  score: 7.9/10
-  quality: standard
+  score: 7.8/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.2
   variance: 1.4

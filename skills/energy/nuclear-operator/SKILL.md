@@ -12,8 +12,8 @@ metadata:
   tags: nuclear, reactor-operation, radiation-protection, safety, energy
   category: energy
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.6
   variance: 1.4

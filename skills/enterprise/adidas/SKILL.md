@@ -6,8 +6,8 @@ metadata:
   author: skill-restorer v7
   version: 1.0.0
   updated: 2026-03-21
-  score: 9.5/10
-  quality: excellence
+  score: 8.3/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

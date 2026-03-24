@@ -11,8 +11,8 @@ metadata:
   tags: NTN, 5G-NR, satellite, LEO, GEO, HAPS, 3GPP-rel17, link-budget, Doppler, timing-advance
   category: telecom
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.4/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.7
   variance: 0.9

@@ -12,8 +12,8 @@ metadata:
   tags: '[elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]'
   category: tools
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.1
   variance: 2.0

@@ -14,8 +14,8 @@ metadata:
     sta, dft, tapeout
   category: semiconductor
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.3
   variance: 1.6

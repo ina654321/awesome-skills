@@ -12,8 +12,8 @@ metadata:
   tags: education, scheduling, academic-records, administration, coordination
   category: education
   difficulty: intermediate
-  score: 8.2/10
-  quality: production
+  score: 9.0/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.4
   variance: 1.5

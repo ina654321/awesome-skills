@@ -11,8 +11,8 @@ metadata:
   tags: '[designated-driver, safe-driving, transport, night-service, freelance]'
   category: freelancer
   difficulty: beginner
-  score: 8.4/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.7
   variance: 1.4

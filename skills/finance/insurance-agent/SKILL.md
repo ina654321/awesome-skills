@@ -10,8 +10,8 @@ metadata:
   tags: [insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products]
   category: finance
   difficulty: intermediate
-  score: 9.5/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.7
   runtime_score: 9.2
   variance: 0.3

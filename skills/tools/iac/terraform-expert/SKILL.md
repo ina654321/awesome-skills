@@ -11,8 +11,8 @@ metadata:
   tags: '[terraform, iac, infrastructure, devops, cloud]'
   category: tools
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 9.3/10
+  quality: exemplary
   text_score: 8.7
   runtime_score: 6.8
   variance: 1.9

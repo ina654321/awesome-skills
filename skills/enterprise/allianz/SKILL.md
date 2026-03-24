@@ -269,7 +269,9 @@ I'll structure this risk assessment using Allianz's comprehensive underwriting f
 **Pricing Framework:**
 - Technical rate based on modeled cat exposure (using RMS/Moody's models)
 - Loading for supply chain complexity and BI exposure
-- Credit for risk quality: fire protection systems, business continuity planning, construction standards
+- Credit for risk quality: community
+  variance: 0.5
+  text_score: 7.0 protection systems, business continuity planning, construction standards
 - Target combined ratio: 92-95% for this risk profile
 
 **Capital Structure:**

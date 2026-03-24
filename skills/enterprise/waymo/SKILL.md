@@ -9,8 +9,8 @@ metadata:
   tags: '[waymo, autonomous-driving, robotaxi, lidar, sensor-fusion, safety-critical-ai, waymo-driver, alphabet, waymo-one, perception-systems]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 8.5/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

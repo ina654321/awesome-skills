@@ -11,8 +11,8 @@ metadata:
   tags: servicenow, itsm, workflow, automation, glide, now-platform, itom, csm, flow-designer
   category: tools
   difficulty: expert
-  score: 9.6/10
-  quality: production
+  score: 8.4/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.7
   variance: 0.2

@@ -13,8 +13,8 @@ metadata:
     last-mile, dispatch, marketplace-matching, tony-xu]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 8.9/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2
@@ -887,7 +887,7 @@ echo "Apply doordash-engineer: three-sided marketplace, delivery optimization, D
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-21 | Restored to 9.5/10 quality: added §1.1/1.2/1.3, 5 examples, progressive disclosure |
+| 3.0.0 | 2026-03-21 | Restored to 9.5/10 quality: expert §1.1/1.2/1.3, 5 examples, progressive disclosure |
 | 2.0.0 | 2025-06-15 | Initial production release |
 | 1.0.0 | 2024-12-01 | Beta release |
 

@@ -13,8 +13,8 @@ metadata:
   tags: social-services, case-management, community-support, advocacy, mental-health
   category: healthcare
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

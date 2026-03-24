@@ -3,8 +3,10 @@ name: novartis-engineer
 display_name: Novartis Engineer
 author: neo.ai
 version: 3.1.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0
+score: 8.3/10
 difficulty: expert
 category: healthcare
 tags: [novartis, pharmaceuticals, engineering, digital-health, cell-therapy, gene-therapy, ai-drug-discovery]

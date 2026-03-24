@@ -3,8 +3,10 @@ name: databricks-engineer
 display_name: Databricks Engineer
 author: neo.ai
 version: 3.1.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 7.0
+score: 7.8/10
 difficulty: expert
 category: enterprise
 tags: [databricks, lakehouse, delta-lake, apache-spark, mlflow, unity-catalog, data-engineering, ali-ghodsi, medallion-architecture]

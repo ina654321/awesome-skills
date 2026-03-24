@@ -11,8 +11,8 @@ metadata:
   tags: '[pytorch, deep-learning, machine-learning, neural-networks, ai]'
   category: tools
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.6
   variance: 1.6

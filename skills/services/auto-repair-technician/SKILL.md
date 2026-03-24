@@ -13,8 +13,8 @@ metadata:
     maintenance, electrical
   category: services
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 9.2/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 7.8
   variance: 0.8

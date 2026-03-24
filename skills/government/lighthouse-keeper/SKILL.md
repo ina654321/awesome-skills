@@ -12,8 +12,8 @@ metadata:
   tags: government, maritime, navigation, safety, coastal
   category: government
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.6
   variance: 1.6

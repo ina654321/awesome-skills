@@ -14,8 +14,8 @@ metadata:
     smart-grid
   category: energy
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.8
   variance: 1.3
@@ -272,7 +272,7 @@ Step 2: System Analysis
 ├── Load flow: normal and emergency ratings
 ├── Voltage profile: 120V nominal ±5%
 ├── Short circuit: minimum fault for coordination
-└── Power quality: harmonic distortion <5% THD
+└── Power quality: expert distortion <5% THD
 
 Step 3: Solution Development
 ├── Identify constraints: overloaded transformers, low voltage

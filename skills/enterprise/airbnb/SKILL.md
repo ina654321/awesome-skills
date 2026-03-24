@@ -13,8 +13,8 @@ metadata:
     belonging, chesky, two-sided-platform]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 6.1/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.3

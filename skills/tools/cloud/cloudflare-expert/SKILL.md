@@ -12,8 +12,8 @@ metadata:
     cloudflare-pages, waf]'
   category: tools
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 8.0/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.3
   variance: 1.3

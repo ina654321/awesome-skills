@@ -9,8 +9,10 @@ metadata:
   tags: [credit, rating, debt, bond-rating, credit-analysis, credit-risk]
   category: finance
   difficulty: expert
-  score: 9.6/10
+  score: 8.6/10
   quality: expert
+  variance: 0.5
+  text_score: 10.0
   version_history:
     - 3.1.0: Enhanced credit metrics, added covenant analysis
     - 3.0.0: Initial expert version

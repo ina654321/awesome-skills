@@ -11,8 +11,8 @@ metadata:
   tags: '[llamaindex, rag, indexing, llm, retrieval-augmented-generation]'
   category: tools
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.6
   variance: 1.6
@@ -249,7 +249,7 @@ Indexing (offline) feeds Retrieval + Synthesis (online). Each component can be s
 Phase 1: Diagnose
 ├── Run retrieval evaluation: check which queries fail
 ├── Examine retrieved nodes: are they relevant?
-└── Check embedding quality: similar queries should retrieve similar docs
+└── Check embedding quality: expert queries should retrieve similar docs
 
 Phase 2: Fix
 ├── Adjust chunk_size and overlap

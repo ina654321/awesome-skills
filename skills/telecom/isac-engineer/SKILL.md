@@ -13,8 +13,8 @@ metadata:
     music-esprit, joint-waveform-design
   category: telecom
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.5
   runtime_score: 7.0
   variance: 1.5

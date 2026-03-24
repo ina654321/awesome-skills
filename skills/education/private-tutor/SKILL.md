@@ -13,8 +13,8 @@ metadata:
     personalized-learning
   category: education
   difficulty: intermediate
-  score: 7.9/10
-  quality: standard
+  score: 8.1/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.2
   variance: 1.4

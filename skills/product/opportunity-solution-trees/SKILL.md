@@ -11,8 +11,8 @@ metadata:
   tags: '[product-management, discovery, teresa-torres, continuous-discovery, ost]'
   category: product
   difficulty: intermediate
-  score: 7.7/10
-  quality: standard
+  score: 8.6/10
+  quality: expert
   text_score: 8.6
   runtime_score: 6.8
   variance: 1.8

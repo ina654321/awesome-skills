@@ -9,8 +9,8 @@ metadata:
   tags: '[snowflake, data-warehouse, cloud, multi-cluster, snowpark, etl, data-engineering, ai-data-cloud]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 5.7/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.2

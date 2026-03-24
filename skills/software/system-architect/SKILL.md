@@ -14,8 +14,8 @@ metadata:
     database-design, caching, load-balancing, high-availability, adr
   category: software
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.2
   runtime_score: 6.9
   variance: 2.3

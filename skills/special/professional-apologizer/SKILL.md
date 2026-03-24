@@ -11,8 +11,8 @@ metadata:
   tags: apology, conflict-resolution, communication, mediation, emotional-intelligence
   category: special
   difficulty: intermediate
-  score: 8.5/10
-  quality: production
+  score: 9.0/10
+  quality: expert
   text_score: 9.0
   runtime_score: 8.1
   variance: 0.9

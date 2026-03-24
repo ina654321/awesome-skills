@@ -13,8 +13,8 @@ metadata:
   tags: asana, project-management, task-management, workflows, agile
   category: productivity
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.9/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6

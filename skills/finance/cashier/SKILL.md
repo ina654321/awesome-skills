@@ -9,8 +9,8 @@ metadata:
   tags: retail, payment-processing, customer-service, point-of-sale, cash-handling
   category: finance
   difficulty: beginner
-  score: 9.5/10
-  quality: production
+  score: 9.6/10
+  quality: exemplary
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

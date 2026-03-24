@@ -11,8 +11,8 @@ metadata:
   tags: '[solidworks, cad, 3d-modeling, mechanical]'
   category: tools
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.3
   variance: 1.9

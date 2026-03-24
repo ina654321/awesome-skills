@@ -10,8 +10,8 @@ metadata:
   tags: '[tencent, cloudbase, miniprogram, wechat, serverless, cloud-function, database]'
   category: tools
   difficulty: intermediate
-  score: 7.8/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 8.4
   runtime_score: 7.3
   variance: 1.1

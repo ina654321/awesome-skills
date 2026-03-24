@@ -11,8 +11,8 @@ metadata:
   tags: '[aws, cloud, devops, infrastructure, architecture]'
   category: tools
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 8.2/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

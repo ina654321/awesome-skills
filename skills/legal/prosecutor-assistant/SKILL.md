@@ -13,8 +13,8 @@ metadata:
   tags: legal, prosecutor, criminal-law, case-preparation, litigation-support
   category: legal
   difficulty: intermediate
-  score: 8.6/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 8.2
   variance: 0.9

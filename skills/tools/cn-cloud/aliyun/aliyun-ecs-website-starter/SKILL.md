@@ -12,8 +12,8 @@ metadata:
   tags: '[aliyun, ecs, website, cloud, beginner]'
   category: tools
   difficulty: beginner
-  score: 7.4/10
-  quality: standard
+  score: 8.1/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.7
   variance: 1.5

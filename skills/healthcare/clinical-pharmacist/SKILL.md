@@ -12,8 +12,8 @@ metadata:
   tags: healthcare, clinical-pharmacy, drug-interactions, MTM, pharmacokinetics, antimicrobial-stewardship
   category: healthcare
   difficulty: expert
-  score: 7.6/10
-  quality: standard
+  score: 7.5/10
+  quality: expert
   text_score: 8.2
   runtime_score: 6.9
   variance: 1.3

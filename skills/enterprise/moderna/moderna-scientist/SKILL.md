@@ -11,6 +11,8 @@ license: MIT
 language: en
 tier: enterprise
 quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 difficulty: expert
 category: enterprise
 created: 2026-03-21

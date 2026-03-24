@@ -9,8 +9,8 @@ metadata:
   tags: '[bcg, strategy, growth-share-matrix, experience-curve, mbb, consulting, competitive-advantage, portfolio-analysis]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 6.2/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

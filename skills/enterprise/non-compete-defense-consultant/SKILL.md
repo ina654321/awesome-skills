@@ -12,6 +12,8 @@ difficulty: expert
 category: enterprise
 platforms: [claude-code, opencode, cursor, claude-desktop]
 quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 ---
 
 # Non-Compete Defense Consultant

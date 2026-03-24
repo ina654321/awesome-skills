@@ -12,8 +12,8 @@ metadata:
   tags: figma, ui-design, ux-design, prototyping, design-system, component-library
   category: tools
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.4/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.4
   variance: 1.8

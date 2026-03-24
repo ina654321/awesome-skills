@@ -12,8 +12,8 @@ metadata:
     multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]'
   category: creative
   difficulty: expert
-  score: 8.5/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 8.5
   runtime_score: 7.3
   variance: 1.2

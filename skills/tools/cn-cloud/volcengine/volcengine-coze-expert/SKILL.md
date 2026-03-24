@@ -13,7 +13,7 @@ metadata:
   category: tools
   difficulty: beginner
   score: 9.5/10
-  quality: production
+  quality: exemplary
   text_score: 9.8
   runtime_score: 9.2
   variance: 0.6

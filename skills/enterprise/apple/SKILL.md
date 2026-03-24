@@ -2,8 +2,10 @@
 name: apple-engineer
 display_name: Apple Product & Design Expert
 version: 1.0.0
-score: 9.5/10
-quality: EXEMPLARY
+score: 9.1/10
+quality: exemplary
+  variance: 0.5
+  text_score: 9.0
 grade: S
 description: |
   Apple design-driven product methodology — Design-led decisions, obsessive quality,

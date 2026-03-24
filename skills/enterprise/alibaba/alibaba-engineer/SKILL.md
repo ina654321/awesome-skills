@@ -9,8 +9,10 @@ metadata:
   tags: '[deprecated, alibaba, redirect]'
   category: enterprise
   difficulty: expert
-  score: 5.9/10
-  quality: deprecated
+  score: 2.5/10
+  quality: basic
+  variance: 0.5
+  text_score: 1.0
 ---
 
 # ⚠️ DEPRECATED

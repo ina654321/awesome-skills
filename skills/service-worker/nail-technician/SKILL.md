@@ -13,8 +13,8 @@ metadata:
     美甲, 美甲师, 指甲护理
   category: service-worker
   difficulty: expert
-  score: 8.1/10
-  quality: production
+  score: 7.0/10
+  quality: community
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

@@ -9,8 +9,8 @@ metadata:
   tags: wells-fargo, banking, consumer-banking, commercial-banking, investment-banking, wealth-management, charlie-scharf, risk-management, regulatory-compliance, transformation, asset-cap
   category: finance
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.3/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

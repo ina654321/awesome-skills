@@ -14,8 +14,8 @@ metadata:
     bbox, segmentation, ner, sentiment, quality-control
   category: special
   difficulty: intermediate
-  score: 7.8/10
-  quality: standard
+  score: 8.9/10
+  quality: expert
   text_score: 8.7
   runtime_score: 6.9
   variance: 1.8

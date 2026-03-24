@@ -8,8 +8,8 @@ updated: '2026-03-22'
 tags: [disney, imagineering, storytelling, experience-design, themed-entertainment]
 category: enterprise
 difficulty: expert
-score: 9.5/10
-quality: exemplary
+score: 7.4/10
+quality: expert
 text_score: 9.5
 runtime_score: 9.5
 variance: 0.0

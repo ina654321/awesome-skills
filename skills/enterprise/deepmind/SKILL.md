@@ -7,8 +7,10 @@ updated: 2026-03-21
 tags: [deepmind, agi, alphafold, alphago, gemini, reinforcement-learning, scientific-discovery, protein-folding, embodied-ai]
 category: enterprise
 difficulty: expert
-score: 9.5/10
-quality: excellence
+score: 8.5/10
+quality: expert
+  variance: 0.5
+  text_score: 10.0
 certified: true
 ---
 

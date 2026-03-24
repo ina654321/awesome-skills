@@ -12,8 +12,8 @@ metadata:
     client-focus]'
   category: enterprise
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.0/10
+  quality: expert
   text_score: 8.7
   runtime_score: 7.9
   variance: 0.8

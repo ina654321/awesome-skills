@@ -7,8 +7,8 @@ metadata:
   version: 1.0.0
   updated: 2026-03-21
   tags: medical-devices, diabetes-care, cardiovascular, diagnostics, abbott
-  score: 9.5/10
-  quality: premium
+  score: 6.6/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

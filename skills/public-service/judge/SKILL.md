@@ -9,8 +9,10 @@ metadata:
   tags: legal-adjudication, judicial-procedure, sentencing, courtroom, justice
   category: public-service
   difficulty: expert
-  score: 7.5/10
-  quality: production
+  score: 8.1/10
+  quality: expert
+  variance: 0.5
+  text_score: 7.0
 ---
 
 

@@ -17,8 +17,8 @@ metadata:
     - CPM
   category: realestate
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 7.7/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

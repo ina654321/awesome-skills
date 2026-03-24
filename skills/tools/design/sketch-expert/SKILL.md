@@ -12,8 +12,8 @@ metadata:
   tags: sketch, macos, ui-design, ux-design, vector-graphics
   category: design
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.9/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.5
   variance: 1.7

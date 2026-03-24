@@ -3,8 +3,10 @@ name: databricks-engineer
 display_name: Databricks Engineer
 author: skill-restorer v7
 version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-quality: exemplary
-score: 9.5/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0
+score: 8.6/10
 difficulty: expert
 category: enterprise
 tags: [databricks, lakehouse, delta-lake, apache-spark, mlflow, unity-catalog, mosaic-ai, dbrx, medallion-architecture, data-engineering, ali-ghodsi]

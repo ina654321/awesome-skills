@@ -9,6 +9,8 @@ tags: [negotiation, crisis-management, conflict-resolution, communication]
 category: enterprise
 difficulty: expert
 quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 platforms: [opencode, claude-code, cursor, cline]
 ---
 

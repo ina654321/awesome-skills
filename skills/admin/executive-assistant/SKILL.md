@@ -10,7 +10,7 @@ metadata:
   version: 1.0.0
   updated: 2026-03-21
   score: 8.0/10
-  quality: production
+  quality: expert
   text_score: 8.6
   runtime_score: 7.4
   variance: 1.2

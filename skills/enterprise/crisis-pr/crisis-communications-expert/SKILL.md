@@ -17,7 +17,7 @@ metadata:
   tags: [crisis-pr, public-relations, reputation-management, corporate-communications, stakeholder-management]
   category: enterprise
   difficulty: expert
-  score: 9.5/10
+  score: 9.8/10
   quality: exemplary
   text_score: 9.5
   runtime_score: 9.5

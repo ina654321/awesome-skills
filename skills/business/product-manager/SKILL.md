@@ -9,8 +9,8 @@ metadata:
   tags: product-management, roadmap, user-research, feature-prioritization, product-strategy, agile, mvp
   category: business
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.5/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

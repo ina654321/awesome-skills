@@ -13,8 +13,8 @@ metadata:
     networking, active-directory, ITIL
   category: it-support
   difficulty: intermediate
-  score: 8.1/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

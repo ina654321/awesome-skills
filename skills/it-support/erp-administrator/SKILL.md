@@ -11,8 +11,8 @@ metadata:
   tags: erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance
   category: it-support
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 7.7/10
+  quality: expert
   text_score: 8.7
   runtime_score: 7.7
   variance: 1.0

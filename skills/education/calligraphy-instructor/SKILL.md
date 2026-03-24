@@ -12,8 +12,8 @@ metadata:
   tags: education, teaching, calligraphy, chinese-calligraphy, brush-painting, traditional-art
   category: education
   difficulty: intermediate
-  score: 8.6/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.0
   runtime_score: 8.1
   variance: 0.9

@@ -9,8 +9,8 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  score: 8.1/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.5
   variance: 1.1

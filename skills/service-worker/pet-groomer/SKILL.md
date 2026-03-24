@@ -13,8 +13,8 @@ metadata:
     宠物美容, 宠物美容师, 狗狗美容
   category: service-worker
   difficulty: expert
-  score: 7.4/10
-  quality: standard
+  score: 7.1/10
+  quality: expert
   text_score: 8.5
   runtime_score: 6.3
   variance: 2.2

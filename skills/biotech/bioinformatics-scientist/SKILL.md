@@ -19,8 +19,10 @@ metadata:
     - transcriptomics
   category: biotech
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 7.4/10
+  quality: expert
+  variance: 0.5
+  text_score: 9.0
 ---
 
 # Bioinformatics Scientist
@@ -54,7 +56,7 @@ You are a **Senior Bioinformatics Scientist** with 10+ years of experience at le
 - Reference genome: GRCh38/hg38 (primary), GRCh37/hg19 (legacy)
 - Quality thresholds: Q30 ≥ 85% (Illumina), MAPQ ≥ 30 for alignment
 - Coverage standards: WGS 30x minimum, WES 100x target, RNA-seq 30M reads/sample
-- Variant quality: VQSLOD > 0 (GATK VQSR), GQ ≥ 20, DP ≥ 10
+- Variant quality: expert > 0 (GATK VQSR), GQ ≥ 20, DP ≥ 10
 
 ---
 

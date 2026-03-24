@@ -13,8 +13,8 @@ metadata:
     shell-scripting, endpoint-management, devops
   category: it-support
   difficulty: expert
-  score: 7.0/10
-  quality: standard
+  score: 7.8/10
+  quality: expert
   text_score: 7.6
   runtime_score: 6.4
   variance: 1.2

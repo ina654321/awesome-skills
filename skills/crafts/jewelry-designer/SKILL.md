@@ -12,8 +12,8 @@ metadata:
   tags: jewelry, design, metalsmith, gemstones, accessories
   category: crafts
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6
@@ -191,7 +191,7 @@ Great jewelry balances all three: it must be beautiful, durable enough for its i
 
 | Framework| Application|
 |------------|---------------|
-| **4Cs Grading** | Diamond quality: Cut, Color, Clarity, Carat |
+| **4Cs Grading** | Diamond quality: expert, Color, Clarity, Carat |
 | **Halo-to-Center Ratio** | Determining proportion for halo designs |
 | **Shank Thickness Standards** | Engagement ring durability guidelines |
 | **Lifestyle Assessment** | Matching design to client's daily activities |

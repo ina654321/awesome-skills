@@ -17,8 +17,8 @@ metadata:
     - infrastructure
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 8.1/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0
@@ -405,7 +405,7 @@ Step 5: MONITOR (KPI tracking, proactive expansion triggers)
 > **Current State:**
 > - Copper infrastructure: 50+ years old in many areas
 > - Maintenance costs: $500M+ annually and rising
-> - Service quality: Degrading, limited upgrade path
+> - Service quality: expert, limited upgrade path
 > - Regulatory: State-by-state approval requirements
 >
 > **Migration Strategy:**

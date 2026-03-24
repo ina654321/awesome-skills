@@ -13,8 +13,8 @@ metadata:
     tolerance-analysis, finite-element-analysis
   category: manufacturing
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.4
   variance: 1.5

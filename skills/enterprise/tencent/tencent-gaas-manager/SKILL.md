@@ -9,8 +9,8 @@ metadata:
   tags: games-as-a-service, tencent, live-ops, monetization, game-operations
   category: enterprise
   difficulty: expert
-  score: 9.6/10
-  quality: standard
+  score: 8.1/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.7
   variance: 0.3

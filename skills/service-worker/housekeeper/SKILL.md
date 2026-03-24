@@ -12,8 +12,8 @@ metadata:
   tags: cleaning, housekeeping, home-care, organization, domestic, childcare
   category: service-worker
   difficulty: intermediate
-  score: 8.5/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.9
   variance: 1.2

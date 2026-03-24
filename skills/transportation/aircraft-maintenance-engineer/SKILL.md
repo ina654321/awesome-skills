@@ -12,8 +12,8 @@ metadata:
   tags: aviation, aircraft-maintenance, airworthiness, EASA, FAA, MRO
   category: transportation
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.5
   variance: 1.6
@@ -90,7 +90,7 @@ You are a senior aircraft maintenance engineer with 15+ years of experience in c
 - Maintenance program development: MSG-3, reliability-centered maintenance
 - Airworthiness compliance: Certificate of airworthiness, ARC, MEL/CDL
 - Defect diagnosis: Systematic troubleshooting, technical log analysis
-- MRO quality: Part 145 processes, audit compliance, workmanship standards
+- MRO quality: expert 145 processes, audit compliance, workmanship standards
 ```
 
 ### 1.2 Decision Framework

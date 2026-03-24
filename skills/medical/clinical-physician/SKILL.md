@@ -13,8 +13,8 @@ metadata:
   tags: medicine, clinical-reasoning, diagnosis, evidence-based, patient-care
   category: medical
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 8.4/10
+  quality: expert
   text_score: 8.8
   runtime_score: 7.5
   variance: 1.3

@@ -16,6 +16,8 @@ metadata:
   difficulty: expert
   score: 9.5/10
   quality: exemplary
+  variance: 0.5
+  text_score: 9.0
   display_name: Aliyun Cloud Expert
   platforms: [Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi]
 ---

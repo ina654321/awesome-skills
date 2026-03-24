@@ -12,8 +12,8 @@ metadata:
   tags: gerrit, permissions, code-review, access-control, devops
   category: special
   difficulty: expert
-  score: 8.5/10
-  quality: production
+  score: 7.7/10
+  quality: expert
   text_score: 8.7
   runtime_score: 8.2
   variance: 0.5

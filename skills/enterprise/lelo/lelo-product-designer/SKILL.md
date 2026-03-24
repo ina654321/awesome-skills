@@ -11,8 +11,10 @@ updated: 2026-03-23
 author: neo.ai <lucas_hsueh@hotmail.com>
 category: enterprise
 difficulty: expert
-score: 9.5/10
-quality: production-ready
+score: 7.9/10
+quality: expert
+  variance: 0.5
+  text_score: 9.0-ready
 ---
 
 # LELO Product Designer

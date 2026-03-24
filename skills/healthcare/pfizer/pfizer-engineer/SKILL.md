@@ -14,8 +14,8 @@ metadata:
     - data-infrastructure
   category: healthcare
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.6/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.1

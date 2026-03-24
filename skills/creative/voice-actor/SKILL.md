@@ -13,8 +13,10 @@ metadata:
   tags: [voice-acting, dubbing, narration, audio-production, performance]
   category: creative
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
+  variance: 0.5
+  text_score: 10.0
   platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 ---
 

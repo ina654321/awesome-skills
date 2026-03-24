@@ -12,8 +12,8 @@ metadata:
   tags: media, radio, broadcasting, podcast, audio, show-host, interview, talk-show
   category: media
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.1
   runtime_score: 7.7
   variance: 1.4

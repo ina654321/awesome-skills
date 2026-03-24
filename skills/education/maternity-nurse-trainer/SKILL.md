@@ -12,8 +12,8 @@ metadata:
   tags: education, maternity, newborn-care, maternal-health, professional-certification
   category: education
   difficulty: intermediate
-  score: 8.2/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.9
   runtime_score: 7.4
   variance: 1.5

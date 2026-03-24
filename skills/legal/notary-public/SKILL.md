@@ -13,8 +13,8 @@ metadata:
   tags: legal, notarization, document-certification, legal-authentication, identity-verification
   category: legal
   difficulty: intermediate
-  score: 8.5/10
-  quality: production
+  score: 7.9/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.9
   variance: 1.2

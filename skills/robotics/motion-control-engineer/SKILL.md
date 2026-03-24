@@ -13,8 +13,8 @@ metadata:
     trajectory-tracking, real-time
   category: robotics
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 8.6
   runtime_score: 7.3
   variance: 1.3

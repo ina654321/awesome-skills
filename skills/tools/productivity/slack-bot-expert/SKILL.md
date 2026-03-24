@@ -11,8 +11,8 @@ metadata:
   tags: '[slack, bot, bolt, automation, chatops, webhooks, slack-api]'
   category: tools
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 8.0/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.2
   variance: 1.9

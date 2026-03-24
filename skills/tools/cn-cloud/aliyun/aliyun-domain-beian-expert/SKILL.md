@@ -11,8 +11,8 @@ metadata:
   tags: '[aliyun, domain, icp-beian, beian, website]'
   category: tools
   difficulty: beginner
-  score: 7.6/10
-  quality: standard
+  score: 8.1/10
+  quality: expert
   text_score: 8.6
   runtime_score: 6.6
   variance: 2.0

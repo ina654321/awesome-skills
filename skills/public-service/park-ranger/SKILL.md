@@ -20,8 +20,8 @@ metadata:
     - 游客服务
   category: public-service
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 6.7/10
+  quality: community
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

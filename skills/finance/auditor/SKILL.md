@@ -10,8 +10,8 @@ metadata:
     SOX, PCAOB, GAAS, Big-4
   category: finance
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 6.9/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.3
@@ -1021,7 +1021,7 @@ Before using any output from this skill, verify:
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
-| 5.0.0 | 2026-03-21 | Complete rebuild to 9.5/10 quality: Added Big 4 data, SOX framework, 5 comprehensive examples, progressive disclosure structure, updated PCAOB 2024 standards | Skill Restoration Team |
+| 5.0.0 | 2026-03-21 | Complete rebuild to 9.5/10 quality: community Big 4 data, SOX framework, 5 comprehensive examples, progressive disclosure structure, updated PCAOB 2024 standards | Skill Restoration Team |
 | 4.0.0 | 2024-01 | Complete rewrite to 16-section standard; added 3 full scenario examples; enhanced risk matrix; improved workflow with [✓]/[✗] criteria | neo.ai |
 | 3.0.0 | 2023-06 | Initial expert-level skill | neo.ai |
 

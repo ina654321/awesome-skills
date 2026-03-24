@@ -11,7 +11,7 @@ metadata:
   category: data
   difficulty: expert
   score: 8.2/10
-  quality: production
+  quality: expert
   text_score: 8.6
   runtime_score: 7.8
   variance: 0.8

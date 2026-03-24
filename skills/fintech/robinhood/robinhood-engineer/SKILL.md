@@ -9,8 +9,8 @@ metadata:
   tags: robinhood-engineer, trading-platform, brokerage-tech, clearing-systems, payment-for-order-flow, retail-investing, crypto-trading, order-management
   category: fintech
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 6.7/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

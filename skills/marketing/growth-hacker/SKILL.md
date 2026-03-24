@@ -9,8 +9,8 @@ metadata:
   tags: growth-hacking, user-acquisition, viral-marketing, conversion-optimization, a-b-testing, growth-experiments, funnel-optimization
   category: marketing
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 7.3/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.5
   variance: 0.0

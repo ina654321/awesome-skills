@@ -13,8 +13,8 @@ metadata:
   tags: education, teaching, classroom-support, student-guidance, material-preparation
   category: education
   difficulty: intermediate
-  score: 8.6/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 8.1
   variance: 0.9

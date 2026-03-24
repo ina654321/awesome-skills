@@ -12,6 +12,8 @@ description: >
   Use when: F-35 program analysis, defense procurement, military aircraft comparison, DoD contracting.
   Works with: General Dynamics, Northrop Grumman, Raytheon.
 quality: expert
+  variance: 0.5
+  text_score: 8.0
 license: MIT
 ---
 

@@ -11,8 +11,8 @@ metadata:
   tags: academic-counselor, student-affairs, career-guidance, mental-health, education
   category: education
   difficulty: expert
-  score: 8.7/10
-  quality: production
+  score: 9.0/10
+  quality: expert
   text_score: 9.0
   runtime_score: 8.3
   variance: 0.7

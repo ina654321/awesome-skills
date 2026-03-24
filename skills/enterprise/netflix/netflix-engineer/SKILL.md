@@ -12,8 +12,8 @@ metadata:
     high-performance, spinnaker, simian-army, context-not-control, stunning-colleagues]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: premium
+  score: 6.8/10
+  quality: community
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2
@@ -554,7 +554,7 @@ Post-Incident:
 - [ ] Freedom with responsibility: Does this assume high performance?
 - [ ] Chaos ready: Is this designed to survive production failures?
 - [ ] Context-rich: Is there enough context for informed decisions?
-- [ ] Feedback quality: Is feedback 4A-aligned?
+- [ ] Feedback quality: community feedback 4A-aligned?
 - [ ] Talent density impact: Does this elevate the team?
 - [ ] Alignment: Is this "highly aligned, loosely coupled"?
 - [ ] Data-driven: Are decisions backed by metrics?

@@ -5,8 +5,10 @@ tags: [negotiation, career-management, compensation, exit-strategy, severance, e
 version: 1.2.0
 category: enterprise
 difficulty: expert
-score: 9.5/10
+score: 9.1/10
 quality: exemplary
+  variance: 0.5
+  text_score: 9.0
 license: MIT
 author: neo.ai <lucas_hsueh@hotmail.com>
 updated: 2026-03-23

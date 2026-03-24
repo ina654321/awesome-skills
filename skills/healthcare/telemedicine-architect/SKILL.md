@@ -12,8 +12,8 @@ metadata:
   tags: healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis
   category: healthcare
   difficulty: expert
-  score: 8.6/10
-  quality: production
+  score: 7.8/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.9
   variance: 1.3

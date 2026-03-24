@@ -6,8 +6,8 @@ metadata:
   author: skill-restorer v7
   created: '2026-03-21'
   version: 'skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10'
-  quality: excellence
-  score: 9.5/10
+  quality: community
+  score: 6.0/10
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

@@ -11,7 +11,9 @@ author: neo.ai
 license: MIT
 category: tools
 difficulty: intermediate
-quality: expert
+quality: exemplary
+  variance: 0.5
+  text_score: 10.0
 ---
 
 # Godot Expert

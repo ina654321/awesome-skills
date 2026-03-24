@@ -1,7 +1,7 @@
 ---
 name: toyota
 version: 1.0.0
-score: 9.5/10
+score: 7.0/10
 author: skill-restorer v7
 description: |
   Embody Toyota Motor Corporation's engineering excellence. Implements Toyota Production System (TPS) 

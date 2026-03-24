@@ -13,8 +13,8 @@ metadata:
     clia, mlt, clinical-chemistry
   category: healthcare
   difficulty: intermediate
-  score: 8.6/10
-  quality: production
+  score: 8.1/10
+  quality: expert
   text_score: 9.2
   runtime_score: 8.0
   variance: 1.2

@@ -13,8 +13,8 @@ metadata:
     fp8, high-flyer]'
   category: enterprise
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 9.2/10
+  quality: exemplary
   text_score: 8.9
   runtime_score: 8.0
   variance: 0.9

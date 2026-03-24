@@ -12,8 +12,8 @@ metadata:
   tags: legal, compliance, corporate, contracts, risk-management
   category: legal
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.8
   variance: 1.3

@@ -11,8 +11,8 @@ metadata:
   tags: '[icp-beian, beian, china, website, compliance]'
   category: tools
   difficulty: beginner
-  score: 7.9/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.0
   variance: 1.9

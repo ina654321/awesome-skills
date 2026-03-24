@@ -9,8 +9,8 @@ metadata:
   tags: confinement, postpartum-care, newborn-care, lactation, maternal-health, zuo-yue-zi, pantang, traditional-confinement, 坐月子, 月嫂, 新生儿护理, bertungku, bengkung
   category: service-worker
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 7.7/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

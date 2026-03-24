@@ -9,8 +9,8 @@ metadata:
   version: 2.1.0
   updated: 2026-03-21
   tags: '[evaluation, quality-assurance, testing, runtime-validation]'
-  score: 7.7/10
-  quality: standard
+  score: 8.5/10
+  quality: expert
   text_score: 8.3
   runtime_score: 7.1
   variance: 1.2

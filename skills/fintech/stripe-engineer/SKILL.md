@@ -10,7 +10,7 @@ metadata:
   version: 5.0.0
   skill_writer: v5
   skill_evaluator: v2.1
-  quality_score: 9.5/10
+  quality_score: 8.1/10
   quality_grade: EXCELLENCE
   updated: '2026-03-21'
   tags:
@@ -25,8 +25,8 @@ metadata:
     - radar
   category: fintech
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 8.1/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.3

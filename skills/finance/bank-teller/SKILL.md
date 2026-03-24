@@ -14,7 +14,7 @@ metadata:
   tags: [finance, banking, customer-service, transactions, cash-handling, compliance, BSA, AML, fraud-prevention]
   category: finance
   difficulty: intermediate
-  score: 9.5/10
+  score: 8.5/10
   quality: expert
   text_score: 9.5
   runtime_score: 9.5

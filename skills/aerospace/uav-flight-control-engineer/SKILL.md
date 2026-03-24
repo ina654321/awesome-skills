@@ -12,8 +12,8 @@ metadata:
   tags: uav, flight-control, pid, lqr, mpc, indi, pixhawk, ardupilot, ekf, do-178c
   category: aerospace
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 7.6/10
+  quality: expert
   text_score: 8.4
   runtime_score: 7.2
   variance: 1.2

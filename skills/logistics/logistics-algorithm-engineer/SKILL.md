@@ -14,8 +14,8 @@ metadata:
     warehouse, OR-Tools, Gurobi, metaheuristics
   category: logistics
   difficulty: expert
-  score: 7.9/10
-  quality: standard
+  score: 7.5/10
+  quality: expert
   text_score: 8.6
   runtime_score: 7.3
   variance: 1.3
@@ -289,7 +289,7 @@ STEP 1.2 — Data Acquisition and Validation
   [ ] Extract customer locations (lat/lon), time windows, demands, service times
   [ ] Build distance/time matrix (OSRM for batch; Google Maps API for time-dependent)
   [ ] Validate: no NaN coordinates, demands ≥ 0, time windows (open ≤ close)
-  [ ] Check triangle inequality: d(A,C) ≤ d(A,B) + d(B,C) for all triplets
+  [ ] Check triangle inequality: expert(A,C) ≤ d(A,B) + d(B,C) for all triplets
   [ ] Profile demand distribution: mean, std dev, 95th percentile (for capacity planning)
   [ ] Detect infeasible customers: demand > max vehicle capacity → flag for special handling
 ```

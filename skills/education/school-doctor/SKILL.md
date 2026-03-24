@@ -13,8 +13,8 @@ metadata:
   tags: education, school-health, first-aid, health-education, student-wellness
   category: education
   difficulty: intermediate
-  score: 8.7/10
-  quality: production
+  score: 8.9/10
+  quality: expert
   text_score: 9.0
   runtime_score: 8.4
   variance: 0.6

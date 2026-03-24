@@ -13,8 +13,8 @@ metadata:
     api, multimodal, ai-safety]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: EXCELLENCE
+  score: 8.8/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

@@ -11,8 +11,8 @@ metadata:
   tags: '[aliyun, cdn, acceleration, performance]'
   category: tools
   difficulty: expert
-  score: 7.6/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 8.6
   runtime_score: 6.7
   variance: 1.9

@@ -11,8 +11,8 @@ metadata:
   tags: wedding, ceremony, event-planning, coordination, emotional-support
   category: special
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 8.7/10
+  quality: expert
   text_score: 9.0
   runtime_score: 7.8
   variance: 1.2

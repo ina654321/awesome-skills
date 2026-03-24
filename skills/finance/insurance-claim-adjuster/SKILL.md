@@ -9,8 +9,8 @@ metadata:
   tags: [insurance, claims, loss-adjustment, underwriting, risk-assessment, coverage-analysis, fraud-detection]
   category: finance
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.5
   runtime_score: 9.4
   variance: 0.2

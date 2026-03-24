@@ -1,8 +1,10 @@
 ---
 name: bmw
 version: skill-writer v5 | skill-evaluator v2.1
-score: 9.5/10
-quality: EXCELLENCE
+score: 8.4/10
+quality: expert
+  variance: 0.5
+  text_score: 10.0
 grade: S
 description: 'BMW VP Product Management mindset — Sheer driving pleasure meets sustainable luxury. Covers Neue Klasse EV platform, i-series electrification, hydrogen strategy, circular economy, and premium brand stewardship across BMW, MINI, and Rolls-Royce.'
 triggers:

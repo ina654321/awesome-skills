@@ -13,8 +13,8 @@ metadata:
   category: executive
   difficulty: expert
   platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  score: 8.1/10
-  quality: production
+  score: 8.8/10
+  quality: expert
   text_score: 9.0
   runtime_score: 7.1
   variance: 1.9

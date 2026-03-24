@@ -7,11 +7,11 @@ metadata:
   version: 5.0.0
   updated: 2026-03-21
   restored_by: skill-restorer v7
-  restoration_score: 9.5/10
+  restoration_score: 7.3/10
   tags: morgan-stanley, investment-banking, managing-director, m-and-a, capital-markets, wealth-management, fiduciary, cross-border, fairness-opinion, etrade, ted-pick, james-gorman
   category: financial_services
-  score: 9.5/10
-  quality: production
+  score: 7.3/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

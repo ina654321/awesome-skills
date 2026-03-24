@@ -11,8 +11,8 @@ metadata:
   tags: '[latex, typesetting, academic, documents, writing, bibtex, beamer]'
   category: tools
   difficulty: expert
-  score: 8.6/10
-  quality: production
+  score: 8.4/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.9
   variance: 1.3

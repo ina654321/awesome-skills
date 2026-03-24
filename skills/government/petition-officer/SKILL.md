@@ -12,8 +12,8 @@ metadata:
   tags: petition, grievance, public-complaint, administrative, citizen-services
   category: government
   difficulty: expert
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.7
   variance: 1.4

@@ -14,7 +14,9 @@ metadata:
   category: creative
   difficulty: expert
   platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  quality: community
+  quality: expert
+  variance: 0.5
+  text_score: 10.0
 ---
 
 

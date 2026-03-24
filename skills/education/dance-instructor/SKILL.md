@@ -12,8 +12,8 @@ metadata:
   tags: dance, choreography, performance, movement, artistic-expression
   category: education
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 9.1/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.3
   variance: 1.7

@@ -11,8 +11,8 @@ metadata:
   tags: '[flink, streaming, data-engineering, real-time, apache]'
   category: tools
   difficulty: expert
-  score: 8.5/10
-  quality: production
+  score: 8.3/10
+  quality: expert
   text_score: 9.2
   runtime_score: 7.8
   variance: 1.4

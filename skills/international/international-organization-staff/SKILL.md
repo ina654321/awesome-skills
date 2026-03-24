@@ -12,8 +12,8 @@ metadata:
   tags: diplomacy, multilateral, international-cooperation, policy, governance
   category: international
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 8.4/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.2
   variance: 1.9

@@ -13,8 +13,8 @@ metadata:
   tags: video-editing, post-production, color-grading, motion-graphics, av-sync
   category: creative
   difficulty: expert
-  score: 9.5/10
-  quality: excellence
+  score: 9.0/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

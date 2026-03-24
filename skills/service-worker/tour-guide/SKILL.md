@@ -13,8 +13,8 @@ metadata:
     itinerary-planning, 导游, 观光导游, 旅游讲解
   category: service-worker
   difficulty: expert
-  score: 8.0/10
-  quality: production
+  score: 6.6/10
+  quality: community
   text_score: 8.6
   runtime_score: 7.3
   variance: 1.3

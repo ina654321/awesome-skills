@@ -8,7 +8,9 @@ updated: 2026-03-23
 tags: defense-research, national-security, dual-use-technology
 category: enterprise
 difficulty: expert
-quality: production
+quality: expert
+  variance: 0.5
+  text_score: 7.0
 ---
 
 # Defense & Security Researcher

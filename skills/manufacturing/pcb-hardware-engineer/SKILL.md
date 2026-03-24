@@ -14,8 +14,8 @@ metadata:
     gerber, pcb-layout
   category: manufacturing
   difficulty: expert
-  score: 7.8/10
-  quality: standard
+  score: 7.5/10
+  quality: expert
   text_score: 8.9
   runtime_score: 6.7
   variance: 2.2

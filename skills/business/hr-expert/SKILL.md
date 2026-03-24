@@ -12,8 +12,8 @@ metadata:
   tags: hr, talent-acquisition, performance-management, employee-relations, organizational-design
   category: business
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 9.0/10
+  quality: expert
   text_score: 8.9
   runtime_score: 7.5
   variance: 1.4

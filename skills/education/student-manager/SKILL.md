@@ -13,8 +13,8 @@ metadata:
   tags: education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination
   category: education
   difficulty: intermediate
-  score: 8.3/10
-  quality: production
+  score: 9.0/10
+  quality: exemplary
   text_score: 9.0
   runtime_score: 7.6
   variance: 1.4

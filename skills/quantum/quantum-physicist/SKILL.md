@@ -14,7 +14,7 @@ metadata:
     calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering
   category: quantum
   difficulty: expert
-  score: 9.5/10
+  score: 9.1/10
   quality: exemplary
   text_score: 9.5
   runtime_score: 9.3

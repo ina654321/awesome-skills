@@ -17,8 +17,10 @@ metadata:
     - outcomes-research
   category: healthcare
   difficulty: expert
-  score: 9.5/10
-  quality: exemplary
+  score: 7.4/10
+  quality: expert
+  variance: 0.5
+  text_score: 9.0
 ---
 
 # Health Economist

@@ -9,8 +9,8 @@ metadata:
   tags: '[microsoft, azure-openai, copilot, responsible-ai, azure-ml, enterprise-ai, mlops, trustworthy-ai]'
   category: enterprise
   difficulty: expert
-  score: 9.5/10
-  quality: production
+  score: 8.5/10
+  quality: expert
   text_score: 9.6
   runtime_score: 9.4
   variance: 0.2

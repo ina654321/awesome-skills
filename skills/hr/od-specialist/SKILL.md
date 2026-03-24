@@ -13,8 +13,8 @@ metadata:
   tags: hr, organization-development, change-management, org-design, culture, talent-strategy
   category: hr
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
+  score: 8.6/10
+  quality: expert
   text_score: 9.1
   runtime_score: 7.7
   variance: 1.4

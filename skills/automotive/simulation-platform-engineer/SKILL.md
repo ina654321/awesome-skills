@@ -14,8 +14,8 @@ metadata:
     sensor-fusion, perception-testing, regression-testing, edge-cases
   category: automotive
   difficulty: expert
-  score: 8.2/10
-  quality: production
+  score: 7.5/10
+  quality: expert
   text_score: 8.8
   runtime_score: 7.5
   variance: 1.3

@@ -13,7 +13,7 @@ metadata:
     compliance
   category: finance
   difficulty: expert
-  score: 9.5/10
+  score: 8.0/10
   quality: expert
   text_score: 9.4
   runtime_score: 9.6

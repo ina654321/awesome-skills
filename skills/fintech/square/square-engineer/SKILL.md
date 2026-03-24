@@ -11,14 +11,16 @@ metadata:
   version: 5.0.0
   skill_writer: v5
   skill_evaluator: v2.1
-  excellence_score: 9.5/10
+  excellence_score: 8.1/10
   updated: 2026-03-21
   tags: square-engineer, block-inc, seller-ecosystem, pos-systems, cash-app, bitcoin-payments,
     afterpay, merchant-services, fintech-engineering, payments-api, square-hardware,
     spiral, bitkey, proto
   category: fintech
   difficulty: expert
-  quality: excellence
+  quality: expert
+  variance: 0.5
+  text_score: 9.0
   certified: true
 ---
 

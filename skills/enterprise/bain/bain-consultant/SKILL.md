@@ -12,8 +12,8 @@ metadata:
   tags: '[bain, consulting, strategy, private-equity, nps, results-360]'
   category: enterprise
   difficulty: expert
-  score: 7.7/10
-  quality: standard
+  score: 8.3/10
+  quality: expert
   text_score: 7.8
   runtime_score: 7.7
   variance: 0.1
