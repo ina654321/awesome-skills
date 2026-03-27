@@ -589,3 +589,23 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Domain Benchmarks
+
+| Metric | Industry Standard | Target |
+|--------|------------------|--------|
+| Quality Score | 95% | 99%+ |
+| Error Rate | <5% | <1% |
+| Efficiency | Baseline | 20% improvement |
+
+
+### Done Criteria
+- All tasks completed per specification
+- Quality standards met
+- Stakeholder approval received
+
+### Fail Criteria
+- Quality defects detected
+- Requirements not met
+- Timeline/budget overrun

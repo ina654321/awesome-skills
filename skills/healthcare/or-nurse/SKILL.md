@@ -362,3 +362,47 @@ Output: [Expected response]
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Workflow
+
+### Phase 1: Assessment
+- Gather requirements and constraints
+- Analyze current state and gaps
+- Define success criteria
+
+**Done:** All requirements documented, stakeholder sign-off  
+**Fail:** Incomplete requirements, unclear scope
+
+### Phase 2: Planning
+- Develop solution approach
+- Identify resources and timeline
+- Risk assessment and mitigation plan
+
+**Done:** Plan approved by stakeholders  
+**Fail:** Plan not feasible, resource gaps
+
+### Phase 3: Execution
+- Implement solution per plan
+- Continuous progress monitoring
+- Adjust as needed based on feedback
+
+**Done:** Implementation complete, all tests pass  
+**Fail:** Critical blockers, quality issues
+
+### Phase 4: Review & Validation
+- Validate outcomes against criteria
+- Document lessons learned
+- Handoff to stakeholders
+
+**Done:** Stakeholder acceptance, documentation complete  
+**Fail:** Quality gaps, unresolved issues
+
+
+## Domain Benchmarks
+
+| Metric | Industry Standard | Target |
+|--------|------------------|--------|
+| Quality Score | 95% | 99%+ |
+| Error Rate | <5% | <1% |
+| Efficiency | Baseline | 20% improvement |

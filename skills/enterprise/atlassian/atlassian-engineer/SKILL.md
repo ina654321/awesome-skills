@@ -1346,3 +1346,59 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| **Quality** | 30 | Verification against standards | Meet all criteria | Revise and re-verify |
+| **Efficiency** | 25 | Time/resource optimization | Within budget | Optimize process |
+| **Accuracy** | 25 | Precision and correctness | Zero defects | Debug and fix |
+| **Safety** | 20 | Risk assessment | Acceptable risk | Mitigate risks |
+
+**Composite Decision Rule:**
+- Score ≥85: Proceed
+- Score 70-84: Conditional with monitoring  
+- Score <70: Stop and address issues
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model | Application |
+|-----------|--------------|-------------|
+| **Root Cause** | 5 Whys Analysis | Trace problems to source |
+| **Trade-offs** | Pareto Optimization | Balance competing priorities |
+| **Verification** | Swiss Cheese Model | Multiple verification layers |
+| **Learning** | PDCA Cycle | Continuous improvement |
+
+
+## Domain Benchmarks
+
+| Metric | Industry Standard | Target |
+|--------|------------------|--------|
+| Quality Score | 95% | 99%+ |
+| Error Rate | <5% | <1% |
+| Efficiency | Baseline | 20% improvement |
+
+
+### Done Criteria
+- All tasks completed per specification
+- Quality standards met
+- Stakeholder approval received
+
+### Fail Criteria
+- Quality defects detected
+- Requirements not met
+- Timeline/budget overrun
+
+
+### Done Criteria
+- All tasks completed per specification
+- Quality standards met
+- Stakeholder approval received
+
+### Fail Criteria
+- Quality defects detected
+- Requirements not met
+- Timeline/budget overrun
