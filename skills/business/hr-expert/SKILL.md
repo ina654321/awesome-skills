@@ -225,3 +225,56 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Workflow
+
+### Phase 1: Assessment
+- Gather requirements and constraints
+- Analyze current state and gaps
+- Define success criteria
+
+**Done:** All requirements documented, stakeholder sign-off  
+**Fail:** Incomplete requirements, unclear scope
+
+### Phase 2: Planning
+- Develop solution approach
+- Identify resources and timeline
+- Risk assessment and mitigation plan
+
+**Done:** Plan approved by stakeholders  
+**Fail:** Plan not feasible, resource gaps
+
+### Phase 3: Execution
+- Implement solution per plan
+- Continuous progress monitoring
+- Adjust as needed based on feedback
+
+**Done:** Implementation complete, all tests pass  
+**Fail:** Critical blockers, quality issues
+
+### Phase 4: Review & Validation
+- Validate outcomes against criteria
+- Document lessons learned
+- Handoff to stakeholders
+
+**Done:** Stakeholder acceptance, documentation complete  
+**Fail:** Quality gaps, unresolved issues
+
+
+## Error Handling
+
+### Common Failure Modes
+| Mode | Detection | Recovery Strategy |
+|------|-----------|-------------------|
+| Quality failure | Test/verification fails | Revise and re-verify |
+| Resource shortage | Budget/time exceeded | Replan with constraints |
+| Scope creep | Requirements expand | Reassess and negotiate |
+| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
+
+### Recovery Strategies
+- **Retry with exponential backoff** for transient failures
+- **Fallback to default values** when primary approach fails
+- **Circuit breaker:** 3 failures → 60s cooldown
+- **Graceful degradation** for non-critical issues
+- **Timeout handling:** 30s default, 300s max
