@@ -195,6 +195,9 @@ When approaching any insurance, risk management, or financial challenge, apply t
 
 ### Underwriting Process
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 1. RISK IDENTIFICATION
    ↓
@@ -233,6 +236,9 @@ When approaching any insurance, risk management, or financial challenge, apply t
 
 ### Customer Journey: Insurance Purchase
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 AWARENESS → CONSIDERATION → QUOTE → PURCHASE → SERVICE → RENEWAL
     ↓            ↓           ↓         ↓          ↓         ↓
@@ -250,6 +256,9 @@ AWARENESS → CONSIDERATION → QUOTE → PURCHASE → SERVICE → RENEWAL
 ## Examples
 
 ### Example 1: Commercial Property Underwriting
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User**: "We need to insure a new manufacturing facility in Southeast Asia against natural catastrophes and business interruption. What's your approach?"
 
@@ -295,6 +304,9 @@ Would you like me to develop a specific quote based on facility details (locatio
 ---
 
 ### Example 2: Retirement Planning for High-Net-Worth Individual
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User**: "I'm a 45-year-old executive looking to optimize my retirement strategy with tax efficiency and legacy planning. What would Allianz recommend?"
 
@@ -351,6 +363,9 @@ Shall I model specific scenarios based on your current assets and income project
 ---
 
 ### Example 3: ESG Investment Strategy for Institutional Client
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User**: "Our pension fund needs to implement a net-zero aligned investment strategy. How can Allianz Global Investors support this?"
 
@@ -430,6 +445,9 @@ Would you like me to present a sample portfolio allocation aligned with your lia
 ---
 
 ### Example 4: Cyber Insurance for Technology Company
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User**: "Our SaaS company needs comprehensive cyber insurance. What coverage does Allianz offer and what are your underwriting requirements?"
 
@@ -515,6 +533,9 @@ Would you like to proceed with a detailed application and security assessment?
 ---
 
 ### Example 5: Olympic Games Insurance Program
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User**: "How does Allianz structure insurance coverage for the Olympic Games as the Worldwide Insurance Partner?"
 
@@ -652,3 +673,12 @@ Are you involved in a major sporting event requiring similar comprehensive risk 
 ---
 
 *This skill is maintained to EXCELLENCE 9.5/10 standards. For updates or corrections, refer to the Allianz Annual Report 2025 and official press releases.*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

@@ -347,6 +347,9 @@ When providing SAP guidance, prioritize in this order:
 
 ### W1: SAP S/4HANA Cloud Implementation
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```mermaid
 flowchart TD
     A[Discover Phase] --> B[Prepare Phase]
@@ -386,6 +389,9 @@ flowchart TD
 
 ### W2: SAP BTP Extension Development
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```mermaid
 flowchart LR
     A[Requirement Analysis] --> B[Architecture Design]
@@ -408,6 +414,9 @@ flowchart LR
 ```
 
 ### W3: SAP SuccessFactors Implementation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Phase 1: Foundation (Weeks 1-4)**
 - Employee Central core configuration
@@ -435,6 +444,9 @@ flowchart LR
 ## Examples
 
 ### Example 1: S/4HANA Cloud Migration Assessment
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "We're currently on SAP ECC 6.0 and need to migrate to S/4HANA. What's the best approach?"
 
@@ -484,6 +496,9 @@ With ECC support ending in 2027 (extended maintenance), migration is not just te
 ---
 
 ### Example 2: SAP BTP Extension Architecture
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "We need to build a custom vendor portal that integrates with S/4HANA. Should we use BTP?"
 
@@ -561,6 +576,9 @@ Building the portal on BTP ensures your S/4HANA core remains upgrade-stable whil
 
 ### Example 3: SuccessFactors Employee Central Implementation
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Query:** "We're implementing SuccessFactors Employee Central for our 5,000-employee global company. What are the key considerations?"
 
 **SAP Principal Consultant Response:**
@@ -631,6 +649,9 @@ With 5,000 employees across multiple countries, your SuccessFactors implementati
 ---
 
 ### Example 4: SAP Ariba Procurement Transformation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "We want to centralize our procurement with SAP Ariba. How do we approach this transformation?"
 
@@ -704,6 +725,9 @@ Centralized procurement through Ariba transforms purchasing from a transactional
 
 ### Example 5: Joule AI Copilot Enablement Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Query:** "How should we roll out Joule AI across our SAP landscape?"
 
 **SAP Principal Consultant Response:**
@@ -771,11 +795,17 @@ Joule represents SAP's strategic shift to agentic AI, capable of influencing 80%
 ## Navigation
 
 ### Getting Started
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 1. **[Overview](#sap-systems-applications--products-in-data-processing)** - Start here for SAP fundamentals
 2. **[Domain Knowledge](#domain-knowledge)** - Deep dive into SAP products
 3. **[Examples](#examples)** - Real-world implementation scenarios
 
 ### By Topic
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 | Topic | Section |
 |-------|---------|
 | S/4HANA Implementation | [2.1](#21-sap-s4hana---the-intelligent-erp), [Example 1](#example-1-s4hana-cloud-migration-assessment) |
@@ -787,6 +817,9 @@ Joule represents SAP's strategic shift to agentic AI, capable of influencing 80%
 | Methodology | [2.7](#27-implementation-methodologies) |
 
 ### By Role
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 | Role | Relevant Sections |
 |------|-------------------|
 | **CIO/CTO** | Company Profile, Clean Core Strategy, RISE with SAP |
@@ -830,3 +863,12 @@ Joule represents SAP's strategic shift to agentic AI, capable of influencing 80%
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

@@ -137,6 +137,9 @@ Datadog is a major contributor to OpenTelemetry and provides:
 
 ### Phase 1: Foundation
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 1. **Agent Deployment** — Install Datadog Agent on hosts/containers
@@ -148,6 +151,9 @@ Datadog is a major contributor to OpenTelemetry and provides:
 4. **Service Discovery** — Let Service Catalog populate automatically
 
 ### Phase 2: Instrumentation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -161,6 +167,9 @@ Datadog is a major contributor to OpenTelemetry and provides:
 
 ### Phase 3: Security
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 1. **CSPM** — Enable cloud security posture scanning
@@ -172,6 +181,9 @@ Datadog is a major contributor to OpenTelemetry and provides:
 4. **Secret Scanning** — Detect exposed credentials and secrets
 
 ### Phase 4: Optimization
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -188,6 +200,9 @@ Datadog is a major contributor to OpenTelemetry and provides:
 ## Examples
 
 ### Example 1: Kubernetes Observability Stack
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario:** Deploy comprehensive observability for a microservices platform on EKS.
 
@@ -278,6 +293,9 @@ kubectl get daemonset datadog -n datadog
 
 ### Example 2: Distributed Tracing with OpenTelemetry
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Scenario:** Instrument a Python microservice with OpenTelemetry and send to Datadog.
 
 ```python
@@ -360,6 +378,9 @@ if __name__ == '__main__':
 ---
 
 ### Example 3: Security Monitoring (CSPM + SIEM)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario:** Implement comprehensive cloud security with compliance monitoring and threat detection.
 
@@ -469,6 +490,9 @@ resource "datadog_security_monitoring_rule" "suspicious_api_access" {
 
 ### Example 4: SLO-Based Alerting and Error Budgets
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Scenario:** Implement SLOs for critical user journeys with error budget alerting.
 
 ```yaml
@@ -566,6 +590,9 @@ Maintain 99.9% availability over 30-day rolling window
 ---
 
 ### Example 5: Real User Monitoring (RUM) with Session Replay
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario:** Implement frontend observability for a React single-page application.
 
@@ -718,6 +745,9 @@ export function trackError(error: Error,
 ## Navigation
 
 ### Quick Reference
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Infrastructure Monitoring](#) → `/references/infrastructure-monitoring.md`
 - [APM & Distributed Tracing](#) → `/references/apm-tracing.md`
 - [Log Management](#) → `/references/log-management.md`
@@ -725,12 +755,18 @@ export function trackError(error: Error,
 - [RUM & Synthetic](#) → `/references/digital-experience.md`
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - `enterprise/splunk` — Alternative log analytics and SIEM
 - `enterprise/dynatrace` — Alternative APM and observability
 - `cloud/aws` — AWS cloud integration
 - `cloud/kubernetes` — Container orchestration monitoring
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Official Documentation:** https://docs.datadoghq.com/
 - **API Reference:** https://docs.datadoghq.com/api/
 - **Terraform Provider:** https://registry.terraform.io/providers/DataDog/datadog/latest/docs
@@ -763,3 +799,12 @@ export function trackError(error: Error,
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

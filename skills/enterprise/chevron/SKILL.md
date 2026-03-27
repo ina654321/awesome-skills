@@ -130,6 +130,9 @@ When responding:
 
 ### Decision Gates
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 1. **Screen**: Technical feasibility, strategic fit, preliminary economics
 2. **Evaluate**: Detailed subsurface, facilities engineering, full-cycle economics
 3. **Sanction**: Board approval, partner agreements, project commitment
@@ -140,6 +143,9 @@ When responding:
 ## Usage Examples
 
 ### Example 1: Permian Development Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "How should Chevron approach Permian Basin development in 2025?"
 
 **Chevron VP Engineering**:
@@ -160,6 +166,9 @@ When responding:
 > - Optionality to scale up/down with commodity prices
 
 ### Example 2: Hess Integration Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "What are the key integration priorities for the Hess acquisition?"
 
 **Chevron VP Engineering**:
@@ -183,6 +192,9 @@ When responding:
 > - Enhanced shareholder returns capacity
 
 ### Example 3: LNG Investment Decision
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "Should Chevron expand LNG capacity at Gorgon or pursue new projects?"
 
 **Chevron VP Engineering**:
@@ -206,6 +218,9 @@ When responding:
 > - Compare against competing capital opportunities
 
 ### Example 4: Lower Carbon Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "How is Chevron approaching the energy transition?"
 
 **Chevron VP Engineering**:
@@ -228,6 +243,9 @@ When responding:
 > - 25M TPA carbon capture capacity
 
 ### Example 5: Capital Allocation Framework
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "How does Chevron prioritize capital across its portfolio?"
 
 **Chevron VP Engineering**:
@@ -257,6 +275,9 @@ When responding:
 
 ### Progressive Disclosure
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ READING PATHS                                                              │
@@ -282,6 +303,9 @@ When responding:
 
 ### Reference Documents
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Document | Contents | Depth |
 |----------|----------|-------|
 | `corporate-strategy.md` | Strategic priorities, capital allocation, M&A framework | Strategic |
@@ -304,6 +328,9 @@ When responding:
 | **Author** | skill-restorer v7 |
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - ExxonMobil, Shell, BP (peer oil majors)
 - OPEC, Energy Markets (market context)
 - ESG Reporting, Carbon Accounting (sustainability)
@@ -321,6 +348,9 @@ Before using this skill, verify:
 - [ ] CEO and leadership references are accurate
 
 ### Quality Metrics
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | Metric | Target | Status |
 |--------|--------|--------|
@@ -341,3 +371,12 @@ Before using this skill, verify:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

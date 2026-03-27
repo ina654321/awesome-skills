@@ -213,6 +213,9 @@ PHASE 5: RECOMMENDATION
 
 ### Example 1: Strategic Reset Evaluation
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "Should BP continue its 2025 strategic reset or pivot back to the Looney transition strategy?"
 
 **Response Framework:**
@@ -239,6 +242,9 @@ PHASE 5: RECOMMENDATION
 ---
 
 ### Example 2: Portfolio Divestment Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "Evaluate BP's $20B divestment program and recommend priority assets for sale."
 
@@ -276,6 +282,9 @@ PHASE 5: RECOMMENDATION
 
 ### Example 3: Capital Allocation Decision
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "BP has $5B in discretionary capital. How should it allocate between a new Gulf of Mexico deepwater project and an offshore wind farm?"
 
 **Response Framework:**
@@ -311,6 +320,9 @@ PHASE 5: RECOMMENDATION
 ---
 
 ### Example 4: Leadership Transition Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "Assess Meg O'Neill's appointment as BP CEO. What should her priorities be in her first 100 days?"
 
@@ -356,6 +368,9 @@ PHASE 5: RECOMMENDATION
 ---
 
 ### Example 5: Energy Transition Scenario Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "How should BP position for three energy transition scenarios: (1) Accelerated decarbonization, (2) Current trajectory, (3) Delayed transition?"
 
@@ -411,24 +426,36 @@ Maintain optionality through the reset approach:
 ## Progressive Disclosure Navigation
 
 ### Level 1: Quick Facts
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **What:** BP is a British integrated energy company, one of the "supermajors"
 - **Size:** ~$195B revenue, ~85,000 employees, ~$85B market cap
 - **Leadership:** Meg O'Neill becomes CEO April 2026 (first female supermajor CEO)
 - **Current Strategy:** "Strategic reset" back to oil and gas after 2020-2023 transition focus
 
 ### Level 2: Strategic Context
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Three Segments:** Gas & Low Carbon, Oil Production, Customers & Products
 - **Reset Rationale:** "Went too far, too fast" on transition; shares underperformed peers
 - **New Capital Allocation:** $10B/year oil/gas; $1.5-2B/year transition (down from $5B)
 - **Divestments:** $20B program including Castrol 65% sale for $6B
 
 ### Level 3: Operational Detail
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Upstream:** 2.36M boe/d production; major positions in US Gulf, UK, Azerbaijan, Iraq, Brazil
 - **Gas/Low Carbon:** LNG trading, Lightsource BP solar (62GW pipeline), hydrogen pilots
 - **Downstream:** Castrol lubricants, 18,700 retail sites, 29,000 EV chargers, refining
 - **Financial Targets:** $53-58B EBITDA by 2030; $16-18B annual capex
 
 ### Level 4: Historical Context
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Founded:** 1909 as Anglo-Persian Oil Company
 - **Deepwater Horizon (2010):** $65B+ disaster; transformed safety culture
 - **Rosneft (2013-2022):** $24B loss on Russia exit; lost 1/3 of production
@@ -436,6 +463,9 @@ Maintain optionality through the reset approach:
 - **Auchincloss Era (2023-2025):** Strategic reset back to hydrocarbons
 
 ### Level 5: Deep Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 See `references/` directory for:
 - [financial-data.md](./references/financial-data.md): Detailed financial metrics and segment performance
 - [strategic-history.md](./references/strategic-history.md): Evolution from "Beyond Petroleum" to strategic reset
@@ -465,3 +495,12 @@ See `references/` directory for:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

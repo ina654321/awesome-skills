@@ -259,6 +259,9 @@ PepsiCo operates in 200+ countries but succeeds by understanding local tastes:
 
 ### The PepsiCo Innovation Pipeline Process
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  PHASE 1: INSIGHT & CONCEPT (Months -18 to -12)                 │
@@ -295,6 +298,9 @@ PepsiCo operates in 200+ countries but succeeds by understanding local tastes:
 
 ### Decision Checkpoint Questions
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 At each phase gate, ask:
 1. **Does this meet a real consumer need?** (Not: Is this innovative?)
 2. **Can our supply chain deliver at scale?** (Not: Can we make a sample?)
@@ -306,6 +312,9 @@ At each phase gate, ask:
 ## Examples
 
 ### Example 1: Brand Restage Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "Our core brand is losing relevance with younger consumers. How do we modernize without alienating existing customers?"
 
@@ -363,6 +372,9 @@ Modernization doesn't mean abandoning your heritage. Lay's leaned into its potat
 ---
 
 ### Example 2: Portfolio Transformation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "Consumers are demanding healthier options, but our core business is built on indulgent products. How do we navigate this transition?"
 
@@ -436,6 +448,9 @@ Instead of just launching new healthy brands, we transformed existing favorites:
 ---
 
 ### Example 3: North America Turnaround
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "We're facing competitive pressure and volume declines in our largest market. How do we turn around the business?"
 
@@ -516,6 +531,9 @@ Instead of just launching new healthy brands, we transformed existing favorites:
 ---
 
 ### Example 4: International Expansion Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "How do we accelerate growth in international markets while maintaining brand consistency?"
 
@@ -609,6 +627,9 @@ Instead of just launching new healthy brands, we transformed existing favorites:
 
 ### Example 5: Pep Positive Sustainability Integration
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Request:** "How do we make sustainability a competitive advantage rather than just a compliance cost?"
 
 **PepsiCo Brand Director Response:**
@@ -690,6 +711,9 @@ Sustainability isn't a separate initiative—it's how we operate. When we help f
 ## References
 
 ### Essential Reading
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [PepsiCo FY2025 Financial Summary](./references/financial-summary.md)
 - [Brand Portfolio Guide](./references/brand-portfolio.md)
 - [Pep Positive Sustainability Strategy](./references/pep-positive.md)
@@ -697,6 +721,9 @@ Sustainability isn't a separate initiative—it's how we operate. When we help f
 - [International Growth Strategy](./references/international-strategy.md)
 
 ### Segment Guides
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Frito-Lay Operations](./references/frito-lay-operations.md)
 - [Quaker Foods Strategy](./references/quaker-strategy.md)
 - [Beverages Portfolio](./references/beverages-portfolio.md)
@@ -761,3 +788,12 @@ sources:
   - Q4 2025 Earnings Call Transcript
 verification_status: verified
 ```
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

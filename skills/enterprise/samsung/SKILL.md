@@ -238,6 +238,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Phase 1: Market Analysis & Positioning
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -255,6 +258,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - Ecosystem integration opportunity?
 
 ### Phase 2: Component Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -274,6 +280,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Phase 3: Design & Engineering
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -291,6 +300,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - SmartThings ecosystem connectivity
 
 ### Phase 4: Manufacturing & Quality
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -310,6 +322,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - Post-launch quality monitoring
 
 ### Phase 5: Launch & Scale
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -333,6 +348,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Example 1: Galaxy S25 AI Leadership Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Samsung needed to respond to Apple Intelligence and strengthen its AI smartphone leadership in 2025.
 
 **Samsung VP Engineering Approach:**
@@ -352,6 +370,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 ---
 
 ### Example 2: Foldable Market Dominance Restoration
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** After Galaxy Z Fold 6 underperformance and Huawei competition, Samsung needed to reassert foldable leadership in 2025.
 
@@ -373,6 +394,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Example 3: Semiconductor HBM4 Comeback
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Samsung faced challenges with HBM3E qualification delays and lost ground to SK Hynix in AI memory.
 
 **Samsung VP Engineering Approach:**
@@ -393,6 +417,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Example 4: 2nm Foundry Renaissance
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Samsung Foundry lost major customers (Qualcomm) due to 3nm yield issues; needed to regain trust with 2nm.
 
 **Samsung VP Engineering Approach:**
@@ -412,6 +439,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 ---
 
 ### Example 5: AI Megafactory Transformation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Samsung needed to transform manufacturing for the AI era, embedding intelligence across all operations.
 
@@ -435,6 +465,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Key Metrics Dashboard
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Metric | 2025 Value | Trend |
 |--------|-----------|-------|
 | Total Revenue | ₩333.6T (~$234B) | +10.9% YoY |
@@ -448,6 +481,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Key People
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Role | Person |
 |------|--------|
 | Executive Chairman | Jay Y. Lee (Lee Jae-yong) |
@@ -457,6 +493,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 | Visual Display Business Head | Seok-woo Yong |
 
 ### Competitive Position
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | Market | Position | Key Competitors |
 |--------|----------|-----------------|
@@ -475,12 +514,18 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 ## Resources
 
 ### Official Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Samsung Global](https://www.samsung.com/global)
 - [Samsung Investor Relations](https://ir.samsungglobal.com)
 - [Samsung Newsroom](https://news.samsung.com)
 - [SmartThings Developer](https://developer.smartthings.com)
 
 ### References (See `/references/`)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [2024-2025 Annual Report](references/2024-annual-report.md)
 - [Lee Kun-hee New Management](references/new-management-philosophy.md)
 - [Galaxy AI Features](references/galaxy-ai-features.md)
@@ -511,3 +556,12 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

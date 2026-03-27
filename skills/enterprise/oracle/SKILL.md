@@ -172,6 +172,9 @@ Detailed content:
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -181,6 +184,9 @@ Detailed content:
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -192,6 +198,9 @@ Detailed content:
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -201,6 +210,9 @@ Detailed content:
 - Verify progress
 
 ### Phase 4: Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -215,10 +227,16 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Typical task request]
 Output: [Expected response]
 
 ### Example 2: Edge Case
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Edge case request]
 Output: [Expected response]
 
@@ -231,3 +249,12 @@ Output: [Expected response]
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

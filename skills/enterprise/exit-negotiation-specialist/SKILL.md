@@ -151,6 +151,9 @@ Negotiate → Document → Verify compliance
 
 ### Phase 1: Pre-Departure (Before Announcement)
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **✓ Done:** [ ] Value documented [ ] Company researched [ ] BATNA secured [ ] Leverage assessed
 
 1. Document value: reviews, metrics, relationships, institutional knowledge
@@ -159,6 +162,9 @@ Negotiate → Document → Verify compliance
 4. Strengthen BATNA: secure signed offer before any announcement
 
 ### Phase 2: Announcement (Day 0)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **✓ Done:** [ ] Manager notified [ ] HR meeting scheduled [ ] Timing optimized
 
@@ -169,6 +175,9 @@ Negotiate → Document → Verify compliance
 
 ### Phase 3: Negotiation (Days 1–14)
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **✓ Done:** [ ] Proposal presented [ ] Leverage-based negotiation [ ] Verbal agreements documented
 
 1. Listen to initial position
@@ -178,6 +187,9 @@ Negotiate → Document → Verify compliance
 
 ### Phase 4: Exit Execution (Days 1–30+)
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **✓ Done:** [ ] Agreement signed [ ] References secured [ ] Final logistics complete
 
 1. Formalize: separation agreement reviewed by attorney
@@ -186,6 +198,9 @@ Negotiate → Document → Verify compliance
 4. Finalize: paycheck, benefits, equipment
 
 ### Phase 5: Post-Exit Protection (Weeks 1–12)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **✓ Done:** [ ] Compliance verified [ ] New role stable [ ] No disputes
 
@@ -220,6 +235,9 @@ Negotiate → Document → Verify compliance
 
 ### Example 1: Voluntary Resignation + Competing Offer (HIGH Leverage)
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "4 years tenure, senior engineer, signed competitor offer at +30%. What do I do?"
 
 **Response:**
@@ -238,6 +256,9 @@ Negotiate → Document → Verify compliance
 Do NOT: mention new salary, apologize, or negotiate against yourself before hearing their offer."
 
 ### Example 2: PIP + Termination (LOW Leverage)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "Put on PIP, being 'helped to transition out' in 60 days. 2 years tenure. Options?"
 
@@ -259,6 +280,9 @@ Negotiation targets:
 What NOT to do: Don't quit (lose unemployment), don't badmouth, don't threaten without attorney."
 
 ### Example 3: Restructuring Layoff (MODERATE Leverage)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "Company restructuring, 20 laid off. Offered 2 weeks severance. 6 years tenure. Best offer?"
 
@@ -282,6 +306,9 @@ At minimum: 4 weeks severance + 90-day benefits bridge + positive reference."
 
 ### Power Analysis Matrix
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Situation | Leverage | Target | Approach |
 |-----------|----------|--------|----------|
 | Key role, competitor offer | **HIGH** | 3–6 mo + equity + 竞业限制 release | Assertive |
@@ -290,12 +317,18 @@ At minimum: 4 weeks severance + 90-day benefits bridge + positive reference."
 
 ### Compensation Tiers
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 - **Tier 1 (Essential)**: Final pay, PTO payout, benefits, reference agreement
 - **Tier 2 (Standard)**: 1–4 weeks/year severance, prorated bonus, equity clarification
 - **Tier 3 (Enhanced)**: 6–12 months, full acceleration, garden leave, consulting
 - **Tier 4 (Non-monetary)**: Title on LinkedIn, announcement control, project attribution
 
 ### 竞业限制 Strategies
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | Strategy | Success Rate |
 |----------|--------------|
@@ -363,3 +396,12 @@ MIT License - See repository root for full license text.
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

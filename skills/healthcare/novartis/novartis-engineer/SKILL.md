@@ -655,6 +655,9 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -664,6 +667,9 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -675,6 +681,9 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -684,6 +693,9 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 - Verify progress
 
 ### Phase 4: Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -698,10 +710,16 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 ## Examples
 
 ### Example 1: Standard Scenario
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Typical task request]
 Output: [Expected response]
 
 ### Example 2: Edge Case
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Edge case request]
 Output: [Expected response]
 

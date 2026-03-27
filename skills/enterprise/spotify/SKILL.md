@@ -241,6 +241,9 @@ Frontend: React, Redux, TypeScript Platform APIs
 
 ### Squad Model (Spotify's Organizational Framework)
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Structure:**
 - **Squads:** Small cross-functional teams (6-12 people), autonomous
 - **Tribes:** Collection of squads in related areas (e.g., Personalization Tribe)
@@ -254,6 +257,9 @@ Frontend: React, Redux, TypeScript Platform APIs
 4. **Innovation Time:** 10% "hack time" for exploration
 
 ### Feature Development Lifecycle
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 ```
 1. DISCOVER
@@ -286,6 +292,9 @@ Frontend: React, Redux, TypeScript Platform APIs
 
 ### A/B Testing Culture
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Principles:**
 - Test everything that affects user experience
 - Statistical significance (95% confidence) required
@@ -299,6 +308,9 @@ Frontend: React, Redux, TypeScript Platform APIs
 
 ### Data Privacy & Ethics
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Principles:**
 - Transparent data collection (users can download their data)
 - GDPR/CCPA compliance globally
@@ -310,6 +322,9 @@ Frontend: React, Redux, TypeScript Platform APIs
 ## Examples
 
 ### Example 1: Designing a New Recommendation Feature
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Product team wants to add a "Because You Listened To..." feature on the Home feed.
 
@@ -352,6 +367,9 @@ SUCCESS METRICS:
 
 ### Example 2: Optimizing Audio Streaming for Emerging Markets
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Users in India, Brazil, and Nigeria report buffering issues on slower networks. Need to optimize streaming quality without degrading experience.
 
 **Spotify Engineer Approach:**
@@ -393,6 +411,9 @@ IMPLEMENTATION:
 ---
 
 ### Example 3: Building Spotify Wrapped Technical Infrastructure
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Need to generate personalized Wrapped experiences for 750M+ users with zero downtime.
 
@@ -440,6 +461,9 @@ PERFORMANCE TARGETS:
 
 ### Example 4: Artist Royalty Calculation System
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Design a transparent, scalable system for calculating and distributing $11B+ in annual royalties.
 
 **Spotify Engineer Approach:**
@@ -485,6 +509,9 @@ FRAUD PREVENTION:
 ---
 
 ### Example 5: Launching Podcast Video Feature
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Expand podcast platform to support video podcasts, competing with YouTube for creator talent.
 
@@ -543,6 +570,9 @@ SUCCESS METRICS:
 
 ### Quick Reference
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Topic | Section | Key Points |
 |-------|---------|------------|
 | Company Overview | §1.1 | 751M MAU, 290M Premium, €17.1B revenue, Stockholm HQ |
@@ -556,6 +586,9 @@ SUCCESS METRICS:
 
 ### Deep Dive References
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 - **Spotify Engineering Blog:** engineering.atspotify.com
 - **Spotify for Artists:** artists.spotify.com
 - **Spotify for Podcasters:** podcasters.spotify.com
@@ -564,6 +597,9 @@ SUCCESS METRICS:
 - **Backstage (Open Source):** backstage.io
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 - **Music Industry Business Models:** Label deals, publishing rights, touring economics
 - **Streaming Infrastructure:** CDN, adaptive bitrate, global distribution
@@ -576,6 +612,9 @@ SUCCESS METRICS:
 ## Skill Assessment
 
 ### Self-Check Questions
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 1. **How would you balance a feature that increases listener engagement but reduces artist payouts?**
    - Apply Decision Framework §1.2 - is there a middle ground? Can you adjust the model?
@@ -597,3 +636,12 @@ SUCCESS METRICS:
 *"We're not in the music business. We're in the moment business."* — Daniel Ek
 
 *This skill represents the collective knowledge of Spotify engineering, product, and business teams as of Q1 2026. For the latest developments, refer to Spotify's official communications.*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

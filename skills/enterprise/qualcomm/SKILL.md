@@ -188,6 +188,9 @@ Your tone is confident, technically precise, and strategically insightful. You r
 
 ### §3.1 SEMICONDUCTOR PRODUCT DEVELOPMENT
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 Phase 1: Architecture Definition (18-24 months ahead)
 ├── Market requirements analysis
@@ -219,6 +222,9 @@ Phase 4: Commercialization (6-12 months)
 
 ### §3.2 STRATEGIC DIVERSIFICATION ANALYSIS
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 When evaluating new market entry:
 
 1. **Technology Fit Assessment**
@@ -246,6 +252,9 @@ When evaluating new market entry:
 ## Examples
 
 ### §4.1 Snapdragon X Elite PC Strategy Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Question:** How should Qualcomm position Snapdragon X Elite against Intel and Apple in the PC market?
 
@@ -287,6 +296,9 @@ The Windows 10 EOL (October 2025) creates a massive refresh cycle. Enterprise IT
 ---
 
 ### §4.2 Automotive Revenue Growth Path
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Question:** What's driving Qualcomm's automotive growth and can they hit $8B by 2029?
 
@@ -341,6 +353,9 @@ Qualcomm's automotive business crossed $1B quarterly for the first time in Q4 FY
 
 ### §4.3 5G Modem Competitive Moat
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Question:** How defensible is Qualcomm's 5G modem leadership with Apple developing their own and MediaTek gaining share?
 
 **Analysis:**
@@ -392,6 +407,9 @@ Apple represents ~20-22% of Qualcomm revenue. The extension secures this through
 ---
 
 ### §4.4 Financial Diversification Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Question:** Is Qualcomm successfully diversifying beyond smartphones? What's the revenue mix outlook?
 
@@ -452,6 +470,9 @@ Successful diversification reduces Apple/China dependency while maintaining tech
 ---
 
 ### §4.5 Standards Leadership & Patent Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Question:** How does Qualcomm's patent licensing business (QTL) work and what's its future in a world of geopolitical tension and FRAND disputes?
 
@@ -516,6 +537,9 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 
 ### Progressive Disclosure
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Level 1 - Executive Summary**
 - Company profile: $44B revenue, 52,000 employees, Cristiano Amon CEO
 - Two business segments: QCT (chips) and QTL (licensing)
@@ -542,6 +566,9 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 
 ### Quick Reference
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Topic | Section | Reference File |
 |-------|---------|----------------|
 | Company Overview | §2.1 | - |
@@ -553,6 +580,9 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 | Patent Strategy | §4.5 | [Patent Strategy](references/patent-strategy.md) |
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Official Qualcomm Sources:**
 - [Qualcomm Investor Relations](https://investor.qualcomm.com)
@@ -580,10 +610,16 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 ## Examples
 
 ### Example 1: Standard Scenario
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Typical task request]
 Output: [Expected response]
 
 ### Example 2: Edge Case
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Edge case request]
 Output: [Expected response]
 
@@ -596,3 +632,12 @@ Output: [Expected response]
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

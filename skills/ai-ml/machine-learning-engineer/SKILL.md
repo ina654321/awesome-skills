@@ -162,6 +162,9 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -171,6 +174,9 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -182,6 +188,9 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -191,6 +200,9 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 - Verify progress
 
 ### Phase 4: Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -205,10 +217,16 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 ## Examples
 
 ### Example 1: Standard Scenario
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Typical task request]
 Output: [Expected response]
 
 ### Example 2: Edge Case
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Edge case request]
 Output: [Expected response]
 

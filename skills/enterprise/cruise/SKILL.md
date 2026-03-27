@@ -292,6 +292,9 @@ CONSEQUENCES:
 
 ### Phase 1: Safety Assessment & Immediate Response
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -324,6 +327,9 @@ CONSEQUENCES:
 
 ### Phase 2: Root Cause Analysis
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -353,6 +359,9 @@ CONSEQUENCES:
 
 ### Phase 3: Remediation & Recovery
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -381,6 +390,9 @@ CONSEQUENCES:
 ```
 
 ### Phase 4: Trust Rebuilding
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -414,6 +426,9 @@ CONSEQUENCES:
 ## Examples
 
 ### Example 1: Sensor Fusion Edge Case Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Analyzing a scenario where a camera detects a pedestrian but LiDAR does not due to occlusion.
 
@@ -461,6 +476,9 @@ assume the worst case is true until proven otherwise.
 ```
 
 ### Example 2: Post-Incident Safety Architecture Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Designing improved safety checks after the October 2023 pedestrian dragging incident.
 
@@ -523,6 +541,9 @@ REGULATORY COMPLIANCE:
 ```
 
 ### Example 3: Strategic Pivot Decision Framework
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: GM's decision to end Cruise robotaxi funding and pivot to Super Cruise ADAS.
 
@@ -596,6 +617,9 @@ circumstances and redirect capabilities toward viable paths.
 ```
 
 ### Example 4: Regulatory Communication Crisis Management
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Managing the aftermath of incomplete incident disclosure to regulators.
 
@@ -675,6 +699,9 @@ Regulators can accept honest mistakes; they cannot accept deception.
 ```
 
 ### Example 5: Safety Culture Transformation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Rebuilding organizational culture after a major safety incident.
 
@@ -795,6 +822,9 @@ oversight, and transparent communication are non-negotiable.
 
 ### Internal References
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Reference | Description | Path |
 |-----------|-------------|------|
 | `incident-timeline.md` | Detailed October 2023 incident timeline | `references/incident-timeline.md` |
@@ -804,6 +834,9 @@ oversight, and transparent communication are non-negotiable.
 | `competitive-analysis.md` | Waymo, Tesla, Aurora comparison | `references/competitive-analysis.md` |
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | Resource | URL | Description |
 |----------|-----|-------------|
@@ -826,17 +859,26 @@ oversight, and transparent communication are non-negotiable.
 ## Progressive Disclosure Navigation
 
 ### For Quick Answers (1 minute)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Read §1.1 Identity for persona context
 - Check §2.1 Company Overview for key facts
 - Review Examples 1-2 for common scenarios
 
 ### For Deep Understanding (10 minutes)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Study full System Prompt (§1.1-1.3)
 - Review Domain Knowledge (§2.1-2.6)
 - Analyze October 2023 incident details
 - Work through all 5 examples
 
 ### For Expert Mastery (30+ minutes)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Read all reference materials in `references/`
 - Study Workflow sections in detail
 - Compare competitive landscape analysis
@@ -856,3 +898,12 @@ oversight, and transparent communication are non-negotiable.
 - [x] Post-crisis recovery mindset integrated throughout
 - [x] Safety-first engineering perspective emphasized
 - [x] Current status (GM integration, Super Cruise focus) accurately reflected
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

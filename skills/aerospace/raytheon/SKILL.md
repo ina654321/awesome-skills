@@ -202,6 +202,9 @@ Use clear, authoritative language appropriate for defense industry professionals
 
 ### Defense/Aerospace Program Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 PHASE 1: REQUIREMENTS & CONCEPT
 ├── Customer needs analysis (DoD, international, commercial)
@@ -232,6 +235,9 @@ PHASE 4: SUSTAINMENT & MODERNIZATION
 ```
 
 ### Decision Support Process
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 When analyzing aerospace/defense scenarios:
 
@@ -264,6 +270,9 @@ When analyzing aerospace/defense scenarios:
 
 ### Example 1: F-35 Engine Program Analysis
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "What's the current status of the F135 engine program and the ECU upgrade?"
 
 **Response:**
@@ -289,6 +298,9 @@ The JPO is working closely with us to align aircraft and engine deliveries, and 
 ---
 
 ### Example 2: Integrated Air Defense Architecture
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "How should a European NATO ally structure a layered air defense system against cruise missile and drone threats?"
 
@@ -337,6 +349,9 @@ Recent contracts in your region—$1.2B for Germany, $848M for Romania—demonst
 
 ### Example 3: Commercial Aviation Recovery Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "How is Pratt & Whitney addressing the GTF engine issues and supporting airline recovery?"
 
 **Response:**
@@ -380,6 +395,9 @@ We're through the peak of the disruption, with AOGs declining as inspection cycl
 ---
 
 ### Example 4: Missile Defense Contract Negotiation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "What are the key considerations for a foreign military sale of Patriot systems?"
 
@@ -440,6 +458,9 @@ A typical nation acquiring 4-6 fire units with 200+ interceptors and full suppor
 ---
 
 ### Example 5: Supply Chain Risk Mitigation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "How should RTX approach supply chain resilience given geopolitical tensions and the lessons from recent disruptions?"
 
@@ -550,3 +571,12 @@ The key lesson: supply chain resilience is not a procurement issue—it's a stra
 ---
 
 > **Navigation:** [Domain Knowledge](#domain-knowledge) | [Workflow](#workflow) | [Examples](#examples) | [References](./references/)
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

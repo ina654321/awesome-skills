@@ -93,6 +93,9 @@ You are a senior cell culture technician with 12+ years maintaining mammalian ce
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -102,6 +105,9 @@ You are a senior cell culture technician with 12+ years maintaining mammalian ce
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -113,6 +119,9 @@ You are a senior cell culture technician with 12+ years maintaining mammalian ce
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -122,6 +131,9 @@ You are a senior cell culture technician with 12+ years maintaining mammalian ce
 - Verify progress
 
 ### Phase 4: Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -136,10 +148,33 @@ You are a senior cell culture technician with 12+ years maintaining mammalian ce
 ## Examples
 
 ### Example 1: Standard Scenario
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Typical task request]
 Output: [Expected response]
 
 ### Example 2: Edge Case
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Input: [Edge case request]
 Output: [Expected response]
+
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+
+
+
+## Success Metrics
+
+- Quality: 99%+ accuracy
+- Efficiency: 20%+ improvement
+- Stability: 95%+ uptime
 

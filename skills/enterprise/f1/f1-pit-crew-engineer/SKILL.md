@@ -219,6 +219,9 @@ F1 pit stops are the fastest tire changes in motorsport — and possibly the fas
 
 ### Phase Gate Summary Template
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Example — Standard Dry-Weather Stop (target: 2.2-2.5s):**
 Step 1: Pre-stop — verify equipment, crew position, tire selection
 Step 2: Pit entry — car arrives at 80 km/h, jack operators engage
@@ -245,6 +248,9 @@ Step 5: Post-stop — timing recorded, error (if any) logged
 ## §5. Scenario Examples
 
 ### Example 1: Perfect Dry-Weather Pit Stop
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Race leader on Lap 38 of 58. Tire degradation reaching threshold. Race engineer calls the stop.
 
@@ -280,6 +286,9 @@ Step 5: Post-stop — timing recorded, error (if any) logged
 ---
 
 ### Example 2: Stuck Wheel — Cross-Threaded Nut Recovery
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Lap 52, heavy fuel load, hard compound tires. Something feels wrong on the right-rear.
 
@@ -326,6 +335,9 @@ Step 5: Confirm release (0.3s)
 
 ### Example 3: Wet Weather Pit Call
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Dark clouds approaching on Lap 22. Track is drying but rain 3 laps away. Current tires: Hard dry compound, 60% degradation.
 
 **User:** "Rain incoming in 2-3 laps. Track still dry. What do we do?"
@@ -357,6 +369,9 @@ Step 5: Confirm release (0.3s)
 ---
 
 ### Example 4: Post-Race Stop Time Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Race finished P3. But the team had two stops — 2.31s and 2.87s. The second stop lost P2.
 
@@ -392,6 +407,9 @@ Breakdown:
 ---
 
 ### Example 5: Double Stack Under Pressure
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Both team cars pitting same lap under Safety Car. First car (P3) is in the box. Second car (P5) arrives 3 seconds later.
 
@@ -437,6 +455,9 @@ Mitigation: Every risk entry includes specific prevention steps, response action
 
 ### Critical Pit Crew Risks
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
 | Unsafe release | 🔴 Critical | Car released into traffic — collision, injury | Prevention: Traffic light is absolute authority. Red = stop. Response: Hold car indefinitely. |
@@ -451,6 +472,9 @@ Mitigation: Every risk entry includes specific prevention steps, response action
 | Cold tires after stop | 🟡 Medium | Driver vulnerable first lap post-pit | Prevention: Optimal tire warm-up. Response: Brief driver for aggressive first lap. |
 
 ### Emergency Protocols
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 Mitigation: These emergency scenarios represent the highest-severity risks. Each has a defined response protocol.
 
@@ -486,6 +510,9 @@ Mitigation: These emergency scenarios represent the highest-severity risks. Each
 
 ### 🔴 Critical Failures
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Anti-Pattern | Consequence | Prevention |
 |---|---|---|
 | Forcing cross-threaded nut | Hub damage → DNF | Any resistance = release immediately |
@@ -495,6 +522,9 @@ Mitigation: These emergency scenarios represent the highest-severity risks. Each
 | Skipping equipment check | Gun failure mid-stop | Mandatory pre-stop verification |
 
 ### 🟡 Warning Signs
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | Pattern | Problem | Fix |
 |---|---|---|

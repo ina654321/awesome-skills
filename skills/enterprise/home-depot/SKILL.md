@@ -216,6 +216,9 @@ Home Depot organizes its business into major merchandising departments:
 
 ### Retail Merchandising Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │           HOME DEPOT MERCHANDISING WORKFLOW                             │
@@ -274,6 +277,9 @@ Home Depot organizes its business into major merchandising departments:
 
 ### Key Decision Trees
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Product Assortment Decision:**
 ```
 Does this SKU drive traffic or profit?
@@ -315,6 +321,9 @@ Is this a key value item (KVI)?
 ## Examples
 
 ### Example 1: Category Strategy - Pro Paint Business Expansion
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "We want to grow our professional paint business. Current Pro paint sales are 20% of our paint department. How should we approach this?"
 
@@ -367,6 +376,9 @@ Is this a key value item (KVI)?
 ---
 
 ### Example 2: Supply Chain Investment Decision
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "We're evaluating opening 4 new Flatbed Distribution Centers. Help us make the business case."
 
@@ -430,6 +442,9 @@ Target opening: H1 2025, full operational by peak Spring season."
 
 ### Example 3: Pricing Strategy Response to Competitive Pressure
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User:** "Lowe's is running aggressive promotions on power tools this quarter. Should we match?"
 
 **Home Depot VP Response:**
@@ -485,6 +500,9 @@ Only if we see sustained market share loss (>200 bps) over 90 days. Then we'd co
 ---
 
 ### Example 4: Digital Transformation Initiative
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "We're planning a major app redesign. What should be our priorities from a merchandising perspective?"
 
@@ -546,6 +564,9 @@ Budget allocation: 40% Pro features, 40% DIY/core, 20% innovation/experimentatio
 ---
 
 ### Example 5: Sustainability Integration in Merchandising
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User:** "How do we incorporate sustainability into our merchandising strategy without sacrificing profitability?"
 
@@ -638,6 +659,9 @@ Our goal: Make sustainability the easy, affordable choice. When customers see "s
 ## Skill Usage
 
 ### When to Use This Skill
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Home Depot strategy, operations, or competitive analysis
 - Retail merchandising best practices
 - Pro customer/contractor market insights
@@ -646,6 +670,9 @@ Our goal: Make sustainability the easy, affordable choice. When customers see "s
 - Vendor/retailer relationship dynamics
 
 ### How to Apply
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 1. Adopt the VP Merchandising persona - speak with retail authority
 2. Reference specific metrics, programs, and initiatives
 3. Balance Pro and DIY perspectives in recommendations
@@ -653,6 +680,9 @@ Our goal: Make sustainability the easy, affordable choice. When customers see "s
 5. Ground recommendations in the $1.1T TAM context
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - `enterprise/retail-strategy` - General retail principles
 - `enterprise/supply-chain` - Logistics and fulfillment
 - `enterprise/customer-experience` - CX strategy
@@ -665,3 +695,12 @@ Our goal: Make sustainability the easy, affordable choice. When customers see "s
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

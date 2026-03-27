@@ -182,6 +182,9 @@ After: "Ship the minimum viable solution that delivers value, then iterate based
 
 ### §3.1 Shopify Development Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```mermaid
 graph TD
     A[Discovery] --> B[Architecture]
@@ -237,6 +240,9 @@ graph TD
 
 ### §3.2 Key Tools & Resources
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Tool | Purpose |
 |------|---------|
 | Shopify CLI | Local development, theme management, app scaffolding |
@@ -251,6 +257,9 @@ graph TD
 ## Examples
 
 ### Example 1: Custom Shopify Theme Section with Metafields
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: A merchant selling handmade jewelry needs a custom product page section that displays material sourcing information stored in metafields.
 
@@ -381,6 +390,9 @@ graph TD
 ---
 
 ### Example 2: Headless Storefront with Hydrogen and Storefront API
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: A fashion brand wants a custom frontend experience while using Shopify for commerce operations.
 
@@ -557,6 +569,9 @@ export async function getProductData(
 ---
 
 ### Example 3: Custom Shopify App with OAuth and Webhooks
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Build a loyalty program app that integrates with Shopify's checkout and tracks customer purchases.
 
@@ -739,6 +754,9 @@ async function createLoyaltyDiscount(
 
 ### Example 4: Shopify Function for Custom Discount Logic
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Scenario**: Implement a "Buy 3, Get 1 Free" promotion on specific product collections using Shopify Functions.
 
 **Implementation**:
@@ -913,6 +931,9 @@ query Input {
 ---
 
 ### Example 5: Multi-Region Store with Shopify Markets and Localization
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Configure a global brand with localized pricing, domains, and content for US, UK, EU, and Australia markets.
 
@@ -1136,6 +1157,9 @@ query GetProductWithMarketPricing($handle: String!, $buyerIdentity: BuyerIdentit
 
 ### Quick Reference
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Topic | Reference File |
 |-------|---------------|
 | Liquid Syntax & Best Practices | [references/liquid-templating.md](references/liquid-templating.md) |
@@ -1146,6 +1170,9 @@ query GetProductWithMarketPricing($handle: String!, $buyerIdentity: BuyerIdentit
 | Performance Optimization | [references/performance-optimization.md](references/performance-optimization.md) |
 
 ### Key External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 - [Shopify Developer Documentation](https://shopify.dev/docs)
 - [Liquid Reference](https://shopify.dev/docs/api/liquid)
@@ -1170,3 +1197,12 @@ query GetProductWithMarketPricing($handle: String!, $buyerIdentity: BuyerIdentit
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

@@ -134,6 +134,9 @@ When engaging with enterprise challenges, apply the **Electrification + Digital*
 
 ### Phase 1: Discover & Assess
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
@@ -161,6 +164,9 @@ Outputs:
 
 ### Phase 2: Design & Engineer
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
@@ -186,6 +192,9 @@ Outputs:
 ```
 
 ### Phase 3: Deploy & Commission
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -213,6 +222,9 @@ Outputs:
 
 ### Phase 4: Operate & Optimize
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
@@ -238,6 +250,9 @@ Outputs:
 ```
 
 ### Phase 5: Scale & Transform
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -268,6 +283,9 @@ Outputs:
 ## Examples
 
 ### Example 1: Hyperscale Data Center AI Upgrade
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context**: Global cloud provider needs to upgrade 50MW facility to support NVIDIA GB200 clusters with 132kW/rack density.
 
@@ -309,6 +327,9 @@ Outputs:
 ---
 
 ### Example 2: Manufacturing Plant Electrification
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context**: European automotive OEM needs to electrify heating processes (currently natural gas) to meet 2030 carbon targets.
 
@@ -354,6 +375,9 @@ Phase 4 (Ongoing): Integration
 
 ### Example 3: Smart Building Portfolio Retrofit
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context**: Commercial real estate firm with 50 mid-size office buildings (avg. 50,000 sq ft) needs to reduce operating costs and meet ESG reporting requirements.
 
 **Challenge**: Limited on-site facilities staff; aging HVAC equipment; tenant comfort complaints; fragmented building systems.
@@ -394,6 +418,9 @@ Rollout 11-50 (Standardized):
 ---
 
 ### Example 4: Grid-Scale Battery Storage Integration
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context**: Utility company needs to integrate 100MWh battery storage with existing medium voltage distribution network.
 
@@ -441,6 +468,9 @@ ECOSTRUXURE GRID ARCHITECTURE
 ---
 
 ### Example 5: Industrial Digital Twin for Oil & Gas
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context**: Offshore platform operator needs to optimize production while reducing unplanned downtime and safety incidents.
 
@@ -490,6 +520,9 @@ OPERATIONS PHASE:
 ## References
 
 ### Internal Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Company Overview](./references/company-overview.md)
 - [Financial Performance 2024](./references/financials-2024.md)
 - [EcoStruxure Platform Deep Dive](./references/ecostruxure-platform.md)
@@ -499,6 +532,9 @@ OPERATIONS PHASE:
 - [Data Center Solutions](./references/data-center-solutions.md)
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Official Website](https://www.se.com)
 - [Investor Relations](https://www.se.com/ww/en/about-us/investor-relations/)
 - [Sustainability Reports](https://www.se.com/ww/en/about-us/sustainability/)
@@ -510,6 +546,9 @@ OPERATIONS PHASE:
 ## Navigation
 
 ### Progressive Disclosure
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Level 1 - Executive Summary** (This page)
 - Company fundamentals
@@ -543,3 +582,12 @@ OPERATIONS PHASE:
 ---
 
 *"Life Is On" - Schneider Electric's purpose is to empower all to make the most of our energy and resources, bridging progress and sustainability for all.*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

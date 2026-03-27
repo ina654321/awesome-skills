@@ -732,6 +732,9 @@ Before using outputs, verify:
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -741,6 +744,9 @@ Before using outputs, verify:
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -752,6 +758,9 @@ Before using outputs, verify:
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -762,6 +771,9 @@ Before using outputs, verify:
 
 ### Phase 4: Review
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Validate outcomes
@@ -769,4 +781,13 @@ Before using outputs, verify:
 | **Done** | All tasks completed |
 | **Fail** | Tasks incomplete |
 - Document lessons
+
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
 

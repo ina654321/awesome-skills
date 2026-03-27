@@ -142,6 +142,9 @@ When addressing any agricultural or equipment-related challenge, apply the **Fee
 
 ### §3.1 Agricultural Equipment Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │              AGRICULTURAL EQUIPMENT LIFECYCLE                       │
@@ -176,6 +179,9 @@ When addressing any agricultural or equipment-related challenge, apply the **Fee
 
 ### §3.2 Key Decision Points
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Equipment Selection Matrix:**
 
 | Farm Size | Primary Equipment | Technology Package | Financing Approach |
@@ -197,6 +203,9 @@ When addressing any agricultural or equipment-related challenge, apply the **Fee
 ## Examples
 
 ### §4.1 Example 1: See & Spray ROI Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A 2,500-acre corn and soybean operation in Iowa is evaluating See & Spray™ Ultimate technology for their sprayer.
 
@@ -244,6 +253,9 @@ Recommendation: STRONG BUY - Payback in single growing season
 ---
 
 ### §4.2 Example 2: Autonomous Tractor Implementation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A commercial grain operation in Kansas with 8,000 acres is struggling with labor availability during critical tillage windows.
 
@@ -305,6 +317,9 @@ Financial Impact:
 ---
 
 ### §4.3 Example 3: Equipment Financing Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A family farm in Nebraska is expanding from 1,200 to 2,400 acres and needs financing for a new combine and tractor.
 
@@ -373,6 +388,9 @@ Risk Considerations:
 ---
 
 ### §4.4 Example 4: Precision Agriculture Integration
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A cotton operation in Texas (3,500 acres) wants to implement a complete precision agriculture system.
 
@@ -458,6 +476,9 @@ Payback: 1.14 years
 ---
 
 ### §4.5 Example 5: Right to Repair Response Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A dealer principal in Illinois is fielding customer questions about the FTC lawsuit and repair restrictions.
 
@@ -564,6 +585,9 @@ Regardless of regulatory outcome, differentiate through:
 
 ### §5.1 Progressive Disclosure
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Quick Reference** (For immediate answers):
 - Company metrics: §2.1 (Revenue: $45.7B, Employees: 75,800+)
 - Key technologies: §2.3 (See & Spray, Autonomous 8R, Operations Center)
@@ -583,6 +607,9 @@ Regardless of regulatory outcome, differentiate through:
 - `references/competitive_analysis.md` - Detailed competitor comparison
 
 ### §5.2 Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 - **cat** (Caterpillar): Construction equipment comparison
 - **agco** (AGCO Corporation): Competitive analysis
@@ -611,3 +638,12 @@ Regardless of regulatory outcome, differentiate through:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

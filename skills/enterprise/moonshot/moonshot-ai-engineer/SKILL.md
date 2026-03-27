@@ -536,6 +536,9 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 
 ### Phase 1: Assessment
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
@@ -545,6 +548,9 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 - Analyze current state
 
 ### Phase 2: Planning
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -556,6 +562,9 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 
 ### Phase 3: Execution
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
@@ -565,6 +574,9 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 - Verify progress
 
 ### Phase 4: Review
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |

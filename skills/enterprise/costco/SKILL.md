@@ -200,6 +200,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 ## Workflow: Costco Merchandising Lifecycle
 
 ### Step 1: Member Need Identification
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Analyze purchasing patterns
 
 | **Done** | All tasks completed |
@@ -209,6 +212,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 - Identify gaps in current assortment
 
 ### Step 2: Supplier Evaluation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Assess manufacturing capabilities
 
 | **Done** | All tasks completed |
@@ -218,6 +224,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 - Verify quality standards compliance
 
 ### Step 3: Pricing Analysis
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Target: Meet or beat market by 20%+
 
 | **Done** | All tasks completed |
@@ -227,6 +236,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 - Competitive benchmarking
 
 ### Step 4: Assortment Decision
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Does it fit within limited SKU model?
 
 | **Done** | All tasks completed |
@@ -236,6 +248,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 - Treasure-hunt appeal factor
 
 ### Step 5: Warehouse Execution
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Pallet-to-floor display planning
 
 | **Done** | All tasks completed |
@@ -245,6 +260,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 - Launch promotion strategy
 
 ### Step 6: Performance Monitoring
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Weekly sales velocity tracking
 
 | **Done** | All tasks completed |
@@ -258,6 +276,9 @@ This embodies Costco's commitment to member value—even at short-term cost.
 ## Examples
 
 ### Example 1: Kirkland Signature Product Launch
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Costco is evaluating whether to launch a Kirkland Signature plant-based protein powder.
 
@@ -283,6 +304,9 @@ This fits our playbook perfectly—premium quality, national brand undercut, hig
 ---
 
 ### Example 2: Membership Fee Increase Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Costco is considering its first membership fee increase since 2017.
 
@@ -324,6 +348,9 @@ To soften the increase, we simultaneously launched:
 ---
 
 ### Example 3: Warehouse Layout Optimization
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A regional manager asks for guidance on redesigning a warehouse layout to improve throughput during peak hours.
 
@@ -369,6 +396,9 @@ Remember: Efficiency serves member value. Faster checkout = happier members = hi
 
 ### Example 4: Supplier Negotiation
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** A major consumer electronics brand wants to raise wholesale prices 8% due to component cost increases.
 
 **Costco VP Response:**
@@ -404,6 +434,9 @@ Last time we did this with a major brand, they called us back in 60 days with ac
 ---
 
 ### Example 5: New Market Entry
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Costco is evaluating entry into a new international market (hypothetical: Vietnam).
 
@@ -460,6 +493,9 @@ We'd rather be late with the right model than early with the wrong one."
 ## Progressive Disclosure
 
 ### Quick Reference (Start Here)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Pricing Discipline:** Max 14% markup (brands), 15% (Kirkland)
 - **Membership:** $65 Gold Star, $130 Executive (2% reward up to $1,250)
 - **FY2025:** $269.9B revenue, 914 warehouses, 145M cardholders
@@ -467,6 +503,9 @@ We'd rather be late with the right model than early with the wrong one."
 - **Hot Dog Principle:** $1.50 since 1985—symbolizes unwavering member value
 
 ### Standard Usage (Common Scenarios)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Domain Knowledge](#domain-knowledge) - Company metrics and model
 - [Workflow](#workflow-costco-merchandising-lifecycle) - Merchandising lifecycle
 - [Example 1](#example-1-kirkland-signature-product-launch) - Kirkland launches
@@ -474,6 +513,9 @@ We'd rather be late with the right model than early with the wrong one."
 - References: [kirkland-strategy.md](./references/kirkland-strategy.md)
 
 ### Deep Dives (Complex Scenarios)
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - All 5 examples for nuanced situations
 - [references/competitive-analysis.md](./references/competitive-analysis.md) - Competitor comparison
 - [references/employee-philosophy.md](./references/employee-philosophy.md) - HR/workforce strategy
@@ -502,3 +544,12 @@ We'd rather be late with the right model than early with the wrong one."
 - **Author:** Skill Restoration Specialist v7
 - **Verification Status:** EXCELLENCE 9.5/10
 - **Sources:** Costco FY2025 Annual Report, Quarterly Earnings, Industry Analysis
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

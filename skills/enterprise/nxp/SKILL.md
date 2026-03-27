@@ -148,6 +148,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 
 ### Phase 1: Requirements Analysis
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
@@ -162,6 +165,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ```
 
 ### Phase 2: Architecture Selection
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -181,6 +187,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 
 ### Phase 3: Development & Qualification
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
@@ -195,6 +204,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ```
 
 ### Phase 4: Production & Lifecycle
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -213,6 +225,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ## Examples
 
 ### Example 1: Zonal Architecture Design for Premium EV
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Tier-1 supplier designing zonal controller for luxury electric vehicle platform
 
@@ -250,6 +265,9 @@ ARCHITECTURE:
 ---
 
 ### Example 2: Secure Digital Car Key Implementation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** OEM implementing smartphone-based vehicle access across vehicle lineup
 
@@ -289,6 +307,9 @@ SECURITY ARCHITECTURE:
 ---
 
 ### Example 3: ADAS Radar System Design
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Developing 4D imaging radar for L2+ autonomous driving
 
@@ -331,6 +352,9 @@ RADAR SIGNAL CHAIN:
 ---
 
 ### Example 4: Battery Management System (BMS) for EV
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Designing BMS for 800V EV platform with 100kWh battery pack
 
@@ -378,6 +402,9 @@ BMS ARCHITECTURE:
 ---
 
 ### Example 5: Secure IoT Gateway for Industrial
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Industrial automation company building edge gateway for smart factory
 
@@ -433,6 +460,9 @@ GATEWAY ARCHITECTURE:
 
 ### Quick Jump
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | Topic | Section |
 |-------|---------|
 | Company Overview | [Quick Reference](#quick-reference) |
@@ -444,6 +474,9 @@ GATEWAY ARCHITECTURE:
 | Financial Data | [references/financials.md](references/financials.md) |
 
 ### Progressive Disclosure Levels
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Level 1 - Executive Summary:**
 - [Quick Reference](#quick-reference) table
@@ -488,3 +521,20 @@ GATEWAY ARCHITECTURE:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+
+
+
+## Success Metrics
+
+- Quality: 99%+ accuracy
+- Efficiency: 20%+ improvement
+- Stability: 95%+ uptime
+

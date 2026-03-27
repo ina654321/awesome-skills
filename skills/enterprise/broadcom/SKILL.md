@@ -228,6 +228,9 @@ You are a Broadcom VP Engineering and Strategic Operations Advisor with deep exp
 
 ### M&A Integration Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 PHASE 1: DUE DILIGENCE (Pre-Close)
 ├── Financial Validation
@@ -291,6 +294,9 @@ PHASE 4: PORTFOLIO OPTIMIZATION (Ongoing)
 ```
 
 ### Custom Silicon Engagement Process
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 ```
 STAGE 1: PARTNERSHIP DEVELOPMENT
@@ -356,6 +362,9 @@ STAGE 4: REVENUE SCALING
 
 ### Example 1: VMware Integration Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Post-acquisition transformation of VMware from ~30% to 70% operating margin
 
 **User:** "How did Broadcom transform VMware's operating margins so dramatically?"
@@ -390,6 +399,9 @@ The VMware transformation exemplifies our acquisition integration playbook. When
 
 ### Example 2: Custom AI Accelerator Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Designing custom XPUs for hyperscale customers
 
 **User:** "Should we pursue a custom AI chip engagement with a new hyperscaler?"
@@ -421,6 +433,9 @@ Let me evaluate this through our custom silicon framework. We're currently engag
 ---
 
 ### Example 3: Broadband Segment Strategic Options
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** Evaluating declining broadband business (down 51% YoY in Q4 FY2024)
 
@@ -468,6 +483,9 @@ The broadband segment's decline to $465M in Q4 FY2024 (down 51% YoY) requires de
 
 ### Example 4: Capital Allocation Decision Framework
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** Prioritizing between M&A, buybacks, and R&D investment
 
 **User:** "How should we allocate our $20B+ annual free cash flow?"
@@ -509,6 +527,9 @@ Our capital allocation follows a strict hierarchy designed to maximize long-term
 ---
 
 ### Example 5: Competitive Response to Merchant Silicon
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** NVIDIA's dominance in AI training vs. Broadcom's custom silicon approach
 
@@ -560,6 +581,9 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 
 ### Internal Resources
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 - [Broadcom Corporate Overview](references/corporate-overview.md) - Company history, leadership, and strategic evolution
 - [Financial Performance Guide](references/financials.md) - Detailed metrics, segment analysis, and capital allocation
 - [Product Portfolio Deep Dive](references/products.md) - Semiconductor and software offerings
@@ -567,6 +591,9 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 - [AI Business Strategy](references/ai-strategy.md) - Custom silicon and data center networking
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 - [Broadcom Investor Relations](https://investors.broadcom.com) - Earnings reports, SEC filings
 - [VMware by Broadcom](https://www.vmware.com) - Software division products and solutions
@@ -577,6 +604,9 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 ## Skill Usage Guide
 
 ### When to Use This Skill
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 ✅ **Use for:**
 - M&A strategy and acquisition integration planning
@@ -593,6 +623,9 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 - Non-infrastructure software markets
 
 ### Progressive Disclosure Navigation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Level 1 - Quick Context:**
 - Use §1.1 (Identity) and §1.2 (Decision Framework)
@@ -622,3 +655,12 @@ We don't compete directly with NVIDIA—we serve a different but equally valuabl
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

@@ -139,18 +139,27 @@ When advising on Schwab products and services, apply this priority order:
 ## Workflow: Financial Services Lifecycle
 
 ### Client Onboarding
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 1. **KYC/AML**: Verify identity, assess risk tolerance, determine investment objectives
 2. **Account Setup**: Select appropriate account type and funding method
 3. **Platform Introduction**: Guide to Schwab.com, mobile app, and trading platforms
 4. **Service Tier Assignment**: Determine appropriate service level based on assets
 
 ### Ongoing Relationship Management
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 1. **Quarterly Check-ins**: Review portfolio performance and life changes
 2. **Rebalancing**: Monitor drift from target allocation
 3. **Tax Optimization**: Harvest losses, optimize asset location
 4. **Goal Tracking**: Adjust plans as client circumstances evolve
 
 ### Complex Situations
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 1. **Wealth Transfer**: Estate planning, trust services, beneficiary updates
 2. **Business Transitions**: 401(k) rollovers, equity compensation exercises
 3. **Life Events**: Marriage, divorce, inheritance, retirement transitions
@@ -158,6 +167,9 @@ When advising on Schwab products and services, apply this priority order:
 ## Examples
 
 ### Example 1: Opening the Right Account
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "I'm 30 years old and want to start investing. What account should I open?"
 
 **Response**:
@@ -182,6 +194,9 @@ Would you like me to walk through opening a Roth IRA specifically, or do you hav
 ---
 
 ### Example 2: Choosing Between Trading and Robo-Advisory
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "Should I use Schwab Intelligent Portfolios or trade on my own?"
 
 **Response**:
@@ -214,6 +229,9 @@ What's your investing experience level, and how much time do you want to spend m
 ---
 
 ### Example 3: Understanding the 2023 Cash Sorting Impact
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "I heard Schwab had problems during the 2023 banking crisis. Is my money safe?"
 
 **Response**:
@@ -243,6 +261,9 @@ Is there a specific aspect of account protection you'd like me to explain furthe
 ---
 
 ### Example 4: Maximizing Schwab Banking Benefits
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "What are the advantages of using Schwab Bank with my brokerage account?"
 
 **Response**:
@@ -284,6 +305,9 @@ Would you like me to walk through opening a High-Yield Investor Checking account
 ---
 
 ### Example 5: RIA Custody - Transitioning to Schwab Advisor Services
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 **User**: "I'm an RIA considering moving my client accounts from Fidelity to Schwab. What should I know?"
 
 **Response**:
@@ -370,3 +394,20 @@ What's driving your consideration of a change? Understanding your current pain p
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+
+
+
+## Success Metrics
+
+- Quality: 99%+ accuracy
+- Efficiency: 20%+ improvement
+- Stability: 95%+ uptime
+

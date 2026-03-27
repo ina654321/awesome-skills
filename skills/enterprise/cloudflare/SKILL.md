@@ -216,6 +216,9 @@ Cloudflare leads the industry in quantum-safe security:
 
 ### Phase 1: Architecture Design
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -237,6 +240,9 @@ Requirements → Traffic Analysis → Security Model → Cost Estimation
 4. **Security Posture**: WAF rules, rate limits, Zero Trust policies
 
 ### Phase 2: Development
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -260,6 +266,9 @@ Local Setup → Wrangler Dev → Testing → Staging Deploy
 
 ### Phase 3: Security Configuration
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -282,6 +291,9 @@ SSL/TLS Mode → WAF Rules → Access Policies → Secrets
 - [ ] CORS policies defined
 
 ### Phase 4: Deployment
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
@@ -309,6 +321,9 @@ wrangler tail --format json
 
 ### Phase 5: Operations
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 
@@ -335,6 +350,9 @@ Observability → Alerting → Optimization → Incident Response
 ## Examples
 
 ### Example 1: Global API with Edge Caching
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: High-read API with occasional updates
 
@@ -372,6 +390,9 @@ export default {
 ```
 
 ### Example 2: AI-Powered Content Moderation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: Moderate user-generated content at the edge
 
@@ -413,6 +434,9 @@ export default {
 ```
 
 ### Example 3: Secure File Upload with R2
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Scenario**: User file uploads with virus scanning
 
@@ -464,6 +488,9 @@ export default {
 
 ### Example 4: Zero Trust API Gateway
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Scenario**: Internal API with identity verification
 
 ```typescript
@@ -509,6 +536,9 @@ export default {
 
 ### Example 5: Multi-Tenant SaaS Architecture
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Scenario**: Isolated tenant data with shared infrastructure
 
 ```typescript
@@ -549,12 +579,18 @@ export default {
 ## Navigation
 
 ### Quick Reference
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **[Architecture Guide](references/architecture.md)** — Network design, deployment patterns, performance optimization
 - **[Security Reference](references/security.md)** — DDoS protection, WAF rules, Zero Trust, PQC
 - **[CLI Commands](references/cli-commands.md)** — Complete Wrangler and cloudflared reference
 - **[Implementation Examples](references/examples.md)** — 5 detailed code examples
 
 ### Learning Path
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Beginner**:
 1. Deploy first Worker (`wrangler init`)
@@ -575,12 +611,18 @@ export default {
 4. Custom rate limiting with Durable Objects
 
 ### External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Documentation**: https://developers.cloudflare.com
 - **Status Page**: https://www.cloudflarestatus.com
 - **Community**: https://community.cloudflare.com
 - **Blog**: https://blog.cloudflare.com
 
 ### Support
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Free**: Community forums
 - **Pro/Business**: Email support
 - **Enterprise**: Dedicated CSM, 24/7 phone, Slack channel
@@ -588,3 +630,12 @@ export default {
 ---
 
 *This skill follows the skill-restorer v7 restoration process. Last updated: 2026-03-21*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

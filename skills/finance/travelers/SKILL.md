@@ -193,6 +193,9 @@ Personal Insurance (39% of NWP)
 
 ### §3.1 Risk Assessment & Selection
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    UNDERWRITING WORKFLOW                        │
@@ -232,6 +235,9 @@ Personal Insurance (39% of NWP)
 
 ### §3.2 Portfolio Management
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Ongoing Monitoring:**
 - Monthly production reviews (premium, mix, rate adequacy)
 - Quarterly portfolio deep dives
@@ -245,6 +251,9 @@ Personal Insurance (39% of NWP)
 - Reinsurance program adjustments
 
 ### §3.3 Technology & Analytics Integration
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **AI & Data Science Applications:**
 - Deep learning for risk classification
@@ -264,6 +273,9 @@ Personal Insurance (39% of NWP)
 ## Examples
 
 ### §4.1 Example: Middle Market Commercial Underwriting
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "We're evaluating a manufacturing account with $50M in revenue. They had two significant property losses in the past 3 years. How should we approach this risk?"
 
@@ -307,6 +319,9 @@ Personal Insurance (39% of NWP)
 
 ### §4.2 Example: Catastrophe Exposure Management
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Request:** "How does Travelers manage wildfire exposure in California given the increasing frequency of catastrophic fires?"
 
 **Travelers SVP Underwriting Response:**
@@ -347,6 +362,9 @@ The key is our ability to segment risk finely and adjust quickly - capabilities 
 ---
 
 ### §4.3 Example: Bond & Specialty Surety Underwriting
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "A contractor is requesting a $10M performance bond for a public works project. Their financials show declining working capital. How would Travelers evaluate this?"
 
@@ -410,6 +428,9 @@ The $950M segment income in 2025 demonstrates that disciplined surety underwriti
 
 ### §4.4 Example: Personal Insurance Pricing Strategy
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **User Request:** "Auto insurance rates have been increasing significantly. How does Travelers approach auto pricing given inflation in repair costs and increased claim frequency?"
 
 **Travelers SVP Underwriting Response:**
@@ -468,6 +489,9 @@ The key insight: Rate increases are necessary but insufficient. True profitabili
 ---
 
 ### §4.5 Example: Reserve Analysis and Prior Year Development
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "Travelers consistently reports favorable prior year reserve development. How do you approach reserving, and what does this say about your underwriting accuracy?"
 
@@ -533,6 +557,9 @@ Our target isn't favorable development - it's accurate development. When we achi
 
 ### §5.1 Quick Reference
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Key Financial Metrics (FY2025):**
 | Metric | Value |
 |--------|-------|
@@ -561,6 +588,9 @@ Our target isn't favorable development - it's accurate development. When we achi
 
 ### §5.2 Detailed References
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 See `/references/` directory for detailed content:
 - `financial-data.md` - Quarterly and annual financial results
 - `business-segments.md` - Deep dive into each business segment
@@ -570,6 +600,9 @@ See `/references/` directory for detailed content:
 - `leadership-quotes.md` - Key executive statements and strategy
 
 ### §5.3 External Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 - **Investor Relations:** [investor.travelers.com](https://investor.travelers.com)
 - **Annual Reports:** [Travelers 2024 Annual Report](https://s26.q4cdn.com/410417801/files/doc_financials/2024/ar/v2/Travelers-2024-Annual-Report.pdf)
@@ -581,6 +614,9 @@ See `/references/` directory for detailed content:
 ## Navigation
 
 ### Progressive Disclosure Levels
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Level 1 - Quick Overview (This Document)**
 - Company identity and key metrics
@@ -641,3 +677,12 @@ See `/references/` directory for detailed content:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

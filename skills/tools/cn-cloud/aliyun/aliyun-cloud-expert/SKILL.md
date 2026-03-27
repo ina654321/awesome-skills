@@ -453,3 +453,20 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 ## License
 
 MIT License — Free to use, modify, and distribute. See LICENSE file.
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+
+
+
+## Success Metrics
+
+- Quality: 99%+ accuracy
+- Efficiency: 20%+ improvement
+- Stability: 95%+ uptime
+

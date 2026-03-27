@@ -591,3 +591,12 @@ Detailed content:
 - [## § 7 · DRIVE Transformation](./references/7-drive-transformation.md)
 - [## § 8 · Sustainability & ESG](./references/8-sustainability-esg.md)
 - [## § 9 · Progressive Disclosure Structure](./references/9-progressive-disclosure-structure.md)
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

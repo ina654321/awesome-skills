@@ -679,3 +679,12 @@ Every FedEx operation honors the founder's vision: People first, Service excelle
 ---
 
 *End of SKILL.md — Version 2.0.0*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

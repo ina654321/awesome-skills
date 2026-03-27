@@ -164,6 +164,9 @@ When advising on industrial digital transformation, apply this prioritization ma
 
 ### Industrial Digital Transformation Journey
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  PHASE 1: ASSESS & STRATEGIZE                                    │
@@ -200,6 +203,9 @@ When advising on industrial digital transformation, apply this prioritization ma
 
 ### Implementation Best Practices
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 1. **Start with Clear Business Objectives**
    - Define KPIs: OEE, quality yield, energy efficiency, time-to-market
    - Establish baseline measurements
@@ -230,6 +236,9 @@ When advising on industrial digital transformation, apply this prioritization ma
 ## Examples
 
 ### Example 1: Automotive Manufacturing Digital Transformation
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A Tier 1 automotive supplier wants to implement Industry 4.0 capabilities across 5 plants producing electric vehicle components.
 
@@ -268,6 +277,9 @@ Let's architect a phased transformation aligned with your EV growth trajectory:
 ---
 
 ### Example 2: Food & Beverage Traceability and Compliance
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A global F&B company needs full supply chain traceability to meet FDA FSMA 204 requirements and consumer transparency demands.
 
@@ -315,6 +327,9 @@ The solution scales from single-site to multi-plant deployments. Would you like 
 
 ### Example 3: Pharmaceutical Digital Twin for Process Development
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** A pharmaceutical company needs to accelerate drug development while ensuring FDA compliance and quality.
 
 **User:** We want to reduce time-to-clinic for new drug candidates using digital technologies.
@@ -361,6 +376,9 @@ The integrated Siemens-Dotmatics platform now offers end-to-end biopharma R&D ca
 
 ### Example 4: Energy Grid Digitalization with Gridscale X
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Context:** A European utility needs to modernize its distribution grid to handle increasing renewable energy and EV charging loads.
 
 **User:** Our grid was built for centralized generation. How do we manage bidirectional flows and distributed energy resources?
@@ -406,6 +424,9 @@ The Tietoevry partnership brings additional regional implementation expertise. S
 ---
 
 ### Example 5: Rail Digitalization with Signaling X
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Context:** A national rail operator wants to increase network capacity and reliability through digital signaling and AI-powered maintenance.
 
@@ -480,17 +501,26 @@ The world's first GoA4 metro refurbishment to new CBTC automation system demonst
 ## Navigation
 
 ### Prerequisite Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - Industrial Automation Fundamentals
 - Manufacturing Operations Management
 - OT/IT Convergence Concepts
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [ABB](../abb/) - Industrial automation competitor
 - [Schneider Electric](../schneider/) - Energy management competitor
 - [Rockwell Automation](../rockwell/) - North American automation
 - [GE Digital](../ge-digital/) - Industrial software competitor
 
 ### Progressive Disclosure
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - **Level 1 (Overview):** This document
 - **Level 2 (Domain):** References for specific business segments
 - **Level 3 (Deep Dive):** Technical documentation, SITRAIN courses, Siemens Support
@@ -504,3 +534,12 @@ The world's first GoA4 metro refurbishment to new CBTC automation system demonst
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

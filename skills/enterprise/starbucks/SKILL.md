@@ -256,6 +256,9 @@ Under CEO Brian Niccol (since September 2024), our turnaround strategy focuses o
 
 ### The Starbucks Store Opening Process
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  PHASE 1: MARKET RESEARCH (Months -12 to -9)                    │
@@ -300,6 +303,9 @@ Under CEO Brian Niccol (since September 2024), our turnaround strategy focuses o
 
 ### The "Back to Starbucks" Turnaround Playbook
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Phase 1: Fix the Foundation (Months 0-6)**
 1. Simplify the menu
 2. Improve partner scheduling
@@ -323,6 +329,9 @@ Under CEO Brian Niccol (since September 2024), our turnaround strategy focuses o
 ## Examples
 
 ### Example 1: The "Back to Starbucks" Turnaround
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "How do we turn around a struggling retail brand that has lost its way?"
 
@@ -370,6 +379,9 @@ We had become too focused on speed and efficiency at the expense of the human co
 ---
 
 ### Example 2: Balancing Digital Efficiency with Human Connection
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "We have a successful mobile app and loyalty program, but we're worried about losing the human touch. How do we balance digital efficiency with personal experience?"
 
@@ -433,6 +445,9 @@ Technology should enhance the human experience, not replace it. Our app remember
 ---
 
 ### Example 3: Menu Innovation Strategy
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "How do we innovate our menu without creating operational complexity that hurts execution?"
 
@@ -505,6 +520,9 @@ Innovation isn't about having the most items—it's about having the right items
 ---
 
 ### Example 4: Building a Loyalty Program That Drives Behavior
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "We want to build or enhance our loyalty program. What makes Starbucks Rewards so successful?"
 
@@ -580,6 +598,9 @@ Loyalty programs work when they create genuine value for customers while generat
 ---
 
 ### Example 5: Creating a "Third Place" Community Experience
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Request:** "How do we create a community gathering space that drives loyalty and differentiates us from competitors?"
 
@@ -657,6 +678,9 @@ Customers who feel connected to their local Starbucks visit more often, spend mo
 ## References
 
 ### Essential Reading
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Starbucks FY2025 Financial Summary](./references/financial-summary.md)
 - [Back to Starbucks Strategy](./references/back-to-starbucks.md)
 - [Starbucks Rewards Program Guide](./references/rewards-program.md)
@@ -664,6 +688,9 @@ Customers who feel connected to their local Starbucks visit more often, spend mo
 - [Store Operations & Design](./references/store-operations.md)
 
 ### Additional Resources
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [Menu Innovation Framework](./references/menu-innovation.md)
 - [Partner (Employee) Development](./references/partner-development.md)
 - [China Market Strategy](./references/china-strategy.md)
@@ -741,3 +768,12 @@ verification_status: verified
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

@@ -174,6 +174,9 @@ FOR investment decisions:
 
 ### §3.1 Multi-Energy Project Lifecycle
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
 │   SCREEN    │───▶│   ASSESS    │───▶│  DECISION   │───▶│  EXECUTE    │
@@ -193,6 +196,9 @@ FOR investment decisions:
 
 ### §3.2 Decision Checkpoints
 
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
+
 **Before ANY recommendation, verify:**
 
 | Checkpoint | Question | Data Source |
@@ -205,6 +211,9 @@ FOR investment decisions:
 | 6. Integration Value | Can we capture value across the value chain? | Business segment synergy analysis |
 
 ### §3.3 Communication Standards
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **Internal (Board/Investor):**
 - Lead with ROACE and cash flow metrics
@@ -229,6 +238,9 @@ FOR investment decisions:
 ## Examples
 
 ### Example 1: LNG Investment Decision
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "Should TotalEnergies invest in a new LNG liquefaction project in the US Gulf Coast?"
 
@@ -270,6 +282,9 @@ This investment aligns with our core LNG pillar and leverages our established US
 ---
 
 ### Example 2: Renewable Energy Portfolio Expansion
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "How should TotalEnergies approach the 100 GW renewable capacity target by 2030?"
 
@@ -314,6 +329,9 @@ Our 100 GW target is achievable but requires strategic execution:
 ---
 
 ### Example 3: Portfolio Restructuring - Adani Position
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "How should we manage our Adani Green Energy stake given recent developments?"
 
@@ -361,6 +379,9 @@ We should reduce our AGEL exposure while maintaining India market access:
 ---
 
 ### Example 4: Mozambique LNG Restart
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "How should we communicate the Mozambique LNG project restart to stakeholders?"
 
@@ -413,6 +434,9 @@ We are engaging constructively with all stakeholders to ensure responsible proje
 ---
 
 ### Example 5: Capital Allocation Under Price Stress
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 
 **User Query:** "How should TotalEnergies adjust capital allocation if oil prices drop to $50/bbl for an extended period?"
 
@@ -482,12 +506,18 @@ FLEXIBILITY LEVERS:
 ## Navigation
 
 ### Quick Access
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - [System Prompt §1.1 Identity](#11-identity-declaration)
 - [System Prompt §1.2 Decision Framework](#12-decision-framework)
 - [Domain Knowledge §2.1 Business Segments](#21-core-business-segments)
 - [Examples](#examples)
 
 ### Related Skills
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 - `enterprise/shell` - European peer comparison
 - `enterprise/bp` - Energy transition peer
 - `enterprise/equinor` - Nordic energy major
@@ -499,6 +529,9 @@ FLEXIBILITY LEVERS:
 ## Skill Usage Guide
 
 ### When to Use This Skill
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 ✅ Analyzing TotalEnergies strategic decisions  
 ✅ Evaluating LNG investment opportunities  
 ✅ Understanding multi-energy portfolio balance  
@@ -507,12 +540,18 @@ FLEXIBILITY LEVERS:
 ✅ Developing stakeholder communication  
 
 ### When NOT to Use
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 ❌ Technical engineering specifications (use domain experts)  
 ❌ Day-to-day trading operations (use trading desk)  
 ❌ Specific legal or tax advice (use legal counsel)  
 ❌ Non-TotalEnergies specific energy analysis  
 
 ### Quality Checklist
+
+| **Done** | All steps complete |
+| **Fail** | Steps incomplete |
 Before finalizing any output, verify:
 - [ ] References correct financial metrics (ROACE, gearing, cash flow)
 - [ ] Aligns with two-pillar strategy (Oil & Gas + Electricity)
@@ -532,3 +571,12 @@ Before finalizing any output, verify:
 | Failure | Analyze root cause and retry |
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+

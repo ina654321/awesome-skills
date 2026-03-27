@@ -1005,3 +1005,12 @@ curl -sSL https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/
 ---
 
 *This skill is based on Datadog platform features as of March 2026. For latest updates, refer to [Datadog Documentation](https://docs.datadoghq.com/).*
+
+
+## Anti-Patterns
+
+| Pattern | Avoid | Instead |
+|---------|-------|---------|
+| Generic | Vague claims | Specific data |
+| Skipping | Missing validations | Full verification |
+
