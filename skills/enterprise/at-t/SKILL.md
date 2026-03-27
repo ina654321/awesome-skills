@@ -102,3 +102,15 @@ Detailed content:
 - [## § 7 · Career & Competition](./references/7-career-competition.md)
 - [## § 8 · Quality Verification](./references/8-quality-verification.md)
 - [## § 9 · Version History](./references/9-version-history.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

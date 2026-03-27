@@ -201,3 +201,15 @@ Detailed content:
 - [## § 3 · Workflow: JPMorgan Operations Lifecycle](./references/3-workflow-jpmorgan-operations-lifecycle.md)
 - [## § 4 · Scenario Examples](./references/4-scenario-examples.md)
 - [## § 5 · References](./references/5-references.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

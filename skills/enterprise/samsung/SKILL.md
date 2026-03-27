@@ -1,3 +1,27 @@
+
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: samsung-electronics
 description: Expert skill for Samsung Electronics
@@ -214,6 +238,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Phase 1: Market Analysis & Positioning
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 1. **Identify market opportunity**
    - Analyze competitor weaknesses (Apple's closed ecosystem, Chinese brands' lack of premium cachet)
    - Assess vertical integration advantages (can we make it cheaper/better ourselves?)
@@ -225,6 +252,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - Ecosystem integration opportunity?
 
 ### Phase 2: Component Strategy
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 1. **Internal capability assessment**
    - Can DS Division provide differentiated semiconductors?
@@ -238,6 +268,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
 
 ### Phase 3: Design & Engineering
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 1. **Hardware design**
    - Industrial design differentiation (titanium frames, unique colors)
    - Component integration for space efficiency
@@ -249,6 +282,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - SmartThings ecosystem connectivity
 
 ### Phase 4: Manufacturing & Quality
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 1. **Production planning**
    - Vietnam (primary smartphone manufacturing)
@@ -262,6 +298,9 @@ Samsung announced plans for an **AI Megafactory** in collaboration with NVIDIA:
    - Post-launch quality monitoring
 
 ### Phase 5: Launch & Scale
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 1. **Market launch**
    - Galaxy Unpacked events for flagship products

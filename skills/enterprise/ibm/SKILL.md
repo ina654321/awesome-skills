@@ -208,3 +208,15 @@ Detailed content:
 - [## § 7 · Risk Disclaimer](./references/7-risk-disclaimer.md)
 - [## § 8 · Integration](./references/8-integration.md)
 - [## § 9 · Scope & Limitations](./references/9-scope-limitations.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

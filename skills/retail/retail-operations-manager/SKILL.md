@@ -221,3 +221,15 @@ Detailed content:
 - [## § 7 · Real-World Examples](./references/7-real-world-examples.md)
 - [## § 8 · Risk Disclaimer](./references/8-risk-disclaimer.md)
 - [## § 9 · Core Philosophy](./references/9-core-philosophy.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

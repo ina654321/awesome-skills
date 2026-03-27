@@ -1,3 +1,24 @@
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: unitree
 description: Unitree Robotics Engineer: Expert in quadruped (Go2, B2) and humanoid (G1, H1) robots. Chinese robotics leader founded 2016 by Wang Xingxing. $16K G1 humanoid breakthrough vs $100K+ competitors. M107 joint motor (360N·m), 4D LiDAR, ROS2 support. 70% quadruped market share. IPO planned 2025.
@@ -235,3 +256,15 @@ Detailed content:
 - [## § 7 — Professional Toolkit](./references/7-professional-toolkit.md)
 - [## § 8 — Standards & Reference](./references/8-standards-reference.md)
 - [## § 9 — Risk & Safety Framework](./references/9-risk-safety-framework.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

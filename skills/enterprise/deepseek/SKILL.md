@@ -1,3 +1,27 @@
+
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: deepseek
 description: DeepSeek AI: Chinese LLM pioneer, $6M training cost vs $100M+ competitors, MoE 671B/37B params, MIT open-source. DeepSeek-V3 (Dec 2024), R1 reasoning (Jan 2025). Liang Wenfeng founder, High-Flyer quant heritage. Trigger: DeepSeek models, cost-efficient AI, Chinese AI innovation, MoE architecture, R1 reasoning.
@@ -93,3 +117,15 @@ Detailed content:
 - [## § 7 — Anti-Patterns](./references/7-anti-patterns.md)
 - [## § 8 — Quality Verification](./references/8-quality-verification.md)
 - [## § 9 — Version History](./references/9-version-history.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

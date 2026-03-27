@@ -158,3 +158,15 @@ Detailed content:
 - [## § 6 · Quick Reference](./references/6-quick-reference.md)
 - [## § 7 · Navigation Guide](./references/7-navigation-guide.md)
 - [## § 8 · References](./references/8-references.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

@@ -302,3 +302,15 @@ Detailed content:
 - [## § 7 · Workflows](./references/7-workflows.md)
 - [## § 8 · Examples](./references/8-examples.md)
 - [## § 9 · Progressive Disclosure](./references/9-progressive-disclosure.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+
