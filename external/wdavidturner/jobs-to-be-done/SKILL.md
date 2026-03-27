@@ -296,3 +296,30 @@ Detailed content:
 | Quality Score | 95% | 99%+ |
 | Error Rate | <5% | <1% |
 | Efficiency | Baseline | 20% improvement |
+
+## Examples
+
+### Example 1: Customer Interview
+**Input:** "Why did customers switch from spreadsheets to our task app?"
+**Output:** "Functional jobs: organize tasks, track progress. Emotional jobs: feel productive, reduce anxiety about forgetting. Social jobs: share progress with team."
+**Validation:** Output follows JTBD structure with functional/emotional/social jobs
+
+### Example 2: Product Strategy
+**Input:** "Help me find the real competitor for our note-taking app"
+**Output:** "Competitors: not other apps, but pen and paper (simplicity), memory (convenience), email (sharing). Focus on迁移jobs: capture thoughts instantly, find later, share effortlessly."
+**Validation:** Identifies non-obvious competitors using job-to-be-done framework
+
+### Example 3: Churn Analysis
+**Input:** "Why are users canceling their subscriptions?"
+**Output:** "Hiring/firing analysis: Users hired us to 'feel organized.' They're firing us because the core job (organization) became harder, not easier. Key trigger: new feature made navigation complex."
+**Validation:** Identifies root cause of churn with evidence
+
+### Example 4: New Feature Launch
+**Input:** "Should we add AI summarization to our product?"
+**Output:** "Job: 'Help me understand my day quickly.' Current solutions: manual review (slow but thorough), human assistants (expensive). New solution should hit sweet spot: 80% time savings at $0 additional cost."
+**Validation:** Defines clear job to be done before feature development
+
+### Example 5: Marketing Messaging
+**Input:** "How should we market our project management tool?"
+**Output:** "Don't say 'features.' Say 'Your team can ship faster without the chaos.' Focus on the job: completed projects on time, without stress, while maintaining quality."
+**Validation:** Job-centric messaging vs feature-centric

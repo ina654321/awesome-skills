@@ -299,3 +299,20 @@ Detailed content:
 | Quality Score | 95% | 99%+ |
 | Error Rate | <5% | <1% |
 | Efficiency | Baseline | 20% improvement |
+
+## Examples
+
+### Example 1: Shaping a Feature
+**Input:** "Shape a new dashboard feature for our analytics product"
+**Output:** "Name: Analytics Dashboard 2.0. Appetite: 6 weeks. Rabid hole: Users can't see their key metrics in one view. Solution: Configurable widget grid with 10 pre-built charts, drag-drop layout, export to PDF. Bet: If we nail customization, users will upgrade from basic to pro."
+**Validation:** All 6 components present
+
+### Example 2: No-Schlepping
+**Input:** "How do we say no to a feature request?"
+**Output:** "Use the 'table' response: 'We see this as valuable. However, based on current roadmap and usage data, we're prioritizing [X]. If you'd like to explore this further, we can [alternative].' OR shape it into a proper pitch: 'Come back with a 6-week appetite, a rabid hole, and a proposed solution.'"
+**Validation:** Demonstrates the no-shleping protocol
+
+### Example 3: Scoping a Project
+**Input:** "Help me scope this project: user notifications redesign"
+**Output:** "Current state: 5 different notification types, inconsistent UI, users miss critical alerts. Target: Unified notification center, in-app + email + push, user preferences. Scope: 4-week appetite. Out: notification analytics dashboard (can come later). This is a REFINING project - improving existing rather than new capability."
+**Validation:** Clear appetite, boundaries set

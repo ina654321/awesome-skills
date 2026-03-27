@@ -380,3 +380,20 @@ Detailed content:
 | Quality Score | 95% | 99%+ |
 | Error Rate | <5% | <1% |
 | Efficiency | Baseline | 20% improvement |
+
+## Examples
+
+### Example 1: Building OST
+**Input:** "Help me build an Opportunity Solution Tree for reducing cart abandonment"
+**Output:** "Outcome: Reduce cart abandonment from 70% to 55%. Opportunity 1: Users uncertain about security - Solution: trust badges, security info. Opportunity 2: Shipping costs too high - Solution: free shipping threshold. Opportunity 3: Need to create account - Solution: guest checkout."
+**Validation:** Clear outcome metric, 3+ opportunities with solutions
+
+### Example 2: Prioritizing Opportunities
+**Input:** "We have 12 opportunities in our OST. How do we pick which to build?"
+**Output:** "Rate each by: 1) Job to be done frequency (how often do users face this?), 2) Current satisfaction gap (how unhappy are they?), 3) Market size (how many users?). Plot on impact/effort matrix."
+**Validation:** Framework for prioritization provided
+
+### Example 3: Experiment Design
+**Input:** "Design an experiment for our top solution"
+**Output:** "Solution: Guest checkout button. Hypothesis: Adding guest checkout will increase conversions by 15%. Experiment: A/B test - 50% see guest option, 50% require account. Success metric: completed purchases. Duration: 2 weeks or 10K visitors."
+**Validation:** Clear hypothesis, metric, and success criteria

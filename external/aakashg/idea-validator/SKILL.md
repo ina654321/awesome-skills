@@ -386,3 +386,20 @@ Detailed content:
 | Quality Score | 95% | 99%+ |
 | Error Rate | <5% | <1% |
 | Efficiency | Baseline | 20% improvement |
+
+## Examples
+
+### Example 1: Consumer App Validation
+**Input:** "Is a meal planning app a good idea?"
+**Output:** "Feasibility: HIGH. Tech is straightforward (recipes, grocery lists, calendar). Differentiation: Low. Apps like Paprika, Mealime exist. Market: HIGH. Everyone eats. Problem: MEDIUM. Most meal plan occasionally but not a deep pain. Score: ITERATE - add unique angle (AI suggestions, social features, budget optimization)."
+**Validation:** All dimensions scored, clear verdict
+
+### Example 2: B2B SaaS Validation
+**Input:** "Enterprise compliance monitoring tool for healthcare"
+**Output:** "Feasibility: MEDIUM. Complex domain, regulatory requirements. Differentiation: MEDIUM. Existing players (ComplianceQuest, Sparta). Market: HIGH. Healthcare is $4T industry, compliance is constant pain. Problem: HIGH. Violations = huge fines + reputational damage. Score: BUILD - clear market need, even if competitive."
+**Validation:** B2B context considered, regulatory dimension addressed
+
+### Example 3: Hardware Product
+**Input:** "Smart pet collar with GPS and health monitoring"
+**Output:** "Feasibility: LOW. Hardware + cellular + battery + waterproof = complex. Differentiation: MEDIUM. Exist (AirTag, Tractive). Market: MEDIUM. Pet owners care but price sensitive. Problem: MEDIUM. Lost pets are rare, health monitoring accuracy questionable. Score: PASS - too many technical hurdles, unclear differentiation."
+**Validation:** Hardware challenges identified, realistic assessment
