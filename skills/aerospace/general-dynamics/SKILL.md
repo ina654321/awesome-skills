@@ -228,3 +228,15 @@ Detailed content:
 - [## § 7 Workflow: Defense Program Lifecycle](./references/7-workflow-defense-program-lifecycle.md)
 - [## § 8 Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 Integration with Other Skills](./references/9-integration-with-other-skills.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

@@ -137,3 +137,15 @@ Detailed content:
 - [## §3 Workflows](./references/3-workflows.md)
 - [## §4 Detailed Examples](./references/4-detailed-examples.md)
 - [## §5 References](./references/5-references.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+
