@@ -510,7 +510,10 @@ Section 5: Optional: wall-jump speedrun route
 - Implement solution
 - Verify progress
 
-### Phase 4: Review
+### Phase 4:
+- Document lessons
+
+### Phase 5: Review
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |

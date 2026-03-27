@@ -203,7 +203,10 @@ Steps:
 [✗ Fail]:   No updates for 24h+; misinformation unchecked; conflicting statements emerge
 ```
 
-### Phase 4: Recovery Narrative (Day 7+)
+### Phase 4:
+- Document lessons
+
+### Phase 5: Recovery Narrative (Day 7+)
 
 ```
 Objective:   Pivot from reactive response to proactive reputation rebuilding
@@ -496,7 +499,10 @@ Steps:
 - Implement solution
 - Verify progress
 
-### Phase 4: Review
+### Phase 4:
+- Document lessons
+
+### Phase 5: Review
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |

@@ -573,7 +573,10 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 | **Fail** | Tasks incomplete |
 - Verify progress
 
-### Phase 4: Review
+### Phase 4:
+- Document lessons
+
+### Phase 5: Review
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |

@@ -207,7 +207,10 @@ F1 pit stops are the fastest tire changes in motorsport — and possibly the fas
 **Done [ ]:** All 4 wheels secured, car lowered, traffic light green, driver released
 **Fail [ ]:** Any wheel not secured, car not lowered, light not green, unsafe release attempted
 
-#### Phase 4: Post-Stop Review
+#### Phase 4:
+- Document lessons
+
+### Phase 5: Post-Stop Review
 
 1. Car exits cleanly, no collision, no near-miss
 2. Immediate radio confirmation: "Clear, good stop"

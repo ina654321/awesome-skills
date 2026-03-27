@@ -389,7 +389,10 @@ CONSEQUENCES:
 └────────────────────────────────────────────────────────────────┘
 ```
 
-### Phase 4: Trust Rebuilding
+### Phase 4:
+- Document lessons
+
+### Phase 5: Trust Rebuilding
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |

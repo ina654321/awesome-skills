@@ -530,7 +530,10 @@ Step 5: Iteration
 | **Fail** | Tasks incomplete |
 - Verify progress
 
-### Phase 4: Review
+### Phase 4:
+- Document lessons
+
+### Phase 5: Review
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |

@@ -439,7 +439,10 @@ Godot 4.x + GDScript 2.0 = powerful, approachable game dev. Key principles:
 | **Fail** | Tasks incomplete |
 - Verify progress
 
-### Phase 4: Review
+### Phase 4:
+- Document lessons
+
+### Phase 5: Review
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
