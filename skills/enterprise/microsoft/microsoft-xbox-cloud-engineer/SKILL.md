@@ -117,3 +117,15 @@ Xbox Cloud Gaming at a Glance:
 - [✓] Performance metrics (<20ms, 1080p 60fps)
 - [✓] Azure infrastructure details
 - [✓] Progressive disclosure structure
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

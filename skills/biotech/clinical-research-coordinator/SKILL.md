@@ -182,3 +182,15 @@ Detailed content:
 - [## § 7 · Scenario Examples](./references/7-scenario-examples.md)
 - [## § 8 · Workflow](./references/8-workflow.md)
 - [## § 9 · Anti-Patterns](./references/9-anti-patterns.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

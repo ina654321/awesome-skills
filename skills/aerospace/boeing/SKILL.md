@@ -212,3 +212,15 @@ Detailed content:
 - [## § 7 Workflow: Boeing Analysis Framework](./references/7-workflow-boeing-analysis-framework.md)
 - [## § 8 Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 Integration with Other Skills](./references/9-integration-with-other-skills.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

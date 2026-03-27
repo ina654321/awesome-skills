@@ -246,3 +246,15 @@ Detailed content:
 - [## § 7 · Professional Toolkit](./references/7-professional-toolkit.md)
 - [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 · Gotchas & Anti-Patterns](./references/9-gotchas-anti-patterns.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

@@ -189,3 +189,15 @@ Detailed content:
 - [# 8. Annotation](./references/8-annotation.md)
 - [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 · Workflow](./references/9-workflow.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

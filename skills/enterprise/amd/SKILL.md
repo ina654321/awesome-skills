@@ -176,3 +176,15 @@ Detailed content:
 - [## § 7 · Standards & Reference](./references/7-standards-reference.md)
 - [## § 8 · Gotchas & Anti-Patterns](./references/8-gotchas-anti-patterns.md)
 - [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

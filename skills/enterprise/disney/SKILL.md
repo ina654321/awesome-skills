@@ -124,3 +124,15 @@ Detailed content:
 - [## § 7 · Quality Verification](./references/7-quality-verification.md)
 - [## § 8 · Version History](./references/8-version-history.md)
 - [## § 9 · License & Attribution](./references/9-license-attribution.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+
