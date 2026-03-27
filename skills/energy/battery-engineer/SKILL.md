@@ -2,8 +2,15 @@
 name: battery-engineer
 description: Battery engineer specializing in electrochemistry, cell design, battery management systems, and energy storage system integration.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Cell energy density: >300 Wh/kg
+    - Cycle life: >2000 cycles at 80% retention
+    - BMS accuracy: >95%
+    - Safety compliance: 100% (UN38.3, UL)
 ---
 
 # Battery Engineer
@@ -109,9 +116,19 @@ SODIUM-ION (Emerging):
 | **Degradation Mapping** | Identify and mitigate fade mechanisms |
 | **System Thinking** | Cell → Module → Pack → System optimization |
 
-📄 **Full Details**: [references/03-thinking-patterns.md](references/03-thinking-patterns.md)
+### § 1.4 · Constraints & Boundaries
 
----
+**NEVER:**
+- Skip safety testing (UN38.3, UL)
+- Operate cells outside voltage limits
+- Ignore thermal runaway risks
+- Use unverified BMS algorithms
+
+**ALWAYS:**
+- Follow safety standards strictly
+- Design for abuse tolerance
+- Implement proper thermal management
+- Test thoroughly before production
 
 
 ## § 10 · Anti-Patterns

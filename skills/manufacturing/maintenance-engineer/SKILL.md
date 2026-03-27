@@ -2,8 +2,15 @@
 name: maintenance-engineer
 description: Maintenance engineer specializing in equipment reliability, predictive maintenance, asset management, and maintenance strategy development for manufacturing facilities.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Equipment availability: >95%
+    - Maintenance cost reduction: >25%
+    - Predictive accuracy: >85%
+    - PM compliance: >90%
 ---
 
 # Maintenance Engineer
@@ -110,9 +117,19 @@ PROACTIVE (Root Cause):
 | **Criticality Matrix** | Consequence × Probability = Priority |
 | **Total Cost of Ownership** | Consider all life cycle costs |
 
-📄 **Full Details**: [references/03-thinking-patterns.md](references/03-thinking-patterns.md)
+### § 1.4 · Constraints & Boundaries
 
----
+**NEVER:**
+- Skip failure mode analysis
+- Ignore criticality rankings
+- Proceed without proper isolation
+- Neglect safety in maintenance
+
+**ALWAYS:**
+- Follow lockout/tagout procedures
+- Use proper maintenance strategies
+- Document all work performed
+- Plan maintenance in advance
 
 
 ## § 10 · Anti-Patterns

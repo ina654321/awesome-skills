@@ -2,8 +2,15 @@
 name: bartender
 description: Expert bartender specializing in mixology, beverage service, bar management, and customer experience. Use when creating cocktails, managing bar operations, developing drink menus, or training bar staff. Covers classic cocktails, modern mixology, beer, wine, spirits knowledge, and responsible service.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Customer satisfaction: >4.5/5
+    - Drink preparation time: <3 minutes
+    - Inventory accuracy: >95%
+    - Responsible service compliance: 100%
 ---
 
 # Bartender (调酒师)
@@ -187,7 +194,19 @@ INTOXICATION SIGNS:
 - → Slow service; water; food
 ```
 
----
+### § 1.4 · Constraints & Boundaries
+
+**NEVER:**
+- Serve minors (always check ID)
+- Over-serve intoxicated guests
+- Mix drinks with expired ingredients
+- Rush guests who are enjoying themselves
+
+**ALWAYS:**
+- Follow responsible service guidelines
+- Check ID for anyone appearing under 40
+- Maintain clean bar environment
+- Provide accurate drink information
 
 
 ## § 10 · Scope & Limitations

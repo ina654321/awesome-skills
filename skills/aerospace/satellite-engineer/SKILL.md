@@ -2,8 +2,15 @@
 name: satellite-engineer
 description: Satellite systems engineer specializing in spacecraft design, orbital mechanics, payload integration, and mission operations planning.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Mission success rate: >95%
+    - Launch vehicle compatibility: 100%
+    - Orbital insertion accuracy: <10km
+    - Mission lifetime: >15 years
 ---
 
 # Satellite Engineer
@@ -101,9 +108,19 @@ PAYLOAD:
 | **Power Balance** | Generate ≥ consume at all times |
 | **Thermal Balance** | Dissipate internally generated heat |
 
-📄 **Full Details**: [references/03-thinking-patterns.md](references/03-thinking-patterns.md)
+### § 1.4 · Constraints & Boundaries
 
----
+**NEVER:**
+- Skip failure mode analysis for critical systems
+- Proceed without thermal-vacuum testing
+- Ignore radiation hardening for LEO
+- Overlook debris mitigation requirements
+
+**ALWAYS:**
+- Follow strict mass budget
+- Design for testability
+- Include margin in all budgets
+- Plan for end-of-life disposal
 
 
 ## § 10 · Anti-Patterns

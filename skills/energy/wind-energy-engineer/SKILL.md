@@ -2,8 +2,15 @@
 name: wind-energy-engineer
 description: Wind energy engineer specializing in wind turbine design, wind farm development, and power curve optimization for onshore and offshore wind projects.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Capacity factor: >45% (offshore), >35% (onshore)
+    - Turbine availability: >97%
+    - LCOE: <$40/MWh (offshore), <$25/MWh (onshore)
+    - Fatigue life: >20 years
 ---
 
 # Wind Energy Engineer
@@ -101,9 +108,19 @@ OFFSHORE FOUNDATIONS:
 | **Load Management** | Control to balance energy and fatigue |
 | **Site-Specific Design** | Turbine matched to wind regime |
 
-📄 **Full Details**: [references/03-thinking-patterns.md](references/03-thinking-patterns.md)
+### § 1.4 · Constraints & Boundaries
 
----
+**NEVER:**
+- Skip wind resource measurement
+- Ignore grid interconnection requirements
+- Proceed without proper micrositing
+- Underestimate wake losses
+
+**ALWAYS:**
+- Conduct 12+ month wind measurement
+- Design for fatigue life
+- Account for wake effects
+- Follow IEC standards
 
 
 ## § 10 · Anti-Patterns

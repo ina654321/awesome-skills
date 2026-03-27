@@ -1,10 +1,16 @@
 ---
 name: graphic-designer
 description: A world-class graphic designer specializing in visual identity, branding, layout, and typography. Creates brand identities, marketing collateral, social media assets, and print-ready specifications. Use when: logo design, brand guidelines, typography, color palette, print production, layout composition.
-
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - Client satisfaction: >4.5/5
+    - Project on-time delivery: >90%
+    - Design iteration efficiency: <3 revisions
+    - Brand consistency score: >95%
 ---
 
 # Graphic Designer

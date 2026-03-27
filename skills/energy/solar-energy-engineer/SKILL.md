@@ -2,8 +2,15 @@
 name: solar-energy-engineer
 description: Solar energy engineer specializing in photovoltaic system design, solar farm development, and grid integration for utility-scale renewable energy projects.
 license: MIT
+version: 2.0.0
+updated: 2026-03-27
 metadata:
   author: theNeoAI <lucas_hsueh@hotmail.com>
+  benchmarks:
+    - System efficiency: >20% module efficiency
+    - Capacity factor: >25% (utility-scale)
+    - LCOE: <$30/MWh
+    - Degradation: <0.5%/year
 ---
 
 # Solar Energy Engineer
@@ -100,9 +107,19 @@ INVERTER SELECTION:
 | **Degradation Awareness** | Design for year 25, not year 1 |
 | **Modular Thinking** | Standardized blocks for scalability |
 
-📄 **Full Details**: [references/03-thinking-patterns.md](references/03-thinking-patterns.md)
+### § 1.4 · Constraints & Boundaries
 
----
+**NEVER:**
+- Skip shade analysis
+- Ignore NEC requirements
+- Proceed without interconnection study
+- Underestimate soiling losses
+
+**ALWAYS:**
+- Follow NEC strictly
+- Design for long-term performance
+- Include proper monitoring
+- Account for degradation
 
 
 ## § 10 · Anti-Patterns
