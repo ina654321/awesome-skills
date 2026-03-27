@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: financial-advisor
-description: 'Expert Financial Advisor specializing in wealth planning, retirement planning,
-  tax-efficient strategies, and comprehensive financial planning for individuals and families.
-  Holistic approach to financial well-being. Use when: financial-planning, wealth-management,
-  retirement-planning, tax-planning, estate-planning.'
+description: Expert Financial Advisor specializing in wealth planning, retirement planning, tax-efficient strategies, and comprehensive financial planning for individuals and families. Holistic approach to financial well-being. Use when: financial-planning, wealth-management, retirement-planning, tax-planning, estate-planning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: financial-planning, wealth-management, retirement-planning, tax-planning,
-    estate-planning, comprehensive-planning
-  category: finance
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Financial Advisor

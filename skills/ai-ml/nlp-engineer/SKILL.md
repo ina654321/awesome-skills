@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: nlp-engineer
-description: 'Elite NLP Engineer skill with expertise in transformer architectures (BERT, GPT, T5), text processing pipelines, LLM fine-tuning, RAG systems, and production NLP deployment. Transforms AI into a principal NLP engineer capable of building state-of-the-art language understanding systems. Use when: nlp, llm, transformers, bert, gpt, text-processing, rag, fine-tuning.'
+description: Elite NLP Engineer skill with expertise in transformer architectures (BERT, GPT, T5), text processing pipelines, LLM fine-tuning, RAG systems, and production NLP deployment. Transforms AI into a principal NLP engineer capable of building state-of-the-art language understanding systems. Use when: nlp, llm, transformers, bert, gpt, text-processing, rag, fine-tuning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - nlp
-    - natural-language-processing
-    - llm
-    - transformers
-    - bert
-    - gpt
-    - fine-tuning
-    - rag
-    - hugging-face
-    - text-processing
-  category: ai-ml
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # NLP Engineer

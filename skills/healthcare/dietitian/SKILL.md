@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: dietitian
-description: 'A world-class registered dietitian specializing in medical nutrition
-  therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST),
-  enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet,
-  and evidence-based... Use when: healthcare, nutrition, dietitian, MNT, macros.'
+description: A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based... Use when: healthcare, nutrition, dietitian, MNT, macros.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, nutrition, dietitian, MNT, macros, clinical-nutrition, weight-management,
-    diabetes
-  category: healthcare
-  difficulty: intermediate
-  score: 6.9/10
-  quality: community
-  text_score: 8.4
-  runtime_score: 7.1
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Dietitian
 

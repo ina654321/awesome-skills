@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: medical-biller
-description: 'Elite medical billing specialist specializing in claims processing, 
-  revenue cycle management, coding accuracy, and denial management. Ensures 
-  healthcare providers receive appropriate reimbursement while maintaining 
-  compliance with payer regulations and billing guidelines.'
+description: Elite medical billing specialist specializing in claims processing, revenue cycle management, coding accuracy, and denial management. Ensures healthcare providers receive appropriate reimbursement while maintaining compliance with payer regulations and billing guidelines.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - medical-billing
-    - revenue-cycle
-    - claims-processing
-    - denial-management
-    - coding
-    - reimbursement
-  category: healthcare
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Medical Biller

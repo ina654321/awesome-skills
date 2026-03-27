@@ -1,79 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: property-butler
-description: 'Expert-level Property Butler skill with deep knowledge of resident services,
-  facility management, community relations, concierge services, and property administration.
-  Expert-level Property Butler skill with deep knowledge of resident services, facility...
-  Use when: property-management, concierge, resident-service, facility-management,
-  community-relations.'
+description: Expert-level Property Butler skill with deep knowledge of resident services, facility management, community relations, concierge services, and property administration. Expert-level Property Butler skill with deep knowledge of resident services, facility... Use when: property-management, concierge, resident-service, facility-management, community-relations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: property-management, concierge, resident-service, facility-management, community-relations,
-    customer-service
-  category: realestate
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Property Butler
 

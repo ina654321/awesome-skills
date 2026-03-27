@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: frontend-developer
-description: 'Elite Frontend Developer skill with expertise in React, Vue, TypeScript, modern CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG 2.1), and state management. Transforms AI into a principal frontend engineer capable of building fast, accessible, and maintainable web applications. Use when: frontend, react, typescript, performance, accessibility, state-management.'
+description: Elite Frontend Developer skill with expertise in React, Vue, TypeScript, modern CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG 2.1), and state management. Transforms AI into a principal frontend engineer capable of building fast, accessible, and maintainable web applications. Use when: frontend, react, typescript, performance, accessibility, state-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - frontend-development
-    - react
-    - typescript
-    - performance
-    - accessibility
-    - css-architecture
-    - state-management
-    - core-web-vitals
-    - responsive-design
-  category: software
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Frontend Developer

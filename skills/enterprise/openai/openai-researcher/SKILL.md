@@ -1,24 +1,10 @@
 ---
 name: openai-researcher
-description: >
-  OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.),
-  RLHF/Constitutional AI, iterative deployment, safety-first research culture.
-  Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws.
+description: OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.2.0
-  updated: 2026-03-22
-  tags: [openai, agi, rlhf, scaling-laws, ai-safety, gpt, research, alignment]
-  category: enterprise
-  difficulty: expert
-  score: 9.6/10
-  quality: exemplary
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
-  display_name: OpenAI Researcher
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # OpenAI Researcher

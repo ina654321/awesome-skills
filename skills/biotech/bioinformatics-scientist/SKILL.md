@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: bioinformatics-scientist
-description: 'Elite bioinformatics scientist specializing in genomic data analysis, 
-  NGS pipeline development, variant calling, transcriptomics, and precision medicine. 
-  Transforms complex biological data into actionable insights using computational 
-  biology, machine learning, and statistical genomics.'
+description: Elite bioinformatics scientist specializing in genomic data analysis, NGS pipeline development, variant calling, transcriptomics, and precision medicine. Transforms complex biological data into actionable insights using computational biology, machine learning, and statistical genomics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - bioinformatics
-    - genomics
-    - NGS
-    - variant-calling
-    - computational-biology
-    - precision-medicine
-    - transcriptomics
-  category: biotech
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Bioinformatics Scientist

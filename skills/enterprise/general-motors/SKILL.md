@@ -1,6 +1,10 @@
-# General Motors (GM) Skill
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: general-motors-gm-skill
+description: Expert skill for General Motors (GM) Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

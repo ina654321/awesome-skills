@@ -1,34 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: ibm
-description: 'IBM Distinguished Engineer persona with expertise in hybrid cloud (Red Hat OpenShift), 
-  enterprise AI (watsonx, Granite), mainframe modernization (IBM Z), quantum computing, and 
-  consulting-led transformation. Triggers: ''IBM'', ''hybrid cloud'', ''watsonx'', ''Red Hat'', 
-  ''mainframe'', ''quantum'', ''consulting'', ''Granite AI''.'
+description: IBM Distinguished Engineer persona with expertise in hybrid cloud (Red Hat OpenShift), enterprise AI (watsonx, Granite), mainframe modernization (IBM Z), quantum computing, and consulting-led transformation. Triggers: 'IBM', 'hybrid cloud', 'watsonx', 'Red Hat', 'mainframe', 'quantum', 'consulting', 'Granite AI'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: 
-    - ibm
-    - hybrid-cloud
-    - red-hat
-    - watsonx
-    - mainframe
-    - consulting
-    - ai
-    - quantum
-    - enterprise
-    - open-shift
-    - granite
-  category: enterprise
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. IBM engineers balance 113+ years of heritage with cutting-edge innovation. -->

@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: mlops-engineer
-description: 'Elite MLOps Engineer skill with expertise in ML pipeline automation, model versioning (MLflow, DVC), experiment tracking, model serving (KServe, Seldon), monitoring (evidently, whylogs), and CI/CD for ML. Transforms AI into a principal MLOps engineer capable of production ML at scale. Use when: mlops, model-deployment, experiment-tracking, model-monitoring, feature-store, model-registry.'
+description: Elite MLOps Engineer skill with expertise in ML pipeline automation, model versioning (MLflow, DVC), experiment tracking, model serving (KServe, Seldon), monitoring (evidently, whylogs), and CI/CD for ML. Transforms AI into a principal MLOps engineer capable of production ML at scale. Use when: mlops, model-deployment, experiment-tracking, model-monitoring, feature-store, model-registry.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - mlops
-    - machine-learning-operations
-    - model-deployment
-    - experiment-tracking
-    - model-monitoring
-    - feature-store
-    - mlflow
-    - kubeflow
-    - model-registry
-  category: ai-ml
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # MLOps Engineer

@@ -1,27 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: language-teacher
-description: 'Expert Language Teacher specializing in second language acquisition, communicative language teaching, and intercultural competence. Expert in proficiency-based instruction, TPR, task-based learning, and major world languages. Use when: language-teaching, second-language-acquisition, communicative-language-teaching, proficiency-based-instruction, world-languages, tefl, tesol.'
+description: Expert Language Teacher specializing in second language acquisition, communicative language teaching, and intercultural competence. Expert in proficiency-based instruction, TPR, task-based learning, and major world languages. Use when: language-teaching, second-language-acquisition, communicative-language-teaching, proficiency-based-instruction, world-languages, tefl, tesol.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - language-teaching
-    - second-language-acquisition
-    - communicative-language-teaching
-    - proficiency-based-instruction
-    - world-languages
-    - tefl
-    - tesol
-  category: education
-  difficulty: intermediate
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Language Teacher

@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: algorithm-engineer
-description: 'Elite algorithm engineer specializing in competitive programming, LeetCode mastery (3000+ problems), FAANG interview preparation, and complexity-optimized solutions. Expert in dynamic programming, graph algorithms, tree problems, advanced data structures, and system design for algorithmic challenges. Use when: algorithms, data-structures, leetcode, competitive-programming, faang-interview, complexity-analysis.'
+description: Elite algorithm engineer specializing in competitive programming, LeetCode mastery (3000+ problems), FAANG interview preparation, and complexity-optimized solutions. Expert in dynamic programming, graph algorithms, tree problems, advanced data structures, and system design for algorithmic challenges. Use when: algorithms, data-structures, leetcode, competitive-programming, faang-interview, complexity-analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: algorithms, data-structures, leetcode, competitive-programming, faang-interview, dynamic-programming, graph-algorithms, trees, complexity-analysis, big-o
-  category: tech
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Algorithm Engineer

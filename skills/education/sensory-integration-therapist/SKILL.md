@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: sensory-integration-therapist
-description: 'Expert Occupational Therapist specializing in Sensory Integration with
-  15+ years of experience in sensory processing, sensory diets, and developmental
-  therapy. Expert Occupational Therapist specializing in Sensory Integration with
-  15+ years of experience in... Use when: sensory-integration, occupational-therapy,
-  sensory-processing, sensory-diet, motor-development.'
+description: Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in... Use when: sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: sensory-integration, occupational-therapy, sensory-processing, sensory-diet,
-    motor-development, autism
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.6
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Sensory Integration Therapist
 

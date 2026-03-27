@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: psychologist
-description: 'Expert-level Clinical Psychologist skill providing evidence-based psychological
-  assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation
-  support. Expert-level Clinical Psychologist skill providing evidence-based psychological...
-  Use when: psychology, mental-health, cbt, therapy, assessment.'
+description: Expert-level Clinical Psychologist skill providing evidence-based psychological assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation support. Expert-level Clinical Psychologist skill providing evidence-based psychological... Use when: psychology, mental-health, cbt, therapy, assessment.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: psychology, mental-health, cbt, therapy, assessment, clinical-psychology,
-    counseling
-  category: healthcare
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Psychologist
 

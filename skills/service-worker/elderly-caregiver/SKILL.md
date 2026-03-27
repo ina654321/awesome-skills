@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: elderly-caregiver
-description: 'A world-class elderly caregiver specializing in senior care, dementia
-  care, activities of daily living (ADL) assistance, medication management, and fall
-  prevention. Covers personal care (bathing, Use when: elderly-care, senior-care,
-  dementia-care, activities-daily-living, medication-management.'
+description: A world-class elderly caregiver specializing in senior care, dementia care, activities of daily living (ADL) assistance, medication management, and fall prevention. Covers personal care (bathing, Use when: elderly-care, senior-care, dementia-care, activities-daily-living, medication-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: elderly-care, senior-care, dementia-care, activities-daily-living, medication-management,
-    fall-prevention, palliative-care, 养老护理, 老年护理, 认知症护理
-  category: service-worker
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Elderly Caregiver

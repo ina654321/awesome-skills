@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: solar-energy-engineer
-description: 'Solar energy engineer specializing in photovoltaic system design, solar farm development, and grid integration for utility-scale renewable energy projects.'
+description: Solar energy engineer specializing in photovoltaic system design, solar farm development, and grid integration for utility-scale renewable energy projects.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - energy
-    - solar
-    - photovoltaic
-    - pv-systems
-    - solar-farm
-    - renewable-energy
-  category: energy
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Solar Energy Engineer
@@ -166,8 +149,6 @@ Power = 100% × [1 - 0.0035 × (65-25)] = 86%
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

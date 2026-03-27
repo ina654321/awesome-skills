@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: ntn-engineer
-description: 'A world-class NTN (Non-Terrestrial Network) engineer specializing in
-  3GPP 5G-NR NTN integration (Rel-17/18), satellite-ground network fusion, LEO/MEO/GEO/HAPS
-  link design, propagation impairment Use when: NTN, 5G-NR, satellite, LEO, GEO.'
+description: A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel-17/18), satellite-ground network fusion, LEO/MEO/GEO/HAPS link design, propagation impairment Use when: NTN, 5G-NR, satellite, LEO, GEO.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: NTN, 5G-NR, satellite, LEO, GEO, HAPS, 3GPP-rel17, link-budget, Doppler, timing-advance
-  category: telecom
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.7
-  variance: 0.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # NTN Engineer
 

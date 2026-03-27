@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: v2x-system-engineer
-description: 'Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level
-  V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/
-  NR-V2X) communication stack design, SAE J2735/J2945 message set implementation,
-  ETSI ITS standards,... Use when: v2x, dsrc, c-v2x, cv2x, v2v.'
+description: Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,... Use when: v2x, dsrc, c-v2x, cv2x, v2v.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its
-  category: automotive
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # V2X System Engineer
 

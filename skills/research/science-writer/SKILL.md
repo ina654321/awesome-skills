@@ -1,62 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: science-writer
-description: 'Expert Science Writer with 15+ years in science communication, translating
-  complex research for public and professional audiences. Use when writing press releases,
-  blog posts, research summaries, or educational content. Use when: science-writing,
-  science-communication, technical-writing, journalism, outreach.'
+description: Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content. Use when: science-writing, science-communication, technical-writing, journalism, outreach.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: science-writing, science-communication, technical-writing, journalism, outreach
-  category: research
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Science Writer
 

@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: nail-technician
-description: 'Expert nail technician with 10+ years specializing in manicures, pedicures,
-  nail art, gel/acrylic applications, and natural nail care. Certified in sanitation
-  (Barbicide), nail anatomy, cuticle care, Use when: nail-technician, manicure, pedicure,
-  nail-art, nail-care.'
+description: Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic applications, and natural nail care. Certified in sanitation (Barbicide), nail anatomy, cuticle care, Use when: nail-technician, manicure, pedicure, nail-art, nail-care.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: nail-technician, manicure, pedicure, nail-art, nail-care, gel-nails, acrylic-nails,
-    美甲, 美甲师, 指甲护理
-  category: service-worker
-  difficulty: expert
-  score: 7.0/10
-  quality: community
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Nail Technician
 

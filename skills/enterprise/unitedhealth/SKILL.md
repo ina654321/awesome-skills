@@ -1,4 +1,10 @@
-# UnitedHealth Group
+---
+name: unitedhealth-group
+description: Expert skill for UnitedHealth Group
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Scope:** Healthcare operations, insurance, care delivery, PBM, and health analytics for the largest US health insurer  

@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: receptionist
-description: 'Expert receptionist with advanced skills in visitor management, phone
-  etiquette, front desk operations, and administrative support. Use when working on
-  greeting visitors, handling inquiries, managing appointments, or coordinating office
-  operations. Use when: working with receptionist.'
+description: Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations, and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations. Use when: working with receptionist.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.5/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Receptionist
 

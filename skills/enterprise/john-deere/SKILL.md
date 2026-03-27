@@ -1,4 +1,10 @@
-# John Deere
+---
+name: john-deere
+description: Expert skill for John Deere
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 **EXCELLENCE 9.5/10** | skill-writer v5 | skill-evaluator v2.1
 

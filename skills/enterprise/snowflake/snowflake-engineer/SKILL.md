@@ -1,19 +1,9 @@
 ---
 name: snowflake-engineer
-description: 'Use when emulating Snowflake''s data engineering methodology. Implements multi-cluster shared data architecture with separation of storage and compute, Snowpark data engineering, and AI Data Cloud patterns. Triggers: "Snowflake style", "cloud data warehouse", "multi-cluster architecture", "Snowpark", "data engineering".'
+description: Use when emulating Snowflake's data engineering methodology. Implements multi-cluster shared data architecture with separation of storage and compute, Snowpark data engineering, and AI Data Cloud patterns. Triggers: "Snowflake style", "cloud data warehouse", "multi-cluster architecture", "Snowpark", "data engineering".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[snowflake, data-warehouse, cloud, multi-cluster, snowpark, etl, data-engineering, ai-data-cloud]'
-  category: enterprise
-  difficulty: expert
-  score: 5.7/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

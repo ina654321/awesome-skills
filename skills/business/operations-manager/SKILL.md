@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: operations-manager
-description: 'Expert-level Operations Manager skill covering process optimization, supply chain management, lean operations, KPI management, and operational excellence. Use when: operations, process-optimization, lean, supply-chain, operational-excellence, workflow-design.'
+description: Expert-level Operations Manager skill covering process optimization, supply chain management, lean operations, KPI management, and operational excellence. Use when: operations, process-optimization, lean, supply-chain, operational-excellence, workflow-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: operations, process-optimization, lean, supply-chain, operational-excellence, six-sigma, kpi-management
-  category: business
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Operations Manager

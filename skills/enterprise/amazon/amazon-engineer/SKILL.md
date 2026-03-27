@@ -1,22 +1,9 @@
 ---
 name: amazon-engineer
-description: 'Amazon engineering culture with 16 Leadership Principles, Working Backwards
-  methodology, 6-page memos, and Bar Raiser hiring. Triggers: ''Amazon style'', ''customer
-  obsession'', ''working backwards''.'
+description: Amazon engineering culture with 16 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession', 'working backwards'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[amazon, leadership-principles, customer-obsession, working-backwards, ownership,
-    frugality, innovation, aws, two-pizza-teams, bar-raiser]'
-  category: enterprise
-  difficulty: expert
-  score: 5.6/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

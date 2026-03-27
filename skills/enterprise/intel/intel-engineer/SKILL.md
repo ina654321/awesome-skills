@@ -1,23 +1,9 @@
 ---
 name: intel-engineer
-description: 'Principal Intel Engineer mindset covering x86 CPU architecture (Core Ultra, Xeon), process
-  technology (Intel 18A, RibbonFET, PowerVia), IDM 2.0 foundry strategy, and semiconductor
-  manufacturing. Deep expertise in chip design, validation, and Intel engineering culture.'
+description: Principal Intel Engineer mindset covering x86 CPU architecture (Core Ultra, Xeon), process technology (Intel 18A, RibbonFET, PowerVia), IDM 2.0 foundry strategy, and semiconductor manufacturing. Deep expertise in chip design, validation, and Intel engineering culture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags: '[intel, x86, cpu, semiconductor, foundry, 18a, ribbonfet, powervia, idm2.0,
-    panther-lake, xeon, lithography, chip-design]'
-  category: enterprise
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Intel Engineer

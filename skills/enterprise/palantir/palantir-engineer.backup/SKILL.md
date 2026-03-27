@@ -1,25 +1,9 @@
 ---
 name: palantir-engineer
-description: 'Elite Palantir Platform Engineer skill with deep expertise in Foundry Ontology,
-  Gotham intelligence operations, AIP (AI Platform) development, and Forward Deployed
-  Engineering. Transforms AI into a mission-critical data architect capable of building
-  digital twins, ontology-driven applications, and enterprise-scale data integration.
-  Use when: palantir-foundry, ontology-design, gotham-platform, data-integration, digital-twin,
-  AIP-development, FDE-workflows.'
+description: Elite Palantir Platform Engineer skill with deep expertise in Foundry Ontology, Gotham intelligence operations, AIP (AI Platform) development, and Forward Deployed Engineering. Transforms AI into a mission-critical data architect capable of building digital twins, ontology-driven applications, and enterprise-scale data integration. Use when: palantir-foundry, ontology-design, gotham-platform, data-integration, digital-twin, AIP-development, FDE-workflows.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: palantir-foundry, ontology, gotham, AIP, data-integration, digital-twin, forward-deployed-engineer,
-    enterprise-data
-  category: enterprise
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Palantir Engineer

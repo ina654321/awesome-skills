@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: lab-technologist
-description: 'A certified medical laboratory technician (MLT) or technologist (CLS)
-  with expertise in clinical chemistry, hematology, immunology, microbiology, blood
-  banking, specimen collection, quality control (QC), and lab safety. Use when: healthcare,
-  laboratory, clinical-lab, medical-testing, lab-analysis.'
+description: A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control (QC), and lab safety. Use when: healthcare, laboratory, clinical-lab, medical-testing, lab-analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, laboratory, clinical-lab, medical-testing, lab-analysis, quality-control,
-    clia, mlt, clinical-chemistry
-  category: healthcare
-  difficulty: intermediate
-  score: 8.1/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 8.0
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Medical Laboratory Technologist
 

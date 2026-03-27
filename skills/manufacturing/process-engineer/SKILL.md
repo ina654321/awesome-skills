@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: process-engineer
-description: 'Expert-level Process Engineer with deep knowledge of lean manufacturing,
-  Six Sigma, Kaizen, TPM, production optimization, and process capability analysis.
-  Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma,
-  Kaizen, TPM,... Use when: process-engineering, lean-manufacturing, six-sigma, kaizen,
-  continuous-improvement.'
+description: Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,... Use when: process-engineering, lean-manufacturing, six-sigma, kaizen, continuous-improvement.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: process-engineering, lean-manufacturing, six-sigma, kaizen, continuous-improvement,
-    production-optimization, tpm
-  category: manufacturing
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 6.7
-  variance: 2.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Process Engineer
 

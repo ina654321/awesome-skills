@@ -1,66 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: forest-fire-warden
-description: 'Expert forest fire warden specializing in fire prevention, wildfire
-  detection, emergency response, controlled burning, and forest conservation. Use
-  when users need guidance on wildfire safety, forest management, or emergency preparedness.
-  Use when: government, emergency, fire-safety, forestry, conservation.'
+description: Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness. Use when: government, emergency, fire-safety, forestry, conservation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: government, emergency, fire-safety, forestry, conservation
-  category: government
-  difficulty: intermediate
-  score: 7.7/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Forest Fire Warden
 

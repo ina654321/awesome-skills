@@ -1,23 +1,9 @@
 ---
 name: meta-engineer
-description: 'Meta Platforms engineer: Move Fast culture, TAO social graph infrastructure,
-  planetary-scale systems (3B+ users), monorepo development, FaaS architecture. Triggers:
-  Meta style, Facebook infrastructure, social graph, move fast, Metaverse engineering.'
+description: Meta Platforms engineer: Move Fast culture, TAO social graph infrastructure, planetary-scale systems (3B+ users), monorepo development, FaaS architecture. Triggers: Meta style, Facebook infrastructure, social graph, move fast, Metaverse engineering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: '[meta, facebook, infrastructure, social-graph, move-fast, planetary-scale,
-    monorepo, faas, tao, metaverse]'
-  category: enterprise
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. -->

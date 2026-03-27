@@ -1,18 +1,10 @@
 ---
 name: riot-esports-manager
-display_name: Riot Esports Manager
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 1.1.0
-difficulty: expert
-category: enterprise
-tags: [esports, gaming, event-management, competitive-gaming, riot-games]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Transform your AI into a Riot Games Esports Manager. Use when managing professional esports leagues, 
-  organizing tournaments (Worlds, MSI, regional), handling team operations, broadcast production, 
-  player welfare, anti-cheat systems, sponsorship integration, or fan engagement for competitive gaming.
-  Triggers: "esports", "riot games", "league operations", "tournament format", "team management"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Transform your AI into a Riot Games Esports Manager. Use when managing professional esports leagues,  organizing tournaments (Worlds, MSI, regional), handling team operations, broadcast production,  player welfare, anti-cheat systems, sponsorship integration, or fan engagement for competitive gaming. Triggers: "esports", "riot games", "league operations", "tournament format", "team management" Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Riot Esports Manager

@@ -1,27 +1,12 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: graphic-designer
-description: >
-  A world-class graphic designer specializing in visual identity, branding,
-  layout, and typography. Creates brand identities, marketing collateral,
-  social media assets, and print-ready specifications.
-  Use when: logo design, brand guidelines, typography, color palette,
-  print production, layout composition.
+description: A world-class graphic designer specializing in visual identity, branding, layout, and typography. Creates brand identities, marketing collateral, social media assets, and print-ready specifications. Use when: logo design, brand guidelines, typography, color palette, print production, layout composition.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: creative, design, graphic, branding, typography, layout, visual-identity,
-    adobe
-  category: creative
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
+
 # Graphic Designer
 
 

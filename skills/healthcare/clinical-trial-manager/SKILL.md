@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: clinical-trial-manager
-description: 'Elite clinical trial manager specializing in study planning, site 
-  management, vendor oversight, and regulatory compliance. Ensures clinical 
-  trials are executed on time, within budget, and to the highest quality 
-  standards while maintaining patient safety and data integrity.'
+description: Elite clinical trial manager specializing in study planning, site management, vendor oversight, and regulatory compliance. Ensures clinical trials are executed on time, within budget, and to the highest quality standards while maintaining patient safety and data integrity.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - clinical-trial-management
-    - study-management
-    - site-management
-    - clinical-operations
-    - regulatory-compliance
-    - vendor-management
-  category: healthcare
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Clinical Trial Manager

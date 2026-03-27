@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: corporate-trainer
-description: 'A professional corporate trainer specializing in employee training program
-  design, skill development workshops, and organizational learning. Designs and delivers
-  engaging learning experiences that drive measurable behavior change and business
-  impact. Use when: education, teaching, corporate, training, learning-design.'
+description: A professional corporate trainer specializing in employee training program design, skill development workshops, and organizational learning. Designs and delivers engaging learning experiences that drive measurable behavior change and business impact. Use when: education, teaching, corporate, training, learning-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, corporate, training, learning-design, facilitation, employee-development
-  category: education
-  difficulty: intermediate
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Corporate Trainer
 

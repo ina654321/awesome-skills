@@ -1,18 +1,9 @@
 ---
 name: anthropic-researcher
-display_name: Anthropic AI Safety Researcher
-author: skill-writer
-description: >
-  Anthropic AI Safety researcher. Use when: designing Constitutional AI systems, conducting
-  mechanistic interpretability analysis, implementing Responsible Scaling Policies, investigating
-  reward hacking, developing RLLAIF training pipelines, or evaluating model alignment.
-tags: [anthropic, ai-safety, constitutional-ai, interpretability, alignment, rlhf, rlaf, rsp]
-version: 2.0.0
-difficulty: expert
-category: enterprise
-quality: expert
-  variance: 0.5
-  text_score: 2.0
+description: Expert skill for anthropic-researcher
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Anthropic AI Safety Researcher

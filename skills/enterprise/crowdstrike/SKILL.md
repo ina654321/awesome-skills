@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: crowdstrike-security
-description: 'Design, deploy and optimize CrowdStrike Falcon platform for enterprise endpoint protection, threat detection, cloud security, identity protection, and proactive threat hunting using AI-native architecture. Use when: crowdstrike, falcon, edr, xdr, threat-hunting, incident-response, cloud-security, identity-protection, zero-trust.'
+description: Design, deploy and optimize CrowdStrike Falcon platform for enterprise endpoint protection, threat detection, cloud security, identity protection, and proactive threat hunting using AI-native architecture. Use when: crowdstrike, falcon, edr, xdr, threat-hunting, incident-response, cloud-security, identity-protection, zero-trust.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: crowdstrike, falcon, edr, xdr, threat-hunting, incident-response, endpoint-security, cloud-security, identity-protection, zero-trust, cnapp, mdr, ai-security
-  category: cybersecurity
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  skill_writer: v5
-  skill_evaluator: v2.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CrowdStrike Principal Security Engineer
 

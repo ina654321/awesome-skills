@@ -1,20 +1,9 @@
 ---
 name: tesla-engineer
-description: 'Expert-level Tesla Engineer mindset and methodology. First Principles thinking, Five-Step Algorithm, 4680 battery innovation, Gigafactory vertical integration, Autopilot development, and anti-bureaucracy culture. Triggers: Tesla style, first principles, accelerate sustainable energy'
+description: Expert-level Tesla Engineer mindset and methodology. First Principles thinking, Five-Step Algorithm, 4680 battery innovation, Gigafactory vertical integration, Autopilot development, and anti-bureaucracy culture. Triggers: Tesla style, first principles, accelerate sustainable energy
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[tesla, first-principles, ownership, 4680-battery, gigafactory, autopilot, 
-    vertical-integration, elon-musk, manufacturing, mission-driven]'
-  category: enterprise
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Tesla Engineer

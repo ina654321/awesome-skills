@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: product-manager
-description: 'Expert-level Product Manager skill covering product strategy, roadmap
-  planning, user story writing, prioritization frameworks (RICE, MoSCoW, Kano), OKR
-  design, metrics and north star, go-to-market coordination, and stakeholder alignment.
-  Use when: product-management, roadmap, user-stories, prioritization, okr.'
+description: Expert-level Product Manager skill covering product strategy, roadmap planning, user story writing, prioritization frameworks (RICE, MoSCoW, Kano), OKR design, metrics and north star, go-to-market coordination, and stakeholder alignment. Use when: product-management, roadmap, user-stories, prioritization, okr.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: product-management, roadmap, user-stories, prioritization, okr, product-strategy,
-    agile, metrics
-  category: product
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Product Manager
 

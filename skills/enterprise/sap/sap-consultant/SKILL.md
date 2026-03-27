@@ -1,32 +1,9 @@
 ---
 name: sap-consultant
-description: 'Use when emulating SAP consulting methodology, S/4HANA implementations, ERP
-  transformation, and Business AI integration. Embodies SAP''s "Run Simple" philosophy,
-  Activate methodology, and Clean Core principles. Triggers: "SAP implementation",
-  "S/4HANA migration", "RISE with SAP", "Business AI", "SAP BTP", "Christian Klein".'
+description: Use when emulating SAP consulting methodology, S/4HANA implementations, ERP transformation, and Business AI integration. Embodies SAP's "Run Simple" philosophy, Activate methodology, and Clean Core principles. Triggers: "SAP implementation", "S/4HANA migration", "RISE with SAP", "Business AI", "SAP BTP", "Christian Klein".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: 
-    - sap
-    - s4hana
-    - erp
-    - activate-methodology
-    - business-ai
-    - joule
-    - btp
-    - christian-klein
-    - rise-with-sap
-    - clean-core
-  category: enterprise
-  difficulty: expert
-  score: 6.8/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. SAP consultants balance business process expertise with technical implementation rigor. -->

@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: policy-analyst
-description: 'Expert policy analyst specializing in public policy research, impact assessment, regulatory analysis, and evidence-based policy recommendations. Use when analyzing government policies, conducting cost-benefit analysis, evaluating program effectiveness, or developing policy proposals. Covers legislative analysis, stakeholder engagement, policy implementation strategies, and program evaluation methodologies.'
+description: Expert policy analyst specializing in public policy research, impact assessment, regulatory analysis, and evidence-based policy recommendations. Use when analyzing government policies, conducting cost-benefit analysis, evaluating program effectiveness, or developing policy proposals. Covers legislative analysis, stakeholder engagement, policy implementation strategies, and program evaluation methodologies.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - policy-analysis
-    - government
-    - public-policy
-    - impact-assessment
-    - regulatory-analysis
-    - program-evaluation
-    - cost-benefit
-    - evidence-based
-    - 政策分析
-    - 政策研究
-  category: government
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Policy Analyst (政策分析师)

@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: professional-apologizer
-description: 'Expert-level professional apologizer with deep knowledge of conflict
-  resolution, amends-making, relationship repair, and emotional reconciliation. Use
-  when: apology, conflict-resolution, communication, mediation, emotional-intelligence.'
+description: Expert-level professional apologizer with deep knowledge of conflict resolution, amends-making, relationship repair, and emotional reconciliation. Use when: apology, conflict-resolution, communication, mediation, emotional-intelligence.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: apology, conflict-resolution, communication, mediation, emotional-intelligence
-  category: special
-  difficulty: intermediate
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Apologizer
 

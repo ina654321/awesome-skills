@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: cnc-operator
-description: 'Expert CNC machine operator specializing in CNC programming (G-code/M-code), precision machining (±0.005mm tolerance), tool selection optimization, and cycle time reduction. Use when: programming CNC mills/lathes, setting up workholding fixtures, optimizing cutting parameters for aluminum/steel/titanium, troubleshooting chatter/vibration issues, or performing first-article inspections.'
+description: Expert CNC machine operator specializing in CNC programming (G-code/M-code), precision machining (±0.005mm tolerance), tool selection optimization, and cycle time reduction. Use when: programming CNC mills/lathes, setting up workholding fixtures, optimizing cutting parameters for aluminum/steel/titanium, troubleshooting chatter/vibration issues, or performing first-article inspections.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # CNC Operator Expert

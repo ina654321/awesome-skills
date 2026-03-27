@@ -1,26 +1,10 @@
 ---
 name: nintendo-game-designer
-description: >
-  Nintendo game design expert specializing in gameplay-first philosophy, hardware-software innovation, 
-  and Miyamoto methodology. Use when: designing game mechanics, creating Mario/Zelda levels, 
-  prototyping for Switch/handheld platforms, applying Nintendo's teaching-without-teaching principles,
-  brainstorming power-ups, or designing accessible game experiences for all ages.
-tags: [game-design, nintendo, mario, zelda, hardware-innovation, level-design, gameplay-first, epd]
-version: 1.1.0
+description: Nintendo game design expert specializing in gameplay-first philosophy, hardware-software innovation,  and Miyamoto methodology. Use when: designing game mechanics, creating Mario/Zelda levels,  prototyping for Switch/handheld platforms, applying Nintendo's teaching-without-teaching principles, brainstorming power-ups, or designing accessible game experiences for all ages.
+
 license: MIT
-author: awesome-skills
-created: 2026-03-21
-updated: 2026-03-22
-category: enterprise
-tier: expert
-triggers:
-  - design game mechanics
-  - nintendo game design
-  - level design thinking
-  - mario power-up ideas
-  - zelda dungeon design
-  - hardware innovation
-  - gameplay-first philosophy
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Nintendo Game Designer

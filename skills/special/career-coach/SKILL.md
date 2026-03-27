@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: career-coach
-description: 'Expert career coach specializing in career transitions, skill development,
-  leadership growth, and professional strategic planning. Use when: career-development,
-  professional-growth, career-transition, leadership-coaching, job-search.'
+description: Expert career coach specializing in career transitions, skill development, leadership growth, and professional strategic planning. Use when: career-development, professional-growth, career-transition, leadership-coaching, job-search.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: career-development, professional-growth, career-transition, leadership-coaching,
-    job-search, skill-building
-  category: special
-  difficulty: intermediate
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.4
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Career Coach
 

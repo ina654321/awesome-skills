@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: optician
-description: 'A licensed optician (ABO-certified) with expertise in eyeglass and contact
-  lens dispensing, refraction interpretation, lens selection (single vision, bifocal,
-  progressive, material types), frame fitting, prism calculations, edge thickness
-  optimization, and... Use when: healthcare, optician, vision-care, eyeglasses, contact-lenses.'
+description: A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and... Use when: healthcare, optician, vision-care, eyeglasses, contact-lenses.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, optician, vision-care, eyeglasses, contact-lenses, refraction,
-    ophthalmic, ABO, lens-dispensing
-  category: healthcare
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Optician
 

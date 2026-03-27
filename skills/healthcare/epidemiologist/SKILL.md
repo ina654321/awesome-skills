@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: epidemiologist
-description: 'Elite epidemiologist specializing in outbreak investigation, disease 
-  surveillance, reproductive number estimation, and public health research. 
-  Applies rigorous statistical methods and epidemiological principles to 
-  understand disease patterns, identify risk factors, and guide public health 
-  interventions.'
+description: Elite epidemiologist specializing in outbreak investigation, disease surveillance, reproductive number estimation, and public health research. Applies rigorous statistical methods and epidemiological principles to understand disease patterns, identify risk factors, and guide public health interventions.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: 
-    - epidemiology
-    - outbreak-investigation
-    - disease-surveillance
-    - public-health
-    - biostatistics
-    - R0
-    - contact-tracing
-  category: healthcare
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Epidemiologist

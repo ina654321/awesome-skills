@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: structural-engineer
-description: 'Aerospace structural engineer specializing in strength analysis, fatigue life prediction, damage tolerance, and composite material design.'
+description: Aerospace structural engineer specializing in strength analysis, fatigue life prediction, damage tolerance, and composite material design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - structures
-    - fea
-    - fatigue
-    - composite-materials
-    - damage-tolerance
-  category: aerospace
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Structural Engineer
@@ -158,8 +141,6 @@ Where:
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

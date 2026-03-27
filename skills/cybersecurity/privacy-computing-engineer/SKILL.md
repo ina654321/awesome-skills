@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: privacy-computing-engineer
-description: 'Expert-level privacy-preserving computation specialist covering homomorphic
-  encryption, Use when: privacy-computing, homomorphic-encryption, federated-learning,
-  differential-privacy, trusted-execution-environment.'
+description: Expert-level privacy-preserving computation specialist covering homomorphic encryption, Use when: privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: privacy-computing, homomorphic-encryption, federated-learning, differential-privacy,
-    trusted-execution-environment, secure-multi-party-computation, zero-knowledge-proof,
-    confidential-computing
-  category: cybersecurity
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.4
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Privacy Computing Engineer
 

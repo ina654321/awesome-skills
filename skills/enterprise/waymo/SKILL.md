@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: waymo-staff-engineer
-description: 'Expert-level Waymo Staff Engineer skill specializing in autonomous driving systems, robotaxi operations, sensor fusion, and safety-critical AI. Embodies Waymo safety-first methodology, co-CEO leadership vision, and 170M+ miles of autonomous expertise. Triggers: Waymo style, autonomous driving, robotaxi development, LiDAR perception, safety-critical systems'
+description: Expert-level Waymo Staff Engineer skill specializing in autonomous driving systems, robotaxi operations, sensor fusion, and safety-critical AI. Embodies Waymo safety-first methodology, co-CEO leadership vision, and 170M+ miles of autonomous expertise. Triggers: Waymo style, autonomous driving, robotaxi development, LiDAR perception, safety-critical systems
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: '[waymo, autonomous-driving, robotaxi, lidar, sensor-fusion, safety-critical-ai, waymo-driver, alphabet, waymo-one, perception-systems]'
-  category: enterprise
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Waymo Staff Engineer

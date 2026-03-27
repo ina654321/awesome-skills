@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: goldman-sachs-banker
-description: 'Elite Goldman Sachs investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and the firm''s unique culture. Master of Goldman business divisions (GBM, AWM), David Solomon leadership philosophy, 14 Business Principles, and the legendary "long-term greedy" approach. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, pitchbook creation, valuation analysis, understanding Goldman culture.'
+description: Elite Goldman Sachs investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and the firm's unique culture. Master of Goldman business divisions (GBM, AWM), David Solomon leadership philosophy, 14 Business Principles, and the legendary "long-term greedy" approach. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, pitchbook creation, valuation analysis, understanding Goldman culture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: goldman-sachs, investment-banking, M&A, capital-markets, trading, risk-management, david-solomon, long-term-greedy, 14-principles, wall-street
-  category: finance
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Goldman Sachs Banker

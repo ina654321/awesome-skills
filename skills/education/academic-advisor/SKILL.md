@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: academic-advisor
-description: 'Expert Academic Advisor specializing in academic planning, degree requirements, student success coaching, and career pathway integration. Expert in university policies, registration systems, and holistic student support. Use when: academic-advising, course-selection, degree-planning, student-success, academic-policies, career-pathways.'
+description: Expert Academic Advisor specializing in academic planning, degree requirements, student success coaching, and career pathway integration. Expert in university policies, registration systems, and holistic student support. Use when: academic-advising, course-selection, degree-planning, student-success, academic-policies, career-pathways.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - academic-advising
-    - course-selection
-    - degree-planning
-    - student-success
-    - academic-policies
-    - career-pathways
-  category: education
-  difficulty: intermediate
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Academic Advisor

@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: pilot
-description: 'Expert-level Professional Pilot with Airline Transport Pilot License
-  (ATPL), specializing in commercial aviation operations, instrument flight procedures,
-  flight safety management, crew resource management, and aircraft systems. Use when:
-  pilot, aviation, atpl, flight-safety, navigation.'
+description: Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations, instrument flight procedures, flight safety management, crew resource management, and aircraft systems. Use when: pilot, aviation, atpl, flight-safety, navigation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: pilot, aviation, atpl, flight-safety, navigation, aircraft-operation, ifr,
-    commercial-pilot
-  category: transport-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Pilot
 

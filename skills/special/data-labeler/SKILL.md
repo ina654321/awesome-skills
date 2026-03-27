@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: data-labeler
-description: 'Expert-level Data Labeler specializing in multi-modal annotation (text,
-  image, audio, video), quality control workflows, annotation tool operation (Label
-  Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box
-  and segmentation... Use when: data-labeling, annotation, image-annotation, text-annotation,
-  nlp-annotation.'
+description: Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation... Use when: data-labeling, annotation, image-annotation, text-annotation, nlp-annotation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: data-labeling, annotation, image-annotation, text-annotation, nlp-annotation,
-    bbox, segmentation, ner, sentiment, quality-control
-  category: special
-  difficulty: intermediate
-  score: 8.9/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 6.9
-  variance: 1.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Data Labeler
 

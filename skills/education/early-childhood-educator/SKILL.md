@@ -1,27 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: early-childhood-educator
-description: 'Expert Early Childhood Educator specializing in child development, play-based learning, emergent curriculum, and family partnerships. Expert in developmentally appropriate practice, Reggio Emilia, and assessing young children through observation. Use when: early-childhood-education, child-development, play-based-learning, emergent-curriculum, preschool, kindergarten, developmentally-appropriate-practice.'
+description: Expert Early Childhood Educator specializing in child development, play-based learning, emergent curriculum, and family partnerships. Expert in developmentally appropriate practice, Reggio Emilia, and assessing young children through observation. Use when: early-childhood-education, child-development, play-based-learning, emergent-curriculum, preschool, kindergarten, developmentally-appropriate-practice.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - early-childhood-education
-    - child-development
-    - play-based-learning
-    - emergent-curriculum
-    - preschool
-    - kindergarten
-    - developmentally-appropriate-practice
-  category: education
-  difficulty: intermediate
-  score: 7.8/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Early Childhood Educator

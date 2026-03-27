@@ -1,22 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: art-director
-description: 'Senior art director specializing in creative vision, visual strategy, brand storytelling, and creative team leadership. Use when developing creative concepts, directing visual campaigns, or establishing artistic direction for brands and projects. Use when: art-direction, creative-strategy, visual-storytelling, brand-campaigns, creative-leadership.'
+description: Senior art director specializing in creative vision, visual strategy, brand storytelling, and creative team leadership. Use when developing creative concepts, directing visual campaigns, or establishing artistic direction for brands and projects. Use when: art-direction, creative-strategy, visual-storytelling, brand-campaigns, creative-leadership.
 license: MIT
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: art-direction, creative-strategy, visual-storytelling, brand-campaigns, creative-leadership
-  category: creative
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Art Director

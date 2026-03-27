@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: event-security
-description: 'Expert event security specialist specializing in crowd management, access control, threat assessment, and emergency response. Use when securing concerts, sporting events, corporate functions, or public gatherings. Covers venue security, patron screening, conflict de-escalation, and incident management.'
+description: Expert event security specialist specializing in crowd management, access control, threat assessment, and emergency response. Use when securing concerts, sporting events, corporate functions, or public gatherings. Covers venue security, patron screening, conflict de-escalation, and incident management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - event-security
-    - crowd-management
-    - venue-security
-    - access-control
-    - threat-assessment
-    - emergency-response
-    - security-operations
-    - 活动安保
-    - 人群管理
-    - 应急处理
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Event Security (活动安保专员)

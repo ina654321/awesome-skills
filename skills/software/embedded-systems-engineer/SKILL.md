@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: embedded-systems-engineer
-description: 'Elite Embedded Systems Engineer skill with expertise in firmware development (C/C++), RTOS (FreeRTOS, Zephyr), microcontroller programming (ARM, ESP32, STM32), hardware interfaces (I2C, SPI, UART), and IoT connectivity. Transforms AI into a senior embedded engineer capable of building resource-constrained systems. Use when: embedded-systems, firmware, rtos, microcontrollers, iot, hardware-interfaces.'
+description: Elite Embedded Systems Engineer skill with expertise in firmware development (C/C++), RTOS (FreeRTOS, Zephyr), microcontroller programming (ARM, ESP32, STM32), hardware interfaces (I2C, SPI, UART), and IoT connectivity. Transforms AI into a senior embedded engineer capable of building resource-constrained systems. Use when: embedded-systems, firmware, rtos, microcontrollers, iot, hardware-interfaces.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - embedded-systems
-    - firmware
-    - rtos
-    - microcontrollers
-    - iot
-    - c
-    - c++
-    - arm
-    - stm32
-    - esp32
-  category: software
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Embedded Systems Engineer

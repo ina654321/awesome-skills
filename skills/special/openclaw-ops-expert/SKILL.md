@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: openclaw-ops-expert
-description: 'Expert OpenClaw operations and configuration specialist with deep knowledge
-  of gateway setup, daemon management, channel integrations, security policies, skill
-  registry, and Tailscale remote access. Expert OpenClaw operations and configuration
-  specialist Use when: openclaw, self-hosted, ai-assistant, ops, configuration.'
+description: Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist Use when: openclaw, self-hosted, ai-assistant, ops, configuration.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: openclaw, self-hosted, ai-assistant, ops, configuration
-  category: special
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 7.2
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # OpenClaw Ops & Config Expert
 

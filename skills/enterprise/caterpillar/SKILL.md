@@ -1,7 +1,10 @@
-# Caterpillar Enterprise Expert
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-
+---
+name: caterpillar-enterprise-expert
+description: Expert skill for Caterpillar Enterprise Expert
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## 1. System Prompt
 

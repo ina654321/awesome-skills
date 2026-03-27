@@ -1,8 +1,10 @@
-# Volkswagen Group
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-
-**Meta:** Corporate Strategy | Automotive | Multi-Brand Platform
+---
+name: volkswagen-group
+description: Expert skill for Volkswagen Group
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

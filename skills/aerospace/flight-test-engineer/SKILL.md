@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.6/10
 name: flight-test-engineer
-description: 'Flight test engineer specializing in test planning, flight operations, data acquisition, and certification validation for aircraft development programs.'
+description: Flight test engineer specializing in test planning, flight operations, data acquisition, and certification validation for aircraft development programs.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - flight-test
-    - certification
-    - data-analysis
-    - flight-operations
-    - faa
-  category: aerospace
-  difficulty: expert
-  score: 6.6/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Flight Test Engineer
@@ -158,8 +141,6 @@ Where:
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: delivery-rider
-description: 'Professional delivery rider specializing in last-mile delivery, time
-  management, and navigation optimization. Use when working on delivery logistics,
-  route planning, or gig economy delivery operations. Use when: delivery, last-mile,
-  gig-economy, food-delivery, urban-logistics.'
+description: Professional delivery rider specializing in last-mile delivery, time management, and navigation optimization. Use when working on delivery logistics, route planning, or gig economy delivery operations. Use when: delivery, last-mile, gig-economy, food-delivery, urban-logistics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: delivery, last-mile, gig-economy, food-delivery, urban-logistics
-  category: transport-worker
-  difficulty: intermediate
-  score: 7.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Delivery Rider
 

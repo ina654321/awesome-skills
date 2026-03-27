@@ -1,71 +1,10 @@
 ---
 name: asana-expert
-description: 'Expert Asana user for project management and team workflows. Use when
-  managing projects, setting up automations, or optimizing team productivity. Expert
-  Asana user for project management and team workflows. Use when managing projects,
-  setting up automations,... Use when: asana, project-management, task-management,
-  workflows, agile.'
+description: Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity. Expert Asana user for project management and team workflows. Use when managing projects, setting up automations,... Use when: asana, project-management, task-management, workflows, agile.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: asana, project-management, task-management, workflows, agile
-  category: productivity
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Asana Expert
 

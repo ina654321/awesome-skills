@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: data-asset-appraiser
-description: 'Expert Data Asset Appraiser with 12+ years valuing data assets for M&A
-  due diligence, Use when: N, o, n, e.'
+description: Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence, Use when: N, o, n, e.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: N, o, n, e
-  category: data
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Expert Data Asset Appraiser
 

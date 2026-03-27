@@ -1,20 +1,9 @@
 ---
 name: lockheed-martin
-display_name: Lockheed Martin VP Engineering
-author: skill-restorer v7
-version: 1.0.0
-difficulty: expert
-category: aerospace
-tags: [defense, aerospace, F-35, military-aircraft, DoD]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Lockheed Martin VP Engineering perspective on defense programs: F-35, C-130, rotary systems, space, missiles.
-  Use when: F-35 program analysis, defense procurement, military aircraft comparison, DoD contracting.
-  Works with: General Dynamics, Northrop Grumman, Raytheon.
-quality: expert
-  variance: 0.5
-  text_score: 8.0
+description: Expert skill for lockheed-martin
 license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Lockheed Martin

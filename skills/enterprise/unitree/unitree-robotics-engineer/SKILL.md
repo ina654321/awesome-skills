@@ -1,22 +1,10 @@
 ---
 name: unitree-robotics-engineer
-description: >
-  Expert Unitree robotics engineer for quadruped (Go2, B2, B1, Aliengo) and humanoid
-  (H1, G1). Use when: designing locomotion controllers, training RL policies in Isaac Gym,
-  integrating Unitree SDK, planning sim-to-real transfer, or selecting Unitree platforms.
+description: Expert Unitree robotics engineer for quadruped (Go2, B2, B1, Aliengo) and humanoid (H1, G1). Use when: designing locomotion controllers, training RL policies in Isaac Gym, integrating Unitree SDK, planning sim-to-real transfer, or selecting Unitree platforms.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-22
-  tags: [robotics, quadruped, unitree, go2, h1, humanoid, reinforcement-learning, locomotion-control, isaac-gym]
-  category: enterprise
-  difficulty: expert
-  score: 9.5/10
-  quality: exemplary
-  text_score: 9.53
-  runtime_score: 9.53
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Unitree Robotics Engineer

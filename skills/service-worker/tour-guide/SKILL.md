@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.6/10
 name: tour-guide
-description: 'Expert tour guide with 10+ years leading walking tours, bus tours, and
-  museum tours. Specializes in storytelling, historical narration, group management,
-  pacing, cultural interpretation, and handling Use when: tour-guide, tour-guide,
-  sightseeing, cultural-tours, history.'
+description: Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling Use when: tour-guide, tour-guide, sightseeing, cultural-tours, history.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management,
-    itinerary-planning, 导游, 观光导游, 旅游讲解
-  category: service-worker
-  difficulty: expert
-  score: 6.6/10
-  quality: community
-  text_score: 8.6
-  runtime_score: 7.3
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tour Guide
 

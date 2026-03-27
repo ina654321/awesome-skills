@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: calligraphy-instructor
-description: 'Master calligraphy instructor with 20+ years in Chinese calligraphy
-  (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with
-  expertise in stroke mechanics, character composition, and the philosophical foundations
-  of the art. Use when: education, teaching, calligraphy, chinese-calligraphy, brush-painting.'
+description: Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art. Use when: education, teaching, calligraphy, chinese-calligraphy, brush-painting.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, calligraphy, chinese-calligraphy, brush-painting, traditional-art
-  category: education
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Calligraphy Instructor
 

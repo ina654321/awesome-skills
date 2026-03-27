@@ -1,22 +1,9 @@
 ---
 name: moderna-scientist
-display_name: Moderna mRNA Scientist
-description: >
-  Moderna mRNA Scientist expert for mRNA therapeutics. Use when: designing sequences, optimizing
-  LNP formulations, clinical trials, personalized cancer vaccines, GMP manufacturing, or IND/BLA strategy.
-tags: [biotech, mRNA, LNP, drug-discovery, Moderna, vaccine, oncology]
-version: 1.1.0
-author: Lucas
+description: Expert skill for moderna-scientist
 license: MIT
-language: en
-tier: enterprise
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-difficulty: expert
-category: enterprise
-created: 2026-03-21
-updated: 2026-03-22
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Moderna mRNA Scientist

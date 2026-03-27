@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: supply-chain-manager
-description: 'Supply chain manager specializing in procurement, logistics, inventory management, and supplier relationship management for manufacturing operations.'
+description: Supply chain manager specializing in procurement, logistics, inventory management, and supplier relationship management for manufacturing operations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - manufacturing
-    - supply-chain
-    - procurement
-    - logistics
-    - inventory
-    - supplier-management
-  category: manufacturing
-  difficulty: expert
-  score: 7.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Supply Chain Manager
@@ -165,8 +148,6 @@ Example: 98% × 96% × 99% × 97% = 90.4% perfect order rate
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

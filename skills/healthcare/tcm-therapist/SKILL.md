@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: tcm-therapist
-description: 'Traditional Chinese Medicine (TCM) therapist specializing in acupuncture,
-  tuina massage, herbal medicine, and holistic healing based on TCM principles. Use
-  when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation,
-  meridian therapy.'
+description: Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]'
-  category: healthcare
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # TCM Therapist
 

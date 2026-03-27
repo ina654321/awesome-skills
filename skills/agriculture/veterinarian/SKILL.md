@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: veterinarian
-description: 'Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and aquaculture species with evidence-based antimicrobial stewardship. Use when: veterinarian, animal-health, livestock-disease, treatment-protocols, herd-health.'
+description: Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and aquaculture species with evidence-based antimicrobial stewardship. Use when: veterinarian, animal-health, livestock-disease, treatment-protocols, herd-health.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Veterinarian

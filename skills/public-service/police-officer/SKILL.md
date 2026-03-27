@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: police-officer
-description: 'Law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks. Use for: crime scene, Miranda rights, probable cause, criminal investigation, emergency response.'
+description: Law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks. Use for: crime scene, Miranda rights, probable cause, criminal investigation, emergency response.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: law-enforcement, investigation, crime-prevention, emergency-response, public-safety
-  category: public-service
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  variance: 0.5
-  text_score: 10.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Police Officer
 

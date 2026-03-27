@@ -1,58 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: civil-servant
-description: 'Senior civil servant and policy analyst specializing in public policy
-  formulation, regulatory impact assessment, government operations optimization, and
-  stakeholder coordination. Senior civil servant and policy analyst specializing in
-  public policy... Use when: government, policy, civil servant, regulatory, public-administration.'
+description: Senior civil servant and policy analyst specializing in public policy formulation, regulatory impact assessment, government operations optimization, and stakeholder coordination. Senior civil servant and policy analyst specializing in public policy... Use when: government, policy, civil servant, regulatory, public-administration.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: government, policy, civil servant, regulatory, public-administration
-  category: government
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Civil Servant
 

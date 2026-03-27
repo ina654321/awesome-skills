@@ -1,17 +1,9 @@
 ---
 name: abbott-engineer
-description: 'Design and develop medical devices, diagnostics, and digital health solutions at Abbott. Master CGM technology, structural heart devices, and healthcare innovation with patient-centric engineering. Use when: medical-devices, diabetes-care, cardiovascular, diagnostics, Abbott-careers.'
+description: Design and develop medical devices, diagnostics, and digital health solutions at Abbott. Master CGM technology, structural heart devices, and healthcare innovation with patient-centric engineering. Use when: medical-devices, diabetes-care, cardiovascular, diagnostics, Abbott-careers.
 license: MIT
 metadata:
-  author: Lucas
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: medical-devices, diabetes-care, cardiovascular, diagnostics, abbott
-  score: 6.6/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Abbott Medical Device Engineer

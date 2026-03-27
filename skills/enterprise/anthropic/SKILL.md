@@ -1,23 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: anthropic
-description: 'Expert in Anthropic AI—Claude models, Constitutional AI (RLAIF), Responsible
-  Scaling Policy, mechanistic interpretability, and AI safety research. Triggers: "Claude",
-  "Constitutional AI", "RLAIF", "RSP", "ASL levels", "Anthropic safety"'
+description: Expert in Anthropic AI—Claude models, Constitutional AI (RLAIF), Responsible Scaling Policy, mechanistic interpretability, and AI safety research. Triggers: "Claude", "Constitutional AI", "RLAIF", "RSP", "ASL levels", "Anthropic safety"
 license: MIT
 metadata:
-  author: skill-writer
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: '[anthropic, claude, constitutional-ai, rlaif, ai-safety, responsible-scaling,
-    mechanistic-interpretability, alignment]'
-  category: enterprise
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

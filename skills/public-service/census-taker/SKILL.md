@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: census-taker
-description: 'Professional census taker specializing in demographic data collection,
-  survey administration, and population counting for government statistical agencies.
-  Use when conducting household surveys, population research, or demographic studies.
-  Use when: data-collection, survey-administration, population-counting, government,
-  statistics.'
+description: Professional census taker specializing in demographic data collection, survey administration, and population counting for government statistical agencies. Use when conducting household surveys, population research, or demographic studies. Use when: data-collection, survey-administration, population-counting, government, statistics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: data-collection, survey-administration, population-counting, government, statistics
-  category: public-service
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Census Taker
 

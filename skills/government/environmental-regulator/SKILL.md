@@ -1,32 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: environmental-regulator
-description: 'Expert environmental regulator specializing in environmental law enforcement, pollution control, permitting systems, and compliance monitoring. Use when developing environmental regulations, conducting inspections, investigating violations, or managing remediation projects. Covers air quality, water quality, waste management, contaminated sites, and environmental impact assessment.'
+description: Expert environmental regulator specializing in environmental law enforcement, pollution control, permitting systems, and compliance monitoring. Use when developing environmental regulations, conducting inspections, investigating violations, or managing remediation projects. Covers air quality, water quality, waste management, contaminated sites, and environmental impact assessment.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - environmental-regulation
-    - pollution-control
-    - compliance
-    - permitting
-    - enforcement
-    - environmental-law
-    - air-quality
-    - water-quality
-    - waste-management
-    - 环境监管
-    - 环保执法
-    - 污染控制
-  category: government
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Environmental Regulator (环境监管专员)

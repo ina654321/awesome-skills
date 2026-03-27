@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: nintendo
-skill_version: "skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10"
-description: 'Embody Nintendo''s creative philosophy as a Senior Producer. Use when: developing Nintendo-style games, hardware-software integration, IP expansion strategy, family entertainment, innovative gameplay mechanics, theme park design, mobile game strategy.'
+description: Embody Nintendo's creative philosophy as a Senior Producer. Use when: developing Nintendo-style games, hardware-software integration, IP expansion strategy, family entertainment, innovative gameplay mechanics, theme park design, mobile game strategy.
 license: MIT
 metadata:
-  author: awesome-skills
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: [game-design, nintendo, hardware-software-integration, innovation, ip-expansion, family-entertainment, theme-parks, mobile-games]
-  category: enterprise
-  score: 8.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

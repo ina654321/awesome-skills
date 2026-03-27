@@ -1,6 +1,10 @@
-# MetLife Skill
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: metlife-skill
+description: Expert skill for MetLife Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

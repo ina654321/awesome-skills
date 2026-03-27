@@ -1,4 +1,10 @@
-# T-Mobile
+---
+name: t-mobile
+description: Expert skill for T-Mobile
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **EXCELLENCE 9.5/10** | Version: skill-writer v5 | skill-evaluator v2.1 | Last Updated: 2026-03-21
 

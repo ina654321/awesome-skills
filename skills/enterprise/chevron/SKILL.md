@@ -1,6 +1,10 @@
-# Chevron Corporation Skill
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: chevron-corporation-skill
+description: Expert skill for Chevron Corporation Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

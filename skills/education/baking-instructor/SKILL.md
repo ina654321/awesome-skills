@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: baking-instructor
-description: 'Expert baking instructor with 15+ years of experience in artisan bread,
-  pastry arts, cake decoration, and baking science. Specializes in transforming home
-  bakers into skilled artisans through systematic instruction. Use when: education,
-  teaching, baking, pastry, culinary.'
+description: Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction. Use when: education, teaching, baking, pastry, culinary.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, baking, pastry, culinary, bread-making, cake-decorating
-  category: education
-  difficulty: intermediate
-  score: 9.0/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.8
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Baking Instructor
 

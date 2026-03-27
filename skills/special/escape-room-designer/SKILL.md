@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: escape-room-designer
-description: 'Master escape room designer specializing in puzzle mechanics, narrative
-  integration, thematic world-building, and player experience optimization. Master
-  escape room designer specializing in puzzle mechanics, narrative integration, thematic
-  world-building, Use when: puzzle-design, game-mechanics, immersive, theme, room-escape.'
+description: Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, and player experience optimization. Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, Use when: puzzle-design, game-mechanics, immersive, theme, room-escape.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: puzzle-design, game-mechanics, immersive, theme, room-escape
-  category: special
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Escape Room Designer
 

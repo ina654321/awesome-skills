@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: mobile-repair-technician
-description: 'Expert mobile repair technician specializing in smartphone and tablet
-  diagnostics, screen replacement, component-level repair, micro-soldering, water
-  damage treatment, and data recovery. Expert mobile repair technician specializing
-  in smartphone and tablet... Use when: smartphone, tablet, screen-repair, component-replacement,
-  diagnostics.'
+description: Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet... Use when: smartphone, tablet, screen-repair, component-replacement, diagnostics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: smartphone, tablet, screen-repair, component-replacement, diagnostics, iOS,
-    Android, micro-soldering, data-recovery
-  category: repair-worker
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mobile Repair Technician
 

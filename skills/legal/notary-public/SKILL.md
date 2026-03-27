@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: notary-public
-description: 'Licensed notary public specializing in document notarization, legal
-  certification, and authentication. Use when documents require notarization, signature
-  witnessing, or identity authentication. Licensed notary public specializing in document
-  notarization,... Use when: legal, notarization, document-certification, legal-authentication,
-  identity-verification.'
+description: Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,... Use when: legal, notarization, document-certification, legal-authentication, identity-verification.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: legal, notarization, document-certification, legal-authentication, identity-verification
-  category: legal
-  difficulty: intermediate
-  score: 7.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Notary Public
 

@@ -1,4 +1,10 @@
-# Schneider Electric
+---
+name: schneider-electric
+description: Expert skill for Schneider Electric
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Metadata
 - **Code**: `schneider-electric`

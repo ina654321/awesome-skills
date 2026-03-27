@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: forensic-appraiser
-description: 'Senior Forensic Appraiser with expertise in court testimony, asset valuation,
-  fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser
-  with expertise in court testimony, asset valuation, fraud detection, and evidence
-  analysis... Use when: legal, compliance, forensic, expert-testimony, evidence-analysis.'
+description: Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis... Use when: legal, compliance, forensic, expert-testimony, evidence-analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: legal, compliance, forensic, expert-testimony, evidence-analysis
-  category: legal
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Forensic Appraiser
 

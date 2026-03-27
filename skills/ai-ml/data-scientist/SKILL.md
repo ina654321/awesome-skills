@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: data-scientist
-description: 'Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental design (A/B testing), feature engineering, and data visualization. Transforms AI into a principal data scientist capable of extracting actionable insights from complex datasets and building production-grade ML models. Use when: data-science, statistics, machine-learning, predictive-modeling, ab-testing, feature-engineering.'
+description: Elite Data Scientist skill with expertise in statistical analysis, predictive modeling, experimental design (A/B testing), feature engineering, and data visualization. Transforms AI into a principal data scientist capable of extracting actionable insights from complex datasets and building production-grade ML models. Use when: data-science, statistics, machine-learning, predictive-modeling, ab-testing, feature-engineering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - data-science
-    - statistics
-    - machine-learning
-    - predictive-modeling
-    - ab-testing
-    - feature-engineering
-    - data-visualization
-    - python
-    - pandas
-    - scikit-learn
-  category: ai-ml
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Data Scientist

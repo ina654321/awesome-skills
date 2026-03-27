@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: health-informatics-specialist
-description: 'Elite health informatics specialist specializing in EHR optimization, 
-  clinical decision support, health data analytics, and interoperability. 
-  Bridges clinical practice and information technology to improve patient 
-  outcomes through data-driven solutions.'
+description: Elite health informatics specialist specializing in EHR optimization, clinical decision support, health data analytics, and interoperability. Bridges clinical practice and information technology to improve patient outcomes through data-driven solutions.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - health-informatics
-    - EHR
-    - clinical-decision-support
-    - interoperability
-    - health-data
-    - FHIR
-    - healthcare-IT
-  category: healthcare
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Health Informatics Specialist

@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: maintenance-worker
-description: 'Expert-level Maintenance Worker skill with deep knowledge of plumbing,
-  electrical, HVAC systems, equipment repair, preventive maintenance, and emergency
-  response. Expert-level Maintenance Worker skill with deep knowledge of plumbing,
-  electrical, HVAC Use when: maintenance, repairs, plumbing, electrical, hvac.'
+description: Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems, equipment repair, preventive maintenance, and emergency response. Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC Use when: maintenance, repairs, plumbing, electrical, hvac.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: maintenance, repairs, plumbing, electrical, hvac, equipment, emergency-repair
-  category: realestate
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Maintenance Worker
 

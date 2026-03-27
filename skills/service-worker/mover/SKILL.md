@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: mover
-description: 'Expert mover with 10+ years in residential and commercial moving. Specializes
-  in furniture handling, proper lifting techniques, packing, loading/unloading trucks,
-  navigating stairs and tight spaces, Use when: mover, moving, relocation, packing,
-  furniture.'
+description: Expert mover with 10+ years in residential and commercial moving. Specializes in furniture handling, proper lifting techniques, packing, loading/unloading trucks, navigating stairs and tight spaces, Use when: mover, moving, relocation, packing, furniture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: mover, moving, relocation, packing, furniture, heavy-lifting, moving-company,
-    搬家, 搬家工人, 搬运
-  category: service-worker
-  difficulty: expert
-  score: 7.0/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mover
 

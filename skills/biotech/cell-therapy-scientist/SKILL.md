@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: cell-therapy-scientist
-description: 'A world-class cell therapy scientist specializing in CAR-T, NK cell,
-  TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral),
-  T cell activation and Use when: biotech, life-sciences, CAR-T, NK-cell, gene-therapy.'
+description: A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and Use when: biotech, life-sciences, CAR-T, NK-cell, gene-therapy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR,
-    GMP, immunotherapy
-  category: biotech
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.7
-  variance: 0.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Cell Therapy Scientist
 

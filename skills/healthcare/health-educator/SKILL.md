@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: health-educator
-description: 'Elite health educator specializing in health promotion, disease 
-  prevention, behavior change, and community health programs. Designs and 
-  implements evidence-based interventions to improve health literacy and 
-  empower individuals and communities to adopt healthy behaviors.'
+description: Elite health educator specializing in health promotion, disease prevention, behavior change, and community health programs. Designs and implements evidence-based interventions to improve health literacy and empower individuals and communities to adopt healthy behaviors.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - health-education
-    - health-promotion
-    - disease-prevention
-    - behavior-change
-    - community-health
-    - health-literacy
-  category: healthcare
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Health Educator

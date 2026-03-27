@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: hair-stylist
-description: 'Expert hair stylist specializing in cutting, coloring, styling, and hair care. Use when creating haircuts, formulating color, performing treatments, or consulting with clients on hair health and style. Covers all hair types, techniques, and current trends in hairdressing.'
+description: Expert hair stylist specializing in cutting, coloring, styling, and hair care. Use when creating haircuts, formulating color, performing treatments, or consulting with clients on hair health and style. Covers all hair types, techniques, and current trends in hairdressing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - hair-stylist
-    - hairdressing
-    - haircutting
-    - hair-color
-    - styling
-    - salon-services
-    - beauty
-    - 发型师
-    - 造型设计
-    - 客户咨询
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Hair Stylist (发型师)

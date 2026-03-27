@@ -1,72 +1,10 @@
 ---
 name: azure-cloud-expert
-description: 'Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use
-  when designing Azure architecture, selecting Azure services, or optimizing Azure
-  costs.'
+description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[azure, cloud, microsoft, devops, infrastructure]'
-  category: tools
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Azure Cloud Expert
 ## § 1 · System Prompt

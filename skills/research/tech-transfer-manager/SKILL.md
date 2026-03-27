@@ -1,63 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: tech-transfer-manager
-description: 'Expert technology transfer manager specializing in patent portfolio
-  management, technology commercialization, industry partnerships, and intellectual
-  property licensing. Expert technology transfer manager specializing in patent portfolio
-  management,... Use when: tech-transfer, patent-management, commercialization, ip-licensing,
-  startup.'
+description: Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Expert technology transfer manager specializing in patent portfolio management,... Use when: tech-transfer, patent-management, commercialization, ip-licensing, startup.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: tech-transfer, patent-management, commercialization, ip-licensing, startup
-  category: research
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Technology Transfer Manager
 

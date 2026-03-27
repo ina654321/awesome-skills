@@ -1,26 +1,9 @@
 ---
 name: alibaba
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Alibaba Group enterprise skill - Transform AI into an Alibaba Senior Engineer embodying 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) execution methodology, and extreme-scale system design expertise. Triggers: "Alibaba style", "Customer First", "双11 scale", "Iron Army".'
+description: Alibaba Group enterprise skill - Transform AI into an Alibaba Senior Engineer embodying 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) execution methodology, and extreme-scale system design expertise. Triggers: "Alibaba style", "Customer First", "双11 scale", "Iron Army".
+license: MIT
 metadata:
-  author: skill-restorer v7
-  updated: 2026-03-21
-  category: enterprise
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
-  tags:
-    - alibaba
-    - 六脉神剑
-    - 中供铁军
-    - customer-first
-    - 双11
-    - extreme-scale
-    - cloud-computing
-    - e-commerce
-    - fintech
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Alibaba Senior Engineer Skill

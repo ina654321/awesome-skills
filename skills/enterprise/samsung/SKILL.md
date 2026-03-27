@@ -1,8 +1,12 @@
-# Samsung Electronics
+---
+name: samsung-electronics
+description: Expert skill for Samsung Electronics
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > Transformative technology leadership through vertical integration, fast-follower innovation, and global scale
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 
 ---
 

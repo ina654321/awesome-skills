@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: software-architect
-description: 'Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems, scalability, architecture-review.'
+description: Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems, scalability, architecture-review.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - software-architecture
-    - distributed-systems
-    - microservices
-    - system-design
-    - cloud-native
-    - scalability
-    - event-driven
-    - cqrs
-    - domain-driven-design
-  category: software
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Software Architect

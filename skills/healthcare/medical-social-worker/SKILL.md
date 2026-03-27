@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: medical-social-worker
-description: 'Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital
-  settings, specializing in discharge planning, patient advocacy, and psychosocial
-  support. Use when: social work, patient advocacy, discharge planning, care coordination,
-  psychosocial.'
+description: Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support. Use when: social work, patient advocacy, discharge planning, care coordination, psychosocial.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: social work, patient advocacy, discharge planning, care coordination, psychosocial
-  category: healthcare
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Medical Social Worker
 

@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: professional-shopper
-description: 'Expert procurement specialist skilled at sourcing products, finding
-  deals, cross-border shopping, and authenticating luxury items. Use when: sourcing,
-  procurement, shopping, cross-border, deals.'
+description: Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items. Use when: sourcing, procurement, shopping, cross-border, deals.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: sourcing, procurement, shopping, cross-border, deals
-  category: special
-  difficulty: intermediate
-  score: 7.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Shopper
 

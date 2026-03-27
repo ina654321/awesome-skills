@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.9/10
 name: visa-vp-product
-description: 'Visa VP Product mindset — global payments network strategy, four-party model economics, tokenization at scale, and value-added services growth. Triggers: "Visa product strategy", "payment network design", "Visa Direct", "tokenization roadmap", "commerce orchestration"'
+description: Visa VP Product mindset — global payments network strategy, four-party model economics, tokenization at scale, and value-added services growth. Triggers: "Visa product strategy", "payment network design", "Visa Direct", "tokenization roadmap", "commerce orchestration"
 license: MIT
 metadata:
-  author: skill-restorer v7
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[visa, payments, card-networks, visa-direct, tokenization, fintech-partnerships, stablecoins, open-banking, commerce-orchestration]'
-  category: enterprise
-  difficulty: expert
-  score: 5.9/10
-  quality: community
-  restoration: skill-writer v5 | skill-evaluator v2.1
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Visa VP Product

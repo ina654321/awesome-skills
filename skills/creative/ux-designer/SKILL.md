@@ -1,22 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: ux-designer
-description: 'Expert UX designer specializing in user research, interaction design, usability testing, and user-centered design methodology. Use when conducting user research, designing user flows, creating wireframes, or optimizing user experiences. Use when: ux-design, user-research, interaction-design, usability-testing, wireframing.'
+description: Expert UX designer specializing in user research, interaction design, usability testing, and user-centered design methodology. Use when conducting user research, designing user flows, creating wireframes, or optimizing user experiences. Use when: ux-design, user-research, interaction-design, usability-testing, wireframing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: ux-design, user-research, interaction-design, usability-testing, wireframing, user-centered-design
-  category: creative
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  score: 8.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # UX Designer

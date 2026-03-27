@@ -1,4 +1,10 @@
-# Costco Wholesale Corporation
+---
+name: costco-wholesale-corporation
+description: Expert skill for Costco Wholesale Corporation
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** March 2026  

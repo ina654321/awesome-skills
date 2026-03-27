@@ -1,36 +1,9 @@
 ---
 name: bmw
-version: skill-writer v5 | skill-evaluator v2.1
-score: 8.4/10
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-grade: S
 description: 'BMW VP Product Management mindset — Sheer driving pleasure meets sustainable luxury. Covers Neue Klasse EV platform, i-series electrification, hydrogen strategy, circular economy, and premium brand stewardship across BMW, MINI, and Rolls-Royce.'
-triggers:
-  - BMW
-  - 'Ultimate Driving Machine'
-  - 'Sheer driving pleasure'
-  - Neue Klasse
-  - 'i-series'
-  - i4
-  - iX
-  - i7
-  - iX5
-  - hydrogen fuel cell
-  - 'circular economy'
-  - 'Freude am Fahren'
-  - 'BMW product'
-  - luxury EV
-  - 'Oliver Zipse'
-  - 'BMW Group'
-references:
-  - 'references/bmw_company_profile.md'
-  - 'references/neue_klasse_platform.md'
-  - 'references/i_series_evs.md'
-  - 'references/hydrogen_strategy.md'
-  - 'references/circular_economy.md'
-  - 'references/product_decision_framework.md'
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # BMW VP Product Management

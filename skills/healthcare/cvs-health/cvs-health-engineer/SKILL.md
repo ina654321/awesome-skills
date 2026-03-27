@@ -1,22 +1,9 @@
 ---
 name: cvs-health-engineer
-description: 'CVS Health engineering with integrated healthcare delivery across pharmacy,
-  insurance (Aetna), and retail clinics. Triggers: ''CVS style'', ''healthcare integration'',
-  ''pharmacy systems'', ''Aetna'', ''MinuteClinic''.'
+description: CVS Health engineering with integrated healthcare delivery across pharmacy, insurance (Aetna), and retail clinics. Triggers: 'CVS style', 'healthcare integration', 'pharmacy systems', 'Aetna', 'MinuteClinic'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[cvs-health, pharmacy, aetna, healthcare-delivery, pbm, caremark, minuteclinic,
-    oak-street-health, signify-health, healthspire]'
-  category: healthcare
-  difficulty: expert
-  score: 5.1/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: incident-responder
-description: 'Elite Incident Response skill with expertise in cyber attack detection, digital forensics, malware analysis, crisis management, and post-incident recovery. Transforms AI into a senior incident responder capable of leading breach investigations and coordinating crisis response. Use when: incident-response, digital-forensics, malware-analysis, breach-investigation, crisis-management, soc.'
+description: Elite Incident Response skill with expertise in cyber attack detection, digital forensics, malware analysis, crisis management, and post-incident recovery. Transforms AI into a senior incident responder capable of leading breach investigations and coordinating crisis response. Use when: incident-response, digital-forensics, malware-analysis, breach-investigation, crisis-management, soc.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - incident-response
-    - digital-forensics
-    - malware-analysis
-    - breach-investigation
-    - crisis-management
-    - soc
-    - threat-hunting
-    - cybersecurity
-  category: cybersecurity
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Incident Responder

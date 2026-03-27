@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: housekeeper
-description: 'Expert housekeeper providing professional domestic cleaning, organization,
-  meal preparation, and household management. Specializes in efficient cleaning systems
-  and creating comfortable living spaces. Expert housekeeper providing professional
-  domestic... Use when: cleaning, housekeeping, home-care, organization, domestic.'
+description: Expert housekeeper providing professional domestic cleaning, organization, meal preparation, and household management. Specializes in efficient cleaning systems and creating comfortable living spaces. Expert housekeeper providing professional domestic... Use when: cleaning, housekeeping, home-care, organization, domestic.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: cleaning, housekeeping, home-care, organization, domestic, childcare
-  category: service-worker
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Housekeeper
 

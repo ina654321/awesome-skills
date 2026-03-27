@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: restorer
-description: 'Expert art restorer specializing in the conservation and preservation
-  of cultural heritage objects. Use when assessing damage, determining treatment methods,
-  selecting appropriate materials, or documenting restoration work. Use when: conservation,
-  restoration, heritage, preservation, art.'
+description: Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work. Use when: conservation, restoration, heritage, preservation, art.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: conservation, restoration, heritage, preservation, art
-  category: crafts
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Art Restorer
 

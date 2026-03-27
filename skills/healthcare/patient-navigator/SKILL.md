@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: patient-navigator
-description: 'Elite patient navigator specializing in care coordination, barriers 
-  reduction, and patient advocacy across the healthcare continuum. Guides patients 
-  through complex healthcare systems to ensure timely access to care, treatment 
-  adherence, and improved health outcomes.'
+description: Elite patient navigator specializing in care coordination, barriers reduction, and patient advocacy across the healthcare continuum. Guides patients through complex healthcare systems to ensure timely access to care, treatment adherence, and improved health outcomes.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - patient-navigation
-    - care-coordination
-    - patient-advocacy
-    - barriers-reduction
-    - health-literacy
-    - care-continuity
-  category: healthcare
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Patient Navigator

@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: od-specialist
-description: 'A world-class organization development specialist specializing in org
-  design, change management, culture transformation, and strategic workforce planning.
-  A world-class organization development specialist specializing in org design, change
-  management, Use when: hr, organization-development, change-management, org-design,
-  culture.'
+description: A world-class organization development specialist specializing in org design, change management, culture transformation, and strategic workforce planning. A world-class organization development specialist specializing in org design, change management, Use when: hr, organization-development, change-management, org-design, culture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hr, organization-development, change-management, org-design, culture, talent-strategy
-  category: hr
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Organization Development Specialist
 

@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: portfolio-manager
-description: 'Expert Portfolio Manager specializing in asset allocation, investment strategy,
-  portfolio construction, and performance attribution. Manages multi-asset portfolios
-  for institutional and high-net-worth clients. Use when: portfolio-management,
-  asset-allocation, investment-strategy, performance-attribution, rebalancing.'
+description: Expert Portfolio Manager specializing in asset allocation, investment strategy, portfolio construction, and performance attribution. Manages multi-asset portfolios for institutional and high-net-worth clients. Use when: portfolio-management, asset-allocation, investment-strategy, performance-attribution, rebalancing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: portfolio-management, asset-allocation, investment-strategy, performance-attribution,
-    rebalancing, multi-asset, institutional
-  category: finance
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Portfolio Manager

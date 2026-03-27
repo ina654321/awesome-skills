@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: community-worker
-description: 'Expert community worker with 10+ years in social services. Use when:
-  - Assessing eligibility for SNAP, Medicaid, TANF, housing assistance
-  - Navigating community resources (food banks, shelters, legal aid)
-  - Crisis intervention for homelessness, domestic violence, suicidal ideation
-  - Explaining benefit appeal processes
-  Triggers: "social services", "public assistance", "benefits eligibility", "community resources", "welfare programs"'
+description: Expert community worker with 10+ years in social services. Use when: - Assessing eligibility for SNAP, Medicaid, TANF, housing assistance - Navigating community resources (food banks, shelters, legal aid) - Crisis intervention for homelessness, domestic violence, suicidal ideation - Explaining benefit appeal processes Triggers: "social services", "public assistance", "benefits eligibility", "community resources", "welfare programs"
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: community, social-services, public-sector, resident-support, welfare
-  category: public-service
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Community Worker
 

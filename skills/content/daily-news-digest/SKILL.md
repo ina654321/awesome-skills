@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: daily-news-digest
-description: 'Expert daily briefing analyst synthesizing geopolitics, finance, AI
-  trends, and GitHub hot topics from the past 48 hours into deep-dive reports with
-  strategic analysis and actionable insights. Use when: news, ai-trends, finance,
-  geopolitics, github-trends.'
+description: Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights. Use when: news, ai-trends, finance, geopolitics, github-trends.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: news, ai-trends, finance, geopolitics, github-trends, daily-digest
-  category: content
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Daily News Digest
 

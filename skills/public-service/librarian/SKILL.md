@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: librarian
-description: 'Expert public librarian specializing in information services, collection development, digital literacy, and community engagement. Use when organizing collections, designing library programs, supporting research, or developing information literacy initiatives. Covers cataloging, reader advisory, reference services, archives, and library management.'
+description: Expert public librarian specializing in information services, collection development, digital literacy, and community engagement. Use when organizing collections, designing library programs, supporting research, or developing information literacy initiatives. Covers cataloging, reader advisory, reference services, archives, and library management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - librarian
-    - library-science
-    - information-services
-    - collection-development
-    - digital-literacy
-    - reader-advisory
-    - reference
-    - cataloging
-    - 图书管理员
-    - 信息检索
-    - 阅读推广
-  category: public-service
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Librarian (图书管理员)

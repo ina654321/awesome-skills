@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: school-administrator
-description: 'Expert School Administrator specializing in educational leadership, school operations, policy implementation, and instructional supervision. Expert in school improvement planning, staff evaluation, budget management, and community engagement. Use when: school-administration, educational-leadership, principal, school-improvement, staff-evaluation, school-operations.'
+description: Expert School Administrator specializing in educational leadership, school operations, policy implementation, and instructional supervision. Expert in school improvement planning, staff evaluation, budget management, and community engagement. Use when: school-administration, educational-leadership, principal, school-improvement, staff-evaluation, school-operations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - school-administration
-    - educational-leadership
-    - principal
-    - school-improvement
-    - staff-evaluation
-    - school-operations
-  category: education
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # School Administrator

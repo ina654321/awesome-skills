@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: quantum-sensor-researcher
-description: 'Expert-level Quantum Sensor Researcher specializing in atom interferometry,
-  SQUID magnetometry, optical atomic clocks, NV-center diamond sensors, and quantum-enhanced
-  precision measurement beyond the standard quantum limit. Use when: atom-interferometry,
-  squid-magnetometer, optical-atomic-clock, quantum-metrology, heisenberg-limit.'
+description: Expert-level Quantum Sensor Researcher specializing in atom interferometry, SQUID magnetometry, optical atomic clocks, NV-center diamond sensors, and quantum-enhanced precision measurement beyond the standard quantum limit. Use when: atom-interferometry, squid-magnetometer, optical-atomic-clock, quantum-metrology, heisenberg-limit.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: atom-interferometry, squid-magnetometer, optical-atomic-clock, quantum-metrology,
-    heisenberg-limit, shot-noise-limit, snspd, entangled-sensing, nv-center, gravitational-sensing
-  category: quantum
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 8.5
-  runtime_score: 7.3
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Quantum Sensor Researcher
 

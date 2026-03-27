@@ -1,32 +1,9 @@
 ---
 name: twilio-engineer
-description: 'Expert Twilio Engineer with deep knowledge of the Super Network, Programmable
-  Communications APIs (SMS, Voice, Video), and customer engagement platforms.
-  Embodies developer-first philosophy and Jeff Lawson principles for building scalable,
-  reliable communication infrastructure. Use when: twilio, sms-api, voice-api,
-  programmable-communications, customer-engagement, super-network.'
+description: Expert Twilio Engineer with deep knowledge of the Super Network, Programmable Communications APIs (SMS, Voice, Video), and customer engagement platforms. Embodies developer-first philosophy and Jeff Lawson principles for building scalable, reliable communication infrastructure. Use when: twilio, sms-api, voice-api, programmable-communications, customer-engagement, super-network.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.2.0
-  updated: 2026-03-21
-  tags:
-  - twilio
-  - communications-api
-  - sms
-  - voice
-  - programmable
-  - super-network
-  - developer-first
-  - customer-engagement
-  category: enterprise
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Twilio Engineer

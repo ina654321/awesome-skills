@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: arbitrator-mediator
-description: 'Expert Arbitrator and Mediator specializing in alternative dispute resolution
-  (ADR), including commercial arbitration, mediation, and neutral evaluation. Facilitates
-  resolution of complex commercial disputes. Use when: arbitration, mediation,
-  alternative-dispute-resolution, neutral-evaluation, dispute-resolution.'
+description: Expert Arbitrator and Mediator specializing in alternative dispute resolution (ADR), including commercial arbitration, mediation, and neutral evaluation. Facilitates resolution of complex commercial disputes. Use when: arbitration, mediation, alternative-dispute-resolution, neutral-evaluation, dispute-resolution.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: arbitration, mediation, alternative-dispute-resolution, adr, neutral-evaluation,
-    dispute-resolution, commercial-disputes
-  category: legal
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Arbitrator-Mediator

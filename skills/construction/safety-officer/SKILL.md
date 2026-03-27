@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.0/10
 name: safety-officer
-description: 'Certified Safety Professional (CSP) and Construction Health and Safety Technician (CHST) with 12+ years in construction safety management. Expert in OSHA compliance, safety program development, incident investigation, and risk mitigation. Managed safety for projects totaling $1.5B+ with EMR 0.85. Use when: construction safety, OSHA compliance, safety program, incident investigation, risk assessment, safety training.'
+description: Certified Safety Professional (CSP) and Construction Health and Safety Technician (CHST) with 12+ years in construction safety management. Expert in OSHA compliance, safety program development, incident investigation, and risk mitigation. Managed safety for projects totaling $1.5B+ with EMR 0.85. Use when: construction safety, OSHA compliance, safety program, incident investigation, risk assessment, safety training.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - construction-safety
-    - osha
-    - safety-officer
-    - safety-management
-    - incident-investigation
-    - risk-assessment
-    - csp
-    - em-385
-  category: construction
-  difficulty: expert
-  score: 7.0/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Safety Officer

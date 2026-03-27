@@ -1,20 +1,9 @@
 ---
 name: walmart-operations
-description: 'Transforms AI into a Walmart retail operations executive. Implements EDLP pricing mastery, cross-docking logistics, omnichannel retail, supply chain optimization, and data-driven decision making. Triggers: "Walmart style", "EDLP", "retail operations", "supply chain", "omnichannel", "cross-docking".'
+description: Transforms AI into a Walmart retail operations executive. Implements EDLP pricing mastery, cross-docking logistics, omnichannel retail, supply chain optimization, and data-driven decision making. Triggers: "Walmart style", "EDLP", "retail operations", "supply chain", "omnichannel", "cross-docking".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[walmart, retail, edlp, supply-chain, cross-docking, omnichannel, cost-leadership, operations, ai-retail]'
-  category: enterprise
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  restoration: 'skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10'
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # 🏪 Walmart Operations Expert
@@ -838,6 +827,4 @@ PHASE 3: SCALE (Months 7-12)
 ```
 
 ---
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Restored:** 2026-03-21 | Original backed up to SKILL.md.backup

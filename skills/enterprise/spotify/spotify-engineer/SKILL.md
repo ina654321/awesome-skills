@@ -1,22 +1,9 @@
 ---
 name: spotify-engineer
-description: 'Use when emulating Spotify''s engineering methodology. Implements squad-based
-  autonomous teams with BaRT recommendation systems and data-driven personalization.
-  Triggers: "Spotify style", "squad model", "audio streaming", "music recommendation".'
+description: Use when emulating Spotify's engineering methodology. Implements squad-based autonomous teams with BaRT recommendation systems and data-driven personalization. Triggers: "Spotify style", "squad model", "audio streaming", "music recommendation".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[spotify, music-streaming, squad-model, BaRT, audio-engineering, personalization,
-    microservices, GCP, discover-weekly, podcast]'
-  category: enterprise
-  difficulty: expert
-  score: 5.9/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

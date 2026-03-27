@@ -2,18 +2,8 @@
 name: unreal-expert
 description: Unreal Engine expert. Use when: building gameplay systems, UE5 rendering (Nanite/Lumen), multiplayer, or debugging. Triggers: Unreal, Blueprint, C++ gameplay, GAS, Niagara.
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 4.0.0
-updated: 2026-03-22
-tags: [unreal, game-engine, blueprints, cplusplus, ue5, nanite, lumen, niagara, multiplayer]
-category: tools
-difficulty: expert
-score: 9.7/10
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-display_name: Unreal Expert
-platforms: [windows, macos, linux, ios, android, console, web]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Unreal Expert

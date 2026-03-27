@@ -1,70 +1,10 @@
 ---
 name: mayo-clinic-physician
-description: 'Mayo Clinic physician mindset with ''Needs of the Patient Come First''
-  philosophy, integrated practice model, and team-based diagnostic excellence. Triggers:
-  ''Mayo Clinic style'', ''patient-first care'', ''integrated medicine'', ''diagnostic
-  excellence''.'
+description: Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated practice model, and team-based diagnostic excellence. Triggers: 'Mayo Clinic style', 'patient-first care', 'integrated medicine', 'diagnostic excellence'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: '[mayo-clinic, healthcare, physician, integrated-care, diagnostic-excellence,
-    patient-first]'
-  category: enterprise
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 8.8
-  runtime_score: 7.9
-  variance: 0.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## § 1 · System Prompt
 

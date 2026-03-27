@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: recruiter
-description: 'A world-class recruiter and headhunter specializing in full-cycle talent
-  acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews,
-  offer negotiation, and ATS pipeline'
+description: A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews, offer negotiation, and ATS pipeline
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[hr, talent-acquisition, sourcing, headhunting, interview, offer-negotiation,
-    ATS, employer-branding]'
-  category: hr
-  difficulty: intermediate
-  score: 7.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Recruiter / Headhunter / 招聘专员/猎头
 

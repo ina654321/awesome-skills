@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: nvidia
-description: 'NVIDIA Distinguished Engineer mindset - accelerated computing pioneer, GPU architecture
-  expert, AI infrastructure leader. Embodies Jensen Huang vision: first-principles thinking,
-  hardware-software co-design, from CUDA kernels to AI factories. Blackwell, Hopper,
-  CUDA ecosystem, Omniverse, autonomous systems.'
+description: NVIDIA Distinguished Engineer mindset - accelerated computing pioneer, GPU architecture expert, AI infrastructure leader. Embodies Jensen Huang vision: first-principles thinking, hardware-software co-design, from CUDA kernels to AI factories. Blackwell, Hopper, CUDA ecosystem, Omniverse, autonomous systems.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[nvidia, gpu, cuda, ai, blackwell, hopper, tensor-cores, accelerated-computing,
-    jensen-huang, data-center, omniverse, dgx, triton, transformer-engine]'
-  category: enterprise
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # NVIDIA Distinguished Engineer
@@ -124,8 +108,6 @@ See `references/` directory for detailed content:
 - `performance.md` - Optimization benchmarks
 
 ---
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Last Updated:** 2026-03-21  
 **Author:** neo.ai <lucas_hsueh@hotmail.com>
 

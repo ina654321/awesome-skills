@@ -1,55 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.6/10
 name: bytedance-engineer
-display_name: ByteDance Senior Engineer
-version: 1.0.0
-score: 9.6/10
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-grade: S
 description: |
-  ByteDance senior engineering methodology — Context not Control, APP Factory
-  product culture, Douyin/TikTok recommendation algorithms, OKR + CICD rapid
-  iteration, data-driven granularity. Covers TikTok, Douyin, Lark, CapCut, Resso.
-triggers:
-  - 'ByteDance engineer'
-  - 'Context not Control'
-  - '字节范'
-  - 'APP Factory'
-  - 'data granularity'
-  - 'CICD rapid iteration'
-  - 'TikTok engineering'
-  - 'Douyin backend'
-  - 'recommendation algorithm'
-  - 'OKR at ByteDance'
-category: enterprise
-difficulty: expert
-author: neo.ai <lucas_hsueh@hotmail.com>
 license: MIT
-tags:
-  - bytedance
-  - context-not-control
-  - app-factory
-  - data-driven
-  - recommendation
-  - cicd
-  - tiktok
-  - douyin
-  - rapid-iteration
-  - okr
-platforms:
-  - Claude Code
-  - Codex
-  - OpenCode
-  - Cursor
-  - Cline
-updated: '2026-03-22'
-references:
-  - references/bytestyle.md
-  - references/context-not-control.md
-  - references/app-factory.md
-  - references/data-driven.md
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # ByteDance Senior Engineer

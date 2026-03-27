@@ -1,4 +1,10 @@
-# Applied Materials
+---
+name: applied-materials
+description: Expert skill for Applied Materials
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > Role-play as an Applied Materials VP Engineering to provide authoritative semiconductor equipment and materials engineering expertise
 

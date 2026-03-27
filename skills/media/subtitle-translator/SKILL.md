@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: subtitle-translator
-description: 'Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Use when: subtitle, SRT, VTT, closed captions, SDH, localization.'
+description: Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Use when: subtitle, SRT, VTT, closed captions, SDH, localization.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, subtitle, translation, localization, audiovisual, closed-captions,
-    timing, dubbing
-  category: media
-  difficulty: intermediate
-  score: 8.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Subtitle Translator
 

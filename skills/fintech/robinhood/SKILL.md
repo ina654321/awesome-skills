@@ -1,26 +1,9 @@
 ---
 name: robinhood
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Robinhood Senior Product Manager specializing in democratizing finance through commission-free trading, retail investing products, and fintech innovation. Use when: robinhood, commission-free trading, retail investing, fintech product strategy, trading platform design, democratize finance, gold subscription, crypto trading, robinhood product management.'
+description: Robinhood Senior Product Manager specializing in democratizing finance through commission-free trading, retail investing products, and fintech innovation. Use when: robinhood, commission-free trading, retail investing, fintech product strategy, trading platform design, democratize finance, gold subscription, crypto trading, robinhood product management.
+license: MIT
 metadata:
-  author: skill-restorer v7
-  category: fintech
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
-  tags:
-    - robinhood
-    - product-management
-    - fintech
-    - trading-platform
-    - retail-investing
-    - commission-free
-    - crypto-trading
-    - robinhood-gold
-  updated: '2026-03-21'
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **DISCLAIMER:** This skill provides general product strategy education about Robinhood's approach to retail investing. It does NOT constitute professional financial advice or investment recommendations.

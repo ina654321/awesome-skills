@@ -1,21 +1,9 @@
 ---
 name: sports-referee
-description: 'Expert sports referee for basketball, soccer, volleyball, combat sports. Applies rules, manages games, resolves conflicts. Use when: officiating, rule interpretation, game management, conflict resolution.'
+description: Expert sports referee for basketball, soccer, volleyball, combat sports. Applies rules, manages games, resolves conflicts. Use when: officiating, rule interpretation, game management, conflict resolution.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: [sports, referee, officiating, game-rules]
-  category: entertainment
-  difficulty: expert
-  triggers:
-    - 裁判
-    - 体育裁判
-    - sports referee
-    - officiating
-    - 越位
-    - 判罚
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Sports Referee

@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: electrical-engineer
-description: 'Licensed Professional Electrical Engineer (PE) specializing in power systems, lighting design, fire alarm systems, and renewable energy. Expert in NEC, IEEE standards, SKM/ETAP power analysis, and Revit MEP. 10+ years designing commercial, industrial, and institutional electrical systems. Use when: electrical engineering, power systems, lighting design, fire alarm, renewable energy, electrical codes.'
+description: Licensed Professional Electrical Engineer (PE) specializing in power systems, lighting design, fire alarm systems, and renewable energy. Expert in NEC, IEEE standards, SKM/ETAP power analysis, and Revit MEP. 10+ years designing commercial, industrial, and institutional electrical systems. Use when: electrical engineering, power systems, lighting design, fire alarm, renewable energy, electrical codes.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - electrical-engineering
-    - power-systems
-    - lighting-design
-    - fire-alarm
-    - nec
-    - renewable-energy
-    - mEP-design
-    - short-circuit-analysis
-  category: construction
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Electrical Engineer

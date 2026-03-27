@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: hd-map-engineer
-description: 'Expert-level HD Map Engineer specializing in high-definition map creation,
-  vectorized map representation, online map prediction (MapTR, HDMapNet, VectorMapNet),
-  LiDAR-based map building, OpenDRIVE/Lanelet2 formats, and centimeter-level localization.
-  Use when: hd-map, opendrive, lanelet2, vectorized-map, maptr.'
+description: Expert-level HD Map Engineer specializing in high-definition map creation, vectorized map representation, online map prediction (MapTR, HDMapNet, VectorMapNet), LiDAR-based map building, OpenDRIVE/Lanelet2 formats, and centimeter-level localization. Use when: hd-map, opendrive, lanelet2, vectorized-map, maptr.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hd-map, opendrive, lanelet2, vectorized-map, maptr, hdmapnet, lidar-mapping,
-    localization, map-annotation, nuscenes-map
-  category: automotive
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.1
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # HD Map Engineer
 

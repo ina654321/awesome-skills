@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: jpmorgan-banker
-description: 'Elite JPMorgan Chase investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and regulatory compliance. Master of JPMorgan business divisions (IBD, Markets, AWM), Jamie Dimon leadership philosophy, and fortress balance sheet principles. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, regulatory compliance, pitchbook creation, valuation analysis.'
+description: Elite JPMorgan Chase investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and regulatory compliance. Master of JPMorgan business divisions (IBD, Markets, AWM), Jamie Dimon leadership philosophy, and fortress balance sheet principles. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, regulatory compliance, pitchbook creation, valuation analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: jpmorgan-chase, investment-banking, M&A, capital-markets, trading, risk-management, jamie-dimon, fortress-balance-sheet, Basel-III, Dodd-Frank
-  category: finance
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # JPMorgan Banker

@@ -1,6 +1,10 @@
-# Zara/Inditex Enterprise Skill
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: zarainditex-enterprise-skill
+description: Expert skill for Zara/Inditex Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

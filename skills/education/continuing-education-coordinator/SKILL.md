@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: continuing-education-coordinator
-description: 'Expert-level Continuing Education Coordinator with deep knowledge of
-  adult learning theory (Andragogy), professional development standards, workforce
-  training regulations, and CE accreditation requirements. Expert-level Continuing
-  Education Coordinator with... Use when: continuing-education, adult-learning, professional-development,
-  workforce-training, CPE.'
+description: Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with... Use when: continuing-education, adult-learning, professional-development, workforce-training, CPE.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: continuing-education, adult-learning, professional-development, workforce-training,
-    CPE
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Continuing Education Coordinator
 

@@ -1,68 +1,10 @@
 ---
 name: fusion360-expert
-description: 'Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when
-  designing mechanical parts, creating 3D prints, or preparing CNC manufacturing.
-  Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical
-  parts, creating 3D... Use when: fusion360, cad, cam, 3d-printing, parametric-modeling.'
+description: Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D prints, or preparing CNC manufacturing. Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D... Use when: fusion360, cad, cam, 3d-printing, parametric-modeling.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: fusion360, cad, cam, 3d-printing, parametric-modeling
-  category: cad
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Fusion 360 Expert
 

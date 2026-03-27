@@ -1,4 +1,10 @@
-# ASML - Advanced Semiconductor Lithography
+---
+name: asml---advanced-semiconductor-lithography
+description: Expert skill for ASML - Advanced Semiconductor Lithography
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Domain:** Semiconductor Manufacturing Equipment | Lithography Systems  

@@ -1,22 +1,9 @@
 ---
 name: johnson-and-johnson-engineer
-description: 'Johnson & Johnson engineering across MedTech and Innovative Medicine. Triggers:
-  ''J&J style'', ''MedTech'', ''pharmaceutical manufacturing'', ''surgical robotics'',
-  ''Joaquin Duato'', ''Our Credo'', ''Janssen''.'
+description: Johnson & Johnson engineering across MedTech and Innovative Medicine. Triggers: 'J&J style', 'MedTech', 'pharmaceutical manufacturing', 'surgical robotics', 'Joaquin Duato', 'Our Credo', 'Janssen'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[johnson-johnson, jnj, medtech, pharmaceuticals, surgical-robotics, janssen,
-    innovative-medicine, ottava, healthcare-manufacturing]'
-  category: healthcare
-  difficulty: expert
-  score: 4.9/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

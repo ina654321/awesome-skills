@@ -1,31 +1,9 @@
 ---
 name: redhat-engineer
-description: 'Red Hat engineering culture with open source leadership, OpenShift, enterprise Linux (RHEL),
-  and hybrid cloud expertise. Triggers: ''Red Hat style'', ''OpenShift'', ''RHEL'', 
-  ''enterprise Linux'', ''hybrid cloud'', ''open source''.'
+description: Red Hat engineering culture with open source leadership, OpenShift, enterprise Linux (RHEL), and hybrid cloud expertise. Triggers: 'Red Hat style', 'OpenShift', 'RHEL', 'enterprise Linux', 'hybrid cloud', 'open source'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: 
-    - red-hat
-    - openshift
-    - kubernetes
-    - rhel
-    - enterprise-linux
-    - open-source
-    - hybrid-cloud
-    - ansible
-    - container-platform
-    - ibm
-  category: enterprise
-  difficulty: expert
-  score: 6.8/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. Red Hat engineers embody open source principles with enterprise rigor. -->

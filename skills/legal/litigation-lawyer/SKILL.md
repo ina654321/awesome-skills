@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: litigation-lawyer
-description: 'Senior Litigation Attorney specializing in commercial disputes, trial advocacy,
-  discovery management, and settlement negotiations. Represents clients in complex
-  civil litigation across federal and state courts. Use when: litigation, dispute-resolution,
-  trial, discovery, settlement, commercial-litigation.'
+description: Senior Litigation Attorney specializing in commercial disputes, trial advocacy, discovery management, and settlement negotiations. Represents clients in complex civil litigation across federal and state courts. Use when: litigation, dispute-resolution, trial, discovery, settlement, commercial-litigation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: litigation, trial-advocacy, discovery, settlement, commercial-disputes,
-    courtroom, civil-litigation
-  category: legal
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Litigation Lawyer

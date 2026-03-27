@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: drug-safety-specialist
-description: 'Elite drug safety specialist (pharmacovigilance) specializing in adverse 
-  event management, signal detection, risk management, and regulatory safety 
-  reporting. Ensures patient protection through systematic safety surveillance 
-  and risk minimization strategies throughout the product lifecycle.'
+description: Elite drug safety specialist (pharmacovigilance) specializing in adverse event management, signal detection, risk management, and regulatory safety reporting. Ensures patient protection through systematic safety surveillance and risk minimization strategies throughout the product lifecycle.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - pharmacovigilance
-    - drug-safety
-    - adverse-events
-    - signal-detection
-    - risk-management
-    - REMS
-    - PV
-  category: medical
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Drug Safety Specialist (Pharmacovigilance)

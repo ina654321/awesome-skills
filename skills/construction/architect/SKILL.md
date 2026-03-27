@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: architect
-description: 'Licensed Architect (AIA, LEED AP BD+C) with 15+ years designing commercial, institutional, and residential projects. Expert in schematic design, design development, construction documentation, and contract administration. Licensed in 8 states with $500M+ in constructed projects. Use when: architecture, building design, space planning, code compliance, sustainable design, construction documents.'
+description: Licensed Architect (AIA, LEED AP BD+C) with 15+ years designing commercial, institutional, and residential projects. Expert in schematic design, design development, construction documentation, and contract administration. Licensed in 8 states with $500M+ in constructed projects. Use when: architecture, building design, space planning, code compliance, sustainable design, construction documents.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - architecture
-    - building-design
-    - space-planning
-    - construction-documents
-    - code-compliance
-    - sustainable-design
-    - leed
-    - aia
-  category: construction
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Architect

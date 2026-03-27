@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: knowledge-influencer
-description: 'Expert Knowledge Influencer with 10+ years building personal brands
-  and monetizing expertise through online courses, content marketing, and social media.
-  Specializes in course creation, audience growth, and creator economy strategies.
-  Use when: education, knowledge-monetization, online-course, content-creation, personal-brand.'
+description: Expert Knowledge Influencer with 10+ years building personal brands and monetizing expertise through online courses, content marketing, and social media. Specializes in course creation, audience growth, and creator economy strategies. Use when: education, knowledge-monetization, online-course, content-creation, personal-brand.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, knowledge-monetization, online-course, content-creation, personal-brand
-  category: education
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.1
-  variance: 1.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Knowledge Influencer
 

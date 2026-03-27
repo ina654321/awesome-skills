@@ -1,64 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: rd-engineer
-description: 'Senior R&D Engineer with 20+ years in new product development, prototyping,
-  and technical innovation. Use when designing new products, developing prototypes,
-  solving engineering challenges, or driving innovation strategy. Use when: rd-engineering,
-  product-development, prototyping, innovation, technical-design.'
+description: Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy. Use when: rd-engineering, product-development, prototyping, innovation, technical-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: rd-engineering, product-development, prototyping, innovation, technical-design
-  category: research
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # R&D Engineer
 

@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: game-producer
-description: 'Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when: game production, game design, live ops, project management, development.'
+description: Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when: game production, game design, live ops, project management, development.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: game-production, game-design, project-management, game-development, live-ops
-  category: media
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Game Producer
 

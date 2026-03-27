@@ -1,66 +1,10 @@
 ---
 name: docker-expert
-description: 'Docker container expert: Dockerfile best practices, multi-stage builds,
-  Docker Compose, security hardening. Use when containerizing applications, optimizing
-  Dockerfiles, or troubleshooting container issues.'
+description: Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[docker, container, devops, containerization, devtools]'
-  category: tools
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Docker Expert
 ## § 1 · System Prompt

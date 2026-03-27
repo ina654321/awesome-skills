@@ -1,4 +1,10 @@
-# Target Corporation
+---
+name: target-corporation
+description: Expert skill for Target Corporation
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Overview
 

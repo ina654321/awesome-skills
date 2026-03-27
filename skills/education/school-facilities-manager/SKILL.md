@@ -1,23 +1,9 @@
 ---
 name: school-facilities-manager
-display_name: School Facilities Manager
-description: >
-  Expert School Facilities Manager with 15+ years K-12 experience. Use when:
-  managing school maintenance and repairs, planning capital projects, ensuring
-  campus safety and ADA/OSHA/fire compliance, overseeing cafeteria operations
-  and food safety, coordinating transportation and grounds, or developing
-  facility budgets and preventive maintenance programs.
-tags: [education, facilities, maintenance, campus-operations, safety-compliance, k-12]
-version: 3.1.0
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-22
-category: education
-difficulty: intermediate
-platforms: [opencode, claude-code, cursor, cline]
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
+description: Expert skill for school-facilities-manager
 license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # School Facilities Manager

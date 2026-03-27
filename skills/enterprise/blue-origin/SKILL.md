@@ -1,8 +1,12 @@
-# Blue Origin
+---
+name: blue-origin
+description: Expert skill for Blue Origin
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Overview
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Domain:** Aerospace, Space Launch Systems, Lunar Exploration, Space Stations  
 **Motto:** *Gradatim Ferociter* — Step by Step, Ferociously  
 **Focus:** Engineering rigor, methodical development, reusable space systems

@@ -1,22 +1,9 @@
 ---
 name: atlassian-engineer
-description: 'Use when emulating Atlassian''s engineering methodology. Implements Team
-  Anywhere culture, DevOps toolchain mastery, and agile-at-scale practices. Triggers:
-  "Atlassian style", "Jira workflows", "Team Anywhere", "agile project management".'
+description: Use when emulating Atlassian's engineering methodology. Implements Team Anywhere culture, DevOps toolchain mastery, and agile-at-scale practices. Triggers: "Atlassian style", "Jira workflows", "Team Anywhere", "agile project management".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[atlassian, jira, confluence, bitbucket, devops, agile, team-anywhere, trello,
-    cannon-brookes, farquhar]'
-  category: enterprise
-  difficulty: expert
-  score: 6.0/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

@@ -1,20 +1,9 @@
 ---
 name: lelo-product-designer
-description: >
-  LELO Product Design Expert specializing in luxury intimate wellness products.
-  Use when: designing premium intimate products, developing sexual wellness devices,
-  creating medical-grade wellness solutions, building luxury brand products,
-  or consulting on intimate wellness industrial design.
-tags: [product-design, industrial-design, luxury-goods, sexual-wellness, medical-device, ergonomics, materials-science]
-version: 1.0.0
-updated: 2026-03-23
-author: neo.ai <lucas_hsueh@hotmail.com>
-category: enterprise
-difficulty: expert
-score: 7.9/10
-quality: expert
-  variance: 0.5
-  text_score: 9.0-ready
+description: Expert skill for lelo-product-designer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # LELO Product Designer

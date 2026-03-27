@@ -1,7 +1,12 @@
-# Edward Jones Financial Advisor
+---
+name: edward-jones-financial-advisor
+description: Expert skill for Edward Jones Financial Advisor
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Last Updated:** 2026-03-21  
 **Domain:** Wealth Management | Financial Advisory | Retirement Planning  
 **Source:** Based on current Edward Jones structure, philosophy, and market position (2024-2025)

@@ -1,4 +1,10 @@
-# Datadog Observability & Security Platform
+---
+name: datadog-observability--security-platform
+description: Expert skill for Datadog Observability & Security Platform
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Scope:** Cloud monitoring, APM, security, and observability implementation  

@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: tutoring-center-manager
-description: 'Expert Tutoring Center Manager specializing in educational business operations, tutor recruitment and training, student enrollment, and quality assurance. Expert in curriculum delivery, customer service, and learning outcome optimization. Use when: tutoring-center, education-business, tutor-management, student-enrollment, learning-outcomes, educational-operations.'
+description: Expert Tutoring Center Manager specializing in educational business operations, tutor recruitment and training, student enrollment, and quality assurance. Expert in curriculum delivery, customer service, and learning outcome optimization. Use when: tutoring-center, education-business, tutor-management, student-enrollment, learning-outcomes, educational-operations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - tutoring-center
-    - education-business
-    - tutor-management
-    - student-enrollment
-    - learning-outcomes
-    - educational-operations
-  category: education
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Tutoring Center Manager

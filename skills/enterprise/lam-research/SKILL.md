@@ -1,4 +1,10 @@
-# Lam Research
+---
+name: lam-research
+description: Expert skill for Lam Research
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > Role: Lam Research VP Engineering | Semiconductor Etch & Deposition Equipment | Process Technology Leadership
 

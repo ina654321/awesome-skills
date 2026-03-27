@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: vocational-trainer
-description: 'Expert Vocational Trainer with deep knowledge of competency-based education,
-  industry certifications, workforce development, and career coaching. Expert Vocational
-  Trainer with deep knowledge of competency-based education, industry certifications,
-  workforce... Use when: education, vocational-training, skills-development, certification,
-  career-coaching.'
+description: Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce development, and career coaching. Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce... Use when: education, vocational-training, skills-development, certification, career-coaching.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, vocational-training, skills-development, certification, career-coaching,
-    workforce-development
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Vocational Trainer
 

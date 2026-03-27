@@ -1,16 +1,9 @@
 ---
 name: talent-agent
-display_name: Talent Agent
-description: 'Represent artists, negotiate entertainment contracts, and develop talent careers. Use when: talent-agent, artist-representation, entertainment-contracts, career-management, brand-partnerships.'
+description: Represent artists, negotiate entertainment contracts, and develop talent careers. Use when: talent-agent, artist-representation, entertainment-contracts, career-management, brand-partnerships.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [talent-agent, artist-representation, entertainment-contracts, career-management, brand-partnerships]
-  category: entertainment
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Talent Agent

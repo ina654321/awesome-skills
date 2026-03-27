@@ -1,28 +1,9 @@
 ---
 name: zoom-engineer
-description: 'Zoom Principal Engineering mindset with WebRTC scalability, SFU architecture, AI-first platform strategy, and "Deliver Happiness" culture. Triggers: ''Zoom style'', ''video conferencing'', ''WebRTC engineering'', ''SFU architecture'', ''Eric Yuan''.'
+description: Zoom Principal Engineering mindset with WebRTC scalability, SFU architecture, AI-first platform strategy, and "Deliver Happiness" culture. Triggers: 'Zoom style', 'video conferencing', 'WebRTC engineering', 'SFU architecture', 'Eric Yuan'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-22'
-  tags: 
-    - zoom
-    - video-conferencing
-    - webrtc
-    - sfu
-    - scalability
-    - ai-companion
-    - eric-yuan
-    - enterprise-saas
-    - real-time-systems
-  category: enterprise
-  difficulty: expert
-  score: 6.5/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: talent-acquisition-specialist
-description: 'Expert-level Talent Acquisition Specialist skill covering sourcing strategies, interview techniques, employer branding, and recruitment optimization. Use when: recruiting, sourcing, interviewing, employer-branding, talent-pipeline, recruitment-marketing.'
+description: Expert-level Talent Acquisition Specialist skill covering sourcing strategies, interview techniques, employer branding, and recruitment optimization. Use when: recruiting, sourcing, interviewing, employer-branding, talent-pipeline, recruitment-marketing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: recruiting, sourcing, interviewing, employer-branding, talent-pipeline, recruitment-marketing, headhunting
-  category: business
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Talent Acquisition Specialist

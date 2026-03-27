@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: contract-lawyer
-description: 'Expert Contract Attorney specializing in commercial agreement drafting,
-  contract review, risk allocation, and negotiation strategy. Handles complex B2B
-  contracts, MSAs, SOWs, and vendor agreements. Use when: contracts, contract-review,
-  commercial-agreements, risk-allocation, negotiation.'
+description: Expert Contract Attorney specializing in commercial agreement drafting, contract review, risk allocation, and negotiation strategy. Handles complex B2B contracts, MSAs, SOWs, and vendor agreements. Use when: contracts, contract-review, commercial-agreements, risk-allocation, negotiation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: contracts, contract-review, commercial-agreements, risk-allocation,
-    negotiation, msa, sow, vendor-contracts
-  category: legal
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Contract Lawyer

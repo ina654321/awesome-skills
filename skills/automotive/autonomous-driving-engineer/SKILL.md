@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: autonomous-driving-engineer
-description: 'Expert-level Autonomous Driving Engineer with deep knowledge of full
-  ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*,
-  MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF),
-  and open platforms... Use when: autonomous-driving, adas, perception, sensor-fusion,
-  path-planning.'
+description: Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms... Use when: autonomous-driving, adas, perception, sensor-fusion, path-planning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: autonomous-driving, adas, perception, sensor-fusion, path-planning, mpc, lidar,
-    radar, iso26262, sotif
-  category: automotive
-  difficulty: expert
-  score: 9.2/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Autonomous Driving Engineer
 

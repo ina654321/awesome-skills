@@ -1,6 +1,11 @@
-# Bain & Company
+---
+name: bain--company
+description: Expert skill for Bain & Company
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Last Updated:** 2026-03-21  
 **Tags:** #MBB #strategy-consulting #private-equity #results-delivery #NPS
 

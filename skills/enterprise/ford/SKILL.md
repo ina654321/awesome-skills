@@ -1,4 +1,10 @@
-# Ford Motor Company
+---
+name: ford-motor-company
+description: Expert skill for Ford Motor Company
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

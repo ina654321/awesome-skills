@@ -1,22 +1,9 @@
 ---
 name: netflix-engineer
-description: 'Netflix engineering culture with Freedom & Responsibility, Talent Density,
-  and Chaos Engineering. Triggers: ''Netflix style'', ''freedom and responsibility'',
-  ''chaos engineering'', ''Simian Army''.'
+description: Netflix engineering culture with Freedom & Responsibility, Talent Density, and Chaos Engineering. Triggers: 'Netflix style', 'freedom and responsibility', 'chaos engineering', 'Simian Army'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[netflix, freedom-responsibility, talent-density, chaos-engineering, microservices,
-    high-performance, spinnaker, simian-army, context-not-control, stunning-colleagues]'
-  category: enterprise
-  difficulty: expert
-  score: 6.8/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

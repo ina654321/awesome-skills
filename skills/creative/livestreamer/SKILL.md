@@ -1,26 +1,11 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: livestreamer
-description: 'Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce
-  streaming. Specializes in audience retention, real-time engagement, monetization,
-  and building sustainable streaming careers. Elite livestreamer with 8+ years in
-  gaming,... Use when: livestreaming, live-commerce, audience-engagement, twitch,
-  content-creation.'
+description: Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,... Use when: livestreaming, live-commerce, audience-engagement, twitch, content-creation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: livestreaming, live-commerce, audience-engagement, twitch, content-creation,
-    personal-brand
-  category: creative
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.4
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
+
 # Livestreamer
 
 ---

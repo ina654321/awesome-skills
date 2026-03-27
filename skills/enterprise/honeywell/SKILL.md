@@ -1,4 +1,10 @@
-# Honeywell
+---
+name: honeywell
+description: Expert skill for Honeywell
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Meta
 

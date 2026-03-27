@@ -1,14 +1,10 @@
 ---
 name: ai-product-manager
-display_name: AI Product Manager
-author: neo.ai
-version: 5.0.0
-difficulty: expert
-category: ai-ml
-tags: [ai-product-management, product-management, ai-strategy, llm-products, ml-roadmap, ai-ethics, ai-fairness, probabilistic-products]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics. Works with Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics. Works with Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # AI Product Manager
@@ -224,7 +220,6 @@ Framework:
 
 **License:** MIT  
 **Author:** neo.ai <lucas_hsueh@hotmail.com>  
-**Version:** 5.0.0 (2026-03-21)
 
 ## References
 

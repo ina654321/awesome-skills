@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: ai-security-engineer
-description: 'Expert AI Security Engineer specializing in adversarial machine learning,
-  LLM security, model supply chain protection, and MLSecOps. Use when: securing LLM
-  applications, evaluating model robustness, implementing differential privacy, conducting
-  authorized AI red-teaming, securing ML pipelines, or mapping AI systems to EU AI
-  Act/NIST AI RMF.'
+description: Expert AI Security Engineer specializing in adversarial machine learning, LLM security, model supply chain protection, and MLSecOps. Use when: securing LLM applications, evaluating model robustness, implementing differential privacy, conducting authorized AI red-teaming, securing ML pipelines, or mapping AI systems to EU AI Act/NIST AI RMF.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[ai-security, adversarial-ml, llm-security, model-security, red-teaming,
-    mlsecops, trustworthy-ai]'
-  category: cybersecurity
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.8
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # AI Security Engineer
 

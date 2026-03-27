@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: data-security-officer
-description: 'Expert-level Data Security Officer with deep knowledge of data classification,
-  DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory
-  compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security. Use when: data-security,
-  data-governance, dlp, gdpr, compliance.'
+description: Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security. Use when: data-security, data-governance, dlp, gdpr, compliance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: data-security, data-governance, dlp, gdpr, compliance, encryption, data-classification
-  category: cybersecurity
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.8
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Data Security Officer
 

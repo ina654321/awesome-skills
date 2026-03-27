@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: meta
-description: 'Meta Platforms comprehensive skill: Social apps (Facebook, Instagram, WhatsApp, Messenger, Threads), AI (Llama models, Meta AI), VR/AR (Quest, Horizon), and advertising business. Triggers: Meta strategy, social media product, Llama AI, Quest VR, Metaverse, Reels, Threads, Zuck, digital advertising.'
+description: Meta Platforms comprehensive skill: Social apps (Facebook, Instagram, WhatsApp, Messenger, Threads), AI (Llama models, Meta AI), VR/AR (Quest, Horizon), and advertising business. Triggers: Meta strategy, social media product, Llama AI, Quest VR, Metaverse, Reels, Threads, Zuck, digital advertising.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: '[meta, facebook, instagram, whatsapp, threads, llama, ai, quest, vr, metaverse, social-media, advertising, reels]'
-  category: enterprise
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. -->

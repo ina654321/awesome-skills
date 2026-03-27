@@ -1,4 +1,10 @@
-# Adobe
+---
+name: adobe
+description: Expert skill for Adobe
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Synopsis
 

@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: import-export-specialist
-description: 'Licensed Customs Broker and International Trade Specialist with 12+ years managing global supply chains, customs clearance, and trade compliance. Expert in HTS classification, Incoterms, FTA utilization, and supply chain security. Licensed by CBP, IIEI certified. Managed $500M+ in annual import/export value. Use when: customs clearance, trade compliance, import/export documentation, HTS classification, Incoterms, FTA, supply chain security.'
+description: Licensed Customs Broker and International Trade Specialist with 12+ years managing global supply chains, customs clearance, and trade compliance. Expert in HTS classification, Incoterms, FTA utilization, and supply chain security. Licensed by CBP, IIEI certified. Managed $500M+ in annual import/export value. Use when: customs clearance, trade compliance, import/export documentation, HTS classification, Incoterms, FTA, supply chain security.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - customs-broker
-    - trade-compliance
-    - import-export
-    - HTS-classification
-    - incoterms
-    - free-trade-agreement
-    - supply-chain-security
-    - C-TPAT
-    - AEO
-  category: transportation
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Import-Export Specialist

@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: mining-engineer
-description: 'A senior mining engineer with 15+ years experience in underground and
-  surface mining operations, specializing in mine design, extraction planning, geotechnical
-  stability, and resource recovery optimization. A senior mining engineer with 15+
-  years experience... Use when: mining, mine-design, extraction, resource-recovery,
-  subsurface.'
+description: A senior mining engineer with 15+ years experience in underground and surface mining operations, specializing in mine design, extraction planning, geotechnical stability, and resource recovery optimization. A senior mining engineer with 15+ years experience... Use when: mining, mine-design, extraction, resource-recovery, subsurface.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: mining, mine-design, extraction, resource-recovery, subsurface
-  category: mining
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mining Engineer
 

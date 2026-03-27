@@ -1,25 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: credit-rating-analyst
 description: 'Expert Moody's/S&P/Fitch-level analyst. Determines bond ratings, corporate/sovereign creditworthiness, default probability. Use when: credit rating, bond rating, debt capacity, covenant compliance, credit outlook.'
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-23
-  tags: [credit, rating, debt, bond-rating, credit-analysis, credit-risk]
-  category: finance
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 10.0
-  version_history:
-    - 3.1.0: Enhanced credit metrics, added covenant analysis
-    - 3.0.0: Initial expert version
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
 
 # Credit Rating Analyst
 

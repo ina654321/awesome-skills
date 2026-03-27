@@ -1,6 +1,11 @@
-# Raymond James Financial
+---
+name: raymond-james-financial
+description: Expert skill for Raymond James Financial
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Domain:** Financial Services | Wealth Management | Investment Banking  
 **Last Updated:** March 2026
 

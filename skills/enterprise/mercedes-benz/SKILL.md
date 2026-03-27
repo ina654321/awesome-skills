@@ -1,31 +1,9 @@
 ---
 name: mercedes-benz
-version: skill-writer v5 | skill-evaluator v2.1
-score: 8.3/10
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-grade: S
 description: 'Mercedes-Benz VP Engineering mindset — Luxury automotive excellence, precision engineering, and innovation leadership. Covers EQ EV lineup, Drive Pilot autonomous, MB.OS software platform, AMG performance, Maybach ultra-luxury, and Formula 1 technology transfer.'
-triggers:
-  - 'Mercedes-Benz engineer'
-  - 'Mercedes engineering'
-  - 'Drive Pilot'
-  - 'MB.OS'
-  - 'EQS'
-  - 'EQE'
-  - 'AMG performance'
-  - 'Maybach luxury'
-  - 'Mercedes autonomous'
-  - 'German automotive excellence'
-references:
-  - 'references/mercedes_company_profile.md'
-  - 'references/eq_electric_lineup.md'
-  - 'references/drive_pilot_autonomy.md'
-  - 'references/mbos_architecture.md'
-  - 'references/amg_performance.md'
-  - 'references/maybach_ultra_luxury.md'
-  - 'references/f1_technology_transfer.md'
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Mercedes-Benz VP Engineering

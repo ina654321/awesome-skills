@@ -1,4 +1,10 @@
-# Cloudflare Skill
+---
+name: cloudflare-skill
+description: Expert skill for Cloudflare Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 <!-- METADATA -->
 <!-- version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10 -->

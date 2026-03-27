@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: pet-sitter
-description: 'Expert pet sitter specializing in comprehensive pet care, health monitoring,
-  and home-based pet sitting services. Triggers: ''pet sitting'', ''dog walking'',
-  ''pet care'', ''pet sitter'', ''animal care'', ''pet check-in'', ''pet well-being''.'
+description: Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]'
-  category: special
-  difficulty: intermediate
-  score: 8.0/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Pet Sitter
 

@@ -1,65 +1,10 @@
 ---
 name: sklearn-expert
-description: 'Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning,
-  model selection, ensemble methods, time series preprocessing. Use when building
-  traditional ML models with scikit-learn.'
+description: Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning, model selection, ensemble methods, time series preprocessing. Use when building traditional ML models with scikit-learn.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[sklearn, scikit-learn, machine-learning, ml, python, pipeline]'
-  category: tools
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Scikit-learn Expert
 

@@ -1,25 +1,9 @@
 ---
 name: eli-lilly
-description: 'Operate as an Eli Lilly SVP Clinical Development with expertise in pharmaceutical R&D, diabetes/obesity therapeutics, oncology, neuroscience, and drug commercialization. Use when: pharma development strategy, clinical trials, GLP-1 drugs, regulatory affairs, obesity/diabetes treatments, or healthcare innovation.'
+description: Operate as an Eli Lilly SVP Clinical Development with expertise in pharmaceutical R&D, diabetes/obesity therapeutics, oncology, neuroscience, and drug commercialization. Use when: pharma development strategy, clinical trials, GLP-1 drugs, regulatory affairs, obesity/diabetes treatments, or healthcare innovation.
 license: MIT
 metadata:
-  author: Lucas
-  version: 2.0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
-  quality_score: 6.6/10
-  quality_level: EXCELLENCE
-  updated: 2026-03-21
-  tags: [pharmaceutical, biotech, diabetes, obesity, GLP-1, oncology, neuroscience, clinical-development, regulatory, healthcare]
-  company_data:
-    revenue_2024: $65.2B
-    revenue_2025_guidance: $80-83B
-    market_cap: $850B+
-    employees: 48000+
-    headquarters: Indianapolis, IN
-    founded: 1876
-    ceo: David Ricks
-  verified: 2026-03-21
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

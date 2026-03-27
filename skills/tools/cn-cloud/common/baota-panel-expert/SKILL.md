@@ -1,17 +1,10 @@
 ---
 name: baota-panel-expert
-description: >
-  宝塔面板专家。Use when: 管理Linux服务器、配置宝塔面板、部署网站、配置SSL、迁移数据、优化性能。
-  Triggers: 宝塔、面板、Linux管理、服务器运维、建站、Nginx配置、MySQL管理。
-tags: [baota, panel, linux, server-management, nginx, mysql, website, ssl]
-version: 3.1.0
-author: neo.ai <lucas_hsueh@hotmail.com>
+description: 宝塔面板专家。Use when: 管理Linux服务器、配置宝塔面板、部署网站、配置SSL、迁移数据、优化性能。 Triggers: 宝塔、面板、Linux管理、服务器运维、建站、Nginx配置、MySQL管理。
+
 license: MIT
-category: tools
-difficulty: beginner
-min_tokens: 3500
-max_tokens: 6000
-required_tags: [baota, panel, linux]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # 宝塔面板专家 (Baota Panel Expert)

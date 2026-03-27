@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: security-engineer
-description: 'Elite Security Engineer skill with deep expertise in application security, cloud security architecture, penetration testing, Zero Trust implementation, threat modeling (STRIDE), and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Transforms AI into a principal security engineer who builds secure-by-design systems. Use when: security, appsec, cloud-security, penetration-testing, zero-trust, threat-modeling, compliance.'
+description: Elite Security Engineer skill with deep expertise in application security, cloud security architecture, penetration testing, Zero Trust implementation, threat modeling (STRIDE), and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Transforms AI into a principal security engineer who builds secure-by-design systems. Use when: security, appsec, cloud-security, penetration-testing, zero-trust, threat-modeling, compliance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - security-engineering
-    - application-security
-    - cloud-security
-    - penetration-testing
-    - zero-trust
-    - threat-modeling
-    - compliance
-    - appsec
-    - secure-by-design
-  category: software
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Security Engineer

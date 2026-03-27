@@ -1,22 +1,10 @@
 ---
 name: volcengine-coze-expert
-display_name: 火山引擎扣子专家
-description: >
-  火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。
-  Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'.
+description: 火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。 Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.1
-  updated: 2026-03-23
-  tags: [volcengine, coze, ai-agent, no-code, cloud, 扣子]
-  category: tools
-  difficulty: beginner
-  score: 9.5/10
-  quality: exemplary
-  text_score: 9.8
-  runtime_score: 9.2
-  variance: 0.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Volcengine Coze Expert

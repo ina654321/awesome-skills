@@ -1,64 +1,10 @@
 ---
 name: photoshop-expert
-description: 'Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers:
-  ''Photoshop'', ''图像处理'', ''设计''. Works with: Claude Code, Codex, OpenCode, Cursor,
-  Cline, OpenClaw, Kimi.'
+description: Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[photoshop, image-editing, design, adobe]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.3
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Photoshop Expert
 

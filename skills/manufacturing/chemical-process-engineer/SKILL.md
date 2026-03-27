@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: chemical-process-engineer
-description: 'Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals,
-  specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design,
-  heat integration, safety-by-design, and plant optimization. Use when: chemical-engineering,
-  process-design, reactor-design, optimization, safety.'
+description: Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design, heat integration, safety-by-design, and plant optimization. Use when: chemical-engineering, process-design, reactor-design, optimization, safety.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: chemical-engineering, process-design, reactor-design, optimization, safety
-  category: manufacturing
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.7
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Chemical Process Engineer
 

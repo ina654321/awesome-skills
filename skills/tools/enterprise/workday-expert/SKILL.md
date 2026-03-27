@@ -1,19 +1,9 @@
 ---
 name: workday-engineer
-description: 'Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuration, Business Process workflows, REST API integrations, EIB/Studio development, and AI-driven HR solutions. Use when: workday, hcm, erp, payroll, workday integration, skills cloud, workforce planning.'
+description: Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuration, Business Process workflows, REST API integrations, EIB/Studio development, and AI-driven HR solutions. Use when: workday, hcm, erp, payroll, workday integration, skills cloud, workforce planning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: workday, hcm, erp, payroll, integration, skills-cloud, ai-hr, workday-studio
-  category: tools
-  difficulty: expert
-  score: 6.8/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

@@ -1,37 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: stripe-engineer
-description: 'A senior Stripe engineer with deep expertise in Stripe''s payment infrastructure,
-  APIs, and engineering culture. Specializes in building with Stripe Payments, Connect,
-  Radar, Billing, and Atlas. Use when: stripe-engineer, payment-processing, stripe-api,
-  fraud-detection, global-payments, stripe-atlas.'
+description: A senior Stripe engineer with deep expertise in Stripe's payment infrastructure, APIs, and engineering culture. Specializes in building with Stripe Payments, Connect, Radar, Billing, and Atlas. Use when: stripe-engineer, payment-processing, stripe-api, fraud-detection, global-payments, stripe-atlas.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
-  quality_score: 8.1/10
-  quality_grade: EXCELLENCE
-  updated: '2026-03-21'
-  tags:
-    - stripe-engineer
-    - payment-processing
-    - stripe-api
-    - fraud-detection
-    - global-payments
-    - stripe-atlas
-    - billing
-    - connect
-    - radar
-  category: fintech
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **DISCLAIMER:** This skill provides general education about Stripe's technology and engineering practices. It does NOT constitute professional financial or legal advice. Building payment systems requires proper PCI compliance, security audits, and regulatory adherence. Always consult Stripe's official documentation and qualified professionals for production implementations.

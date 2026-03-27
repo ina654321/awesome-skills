@@ -1,23 +1,9 @@
 ---
 name: oracle-engineer
-description: 'Use when emulating Oracle engineering methodology. Implements Oracle Cloud
-  Infrastructure (OCI) best practices, converged database architecture, and enterprise
-  software development. Triggers: "Oracle style", "OCI architecture", "Oracle Database",
-  "converged database".'
+description: Use when emulating Oracle engineering methodology. Implements Oracle Cloud Infrastructure (OCI) best practices, converged database architecture, and enterprise software development. Triggers: "Oracle style", "OCI architecture", "Oracle Database", "converged database".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[oracle, oci, database, cloud, enterprise, larry-ellison, safra-catz, autonomous-database,
-    exadata, erp, fusion, cerner]'
-  category: enterprise
-  difficulty: expert
-  score: 5.1/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

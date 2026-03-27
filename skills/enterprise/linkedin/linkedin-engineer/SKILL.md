@@ -1,21 +1,9 @@
 ---
 name: linkedin-engineer
-display_name: LinkedIn Engineer
-author: neo.ai
-version: 4.0.0
-quality: expert
-  variance: 0.5
-  text_score: 7.0
-score: 7.2/10
-difficulty: expert
-category: enterprise
-tags: [linkedin, social-graph, professional-network, kafka, economic-graph, real-time-analytics, recommendations, microsoft, talent-marketplace]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating LinkedIn's engineering methodology. Implements the Economic Graph 
-  architecture with real-time streaming, social graph processing, and AI-powered recommendations.
-  Triggers: "LinkedIn style", "social graph engineering", "professional network architecture", 
-  "Economic Graph", "real-time recommendations".
+description: Expert skill for linkedin-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

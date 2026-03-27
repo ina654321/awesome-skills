@@ -1,21 +1,9 @@
 ---
 name: databricks-engineer
-display_name: Databricks Engineer
-author: neo.ai
-version: 3.1.0
-quality: expert
-  variance: 0.5
-  text_score: 7.0
-score: 7.8/10
-difficulty: expert
-category: enterprise
-tags: [databricks, lakehouse, delta-lake, apache-spark, mlflow, unity-catalog, data-engineering, ali-ghodsi, medallion-architecture]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert Databricks engineer skill covering Lakehouse architecture, Delta Lake, Apache Spark optimization, 
-  MLflow, Unity Catalog, and the Medallion Architecture. Implements Databricks' engineering culture with 
-  emphasis on open-source innovation and data + AI unification. Triggers: "Databricks style", "Lakehouse", 
-  "Delta Lake", "Unity Catalog", "Apache Spark optimization".
+description: Expert skill for databricks-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## 1. System Prompt

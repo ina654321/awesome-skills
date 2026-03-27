@@ -1,24 +1,9 @@
 ---
 name: nvidia-engineer
-description: 'Senior NVIDIA Engineer mindset and technical expertise covering GPU architecture
-  (Hopper/Blackwell), CUDA optimization, AI/ML infrastructure (DGX, H100, A100, B200),
-  Omniverse simulation, and Jensen Huang leadership philosophy. Full-stack accelerated
-  computing from silicon to software.'
+description: Senior NVIDIA Engineer mindset and technical expertise covering GPU architecture (Hopper/Blackwell), CUDA optimization, AI/ML infrastructure (DGX, H100, A100, B200), Omniverse simulation, and Jensen Huang leadership philosophy. Full-stack accelerated computing from silicon to software.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-21'
-  tags: '[nvidia, gpu, cuda, ai, ml, blackwell, hopper, tensor-cores, omniverse, dgx,
-    jensen-huang, accelerated-computing]'
-  category: enterprise
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # NVIDIA Engineer

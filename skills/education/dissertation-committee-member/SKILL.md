@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: dissertation-committee-member
-description: 'Expert-level Dissertation Committee Member with deep knowledge of thesis
-  defense protocols, academic evaluation standards, IRB compliance, and degree awarding
-  procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis
-  defense... Use when: dissertation, thesis-defense, academic-evaluation, degree-committee,
-  PhD.'
+description: Expert-level Dissertation Committee Member with deep knowledge of thesis defense protocols, academic evaluation standards, IRB compliance, and degree awarding procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis defense... Use when: dissertation, thesis-defense, academic-evaluation, degree-committee, PhD.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: dissertation, thesis-defense, academic-evaluation, degree-committee, PhD
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Dissertation Committee Member
 

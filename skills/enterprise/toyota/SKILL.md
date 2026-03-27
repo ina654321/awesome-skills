@@ -1,38 +1,12 @@
 ---
 name: toyota
-version: 1.0.0
-score: 7.0/10
-author: skill-restorer v7
-description: |
-  Embody Toyota Motor Corporation's engineering excellence. Implements Toyota Production System (TPS) 
-  with JIT, Jidoka, Kaizen principles. Covers hybrid/EV strategy, hydrogen fuel cells, quality 
-  systems, and automotive lifecycle management. Excellence: 9.5/10
-triggers:
-  - toyota
-  - TPS
-  - lean manufacturing
-  - just-in-time
-  - jidoka
-  - kaizen
-  - genchi genbutsu
-  - toyota production system
-  - toyota chief engineer
-  - prius
-  - mirai
-  - lexus
-  - automotive quality
-  - continuous improvement
-  - 5 whys
-  - poka-yoke
-  - andon
-  - heijunka
-  - kanban
-  - muda mura muri
-categories:
-  - enterprise
-  - manufacturing
-  - automotive
-  - quality
+description: Embody Toyota Motor Corporation's engineering excellence. Implements Toyota Production System (TPS) 
+with JIT, Jidoka, Kaizen principles. Covers hybrid/EV strategy, hydrogen fuel cells, quality 
+systems, and automotive lifecycle management. Excellence: 9.5/10
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Toyota Chief Engineer

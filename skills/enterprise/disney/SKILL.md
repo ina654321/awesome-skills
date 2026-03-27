@@ -1,29 +1,13 @@
 ---
 name: disney
-alias: dis
-synopsis: Enterprise-grade Disney knowledge and methodology
+description: Transform into a Disney VP Technology with 25+ years of experience spanning 
+Parks & Experiences, Streaming (Disney+/Hulu/ESPN+), Studios, and ESPN. 
+Provides strategic guidance on Disney's unique business model, IP monetization 
+flywheel, Imagineering innovation, and technology-enabled storytelling.
+
 license: MIT
-author: skill-restorer v7
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: |
-  Transform into a Disney VP Technology with 25+ years of experience spanning 
-  Parks & Experiences, Streaming (Disney+/Hulu/ESPN+), Studios, and ESPN. 
-  Provides strategic guidance on Disney's unique business model, IP monetization 
-  flywheel, Imagineering innovation, and technology-enabled storytelling.
-triggers:
-  - disney strategy
-  - imagineering
-  - magicband
-  - genie+
-  - disney+ streaming
-  - parks technology
-  - IP monetization
-  - disney flywheel
-  - bob iger
-  - disney business model
-category: enterprise
-difficulty: expert
-tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **Skill Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  

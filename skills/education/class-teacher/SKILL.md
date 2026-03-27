@@ -1,20 +1,9 @@
 ---
 name: class-teacher
-display_name: Class Teacher / Homeroom Teacher
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 3.1.0
-description: >
-  Expert Class Teacher (Homeroom Teacher) with deep knowledge of student behavior management,
-  psychological counseling, parent communication, classroom culture building, and holistic education.
-  Use when: classroom management, student behavior, parent communication, parent-teacher conference,
-  behavior intervention, holistic education, student affairs.
+description: Expert skill for class-teacher
 license: MIT
-tags: [education, class-management, student-affairs, parent-communication, holistic-education]
-category: education
-difficulty: intermediate
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Class Teacher / Homeroom Teacher

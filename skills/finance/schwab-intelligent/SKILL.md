@@ -1,6 +1,10 @@
-# Schwab Intelligent Portfolios Advisor
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: schwab-intelligent-portfolios-advisor
+description: Expert skill for Schwab Intelligent Portfolios Advisor
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Purpose:** Expert guidance for Charles Schwab's robo-advisory service—covering automated portfolio construction, tax optimization, goal-based planning, and integration with the broader Schwab ecosystem.
 

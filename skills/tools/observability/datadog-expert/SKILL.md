@@ -1,22 +1,9 @@
 ---
 name: datadog-engineer
-description: 'Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog.
-  Triggers: ''Datadog'', ''APM'', ''监控'', ''性能监控'', ''分布式追踪'', ''日志分析'', ''SLO'', ''可观测性''. Works with:
-  Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.'
+description: Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '监控', '性能监控', '分布式追踪', '日志分析', 'SLO', '可观测性'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[datadog, apm, monitoring, tracing, cloud-monitoring, infrastructure, logs,
-    metrics, observability, slo, security, ebpf, opentelemetry]'
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

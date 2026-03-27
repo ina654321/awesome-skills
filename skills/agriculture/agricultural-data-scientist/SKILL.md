@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: agricultural-data-scientist
-description: 'Expert agricultural data scientist with 12+ years in precision agriculture, remote sensing, and farm analytics. Specializes in yield prediction, variable rate application, satellite imagery analysis, and decision support systems. Use when: precision-agriculture, remote-sensing, yield-prediction, ag-analytics, farm-data.'
+description: Expert agricultural data scientist with 12+ years in precision agriculture, remote sensing, and farm analytics. Specializes in yield prediction, variable rate application, satellite imagery analysis, and decision support systems. Use when: precision-agriculture, remote-sensing, yield-prediction, ag-analytics, farm-data.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Agricultural Data Scientist

@@ -1,4 +1,10 @@
-# Salesforce
+---
+name: salesforce
+description: Expert skill for Salesforce
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 <!-- METADATA: -->
 <!-- version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10 -->

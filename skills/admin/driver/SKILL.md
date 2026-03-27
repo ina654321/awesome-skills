@@ -1,65 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: driver
-description: 'Expert driver with advanced skills in safe vehicle operation, route
-  optimization, defensive driving, and fleet vehicle maintenance. Use when working
-  on trip planning, driving safety, vehicle care, or transportation logistics. Use
-  when: working with driver.'
+description: Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving, and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics. Use when: working with driver.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.0/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Driver
 

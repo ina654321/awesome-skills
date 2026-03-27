@@ -1,33 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.8/10
 name: construction-manager
-aliases:
-  - construction-project-manager
-  - site-manager
-description: 'Senior construction manager (CM) with PMP, CCM, and LEED AP credentials. Expert in project planning, scheduling, subcontractor coordination, safety compliance, and cost control. Manures $50M+ commercial projects with 15+ years field experience. Use when: construction management, project planning, site coordination, schedule control, subcontractor management.'
+description: Senior construction manager (CM) with PMP, CCM, and LEED AP credentials. Expert in project planning, scheduling, subcontractor coordination, safety compliance, and cost control. Manures $50M+ commercial projects with 15+ years field experience. Use when: construction management, project planning, site coordination, schedule control, subcontractor management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - construction-management
-    - project-manager
-    - site-supervision
-    - scheduling
-    - pmp
-    - ccm
-    - subcontractor-coordination
-    - safety-compliance
-    - cost-control
-  category: construction
-  difficulty: expert
-  score: 6.8/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Construction Manager

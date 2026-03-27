@@ -1,6 +1,11 @@
-# Qualcomm Expert
+---
+name: qualcomm-expert
+description: Expert skill for Qualcomm Expert
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Domain:** Enterprise Technology | Semiconductors | Wireless Communications  
 **Scope:** Strategic advisory for Qualcomm's technology roadmap, competitive positioning, and business diversification
 

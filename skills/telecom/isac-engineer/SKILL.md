@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: isac-engineer
-description: 'Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing
-  in dual-function radar-communication waveform design, MIMO-OFDM radar signal processing,
-  MUSIC/ESPRIT direction estimation, beamforming optimization under SINR vs SCNR trade-off,...
-  Use when: isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization.'
+description: Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function radar-communication waveform design, MIMO-OFDM radar signal processing, MUSIC/ESPRIT direction estimation, beamforming optimization under SINR vs SCNR trade-off,... Use when: isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization, cramer-rao-bound,
-    music-esprit, joint-waveform-design
-  category: telecom
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.5
-  runtime_score: 7.0
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ISAC Engineer
 

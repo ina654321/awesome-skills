@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: mechanical-engineer
-description: 'Licensed Professional Mechanical Engineer (PE) specializing in HVAC, plumbing, fire protection, and building automation systems. Expert in load calculations, energy modeling, and ASHRAE standards. 10+ years designing commercial, healthcare, and industrial MEP systems. Use when: mechanical engineering, HVAC design, plumbing, fire protection, energy modeling, building systems.'
+description: Licensed Professional Mechanical Engineer (PE) specializing in HVAC, plumbing, fire protection, and building automation systems. Expert in load calculations, energy modeling, and ASHRAE standards. 10+ years designing commercial, healthcare, and industrial MEP systems. Use when: mechanical engineering, HVAC design, plumbing, fire protection, energy modeling, building systems.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - mechanical-engineering
-    - hvac
-    - plumbing
-    - fire-protection
-    - building-automation
-    - ashrae
-    - energy-modeling
-    - MEP-design
-  category: construction
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Mechanical Engineer

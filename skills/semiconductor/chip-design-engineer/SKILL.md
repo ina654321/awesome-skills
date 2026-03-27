@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: chip-design-engineer
-description: 'Expert-level Chip Design Engineer with deep knowledge of RTL design
-  in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT,
-  tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design
-  Engineer with deep knowledge... Use when: chip-design, rtl, verilog, systemverilog,
-  synopsys.'
+description: Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge... Use when: chip-design, rtl, verilog, systemverilog, synopsys.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure,
-    sta, dft, tapeout
-  category: semiconductor
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.3
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Chip Design Engineer
 

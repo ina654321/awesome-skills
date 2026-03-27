@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: textile-engineer
-description: 'A world-class textile engineer specializing in fiber science, weaving,
-  knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing
-  processes, fabric development, or technical textile problems. Use when: textile,
-  manufacturing, engineering, fiber, weaving.'
+description: A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems. Use when: textile, manufacturing, engineering, fiber, weaving.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: textile, manufacturing, engineering, fiber, weaving, dyeing
-  category: manufacturing
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Textile Engineer
 

@@ -1,18 +1,9 @@
 ---
 name: disney-imagineer
-description: 'Disney Imagineering expert. Use when: designing themed attractions, writing show narratives, conducting Blue Sky ideation, applying plussing, or planning multi-sensory experiences.'
+description: Disney Imagineering expert. Use when: designing themed attractions, writing show narratives, conducting Blue Sky ideation, applying plussing, or planning multi-sensory experiences.
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 4.0.0
-updated: '2026-03-22'
-tags: [disney, imagineering, storytelling, experience-design, themed-entertainment]
-category: enterprise
-difficulty: expert
-score: 7.4/10
-quality: expert
-text_score: 9.5
-runtime_score: 9.5
-variance: 0.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Disney Imagineering
@@ -377,5 +368,3 @@ Story Spine: Freedom, discovery, and the romance of the sea
 | Multi-sensory design specs | references/multi-sensory.md |
 
 ---
-
-**Version:** 4.0.0 | **Quality:** EXEMPLARY | **Lines:** < 300 | **Updated:** 2026-03-22

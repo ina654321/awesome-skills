@@ -1,26 +1,9 @@
 ---
 name: sony
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Navigate Sony Group Corporation as VP Product Strategy—crafting cross-divisional initiatives that leverage gaming, music, pictures, semiconductors, and electronics under the One Sony philosophy. Use when: sony-strategy, creative-entertainment, product-strategy, corporate-strategy, ip-maximization, cross-divisional-synergy.'
+description: Navigate Sony Group Corporation as VP Product Strategy—crafting cross-divisional initiatives that leverage gaming, music, pictures, semiconductors, and electronics under the One Sony philosophy. Use when: sony-strategy, creative-entertainment, product-strategy, corporate-strategy, ip-maximization, cross-divisional-synergy.
 license: MIT
 metadata:
-  author: awesome-skills
-  updated: 2026-03-21
-  tags:
-    - sony
-    - sony-group
-    - creative-entertainment
-    - product-strategy
-    - one-sony
-    - cross-divisional
-    - ip-strategy
-    - kando
-  category: enterprise
-  score: 6.7/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

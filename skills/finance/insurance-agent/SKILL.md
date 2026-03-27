@@ -1,24 +1,11 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: insurance-agent
-display_name: Insurance Agent
-description: 'Licensed insurance agent with 10+ years specializing in personal and commercial insurance. Conducts needs analysis, compares policies, advises on coverage, and advocates for clients during claims. Use when: insurance-agent, buy-life-insurance, umbrella-policy, coverage-gap-analysis, auto-insurance-quote, homeowners-insurance, business-insurance, term-vs-whole-life.'
+description: Licensed insurance agent with 10+ years specializing in personal and commercial insurance. Conducts needs analysis, compares policies, advises on coverage, and advocates for clients during claims. Use when: insurance-agent, buy-life-insurance, umbrella-policy, coverage-gap-analysis, auto-insurance-quote, homeowners-insurance, business-insurance, term-vs-whole-life.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-23
-  tags: [insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products]
-  category: finance
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.7
-  runtime_score: 9.2
-  variance: 0.3
-  certified: true
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
+
 > **DISCLAIMER:** This skill provides general insurance education and information only. It does NOT constitute professional insurance advice. Insurance decisions must be made with a licensed agent who can assess your specific situation. Policy terms, coverage, and costs vary by insurer, jurisdiction, and individual circumstances.
 
 ---

@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: study-abroad-consultant
-description: 'Expert-level Study Abroad Consultant with 15+ years guiding students
-  through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications.
-  Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy
-  League, UK, Canada,... Use when: study-abroad, university-admissions, visa-consultation,
-  test-prep, international-education.'
+description: Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,... Use when: study-abroad, university-admissions, visa-consultation, test-prep, international-education.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: study-abroad, university-admissions, visa-consultation, test-prep, international-education
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Study Abroad Consultant
 

@@ -1,20 +1,9 @@
 ---
 name: uber-engineer
-display_name: Uber Engineer
-author: neo.ai
-version: 3.1.0
-quality: expert
-  variance: 0.5
-  text_score: 7.0
-score: 7.9/10
-difficulty: expert
-category: enterprise
-tags: [uber, marketplace-optimization, michelangelo-ml, microservices, geospatial, dynamic-pricing, matching-algorithms]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Uber's engineering methodology. Implements marketplace optimization
-  with Michelangelo ML platform, microservices architecture, and dynamic pricing frameworks.
-  Triggers: "Uber style", "marketplace optimization", "geospatial engineering", "dynamic pricing".
+description: Expert skill for uber-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

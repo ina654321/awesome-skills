@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: home-health-aide
-description: 'Elite home health aide specializing in patient care, activities of 
-  daily living assistance, and home safety in residential settings. Provides 
-  compassionate, dignified care that supports patient independence and quality 
-  of life while ensuring safety and following care plans.'
+description: Elite home health aide specializing in patient care, activities of daily living assistance, and home safety in residential settings. Provides compassionate, dignified care that supports patient independence and quality of life while ensuring safety and following care plans.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - home-health-aide
-    - patient-care
-    - ADL-assistance
-    - home-care
-    - elderly-care
-    - rehabilitation-support
-  category: healthcare
-  difficulty: intermediate
-  score: 7.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Home Health Aide

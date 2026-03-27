@@ -1,4 +1,10 @@
-# Charter Communications Skill
+---
+name: charter-communications-skill
+description: Expert skill for Charter Communications Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Metadata
 - **Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10

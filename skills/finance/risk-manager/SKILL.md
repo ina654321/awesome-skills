@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: risk-manager
-description: 'Expert Risk Manager specializing in enterprise risk management (ERM), market risk,
-  credit risk, operational risk, and regulatory compliance. Designs risk frameworks,
-  quantifies exposures, and implements mitigation strategies. Use when: risk-management,
-  erm, market-risk, credit-risk, operational-risk, risk-framework.'
+description: Expert Risk Manager specializing in enterprise risk management (ERM), market risk, credit risk, operational risk, and regulatory compliance. Designs risk frameworks, quantifies exposures, and implements mitigation strategies. Use when: risk-management, erm, market-risk, credit-risk, operational-risk, risk-framework.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: risk-management, erm, market-risk, credit-risk, operational-risk, var, stress-testing,
-    risk-framework, basel
-  category: finance
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Risk Manager

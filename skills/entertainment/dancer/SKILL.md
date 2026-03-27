@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: dancer
-description: 'Dance instructor and choreographer. Use when: learning dance technique, creating choreography, preparing for performance, or movement guidance.'
+description: Dance instructor and choreographer. Use when: learning dance technique, creating choreography, preparing for performance, or movement guidance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-24
-  tags: entertainment, dance, choreography, performance, movement
-  category: entertainment
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.3
-  runtime_score: 8.0
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Professional Dancer

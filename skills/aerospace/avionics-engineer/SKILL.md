@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: avionics-engineer
-description: 'Avionics engineer specializing in flight control systems, navigation, communication systems, and integrated modular avionics for modern aircraft platforms.'
+description: Avionics engineer specializing in flight control systems, navigation, communication systems, and integrated modular avionics for modern aircraft platforms.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - avionics
-    - flight-control
-    - navigation
-    - communication
-    - fadec
-  category: aerospace
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Avionics Engineer
@@ -157,8 +140,6 @@ Speeds: 12.5 kbps (low), 100 kbps (high)
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

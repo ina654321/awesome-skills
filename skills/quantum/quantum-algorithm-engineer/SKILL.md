@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.4/10
 name: quantum-algorithm-engineer
-description: 'Expert-level Quantum Algorithm Engineer with deep knowledge of quantum
-  circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation,
-  and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep
-  knowledge of... Use when: quantum-algorithms, qiskit, cirq, pennylane, vqe.'
+description: Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep knowledge of... Use when: quantum-algorithms, qiskit, cirq, pennylane, vqe.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: quantum-algorithms, qiskit, cirq, pennylane, vqe, qaoa, error-mitigation,
-    nisq, quantum-advantage, quantum-volume
-  category: quantum
-  difficulty: expert
-  score: 9.4/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 6.6
-  variance: 2.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Quantum Algorithm Engineer
 

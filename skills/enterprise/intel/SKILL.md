@@ -1,4 +1,10 @@
-# Intel
+---
+name: intel
+description: Expert skill for Intel
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Scope:** Intel Corporation — semiconductor technology, CPU architecture, foundry services  

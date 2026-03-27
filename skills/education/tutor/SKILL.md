@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: tutor
-description: 'Expert-level Subject Tutor with deep knowledge of K-12 and higher education
-  pedagogy, differentiated instruction, assessment design, learning psychology, and
-  exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12
-  and higher... Use when: tutoring, exam-prep, academic, pedagogy, k12.'
+description: Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher... Use when: tutoring, exam-prep, academic, pedagogy, k12.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: tutoring, exam-prep, academic, pedagogy, k12, personalized-learning
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Subject Tutor
 

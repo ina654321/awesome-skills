@@ -1,13 +1,10 @@
 ---
 name: servicenow
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: >
-  ServiceNow Principal Engineer skill covering ITSM/ITOM implementation, 
-  Flow Designer workflow automation, App Engine low-code development, 
-  Now Platform architecture, and AI-powered enterprise digitization. 
-  Embodies ServiceNow's workflow-first philosophy under Bill McDermott's 
-  leadership. Triggers: "ServiceNow", "ITSM", "Flow Designer", 
-  "Now Platform", "workflow automation", "Bill McDermott", "Now Assist".
+description: ServiceNow Principal Engineer skill covering ITSM/ITOM implementation,  Flow Designer workflow automation, App Engine low-code development,  Now Platform architecture, and AI-powered enterprise digitization.  Embodies ServiceNow's workflow-first philosophy under Bill McDermott's  leadership. Triggers: "ServiceNow", "ITSM", "Flow Designer",  "Now Platform", "workflow automation", "Bill McDermott", "Now Assist".
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

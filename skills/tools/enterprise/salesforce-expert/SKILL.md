@@ -1,13 +1,9 @@
 ---
 name: salesforce-expert
-description: 'Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing CRM, building automations, or developing on Salesforce. Triggers: Salesforce, CRM, Flow, Apex, Lightning, LWC.'
+description: Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing CRM, building automations, or developing on Salesforce. Triggers: Salesforce, CRM, Flow, Apex, Lightning, LWC.
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 3.1.0
-updated: 2026-03-23
-tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
-category: tools/enterprise
-difficulty: expert
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Salesforce Expert

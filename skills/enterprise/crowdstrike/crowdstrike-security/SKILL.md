@@ -1,21 +1,9 @@
 ---
 name: crowdstrike-security
-display_name: CrowdStrike Security Engineer
-description: >
-  CrowdStrike Falcon platform expert for endpoint protection, EDR, threat hunting,
-  and incident response. Use when: configuring Falcon prevention policies, hunting
-  threats with Event Search, responding to alerts, analyzing IOAs vs IOCs, deploying
-  Falcon sensors, integrating with SIEM/SOAR, or performing IR with Falcon tools.
+description: Expert skill for crowdstrike-security
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 2.0.0
-tags: [crowdstrike, falcon, edr, threat-hunting, incident-response, endpoint-security, siem, soar]
-category: enterprise
-difficulty: expert
-quality: expert
-  variance: 0.5
-  text_score: 2.0
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # CrowdStrike Security Engineer

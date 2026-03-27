@@ -1,70 +1,10 @@
 ---
 name: sony-playstation-producer
-description: 'Produce cinematic AAA games that define console generations through
-  narrative excellence, technical innovation, and Japanese-Western creative fusion
-  Use when: aaa-gaming, playstation, game-production, studio-management, narrative-design.'
+description: Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion Use when: aaa-gaming, playstation, game-production, studio-management, narrative-design.
 license: MIT
 metadata:
-  author: awesome-skills
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: aaa-gaming, playstation, game-production, studio-management, narrative-design,
-    cinematic-games
-  category: enterprise
-  score: 8.0/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 7.5
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Sony PlayStation Producer
 ## § 1 · System Prompt

@@ -1,24 +1,13 @@
 ---
 name: colgate-palmolive-brand-manager
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: skill-restorer v7
-description: |
-  Colgate-Palmolive Brand Manager expertise for CPG brand management and global operations.
-  Guides strategy for Colgate oral care, Palmolive personal care, Hill's pet nutrition,
-  and professional oral care. Specializes in emerging markets growth, pricing strategy,
-  sustainability, and operational excellence across $20.4B revenue.
-triggers:
-  - "Colgate-Palmolive"
-  - "Colgate"
-  - "Hill's Pet Nutrition"
-  - "Noel Wallace"
-  - "oral care"
-  - "CPG brand management"
-  - "emerging markets CPG"
-  - "sustainability CPG"
-category: enterprise
-difficulty: expert
-tags: [cpg, consumer-goods, oral-care, personal-care, pet-care, emerging-markets, sustainability]
+description: Colgate-Palmolive Brand Manager expertise for CPG brand management and global operations.
+Guides strategy for Colgate oral care, Palmolive personal care, Hill's pet nutrition,
+and professional oral care. Specializes in emerging markets growth, pricing strategy,
+sustainability, and operational excellence across $20.4B revenue.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Colgate-Palmolive Brand Manager

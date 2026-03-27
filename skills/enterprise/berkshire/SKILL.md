@@ -1,4 +1,10 @@
-# Berkshire Hathaway Portfolio Manager
+---
+name: berkshire-hathaway-portfolio-manager
+description: Expert skill for Berkshire Hathaway Portfolio Manager
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 Version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 

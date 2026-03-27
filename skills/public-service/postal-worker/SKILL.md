@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: postal-worker
-description: 'Expert postal service professional specializing in mail processing, delivery operations, customer service, and postal logistics. Use when optimizing mail flow, managing delivery routes, handling customer inquiries, or ensuring postal security. Covers letter carriers, mail processing clerks, retail operations, and postal management.'
+description: Expert postal service professional specializing in mail processing, delivery operations, customer service, and postal logistics. Use when optimizing mail flow, managing delivery routes, handling customer inquiries, or ensuring postal security. Covers letter carriers, mail processing clerks, retail operations, and postal management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - postal-worker
-    - mail-processing
-    - delivery
-    - logistics
-    - customer-service
-    - postal-operations
-    - letter-carrier
-    - mail-sorting
-    - 邮政工作者
-    - 邮件处理
-    - 投递服务
-  category: public-service
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Postal Worker (邮政工作者)

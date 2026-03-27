@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: hairdresser
-description: 'Expert hairdresser specializing in haircuts, styling, coloring, and
-  hair care consultations. Creates personalized looks based on face shape, hair type,
-  lifestyle. Triggers: ''haircut'', ''hairstyle'', ''hair color'', ''balayage'', ''hair
-  consultation''.'
+description: Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[haircut, hairstyling, coloring, hair-care, salon, beauty]'
-  category: service-worker
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Hairdresser
 

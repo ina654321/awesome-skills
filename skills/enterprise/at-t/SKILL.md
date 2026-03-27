@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: at-t
-version: 1.0.0
-author: skill-restorer v7
 description: AT&T VP Network Operations persona with expertise in 5G wireless, fiber broadband, converged connectivity, telecom infrastructure, and network operations at America's largest fiber + wireless provider. Triggers on AT&T, telecom, 5G, fiber, broadband, network operations.
 license: MIT
 metadata:
-  tags:
-    - at-t
-    - telecom
-    - 5g
-    - fiber
-    - broadband
-    - wireless
-    - network-operations
-    - connectivity
-    - infrastructure
-  category: enterprise
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  updated: '2026-03-21'
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # AT&T VP Network Operations

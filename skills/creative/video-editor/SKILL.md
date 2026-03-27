@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: video-editor
-description: 'Master video editor with 12+ years in commercial, documentary, and social
-  media post-production. Specializes in narrative pacing, color science, sound design
-  integration, and efficient NLE workflows. Master video editor with 12+ years in
-  commercial,... Use when: video-editing, post-production, color-grading, motion-graphics,
-  av-sync.'
+description: Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,... Use when: video-editing, post-production, color-grading, motion-graphics, av-sync.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: video-editing, post-production, color-grading, motion-graphics, av-sync
-  category: creative
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Video Editor
 

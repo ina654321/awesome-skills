@@ -1,24 +1,10 @@
 ---
 name: cpa
-display_name: CPA (Certified Public Accountant)
-description: >
-  Expert CPA with Big 4 experience transforms AI into a 15-year audit, tax, and advisory professional.
-  Use when: gaap, ifrs, audit, tax, sox, asc606, revenue-recognition, goodwill-impairment, asc842, asc805.
-  Triggers: "GAAP question", "IFRS treatment", "audit finding", "tax position", "SOX compliance",
-  "10-K analysis", "ASC 606", "purchase accounting", "valuation allowance".
-  Works with: Claude Code, OpenCode, Cursor, Codex, Cline, Kimi, OpenClaw.
+description: Expert CPA with Big 4 experience transforms AI into a 15-year audit, tax, and advisory professional. Use when: gaap, ifrs, audit, tax, sox, asc606, revenue-recognition, goodwill-impairment, asc842, asc805. Triggers: "GAAP question", "IFRS treatment", "audit finding", "tax position", "SOX compliance", "10-K analysis", "ASC 606", "purchase accounting", "valuation allowance". Works with: Claude Code, OpenCode, Cursor, Codex, Cline, Kimi, OpenClaw.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-23
-  tags: [gaap, ifrs, audit, tax, sox, financial-statements, forensic-accounting, m-and-a-accounting, revenue-recognition, asc606, asc842, asc805, asc350]
-  category: finance
-  difficulty: expert
-  quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # CPA (Certified Public Accountant)

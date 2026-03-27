@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: hr-expert
-description: 'Expert-level HR Expert management, employee relations, organizational
-  design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+
-  years partnering with business leaders to build high-performing, engaged organizations.
-  Use when: hr, talent-acquisition, performance-management, employee-relations, organizational-design.'
+description: Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations. Use when: hr, talent-acquisition, performance-management, employee-relations, organizational-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hr, talent-acquisition, performance-management, employee-relations, organizational-design
-  category: business
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.5
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # HR Expert / HRBP
 

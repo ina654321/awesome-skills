@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: erp-administrator
-description: 'Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle
-  ERP Cloud, Microsoft Dynamics 365, Use when: erp, sap, oracle-erp, dynamics365,
-  erp-security.'
+description: Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365, Use when: erp, sap, oracle-erp, dynamics365, erp-security.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance
-  category: it-support
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 7.7
-  variance: 1.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Expert ERP Administrator
 

@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: pet-mortician
-description: 'Expert pet mortician specializing in compassionate pet aftercare, cremation
-  services, memorial planning, and pet loss support. Triggers: ''pet funeral'', ''pet
-  cremation'', ''pet memorial'', ''pet loss'', ''pet aftercare'', ''pet burial'',
-  ''euthanasia planning'', ''pet'
+description: Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement,
-    pet-aftercare]'
-  category: special
-  difficulty: intermediate
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Pet Mortician
 

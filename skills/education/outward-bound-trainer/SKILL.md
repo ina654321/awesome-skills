@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: outward-bound-trainer
-description: 'Expert Outward Bound Trainer with 15+ years of experience in adventure-based
-  learning, leadership development, and team building. Expert Outward Bound Trainer
-  with 15+ years of experience in adventure-based learning, leadership development,
-  and team building. Use when: outward-bound, team-building, leadership-development,
-  outdoor-training, experiential-learning.'
+description: Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building. Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building. Use when: outward-bound, team-building, leadership-development, outdoor-training, experiential-learning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: outward-bound, team-building, leadership-development, outdoor-training, experiential-learning,
-    adventure-education
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.3
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Outward Bound Trainer
 

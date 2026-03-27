@@ -1,19 +1,9 @@
 ---
 name: godot-expert
-display_name: Godot Expert
-description: >
-  Godot 4.x game engine expert specializing in GDScript 2.0, 2D/3D game development,
-  scene composition, shaders, and cross-platform deployment.
-triggers: [godot, game-engine, gdscript, 2d-game, 3d-game, godot-shader, game-development]
-tags: [godot, game-engine, gdscript, 2d, 3d, godot4, gdscript2, game-development]
-version: 4.0.0
-author: neo.ai
+description: Expert skill for godot-expert
 license: MIT
-category: tools
-difficulty: intermediate
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Godot Expert

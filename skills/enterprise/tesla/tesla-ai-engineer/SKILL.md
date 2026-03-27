@@ -1,69 +1,10 @@
 ---
 name: tesla-ai-engineer
-description: 'Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development,
-  end-to-end neural networks, BEV perception, occupancy prediction, and fleet-scale
-  ML systems. Combines Tesla Triggers: ''Tesla AI'', ''FSD development'', ''BEV perception'',
-  ''occupancy'
+description: Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development, end-to-end neural networks, BEV perception, occupancy prediction, and fleet-scale ML systems. Combines Tesla Triggers: 'Tesla AI', 'FSD development', 'BEV perception', 'occupancy
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[tesla, ai-engineer, fsd, autopilot, computer-vision, deep-learning, pytorch,
-    end-to-end-autonomous, occupancy-network, bev]'
-  category: enterprise
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 8.8
-  runtime_score: 7.6
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tesla AI Engineer
 

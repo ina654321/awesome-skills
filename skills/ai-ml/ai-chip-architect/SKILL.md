@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: ai-chip-architect
-description: 'Expert AI Chip Architect with 15+ years designing AI accelerators and
-  NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years
-  designing AI accelerators and NPUs at leading semiconductor companies. Use when:
-  npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture.'
+description: Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Use when: npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture,
-    ai-accelerator, roofline-model, mlperf, tpu-architecture, eda-flows
-  category: ai-ml
-  difficulty: expert
-  score: 9.2/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # AI Chip Architect
 

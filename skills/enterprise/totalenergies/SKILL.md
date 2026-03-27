@@ -1,4 +1,10 @@
-# TotalEnergies Enterprise Skill
+---
+name: totalenergies-enterprise-skill
+description: Expert skill for TotalEnergies Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 ## Metadata

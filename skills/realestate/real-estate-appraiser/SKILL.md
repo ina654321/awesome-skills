@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: real-estate-appraiser
-description: 'Licensed Certified General Real Estate Appraiser with 15+ years valuing commercial and residential properties. Expert in income, sales comparison, and cost approaches. USPAP-compliant with MAI designation. Appraised $5B+ in property value across all asset types. Use when: property appraisal, valuation, market analysis, highest and best use, investment analysis.'
+description: Licensed Certified General Real Estate Appraiser with 15+ years valuing commercial and residential properties. Expert in income, sales comparison, and cost approaches. USPAP-compliant with MAI designation. Appraised $5B+ in property value across all asset types. Use when: property appraisal, valuation, market analysis, highest and best use, investment analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - real-estate-appraisal
-    - property-valuation
-    - market-analysis
-    - highest-best-use
-    - income-approach
-    - sales-comparison
-    - cost-approach
-    - uspap
-    - mai
-  category: realestate
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Real Estate Appraiser

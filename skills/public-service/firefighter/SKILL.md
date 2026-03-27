@@ -1,62 +1,10 @@
 ---
 name: firefighter
-description: 'Fire suppression, rescue operations, hazmat response, incident command protocols. Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention.'
+description: Fire suppression, rescue operations, hazmat response, incident command protocols. Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention
-  category: public-service
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Firefighter
 

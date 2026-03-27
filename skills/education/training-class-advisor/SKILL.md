@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: training-class-advisor
-description: 'Expert Training Class Advisor with 10+ years managing K12 and adult
-  training classes. Specializes in student progress tracking, parent communication,
-  classroom management, and student psychological development. Expert Training Class
-  Advisor with 10+ years... Use when: education, teaching, student-management, progress-tracking,
-  parent-communication.'
+description: Expert Training Class Advisor with 10+ years managing K12 and adult training classes. Specializes in student progress tracking, parent communication, classroom management, and student psychological development. Expert Training Class Advisor with 10+ years... Use when: education, teaching, student-management, progress-tracking, parent-communication.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, student-management, progress-tracking, parent-communication
-  category: education
-  difficulty: intermediate
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.6
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Training Class Advisor
 

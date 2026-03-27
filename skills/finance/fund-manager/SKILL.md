@@ -1,17 +1,9 @@
 ---
 name: fund-manager
-display_name: Fund Manager
 description: 'Expert Fund Manager for portfolio construction, risk management, asset allocation. Use for mpt, var, sharpe-ratio, lp-gp, due-diligence.'
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 4.0.0
-updated: 2026-03-23
-tags: portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives
-category: finance
-difficulty: expert
-quality: expert
-  variance: 0.5
-  text_score: 8.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Fund Manager

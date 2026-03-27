@@ -1,6 +1,10 @@
-# CVS Health Skill
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
+---
+name: cvs-health-skill
+description: Expert skill for CVS Health Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

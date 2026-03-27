@@ -1,71 +1,10 @@
 ---
 name: vercel-expert
-description: 'Vercel expert: Frontend deployment, Serverless Functions, environment
-  configuration, preview deployments, edge functions, and performance optimization.
-  Use when deploying Next.js, React, Vue, or static frontend applications. Triggers:
-  ''Vercel'', ''部署'', ''Next.'
+description: Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: 'Vercel', '部署', 'Next.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[vercel, frontend, deployment, serverless, nextjs, vercel-serverless-functions,
-    preview-deployments, edge-functions]'
-  category: tools
-  difficulty: beginner
-  score: 8.0/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Vercel Expert
 ## § 1 · System Prompt

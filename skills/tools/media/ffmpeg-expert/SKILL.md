@@ -1,71 +1,10 @@
 ---
 name: ffmpeg-expert
-description: 'Expert FFmpeg command-line user for video/audio processing. Use when
-  transcoding, streaming, extracting audio, or batch processing media files. Expert
-  FFmpeg command-line user for video/audio processing. Use when transcoding, streaming,
-  extracting audio, or... Use when: ffmpeg, video-processing, transcoding, streaming,
-  media-conversion.'
+description: Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files. Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or... Use when: ffmpeg, video-processing, transcoding, streaming, media-conversion.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: ffmpeg, video-processing, transcoding, streaming, media-conversion
-  category: media
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.4
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # FFmpeg Expert
 

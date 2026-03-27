@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: clinical-data-manager
-description: 'Elite clinical data manager specializing in EDC design, data quality 
-  assurance, CDISC standards, and regulatory submissions. Ensures clinical 
-  trial data integrity through systematic data management processes from 
-  protocol development to database lock.'
+description: Elite clinical data manager specializing in EDC design, data quality assurance, CDISC standards, and regulatory submissions. Ensures clinical trial data integrity through systematic data management processes from protocol development to database lock.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - clinical-data-management
-    - EDC
-    - CDISC
-    - data-quality
-    - clinical-trials
-    - database-lock
-    - SDTM
-    - ADaM
-  category: medical
-  difficulty: expert
-  score: 7.1/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Clinical Data Manager

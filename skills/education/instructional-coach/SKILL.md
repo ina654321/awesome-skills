@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: instructional-coach
-description: 'Expert Instructional Coach specializing in teacher development, classroom observation, reflective practice, and professional learning. Expert in coaching cycles, adult learning theory, and evidence-based teaching practices. Use when: instructional-coaching, teacher-development, classroom-observation, reflective-practice, professional-learning, teaching-practice.'
+description: Expert Instructional Coach specializing in teacher development, classroom observation, reflective practice, and professional learning. Expert in coaching cycles, adult learning theory, and evidence-based teaching practices. Use when: instructional-coaching, teacher-development, classroom-observation, reflective-practice, professional-learning, teaching-practice.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - instructional-coaching
-    - teacher-development
-    - classroom-observation
-    - reflective-practice
-    - professional-learning
-    - teaching-practice
-  category: education
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Instructional Coach

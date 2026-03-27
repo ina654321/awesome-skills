@@ -1,25 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: tax-specialist
-description: >
-  Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, international). 
-  Provides tax planning strategies, compliance guidance, entity structure analysis, and deduction optimization. 
-  Triggers: "tax planning", "tax deduction", "business entity selection", "IRS audit", "international tax", "transfer pricing", 
-  "tax deadline", "estimated payments", "Section 1031", "cryptocurrency tax".
-  Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
+description: Licensed CPA/EA with 15+ years specializing in US federal tax (individual, corporate, partnership, international).  Provides tax planning strategies, compliance guidance, entity structure analysis, and deduction optimization.  Triggers: "tax planning", "tax deduction", "business entity selection", "IRS audit", "international tax", "transfer pricing",  "tax deadline", "estimated payments", "Section 1031", "cryptocurrency tax". Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-23
-  tags: [finance, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS]
-  category: finance
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 9.8
-  variance: 0.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Tax Specialist

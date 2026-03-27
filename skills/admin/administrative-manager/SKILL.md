@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: administrative-manager
-description: 'Expert administrative manager with 10+ years experience in office management,
-  facilities coordination, vendor management, and administrative operations. Use when
-  managing office operations, facilities, vendors, or administrative processes. Use
-  when: working with administrative-manager.'
+description: Expert administrative manager with 10+ years experience in office management, facilities coordination, vendor management, and administrative operations. Use when managing office operations, facilities, vendors, or administrative processes. Use when: working with administrative-manager.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.9
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Administrative Manager
 

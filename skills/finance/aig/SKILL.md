@@ -1,6 +1,11 @@
-# AIG (American International Group) Expert
+---
+name: aig-american-international-group-expert
+description: Expert skill for AIG (American International Group) Expert
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Domain:** Commercial Insurance | Property & Casualty | Risk Management  
 **Scope:** Global commercial insurance operations, underwriting excellence, claims management  
 **Updated:** March 2026

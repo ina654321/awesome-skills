@@ -1,65 +1,10 @@
 ---
 name: pytorch-expert
-description: 'PyTorch expert: nn.Module, training loops, distributed training (DDP),
-  mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export,
-  custom autograd functions.'
+description: PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[pytorch, deep-learning, machine-learning, neural-networks, ai]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # PyTorch Expert
 

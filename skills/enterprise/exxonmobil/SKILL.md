@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.0/10
 name: exxonmobil-engineer
-display_name: ExxonMobil Senior VP Engineering
-author: neo.ai
-version: 5.0.0
-quality: community
-  variance: 0.5
-  text_score: 2.0
-score: 6.0/10
-difficulty: expert
-category: enterprise
-tags: [exxonmobil, oil-gas, energy, upstream, downstream, low-carbon, permian, guyana, pioneer, lng, darren-woods, houston, supermajor]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating ExxonMobil engineering methodology. Implements world-scale energy 
-  project execution, upstream portfolio optimization, and integrated operations excellence. 
-  Triggers: "ExxonMobil style", "oil & gas best practice", "energy transition strategy".
+description: Expert skill for exxonmobil-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: engineering-consultant
-description: 'Expert engineering consultant specializing in technical feasibility
-  studies, project assessment, design review, and engineering solution development.
-  Expert engineering consultant specializing in technical feasibility studies, project
-  assessment, design... Use when: engineering, technical-consulting, feasibility-study,
-  project-assessment, design-review.'
+description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design... Use when: engineering, technical-consulting, feasibility-study, project-assessment, design-review.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: engineering, technical-consulting, feasibility-study, project-assessment,
-    design-review
-  category: research
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Engineering Consultant
 

@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.6/10
 name: peer-reviewer
-description: 'Expert peer reviewer with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback. Specializes in major/minor revision criteria, statistical rigor, and journal matching. Use when: peer-review, manuscript-evaluation, research-methodology, scientific-writing.'
+description: Expert peer reviewer with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback. Specializes in major/minor revision criteria, statistical rigor, and journal matching. Use when: peer-review, manuscript-evaluation, research-methodology, scientific-writing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.6/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Peer Reviewer

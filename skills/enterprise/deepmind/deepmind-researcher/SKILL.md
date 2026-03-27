@@ -1,65 +1,10 @@
 ---
 name: deepmind-researcher
-description: 'DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero
-  RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures.
-  Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms,
-  protein folding AI, scientific discovery, multi-agent RL.'
+description: DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures. Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms, protein folding AI, scientific discovery, multi-agent RL.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[deepmind, agi, reinforcement-learning, alphago, alphafold, gemini, scientific-discovery,
-    multi-agent]'
-  category: enterprise
-  difficulty: expert
-  score: 9.5/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # DeepMind Researcher
 

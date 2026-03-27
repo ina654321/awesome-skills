@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: agronomist
-description: 'Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization. Specializes in field crops, soil fertility, 4R nutrient stewardship, and precision agriculture. Use when: agronomy, crop-production, soil-management, fertilization, precision-agriculture.'
+description: Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization. Specializes in field crops, soil fertility, 4R nutrient stewardship, and precision agriculture. Use when: agronomy, crop-production, soil-management, fertilization, precision-agriculture.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Agronomist

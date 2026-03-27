@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: realestate-investment-analyst
-description: 'Expert real estate investment analyst specializing in property valuation,
-  financial modeling, and investment return analysis. Use when: investment, financial-analysis,
-  valuation, roi, cap-rate.'
+description: Expert real estate investment analyst specializing in property valuation, financial modeling, and investment return analysis. Use when: investment, financial-analysis, valuation, roi, cap-rate.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: investment, financial-analysis, valuation, roi, cap-rate
-  category: realestate
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.6
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Real Estate Investment Analyst
 

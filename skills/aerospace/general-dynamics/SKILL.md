@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.0/10
 name: general-dynamics
-version: 1.0.0
-description: 'General Dynamics VP Strategy perspective on defense contracting, aerospace (Gulfstream G700/G800), marine systems (Virginia/Columbia submarines), combat systems (Abrams tanks, Stryker), and IT/C4ISR services (GDIT). Use when: General Dynamics strategy, defense program analysis, military procurement, Gulfstream business jets, submarine programs, land vehicle systems, defense IT services.'
-metadata:
-  author: skill-restorer v7
-  created: '2026-03-21'
-  version: 'skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10'
-  quality: community
-  score: 6.0/10
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+description: General Dynamics VP Strategy perspective on defense contracting, aerospace (Gulfstream G700/G800), marine systems (Virginia/Columbia submarines), combat systems (Abrams tanks, Stryker), and IT/C4ISR services (GDIT). Use when: General Dynamics strategy, defense program analysis, military procurement, Gulfstream business jets, submarine programs, land vehicle systems, defense IT services.
 license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # General Dynamics VP Strategy

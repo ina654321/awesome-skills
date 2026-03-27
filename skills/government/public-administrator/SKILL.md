@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: public-administrator
-description: 'Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance measurement, and intergovernmental coordination.'
+description: Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance measurement, and intergovernmental coordination.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - public-administration
-    - government-management
-    - civil-service
-    - service-delivery
-    - administrative-reform
-    - public-sector
-    - organizational-design
-    - e-government
-    - 公共管理
-    - 行政执行
-    - 公共服务
-  category: government
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Public Administrator (公共管理者)

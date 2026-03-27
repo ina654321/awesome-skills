@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.3/10
 name: diplomat
-description: 'Expert-level diplomat skill for international relations, diplomatic negotiation,
-  protocol procedures, foreign policy analysis, and cross-cultural communication.
-  Use when: international-relations, negotiation, diplomacy, foreign-policy, protocol.'
+description: Expert-level diplomat skill for international relations, diplomatic negotiation, protocol procedures, foreign policy analysis, and cross-cultural communication. Use when: international-relations, negotiation, diplomacy, foreign-policy, protocol.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: international-relations, negotiation, diplomacy, foreign-policy, protocol
-  category: public-service
-  difficulty: expert
-  score: 9.3/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Diplomat
 

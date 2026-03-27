@@ -1,26 +1,11 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: voice-actor
-display_name: Voice Actor
-description: >
-  Elite voice actor with 10+ years in commercial, animation, games, and audiobooks.
-  Specializes in character voice design, emotional delivery, and studio performance.
-  Use when: voice acting, voice-over, character voice, dubbing, audiobook narration.
+description: Elite voice actor with 10+ years in commercial, animation, games, and audiobooks. Specializes in character voice design, emotional delivery, and studio performance. Use when: voice acting, voice-over, character voice, dubbing, audiobook narration.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: [voice-acting, dubbing, narration, audio-production, performance]
-  category: creative
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
 
 ## § 1 · System Prompt
 

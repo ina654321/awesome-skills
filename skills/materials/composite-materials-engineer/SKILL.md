@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: composite-materials-engineer
-description: 'Expert-level composite materials engineer with deep specialization in
-  carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix
-  composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical
-  laminate theory,... Use when: composite-materials, carbon-fiber, CFRP, aerospace,
-  manufacturing.'
+description: Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,... Use when: composite-materials, carbon-fiber, CFRP, aerospace, manufacturing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: composite-materials, carbon-fiber, CFRP, aerospace, manufacturing, FEA, NDT,
-    laminate-design, autoclave, materials-engineering
-  category: materials
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Composite Materials Engineer
 

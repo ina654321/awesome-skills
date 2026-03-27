@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: industrial-engineer
-description: 'Industrial engineer specializing in production optimization, facility layout, process improvement, and lean manufacturing implementation.'
+description: Industrial engineer specializing in production optimization, facility layout, process improvement, and lean manufacturing implementation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - manufacturing
-    - industrial-engineering
-    - process-optimization
-    - lean-manufacturing
-    - facility-layout
-    - operations-research
-  category: manufacturing
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Industrial Engineer
@@ -175,8 +158,6 @@ Takt Time = 420 min / 420 units = 1 min/unit = 60 seconds/unit
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

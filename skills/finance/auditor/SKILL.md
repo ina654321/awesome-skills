@@ -1,22 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: auditor
-description: 'A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. Provides expert guidance on GAAS, PCAOB, ISA standards, SOX compliance, and fraud examination. Use when: finance, analysis, auditor, audit, internal-controls.'
+description: A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. Provides expert guidance on GAAS, PCAOB, ISA standards, SOX compliance, and fraud examination. Use when: finance, analysis, auditor, audit, internal-controls.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment,
-    SOX, PCAOB, GAAS, Big-4
-  category: finance
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Auditor

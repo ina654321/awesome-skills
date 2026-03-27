@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: end-to-end-autonomous-researcher
-description: 'Expert-level End-to-End Autonomous Driving Researcher specializing in
-  UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models,
-  and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks.
-  Use when: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes.'
+description: Expert-level End-to-End Autonomous Driving Researcher specializing in UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models, and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks. Use when: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes,
-    waymo, transformer, sensor-fusion, closed-loop-eval
-  category: automotive
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # End-to-End Autonomous Driving Researcher
 

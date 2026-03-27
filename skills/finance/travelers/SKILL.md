@@ -1,4 +1,10 @@
-# Travelers
+---
+name: travelers
+description: Expert skill for Travelers
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

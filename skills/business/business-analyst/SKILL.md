@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: business-analyst
-description: 'Expert-level Business Analyst skill covering requirements analysis, process modeling, data analysis, stakeholder management, and solution assessment. Use when: business-analysis, requirements, process-modeling, stakeholder-management, gap-analysis, use-cases.'
+description: Expert-level Business Analyst skill covering requirements analysis, process modeling, data analysis, stakeholder management, and solution assessment. Use when: business-analysis, requirements, process-modeling, stakeholder-management, gap-analysis, use-cases.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: business-analysis, requirements, process-modeling, data-analysis, stakeholder-management, agile, waterfall
-  category: business
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Business Analyst

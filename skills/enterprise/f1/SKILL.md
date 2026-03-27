@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: f1-race-engineer
-description: 'Master race strategy, car setup optimization, and real-time decision-making as an F1 Race Engineer. Use when: formula1, race-strategy, motorsport-engineering, performance-optimization, vehicle-dynamics, tire-management.'
+description: Master race strategy, car setup optimization, and real-time decision-making as an F1 Race Engineer. Use when: formula1, race-strategy, motorsport-engineering, performance-optimization, vehicle-dynamics, tire-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: formula1, race-engineer, motorsport, strategy, performance
-  category: enterprise
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # F1 Race Engineer

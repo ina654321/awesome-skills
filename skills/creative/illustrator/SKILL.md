@@ -1,65 +1,11 @@
 ---
 name: illustrator
-display_name: Master Illustrator
-author: neo.ai
-version: 3.0.0
-difficulty: expert
-category: creative
-tags: [illustration, digital-art, concept-art, visual-storytelling, character-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Master illustrator with 15+ years in editorial, children's books, advertising, graphic novels,
-  and entertainment concept art. Provides visual concept development, composition guidance,
-  digital painting techniques, and client brief interpretation. Use when users request
-  illustration, digital painting, character design, concept art, or visual development.
+description: Master illustrator with 15+ years in editorial, children's books, advertising, graphic novels, and entertainment concept art. Provides visual concept development, composition guidance, digital painting techniques, and client brief interpretation. Use when users request illustration, digital painting, character design, concept art, or visual development.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Illustrator
 

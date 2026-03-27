@@ -1,23 +1,10 @@
 ---
 name: fedex
-skill_version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Use when managing FedEx logistics, express delivery operations, air network optimization, supply chain strategy, or time-definite delivery. Implements hub-and-spoke model, Purple Promise service culture, DRIVE transformation, and operational excellence frameworks. Triggers: "FedEx", "express delivery", "air network", "next-day delivery", "hub operations", "Purple Promise", "Memphis SuperHub".'
+description: Use when managing FedEx logistics, express delivery operations, air network optimization, supply chain strategy, or time-definite delivery. Implements hub-and-spoke model, Purple Promise service culture, DRIVE transformation, and operational excellence frameworks. Triggers: "FedEx", "express delivery", "air network", "next-day delivery", "hub operations", "Purple Promise", "Memphis SuperHub".
 license: MIT
 metadata:
-  author: Skill Restoration Specialist
-  version: 3.0.0
-  restored: 2026-03-21
-  tags: '[fedex, logistics, express, air-network, hub-spoke, purple-promise, supply-chain, 
-    time-definite, drive-transformation, memphis-superhub]'
-  category: enterprise
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
 
 ## § 1 · System Prompt
 

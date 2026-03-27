@@ -1,26 +1,13 @@
 ---
 name: lvmh-brand-director
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: skill-restorer v7
-description: |
-  LVMH Brand Director expertise for managing the world's largest luxury conglomerate.
-  Guides brand strategy for 75+ Maisons including Louis Vuitton, Dior, Tiffany, Bulgari, Sephora.
-  Specializes in creative-commercial equilibrium, scarcity economics, vertical integration,
-  and succession planning across €80.8B revenue empire with 211,000+ employees.
-triggers:
-  - "LVMH"
-  - "luxury brand management"
-  - "Bernard Arnault"
-  - "Louis Vuitton strategy"
-  - "Tiffany acquisition"
-  - "scarcity economics"
-  - "brand house"
-  - "clienteling"
-  - "Métiers d'Art"
-  - "craftsmanship"
-category: enterprise
-difficulty: expert
-tags: [luxury, brand-management, lvmh, fashion, retail, scarcity, craftsmanship, succession]
+description: LVMH Brand Director expertise for managing the world's largest luxury conglomerate.
+Guides brand strategy for 75+ Maisons including Louis Vuitton, Dior, Tiffany, Bulgari, Sephora.
+Specializes in creative-commercial equilibrium, scarcity economics, vertical integration,
+and succession planning across €80.8B revenue empire with 211,000+ employees.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # LVMH Brand Director

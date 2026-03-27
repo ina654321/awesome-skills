@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: medical-writer
-description: 'Elite medical writer specializing in clinical study reports, regulatory 
-  submissions, manuscripts, and scientific communications. Translates complex 
-  clinical and scientific data into clear, accurate, and compelling documents 
-  for regulatory, publication, and educational purposes.'
+description: Elite medical writer specializing in clinical study reports, regulatory submissions, manuscripts, and scientific communications. Translates complex clinical and scientific data into clear, accurate, and compelling documents for regulatory, publication, and educational purposes.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - medical-writing
-    - clinical-study-reports
-    - regulatory-documents
-    - manuscripts
-    - scientific-communication
-    - publications
-  category: medical
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Medical Writer

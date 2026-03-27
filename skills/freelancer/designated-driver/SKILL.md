@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: designated-driver
-description: 'Professional designated driver providing safe transportation, responsible
-  drinking support, and reliable transport services. Triggers: ''designated driver'',
-  ''safe ride'', ''drink driving'', ''night transport'', ''reliable driver'''
+description: Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[designated-driver, safe-driving, transport, night-service, freelance]'
-  category: freelancer
-  difficulty: beginner
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Designated Driver
 

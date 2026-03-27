@@ -1,68 +1,10 @@
 ---
 name: revit-bim-expert
-description: 'Revit BIM建筑信息模型：族、施工图、协同。Use when doing BIM modeling. Triggers: ''Revit'',
-  ''BIM'', ''建筑信息模型''. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw,
-  Kimi.'
+description: Revit BIM建筑信息模型：族、施工图、协同。Use when doing BIM modeling. Triggers: 'Revit', 'BIM', '建筑信息模型'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[revit, bim, architecture, building-design]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.3
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Revit BIM Expert
 

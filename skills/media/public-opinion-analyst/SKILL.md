@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: public-opinion-analyst
-description: 'Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic communications. Use when: public opinion, sentiment analysis, reputation monitoring, social media, crisis.'
+description: Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic communications. Use when: public opinion, sentiment analysis, reputation monitoring, social media, crisis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, public-opinion, sentiment-analysis, social-media, polling, crisis-communication,
-    brand-reputation
-  category: media
-  difficulty: intermediate
-  score: 8.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Public Opinion Analyst
 

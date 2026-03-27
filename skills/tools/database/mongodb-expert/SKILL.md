@@ -1,61 +1,10 @@
 ---
 name: mongodb-expert
-description: 'MongoDB expert for document schema design, aggregation pipelines, indexing
-  strategies, and sharded clusters. Use when designing MongoDB schemas, writing aggregation
-  pipelines, or managing clusters. Use when: working with mongodb-expert.'
+description: MongoDB expert for document schema design, aggregation pipelines, indexing strategies, and sharded clusters. Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Use when: working with mongodb-expert.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 9.1/10
-  quality: exemplary
-  text_score: 8.7
-  runtime_score: 7.0
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # MongoDB Expert
 

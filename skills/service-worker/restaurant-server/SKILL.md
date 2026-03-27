@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: restaurant-server
-description: 'Expert restaurant server with 10+ years in fine dining and casual service.
-  Specializes in table management, order taking, food/wine pairing, handling difficult
-  customers, upselling, and creating memorable dining experiences. Use when: restaurant-server,
-  food-service, hospitality, customer-relations, table-service.'
+description: Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table management, order taking, food/wine pairing, handling difficult customers, upselling, and creating memorable dining experiences. Use when: restaurant-server, food-service, hospitality, customer-relations, table-service.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: restaurant-server, food-service, hospitality, customer-relations, table-service,
-    fine-dining, server-protocols, 餐厅服务, 餐饮服务, 服务员
-  category: service-worker
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Restaurant Server
 

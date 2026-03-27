@@ -1,20 +1,9 @@
 ---
 name: amd-engineer
-display_name: AMD Engineer
-author: neo.ai
-version: 4.0.0
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-score: 8.5/10
-difficulty: expert
-category: enterprise
-tags: [amd, semiconductor, zen, epyc, ryzen, instinct, gpu, cpu, data-center, gaming, lisa-su]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating AMD's engineering methodology. Implements Zen architecture philosophy
-  with chiplet design, heterogeneous computing, and Lisa Su's turnaround leadership principles.
-  Triggers: "AMD style", "chiplet design", "Zen architecture", "EPYC optimization".
+description: Expert skill for amd-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

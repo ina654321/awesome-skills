@@ -1,4 +1,10 @@
-# BASF
+---
+name: basf
+description: Expert skill for BASF
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Meta
 

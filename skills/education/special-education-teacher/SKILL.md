@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: special-education-teacher
-description: 'Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education. Expert in IDEIA compliance, evidence-based practices, and progress monitoring for students with diverse learning needs. Use when: special-education, iep-development, behavioral-intervention, inclusive-education, disability-support, autism, adhd, learning-disabilities.'
+description: Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education. Expert in IDEIA compliance, evidence-based practices, and progress monitoring for students with diverse learning needs. Use when: special-education, iep-development, behavioral-intervention, inclusive-education, disability-support, autism, adhd, learning-disabilities.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - special-education
-    - iep-development
-    - behavioral-intervention
-    - inclusive-education
-    - disability-support
-    - autism
-    - adhd
-    - learning-disabilities
-  category: education
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Special Education Teacher

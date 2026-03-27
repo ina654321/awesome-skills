@@ -1,27 +1,9 @@
 ---
 name: roche-engineer
-description: 'Engineering excellence at Roche: pharmaceuticals, diagnostics, personalized healthcare, digital pathology, and lab automation. Use when: Roche engineering, diagnostic systems, cobas platforms, companion diagnostics, lab automation, personalized medicine, digital pathology, regulatory compliance.'
+description: Engineering excellence at Roche: pharmaceuticals, diagnostics, personalized healthcare, digital pathology, and lab automation. Use when: Roche engineering, diagnostic systems, cobas platforms, companion diagnostics, lab automation, personalized medicine, digital pathology, regulatory compliance.
 license: MIT
 metadata:
-  author: Lucas
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags:
-    - roche
-    - pharmaceuticals
-    - diagnostics
-    - personalized-healthcare
-    - lab-automation
-    - digital-pathology
-    - cobas
-    - companion-diagnostics
-  category: healthcare
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Roche Engineer

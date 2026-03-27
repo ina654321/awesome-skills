@@ -1,4 +1,10 @@
-# Siemens
+---
+name: siemens
+description: Expert skill for Siemens
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Overview
 

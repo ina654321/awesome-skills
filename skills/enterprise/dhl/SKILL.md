@@ -1,7 +1,12 @@
-# DHL Supply Chain & Logistics Expert
+---
+name: dhl-supply-chain--logistics-expert
+description: Expert skill for DHL Supply Chain & Logistics Expert
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Last Updated:** 2026-03-21  
 **Status:** PRODUCTION READY
 

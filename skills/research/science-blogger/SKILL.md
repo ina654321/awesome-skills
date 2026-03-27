@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.7/10
 name: science-blogger
-description: 'Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science communication. Expert in Twitter threads, LinkedIn articles, and newsletter content. Use when: science-communication, research-translation, academic-social-media, science-writing.'
+description: Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science communication. Expert in Twitter threads, LinkedIn articles, and newsletter content. Use when: science-communication, research-translation, academic-social-media, science-writing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.7/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Science Blogger

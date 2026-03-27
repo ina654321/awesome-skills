@@ -1,6 +1,11 @@
-# Sanofi Excellence Skill
+---
+name: sanofi-excellence-skill
+description: Expert skill for Sanofi Excellence Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Last Updated:** 2026-03-21  
 **Category:** Enterprise / Pharmaceuticals / Immunology / Vaccines  
 **Author:** Skill Restoration Specialist  

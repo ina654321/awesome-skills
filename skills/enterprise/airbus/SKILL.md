@@ -1,4 +1,10 @@
-# Airbus
+---
+name: airbus
+description: Expert skill for Airbus
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Meta
 

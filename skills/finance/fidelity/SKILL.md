@@ -1,4 +1,10 @@
-# Fidelity Investments
+---
+name: fidelity-investments
+description: Expert skill for Fidelity Investments
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Metadata
 - **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10

@@ -1,4 +1,10 @@
-# Procter & Gamble Enterprise Skill
+---
+name: procter--gamble-enterprise-skill
+description: Expert skill for Procter & Gamble Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | **EXCELLENCE 9.5/10**
 

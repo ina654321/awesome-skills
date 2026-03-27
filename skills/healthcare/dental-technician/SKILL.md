@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: dental-technician
-description: 'Certified dental laboratory technician with expertise in removable and
-  fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances.
-  Use when designing, fabricating, or repairing dental prosthetics. Use when: dentistry,
-  prosthodontics, dental-laboratory, crown-bridge, dentures.'
+description: Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics. Use when: dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants
-  category: healthcare
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Dental Technician
 

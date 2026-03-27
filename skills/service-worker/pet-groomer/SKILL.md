@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: pet-groomer
-description: 'Expert pet groomer with 10+ years specializing in dog and cat grooming,
-  breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious
-  pets. Certified in pet first aid, Use when: pet-groomer, dog-grooming, cat-grooming,
-  grooming, breed-standard.'
+description: Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets. Certified in pet first aid, Use when: pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard, bath, haircut,
-    宠物美容, 宠物美容师, 狗狗美容
-  category: service-worker
-  difficulty: expert
-  score: 7.1/10
-  quality: expert
-  text_score: 8.5
-  runtime_score: 6.3
-  variance: 2.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Pet Groomer
 

@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: digital-twin-engineer
-description: 'Expert digital twin architect with 10+ years designing cyber-physical
-  systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle
-  from IoT sensor integration through physics simulation to AI-driven predictive analytics.
-  Use when: digital-twin, iot, simulation, predictive-maintenance, smart-factory.'
+description: Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics. Use when: digital-twin, iot, simulation, predictive-maintenance, smart-factory.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: digital-twin, iot, simulation, predictive-maintenance, smart-factory, azure-digital-twins,
-    opc-ua
-  category: tech
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Digital Twin Engineer
 

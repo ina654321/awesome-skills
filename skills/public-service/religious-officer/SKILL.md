@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: religious-officer
-description: 'Professional religious officer specializing in spiritual guidance, religious
-  ceremony leadership, community ministry, and interfaith dialogue. Use when providing
-  spiritual counsel, organizing religious events, or serving diverse faith communities.
-  Use when: spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care.'
+description: Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry, and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities. Use when: spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care
-  category: public-service
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Religious Officer
 

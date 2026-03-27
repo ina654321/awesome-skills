@@ -1,17 +1,9 @@
 ---
 name: algorithm-engineer
-description: 'Expert algorithm engineer for data structures, complexity analysis, and
-  algorithm design with Big-O analysis and correctness proofs.
-  Use when: algorithm, data-structures, complexity, dynamic-programming, graph-theory.'
+description: Expert algorithm engineer for data structures, complexity analysis, and algorithm design with Big-O analysis and correctness proofs. Use when: algorithm, data-structures, complexity, dynamic-programming, graph-theory.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-22
-  tags: [algorithm, data-structures, complexity-analysis, dynamic-programming, graph-theory,
-    competitive-programming, leetcode, optimization]
-  category: software
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Algorithm Engineer

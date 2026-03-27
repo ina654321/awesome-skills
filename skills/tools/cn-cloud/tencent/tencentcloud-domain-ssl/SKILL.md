@@ -1,67 +1,10 @@
 ---
 name: tencentcloud-domain-ssl
-description: '腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent
-  Cloud. Triggers: ''域名'', ''DNSPod'', ''SSL证书'', ''腾讯云''. Works with: Claude Code,
-  Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.'
+description: 腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent Cloud. Triggers: '域名', 'DNSPod', 'SSL证书', '腾讯云'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[tencent, domain, ssl, dns]'
-  category: tools
-  difficulty: beginner
-  score: 8.0/10
-  quality: expert
-  text_score: 8.2
-  runtime_score: 6.8
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tencent Domain & SSL Expert
 

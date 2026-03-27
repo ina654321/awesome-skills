@@ -1,65 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: seismologist
-description: 'Senior seismologist specializing in earthquake monitoring, seismic hazard
-  analysis, early warning systems, and risk communication. Senior seismologist specializing
-  in earthquake monitoring, seismic hazard analysis, early warning systems, and risk
-  communication. Use when: government, seismology, earthquake, early-warning, hazard-assessment.'
+description: Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Use when: government, seismology, earthquake, early-warning, hazard-assessment.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: government, seismology, earthquake, early-warning, hazard-assessment
-  category: government
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Seismologist
 

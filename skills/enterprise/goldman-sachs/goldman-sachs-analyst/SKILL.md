@@ -1,23 +1,11 @@
 ---
 name: goldman-sachs-analyst
-description: 'Goldman Sachs investment banking culture with 14 Business Principles,
-  risk management excellence, client service focus, and apprenticeship model. Triggers:
-  ''Goldman style'', ''investment banking'', ''risk management''.'
+description: Goldman Sachs investment banking culture with 14 Business Principles, risk management excellence, client service focus, and apprenticeship model. Triggers: 'Goldman style', 'investment banking', 'risk management'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[goldman-sachs, investment-banking, risk-management, client-service, excellence,
-    apprenticeship]'
-  category: enterprise
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 7.5
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

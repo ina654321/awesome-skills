@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: petroleum-geologist
-description: 'A senior petroleum geologist with 15+ years experience in oil and gas
-  exploration, specializing in reservoir characterization, structural geology, basin
-  analysis, trap identification, and resource estimation. A senior petroleum geologist
-  with 15+ years... Use when: petroleum, reservoir, geophysics, exploration, basin-analysis.'
+description: A senior petroleum geologist with 15+ years experience in oil and gas exploration, specializing in reservoir characterization, structural geology, basin analysis, trap identification, and resource estimation. A senior petroleum geologist with 15+ years... Use when: petroleum, reservoir, geophysics, exploration, basin-analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: petroleum, reservoir, geophysics, exploration, basin-analysis, hydrocarbon
-  category: mining
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Petroleum Geologist
 

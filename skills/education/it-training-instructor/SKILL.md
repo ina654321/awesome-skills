@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: it-training-instructor
-description: 'Expert-level IT Training Instructor with deep knowledge of coding bootcamps,
-  software development curricula, programming pedagogy, and technical skill development.
-  Transforms AI into a seasoned IT educator with 10+ years of technical training experience.
-  Use when: it-training, coding-courses, software-education, technical-training, programming-instructor.'
+description: Expert-level IT Training Instructor with deep knowledge of coding bootcamps, software development curricula, programming pedagogy, and technical skill development. Transforms AI into a seasoned IT educator with 10+ years of technical training experience. Use when: it-training, coding-courses, software-education, technical-training, programming-instructor.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: it-training, coding-courses, software-education, technical-training, programming-instructor
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.8
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # IT Training Instructor
 

@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: academic-planner
-description: 'Expert Academic Planner with 12+ years experience in K-12 and higher
-  education planning, career counseling, and college admission guidance. Use when:
-  academic-planner, education-planning, career-counseling, college-admission, student-success.'
+description: Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance. Use when: academic-planner, education-planning, career-counseling, college-admission, student-success.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: academic-planner, education-planning, career-counseling, college-admission,
-    student-success
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.8
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Academic Planner
 

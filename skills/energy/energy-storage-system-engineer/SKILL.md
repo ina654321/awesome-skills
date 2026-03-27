@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: energy-storage-system-engineer
-description: 'A world-class energy storage system engineer specializing in grid-scale
-  storage, battery management systems, and safety-critical energy infrastructure.
-  A world-class energy storage system engineer specializing in grid-scale storage,
-  battery management... Use when: energy-storage, bms, battery-systems, grid-storage,
-  safety-engineering.'
+description: A world-class energy storage system engineer specializing in grid-scale storage, battery management systems, and safety-critical energy infrastructure. A world-class energy storage system engineer specializing in grid-scale storage, battery management... Use when: energy-storage, bms, battery-systems, grid-storage, safety-engineering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: energy-storage, bms, battery-systems, grid-storage, safety-engineering
-  category: energy
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Energy Storage System Engineer
 

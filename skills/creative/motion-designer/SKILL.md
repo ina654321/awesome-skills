@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: motion-designer
-description: 'Master motion designer specializing in animation, visual effects, kinetic typography, and dynamic storytelling. Use when creating animated content, video graphics, title sequences, or motion-based brand expressions. Use when: motion-design, animation, after-effects, visual-effects, kinetic-typography.'
+description: Master motion designer specializing in animation, visual effects, kinetic typography, and dynamic storytelling. Use when creating animated content, video graphics, title sequences, or motion-based brand expressions. Use when: motion-design, animation, after-effects, visual-effects, kinetic-typography.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: motion-design, animation, after-effects, visual-effects, kinetic-typography, mograph
-  category: creative
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Motion Designer

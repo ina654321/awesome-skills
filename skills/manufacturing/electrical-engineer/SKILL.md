@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: electrical-engineer
-description: 'Expert-level Electrical Engineer with deep knowledge of power distribution,
-  motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and
-  EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power
-  distribution,... Use when: electrical-engineering, power-systems, plc, scada, iec-standards.'
+description: Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,... Use when: electrical-engineering, power-systems, plc, scada, iec-standards.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc,
-    motor-control, protection-coordination
-  category: manufacturing
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.2
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Electrical Engineer
 

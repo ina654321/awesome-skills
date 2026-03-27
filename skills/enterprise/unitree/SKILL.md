@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: unitree
-description: 'Unitree Robotics Engineer: Expert in quadruped (Go2, B2) and humanoid (G1, H1) robots.
-  Chinese robotics leader founded 2016 by Wang Xingxing. $16K G1 humanoid breakthrough vs $100K+ competitors.
-  M107 joint motor (360N·m), 4D LiDAR, ROS2 support. 70% quadruped market share. IPO planned 2025.'
+description: Unitree Robotics Engineer: Expert in quadruped (Go2, B2) and humanoid (G1, H1) robots. Chinese robotics leader founded 2016 by Wang Xingxing. $16K G1 humanoid breakthrough vs $100K+ competitors. M107 joint motor (360N·m), 4D LiDAR, ROS2 support. 70% quadruped market share. IPO planned 2025.
 license: MIT
 metadata:
-  author: skill-restorer
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[unitree, robotics, humanoid, quadruped, go2, b2, g1, h1, ros2, lidar, actuator,
-    china, wang-xingxing]'
-  category: enterprise
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

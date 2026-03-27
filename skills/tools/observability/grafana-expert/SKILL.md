@@ -1,67 +1,10 @@
 ---
 name: grafana-expert
-description: 'Grafana expert: dashboard design, panels, alerting, data sources. Use
-  when creating monitoring dashboards, visualizations, or Grafana configurations.
-  Triggers: ''Grafana'', ''dashboard'', ''visualization'', ''Grafana alerting'', ''Grafana
-  panels'', ''监控仪表盘''.'
+description: Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[grafana, dashboard, visualization, monitoring, observability, alerting,
-    prometheus, influxdb]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.1
-  variance: 2.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Grafana Expert
 

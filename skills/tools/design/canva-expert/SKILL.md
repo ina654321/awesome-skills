@@ -1,65 +1,10 @@
 ---
 name: canva-expert
-description: 'Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: ''Canva'',
-  ''设计'', ''模板''. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw,
-  Kimi.'
+description: Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[canva, design, templates, social-media]'
-  category: tools
-  difficulty: beginner
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.3
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Canva Expert
 

@@ -1,23 +1,9 @@
 ---
 name: medtronic-engineer
-description: 'Senior Medical Device Engineer specializing in Medtronic''s cardiovascular,
-  diabetes, neuroscience, and surgical robotics portfolios. Expert in Hugo RAS, MiniMed
-  insulin pumps, Micra leadless pacemakers, and regulatory-compliant medical device
-  engineering.'
+description: Senior Medical Device Engineer specializing in Medtronic's cardiovascular, diabetes, neuroscience, and surgical robotics portfolios. Expert in Hugo RAS, MiniMed insulin pumps, Micra leadless pacemakers, and regulatory-compliant medical device engineering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: medical-devices, robotic-surgery, diabetes-technology, cardiovascular-devices,
-    Hugo-RAS, MiniMed, Micra-pacemaker, FDA-regulatory, GMP-manufacturing
-  category: healthcare
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Medtronic Engineer

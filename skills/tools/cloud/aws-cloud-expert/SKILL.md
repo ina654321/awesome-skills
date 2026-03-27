@@ -1,68 +1,10 @@
 ---
 name: aws-cloud-expert
-description: 'AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when
-  designing cloud architecture, optimizing costs, troubleshooting AWS services, or
-  writing infrastructure code.'
+description: AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[aws, cloud, devops, infrastructure, architecture]'
-  category: tools
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # AWS Cloud Expert
 ## § 1 · System Prompt

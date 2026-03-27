@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: aircraft-maintenance-engineer
-description: 'Senior aircraft maintenance engineer specializing in aircraft maintenance,
-  inspection, airworthiness certification, and MRO operations. Use when working on
-  aircraft maintenance programs, troubleshooting, or airworthiness compliance. Use
-  when: aviation, aircraft-maintenance, airworthiness, EASA, FAA.'
+description: Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance. Use when: aviation, aircraft-maintenance, airworthiness, EASA, FAA.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: aviation, aircraft-maintenance, airworthiness, EASA, FAA, MRO
-  category: transportation
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Aircraft Maintenance Engineer
 

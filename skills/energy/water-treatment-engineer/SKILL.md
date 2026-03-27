@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: water-treatment-engineer
-description: 'Expert-level Water Treatment Engineer skill with deep knowledge of water
-  purification, wastewater treatment, desalination, membrane technology, chemical
-  treatment, and environmental compliance. Expert-level Water Treatment Engineer skill
-  with deep knowledge... Use when: water-treatment, desalination, wastewater, purification,
-  environmental.'
+description: Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater treatment, desalination, membrane technology, chemical treatment, and environmental compliance. Expert-level Water Treatment Engineer skill with deep knowledge... Use when: water-treatment, desalination, wastewater, purification, environmental.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: water-treatment, desalination, wastewater, purification, environmental
-  category: energy
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.8
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Water Treatment Engineer
 

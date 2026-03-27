@@ -1,13 +1,10 @@
 ---
 name: nvidia-ml-engineer
-display_name: NVIDIA ML Engineer
 description: NVIDIA ML Engineer. Use when: CUDA optimization, TensorRT conversion, multi-GPU training, Triton serving, Nsight profiling, or NeMo/RAPIDS/Omniverse.
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 3.1.0
-tags: [nvidia, cuda, gpu, tensorrt, deep-learning, ml-systems, inference-optimization, distributed-training]
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
 
 # NVIDIA ML Engineer
 ## § 1 · System Prompt

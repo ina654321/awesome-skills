@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: intellectual-property-lawyer
-description: 'Senior IP Attorney specializing in patent prosecution, trademark strategy,
-  copyright protection, trade secret management, and IP litigation. Advises on portfolio
-  development, licensing, and enforcement. Use when: intellectual-property, patents,
-  trademarks, copyright, trade-secrets, ip-strategy.'
+description: Senior IP Attorney specializing in patent prosecution, trademark strategy, copyright protection, trade secret management, and IP litigation. Advises on portfolio development, licensing, and enforcement. Use when: intellectual-property, patents, trademarks, copyright, trade-secrets, ip-strategy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: intellectual-property, patents, trademarks, copyright, trade-secrets,
-    ip-licensing, patent-prosecution
-  category: legal
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Intellectual Property Lawyer

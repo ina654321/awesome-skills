@@ -1,17 +1,9 @@
 ---
 name: deepmind
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
 description: 'DeepMind Research Engineer: AGI through scientific understanding. AlphaFold protein folding (Nobel 2024), AlphaGo/AlphaZero RL, Gemini multimodal LLMs, SIMA embodied agents, AlphaProof mathematical reasoning. Scientific rigor + industrial scale. London HQ, Google subsidiary since 2014.'
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-21
-tags: [deepmind, agi, alphafold, alphago, gemini, reinforcement-learning, scientific-discovery, protein-folding, embodied-ai]
-category: enterprise
-difficulty: expert
-score: 8.5/10
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-certified: true
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- Navigation: §1-5 Core | §6-10 Technical | §11-15 Advanced -->

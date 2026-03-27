@@ -1,24 +1,9 @@
 ---
 name: unitedhealth-engineer
-description: 'Senior software engineer at UnitedHealth Group with deep expertise in healthcare
-  technology, claims processing, and health data analytics. Use when architecting healthcare
-  systems, processing claims at scale, building HIPAA-compliant solutions, or optimizing
-  health data pipelines. Use when: healthcare-engineering, claims-processing, health-data-analytics,
-  Optum-technology, UnitedHealthcare-systems.'
+description: Senior software engineer at UnitedHealth Group with deep expertise in healthcare technology, claims processing, and health data analytics. Use when architecting healthcare systems, processing claims at scale, building HIPAA-compliant solutions, or optimizing health data pipelines. Use when: healthcare-engineering, claims-processing, health-data-analytics, Optum-technology, UnitedHealthcare-systems.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: healthcare-engineering, claims-processing, health-data-analytics, Optum-technology,
-    UnitedHealthcare-systems, HIPAA-compliance
-  category: healthcare
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # UnitedHealth Engineer

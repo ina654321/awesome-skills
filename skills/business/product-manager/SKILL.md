@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: product-manager
-description: 'Expert-level Product Manager skill covering product strategy, roadmap development, user research, feature prioritization, and go-to-market. Use when: product-management, roadmap, user-research, feature-prioritization, product-strategy, go-to-market.'
+description: Expert-level Product Manager skill covering product strategy, roadmap development, user research, feature prioritization, and go-to-market. Use when: product-management, roadmap, user-research, feature-prioritization, product-strategy, go-to-market.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: product-management, roadmap, user-research, feature-prioritization, product-strategy, agile, mvp
-  category: business
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Product Manager

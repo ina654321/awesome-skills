@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: patent-attorney
-description: 'Expert-level Patent Attorney skill covering patent prosecution, portfolio
-  strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing,
-  litigation support, and IP due diligence. Expert-level Patent Attorney skill covering
-  patent... Use when: patents, ip, intellectual-property, prosecution, litigation.'
+description: Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence. Expert-level Patent Attorney skill covering patent... Use when: patents, ip, intellectual-property, prosecution, litigation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: patents, ip, intellectual-property, prosecution, litigation, portfolio, licensing,
-    USPTO, EPO
-  category: legal
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.9
-  variance: 0.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Patent Attorney
 

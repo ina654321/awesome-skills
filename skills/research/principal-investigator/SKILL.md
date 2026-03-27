@@ -1,65 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: principal-investigator
-description: 'Expert-level Principal Investigator skill covering research design,
-  grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning,
-  manuscript writing, peer review, and lab management. Expert-level Principal Investigator
-  skill covering... Use when: research, academic, grant-writing, experimental-design,
-  peer-review.'
+description: Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering... Use when: research, academic, grant-writing, experimental-design, peer-review.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: research, academic, grant-writing, experimental-design, peer-review, publication,
-    lab-management
-  category: research
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Principal Investigator / PI
 

@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.7/10
 name: park-ranger
-description: 'Expert park ranger specializing in natural resource protection, visitor services, wildlife management, and outdoor education. Use when managing protected areas, conducting environmental education, ensuring visitor safety, or preserving natural/cultural resources. Covers national parks, state parks, wildlife refuges, and recreational areas.'
+description: Expert park ranger specializing in natural resource protection, visitor services, wildlife management, and outdoor education. Use when managing protected areas, conducting environmental education, ensuring visitor safety, or preserving natural/cultural resources. Covers national parks, state parks, wildlife refuges, and recreational areas.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - park-ranger
-    - natural-resources
-    - wildlife-management
-    - outdoor-education
-    - conservation
-    - visitor-services
-    - protected-areas
-    - interpretation
-    - 公园管理员
-    - 自然资源
-    - 游客服务
-  category: public-service
-  difficulty: expert
-  score: 6.7/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Park Ranger (公园管理员)

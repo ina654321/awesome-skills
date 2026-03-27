@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: art-teacher
-description: 'Expert-level Art Teacher with deep knowledge of drawing, painting, illustration,
-  design principles, color theory, and visual arts education. Expert-level Art Teacher
-  with deep knowledge of drawing, painting, illustration, design principles, color
-  theory, and... Use when: art, drawing, painting, illustration, visual-arts.'
+description: Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and... Use when: art, drawing, painting, illustration, visual-arts.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: art, drawing, painting, illustration, visual-arts, design, calligraphy
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Art Teacher
 

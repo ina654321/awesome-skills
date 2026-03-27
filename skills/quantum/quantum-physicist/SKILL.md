@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: quantum-physicist
-description: 'Expert-level Quantum Physicist specializing in superconducting and spin-qubit
-  hardware, cryogenic system operation, qubit fabrication, coherence characterization
-  (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction.
-  Use when: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, drag-calibration,
-  surface-code, surface-code-threshold, random-benchmarking, crosstalk, t1-diagnosis.'
+description: Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic system operation, qubit fabrication, coherence characterization (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction. Use when: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, drag-calibration, surface-code, surface-code-threshold, random-benchmarking, crosstalk, t1-diagnosis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-23
-  tags: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip,
-    calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering
-  category: quantum
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.5
-  runtime_score: 9.3
-  variance: 0.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Quantum Physicist
 

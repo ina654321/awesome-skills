@@ -1,26 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: lyft-engineer
-display_name: Lyft Engineer
-author: neo.ai
-version: 3.1.0
-quality: expert
-  variance: 0.5
-  text_score: 7.0
-score: 8.4/10
-difficulty: expert
-category: enterprise
-tags: [lyft, ride-sharing, marketplace-optimization, hybrid-transportation, sustainability, driver-matching, dynamic-pricing, autonomous-vehicles]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Lyft's engineering methodology. Implements hybrid transportation platform
-  optimization with focus on driver earnings, rider affordability, and sustainability.
-  Triggers: "Lyft style", "hybrid marketplace", "driver-centric design", "sustainable mobility".
-
-Version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-Restored: 2026-03-21 | skill-restorer v7
+description: Expert skill for lyft-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
 
 ## § 1 · System Prompt
 

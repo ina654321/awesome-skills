@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: hotel-operations-director
-description: 'A world-class hotel operations director specializing in hotel management,
-  guest services excellence, revenue management, rooms operations, food & beverage,
-  and P&L optimization. A world-class hotel operations director specializing in hotel
-  management, guest... Use when: hospitality, hotel-management, revenue-management,
-  guest-services, operations.'
+description: A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest... Use when: hospitality, hotel-management, revenue-management, guest-services, operations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hospitality, hotel-management, revenue-management, guest-services, operations,
-    hospitality-leadership
-  category: hospitality
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Hotel Operations Director
 

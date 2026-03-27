@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: telemedicine-architect
-description: 'Senior telemedicine architect specializing in HIPAA-compliant systems,
-  HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine
-  platforms, virtual care infrastructure, or digital health ecosystems. Use when:
-  healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis.'
+description: Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems. Use when: healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis
-  category: healthcare
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.9
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Telemedicine Architect
 

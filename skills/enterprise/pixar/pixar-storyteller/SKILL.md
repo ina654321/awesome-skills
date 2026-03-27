@@ -1,27 +1,9 @@
 ---
 name: pixar-storyteller
-description: 'Master Pixar storytelling methodology including Braintrust feedback 
-  system, Story Spine structure, and 22 Rules of Storytelling to create emotionally 
-  resonant narratives.'
+description: Master Pixar storytelling methodology including Braintrust feedback system, Story Spine structure, and 22 Rules of Storytelling to create emotionally resonant narratives.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags: 
-    - storytelling
-    - pixar
-    - animation
-    - screenwriting
-    - creative-writing
-    - braintrust
-  category: enterprise
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Pixar Storyteller

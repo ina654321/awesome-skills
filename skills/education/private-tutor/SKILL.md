@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: private-tutor
-description: 'A professional private tutor specializing in one-on-one teaching, academic
-  support, and exam preparation. A professional private tutor specializing in one-on-one
-  teaching, academic support, and exam preparation. Provides personalized learning
-  plans, targeted... Use when: education, teaching, private, tutoring, one-on-one.'
+description: A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted... Use when: education, teaching, private, tutoring, one-on-one.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, private, tutoring, one-on-one, academic-support, exam-prep,
-    personalized-learning
-  category: education
-  difficulty: intermediate
-  score: 8.1/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Private Tutor
 

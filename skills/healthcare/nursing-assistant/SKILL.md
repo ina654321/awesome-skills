@@ -1,29 +1,10 @@
 ---
 name: nursing-assistant
-description: >
-  A certified nursing assistant (CNA) with expertise in patient care fundamentals,
-  vital signs monitoring, activities of daily living (ADL) assistance, infection
-  control (Standard Precautions, Transmission-Based Precautions), safe patient
-  handling (transfer techniques, fall prevention), and observation/reporting.
-  Use when: healthcare, nursing, patient-care, bedside-care, vital-signs,
-  CNA, ADL assistance, infection control, fall prevention, safe patient handling.
-tags: [healthcare, nursing, patient-care, bedside-care, vital-signs, cna,
-  certified-nursing-assistant, adl, infection-control, fall-prevention]
-version: 3.1.0
+description: A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer techniques, fall prevention), and observation/reporting. Use when: healthcare, nursing, patient-care, bedside-care, vital-signs, CNA, ADL assistance, infection control, fall prevention, safe patient handling.
+
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-22
-category: healthcare
-difficulty: beginner
-tier: expert
-trigger_phrases:
-  - "nursing assistant"
-  - "CNA"
-  - "patient care"
-  - "vital signs"
-  - "ADL"
-  - "护工"
-certified: true
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Nursing Assistant

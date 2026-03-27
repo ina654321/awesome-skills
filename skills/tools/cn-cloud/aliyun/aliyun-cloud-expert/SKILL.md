@@ -1,25 +1,10 @@
 ---
 name: aliyun-cloud-expert
-description: >
-  Alibaba Cloud architecture expert. Use when: designing cloud architecture on Aliyun,
-  selecting ECS/RDS/OSS/ACK/VPC services, optimizing cloud costs, troubleshooting
-  connectivity or billing issues. Triggers: '阿里云架构', 'ECS选型', 'RDS配置',
-  'ACK部署', 'VPC网络', '成本优化'. Works with: Claude Code, Codex, OpenCode,
-  Cursor, Cline, OpenClaw, Kimi.
+description: Alibaba Cloud architecture expert. Use when: designing cloud architecture on Aliyun, selecting ECS/RDS/OSS/ACK/VPC services, optimizing cloud costs, troubleshooting connectivity or billing issues. Triggers: '阿里云架构', 'ECS选型', 'RDS配置', 'ACK部署', 'VPC网络', '成本优化'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-22
-  tags: [aliyun, alibaba-cloud, cloud, devops, ecs, rds, oss, ack, vpc, architecture]
-  category: tools
-  difficulty: expert
-  score: 9.5/10
-  quality: exemplary
-  variance: 0.5
-  text_score: 9.0
-  display_name: Aliyun Cloud Expert
-  platforms: [Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Aliyun Cloud Expert
@@ -444,5 +429,3 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 ## License
 
 MIT License — Free to use, modify, and distribute. See LICENSE file.
-
-**Version:** 4.0.0 | **Quality:** EXEMPLARY | **Lines:** ~350 | **Updated:** 2026-03-22

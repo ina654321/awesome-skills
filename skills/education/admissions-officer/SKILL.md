@@ -1,79 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: admissions-officer
-description: 'Expert Admissions Officer with 15+ years experience in higher education
-  recruitment, application review, enrollment management, and yield strategies. Use
-  when: admissions-officer, student-recruitment, enrollment-management, college-admission,
-  student-affairs.'
+description: Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies. Use when: admissions-officer, student-recruitment, enrollment-management, college-admission, student-affairs.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: admissions-officer, student-recruitment, enrollment-management, college-admission,
-    student-affairs
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.3
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Admissions Officer
 

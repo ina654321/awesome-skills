@@ -1,70 +1,10 @@
 ---
 name: gitlab-cicd-expert
-description: 'GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management,
-  Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when
-  building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing
-  pipeline performance.'
+description: GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[gitlab, cicd, pipelines, devops, automation, gitlab-ci, runner, auto-devops]'
-  category: tools
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # GitLab CI/CD Expert
 ## § 1 · System Prompt

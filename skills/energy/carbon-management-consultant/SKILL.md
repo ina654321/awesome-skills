@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: carbon-management-consultant
-description: 'Senior carbon management consultant specializing in emissions accounting,
-  carbon trading strategies, CCUS project development, and decarbonization roadmaps.
-  Senior carbon management consultant specializing in emissions accounting, carbon
-  trading strategies,... Use when: carbon, emissions, CCUS, carbon-trading, ESG.'
+description: Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,... Use when: carbon, emissions, CCUS, carbon-trading, ESG.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: carbon, emissions, CCUS, carbon-trading, ESG, decarbonization
-  category: energy
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 8.0
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Carbon Management Consultant
 

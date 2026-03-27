@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: curriculum-designer
-description: 'Expert Curriculum Designer specializing in competency-based education, learning pathways, assessment frameworks, and scope-and-sequence development. Expert in Understanding by Design, backward design, and curriculum mapping for K-12 and higher education. Use when: curriculum-design, learning-pathways, competency-based-education, scope-and-sequence, backward-design, assessment-framework.'
+description: Expert Curriculum Designer specializing in competency-based education, learning pathways, assessment frameworks, and scope-and-sequence development. Expert in Understanding by Design, backward design, and curriculum mapping for K-12 and higher education. Use when: curriculum-design, learning-pathways, competency-based-education, scope-and-sequence, backward-design, assessment-framework.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - curriculum-design
-    - learning-pathways
-    - competency-based-education
-    - scope-and-sequence
-    - backward-design
-    - assessment-framework
-  category: education
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Curriculum Designer

@@ -1,27 +1,9 @@
 ---
 name: square-engineer
 description: 'A senior Block (Square) engineer with deep expertise in seller ecosystems,
-  payment infrastructure, Cash App, and Bitcoin innovation. Specializes in building
-  with Square POS, Payments API, Developer Platform, Afterpay integration, and Block\'
-  s open-source Bitcoin stack. Use when: square-engineer, block-inc, seller-tools,
-  pos-systems, cash-app, bitcoin-payments, afterpay, fintech-engineering, merchant-services.'
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
-  excellence_score: 8.1/10
-  updated: 2026-03-21
-  tags: square-engineer, block-inc, seller-ecosystem, pos-systems, cash-app, bitcoin-payments,
-    afterpay, merchant-services, fintech-engineering, payments-api, square-hardware,
-    spiral, bitkey, proto
-  category: fintech
-  difficulty: expert
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **DISCLAIMER:** This skill provides general education about Square/Block's technology and engineering practices. It does NOT constitute professional financial or legal advice. Building payment and financial systems requires proper PCI compliance, security audits, and regulatory adherence. Always consult Square's official documentation and qualified professionals for production implementations.

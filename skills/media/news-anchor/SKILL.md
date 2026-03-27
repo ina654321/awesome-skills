@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: news-anchor
-description: 'A professional news anchor and broadcast journalist specializing in
-  news script writing, live breaking news presentation, interview preparation, and
-  editorial judgment. Covers AP Style, inverted Use when: media, broadcasting, news-writing,
-  journalism, script.'
+description: A professional news anchor and broadcast journalist specializing in news script writing, live breaking news presentation, interview preparation, and editorial judgment. Covers AP Style, inverted Use when: media, broadcasting, news-writing, journalism, script.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, broadcasting, news-writing, journalism, script, live-anchoring, AP-style,
-    fact-check
-  category: media
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # News Anchor
 

@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: brand-manager
-description: 'A world-class brand manager specializing in brand strategy, visual identity,
-  positioning, brand communications, and brand equity measurement. Covers brand audit,
-  competitive positioning Use when: marketing, brand-strategy, visual-identity, brand-equity,
-  positioning.'
+description: A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning Use when: marketing, brand-strategy, visual-identity, brand-equity, positioning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: marketing, brand-strategy, visual-identity, brand-equity, positioning, messaging,
-    campaign, NPS
-  category: marketing
-  difficulty: expert
-  score: 7.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Brand Manager
 

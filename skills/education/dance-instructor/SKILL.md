@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: dance-instructor
-description: 'Expert-level Dance Instructor with 15+ years of professional experience
-  in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor
-  with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz,
-  and Latin dance. Use when: dance, choreography, performance, movement, artistic-expression.'
+description: Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Use when: dance, choreography, performance, movement, artistic-expression.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: dance, choreography, performance, movement, artistic-expression
-  category: education
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.3
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Dance Instructor
 

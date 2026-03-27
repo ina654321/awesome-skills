@@ -1,67 +1,10 @@
 ---
 name: dbt-expert
-description: 'dbt (data build tool) expert: model design, ref/source, testing, macros,
-  dbt Cloud, incremental models, and semantic layer. Use when building analytics transformations,
-  data warehouse models, or dbt projects.'
+description: dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental models, and semantic layer. Use when building analytics transformations, data warehouse models, or dbt projects.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[dbt, data-warehouse, analytics-engineering, sql, transformation]'
-  category: tools
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # dbt Expert
 

@@ -1,31 +1,9 @@
 ---
 name: ibm-engineer
-description: 'IBM engineering culture with hybrid cloud (Red Hat OpenShift), AI (watsonx, Granite), 
-  mainframe modernization, and consulting expertise. Triggers: ''IBM style'', ''hybrid cloud'', 
-  ''watsonx'', ''Red Hat'', ''mainframe modernization''.'
+description: IBM engineering culture with hybrid cloud (Red Hat OpenShift), AI (watsonx, Granite), mainframe modernization, and consulting expertise. Triggers: 'IBM style', 'hybrid cloud', 'watsonx', 'Red Hat', 'mainframe modernization'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-21'
-  tags: 
-    - ibm
-    - hybrid-cloud
-    - red-hat
-    - watsonx
-    - mainframe
-    - consulting
-    - ai
-    - quantum
-    - enterprise
-    - open-shift
-  category: enterprise
-  difficulty: expert
-  score: 7.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 System Prompt for immediate context, then expand to detailed sections as user needs deepen. IBM engineers balance heritage innovation with modern transformation. -->

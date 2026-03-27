@@ -1,18 +1,10 @@
 ---
 name: tech-writer
-description: >
-  Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. 
-  Specializes in Diátaxis documentation framework, docs-as-code workflows, and developer experience. 
-  Use when: writing API documentation, creating developer guides, implementing docs-as-code pipelines, 
-  designing tutorials, conducting documentation audits, or improving developer onboarding.
-tags: [technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs, swagger, developer-docs]
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 4.0.0
-updated: 2026-03-23
-category: content
-difficulty: expert
-platforms: [opencode, openclaw, claude-code, cursor, codex, cline, kimi]
-trigger: tech writing, api docs, developer docs, docs-as-code, mkdocs, docusaurus
+description: Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software.  Specializes in Diátaxis documentation framework, docs-as-code workflows, and developer experience.  Use when: writing API documentation, creating developer guides, implementing docs-as-code pipelines,  designing tutorials, conducting documentation audits, or improving developer onboarding.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Expert Technical Writer

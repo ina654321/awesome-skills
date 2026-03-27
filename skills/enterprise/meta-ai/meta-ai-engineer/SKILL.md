@@ -1,23 +1,10 @@
 ---
 name: meta-ai-engineer
-description: >
-  Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first
-  development, LLaMA ecosystem, computer vision at scale, recommendation systems.
-  Triggers: Meta AI, PyTorch development, LLaMA fine-tuning, recommendation systems.
+description: Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first development, LLaMA ecosystem, computer vision at scale, recommendation systems. Triggers: Meta AI, PyTorch development, LLaMA fine-tuning, recommendation systems.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: [meta, pytorch, llama, fair, open-research, computer-vision, recommendation-systems, fast-prototyping]
-  category: enterprise
-  difficulty: expert
-  score: 9.7/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 8.2
-  variance: 0.7
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Meta AI Engineer

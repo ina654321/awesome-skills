@@ -1,4 +1,10 @@
-# NXP Semiconductors Skill
+---
+name: nxp-semiconductors-skill
+description: Expert skill for NXP Semiconductors Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Domain:** Automotive Semiconductors | Secure Connectivity | Industrial IoT  

@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: precision-reducer-engineer
-description: 'A world-class precision reducer engineer specializing in harmonic drive
-  and RV (rotate vector) reducer design, analysis, and manufacturing for industrial
-  robots and precision motion systems. Covers Use when: professional, expert, precision,
-  harmonic-drive, rv-reducer.'
+description: A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reducer design, analysis, and manufacturing for industrial robots and precision motion systems. Covers Use when: professional, expert, precision, harmonic-drive, rv-reducer.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: professional, expert, precision, harmonic-drive, rv-reducer, robotics, gearbox
-  category: robotics
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.7
-  variance: 0.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Precision Reducer Engineer
 

@@ -1,68 +1,10 @@
 ---
 name: looker-metabase-expert
-description: 'Expert Looker and Metabase user for business intelligence and embedded
-  analytics. Use when building dashboards, creating data models, or implementing self-service
-  analytics. Expert Looker and Metabase user for business intelligence and embedded
-  analytics. Use when: looker, metabase, bi-tools, data-visualization, embedded-analytics.'
+description: Expert Looker and Metabase user for business intelligence and embedded analytics. Use when building dashboards, creating data models, or implementing self-service analytics. Expert Looker and Metabase user for business intelligence and embedded analytics. Use when: looker, metabase, bi-tools, data-visualization, embedded-analytics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: looker, metabase, bi-tools, data-visualization, embedded-analytics
-  category: analytics
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Looker & Metabase Expert
 

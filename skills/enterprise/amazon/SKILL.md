@@ -1,19 +1,9 @@
 ---
 name: amazon
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Amazon engineering and business culture: 16 Leadership Principles, Working Backwards methodology, two-pizza teams, AWS architecture, and customer-obsessed innovation. Triggers: Amazon style, customer obsession, working backwards, PR/FAQ, two-pizza teams.'
+description: Amazon engineering and business culture: 16 Leadership Principles, Working Backwards methodology, two-pizza teams, AWS architecture, and customer-obsessed innovation. Triggers: Amazon style, customer obsession, working backwards, PR/FAQ, two-pizza teams.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  updated: 2026-03-21
-  tags: [amazon, leadership-principles, customer-obsession, working-backwards, ownership, aws, two-pizza-teams, bar-raiser, excellence]
-  category: enterprise
-  difficulty: expert
-  score: 5.7/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

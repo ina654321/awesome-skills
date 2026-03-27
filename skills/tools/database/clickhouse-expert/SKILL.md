@@ -1,60 +1,10 @@
 ---
 name: clickhouse-expert
-description: 'ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized
-  views, and high-performance data warehousing. Use when designing ClickHouse schemas,
-  optimizing analytical queries, or managing clusters. Use when: working with clickhouse-expert.'
+description: ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-performance data warehousing. Use when designing ClickHouse schemas, optimizing analytical queries, or managing clusters. Use when: working with clickhouse-expert.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 9.1/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.3
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ClickHouse Expert
 

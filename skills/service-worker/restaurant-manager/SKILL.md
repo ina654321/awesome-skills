@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: restaurant-manager
-description: 'Expert restaurant manager specializing in foodservice operations, team leadership, guest satisfaction, and profitability management. Use when managing restaurant operations, optimizing service flow, ensuring food safety compliance, or leading F&B teams. Covers front of house, kitchen coordination, bar operations, and financial management.'
+description: Expert restaurant manager specializing in foodservice operations, team leadership, guest satisfaction, and profitability management. Use when managing restaurant operations, optimizing service flow, ensuring food safety compliance, or leading F&B teams. Covers front of house, kitchen coordination, bar operations, and financial management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - restaurant-manager
-    - food-beverage
-    - restaurant-operations
-    - service-management
-    - food-safety
-    - hospitality
-    - team-leadership
-    - 餐厅经理
-    - 餐饮运营
-    - 食品安全
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Restaurant Manager (餐厅经理)

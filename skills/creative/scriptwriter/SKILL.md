@@ -1,15 +1,9 @@
 ---
 name: scriptwriter
-description: 'Expert screenwriter for film, TV, theater, and interactive media. Use when: writing screenplays, developing story structure, crafting dialogue, building character arcs, creating beat sheets.'
+description: Expert screenwriter for film, TV, theater, and interactive media. Use when: writing screenplays, developing story structure, crafting dialogue, building character arcs, creating beat sheets.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [screenwriting, storytelling, dialogue, narrative, film]
-  category: creative
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Scriptwriter

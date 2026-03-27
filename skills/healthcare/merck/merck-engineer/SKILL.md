@@ -1,25 +1,9 @@
 ---
 name: merck-engineer
-description: 'Engineering excellence at Merck/MSD: oncology systems, pharmaceutical manufacturing, supply chain technology, and digital transformation for the global biopharmaceutical leader. Use when: Merck engineering, clinical trial systems, manufacturing automation, regulatory compliance, supply chain optimization, Animal Health technology.'
+description: Engineering excellence at Merck/MSD: oncology systems, pharmaceutical manufacturing, supply chain technology, and digital transformation for the global biopharmaceutical leader. Use when: Merck engineering, clinical trial systems, manufacturing automation, regulatory compliance, supply chain optimization, Animal Health technology.
 license: MIT
 metadata:
-  author: Lucas
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags:
-    - pharmaceuticals
-    - engineering
-    - oncology
-    - manufacturing
-    - supply-chain
-    - animal-health
-  category: healthcare
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Merck Engineer

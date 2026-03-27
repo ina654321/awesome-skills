@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: qa-engineer
-description: 'Expert-level QA Engineer with comprehensive expertise in test strategy
-  design, automation architecture, performance engineering, and quality systems for
-  high-velocity engineering teams. Use when: qa, testing, automation, playwright,
-  jest.'
+description: Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams. Use when: qa, testing, automation, playwright, jest.
 license: MIT
 metadata:
-  author: kimi
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing,
-    test-strategy
-  category: software
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 8.7
-  runtime_score: 7.9
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # QA Engineer
 

@@ -1,24 +1,9 @@
 ---
 name: pfizer-engineer
-description: 'Engineering excellence at Pfizer: clinical systems, manufacturing tech, data infrastructure, and digital transformation. Use when: pharma engineering, clinical trial systems, supply chain tech, regulatory compliance, manufacturing automation.'
+description: Engineering excellence at Pfizer: clinical systems, manufacturing tech, data infrastructure, and digital transformation. Use when: pharma engineering, clinical trial systems, supply chain tech, regulatory compliance, manufacturing automation.
 license: MIT
 metadata:
-  author: Lucas
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags:
-    - pharmaceuticals
-    - engineering
-    - clinical-systems
-    - manufacturing
-    - data-infrastructure
-  category: healthcare
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Pfizer Engineer

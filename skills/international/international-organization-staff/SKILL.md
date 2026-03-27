@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: international-organization-staff
-description: 'Expert international organization staff with 15+ years in UN agencies,
-  World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy
-  analysis, development programming, and cross-cultural negotiation. Use when: diplomacy,
-  multilateral, international-cooperation, policy, governance.'
+description: Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation. Use when: diplomacy, multilateral, international-cooperation, policy, governance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: diplomacy, multilateral, international-cooperation, policy, governance
-  category: international
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.2
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # International Organization Staff
 

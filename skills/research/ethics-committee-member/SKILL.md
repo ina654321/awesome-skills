@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: ethics-committee-member
-description: 'Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert in 45 CFR 46, Declaration of Helsinki, and IRB processes. Use when: ethics-review, IRB, human-subjects, informed-consent, research-compliance.'
+description: Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert in 45 CFR 46, Declaration of Helsinki, and IRB processes. Use when: ethics-review, IRB, human-subjects, informed-consent, research-compliance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Ethics Committee Member

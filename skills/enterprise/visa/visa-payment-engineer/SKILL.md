@@ -1,75 +1,10 @@
 ---
 name: visa-payment-engineer
-description: 'Visa payment network engineering at global scale. Four-party model,
-  24k+ TPS, <100ms latency, real-time fraud detection. Triggers: ''Visa payment'',
-  ''card network'', ''payment processing''.'
+description: Visa payment network engineering at global scale. Four-party model, 24k+ TPS, <100ms latency, real-time fraud detection. Triggers: 'Visa payment', 'card network', 'payment processing'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: '[visa, payment-network, fraud-detection, tokenization, distributed-systems,
-    real-time-processing, global-scale]'
-  category: enterprise
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 8.0
-  variance: 0.7
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 > **DISCLAIMER:** This skill provides educational content on payment network engineering. It does NOT constitute professional financial or security advice. Production payment systems require rigorous testing, compliance audits, and regulatory approval.
 

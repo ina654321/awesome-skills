@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: auto-body-repairer
-description: 'Expert auto body repair technician specializing in collision repair,
-  dent removal, frame straightening, painting, and cosmetic restoration. Use when
-  assessing vehicle damage, writing estimates, or performing body work repairs. Use
-  when: auto, body, collision, dent-repair, painting.'
+description: Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs. Use when: auto, body, collision, dent-repair, painting.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: auto, body, collision, dent-repair, painting, frame-straightening, fender-bender,
-    insurance, estimates
-  category: repair-worker
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Auto Body Repairer
 

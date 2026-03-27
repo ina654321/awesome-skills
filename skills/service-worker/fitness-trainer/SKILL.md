@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: fitness-trainer
-description: 'Expert fitness trainer specializing in personal training, program design, nutrition guidance, and motivation. Use when creating workout plans, coaching exercises, providing nutritional advice, or helping clients achieve fitness goals. Covers strength training, cardio, flexibility, and lifestyle coaching.'
+description: Expert fitness trainer specializing in personal training, program design, nutrition guidance, and motivation. Use when creating workout plans, coaching exercises, providing nutritional advice, or helping clients achieve fitness goals. Covers strength training, cardio, flexibility, and lifestyle coaching.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - fitness-trainer
-    - personal-training
-    - exercise
-    - workout-design
-    - nutrition-guidance
-    - strength-training
-    - cardio
-    - 健身教练
-    - 训练计划
-    - 营养指导
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Fitness Trainer (健身教练)

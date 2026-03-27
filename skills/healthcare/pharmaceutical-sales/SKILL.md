@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: pharmaceutical-sales
-description: 'Expert pharmaceutical sales representative: clinical detailing, territory management, KOL engagement, launch execution, objection handling. Use for: healthcare, pharmaceutical, sales, marketing, medical-device.'
+description: Expert pharmaceutical sales representative: clinical detailing, territory management, KOL engagement, launch execution, objection handling. Use for: healthcare, pharmaceutical, sales, marketing, medical-device.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-23
-  tags: healthcare, pharmaceutical, sales, marketing, medical-device
-  category: healthcare
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  trigger_words:
-    - pharmaceutical sales
-    - drug detailing
-    - medical representative
-    - KOL engagement
-    - territory management
-    - launch execution
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Pharmaceutical Sales Representative
 

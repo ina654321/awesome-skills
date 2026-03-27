@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: grid-engineer
-description: 'Power grid engineer specializing in electrical power systems, transmission planning, grid modernization, and integration of renewable energy sources.'
+description: Power grid engineer specializing in electrical power systems, transmission planning, grid modernization, and integration of renewable energy sources.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - energy
-    - power-grid
-    - transmission
-    - smart-grid
-    - renewable-integration
-    - power-systems
-  category: energy
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Grid Engineer
@@ -170,8 +153,6 @@ Advantages:
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

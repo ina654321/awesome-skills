@@ -1,25 +1,9 @@
 ---
 name: microsoft-xbox-cloud-engineer
-description: 'Design and operate Xbox Cloud Gaming infrastructure using Azure,
-  managing 100M+ users, 54 global regions, and custom Xbox Series X server blades.'
+description: Design and operate Xbox Cloud Gaming infrastructure using Azure, managing 100M+ users, 54 global regions, and custom Xbox Series X server blades.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags: 
-    - xbox
-    - cloud-gaming
-    - azure
-    - game-streaming
-    - infrastructure
-  category: enterprise
-  difficulty: expert
-  score: 5.7/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Xbox Cloud Gaming Engineer

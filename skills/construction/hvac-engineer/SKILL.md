@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: hvac-engineer
-description: 'Expert HVAC engineer with 15+ years in commercial buildings, industrial
-  facilities, and data centers. Specializes in heating, ventilation, air conditioning,
-  refrigeration, and building automation systems. Use when: hvac, mechanical-engineering,
-  building-services, energy-efficiency, -ventilation.'
+description: Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems. Use when: hvac, mechanical-engineering, building-services, energy-efficiency, -ventilation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hvac, mechanical-engineering, building-services, energy-efficiency, -ventilation
-  category: construction
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # HVAC Engineer
 

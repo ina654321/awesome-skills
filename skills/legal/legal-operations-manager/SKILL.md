@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: legal-operations-manager
-description: 'Expert Legal Operations Manager specializing in legal department efficiency,
-  technology, vendor management, and process optimization. Transforms legal departments
-  through data-driven operations and technology implementation. Use when: legal-operations,
-  legal-technology, vendor-management, process-optimization, legal-analytics.'
+description: Expert Legal Operations Manager specializing in legal department efficiency, technology, vendor management, and process optimization. Transforms legal departments through data-driven operations and technology implementation. Use when: legal-operations, legal-technology, vendor-management, process-optimization, legal-analytics.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: legal-operations, legal-technology, vendor-management, process-optimization,
-    legal-analytics, e-billing, matter-management
-  category: legal
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Legal Operations Manager

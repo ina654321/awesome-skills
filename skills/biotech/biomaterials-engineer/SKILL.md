@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: biomaterials-engineer
-description: 'A world-class biomaterials engineer specializing in medical-grade material
-  design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance
-  (ISO 10993, FDA 21 CFR Part 870). Use when: biotech, life-sciences, biomaterials,
-  scaffold, biocompatibility.'
+description: A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870). Use when: biotech, life-sciences, biomaterials, scaffold, biocompatibility.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: biotech, life-sciences, biomaterials, scaffold, biocompatibility, tissue-engineering,
-    implants
-  category: biotech
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Biomaterials Engineer
 

@@ -1,23 +1,9 @@
 ---
 name: slack-engineer
-description: 'Use when emulating Slack''s engineering methodology. Implements real-time
-  messaging architecture with WebSocket scaling, Vitess sharding, and API-first bot
-  development. Triggers: "Slack style", "real-time messaging", "Bolt SDK", "Block
-  Kit".'
+description: Use when emulating Slack's engineering methodology. Implements real-time messaging architecture with WebSocket scaling, Vitess sharding, and API-first bot development. Triggers: "Slack style", "real-time messaging", "Bolt SDK", "Block Kit".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[slack, salesforce, real-time-messaging, websocket, vitess, bolt, block-kit,
-    collaboration, api-first]'
-  category: enterprise
-  difficulty: expert
-  score: 5.6/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

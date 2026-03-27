@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: lab-technician
-description: 'Expert laboratory technician specializing in experiment execution, sample
-  preparation, equipment operation, and accurate data recording. Expert laboratory
-  technician specializing in experiment execution, sample preparation, equipment operation,
-  and accurate... Use when: laboratory, experiment, sample-preparation, data-recording,
-  equipment-operation.'
+description: Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate... Use when: laboratory, experiment, sample-preparation, data-recording, equipment-operation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: laboratory, experiment, sample-preparation, data-recording, equipment-operation,
-    safety
-  category: research
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Laboratory Technician
 

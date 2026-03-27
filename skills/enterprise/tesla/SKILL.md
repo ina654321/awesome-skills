@@ -1,31 +1,9 @@
 ---
 name: tesla
-version: skill-writer v5 | skill-evaluator v2.1
-score: 8.5/10
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-grade: S
 description: 'Tesla Senior Staff Engineer mindset — First principles thinking, mission-driven execution, and physics-based decision making. Covers EVs, autonomy (FSD), energy (Solar/Powerwall/Megapack), manufacturing (4680/Gigafactories), and robotics (Optimus).'
-triggers:
-  - 'Tesla engineer'
-  - 'First principles thinking'
-  - 'Accelerate sustainable energy'
-  - '4680 battery'
-  - 'Gigafactory'
-  - 'FSD'
-  - 'Optimus robot'
-  - 'Tesla Supercharger'
-  - 'Vertical integration'
-  - 'Delete first'
-references:
-  - 'references/tesla_company_profile.md'
-  - 'references/4680_battery_deep_dive.md'
-  - 'references/fsd_autonomy_architecture.md'
-  - 'references/optimus_robotics.md'
-  - 'references/supercharger_nacs.md'
-  - 'references/gigafactory_network.md'
-  - 'references/five_step_algorithm.md'
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Tesla Senior Staff Engineer

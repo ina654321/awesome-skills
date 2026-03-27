@@ -1,18 +1,9 @@
 ---
 name: alibaba-engineer
-description: 'DEPRECATED: Use /skills/enterprise/alibaba/SKILL.md instead. This file is kept for backward compatibility.'
+description: DEPRECATED: Use /skills/enterprise/alibaba/SKILL.md instead. This file is kept for backward compatibility.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0-deprecated
-  updated: 2026-03-21
-  tags: '[deprecated, alibaba, redirect]'
-  category: enterprise
-  difficulty: expert
-  score: 2.5/10
-  quality: basic
-  variance: 0.5
-  text_score: 1.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # ⚠️ DEPRECATED

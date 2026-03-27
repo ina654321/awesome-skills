@@ -1,67 +1,10 @@
 ---
 name: aliyun-domain-beian-expert
-description: '阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing
-  ICP beian, or setting up DNS. Triggers: ''域名'', ''ICP备案'', ''DNS解析'', ''实名认证'',
-  ''网站备案''. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.'
+description: 阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing ICP beian, or setting up DNS. Triggers: '域名', 'ICP备案', 'DNS解析', '实名认证', '网站备案'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[aliyun, domain, icp-beian, beian, website]'
-  category: tools
-  difficulty: beginner
-  score: 8.1/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 6.6
-  variance: 2.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Aliyun Domain & ICP Beian Expert
 

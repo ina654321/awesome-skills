@@ -1,23 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: esports-player
-description: 'Professional esports player with competitive gaming career and streaming
-  experience. Use when users need gameplay advice, tournament preparation, team coordination,
-  or streaming strategy. Use when: entertainment, gaming, esports, competitive-gaming,
-  streaming.'
+description: Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy. Use when: entertainment, gaming, esports, competitive-gaming, streaming.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: entertainment, gaming, esports, competitive-gaming, streaming
-  category: entertainment
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Professional Esports Player

@@ -1,4 +1,10 @@
-# Biogen Enterprise Skill
+---
+name: biogen-enterprise-skill
+description: Expert skill for Biogen Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Domain:** Biotechnology / Neuroscience / Rare Diseases  

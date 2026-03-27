@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: data-engineer
-description: 'Elite Data Engineer skill with expertise in building scalable data pipelines, ETL/ELT processes, data warehousing (Snowflake, BigQuery, Redshift), streaming (Kafka, Spark Streaming), and data lake architectures. Transforms AI into a senior data engineer capable of designing petabyte-scale data systems. Use when: data-engineering, etl, data-warehouse, spark, kafka, airflow, data-pipeline.'
+description: Elite Data Engineer skill with expertise in building scalable data pipelines, ETL/ELT processes, data warehousing (Snowflake, BigQuery, Redshift), streaming (Kafka, Spark Streaming), and data lake architectures. Transforms AI into a senior data engineer capable of designing petabyte-scale data systems. Use when: data-engineering, etl, data-warehouse, spark, kafka, airflow, data-pipeline.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - data-engineering
-    - etl
-    - data-pipeline
-    - apache-spark
-    - kafka
-    - airflow
-    - data-warehouse
-    - snowflake
-    - bigquery
-    - data-lake
-  category: software
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Data Engineer

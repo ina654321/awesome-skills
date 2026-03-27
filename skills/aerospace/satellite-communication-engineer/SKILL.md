@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: satellite-communication-engineer
-description: 'Expert-level Satellite Communication Engineer specializing in link budget
-  analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2
-  waveform engineering, ground station design, RF interference analysis, ITU coordination,
-  FCC/OFCOM. Use when: working with satellite-communication-engineer.'
+description: Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM. Use when: working with satellite-communication-engineer.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 7.5/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 6.9
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Satellite Communication Engineer
 

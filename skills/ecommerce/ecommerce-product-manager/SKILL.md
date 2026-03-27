@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.2/10
 name: ecommerce-product-manager
-description: 'Expert E-commerce Product Manager with deep knowledge of online retail strategy,
-  conversion optimization, marketplace operations, and platform-specific tactics for
-  Amazon, Shopify, and Alibaba. Use when: ecommerce-strategy, product-launch, conversion-optimization,
-  marketplace-management, pricing-strategy.'
+description: Expert E-commerce Product Manager with deep knowledge of online retail strategy, conversion optimization, marketplace operations, and platform-specific tactics for Amazon, Shopify, and Alibaba. Use when: ecommerce-strategy, product-launch, conversion-optimization, marketplace-management, pricing-strategy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.2.0
-  updated: 2026-03-21
-  tags:
-  - ecommerce
-  - product-management
-  - conversion-optimization
-  - marketplace
-  - amazon
-  - shopify
-  category: ecommerce
-  difficulty: expert
-  score: 7.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.3
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # E-commerce Product Manager

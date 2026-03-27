@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: battery-engineer
-description: 'Battery engineer specializing in electrochemistry, cell design, battery management systems, and energy storage system integration.'
+description: Battery engineer specializing in electrochemistry, cell design, battery management systems, and energy storage system integration.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - energy
-    - battery
-    - energy-storage
-    - electrochemistry
-    - bms
-    - lithium-ion
-  category: energy
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Battery Engineer
@@ -168,8 +151,6 @@ Calendar Life: Years to 80% capacity at storage conditions
 | Neural Network | ±1-2% | High | Research/advanced |
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

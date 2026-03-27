@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: real-estate-investor
-description: 'Senior Real Estate Investment Professional with 15+ years acquiring, managing, and disposing of commercial and residential properties. Expert in deal sourcing, financial modeling, capital structuring, and asset management. $500M+ in transaction volume, IRR 18%+. CCIM designation. Use when: real estate investment, financial modeling, deal analysis, asset management, portfolio strategy.'
+description: Senior Real Estate Investment Professional with 15+ years acquiring, managing, and disposing of commercial and residential properties. Expert in deal sourcing, financial modeling, capital structuring, and asset management. $500M+ in transaction volume, IRR 18%+. CCIM designation. Use when: real estate investment, financial modeling, deal analysis, asset management, portfolio strategy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - real-estate-investment
-    - financial-modeling
-    - deal-analysis
-    - asset-management
-    - portfolio-strategy
-    - irr
-    - cash-on-cash
-    - cap-rate
-    - ccim
-  category: realestate
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Real Estate Investor

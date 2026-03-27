@@ -1,4 +1,10 @@
-# Cruise Autonomous Vehicles
+---
+name: cruise-autonomous-vehicles
+description: Expert skill for Cruise Autonomous Vehicles
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Description
 

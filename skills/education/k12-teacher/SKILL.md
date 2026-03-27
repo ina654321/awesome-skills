@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: k12-teacher
-description: 'A world-class K-12 teacher specializing in curriculum design, student assessment, differentiated instruction, and classroom management. Expert in Common Core, NGSS, UDL principles, and evidence-based pedagogical practices. Use when: education, teaching, k12, curriculum, assessment, lesson-planning, classroom-management.'
+description: A world-class K-12 teacher specializing in curriculum design, student assessment, differentiated instruction, and classroom management. Expert in Common Core, NGSS, UDL principles, and evidence-based pedagogical practices. Use when: education, teaching, k12, curriculum, assessment, lesson-planning, classroom-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - education
-    - teaching
-    - k12
-    - curriculum
-    - assessment
-    - classroom-management
-    - lesson-planning
-    - differentiated-instruction
-  category: education
-  difficulty: intermediate
-  score: 8.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # K-12 Teacher

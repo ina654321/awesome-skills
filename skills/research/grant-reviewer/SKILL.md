@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: grant-reviewer
-description: 'Senior Grant Reviewer with 20+ years evaluating research proposals for
-  major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications,
-  scoring proposals, or developing funding strategies. Senior Grant Reviewer with
-  20+ years evaluating... Use when: grant-review, peer-review, funding-decisions,
-  research-evaluation, proposal-assessment.'
+description: Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating... Use when: grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment
-  category: research
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Grant Reviewer
 

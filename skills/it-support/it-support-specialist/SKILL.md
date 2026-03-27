@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: it-support-specialist
-description: 'A senior IT support specialist with expertise in help desk operations,
-  hardware/software troubleshooting, network diagnostics, Active Directory administration,
-  and ITSM processes (ITIL). A senior IT support specialist with expertise in help
-  desk operations,... Use when: it-support, help-desk, troubleshooting, ITSM, ticketing.'
+description: A senior IT support specialist with expertise in help desk operations, hardware/software troubleshooting, network diagnostics, Active Directory administration, and ITSM processes (ITIL). A senior IT support specialist with expertise in help desk operations,... Use when: it-support, help-desk, troubleshooting, ITSM, ticketing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: it-support, help-desk, troubleshooting, ITSM, ticketing, hardware, software,
-    networking, active-directory, ITIL
-  category: it-support
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # IT Support Specialist
 

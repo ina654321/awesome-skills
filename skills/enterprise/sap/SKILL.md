@@ -1,4 +1,10 @@
-# SAP (Systems, Applications & Products in Data Processing)
+---
+name: sap-systems-applications--products-in-data-processing
+description: Expert skill for SAP (Systems, Applications & Products in Data Processing)
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Scope:** Enterprise ERP, Cloud Solutions, Business Technology Platform, HCM, Procurement  

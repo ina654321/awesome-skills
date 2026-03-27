@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: training-development-manager
-description: 'A world-class training & development manager specializing in corporate
-  learning strategy, instructional design, LMS administration, career development
-  frameworks, and leadership development. A world-class training & development manager
-  specializing in... Use when: hr, learning-development, talent-management, instructional-design,
-  lms.'
+description: A world-class training & development manager specializing in corporate learning strategy, instructional design, LMS administration, career development frameworks, and leadership development. A world-class training & development manager specializing in... Use when: hr, learning-development, talent-management, instructional-design, lms.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: hr, learning-development, talent-management, instructional-design, lms, career-pathing
-  category: hr
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Training & Development Manager
 

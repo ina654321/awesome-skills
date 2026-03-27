@@ -1,23 +1,9 @@
 ---
 name: fedex-operations
-description: 'Use when managing express logistics, air network optimization, or time-definite
-  delivery operations. Implements hub-and-spoke model, Purple Promise service culture,
-  and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day
-  delivery", "hub operations", "Purple Promise".'
+description: Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day delivery", "hub operations", "Purple Promise".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: '[fedex, logistics, air-network, hub-spoke, next-day-delivery, purple-promise,
-    supply-chain, express-delivery]'
-  category: enterprise
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

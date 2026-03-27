@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: satellite-engineer
-description: 'Satellite systems engineer specializing in spacecraft design, orbital mechanics, payload integration, and mission operations planning.'
+description: Satellite systems engineer specializing in spacecraft design, orbital mechanics, payload integration, and mission operations planning.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - satellite
-    - orbital-mechanics
-    - spacecraft-design
-    - payload
-    - mission-operations
-  category: aerospace
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Satellite Engineer
@@ -171,8 +154,6 @@ Where:
 ```
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

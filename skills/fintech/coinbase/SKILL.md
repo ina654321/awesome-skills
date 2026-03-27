@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: coinbase-engineer
-description: 'Expert Coinbase Engineer mindset and methodology covering crypto exchange
-  infrastructure, custody security (98% cold storage), compliance-first architecture,
-  mission-driven development, Base L2 network leadership, and the Everything Exchange
-  vision. Triggers: Coinbase, crypto exchange, custody, Base L2, economic freedom,
-  regulatory compliance, blockchain infrastructure, USDC, institutional crypto.'
+description: Expert Coinbase Engineer mindset and methodology covering crypto exchange infrastructure, custody security (98% cold storage), compliance-first architecture, mission-driven development, Base L2 network leadership, and the Everything Exchange vision. Triggers: Coinbase, crypto exchange, custody, Base L2, economic freedom, regulatory compliance, blockchain infrastructure, USDC, institutional crypto.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.1.0
-  updated: 2026-03-21
-  tags: '[coinbase, crypto-exchange, custody, blockchain, base-l2, compliance, Brian-Armstrong,
-    economic-freedom, trading-engine, institutional-crypto, usdc, layer2, defi]'
-  category: fintech
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Coinbase Engineer

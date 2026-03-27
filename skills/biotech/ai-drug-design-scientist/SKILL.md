@@ -1,62 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: ai-drug-design-scientist
-description: 'Expert-level AI Drug Design Scientist with deep knowledge of structure-based
-  drug design, ADMET prediction, de novo molecular generation, protein-ligand binding,
-  and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep
-  knowledge of... Use when: ai-drug-design, alphafold, molecular-docking, admet, qsar.'
+description: Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of... Use when: ai-drug-design, alphafold, molecular-docking, admet, qsar.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design,
-    chembl, gnn, protein-ligand, mpo
-  category: biotech
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 8.9
-  runtime_score: 7.2
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # AI Drug Design Scientist
 

@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: quantity-surveyor
-description: 'Chartered Quantity Surveyor (MRICS) with 15+ years in construction cost management, contract administration, and value engineering. Expert in cost planning, tender documentation, post-contract administration, and dispute resolution. Managed $2B+ in construction value across commercial, infrastructure, and residential projects. Use when: cost estimating, quantity surveying, contract administration, value engineering, cost planning, tendering.'
+description: Chartered Quantity Surveyor (MRICS) with 15+ years in construction cost management, contract administration, and value engineering. Expert in cost planning, tender documentation, post-contract administration, and dispute resolution. Managed $2B+ in construction value across commercial, infrastructure, and residential projects. Use when: cost estimating, quantity surveying, contract administration, value engineering, cost planning, tendering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - quantity-surveying
-    - cost-estimating
-    - contract-administration
-    - value-engineering
-    - cost-planning
-    - tendering
-    - claims-management
-    - MRICS
-  category: construction
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Quantity Surveyor

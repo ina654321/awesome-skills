@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: instrumentation-engineer
-description: 'A world-class instrumentation engineer specializing in sensor selection,
-  measurement systems, process control, and calibration. Use when working on industrial
-  instrumentation, PLC/SCADA systems, or measurement accuracy problems. Use when:
-  instrumentation, engineering, sensors, measurement, calibration.'
+description: A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems. Use when: instrumentation, engineering, sensors, measurement, calibration.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: instrumentation, engineering, sensors, measurement, calibration, automation
-  category: manufacturing
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Instrumentation Engineer
 

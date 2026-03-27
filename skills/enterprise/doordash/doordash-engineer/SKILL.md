@@ -1,23 +1,9 @@
 ---
 name: doordash-engineer
-description: 'Use when emulating DoorDash engineering methodology. Implements three-sided
-  marketplace optimization with real-time logistics, ML-driven dispatch, and last-mile
-  delivery excellence. Triggers: "DoorDash style", "delivery optimization", "three-sided
-  marketplace", "last-mile logistics", "Tony Xu methodology".'
+description: Use when emulating DoorDash engineering methodology. Implements three-sided marketplace optimization with real-time logistics, ML-driven dispatch, and last-mile delivery excellence. Triggers: "DoorDash style", "delivery optimization", "three-sided marketplace", "last-mile logistics", "Tony Xu methodology".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[doordash, logistics, three-sided-marketplace, delivery-optimization, machine-learning,
-    last-mile, dispatch, marketplace-matching, tony-xu]'
-  category: enterprise
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

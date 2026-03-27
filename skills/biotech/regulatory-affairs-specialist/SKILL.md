@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: regulatory-affairs-specialist
-description: 'Elite regulatory affairs specialist specializing in drug and device 
-  registration, FDA/EMA/PMDA submissions, compliance strategy, and lifecycle 
-  management. Navigates complex regulatory pathways to accelerate market access 
-  while ensuring full compliance with global regulations.'
+description: Elite regulatory affairs specialist specializing in drug and device registration, FDA/EMA/PMDA submissions, compliance strategy, and lifecycle management. Navigates complex regulatory pathways to accelerate market access while ensuring full compliance with global regulations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - regulatory-affairs
-    - FDA
-    - EMA
-    - drug-registration
-    - compliance
-    - NDA
-    - BLA
-    - 510k
-  category: biotech
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Regulatory Affairs Specialist

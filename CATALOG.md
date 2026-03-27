@@ -142,6 +142,9 @@ These skills have been completely rewritten with professional depth — system p
 - [Principal Investigator](./skills/research/principal-investigator/SKILL.md) ⭐ — Grant writing, lab management, publication strategy
 - [Statistician](./skills/research/statistician/SKILL.md) ⭐ — Statistical modeling, experimental design, R/Python
 
+### Meta
+- [skill-manager](./skills/meta/skill-manager/SKILL.md) ⭐ — AI skill lifecycle manager (create/evaluate/restore/tune)
+
 ---
 
 ## 📝 All Skills by Category
@@ -385,6 +388,9 @@ These skills have been completely rewritten with professional depth — system p
 - [Livestream Seller](./skills/marketing/livestream-seller/SKILL.md) 📝
 - [Marketing Manager](./skills/marketing/marketing-manager/SKILL.md) ⭐
 - [Sales Manager](./skills/marketing/sales-manager/SKILL.md) ⭐
+
+### Meta (1 skill)
+- [skill-manager](./skills/meta/skill-manager/SKILL.md) ⭐ — AI skill lifecycle manager (create/evaluate/restore/tune)
 
 ### Product (8 skills)
 - [E-commerce Product Manager](./skills/product/ecommerce-product-manager/SKILL.md) 📝

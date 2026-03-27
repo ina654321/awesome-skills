@@ -1,21 +1,9 @@
 ---
 name: servicenow-engineer
-display_name: ServiceNow Engineer
-author: neo.ai
-version: 4.0.0
-quality: community
-  variance: 0.5
-  text_score: 1.0
-score: 5.2/10
-difficulty: expert
-category: enterprise
-tags: [servicenow, itsm, itom, workflow-automation, now-platform, flow-designer, app-engine, glide, bill-mcdermott, enterprise-digitization]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert ServiceNow engineer skill covering ITSM/ITOM implementation, Flow Designer workflow automation,
-  App Engine low-code development, and Now Platform architecture. Embodies ServiceNow's workflow-first
-  philosophy and AI-powered enterprise digitization. Triggers: "ServiceNow", "ITSM", "Flow Designer",
-  "Now Platform", "workflow automation", "Bill McDermott".
+description: Expert skill for servicenow-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

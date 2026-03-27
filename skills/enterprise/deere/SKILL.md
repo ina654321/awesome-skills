@@ -1,4 +1,10 @@
-# John Deere Enterprise Skill
+---
+name: john-deere-enterprise-skill
+description: Expert skill for John Deere Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Metadata
 - **Code**: `deere`

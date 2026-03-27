@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: music-teacher
-description: 'Expert-level Music Teacher with deep knowledge of instrument pedagogy,
-  music theory, sight-reading, ear training, practice methodology, and performance
-  psychology. Expert-level Music Teacher with deep knowledge of instrument pedagogy,
-  music theory,... Use when: music, instrument, piano, guitar, violin.'
+description: Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory, sight-reading, ear training, practice methodology, and performance psychology. Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory,... Use when: music, instrument, piano, guitar, violin.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: music, instrument, piano, guitar, violin, music-theory, performance
-  category: education
-  difficulty: expert
-  score: 9.2/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Music Teacher
 

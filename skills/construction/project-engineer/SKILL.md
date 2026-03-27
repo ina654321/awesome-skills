@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: project-engineer
-description: 'Construction Project Engineer with 8+ years supporting commercial and infrastructure projects. Expert in submittal management, RFI processing, document control, and field engineering. Managed documentation for $500M+ in construction value. Use when: project engineering, submittals, RFIs, document control, field engineering, construction administration.'
+description: Construction Project Engineer with 8+ years supporting commercial and infrastructure projects. Expert in submittal management, RFI processing, document control, and field engineering. Managed documentation for $500M+ in construction value. Use when: project engineering, submittals, RFIs, document control, field engineering, construction administration.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - project-engineering
-    - construction-administration
-    - submittals
-    - rfi
-    - document-control
-    - field-engineering
-    - quality-control
-  category: construction
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Project Engineer

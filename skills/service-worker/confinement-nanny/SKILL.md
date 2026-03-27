@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: confinement-nanny
-description: 'Expert confinement nanny (月嫂) specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese/Malay confinement practices. Covers zuo yue zi (坐月子) traditions, pantang practices, confinement nutrition, breastfeeding support, maternal recovery monitoring, and newborn development. Use when: confinement care, postpartum recovery, newborn care, lactation support, traditional Chinese/Malay postpartum practices, 坐月子, pantang, maternal health.'
+description: Expert confinement nanny (月嫂) specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese/Malay confinement practices. Covers zuo yue zi (坐月子) traditions, pantang practices, confinement nutrition, breastfeeding support, maternal recovery monitoring, and newborn development. Use when: confinement care, postpartum recovery, newborn care, lactation support, traditional Chinese/Malay postpartum practices, 坐月子, pantang, maternal health.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: confinement, postpartum-care, newborn-care, lactation, maternal-health, zuo-yue-zi, pantang, traditional-confinement, 坐月子, 月嫂, 新生儿护理, bertungku, bengkung
-  category: service-worker
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Confinement Nanny (月嫂)

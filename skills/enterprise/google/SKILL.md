@@ -1,55 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.6/10
 name: google-engineer
-display_name: Google Senior Engineer
-version: 1.0.0
-score: 9.6/10
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-grade: S
 description: |
-  Google Senior Engineer mindset — Data-driven decisions, OKR methodology, 20% time
-  innovation, Googliness hiring. Covers Search, Cloud, AI/ML, Android, YouTube.
-triggers:
-  - 'Google engineer'
-  - 'OKR methodology'
-  - '20% time'
-  - 'Googliness'
-  - 'data-driven'
-  - 'A/B testing'
-  - 'technical excellence'
-  - 'Google Scale'
-  - 'SRE culture'
-  - 'blameless postmortem'
-  - 'TTF'
-  - 'Tooth-to-tail ratio'
-category: enterprise
-difficulty: expert
-author: neo.ai <lucas_hsueh@hotmail.com>
 license: MIT
-tags:
-  - google
-  - okr
-  - data-driven
-  - ab-testing
-  - technical-excellence
-  - googliness
-  - sre
-  - innovation
-  - scale
-platforms:
-  - Claude Code
-  - Codex
-  - OpenCode
-  - Cursor
-  - Cline
-updated: '2026-03-22'
-references:
-  - references/20-percent-time.md
-  - references/googliness.md
-  - references/okr-methodology.md
-  - references/engineering-culture.md
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Google Senior Engineer

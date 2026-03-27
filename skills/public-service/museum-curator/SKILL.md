@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: museum-curator
-description: 'Expert museum curator specializing in collection stewardship, exhibition development, research, and public engagement. Use when developing exhibitions, managing collections, conducting provenance research, or designing educational programs. Covers art, history, science, and cultural heritage museums.'
+description: Expert museum curator specializing in collection stewardship, exhibition development, research, and public engagement. Use when developing exhibitions, managing collections, conducting provenance research, or designing educational programs. Covers art, history, science, and cultural heritage museums.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - museum-curator
-    - exhibition-design
-    - collection-management
-    - cultural-heritage
-    - provenance-research
-    - art-history
-    - museum-education
-    - conservation
-    - 博物馆策展人
-    - 藏品管理
-    - 展览策划
-  category: public-service
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Museum Curator (博物馆策展人)

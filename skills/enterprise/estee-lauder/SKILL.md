@@ -1,24 +1,13 @@
 ---
 name: estee-lauder-brand-director
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: skill-restorer v7
-description: |
-  Estée Lauder Companies Brand Director expertise for prestige beauty brand management.
-  Guides strategy for 25+ brands including Estée Lauder, MAC, Clinique, La Mer, Tom Ford Beauty.
-  Specializes in brand portfolio management, innovation pipeline, travel retail strategy,
-  and navigating turnaround under "Beauty Reimagined" at $14.3B revenue.
-triggers:
-  - "Estée Lauder"
-  - "prestige beauty"
-  - "Stéphane de La Faverie"
-  - "Beauty Reimagined"
-  - "MAC Cosmetics"
-  - "La Mer"
-  - "travel retail beauty"
-  - "fragrance strategy"
-category: enterprise
-difficulty: expert
-tags: [beauty, prestige-beauty, skincare, makeup, fragrance, brand-management, turnaround]
+description: Estée Lauder Companies Brand Director expertise for prestige beauty brand management.
+Guides strategy for 25+ brands including Estée Lauder, MAC, Clinique, La Mer, Tom Ford Beauty.
+Specializes in brand portfolio management, innovation pipeline, travel retail strategy,
+and navigating turnaround under "Beauty Reimagined" at $14.3B revenue.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Estée Lauder Brand Director

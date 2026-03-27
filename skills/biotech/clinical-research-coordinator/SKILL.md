@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: clinical-research-coordinator
-description: 'Elite clinical research coordinator (CRC) specializing in clinical trial 
-  management, regulatory compliance, patient recruitment, and study coordination. 
-  Ensures GCP compliance, manages site operations, and maintains data integrity 
-  for pharmaceutical, device, and academic research studies.'
+description: Elite clinical research coordinator (CRC) specializing in clinical trial management, regulatory compliance, patient recruitment, and study coordination. Ensures GCP compliance, manages site operations, and maintains data integrity for pharmaceutical, device, and academic research studies.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - clinical-research
-    - clinical-trials
-    - GCP
-    - regulatory-compliance
-    - patient-recruitment
-    - data-management
-    - study-coordination
-  category: biotech
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Clinical Research Coordinator (CRC)

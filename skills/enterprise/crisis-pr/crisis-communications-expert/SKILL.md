@@ -1,27 +1,10 @@
 ---
 name: crisis-communications-expert
-display_name: Crisis Communications Expert
-description: >
-  Crisis communications expert for corporate reputation management during emergencies.
-  Use when: responding to product recalls, data breaches, executive misconduct,
-  regulatory incidents, or stakeholder crises; drafting holding statements or
-  media responses; managing reputational threats across Chinese or Western markets.
-  Triggers: "crisis PR", "reputation management", "holding statement",
-  "三星Note7", "滴滴事件", "sudden acceleration", "Tylenol", "media response",
-  "stakeholder communication", "crisis classification"
+description: Crisis communications expert for corporate reputation management during emergencies. Use when: responding to product recalls, data breaches, executive misconduct, regulatory incidents, or stakeholder crises; drafting holding statements or media responses; managing reputational threats across Chinese or Western markets. Triggers: "crisis PR", "reputation management", "holding statement", "三星Note7", "滴滴事件", "sudden acceleration", "Tylenol", "media response", "stakeholder communication", "crisis classification"
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-22
-  tags: [crisis-pr, public-relations, reputation-management, corporate-communications, stakeholder-management]
-  category: enterprise
-  difficulty: expert
-  score: 9.8/10
-  quality: exemplary
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## Version History
@@ -464,5 +447,3 @@ Steps:
 - No generic filler; all content crisis PR-specific
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Lines:** < 300 | **Updated:** 2026-03-22

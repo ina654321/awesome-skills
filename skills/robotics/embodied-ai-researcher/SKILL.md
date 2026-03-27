@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.4/10
 name: embodied-ai-researcher
-description: 'Expert-level Embodied AI Researcher with deep knowledge of robot learning,
-  manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation
-  learning (ACT, Diffusion Policy), sim2real transfer, dexterous manipulation, and
-  reinforcement... Use when: embodied-ai, robot-learning, manipulation, world-models,
-  rt-2.'
+description: Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion Policy), sim2real transfer, dexterous manipulation, and reinforcement... Use when: embodied-ai, robot-learning, manipulation, world-models, rt-2.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: embodied-ai, robot-learning, manipulation, world-models, rt-2, diffusion-policy,
-    sim2real, imitation-learning, dexterous-manipulation, libero
-  category: robotics
-  difficulty: expert
-  score: 9.4/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 6.9
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Embodied AI Researcher
 

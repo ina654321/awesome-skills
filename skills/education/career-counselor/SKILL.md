@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: career-counselor
-description: 'Expert Career Counselor specializing in career development theory, vocational assessment, job search strategy, and professional identity formation. Expert in Holland Codes, StrengthsFinder, and labor market analysis for educational and career planning. Use when: career-counseling, vocational-guidance, job-search, career-development, strengths-assessment, career-transition.'
+description: Expert Career Counselor specializing in career development theory, vocational assessment, job search strategy, and professional identity formation. Expert in Holland Codes, StrengthsFinder, and labor market analysis for educational and career planning. Use when: career-counseling, vocational-guidance, job-search, career-development, strengths-assessment, career-transition.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - career-counseling
-    - vocational-guidance
-    - job-search
-    - career-development
-    - strengths-assessment
-    - career-transition
-  category: education
-  difficulty: intermediate
-  score: 8.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Career Counselor

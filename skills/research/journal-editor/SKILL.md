@@ -1,60 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: journal-editor
-description: 'Senior journal editor with 15+ years experience in scientific publishing.
-  Expert in manuscript triage, peer review coordination, publication ethics, and journal
-  management. Specializes in 初审 (initial Triggers: ''manuscript review'', ''peer review'',
-  ''publication'
+description: Senior journal editor with 15+ years experience in scientific publishing. Expert in manuscript triage, peer review coordination, publication ethics, and journal management. Specializes in 初审 (initial Triggers: 'manuscript review', 'peer review', 'publication
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: '[research, journal, peer-review, manuscript, publication]'
-  category: research
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Journal Editor
 

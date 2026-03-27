@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.2/10
 name: synthetic-biologist
-description: 'Expert-level Synthetic Biologist specializing in genetic circuit design,
-  CRISPR-based genome editing, metabolic pathway engineering, and scale-up of microbial
-  cell factories. Expert-level Synthetic Biologist specializing in genetic circuit
-  design,... Use when: synthetic-biology, CRISPR, gene-circuit, metabolic-engineering,
-  microbial-cell-factory.'
+description: Expert-level Synthetic Biologist specializing in genetic circuit design, CRISPR-based genome editing, metabolic pathway engineering, and scale-up of microbial cell factories. Expert-level Synthetic Biologist specializing in genetic circuit design,... Use when: synthetic-biology, CRISPR, gene-circuit, metabolic-engineering, microbial-cell-factory.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: synthetic-biology, CRISPR, gene-circuit, metabolic-engineering, microbial-cell-factory,
-    BioBricks, dbtl-cycle, flux-balance-analysis, biomanufacturing, genetic-parts
-  category: biotech
-  difficulty: expert
-  score: 9.2/10
-  quality: exemplary
-  text_score: 8.2
-  runtime_score: 7.2
-  variance: 1.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Synthetic Biologist
 

@@ -1,4 +1,10 @@
-# Khan Academy
+---
+name: khan-academy
+description: Expert skill for Khan Academy
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | **EXCELLENCE 9.5/10**
 

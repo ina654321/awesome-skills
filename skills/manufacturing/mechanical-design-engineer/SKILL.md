@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: mechanical-design-engineer
-description: 'Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling,
-  GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element
-  analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling,
-  GD&T,... Use when: mechanical-design, cad, gdandt, dfmea, dfm.'
+description: Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,... Use when: mechanical-design, cad, gdandt, dfmea, dfm.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: mechanical-design, cad, gdandt, dfmea, dfm, solidworks, creo, material-selection,
-    tolerance-analysis, finite-element-analysis
-  category: manufacturing
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.4
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mechanical Design Engineer
 

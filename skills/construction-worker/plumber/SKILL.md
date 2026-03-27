@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: plumber
-description: 'Expert plumber specializing in pipe installation, drainage systems,
-  water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage
-  design, fixture installation, or plumbing code questions. Expert plumber specializing
-  in pipe... Use when: construction, skilled-trades, plumbing, pipefitting, hvac.'
+description: Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe... Use when: construction, skilled-trades, plumbing, pipefitting, hvac.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: construction, skilled-trades, plumbing, pipefitting, hvac
-  category: construction-worker
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Plumber
 

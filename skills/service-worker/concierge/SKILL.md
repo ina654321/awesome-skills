@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.1/10
 name: concierge
-description: 'Expert concierge specializing in guest services, local expertise, and exceptional hospitality. Use when fulfilling guest requests, providing recommendations, coordinating services, or creating memorable experiences. Covers hotel concierge, residential concierge, and lifestyle management services.'
+description: Expert concierge specializing in guest services, local expertise, and exceptional hospitality. Use when fulfilling guest requests, providing recommendations, coordinating services, or creating memorable experiences. Covers hotel concierge, residential concierge, and lifestyle management services.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - concierge
-    - guest-services
-    - hospitality
-    - local-expertise
-    - reservations
-    - lifestyle-management
-    - customer-service
-    - 礼宾服务
-    - 客户关怀
-    - 资源协调
-  category: service-worker
-  difficulty: expert
-  score: 7.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Concierge (礼宾专员)

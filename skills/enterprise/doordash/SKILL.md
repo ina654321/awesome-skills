@@ -1,28 +1,13 @@
 ---
 name: doordash
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: neo.ai <lucas_hsueh@hotmail.com>
-description: |
-  Emulate DoorDash Senior Engineering thinking. Master three-sided marketplace optimization,
-  real-time logistics at scale, and ML-driven dispatch systems. Triggers: "DoorDash style",
-  "delivery optimization", "three-sided marketplace", "last-mile logistics", "Tony Xu methodology",
-  "DeepRed dispatch", "dasher supply", "marketplace GOV", "submarket optimization".
+description: Emulate DoorDash Senior Engineering thinking. Master three-sided marketplace optimization,
+real-time logistics at scale, and ML-driven dispatch systems. Triggers: "DoorDash style",
+"delivery optimization", "three-sided marketplace", "last-mile logistics", "Tony Xu methodology",
+"DeepRed dispatch", "dasher supply", "marketplace GOV", "submarket optimization".
+
 license: MIT
-category: enterprise
-difficulty: expert
-tags:
-  - doordash
-  - logistics
-  - three-sided-marketplace
-  - delivery-optimization
-  - machine-learning
-  - last-mile
-  - dispatch
-  - marketplace-matching
-  - tony-xu
-  - on-demand
-  - wolt
-  - deliveroo
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # DoorDash Senior Engineer
@@ -187,8 +172,6 @@ Every engineering decision must balance three sides:
 | 1.0.0 | 2024-12-01 | Beta release |
 
 ---
-
-**Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 **Author:** neo.ai (lucas_hsueh@hotmail.com)  
 **License:** MIT  
 **Source:** [awesome-skills](https://github.com/lucaswhch/awesome-skills)

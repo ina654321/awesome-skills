@@ -1,18 +1,9 @@
 ---
 name: pfizer-scientist
-version: 2.0.0
 description: 'World-class pharmaceutical R&D expertise following Pfizer methodologies for drug discovery, clinical trials, regulatory strategy, and commercialization. Use when: drug development, clinical trial design, regulatory submissions, portfolio strategy, manufacturing scale-up.'
-author: Lucas
 license: MIT
-category: biotech
-difficulty: expert
-score: 7.0/10
-quality: expert
-  variance: 0.5
-  text_score: 9.0
-tags: [pharma, drug-development, clinical-trials, regulatory, oncology, vaccines, mRNA]
-triggers: ['Pfizer R&D', 'drug discovery', 'clinical trial design', 'regulatory strategy', 'COVID vaccine', 'oncology development', 'IND submission', 'NDA/BLA', 'CMC strategy']
-integrations: [veeva, medidata, oracle, benchling, sap]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

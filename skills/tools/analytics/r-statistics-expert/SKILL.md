@@ -1,62 +1,10 @@
 ---
 name: r-statistics-expert
-description: 'R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis
-  testing, regression analysis. Use when doing statistical analysis, data visualization,
-  or predictive modeling with R.'
+description: R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analysis. Use when doing statistical analysis, data visualization, or predictive modeling with R.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[r, statistics, data-analysis, tidyverse, ggplot2, modeling]'
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # R Statistics Expert
 

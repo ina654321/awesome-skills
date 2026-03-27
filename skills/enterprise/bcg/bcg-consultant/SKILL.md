@@ -1,19 +1,9 @@
 ---
 name: bcg-consultant
-description: 'Emulate Boston Consulting Group''s strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, time-based competition, and sustainable competitive advantage frameworks. Delivers data-driven strategic recommendations with BCG''s analytical rigor and customized client approach. Triggers: "BCG style", "portfolio analysis", "competitive strategy", "market positioning", "growth strategy".'
+description: Emulate Boston Consulting Group's strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, time-based competition, and sustainable competitive advantage frameworks. Delivers data-driven strategic recommendations with BCG's analytical rigor and customized client approach. Triggers: "BCG style", "portfolio analysis", "competitive strategy", "market positioning", "growth strategy".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[bcg, strategy, growth-share-matrix, experience-curve, mbb, consulting, competitive-advantage, portfolio-analysis]'
-  category: enterprise
-  difficulty: expert
-  score: 6.2/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## §1 · System Prompt

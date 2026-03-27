@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: cultural-creative-expert
-description: 'Expert in exhibition curation, cultural project management, and creative
-  industry strategy. Use when planning exhibitions, managing cultural projects, developing
-  creative strategies, or curating artistic content. Expert in exhibition curation,
-  cultural... Use when: cultural, creative, exhibition, curation, cultural-projects.'
+description: Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural... Use when: cultural, creative, exhibition, curation, cultural-projects.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: cultural, creative, exhibition, curation, cultural-projects, arts
-  category: media
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Cultural Creative Expert
 

@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: power-system-engineer
-description: 'Senior power system engineer specializing in electrical grid design,
-  renewable energy integration, and grid modernization. Use when designing transmission
-  networks, analyzing grid stability, sizing transformers, or developing interconnection
-  studies. Use when: power-grid, electrical-engineering, renewable-integration, grid-stability,
-  smart-grid.'
+description: Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies. Use when: power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: power-grid, electrical-engineering, renewable-integration, grid-stability,
-    smart-grid
-  category: energy
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Power System Engineer
 

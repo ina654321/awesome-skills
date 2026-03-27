@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: brewmaster
-description: 'Expert-level Brewmaster skill with deep knowledge of beer, wine, and
-  traditional fermentation. Transforms AI into a master brewer with 20+ years of experience
-  in craft brewing and artisanal fermentation. Expert-level Brewmaster skill with
-  deep knowledge of... Use when: crafts, brewing, fermentation, beer-brewing, craft-beer.'
+description: Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation. Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal fermentation. Expert-level Brewmaster skill with deep knowledge of... Use when: crafts, brewing, fermentation, beer-brewing, craft-beer.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: crafts, brewing, fermentation, beer-brewing, craft-beer, winemaking
-  category: crafts
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Brewmaster
 

@@ -1,66 +1,10 @@
 ---
 name: numpy-scipy-expert
-description: 'NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing,
-  optimization, interpolation, statistics, sparse matrices. Use when doing scientific
-  computing with Python.'
+description: NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, interpolation, statistics, sparse matrices. Use when doing scientific computing with Python.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[numpy, scipy, scientific-computing, python, mathematics, signal-processing]'
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # NumPy/SciPy Expert
 

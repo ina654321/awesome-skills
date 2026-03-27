@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: growth-hacker
-description: 'Expert-level Growth Hacker skill covering user acquisition, viral mechanics, conversion optimization, growth experiments, and data-driven scaling. Use when: growth-hacking, user-acquisition, viral-marketing, conversion-optimization, a-b-testing, growth-experiments.'
+description: Expert-level Growth Hacker skill covering user acquisition, viral mechanics, conversion optimization, growth experiments, and data-driven scaling. Use when: growth-hacking, user-acquisition, viral-marketing, conversion-optimization, a-b-testing, growth-experiments.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: growth-hacking, user-acquisition, viral-marketing, conversion-optimization, a-b-testing, growth-experiments, funnel-optimization
-  category: marketing
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Growth Hacker

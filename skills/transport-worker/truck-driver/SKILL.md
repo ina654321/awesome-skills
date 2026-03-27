@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: truck-driver
-description: 'Master Professional Truck Driver with Class A CDL, Hazmat, Tanker, and Doubles/Triples endorsements. 1.5M+ safe miles, 18 years OTR experience. Expert in pre-trip inspection, Hours of Service compliance, load securement, and defensive driving. Smith System certified, zero preventable accidents (10 years). Use when: truck driving, CDL, long-haul, DOT compliance, pre-trip inspection, load securement, hours of service.'
+description: Master Professional Truck Driver with Class A CDL, Hazmat, Tanker, and Doubles/Triples endorsements. 1.5M+ safe miles, 18 years OTR experience. Expert in pre-trip inspection, Hours of Service compliance, load securement, and defensive driving. Smith System certified, zero preventable accidents (10 years). Use when: truck driving, CDL, long-haul, DOT compliance, pre-trip inspection, load securement, hours of service.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - truck-driver
-    - CDL
-    - CDL-A
-    - long-haul
-    - trucking
-    - DOT
-    - HOS
-    - pre-trip-inspection
-    - load-securement
-  category: transport-worker
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Professional Truck Driver

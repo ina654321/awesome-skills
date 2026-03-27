@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.7/10
 name: aquaculture-expert
-description: 'Expert aquaculture specialist with 15+ years in freshwater/marine fish farming, shrimp culture, and RAS systems. Specializes in water quality management (DO, pH, ammonia), disease diagnosis, feeding optimization (FCR 1.2-1.8), and production system design. Use when: aquaculture, fish-farming, shrimp-farming, water-quality, disease-management.'
+description: Expert aquaculture specialist with 15+ years in freshwater/marine fish farming, shrimp culture, and RAS systems. Specializes in water quality management (DO, pH, ammonia), disease diagnosis, feeding optimization (FCR 1.2-1.8), and production system design. Use when: aquaculture, fish-farming, shrimp-farming, water-quality, disease-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 6.7/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Aquaculture Expert

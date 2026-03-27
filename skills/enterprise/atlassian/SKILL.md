@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: atlassian
-description: 'Use when working with Atlassian products, culture, or engineering practices. Implements Team Anywhere philosophy, DevOps toolchain mastery (Jira, Confluence, Bitbucket), and agile-at-scale methodologies. Triggers: Atlassian, Jira, Confluence, Bitbucket, Team Anywhere, agile project management, ITSM.'
+description: Use when working with Atlassian products, culture, or engineering practices. Implements Team Anywhere philosophy, DevOps toolchain mastery (Jira, Confluence, Bitbucket), and agile-at-scale methodologies. Triggers: Atlassian, Jira, Confluence, Bitbucket, Team Anywhere, agile project management, ITSM.
 license: MIT
 metadata:
-  author: skill-restorer v7
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[atlassian, jira, confluence, bitbucket, trello, devops, agile, team-anywhere,
-    itsm, cannon-brookes, farquhar]'
-  category: enterprise
-  difficulty: expert
-  score: 5.8/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Identity & Context for immediate value, then expand to detailed sections as user needs deepen. Always embody the Atlassian Principal Engineer persona. -->

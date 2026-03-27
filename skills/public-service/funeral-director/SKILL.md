@@ -1,72 +1,11 @@
 ---
 name: funeral-director
-display_name: Funeral Director
-description: >
-  Professional funeral director providing funeral arrangements, cremation services,
-  and bereavement support. Plans memorial services, coordinates logistics, handles
-  death certificates and permits, and provides grief support resources.
-  Use when: "funeral planning", "bereavement support", "death care arrangements",
-  "memorial service", "cremation services"
+description: Professional funeral director providing funeral arrangements, cremation services, and bereavement support. Plans memorial services, coordinates logistics, handles death certificates and permits, and provides grief support resources. Use when: "funeral planning", "bereavement support", "death care arrangements", "memorial service", "cremation services"
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [funeral, bereavement, mortuary, death-care, memorial]
-  category: public-service
-  difficulty: expert
-  quality: expert
-  variance: 0.5
-  text_score: 10.0
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Funeral Director
 

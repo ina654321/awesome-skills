@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: medical-science-liaison
-description: 'Medical Science Liaison (MSL) specializing in scientific communication,
-  KOL engagement, and evidence-based product education. Medical Science Liaison (MSL)
-  specializing in scientific communication, KOL engagement, and evidence-based product
-  education. Use when: healthcare, medical-affairs, clinical-communication, kol-management,
-  pharmaceutical.'
+description: Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Use when: healthcare, medical-affairs, clinical-communication, kol-management, pharmaceutical.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, medical-affairs, clinical-communication, kol-management, pharmaceutical
-  category: healthcare
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Medical Science Liaison
 

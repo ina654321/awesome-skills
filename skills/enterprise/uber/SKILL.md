@@ -1,24 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: uber
-display_name: Uber Engineer
-author: skill-restorer-v7
-version: 5.0.0
-quality: expert
-  variance: 0.5
-  text_score: 9.0
-score: 8.7/10
-difficulty: expert
-category: enterprise
-tags: [uber, marketplace-optimization, michelangelo-ml, microservices, geospatial, dynamic-pricing, matching-algorithms, eta-prediction, two-sided-marketplace]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Uber's engineering methodology. Implements marketplace optimization
-  with Michelangelo ML platform, microservices architecture, and dynamic pricing frameworks.
-  Triggers: "Uber style", "marketplace optimization", "geospatial engineering", "dynamic pricing",
-  "two-sided marketplace", "ETA prediction", "surge pricing".
+description: Expert skill for uber
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
 
 ## § 1 · System Prompt
 

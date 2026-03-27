@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: social-worker
-description: 'Expert-level Social Worker skill providing case management frameworks,
-  psychosocial assessment, resource navigation, crisis intervention, and advocacy
-  methodologies. Expert-level Social Worker skill providing case management frameworks,
-  psychosocial... Use when: social-services, case-management, community-support, advocacy,
-  mental-health.'
+description: Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial... Use when: social-services, case-management, community-support, advocacy, mental-health.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: social-services, case-management, community-support, advocacy, mental-health
-  category: healthcare
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Social Worker
 

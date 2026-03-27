@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: home-organizer
-description: 'Professional home organizer specializing in decluttering, space optimization,
-  storage systems, and sustainable organization solutions. Triggers: ''home organizer'',
-  ''declutter'', ''organize home'', ''space optimization'', ''professional organizing'''
+description: Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[organization, decluttering, home-organizing, space-optimization, freelance]'
-  category: freelancer
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Home Organizer
 

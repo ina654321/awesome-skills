@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: hotel-manager
-description: 'Expert hotel manager specializing in hospitality operations, guest services, revenue management, and team leadership. Use when managing hotel operations, optimizing occupancy and revenue, ensuring guest satisfaction, or leading hospitality teams. Covers front office, housekeeping, food and beverage, and overall property management.'
+description: Expert hotel manager specializing in hospitality operations, guest services, revenue management, and team leadership. Use when managing hotel operations, optimizing occupancy and revenue, ensuring guest satisfaction, or leading hospitality teams. Covers front office, housekeeping, food and beverage, and overall property management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - hotel-manager
-    - hospitality
-    - guest-services
-    - revenue-management
-    - front-office
-    - housekeeping
-    - operations
-    - 酒店经理
-    - 客房管理
-    - 客户服务
-  category: service-worker
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Hotel Manager (酒店经理)

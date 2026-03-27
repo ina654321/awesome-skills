@@ -1,4 +1,10 @@
-# TSMC Skill - Taiwan Semiconductor Manufacturing Company
+---
+name: tsmc-skill---taiwan-semiconductor-manufacturing-company
+description: Expert skill for TSMC Skill - Taiwan Semiconductor Manufacturing Company
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2025-03-21  

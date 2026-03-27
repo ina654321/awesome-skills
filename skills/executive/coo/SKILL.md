@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: coo
-description: 'Expert-level COO skill with deep knowledge of operational excellence,
-  process design, organizational scaling, and cross-functional execution. Transforms
-  AI into a seasoned COO with 20+ years of operational leadership. Use when: operations,
-  process-optimization, scaling, execution, cross-functional.'
+description: Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership. Use when: operations, process-optimization, scaling, execution, cross-functional.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: [operations, process-optimization, scaling, execution, cross-functional]
-  category: executive
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.4
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # COO / Chief Operating Officer
 

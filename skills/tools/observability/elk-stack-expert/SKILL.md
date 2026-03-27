@@ -1,63 +1,10 @@
 ---
 name: elk-stack-expert
-description: 'ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log
-  analytics with ELK Stack. Triggers: ''ELK'', ''日志分析'', ''Elasticsearch'', ''Kibana'',
-  ''Logstash'', ''Elastic Stack''. Works with: Claude Code, Codex, OpenCode, Cursor,
-  Cline, OpenClaw, Kimi.'
+description: ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Triggers: 'ELK', '日志分析', 'Elasticsearch', 'Kibana', 'Logstash', 'Elastic Stack'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]'
-  category: tools
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.1
-  variance: 2.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ELK Stack Expert
 

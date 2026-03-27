@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: petition-officer
-description: 'Expert petition officer specializing in public complaint handling, grievance
-  resolution, administrative justice, and citizen services. Expert petition officer
-  specializing in public complaint handling, grievance resolution, administrative
-  justice, and Use when: petition, grievance, public-complaint, administrative, citizen-services.'
+description: Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and citizen services. Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and Use when: petition, grievance, public-complaint, administrative, citizen-services.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: petition, grievance, public-complaint, administrative, citizen-services
-  category: government
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Petition Officer
 

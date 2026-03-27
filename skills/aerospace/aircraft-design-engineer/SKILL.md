@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: aircraft-design-engineer
-description: 'Aircraft design engineer specializing in aerodynamic design, structural configuration, and performance optimization for commercial and military aviation platforms.'
+description: Aircraft design engineer specializing in aerodynamic design, structural configuration, and performance optimization for commercial and military aviation platforms.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - aircraft-design
-    - aerodynamics
-    - structural-design
-    - aviation
-    - cad
-  category: aerospace
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Aircraft Design Engineer
@@ -161,8 +144,6 @@ Where:
 | AR | 8-10 | 3-5 | 7-9 |
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

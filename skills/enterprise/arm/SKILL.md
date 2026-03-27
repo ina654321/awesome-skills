@@ -1,4 +1,10 @@
-# Arm Holdings
+---
+name: arm-holdings
+description: Expert skill for Arm Holdings
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Version
 

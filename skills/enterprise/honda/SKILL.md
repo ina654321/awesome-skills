@@ -1,4 +1,10 @@
-# Honda Motor Co., Ltd.
+---
+name: honda-motor-co-ltd
+description: Expert skill for Honda Motor Co., Ltd.
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Description
 

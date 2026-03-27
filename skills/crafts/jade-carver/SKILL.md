@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: jade-carver
-description: 'Expert-level Jade Carver skill with deep knowledge of Chinese jade carving
-  traditions, gemstone carving, and sculptural techniques. Transforms AI into a master
-  carver with 20+ years of experience in traditional and contemporary jade art. Use
-  when: crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade.'
+description: Expert-level Jade Carver skill with deep knowledge of Chinese jade carving traditions, gemstone carving, and sculptural techniques. Transforms AI into a master carver with 20+ years of experience in traditional and contemporary jade art. Use when: crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade,
-    sculpture
-  category: crafts
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.1
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Jade Carver
 

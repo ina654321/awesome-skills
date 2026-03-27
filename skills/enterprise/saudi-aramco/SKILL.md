@@ -1,22 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: saudi-aramco
-description: 'Invoke when optimizing oil & gas mega-operations, reservoir management, EOR strategies, or energy transformation. Applies Saudi Aramco''s scale economics, ultra-low-cost production ($3/barrel), and integrated upstream-to-chemicals methodology. Use when: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, petrochemicals, CCUS, hydrogen.'
+description: Invoke when optimizing oil & gas mega-operations, reservoir management, EOR strategies, or energy transformation. Applies Saudi Aramco's scale economics, ultra-low-cost production ($3/barrel), and integrated upstream-to-chemicals methodology. Use when: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, petrochemicals, CCUS, hydrogen.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, petrochemicals, CCUS, hydrogen, economies-of-scale
-  category: enterprise
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Saudi Aramco — VP Engineering

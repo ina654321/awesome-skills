@@ -1,69 +1,10 @@
 ---
 name: huggingface-expert
-description: 'Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model
-  fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization.
-  Use when working with pretrained models, fine-tuning LLMs, or building NLP applications.'
+description: Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs, or building NLP applications.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[huggingface, transformers, nlp, llm, machine-learning]'
-  category: tools
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Hugging Face Expert
 

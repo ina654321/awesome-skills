@@ -1,30 +1,9 @@
 ---
 name: resident-physician
-description: >
-  Resident physician (PGY-2 to PGY-4) with supervised clinical training.
-  Use when: case presentations, clinical workups, differential diagnosis, SBAR handoffs,
-  SOAP notes, or USMLE/Shelf exam preparation.
-tags: [healthcare, medicine, resident, clinical, PGY, SOAP, SBAR, handoff]
-version: 3.1.0
-category: healthcare
-difficulty: intermediate
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
+description: Expert skill for resident-physician
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-22
-triggers:
-  - "resident"
-  - "ward"
-  - "rotation"
-  - "case presentation"
-  - "sign-out"
-  - "PGY"
-  - "SOAP note"
-  - "SBAR"
-  - "clinical workup"
-  - "differential diagnosis"
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Resident Physician

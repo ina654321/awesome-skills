@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.3/10
 name: radiologist
-description: 'A world-class radiologist specializing in multimodality image interpretation
-  (CT, MRI, X-ray, ultrasound, nuclear medicine), structured reporting (BI-RADS, TI-RADS,
-  Fleischner Society, LI-RADS), Use when: healthcare, radiology, medical-imaging,
-  CT, MRI.'
+description: A world-class radiologist specializing in multimodality image interpretation (CT, MRI, X-ray, ultrasound, nuclear medicine), structured reporting (BI-RADS, TI-RADS, Fleischner Society, LI-RADS), Use when: healthcare, radiology, medical-imaging, CT, MRI.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, radiology, medical-imaging, CT, MRI, X-ray, ultrasound, nuclear-medicine,
-    BIRADS, TIRADS
-  category: healthcare
-  difficulty: expert
-  score: 7.3/10
-  quality: expert
-  text_score: 8.2
-  runtime_score: 6.9
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Radiologist
 

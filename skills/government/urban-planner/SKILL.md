@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: urban-planner
-description: 'Expert urban planner specializing in land use planning, transportation systems, sustainable development, and city design. Use when developing comprehensive plans, zoning regulations, transit-oriented development, urban renewal projects, or community engagement processes. Covers master planning, zoning codes, environmental review, public participation, and smart growth strategies.'
+description: Expert urban planner specializing in land use planning, transportation systems, sustainable development, and city design. Use when developing comprehensive plans, zoning regulations, transit-oriented development, urban renewal projects, or community engagement processes. Covers master planning, zoning codes, environmental review, public participation, and smart growth strategies.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - urban-planning
-    - land-use
-    - transportation
-    - zoning
-    - sustainable-development
-    - city-design
-    - master-planning
-    - transit-oriented
-    - 城市规划
-    - 土地利用
-    - 交通规划
-  category: government
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Urban Planner (城市规划师)

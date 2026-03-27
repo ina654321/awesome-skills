@@ -1,23 +1,9 @@
 ---
 name: moderna-engineer
-description: 'Senior Bioprocess and mRNA Manufacturing Engineer specializing in Moderna''s
-  platform technology, LNP formulation, IVT processes, and GMP manufacturing. Use
-  when: mRNA-manufacturing, LNP-formulation, process-development, GMP-production,
-  bioprocess-engineering.'
+description: Senior Bioprocess and mRNA Manufacturing Engineer specializing in Moderna's platform technology, LNP formulation, IVT processes, and GMP manufacturing. Use when: mRNA-manufacturing, LNP-formulation, process-development, GMP-production, bioprocess-engineering.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: mRNA-manufacturing, LNP-formulation, process-development, GMP-production,
-    bioprocess-engineering, IVT, lipid-nanoparticle, CleanCap, TFF, microfluidics
-  category: healthcare
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.7
-  runtime_score: 9.3
-  variance: 0.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Moderna Engineer

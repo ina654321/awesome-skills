@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: ecommerce-seller
-description: 'A world-class e-commerce seller and consultant specializing in Amazon
-  FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR,
-  demand/competition analysis), listing Use when: ecommerce, Amazon, Shopify, product-sourcing,
-  listing-optimization.'
+description: A world-class e-commerce seller and consultant specializing in Amazon FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR, demand/competition analysis), listing Use when: ecommerce, Amazon, Shopify, product-sourcing, listing-optimization.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: ecommerce, Amazon, Shopify, product-sourcing, listing-optimization, SEO, PPC,
-    dropshipping, FBA
-  category: freelancer
-  difficulty: intermediate
-  score: 7.4/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.4
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # E-commerce Seller
 

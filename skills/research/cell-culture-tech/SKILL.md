@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: cell-culture-tech
-description: 'Expert cell culture technician with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Specializes in HEK293, HeLa, CHO, and primary cells. Use when: cell-culture, aseptic-technique, cell-passaging, tissue-culture, mycoplasma-testing.'
+description: Expert cell culture technician with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Specializes in HEK293, HeLa, CHO, and primary cells. Use when: cell-culture, aseptic-technique, cell-passaging, tissue-culture, mycoplasma-testing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Cell Culture Technician

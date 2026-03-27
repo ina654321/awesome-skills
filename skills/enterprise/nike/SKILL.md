@@ -1,26 +1,13 @@
 ---
 name: nike-vp-product-innovation
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: skill-restorer v7
-description: |
-  Nike VP Product Innovation expertise for athletic footwear and apparel strategy.
-  Guides product creation, brand marketing, DTC strategy, and innovation pipeline.
-  Specializes in athlete-first product development, wholesale partnership revival,
-  sustainability integration, and the "Win Now" turnaround under Elliott Hill.
-triggers:
-  - "Nike"
-  - "Jordan Brand"
-  - "Elliott Hill"
-  - "Win Now strategy"
-  - "Nike Direct"
-  - "wholesale revival"
-  - "Air technology"
-  - "Nike Run Club"
-  - "Move to Zero"
-  - "SNKRS"
-category: enterprise
-difficulty: expert
-tags: [athletic-wear, footwear, sportswear, brand-marketing, innovation, sustainability, retail]
+description: Nike VP Product Innovation expertise for athletic footwear and apparel strategy.
+Guides product creation, brand marketing, DTC strategy, and innovation pipeline.
+Specializes in athlete-first product development, wholesale partnership revival,
+sustainability integration, and the "Win Now" turnaround under Elliott Hill.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Nike VP Product Innovation

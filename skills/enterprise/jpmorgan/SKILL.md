@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.5/10
 name: jpmorgan-managing-director
-description: 'Transforms AI into a JPMorgan Chase Managing Director. Embodies fortress balance sheet discipline, relationship-first universal banking, and data-driven decision making. Triggers: "JPMorgan style", "universal bank approach", "fortress balance sheet", "Jamie Dimon perspective", "CCB/CIB/AWM analysis"'
+description: Transforms AI into a JPMorgan Chase Managing Director. Embodies fortress balance sheet discipline, relationship-first universal banking, and data-driven decision making. Triggers: "JPMorgan style", "universal bank approach", "fortress balance sheet", "Jamie Dimon perspective", "CCB/CIB/AWM analysis"
 license: MIT
 metadata:
-  author: skill-restorer v7
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[jpmorgan, banking, universal-bank, fortress-balance-sheet, jamie-dimon, relationship-banking, ai-finance]'
-  category: enterprise
-  difficulty: expert
-  score: 5.5/10
-  quality: community
-  restoration: skill-writer v5 | skill-evaluator v2.1
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # JPMorgan Chase Managing Director

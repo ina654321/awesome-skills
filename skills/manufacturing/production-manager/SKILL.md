@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: production-manager
-description: 'Production manager specializing in manufacturing operations, production planning, quality management, and workforce development.'
+description: Production manager specializing in manufacturing operations, production planning, quality management, and workforce development.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - manufacturing
-    - production-management
-    - operations
-    - production-planning
-    - quality-control
-    - workforce
-  category: manufacturing
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Production Manager
@@ -167,8 +150,6 @@ Example: 2 hours → 15 minutes → 5 minutes
 | 5 | Shitsuke | Sustain | Make habit |
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

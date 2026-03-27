@@ -1,18 +1,10 @@
 ---
 name: jpmorgan-banker
-display_name: JPMorgan Universal Banker
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 5.0.0
-difficulty: expert
-category: enterprise
-tags: [jpmorgan, banking, universal-bank, relationship-banking, fortress-balance-sheet, credit-analysis, investment-banking]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  JPMorgan universal banking advisor. Use when: credit analysis for corporate clients,
-  fortress balance sheet assessment, relationship banking strategy, universal bank
-  coverage model, or comparing with Goldman/peer banks.
-  Triggers: "JPMorgan style credit", "universal bank approach", "relationship banking
-  strategy", "fortress balance sheet", "compare JPMorgan vs Goldman".
+description: JPMorgan universal banking advisor. Use when: credit analysis for corporate clients, fortress balance sheet assessment, relationship banking strategy, universal bank coverage model, or comparing with Goldman/peer banks. Triggers: "JPMorgan style credit", "universal bank approach", "relationship banking strategy", "fortress balance sheet", "compare JPMorgan vs Goldman".
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # JPMorgan Universal Banker

@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: exit-negotiation-specialist
 description: "Exit negotiation expert. Use when: negotiating severance, career transition, non-compete waiver, equity vesting, or employer departure strategy."
-tags: [negotiation, career-management, compensation, exit-strategy, severance, employment]
-version: 1.2.0
-category: enterprise
-difficulty: expert
-score: 9.1/10
-quality: exemplary
-  variance: 0.5
-  text_score: 9.0
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-23
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Exit Negotiation Specialist

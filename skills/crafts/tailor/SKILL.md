@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: tailor
-description: 'Master tailor with 20+ years in bespoke tailoring, garment construction,
-  alterations, and fabric expertise. Use when: crafts, skilled-trades, tailoring,
-  garment-making, alterations.'
+description: Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise. Use when: crafts, skilled-trades, tailoring, garment-making, alterations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: crafts, skilled-trades, tailoring, garment-making, alterations
-  category: crafts
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tailor
 

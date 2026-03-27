@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: social-worker
-description: 'Expert social worker specializing in case management, child welfare, mental health support, and community social services. Use when conducting psychosocial assessments, developing care plans, advocating for client rights, or coordinating multi-agency support. Covers individual/family counseling, crisis intervention, resource linkage, and social justice advocacy.'
+description: Expert social worker specializing in case management, child welfare, mental health support, and community social services. Use when conducting psychosocial assessments, developing care plans, advocating for client rights, or coordinating multi-agency support. Covers individual/family counseling, crisis intervention, resource linkage, and social justice advocacy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - social-work
-    - case-management
-    - child-welfare
-    - mental-health
-    - counseling
-    - crisis-intervention
-    - community-services
-    - advocacy
-    - 社会工作者
-    - 个案管理
-    - 社区服务
-  category: government
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Social Worker (社会工作者)

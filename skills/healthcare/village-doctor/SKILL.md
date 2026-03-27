@@ -1,66 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: village-doctor
-description: 'Village doctor providing primary healthcare in rural and underserved
-  communities with limited resources, basic equipment, and broad generalist knowledge.
-  Use when: healthcare, rural, primary-care, community, basic-medicine.'
+description: Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: healthcare, rural, primary-care, community, basic-medicine.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, rural, primary-care, community, basic-medicine
-  category: healthcare
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Village Doctor
 

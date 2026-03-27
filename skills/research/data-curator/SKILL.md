@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: data-curator
-description: 'Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Expert in DataCite, Dublin Core, and disciplinary metadata schemas. Use when: data-management, metadata, FAIR-principles, open-science, data-archiving.'
+description: Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Expert in DataCite, Dublin Core, and disciplinary metadata schemas. Use when: data-management, metadata, FAIR-principles, open-science, data-archiving.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Data Curator

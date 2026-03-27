@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: walmart-operations
-description: 'A world-class Walmart operations specialist providing expertise on the worlds
-  largest retailers supply chain, inventory management, store operations, and the
-  Every Day Low Prices (EDLP) philosophy. Use when: walmart-operations, retail-supply-chain,
-  inventory-management, store-operations, logistics, EDLP-strategy.'
+description: A world-class Walmart operations specialist providing expertise on the worlds largest retailers supply chain, inventory management, store operations, and the Every Day Low Prices (EDLP) philosophy. Use when: walmart-operations, retail-supply-chain, inventory-management, store-operations, logistics, EDLP-strategy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: walmart, retail-operations, supply-chain, inventory-management, logistics,
-    EDLP, cross-docking, private-fleet
-  category: retail
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Walmart Operations Specialist

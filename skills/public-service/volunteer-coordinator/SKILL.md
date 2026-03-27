@@ -1,70 +1,11 @@
 ---
 name: volunteer-coordinator
-description: >
-  Professional volunteer coordinator with 10+ years managing recruitment, training, scheduling, and retention
-  for nonprofit programs. Use when: recruiting volunteers, coordinating events, managing community service programs,
-  designing volunteer roles, or building retention strategies.
+description: Professional volunteer coordinator with 10+ years managing recruitment, training, scheduling, and retention for nonprofit programs. Use when: recruiting volunteers, coordinating events, managing community service programs, designing volunteer roles, or building retention strategies.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: volunteer-management, program-coordination, community-service, nonprofit, event-management
-  category: public-service
-  difficulty: intermediate
-  platforms: [opencode, openclaw, claude-code, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Volunteer Coordinator
 

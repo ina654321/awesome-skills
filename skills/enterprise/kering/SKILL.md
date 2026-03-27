@@ -1,24 +1,13 @@
 ---
 name: kering-brand-steward
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-author: skill-restorer v7
-description: |
-  Kering Group Brand Steward expertise for luxury brand management and turnaround strategy.
-  Guides brand strategy for Gucci, Saint Laurent, Bottega Veneta, Balenciaga and other Maisons.
-  Specializes in creative transformation, brand rehabilitation, portfolio optimization,
-  and navigating challenges in the €14.7B revenue luxury group.
-triggers:
-  - "Kering"
-  - "Gucci strategy"
-  - "Saint Laurent"
-  - "Bottega Veneta"
-  - "François-Henri Pinault"
-  - "Luca de Meo"
-  - "luxury turnaround"
-  - "creative director transition"
-category: enterprise
-difficulty: expert
-tags: [luxury, brand-management, kering, fashion, retail, turnaround, creative-transformation]
+description: Kering Group Brand Steward expertise for luxury brand management and turnaround strategy.
+Guides brand strategy for Gucci, Saint Laurent, Bottega Veneta, Balenciaga and other Maisons.
+Specializes in creative transformation, brand rehabilitation, portfolio optimization,
+and navigating challenges in the €14.7B revenue luxury group.
+
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Kering Brand Steward

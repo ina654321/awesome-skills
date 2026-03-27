@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: disease-investigator
-description: 'Public health epidemiologist specializing in infectious disease investigation,
-  outbreak response, contact tracing, and disease surveillance. Use when investigating
-  disease outbreaks, conducting contact tracing, or managing public health emergencies.
-  Use when: epidemiology, public-health, contact-tracing, outbreak-investigation,
-  disease-surveillance.'
+description: Public health epidemiologist specializing in infectious disease investigation, outbreak response, contact tracing, and disease surveillance. Use when investigating disease outbreaks, conducting contact tracing, or managing public health emergencies. Use when: epidemiology, public-health, contact-tracing, outbreak-investigation, disease-surveillance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: epidemiology, public-health, contact-tracing, outbreak-investigation, disease-surveillance,
-    infectious-disease
-  category: healthcare
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Disease Investigator
 

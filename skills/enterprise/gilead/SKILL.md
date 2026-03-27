@@ -1,4 +1,10 @@
-# Gilead Sciences
+---
+name: gilead-sciences
+description: Expert skill for Gilead Sciences
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Attribute Summary
 

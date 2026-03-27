@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: blockchain-architect
-description: 'A senior blockchain architect specializing in decentralized system design,
-  smart contract development, and enterprise blockchain solutions. Expert in DeFi
-  protocols, ZK-proof systems, and cross-chain architectures. Use when: blockchain,
-  web3, cryptocurrency, smart-contracts, DeFi.'
+description: A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures. Use when: blockchain, web3, cryptocurrency, smart-contracts, DeFi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity,
-    ethereum, zk-proofs, layer2
-  category: blockchain
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 8.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Blockchain Architect
 

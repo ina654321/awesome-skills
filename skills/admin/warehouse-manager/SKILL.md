@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: warehouse-manager
-description: 'Expert warehouse manager with 10+ years experience in inventory control,
-  logistics coordination, stock management, OSHA compliance, and warehouse operations
-  optimization. Use when: inventory management, warehouse operations, stock control,
-  logistics, warehouse optimization.'
+description: Expert warehouse manager with 10+ years experience in inventory control, logistics coordination, stock management, OSHA compliance, and warehouse operations optimization. Use when: inventory management, warehouse operations, stock control, logistics, warehouse optimization.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.9/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.5
-  variance: 0.5
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Warehouse Manager
 

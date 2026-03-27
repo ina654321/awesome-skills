@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: hr-manager
-description: 'Expert-level HR Manager skill covering talent management, employee development, performance management, organizational design, and HR strategy. Use when: hr-management, talent-management, performance-management, employee-development, organizational-design.'
+description: Expert-level HR Manager skill covering talent management, employee development, performance management, organizational design, and HR strategy. Use when: hr-management, talent-management, performance-management, employee-development, organizational-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: '2026-03-21'
-  tags: hr-management, talent-management, performance-management, employee-development, organizational-design, culture
-  category: business
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # HR Manager

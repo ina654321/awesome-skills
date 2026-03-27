@@ -1,4 +1,10 @@
-# Home Depot Enterprise Skill
+---
+name: home-depot-enterprise-skill
+description: Expert skill for Home Depot Enterprise Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2025-03-21  

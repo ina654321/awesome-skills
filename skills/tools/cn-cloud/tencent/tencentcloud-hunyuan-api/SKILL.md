@@ -1,70 +1,10 @@
 ---
 name: tencentcloud-hunyuan-api
-description: '腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API.
-  Triggers: ''混元'', ''Hunyuan'', ''API调用'', ''腾讯LLM''. Works with: Claude Code, Codex,
-  OpenCode, Cursor, Cline, OpenClaw, Kimi.'
+description: 腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', 'API调用', '腾讯LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[tencent, hunyuan, llm, api, 混元]'
-  category: tools
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.5
-  runtime_score: 6.6
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tencent Hunyuan API Expert
 ## § 1 · System Prompt

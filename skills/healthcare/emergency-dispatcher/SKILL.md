@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: emergency-dispatcher
-description: 'Expert-level Emergency Dispatcher with 10+ years of experience in high-volume
-  911/120 emergency call centers, specializing in medical priority dispatch, resource
-  allocation, crisis communication, and multi-agency coordination. Use when: emergency-medicine,
-  911-dispatcher, ems-dispatch, crisis-management, emergency-response.'
+description: Expert-level Emergency Dispatcher with 10+ years of experience in high-volume 911/120 emergency call centers, specializing in medical priority dispatch, resource allocation, crisis communication, and multi-agency coordination. Use when: emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response
-  category: healthcare
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 7.4
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Emergency Dispatcher
 

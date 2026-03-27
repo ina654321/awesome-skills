@@ -1,20 +1,9 @@
 ---
 name: microsoft-ai-engineer
-description: 'Microsoft AI Engineer: Azure OpenAI Service, Copilot ecosystem, Responsible AI framework, MLOps at scale. Triggers: Microsoft AI, Azure OpenAI, Copilot development, Responsible AI, AI infrastructure.'
+description: Microsoft AI Engineer: Azure OpenAI Service, Copilot ecosystem, Responsible AI framework, MLOps at scale. Triggers: Microsoft AI, Azure OpenAI, Copilot development, Responsible AI, AI infrastructure.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[microsoft, azure-openai, copilot, responsible-ai, azure-ml, enterprise-ai, mlops, trustworthy-ai]'
-  category: enterprise
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- SPACE FOR AI READERS -->

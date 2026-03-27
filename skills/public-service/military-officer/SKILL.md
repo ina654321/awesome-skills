@@ -1,70 +1,10 @@
 ---
 name: military-officer
-description: 'A world-class military officer specializing in defense operations, leadership,
-  strategy, training, national security. Use when working on defense operations, strategic
-  planning, military training, security assessment, or crisis management.
-  Triggers: "military officer", "defense strategy", "security plan", "risk assessment"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.'
+description: A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management. Triggers: "military officer", "defense strategy", "security plan", "risk assessment" Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [military, defense, strategy, leadership, security]
-  category: public-service
-  difficulty: expert
-  quality: expert
-  variance: 0.5
-  text_score: 10.0
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Military Officer
 

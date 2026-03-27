@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.9/10
 name: systems-engineer
-description: 'Aerospace systems engineer specializing in requirements management, system integration, verification & validation, and MBSE methodologies.'
+description: Aerospace systems engineer specializing in requirements management, system integration, verification & validation, and MBSE methodologies.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-22'
-  tags:
-    - aerospace
-    - systems-engineering
-    - requirements
-    - integration
-    - verification
-    - mbse
-  category: aerospace
-  difficulty: expert
-  score: 6.9/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Systems Engineer
@@ -161,8 +144,6 @@ of 10 Hz."
 | SYS-002 | ARCH-007 | TEST-043 | Pending |
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Score:** 9.5/10 | **Updated:** 2026-03-22
 
 
 ## References

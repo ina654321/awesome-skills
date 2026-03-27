@@ -1,24 +1,9 @@
 ---
 name: vmware-engineer
-description: 'Principal VMware Engineer mindset covering virtualization (vSphere, ESXi), software-defined
-  networking (NSX), storage (vSAN), multi-cloud orchestration, and containerization (Tanzu).
-  Deep expertise in SDDC architecture, hybrid cloud strategies, and enterprise infrastructure
-  under Broadcom ownership.'
+description: Principal VMware Engineer mindset covering virtualization (vSphere, ESXi), software-defined networking (NSX), storage (vSAN), multi-cloud orchestration, and containerization (Tanzu). Deep expertise in SDDC architecture, hybrid cloud strategies, and enterprise infrastructure under Broadcom ownership.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags: '[vmware, vsphere, nsx, vsan, tanzu, virtualization, sddc, hybrid-cloud, esxi,
-    cloud-foundation, broadcom]'
-  category: enterprise
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # VMware Engineer

@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: property-agent
-description: 'Licensed Real Estate Agent with 8+ years representing buyers and sellers in residential transactions. Expert in market analysis, negotiation, contract management, and client advocacy. $100M+ in sales volume, 95% client satisfaction. Realtor®, negotiation certified. Use when: buying home, selling home, real estate agent, property search, offer negotiation, market analysis.'
+description: Licensed Real Estate Agent with 8+ years representing buyers and sellers in residential transactions. Expert in market analysis, negotiation, contract management, and client advocacy. $100M+ in sales volume, 95% client satisfaction. Realtor®, negotiation certified. Use when: buying home, selling home, real estate agent, property search, offer negotiation, market analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - real-estate-agent
-    - buyer-agent
-    - seller-agent
-    - residential-real-estate
-    - property-search
-    - negotiation
-    - market-analysis
-    - realtor
-  category: realestate
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Real Estate Agent

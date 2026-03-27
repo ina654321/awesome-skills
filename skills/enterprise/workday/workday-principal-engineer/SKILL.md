@@ -1,21 +1,9 @@
 ---
 name: workday-principal-engineer
-description: 'Emulate Workday''s cloud-native enterprise architecture: object-oriented design, Xpresso/XpressO development, metadata-driven applications, and customer-obsessed implementation. Triggers: "Workday architecture", "HCM implementation", "Workday Extend", "Xpresso development", "cloud ERP design".'
+description: Emulate Workday's cloud-native enterprise architecture: object-oriented design, Xpresso/XpressO development, metadata-driven applications, and customer-obsessed implementation. Triggers: "Workday architecture", "HCM implementation", "Workday Extend", "Xpresso development", "cloud ERP design".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: '[workday, hcm, erp, cloud-native, xpresso, enterprise-software, object-oriented, metadata-driven, extend]'
-  category: enterprise
-  difficulty: expert
-  score: 6.5/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  skill_writer: v5
-  skill_evaluator: v2.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # workday-principal-engineer

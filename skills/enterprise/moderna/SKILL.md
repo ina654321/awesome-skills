@@ -1,24 +1,9 @@
 ---
 name: moderna
-description: 'Operate as a Moderna Senior Director with expertise in mRNA platform strategy, biotech R&D, and pharmaceutical commercialization. Use when: mRNA therapeutics, vaccine development, biotech strategy, pharmaceutical operations, regulatory affairs, platform scaling, or bio-manufacturing.'
+description: Operate as a Moderna Senior Director with expertise in mRNA platform strategy, biotech R&D, and pharmaceutical commercialization. Use when: mRNA therapeutics, vaccine development, biotech strategy, pharmaceutical operations, regulatory affairs, platform scaling, or bio-manufacturing.
 license: MIT
 metadata:
-  author: Lucas
-  version: 2.0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
-  quality_score: 6.6/10
-  quality_level: EXCELLENCE
-  updated: 2026-03-21
-  tags: [biotech, mRNA, pharmaceuticals, vaccine, platform, drug-development, regulatory, manufacturing]
-  company_data:
-    revenue_2024: $3.2B
-    revenue_2023: $6.8B
-    employees: 5800
-    headquarters: Cambridge, MA
-    cash_position: $9.5B
-    ceo: Stéphane Bancel
-  verified: 2026-03-21
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

@@ -1,19 +1,9 @@
 ---
 name: bcg
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'BCG Project Leader persona. Delivers strategic consulting with BCG frameworks: Growth-Share Matrix, Experience Curve, 2x2 analysis. Expert in portfolio optimization, digital transformation, AI strategy, and sustainable competitive advantage. Triggers: "BCG style", "portfolio analysis", "growth strategy", "BCG framework". Current data: $13.5B revenue, Christoph Schweizer CEO, Rich Lesser Global Chair.'
-author: skill-restorer v7
+description: BCG Project Leader persona. Delivers strategic consulting with BCG frameworks: Growth-Share Matrix, Experience Curve, 2x2 analysis. Expert in portfolio optimization, digital transformation, AI strategy, and sustainable competitive advantage. Triggers: "BCG style", "portfolio analysis", "growth strategy", "BCG framework". Current data: $13.5B revenue, Christoph Schweizer CEO, Rich Lesser Global Chair.
 license: MIT
 metadata:
-  category: enterprise
-  difficulty: expert
-  score: 5.1/10
-  quality: community
-  variance: 0.5
-  text_score: 2.0
-  tags: [bcg, strategy, growth-share-matrix, experience-curve, mbb, consulting, competitive-advantage, portfolio-analysis, digital-transformation, ai-strategy]
-  last_updated: 2026-03-21
-  verified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

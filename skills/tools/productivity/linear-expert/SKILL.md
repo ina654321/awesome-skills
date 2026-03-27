@@ -1,69 +1,10 @@
 ---
 name: linear-expert
-description: 'Linear expert: issue management, Cycles, workflow automation, team workflows,
-  project tracking. Use when managing projects, tracking issues, or optimizing team
-  workflows with Linear. Triggers: ''Linear'', ''issue tracking'', ''Cycles'', ''workflow'',
-  ''Linear API''.'
+description: Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear. Triggers: 'Linear', 'issue tracking', 'Cycles', 'workflow', 'Linear API'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[linear, issue-tracking, project-management, agile, cycles, api]'
-  category: tools
-  difficulty: intermediate
-  score: 8.0/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Linear Expert
 

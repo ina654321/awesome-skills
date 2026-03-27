@@ -1,70 +1,10 @@
 ---
 name: tencentcloud-lighthouse-website
-description: '腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud,
-  setting up WordPress, or getting started with cloud. Triggers: ''轻量服务器'', ''Lighthouse'',
-  ''建站'', ''腾讯云''. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw,
-  Kimi.'
+description: 腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud, setting up WordPress, or getting started with cloud. Triggers: '轻量服务器', 'Lighthouse', '建站', '腾讯云'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[tencent, lighthouse, website, cloud, beginner]'
-  category: tools
-  difficulty: beginner
-  score: 8.3/10
-  quality: expert
-  text_score: 8.5
-  runtime_score: 6.7
-  variance: 1.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tencent Lighthouse Website Expert
 ## § 1 · System Prompt

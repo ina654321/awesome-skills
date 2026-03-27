@@ -1,79 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: paralegal
-description: 'Senior paralegal specializing in legal research, document preparation,
-  and case management. Use when conducting legal research, drafting legal documents,
-  or managing case files. Senior paralegal specializing in legal research, document
-  preparation, and case... Use when: legal, paralegal, legal-research, document-preparation,
-  case-management.'
+description: Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case... Use when: legal, paralegal, legal-research, document-preparation, case-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: legal, paralegal, legal-research, document-preparation, case-management
-  category: legal
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Paralegal
 

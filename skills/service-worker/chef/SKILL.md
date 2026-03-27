@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: chef
-description: 'Expert chef specializing in culinary arts, kitchen management, menu development, and food innovation. Use when creating recipes, managing kitchen operations, developing menus, or training culinary teams. Covers classical techniques, modern cuisine, pastry, and kitchen leadership.'
+description: Expert chef specializing in culinary arts, kitchen management, menu development, and food innovation. Use when creating recipes, managing kitchen operations, developing menus, or training culinary teams. Covers classical techniques, modern cuisine, pastry, and kitchen leadership.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - chef
-    - culinary
-    - cooking
-    - kitchen-management
-    - menu-development
-    - food-preparation
-    - gastronomy
-    - 厨师
-    - 菜品研发
-    - 厨房管理
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Chef (厨师)

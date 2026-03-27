@@ -1,4 +1,10 @@
-# Warner Bros. Discovery
+---
+name: warner-bros-discovery
+description: Expert skill for Warner Bros. Discovery
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 **EXCELLENCE 9.5/10** | skill-writer v5 | skill-evaluator v2.1
 

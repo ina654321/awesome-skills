@@ -1,68 +1,10 @@
 ---
 name: airflow-expert
-description: 'Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling,
-  dynamic mapping, branching, and production best practices. Use when building data
-  pipelines, orchestrating workflows, or managing Airflow deployments.'
+description: Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branching, and production best practices. Use when building data pipelines, orchestrating workflows, or managing Airflow deployments.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[airflow, workflow-orchestration, etl, data-pipelines, devops]'
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.7
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Airflow Expert
 

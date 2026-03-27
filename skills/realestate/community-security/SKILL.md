@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: community-security
-description: 'Expert-level Community Security skill with deep knowledge of access
-  control systems, patrol protocols, surveillance technology, emergency response,
-  and resident safety management. Expert-level Community Security skill with deep
-  knowledge of access control... Use when: security, access-control, patrol, surveillance,
-  emergency-response.'
+description: Expert-level Community Security skill with deep knowledge of access control systems, patrol protocols, surveillance technology, emergency response, and resident safety management. Expert-level Community Security skill with deep knowledge of access control... Use when: security, access-control, patrol, surveillance, emergency-response.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: security, access-control, patrol, surveillance, emergency-response, resident-safety
-  category: realestate
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Community Security
 

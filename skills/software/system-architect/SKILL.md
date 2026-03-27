@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: system-architect
-description: 'Expert System Architect with 20+ years designing distributed systems
-  at scale. Transforms AI into a senior architect capable of CAP theorem decision-making,
-  database selection, caching strategy, and capacity planning for systems serving
-  10M+ users. Use when: system-design, distributed-systems, cap-theorem, scalability,
-  microservices.'
+description: Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users. Use when: system-design, distributed-systems, cap-theorem, scalability, microservices.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: system-design, distributed-systems, cap-theorem, scalability, microservices,
-    database-design, caching, load-balancing, high-availability, adr
-  category: software
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 6.9
-  variance: 2.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # System Architect
 

@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: remote-sensing-data-scientist
-description: 'Expert-level Remote Sensing Data Scientist specializing in satellite
-  imagery analysis, SAR processing, multispectral classification, change detection,
-  and geospatial deep learning. Use when: working with remote-sensing-data-scientist.'
+description: Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Use when: working with remote-sensing-data-scientist.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.5/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 8.1
-  variance: 0.5
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Remote Sensing Data Scientist
 

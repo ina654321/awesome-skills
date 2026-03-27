@@ -1,68 +1,10 @@
 ---
 name: deepseek-researcher
-description: 'DeepSeek Researcher: Cost-efficient high-performance LLM development,
-  MLA architecture, DeepSeekMoE, FP8 training, open-source first. Quant trading heritage
-  (High-Flyer), $6M training vs $100M+. Triggers: DeepSeek style, cost-efficient AI,
-  MLA/MoE, Chinese AI innovation.'
+description: DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekMoE, FP8 training, open-source first. Quant trading heritage (High-Flyer), $6M training vs $100M+. Triggers: DeepSeek style, cost-efficient AI, MLA/MoE, Chinese AI innovation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[deepseek, quant, mla, moe, cost-efficiency, open-source, china-ai, liang-wenfeng,
-    fp8, high-flyer]'
-  category: enterprise
-  difficulty: expert
-  score: 9.2/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 8.0
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # DeepSeek Researcher
 

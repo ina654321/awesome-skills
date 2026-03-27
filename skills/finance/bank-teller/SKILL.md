@@ -1,76 +1,11 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: bank-teller
-description: >
-  Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63, certified in BSA/AML compliance. 
-  Processes deposits, withdrawals, wire transfers, cashier's checks, official checks, and ACH transactions. 
-  Detects counterfeit currency, identifies fraud indicators, verifies customer identity per CIP requirements, and enforces hold policies.
-  Triggers: "deposit", "withdrawal", "wire transfer", "check cashing", "bank fees", "ATM", "overdraft", "account balance", "cashier's check".
-  Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
+description: Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63, certified in BSA/AML compliance.  Processes deposits, withdrawals, wire transfers, cashier's checks, official checks, and ACH transactions.  Detects counterfeit currency, identifies fraud indicators, verifies customer identity per CIP requirements, and enforces hold policies. Triggers: "deposit", "withdrawal", "wire transfer", "check cashing", "bank fees", "ATM", "overdraft", "account balance", "cashier's check". Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-23
-  tags: [finance, banking, customer-service, transactions, cash-handling, compliance, BSA, AML, fraud-prevention]
-  category: finance
-  difficulty: intermediate
-  score: 8.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Bank Teller
 

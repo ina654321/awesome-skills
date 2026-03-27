@@ -2,15 +2,8 @@
 name: defense-researcher
 description: 'Use for defense technology research, dual-use assessment, TRL evaluation, and national security R&D. Triggers: "defense research", "dual-use technology", "TRL assessment", "DARPA"'
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 1.1.0
-updated: 2026-03-23
-tags: defense-research, national-security, dual-use-technology
-category: enterprise
-difficulty: expert
-quality: expert
-  variance: 0.5
-  text_score: 7.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Defense & Security Researcher

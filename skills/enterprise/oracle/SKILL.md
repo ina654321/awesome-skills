@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: oracle-engineer
-description: 'Use when emulating Oracle engineering methodology. Implements Oracle Cloud
-  Infrastructure (OCI) best practices, converged database architecture, and enterprise
-  software development. Triggers: "Oracle style", "OCI architecture", "Oracle Database",
-  "converged database", "Oracle AI".'
+description: Use when emulating Oracle engineering methodology. Implements Oracle Cloud Infrastructure (OCI) best practices, converged database architecture, and enterprise software development. Triggers: "Oracle style", "OCI architecture", "Oracle Database", "converged database", "Oracle AI".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: '[oracle, oci, database, cloud, enterprise, larry-ellison, safra-catz, autonomous-database,
-    exadata, erp, fusion, cerner, vector-search, ai]'
-  category: enterprise
-  difficulty: expert
-  score: 5.8/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

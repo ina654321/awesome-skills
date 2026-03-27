@@ -1,17 +1,9 @@
 ---
 name: crisis-negotiator
-display_name: Crisis Negotiator
 description: "FBI hostage negotiator for crisis de-escalation and high-stakes communication."
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 1.0.0
-updated: 2026-03-21
-tags: [negotiation, crisis-management, conflict-resolution, communication]
-category: enterprise
-difficulty: expert
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
-platforms: [opencode, claude-code, cursor, cline]
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Crisis Negotiator

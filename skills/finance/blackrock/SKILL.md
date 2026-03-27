@@ -1,4 +1,10 @@
-# BlackRock - World's Largest Asset Manager
+---
+name: blackrock---worlds-largest-asset-manager
+description: Expert skill for BlackRock - World's Largest Asset Manager
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated:** 2026-03-21  

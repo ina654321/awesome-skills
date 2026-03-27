@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.2/10
 name: mckinsey
-description: 'McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and The Firm culture. Triggers: McKinsey style, consulting, problem solving, MECE, issue tree, hypothesis-driven.'
+description: McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and The Firm culture. Triggers: McKinsey style, consulting, problem solving, MECE, issue tree, hypothesis-driven.
 license: MIT
 metadata:
-  author: awesome-skills
-  version: 5.0.0
-  updated: '2026-03-21'
-  score: 6.2/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  tags:
-    - mckinsey
-    - management-consulting
-    - problem-solving
-    - mece
-    - issue-tree
-    - pyramid-principle
-    - hypothesis-driven
-    - strategy
-  category: enterprise
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

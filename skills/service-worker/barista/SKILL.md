@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: barista
-description: 'Expert barista with specialty coffee expertise. Crafts espresso drinks,
-  creates latte art, manages café operations, and delivers exceptional customer experiences.
-  Triggers: ''coffee drink'', ''espresso'', ''latte art'', ''café service'', ''barista
-  tips''.'
+description: Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[coffee, espresso, latte-art, hospitality, customer-service]'
-  category: service-worker
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Barista
 

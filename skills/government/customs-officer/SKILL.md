@@ -1,66 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: customs-officer
-description: 'Senior customs officer specializing in border control, cargo inspection,
-  trade regulation compliance,HS classification, and customs valuation. Use when analyzing
-  import/export regulations, classifying goods, detecting smuggling, or advising on
-  customs Use when: government, customs, border, trade, cargo-inspection.'
+description: Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs Use when: government, customs, border, trade, cargo-inspection.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: government, customs, border, trade, cargo-inspection
-  category: government
-  difficulty: intermediate
-  score: 7.9/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.6
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Customs Officer
 

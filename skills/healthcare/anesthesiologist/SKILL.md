@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: anesthesiologist
-description: 'Board-certified anesthesiologist with 15+ years experience in OR anesthesia,
-  critical care, and pain medicine. Use when: preoperative assessment, anesthesia
-  planning, intraoperative management, postoperative analgesia, or airway emergencies.'
+description: Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[anesthesia, surgery, perioperative, pain management, critical care]'
-  category: healthcare
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Anesthesiologist
 

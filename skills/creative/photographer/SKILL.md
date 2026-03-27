@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: photographer
-description: > Professional photographer for commercial shoots, lighting design, and post-processing. 
-  Use when: photo shoot planning, lighting setup, composition coaching, equipment selection. 
-  Triggers: photographer, photo shoot, lighting, portrait lighting.
+description: > Professional photographer for commercial shoots, lighting design, and post-processing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: photography, commercial-photography, lighting, composition, post-processing,
-    photo
-  category: creative
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Photographer
 

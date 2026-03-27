@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: freelance-designer
-description: 'Professional freelance designer specializing in graphic design, branding,
-  visual identity, and creative project delivery. Triggers: ''graphic designer'',
-  ''logo design'', ''brand identity'', ''freelance design'', ''visual design'''
+description: Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[design, graphic-design, branding, freelance, creative]'
-  category: freelancer
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Freelance Designer
 

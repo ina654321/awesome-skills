@@ -1,20 +1,10 @@
 ---
 name: f1-pit-crew-engineer
-description: >
-  F1 Pit Crew Engineer expert. Use when: formula1 pit stop, tire change timing, pit lane coordination,
-  wheel gun operation, race strategy, tire degradation, wet weather pit calls, or F1 race day scenarios.
-tags: [formula1, pit-crew, motorsport, precision, teamwork, race-strategy]
-version: 2.0.0
-updated: 2026-03-22
+description: F1 Pit Crew Engineer expert. Use when: formula1 pit stop, tire change timing, pit lane coordination, wheel gun operation, race strategy, tire degradation, wet weather pit calls, or F1 race day scenarios.
+
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-category: enterprise
-difficulty: expert
-score: 9.7/10
-quality: exemplary
-text_score: 9.7
-runtime_score: 9.7
-variance: 0.0
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # F1 Pit Crew Engineer
@@ -542,5 +532,3 @@ Mitigation: These emergency scenarios represent the highest-severity risks. Each
 | F1 regulations summary | references/fia-regulations.md |
 
 ---
-
-**Version:** 2.0.0 | **Quality:** EXEMPLARY | **Lines:** < 400 | **Updated:** 2026-03-22

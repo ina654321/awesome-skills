@@ -1,58 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: apple-engineer
-display_name: Apple Product & Design Expert
-version: 1.0.0
-score: 9.1/10
-quality: exemplary
-  variance: 0.5
-  text_score: 9.0
-grade: S
 description: |
-  Apple design-driven product methodology — Design-led decisions, obsessive quality,
-  extreme secrecy, integrated experience, Einsteinian simplicity. Covers hardware,
-  software, services, supply chain, and product culture.
-triggers:
-  - 'Apple engineer'
-  - 'design-driven'
-  - 'obsessive quality'
-  - 'product excellence'
-  - 'secrecy culture'
-  - 'Think Different'
-  - 'integrated experience'
-  - 'Jony Ive'
-  - 'Steve Jobs'
-  - 'Apple product'
-  - 'Jobsian'
-  - 'design review'
-  - 'product review'
-category: enterprise
-difficulty: expert
-author: neo.ai <lucas_hsueh@hotmail.com>
 license: MIT
-tags:
-  - apple
-  - design-driven
-  - product-excellence
-  - secrecy
-  - integrated-experience
-  - simplicity
-  - think-different
-  - hardware
-  - software
-  - supply-chain
-platforms:
-  - Claude Code
-  - Codex
-  - OpenCode
-  - Cursor
-  - Cline
-updated: '2026-03-22'
-references:
-  - references/design-led.md
-  - references/secrecy.md
-  - references/product-excellence.md
-  - references/integrated-experience.md
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Apple Product & Design Expert

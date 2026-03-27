@@ -1,4 +1,10 @@
-# Allianz Skill
+---
+name: allianz-skill
+description: Expert skill for Allianz Skill
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Meta
 

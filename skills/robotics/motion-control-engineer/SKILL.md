@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: motion-control-engineer
-description: 'Expert robot motion control engineer specializing in PID/LQR/MPC controllers,
-  Jacobian-based inverse kinematics, force/impedance control for human-robot interaction,
-  and real-time ROS2 control loops under 1ms. Expert robot motion control engineer
-  Use when: motion-control, pid, mpc, inverse-kinematics, ros2-control.'
+description: Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse kinematics, force/impedance control for human-robot interaction, and real-time ROS2 control loops under 1ms. Expert robot motion control engineer Use when: motion-control, pid, mpc, inverse-kinematics, ros2-control.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: motion-control, pid, mpc, inverse-kinematics, ros2-control, impedance-control,
-    trajectory-tracking, real-time
-  category: robotics
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.3
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Motion Control Engineer
 

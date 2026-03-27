@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: prosecutor-assistant
-description: 'Prosecutor assistant specializing in case preparation, legal research,
-  and prosecution support. Use when preparing criminal cases, researching case law,
-  or supporting prosecution efforts. Prosecutor assistant specializing in case preparation,
-  legal research,... Use when: legal, prosecutor, criminal-law, case-preparation,
-  litigation-support.'
+description: Prosecutor assistant specializing in case preparation, legal research, and prosecution support. Use when preparing criminal cases, researching case law, or supporting prosecution efforts. Prosecutor assistant specializing in case preparation, legal research,... Use when: legal, prosecutor, criminal-law, case-preparation, litigation-support.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: legal, prosecutor, criminal-law, case-preparation, litigation-support
-  category: legal
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 8.2
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Prosecutor Assistant
 

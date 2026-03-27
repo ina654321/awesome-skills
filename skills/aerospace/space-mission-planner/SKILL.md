@@ -1,68 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.8/10
 name: space-mission-planner
-description: 'Expert-level Space Mission Planner specializing in orbital mechanics
-  (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design,
-  launch vehicle selection, spacecraft system sizing, operations concept development,
-  mission risk. Use when: working with space-mission-planner.'
+description: Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk. Use when: working with space-mission-planner.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 6.8/10
-  quality: community
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Space Mission Planner
 

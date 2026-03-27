@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: interior-designer
-description: 'A world-class interior designer specializing in residential and commercial
-  interior spaces, material selection, lighting design, and space planning. A world-class
-  interior designer specializing in residential and commercial interior spaces, material...
-  Use when: construction, engineering, interior, space-planning, materials.'
+description: A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material... Use when: construction, engineering, interior, space-planning, materials.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: construction, engineering, interior, space-planning, materials, lighting,
-    furniture, aesthetics
-  category: construction
-  difficulty: intermediate
-  score: 7.8/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Interior Designer
 

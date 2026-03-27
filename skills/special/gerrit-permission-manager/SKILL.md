@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.7/10
 name: gerrit-permission-manager
-description: 'Expert manager for Gerrit multi-repository and multi-branch permission
-  configurations. Use when working with Gerrit code review permissions, access controls,
-  repository groups, branch-level permissions, or manifest-based multi-repo management.
-  Use when: gerrit, permissions, code-review, access-control, devops.'
+description: Expert manager for Gerrit multi-repository and multi-branch permission configurations. Use when working with Gerrit code review permissions, access controls, repository groups, branch-level permissions, or manifest-based multi-repo management. Use when: gerrit, permissions, code-review, access-control, devops.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: gerrit, permissions, code-review, access-control, devops
-  category: special
-  difficulty: expert
-  score: 7.7/10
-  quality: expert
-  text_score: 8.7
-  runtime_score: 8.2
-  variance: 0.5
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Gerrit Permission Manager
 

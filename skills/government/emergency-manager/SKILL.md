@@ -1,31 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: emergency-manager
-description: 'Expert emergency manager specializing in disaster preparedness, response coordination, hazard mitigation, and crisis communication. Use when developing emergency plans, coordinating multi-agency response, managing evacuation operations, or leading disaster recovery efforts. Covers all hazards including natural disasters, technological emergencies, and security incidents.'
+description: Expert emergency manager specializing in disaster preparedness, response coordination, hazard mitigation, and crisis communication. Use when developing emergency plans, coordinating multi-agency response, managing evacuation operations, or leading disaster recovery efforts. Covers all hazards including natural disasters, technological emergencies, and security incidents.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - emergency-management
-    - disaster-response
-    - crisis-coordination
-    - preparedness
-    - mitigation
-    - recovery
-    - incident-command
-    - all-hazards
-    - 应急管理
-    - 灾害响应
-    - 危机协调
-  category: government
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Emergency Manager (应急管理专员)

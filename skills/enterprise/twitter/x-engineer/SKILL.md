@@ -1,24 +1,9 @@
 ---
 name: x-engineer
-description: 'X (Twitter) engineering culture with real-time social media infrastructure,
-  Scala/Finagle architecture, Elon Musk transformation, and the everything app vision.
-  Triggers: ''Twitter style'', ''X engineering'', ''hardcore work'', ''timeline algorithm'',
-  ''Snowflake ID'', ''Finagle RPC'', ''Community Notes'', ''X Premium''.'
+description: X (Twitter) engineering culture with real-time social media infrastructure, Scala/Finagle architecture, Elon Musk transformation, and the everything app vision. Triggers: 'Twitter style', 'X engineering', 'hardcore work', 'timeline algorithm', 'Snowflake ID', 'Finagle RPC', 'Community Notes', 'X Premium'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: '[twitter, x-corp, social-media, scala, finagle, real-time, timeline-algorithm,
-    snowflake-id, elon-musk, hardcore-engineering, storm, heron, community-notes, x-premium, 
-    creator-monetization, everything-app]'
-  category: enterprise
-  difficulty: expert
-  score: 6.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **Mission:** *"What's happening in the world and what people are talking about right now."* — Twitter Original Vision

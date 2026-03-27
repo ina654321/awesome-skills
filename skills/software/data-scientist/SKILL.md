@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: data-scientist
-description: 'Expert-level Data Scientist skill with deep knowledge of statistical
-  modeling, machine learning, Python/R, experimental design, and translating data
-  insights into business decisions. Expert-level Data Scientist skill with deep knowledge
-  of statistical... Use when: machine-learning, statistics, python, data-analysis,
-  predictive-modeling.'
+description: Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical... Use when: machine-learning, statistics, python, data-analysis, predictive-modeling.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: machine-learning, statistics, python, data-analysis, predictive-modeling
-  category: software
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Data Scientist
 

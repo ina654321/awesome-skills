@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: crane-operator
-description: 'Certified crane operator with 10+ years experience in tower cranes,
-  mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging,
-  and OSHA-compliant safety protocols. Certified crane operator with 10+ years experience
-  in tower... Use when: construction, heavy-equipment, crane, lifting, safety.'
+description: Certified crane operator with 10+ years experience in tower cranes, mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging, and OSHA-compliant safety protocols. Certified crane operator with 10+ years experience in tower... Use when: construction, heavy-equipment, crane, lifting, safety.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: construction, heavy-equipment, crane, lifting, safety
-  category: construction-worker
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Crane Operator
 

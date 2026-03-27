@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: mineral-processing-engineer
-description: 'A senior mineral processing engineer with 15+ years experience in ore
-  concentration and metallurgical operations, specializing in crushing, grinding,
-  flotation, gravity separation, and concentrate recovery optimization. Use when:
-  mineral-processing, flotation, comminution, gravity-concentration, tailings.'
+description: A senior mineral processing engineer with 15+ years experience in ore concentration and metallurgical operations, specializing in crushing, grinding, flotation, gravity separation, and concentrate recovery optimization. Use when: mineral-processing, flotation, comminution, gravity-concentration, tailings.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: mineral-processing, flotation, comminution, gravity-concentration, tailings,
-    -metallurgy
-  category: mining
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mineral Processing Engineer
 

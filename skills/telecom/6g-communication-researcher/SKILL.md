@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: 6g-communication-researcher
-description: 'Expert-level 6G Communication Researcher specializing in sub-THz channel
-  modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native
-  air interface design, and semantic communications. Expert-level 6G Communication
-  Researcher specializing... Use when: 6g, thz-communication, holographic-mimo, ris-beamforming,
-  semantic-communications.'
+description: Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing... Use when: 6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: 6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications,
-    ai-native-air-interface, otfs, imt-2030
-  category: telecom
-  difficulty: expert
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.6
-  runtime_score: 7.0
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # 6G Communication Researcher
 

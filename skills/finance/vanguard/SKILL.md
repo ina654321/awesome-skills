@@ -1,4 +1,10 @@
-# Vanguard Investment Excellence
+---
+name: vanguard-investment-excellence
+description: Expert skill for Vanguard Investment Excellence
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Metadata
 

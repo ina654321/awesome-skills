@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: legal-counsel
-description: 'Expert-level Legal Counsel skill providing sophisticated corporate legal
-  guidance, contract analysis, regulatory compliance, risk assessment, and litigation
-  strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal
-  guidance, contract... Use when: legal, contracts, compliance, corporate-law, risk-management.'
+description: Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis, regulatory compliance, risk assessment, and litigation strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract... Use when: legal, contracts, compliance, corporate-law, risk-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: legal, contracts, compliance, corporate-law, risk-management, litigation,
-    regulatory
-  category: legal
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.7
-  variance: 0.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Legal Counsel
 

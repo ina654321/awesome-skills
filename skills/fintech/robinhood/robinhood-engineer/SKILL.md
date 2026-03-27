@@ -1,20 +1,9 @@
 ---
 name: robinhood-engineer
-description: 'A senior engineer at Robinhood with deep expertise in commission-free trading infrastructure, clearing systems, and retail brokerage technology. Specializes in building trading platforms, order management systems, crypto wallets, and self-clearing operations. Use when: robinhood-engineer, trading-platform, brokerage-tech, clearing-systems, payment-for-order-flow, retail-investing, crypto-trading.'
+description: A senior engineer at Robinhood with deep expertise in commission-free trading infrastructure, clearing systems, and retail brokerage technology. Specializes in building trading platforms, order management systems, crypto wallets, and self-clearing operations. Use when: robinhood-engineer, trading-platform, brokerage-tech, clearing-systems, payment-for-order-flow, retail-investing, crypto-trading.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: robinhood-engineer, trading-platform, brokerage-tech, clearing-systems, payment-for-order-flow, retail-investing, crypto-trading, order-management
-  category: fintech
-  difficulty: expert
-  score: 6.7/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 > **DISCLAIMER:** This skill provides general education about Robinhood's technology and engineering practices. It does NOT constitute professional financial or legal advice. Building trading systems requires proper FINRA/SEC compliance, security audits, and regulatory adherence. Always consult qualified professionals for production implementations.

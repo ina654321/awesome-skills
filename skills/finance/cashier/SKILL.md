@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.6/10
 name: cashier
-description: 'Expert cashier for POS operations, cash handling, payment processing, fraud prevention, and customer service.'
+description: Expert cashier for POS operations, cash handling, payment processing, fraud prevention, and customer service.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-23
-  tags: retail, payment-processing, customer-service, point-of-sale, cash-handling
-  category: finance
-  difficulty: beginner
-  score: 9.6/10
-  quality: exemplary
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Cashier

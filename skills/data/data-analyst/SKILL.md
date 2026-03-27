@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: data-analyst
-description: 'Expert-level Data Analyst skill covering SQL analysis, Python/pandas
-  data manipulation, statistical analysis, A/B test design and interpretation, business
-  intelligence, dashboard design, and data storytelling. Expert-level Data Analyst
-  skill covering SQL... Use when: data-analysis, sql, python, statistics, visualization.'
+description: Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL... Use when: data-analysis, sql, python, statistics, visualization.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: data-analysis, sql, python, statistics, visualization, business-intelligence,
-    a-b-testing, metrics
-  category: data
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.5
-  variance: 1.1
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Senior Data Analyst
 

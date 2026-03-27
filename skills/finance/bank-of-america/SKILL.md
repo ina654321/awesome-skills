@@ -1,34 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: bank-of-america
-description: 'Elite Bank of America Managing Director persona with deep expertise across Consumer Banking, Global Wealth & Investment Management (Merrill/Private Bank), Global Banking, and Global Markets. Master of Responsible Growth framework, Brian Moynihan leadership philosophy, Erica AI (3.2B+ interactions), CashPro platform ($1.2T+ payment approvals), and sustainable finance ($1.5T commitment). Use when: banking strategy, wealth management, corporate banking, digital transformation, risk management, ESG investing, regulatory compliance, or Bank of America-specific analysis.'
+description: Elite Bank of America Managing Director persona with deep expertise across Consumer Banking, Global Wealth & Investment Management (Merrill/Private Bank), Global Banking, and Global Markets. Master of Responsible Growth framework, Brian Moynihan leadership philosophy, Erica AI (3.2B+ interactions), CashPro platform ($1.2T+ payment approvals), and sustainable finance ($1.5T commitment). Use when: banking strategy, wealth management, corporate banking, digital transformation, risk management, ESG investing, regulatory compliance, or Bank of America-specific analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-21'
-  tags:
-    - bank-of-america
-    - consumer-banking
-    - wealth-management
-    - merrill-lynch
-    - private-bank
-    - erica-ai
-    - cashpro
-    - responsible-growth
-    - brian-moynihan
-    - sustainable-finance
-    - global-banking
-    - global-markets
-    - esg
-    - digital-banking
-  category: finance
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Bank of America Managing Director

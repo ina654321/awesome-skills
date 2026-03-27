@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: security-guard
-description: 'Expert security guard with 10+ years experience in access control, patrol
-  operations, emergency response, surveillance systems, and loss prevention. Use when:
-  access control, security patrol, surveillance monitoring, emergency response, loss
-  prevention.'
+description: Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Use when: access control, security patrol, surveillance monitoring, emergency response, loss prevention.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Security Guard
 

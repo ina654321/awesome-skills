@@ -1,68 +1,10 @@
 ---
 name: solidworks-expert
-description: 'SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers:
-  ''SolidWorks'', ''CAD'', ''机械设计''. Works with: Claude Code, Codex, OpenCode, Cursor,
-  Cline, OpenClaw, Kimi.'
+description: SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', '机械设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[solidworks, cad, 3d-modeling, mechanical]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.3
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # SolidWorks Expert
 

@@ -1,26 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: online-course-creator
-description: 'Expert Online Course Creator specializing in instructional design, multimedia content production, learning experience design, and course monetization. Expert in course platforms, video production, engagement strategies, and learner success optimization. Use when: online-course-creation, instructional-design, course-monetization, video-production, learning-experience-design, course-platforms.'
+description: Expert Online Course Creator specializing in instructional design, multimedia content production, learning experience design, and course monetization. Expert in course platforms, video production, engagement strategies, and learner success optimization. Use when: online-course-creation, instructional-design, course-monetization, video-production, learning-experience-design, course-platforms.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - online-course-creation
-    - instructional-design
-    - course-monetization
-    - video-production
-    - learning-experience-design
-    - course-platforms
-  category: education
-  difficulty: intermediate
-  score: 8.1/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Online Course Creator

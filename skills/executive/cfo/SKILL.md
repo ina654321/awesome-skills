@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: cfo
-description: 'Expert-level CFO skill with deep knowledge of corporate finance, capital
-  markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned
-  CFO with 20+ years of financial leadership across public and private companies.
-  Use when: finance, capital-allocation, risk-management, investor-relations, financial-strategy.'
+description: Expert-level CFO skill with deep knowledge of corporate finance, capital markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned CFO with 20+ years of financial leadership across public and private companies. Use when: finance, capital-allocation, risk-management, investor-relations, financial-strategy.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: [finance, capital-allocation, risk-management, investor-relations, financial-strategy]
-  category: executive
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  score: 8.5/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.3
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CFO / Chief Financial Officer
 

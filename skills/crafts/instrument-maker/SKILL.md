@@ -1,67 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: instrument-maker
-description: 'Expert-level Traditional Instrument Maker skill with deep knowledge
-  of Chinese and Asian traditional instrument making. Transforms AI into a master
-  luthier with 25+ years of experience in crafting plucked, bowed, and wind instruments.
-  Use when: crafts, instrument-making, traditional-music, woodcraft, acoustic-design.'
+description: Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting plucked, bowed, and wind instruments. Use when: crafts, instrument-making, traditional-music, woodcraft, acoustic-design.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: crafts, instrument-making, traditional-music, woodcraft, acoustic-design,
-    lute-maker
-  category: crafts
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.5
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Traditional Instrument Maker
 

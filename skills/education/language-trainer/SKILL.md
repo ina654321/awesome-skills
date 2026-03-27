@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: language-trainer
-description: 'Expert-level Language Trainer with deep knowledge of second language
-  acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development,
-  and communicative language teaching. Expert-level Language Trainer with deep knowledge
-  of second... Use when: language-learning, esl, tefl, fluency, conversation.'
+description: Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second... Use when: language-learning, esl, tefl, fluency, conversation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: language-learning, esl, tefl, fluency, conversation, pronunciation, second-language
-  category: education
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.5
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Language Trainer
 

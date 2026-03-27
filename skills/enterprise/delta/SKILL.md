@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: delta-airlines-operations
-description: 'Delta Air Lines operations expert specializing in airline strategy, fleet management, 
-  hub operations, SkyMiles loyalty program, and MRO services. Use when: analyzing airline 
-  business decisions, optimizing route networks, understanding Delta''s competitive advantages, 
-  loyalty program strategy, or operational excellence frameworks.'
+description: Delta Air Lines operations expert specializing in airline strategy, fleet management, hub operations, SkyMiles loyalty program, and MRO services. Use when: analyzing airline business decisions, optimizing route networks, understanding Delta's competitive advantages, loyalty program strategy, or operational excellence frameworks.
 license: MIT
 metadata:
-  author: skill-restorer v7
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.0/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  restored_from: delta-operations
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Delta Air Lines Operations Expert

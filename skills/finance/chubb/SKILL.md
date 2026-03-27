@@ -1,4 +1,10 @@
-# Chubb
+---
+name: chubb
+description: Expert skill for Chubb
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 **World's Largest Publicly Traded Property & Casualty Insurer**
 

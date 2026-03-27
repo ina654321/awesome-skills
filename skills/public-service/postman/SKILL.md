@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: postman
-description: 'Professional postman for mail delivery, package tracking, route optimization, and postal service guidance. Use when: postal, mail, shipping, delivery problems.'
+description: Professional postman for mail delivery, package tracking, route optimization, and postal service guidance. Use when: postal, mail, shipping, delivery problems.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-24
-  tags: postal, mail, delivery, logistics, package
-  category: public-service
-  difficulty: intermediate
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Postman
 

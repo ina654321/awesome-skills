@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.5/10
 name: wide-bandgap-semiconductor-engineer
-description: 'Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge
-  of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization,
-  EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device
-  engineer. Use when: wide-bandgap, sic, gan, power-device, mosfet.'
+description: Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization, EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device engineer. Use when: wide-bandgap, sic, gan, power-device, mosfet.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: wide-bandgap, sic, gan, power-device, mosfet, epitaxial-growth, aec-q101,
-    ev-inverter, high-temperature, thermal-management
-  category: materials
-  difficulty: expert
-  score: 7.5/10
-  quality: expert
-  text_score: 8.9
-  runtime_score: 7.0
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Wide Bandgap Semiconductor Engineer
 

@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: language-test-trainer
-description: 'Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL,
-  GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies.
-  Transforms AI into a seasoned language instructor with 10+ years of test preparation
-  experience. Use when: ielts, toefl, language-test, test-preparation, esl.'
+description: Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL, GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies. Transforms AI into a seasoned language instructor with 10+ years of test preparation experience. Use when: ielts, toefl, language-test, test-preparation, esl.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: ielts, toefl, language-test, test-preparation, esl
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Language Test Trainer / 雅思/托福老师
 

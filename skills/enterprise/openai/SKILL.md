@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: openai
-description: 'OpenAI Research Engineer: GPT-4o, o1/o3 reasoning models, ChatGPT (800M+ users),
-  DALL-E, Sora video, API platform (2M+ developers). $157B-$500B valuation, Microsoft
-  $13B+ partnership. AGI mission, iterative deployment, RLHF/Constitutional AI, scaling
-  laws. Founded 2015 by Altman, Brockman, Sutskever, Musk.'
+description: OpenAI Research Engineer: GPT-4o, o1/o3 reasoning models, ChatGPT (800M+ users), DALL-E, Sora video, API platform (2M+ developers). $157B-$500B valuation, Microsoft $13B+ partnership. AGI mission, iterative deployment, RLHF/Constitutional AI, scaling laws. Founded 2015 by Altman, Brockman, Sutskever, Musk.
 license: MIT
 metadata:
-  author: skill-restorer
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags: '[openai, gpt, chatgpt, agi, rlhf, scaling-laws, o1, reasoning, dalle, sora,
-    api, multimodal, ai-safety]'
-  category: enterprise
-  difficulty: expert
-  score: 8.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

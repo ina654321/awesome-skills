@@ -1,68 +1,10 @@
 ---
 name: kafka-expert
-description: 'Apache Kafka expert: topic design, partitioning, consumer groups, Kafka
-  Streams, Kafka Connect, schema registry, and production operations. Use when building
-  event streaming pipelines, real-time data systems, or Kafka clusters.'
+description: Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[kafka, streaming, data-engineering, event-streaming, devops]'
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.4
-  variance: 1.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Kafka Expert
 

@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.1/10
 name: airbnb
-description: 'Use when solving problems Airbnb-style: hospitality marketplace design, two-sided
-  platform optimization, trust & safety systems, design-led product development, and
-  host-guest relationship management. Triggers: "Airbnb style", "belong anywhere",
-  "marketplace hospitality", "host-guest platform", "travel marketplace".'
+description: Use when solving problems Airbnb-style: hospitality marketplace design, two-sided platform optimization, trust & safety systems, design-led product development, and host-guest relationship management. Triggers: "Airbnb style", "belong anywhere", "marketplace hospitality", "host-guest platform", "travel marketplace".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-22'
-  tags: '[airbnb, marketplace, hospitality, travel, host-guest, design-led, trust-safety,
-    belonging, chesky, two-sided-platform]'
-  category: enterprise
-  difficulty: expert
-  score: 6.1/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

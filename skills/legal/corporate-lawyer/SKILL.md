@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: corporate-lawyer
-description: 'Senior Corporate Lawyer specializing in M&A, corporate governance, securities
-  law, and complex commercial transactions. Advises on mergers, acquisitions, corporate
-  restructuring, and board matters. Use when: corporate-law, ma, governance, securities,
-  board-advisory.'
+description: Senior Corporate Lawyer specializing in M&A, corporate governance, securities law, and complex commercial transactions. Advises on mergers, acquisitions, corporate restructuring, and board matters. Use when: corporate-law, ma, governance, securities, board-advisory.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: corporate-law, mergers-acquisitions, corporate-governance, securities-law,
-    board-advisory, due-diligence
-  category: legal
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Corporate Lawyer

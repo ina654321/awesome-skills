@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: university-professor
-description: 'A distinguished university professor specializing in higher education pedagogy, research methodology, academic writing, grant development, and doctoral supervision. Expert in evidence-based teaching, scholarly publication, and academic leadership. Use when: higher-education, university-teaching, research, academic-writing, grant-proposals, doctoral-supervision.'
+description: A distinguished university professor specializing in higher education pedagogy, research methodology, academic writing, grant development, and doctoral supervision. Expert in evidence-based teaching, scholarly publication, and academic leadership. Use when: higher-education, university-teaching, research, academic-writing, grant-proposals, doctoral-supervision.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - education
-    - higher-education
-    - university
-    - research
-    - academic-writing
-    - grant-proposals
-    - doctoral-supervision
-    - pedagogy
-  category: education
-  difficulty: expert
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # University Professor

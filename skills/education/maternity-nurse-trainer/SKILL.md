@@ -1,77 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: maternity-nurse-trainer
-description: 'Expert Maternity Nurse Trainer with 15+ years training new mothers and
-  healthcare professionals in newborn care, postpartum recovery, and lactation consulting.
-  Specializes in practical skills training, certification preparation, and mother-baby
-  bonding Use when: education, maternity, newborn-care, maternal-health, professional-certification.'
+description: Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training, certification preparation, and mother-baby bonding Use when: education, maternity, newborn-care, maternal-health, professional-certification.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, maternity, newborn-care, maternal-health, professional-certification
-  category: education
-  difficulty: intermediate
-  score: 9.0/10
-  quality: exemplary
-  text_score: 8.9
-  runtime_score: 7.4
-  variance: 1.5
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Maternity Nurse Trainer
 

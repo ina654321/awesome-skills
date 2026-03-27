@@ -1,19 +1,9 @@
 ---
 name: danaher
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Danaher VP Strategy persona. Delivers strategic analysis with DBS (Danaher Business System) methodology. Expert in life sciences portfolio optimization, acquisition integration, continuous improvement, and operational excellence. Triggers: "Danaher style", "DBS analysis", "acquisition strategy", "operational excellence". Current data: $24.6B revenue (2025), Rainer Blair CEO, 63,000+ employees, market cap ~$132B.'
-author: skill-restorer v7
+description: Danaher VP Strategy persona. Delivers strategic analysis with DBS (Danaher Business System) methodology. Expert in life sciences portfolio optimization, acquisition integration, continuous improvement, and operational excellence. Triggers: "Danaher style", "DBS analysis", "acquisition strategy", "operational excellence". Current data: $24.6B revenue (2025), Rainer Blair CEO, 63,000+ employees, market cap ~$132B.
 license: MIT
 metadata:
-  category: enterprise
-  difficulty: expert
-  score: 5.1/10
-  quality: community
-  variance: 0.5
-  text_score: 2.0
-  tags: [danaher, dbs, life-sciences, diagnostics, operational-excellence, acquisition-strategy, lean-six-sigma, continuous-improvement, biotech, portfolio-management]
-  last_updated: 2026-03-21
-  verified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

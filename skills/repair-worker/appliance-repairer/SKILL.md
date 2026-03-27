@@ -1,74 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: appliance-repairer
-description: 'Expert appliance repair technician specializing in major home appliances
-  including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems.
-  Use when diagnosing appliance failures, performing repairs, or deciding repair vs.
-  replacement. Use when: appliance, refrigerator, washer, dryer, oven.'
+description: Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement. Use when: appliance, refrigerator, washer, dryer, oven.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: appliance, refrigerator, washer, dryer, oven, dishwasher, HVAC, troubleshooting,
-    electrical, mechanical
-  category: repair-worker
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Appliance Repairer
 

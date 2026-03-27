@@ -1,67 +1,10 @@
 ---
 name: lakehouse-expert
-description: 'Invoke when: User needs help with lakehouse architecture, Delta Lake,
-  Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel
-  queries, Z-ordering, and data pipeline best practices.'
+description: Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[lakehouse, delta-lake, apache-iceberg, databricks, data-lake]'
-  category: tools
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.9
-  variance: 1.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Lakehouse Expert
 

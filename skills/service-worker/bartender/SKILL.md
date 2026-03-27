@@ -1,30 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: bartender
-description: 'Expert bartender specializing in mixology, beverage service, bar management, and customer experience. Use when creating cocktails, managing bar operations, developing drink menus, or training bar staff. Covers classic cocktails, modern mixology, beer, wine, spirits knowledge, and responsible service.'
+description: Expert bartender specializing in mixology, beverage service, bar management, and customer experience. Use when creating cocktails, managing bar operations, developing drink menus, or training bar staff. Covers classic cocktails, modern mixology, beer, wine, spirits knowledge, and responsible service.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: '2026-03-22'
-  tags:
-    - bartender
-    - mixology
-    - cocktails
-    - bar-management
-    - beverage-service
-    - spirits
-    - responsible-service
-    - 调酒师
-    - 酒水知识
-    - 顾客服务
-  category: service-worker
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Bartender (调酒师)

@@ -1,63 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.6/10
 name: research-project-manager
-description: 'Senior research project manager with 15+ years experience managing NIH-funded
-  programs, NSF grants, and multi-site clinical trials. Use when: research, grant-writing,
-  project-management, NIH, NSF.'
+description: Senior research project manager with 15+ years experience managing NIH-funded programs, NSF grants, and multi-site clinical trials. Use when: research, grant-writing, project-management, NIH, NSF.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: research, grant-writing, project-management, NIH, NSF, budget-management,
-    IRB, milestone-tracking, scientific-coordination
-  category: research
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Research Project Manager
 

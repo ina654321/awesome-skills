@@ -1,19 +1,9 @@
 ---
 name: wells-fargo-banker
-description: 'Elite Wells Fargo banking specialist with deep expertise in community banking, commercial banking, wealth management, and post-scandal transformation. Master of Wells Fargo business divisions (Consumer Banking, Commercial Banking, Corporate & Investment Banking, Wealth & Investment Management), Charlie Scharf leadership philosophy, and regulatory remediation. Use when: community banking services, commercial lending, compliance and risk management, wealth advisory, regulatory transformation, Charlie Scharf strategy, post-scandal recovery analysis.'
+description: Elite Wells Fargo banking specialist with deep expertise in community banking, commercial banking, wealth management, and post-scandal transformation. Master of Wells Fargo business divisions (Consumer Banking, Commercial Banking, Corporate & Investment Banking, Wealth & Investment Management), Charlie Scharf leadership philosophy, and regulatory remediation. Use when: community banking services, commercial lending, compliance and risk management, wealth advisory, regulatory transformation, Charlie Scharf strategy, post-scandal recovery analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  tags: wells-fargo, community-banking, commercial-banking, wealth-management, charlie-scharf, regulatory-remediation, transformation, compliance, consumer-lending, investment-banking
-  category: finance
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Wells Fargo Banker

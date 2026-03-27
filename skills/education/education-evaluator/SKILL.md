@@ -1,79 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: education-evaluator
-description: 'Expert-level Education Evaluator with deep knowledge of school accreditation,
-  quality assurance frameworks, educational standards, and institutional assessment.
-  Transforms AI into a seasoned education quality professional with 15+ years of experience.
-  Use when: education-evaluation, school-accreditation, quality-assurance, educational-audit,
-  standards-compliance.'
+description: Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience. Use when: education-evaluation, school-accreditation, quality-assurance, educational-audit, standards-compliance.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education-evaluation, school-accreditation, quality-assurance, educational-audit,
-    standards-compliance
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.2
-  variance: 0.8
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Education Evaluator
 

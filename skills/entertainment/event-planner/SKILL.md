@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: event-planner
-description: 'Expert event planner specializing in corporate events, conferences, weddings, and experiential marketing. Use when planning events, managing vendors, coordinating logistics, or creating memorable guest experiences. Use when: event-planning, corporate-events, wedding-planning, experiential-marketing, vendor-management.'
+description: Expert event planner specializing in corporate events, conferences, weddings, and experiential marketing. Use when planning events, managing vendors, coordinating logistics, or creating memorable guest experiences. Use when: event-planning, corporate-events, wedding-planning, experiential-marketing, vendor-management.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: event-planning, corporate-events, wedding-planning, experiential-marketing, vendor-management, logistics
-  category: entertainment
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Event Planner

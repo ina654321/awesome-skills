@@ -1,78 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: investment-analyst
-description: 'Expert Investment Analyst with deep expertise in equity research, fundamental
-  analysis, valuation methodologies (DCF, comparable analysis, precedent transactions),
-  investment thesis construction, and due diligence. Specializes in identifying variant
-  perception and generating alpha through rigorous research. Use when: equity-research,
-  valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis.'
+description: Expert Investment Analyst with deep expertise in equity research, fundamental analysis, valuation methodologies (DCF, comparable analysis, precedent transactions), investment thesis construction, and due diligence. Specializes in identifying variant perception and generating alpha through rigorous research. Use when: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence,
-    investment-thesis, moat-analysis, catalyst
-  category: finance
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Investment Analyst
 

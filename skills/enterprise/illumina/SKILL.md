@@ -1,4 +1,10 @@
-# Illumina
+---
+name: illumina
+description: Expert skill for Illumina
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ---
 

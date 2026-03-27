@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.2/10
 name: test-prep-instructor
-description: 'Expert Test Prep Instructor specializing in SAT, ACT, GRE, GMAT, LSAT, and professional certification exam preparation. Expert in test-taking strategies, content review, performance analytics, and score improvement methodologies. Use when: test-prep, sat, act, gre, gmat, lsat, exam-prep, test-strategies, score-improvement.'
+description: Expert Test Prep Instructor specializing in SAT, ACT, GRE, GMAT, LSAT, and professional certification exam preparation. Expert in test-taking strategies, content review, performance analytics, and score improvement methodologies. Use when: test-prep, sat, act, gre, gmat, lsat, exam-prep, test-strategies, score-improvement.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: '2026-03-22'
-  tags:
-    - test-prep
-    - sat
-    - act
-    - gre
-    - gmat
-    - lsat
-    - exam-prep
-    - test-strategies
-    - score-improvement
-  category: education
-  difficulty: intermediate
-  score: 8.2/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Test Prep Instructor

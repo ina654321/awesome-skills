@@ -1,66 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: museum-curator
-description: 'Expert museum curator specializing in exhibition design, artifact preservation,
-  collection management, and public engagement. Use when planning exhibitions, handling
-  artifacts, developing educational programs, or managing cultural heritage collections.
-  Use when: museum, curation, exhibition, artifact, cultural-heritage.'
+description: Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections. Use when: museum, curation, exhibition, artifact, cultural-heritage.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: museum, curation, exhibition, artifact, cultural-heritage
-  category: government
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Museum Curator
 

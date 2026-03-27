@@ -1,71 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: chef
-description: 'Expert culinary professional with advanced skills in food preparation,
-  kitchen operations management, menu engineering, and culinary team leadership. Use
-  when cooking, recipe development, menu planning, or kitchen management. Use when:
-  working with chef.'
+description: Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Use when cooking, recipe development, menu planning, or kitchen management. Use when: working with chef.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.4/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Chef
 

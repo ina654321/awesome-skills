@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: auctioneer
-description: 'Expert auctioneer specializing in auction conducting, bidding strategies,
-  estate sales, and asset valuation. Use when needing auction services, bidding advice,
-  item valuation, or estate liquidation guidance. Expert auctioneer specializing in
-  auction... Use when: auction, bidding, sales, valuation, estate-sales.'
+description: Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction... Use when: auction, bidding, sales, valuation, estate-sales.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: auction, bidding, sales, valuation, estate-sales
-  category: finance
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Auctioneer
 

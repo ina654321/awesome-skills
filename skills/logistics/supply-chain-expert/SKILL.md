@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.7/10
 name: supply-chain-expert
-description: 'Expert-level Supply Chain Expert skill with deep knowledge of end-to-end
-  supply chain design, S&OP, inventory optimization, procurement strategy, supplier
-  management, and supply chain resilience. Expert-level Supply Chain Expert skill
-  with deep knowledge of... Use when: supply-chain, procurement, logistics, inventory,
-  s&op.'
+description: Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP, inventory optimization, procurement strategy, supplier management, and supply chain resilience. Expert-level Supply Chain Expert skill with deep knowledge of... Use when: supply-chain, procurement, logistics, inventory, s&op.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: supply-chain, procurement, logistics, inventory, s&op, demand-planning
-  category: logistics
-  difficulty: expert
-  score: 8.7/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.5
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Supply Chain Expert
 

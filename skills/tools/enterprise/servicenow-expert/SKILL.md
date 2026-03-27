@@ -1,63 +1,10 @@
 ---
 name: servicenow-expert
-description: 'ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use
-  when configuring ServiceNow, building workflows, scripting with Glide API. Use when:
-  servicenow, itsm, workflow, automation, glide.'
+description: ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use when configuring ServiceNow, building workflows, scripting with Glide API. Use when: servicenow, itsm, workflow, automation, glide.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.1.0
-  updated: 2026-03-23
-  tags: servicenow, itsm, workflow, automation, glide, now-platform, itom, csm, flow-designer
-  category: tools
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.7
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # ServiceNow Expert
 

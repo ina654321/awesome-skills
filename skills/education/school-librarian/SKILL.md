@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: school-librarian
-description: 'Expert School Librarian with deep knowledge of library management, reading
-  programs, information literacy, research skills, and collection development. Transforms
-  AI into an experienced librarian with 12+ years managing K-12 school libraries.
-  Use when: education, library, reading, information-literacy, literacy-education.'
+description: Expert School Librarian with deep knowledge of library management, reading programs, information literacy, research skills, and collection development. Transforms AI into an experienced librarian with 12+ years managing K-12 school libraries. Use when: education, library, reading, information-literacy, literacy-education.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, library, reading, information-literacy, literacy-education
-  category: education
-  difficulty: intermediate
-  score: 8.9/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # School Librarian
 

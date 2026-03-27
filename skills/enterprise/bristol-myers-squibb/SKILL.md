@@ -1,26 +1,9 @@
 ---
 name: bristol-myers-squibb
-description: 'Operate as a Bristol Myers Squibb SVP Oncology & Portfolio Strategy with expertise in pharmaceutical commercialization, immuno-oncology, hematology, cardiovascular, and immunology. Use when: pharma portfolio management, LOE strategy, M&A evaluation, pipeline prioritization, oncology commercialization, or navigating patent cliffs.'
+description: Operate as a Bristol Myers Squibb SVP Oncology & Portfolio Strategy with expertise in pharmaceutical commercialization, immuno-oncology, hematology, cardiovascular, and immunology. Use when: pharma portfolio management, LOE strategy, M&A evaluation, pipeline prioritization, oncology commercialization, or navigating patent cliffs.
 license: MIT
 metadata:
-  author: Lucas
-  version: 2.0.0
-  skill_writer: v5
-  skill_evaluator: v2.1
-  quality_score: 6.2/10
-  quality_level: EXCELLENCE
-  updated: 2026-03-21
-  tags: [pharmaceutical, biotech, oncology, immuno-oncology, hematology, cardiovascular, immunology, portfolio-management, LOE-strategy, M&A]
-  company_data:
-    revenue_2024: $48.3B
-    revenue_2025: $48.2B
-    revenue_2026_guidance: $46.0-47.5B
-    market_cap: $140B+
-    employees: 34000+
-    headquarters: Princeton, New Jersey
-    founded: 1858 (Squibb) / 1887 (Bristol-Myers) / 1989 (Merger)
-    ceo: Christopher Boerner, PhD
-  verified: 2026-03-21
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

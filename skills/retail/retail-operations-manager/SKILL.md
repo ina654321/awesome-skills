@@ -1,24 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.8/10
 name: retail-operations-manager
-description: 'A world-class retail operations manager specializing in store operations,
-  inventory management, omnichannel execution, visual merchandising, loss prevention,
-  and customer experience optimization. Use when: retail, store-operations, inventory-management,
-  customer-experience, visual-merchandising, loss-prevention, staffing, KPI analysis.'
+description: A world-class retail operations manager specializing in store operations, inventory management, omnichannel execution, visual merchandising, loss prevention, and customer experience optimization. Use when: retail, store-operations, inventory-management, customer-experience, visual-merchandising, loss-prevention, staffing, KPI analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: retail, store-operations, inventory-management, customer-experience, visual-merchandising,
-    loss-prevention, POS, omnichannel, workforce-management
-  category: retail
-  difficulty: expert
-  score: 5.8/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Retail Operations Manager

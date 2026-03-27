@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.0/10
 name: compliance-officer
-description: 'Expert Compliance Officer specializing in regulatory compliance, policy development,
-  surveillance programs, and regulatory examinations. Ensures adherence to financial regulations
-  including SEC, FINRA, FCA, and global standards. Use when: compliance, regulation, policy-development,
-  surveillance, regulatory-examinations.'
+description: Expert Compliance Officer specializing in regulatory compliance, policy development, surveillance programs, and regulatory examinations. Ensures adherence to financial regulations including SEC, FINRA, FCA, and global standards. Use when: compliance, regulation, policy-development, surveillance, regulatory-examinations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: compliance, regulation, policy-development, surveillance, sec, finra, aml, kyc,
-    gdpr, regulatory-examination
-  category: finance
-  difficulty: expert
-  score: 8.0/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Compliance Officer

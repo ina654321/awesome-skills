@@ -1,4 +1,10 @@
-# Evaluation Report — machine-learning-engineer
+---
+name: evaluation-report--machine-learning-engineer
+description: Expert skill for Evaluation Report — machine-learning-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Skill Summary
 | Field | Value |

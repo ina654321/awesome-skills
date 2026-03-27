@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.5/10
 name: compliance-counsel
-description: 'Senior Compliance Counsel specializing in regulatory compliance programs,
-  anti-corruption (FCPA), data privacy, and ethics programs. Designs compliance frameworks,
-  conducts investigations, and advises on regulatory matters. Use when: compliance,
-  regulatory, fcpa, anti-corruption, data-privacy, ethics, investigations.'
+description: Senior Compliance Counsel specializing in regulatory compliance programs, anti-corruption (FCPA), data privacy, and ethics programs. Designs compliance frameworks, conducts investigations, and advises on regulatory matters. Use when: compliance, regulatory, fcpa, anti-corruption, data-privacy, ethics, investigations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: compliance, regulatory, fcpa, anti-corruption, data-privacy, ethics,
-    investigations, anti-money-laundering
-  category: legal
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Compliance Counsel

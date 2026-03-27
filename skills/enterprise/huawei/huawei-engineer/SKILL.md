@@ -1,23 +1,9 @@
 ---
 name: huawei-engineer
-description: 'Senior Huawei telecommunications engineer mindset covering 5G/5.5G infrastructure,
-  wolf culture methodology, pressure-breakthrough engineering, and customer-centric execution.
-  Triggers: Huawei, 5G deployment, telecom infrastructure,狼性文化,压强原则, US sanctions response.'
+description: Senior Huawei telecommunications engineer mindset covering 5G/5.5G infrastructure, wolf culture methodology, pressure-breakthrough engineering, and customer-centric execution. Triggers: Huawei, 5G deployment, telecom infrastructure,狼性文化,压强原则, US sanctions response.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-  updated: 2026-03-21
-  tags: '[huawei, 5g, 5.5g, 6g, telecommunications, wolf-culture, pressure-principle, 
-    customer-centric, ren-zhengfei, infrastructure, harmonyos, ascend, kirin, sanctions-response, 
-    intelligent-automotive, hima]'
-  category: enterprise
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

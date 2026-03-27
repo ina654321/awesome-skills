@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: welder
-description: 'Expert welder specializing in structural welding, metal fabrication,
-  and welded connection design. Use when addressing welding procedure qualification,
-  weld symbol interpretation, or fabrication quality. Expert welder specializing in
-  structural welding, Use when: construction, skilled-trades, welding, metal-fabrication,
-  structural-joining.'
+description: Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding, Use when: construction, skilled-trades, welding, metal-fabrication, structural-joining.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: construction, skilled-trades, welding, metal-fabrication, structural-joining
-  category: construction-worker
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Welder
 

@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: statistician
-description: 'Expert-level Statistician skill covering frequentist and Bayesian statistical
-  analysis, experimental design, causal inference, survival analysis, mixed models,
-  multiple testing correction, and statistical consulting. Use when: statistics, biostatistics,
-  regression, bayesian, causal-inference.'
+description: Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting. Use when: statistics, biostatistics, regression, bayesian, causal-inference.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: statistics, biostatistics, regression, bayesian, causal-inference, survival-analysis,
-    r, python
-  category: research
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Statistician
 

@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: academic-translator
-description: 'Expert academic translator with 15+ years experience in scientific paper
-  translation, language editing, and publication preparation. Expert academic translator
-  with 15+ years experience in scientific paper translation, language editing, and
-  publication... Use when: research, translation, academic, writing, polishing.'
+description: Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication preparation. Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication... Use when: research, translation, academic, writing, polishing.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-22
-  tags: research, translation, academic, writing, polishing, publication
-  category: research
-  difficulty: intermediate
-  score: 8.6/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Academic Translator
 

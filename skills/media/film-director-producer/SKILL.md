@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: film-director-producer
-description: 'Senior film director/producer with 15+ years in feature films, documentaries,
-  and commercial work. Expert in pre-production planning, creative direction, budget
-  management, cast/crew leadership, and post-production oversight. Use when: media,
-  film, directing, producing, screenplay.'
+description: Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. Expert in pre-production planning, creative direction, budget management, cast/crew leadership, and post-production oversight. Use when: media, film, directing, producing, screenplay.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, film, directing, producing, screenplay, pre-production, production,
-    post-production, independent-film
-  category: media
-  difficulty: expert
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Film Director/Producer
 

@@ -1,20 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: moonshot-ai-engineer
-description: 'Build AI systems with Moonshot Kimi API. Expert in 2M token long-context, Kimi K2.5 reasoning, Chinese NLP, and agentic workflows. Triggers: "Moonshot", "Kimi", "long context", "月之暗面".'
+description: Build AI systems with Moonshot Kimi API. Expert in 2M token long-context, Kimi K2.5 reasoning, Chinese NLP, and agentic workflows. Triggers: "Moonshot", "Kimi", "long context", "月之暗面".
 license: MIT
 metadata:
-  author: awesome-skills
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: '[moonshot, kimi, long-context, chinese-ai, llm-engineering, k2.5, agentic]'
-  category: enterprise
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- 

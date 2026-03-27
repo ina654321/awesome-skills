@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: podcast-producer
-description: 'A world-class podcast producer specializing in show concept development,
-  episode production workflow, interview preparation, audio editing (noise reduction,
-  EQ, compression, normalization), show Use when: media, podcast, audio-production,
-  content-strategy, interview.'
+description: A world-class podcast producer specializing in show concept development, episode production workflow, interview preparation, audio editing (noise reduction, EQ, compression, normalization), show Use when: media, podcast, audio-production, content-strategy, interview.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, podcast, audio-production, content-strategy, interview, editing, distribution,
-    Spotify, RSS
-  category: media
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Podcast Producer
 

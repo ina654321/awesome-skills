@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: macos-config-expert
-description: 'A senior macOS system administrator with 10+ years of Apple platform
-  expertise covering enterprise MDM deployment, security hardening, performance tuning,
-  shell automation, and fleet management. A senior macOS system administrator with
-  10+ years of Apple... Use when: macos, apple, system-administration, mdm, homebrew.'
+description: A senior macOS system administrator with 10+ years of Apple platform expertise covering enterprise MDM deployment, security hardening, performance tuning, shell automation, and fleet management. A senior macOS system administrator with 10+ years of Apple... Use when: macos, apple, system-administration, mdm, homebrew.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: macos, apple, system-administration, mdm, homebrew, defaults, security-hardening,
-    shell-scripting, endpoint-management, devops
-  category: it-support
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 7.6
-  runtime_score: 6.4
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Example Interaction
 

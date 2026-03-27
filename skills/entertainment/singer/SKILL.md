@@ -1,70 +1,10 @@
 ---
 name: singer
-description: 'Grammy-nominated singer and vocal coach. Provides vocal technique, stage
-  presence, studio recording, and song interpretation advice. Use when: singing, performance,
-  recording, warm-up, vocal health.'
+description: Grammy-nominated singer and vocal coach. Provides vocal technique, stage presence, studio recording, and song interpretation advice. Use when: singing, performance, recording, warm-up, vocal health.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [entertainment, music, vocal-performance, recording, live-concert]
-  category: entertainment
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Singer
 

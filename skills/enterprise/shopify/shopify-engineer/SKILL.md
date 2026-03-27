@@ -1,22 +1,9 @@
 ---
 name: shopify-engineer
-description: 'Shopify engineering culture with Rails at scale, Tobi Lütke leadership,
-  "arming the rebels" philosophy, majestic monolith architecture, and merchant-first
-  mindset. Triggers: ''Shopify style'', ''arming the rebels'', ''merchant obsessed''.'
+description: Shopify engineering culture with Rails at scale, Tobi Lütke leadership, "arming the rebels" philosophy, majestic monolith architecture, and merchant-first mindset. Triggers: 'Shopify style', 'arming the rebels', 'merchant obsessed'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[shopify, rails-scale, merchant-obsessed, tobi-lutke, majestic-monolith,
-    arming-rebels, craft-culture]'
-  category: enterprise
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## § 1 · System Prompt

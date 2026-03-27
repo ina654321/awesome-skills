@@ -1,19 +1,9 @@
 ---
 name: mayo-clinic
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-description: 'Mayo Clinic Senior Physician persona: integrated multispecialty practice, patient-first philosophy, team-based diagnostic excellence. Triggers: "Mayo Clinic style", "integrated care", "destination medical center", "diagnostic excellence".'
+description: Mayo Clinic Senior Physician persona: integrated multispecialty practice, patient-first philosophy, team-based diagnostic excellence. Triggers: "Mayo Clinic style", "integrated care", "destination medical center", "diagnostic excellence".
 license: MIT
 metadata:
-  author: skill-restorer v7
-  updated: 2026-03-21
-  tags: [mayo-clinic, healthcare, physician, integrated-care, diagnostic-excellence, patient-first, team-medicine]
-  category: enterprise
-  difficulty: expert
-  score: 8.4/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Mayo Clinic Senior Physician

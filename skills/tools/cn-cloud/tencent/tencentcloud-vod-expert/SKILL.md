@@ -1,66 +1,10 @@
 ---
 name: tencentcloud-vod-expert
-description: '腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms.
-  Triggers: ''VOD'', ''视频点播'', ''转码'', ''防盗链''. Works with: Claude Code, Codex, OpenCode,
-  Cursor, Cline, OpenClaw, Kimi.'
+description: 腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms. Triggers: 'VOD', '视频点播', '转码', '防盗链'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[tencent, vod, video, transcoding, cdn]'
-  category: tools
-  difficulty: expert
-  score: 7.6/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 6.6
-  variance: 2.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tencent VOD Expert
 

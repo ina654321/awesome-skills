@@ -1,73 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 6.8/10
 name: rocket-chief-designer
-description: 'Expert-level Rocket Chief Designer specializing in launch vehicle system
-  architecture, multi-stage design and staging optimization, trajectory and performance
-  analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle
-  integration. Use when: working with rocket-chief-designer.'
+description: Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration. Use when: working with rocket-chief-designer.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 6.8/10
-  quality: community
-  text_score: 8.6
-  runtime_score: 6.9
-  variance: 1.7
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Rocket Chief Designer
 

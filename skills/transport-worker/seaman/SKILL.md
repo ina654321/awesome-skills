@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.8/10
 name: seaman
-description: 'Professional seaman specializing in maritime operations, vessel handling,
-  navigation, and shipboard safety. Use when working on maritime crew operations,
-  vessel maintenance, or shipping industry tasks. Triggers: ''seaman'', ''maritime'',
-  ''ship crew'', ''船员''.'
+description: Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[maritime, shipping, seafaring, vessel-operations, STCW]'
-  category: transport-worker
-  difficulty: intermediate
-  score: 8.8/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Seaman
 

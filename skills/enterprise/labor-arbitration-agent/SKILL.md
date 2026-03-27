@@ -1,22 +1,9 @@
 ---
 name: labor-arbitration-agent
-display_name: Labor Arbitration Agent
-description: >
-  Navigate China's labor arbitration system to win employee disputes through methodical
-  evidence preparation, procedural precision, and strategic case presentation. Use when:
-  labor dispute, 劳动仲裁, wrongful termination, unpaid wages, social insurance, 五险一金,
-  劳动合同争议, 违法解除, 加班费, severance, employment rights, work injury.
-tags: [labor-law, arbitration, dispute-resolution, employment-law, china, 劳动法, 仲裁委]
-version: 1.1.0
-category: enterprise
-difficulty: expert
-quality: expert
-  variance: 0.5
-  text_score: 5.0
+description: Expert skill for labor-arbitration-agent
 license: MIT
-author: neo.ai <lucas_hsueh@hotmail.com>
-updated: 2026-03-23
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Labor Arbitration Agent

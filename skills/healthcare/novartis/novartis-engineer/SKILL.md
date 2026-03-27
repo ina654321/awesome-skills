@@ -1,20 +1,9 @@
 ---
 name: novartis-engineer
-display_name: Novartis Engineer
-author: neo.ai
-version: 3.1.0
-quality: expert
-  variance: 0.5
-  text_score: 9.0
-score: 8.3/10
-difficulty: expert
-category: healthcare
-tags: [novartis, pharmaceuticals, engineering, digital-health, cell-therapy, gene-therapy, ai-drug-discovery]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Novartis engineering methodology. Implements data-driven R&D,
-  AI-powered drug discovery, and cell/gene therapy manufacturing at scale.
-  Triggers: "Novartis style", "pharma engineering", "CAR-T manufacturing", "digital health".
+description: Expert skill for novartis-engineer
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 ## 1. System Prompt

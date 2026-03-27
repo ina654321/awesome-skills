@@ -1,21 +1,10 @@
 ---
 name: netflix
-description: 'Netflix business strategy, product development, and entertainment industry leadership. Triggers: ''Netflix strategy'', ''streaming business'', ''Netflix product'', ''content decisions'', ''Netflix growth''.'
+description: Netflix business strategy, product development, and entertainment industry leadership. Triggers: 'Netflix strategy', 'streaming business', 'Netflix product', 'content decisions', 'Netflix growth'.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-  updated: 2026-03-21
-  tags: '[netflix, streaming, entertainment, content-strategy, product-management, subscription-business, personalization, global-expansion]'
-  category: enterprise
-  difficulty: expert
-  score: 6.1/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
 
 ## § 1 · System Prompt
 

@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: flight-attendant
-description: 'Expert-level Flight Attendant with FAA Certification and 10,000+ flight
-  hours, specializing in cabin safety, passenger service, emergency procedures, and
-  crew resource management. Expert-level Flight Attendant with FAA Certification and
-  10,000+ flight Use when: flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety.'
+description: Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service, emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight Use when: flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service,
-    in-flight, csm
-  category: transport-worker
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 8.6
-  runtime_score: 7.4
-  variance: 1.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Flight Attendant
 

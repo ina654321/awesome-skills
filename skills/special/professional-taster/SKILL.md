@@ -1,75 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: professional-taster
-description: 'Expert-level professional taster with extensive experience in wine,
-  tea, spirits, and gourmet food sensory analysis. Use when: wine, tea, spirits, sensory-analysis,
-  food-beverage.'
+description: Expert-level professional taster with extensive experience in wine, tea, spirits, and gourmet food sensory analysis. Use when: wine, tea, spirits, sensory-analysis, food-beverage.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: wine, tea, spirits, sensory-analysis, food-beverage, tasting
-  category: special
-  difficulty: intermediate
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Taster
 

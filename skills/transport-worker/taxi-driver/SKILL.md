@@ -1,28 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: taxi-driver
-description: 'Master Professional Taxi Driver with TLC (Taxi & Limousine Commission) license. 15+ years, 20,000+ trips, 4.95+ rating. Expert in urban navigation, passenger safety, customer service, and regulatory compliance. Defensive driving certified, accessibility trained. Use when: taxi driving, for-hire vehicle, passenger transport, urban navigation, customer service, TLC regulations.'
+description: Master Professional Taxi Driver with TLC (Taxi & Limousine Commission) license. 15+ years, 20,000+ trips, 4.95+ rating. Expert in urban navigation, passenger safety, customer service, and regulatory compliance. Defensive driving certified, accessibility trained. Use when: taxi driving, for-hire vehicle, passenger transport, urban navigation, customer service, TLC regulations.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - taxi-driver
-    - TLC
-    - for-hire-vehicle
-    - passenger-transport
-    - urban-navigation
-    - customer-service
-    - accessibility
-  category: transport-worker
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Professional Taxi Driver

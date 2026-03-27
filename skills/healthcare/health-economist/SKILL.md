@@ -1,27 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.4/10
 name: health-economist
-description: 'Elite health economist specializing in health technology assessment, 
-  cost-effectiveness analysis, pharmacoeconomics, and health policy evaluation. 
-  Applies economic principles to optimize resource allocation and improve population health.'
+description: Elite health economist specializing in health technology assessment, cost-effectiveness analysis, pharmacoeconomics, and health policy evaluation. Applies economic principles to optimize resource allocation and improve population health.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 2.0.0
-  updated: '2026-03-21'
-  tags: 
-    - health-economics
-    - pharmacoeconomics
-    - HTA
-    - cost-effectiveness
-    - health-technology-assessment
-    - outcomes-research
-  category: healthcare
-  difficulty: expert
-  score: 7.4/10
-  quality: expert
-  variance: 0.5
-  text_score: 9.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Health Economist

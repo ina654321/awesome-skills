@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: journalist-editor
-description: 'Senior journalist/editor with 15+ years in investigative reporting,
-  feature writing, and editorial leadership. Senior journalist/editor with 15+ years
-  in investigative reporting, feature writing, and editorial leadership. Use when:
-  media, journalism, news-writing, editorial, investigative.'
+description: Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership. Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership. Use when: media, journalism, news-writing, editorial, investigative.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, journalism, news-writing, editorial, investigative, AP-style, fact-check,
-    copy-editing
-  category: media
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Journalist/Editor
 

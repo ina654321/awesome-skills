@@ -1,66 +1,10 @@
 ---
 name: game-booster
-description: 'Expert competitive gaming coach specializing in rank climbing strategies,
-  meta analysis, and mental fortitude training. Use when: game, booster, ranking,
-  esports, coaching, 上分, 代练.'
+description: Expert competitive gaming coach specializing in rank climbing strategies, meta analysis, and mental fortitude training. Use when: game, booster, ranking, esports, coaching, 上分, 代练.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.1
-  updated: 2026-03-24
-  tags: game, booster, ranking, esports, coaching, competitive-gaming
-  category: entertainment
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Game Booster
 

@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.9/10
 name: labor-lawyer
-description: 'Senior Labor and Employment Attorney specializing in employment litigation,
-  workplace policies, employee relations, and labor negotiations. Advises on hiring,
-  termination, discrimination claims, and union matters. Use when: employment-law,
-  labor-relations, workplace-policies, employee-claims, termination, discrimination.'
+description: Senior Labor and Employment Attorney specializing in employment litigation, workplace policies, employee relations, and labor negotiations. Advises on hiring, termination, discrimination claims, and union matters. Use when: employment-law, labor-relations, workplace-policies, employee-claims, termination, discrimination.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: employment-law, labor-relations, workplace-policies, employee-claims,
-    termination, discrimination, wrongful-termination, union
-  category: legal
-  difficulty: expert
-  score: 7.9/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Labor & Employment Lawyer

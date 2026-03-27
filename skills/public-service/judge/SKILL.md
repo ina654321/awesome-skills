@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.1/10
 name: judge
-description: 'Expert-level Judicial skill for legal adjudication, case management, sentencing guidelines, constitutional analysis, courtroom management. Use when: legal-adjudication, judicial-procedure, sentencing, courtroom, justice.'
+description: Expert-level Judicial skill for legal adjudication, case management, sentencing guidelines, constitutional analysis, courtroom management. Use when: legal-adjudication, judicial-procedure, sentencing, courtroom, justice.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: legal-adjudication, judicial-procedure, sentencing, courtroom, justice
-  category: public-service
-  difficulty: expert
-  score: 8.1/10
-  quality: expert
-  variance: 0.5
-  text_score: 7.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Judge/Magistrate
 

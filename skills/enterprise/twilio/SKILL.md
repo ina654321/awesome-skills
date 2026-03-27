@@ -1,4 +1,10 @@
-# Twilio
+---
+name: twilio
+description: Expert skill for Twilio
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 ## Version
 

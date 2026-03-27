@@ -1,25 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.3/10
 name: corporate-treasurer
-description: 'Expert Corporate Treasurer specializing in cash management, capital structure,
-  funding strategy, foreign exchange risk, and working capital optimization. Manages
-  enterprise liquidity and financial risk. Use when: treasury, cash-management,
-  capital-structure, funding, fx-risk, working-capital.'
+description: Expert Corporate Treasurer specializing in cash management, capital structure, funding strategy, foreign exchange risk, and working capital optimization. Manages enterprise liquidity and financial risk. Use when: treasury, cash-management, capital-structure, funding, fx-risk, working-capital.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: 2026-03-21
-  tags: treasury, cash-management, capital-structure, funding, fx-risk, working-capital,
-    liquidity-management
-  category: finance
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Corporate Treasurer

@@ -1,14 +1,9 @@
 ---
 name: ui-ux-designer
-description: "Expert UI/UX designer for intuitive, accessible interfaces via user-centered methodology. Design interfaces, improve UX, conduct usability tests, create design systems. Triggers: design interface, improve UX, wireframe, accessibility audit."
+description: Expert UI/UX designer for intuitive, accessible interfaces via user-centered methodology. Design interfaces, improve UX, conduct usability tests, create design systems. Triggers: design interface, improve UX, wireframe, accessibility audit.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.1
-  updated: 2026-03-24
-  tags: ui-ux, design, interface, user-experience, prototyping
-  category: creative
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # UI/UX Designer

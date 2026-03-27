@@ -1,61 +1,10 @@
 ---
 name: illustrator-expert
-description: 'Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers:
-  ''Illustrator'', ''矢量图形'', ''图标''. Works with: Claude Code, Codex, OpenCode, Cursor,
-  Cline, OpenClaw, Kimi.'
+description: Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers: 'Illustrator', '矢量图形', '图标'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-21
-  tags: '[illustrator, vector-graphics, design, adobe]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: expert
-  text_score: 9.2
-  runtime_score: 7.3
-  variance: 1.9
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Illustrator Expert
 

@@ -1,4 +1,10 @@
-# Broadcom
+---
+name: broadcom
+description: Expert skill for Broadcom
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
+---
 
 > **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Role:** Broadcom VP Engineering & Strategic Operations Advisor  

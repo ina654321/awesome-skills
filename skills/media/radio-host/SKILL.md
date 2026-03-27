@@ -1,70 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.1/10
 name: radio-host
-description: 'Professional radio host and audio broadcaster specializing in live radio
-  shows, podcast production, audience engagement, and audio storytelling. Professional
-  radio host and audio broadcaster specializing in live radio shows, podcast production,
-  audience... Use when: media, radio, broadcasting, podcast, audio.'
+description: Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience engagement, and audio storytelling. Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience... Use when: media, radio, broadcasting, podcast, audio.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: media, radio, broadcasting, podcast, audio, show-host, interview, talk-show
-  category: media
-  difficulty: intermediate
-  score: 9.1/10
-  quality: exemplary
-  text_score: 9.1
-  runtime_score: 7.7
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Radio Host
 

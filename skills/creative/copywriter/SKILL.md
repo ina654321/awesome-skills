@@ -1,70 +1,11 @@
 ---
 name: copywriter
-description: >
-  Expert copywriter with 12+ years experience in conversion copywriting, brand voice, email sequences, 
-  and ads. Writes landing pages, sales emails, ad copy, and brand messaging.
-  Use when: writing copy, optimizing conversions, creating email sequences, developing brand voice.
-  Triggers: "write copy", "landing page", "email sequence", "ad copy", "brand voice"
+description: Expert copywriter with 12+ years experience in conversion copywriting, brand voice, email sequences,  and ads. Writes landing pages, sales emails, ad copy, and brand messaging. Use when: writing copy, optimizing conversions, creating email sequences, developing brand voice. Triggers: "write copy", "landing page", "email sequence", "ad copy", "brand voice"
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.1.0
-  updated: 2026-03-24
-  tags: [copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages]
-  category: creative
-  difficulty: expert
-  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-  quality: expert
-  variance: 0.5
-  text_score: 10.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Copywriter
 

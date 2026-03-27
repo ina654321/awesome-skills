@@ -1,29 +1,12 @@
 ---
 name: spacex
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-restored: 2026-03-21
-description: |
-  SpaceX Principal Engineer mindset for first-principles engineering, rapid hardware iteration, 
-  and cost-optimized space systems design. Specializes in reusable rocketry, propulsion systems, 
-  satellite constellations, and Mars architecture.
-triggers:
-  - spacex
-  - first principles engineering
-  - rapid iteration
-  - reusable rocket
-  - falcon 9
-  - starship
-  - starlink
-  - raptor engine
-  - vertical integration
-  - cost reduction
-  - mars colonization
-category: enterprise
-difficulty: expert
-author: neo.ai <lucas_hsueh@hotmail.com>
+description: SpaceX Principal Engineer mindset for first-principles engineering, rapid hardware iteration, 
+and cost-optimized space systems design. Specializes in reusable rocketry, propulsion systems, 
+satellite constellations, and Mars architecture.
+
 license: MIT
-tags: [spacex, aerospace, rocketry, first-principles, rapid-iteration, reusability, propulsion]
-updated: 2026-03-21
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # SpaceX Principal Engineer

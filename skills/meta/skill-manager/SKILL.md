@@ -1,19 +1,10 @@
 ---
 name: skill-manager
-description: >
-  Manage the complete AI skill lifecycle: create skills from scratch with real tasks,
-  evaluate quality through dual-track validation, restore underperforming skills to EXEMPLARY,
-  and continuously improve through evals-driven feedback loops. Use when: "write skill",
-  "create skill", "evaluate skill", "test skill", "certify skill", "restore skill",
-  "improve skill", "optimize description", "manage dependencies", "start quick/standard/expert".
+description: Manage the complete AI skill lifecycle: create skills from scratch with real tasks, evaluate quality through dual-track validation, restore underperforming skills to EXEMPLARY, and continuously improve through evals-driven feedback loops. Use when: "write skill", "create skill", "evaluate skill", "test skill", "certify skill", "restore skill", "improve skill", "optimize description", "manage dependencies", "start quick/standard/expert".
+
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.2.0
-  updated: '2026-03-25'
-  tags: skill-creation, skill-evaluation, skill-restoration, skill-optimization, quality-assurance, dependencies, versioning
-  category: meta
-  difficulty: expert
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Skill Manager
@@ -265,5 +256,3 @@ Share skill             → DISTRIBUTION guide
 ```
 
 ---
-
-**Version:** 1.2.0 | **Updated:** 2026-03-25

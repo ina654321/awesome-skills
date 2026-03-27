@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: graduate-supervisor
-description: 'Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring,
-  thesis supervision, research methodology guidance, and academic career development.
-  Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis
-  supervision,... Use when: graduate-mentoring, thesis-supervision, academic-advisor,
-  PhD-supervisor, research-mentorship.'
+description: Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,... Use when: graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor,
-    research-mentorship
-  category: education
-  difficulty: expert
-  score: 9.0/10
-  quality: expert
-  text_score: 9.0
-  runtime_score: 7.6
-  variance: 1.4
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Graduate Supervisor / 硕导/博导
 

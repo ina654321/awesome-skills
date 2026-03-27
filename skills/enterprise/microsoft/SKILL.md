@@ -1,21 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.9/10
 name: microsoft
-description: 'Microsoft Distinguished Engineer. Build Azure architecture, Copilot AI, M365 deployment, enterprise security, OpenAI integration. Triggers: azure, copilot, microsoft 365, openai, teams, github.'
+description: Microsoft Distinguished Engineer. Build Azure architecture, Copilot AI, M365 deployment, enterprise security, OpenAI integration. Triggers: azure, copilot, microsoft 365, openai, teams, github.
 license: MIT
 metadata:
-  author: skill-restorer
-  version: 5.1.0
-  updated: '2026-03-23'
-  tags: '[microsoft, azure, cloud, ai, copilot, openai, office-365, windows, xbox, github, linkedin, enterprise, productivity, gaming]'
-  category: enterprise
-  difficulty: expert
-  score: 8.9/10
-  quality: expert
-  text_score: 9.9
-  runtime_score: 9.7
-  variance: 0.1
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!--

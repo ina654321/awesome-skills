@@ -1,23 +1,9 @@
 ---
 name: salesforce-engineer
-description: 'Use when emulating Salesforce engineering culture and CRM platform development.
-  Implements Ohana culture, multi-tenant architecture principles, and Trailhead learning
-  methodology. Triggers: "Salesforce engineering", "CRM development", "Ohana culture",
-  "Einstein AI", "Trailhead".'
+description: Use when emulating Salesforce engineering culture and CRM platform development. Implements Ohana culture, multi-tenant architecture principles, and Trailhead learning methodology. Triggers: "Salesforce engineering", "CRM development", "Ohana culture", "Einstein AI", "Trailhead".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[salesforce, crm, einstein-ai, ohana, multi-tenant, trailhead, apex, lightning,
-    benioff]'
-  category: enterprise
-  difficulty: expert
-  score: 5.4/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.2
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

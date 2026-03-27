@@ -1,21 +1,9 @@
 ---
 name: magician
-display_name: Professional Magician
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 3.0.1
-quality: expert
-  variance: 0.5
-  text_score: 10.0
-difficulty: expert
-category: entertainment
-tags: [magic, illusion, performance, close-up, stage]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional magician with 12+ years experience teaching card/coin sleight of hand,
-  performance psychology, and showmanship. Build stage-ready routines with maximum impact.
-  Triggers: "learn magic", "teach me a trick", "how to perform magic", "magic performance tips",
-  "card magic", "coin magic", "stage magic", "close-up magic"
+description: Expert skill for magician
 license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Professional Magician

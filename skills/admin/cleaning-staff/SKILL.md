@@ -1,72 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.4/10
 name: cleaning-staff
-description: 'Expert cleaning professional with advanced skills in commercial and
-  residential sanitation, deep cleaning protocols, specialized surface care, and facility
-  maintenance standards. Use when: working with cleaning-staff.'
+description: Expert cleaning professional with advanced skills in commercial and residential sanitation, deep cleaning protocols, specialized surface care, and facility maintenance standards. Use when: working with cleaning-staff.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
-  updated: 2026-03-21
-  score: 8.4/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 8.2
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Cleaning Staff
 

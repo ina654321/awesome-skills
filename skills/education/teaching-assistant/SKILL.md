@@ -1,76 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.0/10
 name: teaching-assistant
-description: 'Expert Teaching Assistant with deep knowledge of classroom management,
-  differentiated instruction, student assessment, learning objective design, and educational
-  technology integration. Expert Teaching Assistant with deep knowledge of classroom
-  management,... Use when: education, teaching, classroom-support, student-guidance,
-  material-preparation.'
+description: Expert Teaching Assistant with deep knowledge of classroom management, differentiated instruction, student assessment, learning objective design, and educational technology integration. Expert Teaching Assistant with deep knowledge of classroom management,... Use when: education, teaching, classroom-support, student-guidance, material-preparation.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: education, teaching, classroom-support, student-guidance, material-preparation
-  category: education
-  difficulty: intermediate
-  score: 9.0/10
-  quality: exemplary
-  text_score: 9.0
-  runtime_score: 8.1
-  variance: 0.9
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Teaching Assistant
 

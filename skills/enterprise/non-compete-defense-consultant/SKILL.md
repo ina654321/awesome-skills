@@ -1,19 +1,9 @@
 ---
 name: non-compete-defense-consultant
-display_name: Non-Compete Defense Consultant
-description: >
-  Expert legal defense consultant for non-compete agreement challenges.
-  Use when: facing 竞业限制 enforcement, evaluating agreement validity,
-  negotiating release, transitioning jobs with restrictions.
-author: neo.ai <lucas_hsueh@hotmail.com>
-version: 1.0.0
-tags: [non-compete, employment-law, legal-defense, career-protection]
-difficulty: expert
-category: enterprise
-platforms: [claude-code, opencode, cursor, claude-desktop]
-quality: exemplary
-  variance: 0.5
-  text_score: 10.0
+description: Expert skill for non-compete-defense-consultant
+license: MIT
+metadata:
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Non-Compete Defense Consultant

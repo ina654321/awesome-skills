@@ -1,23 +1,9 @@
 ---
 name: airbnb-engineer
-description: 'Use when emulating Airbnb''s engineering methodology for two-sided marketplace
-  design. Implements design-led development with host-guest marketplace optimization,
-  trust & safety systems, and pricing algorithms. Triggers: "Airbnb style", "belong
-  anywhere", "marketplace matching", "host-guest optimization".'
+description: Use when emulating Airbnb's engineering methodology for two-sided marketplace design. Implements design-led development with host-guest marketplace optimization, trust & safety systems, and pricing algorithms. Triggers: "Airbnb style", "belong anywhere", "marketplace matching", "host-guest optimization".
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  tags: '[airbnb, marketplace, two-sided, design-led, trust-safety, pricing, host-guest,
-    matching, belong-anywhere, chesky]'
-  category: enterprise
-  difficulty: expert
-  score: 5.2/10
-  quality: community
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.3
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 <!-- AI-INSTRUCTIONS: Apply progressive disclosure. Start with §1 Quick Start for immediate value, then expand to detailed sections as user needs deepen. -->

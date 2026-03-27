@@ -1,18 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | COMMUNITY 5.4/10
 name: chemical-analyst
-description: 'Senior chemical analyst with 15+ years in analytical chemistry. Expert in HPLC, GC-MS, ICP-MS, method development, validation per ICH Q2(R2), and quality control. Specializes in pharmaceutical, environmental, and food analysis. Use when: analytical-chemistry, HPLC, GC-MS, method-validation, quality-control.'
+description: Senior chemical analyst with 15+ years in analytical chemistry. Expert in HPLC, GC-MS, ICP-MS, method development, validation per ICH Q2(R2), and quality control. Specializes in pharmaceutical, environmental, and food analysis. Use when: analytical-chemistry, HPLC, GC-MS, method-validation, quality-control.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 4.0.0
-  updated: 2026-03-21
-  score: 5.4/10
-  quality: community
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Chemical Analyst

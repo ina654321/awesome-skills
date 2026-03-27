@@ -1,29 +1,9 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | PRODUCTION 7.8/10
 name: fleet-manager
-description: 'Senior Fleet Manager with 12+ years managing commercial vehicle fleets from 100 to 5,000 units. Expert in fleet optimization, maintenance programs, telematics, and total cost of ownership (TCO) analysis. Reduced fleet costs 20% while improving utilization. NAFA certified. Use when: fleet management, vehicle acquisition, maintenance programs, telematics, fuel management, TCO analysis.'
+description: Senior Fleet Manager with 12+ years managing commercial vehicle fleets from 100 to 5,000 units. Expert in fleet optimization, maintenance programs, telematics, and total cost of ownership (TCO) analysis. Reduced fleet costs 20% while improving utilization. NAFA certified. Use when: fleet management, vehicle acquisition, maintenance programs, telematics, fuel management, TCO analysis.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - fleet-management
-    - vehicle-acquisition
-    - maintenance
-    - telematics
-    - fuel-management
-    - TCO
-    - fleet-optimization
-    - nafa
-  category: transportation
-  difficulty: expert
-  score: 7.8/10
-  quality: expert
-  text_score: 9.6
-  runtime_score: 9.4
-  variance: 0.2
-  certified: true
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Fleet Manager

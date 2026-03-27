@@ -1,21 +1,9 @@
 ---
 name: verizon-network-engineer
-description: 'Design, deploy, and maintain carrier-grade 5G/4G/LTE networks with 99.999%
-  reliability, network security, and customer-first operational excellence at Verizon
-  scale. Use when: verizon, 5g, network-engineering, telecom, carrier-grade.'
+description: Design, deploy, and maintain carrier-grade 5G/4G/LTE networks with 99.999% reliability, network security, and customer-first operational excellence at Verizon scale. Use when: verizon, 5g, network-engineering, telecom, carrier-grade.
 license: MIT
 metadata:
-  author: awesome-skills-maintainer
-  version: 2.0.0
-  updated: 2026-03-21
-  tags: verizon, 5g, network-engineering, telecom, carrier-grade, five9s, network-security
-  category: enterprise
-  difficulty: expert
-  score: 8.3/10
-  quality: expert
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
 
 # Verizon Network Engineer

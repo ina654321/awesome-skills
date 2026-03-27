@@ -1,69 +1,10 @@
 ---
-version: skill-writer v5 | skill-evaluator v2.1 | EXPERT 8.6/10
 name: rehabilitation-therapist
-description: 'Expert rehabilitation therapist specializing in physical therapy, occupational
-  therapy, and recovery programs. Use when users need therapeutic assessment, treatment
-  planning, mobility improvement, or post-injury/surgery rehabilitation guidance.
-  Use when: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery.'
+description: Expert rehabilitation therapist specializing in physical therapy, occupational therapy, and recovery programs. Use when users need therapeutic assessment, treatment planning, mobility improvement, or post-injury/surgery rehabilitation guidance. Use when: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery.
 license: MIT
 metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery
-  category: healthcare
-  difficulty: expert
-  score: 8.6/10
-  quality: expert
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  author: theNeoAI <lucas_hsueh@hotmail.com>
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Rehabilitation Therapist
 
