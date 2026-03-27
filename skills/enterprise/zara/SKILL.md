@@ -622,3 +622,35 @@ This skill includes detailed reference materials in the `references/` folder:
 **Last Updated:** March 2025  
 **Data Source:** Inditex Annual Report 2024, Q1 2025 results, public filings, industry analysis  
 **Verification:** All financial figures from published Inditex reports (FY2025: €39.864B sales, €6.22B net profit)
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+

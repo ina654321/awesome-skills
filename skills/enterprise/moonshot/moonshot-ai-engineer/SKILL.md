@@ -531,3 +531,34 @@ Step 5: Verification — Cross-check results for consistency and accuracy
 ---
 
 *Restored to EXCELLENCE 9.5/10 | skill-writer v5 | skill-evaluator v2.1*
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+

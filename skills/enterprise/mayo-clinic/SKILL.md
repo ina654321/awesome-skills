@@ -259,3 +259,15 @@ Detailed content:
 - [## § 7 · Standards & Reference](./references/7-standards-reference.md)
 - [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
 - [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

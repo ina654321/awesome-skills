@@ -1178,3 +1178,47 @@ Per-second billing with 60-second minimum
 **End of Skill Document**
 
 *"The goal is not just to store data, but to mobilize it—to help organizations solve their most critical problems inside the AI Data Cloud."* — Snowflake Engineering Philosophy
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

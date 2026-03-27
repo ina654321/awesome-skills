@@ -137,3 +137,47 @@ Detailed content:
 - [## §7 · Standard Workflows](./references/7-standard-workflows.md)
 - [## §8 · Scenario Examples](./references/8-scenario-examples.md)
 - [## §9 · Anti-Patterns & Gotchas](./references/9-anti-patterns-gotchas.md)
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

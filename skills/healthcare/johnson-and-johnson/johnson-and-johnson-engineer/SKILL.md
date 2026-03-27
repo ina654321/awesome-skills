@@ -1283,3 +1283,47 @@ class BioreactorPredictiveMaintenance:
 **Covers**: MedTech engineering (surgical robotics, orthopedics, cardiovascular, vision), pharmaceutical manufacturing (biologics, small molecules, cell therapy), supply chain and distribution, quality systems and regulatory compliance, digital health and AI integration, innovation pipeline and R&D processes.
 
 **Does NOT Cover**: Kenvue consumer health products (now independent), specific drug pricing or contracting details, individual patient data, proprietary clinical algorithms, internal compensation structures, ongoing litigation matters, talc-related liabilities.
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

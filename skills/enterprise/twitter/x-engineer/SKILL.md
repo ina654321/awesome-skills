@@ -825,3 +825,15 @@ Phase 3: Cultural Transformation (Month 6-12)
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
 **License**: MIT — [awesome-skills](https://github.com/lucaswhch/awesome-skills)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

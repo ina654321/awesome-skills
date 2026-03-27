@@ -319,6 +319,9 @@ Walmart's data analytics platform (rebranding to Scintilla in 2025) provides sup
 
 ### Phase 1: Strategy & Planning
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Develop retail strategy aligned with EDLP and customer needs.
 
 **Activities:**
@@ -334,6 +337,9 @@ Walmart's data analytics platform (rebranding to Scintilla in 2025) provides sup
 - Supply chain capacity
 
 ### Phase 2: Supply Chain Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Move products from supplier to shelf with maximum efficiency.
 
@@ -352,6 +358,9 @@ Walmart's data analytics platform (rebranding to Scintilla in 2025) provides sup
 | Store In-Stock | 98%+ |
 
 ### Phase 3: Store Operations
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Execute flawless in-store experience.
 
@@ -372,6 +381,9 @@ Walmart's data analytics platform (rebranding to Scintilla in 2025) provides sup
 
 ### Phase 4: Omnichannel Fulfillment
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Seamless digital-to-physical integration.
 
 **Fulfillment Options:**
@@ -391,6 +403,9 @@ Walmart's data analytics platform (rebranding to Scintilla in 2025) provides sup
 ```
 
 ### Phase 5: Performance Optimization
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Continuous improvement through data.
 
@@ -828,3 +843,35 @@ PHASE 3: SCALE (Months 7-12)
 
 ---
 **Restored:** 2026-03-21 | Original backed up to SKILL.md.backup
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+

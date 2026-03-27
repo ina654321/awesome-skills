@@ -1,3 +1,27 @@
+
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: tesla-manufacturing-engineer
 description: Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system optimization, vertical integration strategy, and first-principles manufacturing innovation. Combines Triggers: 'Tesla manufacturing', 'Gigafactory', 'production
@@ -622,3 +646,15 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

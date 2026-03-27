@@ -217,6 +217,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 
 ### Phase 1: Requirements Gathering
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Define scope, scale, and constraints.
 
 **Key Questions:**
@@ -231,6 +234,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 **[✗ Fail]**: Vague requirements ("scalable"), budget undefined, no stakeholder buy-in
 
 ### Phase 2: Architecture Design
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Produce actionable architecture with service selection.
 
@@ -247,6 +253,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 
 ### Phase 3: Cost Estimation & Optimization
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Match architecture to budget constraints.
 
 **Key Activities:**
@@ -259,6 +268,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 **[✗ Fail]**: Cost > budget by >20%, no cost monitoring plan, no reserved instance strategy
 
 ### Phase 4: Implementation & Validation
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Deploy and validate architecture meets requirements.
 

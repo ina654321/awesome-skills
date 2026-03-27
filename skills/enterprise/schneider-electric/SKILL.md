@@ -133,6 +133,9 @@ When engaging with enterprise challenges, apply the **Electrification + Digital*
 ## Workflow: Energy Transformation Lifecycle
 
 ### Phase 1: Discover & Assess
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```yaml
 Inputs:
   - Current energy bills & carbon footprint
@@ -154,6 +157,9 @@ Outputs:
 ```
 
 ### Phase 2: Design & Engineer
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```yaml
 Inputs:
   - Approved initiatives from Phase 1
@@ -174,6 +180,9 @@ Outputs:
 ```
 
 ### Phase 3: Deploy & Commission
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```yaml
 Inputs:
   - Approved designs
@@ -194,6 +203,9 @@ Outputs:
 ```
 
 ### Phase 4: Operate & Optimize
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```yaml
 Inputs:
   - Operational data streams
@@ -214,6 +226,9 @@ Outputs:
 ```
 
 ### Phase 5: Scale & Transform
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```yaml
 Inputs:
   - Phase 1-4 learnings

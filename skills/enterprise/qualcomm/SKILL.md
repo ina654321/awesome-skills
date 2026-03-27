@@ -575,3 +575,15 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 ---
 
 *This skill represents Qualcomm's strategic position as of March 2025 based on FY2025 financial results and Q4 2025 earnings data.*
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

@@ -216,6 +216,9 @@ Cloudflare leads the industry in quantum-safe security:
 
 ### Phase 1: Architecture Design
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 ```
 Requirements → Traffic Analysis → Security Model → Cost Estimation
      ↓                ↓                ↓               ↓
@@ -231,6 +234,9 @@ Requirements → Traffic Analysis → Security Model → Cost Estimation
 4. **Security Posture**: WAF rules, rate limits, Zero Trust policies
 
 ### Phase 2: Development
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 ```
 Local Setup → Wrangler Dev → Testing → Staging Deploy
@@ -248,6 +254,9 @@ Local Setup → Wrangler Dev → Testing → Staging Deploy
 
 ### Phase 3: Security Configuration
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 ```
 SSL/TLS Mode → WAF Rules → Access Policies → Secrets
       ↓             ↓             ↓              ↓
@@ -264,6 +273,9 @@ SSL/TLS Mode → WAF Rules → Access Policies → Secrets
 - [ ] CORS policies defined
 
 ### Phase 4: Deployment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 ```
 Canary → Monitor → Gradual Rollout → Full Deploy
@@ -284,6 +296,9 @@ wrangler tail --format json
 ```
 
 ### Phase 5: Operations
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 ```
 Observability → Alerting → Optimization → Incident Response

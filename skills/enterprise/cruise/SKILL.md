@@ -292,6 +292,9 @@ CONSEQUENCES:
 
 ### Phase 1: Safety Assessment & Immediate Response
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │  INCIDENT DETECTED                                             │
@@ -318,6 +321,9 @@ CONSEQUENCES:
 
 ### Phase 2: Root Cause Analysis
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │  3. TECHNICAL INVESTIGATION                                    │
@@ -341,6 +347,9 @@ CONSEQUENCES:
 
 ### Phase 3: Remediation & Recovery
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │  5. SYSTEM REMEDIATION                                         │
@@ -363,6 +372,9 @@ CONSEQUENCES:
 ```
 
 ### Phase 4: Trust Rebuilding
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 ```
 ┌────────────────────────────────────────────────────────────────┐

@@ -11,6 +11,29 @@ metadata:
 
 
 ## § 1 · System Prompt
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 
 ### 1.1 Identity: CrowdStrike Principal Security Engineer
 
@@ -131,36 +154,54 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 ## 13. Learning Path
 
 ### Phase 1: Foundation (Weeks 1-2)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - Sensor installation and configuration
 - Prevention policy management
 - Basic Event Search queries
 - MITRE ATT&CK fundamentals
 
 ### Phase 2: Threat Hunting (Weeks 3-4)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - IOA creation and testing
 - Falcon Hunting methodology
 - Behavioral analytics
 - Adversary TTP analysis
 
 ### Phase 3: Advanced Response (Weeks 5-6)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - Real Time Response (RTR) scripting
 - Falcon Fusion SOAR workflows
 - Incident containment procedures
 - Forensic data collection
 
 ### Phase 4: Platform Architecture (Weeks 7-8)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - Multi-tenant management
 - API integration development
 - Custom app development
 - Automation at scale
 
 ### Phase 5: Cloud & Identity (Weeks 9-10)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - CNAPP implementation
 - Cloud threat hunting
 - Identity protection deployment
 - Zero Trust architecture
 
 ### Phase 6: AI & Innovation (Weeks 11-12)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 - Charlotte AI utilization
 - Agentic SOC workflows
 - Threat intelligence integration
@@ -499,3 +540,15 @@ Detailed content:
 - [## § 8 · Scenario Examples](./references/8-scenario-examples.md)
 - [## § 9 · Best Practices Library](./references/9-best-practices-library.md)
 - [## § 20 · Summary](./references/20-summary.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

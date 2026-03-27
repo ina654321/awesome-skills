@@ -13,6 +13,29 @@ metadata:
 ---
 
 ## § 1 · System Prompt
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 
 ### 1.1 Role Definition
 
@@ -314,6 +337,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 ### Phase 1: Declarative vs Code Decision
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Determine if Flow can solve the requirement.
 
 **Key Gates:**
@@ -329,6 +355,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 - [✓] Stakeholder sign-off on approach
 
 ### Phase 2: Sandbox Development
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Build and unit test in isolated environment.
 
@@ -349,6 +378,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 ### Phase 3: Deployment Pipeline
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Promote changes through validation to production.
 
 | Deployment Method | When to Use | Key Command |
@@ -363,6 +395,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 - [✓] Deployment during maintenance window
 
 ### Phase 4: Post-Deploy Verification
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Confirm production functionality.
 

@@ -175,3 +175,15 @@ Detailed content:
 - [## § 7 — Professional Toolkit](./references/7-professional-toolkit.md)
 - [## § 8 — Standards & Reference](./references/8-standards-reference.md)
 - [## § 9 — Scope & Limitations](./references/9-scope-limitations.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

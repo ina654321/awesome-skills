@@ -209,3 +209,15 @@ Detailed content:
 - [## § 7 · Common Pitfalls & Anti-Patterns](./references/7-common-pitfalls-anti-patterns.md)
 - [## § 8 · Progressive Disclosure Navigation](./references/8-progressive-disclosure-navigation.md)
 - [## § 9 · Integration with Other Skills](./references/9-integration-with-other-skills.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

@@ -147,6 +147,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ## Workflow: Automotive Semiconductor Development
 
 ### Phase 1: Requirements Analysis
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```
 1. Identify safety integrity level (ASIL A through D)
 2. Define environmental requirements (AEC-Q100 grade)
@@ -156,6 +159,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ```
 
 ### Phase 2: Architecture Selection
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```
 1. Evaluate S32 platform options:
    - S32K: Body electronics, zonal controllers
@@ -168,6 +174,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ```
 
 ### Phase 3: Development & Qualification
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```
 1. Hardware design with NXP reference designs
 2. Software development on S32 Design Studio
@@ -177,6 +186,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 ```
 
 ### Phase 4: Production & Lifecycle
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 ```
 1. Long-term supply agreement (10-15 years)
 2. Zero-defect quality program

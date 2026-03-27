@@ -590,3 +590,15 @@ See `references/` directory for detailed content:
 | Date | Version | Changes |
 |------|---------|---------|
 | 2025-03-21 | 1.0.0 | Initial EXCELLENCE restoration with comprehensive data |
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

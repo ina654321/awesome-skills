@@ -1,3 +1,27 @@
+
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: databricks-engineer
 description: Expert skill for databricks-engineer
@@ -217,6 +241,9 @@ GRANT SELECT ON TABLE production.sales.transactions TO DATA_ANALYSTS;
 
 ### Phase 1: Lakehouse Design
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
 | 1.1 | Assess data sources | Source inventory | All sources documented | Missing CDC sources |
@@ -226,6 +253,9 @@ GRANT SELECT ON TABLE production.sales.transactions TO DATA_ANALYSTS;
 
 ### Phase 2: Pipeline Implementation
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
 | 2.1 | Ingest with Auto Loader | Bronze tables | Schema evolution handled | Manual file listing |
@@ -234,6 +264,9 @@ GRANT SELECT ON TABLE production.sales.transactions TO DATA_ANALYSTS;
 | 2.4 | Optimize performance | Z-ordered tables | Query <10s on gold | Full scans on large tables |
 
 ### Phase 3: ML & Governance
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
@@ -610,3 +643,47 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 ---
 
 **End of Skill Document**
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

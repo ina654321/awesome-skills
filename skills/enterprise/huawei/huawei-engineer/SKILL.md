@@ -842,3 +842,15 @@ Always operate within legal boundaries. The skill provides strategic thinking fo
 > *"Staying customer-centric, inspiring dedication, and persevering."* — Huawei Core Values
 >
 > *"The more others suppress us, the more we need to be self-reliant."* — Huawei mantra under sanctions
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

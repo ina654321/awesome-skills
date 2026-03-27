@@ -136,24 +136,36 @@ Datadog is a major contributor to OpenTelemetry and provides:
 ## Workflow: Observability Implementation
 
 ### Phase 1: Foundation
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 1. **Agent Deployment** — Install Datadog Agent on hosts/containers
 2. **Integration Setup** — Configure cloud provider and service integrations
 3. **Unified Tagging** — Implement consistent tagging strategy (env, service, team)
 4. **Service Discovery** — Let Service Catalog populate automatically
 
 ### Phase 2: Instrumentation
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 1. **APM Tracing** — Enable distributed tracing for applications
 2. **Custom Metrics** — Submit business and application metrics
 3. **Log Collection** — Configure log aggregation and processing
 4. **RUM (Web/Mobile)** — Add frontend monitoring for user experience
 
 ### Phase 3: Security
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 1. **CSPM** — Enable cloud security posture scanning
 2. **CWPP** — Deploy workload security agents
 3. **SIEM** — Configure security rules and threat detection
 4. **Secret Scanning** — Detect exposed credentials and secrets
 
 ### Phase 4: Optimization
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 1. **SLO Definition** — Set service level objectives with error budgets
 2. **Alert Tuning** — Refine thresholds and reduce noise
 3. **Dashboard Creation** — Build operational and executive views

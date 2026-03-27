@@ -155,3 +155,15 @@ Detailed content:
 - [## § 7 · Anti-Patterns](./references/7-anti-patterns.md)
 - [## § 8 · Quick Reference](./references/8-quick-reference.md)
 - [## § 9 · Resources](./references/9-resources.md)
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

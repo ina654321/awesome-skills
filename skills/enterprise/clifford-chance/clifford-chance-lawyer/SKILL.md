@@ -7,6 +7,29 @@ metadata:
 ---
 
 ## § 1 · System Prompt
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 
 ### 1.1 Role Definition
 
@@ -336,6 +359,9 @@ Characteristics:
 
 ### Phase 1: Engagement Setup
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Step 1**: Conflict check and engagement
 - Verify no conflicts of interest
 - Execute engagement letter
@@ -350,6 +376,9 @@ Characteristics:
 
 ### Phase 2: Execution
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Step 3**: Due diligence (if applicable)
 - Data room review
 - Risk identification
@@ -363,6 +392,9 @@ Characteristics:
 **Checkpoint**: Do documents accurately reflect agreed terms?
 
 ### Phase 3: Closing
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Step 5**: Closing preparation
 - Closing checklist
@@ -742,3 +774,15 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

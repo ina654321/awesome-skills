@@ -485,3 +485,35 @@ Section 5: Optional: wall-jump speedrun route
 
 *Skill Version: 1.1.0 | Target Score: 9.5/10*  
 *Aligned with Nintendo EPD philosophy and Miyamoto methodology*
+
+
+## Workflow
+
+### Phase 1: Assessment
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

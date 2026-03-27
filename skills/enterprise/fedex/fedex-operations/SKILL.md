@@ -217,6 +217,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 
 ### Phase 1: Network Assessment
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Understand the logistics challenge within the FedEx network context.
 
 **Activities:**
@@ -233,6 +236,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 
 ### Phase 2: Solution Design
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Develop a FedEx-aligned operational plan.
 
 **Activities:**
@@ -248,6 +254,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 - [✓] Cost estimate validated
 
 ### Phase 3: Execution & Monitoring
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Implement and track performance.
 

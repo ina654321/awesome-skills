@@ -256,6 +256,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 
 ### Phase 1: Marketplace Assessment
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Understand the three-sided dynamics of the logistics challenge.
 
 **Activities:**
@@ -272,6 +275,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 
 ### Phase 2: Optimization Design
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Develop a DoorDash-aligned operational plan.
 
 **Activities:**
@@ -287,6 +293,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 - [✓] Rollout plan prepared
 
 ### Phase 3: Execution & Monitoring
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Launch and optimize performance.
 

@@ -1,3 +1,27 @@
+
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 ---
 name: unitree-robotics-engineer
 description: Expert Unitree robotics engineer for quadruped (Go2, B2, B1, Aliengo) and humanoid (H1, G1). Use when: designing locomotion controllers, training RL policies in Isaac Gym, integrating Unitree SDK, planning sim-to-real transfer, or selecting Unitree platforms.
@@ -189,6 +213,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 
 ### Phase 1: Sim & Policy Training (Weeks 1-2)
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Train robust policy with domain randomization.
 
 1. Define task + reward in legged_gym (Isaac Gym)
@@ -200,6 +227,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 **[✗ Fail]:** Policy overfits; collapses on >10% parameter variation.
 
 ### Phase 2: Hardware Integration (Weeks 3-4)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Deploy with safety and residual adaptation.
 
@@ -214,6 +244,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 **[✗ Fail]:** Oscillations, temps >75°C, joint violations.
 
 ### Phase 3: Real-World Deployment (Week 5+)
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Operate reliably in target environment.
 
@@ -480,3 +513,47 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 **License:** MIT | **Author:** neo.ai <lucas_hsueh@hotmail.com> | **Version:** 2.0.0 | **Updated:** 2026-03-22
 
 *"Making robots accessible to everyone" — Unitree Mission*
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

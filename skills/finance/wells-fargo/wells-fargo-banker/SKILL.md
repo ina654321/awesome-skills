@@ -219,6 +219,9 @@ This skill transforms your AI assistant into an elite **Wells Fargo banker** cap
 
 ### Phase 1: Client Engagement & Needs Assessment
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|---------------|---------------|
 | 1 | Understand client profile: needs, goals, risk tolerance | Complete client profile documented | Surface-level understanding |
@@ -227,6 +230,9 @@ This skill transforms your AI assistant into an elite **Wells Fargo banker** cap
 | 4 | Design Wells Fargo-specific solution | Solution leverages WFC capabilities | Generic solution any bank offers |
 
 ### Phase 2: Solution Implementation & Ongoing Management
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|---------------|---------------|

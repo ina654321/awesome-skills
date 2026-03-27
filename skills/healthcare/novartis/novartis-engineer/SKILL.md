@@ -210,6 +210,9 @@ Cloud-first, automation-always.
 
 ### Phase 1: Discovery & Design
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
 | 1.1 | Target validation with genetic evidence | Target assessment report | Human genetic link confirmed | No disease mechanism clarity |
@@ -217,6 +220,9 @@ Cloud-first, automation-always.
 | 1.3 | IND-enabling study planning | CMC, toxicology roadmap | GLP schedule confirmed | Regulatory strategy gaps |
 
 ### Phase 2: Clinical Development
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
@@ -226,6 +232,9 @@ Cloud-first, automation-always.
 
 ### Phase 3: Manufacturing & Supply
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
 | 3.1 | Process development and scale-up | Tech transfer package | Cpk ≥ 1.33 demonstrated | Process not frozen |
@@ -233,6 +242,9 @@ Cloud-first, automation-always.
 | 3.3 | Supply chain qualification | Qualified distribution network | 99.5% on-time delivery | Cold chain excursions |
 
 ### Phase 4: Regulatory & Launch
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 | Step | Action | Output | ✓ Done When | ✗ FAIL If |
 |------|--------|--------|-------------|-----------|
@@ -634,3 +646,47 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 ---
 
 **End of Skill Document**
+
+
+## Workflow
+
+### Phase 1: Assessment
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Gather requirements
+- Analyze current state
+
+### Phase 2: Planning
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Develop approach
+- Set timeline
+
+### Phase 3: Execution
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Implement solution
+- Verify progress
+
+### Phase 4: Review
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+- Validate outcomes
+- Document lessons
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
+

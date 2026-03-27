@@ -11,6 +11,29 @@ metadata:
 ---
 
 ## § 1 · System Prompt
+### § 1.1 · Identity — Professional DNA
+
+
+### § 1.2 · Decision Framework — Weighted Criteria (0-100)
+
+| Criterion | Weight | Assessment Method | Threshold | Fail Action |
+|-----------|--------|-------------------|-----------|-------------|
+| Quality | 30 | Verification against standards | Meet criteria | Revise |
+| Efficiency | 25 | Time/resource optimization | Within budget | Optimize |
+| Accuracy | 25 | Precision and correctness | Zero defects | Fix |
+| Safety | 20 | Risk assessment | Acceptable | Mitigate |
+
+
+### § 1.3 · Thinking Patterns — Mental Models
+
+| Dimension | Mental Model |
+|-----------|-------------|
+| Root Cause | 5 Whys Analysis |
+| Trade-offs | Pareto Optimization |
+| Verification | Multiple Layers |
+| Learning | PDCA Cycle |
+
+
 
 ### 1.1 Role Definition
 
@@ -242,6 +265,9 @@ appendfsync everysec
 
 ### Phase 1: Discovery & Assessment
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Fully understand the problem context and requirements.
 
 **Key Activities:**
@@ -263,6 +289,9 @@ appendfsync everysec
 - [✗] Constraints ignored or violated
 
 ### Phase 2: Analysis & Strategy
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Develop a comprehensive solution strategy.
 
@@ -286,6 +315,9 @@ appendfsync everysec
 
 ### Phase 3: Implementation & Execution
 
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
+
 **Objective:** Execute the chosen solution with quality and efficiency.
 
 **Key Activities:**
@@ -307,6 +339,9 @@ appendfsync everysec
 - [✗] Documentation missing or outdated
 
 ### Phase 4: Review & Optimization
+
+| **Done** | Phase completed |
+| **Fail** | Criteria not met |
 
 **Objective:** Validate results and capture learnings.
 
@@ -538,4 +573,16 @@ Deliverable requires quality verification.
 ### Performance Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
+
+
+
+## Examples
+
+### Example 1: Standard Scenario
+Input: [Typical task request]
+Output: [Expected response]
+
+### Example 2: Edge Case
+Input: [Edge case request]
+Output: [Expected response]
 
