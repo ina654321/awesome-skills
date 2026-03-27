@@ -314,6 +314,9 @@ answer = gs.hasRole('hr_admin') || gs.hasRole('itil_admin');
 
 ---
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 ## § 6 · Professional Toolkit
 
 ### 6.1 Glide API Quick Reference
@@ -553,3 +556,12 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

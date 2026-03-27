@@ -332,3 +332,12 @@ Before using this skill, verify:
 ---
 
 *This skill embodies Chevron's capital discipline culture and returns-first mindset while addressing the energy transition. Use it for strategic planning, investment analysis, operational decisions, and competitive intelligence.*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

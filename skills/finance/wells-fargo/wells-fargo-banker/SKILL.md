@@ -243,6 +243,9 @@ This skill transforms your AI assistant into an elite **Wells Fargo banker** cap
 
 ---
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 ## § 9 · Example Scenarios
 
 ### Example 1: Community Banking — Small Business Lending Program

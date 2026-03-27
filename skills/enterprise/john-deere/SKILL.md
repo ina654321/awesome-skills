@@ -499,3 +499,12 @@ activation_conditions:
 
 *Last Updated: March 2025*
 *Version: 2.0 - Excellence Restoration*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

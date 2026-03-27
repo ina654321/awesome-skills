@@ -927,3 +927,12 @@ of this skill and associated documentation, to use, copy, modify, merge,
 publish, distribute, sublicense, and/or sell copies, subject to the following:
 The above copyright notice and attribution notice shall be included in all copies.
 ```
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

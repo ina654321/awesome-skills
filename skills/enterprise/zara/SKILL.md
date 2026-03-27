@@ -631,6 +631,9 @@ This skill includes detailed reference materials in the `references/` folder:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Analyze current state
 
 ### Phase 2: Planning
@@ -638,6 +641,9 @@ This skill includes detailed reference materials in the `references/` folder:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Develop approach
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Set timeline
 
 ### Phase 3: Execution
@@ -645,6 +651,9 @@ This skill includes detailed reference materials in the `references/` folder:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Verify progress
 
 ### Phase 4: Review
@@ -652,5 +661,17 @@ This skill includes detailed reference materials in the `references/` folder:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Validate outcomes
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Document lessons
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

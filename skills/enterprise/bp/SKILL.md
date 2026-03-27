@@ -456,3 +456,12 @@ See `references/` directory for:
 *Last Updated: March 2026*
 *Classification: Enterprise / Energy*
 *Quality: EXCELLENCE 9.5/10*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

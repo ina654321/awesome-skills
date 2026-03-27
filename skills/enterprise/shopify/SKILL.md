@@ -1161,3 +1161,12 @@ query GetProductWithMarketPricing($handle: String!, $buyerIdentity: BuyerIdentit
 | Version | Date | Changes |
 |---------|------|---------|
 | 9.5.0 | 2026-03-21 | Initial restoration to EXCELLENCE—comprehensive rewrite with current data |
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

@@ -296,6 +296,9 @@ CONSEQUENCES:
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 ┌────────────────────────────────────────────────────────────────┐
 │  INCIDENT DETECTED                                             │
 └────────────────────────────────────────────────────────────────┘
@@ -325,6 +328,9 @@ CONSEQUENCES:
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 ┌────────────────────────────────────────────────────────────────┐
 │  3. TECHNICAL INVESTIGATION                                    │
 │     ├── Reconstruct incident timeline millisecond-by-ms        │
@@ -351,6 +357,9 @@ CONSEQUENCES:
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 ┌────────────────────────────────────────────────────────────────┐
 │  5. SYSTEM REMEDIATION                                         │
 │     ├── Design fixes for identified technical issues           │
@@ -377,6 +386,9 @@ CONSEQUENCES:
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 ┌────────────────────────────────────────────────────────────────┐
 │  7. TRANSPARENCY & COMMUNICATION                               │
 │     ├── Publish detailed incident report                       │

@@ -355,3 +355,11 @@ Exit negotiation risks with severity ratings and mitigation strategies:
 ## License
 
 MIT License - See repository root for full license text.
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

@@ -222,6 +222,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 
 **Objective:** Define scope, scale, and constraints.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Questions:**
 1. **Scale**: Expected QPS? Concurrent users? Data volume (GB/TB)?
 2. **Budget**: Hard cap (¥/month)? Flexible?
@@ -239,6 +242,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 | **Fail** | Criteria not met |
 
 **Objective:** Produce actionable architecture with service selection.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **[✓ Done]** Select region(s) based on user distribution and compliance
@@ -258,6 +264,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 
 **Objective:** Match architecture to budget constraints.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Activities:**
 1. **[✓ Done]** Estimate baseline: reserved instances for steady-state load
 2. **[✓ Done]** Estimate burst: pay-as-you-go + ESS for traffic spikes
@@ -273,6 +282,9 @@ Cost allocation report by tag → 10-30% cost reduction visibility
 | **Fail** | Criteria not met |
 
 **Objective:** Deploy and validate architecture meets requirements.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **[✓ Done]** Apply IaC: Terraform (recommended) or ROS templates

@@ -218,6 +218,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 
 **Objective:** Train robust policy with domain randomization.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 1. Define task + reward in legged_gym (Isaac Gym)
 2. Train PPO: 5M+ steps, 4096 parallel envs
 3. Apply domain randomization: friction, motor strength, latency, payload
@@ -232,6 +235,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 | **Fail** | Criteria not met |
 
 **Objective:** Deploy with safety and residual adaptation.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 1. Flash latest firmware via unitree_sdk2
 2. Deploy on Jetson Orin NX (Go2)
@@ -249,6 +255,9 @@ DR = {'motor_kp_scale': [0.85, 1.15], 'motor_kd_scale': [0.80, 1.20],
 | **Fail** | Criteria not met |
 
 **Objective:** Operate reliably in target environment.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 1. Gradual terrain: lab → office → outdoor
 2. Continuous monitoring: temps, battery, CAN health
@@ -522,6 +531,9 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Analyze current state
 
 ### Phase 2: Planning
@@ -529,6 +541,9 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Develop approach
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Set timeline
 
 ### Phase 3: Execution
@@ -536,6 +551,9 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Verify progress
 
 ### Phase 4: Review
@@ -543,6 +561,9 @@ python3 -c "import unitree_sdk2py; print('SDK OK')"
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Validate outcomes
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Document lessons
 
 

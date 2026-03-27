@@ -821,3 +821,12 @@ Joule represents SAP's strategic shift to agentic AI, capable of influencing 80%
 ---
 
 *This skill is maintained to EXCELLENCE (9.5/10) standards. For updates or corrections, please refer to the reference documents or consult the latest SAP official documentation at https://help.sap.com*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

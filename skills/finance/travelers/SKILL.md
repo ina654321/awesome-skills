@@ -632,3 +632,12 @@ See `/references/` directory for detailed content:
 
 *"The power of our earnings engine is fueled by the disciplined execution of our strategy across every dimension of our business."*  
 — Alan Schnitzer, Chairman & CEO, Travelers Companies, Inc.
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

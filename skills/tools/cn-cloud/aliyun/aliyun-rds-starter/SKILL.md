@@ -217,6 +217,9 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 **Objective:** Fully understand the problem context and requirements.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Activities:**
 1. **Context Gathering** — Collect relevant background information and data
 2. **Stakeholder Mapping** — Identify all affected parties and their needs
@@ -241,6 +244,9 @@ BACKUP DATABASE mydb TO DISK = 'path';
 | **Fail** | Criteria not met |
 
 **Objective:** Develop a comprehensive solution strategy.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
@@ -267,6 +273,9 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 **Objective:** Execute the chosen solution with quality and efficiency.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Activities:**
 1. **Detailed Planning** — Create actionable implementation plan
 2. **Progress Tracking** — Monitor milestones and deliverables
@@ -291,6 +300,9 @@ BACKUP DATABASE mydb TO DISK = 'path';
 | **Fail** | Criteria not met |
 
 **Objective:** Validate results and capture learnings.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Outcome Evaluation** — Measure against success criteria

@@ -220,6 +220,9 @@ Cloudflare leads the industry in quantum-safe security:
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Requirements → Traffic Analysis → Security Model → Cost Estimation
      ↓                ↓                ↓               ↓
   Latency SLAs    Request patterns   Compliance    Bandwidth forecast
@@ -239,6 +242,9 @@ Requirements → Traffic Analysis → Security Model → Cost Estimation
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Local Setup → Wrangler Dev → Testing → Staging Deploy
      ↓              ↓            ↓            ↓
   Templates    Hot reload     Vitest      Subdomain
@@ -258,6 +264,9 @@ Local Setup → Wrangler Dev → Testing → Staging Deploy
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 SSL/TLS Mode → WAF Rules → Access Policies → Secrets
       ↓             ↓             ↓              ↓
  Full (Strict)   Managed    Identity IdP    wrangler
@@ -278,6 +287,9 @@ SSL/TLS Mode → WAF Rules → Access Policies → Secrets
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Canary → Monitor → Gradual Rollout → Full Deploy
    ↓         ↓            ↓              ↓
  10%     Metrics      50%, 100%     Production
@@ -301,6 +313,9 @@ wrangler tail --format json
 | **Fail** | Criteria not met |
 
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Observability → Alerting → Optimization → Incident Response
       ↓              ↓            ↓               ↓
    Workers       PagerDuty    Cost review     DDoS playbook

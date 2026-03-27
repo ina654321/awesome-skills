@@ -278,3 +278,12 @@ Raw URL: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/c
 ---
 
 *Last Updated: 2026-03-24 | Version: 3.1.0 | Quality: Exemplary 9.8/10*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

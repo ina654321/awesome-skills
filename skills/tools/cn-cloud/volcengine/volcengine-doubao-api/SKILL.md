@@ -260,6 +260,9 @@ print(response.choices[0].message.content)
 
 **Objective:** Fully understand the problem context and requirements.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Activities:**
 1. **Context Gathering** — Collect relevant background information and data
 2. **Stakeholder Mapping** — Identify all affected parties and their needs
@@ -284,6 +287,9 @@ print(response.choices[0].message.content)
 | **Fail** | Criteria not met |
 
 **Objective:** Develop a comprehensive solution strategy.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
@@ -310,6 +316,9 @@ print(response.choices[0].message.content)
 
 **Objective:** Execute the chosen solution with quality and efficiency.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Activities:**
 1. **Detailed Planning** — Create actionable implementation plan
 2. **Progress Tracking** — Monitor milestones and deliverables
@@ -334,6 +343,9 @@ print(response.choices[0].message.content)
 | **Fail** | Criteria not met |
 
 **Objective:** Validate results and capture learnings.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Outcome Evaluation** — Measure against success criteria
@@ -699,3 +711,12 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

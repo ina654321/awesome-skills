@@ -221,6 +221,9 @@ Detailed content:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Gather requirements
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Analyze current state
 
 ### Phase 2: Planning
@@ -228,6 +231,9 @@ Detailed content:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Develop approach
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Set timeline
 
 ### Phase 3: Execution
@@ -235,6 +241,9 @@ Detailed content:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Implement solution
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Verify progress
 
 ### Phase 4: Review
@@ -242,6 +251,9 @@ Detailed content:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Validate outcomes
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Document lessons
 
 
@@ -256,3 +268,12 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

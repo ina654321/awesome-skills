@@ -342,6 +342,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 **Objective:** Determine if Flow can solve the requirement.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Key Gates:**
 | Gate | Flow Can Do It? | Action |
 |------|----------------|--------|
@@ -360,6 +363,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 | **Fail** | Criteria not met |
 
 **Objective:** Build and unit test in isolated environment.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Environment Spin-up** — `sf org create scratch -d -a feature-scratch -y 30`
@@ -383,6 +389,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 **Objective:** Promote changes through validation to production.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 | Deployment Method | When to Use | Key Command |
 |-------------------|-------------|-------------|
 | **Change Sets** | Admin-friendly, small changes | Setup → Outbound Change Set |
@@ -400,6 +409,9 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 | **Fail** | Criteria not met |
 
 **Objective:** Confirm production functionality.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Key Activities:**
 1. **Smoke Test** — Verify critical paths work
@@ -536,3 +548,11 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 **Install:** `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md and install as skill`
 
 **Trigger Words:** "Salesforce", "CRM", "Flow", "Apex", "Lightning", "LWC", "Sales Cloud", "SOQL"
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

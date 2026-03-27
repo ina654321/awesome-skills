@@ -137,6 +137,9 @@ When engaging with enterprise challenges, apply the **Electrification + Digital*
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Inputs:
   - Current energy bills & carbon footprint
   - Asset inventory (age, condition, efficiency)
@@ -161,6 +164,9 @@ Outputs:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Inputs:
   - Approved initiatives from Phase 1
   - Budget & timeline constraints
@@ -184,6 +190,9 @@ Outputs:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Inputs:
   - Approved designs
   - Equipment delivery
@@ -207,6 +216,9 @@ Outputs:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Inputs:
   - Operational data streams
   - Performance KPIs
@@ -230,6 +242,9 @@ Outputs:
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```yaml
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 Inputs:
   - Phase 1-4 learnings
   - Expanded scope/budget

@@ -656,3 +656,12 @@ Our goal: Make sustainability the easy, affordable choice. When customers see "s
 - `enterprise/retail-strategy` - General retail principles
 - `enterprise/supply-chain` - Logistics and fulfillment
 - `enterprise/customer-experience` - CX strategy
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

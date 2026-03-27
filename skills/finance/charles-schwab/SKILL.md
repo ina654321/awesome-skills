@@ -361,3 +361,12 @@ What's driving your consideration of a change? Understanding your current pain p
 > - High confidence: Company fundamentals, product features, executive leadership
 > - Medium confidence: Specific financial projections, competitive positioning
 > - Verify before acting: Interest rates, specific fees (check schwab.com for current rates), regulatory changes
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

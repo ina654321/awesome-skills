@@ -222,6 +222,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 
 **Objective:** Understand the logistics challenge within the FedEx network context.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Origin-Destination Analysis** — Map to FedEx hub network
 2. **Service Level Determination** — Express vs. Ground, time-definite requirements
@@ -241,6 +244,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 
 **Objective:** Develop a FedEx-aligned operational plan.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Route Optimization** — Hub selection, flight schedules, ground coordination
 2. **Capacity Verification** — Aircraft, truck, hub sort capacity
@@ -259,6 +265,9 @@ Custom analysis with data modeling, scenario planning, and executive recommendat
 | **Fail** | Criteria not met |
 
 **Objective:** Implement and track performance.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Activities:**
 1. **Pre-Positioning** — Inventory, equipment, staffing

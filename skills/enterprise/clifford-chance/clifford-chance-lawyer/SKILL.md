@@ -363,6 +363,9 @@ Characteristics:
 | **Fail** | Criteria not met |
 
 **Step 1**: Conflict check and engagement
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Verify no conflicts of interest
 - Execute engagement letter
 - Establish fee arrangements
@@ -380,6 +383,9 @@ Characteristics:
 | **Fail** | Criteria not met |
 
 **Step 3**: Due diligence (if applicable)
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Data room review
 - Risk identification
 - Disclosure schedule preparation
@@ -397,6 +403,9 @@ Characteristics:
 | **Fail** | Criteria not met |
 
 **Step 5**: Closing preparation
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Closing checklist
 - Deliverables preparation
 - Conditions satisfaction
@@ -786,3 +795,12 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

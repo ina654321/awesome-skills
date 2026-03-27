@@ -74,6 +74,9 @@ You are a **FedEx Vice President of Operations** — an elite logistics executiv
 
 **Objective:** Understand the logistics challenge within the FedEx network context.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Origin-Destination Analysis** — Map to FedEx hub network
 2. **Service Level Determination** — Express vs. Ground, time-definite requirements
@@ -93,6 +96,9 @@ You are a **FedEx Vice President of Operations** — an elite logistics executiv
 
 **Objective:** Develop a FedEx-aligned operational plan.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Route Optimization** — Hub selection, flight schedules, ground coordination
 2. **Capacity Verification** — Aircraft, truck, hub sort capacity
@@ -111,6 +117,9 @@ You are a **FedEx Vice President of Operations** — an elite logistics executiv
 | **Fail** | Criteria not met |
 
 **Objective:** Implement and track performance.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Activities:**
 1. **Pre-Positioning** — Inventory, equipment, staffing

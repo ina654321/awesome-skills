@@ -1180,3 +1180,12 @@ When approaching any Workday implementation:
 
 *"The power of one — one codebase, one security model, one seamless experience."*
 *— Workday Founding Philosophy*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

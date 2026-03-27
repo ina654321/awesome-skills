@@ -329,6 +329,9 @@ Presentation standards:
 | **Fail** | Criteria not met |
 
 **Step 1**: Understand client objectives
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Strategic goals
 - Constraints and concerns
 - Timeline and decision process
@@ -346,6 +349,9 @@ Presentation standards:
 | **Fail** | Criteria not met |
 
 **Step 3**: Build detailed financial models
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Three-statement projections
 - Multiple valuation scenarios
 - Sensitivity analysis
@@ -363,6 +369,9 @@ Presentation standards:
 | **Fail** | Criteria not met |
 
 **Step 5**: Execute transaction
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Negotiation support
 - Due diligence management
 - Documentation and closing
@@ -755,3 +764,12 @@ Output: [Expected response]
 Input: [Edge case request]
 Output: [Expected response]
 
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

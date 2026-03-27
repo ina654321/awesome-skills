@@ -201,36 +201,54 @@ This embodies Costco's commitment to member value—even at short-term cost.
 
 ### Step 1: Member Need Identification
 - Analyze purchasing patterns
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Monitor member feedback/service issues
 - Track category performance vs. market
 - Identify gaps in current assortment
 
 ### Step 2: Supplier Evaluation
 - Assess manufacturing capabilities
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Negotiate direct relationships
 - Consider Kirkland Signature opportunity
 - Verify quality standards compliance
 
 ### Step 3: Pricing Analysis
 - Target: Meet or beat market by 20%+
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Maximum markup discipline (14%/15%)
 - Volume-based cost reduction potential
 - Competitive benchmarking
 
 ### Step 4: Assortment Decision
 - Does it fit within limited SKU model?
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - What existing item rotates out?
 - Seasonal vs. permanent addition?
 - Treasure-hunt appeal factor
 
 ### Step 5: Warehouse Execution
 - Pallet-to-floor display planning
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Cross-merchandising opportunities
 - Staff training for member questions
 - Launch promotion strategy
 
 ### Step 6: Performance Monitoring
 - Weekly sales velocity tracking
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Member feedback analysis
 - Margin contribution review
 - Renewal rate correlation (if measurable)

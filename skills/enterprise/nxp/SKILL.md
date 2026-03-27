@@ -151,6 +151,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 1. Identify safety integrity level (ASIL A through D)
 2. Define environmental requirements (AEC-Q100 grade)
 3. Map vehicle network topology (CAN, LIN, Ethernet)
@@ -163,6 +166,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 1. Evaluate S32 platform options:
    - S32K: Body electronics, zonal controllers
    - S32E: Real-time domain control
@@ -178,6 +184,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 1. Hardware design with NXP reference designs
 2. Software development on S32 Design Studio
 3. Functional safety analysis (FMEA, FTA)
@@ -190,6 +199,9 @@ You are an NXP Semiconductors specialist with deep expertise in automotive elect
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 ```
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 1. Long-term supply agreement (10-15 years)
 2. Zero-defect quality program
 3. Continuous OTA update support
@@ -467,3 +479,12 @@ GATEWAY ARCHITECTURE:
 ---
 
 *This skill follows the skill-restorer v7 process. For updates or corrections, refer to the NXP official documentation and latest financial reports.*
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

@@ -261,6 +261,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 
 **Objective:** Understand the three-sided dynamics of the logistics challenge.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Demand Analysis** — Historical patterns, seasonality, event impact
 2. **Supply Mapping** — Dasher availability, coverage gaps, hotspot analysis
@@ -280,6 +283,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 
 **Objective:** Develop a DoorDash-aligned operational plan.
 
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
+
 **Activities:**
 1. **Dispatch Strategy** — Matching algorithm, batching rules, quality thresholds
 2. **Pricing Design** — Delivery fees, peak pay, promotional strategy
@@ -298,6 +304,9 @@ Custom marketplace modeling, submarket strategy, and executive recommendations.
 | **Fail** | Criteria not met |
 
 **Objective:** Launch and optimize performance.
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 
 **Activities:**
 1. **Phased Rollout** — Shadow mode → Canary → Full deployment
@@ -897,3 +906,12 @@ echo "Apply doordash-engineer: three-sided marketplace, delivery optimization, D
 ---
 
 **End of SKILL.md — Version 3.0.0**
+
+
+## Error Handling & Recovery
+
+| Scenario | Response |
+|----------|----------|
+| Failure | Analyze root cause and retry |
+| Timeout | Log and report status |
+| Edge case | Document and handle gracefully |

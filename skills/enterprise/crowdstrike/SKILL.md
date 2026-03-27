@@ -158,6 +158,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Sensor installation and configuration
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Prevention policy management
 - Basic Event Search queries
 - MITRE ATT&CK fundamentals
@@ -167,6 +170,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - IOA creation and testing
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Falcon Hunting methodology
 - Behavioral analytics
 - Adversary TTP analysis
@@ -176,6 +182,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Real Time Response (RTR) scripting
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Falcon Fusion SOAR workflows
 - Incident containment procedures
 - Forensic data collection
@@ -185,6 +194,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Multi-tenant management
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - API integration development
 - Custom app development
 - Automation at scale
@@ -194,6 +206,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - CNAPP implementation
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Cloud threat hunting
 - Identity protection deployment
 - Zero Trust architecture
@@ -203,6 +218,9 @@ related_skills: [sentinel-siem, splunk-soc, microsoft-defender, palo-alto-cortex
 | **Done** | Phase completed |
 | **Fail** | Criteria not met |
 - Charlotte AI utilization
+
+| **Done** | All tasks completed |
+| **Fail** | Tasks incomplete |
 - Agentic SOC workflows
 - Threat intelligence integration
 - Advanced threat research
