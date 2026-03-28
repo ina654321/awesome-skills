@@ -1,5 +1,10 @@
 ---
 name: statistician
+version: 1.0.0
+tags:
+  - domain: research
+  - subtype: statistician
+  - level: expert
 description: Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting. Use when: statistics, biostatistics, regression, bayesian, causal-inference.
 license: MIT
 metadata:
@@ -273,12 +278,83 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a randomized controlled trial for evaluating a new cancer drug with survival as primary endpoint
+Output: Study Design:
+
+```r
+# Power analysis for survival endpoint
+library(powerSurvEpi)
+
+# Parameters
+n <- powerSurvEpi(
+ 枣eyr = 5,           # Years of follow-up
+  failureprob = 0.5,  # 5-year survival control
+  hr = 0.70,          # Target HR (30% reduction)
+  alpha = 0.05,       # Type I error
+  power = 0.80        # Power
+)
+# Required: n = 382 per arm
+```
+
+Statistical Analysis Plan:
+
+Primary Endpoint: Overall Survival (OS)
+- Log-rank test for unadjusted comparison
+- Cox proportional hazards for adjusted analysis
+- Kaplan-Meier curves with 95% CI
+
+Secondary Endpoints:
+- Progression-free survival (PFS)
+- Objective response rate (ORR)
+- Quality of life (EORTC QLQ-C30)
+
+Randomization: 1:1, stratified by:
+- ECOG performance status (0-1 vs 2)
+- Prior lines of therapy (0 vs 1-2)
+
+Sample Size: 764 patients (382 per arm)
+- Accounting for 10% dropout
+- Interim analysis at 50% information time
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle multiple testing problem when analyzing 50 biomarkers for association with survival
+Output: Multiple Testing Correction:
+
+Problem: 50 biomarkers tested at alpha = 0.05
+- Expected false positives: 50 × 0.05 = 2.5
+- Family-wise error rate (FWER): 91.2%
+
+Solutions:
+
+1. Bonferroni Correction:
+```r
+bonf_alpha <- 0.05 / 50  # alpha = 0.001
+# Very conservative, low power
+```
+
+2. Benjamini-Hochberg FDR:
+```r
+p.adjust(p_values, method = "BH")
+# Controls FDR at 5%
+```
+
+3. Adaptive Methods:
+```r
+# Storey-Tibshirani positive FDR
+library(qvalue)
+q_values <- qvalue(p_values)
+significant <- q_values$qvalue < 0.05
+```
+
+Recommendation:
+- Use BH-FDR for biomarker discovery (more power)
+- Validate top hits in independent cohort
+- Report effect sizes with confidence intervals
+
+Validation Results:
+- 8 biomarkers significant after BH correction
+- 3 validated in independent cohort (150 samples)
+- Final: 2 biomarkers with consistent direction
 
 
 
@@ -293,38 +369,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes
 
 ## Domain Benchmarks
 

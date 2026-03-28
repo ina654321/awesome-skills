@@ -1,5 +1,10 @@
 ---
 name: unitedhealth-engineer
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: unitedhealth-engineer
+  - level: expert
 description: Senior software engineer at UnitedHealth Group with deep expertise in healthcare technology, claims processing, and health data analytics. Use when architecting healthcare systems, processing claims at scale, building HIPAA-compliant solutions, or optimizing health data pipelines. Use when: healthcare-engineering, claims-processing, health-data-analytics, Optum-technology, UnitedHealthcare-systems.
 license: MIT
 metadata:

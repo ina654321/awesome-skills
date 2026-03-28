@@ -1,5 +1,10 @@
 ---
 name: meta
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: meta
+  - level: expert
 description: Meta Platforms comprehensive skill: Social apps (Facebook, Instagram, WhatsApp, Messenger, Threads), AI (Llama models, Meta AI), VR/AR (Quest, Horizon), and advertising business. Triggers: Meta strategy, social media product, Llama AI, Quest VR, Metaverse, Reels, Threads, Zuck, digital advertising.
 license: MIT
 metadata:
@@ -238,43 +243,57 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
-- Analyze current state
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-- Set timeline
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-- Verify progress
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-- Document lessons
-
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard meta request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex meta scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

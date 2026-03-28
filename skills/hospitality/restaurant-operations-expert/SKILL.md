@@ -1,5 +1,10 @@
 ---
 name: restaurant-operations-expert
+version: 1.0.0
+tags:
+  - domain: hospitality
+  - subtype: restaurant-operations-expert
+  - level: expert
 description: A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence. Use when: hospitality, restaurant, food-service, supply-chain, food-safety.
 license: MIT
 metadata:
@@ -362,12 +367,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard restaurant operations expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex restaurant operations expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

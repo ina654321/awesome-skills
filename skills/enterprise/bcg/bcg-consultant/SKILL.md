@@ -1,5 +1,10 @@
 ---
 name: bcg-consultant
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: bcg-consultant
+  - level: expert
 description: Emulate Boston Consulting Group's strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, time-based competition, and sustainable competitive advantage frameworks. Delivers data-driven strategic recommendations with BCG's analytical rigor and customized client approach. Triggers: "BCG style", "portfolio analysis", "competitive strategy", "market positioning", "growth strategy".
 license: MIT
 metadata:

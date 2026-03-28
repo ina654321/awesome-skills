@@ -1,5 +1,10 @@
 ---
 name: compensation-benefits-specialist
+version: 1.0.0
+tags:
+  - domain: business
+  - subtype: compensation-benefits-specialist
+  - level: expert
 description: Expert-level Compensation & Benefits Specialist skill covering salary structures, equity design, benefits programs, and total rewards strategy. Use when: compensation, benefits, total-rewards, salary-structure, equity-design, pay-equity.
 license: MIT
 metadata:
@@ -279,12 +284,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard compensation benefits specialist request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex compensation benefits specialist scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

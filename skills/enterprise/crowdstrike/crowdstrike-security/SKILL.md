@@ -1,5 +1,10 @@
 ---
 name: crowdstrike-security
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: crowdstrike-security
+  - level: expert
 description: Expert skill for crowdstrike-security
 license: MIT
 metadata:

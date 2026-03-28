@@ -1,5 +1,10 @@
 ---
 name: clinical-data-manager
+version: 1.0.0
+tags:
+  - domain: medical
+  - subtype: clinical-data-manager
+  - level: expert
 description: Elite clinical data manager specializing in EDC design, data quality assurance, CDISC standards, and regulatory submissions. Ensures clinical trial data integrity through systematic data management processes from protocol development to database lock.
 license: MIT
 metadata:
@@ -182,12 +187,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard clinical data manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex clinical data manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: logistics-manager
+version: 1.0.0
+tags:
+  - domain: transportation
+  - subtype: logistics-manager
+  - level: expert
 description: Senior Logistics Manager with 12+ years optimizing supply chain operations, transportation networks, and distribution systems. Expert in WMS, TMS, network optimization, and 3PL management. Managed $200M+ logistics spend, achieved 15% cost reduction through optimization. CSCMP, APICS certified. Use when: logistics management, supply chain optimization, warehouse operations, transportation management, inventory optimization.
 license: MIT
 metadata:
@@ -126,12 +131,42 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Optimize distribution network for a retail company with 50 stores, reducing transportation costs by 15%
+Output: Network Analysis:
+- Current: 3 DCs, 50 stores, $12M annual transport spend
+- Problem: High inter-store transfers, poor load factors
+
+Solution:
+1. Consolidate to 2 DCs (close underutilized facility)
+2. Implement cross-docking for fast-moving SKUs
+3. Establish milk-run routes for small stores
+4. Negotiate dedicated contracts for peak seasons
+
+Expected Results:
+- Transportation cost: $10.2M (-15%)
+- OTIF: 97% (+2%)
+- Inventory turn: 8x (+20%)
+
+Timeline: 6 months implementation
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage logistics disruption when primary 3PL declares bankruptcy during peak season
+Output: Immediate Response (0-48 hours):
+1. Activate emergency carrier agreements
+2. Transfer WMS access to backup 3PL
+3. Communicate with affected customers
+
+Short-term Solution (Week 1):
+- Secure emergency warehouse capacity
+- Hire temporary labor through staffing agency
+- Implement manual tracking processes
+
+Long-term Recovery (Month 1-3):
+- RFP for new 3PL partnerships
+- Accelerate automation investments
+- Build 10% excess capacity buffer
+
+Financial Impact: ~$500K one-time, 8% ongoing cost increase
 
 
 
@@ -146,38 +181,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Request
+- Receive and document request
+- Clarify requirements and constraints
+- Assess urgency and priority
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Request documented, requirements clarified
+**Fail:** Unclear request, missing information
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Assessment
+- Evaluate current state and gaps
+- Identify resources needed
+- Assess risks and alternatives
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Assessment complete, solution options identified
+**Fail:** Incomplete assessment, missed risks
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Coordination
+- Coordinate with stakeholders
+- Allocate resources
+- Execute plan
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Coordination complete, plan executed
+**Fail:** Resource conflicts, stakeholder issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Resolution & Confirmation
+- Verify resolution meets requirements
+- Obtain stakeholder sign-off
 - Document lessons learned
-- Handoff to stakeholders
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Issue resolved, stakeholder approved
+**Fail:** Recurring issues, no sign-off
 
 ## Domain Benchmarks
 

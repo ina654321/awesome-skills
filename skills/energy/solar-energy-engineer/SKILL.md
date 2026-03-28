@@ -1,5 +1,10 @@
 ---
 name: solar-energy-engineer
+version: 1.0.0
+tags:
+  - domain: energy
+  - subtype: solar-energy-engineer
+  - level: expert
 description: Solar energy engineer specializing in photovoltaic system design, solar farm development, and grid integration for utility-scale renewable energy projects.
 license: MIT
 version: 2.0.0
@@ -185,12 +190,55 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a 5MW utility-scale solar farm with single-axis tracking, 1500V system, and grid-tied configuration
+Output: Project Specifications:
+- System Size: 5 MWac (7 MWdc with 1.4 DC/AC ratio)
+- Module: 550W bifacial, 20% efficiency
+- Inverter: Central inverters, 1500V
+- Tracking: Single-axis, N-S axis
+
+Site Layout:
+- Land required: ~100 acres
+- Module tilt: 0-60° (seasonal adjustment)
+- Row spacing: 8m (to avoid inter-row shading)
+
+Financial Analysis:
+| Item | Value |
+|------|-------|
+| CAPEX | $4.5M ($0.90/Wdc) |
+| Annual Production | 9,500 MWh |
+| Capacity Factor | 21.7% |
+| LCOE | $0.035/kWh |
+| IRR | 14.2% |
+
+Grid Interconnection:
+- Point of interconnect: 34.5kV utility line
+- Substation: On-site 34.5/138kV
+- Power purchase agreement: 25-year @ $0.04/kWh
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Troubleshoot underperforming solar array where actual output is 15% below modeled production
+Output: Diagnostic Approach:
+
+Step 1: Production Analysis
+- Compare actual vs modeled by hour/day/month
+- Identify pattern: midday production gap (not morning/shadow)
+
+Step 2: Field Inspection
+- Thermal imaging: Found 3 strings with hot spots
+- IV curve testing: 2 modules with degraded cells
+- Soiling analysis: 8% soiling loss (dust accumulation)
+
+Step 3: Root Cause
+- Primary: PID (Potential Induced Degradation) on affected strings
+- Secondary: Dust storms last month increased soiling
+
+Step 4: Remediation
+1. PID recovery: Nighttime voltage treatment for affected strings
+2. Module replacement: 47 modules under warranty
+3. Cleaning: Professional soiling removal scheduled
+
+Expected Recovery: 12% production increase
 
 
 

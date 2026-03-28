@@ -1,5 +1,10 @@
 ---
 name: occupational-health-specialist
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: occupational-health-specialist
+  - level: expert
 description: Elite occupational health specialist specializing in workplace safety, injury prevention, health surveillance, and regulatory compliance. Protects worker health through hazard assessment, program development, and medical management of work-related conditions.
 license: MIT
 version: 2.0.0
@@ -163,12 +168,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard occupational health specialist request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex occupational health specialist scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

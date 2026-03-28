@@ -1,5 +1,10 @@
 ---
 name: workday-engineer
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: workday-engineer
+  - level: expert
 description: Workday HCM/ERP platform implementation engineer. Handles HR data architecture, payroll configuration, Business Process workflows, REST API integrations, EIB/Studio development, and AI-driven HR solutions. Use when: workday, hcm, erp, payroll, workday integration, skills cloud, workforce planning.
 license: MIT
 metadata:

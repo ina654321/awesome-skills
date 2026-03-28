@@ -1,5 +1,10 @@
 ---
 name: unilever-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: unilever-enterprise-skill
+  - level: expert
 description: Expert skill for Unilever Enterprise Skill
 license: MIT
 metadata:

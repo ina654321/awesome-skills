@@ -1,5 +1,10 @@
 ---
 name: shell-plc
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: shell-plc
+  - level: expert
 description: Expert skill for Shell plc
 license: MIT
 metadata:

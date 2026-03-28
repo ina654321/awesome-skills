@@ -1,5 +1,10 @@
 ---
 name: moonshot-ai-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: moonshot-ai-engineer
+  - level: expert
 description: Build AI systems with Moonshot Kimi API. Expert in 2M token long-context, Kimi K2.5 reasoning, Chinese NLP, and agentic workflows. Triggers: "Moonshot", "Kimi", "long context", "月之暗面".
 license: MIT
 metadata:

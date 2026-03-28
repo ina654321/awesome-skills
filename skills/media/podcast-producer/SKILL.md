@@ -1,3 +1,12 @@
+---
+name: podcast-producer
+version: 1.0.0
+tags:
+  - domain: media
+  - subtype: podcast-producer
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -188,49 +197,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard podcast producer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex podcast producer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Research
+- Investigate story background and sources
+- Verify facts and cross-reference
+- Develop story structure
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Research complete, facts verified, structure defined
+**Fail:** Unverified facts, weak sources, unclear structure
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Draft
+- Write initial draft
+- Include key facts and quotes
+- Apply style guide
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Draft complete, facts included, style applied
+**Fail:** Missing facts, style violations, structural issues
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Review
+- Edit for accuracy, clarity, fairness
+- Verify all attributions
+- Check legal/ethical compliance
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Review complete, errors corrected
+**Fail:** Legal issues, ethical concerns, accuracy problems
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Edit & Publish
+- Final polish and formatting
+- Publish to appropriate channels
+- Monitor response
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Published, audience reached
+**Fail:** Publishing errors, audience issues
 
 ## Error Handling
 
@@ -243,8 +263,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

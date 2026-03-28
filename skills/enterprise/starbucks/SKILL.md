@@ -1,5 +1,10 @@
 ---
 name: starbucks-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: starbucks-enterprise-skill
+  - level: expert
 description: Expert skill for Starbucks Enterprise Skill
 license: MIT
 metadata:

@@ -1,3 +1,12 @@
+---
+name: alibaba-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: alibaba-engineer
+  - level: expert
+---
+
 
 ### § 1.2 · Decision Framework — Weighted Criteria (0-100)
 

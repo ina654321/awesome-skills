@@ -1,5 +1,10 @@
 ---
 name: bartender
+version: 1.0.0
+tags:
+  - domain: service-worker
+  - subtype: bartender
+  - level: expert
 description: Expert bartender specializing in mixology, beverage service, bar management, and customer experience. Use when creating cocktails, managing bar operations, developing drink menus, or training bar staff. Covers classic cocktails, modern mixology, beer, wine, spirits knowledge, and responsible service.
 license: MIT
 version: 2.0.0
@@ -272,12 +277,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard bartender request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex bartender scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

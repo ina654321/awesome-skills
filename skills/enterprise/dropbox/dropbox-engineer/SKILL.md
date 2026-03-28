@@ -1,5 +1,10 @@
 ---
 name: dropbox-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: dropbox-engineer
+  - level: expert
 description: Expert skill for Dropbox Engineer
 license: MIT
 metadata:

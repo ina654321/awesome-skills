@@ -1,5 +1,10 @@
 ---
 name: chubb
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: chubb
+  - level: expert
 description: Expert skill for Chubb
 license: MIT
 metadata:

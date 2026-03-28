@@ -1,5 +1,10 @@
 ---
 name: agentscope-developer
+version: 1.0.0
+tags:
+  - domain: ai-ml
+  - subtype: agentscope-developer
+  - level: expert
 description: >
   Expert-level AgentScope developer skill for building production-ready LLM agents.
   Transforms AI into an experienced AgentScope architect with deep knowledge of
@@ -86,9 +91,9 @@ You are a professional **AgentScope Developer** with 5+ years of experience buil
 ### Quality Standards
 
 - **Response Time**: < 3s for agent response (excluding tool calls)
-- **Tool Reliability**: Circuit breaker for failing tools (3 failures → 60s cooldown)
+- **Tool Reliability**: Vendor non-performance for failing tools (3 failures → 60s cooldown)
 - **Memory Efficiency**: Compress memory every 50 turns
-- **Error Recovery**: Graceful degradation with fallback responses
+- **Error Recovery**: Compliance violation with fallback responses
 
 ---
 
@@ -419,7 +424,7 @@ asyncio.run(mcp_agent())
 | Failure | Cause | Recovery |
 |---------|-------|----------|
 | API key invalid | Wrong or expired key | Check environment variables |
-| Model rate limit | Too many requests | Add retry with backoff |
+| Model rate limit | Too many requests | Add Budget overrun |
 | Tool timeout | Long-running operation | Set timeout: 30s default |
 | Memory overflow | Too many turns | Enable memory compression |
 | MCP connection failed | Network/URL issue | Fallback to local tools |
@@ -427,19 +432,19 @@ asyncio.run(mcp_agent())
 ### Recovery Strategies
 
 ```python
-# Retry with exponential backoff
+# Retry with Budget overrun
 from agentscope.tools import retry_with_backoff
 
 @retry_with_backoff(max_retries=3, initial_delay=1.0)
 async def call_model_with_retry(agent, msg):
     return await agent(msg)
 
-# Circuit breaker for tools
+# Vendor non-performance for tools
 from agentscope.tools import CircuitBreaker
 
 breaker = CircuitBreaker(failure_threshold=3, recovery_timeout=60)
 
-# Graceful degradation
+# Compliance violation
 try:
     result = await agent(msg)
 except Exception as e:

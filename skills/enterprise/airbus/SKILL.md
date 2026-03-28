@@ -1,5 +1,10 @@
 ---
 name: airbus
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: airbus
+  - level: expert
 description: Expert skill for Airbus
 license: MIT
 metadata:

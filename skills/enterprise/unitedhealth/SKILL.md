@@ -1,5 +1,10 @@
 ---
 name: unitedhealth-group
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: unitedhealth-group
+  - level: expert
 description: Expert skill for UnitedHealth Group
 license: MIT
 metadata:
@@ -110,59 +115,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Triage
+- Assess patient vital signs and chief complaint
+- Identify immediate life threats
+- Prioritize treatment order
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Triage complete, patient prioritized, urgent issues identified
+**Fail:** Missed critical symptoms, incorrect prioritization
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Diagnosis
+- Gather detailed history and perform examination
+- Order appropriate diagnostic tests
+- Analyze results with differential diagnosis
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Diagnosis established, differentials considered
+**Fail:** Diagnostic errors, missed conditions, test delays
 
-### Phase 2: Planning
+### Phase 3: Treatment
+- Develop treatment plan per guidelines
+- Obtain patient consent
+- Implement interventions
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Treatment initiated, patient stable, consent documented
+**Fail:** Treatment errors, patient deterioration, consent issues
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Follow-up
+- Monitor treatment response
+- Adjust plan as needed
+- Provide patient education and discharge planning
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Patient discharged safely, follow-up arranged
+**Fail:** Readmission risk, inadequate instructions, missed follow-up
 
 ## Examples
 
@@ -170,15 +153,27 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard unitedhealth group request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex unitedhealth group scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -200,40 +195,6 @@ Output: [Expected response]
 
 
 
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
 
 ## Error Handling
 
@@ -246,8 +207,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

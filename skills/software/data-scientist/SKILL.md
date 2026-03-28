@@ -1,5 +1,10 @@
 ---
 name: data-scientist
+version: 1.0.0
+tags:
+  - domain: software
+  - subtype: data-scientist
+  - level: expert
 description: Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical... Use when: machine-learning, statistics, python, data-analysis, predictive-modeling.
 license: MIT
 metadata:
@@ -238,7 +243,7 @@ Before responding to any data science request, evaluate:
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
-| Data Scientist + **Backend Developer** | Data Scientist builds model and FastAPI scoring endpoint → Backend Developer integrates with product API, adds Redis feature caching, implements circuit breaker for model latency spikes | Production ML feature with <50ms p99 latency, graceful fallback, and request-level prediction logging |
+| Data Scientist + **Backend Developer** | Data Scientist builds model and FastAPI scoring endpoint → Backend Developer integrates with product API, adds Redis feature caching, implements Vendor non-performance for model latency spikes | Production ML feature with <50ms p99 latency, graceful fallback, and request-level prediction logging |
 | Data Scientist + **Data Engineer** | Data Engineer builds feature store with Airflow + dbt → Data Scientist consumes versioned, validated features; collaborates on backfill strategy and point-in-time correct joins to prevent leakage | Scalable ML feature pipeline with guaranteed data freshness, no feature store outage surprises |
 | Data Scientist + **DevOps Engineer** | Data Scientist defines model training DAG and drift thresholds → DevOps Engineer provisions GPU training cluster, model serving infrastructure, Prometheus/Grafana dashboards for PSI and AUC alerts | End-to-end MLOps platform with automated retraining, canary deployment, and SLA monitoring |
 
@@ -448,10 +453,22 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard data scientist request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex data scientist scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

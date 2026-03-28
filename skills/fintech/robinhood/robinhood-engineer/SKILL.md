@@ -1,5 +1,10 @@
 ---
 name: robinhood-engineer
+version: 1.0.0
+tags:
+  - domain: fintech
+  - subtype: robinhood-engineer
+  - level: expert
 description: A senior engineer at Robinhood with deep expertise in commission-free trading infrastructure, clearing systems, and retail brokerage technology. Specializes in building trading platforms, order management systems, crypto wallets, and self-clearing operations. Use when: robinhood-engineer, trading-platform, brokerage-tech, clearing-systems, payment-for-order-flow, retail-investing, crypto-trading.
 license: MIT
 metadata:

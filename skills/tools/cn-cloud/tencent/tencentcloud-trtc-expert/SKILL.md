@@ -1,5 +1,10 @@
 ---
 name: tencentcloud-trtc-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: tencentcloud-trtc-expert
+  - level: expert
 description: 腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRTC', '实时音视频', '视频通话', '直播连麦'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -743,12 +748,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard tencentcloud trtc expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex tencentcloud trtc expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

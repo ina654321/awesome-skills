@@ -1,5 +1,10 @@
 ---
 name: confluence-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: confluence-expert
+  - level: expert
 description: Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
 license: MIT
 metadata:
@@ -651,12 +656,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard confluence expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex confluence expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

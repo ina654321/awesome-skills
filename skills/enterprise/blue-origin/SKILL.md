@@ -1,5 +1,10 @@
 ---
 name: blue-origin
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: blue-origin
+  - level: expert
 description: Expert skill for Blue Origin
 license: MIT
 metadata:

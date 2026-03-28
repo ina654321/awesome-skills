@@ -1,5 +1,10 @@
 ---
 name: video-editor
+version: 1.0.0
+tags:
+  - domain: creative
+  - subtype: video-editor
+  - level: expert
 description: Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,... Use when: video-editing, post-production, color-grading, motion-graphics, av-sync.
 license: MIT
 metadata:
@@ -365,12 +370,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard video editor request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex video editor scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

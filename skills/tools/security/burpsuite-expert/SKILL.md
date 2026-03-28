@@ -1,5 +1,10 @@
 ---
 name: burpsuite-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: burpsuite-expert
+  - level: expert
 description: Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, and security assessment. Covers proxy configuration, active/passive scanning, Intruder/Repeater, and OWASP Top 10 testing. Use when: burpsuite, web-security, penetration-testing, owasp, web-vulnerabilities.
 license: MIT
 metadata:

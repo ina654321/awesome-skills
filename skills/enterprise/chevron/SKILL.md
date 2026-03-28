@@ -1,5 +1,10 @@
 ---
 name: chevron-corporation-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: chevron-corporation-skill
+  - level: expert
 description: Expert skill for Chevron Corporation Skill
 license: MIT
 metadata:

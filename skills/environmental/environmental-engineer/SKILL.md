@@ -1,5 +1,10 @@
 ---
 name: environmental-engineer
+version: 1.0.0
+tags:
+  - domain: environmental
+  - subtype: environmental-engineer
+  - level: expert
 description: A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies. Use when: environmental, pollution-control, water-treatment, air-quality, remediation.
 license: MIT
 metadata:
@@ -358,12 +363,103 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a wastewater treatment system for a mid-size manufacturing facility discharging 500,000 GPD
+Output: Treatment System Design:
+
+Wastewater Characterization:
+| Parameter | Influent | Effluent Target | Removal % |
+|-----------|----------|-----------------|-----------|
+| BOD5 | 800 mg/L | <30 mg/L | 96% |
+| TSS | 400 mg/L | <30 mg/L | 93% |
+| TN | 80 mg/L | <20 mg/L | 75% |
+| TP | 15 mg/L | <2 mg/L | 87% |
+| pH | 6.5-8.5 | 6.5-8.5 | - |
+
+Treatment Train:
+
+```yaml
+1. Screening: Mechanical bar screen (6mm)
+2. Flow Equalization: 4-hour tank, pH adjustment
+3. Primary: Dissolved Air Flotation (DAF)
+4. Secondary: Activated Sludge (MBR)
+   - HRT: 12 hours
+   - SRT: 15 days
+5. Tertiary: 
+   - Chemical precipitation (Alum for P)
+   - Sand filtration
+   - UV disinfection
+6. Sludge: Aerobic digestion, belt filter press
+```
+
+Process Flow:
+```
+Influent → Screen → Equalization → DAF → MBR → 
+Chemical Precip → Sand Filter → UV → Discharge
+```
+
+Infrastructure:
+- Footprint: 0.8 acres
+- Buildings: 2,500 SF (electrical, lab, storage)
+- Tanks: 3x primary clarifiers, 2x MBR tanks
+
+Capital Cost: $4.2M
+O&M Cost: $180K/year ($0.85/kgal)
+
+Permitting: NPDES permit application (60-day review)
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Remediate contaminated groundwater at former industrial site with LNAPL plume
+Output: Site Characterization:
+
+Contamination Assessment:
+- 3.5 acres LNAPL plume (petroleum)
+- Depth to water: 15-25 ft bgs
+- Hydraulic conductivity: 0.003 ft/day
+- Sensitive receptor: 400 ft from municipal well
+
+Risk Assessment:
+- Benzene: 0.7 mg/L (MCL: 0.005 mg/L) → 140x exceeds
+- NAPL thickness: 0.5-4.5 ft in monitoring wells
+- Source area: 1.2 acres
+
+Remediation Strategy:
+
+Phase 1: Source Control (Months 1-6)
+```yaml
+- Enhanced Fluid Recovery (EFR)
+  - High-vacuum dual-phase extraction
+  - Target: Remove 80% mobile NAPL
+  - Recovery rate: 50 gal/day initial
+
+- Soil Vapor Extraction (SVE)
+  - 12 extraction wells
+  - Air flow: 500 scfm total
+  - Target: 95% soil venting
+```
+
+Phase 2: Plume Management (Months 6-24)
+```yaml
+- Monitored Natural Attenuation (MNA)
+  - Natural biodegradation tracked via:
+    - Methanogenesis indicators
+    - Decreasing contaminant concentrations
+    - Electron donor presence
+
+- Institutional Controls
+  - Deed restrictions on groundwater use
+  - Long-term monitoring plan (20 years)
+```
+
+Performance Monitoring:
+| Year | Milestone |
+|------|-----------|
+| 1 | 60% NAPL reduction |
+| 2 | 85% NAPL reduction |
+| 5 | Benzene < 0.1 mg/L |
+| 10 | Benzene < 0.01 mg/L |
+| 20 | Meeting MCLs at compliance point |
+
+Cost: $2.1M (capex) + $400K (20-year opex)
 
 
 
@@ -378,38 +474,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Domain Benchmarks
 

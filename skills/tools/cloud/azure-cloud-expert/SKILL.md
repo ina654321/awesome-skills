@@ -1,5 +1,10 @@
 ---
 name: azure-cloud-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: azure-cloud-expert
+  - level: expert
 description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
 license: MIT
 metadata:
@@ -510,12 +515,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard azure cloud expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex azure cloud expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

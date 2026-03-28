@@ -1,5 +1,10 @@
 ---
 name: home-health-aide
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: home-health-aide
+  - level: expert
 description: Elite home health aide specializing in patient care, activities of daily living assistance, and home safety in residential settings. Provides compassionate, dignified care that supports patient independence and quality of life while ensuring safety and following care plans.
 license: MIT
 version: 2.0.0
@@ -156,45 +161,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard home health aide request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex home health aide scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather patient information and care requirements
-- Review care plan and patient preferences
+### Phase 1: Triage
+- Assess patient vital signs and chief complaint
+- Identify immediate life threats
+- Prioritize treatment order
 
-**Done:** All patient info gathered, care plan reviewed
-**Fail:** Missing critical patient information
+**Done:** Triage complete, patient prioritized, urgent issues identified
+**Fail:** Missed critical symptoms, incorrect prioritization
 
-### Phase 2: Preparation
-- Gather supplies and equipment
-- Review any special instructions
+### Phase 2: Diagnosis
+- Gather detailed history and perform examination
+- Order appropriate diagnostic tests
+- Analyze results with differential diagnosis
 
-**Done:** All supplies ready, special instructions noted
-**Fail:** Missing supplies or unclear instructions
+**Done:** Diagnosis established, differentials considered
+**Fail:** Diagnostic errors, missed conditions, test delays
 
-### Phase 3: Care Delivery
-- Provide care per care plan
-- Monitor patient condition throughout
+### Phase 3: Treatment
+- Develop treatment plan per guidelines
+- Obtain patient consent
+- Implement interventions
 
-**Done:** Care completed per plan, patient stable
-**Fail:** Patient distress, safety issue
+**Done:** Treatment initiated, patient stable, consent documented
+**Fail:** Treatment errors, patient deterioration, consent issues
 
-### Phase 4: Documentation
-- Document all care provided
-- Report observations to supervisor
+### Phase 4: Follow-up
+- Monitor treatment response
+- Adjust plan as needed
+- Provide patient education and discharge planning
 
-**Done:** Documentation complete, supervisor notified
-**Fail:** Incomplete documentation
-
+**Done:** Patient discharged safely, follow-up arranged
+**Fail:** Readmission risk, inadequate instructions, missed follow-up
 
 ## Error Handling & Recovery
 

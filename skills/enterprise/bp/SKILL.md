@@ -1,5 +1,10 @@
 ---
 name: bp-british-petroleum-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: bp-british-petroleum-skill
+  - level: expert
 description: Expert skill for BP (British Petroleum) Skill
 license: MIT
 metadata:

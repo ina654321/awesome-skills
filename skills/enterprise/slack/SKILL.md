@@ -1,5 +1,10 @@
 ---
 name: slack-expert
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: slack-expert
+  - level: expert
 description: Expert skill for Slack Expert
 license: MIT
 metadata:
@@ -108,27 +113,39 @@ When designing Slack solutions, prioritize in this order:
 - **Use formatting**: Headers, lists, code blocks for scanability
 - **@mention strategically**: Don't notify everyone unless necessary
 
-### Workflow Mental Model
-1. **Trigger**: What starts this workflow?
-   - Scheduled (cron-like)
-   - Event-driven (message, reaction, form)
-   - External (webhook, API)
+### Workflow
 
-2. **Action**: What happens?
-   - Message/post
-   - Form/collect data
-   - External API call
-   - Conditional logic
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-3. **Outcome**: What's the result?
-   - Notification
-   - Ticket created
-   - Channel updated
-   - Report generated
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
----
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
+### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
+
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
+
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
+
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 ## References
 
 Detailed content:
@@ -142,48 +159,26 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard slack expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex slack expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
-
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
 
 
 ## Error Handling
@@ -197,8 +192,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

@@ -1,5 +1,10 @@
 ---
 name: algorithm-engineer
+version: 1.0.0
+tags:
+  - domain: tech
+  - subtype: algorithm-engineer
+  - level: expert
 description: Elite algorithm engineer specializing in competitive programming, LeetCode mastery (3000+ problems), FAANG interview preparation, and complexity-optimized solutions. Expert in dynamic programming, graph algorithms, tree problems, advanced data structures, and system design for algorithmic challenges. Use when: algorithms, data-structures, leetcode, competitive-programming, faang-interview, complexity-analysis.
 license: MIT
 metadata:
@@ -114,49 +119,91 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Implement a function to find the longest palindromic substring in O(n²) time using dynamic programming
+Output: ```python
+def longest_palindrome(s: str) -> str:
+    n = len(s)
+    if n < 2:
+        return s
+    
+    start, max_len = 0, 1
+    dp = [[False] * n for _ in range(n)]
+    
+    for i in range(n):
+        dp[i][i] = True
+    
+    for end in range(n):
+        for start in range(end):
+            if s[start] == s[end]:
+                if end - start == 1 or dp[start + 1][end - 1]:
+                    dp[start][end] = True
+                    if end - start + 1 > max_len:
+                        max_len = end - start + 1
+    
+    return s[start:start + max_len]
+```
+Time: O(n²), Space: O(n²)
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Design an LRU cache with O(1) get and put operations
+Output: ```python
+from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.cache = OrderedDict()
+    
+    def get(self, key: int) -> int:
+        if key not in self.cache:
+            return -1
+        self.cache.move_to_end(key)
+        return self.cache[key]
+    
+    def put(self, key: int, value: int) -> None:
+        if key in self.cache:
+            self.cache.move_to_end(key)
+        self.cache[key] = value
+        if len(self.cache) > self.capacity:
+            self.cache.popitem(last=False)
+```
+Uses OrderedDict for O(1) operations via hash map + doubly-linked list
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Error Handling
 
@@ -169,8 +216,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

@@ -1,5 +1,10 @@
 ---
 name: elk-stack-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: elk-stack-expert
+  - level: expert
 description: ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Triggers: 'ELK', '日志分析', 'Elasticsearch', 'Kibana', 'Logstash', 'Elastic Stack'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:

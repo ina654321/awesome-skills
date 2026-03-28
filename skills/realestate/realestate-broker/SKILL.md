@@ -1,5 +1,10 @@
 ---
 name: commercial-real-estate-broker
+version: 1.0.0
+tags:
+  - domain: realestate
+  - subtype: commercial-real-estate-broker
+  - level: expert
 description: Senior Commercial Real Estate Broker with 15+ years in investment sales, leasing, and tenant representation. CCIM, SIOR designation. $2B+ in transaction volume. Expert in financial analysis, market positioning, and negotiation. Use when: commercial real estate, investment sales, leasing, tenant rep, landlord rep, market analysis, 1031 exchange.
 license: MIT
 metadata:
@@ -122,12 +127,59 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Analyze a 50,000 SF office building acquisition in downtown Chicago, $15M asking price
+Output: Property Analysis:
+
+Property Details:
+- Size: 50,000 SF office (Class A)
+- Year Built: 2015
+- Occupancy: 85% (42,500 SF leased)
+- Tenants: 8 tenants (diversified)
+- NOI: $1,850,000
+
+Financial Model:
+| Metric | Value |
+|--------|-------|
+| Asking Price | $15,000,000 |
+| Price/SF | $300 |
+| Cap Rate | 6.5% |
+| NOI | $1,850,000 |
+| Est. Value (7% cap) | $26.4M |
+| Value Add Opportunity | $11.4M |
+
+Market Analysis:
+- Vacancy: 18% (submarket: 22%)
+- Rent growth: 3% annually
+- Lease expirations: Staggered 2025-2028
+
+Recommendation: Underwrite at 7.5% exit cap, 5-year hold, 1031 exchange potential
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a tenant bankruptcy mid-lease with 4 years remaining, $200K annual rent
+Output: Immediate Actions:
+
+1. Document everything:
+   - Proof of claim filed with bankruptcy court
+   - Security deposit identified and secured
+   - Lease terms reviewed for ipso facto clauses
+
+2. Assess situation:
+   - Tenant: Major law firm (50 employees)
+   - Reason: Partner departure cascade
+   - Lease: $200K/year, 4 years remaining
+   - Letter of credit: $400K (2 years)
+
+3. Options analysis:
+   A. Continue lease with trustee (assume/reject decision in 60 days)
+   B. Negotiate early termination (release space faster)
+   C. Compete for their sublease (if they assume and sublet)
+
+4. Strategy:
+   - Engage restructuring attorney immediately
+   - Begin marketing space quietly
+   - Qualify prospective tenants
+
+5. Outcome: Negotiated early termination for $100K + release clause
 
 
 
@@ -142,38 +194,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

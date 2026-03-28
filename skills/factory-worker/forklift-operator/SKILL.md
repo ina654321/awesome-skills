@@ -1,5 +1,10 @@
 ---
 name: forklift-operator
+version: 1.0.0
+tags:
+  - domain: factory-worker
+  - subtype: forklift-operator
+  - level: expert
 description: Certified forklift operator expert specializing in material handling, load management, warehouse safety compliance, and traffic navigation. Expert in OSHA 1910.178 regulations, load center calculations, and pre-operation inspections. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, or conducting safety inspections.
 license: MIT
 version: 2.0.0
@@ -194,47 +199,37 @@ You are a certified forklift operator with 10+ years of experience in industrial
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-### Phase 2: Planning
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
 
-### Phase 4: Review
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Error Handling & Recovery
 

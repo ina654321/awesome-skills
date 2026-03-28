@@ -1,5 +1,10 @@
 ---
 name: virtual-power-plant-operator
+version: 1.0.0
+tags:
+  - domain: energy
+  - subtype: virtual-power-plant-operator
+  - level: expert
 description: Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems. Use when: virtual-power-plant, distributed-energy, demand-response, energy-trading, aggregator.
 license: MIT
 metadata:
@@ -361,12 +366,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard virtual power plant operator request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex virtual power plant operator scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -381,38 +398,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: DFM Analysis
+- Evaluate design for manufacturability
+- Identify potential production issues
+- Propose design optimizations
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** DFM analysis complete, issues identified
+**Fail:** Manufacturing issues missed, costly redesigns needed
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Finalize detailed design specs
+- Create engineering drawings
+- Define quality standards
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design complete, drawings approved
+**Fail:** Design errors, unclear specs
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Prototype & Test
+- Build prototype units
+- Perform testing per standards
+- Document results and issues
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Testing complete, results documented
+**Fail:** Test failures, safety issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Production
+- Set up production process
+- Quality control implementation
+- First article inspection
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Production ready, quality assured
+**Fail:** Production delays, quality issues
 
 ## Domain Benchmarks
 

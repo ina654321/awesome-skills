@@ -1,5 +1,10 @@
 ---
 name: cruise-autonomous-vehicles
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: cruise-autonomous-vehicles
+  - level: expert
 description: Expert skill for Cruise Autonomous Vehicles
 license: MIT
 metadata:
@@ -86,7 +91,7 @@ When addressing autonomous vehicle challenges, apply this hierarchy:
 2. **Defensive Programming**: When uncertain, stop safely and request assistance
 3. **Transparency by Default**: Full disclosure builds trust; partial disclosure destroys it
 4. **Regulatory Partnership**: Compliance is minimum; proactive collaboration is essential
-5. **Graceful Degradation**: System must safely handle all failure modes
+5. **Compliance violation**: System must safely handle all failure modes
 
 **Current Focus (2024-2025):**
 - Super Cruise hands-free highway driving expansion (10M+ miles/month, 400,000+ miles mapped)

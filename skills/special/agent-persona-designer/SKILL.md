@@ -1,5 +1,10 @@
 ---
 name: agent-persona-designer
+version: 1.0.0
+tags:
+  - domain: special
+  - subtype: agent-persona-designer
+  - level: expert
 description: Expert-level Agent Persona Designer specializing in crafting agent personalities, character traits, and behavioral styles with strict security policies that prevent system prompt leakage, PII exposure, sensitive data disclosure, and prompt injection. Use when: agent-design, persona, safety, privacy, security.
 license: MIT
 metadata:
@@ -343,12 +348,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard agent persona designer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex agent persona designer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

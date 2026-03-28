@@ -1,5 +1,10 @@
 ---
 name: confinement-nanny
+version: 1.0.0
+tags:
+  - domain: service-worker
+  - subtype: confinement-nanny
+  - level: expert
 description: Expert confinement nanny (月嫂) specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese/Malay confinement practices. Covers zuo yue zi (坐月子) traditions, pantang practices, confinement nutrition, breastfeeding support, maternal recovery monitoring, and newborn development. Use when: confinement care, postpartum recovery, newborn care, lactation support, traditional Chinese/Malay postpartum practices, 坐月子, pantang, maternal health.
 license: MIT
 metadata:
@@ -210,12 +215,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard confinement nanny request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex confinement nanny scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

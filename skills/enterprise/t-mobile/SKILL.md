@@ -1,5 +1,10 @@
 ---
 name: t-mobile
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: t-mobile
+  - level: expert
 description: Expert skill for T-Mobile
 license: MIT
 metadata:

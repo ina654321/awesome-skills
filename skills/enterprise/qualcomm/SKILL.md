@@ -1,5 +1,10 @@
 ---
 name: qualcomm-expert
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: qualcomm-expert
+  - level: expert
 description: Expert skill for Qualcomm Expert
 license: MIT
 metadata:
@@ -613,15 +618,27 @@ QTL provides 30%+ operating margins that fund QCT R&D. Even with revenue pressur
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard qualcomm expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex qualcomm expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: aliyun-cloud-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-cloud-expert
+  - level: expert
 description: Alibaba Cloud architecture expert. Use when: designing cloud architecture on Aliyun, selecting ECS/RDS/OSS/ACK/VPC services, optimizing cloud costs, troubleshooting connectivity or billing issues. Triggers: '阿里云架构', 'ECS选型', 'RDS配置', 'ACK部署', 'VPC网络', '成本优化'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 
 license: MIT

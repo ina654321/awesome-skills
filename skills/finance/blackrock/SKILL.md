@@ -1,5 +1,10 @@
 ---
 name: blackrock---worlds-largest-asset-manager
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: blackrock---worlds-largest-asset-manager
+  - level: expert
 description: Expert skill for BlackRock - World's Largest Asset Manager
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: digital-marketing-specialist
+version: 1.0.0
+tags:
+  - domain: marketing
+  - subtype: digital-marketing-specialist
+  - level: expert
 description: Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media... Use when: digital-marketing, seo, sem, social-media, content-marketing.
 license: MIT
 metadata:
@@ -241,12 +246,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Optimize Google Ads campaign for e-commerce with $50K monthly budget, targeting 4x ROAS
+Output: Campaign Structure:
+- 1 Search Campaign, 3 Ad Groups (Brand, Generic, Competitor)
+- Display Remarketing Campaign
+- Shopping Campaign for product feed
+
+Keyword Strategy:
+| Ad Group | Keywords | Avg CPC | Est. Clicks |
+|----------|----------|---------|-------------|
+| Brand | [brand]+shoes, +brand+shoes | $1.20 | 800 |
+| Generic | running+shoes, best+shoes+2024 | $3.50 | 400 |
+| Competitor | [competitor]+shoes, competitor+shoes | $2.80 | 300 |
+
+Bid Strategy:
+- Target ROAS: 4.0x
+- Max CPC: 80% of estimated position 1 CPC
+- Portfolio bid strategy for campaigns
+
+Performance Targets:
+- CTR: >3% (Search), >0.5% (Display)
+- Conv. Rate: >3%
+- ROAS: 4.0x minimum
+- Cost/Conv: <$35
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle sudden 40% drop in conversions with no changes to landing pages or ads
+Output: Troubleshooting Steps:
+
+1. Check external factors:
+   - Google algorithm updates
+   - Competitor activity surge
+   - Seasonality changes
+   - Economic events
+
+2. Analyze data patterns:
+   - Hourly conversion trends
+   - Device breakdown changes
+   - Geographic distribution shifts
+   - Traffic quality metrics
+
+3. Diagnostic Results:
+   - Mobile conversions down 60% (landing page load time +3s)
+   - New competitor ads appearing for core keywords
+
+4. Immediate Actions:
+   - Reduce mobile bid adjustments (-20%)
+   - Implement landing page speed optimization
+   - Schedule competitor keyword monitoring
+   - Increase bids on unaffected hours/geo
+
+5. Long-term Fix:
+   - A/B test new landing page variants
+   - Expand negative keyword list
+   - Diversify traffic sources
 
 
 
@@ -261,38 +314,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Research
+- Investigate story background and sources
+- Verify facts and cross-reference
+- Develop story structure
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Research complete, facts verified, structure defined
+**Fail:** Unverified facts, weak sources, unclear structure
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Draft
+- Write initial draft
+- Include key facts and quotes
+- Apply style guide
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Draft complete, facts included, style applied
+**Fail:** Missing facts, style violations, structural issues
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Review
+- Edit for accuracy, clarity, fairness
+- Verify all attributions
+- Check legal/ethical compliance
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Review complete, errors corrected
+**Fail:** Legal issues, ethical concerns, accuracy problems
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Edit & Publish
+- Final polish and formatting
+- Publish to appropriate channels
+- Monitor response
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Published, audience reached
+**Fail:** Publishing errors, audience issues
 
 ## Error Handling
 
@@ -305,8 +357,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

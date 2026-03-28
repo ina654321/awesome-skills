@@ -1,3 +1,12 @@
+---
+name: exit-negotiation-specialist
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: exit-negotiation-specialist
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 

@@ -1,5 +1,10 @@
 ---
 name: disney-imagineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: disney-imagineer
+  - level: expert
 description: Disney Imagineering expert. Use when: designing themed attractions, writing show narratives, conducting Blue Sky ideation, applying plussing, or planning multi-sensory experiences.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: nursing-expert
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: nursing-expert
+  - level: expert
 description: Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization. Use when: healthcare, nursing, patient-care, clinical.
 license: MIT
 metadata:
@@ -326,58 +331,101 @@ Detailed content:
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+### Example 1: Patient Assessment
+Input: "A 65-year-old patient presents with chest pain, shortness of breath, and sweating. How do you assess?"
+Output: "**Immediate Assessment (First 5 Minutes):**
+1. **ABCDE**: Airway, Breathing, Circulation, Disability, Exposure
+2. **Vital Signs**: BP, HR, RR, SpO2, Temp
+3. **Pain Assessment**: OPQRST - Onset, Provocation, Quality, Radiation, Severity, Timing
+4. **Cardiac Markers**: Order ECG, troponin, CK-MB
 
-### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+**Key Questions:**
+- 'Where does it hurt?' (localization)
+- 'What were you doing when it started?' (provocation)
+- 'On a scale of 1-10...' (severity)
 
+**Red Flags:** Radiating to arm/jaw, diaphoresis, dyspnea = suspected ACS → immediate cardiology consult"
+
+### Example 2: IV Cannulation in Difficult Patient
+Input: "A patient with end-stage renal disease needs IV access but has collapsed veins. Previous attempts failed."
+Output: "**Approach:**
+1. **Assess**: Look for visible veins; use vein finder if available
+2. **Position**: Lower arm below heart level; warm compress 5 min
+3. **Tourniquet**: Apply 3-4 inches above site
+4. **Technique**: 15-30° angle, bevel up; advance slowly
+5. **Alternative Sites**: Consider external jugular, saphenous if desperate
+
+**If all fails:**
+- Escalate to attending
+- Consider central line if no other option
+- Document difficulty thoroughly for future reference"
+
+### Example 3: Medication Error Recovery
+Input: "You realize you just gave insulin instead of heparin to a patient. What do you do?"
+Output: "**IMMEDIATE ACTIONS:**
+1. **Stop**: Discontinue current infusion if applicable
+2. **Assess**: Check glucose, monitor for hypoglycemia symptoms
+3. **Treat**: Give glucose 15-20g if symptomatic (juice, D50)
+4. **Notify**: Inform physician immediately
+5. **Document**: Record error, patient response, interventions
+6. **Report**: Complete incident report per hospital policy
+
+**Monitor for 24 hours:**
+- Blood glucose q1h for 4h, then q4h
+- Watch for delayed hypoglycemia from long-acting insulin
+
+**Prevention:** Double-check HIGH-RISK meds (insulin, heparin, opioids) with second nurse"
+
+
+## Workflow
+
+### Phase 1: Patient Assessment
+- Perform ABCDE assessment
+- Gather vital signs and chief complaint
+- Review patient history and allergies
+- Identify red flags immediately
+
+**Done:** Clear clinical picture; red flags identified  
+**Fail:** Missed red flag; incomplete assessment
+
+### Phase 2: Planning & Prioritization
+- Identify nursing diagnosis (actual vs. potential)
+- Prioritize: Airway/Breathing > Circulation > Disability > Exposure
+- Develop care plan with measurable goals
+- Anticipate complications
+
+**Done:** Care plan documented with priorities  
+**Fail:** Incorrect prioritization; missed potential complications
+
+### Phase 3: Implementation
+- Execute interventions per protocol
+- Administer medications safely (5-rights + documentation)
+- Monitor response to treatment
+- Provide patient education
+
+**Done:** Interventions completed safely  
+**Fail:** Medication error; patient deterioration
+
+### Phase 4: Evaluation & Handoff
+- Reassess patient response
+- Update care plan based on findings
+- SBAR handoff to next caregiver
+- Document all findings and interventions
+
+**Done:** Complete documentation; safe handoff  
+**Fail:** Incomplete documentation; missed handoff critical info
 
 
 ## Error Handling & Recovery
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
+| **Medication Error** | Stop; notify MD; treat symptoms; document; incident report |
+| **Patient Deterioration** | Call Rapid Response; ABCDE reassessment; escalate care |
+| **Equipment Failure** | Switch to backup; call biomed; document incident |
+| **Needle Stick Injury** | Wash; report to Occ Health; baseline labs; follow-up |
+| **IV Infiltration** | Stop infusion; remove catheter; elevate limb; apply warm compress |
+| **Fall Risk Event** | Assess injury; notify MD; complete fall report; implement interventions |
 
 
 ## Domain Benchmarks

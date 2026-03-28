@@ -1,5 +1,10 @@
 ---
 name: powerbi-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: powerbi-expert
+  - level: expert
 description: Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building business intelligence dashboards and reports. Triggers: 'Power BI', 'DAX', 'Power Query', 'data modeling', 'RLS', 'Power BI DAX'.
 license: MIT
 metadata:
@@ -676,12 +681,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard powerbi expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex powerbi expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

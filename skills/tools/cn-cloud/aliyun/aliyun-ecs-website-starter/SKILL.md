@@ -1,5 +1,10 @@
 ---
 name: aliyun-ecs-website-starter
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-ecs-website-starter
+  - level: expert
 description: 阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting started with cloud. Triggers: '阿里云建站', 'ECS', 'WordPress', '宝塔面板', '网站搭建'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -610,12 +615,24 @@ Author: neo.ai | Quality: community | Score: 6.5/10
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun ecs website starter request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun ecs website starter scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

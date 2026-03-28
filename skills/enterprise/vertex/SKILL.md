@@ -1,3 +1,12 @@
+---
+name: vertex
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: vertex
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 

@@ -1,5 +1,10 @@
 ---
 name: broadcom
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: broadcom
+  - level: expert
 description: Expert skill for Broadcom
 license: MIT
 metadata:

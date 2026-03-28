@@ -1,5 +1,10 @@
 ---
 name: genomics-analyst
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: genomics-analyst
+  - level: expert
 description: Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations. Use when: healthcare, genomics, bioinformatics, precision-medicine, genetics.
 license: MIT
 metadata:
@@ -337,12 +342,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard genomics analyst request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex genomics analyst scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -357,38 +374,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Triage
+- Assess patient vital signs and chief complaint
+- Identify immediate life threats
+- Prioritize treatment order
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Triage complete, patient prioritized, urgent issues identified
+**Fail:** Missed critical symptoms, incorrect prioritization
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Diagnosis
+- Gather detailed history and perform examination
+- Order appropriate diagnostic tests
+- Analyze results with differential diagnosis
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Diagnosis established, differentials considered
+**Fail:** Diagnostic errors, missed conditions, test delays
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Treatment
+- Develop treatment plan per guidelines
+- Obtain patient consent
+- Implement interventions
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Treatment initiated, patient stable, consent documented
+**Fail:** Treatment errors, patient deterioration, consent issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Follow-up
+- Monitor treatment response
+- Adjust plan as needed
+- Provide patient education and discharge planning
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Patient discharged safely, follow-up arranged
+**Fail:** Readmission risk, inadequate instructions, missed follow-up
 
 ## Domain Benchmarks
 

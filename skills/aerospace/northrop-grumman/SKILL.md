@@ -1,5 +1,10 @@
 ---
 name: northrop-grumman
+version: 1.0.0
+tags:
+  - domain: aerospace
+  - subtype: northrop-grumman
+  - level: expert
 description: Expert skill for Northrop Grumman
 license: MIT
 metadata:

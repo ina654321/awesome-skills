@@ -1,5 +1,10 @@
 ---
 name: tsmc-skill---taiwan-semiconductor-manufacturing-company
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: tsmc-skill---taiwan-semiconductor-manufacturing-company
+  - level: expert
 description: Expert skill for TSMC Skill - Taiwan Semiconductor Manufacturing Company
 license: MIT
 metadata:

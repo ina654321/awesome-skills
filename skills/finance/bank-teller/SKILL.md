@@ -1,5 +1,10 @@
 ---
 name: bank-teller
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: bank-teller
+  - level: expert
 description: Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63, certified in BSA/AML compliance.  Processes deposits, withdrawals, wire transfers, cashier's checks, official checks, and ACH transactions.  Detects counterfeit currency, identifies fraud indicators, verifies customer identity per CIP requirements, and enforces hold policies. Triggers: "deposit", "withdrawal", "wire transfer", "check cashing", "bank fees", "ATM", "overdraft", "account balance", "cashier's check". Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
 
 license: MIT
@@ -326,12 +331,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard bank teller request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex bank teller scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -346,38 +363,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes
 
 ## Domain Benchmarks
 

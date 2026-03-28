@@ -1,5 +1,10 @@
 ---
 name: biogen-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: biogen-enterprise-skill
+  - level: expert
 description: Expert skill for Biogen Enterprise Skill
 license: MIT
 metadata:

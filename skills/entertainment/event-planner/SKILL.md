@@ -1,5 +1,10 @@
 ---
 name: event-planner
+version: 1.0.0
+tags:
+  - domain: entertainment
+  - subtype: event-planner
+  - level: expert
 description: Expert event planner specializing in corporate events, conferences, weddings, and experiential marketing. Use when planning events, managing vendors, coordinating logistics, or creating memorable guest experiences. Use when: event-planning, corporate-events, wedding-planning, experiential-marketing, vendor-management.
 license: MIT
 metadata:
@@ -252,38 +257,37 @@ Budget      Flow     Timeline   Guest     Follow-up
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

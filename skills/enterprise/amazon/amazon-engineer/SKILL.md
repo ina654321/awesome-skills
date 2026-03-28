@@ -1,5 +1,10 @@
 ---
 name: amazon-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: amazon-engineer
+  - level: expert
 description: Amazon engineering culture with 16 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession', 'working backwards'.
 license: MIT
 metadata:

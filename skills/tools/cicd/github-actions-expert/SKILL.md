@@ -1,5 +1,10 @@
 ---
 name: github-actions-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: github-actions-expert
+  - level: expert
 description: GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable workflows. Use when building CI/CD pipelines, automating workflows, or troubleshooting GitHub Actions.
 license: MIT
 metadata:
@@ -696,12 +701,88 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Create a CI/CD pipeline for a Node.js application with matrix build strategy for multiple Node versions
+Output: ```yaml
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run tests
+      run: npm test
+    
+    - name: Upload coverage
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage/lcov.info
+
+  build-and-deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build and push Docker image
+      run: |
+        docker build -t ghcr.io/${{ github.repository }}:${{ github.sha }} .
+        docker push ghcr.io/${{ github.repository }}:${{ github.sha }}
+    
+    - name: Deploy to ECS
+      run: |
+        aws ecs update-service --cluster production --service api --force-new-deployment
+```
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Debug a GitHub Actions runner that's failing with "No space left on device" on Ubuntu-latest
+Output: ```bash
+# Add disk space analysis to workflow
+- name: Check disk space
+  run: |
+    df -h
+    du -sh /home/runner/work/*
+
+# Common causes and solutions:
+# 1. Docker layer cache too large
+#    Add: docker system prune -f --volumes before build
+
+# 2. npm cache
+#    Add: npm cache clean --force after install
+
+# 3. Too many workflow runs retained
+#    Settings > Actions > Artifact and log retention > 7 days
+
+# Modified workflow with cleanup
+- name: Build with cleanup
+  run: |
+    docker system prune -f --volumes || true
+    npm ci --prefer-offline
+    npm run build
+    docker build --no-cache -t myapp:${{ github.sha }} .
+```
 
 
 

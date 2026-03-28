@@ -1,5 +1,10 @@
 ---
 name: aliyun-ssl-https-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-ssl-https-expert
+  - level: expert
 description: 阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configuring SSL certificates. Triggers: 'SSL证书', 'HTTPS', '免费证书', 'Nginx配置', '网站安全'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -644,12 +649,24 @@ Author: neo.ai | Quality: community | Score: 6.8/10
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun ssl https expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun ssl https expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

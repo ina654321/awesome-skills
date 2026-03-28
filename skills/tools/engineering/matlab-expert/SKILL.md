@@ -1,5 +1,10 @@
 ---
 name: matlab-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: matlab-expert
+  - level: expert
 description: MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations.
 license: MIT
 metadata:

@@ -1,3 +1,12 @@
+---
+name: samsung
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: samsung
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 

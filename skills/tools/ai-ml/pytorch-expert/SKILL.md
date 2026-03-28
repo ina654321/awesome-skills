@@ -1,5 +1,10 @@
 ---
 name: pytorch-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: pytorch-expert
+  - level: expert
 description: PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions.
 license: MIT
 metadata:
@@ -429,12 +434,78 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Implement a ResNet-50 training loop with mixed precision (FP16) and gradient checkpointing for memory efficiency
+Output: ```python
+import torch
+import torch.nn as nn
+from torch.cuda.amp import autocast, GradScaler
+
+model = nn.ResNet50(pretrained=True).cuda()
+model = torch.compile(model)  # Enable torch.compile for 20% speedup
+
+# Gradient checkpointing for memory savings
+model.layer4[2].block[1].checkpoint = True
+
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
+scaler = GradScaler()
+
+for epoch in range(epochs):
+    model.train()
+    for batch_idx, (data, target) in enumerate(train_loader):
+        data, target = data.cuda(), target.cuda()
+        
+        optimizer.zero_grad()
+        
+        with autocast(dtype=torch.float16):
+            output = model(data)
+            loss = criterion(output, target)
+        
+        scaler.scale(loss).backward()
+        
+        # Unscale before gradient clipping
+        scaler.unscale_(optimizer)
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        
+        scaler.step(optimizer)
+        scaler.update()
+    
+    # Validation
+    model.eval()
+    with torch.no_grad():
+        for data, target in val_loader:
+            data, target = data.cuda(), target.cuda()
+            with autocast(dtype=torch.float16):
+                output = model(data)
+```
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Debug NaN losses appearing in training after epoch 10 with no change in learning rate or data preprocessing
+Output: ```python
+# Add gradient monitoring
+for batch_idx, (data, target) in enumerate(train_loader):
+    with autocast(dtype=torch.float16):
+        output = model(data)
+        loss = criterion(output, target)
+    
+    if torch.isnan(loss):
+        print(f"NaN detected at batch {batch_idx}")
+        print(f"Input stats: min={data.min()}, max={data.max()}")
+        print(f"Output stats: min={output.min()}, max={output.max()}")
+        print(f"Grad before step:")
+        for name, param in model.named_parameters():
+            if param.grad is not None:
+                print(f"  {name}: grad_norm={param.grad.norm()}")
+        
+        # Common causes and fixes:
+        # 1. Learning rate too high after warmup -> reduce
+        # 2. Loss scaling issue -> reset scaler
+        # 3. Numerical instability in FP16 -> use BF16 instead
+        
+        # Try switching to BF16
+        with autocast(dtype=torch.bfloat16):
+            output = model(data)
+```
 
 
 

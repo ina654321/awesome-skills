@@ -1,3 +1,12 @@
+---
+name: godot-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: godot-expert
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 

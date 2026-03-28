@@ -1,5 +1,10 @@
 ---
 name: nursing-assistant
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: nursing-assistant
+  - level: expert
 description: A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer techniques, fall prevention), and observation/reporting. Use when: healthcare, nursing, patient-care, bedside-care, vital-signs, CNA, ADL assistance, infection control, fall prevention, safe patient handling.
 
 license: MIT
@@ -201,12 +206,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard nursing assistant request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex nursing assistant scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

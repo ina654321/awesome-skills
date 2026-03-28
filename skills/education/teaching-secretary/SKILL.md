@@ -1,5 +1,10 @@
 ---
 name: teaching-secretary
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: teaching-secretary
+  - level: expert
 description: Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance. Use when: education, scheduling, academic-records, administration, coordination.
 license: MIT
 metadata:
@@ -416,12 +421,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard teaching secretary request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex teaching secretary scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

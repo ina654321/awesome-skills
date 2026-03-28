@@ -1,5 +1,10 @@
 ---
 name: product-manager
+version: 1.0.0
+tags:
+  - domain: business
+  - subtype: product-manager
+  - level: expert
 description: Expert-level Product Manager skill covering product strategy, roadmap development, user research, feature prioritization, and go-to-market. Use when: product-management, roadmap, user-research, feature-prioritization, product-strategy, go-to-market.
 license: MIT
 metadata:
@@ -241,12 +246,61 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Create a product roadmap for a B2B SaaS product with 3 engineering teams and 6 months to next major release
+Output: Roadmap Framework:
+
+Current State:
+- Engineering capacity: 45 sprints (3 teams × 15 sprints/6mo)
+- Technical debt: 20% of velocity
+- Customer requests: 127 logged
+
+Prioritization (RICE Score):
+| Feature | Reach | Impact | Confidence | Effort | RICE | Priority |
+|---------|-------|--------|------------|--------|------|----------|
+| API v2 | 800 | 3 | 90% | 20 | 108 | P1 |
+| SSO Integration | 600 | 2.5 | 85% | 15 | 85 | P2 |
+| Dashboard Redesign | 900 | 2 | 70% | 25 | 50.4 | P3 |
+| Mobile App | 400 | 3 | 60% | 40 | 18 | P4 |
+
+6-Month Roadmap:
+- Month 1-2: API v2 (foundation for integrations)
+- Month 3-4: SSO + Dashboard v1
+- Month 5-6: Dashboard v2 + Mobile planning
+
+Success Metrics:
+- NPS improvement: +10 points
+- Enterprise retention: +15%
+- Time-to-value: -30%
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a situation where engineering estimates a feature at 6 months but executive expects it in 2 months
+Output: Negotiation Framework:
+
+1. Reality Check:
+   - Request detailed technical breakdown from engineering
+   - Identify scope reduction opportunities
+   - Map dependencies and risks
+
+2. Options Analysis:
+   Option A: Full scope, 6 months (realistic)
+   Option B: Core features only, 2 months (technical demo)
+   Option C: Phased approach (MVP in 2mo, full in 5mo)
+
+3. Stakeholder Meeting:
+   Present:
+   - Engineering breakdown with specific blockers
+   - User research showing feature importance
+   - Business impact of each option
+
+   Propose:
+   - Option C as compromise
+   - Interim metrics to validate direction
+   - Regular check-ins to course-correct
+
+4. Agreement:
+   - MVP definition signed off
+   - Timeline: 2 months for MVP, 4 more for full
+   - Success criteria: 40% user adoption of MVP feature
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: datadog-engineer
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: datadog-engineer
+  - level: expert
 description: Datadog观测工程师：APM、基础设施监控、日志管理、SLO/SLI设计、安全监控。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '监控', '性能监控', '分布式追踪', '日志分析', 'SLO', '可观测性'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: raymond-james-financial
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: raymond-james-financial
+  - level: expert
 description: Expert skill for Raymond James Financial
 license: MIT
 metadata:

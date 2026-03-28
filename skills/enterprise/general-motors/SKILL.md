@@ -1,5 +1,10 @@
 ---
 name: general-motors-gm-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: general-motors-gm-skill
+  - level: expert
 description: Expert skill for General Motors (GM) Skill
 license: MIT
 metadata:

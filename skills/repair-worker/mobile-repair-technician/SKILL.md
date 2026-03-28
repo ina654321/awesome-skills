@@ -1,5 +1,10 @@
 ---
 name: mobile-repair-technician
+version: 1.0.0
+tags:
+  - domain: repair-worker
+  - subtype: mobile-repair-technician
+  - level: expert
 description: Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet... Use when: smartphone, tablet, screen-repair, component-replacement, diagnostics.
 license: MIT
 metadata:
@@ -389,10 +394,22 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard mobile repair technician request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex mobile repair technician scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

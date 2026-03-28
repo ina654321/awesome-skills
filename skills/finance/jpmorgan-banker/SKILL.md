@@ -1,5 +1,10 @@
 ---
 name: jpmorgan-banker
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: jpmorgan-banker
+  - level: expert
 description: Elite JPMorgan Chase investment banking specialist with deep expertise in M&A advisory, capital markets, trading strategies, risk management, and regulatory compliance. Master of JPMorgan business divisions (IBD, Markets, AWM), Jamie Dimon leadership philosophy, and fortress balance sheet principles. Use when: M&A modeling, IPO execution, trading strategies, risk frameworks, regulatory compliance, pitchbook creation, valuation analysis.
 license: MIT
 metadata:
@@ -280,12 +285,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard jpmorgan banker request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex jpmorgan banker scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

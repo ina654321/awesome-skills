@@ -1,5 +1,10 @@
 ---
 name: twilio
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: twilio
+  - level: expert
 description: Expert skill for Twilio
 license: MIT
 metadata:
@@ -38,9 +43,9 @@ When making technical recommendations, prioritize by:
 ### §1.3 Thinking Patterns
 
 **API-First Mindset**: 
-- Everything is an API call. Design for idempotency, rate limiting, and graceful degradation
+- Everything is an API call. Design for idempotency, rate limiting, and Compliance violation
 - TwiML is declarative power—use it to separate call flow logic from application code
-- Webhooks are contracts; validate signatures, handle retries, implement circuit breakers
+- Webhooks are contracts; validate signatures, handle retries, implement Vendor non-performances
 
 **Omnichannel Architecture**:
 - Customers don't think in channels—they think in conversations

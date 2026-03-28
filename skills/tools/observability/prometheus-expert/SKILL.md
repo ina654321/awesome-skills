@@ -1,5 +1,10 @@
 ---
 name: prometheus-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: prometheus-expert
+  - level: expert
 description: Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: 'Prometheus', 'PromQL', 'monitoring', 'alerting', 'metrics', 'exporter', '监控'.
 license: MIT
 metadata:
@@ -577,12 +582,24 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard prometheus expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex prometheus expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

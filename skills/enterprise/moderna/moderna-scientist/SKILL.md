@@ -1,5 +1,10 @@
 ---
 name: moderna-scientist
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: moderna-scientist
+  - level: expert
 description: Expert skill for moderna-scientist
 license: MIT
 metadata:

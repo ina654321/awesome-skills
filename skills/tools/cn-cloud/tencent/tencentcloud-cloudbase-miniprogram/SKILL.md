@@ -1,5 +1,10 @@
 ---
 name: tencentcloud-cloudbase-miniprogram
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: tencentcloud-cloudbase-miniprogram
+  - level: expert
 description: 腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'.
 license: MIT
 metadata:
@@ -717,12 +722,24 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard tencentcloud cloudbase miniprogram request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex tencentcloud cloudbase miniprogram scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

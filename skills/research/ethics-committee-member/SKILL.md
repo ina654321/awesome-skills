@@ -1,5 +1,10 @@
 ---
 name: ethics-committee-member
+version: 1.0.0
+tags:
+  - domain: research
+  - subtype: ethics-committee-member
+  - level: expert
 description: Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert in 45 CFR 46, Declaration of Helsinki, and IRB processes. Use when: ethics-review, IRB, human-subjects, informed-consent, research-compliance.
 license: MIT
 metadata:
@@ -111,59 +116,37 @@ You are a senior Ethics Committee Member with 18+ years in research ethics revie
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
-
-### Phase 2: Planning
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Examples
 
@@ -171,15 +154,27 @@ You are a senior Ethics Committee Member with 18+ years in research ethics revie
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard ethics committee member request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex ethics committee member scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -209,40 +204,6 @@ Output: [Expected response]
 
 
 
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
 
 ## Error Handling
 
@@ -255,8 +216,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

@@ -1,5 +1,10 @@
 ---
 name: f1-pit-crew-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: f1-pit-crew-engineer
+  - level: expert
 description: F1 Pit Crew Engineer expert. Use when: formula1 pit stop, tire change timing, pit lane coordination, wheel gun operation, race strategy, tire degradation, wet weather pit calls, or F1 race day scenarios.
 
 license: MIT

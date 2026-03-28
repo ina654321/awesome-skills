@@ -1,5 +1,10 @@
 ---
 name: aliyun-qwen-api
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-qwen-api
+  - level: expert
 description: 阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen', 'API调用', 'LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -662,12 +667,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun qwen api request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun qwen api scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

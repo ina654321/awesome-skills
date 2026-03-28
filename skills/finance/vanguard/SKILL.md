@@ -1,5 +1,10 @@
 ---
 name: vanguard-investment-excellence
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: vanguard-investment-excellence
+  - level: expert
 description: Expert skill for Vanguard Investment Excellence
 license: MIT
 metadata:

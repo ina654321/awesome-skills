@@ -1,5 +1,10 @@
 ---
 name: bain--company
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: bain--company
+  - level: expert
 description: Expert skill for Bain & Company
 license: MIT
 metadata:

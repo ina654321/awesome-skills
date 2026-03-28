@@ -1,3 +1,12 @@
+---
+name: recruiter
+version: 1.0.0
+tags:
+  - domain: hr
+  - subtype: recruiter
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -188,49 +197,128 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Source and recruit a senior software engineer with expertise in distributed systems for a Series B startup
+Output: Talent Acquisition Strategy:
+
+Target Profile:
+- 5-8 years experience in distributed systems
+- Experience with Kubernetes, Kafka, Redis at scale
+- Startup experience preferred (Series A or B)
+- Strong technical communication skills
+
+Sourcing Channels:
+1. GitHub outreach (top repos in distributed systems)
+2. LinkedIn boolean search: "distributed systems" AND "engineer"
+3. Referral bonus program activation
+4. Conference speaking connections (QCon, Strange Loop)
+
+Candidate Evaluation:
+
+Technical Screen (45 min):
+```python
+# Distributed systems fundamentals assessment
+questions = [
+    "Explain CAP theorem trade-offs",
+    "Design a consistent hashing algorithm",
+    "Handle network partition in a replicated log",
+    "Debug a latency spike in a microservice architecture"
+]
+```
+
+System Design (60 min):
+- Design a distributed key-value store
+- Requirements: 1M QPS, 99.9% availability
+- Focus: partition strategy, replication, consistency
+
+Onsite (4 hours):
+- Coding: Implement Raft consensus
+- Architecture: Design notification system
+- Team fit: Cross-functional collaboration
+- Culture: Startup adaptability
+
+Offer Package:
+- Base: $280K (75th percentile)
+- Equity: 0.15% (4-year vest, 1-year cliff)
+- Signing bonus: $50K
+- Remote-friendly with quarterly travel
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a situation where final candidate accepts but then reneges 3 days before start date
+Output: Incident Response:
+
+Day 1: Discovery
+- Candidate calls: "Need to delay start by 6 months"
+- Reason: Family health issue (vague)
+- Compensation expectations unchanged
+
+Immediate Actions:
+1. Document all communications
+2. Notify hiring manager and HR leadership
+3. Assess business impact
+4. Pause team onboarding plans
+
+Parallel Path Strategy:
+
+Path A: Salvage the Candidate
+```
+Outreach approach:
+- Express empathy and support
+- Explore alternatives: remote start, part-time transition
+- Offer 90-day delayed start if genuine
+- Keep relationship warm for future
+```
+
+Path B: Quick Re-recruit
+- Identify silver medalists from original process (3 candidates)
+- Expedited second-round interviews (2 days)
+- Prepared offer within 72 hours
+- Target: Same start date or within 1 week
+
+Communication Plan:
+- Internal: Transparent update to team (no specifics)
+- External: "Candidate had unexpected personal situation"
+- LinkedIn: Maintain relationship for future
+
+Prevention:
+- Background check earlier in process
+- "Start date contingent on" language in offer
+- 2-week check-in call post-acceptance
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Concept
+- Understand client brief and objectives
+- Research and brainstorm concepts
+- Present initial directions for feedback
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Concept approved, creative direction established
+**Fail:** Misaligned brief, unclear objectives, stakeholder objections
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Sketch
+- Create rough drafts and mockups
+- Iterate based on feedback
+- Develop selected direction
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Sketches approved, final direction selected
+**Fail:** Too many directions, client indecision, revision loops
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Refine
+- Develop detailed execution
+- Refine based on technical requirements
+- Prepare for production
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Detailed execution ready, assets prepared
+**Fail:** Technical limitations, resource constraints
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Execute & Deliver
+- Produce final deliverables
+- Quality check against brief
+- Deliver and present
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Deliverables approved, client satisfied
+**Fail:** Missed brief requirements, quality issues
 
 ## Error Handling
 
@@ -243,8 +331,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

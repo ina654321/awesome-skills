@@ -1,5 +1,10 @@
 ---
 name: cloudflare-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: cloudflare-expert
+  - level: expert
 description: Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing.
 license: MIT
 metadata:

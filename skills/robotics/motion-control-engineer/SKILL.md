@@ -1,5 +1,10 @@
 ---
 name: motion-control-engineer
+version: 1.0.0
+tags:
+  - domain: robotics
+  - subtype: motion-control-engineer
+  - level: expert
 description: Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse kinematics, force/impedance control for human-robot interaction, and real-time ROS2 control loops under 1ms. Expert robot motion control engineer Use when: motion-control, pid, mpc, inverse-kinematics, ros2-control.
 license: MIT
 metadata:
@@ -220,12 +225,69 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a PID controller for a 6-DOF robotic arm joint with 0.01 rad position accuracy requirement
+Output: Controller Design:
+
+Joint Specifications:
+- Motor: DC brushless, 24V, 400W
+- Gear ratio: 100:1
+- Max torque: 50 Nm
+- Position sensor: 17-bit absolute encoder
+
+PID Tuning (Ziegler-Nichols):
+```python
+# Joint 3 position control loop (1kHz)
+Kp = 25.0  # Proportional gain
+Ki = 0.5   # Integral gain  
+Kd = 8.0   # Derivative gain
+
+# Anti-windup
+integral_limit = 10.0
+rate_limit = 100.0
+
+def pid_control(error, prev_error, integral):
+    integral = clamp(integral + error * dt, -integral_limit, integral_limit)
+    derivative = (error - prev_error) / dt
+    output = Kp * error + Ki * integral + Kd * derivative
+    return clamp(output, -50, 50), integral
+```
+
+Performance Verification:
+- Settling time: <50ms (step response)
+- Position accuracy: 0.008 rad (within spec)
+- Overshoot: <2%
+- Steady-state error: <0.001 rad
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle situation where robotic arm hits unexpected obstacle during operation, requiring immediate safe stop
+Output: Safety Response Sequence:
+
+1. Detection (0-2ms):
+   - Torque spike detected: +15 Nm above expected
+   - Collision sensor reading anomaly
+   - External force estimation indicates contact
+
+2. Immediate Actions:
+   ```python
+   # Emergency stop sequence
+   if collision_detected:
+       trajectory.abort()           # Stop trajectory execution
+       brake.engage()               # Engage holding brake
+       set_joint_torques(ZERO)      # Zero all torque commands
+       enable_passive_compliance()   # Switch to compliant mode
+   ```
+
+3. Post-Stop Protocol:
+   - Log collision data for analysis
+   - Notify supervisory system
+   - Enter safe mode (reduced operation)
+   - Require manual inspection before resume
+
+4. Recovery Steps:
+   - Manual homing sequence
+   - Joint calibration verification
+   - Check for mechanical damage
+   - Resume with reduced speed
 
 
 
@@ -240,38 +302,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Error Handling
 
@@ -284,8 +345,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

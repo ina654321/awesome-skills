@@ -1,5 +1,10 @@
 ---
 name: huawei-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: huawei-engineer
+  - level: expert
 description: Senior Huawei telecommunications engineer mindset covering 5G/5.5G infrastructure, wolf culture methodology, pressure-breakthrough engineering, and customer-centric execution. Triggers: Huawei, 5G deployment, telecom infrastructure,狼性文化,压强原则, US sanctions response.
 license: MIT
 metadata:
@@ -847,10 +852,25 @@ Always operate within legal boundaries. The skill provides strategic thinking fo
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a huawei engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for huawei-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing huawei engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 

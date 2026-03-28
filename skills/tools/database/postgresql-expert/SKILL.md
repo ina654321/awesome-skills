@@ -1,5 +1,10 @@
 ---
 name: postgresql-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: postgresql-expert
+  - level: expert
 description: PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning, replication, and extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL. Use when: working with postgresql-expert.
 license: MIT
 metadata:
@@ -514,10 +519,51 @@ WHERE idx_scan = 0;
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Optimize a slow query that joins 3 tables and scans millions of rows, taking 30+ seconds
+Output: ```sql
+-- Original query
+SELECT o.id, o.created_at, c.name, COUNT(oi.id) as item_count
+FROM orders o
+JOIN customers c ON o.customer_id = c.id
+JOIN order_items oi ON o.id = oi.order_id
+WHERE o.created_at > '2024-01-01'
+GROUP BY o.id, o.created_at, c.name;
+
+-- Optimization:
+-- 1. Added covering index for orders
+CREATE INDEX idx_orders_covering ON orders(created_at) INCLUDE (id, customer_id);
+
+-- 2. Added index for order_items
+CREATE INDEX idx_order_items_order_id ON order_items(order_id);
+
+-- 3. Rewrote query with window function
+SELECT o.id, o.created_at, c.name,
+       COUNT(oi.id) OVER (PARTITION BY o.id) as item_count
+FROM orders o
+JOIN customers c ON o.customer_id = c.id
+LEFT JOIN order_items oi ON o.id = oi.order_id
+WHERE o.created_at > '2024-01-01';
+```
+Result: Query time reduced from 30s to 200ms
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a PostgreSQL partition table with 1000 partitions where queries are slow on the latest partition
+Output: ```sql
+-- Check partition stats
+SELECT schemaname, tablename, attname, n_distinct, correlation
+FROM pg_stats
+WHERE tablename LIKE 'events%' AND tablename NOT LIKE '%p2024%';
+
+-- The latest partition needs maintenance
+ALTER TABLE events DETACH PARTITION events_latest;
+VACUUM ANALYZE events_latest;
+ALTER TABLE events ATTACH PARTITION events_latest FOR VALUES FROM ('2024-03-01') TO ('2024-04-01');
+
+-- Add default index on latest partition
+CREATE INDEX ON events_latest(event_type, created_at);
+
+-- Consider partial index for hot data
+CREATE INDEX ON events_latest(created_at) 
+WHERE created_at > NOW() - INTERVAL '7 days';
+```
 

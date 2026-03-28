@@ -1,5 +1,10 @@
 ---
 name: data-engineer
+version: 1.0.0
+tags:
+  - domain: data
+  - subtype: data-engineer
+  - level: expert
 description: Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture. Use when: data-engineering, pipeline, etl, spark, dbt.
 license: MIT
 metadata:
@@ -257,12 +262,142 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a real-time streaming pipeline using Kafka and Spark Streaming for processing 1M events/minute
+Output: Architecture:
+
+```python
+# Kafka Producer
+producer = KafkaProducer(
+    bootstrap_servers=['kafka-1:9092', 'kafka-2:9092'],
+    value_serializer=lambda v: json.dumps(v).encode('utf-8')
+)
+
+# Produce events
+for event in event_stream:
+    producer.send('user-events', key=event['user_id'], value=event)
+```
+
+Spark Streaming Job:
+```python
+from pyspark.streaming import StreamingContext
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("RealtimeAnalytics").getOrCreate()
+ssc = StreamingContext(spark.sparkContext, batchDuration=1)
+
+# Read from Kafka
+kafka_df = spark \
+    .readStream \
+    .format("kafka") \
+    .option("kafka.bootstrap.servers", "kafka-1:9092") \
+    .option("subscribe", "user-events") \
+    .load()
+
+# Parse JSON
+events = kafka_df.select(from_json(col("value").cast("string"), schema).alias("data"))
+
+# Windowed aggregation
+windowed = events \
+    .withWatermark("timestamp", "10 minutes") \
+    .groupBy(
+        window(col("timestamp"), "5 minutes"),
+        col("data.event_type")
+    ) \
+    .count()
+
+# Sink to Parquet
+query = windowed \
+    .writeStream \
+    .format("parquet") \
+    .option("path", "s3://analytics/aggregates/") \
+    .option("checkpointLocation", "s3://checkpoints/") \
+    .outputMode("append") \
+    .start()
+```
+
+Infrastructure:
+| Component | Spec | Count |
+|----------|------|-------|
+| Kafka Brokers | 16GB RAM, 8 vCPU | 5 |
+| Spark Workers | 32GB RAM, 16 vCPU | 10 |
+| Throughput | 1M events/min | - |
+| Latency | < 5 seconds | - |
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle schema evolution in a production Spark job when source API adds new fields
+Output: Schema Evolution Handling:
+
+Problem:
+- Upstream API added new field "user_premium_tier"
+- Existing job fails with schema mismatch
+- Need zero-downtime migration
+
+Solution 1: Safe Column Addition
+```python
+# Read with permissive schema
+df = spark \
+    .read \
+    .format("kafka") \
+    .option("schema", """
+        user_id STRING,
+        event_type STRING,
+        timestamp TIMESTAMP,
+        payload STRING
+    """) \
+    .load()
+
+# Parse payload separately
+from pyspark.sql.functions import from_json
+payload_schema = StructType([
+    StructField("action", StringType()),
+    StructField("value", DoubleType()),
+    # New field - will be NULL if not present
+])
+
+parsed = df.select(
+    "user_id",
+    "event_type", 
+    "timestamp",
+    from_json(col("payload"), payload_schema).alias("data")
+)
+
+# Safe: new field simply becomes NULL
+```
+
+Solution 2: Schema Registry Integration
+```python
+# Use Confluent Schema Registry
+from pyspark.sql.kafka010 import KafkaSourceProvider
+
+# Register schema
+schema_registry_client.register_schema(
+    subject="user-events-value",
+    schema=avro_schema,
+    schema_type="AVRO"
+)
+
+# Read with auto schema evolution
+kafka_df = spark \
+    .readStream \
+    .format("kafka") \
+    .option("schemaRegistryUrl", "http://schema-reg:8081") \
+    .option("schemaRegistry.groupId", "my-group") \
+    .load()
+```
+
+Fallback: Silent Fail with Monitoring
+```python
+try:
+    # New schema parsing
+    result = parse_with_new_schema(raw_df)
+except Exception as e:
+    logger.warning(f"Schema mismatch: {e}")
+    # Fallback to old schema
+    result = parse_with_old_schema(raw_df)
+    
+    # Alert
+    metrics.increment("schema_evolution_fallback")
+```
 
 
 
@@ -277,38 +412,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Error Handling
 
@@ -321,8 +455,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

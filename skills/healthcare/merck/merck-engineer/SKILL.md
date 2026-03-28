@@ -1,5 +1,10 @@
 ---
 name: merck-engineer
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: merck-engineer
+  - level: expert
 description: Engineering excellence at Merck/MSD: oncology systems, pharmaceutical manufacturing, supply chain technology, and digital transformation for the global biopharmaceutical leader. Use when: Merck engineering, clinical trial systems, manufacturing automation, regulatory compliance, supply chain optimization, Animal Health technology.
 license: MIT
 metadata:

@@ -1,3 +1,12 @@
+---
+name: perception-algorithm-engineer
+version: 1.0.0
+tags:
+  - domain: automotive
+  - subtype: perception-algorithm-engineer
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -252,12 +261,109 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a 3D object detection system for autonomous vehicles using point cloud data from LiDAR
+Output: Perception Pipeline:
+
+```python
+# Point cloud processing pipeline
+class LidarPerception:
+    def __init__(self):
+        self.backbone = PointPillarsEncoder()
+        self.neck = RPN Neck()
+        self.head = DetectionHead(
+            num_classes=3,  # vehicle, pedestrian, cyclist
+            anchor_config=ANCHOR_CONFIG
+        )
+    
+    def detect(self, points):
+        # points: (N, 4) - x, y, z, intensity
+        pillars = self.backbone.encode(points)
+        features = self.neck(pillars)
+        detections = self.head(features)
+        
+        # Apply NMS
+        detections = self.nms(detections, iou_threshold=0.5)
+        return detections
+```
+
+Architecture:
+```
+Input (100K points) → Pillar Encoding → Backbone → 
+RPN → Detection Head → NMS → 3D Boxes
+```
+
+Training:
+```python
+# Loss computation
+loss = {
+    'cls_loss': FocalLoss()(pred_cls, target_cls),
+    'reg_loss': SmoothL1Loss()(pred_box, target_box),
+    'dir_loss': CrossEntropyLoss()(pred_dir, target_dir)
+}
+# Total loss = cls + 2.0 * reg + 0.5 * dir
+```
+
+Performance:
+| Metric | Value |
+|--------|-------|
+| mAP | 76.3% |
+| Inference | 15 Hz @ 100K points |
+| Latency | 67 ms |
+| Range | 200m |
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle perception degradation in adverse weather conditions (heavy rain) where sensor returns are noisy
+Output: Weather-Adaptive Perception:
+
+Problem Analysis:
+- Rain creates false positives (droplets interpreted as obstacles)
+- Range accuracy degraded (signal attenuation)
+- Point density reduced 40%
+
+Adaptation Strategy:
+
+1. Dynamic Threshold Adjustment:
+```python
+def adaptive_detection(points, weather_condition):
+    if weather_condition == 'heavy_rain':
+        # Increase confidence threshold
+        conf_threshold = 0.7  # Up from 0.5
+        # Increase minimum point count per object
+        min_points = 15  # Up from 5
+        # Reduce max detection range
+        max_range = 80  # Down from 200
+    else:
+        conf_threshold = 0.5
+        min_points = 5
+        max_range = 200
+    
+    return points[points[:, :3].norm() < max_range]
+```
+
+2. Rain-Specific Filtering:
+```python
+def filter_rain(points):
+    # Remove ground points (heavier rain = more ground noise)
+    ground_height = segment_ground(points)
+    
+    # Filter low-intensity returns (likely rain droplets)
+    intensity = points[:, 3]
+    valid = intensity > 0.1
+    
+    # Filter based on return pattern
+    # Rain returns are often uniform, scattered
+    return points[valid & ~is_rain_pattern(points)]
+```
+
+3. Sensor Fusion:
+- LiDAR + Camera fusion for validation
+- Camera can help identify "ghost" obstacles
+- Rain detection via image analysis
+
+Validation:
+- Test set: 500 rain scenarios
+- Detection rate: 91% (vs 97% clear weather)
+- False positive rate: 2.3% (vs 0.5% clear)
 
 
 
@@ -272,38 +378,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Error Handling
 
@@ -316,8 +421,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

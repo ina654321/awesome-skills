@@ -1,5 +1,10 @@
 ---
 name: sap-systems-applications--products-in-data-processing
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: sap-systems-applications--products-in-data-processing
+  - level: expert
 description: Expert skill for SAP (Systems, Applications & Products in Data Processing)
 license: MIT
 metadata:

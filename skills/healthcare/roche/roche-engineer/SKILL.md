@@ -1,5 +1,10 @@
 ---
 name: roche-engineer
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: roche-engineer
+  - level: expert
 description: Engineering excellence at Roche: pharmaceuticals, diagnostics, personalized healthcare, digital pathology, and lab automation. Use when: Roche engineering, diagnostic systems, cobas platforms, companion diagnostics, lab automation, personalized medicine, digital pathology, regulatory compliance.
 license: MIT
 metadata:

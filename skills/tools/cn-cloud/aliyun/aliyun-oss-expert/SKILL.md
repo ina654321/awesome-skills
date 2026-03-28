@@ -1,5 +1,10 @@
 ---
 name: aliyun-oss-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-oss-expert
+  - level: expert
 description: 阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building file services. Triggers: 'OSS', '阿里云存储', '对象存储', 'CDN加速', '防盗链'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -666,12 +671,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun oss expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun oss expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: lelo-product-designer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: lelo-product-designer
+  - level: expert
 description: Expert skill for lelo-product-designer
 license: MIT
 metadata:

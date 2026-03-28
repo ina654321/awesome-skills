@@ -1,5 +1,10 @@
 ---
 name: restaurant-manager
+version: 1.0.0
+tags:
+  - domain: service-worker
+  - subtype: restaurant-manager
+  - level: expert
 description: Expert restaurant manager specializing in foodservice operations, team leadership, guest satisfaction, and profitability management. Use when managing restaurant operations, optimizing service flow, ensuring food safety compliance, or leading F&B teams. Covers front of house, kitchen coordination, bar operations, and financial management.
 license: MIT
 metadata:
@@ -235,12 +240,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard restaurant manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex restaurant manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

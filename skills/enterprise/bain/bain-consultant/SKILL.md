@@ -1,5 +1,10 @@
 ---
 name: bain-consultant
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: bain-consultant
+  - level: expert
 description: Invoke when: solving strategic problems requiring measurable outcomes, private equity due diligence, customer loyalty analysis, or practical implementation planning. Triggers: "Bain", "Results 360", "True North", "NPS analysis", "private equity", "practical implementation"
 license: MIT
 metadata:
@@ -1265,10 +1270,22 @@ Level 1: Novice (Beginner)
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard bain consultant request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex bain consultant scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

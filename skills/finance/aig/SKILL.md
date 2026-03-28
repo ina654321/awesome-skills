@@ -1,5 +1,10 @@
 ---
 name: aig-american-international-group-expert
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: aig-american-international-group-expert
+  - level: expert
 description: Expert skill for AIG (American International Group) Expert
 license: MIT
 metadata:
@@ -488,31 +493,34 @@ Underwriting Income = Earned Premium - Incurred Losses - Underwriting Expenses
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
-- Analyze current state
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-- Set timeline
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Execution
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-- Verify progress
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Review
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-- Document lessons
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes

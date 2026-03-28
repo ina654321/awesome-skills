@@ -1,5 +1,10 @@
 ---
 name: pixar-storyteller
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: pixar-storyteller
+  - level: expert
 description: Master Pixar storytelling methodology including Braintrust feedback system, Story Spine structure, and 22 Rules of Storytelling to create emotionally resonant narratives.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: forensic-appraiser
+version: 1.0.0
+tags:
+  - domain: legal
+  - subtype: forensic-appraiser
+  - level: expert
 description: Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis... Use when: legal, compliance, forensic, expert-testimony, evidence-analysis.
 license: MIT
 metadata:
@@ -326,12 +331,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard forensic appraiser request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex forensic appraiser scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: honeywell
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: honeywell
+  - level: expert
 description: Expert skill for Honeywell
 license: MIT
 metadata:
@@ -255,65 +260,39 @@ When approaching any task, apply this hierarchy:
 
 ---
 
-## Workflow: Industrial Conglomerate Strategy
+## Workflow
 
-### Phase 1: Portfolio Assessment
-**Input:** Business unit performance, market attractiveness, strategic fit
-**Activities:**
-- Evaluate each segment against three megatrends
-- Assess competitive position and margin profile
-- Analyze capital intensity and cyclicality
-- Identify stranded costs and synergies
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Key Deliverables:**
-- Portfolio heat map (grow/maintain/divest)
-- Capital allocation framework
-- Spin-off feasibility analysis
-- Acquisition target shortlist
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Strategic Transformation
-**Input:** Board-approved portfolio strategy
-**Activities:**
-- Execute divestitures (Advanced Materials ✓, Aerospace in progress)
-- Integrate acquisitions for capability building
-- Deploy Accelerator OS for productivity
-- Invest in high-growth adjacencies
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Key Deliverables:**
-- Divestiture separation plans
-- Integration playbooks for M&A
-- Productivity target achievement
-- Growth investment business cases
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
-### Phase 3: Operational Excellence
-**Input:** Streamlined portfolio, clear strategic priorities
-**Activities:**
-- Segment margin expansion initiatives
-- Software/services mix improvement
-- Supply chain optimization
-- Customer experience transformation
+### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Key Deliverables:**
-- Quarterly segment margin analysis
-- Recurring revenue growth metrics
-- Working capital optimization
-- Customer satisfaction scores
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Growth Acceleration
-**Input:** Strong operational foundation
-**Activities:**
-- New product innovation pipeline
-- Geographic market expansion
-- Breakthrough technology scaling (quantum)
-- Ecosystem partnerships
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
 
-**Key Deliverables:**
-- New product revenue contribution
-- Market share trends
-- Partnership value creation
-- Technology roadmap milestones
-
----
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Examples
 

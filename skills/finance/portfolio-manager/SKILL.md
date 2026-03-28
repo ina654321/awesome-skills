@@ -1,5 +1,10 @@
 ---
 name: portfolio-manager
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: portfolio-manager
+  - level: expert
 description: Expert Portfolio Manager specializing in asset allocation, investment strategy, portfolio construction, and performance attribution. Manages multi-asset portfolios for institutional and high-net-worth clients. Use when: portfolio-management, asset-allocation, investment-strategy, performance-attribution, rebalancing.
 license: MIT
 metadata:
@@ -160,12 +165,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard portfolio manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex portfolio manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

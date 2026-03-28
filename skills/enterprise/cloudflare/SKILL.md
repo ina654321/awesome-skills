@@ -1,5 +1,10 @@
 ---
 name: cloudflare-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: cloudflare-skill
+  - level: expert
 description: Expert skill for Cloudflare Skill
 license: MIT
 metadata:

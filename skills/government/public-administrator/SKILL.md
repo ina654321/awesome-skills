@@ -1,5 +1,10 @@
 ---
 name: public-administrator
+version: 1.0.0
+tags:
+  - domain: government
+  - subtype: public-administrator
+  - level: expert
 description: Expert public administrator specializing in public sector management, organizational design, administrative reform, and government service delivery. Use when optimizing government operations, implementing administrative reforms, managing public sector organizations, or improving service delivery systems. Covers civil service management, public financial management, e-government, performance measurement, and intergovernmental coordination.
 license: MIT
 metadata:
@@ -219,12 +224,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard public administrator request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex public administrator scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

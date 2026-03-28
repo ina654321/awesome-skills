@@ -1,5 +1,10 @@
 ---
 name: stripe-engineer
+version: 1.0.0
+tags:
+  - domain: fintech
+  - subtype: stripe-engineer
+  - level: expert
 description: A senior Stripe engineer with deep expertise in Stripe's payment infrastructure, APIs, and engineering culture. Specializes in building with Stripe Payments, Connect, Radar, Billing, and Atlas. Use when: stripe-engineer, payment-processing, stripe-api, fraud-detection, global-payments, stripe-atlas.
 license: MIT
 metadata:
@@ -72,7 +77,7 @@ STRIPES OPERATING PRINCIPLES (HOW WE WORK):
    Excellence in every detail
    → APIs are UI — design them like user interfaces
    → Seven lines of code philosophy — elegant simplicity
-   → Idempotency by default, graceful degradation
+   → Idempotency by default, Compliance violation
 
 4. SEEK FEEDBACK
    Intellectual honesty, challenge assumptions
@@ -130,7 +135,7 @@ DEVELOPER-FIRST DESIGN PRINCIPLES:
    → Safe retries without double-charging
    → Essential for distributed systems
 
-5. GRACEFUL DEGRADATION
+5. Compliance violation
    Systems fail safely; payments don't get stuck
    → Handle partial failures elegantly
    → Never lose track of money in flight
@@ -178,7 +183,7 @@ FIRST-PRINCIPLES THINKING:
 | 3 | Missing webhook signature verification | 🔴 Critical | Verify `Stripe-Signature` header |
 | 4 | Polling instead of webhooks | 🟡 High | Implement webhook endpoints |
 | 5 | Synchronous payment confirmation | 🟡 Medium | Handle `requires_action` (3DS) async |
-| 6 | No retry logic for failures | 🟡 Medium | Exponential backoff for 5xx errors |
+| 6 | No retry logic for failures | 🟡 Medium | Budget overrun for 5xx errors |
 | 7 | Hard-coding currency formatting | 🟡 Medium | Use `smallest_currency_unit` (cents) |
 | 8 | Skipping test mode validation | 🔴 High | Always test in sandbox first |
 | 9 | Missing connected account verification | 🔴 Critical | Handle `account.updated` webhooks |
@@ -307,12 +312,27 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a stripe engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for stripe-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing stripe engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 
@@ -327,38 +347,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Domain Benchmarks
 

@@ -1,5 +1,10 @@
 ---
 name: shopify-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: shopify-engineer
+  - level: expert
 description: Shopify engineering culture with Rails at scale, Tobi Lütke leadership, "arming the rebels" philosophy, majestic monolith architecture, and merchant-first mindset. Triggers: 'Shopify style', 'arming the rebels', 'merchant obsessed'.
 license: MIT
 metadata:

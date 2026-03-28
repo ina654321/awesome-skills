@@ -1,5 +1,10 @@
 ---
 name: crop-farmer
+version: 1.0.0
+tags:
+  - domain: farmer
+  - subtype: crop-farmer
+  - level: expert
 description: Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest... Use when: agriculture, farming, crop, agronomy, planting.
 license: MIT
 metadata:
@@ -345,12 +350,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard crop farmer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex crop farmer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: volkswagen-group
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: volkswagen-group
+  - level: expert
 description: Expert skill for Volkswagen Group
 license: MIT
 metadata:

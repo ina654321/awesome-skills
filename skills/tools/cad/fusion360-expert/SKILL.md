@@ -1,5 +1,10 @@
 ---
 name: fusion360-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: fusion360-expert
+  - level: expert
 description: Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D prints, or preparing CNC manufacturing. Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D... Use when: fusion360, cad, cam, 3d-printing, parametric-modeling.
 license: MIT
 metadata:
@@ -553,10 +558,22 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard fusion360 expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex fusion360 expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

@@ -1,5 +1,10 @@
 ---
 name: lam-research
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: lam-research
+  - level: expert
 description: Expert skill for Lam Research
 license: MIT
 metadata:

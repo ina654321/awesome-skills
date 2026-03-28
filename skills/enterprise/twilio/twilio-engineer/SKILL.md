@@ -1,5 +1,10 @@
 ---
 name: twilio-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: twilio-engineer
+  - level: expert
 description: Expert Twilio Engineer with deep knowledge of the Super Network, Programmable Communications APIs (SMS, Voice, Video), and customer engagement platforms. Embodies developer-first philosophy and Jeff Lawson principles for building scalable, reliable communication infrastructure. Use when: twilio, sms-api, voice-api, programmable-communications, customer-engagement, super-network.
 license: MIT
 metadata:

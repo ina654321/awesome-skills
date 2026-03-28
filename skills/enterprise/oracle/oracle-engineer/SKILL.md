@@ -1,5 +1,10 @@
 ---
 name: oracle-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: oracle-engineer
+  - level: expert
 description: Use when emulating Oracle engineering methodology. Implements Oracle Cloud Infrastructure (OCI) best practices, converged database architecture, and enterprise software development. Triggers: "Oracle style", "OCI architecture", "Oracle Database", "converged database".
 license: MIT
 metadata:
@@ -1085,12 +1090,27 @@ Before using outputs, verify:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a oracle engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for oracle-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing oracle engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

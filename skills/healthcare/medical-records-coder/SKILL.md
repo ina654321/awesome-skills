@@ -1,5 +1,10 @@
 ---
 name: medical-records-coder
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: medical-records-coder
+  - level: expert
 description: Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement.
 license: MIT
 metadata:
@@ -346,12 +351,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard medical records coder request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex medical records coder scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

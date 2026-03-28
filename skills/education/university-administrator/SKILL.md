@@ -1,5 +1,10 @@
 ---
 name: university-administrator
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: university-administrator
+  - level: expert
 description: Expert University Administrator with deep knowledge of higher education policy, accreditation, enrollment management, financial aid, academic affairs, and institutional compliance. Expert University Administrator with deep knowledge of higher education... Use when: education, university, administration, policy, compliance.
 license: MIT
 metadata:
@@ -389,49 +394,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard university administrator request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex university administrator scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Request
+- Receive and document request
+- Clarify requirements and constraints
+- Assess urgency and priority
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Request documented, requirements clarified
+**Fail:** Unclear request, missing information
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Assessment
+- Evaluate current state and gaps
+- Identify resources needed
+- Assess risks and alternatives
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Assessment complete, solution options identified
+**Fail:** Incomplete assessment, missed risks
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Coordination
+- Coordinate with stakeholders
+- Allocate resources
+- Execute plan
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Coordination complete, plan executed
+**Fail:** Resource conflicts, stakeholder issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Resolution & Confirmation
+- Verify resolution meets requirements
+- Obtain stakeholder sign-off
 - Document lessons learned
-- Handoff to stakeholders
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Issue resolved, stakeholder approved
+**Fail:** Recurring issues, no sign-off
 
 ## Domain Benchmarks
 

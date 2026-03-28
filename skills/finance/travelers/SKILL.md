@@ -1,5 +1,10 @@
 ---
 name: travelers
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: travelers
+  - level: expert
 description: Expert skill for Travelers
 license: MIT
 metadata:

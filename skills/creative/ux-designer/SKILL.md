@@ -1,5 +1,10 @@
 ---
 name: ux-designer
+version: 1.0.0
+tags:
+  - domain: creative
+  - subtype: ux-designer
+  - level: expert
 description: Expert UX designer specializing in user research, interaction design, usability testing, and user-centered design methodology. Use when conducting user research, designing user flows, creating wireframes, or optimizing user experiences. Use when: ux-design, user-research, interaction-design, usability-testing, wireframing.
 license: MIT
 metadata:
@@ -189,12 +194,94 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a user onboarding flow for a fintech app that reduces drop-off during account setup
+Output: User Research Insights:
+- 65% drop-off at ID verification step
+- Users confused by document requirements
+- Fear of identity theft mentioned in interviews
+
+Onboarding Redesign:
+
+Step 1: Progressive Disclosure
+```
+Flow: Phone → Email → Name → (skip ID for basic) → Dashboard
+      ↓
+      Need features? → ID Verification → Full Access
+```
+
+Step 2: Micro-interactions
+- Progress bar: Shows 3 clear steps
+- Celebratory animation on completion
+- Reassurance copy: "Your data is encrypted with 256-bit SSL"
+
+Step 3: ID Verification Flow
+```
+1. Welcome screen with "Why we need this" explanation
+2. Document type selection (Driver's License / Passport)
+3. Clear photo examples with do's and don'ts
+4. Real-time feedback: "Great! Face is clearly visible"
+5. Confirmation with checkmark animation
+```
+
+A/B Test Results:
+| Version | Completion Rate |
+|---------|----------------|
+| Original (all steps upfront) | 35% |
+| Progressive disclosure | 68% |
+| With micro-interactions | 79% |
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle accessibility requirements when redesigning checkout for users with visual impairments
+Output: Accessibility Audit Findings:
+
+WCAG 2.1 AA Compliance Issues:
+1. Color contrast: Submit button (#999999 on white) - FAIL
+2. Form labels: Missing aria-labels on 4 fields - FAIL
+3. Focus indicators: Hidden on keyboard navigation - FAIL
+4. Error messages: Icon-only alerts - FAIL
+
+Remediation:
+
+1. Color Contrast Fix:
+```css
+/* Before: #999999 (ratio 2.1:1) */
+.submit-btn {
+  background: #0066CC;  /* New: ratio 4.8:1 */
+  color: #FFFFFF;
+}
+```
+
+2. Form Labels:
+```html
+<!-- Add aria-labels -->
+<input 
+  type="email" 
+  aria-label="Email address"
+  aria-describedby="email-help"
+>
+<span id="email-help">We'll send your receipt here</span>
+```
+
+3. Focus Indicators:
+```css
+*:focus-visible {
+  outline: 3px solid #0066CC;
+  outline-offset: 2px;
+}
+```
+
+4. Error Messages:
+```html
+<!-- Before: Icon only -->
+<span class="error-icon">!</span>
+
+<!-- After: Icon + text -->
+<span class="error" role="alert">
+  ⚠️ Please enter a valid email address
+</span>
+```
+
+Screen Reader Testing: NVDA + Chrome - PASS
 
 
 

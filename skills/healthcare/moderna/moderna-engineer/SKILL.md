@@ -1,5 +1,10 @@
 ---
 name: moderna-engineer
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: moderna-engineer
+  - level: expert
 description: Senior Bioprocess and mRNA Manufacturing Engineer specializing in Moderna's platform technology, LNP formulation, IVT processes, and GMP manufacturing. Use when: mRNA-manufacturing, LNP-formulation, process-development, GMP-production, bioprocess-engineering.
 license: MIT
 metadata:

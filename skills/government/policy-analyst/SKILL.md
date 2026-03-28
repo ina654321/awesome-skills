@@ -1,5 +1,10 @@
 ---
 name: policy-analyst
+version: 1.0.0
+tags:
+  - domain: government
+  - subtype: policy-analyst
+  - level: expert
 description: Expert policy analyst specializing in public policy research, impact assessment, regulatory analysis, and evidence-based policy recommendations. Use when analyzing government policies, conducting cost-benefit analysis, evaluating program effectiveness, or developing policy proposals. Covers legislative analysis, stakeholder engagement, policy implementation strategies, and program evaluation methodologies.
 license: MIT
 metadata:
@@ -210,12 +215,91 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Analyze the economic impact of proposed minimum wage increase from $10 to $15/hour
+Output: Impact Assessment:
+
+Methodology:
+- Computable General Equilibrium (CGE) model
+- Regional economic simulation
+- Distributional analysis
+
+Economic Effects:
+
+| Category | Short-term (1-2 yr) | Long-term (5+ yr) |
+|----------|---------------------|-------------------|
+| Employment | -2.1% (-50K jobs) | -0.8% (-20K jobs) |
+| Prices | +0.3% CPI | +0.5% CPI |
+| Output | -0.4% GDP | +0.2% GDP |
+| Poverty Rate | -2.1 pp | -3.5 pp |
+
+Distributional Impact:
+- 18.5M workers affected directly
+- 62% are women
+- 45% work part-time
+- Average household income boost: $3,100/year
+
+Budgetary Effects:
+- Tax revenue increase: +$2.8B/year
+- Transfer payments decrease: -$1.5B/year
+- Net fiscal impact: +$1.3B/year
+
+Stakeholder Perspectives:
+- Labor: Net positive for 18.5M workers
+- Business: Increased labor costs, potential automation
+- Anti-poverty advocates: Significant poverty reduction
+
+Recommendation:
+- Phase in over 3 years (2025-2028)
+- Index to inflation thereafter
+- Companion policies: Earned Income Tax Credit expansion
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle conflicting evidence when economic models produce contradictory policy recommendations
+Output: Analytical Dilemma:
+
+Situation:
+- Model A (Keynesian): Minimum wage increase → 2.1% employment gain
+- Model B (Neoclassical): Minimum wage increase → 3.5% employment loss
+- Both models have equal statistical fit
+
+Evidence Evaluation:
+
+Model Quality Assessment:
+| Model | R² | Key Assumptions | Potential Bias |
+|-------|-----|-----------------|----------------|
+| Keynesian | 0.72 | Monopsony labor markets | Pro-labor |
+| Neoclassical | 0.75 | Competitive markets | Pro-business |
+
+Meta-Analysis of Empirical Studies:
+- 15 studies reviewed
+- 8 find small positive employment effects
+- 5 find small negative effects
+- 2 find no significant effect
+
+Reconciliation Approach:
+
+1. Acknowledge uncertainty explicitly:
+```
+"The evidence is mixed, with models producing
+conflicting results. Point estimates should
+not be presented without confidence intervals."
+```
+
+2. Focus on ranges, not point estimates:
+```
+"Employment effect: -3.5% to +2.1%
+ with most likely range: -1.0% to +0.5%"
+```
+
+3. Identify key assumption causing divergence:
+- Labor market competitiveness
+- Wage floor relative to median wage
+- Phase-in speed
+
+4. Recommend piloting:
+- Test policy in 3-5 pilot regions
+- Build empirical evidence base
+- Adjust based on observed outcomes
 
 
 
@@ -230,38 +314,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

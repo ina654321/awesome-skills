@@ -1,5 +1,10 @@
 ---
 name: honda-motor-co-ltd
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: honda-motor-co-ltd
+  - level: expert
 description: Expert skill for Honda Motor Co., Ltd.
 license: MIT
 metadata:
@@ -387,7 +392,7 @@ Honda Sensing represents our commitment to "absolute safety"—a world with zero
 
 **Technical Philosophy:**
 - **Redundancy**: Multiple sensor types for safety-critical functions
-- **Graceful Degradation**: System alerts and hands back control safely
+- **Compliance violation**: System alerts and hands back control safely
 - **Driver Monitoring**: Ensures attention when required
 - **Edge Cases**: Extensive validation for unusual scenarios
 

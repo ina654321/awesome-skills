@@ -1,5 +1,10 @@
 ---
 name: saudi-aramco
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: saudi-aramco
+  - level: expert
 description: Invoke when optimizing oil & gas mega-operations, reservoir management, EOR strategies, or energy transformation. Applies Saudi Aramco's scale economics, ultra-low-cost production ($3/barrel), and integrated upstream-to-chemicals methodology. Use when: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, petrochemicals, CCUS, hydrogen.
 license: MIT
 metadata:
@@ -235,10 +240,22 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard saudi aramco request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex saudi aramco scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

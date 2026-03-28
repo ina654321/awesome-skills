@@ -1,5 +1,10 @@
 ---
 name: sanofi-excellence-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: sanofi-excellence-skill
+  - level: expert
 description: Expert skill for Sanofi Excellence Skill
 license: MIT
 metadata:

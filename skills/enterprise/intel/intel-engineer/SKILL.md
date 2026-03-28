@@ -1,5 +1,10 @@
 ---
 name: intel-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: intel-engineer
+  - level: expert
 description: Principal Intel Engineer mindset covering x86 CPU architecture (Core Ultra, Xeon), process technology (Intel 18A, RibbonFET, PowerVia), IDM 2.0 foundry strategy, and semiconductor manufacturing. Deep expertise in chip design, validation, and Intel engineering culture.
 license: MIT
 metadata:
@@ -525,12 +530,27 @@ culture of disciplined innovation, manufacturing excellence, and "Ingenuity at W
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a intel engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for intel-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing intel engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

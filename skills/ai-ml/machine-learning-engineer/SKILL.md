@@ -1,3 +1,12 @@
+---
+name: machine-learning-engineer
+version: 1.0.0
+tags:
+  - domain: ai-ml
+  - subtype: machine-learning-engineer
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -160,59 +169,37 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 2: Planning
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Examples
 
@@ -220,15 +207,30 @@ After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a machine learning engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for machine-learning-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing machine learning engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

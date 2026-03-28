@@ -1,5 +1,10 @@
 ---
 name: aliyun-bailian-ai-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-bailian-ai-expert
+  - level: expert
 description: 阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledge bases, or AI chatbots. Triggers: '百炼', 'RAG', '知识库', 'AI应用', '通义千问'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -629,12 +634,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun bailian ai expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun bailian ai expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: charter-communications-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: charter-communications-skill
+  - level: expert
 description: Expert skill for Charter Communications Skill
 license: MIT
 metadata:

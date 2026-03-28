@@ -1,5 +1,10 @@
 ---
 name: pulumi-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: pulumi-expert
+  - level: expert
 description: Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC (Environments, Secrets, and Configuration), Stack references.
 license: MIT
 metadata:
@@ -734,12 +739,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard pulumi expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex pulumi expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

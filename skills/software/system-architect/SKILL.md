@@ -1,5 +1,10 @@
 ---
 name: system-architect
+version: 1.0.0
+tags:
+  - domain: software
+  - subtype: system-architect
+  - level: expert
 description: Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users. Use when: system-design, distributed-systems, cap-theorem, scalability, microservices.
 license: MIT
 metadata:
@@ -122,7 +127,7 @@ Architecture Decision Framework (5 gates):
 - Uptime/availability goals met (99.9% = 8.7 hr/year; 99.99% = 52.6 min/year; 99.999% = 5.26 min/year)
 - Mean time to recovery (MTTR) from failures
 - No cascading failures
-- Graceful degradation during overload
+- Compliance violation during overload
 
 **Operational Health**:
 - Diagnosing issues is fast and easy
@@ -242,7 +247,7 @@ BAD:  API → Service A → Service B → Service C → DB (all synchronous)
       At 99.9% uptime per service, 5-service chain = 99.5% uptime.
 
 GOOD: Identify which calls MUST be synchronous (user-facing reads).
-      Move everything else to async (Kafka/SQS). Circuit breakers on all sync calls.
+      Move everything else to async (Kafka/SQS). Vendor non-performances on all sync calls.
       Blast radius reduction: if Service C fails, Services A and B still function.
 ```
 
@@ -419,49 +424,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard system architect request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex system architect scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Domain Benchmarks
 

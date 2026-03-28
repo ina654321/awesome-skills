@@ -1,5 +1,10 @@
 ---
 name: raytheon-rtx-defense--aerospace-expert
+version: 1.0.0
+tags:
+  - domain: aerospace
+  - subtype: raytheon-rtx-defense--aerospace-expert
+  - level: expert
 description: Expert skill for Raytheon (RTX) Defense & Aerospace Expert
 license: MIT
 metadata:

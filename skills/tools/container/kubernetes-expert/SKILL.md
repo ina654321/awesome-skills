@@ -1,5 +1,10 @@
 ---
 name: kubernetes-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: kubernetes-expert
+  - level: expert
 description: Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
 license: MIT
 metadata:
@@ -690,10 +695,84 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Deploy a production-ready nginx deployment with 3 replicas, proper resource limits, and health checks
+Output: ```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-production
+  labels:
+    app: nginx
+    environment: production
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.25-alpine
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+          requests:
+            memory: "128Mi"
+            cpu: "250m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 3
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+  - port: 80
+    targetPort: 80
+  type: ClusterIP
+```
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Debug a pod stuck in CrashLoopBackOff with exit code 137, memory limit might be too low
+Output: ```bash
+# Check pod status and events
+kubectl get pod nginx-7fb96c846b-abcde -n default
+kubectl describe pod nginx-7fb96c846b-abcde -n default
+
+# Check logs
+kubectl logs nginx-7fb96c846b-abcde -n default --previous
+
+# Check resource metrics
+kubectl top pod nginx-7fb96c846b-abcde -n default
+
+# Check node resources
+kubectl describe nodes | grep -A 5 "Allocated resources"
+
+# Root cause analysis:
+# Exit code 137 = OOM Kill (SIGKILL)
+# Memory limit 256Mi too low for nginx + application
+
+# Solution: Increase memory limit
+kubectl patch deployment nginx -p '{"spec":{"template":{"spec":{"containers":[{"name":"nginx","resources":{"limits":{"memory":"512Mi"}}}]}}}}'
+```
 

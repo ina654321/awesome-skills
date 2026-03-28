@@ -1,5 +1,10 @@
 ---
 name: totalenergies-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: totalenergies-enterprise-skill
+  - level: expert
 description: Expert skill for TotalEnergies Enterprise Skill
 license: MIT
 metadata:

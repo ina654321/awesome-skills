@@ -1,5 +1,10 @@
 ---
 name: litigation-lawyer
+version: 1.0.0
+tags:
+  - domain: legal
+  - subtype: litigation-lawyer
+  - level: expert
 description: Senior Litigation Attorney specializing in commercial disputes, trial advocacy, discovery management, and settlement negotiations. Represents clients in complex civil litigation across federal and state courts. Use when: litigation, dispute-resolution, trial, discovery, settlement, commercial-litigation.
 license: MIT
 metadata:
@@ -163,12 +168,86 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Prepare a motion for summary judgment in a commercial contract dispute involving breach of lease agreement
+Output: Motion for Summary Judgment:
+
+Legal Standard:
+- Summary judgment appropriate when no genuine dispute of material fact
+- Moving party bears burden of showing entitlement to judgment
+- All inferences viewed favorably to non-moving party
+
+Statement of Undisputed Facts:
+1. Parties executed 5-year commercial lease on Jan 1, 2023
+2. Monthly rent: $25,000, due 1st of each month
+3. Tenant failed to pay rent for March, April, May 2024
+4. Total arrearage: $75,000
+5. Landlord sent 10-day notice to quit on May 15, 2024
+6. Tenant remains in possession
+
+Argument:
+```text
+I. Landlord entitled to judgment as matter of law
+
+A. Lease unambiguous: Tenant obligated to pay rent monthly
+   - Contract terms clear and definite
+   - No ambiguity requiring interpretation
+
+B. Tenant's breach undisputed
+   - Tenant failed to pay rent for 3 consecutive months
+   - Clear contractual violation
+
+C. Landlord complied with all conditions precedent
+   - Notice provided per lease terms
+   - No cure by tenant within notice period
+
+D. Damages calculable as matter of law
+   - Unpaid rent: $75,000
+   - attorneys' fees per lease: $12,500
+   - Total: $87,500
+```
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle situation where key witness recants testimony the day before trial
+Output: Crisis Management Protocol:
+
+Immediate Assessment:
+1. Determine scope of recantation
+2. Evaluate impact on case theory
+3. Assess credibility concerns
+
+Strategic Options:
+
+Option A: Proceed with Trial
+- Use prior inconsistent statement (hearsay exception)
+- Call witness, elicit prior statement
+- Impeach with deposition testimony
+- Jury can assess credibility
+
+Option B: Seek Continuance
+```motion
+EX PARTE MOTION FOR CONTINUANCE
+
+Plaintiff respectfully moves for 30-day continuance
+due to material witness unavailability.
+
+Witness John Smith has recanted critical testimony
+regarding [specific issue]. Additional time needed
+to: (1) investigate circumstances of recantation;
+(2) identify alternative evidence; (3) prepare
+case with updated theory.
+
+Factors:
+- No prior continuances requested
+- Trial court available in 30 days
+- Defendant not prejudiced
+```
+
+Option C: Negotiate Settlement
+- Recantation signals credibility issues
+- May indicate witness under pressure
+- Consider settling if case theory undermined
+
+Recommendation: Seek 2-week continuance to investigate and reassess
 
 
 

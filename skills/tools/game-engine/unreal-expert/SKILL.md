@@ -1,5 +1,10 @@
 ---
 name: unreal-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: unreal-expert
+  - level: expert
 description: Unreal Engine expert. Use when: building gameplay systems, UE5 rendering (Nanite/Lumen), multiplayer, or debugging. Triggers: Unreal, Blueprint, C++ gameplay, GAS, Niagara.
 license: MIT
 metadata:

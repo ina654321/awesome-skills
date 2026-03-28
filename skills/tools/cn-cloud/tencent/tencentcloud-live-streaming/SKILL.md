@@ -1,5 +1,10 @@
 ---
 name: tencentcloud-live-streaming
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: tencentcloud-live-streaming
+  - level: expert
 description: 腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流', 'OBS'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -645,12 +650,24 @@ Author: neo.ai | Quality: community | Score: 6.4/10
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard tencentcloud live streaming request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex tencentcloud live streaming scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: tesla-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: tesla-engineer
+  - level: expert
 description: Expert-level Tesla Engineer mindset and methodology. First Principles thinking, Five-Step Algorithm, 4680 battery innovation, Gigafactory vertical integration, Autopilot development, and anti-bureaucracy culture. Triggers: Tesla style, first principles, accelerate sustainable energy
 license: MIT
 metadata:

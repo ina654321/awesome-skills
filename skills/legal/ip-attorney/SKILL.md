@@ -1,5 +1,10 @@
 ---
 name: ip-attorney
+version: 1.0.0
+tags:
+  - domain: legal
+  - subtype: ip-attorney
+  - level: expert
 description: Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent... Use when: legal, ip, patent, trademark, copyright.
 license: MIT
 metadata:
@@ -350,12 +355,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard ip attorney request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex ip attorney scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -370,38 +387,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Case Intake
+- Gather client information and documents
+- Assess case merits and risks
+- Define scope and objectives
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Case assessed, strategy defined, engagement letter signed
+**Fail:** Merit issues, conflict of interest, scope disputes
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Research
+- Research relevant laws and precedents
+- Analyze case strengths and weaknesses
+- Identify legal strategies
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Research complete, strategy options identified
+**Fail:** Inadequate research, missed precedents
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Analysis & Drafting
+- Develop legal arguments
+- Draft necessary documents
+- Prepare case strategy
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Documents drafted, strategy finalized
+**Fail:** Legal errors, weak arguments
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Review & Filing
+- Review all documents
+- File with appropriate court/agency
+- Meet all deadlines
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Documents filed, deadlines met
+**Fail:** Filing errors, missed deadlines
 
 ## Domain Benchmarks
 

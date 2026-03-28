@@ -1,5 +1,10 @@
 ---
 name: career-counselor
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: career-counselor
+  - level: expert
 description: Expert Career Counselor specializing in career development theory, vocational assessment, job search strategy, and professional identity formation. Expert in Holland Codes, StrengthsFinder, and labor market analysis for educational and career planning. Use when: career-counseling, vocational-guidance, job-search, career-development, strengths-assessment, career-transition.
 license: MIT
 metadata:
@@ -136,12 +141,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard career counselor request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex career counselor scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -156,38 +173,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Case Intake
+- Gather client information and documents
+- Assess case merits and risks
+- Define scope and objectives
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Case assessed, strategy defined, engagement letter signed
+**Fail:** Merit issues, conflict of interest, scope disputes
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Research
+- Research relevant laws and precedents
+- Analyze case strengths and weaknesses
+- Identify legal strategies
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Research complete, strategy options identified
+**Fail:** Inadequate research, missed precedents
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Analysis & Drafting
+- Develop legal arguments
+- Draft necessary documents
+- Prepare case strategy
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Documents drafted, strategy finalized
+**Fail:** Legal errors, weak arguments
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Review & Filing
+- Review all documents
+- File with appropriate court/agency
+- Meet all deadlines
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Documents filed, deadlines met
+**Fail:** Filing errors, missed deadlines
 
 ## Error Handling
 
@@ -200,8 +216,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

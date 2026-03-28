@@ -1,5 +1,10 @@
 ---
 name: pepsico-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: pepsico-enterprise-skill
+  - level: expert
 description: Expert skill for PepsiCo Enterprise Skill
 license: MIT
 metadata:

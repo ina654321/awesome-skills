@@ -1,5 +1,10 @@
 ---
 name: grafana-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: grafana-expert
+  - level: expert
 description: Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'.
 license: MIT
 metadata:

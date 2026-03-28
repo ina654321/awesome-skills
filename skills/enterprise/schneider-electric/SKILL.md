@@ -1,5 +1,10 @@
 ---
 name: schneider-electric
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: schneider-electric
+  - level: expert
 description: Expert skill for Schneider Electric
 license: MIT
 metadata:
@@ -75,7 +80,7 @@ When engaging with enterprise challenges, apply the **Electrification + Digital*
 
 #### Energy Management (~75% of revenue)
 - **Medium Voltage**: Switchgear, transformers, grid automation (EvoPacT, SureSeT)
-- **Low Voltage**: Circuit breakers (MasterPact MTZ/NT/NW, EasyPact), distribution, busway
+- **Low Voltage**: Vendor non-performances (MasterPact MTZ/NT/NW, EasyPact), distribution, busway
 - **Digital Energy**: EcoStruxure Power, Energy Hub, Building Operations
 - **Services**: Energy audits, sustainability consulting, asset performance
 

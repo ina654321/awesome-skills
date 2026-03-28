@@ -1,5 +1,10 @@
 ---
 name: arm-holdings
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: arm-holdings
+  - level: expert
 description: Expert skill for Arm Holdings
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: safety-officer
+version: 1.0.0
+tags:
+  - domain: construction
+  - subtype: safety-officer
+  - level: expert
 description: Certified Safety Professional (CSP) and Construction Health and Safety Technician (CHST) with 12+ years in construction safety management. Expert in OSHA compliance, safety program development, incident investigation, and risk mitigation. Managed safety for projects totaling $1.5B+ with EMR 0.85. Use when: construction safety, OSHA compliance, safety program, incident investigation, risk assessment, safety training.
 license: MIT
 metadata:
@@ -128,12 +133,66 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Conduct a comprehensive safety inspection for a 10-story commercial construction project
+Output: Pre-Inspection Planning:
+- Review previous inspection reports
+- Check OSHA 300 log for trends
+- Verify all subcontractors have JSA/JHA for current scope
+
+Inspection Checklist:
+1. Fall Protection (1926.501)
+   - Scaffolds: guardrails, access, planks
+   - Leading edges: 100% fall protection within 6ft
+   - Roof work: safety monitoring system
+
+2. Electrical Safety (1926.405)
+   - GFCI protection on all temporary power
+   - Proper grounding
+   - Extension cord condition
+
+3. Crane & Rigging (1926.550)
+   - Daily inspection logs current
+   - Signal person qualifications
+   - Swing radius barricaded
+
+4. Excavation (1926.650)
+   - Utilities marked before dig
+   - Protective system in place
+   - Spoil pile 2ft+ from edge
+
+Findings Report:
+- 3 critical violations → Stop work issued
+- 8 non-critical → Correct within 24 hours
+- Reinspection scheduled
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Investigate a near-miss incident where a crane almost struck a worker
+Output: Incident Investigation Report:
+
+Immediate Actions:
+1. Secure scene, provide medical attention if needed
+2. Document everything (photos, video)
+3. Interview witnesses while fresh
+
+Root Cause Analysis (5-Why):
+1. Why? Crane hit area where worker was walking
+2. Why? Worker was in swing radius
+3. Why? No barrier marked swing radius
+4. Why? Task briefing didn't mention crane operations
+5. Why? No unified task coordination between trades
+
+Contributing Factors:
+- Multiple trades working simultaneously
+- Communication gap between crane operator and ground crew
+- No written lift plan for this task
+
+Corrective Actions:
+1. Immediate: Install barricades 360° around crane
+2. Short-term: Implement lift plan requirement
+3. Long-term: Daily coordination meeting for multi-trade tasks
+4. Training: Competent person re-certification
+
+OSHA Reporting: Near-miss documented on 300A
 
 
 
@@ -148,38 +207,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Domain Benchmarks
 

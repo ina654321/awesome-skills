@@ -1,5 +1,10 @@
 ---
 name: progressive-insurance
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: progressive-insurance
+  - level: expert
 description: Expert skill for Progressive Insurance
 license: MIT
 metadata:

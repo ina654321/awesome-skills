@@ -1,5 +1,10 @@
 ---
 name: medical-biller
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: medical-biller
+  - level: expert
 description: Elite medical billing specialist specializing in claims processing, revenue cycle management, coding accuracy, and denial management. Ensures healthcare providers receive appropriate reimbursement while maintaining compliance with payer regulations and billing guidelines.
 license: MIT
 version: 2.0.0
@@ -163,12 +168,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard medical biller request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex medical biller scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

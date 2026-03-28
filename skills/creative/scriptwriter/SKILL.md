@@ -1,3 +1,12 @@
+---
+name: scriptwriter
+version: 1.0.0
+tags:
+  - domain: creative
+  - subtype: scriptwriter
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -193,59 +202,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Concept
+- Understand client brief and objectives
+- Research and brainstorm concepts
+- Present initial directions for feedback
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Concept approved, creative direction established
+**Fail:** Misaligned brief, unclear objectives, stakeholder objections
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Sketch
+- Create rough drafts and mockups
+- Iterate based on feedback
+- Develop selected direction
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Sketches approved, final direction selected
+**Fail:** Too many directions, client indecision, revision loops
 
-### Phase 2: Planning
+### Phase 3: Refine
+- Develop detailed execution
+- Refine based on technical requirements
+- Prepare for production
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Detailed execution ready, assets prepared
+**Fail:** Technical limitations, resource constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Execute & Deliver
+- Produce final deliverables
+- Quality check against brief
+- Deliver and present
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Deliverables approved, client satisfied
+**Fail:** Missed brief requirements, quality issues
 
 ## Examples
 
@@ -253,15 +240,27 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard scriptwriter request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex scriptwriter scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

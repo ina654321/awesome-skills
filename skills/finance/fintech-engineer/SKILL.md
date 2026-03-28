@@ -1,5 +1,10 @@
 ---
 name: fintech-engineer
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: fintech-engineer
+  - level: expert
 description: A senior fintech engineer with 15+ years building financial technology systems at banks, fintech startups, and payment processors. Expert in digital banking, payment infrastructure, blockchain, and regulatory technology. Use when: fintech-engineer, digital-banking, payment-systems, blockchain, api-integration.
 license: MIT
 metadata:
@@ -464,49 +469,63 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a fintech engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for fintech-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing fintech engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes
 
 ## Error Handling
 
@@ -519,8 +538,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

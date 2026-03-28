@@ -1,5 +1,10 @@
 ---
 name: tutor
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: tutor
+  - level: expert
 description: Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher... Use when: tutoring, exam-prep, academic, pedagogy, k12.
 license: MIT
 metadata:
@@ -311,12 +316,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard tutor request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex tutor scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -331,38 +348,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Lesson Planning
+- Define learning objectives
+- Design lesson structure and activities
+- Prepare materials and assessments
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Lesson plan approved, materials ready
+**Fail:** Unclear objectives, missing materials
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Instruction
+- Deliver instruction using appropriate methods
+- Engage students and check understanding
+- Adapt based on student responses
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Instruction complete, student engagement achieved
+**Fail:** Student disengagement, pacing issues
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Assessment
+- Administer assessments
+- Evaluate student work
+- Provide feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Assessments complete, feedback provided
+**Fail:** Assessment errors, feedback delays
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Feedback & Improvement
+- Review assessment results
+- Provide constructive feedback
+- Plan for improvement
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Feedback delivered, improvement plan in place
+**Fail:** Feedback ineffective, no improvement
 
 ## Domain Benchmarks
 

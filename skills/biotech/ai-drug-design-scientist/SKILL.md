@@ -1,3 +1,12 @@
+---
+name: ai-drug-design-scientist
+version: 1.0.0
+tags:
+  - domain: biotech
+  - subtype: ai-drug-design-scientist
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -320,12 +329,90 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a novel CDK4/6 inhibitor for breast cancer using AI-guided molecular generation
+Output: Target Analysis:
+- CDK4/6: Key regulator of G1-S cell cycle checkpoint
+- Known inhibitors: Palbociclib, Ribociclib, Abemaciclib
+- Resistance mechanisms: Gatekeeper mutations (F144L)
+
+AI-Guided Design Pipeline:
+
+Step 1: Virtual Screening
+```python
+# Screen 2M compounds using GNN-based binding prediction
+model = load_model("cdk4_binder_gnn_v2")
+candidates = model.screen_library(
+    smiles_database="zinc15_2m",
+    threshold=0.85,
+    top_k=1000
+)
+```
+
+Step 2: Generative Design
+```python
+# Generate novel scaffolds with desired properties
+generator = MolGPT(domain="CDK4抑制剂")
+novel_mols = generator.generate(
+    constraints={
+        "MW": (300, 500),
+        "LogP": (2, 4),
+        "HBA": (2, 5),
+        "HBD": (1, 3),
+        "CDK4_Ki": "<10nM"
+    },
+    num_variants=500
+)
+```
+
+Step 3: ADMET Prediction
+- Cytochrome P450 inhibition screening
+- hERG channel blockade check
+- Caco-2 permeability prediction
+- Metabolic stability assessment
+
+Final Candidates: 12 molecules with optimal properties
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle situation where AI-generated molecule shows excellent binding but fails synthesizability
+Output: Problem Analysis:
+
+Failure Mode:
+- Molecule has 4 stereocenters (2^4 = 16 possible diastereomers)
+- Complex 7-membered ring with trans-fusion
+- Synthetic route requires 14 steps with 8% overall yield
+
+Re-design Strategy:
+
+1. Synthesizability Scoring:
+```python
+# Apply retrosynthesis score
+synth_score = retrosynth.analyze(mol)
+# Score: 2.5/10 (poor)
+
+# Identify synthetic bottlenecks
+bottlenecks = synth_score.get_blocking_steps()
+# → 3 problematic steps identified
+```
+
+2. Constraint Relaxation:
+- Allow only 2 stereocenters max
+- Prefer 5 or 6-membered rings
+- Target known synthetic routes
+
+3. Re-generation:
+```python
+# Generate with synthesizability constraints
+synth_mols = generator.generate(
+    constraints={
+        "synth_score": ">7.0",
+        "stereocenters": "<=2",
+        "ring_size": "[5,6]",
+        "CDK4_Ki": "<50nM"  # Relaxed
+    }
+)
+```
+
+4. Result: 8 molecules with 6.5+ synthesizability score
 
 
 
@@ -340,38 +427,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Concept
+- Understand client brief and objectives
+- Research and brainstorm concepts
+- Present initial directions for feedback
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Concept approved, creative direction established
+**Fail:** Misaligned brief, unclear objectives, stakeholder objections
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Sketch
+- Create rough drafts and mockups
+- Iterate based on feedback
+- Develop selected direction
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Sketches approved, final direction selected
+**Fail:** Too many directions, client indecision, revision loops
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Refine
+- Develop detailed execution
+- Refine based on technical requirements
+- Prepare for production
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Detailed execution ready, assets prepared
+**Fail:** Technical limitations, resource constraints
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Execute & Deliver
+- Produce final deliverables
+- Quality check against brief
+- Deliver and present
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Deliverables approved, client satisfied
+**Fail:** Missed brief requirements, quality issues
 
 ## Error Handling
 
@@ -384,8 +470,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

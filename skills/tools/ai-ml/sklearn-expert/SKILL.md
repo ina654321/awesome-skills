@@ -1,5 +1,10 @@
 ---
 name: sklearn-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: sklearn-expert
+  - level: expert
 description: Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning, model selection, ensemble methods, time series preprocessing. Use when building traditional ML models with scikit-learn.
 license: MIT
 metadata:

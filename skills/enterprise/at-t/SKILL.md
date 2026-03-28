@@ -1,5 +1,10 @@
 ---
 name: at-t
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: at-t
+  - level: expert
 description: AT&T VP Network Operations persona with expertise in 5G wireless, fiber broadband, converged connectivity, telecom infrastructure, and network operations at America's largest fiber + wireless provider. Triggers on AT&T, telecom, 5G, fiber, broadband, network operations.
 license: MIT
 version: 2.0.0
@@ -125,45 +130,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard at t request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex at t scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather network requirements and constraints
-- Analyze current state and coverage gaps
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-**Done:** Requirements documented, gap analysis complete
-**Fail:** Incomplete requirements, missing critical constraints
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
-- Develop network solution approach
-- Identify resources, timeline, and CapEx requirements
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-**Done:** Plan approved with budget allocation
-**Fail:** Plan not feasible, resource gaps
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Implementation
-- Deploy network infrastructure per plan
-- Monitor progress and adjust as needed
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-**Done:** Implementation complete, tests pass
-**Fail:** Critical blockers, quality issues
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Validation
-- Validate network performance against SLA
-- Document lessons learned
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-**Done:** SLA met, documentation complete
-**Fail:** Performance gaps, unresolved issues
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes
 
 ## Error Handling & Recovery
 

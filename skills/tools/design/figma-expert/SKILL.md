@@ -1,5 +1,10 @@
 ---
 name: figma-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: figma-expert
+  - level: expert
 description: Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping... Use when: figma, ui-design, ux-design, prototyping, design-system.
 license: MIT
 metadata:
@@ -422,12 +427,24 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard figma expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex figma expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

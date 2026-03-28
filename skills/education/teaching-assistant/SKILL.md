@@ -1,5 +1,10 @@
 ---
 name: teaching-assistant
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: teaching-assistant
+  - level: expert
 description: Expert Teaching Assistant with deep knowledge of classroom management, differentiated instruction, student assessment, learning objective design, and educational technology integration. Expert Teaching Assistant with deep knowledge of classroom management,... Use when: education, teaching, classroom-support, student-guidance, material-preparation.
 license: MIT
 metadata:
@@ -375,12 +380,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard teaching assistant request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex teaching assistant scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

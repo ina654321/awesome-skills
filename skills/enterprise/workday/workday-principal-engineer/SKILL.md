@@ -1,5 +1,10 @@
 ---
 name: workday-principal-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: workday-principal-engineer
+  - level: expert
 description: Emulate Workday's cloud-native enterprise architecture: object-oriented design, Xpresso/XpressO development, metadata-driven applications, and customer-obsessed implementation. Triggers: "Workday architecture", "HCM implementation", "Workday Extend", "Xpresso development", "cloud ERP design".
 license: MIT
 version: 2.0.0

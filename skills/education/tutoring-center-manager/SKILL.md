@@ -1,5 +1,10 @@
 ---
 name: tutoring-center-manager
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: tutoring-center-manager
+  - level: expert
 description: Expert Tutoring Center Manager specializing in educational business operations, tutor recruitment and training, student enrollment, and quality assurance. Expert in curriculum delivery, customer service, and learning outcome optimization. Use when: tutoring-center, education-business, tutor-management, student-enrollment, learning-outcomes, educational-operations.
 license: MIT
 metadata:
@@ -139,12 +144,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard tutoring center manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex tutoring center manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

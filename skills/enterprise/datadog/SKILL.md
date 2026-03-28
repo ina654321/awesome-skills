@@ -1,5 +1,10 @@
 ---
 name: datadog-observability--security-platform
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: datadog-observability--security-platform
+  - level: expert
 description: Expert skill for Datadog Observability & Security Platform
 license: MIT
 metadata:

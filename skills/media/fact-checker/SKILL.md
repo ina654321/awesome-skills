@@ -1,5 +1,10 @@
 ---
 name: fact-checker
+version: 1.0.0
+tags:
+  - domain: media
+  - subtype: fact-checker
+  - level: expert
 description: Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy. Use when: fact-checking, verification, misinformation, research, accuracy.
 license: MIT
 metadata:
@@ -83,6 +88,15 @@ Before responding in this domain, evaluate:
 - **Source Attribution**: Always cite sources with access dates and reliability assessment
 - **Uncertainty Acknowledgment**: Clearly state when evidence is incomplete or conflicting
 
+### 1.5 Performance Metrics
+
+| Metric | Target | Threshold |
+|--------|--------|-----------|
+| Source Triangulation | ≥3 independent sources | 1 source = insufficient |
+| Verification Time | <15 min for standard claims | >30 min = escalate |
+| Confidence Calibration | 4-tier classification | Binary only = insufficient |
+| Accuracy Rate | >95% verdicts correct | Based on correction rate |
+
 ---
 
 
@@ -125,9 +139,43 @@ Before responding in this domain, evaluate:
 >
 > **Confidence Level:** High — Reverse image search confirmed source manipulation
 
----
+### 9.3 Statistical Claim Verification
 
+**Input:** "The economy added 250,000 jobs last month — verify this claim"
 
+**Expected Output:**
+```
+VERIFICATION: Jobs Report Claim
+
+Claim: "Economy added 250,000 jobs last month"
+Source: Secretary of XXX
+
+Step 1: Source Check
+├── Source: Bureau of Labor Statistics (BLS)
+├── Reliability: Primary source, official government data
+└── Access: Direct BLS website (bls.gov)
+
+Step 2: Evidence Verification
+├── BLS Employment Situation Report: 250,000 ✓
+├── Secondary: Fed statements corroborate
+└── Expert: Economist consensus confirms
+
+Step 3: Context Assessment
+├── Prior month: 225,000 (revised from 238,000)
+├── Industry breakdown: Private 220K, Government 30K
+└── Unemployment rate: 3.7% (unchanged)
+
+VERDICT: TRUE
+Confidence: High — Primary source + secondary verification
+Caveat: Preliminary data, subject to revision
+```
+
+**Verification Checklist:**
+- [ ] Primary source identified and consulted
+- [ ] 3+ independent sources triangulated
+- [ ] Expert consensus noted
+- [ ] Confidence level assigned
+- [ ] Limitations acknowledged
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
@@ -187,7 +235,7 @@ Before responding in this domain, evaluate:
 
 ## § 14 · Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
+→ See references/07-standards.md §7 for full checklist
 
 ### Test Cases
 
@@ -207,115 +255,6 @@ Expected: Source tracing, verification of authenticity, conclusion with confiden
 
 ---
 
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
 
 
 
@@ -323,77 +262,9 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 
 Detailed content:
 
-- [## § 2 · What This Skill Does](./references/2-what-this-skill-does.md)
-- [## § 3 · Risk Disclaimer](./references/3-risk-disclaimer.md)
-- [## § 4 · Core Philosophy](./references/4-core-philosophy.md)
-- [## § 5 · Platform Support](./references/5-platform-support.md)
-- [## § 6 · Professional Toolkit](./references/6-professional-toolkit.md)
-- [## § 7 · Standards & Reference](./references/7-standards-reference.md)
-- [## § 8 · Standard Workflow](./references/8-standard-workflow.md)
-- [## § 9 · Scenario Examples](./references/9-scenario-examples.md)
-- [## § 20 · Case Studies](./references/20-case-studies.md)
-
-
-## Examples
-
-### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
-
-### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
-
-
-
-## Error Handling & Recovery
-
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
-
-
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
-
-## Domain Benchmarks
-
-| Metric | Industry Standard | Target |
-|--------|------------------|--------|
-| Quality Score | 95% | 99%+ |
-| Error Rate | <5% | <1% |
-| Efficiency | Baseline | 20% improvement |
+- [§ 2 · What This Skill Does](./references/2-what-this-skill-does.md)
+- [§ 4 · Core Philosophy](./references/4-core-philosophy.md)
+- [§ 6 · Professional Toolkit](./references/6-professional-toolkit.md)
+- [§ 7 · Standards](./references/07-standards.md)
+- [§ 8 · Workflow](./references/08-workflow.md)
+- [§ 9 · Scenarios](./references/09-scenarios.md)

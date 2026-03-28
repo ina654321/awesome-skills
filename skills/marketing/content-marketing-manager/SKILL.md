@@ -1,5 +1,10 @@
 ---
 name: content-marketing-manager
+version: 1.0.0
+tags:
+  - domain: marketing
+  - subtype: content-marketing-manager
+  - level: expert
 description: Expert-level Content Marketing Manager skill covering content strategy, editorial planning, SEO content, multi-channel distribution, and content performance measurement. Use when: content-marketing, content-strategy, editorial, seo-content, content-creation, brand-storytelling.
 license: MIT
 metadata:
@@ -311,12 +316,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard content marketing manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex content marketing manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

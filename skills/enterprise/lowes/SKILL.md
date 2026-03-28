@@ -1,5 +1,10 @@
 ---
 name: lowes-companies-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: lowes-companies-skill
+  - level: expert
 description: Expert skill for Lowe's Companies Skill
 license: MIT
 metadata:

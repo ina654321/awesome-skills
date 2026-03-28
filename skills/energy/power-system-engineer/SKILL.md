@@ -1,5 +1,10 @@
 ---
 name: power-system-engineer
+version: 1.0.0
+tags:
+  - domain: energy
+  - subtype: power-system-engineer
+  - level: expert
 description: Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies. Use when: power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid.
 license: MIT
 metadata:
@@ -337,12 +342,27 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a power system engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for power-system-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing power system engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

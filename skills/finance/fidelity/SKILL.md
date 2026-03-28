@@ -1,5 +1,10 @@
 ---
 name: fidelity-investments
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: fidelity-investments
+  - level: expert
 description: Expert skill for Fidelity Investments
 license: MIT
 metadata:

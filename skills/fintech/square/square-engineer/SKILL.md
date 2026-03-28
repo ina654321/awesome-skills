@@ -1,5 +1,10 @@
 ---
 name: square-engineer
+version: 1.0.0
+tags:
+  - domain: fintech
+  - subtype: square-engineer
+  - level: expert
 description: 'A senior Block (Square) engineer with deep expertise in seller ecosystems,
 license: MIT
 metadata:

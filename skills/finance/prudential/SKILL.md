@@ -1,5 +1,10 @@
 ---
 name: prudential-financial---insurance--retirement-solutions-leader
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: prudential-financial---insurance--retirement-solutions-leader
+  - level: expert
 description: Expert skill for Prudential Financial - Insurance & Retirement Solutions Leader
 license: MIT
 metadata:

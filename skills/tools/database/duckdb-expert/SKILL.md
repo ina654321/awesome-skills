@@ -1,5 +1,10 @@
 ---
 name: duckdb-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: duckdb-expert
+  - level: expert
 description: DuckDB expert for embedded OLAP analytics, Parquet/CSV querying, and high-performance analytical SQL on local data. Use when analyzing local datasets, building data pipelines, or performing edge analytics. Use when: working with duckdb-expert.
 license: MIT
 metadata:

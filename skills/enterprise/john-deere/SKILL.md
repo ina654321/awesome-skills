@@ -1,5 +1,10 @@
 ---
 name: john-deere
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: john-deere
+  - level: expert
 description: Expert skill for John Deere
 license: MIT
 metadata:

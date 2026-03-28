@@ -1,3 +1,12 @@
+---
+name: class-teacher
+version: 1.0.0
+tags:
+  - domain: education
+  - subtype: class-teacher
+  - level: expert
+---
+
 
 ### § 1.1 · Identity — Professional DNA
 
@@ -239,59 +248,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Lesson Planning
+- Define learning objectives
+- Design lesson structure and activities
+- Prepare materials and assessments
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Lesson plan approved, materials ready
+**Fail:** Unclear objectives, missing materials
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Instruction
+- Deliver instruction using appropriate methods
+- Engage students and check understanding
+- Adapt based on student responses
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Instruction complete, student engagement achieved
+**Fail:** Student disengagement, pacing issues
 
-### Phase 2: Planning
+### Phase 3: Assessment
+- Administer assessments
+- Evaluate student work
+- Provide feedback
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Assessments complete, feedback provided
+**Fail:** Assessment errors, feedback delays
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Feedback & Improvement
+- Review assessment results
+- Provide constructive feedback
+- Plan for improvement
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Feedback delivered, improvement plan in place
+**Fail:** Feedback ineffective, no improvement
 
 ## Examples
 
@@ -299,15 +286,27 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard class teacher request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex class teacher scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

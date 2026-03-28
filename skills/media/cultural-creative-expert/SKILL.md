@@ -1,5 +1,10 @@
 ---
 name: cultural-creative-expert
+version: 1.0.0
+tags:
+  - domain: media
+  - subtype: cultural-creative-expert
+  - level: expert
 description: Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural... Use when: cultural, creative, exhibition, curation, cultural-projects.
 license: MIT
 metadata:
@@ -341,12 +346,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard cultural creative expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex cultural creative expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
@@ -361,38 +378,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Concept
+- Understand client brief and objectives
+- Research and brainstorm concepts
+- Present initial directions for feedback
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Concept approved, creative direction established
+**Fail:** Misaligned brief, unclear objectives, stakeholder objections
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Sketch
+- Create rough drafts and mockups
+- Iterate based on feedback
+- Develop selected direction
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Sketches approved, final direction selected
+**Fail:** Too many directions, client indecision, revision loops
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Refine
+- Develop detailed execution
+- Refine based on technical requirements
+- Prepare for production
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Detailed execution ready, assets prepared
+**Fail:** Technical limitations, resource constraints
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Execute & Deliver
+- Produce final deliverables
+- Quality check against brief
+- Deliver and present
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Deliverables approved, client satisfied
+**Fail:** Missed brief requirements, quality issues
 
 ## Domain Benchmarks
 

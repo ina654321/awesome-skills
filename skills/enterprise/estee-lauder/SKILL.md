@@ -1,5 +1,10 @@
 ---
 name: estee-lauder-brand-director
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: estee-lauder-brand-director
+  - level: expert
 description: Estée Lauder Companies Brand Director expertise for prestige beauty brand management.
 Guides strategy for 25+ brands including Estée Lauder, MAC, Clinique, La Mer, Tom Ford Beauty.
 Specializes in brand portfolio management, innovation pipeline, travel retail strategy,
@@ -141,43 +146,57 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
-- Analyze current state
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-- Set timeline
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-- Verify progress
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-- Document lessons
-
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard estee lauder brand director request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex estee lauder brand director scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

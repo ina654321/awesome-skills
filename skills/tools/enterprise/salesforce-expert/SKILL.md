@@ -1,5 +1,10 @@
 ---
 name: salesforce-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: salesforce-expert
+  - level: expert
 description: Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing CRM, building automations, or developing on Salesforce. Triggers: Salesforce, CRM, Flow, Apex, Lightning, LWC.
 license: MIT
 metadata:

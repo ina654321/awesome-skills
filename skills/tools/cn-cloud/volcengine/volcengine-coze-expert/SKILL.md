@@ -1,5 +1,10 @@
 ---
 name: volcengine-coze-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: volcengine-coze-expert
+  - level: expert
 description: 火山引擎扣子(Coze)专家。Use when: 创建AI智能体、配置知识库问答、设计工作流、搭建客服机器人。 Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'.
 
 license: MIT

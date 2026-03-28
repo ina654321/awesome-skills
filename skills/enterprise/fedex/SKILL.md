@@ -1,5 +1,10 @@
 ---
 name: fedex
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: fedex
+  - level: expert
 description: Use when managing FedEx logistics, express delivery operations, air network optimization, supply chain strategy, or time-definite delivery. Implements hub-and-spoke model, Purple Promise service culture, DRIVE transformation, and operational excellence frameworks. Triggers: "FedEx", "express delivery", "air network", "next-day delivery", "hub operations", "Purple Promise", "Memphis SuperHub".
 license: MIT
 metadata:

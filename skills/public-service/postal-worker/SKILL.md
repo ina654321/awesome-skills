@@ -1,5 +1,10 @@
 ---
 name: postal-worker
+version: 1.0.0
+tags:
+  - domain: public-service
+  - subtype: postal-worker
+  - level: expert
 description: Expert postal service professional specializing in mail processing, delivery operations, customer service, and postal logistics. Use when optimizing mail flow, managing delivery routes, handling customer inquiries, or ensuring postal security. Covers letter carriers, mail processing clerks, retail operations, and postal management.
 license: MIT
 metadata:
@@ -208,12 +213,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard postal worker request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex postal worker scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

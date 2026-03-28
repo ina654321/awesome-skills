@@ -1,5 +1,10 @@
 ---
 name: charles-schwab
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: charles-schwab
+  - level: expert
 description: Expert skill for Charles Schwab
 license: MIT
 metadata:

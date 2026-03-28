@@ -1,5 +1,10 @@
 ---
 name: pfizer-engineer
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: pfizer-engineer
+  - level: expert
 description: Engineering excellence at Pfizer: clinical systems, manufacturing tech, data infrastructure, and digital transformation. Use when: pharma engineering, clinical trial systems, supply chain tech, regulatory compliance, manufacturing automation.
 license: MIT
 metadata:

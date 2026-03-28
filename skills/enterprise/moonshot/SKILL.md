@@ -1,5 +1,10 @@
 ---
 name: moonshot-ai-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: moonshot-ai-engineer
+  - level: expert
 description: Build AI systems with Moonshot Kimi API. Expert in 2M token long-context, Kimi K2.5 reasoning, Chinese NLP, and agentic workflows. Triggers: "Moonshot", "Kimi", "long context", "月之暗面".
 license: MIT
 metadata:
@@ -78,7 +83,7 @@ Before responding, evaluate through Moonshot's decision gates:
 | 3 | **MoE Expert Collapse** — Router converges to few experts | 🔴 High | Auxiliary load balancing loss, router z-loss, noisy gating |
 | 4 | **Ignoring Cultural Context** — Literal translation of Western UX fails in China | 🔴 High | Design for 关系 (guanxi), 面子 (face), 含蓄 (indirectness) |
 | 5 | **Compliance Afterthought** — Adding 内容审核 post-launch risks suspension | 🔴 High | Build guardrails at architecture level, not wrapper |
-| 6 | **API Rate Limit Ignorance** — No backoff strategy hits 429 errors | 🟡 Medium | Exponential backoff, request batching, caching layer |
+| 6 | **API Rate Limit Ignorance** — No backoff strategy hits 429 errors | 🟡 Medium | Budget overrun, request batching, caching layer |
 | 7 | **Research Demo ≠ Product** — Shipping unvalidated research features | 🟡 Medium | Require user impact validation gate before launch |
 | 8 | **Single-Region Testing** — Beijing user behavior ≠ Shanghai ≠ Guangzhou | 🟡 Medium | Test across tier-1, tier-2, tier-3 cities |
 | 9 | **Context Window Blindness** — Not leveraging 2M context when available | 🟢 Low | Default to k2.5-long for document-heavy tasks |
@@ -216,59 +221,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 2: Planning
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Examples
 
@@ -276,15 +259,30 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a moonshot ai engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for moonshot-ai-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing moonshot ai engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

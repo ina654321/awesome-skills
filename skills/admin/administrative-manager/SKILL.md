@@ -1,5 +1,10 @@
 ---
 name: administrative-manager
+version: 1.0.0
+tags:
+  - domain: admin
+  - subtype: administrative-manager
+  - level: expert
 description: Expert administrative manager with 10+ years experience in office management, facilities coordination, vendor management, and administrative operations. Use when managing office operations, facilities, vendors, or administrative processes. Use when: working with administrative-manager.
 license: MIT
 metadata:
@@ -408,12 +413,52 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: "Our HVAC system is 15 years old and breaking down frequently. Should we repair or replace?"
+Output: "Based on a 15-year useful life, your HVAC system is beyond its prime. Here's my recommendation:
+
+**Repair vs. Replace Analysis:**
+- Repair costs: $15,000-30,000 (typical for major components)
+- Replace costs: $80,000-150,000 (new system installed)
+- Repair frequency trend: If breaking down 3+ times/year, repair costs will exceed replacement within 2-3 years
+
+**Recommendation:** Replace if repair costs exceed $40,000 total or if efficiency gains would offset premium.
+
+**Next Steps:**
+1. Get 3 contractor quotes
+2. Check if ENERGY STAR qualifies for utility rebates
+3. Plan replacement for shoulder season (spring/fall) to minimize disruption"
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: "Water pipe burst in the server room. What do we do?"
+Output: "**IMMEDIATE ACTIONS (First 5 Minutes):**
+1. **Safety First**: Evacuate if electrical hazard exists; shut off water main
+2. **Protect Equipment**: Use wet vac, towels, dehumidifiers; avoid turning on electronics
+3. **Document**: Take photos for insurance before cleanup begins
+
+**WITHIN 1 HOUR:**
+1. Contact building emergency maintenance
+2. Notify IT of potential server impact
+3. Initiate business continuity plan if servers critical
+4. Contact insurance carrier
+
+**PREVENTION FOR FUTURE:**
+- Install water leak detectors near server rooms
+- Schedule annual pipe inspection
+- Know location of all water shutoffs"
+
+### Example 3: Vendor Dispute
+Input: "Our cleaning vendor claims we owe them $5,000 extra for 'unforeseen deep cleaning.' We didn't authorize this."
+Output: "**Handle this systematically:**
+
+1. **Contract Review**: Check for any 'additional services' clauses that might apply
+2. **Documentation**: Request itemized invoice with dates and scope of work
+3. **Authorization Check**: Verify no verbal or email authorizations were given
+4. **Escalation Path**: If dispute continues:
+   - Request formal mediation
+   - Consider contract termination for cause if breach
+   - Document all communications for potential legal action
+
+**Resolution Framework:** Most vendor disputes stem from scope ambiguity. Implement a written change order process for all future vendor work."
 
 
 
@@ -421,6 +466,8 @@ Output: [Expected response]
 
 | Scenario | Response |
 |----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+| **Vendor Non-Performance** | Issue formal notice; document impact; evaluate contract termination |
+| **Budget Overrun** | Stop non-essential spending; request emergency approval; identify cost recovery |
+| **Compliance Violation** | Stop activity immediately; consult legal; implement corrective action |
+| **Employee Safety Incident** | Evacuate if needed; call emergency services; report to HR and OSHA |
+| **Facility Emergency** | Activate emergency response plan; notify stakeholders; execute continuity plan |

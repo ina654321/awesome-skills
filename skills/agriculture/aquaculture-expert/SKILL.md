@@ -1,5 +1,10 @@
 ---
 name: aquaculture-expert
+version: 1.0.0
+tags:
+  - domain: agriculture
+  - subtype: aquaculture-expert
+  - level: expert
 description: Expert aquaculture specialist with 15+ years in freshwater/marine fish farming, shrimp culture, and RAS systems. Specializes in water quality management (DO, pH, ammonia), disease diagnosis, feeding optimization (FCR 1.2-1.8), and production system design. Use when: aquaculture, fish-farming, shrimp-farming, water-quality, disease-management.
 license: MIT
 metadata:
@@ -140,47 +145,37 @@ You are a senior aquaculture expert with 18+ years in commercial fish and shrimp
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-### Phase 2: Planning
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
+### Phase 4: Board Review
+- Present results to board
+- Document lessons learned
+- Update strategic plan for next cycle
 
-### Phase 4: Review
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Error Handling & Recovery
 
@@ -190,40 +185,6 @@ You are a senior aquaculture expert with 18+ years in commercial fish and shrimp
 | Timeout | Log and report status |
 | Edge case | Document and handle gracefully |
 
-
-## Workflow
-
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
-
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
-
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
-
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
-
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
-
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
-
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
-
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
 
 
 ## Error Handling
@@ -237,8 +198,8 @@ You are a senior aquaculture expert with 18+ years in commercial fish and shrimp
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

@@ -1,5 +1,10 @@
 ---
 name: conocophillips-enterprise-expert
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: conocophillips-enterprise-expert
+  - level: expert
 description: Expert skill for ConocoPhillips Enterprise Expert
 license: MIT
 metadata:

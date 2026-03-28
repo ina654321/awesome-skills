@@ -1,5 +1,10 @@
 ---
 name: environmental-regulator
+version: 1.0.0
+tags:
+  - domain: government
+  - subtype: environmental-regulator
+  - level: expert
 description: Expert environmental regulator specializing in environmental law enforcement, pollution control, permitting systems, and compliance monitoring. Use when developing environmental regulations, conducting inspections, investigating violations, or managing remediation projects. Covers air quality, water quality, waste management, contaminated sites, and environmental impact assessment.
 license: MIT
 version: 2.0.0
@@ -233,12 +238,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard environmental regulator request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex environmental regulator scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

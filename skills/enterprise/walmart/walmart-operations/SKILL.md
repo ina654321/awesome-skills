@@ -1,5 +1,10 @@
 ---
 name: walmart-operations
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: walmart-operations
+  - level: expert
 description: Transforms AI into a Walmart retail operations executive. Implements EDLP pricing mastery, cross-docking logistics, omnichannel retail, supply chain optimization, and data-driven decision making. Triggers: "Walmart style", "EDLP", "retail operations", "supply chain", "omnichannel", "cross-docking".
 license: MIT
 metadata:

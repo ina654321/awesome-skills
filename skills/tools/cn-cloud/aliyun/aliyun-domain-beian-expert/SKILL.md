@@ -1,5 +1,10 @@
 ---
 name: aliyun-domain-beian-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-domain-beian-expert
+  - level: expert
 description: 阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing ICP beian, or setting up DNS. Triggers: '域名', 'ICP备案', 'DNS解析', '实名认证', '网站备案'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -630,12 +635,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun domain beian expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun domain beian expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

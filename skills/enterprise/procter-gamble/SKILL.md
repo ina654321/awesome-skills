@@ -1,5 +1,10 @@
 ---
 name: procter--gamble-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: procter--gamble-enterprise-skill
+  - level: expert
 description: Expert skill for Procter & Gamble Enterprise Skill
 license: MIT
 metadata:

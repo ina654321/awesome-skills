@@ -1,5 +1,10 @@
 ---
 name: algorithm-engineer
+version: 1.0.0
+tags:
+  - domain: software
+  - subtype: algorithm-engineer
+  - level: expert
 description: Expert algorithm engineer for data structures, complexity analysis, and algorithm design with Big-O analysis and correctness proofs. Use when: algorithm, data-structures, complexity, dynamic-programming, graph-theory.
 license: MIT
 metadata:
@@ -122,59 +127,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 2: Planning
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Examples
 
@@ -182,15 +165,58 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Implement a function to find the longest palindromic substring in O(n²) time using dynamic programming
+Output: ```python
+def longest_palindrome(s: str) -> str:
+    n = len(s)
+    if n < 2:
+        return s
+    
+    start, max_len = 0, 1
+    dp = [[False] * n for _ in range(n)]
+    
+    for i in range(n):
+        dp[i][i] = True
+    
+    for end in range(n):
+        for start in range(end):
+            if s[start] == s[end]:
+                if end - start == 1 or dp[start + 1][end - 1]:
+                    dp[start][end] = True
+                    if end - start + 1 > max_len:
+                        max_len = end - start + 1
+    
+    return s[start:start + max_len]
+```
+Time: O(n²), Space: O(n²)
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Design an LRU cache with O(1) get and put operations, handling capacity limits and cache misses
+Output: ```python
+from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.cache = OrderedDict()
+    
+    def get(self, key: int) -> int:
+        if key not in self.cache:
+            return -1
+        self.cache.move_to_end(key)
+        return self.cache[key]
+    
+    def put(self, key: int, value: int) -> None:
+        if key in self.cache:
+            self.cache.move_to_end(key)
+        self.cache[key] = value
+        if len(self.cache) > self.capacity:
+            self.cache.popitem(last=False)
+```
+Uses OrderedDict for O(1) operations via hash map + doubly-linked list pattern
 
 
 

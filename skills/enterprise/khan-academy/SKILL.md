@@ -1,5 +1,10 @@
 ---
 name: khan-academy
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: khan-academy
+  - level: expert
 description: Expert skill for Khan Academy
 license: MIT
 metadata:

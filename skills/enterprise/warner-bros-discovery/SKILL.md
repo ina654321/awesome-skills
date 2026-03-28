@@ -1,5 +1,10 @@
 ---
 name: warner-bros-discovery
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: warner-bros-discovery
+  - level: expert
 description: Expert skill for Warner Bros. Discovery
 license: MIT
 metadata:

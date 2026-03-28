@@ -1,5 +1,10 @@
 ---
 name: general-practitioner
+version: 1.0.0
+tags:
+  - domain: healthcare
+  - subtype: general-practitioner
+  - level: expert
 description: Expert-level Clinical Physician skill providing evidence-based clinical reasoning, differential diagnosis support, treatment guideline synthesis, and patient safety frameworks. Expert-level Clinical Physician skill providing evidence-based clinical Use when: medicine, clinical, diagnosis, primary-care, evidence-based.
 license: MIT
 metadata:
@@ -247,12 +252,65 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Evaluate a 45-year-old male presenting with chest pain, shortness of breath, and diaphoresis
+Output: Clinical Assessment:
+
+Vital Signs: BP 145/90, HR 98, RR 22, SpO2 96% on RA, Temp 37.2°C
+
+History:
+- Substernal chest pressure, 3/10 at rest, 7/10 with exertion
+- Radiation to left arm
+- Associated symptoms: nausea, diaphoresis, dyspnea
+- Onset: 45 minutes ago while climbing stairs
+- Risk factors: smoker (20 pack-years), HTN, family history (father MI at 55)
+
+Physical Exam:
+- Anxious appearing, diaphoretic
+- Lungs: clear bilateral
+- Heart: RRR, no murmurs
+- Abdomen: soft, non-tender
+
+Differential Diagnosis:
+1. ACS (Unstable Angina/NSTEMI) - HIGH probability
+2. Pulmonary embolism - moderate (less likely given character)
+3. GERD - low probability
+4. Musculoskeletal - low probability
+
+Initial Workup:
+- STAT ECG, troponin I, CK-MB, BNP
+- Chest X-ray
+- Monitor, O2 if needed
+- Aspirin 325mg, nitroglycerin PRN
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a patient presenting with vague symptoms that could indicate multiple serious conditions
+Output: Approach to Undifferentiated Patient:
+
+Systematic Framework:
+1. Life-threatening first (A-B-C-D-E):
+   - Airway compromise?
+   - Breathing distress?
+   - Circulation instability?
+   - Disability (neuro)?
+   - Exposure (skin signs)?
+
+2. Frequent serious mimics to consider:
+   - Cardiac: ACS, PE, aortic dissection
+   - GI: ruptured viscus, mesenteric ischemia
+   - Metabolic: DKA, electrolyte disturbance
+   - Infectious: sepsis, meningitis
+
+3. Red flags screening:
+   - Vital sign abnormalities
+   - Altered mental status
+   - Severe pain anywhere
+   - Unexplained bleeding
+
+4. Pattern recognition vs.anchoring bias:
+   - Look for atypical presentations
+   - Reconsider if not improving
+
+Time-based reassessment is critical
 
 
 
@@ -267,38 +325,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Triage
+- Assess patient vital signs and chief complaint
+- Identify immediate life threats
+- Prioritize treatment order
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Triage complete, patient prioritized, urgent issues identified
+**Fail:** Missed critical symptoms, incorrect prioritization
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Diagnosis
+- Gather detailed history and perform examination
+- Order appropriate diagnostic tests
+- Analyze results with differential diagnosis
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Diagnosis established, differentials considered
+**Fail:** Diagnostic errors, missed conditions, test delays
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Treatment
+- Develop treatment plan per guidelines
+- Obtain patient consent
+- Implement interventions
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Treatment initiated, patient stable, consent documented
+**Fail:** Treatment errors, patient deterioration, consent issues
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Follow-up
+- Monitor treatment response
+- Adjust plan as needed
+- Provide patient education and discharge planning
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Patient discharged safely, follow-up arranged
+**Fail:** Readmission risk, inadequate instructions, missed follow-up
 
 ## Error Handling
 
@@ -311,8 +368,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

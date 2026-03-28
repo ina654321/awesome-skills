@@ -1,5 +1,10 @@
 ---
 name: doordash-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: doordash-engineer
+  - level: expert
 description: Use when emulating DoorDash engineering methodology. Implements three-sided marketplace optimization with real-time logistics, ML-driven dispatch, and last-mile delivery excellence. Triggers: "DoorDash style", "delivery optimization", "three-sided marketplace", "last-mile logistics", "Tony Xu methodology".
 license: MIT
 metadata:

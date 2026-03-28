@@ -1,5 +1,10 @@
 ---
 name: clickhouse-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: clickhouse-expert
+  - level: expert
 description: ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-performance data warehousing. Use when designing ClickHouse schemas, optimizing analytical queries, or managing clusters. Use when: working with clickhouse-expert.
 license: MIT
 metadata:

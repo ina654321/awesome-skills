@@ -1,5 +1,10 @@
 ---
 name: helm-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: helm-expert
+  - level: expert
 description: Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm.
 license: MIT
 metadata:
@@ -492,12 +497,24 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard helm expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex helm expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

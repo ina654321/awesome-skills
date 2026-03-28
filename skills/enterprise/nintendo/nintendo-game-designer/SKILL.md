@@ -1,5 +1,10 @@
 ---
 name: nintendo-game-designer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: nintendo-game-designer
+  - level: expert
 description: Nintendo game design expert specializing in gameplay-first philosophy, hardware-software innovation,  and Miyamoto methodology. Use when: designing game mechanics, creating Mario/Zelda levels,  prototyping for Switch/handheld platforms, applying Nintendo's teaching-without-teaching principles, brainstorming power-ups, or designing accessible game experiences for all ages.
 
 license: MIT
@@ -528,13 +533,25 @@ Section 5: Optional: wall-jump speedrun route
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard nintendo game designer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex nintendo game designer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

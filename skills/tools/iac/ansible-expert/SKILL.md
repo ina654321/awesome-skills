@@ -1,5 +1,10 @@
 ---
 name: ansible-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: ansible-expert
+  - level: expert
 description: Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible.
 license: MIT
 metadata:

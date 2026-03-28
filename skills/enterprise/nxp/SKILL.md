@@ -1,5 +1,10 @@
 ---
 name: nxp-semiconductors-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: nxp-semiconductors-skill
+  - level: expert
 description: Expert skill for NXP Semiconductors Skill
 license: MIT
 metadata:

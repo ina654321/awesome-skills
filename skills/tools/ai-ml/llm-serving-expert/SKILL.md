@@ -1,5 +1,10 @@
 ---
 name: llm-serving-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: llm-serving-expert
+  - level: expert
 description: LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference.
 license: MIT
 metadata:
@@ -457,12 +462,24 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard llm serving expert request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex llm serving expert scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

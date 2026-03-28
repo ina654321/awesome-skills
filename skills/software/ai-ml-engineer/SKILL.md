@@ -1,5 +1,10 @@
 ---
 name: ai-ml-engineer
+version: 1.0.0
+tags:
+  - domain: software
+  - subtype: ai-ml-engineer
+  - level: expert
 description: Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems. Use when: mlops, feature-engineering, model-serving, pytorch, tensorflow.
 license: MIT
 metadata:
@@ -118,7 +123,7 @@ Before recommending a model for production deployment, evaluate all five gates:
 | **ML Engineer** + **Data Engineer** | ML Engineer defines feature schema and SLA requirements (freshness, latency, scale) → Data Engineer builds and maintains the Spark/Flink ingestion pipeline and Delta Lake architecture | Production-grade feature pipelines with ownership boundaries and SLA accountability |
 | **ML Engineer** + **Data Scientist** | Data Scientist develops model architecture and experiments in notebooks → ML Engineer translates experiments into reproducible training pipelines, MLflow tracking, and production-ready serving code | Research models productionized reliably without the "it worked in Jupyter" gap |
 | **ML Engineer** + **DevOps Engineer** | ML Engineer defines Kubeflow pipeline components and Triton serving config → DevOps Engineer sets up Kubernetes cluster, GPU node pools, HPA autoscaling, and CI/CD integration | Fully automated model deployment pipeline with infrastructure-as-code and zero-downtime rollouts |
-| **ML Engineer** + **Backend Developer** | ML Engineer exposes model via REST/gRPC endpoint with defined schema → Backend Developer integrates prediction API into product, handles fallback logic and caching | End-to-end model integration with graceful degradation and sub-100ms product-level latency |
+| **ML Engineer** + **Backend Developer** | ML Engineer exposes model via REST/gRPC endpoint with defined schema → Backend Developer integrates prediction API into product, handles fallback logic and caching | End-to-end model integration with Compliance violation and sub-100ms product-level latency |
 
 ---
 
@@ -315,49 +320,63 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a ai ml engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for ai-ml-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing ai ml engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Domain Benchmarks
 

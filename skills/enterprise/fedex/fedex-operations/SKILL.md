@@ -1,5 +1,10 @@
 ---
 name: fedex-operations
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: fedex-operations
+  - level: expert
 description: Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day delivery", "hub operations", "Purple Promise".
 license: MIT
 metadata:

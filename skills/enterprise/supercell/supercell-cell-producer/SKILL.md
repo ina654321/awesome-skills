@@ -1,5 +1,10 @@
 ---
 name: supercell-cell-producer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: supercell-cell-producer
+  - level: expert
 description: Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, player-centric design, and iterative development of hit mobile games. Use when: game-production, mobile-games, supercell, game-development, live-ops.
 license: MIT
 metadata:

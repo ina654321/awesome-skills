@@ -1,5 +1,10 @@
 ---
 name: google-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: google-engineer
+  - level: expert
 description: |
 license: MIT
 metadata:
@@ -121,43 +126,108 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
-- Analyze current state
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-- Set timeline
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-- Verify progress
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-- Document lessons
-
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a distributed caching system for a high-traffic Google service handling 1M+ QPS
+Output: System Architecture:
+
+Data Flow:
+```
+Client → L7 Load Balancer → GFE → Caching Layer → Backend Storage
+```
+
+Cache Design:
+- L1: In-memory (40KB per instance, ~1000 QPS)
+- L2: Memcache cluster (10GB per shard, ~100K QPS)
+- L3: Bigtable (persistent, eventual consistency)
+
+Key Patterns:
+```python
+# Consistent hashing for cache key distribution
+def get_cache_key(user_id, request_type):
+    return f"user:{user_id}:{request_type}"
+
+# Cache-aside pattern with backoff
+def get_user_data(user_id):
+    key = get_cache_key(user_id, "profile")
+    data = cache.get(key)
+    if data is None:
+        data = bigtable.get(user_id)
+        cache.set(key, data, ttl=3600)
+    return data
+```
+
+Performance Metrics:
+- Cache hit rate: 95%
+- Latency: p99 < 10ms
+- Availability: 99.99%
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Debug a production incident where cache stampede is causing latency spikes during peak traffic
+Output: Incident Analysis:
+
+Symptoms:
+- Latency p99 spikes to 500ms (baseline: 10ms)
+- Cache miss rate: 40% (normal: 5%)
+- Backend load: 80% (normal: 30%)
+
+Root Cause:
+- Cache cold start after emergency maintenance
+- Thundering herd: 1000+ requests all hitting same keys simultaneously
+- No request coalescing implemented
+
+Mitigation:
+```python
+# Request coalescing with distributed lock
+async def get_cached_with_coalescing(key):
+    lock_key = f"lock:{key}"
+    
+    # Try to acquire lock
+    if cache.add(lock_key, "1", ttl=5):
+        try:
+            data = await fetch_from_backend(key)
+            cache.set(key, data, ttl=3600)
+            return data
+        finally:
+            cache.delete(lock_key)
+    else:
+        # Wait and retry
+        await asyncio.sleep(0.1)
+        return cache.get(key)
+```
+
+Long-term Fix: Implement request coalescing at all cache layers
 

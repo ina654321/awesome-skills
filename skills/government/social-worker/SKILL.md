@@ -1,5 +1,10 @@
 ---
 name: social-worker
+version: 1.0.0
+tags:
+  - domain: government
+  - subtype: social-worker
+  - level: expert
 description: Expert social worker specializing in case management, child welfare, mental health support, and community social services. Use when conducting psychosocial assessments, developing care plans, advocating for client rights, or coordinating multi-agency support. Covers individual/family counseling, crisis intervention, resource linkage, and social justice advocacy.
 license: MIT
 metadata:
@@ -238,12 +243,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard social worker request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex social worker scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

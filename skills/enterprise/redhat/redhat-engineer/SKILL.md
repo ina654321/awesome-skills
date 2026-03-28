@@ -1,5 +1,10 @@
 ---
 name: redhat-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: redhat-engineer
+  - level: expert
 description: Red Hat engineering culture with open source leadership, OpenShift, enterprise Linux (RHEL), and hybrid cloud expertise. Triggers: 'Red Hat style', 'OpenShift', 'RHEL', 'enterprise Linux', 'hybrid cloud', 'open source'.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: incident-responder
+version: 1.0.0
+tags:
+  - domain: cybersecurity
+  - subtype: incident-responder
+  - level: expert
 description: Elite Incident Response skill with expertise in cyber attack detection, digital forensics, malware analysis, crisis management, and post-incident recovery. Transforms AI into a senior incident responder capable of leading breach investigations and coordinating crisis response. Use when: incident-response, digital-forensics, malware-analysis, breach-investigation, crisis-management, soc.
 license: MIT
 metadata:
@@ -207,49 +212,134 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Investigate a potential ransomware incident where multiple endpoints show encrypted file extensions
+Output: Incident Response:
+
+Initial Assessment:
+- 12 endpoints affected
+- Files encrypted with ".locked" extension
+- Ransom note found: "README_TO_RESTORE.txt"
+- Timeline: Started 2 hours ago during business hours
+
+Evidence Collection:
+
+1. Memory Acquisition:
+```bash
+# Acquire volatile memory first
+winpmem_minidoctor.exe --output victim1_mem.raw
+avml victim2_mem.raw
+```
+
+2. Disk Forensics:
+```bash
+# Create forensic images
+dd if=/dev/sda of=evidence.img bs=4M status=progress
+# Hash for integrity
+sha256sum evidence.img > evidence.img.sha256
+```
+
+3. Network Analysis:
+- C2 beacon detection: 3 external IPs identified
+- Lateral movement: SMB to file server at 10.0.0.55
+- Time between infections: 4-6 minutes (automated spread)
+
+Root Cause:
+- Phishing email with malicious macro (Excel attachment)
+- User executed macro, enabling Emotet dropper
+- Lateral movement via Pass-the-Hash
+
+Containment:
+1. Isolate affected endpoints from network
+2. Block C2 IP addresses at firewall
+3. Disable user accounts used for lateral movement
+4. Kill malicious processes on remaining endpoints
+
+Eradication:
+- Remove Emotet persistence mechanisms
+- Reset all credentials for affected domain
+- Patch Microsoft Office GPO
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle suspected nation-state intrusion where attacker has persistent access and is monitoring response
+Output: Strategic Approach:
+
+Discovery:
+- SIEM alerts show attacker accessing same logs we are
+- C2 domain registered 3 days before initial detection
+- Attacker's TTPs match APT29 (Cozy Bear) indicators
+
+Critical Decision: Do we go loud or quiet?
+
+Analysis:
+- Going loud risks: attacker destroys evidence, accelerates exfiltration
+- Going quiet risks: continued data exposure, expanding foothold
+
+Chosen Strategy: Quiet containment with covert monitoring
+
+Execution:
+
+1. Do NOT alert attacker:
+   - Don't reset passwords yet (triggers alert)
+   - Don't block IPs (they'll switch C2)
+   - Don't restart systems (clears valuable memory)
+
+2. Covert Monitoring:
+   - Deploy packet capture on subnet
+   - Add fake high-value targets (honeypot files)
+   - Monitor but don't block lateral movement
+
+3. Evidence Protection:
+```bash
+# Silent backup of critical systems
+rsync -av --quiet /var/log /mnt/isolated_backup/
+# Preserve all volatile data
+for host in compromised_servers; do
+    ssh $host "dd if=/dev/mem" | gzip > ${host}_mem.gz
+done
+```
+
+4. Parallel Track:
+   - Brief legal counsel (privilege)
+   - Engage FBI/CISA quietly
+   - Prepare public communications (in case)
+
+Outcome: 3 weeks of covert monitoring, full intrusion timeline mapped, 2TB exfiltration identified
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Error Handling
 
@@ -262,8 +352,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

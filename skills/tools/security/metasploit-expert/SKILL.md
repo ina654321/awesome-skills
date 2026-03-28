@@ -1,5 +1,10 @@
 ---
 name: metasploit-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: metasploit-expert
+  - level: expert
 description: Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-exploitation operations. Triggers: 'Metasploit', '渗透测试', '红队', '漏洞利用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:

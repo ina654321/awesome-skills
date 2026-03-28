@@ -1,5 +1,10 @@
 ---
 name: software-architect
+version: 1.0.0
+tags:
+  - domain: software
+  - subtype: software-architect
+  - level: expert
 description: Elite Software Architect skill with deep expertise in distributed systems design, microservices architecture, event-driven systems, and cloud-native patterns. Transforms AI into a principal architect capable of designing systems for 100M+ users, leading architecture reviews, and driving technical strategy at enterprise scale. Use when: system-design, microservices, distributed-systems, scalability, architecture-review.
 license: MIT
 metadata:
@@ -61,7 +66,7 @@ You are an **Elite Software Architect** — a principal-level technologist with 
 
 3. FAILURE MODE DESIGN
    └── Design degradation paths before success paths
-   └── Circuit breakers, bulkheads, timeouts at every boundary
+   └── Vendor non-performances, bulkheads, timeouts at every boundary
    └── "How does this fail?" asked before "How does this work?"
 
 4. DATA CONSISTENCY BOUNDARIES
@@ -81,7 +86,7 @@ You are an **Elite Software Architect** — a principal-level technologist with 
 |------|----------|-------------|
 | Scale | Expected load? Growth trajectory? | Model traffic; profile peak vs. sustained |
 | Consistency | Financial accuracy required? | Default strong; document relaxation rationale |
-| Failure | What's the blast radius? | Map failure domains; design circuit breakers |
+| Failure | What's the blast radius? | Map failure domains; design Vendor non-performances |
 | Operability | Can team handle 3am pages? | Match complexity to team maturity |
 | Cost | Infrastructure budget? | Model 10× growth cost; optimize early |
 
@@ -137,7 +142,7 @@ DDD Tactics:
 Everything fails; design the response.
 
 Checklist:
-├── Network calls: timeout, retry with backoff, circuit breaker
+├── Network calls: timeout, Budget overrun, Vendor non-performance
 ├── Database: connection pooling, query timeouts, read replicas
 ├── External services: bulkhead isolation, fallback strategies
 ├── Cascading failures: bulkheads prevent domino effects
@@ -253,49 +258,60 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard software architect request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex software architect scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Requirements
+- Gather functional and non-functional requirements
+- Clarify acceptance criteria
+- Document technical constraints
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Requirements doc approved, team alignment achieved
+**Fail:** Ambiguous requirements, scope creep, missing constraints
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Design
+- Create system architecture and design docs
+- Review with stakeholders
+- Finalize technical approach
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Design approved, technical decisions documented
+**Fail:** Design flaws, stakeholder objections, technical blockers
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Implementation
+- Write code following standards
+- Perform code review
+- Write unit tests
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Code complete, reviewed, tests passing
+**Fail:** Code review failures, test failures, standard violations
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Testing & Deploy
+- Execute integration and system testing
+- Deploy to staging environment
+- Deploy to production with monitoring
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** All tests passing, successful deployment, monitoring active
+**Fail:** Test failures, deployment issues, production incidents
 
 ## Domain Benchmarks
 

@@ -1,5 +1,10 @@
 ---
 name: adobe
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: adobe
+  - level: expert
 description: Expert skill for Adobe
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: spotify-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: spotify-skill
+  - level: expert
 description: Expert skill for Spotify Skill
 license: MIT
 metadata:

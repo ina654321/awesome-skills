@@ -1,5 +1,10 @@
 ---
 name: logistics-network-planner
+version: 1.0.0
+tags:
+  - domain: transportation
+  - subtype: logistics-network-planner
+  - level: expert
 description: Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Use when: logistics, supply-chain, network-design, route-optimization, warehouse.
 license: MIT
 metadata:
@@ -336,12 +341,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard logistics network planner request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex logistics network planner scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

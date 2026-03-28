@@ -1,5 +1,10 @@
 ---
 name: opentelemetry-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: opentelemetry-expert
+  - level: expert
 description: OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'.
 license: MIT
 metadata:

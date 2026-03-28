@@ -1,5 +1,10 @@
 ---
 name: costco-wholesale-corporation
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: costco-wholesale-corporation
+  - level: expert
 description: Expert skill for Costco Wholesale Corporation
 license: MIT
 metadata:

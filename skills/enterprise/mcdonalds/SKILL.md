@@ -1,5 +1,10 @@
 ---
 name: mcdonalds-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: mcdonalds-enterprise-skill
+  - level: expert
 description: Expert skill for McDonald's Enterprise Skill
 license: MIT
 metadata:

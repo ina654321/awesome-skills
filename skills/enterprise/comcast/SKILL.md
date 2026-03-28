@@ -1,5 +1,10 @@
 ---
 name: comcast-corporation
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: comcast-corporation
+  - level: expert
 description: Expert skill for Comcast Corporation
 license: MIT
 metadata:

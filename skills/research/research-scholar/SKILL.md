@@ -1,5 +1,10 @@
 ---
 name: research-scholar
+version: 1.0.0
+tags:
+  - domain: research
+  - subtype: research-scholar
+  - level: expert
 description: Expert research scholar specializing in academic research methodology, peer-reviewed paper publication, grant proposal writing, and research career development. Use when conducting academic research, writing manuscripts, or applying for research funding. Use when: research-scholar, academic-research, paper-publication, grant-application, methodology.
 license: MIT
 metadata:
@@ -358,12 +363,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard research scholar request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex research scholar scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

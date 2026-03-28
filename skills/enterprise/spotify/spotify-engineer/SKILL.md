@@ -1,5 +1,10 @@
 ---
 name: spotify-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: spotify-engineer
+  - level: expert
 description: Use when emulating Spotify's engineering methodology. Implements squad-based autonomous teams with BaRT recommendation systems and data-driven personalization. Triggers: "Spotify style", "squad model", "audio streaming", "music recommendation".
 license: MIT
 metadata:
@@ -955,12 +960,27 @@ Discuss monthly, track trends over time
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design and implement a spotify engineer solution for a production system
+Output: Requirements Analysis → Architecture Design → Implementation → Testing → Deployment → Monitoring
+
+Key considerations for spotify-engineer:
+- Scalability requirements
+- Performance benchmarks
+- Error handling and recovery
+- Security considerations
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Optimize existing spotify engineer implementation to improve performance by 40%
+Output: Current State Analysis:
+- Profiling results identifying bottlenecks
+- Baseline metrics documented
+
+Optimization Plan:
+1. Algorithm improvement
+2. Caching strategy
+3. Parallelization
+
+Expected improvement: 40-60% performance gain
 
 
 

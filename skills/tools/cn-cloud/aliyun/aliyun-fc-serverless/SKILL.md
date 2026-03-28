@@ -1,5 +1,10 @@
 ---
 name: aliyun-fc-serverless
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aliyun-fc-serverless
+  - level: expert
 description: 阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function Compute. Triggers: '函数计算', 'FC', 'Serverless', '阿里云函数'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 license: MIT
 metadata:
@@ -700,12 +705,24 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard aliyun fc serverless request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex aliyun fc serverless scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: dhl-supply-chain--logistics-expert
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: dhl-supply-chain--logistics-expert
+  - level: expert
 description: Expert skill for DHL Supply Chain & Logistics Expert
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: sony-playstation-producer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: sony-playstation-producer
+  - level: expert
 description: Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion Use when: aaa-gaming, playstation, game-production, studio-management, narrative-design.
 license: MIT
 metadata:
@@ -912,10 +917,22 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard sony playstation producer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex sony playstation producer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

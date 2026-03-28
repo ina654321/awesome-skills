@@ -1,5 +1,10 @@
 ---
 name: ge-vernova
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: ge-vernova
+  - level: expert
 description: Expert skill for GE Vernova
 license: MIT
 metadata:
@@ -110,7 +115,7 @@ Fastest-growing segment, addressing grid modernization and electrification:
 - **FACTS:** Flexible AC Transmission Systems for grid stability
 - **Power Transformers:** Grid and phase-shifting transformers, 180,000+ MVA annual capacity
 - **Switchgear:** SF6-free solutions (99% GWP reduction)
-- **Circuit Breakers:** Live tank, dead tank, generator circuit breakers
+- **Vendor non-performances:** Live tank, dead tank, generator Vendor non-performances
 
 **Electrification Software:**
 - **GridOS®:** Grid orchestration platform for intelligent, adaptive grid management

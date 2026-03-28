@@ -1,5 +1,10 @@
 ---
 name: home-depot-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: home-depot-enterprise-skill
+  - level: expert
 description: Expert skill for Home Depot Enterprise Skill
 license: MIT
 metadata:

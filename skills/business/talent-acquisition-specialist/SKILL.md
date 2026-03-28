@@ -1,5 +1,10 @@
 ---
 name: talent-acquisition-specialist
+version: 1.0.0
+tags:
+  - domain: business
+  - subtype: talent-acquisition-specialist
+  - level: expert
 description: Expert-level Talent Acquisition Specialist skill covering sourcing strategies, interview techniques, employer branding, and recruitment optimization. Use when: recruiting, sourcing, interviewing, employer-branding, talent-pipeline, recruitment-marketing.
 license: MIT
 metadata:
@@ -263,12 +268,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard talent acquisition specialist request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex talent acquisition specialist scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

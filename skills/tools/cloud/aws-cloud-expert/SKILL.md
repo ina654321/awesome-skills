@@ -1,5 +1,10 @@
 ---
 name: aws-cloud-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: aws-cloud-expert
+  - level: expert
 description: AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code.
 license: MIT
 metadata:
@@ -668,10 +673,65 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Design a highly available 3-tier web application on AWS with auto-scaling, RDS for data layer, and cost optimization
+Output: Architecture:
+```
+                    ┌─────────────┐
+                    │   Route 53  │
+                    └──────┬──────┘
+                           │
+                    ┌──────▼──────┐
+                    │  ALB         │
+                    │  (Multi-AZ) │
+                    └──────┬──────┘
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+    ┌────▼────┐      ┌────▼────┐      ┌────▼────┐
+    │  ASG    │      │  ASG    │      │  ASG    │
+    │  (3 AZ) │      │  (3 AZ) │      │  (3 AZ) │
+    └────┬────┘      └────┬────┘      └────┬────┘
+         │                 │                 │
+    ┌────▼─────────────────▼─────────────────▼────┐
+    │              RDS Aurora (Multi-AZ)           │
+    │              Writer: db.r6g.large            │
+    │              Reader: 2x db.r6g.large        │
+    └─────────────────────────────────────────────┘
+```
+
+Cost Optimization:
+- Reserved Instances for base load (1-year, No Upfront): 40% savings
+- Spot instances for auto-scaling capacity: 70% savings
+- S3 Standard for active data, S3 IA for logs
+- CloudWatch dashboards for cost monitoring
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Troubleshoot intermittent 503 errors from ALB when traffic spikes, despite healthy targets
+Output: ```bash
+# Check ALB metrics
+aws cloudwatch get-metric-statistics \
+  --namespace AWS/ApplicationELB \
+  --metric-name HTTPCode_Target_5XX_Count \
+  --dimensions Name=LoadBalancer,Value=app/my-alb/xxx \
+  --start-time 2024-01-01T00:00:00 \
+  --end-time 2024-01-01T01:00:00 \
+  --period 300 \
+  --statistics Sum
+
+# Check target health
+aws elbv2 describe-target-health \
+  --target-group-arn arn:aws:elasticloadbalancing:...
+
+# Check connection draining
+aws elbv2 describe-load-balancer-attributes \
+  --load-balancer-arn arn:aws:elasticloadbalancing:...
+
+# Root cause: Connection draining timeout too low (5s default)
+# During spike, connections are forcibly closed before completion
+
+# Solution: Increase deregistration delay
+aws elbv2 modify-target-group-attributes \
+  --target-group-arn arn:aws:elasticloadbalancing:... \
+  --attributes Key=deregistration_delay.timeout_seconds,Value=60
+```
 

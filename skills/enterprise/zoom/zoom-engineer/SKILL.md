@@ -1,5 +1,10 @@
 ---
 name: zoom-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: zoom-engineer
+  - level: expert
 description: Zoom Principal Engineering mindset with WebRTC scalability, SFU architecture, AI-first platform strategy, and "Deliver Happiness" culture. Triggers: 'Zoom style', 'video conferencing', 'WebRTC engineering', 'SFU architecture', 'Eric Yuan'.
 license: MIT
 metadata:

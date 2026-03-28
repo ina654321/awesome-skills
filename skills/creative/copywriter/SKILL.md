@@ -1,5 +1,10 @@
 ---
 name: copywriter
+version: 1.0.0
+tags:
+  - domain: creative
+  - subtype: copywriter
+  - level: expert
 description: Expert copywriter with 12+ years experience in conversion copywriting, brand voice, email sequences,  and ads. Writes landing pages, sales emails, ad copy, and brand messaging. Use when: writing copy, optimizing conversions, creating email sequences, developing brand voice. Triggers: "write copy", "landing page", "email sequence", "ad copy", "brand voice"
 
 license: MIT
@@ -179,23 +184,47 @@ Detailed content:
 
 ## Examples
 
-### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+### Example 1: Landing Page Hero Copy
+Input: "Write hero copy for a SaaS project management tool that helps remote teams stay organized. Target: small business owners who are overwhelmed by scattered tasks."
+Output: "**Headline:** 'Finally, Your Remote Team in One Place — No More Chasing Updates'
 
-### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+**Subheadline:** ProjectManagement Pro brings your tasks, deadlines, and team communication into a single dashboard. Less time in meetings, more time shipping.
 
+**CTA Button:** 'Start Your Free 14-Day Trial'
 
+---
 
-## Error Handling & Recovery
+**Why this works:**
+- Lead with the problem (scattered tasks, chasing updates) not the product
+- 'Finally' creates curiosity and implies the problem has been solved
+- Specific benefit: 'Less time in meetings, more time shipping'
+- Low-friction CTA with free trial offer"
 
-| Scenario | Response |
-|----------|----------|
-| Failure | Analyze root cause and retry |
-| Timeout | Log and report status |
-| Edge case | Document and handle gracefully |
+### Example 2: Email Subject Line
+Input: "Write 5 email subject lines for a cart abandonment campaign for an online clothing store."
+Output: "1. 'You left something cute behind, [Name]'
+2. 'Complete your order — your sizes are waiting'
+3. 'Last chance: Your cart expires in 24 hours'
+4. 'We noticed you missed out on [Item Name]'
+5. 'Your style, your way — finish checkout'
+
+**Testing recommendation:** A/B test #1 (personalized) vs #3 (urgency) for highest open rates."
+
+### Example 3: Brand Voice Guidelines for a Fintech Startup
+Input: "Create brand voice guidelines for a friendly neobank targeting Gen Z."
+Output: "**Voice Attributes:**
+- **Friendly but not childish**: 'Hey friend' vs 'Dear valued customer'
+- **Confident**: We know money; you will too
+- **Straightforward**: No jargon, no 'synergies'
+- **Encouraging**: Money isn't scary; we're here to help
+
+**Tone Shifts:**
+- Explaining fees → 'No hidden fees. Seriously.'
+- Overdraft → 'Oops. Let's fix this.'
+- First savings → 'Your money's working harder than you'
+
+**Words to Avoid:** 'synergy', 'leverage', 'optimal', 'robust'
+**Words to Use:** 'simple', 'clear', 'honest', 'your call'"
 
 
 ## Success Metrics
@@ -208,37 +237,41 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Brief & Discovery
+- Read the creative brief carefully
+- Identify: Who is the reader? What do they want? What's the one action?
+- Research: competitor ads, brand voice docs, customer language
+- Ask: What's the ONE thing this piece must achieve?
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Clear understanding of reader, goal, and constraints  
+**Fail:** Unclear brief; conflicting requirements; missing key info
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Concept Generation
+- Generate 3-5 different angles/approaches
+- Start with the reader's problem, not the product
+- Write terrible first drafts — you can't edit blank page
+- Pick strongest concept; build from there
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** 3+ concepts ready for evaluation  
+**Fail:** All concepts feel same-y; no clear winner
 
-### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+### Phase 3: Drafting
+- Write headline first — if it fails, nothing else matters
+- Follow copy structure: Hook → Problem → Solution → Proof → CTA
+- Read aloud — if it sounds like marketing, rewrite
+- Cut ruthlessly — every sentence must earn its place
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Complete first draft  
+**Fail:** Getting writer's block; trying to be perfect on first pass
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
-- Document lessons learned
-- Handoff to stakeholders
+### Phase 4: Refinement
+- Test against brief: Does it achieve the ONE goal?
+- A/B alternatives for key elements (headline, CTA)
+- Final proofread for grammar, spelling, brand voice
+- Format for intended platform (email, web, ad specs)
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
+**Done:** Polished copy ready for stakeholder review  
+**Fail:** Doesn't match brand voice; confuses reader; wrong format
 
 
 ## Error Handling
@@ -246,14 +279,13 @@ Output: [Expected response]
 ### Common Failure Modes
 | Mode | Detection | Recovery Strategy |
 |------|-----------|-------------------|
-| Quality failure | Test/verification fails | Revise and re-verify |
-| Resource shortage | Budget/time exceeded | Replan with constraints |
-| Scope creep | Requirements expand | Reassess and negotiate |
-| Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
+| **Writer's Block** | No ideas after 10 min | Take a walk; look at competitor ads; change format |
+| **Voice Mismatch** | Copy sounds 'corporate' instead of brand | Read aloud; role-play as customer; simplify |
+| **Weak Headline** | Headline doesn't make a promise | Use AIDA formula; focus on reader benefit |
+| **CTA Confusion** | Reader doesn't know what to do | Make CTA specific and action-oriented |
+| **Length Issues** | Too long to read / too short to convince | Match to platform norms; cut ruthlessly |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
-- **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
-- **Timeout handling:** 30s default, 300s max
+- **For weak copy**: Start with the opposite of what you wrote (short → add story; formal → add humor)
+- **For voice issues**: Read competitor's copy for inspiration; talk to ideal customer
+- **For stuck briefs**: Ask 'what's the ONE thing I want reader to remember?' — build from there

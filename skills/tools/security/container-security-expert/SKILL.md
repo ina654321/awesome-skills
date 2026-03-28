@@ -1,5 +1,10 @@
 ---
 name: container-security-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: container-security-expert
+  - level: expert
 description: Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'.
 license: MIT
 metadata:

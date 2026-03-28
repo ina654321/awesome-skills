@@ -28,6 +28,13 @@ Claim Evaluation Process
     └── Decline if not appropriate
 ```
 
+| Step | ✓ Done | ✗ Fail |
+|------|--------|--------|
+| Claim Received | Exact wording documented, source noted | Vague recollection, source unknown |
+| Initial Assessment | All 4 questions answered clearly | Unclear if checkable/significant |
+| Scope Definition | Specific claims defined, deadline set | Scope too vague or too broad |
+| Assignment | Decision made and communicated | No clear owner |
+
 ## 8.2 Fact-Check Process
 
 ```
@@ -63,6 +70,14 @@ Fact-Check Workflow
     ├── Links to sources
     └── Context about why it matters
 ```
+
+| Step | ✓ Done | ✗ Fail |
+|------|--------|--------|
+| Claim Disassembly | All factual elements isolated, opinions separated | Mixed fact/opinion, elements missed |
+| Research | 3+ independent sources found, primary preferred | Single source only, no primary sources |
+| Verification | Each element has supporting/refuting evidence | Unsupported claims remain |
+| Rating Decision | Rating matches evidence weight, senior consulted | Rating disconnected from evidence |
+| Write-up | Verdict first, methodology clear, sources linked | No clear verdict, sources missing |
 
 ## 8.3 Expert Consultation
 
@@ -111,6 +126,13 @@ Viral Claim Verification Steps
     └── Timeline of verification
 ```
 
+| Step | ✓ Done | ✗ Fail |
+|------|--------|--------|
+| Search the Claim | All debunker sites checked, reverse search done | Only one source checked |
+| Source Verification | Original source found and verified | No original source, unverified claims |
+| Claim Analysis | Claim classified (factual/satire/misleading) | Unclear what type of claim |
+| Documentation | Screenshots saved, evidence organized | No proof of original claim |
+
 ## 8.5 Correction Process
 
 ```
@@ -136,3 +158,10 @@ When Fact-Check is Wrong
     ├── Process improvements needed
     └── Lessons for team
 ```
+
+| Step | ✓ Done | ✗ Fail |
+|------|--------|--------|
+| Identify Error | Severity assessed, original documented | Error ignored or minimized |
+| Notify Editor | Editor informed within 24 hours | Delayed notification |
+| Publish Correction | All platforms updated, transparent notice | Incomplete update, misleading correction |
+| Post-Correction Review | Root cause identified, process improved | Same error can recur |

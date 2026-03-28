@@ -1,5 +1,10 @@
 ---
 name: pandas-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: pandas-expert
+  - level: expert
 description: Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use when analyzing data, building ETL pipelines, or data manipulation with Python.
 license: MIT
 metadata:
@@ -656,12 +661,58 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Clean and merge 3 CSV files (customers, orders, products) to create a sales summary with customer lifetime value
+Output: ```python
+import pandas as pd
+
+# Load data
+customers = pd.read_csv('customers.csv')
+orders = pd.read_csv('orders.csv')
+products = pd.read_csv('products.csv')
+
+# Merge tables
+merged = orders.merge(customers, on='customer_id').merge(products, on='product_id')
+
+# Calculate customer lifetime value
+clv = merged.groupby('customer_name').agg({
+    'order_id': 'count',
+    'total': ['sum', 'mean']
+}).round(2)
+clv.columns = ['order_count', 'total_revenue', 'avg_order_value']
+
+# Add decile ranking
+clv['decile'] = pd.qcut(clv['total_revenue'], q=4, labels=['Bronze', 'Silver', 'Gold', 'Platinum'])
+
+print(clv.sort_values('total_revenue', ascending=False).head(10))
+```
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle missing values and duplicates in a time series dataset with irregular timestamps
+Output: ```python
+import pandas as pd
+import numpy as np
+
+# Sample data with missing values
+df = pd.read_csv('sensor_data.csv', parse_dates=['timestamp'])
+df = df.sort_values('timestamp')
+
+# Forward fill missing values (max 4 hours)
+df['temperature'] = df['temperature'].fillna(method='ffill', limit=4)
+
+# Backward fill for leading NaNs
+df['temperature'] = df['temperature'].fillna(method='bfill')
+
+# Remove exact duplicates
+df = df.drop_duplicates(subset=['timestamp'], keep='first')
+
+# Interpolate for remaining gaps
+df['temperature'] = df['temperature'].interpolate(method='time')
+
+# Resample to regular 5-minute intervals
+df = df.set_index('timestamp').resample('5T').mean().reset_index()
+
+print(f"Cleaned {len(df)} records from original data")
+```
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: financial-analyst
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: financial-analyst
+  - level: expert
 description: Expert Financial Analyst for FP&A, DCF/LBO modeling, management reporting, and capital markets analysis. Use when: "build DCF", "analyze variance", "LBO model", "budget forecast", "valuation", "FP&A", "financial model review" Works with: CFO skill for capital allocation, CPA skill for GAAP accuracy.
 
 license: MIT
@@ -475,12 +480,66 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Build a DCF model for a SaaS company with $10M ARR, 80% gross margins, and 50% year-over-year growth
+Output: DCF Analysis - SaaS Company:
+
+Assumptions:
+- ARR: $10M (Year 0)
+- Growth Rate: 50% YoY (Year 1-3), 30% (Year 4-5)
+- Gross Margin: 80%
+- Operating Expenses: 70% of revenue (scaling down)
+- NTM Target: 8x revenue
+- Discount Rate: 12% (WACC)
+
+Revenue Projections:
+| Year | ARR | Growth |
+|------|-----|-------|
+| 0 | $10.0M | - |
+| 1 | $15.0M | 50% |
+| 2 | $22.5M | 50% |
+| 3 | $33.8M | 50% |
+| 4 | $43.9M | 30% |
+| 5 | $57.1M | 30% |
+
+FCF Calculation:
+| Year | Revenue | Gross Profit | OpEx | FCF |
+|------|---------|--------------|------|-----|
+| 1 | $15.0M | $12.0M | $10.5M | $1.5M |
+| 5 | $57.1M | $45.7M | $34.3M | $11.4M |
+
+DCF Result: Enterprise Value = $285M
+Implied Multiple: 19x NTM Revenue
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Investigate significant variance between budget and actual for Q4, where revenue is 15% below budget but expenses are only 5% below
+Output: Variance Analysis - Q4 Investigation:
+
+Budget vs. Actual:
+| Line Item | Budget | Actual | Variance | % |
+|-----------|--------|--------|----------|---|
+| Revenue | $50.0M | $42.5M | -$7.5M | -15% |
+| COGS | $20.0M | $17.5M | -$2.5M | -12.5% |
+| Gross Profit | $30.0M | $25.0M | -$5.0M | -16.7% |
+
+Root Cause Analysis:
+1. Revenue shortfall investigation:
+   - Volume variance: -$4.0M (units sold 8% below plan)
+   - Price variance: -$3.5M (average selling price 7% below plan)
+   
+2. Key drivers identified:
+   - Competitor launched similar product in October
+   - Sales team turnover in Q3 impacted pipeline
+   - Pricing strategy didn't account for market shift
+
+3. Expense variance:
+   - COGS: Favorable due to volume shortfall
+   - OpEx: Only 5% favorable despite revenue miss
+   - Cost structure more fixed than anticipated
+
+Recommendation: 
+- Immediate: Price optimization review
+- Q1: Sales enablement and hiring plan
+- Strategic: Product differentiation assessment
 
 
 

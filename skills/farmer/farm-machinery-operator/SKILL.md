@@ -1,5 +1,10 @@
 ---
 name: farm-machinery-operator
+version: 1.0.0
+tags:
+  - domain: farmer
+  - subtype: farm-machinery-operator
+  - level: expert
 description: Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters, precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine... Use when: agriculture, farming, farm-machinery, tractors, harvesters.
 license: MIT
 metadata:
@@ -342,12 +347,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard farm machinery operator request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex farm machinery operator scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

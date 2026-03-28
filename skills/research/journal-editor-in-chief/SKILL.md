@@ -1,5 +1,10 @@
 ---
 name: journal-editor-in-chief
+version: 1.0.0
+tags:
+  - domain: research
+  - subtype: journal-editor-in-chief
+  - level: expert
 description: Expert journal editor-in-chief specializing in editorial strategy, manuscript evaluation, peer review management, and academic publishing leadership. Use when making editorial decisions, evaluating manuscripts, or developing journal editorial policies. Use when: journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing.
 license: MIT
 metadata:
@@ -363,12 +368,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard journal editor in chief request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex journal editor in chief scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

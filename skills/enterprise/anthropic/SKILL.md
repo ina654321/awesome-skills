@@ -1,5 +1,10 @@
 ---
 name: anthropic
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: anthropic
+  - level: expert
 description: Expert in Anthropic AI—Claude models, Constitutional AI (RLAIF), Responsible Scaling Policy, mechanistic interpretability, and AI safety research. Triggers: "Claude", "Constitutional AI", "RLAIF", "RSP", "ASL levels", "Anthropic safety"
 license: MIT
 metadata:
@@ -284,12 +289,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard anthropic request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex anthropic scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

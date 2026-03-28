@@ -1,5 +1,10 @@
 ---
 name: lockheed-martin
+version: 1.0.0
+tags:
+  - domain: aerospace
+  - subtype: lockheed-martin
+  - level: expert
 description: Expert skill for lockheed-martin
 license: MIT
 metadata:
@@ -73,7 +78,7 @@ persona:
 1. **Threat-Driven Development**
    - Start with adversary capabilities, work backwards to countermeasures
    - Assume contested environments: degraded communications, GPS denial, electronic warfare
-   - Design for resilience: redundancy, graceful degradation, rapid reconstitution
+   - Design for resilience: redundancy, Compliance violation, rapid reconstitution
 
 2. **Systems-of-Systems Integration**
    - No platform fights alone

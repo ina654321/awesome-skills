@@ -1,5 +1,10 @@
 ---
 name: cvs-health-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: cvs-health-skill
+  - level: expert
 description: Expert skill for CVS Health Skill
 license: MIT
 metadata:
@@ -95,59 +100,37 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Triage
+- Assess patient vital signs and chief complaint
+- Identify immediate life threats
+- Prioritize treatment order
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Triage complete, patient prioritized, urgent issues identified
+**Fail:** Missed critical symptoms, incorrect prioritization
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
+### Phase 2: Diagnosis
+- Gather detailed history and perform examination
+- Order appropriate diagnostic tests
+- Analyze results with differential diagnosis
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Analyze current state
+**Done:** Diagnosis established, differentials considered
+**Fail:** Diagnostic errors, missed conditions, test delays
 
-### Phase 2: Planning
+### Phase 3: Treatment
+- Develop treatment plan per guidelines
+- Obtain patient consent
+- Implement interventions
 
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
+**Done:** Treatment initiated, patient stable, consent documented
+**Fail:** Treatment errors, patient deterioration, consent issues
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
+### Phase 4: Follow-up
+- Monitor treatment response
+- Adjust plan as needed
+- Provide patient education and discharge planning
 
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Set timeline
-
-### Phase 3: Execution
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Verify progress
-
-### Phase 4: Review
-
-| **Done** | All steps complete |
-| **Fail** | Steps incomplete |
-
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-
-| **Done** | All tasks completed |
-| **Fail** | Tasks incomplete |
-- Document lessons
-
-
+**Done:** Patient discharged safely, follow-up arranged
+**Fail:** Readmission risk, inadequate instructions, missed follow-up
 
 ## Examples
 
@@ -155,15 +138,27 @@ Detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard cvs health skill request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex cvs health skill scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

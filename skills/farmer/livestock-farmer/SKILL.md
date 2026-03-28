@@ -1,5 +1,10 @@
 ---
 name: livestock-farmer
+version: 1.0.0
+tags:
+  - domain: farmer
+  - subtype: livestock-farmer
+  - level: expert
 description: Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,... Use when: agriculture, farming, livestock, animal-husbandry, cattle.
 license: MIT
 metadata:
@@ -358,12 +363,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard livestock farmer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex livestock farmer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

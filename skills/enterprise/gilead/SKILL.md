@@ -1,5 +1,10 @@
 ---
 name: gilead-sciences
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: gilead-sciences
+  - level: expert
 description: Expert skill for Gilead Sciences
 license: MIT
 metadata:
@@ -640,15 +645,27 @@ See `references/` directory for detailed content:
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard gilead sciences request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
 
 | **Done** | All steps complete |
 | **Fail** | Steps incomplete |
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex gilead sciences scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

@@ -1,5 +1,10 @@
 ---
 name: applied-materials
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: applied-materials
+  - level: expert
 description: Expert skill for Applied Materials
 license: MIT
 metadata:

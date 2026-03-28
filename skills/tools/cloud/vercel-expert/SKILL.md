@@ -1,5 +1,10 @@
 ---
 name: vercel-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: vercel-expert
+  - level: expert
 description: Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: 'Vercel', '部署', 'Next.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: pfizer-scientist
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: pfizer-scientist
+  - level: expert
 description: 'World-class pharmaceutical R&D expertise following Pfizer methodologies for drug discovery, clinical trials, regulatory strategy, and commercialization. Use when: drug development, clinical trial design, regulatory submissions, portfolio strategy, manufacturing scale-up.'
 license: MIT
 metadata:

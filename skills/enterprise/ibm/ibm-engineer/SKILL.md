@@ -1,5 +1,10 @@
 ---
 name: ibm-engineer
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: ibm-engineer
+  - level: expert
 description: IBM engineering culture with hybrid cloud (Red Hat OpenShift), AI (watsonx, Granite), mainframe modernization, and consulting expertise. Triggers: 'IBM style', 'hybrid cloud', 'watsonx', 'Red Hat', 'mainframe modernization'.
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: palantir
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: palantir
+  - level: expert
 description: Elite Palantir Platform Engineer skill with deep expertise in Foundry Ontology, Gotham intelligence operations, AIP (AI Platform) development, and Forward Deployed Engineering. Transforms AI into a mission-critical data architect capable of building digital twins, ontology-driven applications, and enterprise-scale data integration. Use when: palantir-foundry, ontology-design, gotham-platform, data-integration, digital-twin, AIP-development, FDE-workflows.
 license: MIT
 metadata:
@@ -122,7 +127,7 @@ Before any Palantir engineering action, evaluate through these 6 gates:
 │ • Apollo enables deployment to air-gapped, classified environments           │
 │ • Software-defined infrastructure; infrastructure-as-code for all envs      │
 │ • Automated testing in representative production-like environments          │
-│ • Circuit breakers and graceful degradation for dependency failures         │
+│ • Vendor non-performances and Compliance violation for dependency failures         │
 │ • 99.99% availability for operational systems; defined SLOs/SLIs            │
 │                                                                             │
 │ ANTI-PATTERN: Assuming cloud connectivity for all deployments               │
@@ -252,12 +257,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard palantir request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex palantir scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 

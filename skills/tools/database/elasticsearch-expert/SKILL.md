@@ -1,5 +1,10 @@
 ---
 name: elasticsearch-expert
+version: 1.0.0
+tags:
+  - domain: tools
+  - subtype: elasticsearch-expert
+  - level: expert
 description: Elasticsearch expert specializing in mapping design, query DSL, aggregation analysis, and cluster management. Use when: building search systems, log analysis, or full-text search.
 license: MIT
 metadata:

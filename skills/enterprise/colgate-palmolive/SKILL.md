@@ -1,5 +1,10 @@
 ---
 name: colgate-palmolive-brand-manager
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: colgate-palmolive-brand-manager
+  - level: expert
 description: Colgate-Palmolive Brand Manager expertise for CPG brand management and global operations.
 Guides strategy for Colgate oral care, Palmolive personal care, Hill's pet nutrition,
 and professional oral care. Specializes in emerging markets growth, pricing strategy,
@@ -141,43 +146,57 @@ Detailed content:
 
 ## Workflow
 
-### Phase 1: Assessment
+### Phase 1: Planning
+- Define audit scope and objectives
+- Identify key risk areas and materiality thresholds
+- Assemble audit team and resources
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Gather requirements
-- Analyze current state
+**Done:** Audit plan approved, team briefed, timeline established
+**Fail:** Scope ambiguity, resource constraints, stakeholder misalignment
 
-### Phase 2: Planning
+### Phase 2: Risk Assessment
+- Perform risk matrix analysis
+- Identify fraud risks and significant estimates
+- Document internal controls
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Develop approach
-- Set timeline
+**Done:** Risk assessment complete, fraud risks identified
+**Fail:** Missed risk areas, inadequate fraud consideration
 
-### Phase 3: Execution
+### Phase 3: Testing
+- Execute audit procedures per plan
+- Gather sufficient appropriate evidence
+- Document findings and exceptions
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Implement solution
-- Verify progress
+**Done:** Testing complete, evidence documented, findings drafted
+**Fail:** Insufficient evidence, scope limitations, access issues
 
-### Phase 4: Review
+### Phase 4: Findings & Reporting
+- Draft findings with root cause analysis
+- Review with management
+- Issue final report
 
-| **Done** | Phase completed |
-| **Fail** | Criteria not met |
-- Validate outcomes
-- Document lessons
-
-
+**Done:** Final report issued, management responses obtained
+**Fail:** Report delays, unresolved management disputes
 
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard colgate palmolive brand manager request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex colgate palmolive brand manager scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 

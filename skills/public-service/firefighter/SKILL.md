@@ -1,5 +1,10 @@
 ---
 name: firefighter
+version: 1.0.0
+tags:
+  - domain: public-service
+  - subtype: firefighter
+  - level: expert
 description: Fire suppression, rescue operations, hazmat response, incident command protocols. Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention.
 license: MIT
 metadata:
@@ -245,12 +250,81 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Respond to a structure fire in a 2-story residential home with possible occupants trapped
+Output: Incident Response:
+
+Size-up (30 seconds):
+- 2-story, single-family home
+- Heavy fire showing from Charlie side, 2nd floor
+- Smoke conditions: moderate, pushng windows
+- Neighbors report 2 occupants unaccounted for
+
+Incident Command:
+```
+IC: Captain Johnson
+Strategy: Offensive (interior attack)
+Tactical Assignments:
+- Attack Line: Engine 1 (primary search, Kitchen/BD1)
+- Backup Line: Engine 3 (backup, support search)
+- Vent Team: Truck 1 (vertical ventilation, roof)
+- Rescue: Squad 2 (search and rescue)
+- EMS: Medic 1 (staging, rehab)
+```
+
+Search and Rescue:
+- Primary: Team A sweeps first floor, bedroom 1
+- Secondary: Team B sweeps second floor, 2 occupants located
+- Victim: Elderly male, 75 y/o, found in bedroom, transported
+
+Fire Attack:
+- 1.75" line, direct attack on fire room
+- Kitchen fire, extension to living room
+- Knockdown: 12 minutes
+- Overhaul: 25 minutes
+
+Outcome: 2 victims rescued, fire controlled, property saved (60%)
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Handle a hazmat incident involving unknown chemical spill in an industrial facility with multiple casualties
+Output: Hazmat Response:
+
+Initial Report:
+- Unknown liquid spill, ~500 gallons
+- 3 workers down, exposure symptoms
+- Industrial facility, EPA regulated site
+- Shipping manifests available from security
+
+Immediate Actions:
+1. Establish hot zone (300 ft radius)
+2. Request hazmat team (Level A/B suits)
+3. Request additional EMS resources
+4. Notify EPA, local emergency management
+
+Information Gathering:
+```bash
+# Request shipping documents
+IC → Facility Manager: "Get me the SDS binder, 
+                          shipping manifests, 
+                          and inventory list NOW"
+```
+
+Chemical Identification:
+- Container labels: Corrosive, UN1805
+- SDS: Phosphoric acid solution
+- Incompatibility: Bases, oxidizers
+
+Victim Management:
+- 3 casualties, chemical burns, respiratory distress
+- Decon before transport (gross decon, 500 gal water)
+- Level A decon for responders
+
+Containment:
+- Dike spill area
+- Transfer to salvage container
+- Ventilation: positive pressure fans
+- Air monitoring: pH, VOCs, LEL
+
+Duration: 6 hours to stabilize, 24 hours full remediation
 
 
 
@@ -265,38 +339,37 @@ Output: [Expected response]
 
 ## Workflow
 
-### Phase 1: Assessment
-- Gather requirements and constraints
-- Analyze current state and gaps
-- Define success criteria
+### Phase 1: Board Prep
+- Review agenda items and background materials
+- Assess stakeholder concerns and priorities
+- Prepare briefing documents and analysis
 
-**Done:** All requirements documented, stakeholder sign-off  
-**Fail:** Incomplete requirements, unclear scope
+**Done:** Board materials complete, executive alignment achieved
+**Fail:** Incomplete materials, unresolved executive concerns
 
-### Phase 2: Planning
-- Develop solution approach
-- Identify resources and timeline
-- Risk assessment and mitigation plan
+### Phase 2: Strategy
+- Analyze market conditions and competitive landscape
+- Define strategic objectives and key initiatives
+- Resource allocation and priority setting
 
-**Done:** Plan approved by stakeholders  
-**Fail:** Plan not feasible, resource gaps
+**Done:** Strategic plan drafted, board consensus on direction
+**Fail:** Unclear strategy, resource conflicts, stakeholder misalignment
 
 ### Phase 3: Execution
-- Implement solution per plan
-- Continuous progress monitoring
-- Adjust as needed based on feedback
+- Implement strategic initiatives per plan
+- Monitor KPIs and progress metrics
+- Course correction based on feedback
 
-**Done:** Implementation complete, all tests pass  
-**Fail:** Critical blockers, quality issues
+**Done:** Initiative milestones achieved, KPIs trending positively
+**Fail:** Missed milestones, significant KPI degradation
 
-### Phase 4: Review & Validation
-- Validate outcomes against criteria
+### Phase 4: Board Review
+- Present results to board
 - Document lessons learned
-- Handoff to stakeholders
+- Update strategic plan for next cycle
 
-**Done:** Stakeholder acceptance, documentation complete  
-**Fail:** Quality gaps, unresolved issues
-
+**Done:** Board approval, documented learnings, updated strategy
+**Fail:** Board rejection, unresolved concerns
 
 ## Error Handling
 
@@ -309,8 +382,8 @@ Output: [Expected response]
 | Safety incident | Risk threshold exceeded | Stop, mitigate, restart |
 
 ### Recovery Strategies
-- **Retry with exponential backoff** for transient failures
+- **Retry with Budget overrun** for transient failures
 - **Fallback to default values** when primary approach fails
-- **Circuit breaker:** 3 failures → 60s cooldown
-- **Graceful degradation** for non-critical issues
+- **Vendor non-performance:** 3 failures → 60s cooldown
+- **Compliance violation** for non-critical issues
 - **Timeout handling:** 30s default, 300s max

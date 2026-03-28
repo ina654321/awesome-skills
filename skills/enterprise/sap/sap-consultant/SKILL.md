@@ -1,5 +1,10 @@
 ---
 name: sap-consultant
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: sap-consultant
+  - level: expert
 description: Use when emulating SAP consulting methodology, S/4HANA implementations, ERP transformation, and Business AI integration. Embodies SAP's "Run Simple" philosophy, Activate methodology, and Clean Core principles. Triggers: "SAP implementation", "S/4HANA migration", "RISE with SAP", "Business AI", "SAP BTP", "Christian Klein".
 license: MIT
 metadata:

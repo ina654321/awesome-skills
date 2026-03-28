@@ -1,5 +1,10 @@
 ---
 name: john-deere-enterprise-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: john-deere-enterprise-skill
+  - level: expert
 description: Expert skill for John Deere Enterprise Skill
 license: MIT
 metadata:

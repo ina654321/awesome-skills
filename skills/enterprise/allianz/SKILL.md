@@ -1,5 +1,10 @@
 ---
 name: allianz-skill
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: allianz-skill
+  - level: expert
 description: Expert skill for Allianz Skill
 license: MIT
 metadata:

@@ -1,5 +1,10 @@
 ---
 name: shopify
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: shopify
+  - level: expert
 description: Expert skill for Shopify
 license: MIT
 metadata:

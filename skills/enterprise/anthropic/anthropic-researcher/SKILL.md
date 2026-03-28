@@ -1,5 +1,10 @@
 ---
 name: anthropic-researcher
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: anthropic-researcher
+  - level: expert
 description: Expert skill for anthropic-researcher
 license: MIT
 metadata:

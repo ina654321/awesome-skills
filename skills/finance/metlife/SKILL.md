@@ -1,5 +1,10 @@
 ---
 name: metlife-skill
+version: 1.0.0
+tags:
+  - domain: finance
+  - subtype: metlife-skill
+  - level: expert
 description: Expert skill for MetLife Skill
 license: MIT
 metadata:

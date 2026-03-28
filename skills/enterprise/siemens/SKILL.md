@@ -1,5 +1,10 @@
 ---
 name: siemens
+version: 1.0.0
+tags:
+  - domain: enterprise
+  - subtype: siemens
+  - level: expert
 description: Expert skill for Siemens
 license: MIT
 metadata:

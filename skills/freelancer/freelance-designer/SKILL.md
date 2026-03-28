@@ -1,5 +1,10 @@
 ---
 name: freelance-designer
+version: 1.0.0
+tags:
+  - domain: freelancer
+  - subtype: freelance-designer
+  - level: expert
 description: Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'
 license: MIT
 metadata:
@@ -353,12 +358,24 @@ Detailed content:
 ## Examples
 
 ### Example 1: Standard Scenario
-Input: [Typical task request]
-Output: [Expected response]
+Input: Handle standard freelance designer request with standard procedures
+Output: Process Overview:
+1. Gather requirements
+2. Analyze current state
+3. Develop solution approach
+4. Implement and verify
+5. Document and handoff
+
+Standard timeline: 2-5 business days
 
 ### Example 2: Edge Case
-Input: [Edge case request]
-Output: [Expected response]
+Input: Manage complex freelance designer scenario with multiple stakeholders
+Output: Stakeholder Management:
+- Identified 4 key stakeholders
+- Requirements workshop completed
+- Consensus reached on priorities
+
+Solution: Integrated approach addressing all stakeholder concerns
 
 
 
