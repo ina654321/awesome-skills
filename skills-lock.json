@@ -1,0 +1,785 @@
+{
+  "version": 1,
+  "skills": {
+    "abbvie-enterprise-intelligence": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "81a114d797405edcf1658a18ed33969e4e2eadfba762f7129d9f902b49c6beec"
+    },
+    "adobe": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "a547a015ec8eeccca7ebf982fd3d00bce67c4a3105dd29378e493ef6abe6847a"
+    },
+    "agentscope-developer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "39b340081697c8dd9782c915a92bc875368924cba4978da166c345a5ea375fdf"
+    },
+    "aig-american-international-group-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "45211e3ba71a01dc7a8cb08c418a49f6f8ba8acd9410177fef4bcd6bee50da7b"
+    },
+    "airbus": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "a12e76af2bf93d409917dc0eb316b5901b5fa7367d711b53fe3a031f6977f3f1"
+    },
+    "aircraft-design-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e6b13f50e53fc67bcd74ea0fa4437d6d4b55b8d641f4952ddab1a092880fe128"
+    },
+    "allianz-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "8ced5d693ffc7cdb1e2e17bc44a68d56f39281fa439fba1b35a7801b8dbf76bd"
+    },
+    "amd-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "7df797d4b53edc74639ae4a033072bfb9bd1de9fb5f07fcc90f765a12f1b390f"
+    },
+    "amgen-excellence-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "9b99885125410b7288a464397b31a94a00d9839beda507748a3499f7a979bbb1"
+    },
+    "anthropic-researcher": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "483569453cbabc5504f7d1415f4999e2b8eac234f2c23ade5bb6563936b81798"
+    },
+    "applied-materials": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f81bbcc2c8ed436d5cb2a9905ed57fd23030b55b115236271ef81b7a56d517bb"
+    },
+    "arm-holdings": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "66618661a3e563e5c22cef342fa69359d58fa82ff8e3f5d862cae795bb4c63c4"
+    },
+    "asml---advanced-semiconductor-lithography": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "57f84086ab016de1857600e7b3ffef16b7484b84735cfee0c8339737f5069f9c"
+    },
+    "attending-physician": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e45b94fb177a45e0c7174cccd263faeae879774265511cf0aee10d20ae7a6b1c"
+    },
+    "bain--company": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b2303b457142cd5c766dc2653492dcfbdbdec9281d37cda7e840de6ae3a5a07f"
+    },
+    "basf": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b0553e7a3c711e761642b89195d50309adda7ab330df949610ced6119e53f82d"
+    },
+    "berkshire-hathaway-portfolio-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6cbaec446441cf8455366ab3391b25e5ca8e1f644bee31eb78c083949febcc99"
+    },
+    "bhp-group-limited-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "3112d6b8f823d762fa03c24eda2fd193ae8e7b79eb72e1d28f9e1e43aae567bb"
+    },
+    "biogen-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "7d7758f7771e39cb903cde632ff50a357418f92b57bfd8c4aa1a666cc70e6672"
+    },
+    "bioinformatics-scientist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c039b8e37b75047470fdb3334d926263c645196250117054250cbcb8f4fc4617"
+    },
+    "blackrock---worlds-largest-asset-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "8162dfd10112f6673653cb999710341a134866773de67e0c45cc06987f67412b"
+    },
+    "blue-origin": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "541cf9a04b3d04d62c24d9e1a834c6296950856ca98e9e9c225e2bc619dec745"
+    },
+    "bmw": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1c93d9b35453a6048306d6365d005ec1a2e4fec47b138e3fb9efae216b3085c8"
+    },
+    "bp-british-petroleum-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "fd008e8652036966c97f4418d535eb071b11add1b2dc5795d0ddf27e3b87f7f5"
+    },
+    "broadcom": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e306f69020fa8fa36ffa9f4d8c35375903358c3f32144d9b23988f8988bd45f9"
+    },
+    "cashier": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "123467992906da7dfc3fa897d278f066ac897a5e2d9a54d86cf44e372b6e0b9d"
+    },
+    "charles-schwab": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b7e417c2f78bc305c856feae52ad32d53ca70292808e1e2086c6102d873360d5"
+    },
+    "charter-communications-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "4b2bac5de4150df678791c2e692f2a3407bf938d92be0515d83c025ad2453e53"
+    },
+    "chef": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "53761652792d3e063e567f43e2e6028342180c1cc93faa4f744e5fb0abb6c34d"
+    },
+    "chevron-corporation-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "56f58e67bf422cb5f6c0d98605fe24e2b48ad43cb267569e439f3aa68b11f419"
+    },
+    "chubb": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "9d34372fe84ef81bc07c25ad0768c89de1ea382a7011e56d7e65a8ba6bdf3bc3"
+    },
+    "clinical-data-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "765367827469b75d944a35bd8b8015a8c106b2c227b3cbdf64cf342584c7577d"
+    },
+    "clinical-research-coordinator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "146b20cefa35d4e07deeb27146a464426fca74a20fec4c13d346eb4f78ad3252"
+    },
+    "clinical-trial-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "04c4f958c795d32c12ea215e4952d0139c1e472f2ef78ab8f6ca0515899938cd"
+    },
+    "cloudflare-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2b5869daef530ab703fdc92c74e7f1b8dff751727ce39e29c7e92e0c3be2ebba"
+    },
+    "coca-cola-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1fc2b4041789ee63b4906b200db5c41fcde76824958d6df549b422851eb4988a"
+    },
+    "comcast-corporation": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b05f5a5dfe55bcd147826a46fe13ec4e7362145a67b2f481004cf2019ce0b00a"
+    },
+    "concierge": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "8b876c8a4f4beffc76dfaacca7587f7c01cd67e447ec0fcd508851f50ad61f9b"
+    },
+    "conocophillips-enterprise-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2cb5f37efb30775f07eb6c38b53f68e09c30dd7d31d6643a652b2aab1ec99e7d"
+    },
+    "costco-wholesale-corporation": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "df784223c208255ec5795c064876b0853a6f47e444f27ee0362340e10bd2f147"
+    },
+    "crisis-negotiator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d432a4f65ced91715e701cda44257739597e8b03a9f9f8dcfd59b4b5c35993d7"
+    },
+    "crowdstrike-security": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "02962607091f15f205071908dd3d238e823b3d2e9b40207e777dd2bb4657ccde"
+    },
+    "cruise-autonomous-vehicles": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c22beb45eaa5420552a7827edb06f19f2f2ccc77075c8739513af61d3e21be9d"
+    },
+    "cvs-health-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "683744d45ea090e457a0f58079a3971706a129db25cc2f70184b453cc7ceb631"
+    },
+    "datadog-observability--security-platform": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ae0b425fbc221bb95b8b6551fe6522949c511c633e99ffe85e6ee8e7c4b6085a"
+    },
+    "defense-researcher": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "515e0831bc0777891535d49cb37ab127ed64e8bad6e3431a925899a8ac9ed580"
+    },
+    "dhl-supply-chain--logistics-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d143075fdc60fb9fd861fa44f71124c604d4857262fa86addb60210ec619842f"
+    },
+    "dropbox-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1fcd064a2c36b500db627815da5160389e6df44a6f779a40fc0367bbc9bd609b"
+    },
+    "drug-safety-specialist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e643a9bdc92eb0dd73fafbb178ac36f8d5c26a9fcb9d987742828f0ce624e165"
+    },
+    "emergency-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "222dfae2b0fe4ea57b8431a011650a97016c20aa44bdd7042980353e9d457829"
+    },
+    "event-security": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ce80516d6061789927e7f05c8ebef3e4613e80adf1276566b68c823e24007816"
+    },
+    "exxonmobil-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "cf7d88e06a5c6dc5a5b402852ccb402c2a654803fa04bf88c513e94af3e64fdb"
+    },
+    "fidelity-investments": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "740751d7c64bf65078122ef1f4f1d32745b735bbd2645eeb3739330711a29672"
+    },
+    "flight-test-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f4d921314acbfa1d0c9e3649515e2b537f375525491161f38ee080b6c8a10716"
+    },
+    "ford-motor-company": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2e2159652a9785860080a0808d717df76cbfb3e035eb097781f7b50da35267f6"
+    },
+    "fund-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "498454592b2f364d7bf31322798849afb6b31f10e2b556da137b92af22cf69fd"
+    },
+    "ge-vernova": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "cd82d94c2e2ac3948b8c8668d3b4f6f56277c9c6809e9fd55ff7ddece76dfe1e"
+    },
+    "general-motors-gm-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f60356625fa3e67fb7d75c723ef4786a2538a37aeab5def9d0c42aa4ccf3d5f6"
+    },
+    "gilead-sciences": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e9f880eacbd0c1b4a0283e4bf6ed1a454fc2aa12b1e1b42de14d9197e0b31f94"
+    },
+    "hair-stylist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "831253388118daab94f3298c5960236d6ca444f1c15ac0153f314d3acc092af8"
+    },
+    "health-educator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e257e76934c693dab3056671be748eafd858b43ca2ddd93b5573bc0328920636"
+    },
+    "health-informatics-specialist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c74660ad23ec6db15fae1de76f1d7e83e1f7320543adbf5a9e7b2cffa4a6c896"
+    },
+    "healthcare-administrator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "0c819ca02579df793d006431bd537c188ba7fee55fd8fd1701890dca1443fa98"
+    },
+    "home-depot-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ef45b684762c84a96cf8d368e569882418578ce4f06e03e26f939ed25e792c71"
+    },
+    "honda-motor-co-ltd": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c9025b8be292c06fc6ae9c771f7e974d13a7f8083129f400a06ff8a48f32e170"
+    },
+    "honeywell": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6c06c62f88230dc98d33eb82ff40faa5e2301b57323e9cd4db2d1cebb4e8df1e"
+    },
+    "hotel-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "97a289e185fd376647dedfad9be15c654f33a96e8d058bbacf2ace679cbb3eb9"
+    },
+    "idea-validator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "4e43f4332840f483c283bbacc0bf5c801f4a42d727a715fce4ca94be9e6bc87d"
+    },
+    "illustrator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1dd836168161d8f06d9849d26b3652ae25a0320e55aed0f9c402edd3c3b08b64"
+    },
+    "industrial-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c3ab48162ae6484c6d4638cf5cfd463425e83ad4d705ebfaeae4a8dde09bf24f"
+    },
+    "intel": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "168749a5cac22ea1fa01cfc029b1850988b0ead32c0619c84937f4cd69fe3536"
+    },
+    "intel-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "bbbaabbcc26a093a3aaffbe649cc0e53b16fccc5287bbe6376dd15d0f8685f0c"
+    },
+    "jobs-to-be-done": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6dfc2c824c8c601c333cc3323ed26e5fb1d5f1ecd8e39641eae0156921259f24"
+    },
+    "john-deere": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "63dae5afde348378ef28e32c4570b95299b92273fa3abfd55ecf2290dd180456"
+    },
+    "john-deere-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c4437fd8193c7d411c041882e341289686f1491e06684335e6fe93020f27970b"
+    },
+    "khan-academy": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "72474dc13f62268fd4b7f8eb56df2376b333f33fa481eec99867558b5d712dbc"
+    },
+    "lam-research": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "92403094a11999dbf08e8905bc59419a7ecde11aa2ef96a29871053fae277038"
+    },
+    "lean-six-sigma-black-belt": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6b65735b296769e7a0c34f37315449e824dd955ef561d5a9f74e64fd42410872"
+    },
+    "lelo-product-designer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "25ac27a6d759896b2aa25c83b71ac23c7c15808e441fa586b1e9e8da5b0b036d"
+    },
+    "librarian": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "15811a83455bef68aef41009d01e58ae91bf7aa434859b304e67d070bbdaae17"
+    },
+    "linkedin": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "3acd215c32733c108b40995b7c3fbce067c8898159003289e1095bf9502d931b"
+    },
+    "linkedin-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6fe2ddbef6bd4806bfced79fa566e54f5341c08100532d40b3b7bedaca2d1f8e"
+    },
+    "lockheed-martin": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "5d7cab2437c45b5be605cb362fc00ee40f77fa792d59dae5c87b38509a2fcef0"
+    },
+    "lowes-companies-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2a21e38b5f698a830d6e46f35fd5241754fc75fcda725b55e1124df708136649"
+    },
+    "lyft-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1f59090657565275eb4c94990917b088587f8ccf9502c4934cd5d20e4303d7b5"
+    },
+    "magician": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ca511b5cc37b61beee0ed3d2330c008b4123921a8a895bba4ce48187c293c531"
+    },
+    "mcdonalds-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "377bb808df0b4de39f23b4cbfd8489b18f907f47d6b6ec03c41dcf6379fb01ce"
+    },
+    "mcn-operator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b161a0b881f9774e7c0a9697479e3ecdb5c031941971582f074d743b81078c43"
+    },
+    "medical-affairs-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "23ce628de909d941d58c669945e13436df10a0730dd4d13c677c431048193de7"
+    },
+    "medical-writer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d57a35bcaacae38de6b52ffabdc3dde20f3e2875ad6ed5e99a9b5303b8ec120f"
+    },
+    "medtronic-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b17c876543f1f21c4e60a4fd63142c080eadcd2096a98ba742fbd37371a91a37"
+    },
+    "mercedes-benz": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "cf8fe01d6ed65386a2d9591bafe41b19dffb25ac51e9521b9a9bb4ab0692e514"
+    },
+    "metlife-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2a92fab83a2af426c53b11bb4039add043bb08e5901388dd5774e0bff85a2480"
+    },
+    "microsoft-xbox-cloud-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e87fee2419ba668b47e7c6059260406e851e0341b241e7b02c5fd4435fa7f323"
+    },
+    "mission-control-operator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6838009675ce73106ada997a8c183b777b7c3b43dbf96dcf6bc2cdc66b504e74"
+    },
+    "moderna-scientist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "be2e4febca57aa445a1894a66ec97a284e6a2d298cd4fbe0ec986e687dbed42d"
+    },
+    "museum-curator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "563d11d2de8805e6fe43d9c825b4fbb76b6893e7ced0ba98e9ad084c64943a71"
+    },
+    "nestl-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "3625670be37f70b9649819a45fee5596699e51944b19c18bade54033fba35d49"
+    },
+    "northrop-grumman": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "191aadb8a113c54fa14ffe56f80535161a869da73d5c9050c621f0248ca72cf9"
+    },
+    "novartis-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "396d6a676be2e330533d8a9be2583fd4e0f6b36d829ccc9a2f9f4ebb9988748e"
+    },
+    "nvidia-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "86094a08dd691d470399f19690be631aaf6f09ed2b931faba3b47d2428430753"
+    },
+    "nxp-semiconductors-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "2d1d219407026c24fed9600bb6c5b0e8c83685eff8a66413520f107c8dff85b2"
+    },
+    "opportunity-solution-trees": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "3139d7fa400ae7301fe850005116feaa0d4e78d8a74d7edca759f63bd136f24b"
+    },
+    "patient-navigator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f685d3bb0595493e64338149d50a2689a04cdbefd560456686f540732a4edbd1"
+    },
+    "pepsico-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b1b865b566a175cb93ec71b85996d9c69b59f8c010b1df4df624edbd4827f2e5"
+    },
+    "petroleum-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "888691096a03c363e7c8aff6d72657f585dcd6125fda098033daaf61f0361bd9"
+    },
+    "pfizer-scientist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "9b25d026c1341c3f681783b2a53da076e62a4f6e2ef01ee6cebbac47077f86f4"
+    },
+    "pixar-storyteller": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "de8bb92bdb2114b38e23045348fb228e9a47a3540caab88e3bb80df370555179"
+    },
+    "policy-analyst": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "5aa76fa5372bdd00aee17f665bc5817aaffdf3ecde5819e84c382d10d3531011"
+    },
+    "postal-worker": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "543cda73f34c1a852ab33b0683520d08dfc23aff31f651785982b3531ecc45c6"
+    },
+    "procter--gamble-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6045500a6211d1279d9b853925ba68b7b216341fbbabac4571bd52b99750adcf"
+    },
+    "production-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e8e3a6ee37993b0a46c1e6efda017fb8a3f61930d87b210996fe16329bfbd1d3"
+    },
+    "progressive-insurance": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "5ce894973d2a00e29434ca8d1603161b81dd41c642f32812cbf4b88fd11aba2d"
+    },
+    "propulsion-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "835dfdade566bdb8bcf9f4c8574be830a158ba1b46af5ae28328e7368882c290"
+    },
+    "prudential-financial---insurance--retirement-solutions-leader": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "9f894f32479a081da1179cc17f36db1fdaf7db5673c7757bddaae25c1ac79df1"
+    },
+    "public-administrator": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ce5f88e41ca123e37e197855c04334f1185c5872412a510f9a1c4dc83a6011b5"
+    },
+    "public-health-analyst": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "bdc17dc4b96724e333d8b3964d9e89b9bb2c71d67389e6065162aef029033b03"
+    },
+    "qualcomm-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "4661789fcdc5d311cd3a00233842e7e5cc3d0ffef7e68d339974282105ef7f21"
+    },
+    "raymond-james-financial": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c6240322fef9df20f09ef4ac72da6029c7b8a0de9f9cff46d5794279722d80b9"
+    },
+    "raytheon-rtx-defense--aerospace-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "fa05ad04c7545d069bd317d4e727d051e1b774dd6c018af10df3955e8cc880b1"
+    },
+    "regeneron": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "67dd82f9e29dde66f5b0727319bdc72fafdba6b1585e383b52a3b0d9df77b931"
+    },
+    "regulatory-affairs-specialist": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "770de88d55b6db3dea9a1d771cdda3b24d53f0a6c30b8f1f1f3e6774d7f82d7f"
+    },
+    "restaurant-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c638872ae93138033251fe4a66cf618fcc8cd9ac1320a9a5829c064ae96d8d02"
+    },
+    "salesforce": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f8467578801162aaf0005f023ec91a8a4070295a68c9014caa8fad3166cbeb8e"
+    },
+    "sanofi-excellence-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "041fea37e1d2ed13711659efdfb04770cfde7c247c786c8f0c29c57086f6aea7"
+    },
+    "sap-systems-applications--products-in-data-processing": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d250f523204e0b0b247bbd1aab25be6b1de048b29368b949bdc4794894f0f995"
+    },
+    "schneider-electric": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "c951fc2a55fc215a4015a7cf426fc4128b694c6e258e031e71210fbf35b98dd0"
+    },
+    "school-facilities-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "1187bc5774c879c9f959a8834919b4c972141ef63f7f81c219bff27c0877cf08"
+    },
+    "schwab-intelligent-portfolios-advisor": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "36c672168c07439cebc6811b07f91e1a2a17b40ef9312140960f3cffed658dff"
+    },
+    "servicenow-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "a6493c948ceaad89791d2abfe9f1b2a24e15f1862120760b993e9606b56350ff"
+    },
+    "shell-plc": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "b0226d9db885e04b0f9e9ff10f88373f3b9f24cfd02c3641fd1d6242bc8d9778"
+    },
+    "shopify": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "60c9e22b3bb24afe6600c41fda26544138d9e3faf40ea01e7d38be68a78caf74"
+    },
+    "siemens": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "e540a2e9770c05c6473b96a101f536667f7be50e463d4dc06eb698df1c2ec5c8"
+    },
+    "slack-expert": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "47ae66901502d31556b93072f7f5813b132ccb013c058ba522e66f81447a26c5"
+    },
+    "social-worker": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "094296a31738ea8c360fa99aa8505e3c8806e6cc0186897e143222c29bc31cd4"
+    },
+    "spotify-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "f02f97c3221cf1142246e6303410b667490f69a70d3e3d512fd81ecb765334a1"
+    },
+    "starbucks-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "7a5bb06767ba4faf11d07316d6b9935cf944e1c416622a2a74ad4000db86a0db"
+    },
+    "supply-chain-manager": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "bd55a0a59ae34e7020f7a8c0071d65633aade25041138293f22bb99cd8ca1ba6"
+    },
+    "systems-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "af07f951feb2f795c3ebd8f79e77503f11be9796555a442487c970e6c9e583fb"
+    },
+    "t-mobile": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "9e86775543d32e2fb537a164191e8b45e7fd52e756369af3b9a1b4701728bee8"
+    },
+    "tencent": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d50db5d21eda48d92beeba516adc0787cd95b90d869bbfe09055e04f571b7385"
+    },
+    "tesla": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "de68cc5acaefd169842eca1f7ad12a055393b8da9205c11683f17e3936e645a8"
+    },
+    "totalenergies-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "6675d9ebc724d648642928ec4f630e15a700b3be06f3fc8b32ae0ac2eae8d8b7"
+    },
+    "travelers": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d44907124411832ac37ccaa28b63380842ff58ab6f8df3023087bdb7036eb8a8"
+    },
+    "tsmc-skill---taiwan-semiconductor-manufacturing-company": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "a4589a316fc8a8418cbf91bf61b7684db99edc6f43dd72d441294e7cc672a2b4"
+    },
+    "twilio": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "78c9ade7c923184a5c9a5c5983fa0862001b8779282bf90e351796736b5095af"
+    },
+    "uber": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "4609e774b0fadab8cff06edff9b2fd0c83b698d04a0fd02eee83a7f12c93074a"
+    },
+    "uber-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "87037d39725e72da3f01018311d70d09cc1fd9d0bc6f8dea56dc6447fb44d941"
+    },
+    "unilever-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "52b7a334a7c8b52702c5005331974dbec8c0fa26ceee79297f48f0ef1263bf6a"
+    },
+    "unitedhealth-group": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "bca04c17f3b5e181fce0bb9eb70c6fe167b82cfd93916f56f4bdad359c6b857e"
+    },
+    "urban-planner": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "5910a6d190143e25f4422702a3c548b253ac6c70cabfc3e7f030b4b112f8d3d0"
+    },
+    "vanguard-investment-excellence": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "28b144b824567a3e46c2cb1af25020876fcc6da643361a06f704b5416b0ebff4"
+    },
+    "vmware-engineer": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d02c96103cc27d22a1d55b5065b22e02b397cd1e474488eb1a7d0eb2d250a8b0"
+    },
+    "volkswagen-group": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d523fdd0027b8eb7a208dc064f89d2e4c29c3a141dfea35914ecf584af9643ec"
+    },
+    "warner-bros-discovery": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "45795592a496376d5ae5c52c14e90a174df04cb0f9522c9356069dc1456d3300"
+    },
+    "zarainditex-enterprise-skill": {
+      "source": "theneoai/awesome-skills",
+      "sourceType": "github",
+      "computedHash": "825e0fb2d369290eb0832a217fc8dce17e74a6d67782b3cd8d75d9d78c76ee92"
+    }
+  }
+}
